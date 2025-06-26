@@ -108,7 +108,7 @@ def main():
     print("🔄 Data Preprocessing for Review and Order Intelligence Agent")
     print("=" * 70)
     
-    # Define paths for new files
+    # Define paths for new files - correct relative paths from agent directory
     original_order_path = "../../Data/order_history.csv"
     original_review_path = "../../Data/qualifying_reviews.csv"
     
