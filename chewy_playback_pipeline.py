@@ -21,6 +21,7 @@ sys.path.append('Agents/Image_Generation_Agent')
 
 from review_order_intelligence_agent import ReviewOrderIntelligenceAgent
 from letter_prompt_generation import generate_letter_with_openai, generate_visual_prompt_for_pet, generate_collective_letter_with_openai
+from add_confidence_score import ConfidenceScoreCalculator
 import openai
 from dotenv import load_dotenv
 
@@ -130,7 +131,8 @@ class ChewyPlaybackPipeline:
                             "BehavioralScores": insights.get("BehavioralScores", {}),
                             "HealthMentions": insights.get("HealthMentions", []),
                             "HealthScores": insights.get("HealthScores", {}),
-                            "MostOrderedProducts": insights.get("MostOrderedProducts", [])
+                            "MostOrderedProducts": insights.get("MostOrderedProducts", []),
+                            "ConfidenceScore": insights.get("ConfidenceScore", 0.0)
                         }
                         customer_results[pet_name] = pet_insight
                     
@@ -146,6 +148,31 @@ class ChewyPlaybackPipeline:
             results = self.review_agent.process_customer_data()
         
         print(f"✅ Generated enriched profiles for {len(results)} customers")
+        
+        # Add confidence scores to all results
+        print("\n🎯 Adding confidence scores to enriched profiles...")
+        calculator = ConfidenceScoreCalculator()
+        
+        for customer_id, pets_data in results.items():
+            # Calculate confidence scores for this customer's pets
+            pet_confidence_scores = []
+            for pet_name, pet_data in pets_data.items():
+                confidence_score = calculator.calculate_confidence_score(pet_data)
+                pet_data['confidence_score'] = confidence_score
+                pet_confidence_scores.append(confidence_score)
+                print(f"  📊 {customer_id}/{pet_name}: confidence_score = {confidence_score:.3f}")
+            
+            # Calculate customer confidence score and store it at customer level
+            if pet_confidence_scores:
+                customer_confidence_score = sum(pet_confidence_scores) / len(pet_confidence_scores)
+                # Store customer confidence score at the customer level, not within pets data
+                results[customer_id] = {
+                    'pets': pets_data,
+                    'cust_confidence_score': customer_confidence_score
+                }
+                print(f"  🏠 {customer_id}: customer_confidence_score = {customer_confidence_score:.3f}")
+        
+        print("✅ Confidence scores added to all enriched profiles")
         return results
     
     def run_narrative_generation_agent(self, enriched_profiles: Dict[str, Any]) -> Dict[str, Any]:
@@ -154,7 +181,7 @@ class ChewyPlaybackPipeline:
         
         narrative_results = {}
         
-        for customer_id, pets_data in enriched_profiles.items():
+        for customer_id, customer_data in enriched_profiles.items():
             print(f"  📝 Generating narratives for customer {customer_id}...")
             customer_narratives = {
                 'customer_id': customer_id,
@@ -162,6 +189,15 @@ class ChewyPlaybackPipeline:
                 'collective_letter': '',
                 'visual_prompts': {}
             }
+            
+            # Handle new structure where pets data might be nested
+            if isinstance(customer_data, dict) and 'pets' in customer_data:
+                pets_data = customer_data['pets']
+                customer_confidence_score = customer_data.get('cust_confidence_score', 0.0)
+            else:
+                # Handle old structure for backward compatibility
+                pets_data = customer_data
+                customer_confidence_score = 0.0
             
             # Generate one collective letter from all pets
             try:
@@ -190,6 +226,9 @@ class ChewyPlaybackPipeline:
                     print(f"    ❌ Error generating visual prompt for {pet_name}: {e}")
                     customer_narratives['pets'][pet_name] = pet_data
                     customer_narratives['visual_prompts'][pet_name] = ""
+            
+            # Store customer confidence score in narrative results
+            customer_narratives['cust_confidence_score'] = customer_confidence_score
             
             narrative_results[customer_id] = customer_narratives
         
@@ -243,10 +282,24 @@ class ChewyPlaybackPipeline:
             customer_dir = self.output_dir / customer_id
             customer_dir.mkdir(exist_ok=True)
             
-            # Save enriched pet profile JSON
+            # Handle new structure where pets data might be nested
+            customer_data = enriched_profiles[customer_id]
+            if isinstance(customer_data, dict) and 'pets' in customer_data:
+                pets_data = customer_data['pets']
+                customer_confidence_score = customer_data.get('cust_confidence_score', 0.0)
+            else:
+                # Handle old structure for backward compatibility
+                pets_data = customer_data
+                customer_confidence_score = 0.0
+            
+            # Save enriched pet profile JSON (include customer confidence score)
+            profile_data = {
+                **pets_data,
+                'cust_confidence_score': customer_confidence_score
+            }
             profile_path = customer_dir / "enriched_pet_profile.json"
             with open(profile_path, 'w') as f:
-                json.dump(enriched_profiles[customer_id], f, indent=2)
+                json.dump(profile_data, f, indent=2)
             
             # Save letters
             letters_path = customer_dir / "pet_letters.txt"

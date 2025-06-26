@@ -187,9 +187,16 @@ def generate_visual_prompt_for_pet(pet_data: Dict[str, Any]) -> str:
 def generate_collective_letter_with_openai(all_pets_data: Dict[str, Dict[str, Any]], api_key: str) -> str:
     """Generate a collective letter from all pets to their human owner."""
     
-    # Prepare pet information for the collective letter
-    pets_info = []
+    # Filter out pets with UNK names or treat them differently
+    known_pets_info = []
+    unknown_pets_count = 0
+    
     for pet_name, pet_data in all_pets_data.items():
+        # Skip pets with UNK names or treat them as additional family members
+        if pet_name.upper() in ['UNK', 'UNKNOWN', 'UNNAMED'] or pet_data.get("PetType") == "UNK":
+            unknown_pets_count += 1
+            continue
+        
         pet_info = {
             "name": pet_name,
             "pet_type": pet_data.get("PetType", "Pet"),
@@ -204,11 +211,15 @@ def generate_collective_letter_with_openai(all_pets_data: Dict[str, Dict[str, An
             "size_category": pet_data.get("SizeCategory", "medium"),
             "weight": pet_data.get("Weight", "")
         }
-        pets_info.append(pet_info)
+        known_pets_info.append(pet_info)
+    
+    # If no known pets, use fallback
+    if not known_pets_info:
+        return generate_collective_fallback_letter(all_pets_data)
     
     # Create a detailed prompt for the collective letter
     pets_description = ""
-    for i, pet in enumerate(pets_info):
+    for i, pet in enumerate(known_pets_info):
         pets_description += f"""
 Pet {i+1} - {pet['name']}:
 - Type: {pet['pet_type']}
@@ -224,14 +235,14 @@ Pet {i+1} - {pet['name']}:
 - Dietary Preferences: {', '.join(pet['dietary_prefs'][:3])}  # Limit to top 3
 """
     
-    # Get unique characteristics across all pets
+    # Get unique characteristics across all known pets
     all_personality_traits = []
     all_favorite_products = []
     all_behavioral_cues = []
     all_health_mentions = []
     all_dietary_prefs = []
     
-    for pet in pets_info:
+    for pet in known_pets_info:
         all_personality_traits.extend(pet['personality_traits'])
         all_favorite_products.extend(pet['favorite_products'])
         all_behavioral_cues.extend(pet['behavioral_cues'])
@@ -245,8 +256,26 @@ Pet {i+1} - {pet['name']}:
     unique_health = list(set(all_health_mentions))[:3]
     unique_dietary = list(set(all_dietary_prefs))[:5]
     
-    pet_names = [pet['name'] for pet in pets_info]
-    pet_names_str = ", ".join(pet_names[:-1]) + f" and {pet_names[-1]}" if len(pet_names) > 1 else pet_names[0]
+    pet_names = [pet['name'] for pet in known_pets_info]
+    
+    # Handle different numbers of pets
+    if len(pet_names) == 1:
+        pet_names_str = pet_names[0]
+        family_context = f"just {pet_names[0]}"
+    elif len(pet_names) == 2:
+        pet_names_str = f"{pet_names[0]} and {pet_names[1]}"
+        family_context = f"{pet_names[0]} and {pet_names[1]}"
+    else:
+        pet_names_str = ", ".join(pet_names[:-1]) + f" and {pet_names[-1]}"
+        family_context = f"our little family of {len(pet_names)} pets"
+    
+    # Add context about additional family members if there are unknown pets
+    additional_context = ""
+    if unknown_pets_count > 0:
+        if unknown_pets_count == 1:
+            additional_context = f" (plus one more furry family member who prefers to stay mysterious)"
+        else:
+            additional_context = f" (plus {unknown_pets_count} more furry family members who prefer to stay mysterious)"
     
     prompt = f"""Write a completely unique, heartfelt collective letter from all pets to their human owner.
 
@@ -254,7 +283,8 @@ Pet Details:
 {pets_description}
 
 Collective Family Characteristics:
-- All Pets: {pet_names_str}
+- Known Pets: {pet_names_str}
+- Additional Family Members: {additional_context}
 - Combined Personality Traits: {', '.join(unique_traits)}
 - Shared Favorite Products: {', '.join(unique_products)}
 - Family Behavioral Patterns: {', '.join(unique_behaviors)}
@@ -264,16 +294,18 @@ Collective Family Characteristics:
 Requirements:
 - Start with "Human" instead of "Dear Human" - make it casual and funny
 - Write as if all pets are collaborating on one letter together
-- Mention each pet by name and their unique contributions to the family
+- Mention each known pet by name and their unique contributions to the family
+- If there are additional family members, refer to them indirectly (e.g., "our other furry friends", "the rest of our family") but NEVER mention "UNK", "unknown", or "mystery pet"
 - Make it completely unique and different from any template
 - Include specific details about their collective personality, products, and behaviors
 - Make it emotional, heartfelt, and personal
 - Use the pets' actual names and characteristics
 - Make it whimsical and delightful
-- Include signatures from all pets
+- Include signatures from all known pets
 - Keep it between 300-500 words
 - Make it feel like a real collaborative letter from all pets to their human
 - Show how the pets work together as a family unit
+- If there are additional pets, mention them as part of the family without naming them specifically
 
 Write the collective letter:"""
 
@@ -288,7 +320,7 @@ Write the collective letter:"""
         "messages": [
             {
                 "role": "system",
-                "content": "You are a creative writer who specializes in writing heartfelt collective letters from multiple pets to their human companions. Make each letter unique, personal, and emotionally touching, showing how pets collaborate as a family."
+                "content": "You are a creative writer who specializes in writing heartfelt collective letters from multiple pets to their human companions. Make each letter unique, personal, and emotionally touching, showing how pets collaborate as a family. Never mention 'UNK', 'unknown', or 'mystery pet' - instead refer to additional pets indirectly as family members."
             },
             {
                 "role": "user",
@@ -322,17 +354,64 @@ Write the collective letter:"""
 def generate_collective_fallback_letter(all_pets_data: Dict[str, Dict[str, Any]]) -> str:
     """Generate a fallback collective letter if API fails."""
     
-    pet_names = list(all_pets_data.keys())
-    pet_names_str = ", ".join(pet_names[:-1]) + f" and {pet_names[-1]}" if len(pet_names) > 1 else pet_names[0]
+    # Filter out pets with UNK names
+    known_pet_names = []
+    unknown_pets_count = 0
     
-    # Get some sample data from the first pet
-    first_pet = list(all_pets_data.values())[0]
+    for pet_name, pet_data in all_pets_data.items():
+        if pet_name.upper() in ['UNK', 'UNKNOWN', 'UNNAMED'] or pet_data.get("PetType") == "UNK":
+            unknown_pets_count += 1
+            continue
+        known_pet_names.append(pet_name)
+    
+    # Handle different scenarios
+    if not known_pet_names:
+        # If no known pets, create a generic family letter
+        return f"""Human,
+
+We just had to write you this letter together to tell you how much you mean to all of us! We're your furry family, and we're so grateful for everything you do for us.
+
+Every day with you is a gift. Whether we're playing with our favorite things, going on adventures, or just spending quiet time together, we're reminded of how lucky we are to have you as our human.
+
+We know we can each be a bit unique sometimes - each in our own special way - but you always understand and love us for who we are. Your patience and understanding mean the world to all of us.
+
+Thank you for always looking out for our health and making sure we have the best care. Your attention to our needs shows us how much you love each and every one of us.
+
+You've given us the most wonderful life filled with love, joy, and endless adventures. We promise to love you unconditionally, be your faithful companions, and bring happiness to your life every single day.
+
+With all our love and gratitude,
+Your Furry Family ❤️
+
+P.S. We can't wait for our next adventure together!"""
+    
+    # Create pet names string
+    if len(known_pet_names) == 1:
+        pet_names_str = known_pet_names[0]
+        family_reference = f"{known_pet_names[0]} and the rest of our family"
+    elif len(known_pet_names) == 2:
+        pet_names_str = f"{known_pet_names[0]} and {known_pet_names[1]}"
+        family_reference = f"{known_pet_names[0]}, {known_pet_names[1]}, and our other furry friends"
+    else:
+        pet_names_str = ", ".join(known_pet_names[:-1]) + f" and {known_pet_names[-1]}"
+        family_reference = f"{pet_names_str} and the rest of our family"
+    
+    # Get some sample data from the first known pet
+    first_pet = next(pet_data for pet_name, pet_data in all_pets_data.items() 
+                    if pet_name.upper() not in ['UNK', 'UNKNOWN', 'UNNAMED'])
     favorite_products = first_pet.get("MostOrderedProducts", [])
     personality_traits = first_pet.get("PersonalityTraits", [])
     
+    # Add context about additional family members
+    additional_context = ""
+    if unknown_pets_count > 0:
+        if unknown_pets_count == 1:
+            additional_context = " (along with one more furry family member who prefers to stay mysterious)"
+        else:
+            additional_context = f" (along with {unknown_pets_count} more furry family members who prefer to stay mysterious)"
+    
     return f"""Human,
 
-We just had to write you this letter together to tell you how much you mean to all of us! We're {pet_names_str}, and we're so grateful for everything you do for our little family.
+We just had to write you this letter together to tell you how much you mean to all of us! We're {pet_names_str}{additional_context}, and we're so grateful for everything you do for our little family.
 
 Every day with you is a gift. Whether we're playing with our {favorite_products[0].lower() if favorite_products else 'favorite things'}, going on adventures, or just spending quiet time together, we're reminded of how lucky we are to have you as our human.
 
@@ -343,6 +422,6 @@ Thank you for always looking out for our health and making sure we have the best
 You've given us the most wonderful life filled with love, joy, and endless adventures. We promise to love you unconditionally, be your faithful companions, and bring happiness to your life every single day.
 
 With all our love and gratitude,
-{pet_names_str} ❤️
+{family_reference} ❤️
 
 P.S. We can't wait for our next adventure together!""" 

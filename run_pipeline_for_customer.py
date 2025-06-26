@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Script to run the Chewy Playback Pipeline for a specific customer ID
-and then add confidence scores to the output.
+Script to run the Chewy Playback Pipeline for a specific customer ID.
+Confidence scores are now automatically calculated as part of the pipeline.
 """
 
 import os
@@ -14,11 +14,11 @@ sys.path.append('Agents/Narrative_Generation_Agent')
 sys.path.append('Agents/Image_Generation_Agent')
 
 from chewy_playback_pipeline import ChewyPlaybackPipeline
-from add_confidence_score import ConfidenceScoreCalculator
 
 def run_pipeline_for_customer(customer_id: str, openai_api_key: str = None):
     """
     Run the complete pipeline for a specific customer ID.
+    Confidence scores are automatically calculated as part of the Review and Order Intelligence Agent.
     
     Args:
         customer_id: The customer ID to process
@@ -31,27 +31,11 @@ def run_pipeline_for_customer(customer_id: str, openai_api_key: str = None):
         # Initialize pipeline
         pipeline = ChewyPlaybackPipeline(openai_api_key=openai_api_key)
         
-        # Run pipeline for specific customer
+        # Run pipeline for specific customer (includes confidence score calculation)
         pipeline.run_pipeline(customer_ids=[customer_id])
         
         print(f"\n✅ Pipeline completed for customer {customer_id}")
-        
-        # Add confidence scores to the output
-        print("\n🎯 Adding confidence scores to the output...")
-        calculator = ConfidenceScoreCalculator()
-        
-        # Find the output file for this customer
-        output_file = Path("Output") / customer_id / "enriched_pet_profile.json"
-        
-        if output_file.exists():
-            success = calculator.process_json_file(str(output_file))
-            if success:
-                print(f"✅ Confidence scores added to {output_file}")
-            else:
-                print(f"❌ Failed to add confidence scores to {output_file}")
-        else:
-            print(f"❌ Output file not found: {output_file}")
-        
+        print("🎯 Confidence scores were automatically calculated as part of the pipeline")
         print(f"\n📁 Check the 'Output/{customer_id}' directory for results")
         
     except Exception as e:
