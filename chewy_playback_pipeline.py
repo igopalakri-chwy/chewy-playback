@@ -20,7 +20,7 @@ sys.path.append('Agents/Narrative_Generation_Agent')
 sys.path.append('Agents/Image_Generation_Agent')
 
 from review_order_intelligence_agent import ReviewOrderIntelligenceAgent
-from letter_prompt_generation import generate_letter_with_openai, generate_visual_prompt_for_pet
+from letter_prompt_generation import generate_letter_with_openai, generate_visual_prompt_for_pet, generate_collective_letter_with_openai
 import openai
 from dotenv import load_dotenv
 
@@ -57,10 +57,13 @@ class ChewyPlaybackPipeline:
         if not (os.path.exists(preprocessed_order_path) and os.path.exists(preprocessed_review_path)):
             print("📊 Running data preprocessing...")
             import subprocess
+            
+            # Run the preprocessing script from the agent directory
+            agent_dir = "Agents/Review_and_Order_Intelligence_Agent"
             subprocess.run([
                 sys.executable, 
-                "Agents/Review_and_Order_Intelligence_Agent/preprocess_data.py"
-            ], check=True)
+                "preprocess_data.py"
+            ], cwd=agent_dir, check=True)
         else:
             print("✅ Preprocessed data already exists")
     
@@ -156,34 +159,37 @@ class ChewyPlaybackPipeline:
             customer_narratives = {
                 'customer_id': customer_id,
                 'pets': {},
-                'letters': {},
+                'collective_letter': '',
                 'visual_prompts': {}
             }
             
+            # Generate one collective letter from all pets
+            try:
+                collective_letter = generate_collective_letter_with_openai(pets_data, self.openai_api_key)
+                customer_narratives['collective_letter'] = collective_letter
+                print(f"    ✅ Generated collective letter from all pets")
+            except Exception as e:
+                print(f"    ❌ Error generating collective letter: {e}")
+                # Use fallback collective letter
+                from letter_prompt_generation import generate_collective_fallback_letter
+                collective_letter = generate_collective_fallback_letter(pets_data)
+                customer_narratives['collective_letter'] = collective_letter
+            
+            # Generate individual visual prompts for each pet (keep this for images)
             for pet_name, pet_data in pets_data.items():
                 try:
-                    # Generate letter from pet to human
-                    letter = generate_letter_with_openai(pet_data, self.openai_api_key)
-                    
                     # Generate visual prompt for image generation
                     visual_prompt = generate_visual_prompt_for_pet(pet_data)
                     
                     customer_narratives['pets'][pet_name] = pet_data
-                    customer_narratives['letters'][pet_name] = letter
                     customer_narratives['visual_prompts'][pet_name] = visual_prompt
                     
-                    print(f"    ✅ Generated letter and visual prompt for {pet_name}")
+                    print(f"    ✅ Generated visual prompt for {pet_name}")
                     
                 except Exception as e:
-                    print(f"    ❌ Error generating narrative for {pet_name}: {e}")
-                    # Use fallback letter
-                    from letter_prompt_generation import generate_fallback_letter
-                    letter = generate_fallback_letter(pet_data)
-                    visual_prompt = generate_visual_prompt_for_pet(pet_data)
-                    
+                    print(f"    ❌ Error generating visual prompt for {pet_name}: {e}")
                     customer_narratives['pets'][pet_name] = pet_data
-                    customer_narratives['letters'][pet_name] = letter
-                    customer_narratives['visual_prompts'][pet_name] = visual_prompt
+                    customer_narratives['visual_prompts'][pet_name] = ""
             
             narrative_results[customer_id] = customer_narratives
         
@@ -245,14 +251,10 @@ class ChewyPlaybackPipeline:
             # Save letters
             letters_path = customer_dir / "pet_letters.txt"
             with open(letters_path, 'w') as f:
-                f.write(f"Letters from pets for customer {customer_id}\n")
-                f.write("=" * 50 + "\n\n")
-                
-                for pet_name, letter in narrative_results[customer_id]['letters'].items():
-                    f.write(f"From {pet_name}:\n")
-                    f.write("-" * 30 + "\n")
-                    f.write(letter)
-                    f.write("\n\n")
+                f.write(f"Collective Letter from All Pets for Customer {customer_id}\n")
+                f.write("=" * 60 + "\n\n")
+                f.write(narrative_results[customer_id]['collective_letter'])
+                f.write("\n\n")
             
             # Save images (download and save)
             if customer_id in image_results:
