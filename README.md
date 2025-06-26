@@ -6,7 +6,7 @@
 
 ## 🌟 Overview
 
-**Chewy Playback** is a personalized, end-of-year interactive recap designed for pet parents to celebrate their pets’ lives and highlight their journey with Chewy. Inspired by the success of Spotify Wrapped, this experience is tailored for Gen Z and Millennial customers and built on **Agentic AI** architecture.
+**Chewy Playback** is a personalized, end-of-year interactive recap designed for pet parents to celebrate their pets' lives and highlight their journey with Chewy. Inspired by the success of Spotify Wrapped, this experience is tailored for Gen Z and Millennial customers and built on **Agentic AI** architecture.
 
 It not only drives engagement but also serves as a growth engine for mobile adoption, customer retention, and new user acquisition—**all while making pet parents feel seen, heard, and loved**.
 
@@ -27,7 +27,7 @@ It not only drives engagement but also serves as a growth engine for mobile adop
 ### 🧠 Smart AI Outputs
 - Pet Personality Traits & Behavioral Cues
 - Review-Based Sentiment Analysis
-- LLM-Generated Letters “From Your Pet”
+- LLM-Generated Letters "From Your Pet"
 - Breed and Health Predictions (Future Scope)
 - Vision Model Artwork (e.g., Holiday cards, badges)
 
@@ -68,7 +68,7 @@ LLMs and vision models are used to create:
 As shown on *pages 8–11*:
 - A letter from your pet
 - Highlighted eating and playing habits
-- AI-generated pet personality (e.g., “Joyful Explorer”)
+- AI-generated pet personality (e.g., "Joyful Explorer")
 - Top products and treats of the year
 - Savings from Autoship
 - Fun badges and holiday cards
@@ -122,9 +122,42 @@ From *page 18–19*:
 
 ---
 
+## 📁 Project Structure
+
+```
+chewy-playback/
+├── Agents/                          # AI Agent implementations
+│   ├── Review_and_Order_Intelligence_Agent/
+│   │   ├── review_order_intelligence_agent.py    # LLM-based review analysis
+│   │   └── preprocess_data.py                    # Data preprocessing utilities
+│   ├── Narrative_Generation_Agent/
+│   │   └── letter_prompt_generation.py           # Pet letter generation
+│   └── Image_Generation_Agent/
+│       ├── letter_agent.py                       # Image generation for letters
+│       └── run_letters.py                        # Letter execution script
+├── Data/                            # Sample data files
+│   ├── order_history.csv            # Customer order data
+│   └── qualifying_reviews.csv       # Customer review data
+├── FrontEnd/                        # Frontend application (React)
+├── chewy_playback_pipeline.py       # Main pipeline orchestration
+├── test_pipeline.py                 # Pipeline testing script
+├── requirements.txt                 # Python dependencies
+└── README.md                        # This file
+```
+
+### 🤖 Agent Descriptions
+
+- **Review & Order Intelligence Agent**: Analyzes customer reviews using OpenAI's GPT-4 to extract pet characteristics, personality traits, and behavioral insights. Outputs structured JSON with customer-centric pet profiles.
+
+- **Narrative Generation Agent**: Creates personalized letters "from your pet" using LLM prompts that incorporate pet-specific details and behavioral patterns.
+
+- **Image Generation Agent**: Generates visual content like pet letters and personalized artwork using AI vision models.
+
+---
+
 ## 👥 Contributors
 
-Built by the **Chewy AI Innovator Intern Team** as part of the Unbound Innovator’s Arena Challenge 2025.
+Built by the **Chewy AI Innovator Intern Team** as part of the Unbound Innovator's Arena Challenge 2025.
 
 ---
 
@@ -134,4 +167,4 @@ Prototype project for internal use only. Not open-sourced.
 
 ---
 
-> “Your pet’s digital life, lovingly narrated.” 🐶🐱
+> "Your pet's digital life, lovingly narrated." 🐶🐱
