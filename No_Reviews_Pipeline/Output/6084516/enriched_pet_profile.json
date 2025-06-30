@@ -1,0 +1,76 @@
+{
+  "Pet": {
+    "PetName": "Pet",
+    "PetType": "dog",
+    "PetTypeScore": 0.9,
+    "Breed": "Mixed",
+    "BreedScore": 0.6,
+    "LifeStage": "adult",
+    "LifeStageScore": 0.8,
+    "Gender": "unknown",
+    "GenderScore": 0.5,
+    "SizeCategory": "large",
+    "SizeScore": 0.7,
+    "Weight": "50-70 lbs",
+    "WeightScore": 0.6,
+    "Birthday": "unknown",
+    "BirthdayScore": 0.0,
+    "PersonalityTraits": [
+      "playful",
+      "curious",
+      "affectionate"
+    ],
+    "PersonalityScores": {
+      "playful": 0.8,
+      "curious": 0.7,
+      "affectionate": 0.9
+    },
+    "FavoriteProductCategories": [
+      "treats",
+      "food",
+      "accessories"
+    ],
+    "CategoryScores": {
+      "treats": 0.9,
+      "food": 0.8,
+      "accessories": 0.7
+    },
+    "BrandPreferences": [
+      "Pedigree",
+      "Blue Buffalo"
+    ],
+    "BrandScores": {
+      "Pedigree": 0.9,
+      "Blue Buffalo": 0.8
+    },
+    "DietaryPreferences": [
+      "beef-flavored",
+      "variety"
+    ],
+    "DietaryScores": {
+      "beef-flavored": 0.8,
+      "variety": 0.7
+    },
+    "BehavioralCues": [
+      "enjoys treats",
+      "active outdoors"
+    ],
+    "BehavioralScores": {
+      "enjoys treats": 0.9,
+      "active outdoors": 0.8
+    },
+    "HealthMentions": [
+      "healthy",
+      "active"
+    ],
+    "HealthScores": {
+      "healthy": 0.8,
+      "active": 0.7
+    },
+    "MostOrderedProducts": [
+      "Dermoscent Atop 7 Anti-Itch Skin Soothing Dog & Cat Spray, 2.54-oz bottle",
+      "Pedigree Large Jumbone Real Beef Flavor Dog Treat",
+      "K9 Explorer Braided Rope Reflective Dog Leash, Berry, 6-ft long, 1/2-in wide"
+    ]
+  }
+}

@@ -1,4 +1,83 @@
 {
+  "Shaomaomi (Loving Kitty)": {
+    "PetType": "Cat",
+    "PetTypeScore": 1.0,
+    "Breed": "Other",
+    "BreedScore": 1.0,
+    "LifeStage": "UNK",
+    "LifeStageScore": 0.0,
+    "Gender": "UNK",
+    "GenderScore": 0.0,
+    "SizeCategory": "UNK",
+    "SizeScore": 0.0,
+    "Weight": "UNK",
+    "WeightScore": 0.0,
+    "Birthday": "UNK",
+    "BirthdayScore": 0.0,
+    "PersonalityTraits": [
+      "Finicky Eater",
+      "Smart",
+      "Likes Variety"
+    ],
+    "PersonalityScores": {
+      "Finicky Eater": 1.0,
+      "Smart": 0.7,
+      "Likes Variety": 0.8
+    },
+    "FavoriteProductCategories": [
+      "Cat Food",
+      "Cat Toys"
+    ],
+    "CategoryScores": {
+      "Cat Food": 1.0,
+      "Cat Toys": 0.8
+    },
+    "BrandPreferences": [
+      "Blue Buffalo",
+      "Nulo FreeStyle",
+      "Halo Holistic"
+    ],
+    "BrandScores": {
+      "Blue Buffalo": 1.0,
+      "Nulo FreeStyle": 0.8,
+      "Halo Holistic": 0.7
+    },
+    "DietaryPreferences": [
+      "Fish & Potato Recipe Grain-Free Dry Cat Food",
+      "Chicken in Broth Cat Food Topper",
+      "Holistic Grain-Free Wild-Caught Salmon & Whitefish Recipe Complete Digestive Health Dry Kitten Food"
+    ],
+    "DietaryScores": {
+      "Fish & Potato Recipe Grain-Free Dry Cat Food": 1.0,
+      "Chicken in Broth Cat Food Topper": 0.8,
+      "Holistic Grain-Free Wild-Caught Salmon & Whitefish Recipe Complete Digestive Health Dry Kitten Food": 0.7
+    },
+    "BehavioralCues": [
+      "Hides when approached",
+      "Likes to play with interactive toys"
+    ],
+    "BehavioralScores": {
+      "Hides when approached": 0.8,
+      "Likes to play with interactive toys": 0.7
+    },
+    "HealthMentions": [
+      "Sensitive Stomach",
+      "Diabetic"
+    ],
+    "HealthScores": {
+      "Sensitive Stomach": 0.7,
+      "Diabetic": 0.7
+    },
+    "MostOrderedProducts": [
+      "K&H Pet Products EZ Mount Window Track n' Roll Interactive Cat Toy",
+      "Blue Buffalo Basics Fish & Potato Recipe Grain-Free Dry Cat Food, 11-lb bag",
+      "Nulo FreeStyle Chicken in Broth Cat Food Topper",
+      "Halo Holistic Grain-Free Wild-Caught Salmon & Whitefish Recipe Complete Digestive Health Dry Kitten Food"
+    ],
+    "ConfidenceScore": 0.0,
+    "confidence_score": 0.2857142857142857,
+    "name": "Shaomaomi (Loving Kitty)"
+  },
   "Tuxedo": {
     "PetType": "Cat",
     "PetTypeScore": 1.0,
@@ -39,32 +118,26 @@
       "Nulo FreeStyle": 0.8
     },
     "DietaryPreferences": [
-      "Grain-Free",
-      "Fish & Potato",
-      "Chicken in Broth"
+      "Fish & Potato Recipe Grain-Free Dry Cat Food",
+      "Chicken in Broth Cat Food Topper"
     ],
     "DietaryScores": {
-      "Grain-Free": 1.0,
-      "Fish & Potato": 1.0,
-      "Chicken in Broth": 0.8
+      "Fish & Potato Recipe Grain-Free Dry Cat Food": 1.0,
+      "Chicken in Broth Cat Food Topper": 0.8
     },
     "BehavioralCues": [
-      "Hides when approached",
-      "Cleans plate after meals"
+      "Hides when approached"
     ],
     "BehavioralScores": {
-      "Hides when approached": 0.7,
-      "Cleans plate after meals": 1.0
+      "Hides when approached": 0.7
     },
     "HealthMentions": [
       "Sensitive Stomach",
-      "Diabetic",
-      "No UTI problems"
+      "Diabetic"
     ],
     "HealthScores": {
-      "Sensitive Stomach": 0.8,
-      "Diabetic": 0.7,
-      "No UTI problems": 1.0
+      "Sensitive Stomach": 0.7,
+      "Diabetic": 0.7
     },
     "MostOrderedProducts": [
       "K&H Pet Products EZ Mount Window Track n' Roll Interactive Cat Toy",
@@ -79,85 +152,6 @@
     "ConfidenceScore": 0.0,
     "confidence_score": 0.5714285714285714,
     "name": "Tuxedo"
-  },
-  "Shaomaomi (Loving Kitty)": {
-    "PetType": "Cat",
-    "PetTypeScore": 1.0,
-    "Breed": "Other",
-    "BreedScore": 1.0,
-    "LifeStage": "UNK",
-    "LifeStageScore": 0.0,
-    "Gender": "UNK",
-    "GenderScore": 0.0,
-    "SizeCategory": "UNK",
-    "SizeScore": 0.0,
-    "Weight": "UNK",
-    "WeightScore": 0.0,
-    "Birthday": "UNK",
-    "BirthdayScore": 0.0,
-    "PersonalityTraits": [
-      "Finicky Eater",
-      "Smart",
-      "Likes Soft Food"
-    ],
-    "PersonalityScores": {
-      "Finicky Eater": 1.0,
-      "Smart": 0.7,
-      "Likes Soft Food": 0.9
-    },
-    "FavoriteProductCategories": [
-      "Cat Food",
-      "Cat Toys"
-    ],
-    "CategoryScores": {
-      "Cat Food": 1.0,
-      "Cat Toys": 0.8
-    },
-    "BrandPreferences": [
-      "Blue Buffalo",
-      "Nulo FreeStyle"
-    ],
-    "BrandScores": {
-      "Blue Buffalo": 1.0,
-      "Nulo FreeStyle": 0.8
-    },
-    "DietaryPreferences": [
-      "Grain-Free",
-      "Fish & Potato Recipe",
-      "Chicken in Broth"
-    ],
-    "DietaryScores": {
-      "Grain-Free": 1.0,
-      "Fish & Potato Recipe": 0.9,
-      "Chicken in Broth": 0.8
-    },
-    "BehavioralCues": [
-      "Hides When Approached",
-      "Cleans Plate"
-    ],
-    "BehavioralScores": {
-      "Hides When Approached": 0.7,
-      "Cleans Plate": 1.0
-    },
-    "HealthMentions": [
-      "Sensitive Stomach",
-      "Diabetic",
-      "Damaged Teeth"
-    ],
-    "HealthScores": {
-      "Sensitive Stomach": 0.9,
-      "Diabetic": 0.8,
-      "Damaged Teeth": 0.9
-    },
-    "MostOrderedProducts": [
-      "K&H Pet Products EZ Mount Window Track n' Roll Interactive Cat Toy",
-      "Microbe-Lift Soy-Based Birdbath & Statuary Cleaner",
-      "Blue Buffalo Basics Fish & Potato Recipe Grain-Free Dry Cat Food, 11-lb bag",
-      "Nulo FreeStyle Chicken in Broth Cat Food Topper"
-    ],
-    "ConfidenceScore": 0.0,
-    "confidence_score": 0.2857142857142857,
-    "name": "Shaomaomi (Loving Kitty)"
   },
   "cust_confidence_score": 0.42857142857142855
 }

@@ -1,0 +1,74 @@
+{
+  "Pet": {
+    "PetName": "Pet",
+    "PetType": "dog",
+    "PetTypeScore": 0.8,
+    "Breed": "Mixed",
+    "BreedScore": 0.6,
+    "LifeStage": "adult",
+    "LifeStageScore": 0.7,
+    "Gender": "unknown",
+    "GenderScore": 0.5,
+    "SizeCategory": "medium",
+    "SizeScore": 0.6,
+    "Weight": "30-50 lbs",
+    "WeightScore": 0.4,
+    "Birthday": "unknown",
+    "BirthdayScore": 0.0,
+    "PersonalityTraits": [
+      "adventurous",
+      "playful",
+      "curious"
+    ],
+    "PersonalityScores": {
+      "adventurous": 0.8,
+      "playful": 0.7,
+      "curious": 0.9
+    },
+    "FavoriteProductCategories": [
+      "food",
+      "health supplements",
+      "safety gear"
+    ],
+    "CategoryScores": {
+      "food": 0.8,
+      "health supplements": 0.7,
+      "safety gear": 0.9
+    },
+    "BrandPreferences": [
+      "Go! Solutions",
+      "EzyDog"
+    ],
+    "BrandScores": {
+      "Go! Solutions": 0.8,
+      "EzyDog": 0.7
+    },
+    "DietaryPreferences": [
+      "grain-free"
+    ],
+    "DietaryScores": {
+      "grain-free": 0.8
+    },
+    "BehavioralCues": [
+      "enjoys outdoor activities",
+      "requires health management"
+    ],
+    "BehavioralScores": {
+      "enjoys outdoor activities": 0.9,
+      "requires health management": 0.8
+    },
+    "HealthMentions": [
+      "active",
+      "health-conscious"
+    ],
+    "HealthScores": {
+      "active": 0.7,
+      "health-conscious": 0.8
+    },
+    "MostOrderedProducts": [
+      "Animal Necessity Weight Guard Vet Natural Health Dog & Cat Supplement",
+      "Go! Solutions SENSITIVITIES Limited Ingredient Pollock Grain-Free Dry Dog Food, 25-lb bag",
+      "EzyDog Doggy Flotation Device Life Jacket, Red, Large"
+    ]
+  }
+}

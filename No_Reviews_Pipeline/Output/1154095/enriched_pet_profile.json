@@ -1,0 +1,74 @@
+{
+  "Pet": {
+    "PetName": "Pet",
+    "PetType": "dog",
+    "PetTypeScore": 0.9,
+    "Breed": "Mixed",
+    "BreedScore": 0.6,
+    "LifeStage": "adult",
+    "LifeStageScore": 0.7,
+    "Gender": "unknown",
+    "GenderScore": 0.5,
+    "SizeCategory": "small",
+    "SizeScore": 0.7,
+    "Weight": "10-20 lbs",
+    "WeightScore": 0.6,
+    "Birthday": "unknown",
+    "BirthdayScore": 0.0,
+    "PersonalityTraits": [
+      "playful",
+      "curious",
+      "affectionate"
+    ],
+    "PersonalityScores": {
+      "playful": 0.9,
+      "curious": 0.7,
+      "affectionate": 0.8
+    },
+    "FavoriteProductCategories": [
+      "toys",
+      "costumes",
+      "treats"
+    ],
+    "CategoryScores": {
+      "toys": 0.9,
+      "costumes": 0.8,
+      "treats": 0.7
+    },
+    "BrandPreferences": [
+      "Frisco",
+      "Nature's Recipe"
+    ],
+    "BrandScores": {
+      "Frisco": 0.9,
+      "Nature's Recipe": 0.8
+    },
+    "DietaryPreferences": [
+      "high-protein"
+    ],
+    "DietaryScores": {
+      "high-protein": 0.7
+    },
+    "BehavioralCues": [
+      "loves toys",
+      "enjoys dressing up"
+    ],
+    "BehavioralScores": {
+      "loves toys": 0.9,
+      "enjoys dressing up": 0.8
+    },
+    "HealthMentions": [
+      "healthy",
+      "active"
+    ],
+    "HealthScores": {
+      "healthy": 0.8,
+      "active": 0.7
+    },
+    "MostOrderedProducts": [
+      "Pets First NHL Hockey Stick Plush Dog Toy, Tampa Bay Lightning",
+      "Casual Canine Hot Diggity Ketchup Dog Costume, Small",
+      "Derby Originals Reflective Horse Fly Mask"
+    ]
+  }
+}

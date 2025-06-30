@@ -1,0 +1,72 @@
+{
+  "Pet": {
+    "PetName": "Pet",
+    "PetType": "dog",
+    "PetTypeScore": 0.9,
+    "Breed": "Mixed",
+    "BreedScore": 0.6,
+    "LifeStage": "adult",
+    "LifeStageScore": 0.7,
+    "Gender": "unknown",
+    "GenderScore": 0.5,
+    "SizeCategory": "medium",
+    "SizeScore": 0.7,
+    "Weight": "20-40 lbs",
+    "WeightScore": 0.6,
+    "Birthday": "unknown",
+    "BirthdayScore": 0.0,
+    "PersonalityTraits": [
+      "playful",
+      "affectionate"
+    ],
+    "PersonalityScores": {
+      "playful": 0.8,
+      "affectionate": 0.9
+    },
+    "FavoriteProductCategories": [
+      "food",
+      "toys"
+    ],
+    "CategoryScores": {
+      "food": 0.8,
+      "toys": 0.7
+    },
+    "BrandPreferences": [
+      "Natural Balance",
+      "K9 Natural"
+    ],
+    "BrandScores": {
+      "Natural Balance": 0.9,
+      "K9 Natural": 0.8
+    },
+    "DietaryPreferences": [
+      "grain-free",
+      "limited ingredient"
+    ],
+    "DietaryScores": {
+      "grain-free": 0.8,
+      "limited ingredient": 0.9
+    },
+    "BehavioralCues": [
+      "enjoys outdoor activities",
+      "loves toys"
+    ],
+    "BehavioralScores": {
+      "enjoys outdoor activities": 0.7,
+      "loves toys": 0.8
+    },
+    "HealthMentions": [
+      "healthy",
+      "active"
+    ],
+    "HealthScores": {
+      "healthy": 0.8,
+      "active": 0.7
+    },
+    "MostOrderedProducts": [
+      "Natural Balance Limited Ingredient Reserve Sweet Potato & Venison Recipe Wet Dog Food",
+      "K9 Natural Lamb & King Salmon Grain-Free Freeze-Dried Dog Food, 4-lb bag",
+      "Mendota Products Small Slip Solid Rope Dog Leash, Hunter Green, 6-ft long, 3/8-in wide"
+    ]
+  }
+}

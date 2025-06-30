@@ -1,0 +1,68 @@
+{
+  "Pet": {
+    "PetName": "Pet",
+    "PetType": "dog",
+    "PetTypeScore": 0.9,
+    "Breed": "Boston Terrier",
+    "BreedScore": 0.8,
+    "LifeStage": "adult",
+    "LifeStageScore": 0.7,
+    "Gender": "unknown",
+    "GenderScore": 0.5,
+    "SizeCategory": "small",
+    "SizeScore": 0.8,
+    "Weight": "10-25 lbs",
+    "WeightScore": 0.7,
+    "Birthday": "unknown",
+    "BirthdayScore": 0.0,
+    "PersonalityTraits": [
+      "playful",
+      "curious",
+      "social"
+    ],
+    "PersonalityScores": {
+      "playful": 0.8,
+      "curious": 0.7,
+      "social": 0.8
+    },
+    "FavoriteProductCategories": [
+      "accessories",
+      "clothing",
+      "toys"
+    ],
+    "CategoryScores": {
+      "accessories": 0.9,
+      "clothing": 0.8,
+      "toys": 0.7
+    },
+    "BrandPreferences": [
+      "Pets First",
+      "Frisco"
+    ],
+    "BrandScores": {
+      "Pets First": 0.9,
+      "Frisco": 0.8
+    },
+    "DietaryPreferences": [],
+    "DietaryScores": {},
+    "BehavioralCues": [
+      "enjoys dressing up",
+      "likes interactive play"
+    ],
+    "BehavioralScores": {
+      "enjoys dressing up": 0.9,
+      "likes interactive play": 0.8
+    },
+    "HealthMentions": [
+      "active"
+    ],
+    "HealthScores": {
+      "active": 0.7
+    },
+    "MostOrderedProducts": [
+      "SportHooks Boston Terrier Dog Leash & Key Holder",
+      "Frisco Dragon Dog & Cat Costume, X-Small",
+      "PET N PET Dog Poop Bags, 360 count"
+    ]
+  }
+}

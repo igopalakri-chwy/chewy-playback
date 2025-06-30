@@ -1,0 +1,74 @@
+{
+  "Pet": {
+    "PetName": "Pet",
+    "PetType": "dog",
+    "PetTypeScore": 0.9,
+    "Breed": "Mixed",
+    "BreedScore": 0.6,
+    "LifeStage": "adult",
+    "LifeStageScore": 0.7,
+    "Gender": "unknown",
+    "GenderScore": 0.5,
+    "SizeCategory": "large",
+    "SizeScore": 0.8,
+    "Weight": "44-88 lbs",
+    "WeightScore": 0.9,
+    "Birthday": "unknown",
+    "BirthdayScore": 0.0,
+    "PersonalityTraits": [
+      "playful",
+      "curious",
+      "affectionate"
+    ],
+    "PersonalityScores": {
+      "playful": 0.8,
+      "curious": 0.7,
+      "affectionate": 0.9
+    },
+    "FavoriteProductCategories": [
+      "toys",
+      "treats",
+      "health"
+    ],
+    "CategoryScores": {
+      "toys": 0.9,
+      "treats": 0.8,
+      "health": 0.7
+    },
+    "BrandPreferences": [
+      "Outward Hound",
+      "Bravecto"
+    ],
+    "BrandScores": {
+      "Outward Hound": 0.9,
+      "Bravecto": 0.8
+    },
+    "DietaryPreferences": [
+      "natural ingredients"
+    ],
+    "DietaryScores": {
+      "natural ingredients": 0.7
+    },
+    "BehavioralCues": [
+      "loves toys",
+      "enjoys treats"
+    ],
+    "BehavioralScores": {
+      "loves toys": 0.9,
+      "enjoys treats": 0.8
+    },
+    "HealthMentions": [
+      "healthy",
+      "active"
+    ],
+    "HealthScores": {
+      "healthy": 0.8,
+      "active": 0.7
+    },
+    "MostOrderedProducts": [
+      "Bravecto Topical Solution for Dogs, 44-88 lbs, (Blue Box)",
+      "Outward Hound Orbee-Tuff Glow Bone Dog Toy, Large",
+      "OurPets Fish Teaser Wand Cat Toy, Color/Character Varies"
+    ]
+  }
+}

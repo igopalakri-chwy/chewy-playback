@@ -16,23 +16,21 @@
     "BirthdayScore": 1.0,
     "PersonalityTraits": [
       "Excited about eating",
-      "No problems moving quickly"
+      "No problems walking or moving quickly"
     ],
     "PersonalityScores": {
       "Excited about eating": 0.8,
-      "No problems moving quickly": 0.8
+      "No problems walking or moving quickly": 0.8
     },
     "FavoriteProductCategories": [
       "Dog Food",
       "Dog Treats",
-      "Dog Nail Caps",
-      "Dog Leash"
+      "Dog Nail Caps"
     ],
     "CategoryScores": {
-      "Dog Food": 0.8,
+      "Dog Food": 0.9,
       "Dog Treats": 0.8,
-      "Dog Nail Caps": 0.8,
-      "Dog Leash": 0.7
+      "Dog Nail Caps": 0.7
     },
     "BrandPreferences": [
       "Equilite Herbals",
@@ -45,33 +43,37 @@
       "Bil Jac"
     ],
     "BrandScores": {
-      "Equilite Herbals": 0.8,
+      "Equilite Herbals": 0.9,
       "Nature's Miracle": 0.8,
       "Purrdy Paws": 0.8,
-      "Merrick": 0.8,
-      "Nutro Ultra": 0.8,
-      "Found My Animal": 0.7,
-      "Pure Water Pebbles": 0.7,
-      "Bil Jac": 0.7
+      "Merrick": 0.7,
+      "Nutro Ultra": 0.7,
+      "Found My Animal": 0.6,
+      "Pure Water Pebbles": 0.5,
+      "Bil Jac": 0.5
     },
     "DietaryPreferences": [
-      "Chicken, Split Pea & Carrot Recipe"
+      "Chicken, Split Pea & Carrot Recipe Dry Dog Food",
+      "Mint Breath Strip Infused X-Small Dental Dog Treats"
     ],
     "DietaryScores": {
-      "Chicken, Split Pea & Carrot Recipe": 0.8
+      "Chicken, Split Pea & Carrot Recipe Dry Dog Food": 0.8,
+      "Mint Breath Strip Infused X-Small Dental Dog Treats": 0.7
     },
     "BehavioralCues": [
       "Finicky eater",
-      "Likes hand feeding"
+      "Likes to chew bones"
     ],
     "BehavioralScores": {
       "Finicky eater": 0.8,
-      "Likes hand feeding": 0.8
+      "Likes to chew bones": 0.7
     },
     "HealthMentions": [
+      "No indigestion",
       "Good joint health"
     ],
     "HealthScores": {
+      "No indigestion": 0.8,
       "Good joint health": 0.8
     },
     "MostOrderedProducts": [
@@ -89,24 +91,22 @@
     "PetType": "Cat",
     "PetTypeScore": 1.0,
     "Breed": "UNK",
-    "BreedScore": 0.0,
+    "BreedScore": 0,
     "LifeStage": "UNK",
-    "LifeStageScore": 0.0,
+    "LifeStageScore": 0,
     "Gender": "UNK",
-    "GenderScore": 0.0,
+    "GenderScore": 0,
     "SizeCategory": "UNK",
-    "SizeScore": 0.0,
+    "SizeScore": 0,
     "Weight": "UNK",
-    "WeightScore": 0.0,
+    "WeightScore": 0,
     "Birthday": "UNK",
-    "BirthdayScore": 0.0,
+    "BirthdayScore": 0,
     "PersonalityTraits": [
-      "Finicky",
-      "Happy"
+      "Finicky"
     ],
     "PersonalityScores": {
-      "Finicky": 0.7,
-      "Happy": 0.8
+      "Finicky": 0.7
     },
     "FavoriteProductCategories": [
       "Cat Food",
@@ -118,29 +118,31 @@
     },
     "BrandPreferences": [
       "Blue Buffalo",
-      "SmartyKat",
-      "BFF"
+      "BFF",
+      "SmartyKat"
     ],
     "BrandScores": {
       "Blue Buffalo": 0.8,
-      "SmartyKat": 0.8,
-      "BFF": 0.7
+      "BFF": 0.7,
+      "SmartyKat": 0.9
     },
     "DietaryPreferences": [
       "Pate Style",
-      "Low Phosphate"
+      "High-Protein",
+      "Grain-Free"
     ],
     "DietaryScores": {
       "Pate Style": 0.8,
-      "Low Phosphate": 0.7
+      "High-Protein": 0.7,
+      "Grain-Free": 0.7
     },
     "BehavioralCues": [
-      "Eats from hand",
-      "Excited about eating"
+      "Likes to Play",
+      "Eats from Hand"
     ],
     "BehavioralScores": {
-      "Eats from hand": 0.7,
-      "Excited about eating": 0.8
+      "Likes to Play": 0.8,
+      "Eats from Hand": 0.7
     },
     "HealthMentions": [
       "Good Joint Health"
@@ -151,8 +153,6 @@
     "MostOrderedProducts": [
       "SmartyKat Felty Fun Balls Cat Toys",
       "Blue Buffalo Wilderness Chicken High-Protein Grain-Free Pate Adult Wet Cat Food",
-      "Nature's Miracle Cat Enzymatic Stain Remover & Odor Eliminator Refill",
-      "TRIXIE Playground Wall Mounted Cat Shelves",
       "BFF Play Pate Lovers Beef & Tuna Ta Da Wet Cat Food"
     ],
     "ConfidenceScore": 0.0,

@@ -43,10 +43,10 @@
       "Grain Free": 0.8
     },
     "BehavioralCues": [
-      "Likes to play with paper bags"
+      "More energetic with grain free diet"
     ],
     "BehavioralScores": {
-      "Likes to play with paper bags": 0.6
+      "More energetic with grain free diet": 0.8
     },
     "HealthMentions": [
       "Healthy"
@@ -100,16 +100,16 @@
       "Hill's Prescription Diet": 0.7
     },
     "DietaryPreferences": [
-      "Grain Free"
+      "Grain free"
     ],
     "DietaryScores": {
-      "Grain Free": 0.8
+      "Grain free": 0.8
     },
     "BehavioralCues": [
-      "Does not like all treats"
+      "Doesn't like all treats"
     ],
     "BehavioralScores": {
-      "Does not like all treats": 0.7
+      "Doesn't like all treats": 0.7
     },
     "HealthMentions": [
       "Healthy"

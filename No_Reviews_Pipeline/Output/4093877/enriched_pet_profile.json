@@ -1,0 +1,74 @@
+{
+  "Pet": {
+    "PetName": "Pet",
+    "PetType": "dog",
+    "PetTypeScore": 0.9,
+    "Breed": "Mixed",
+    "BreedScore": 0.6,
+    "LifeStage": "adult",
+    "LifeStageScore": 0.7,
+    "Gender": "unknown",
+    "GenderScore": 0.5,
+    "SizeCategory": "medium",
+    "SizeScore": 0.8,
+    "Weight": "20-40 lbs",
+    "WeightScore": 0.7,
+    "Birthday": "unknown",
+    "BirthdayScore": 0.0,
+    "PersonalityTraits": [
+      "active",
+      "curious",
+      "outgoing"
+    ],
+    "PersonalityScores": {
+      "active": 0.8,
+      "curious": 0.7,
+      "outgoing": 0.9
+    },
+    "FavoriteProductCategories": [
+      "leashes",
+      "harnesses",
+      "bowls"
+    ],
+    "CategoryScores": {
+      "leashes": 0.9,
+      "harnesses": 0.8,
+      "bowls": 0.7
+    },
+    "BrandPreferences": [
+      "Flexi",
+      "Doggie Design"
+    ],
+    "BrandScores": {
+      "Flexi": 0.9,
+      "Doggie Design": 0.8
+    },
+    "DietaryPreferences": [
+      "unknown"
+    ],
+    "DietaryScores": {
+      "unknown": 0.0
+    },
+    "BehavioralCues": [
+      "enjoys walks",
+      "requires eye care"
+    ],
+    "BehavioralScores": {
+      "enjoys walks": 0.9,
+      "requires eye care": 0.6
+    },
+    "HealthMentions": [
+      "healthy",
+      "active"
+    ],
+    "HealthScores": {
+      "healthy": 0.8,
+      "active": 0.7
+    },
+    "MostOrderedProducts": [
+      "Flexi Explore Retractable Cord & Tape Dog Leash, Blue, Medium, Original",
+      "Doggie Design American River Ombre Nylon Reflective Back Clip Dog Harness, Sugar Plum, Medium: 16 to 19-in chest",
+      "Signature Housewares Animal Prints Dog Bowl, Tiger, Medium Bowl"
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "Pet": {
+    "PetName": "Pet",
+    "PetType": "dog",
+    "PetTypeScore": 0.9,
+    "Breed": "Mixed",
+    "BreedScore": 0.6,
+    "LifeStage": "adult",
+    "LifeStageScore": 0.8,
+    "Gender": "unknown",
+    "GenderScore": 0.3,
+    "SizeCategory": "small",
+    "SizeScore": 0.7,
+    "Weight": "10-20 lbs",
+    "WeightScore": 0.6,
+    "Birthday": "unknown",
+    "BirthdayScore": 0.0,
+    "PersonalityTraits": [
+      "playful",
+      "active",
+      "affectionate"
+    ],
+    "PersonalityScores": {
+      "playful": 0.8,
+      "active": 0.7,
+      "affectionate": 0.9
+    },
+    "FavoriteProductCategories": [
+      "treats",
+      "bedding",
+      "training"
+    ],
+    "CategoryScores": {
+      "treats": 0.9,
+      "bedding": 0.8,
+      "training": 0.7
+    },
+    "BrandPreferences": [
+      "BIXBI",
+      "Frisco"
+    ],
+    "BrandScores": {
+      "BIXBI": 0.9,
+      "Frisco": 0.8
+    },
+    "DietaryPreferences": [
+      "high-protein"
+    ],
+    "DietaryScores": {
+      "high-protein": 0.7
+    },
+    "BehavioralCues": [
+      "enjoys treats",
+      "requires joint support"
+    ],
+    "BehavioralScores": {
+      "enjoys treats": 0.9,
+      "requires joint support": 0.8
+    },
+    "HealthMentions": [
+      "active",
+      "joint care"
+    ],
+    "HealthScores": {
+      "active": 0.7,
+      "joint care": 0.8
+    },
+    "MostOrderedProducts": [
+      "BIXBI Liberty Hip & Joint Beef Liver Recipe Jerky Dog Treats",
+      "Frisco Replacement Cover for Steel-Framed Elevated Dog Bed, Green, S: 28.3-in L x 22.4-in W, 1 count",
+      "Four Paws Wee-Wee Odor Control Dog Training Pads with Febreze Freshness, 22 x 23-in, 10 count"
+    ]
+  }
+}
