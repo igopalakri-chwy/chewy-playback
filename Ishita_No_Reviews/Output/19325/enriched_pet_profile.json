@@ -1,0 +1,76 @@
+{
+  "Pet": {
+    "PetName": "Pet",
+    "PetType": "dog",
+    "PetTypeScore": 0.9,
+    "Breed": "Mixed",
+    "BreedScore": 0.6,
+    "LifeStage": "adult",
+    "LifeStageScore": 0.8,
+    "Gender": "unknown",
+    "GenderScore": 0.5,
+    "SizeCategory": "large",
+    "SizeScore": 0.7,
+    "Weight": "50-70 lbs",
+    "WeightScore": 0.6,
+    "Birthday": "unknown",
+    "BirthdayScore": 0.0,
+    "PersonalityTraits": [
+      "playful",
+      "fashionable",
+      "active"
+    ],
+    "PersonalityScores": {
+      "playful": 0.8,
+      "fashionable": 0.9,
+      "active": 0.7
+    },
+    "FavoriteProductCategories": [
+      "clothing",
+      "leashes",
+      "grooming"
+    ],
+    "CategoryScores": {
+      "clothing": 0.9,
+      "leashes": 0.8,
+      "grooming": 0.7
+    },
+    "BrandPreferences": [
+      "Pets First",
+      "Wahl"
+    ],
+    "BrandScores": {
+      "Pets First": 0.8,
+      "Wahl": 0.7
+    },
+    "DietaryPreferences": [
+      "grain-free",
+      "natural"
+    ],
+    "DietaryScores": {
+      "grain-free": 0.8,
+      "natural": 0.7
+    },
+    "BehavioralCues": [
+      "enjoys fashion",
+      "requires grooming"
+    ],
+    "BehavioralScores": {
+      "enjoys fashion": 0.9,
+      "requires grooming": 0.7
+    },
+    "HealthMentions": [
+      "healthy",
+      "well-groomed"
+    ],
+    "HealthScores": {
+      "healthy": 0.8,
+      "well-groomed": 0.7
+    },
+    "MostOrderedProducts": [
+      "Pup Crew Brown Animal Print Bow Dog Sweater, Large",
+      "Pets First Miami Dolphins Dog Leash",
+      "Wahl Pocket Pro Cordless Dog & Cat Trimmer, Blue"
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "Pet": {
+    "PetName": "Pet",
+    "PetType": "dog",
+    "PetTypeScore": 0.9,
+    "Breed": "Mixed",
+    "BreedScore": 0.6,
+    "LifeStage": "adult",
+    "LifeStageScore": 0.8,
+    "Gender": "unknown",
+    "GenderScore": 0.5,
+    "SizeCategory": "large",
+    "SizeScore": 0.7,
+    "Weight": "50-70 lbs",
+    "WeightScore": 0.6,
+    "Birthday": "unknown",
+    "BirthdayScore": 0.0,
+    "PersonalityTraits": [
+      "playful",
+      "curious",
+      "affectionate"
+    ],
+    "PersonalityScores": {
+      "playful": 0.8,
+      "curious": 0.7,
+      "affectionate": 0.9
+    },
+    "FavoriteProductCategories": [
+      "treats",
+      "beds",
+      "apparel"
+    ],
+    "CategoryScores": {
+      "treats": 0.9,
+      "beds": 0.8,
+      "apparel": 0.7
+    },
+    "BrandPreferences": [
+      "Cadet",
+      "FurHaven"
+    ],
+    "BrandScores": {
+      "Cadet": 0.9,
+      "FurHaven": 0.8
+    },
+    "DietaryPreferences": [
+      "grain-free"
+    ],
+    "DietaryScores": {
+      "grain-free": 0.8
+    },
+    "BehavioralCues": [
+      "loves treats",
+      "enjoys comfort"
+    ],
+    "BehavioralScores": {
+      "loves treats": 0.9,
+      "enjoys comfort": 0.8
+    },
+    "HealthMentions": [
+      "healthy",
+      "active"
+    ],
+    "HealthScores": {
+      "healthy": 0.8,
+      "active": 0.7
+    },
+    "MostOrderedProducts": [
+      "Cadet Gourmet Beef Hide & Chicken Twists Sticks Dog Treats, 5-in",
+      "FurHaven Plush & Suede Orthopedic Sofa Cat & Dog Bed, Espresso, Large",
+      "Sassy Dog Wear Bandana Dog Leash, Pink, Large"
+    ]
+  }
+}

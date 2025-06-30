@@ -1,0 +1,70 @@
+{
+  "Pet": {
+    "PetName": "Pet",
+    "PetType": "dog",
+    "PetTypeScore": 0.9,
+    "Breed": "Mixed",
+    "BreedScore": 0.6,
+    "LifeStage": "puppy",
+    "LifeStageScore": 0.8,
+    "Gender": "unknown",
+    "GenderScore": 0.5,
+    "SizeCategory": "medium",
+    "SizeScore": 0.7,
+    "Weight": "20-40 lbs",
+    "WeightScore": 0.6,
+    "Birthday": "unknown",
+    "BirthdayScore": 0.0,
+    "PersonalityTraits": [
+      "playful",
+      "curious",
+      "affectionate"
+    ],
+    "PersonalityScores": {
+      "playful": 0.8,
+      "curious": 0.7,
+      "affectionate": 0.9
+    },
+    "FavoriteProductCategories": [
+      "food",
+      "treats"
+    ],
+    "CategoryScores": {
+      "food": 0.9,
+      "treats": 0.8
+    },
+    "BrandPreferences": [
+      "Walk About",
+      "Chicken Soup for the Soul"
+    ],
+    "BrandScores": {
+      "Walk About": 0.9,
+      "Chicken Soup for the Soul": 0.8
+    },
+    "DietaryPreferences": [
+      "grain-free"
+    ],
+    "DietaryScores": {
+      "grain-free": 0.8
+    },
+    "BehavioralCues": [
+      "enjoys treats"
+    ],
+    "BehavioralScores": {
+      "enjoys treats": 0.8
+    },
+    "HealthMentions": [
+      "healthy",
+      "active"
+    ],
+    "HealthScores": {
+      "healthy": 0.8,
+      "active": 0.7
+    },
+    "MostOrderedProducts": [
+      "Walk About Grain-Free Goat Recipe Canned Dog Food, 13.2-oz, case of 12",
+      "Chicken Soup for the Puppy Lover's Soul Dry Dog Food, 18-lb bag",
+      "Canine Caviar Buffalo Lungs Cat Treats, 2-oz bag"
+    ]
+  }
+}

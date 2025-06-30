@@ -1,0 +1,72 @@
+{
+  "Pet": {
+    "PetName": "Pet",
+    "PetType": "dog",
+    "PetTypeScore": 0.95,
+    "Breed": "Mixed",
+    "BreedScore": 0.6,
+    "LifeStage": "adult",
+    "LifeStageScore": 0.8,
+    "Gender": "unknown",
+    "GenderScore": 0.5,
+    "SizeCategory": "medium",
+    "SizeScore": 0.7,
+    "Weight": "25-50 lbs",
+    "WeightScore": 0.8,
+    "Birthday": "unknown",
+    "BirthdayScore": 0.0,
+    "PersonalityTraits": [
+      "playful",
+      "affectionate"
+    ],
+    "PersonalityScores": {
+      "playful": 0.8,
+      "affectionate": 0.9
+    },
+    "FavoriteProductCategories": [
+      "food",
+      "bedding",
+      "health"
+    ],
+    "CategoryScores": {
+      "food": 0.9,
+      "bedding": 0.8,
+      "health": 0.7
+    },
+    "BrandPreferences": [
+      "Nutro",
+      "All For Paws"
+    ],
+    "BrandScores": {
+      "Nutro": 0.9,
+      "All For Paws": 0.8
+    },
+    "DietaryPreferences": [
+      "balanced diet"
+    ],
+    "DietaryScores": {
+      "balanced diet": 0.7
+    },
+    "BehavioralCues": [
+      "enjoys comfort",
+      "health-conscious"
+    ],
+    "BehavioralScores": {
+      "enjoys comfort": 0.9,
+      "health-conscious": 0.8
+    },
+    "HealthMentions": [
+      "healthy",
+      "protected"
+    ],
+    "HealthScores": {
+      "healthy": 0.8,
+      "protected": 0.7
+    },
+    "MostOrderedProducts": [
+      "Pet Odor Exterminator Sippin' Sangria Candle",
+      "All For Paws Chill Out Floatation Dog Bed, 34-in",
+      "Nutro Ultra Small Breed Adult Dry Dog Food"
+    ]
+  }
+}

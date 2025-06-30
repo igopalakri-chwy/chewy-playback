@@ -1,0 +1,72 @@
+{
+  "Pet": {
+    "PetName": "Pet",
+    "PetType": "dog",
+    "PetTypeScore": 0.9,
+    "Breed": "Mixed",
+    "BreedScore": 0.5,
+    "LifeStage": "adult",
+    "LifeStageScore": 0.8,
+    "Gender": "unknown",
+    "GenderScore": 0.3,
+    "SizeCategory": "large",
+    "SizeScore": 0.7,
+    "Weight": "50-70 lbs",
+    "WeightScore": 0.6,
+    "Birthday": "unknown",
+    "BirthdayScore": 0.0,
+    "PersonalityTraits": [
+      "playful",
+      "curious",
+      "affectionate"
+    ],
+    "PersonalityScores": {
+      "playful": 0.6,
+      "curious": 0.5,
+      "affectionate": 0.4
+    },
+    "FavoriteProductCategories": [
+      "food",
+      "training",
+      "safety"
+    ],
+    "CategoryScores": {
+      "food": 0.8,
+      "training": 0.7,
+      "safety": 0.6
+    },
+    "BrandPreferences": [
+      "PetRageous Designs",
+      "Educator By E-Collar Technologies"
+    ],
+    "BrandScores": {
+      "PetRageous Designs": 0.9,
+      "Educator By E-Collar Technologies": 0.8
+    },
+    "DietaryPreferences": [
+      "balanced diet"
+    ],
+    "DietaryScores": {
+      "balanced diet": 0.7
+    },
+    "BehavioralCues": [
+      "well-trained",
+      "safety-conscious"
+    ],
+    "BehavioralScores": {
+      "well-trained": 0.8,
+      "safety-conscious": 0.7
+    },
+    "HealthMentions": [
+      "healthy"
+    ],
+    "HealthScores": {
+      "healthy": 0.8
+    },
+    "MostOrderedProducts": [
+      "PetRageous Designs Batik Bones Pet Bowl, Sand, 7\", 5.5-cups",
+      "Paw Pods Heart Shape Dog & Cat Urn",
+      "Soft Claws Nail Caps for Cats, 40 Count, Small, Red"
+    ]
+  }
+}

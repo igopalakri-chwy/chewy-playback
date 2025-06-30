@@ -1,0 +1,56 @@
+{
+  "Pet": {
+    "PetName": "Pet",
+    "PetType": "other",
+    "PetTypeScore": 0.9,
+    "Breed": "Mixed",
+    "BreedScore": 0.5,
+    "LifeStage": "adult",
+    "LifeStageScore": 0.6,
+    "Gender": "unknown",
+    "GenderScore": 0.3,
+    "SizeCategory": "small",
+    "SizeScore": 0.9,
+    "Weight": "1-5 lbs",
+    "WeightScore": 0.8,
+    "Birthday": "unknown",
+    "BirthdayScore": 0.0,
+    "PersonalityTraits": [
+      "playful",
+      "curious"
+    ],
+    "PersonalityScores": {
+      "playful": 0.8,
+      "curious": 0.7
+    },
+    "FavoriteProductCategories": [
+      "hideouts"
+    ],
+    "CategoryScores": {
+      "hideouts": 0.9
+    },
+    "BrandPreferences": [
+      "Kaytee"
+    ],
+    "BrandScores": {
+      "Kaytee": 0.9
+    },
+    "DietaryPreferences": [],
+    "DietaryScores": {},
+    "BehavioralCues": [
+      "enjoys hiding"
+    ],
+    "BehavioralScores": {
+      "enjoys hiding": 0.9
+    },
+    "HealthMentions": [
+      "healthy"
+    ],
+    "HealthScores": {
+      "healthy": 0.8
+    },
+    "MostOrderedProducts": [
+      "Kaytee Sleep-E-Tent Convertible Small Pet Hideout, 11-in"
+    ]
+  }
+}
