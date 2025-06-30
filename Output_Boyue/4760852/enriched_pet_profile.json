@@ -1,0 +1,163 @@
+{
+  "Chompie": {
+    "PetType": "Dog",
+    "PetTypeScore": 1.0,
+    "Breed": "Cockapoo",
+    "BreedScore": 1.0,
+    "LifeStage": "A",
+    "LifeStageScore": 1.0,
+    "Gender": "MALE",
+    "GenderScore": 1.0,
+    "SizeCategory": "SM",
+    "SizeScore": 1.0,
+    "Weight": "UNK",
+    "WeightScore": 0.0,
+    "Birthday": "2012-08-05",
+    "BirthdayScore": 1.0,
+    "PersonalityTraits": [
+      "Excited about eating",
+      "No problems moving quickly"
+    ],
+    "PersonalityScores": {
+      "Excited about eating": 0.8,
+      "No problems moving quickly": 0.8
+    },
+    "FavoriteProductCategories": [
+      "Dog Food",
+      "Dog Treats",
+      "Dog Nail Caps",
+      "Dog Leash"
+    ],
+    "CategoryScores": {
+      "Dog Food": 0.8,
+      "Dog Treats": 0.8,
+      "Dog Nail Caps": 0.8,
+      "Dog Leash": 0.7
+    },
+    "BrandPreferences": [
+      "Equilite Herbals",
+      "Nature's Miracle",
+      "Purrdy Paws",
+      "Merrick",
+      "Nutro Ultra",
+      "Found My Animal",
+      "Pure Water Pebbles",
+      "Bil Jac"
+    ],
+    "BrandScores": {
+      "Equilite Herbals": 0.8,
+      "Nature's Miracle": 0.8,
+      "Purrdy Paws": 0.8,
+      "Merrick": 0.8,
+      "Nutro Ultra": 0.8,
+      "Found My Animal": 0.7,
+      "Pure Water Pebbles": 0.7,
+      "Bil Jac": 0.7
+    },
+    "DietaryPreferences": [
+      "Chicken, Split Pea & Carrot Recipe"
+    ],
+    "DietaryScores": {
+      "Chicken, Split Pea & Carrot Recipe": 0.8
+    },
+    "BehavioralCues": [
+      "Finicky eater",
+      "Likes hand feeding"
+    ],
+    "BehavioralScores": {
+      "Finicky eater": 0.8,
+      "Likes hand feeding": 0.8
+    },
+    "HealthMentions": [
+      "Good joint health"
+    ],
+    "HealthScores": {
+      "Good joint health": 0.8
+    },
+    "MostOrderedProducts": [
+      "Equilite Herbals RelaxHer Blend Calming Powder Horse Supplement, 2-lb tub",
+      "Nature's Miracle Dog Enzymatic Stain Remover & Odor Eliminator, Melon Burst Scent, 1-gal bottle",
+      "Purrdy Paws Soft Dog Nail Caps, Sky Blue, X-Small, 40 count",
+      "Merrick Fresh Kisses Double-Brush Mint Breath Strip Infused X-Small Dental Dog Treats",
+      "Nutro Ultra Grain-Free Chicken, Split Pea & Carrot Recipe Dry Dog Food"
+    ],
+    "ConfidenceScore": 0.0,
+    "confidence_score": 0.8571428571428571,
+    "name": "Chompie"
+  },
+  "NALA": {
+    "PetType": "Cat",
+    "PetTypeScore": 1.0,
+    "Breed": "UNK",
+    "BreedScore": 0.0,
+    "LifeStage": "UNK",
+    "LifeStageScore": 0.0,
+    "Gender": "UNK",
+    "GenderScore": 0.0,
+    "SizeCategory": "UNK",
+    "SizeScore": 0.0,
+    "Weight": "UNK",
+    "WeightScore": 0.0,
+    "Birthday": "UNK",
+    "BirthdayScore": 0.0,
+    "PersonalityTraits": [
+      "Finicky",
+      "Happy"
+    ],
+    "PersonalityScores": {
+      "Finicky": 0.7,
+      "Happy": 0.8
+    },
+    "FavoriteProductCategories": [
+      "Cat Food",
+      "Cat Toys"
+    ],
+    "CategoryScores": {
+      "Cat Food": 0.9,
+      "Cat Toys": 0.8
+    },
+    "BrandPreferences": [
+      "Blue Buffalo",
+      "SmartyKat",
+      "BFF"
+    ],
+    "BrandScores": {
+      "Blue Buffalo": 0.8,
+      "SmartyKat": 0.8,
+      "BFF": 0.7
+    },
+    "DietaryPreferences": [
+      "Pate Style",
+      "Low Phosphate"
+    ],
+    "DietaryScores": {
+      "Pate Style": 0.8,
+      "Low Phosphate": 0.7
+    },
+    "BehavioralCues": [
+      "Eats from hand",
+      "Excited about eating"
+    ],
+    "BehavioralScores": {
+      "Eats from hand": 0.7,
+      "Excited about eating": 0.8
+    },
+    "HealthMentions": [
+      "Good Joint Health"
+    ],
+    "HealthScores": {
+      "Good Joint Health": 0.8
+    },
+    "MostOrderedProducts": [
+      "SmartyKat Felty Fun Balls Cat Toys",
+      "Blue Buffalo Wilderness Chicken High-Protein Grain-Free Pate Adult Wet Cat Food",
+      "Nature's Miracle Cat Enzymatic Stain Remover & Odor Eliminator Refill",
+      "TRIXIE Playground Wall Mounted Cat Shelves",
+      "BFF Play Pate Lovers Beef & Tuna Ta Da Wet Cat Food"
+    ],
+    "ConfidenceScore": 0.0,
+    "confidence_score": 0.14285714285714285,
+    "name": "NALA"
+  },
+  "cust_confidence_score": 0.5
+}

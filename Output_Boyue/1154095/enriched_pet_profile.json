@@ -1,0 +1,155 @@
+{
+  "sugar": {
+    "PetType": "Cat",
+    "PetTypeScore": 1.0,
+    "Breed": "Other",
+    "BreedScore": 1.0,
+    "LifeStage": "Senior",
+    "LifeStageScore": 0.9,
+    "Gender": "UNK",
+    "GenderScore": 0.0,
+    "SizeCategory": "UNK",
+    "SizeScore": 0.0,
+    "Weight": "UNK",
+    "WeightScore": 0.0,
+    "Birthday": "UNK",
+    "BirthdayScore": 0.0,
+    "PersonalityTraits": [
+      "Picky eater",
+      "Likes to scratch",
+      "Likes to sleep"
+    ],
+    "PersonalityScores": {
+      "Picky eater": 0.9,
+      "Likes to scratch": 0.8,
+      "Likes to sleep": 0.8
+    },
+    "FavoriteProductCategories": [
+      "Cat Food",
+      "Cat Bed & Mat",
+      "Cat Litter Box"
+    ],
+    "CategoryScores": {
+      "Cat Food": 0.9,
+      "Cat Bed & Mat": 0.8,
+      "Cat Litter Box": 0.8
+    },
+    "BrandPreferences": [
+      "Nature's Recipe",
+      "As Seen on TV",
+      "Derby Originals"
+    ],
+    "BrandScores": {
+      "Nature's Recipe": 0.9,
+      "As Seen on TV": 0.8,
+      "Derby Originals": 0.7
+    },
+    "DietaryPreferences": [
+      "Chicken flavor"
+    ],
+    "DietaryScores": {
+      "Chicken flavor": 0.9
+    },
+    "BehavioralCues": [
+      "Eats more when food is served in a bowl",
+      "Likes to use sisal for scratching",
+      "Likes to sleep on warm surfaces"
+    ],
+    "BehavioralScores": {
+      "Eats more when food is served in a bowl": 0.9,
+      "Likes to use sisal for scratching": 0.8,
+      "Likes to sleep on warm surfaces": 0.8
+    },
+    "HealthMentions": [
+      "Dental problems",
+      "Eating problems"
+    ],
+    "HealthScores": {
+      "Dental problems": 0.9,
+      "Eating problems": 0.9
+    },
+    "MostOrderedProducts": [
+      "Nature's Recipe Culinary Favorites Stew Recipe with Real White Meat Chicken & Garden Vegetables in Gravy Wet Cat Food, 2.75-oz, case of 24",
+      "As Seen on TV Kitty Shack 2 in 1 Cat Bed & Mat",
+      "Derby Originals Reflective Horse Fly Mask"
+    ],
+    "ConfidenceScore": 0.0,
+    "confidence_score": 0.41428571428571426,
+    "name": "sugar"
+  },
+  "sue ling": {
+    "PetType": "Cat",
+    "PetTypeScore": 1.0,
+    "Breed": "American- Shorthair",
+    "BreedScore": 1.0,
+    "LifeStage": "A",
+    "LifeStageScore": 1.0,
+    "Gender": "FMLE",
+    "GenderScore": 1.0,
+    "SizeCategory": "UNK",
+    "SizeScore": 0.0,
+    "Weight": "UNK",
+    "WeightScore": 0.0,
+    "Birthday": "2016-01-01",
+    "BirthdayScore": 1.0,
+    "PersonalityTraits": [
+      "Picky eater",
+      "Older"
+    ],
+    "PersonalityScores": {
+      "Picky eater": 0.8,
+      "Older": 1.0
+    },
+    "FavoriteProductCategories": [
+      "Cat Food",
+      "Cat Bed & Mat",
+      "Cat Toys"
+    ],
+    "CategoryScores": {
+      "Cat Food": 1.0,
+      "Cat Bed & Mat": 0.8,
+      "Cat Toys": 0.7
+    },
+    "BrandPreferences": [
+      "Nature's Recipe",
+      "As Seen on TV",
+      "Derby Originals"
+    ],
+    "BrandScores": {
+      "Nature's Recipe": 1.0,
+      "As Seen on TV": 0.8,
+      "Derby Originals": 0.7
+    },
+    "DietaryPreferences": [
+      "Chicken flavor"
+    ],
+    "DietaryScores": {
+      "Chicken flavor": 1.0
+    },
+    "BehavioralCues": [
+      "Likes to scratch",
+      "Likes to sleep on warm spots"
+    ],
+    "BehavioralScores": {
+      "Likes to scratch": 0.8,
+      "Likes to sleep on warm spots": 0.9
+    },
+    "HealthMentions": [
+      "Dental problems",
+      "Eating problems"
+    ],
+    "HealthScores": {
+      "Dental problems": 0.9,
+      "Eating problems": 0.9
+    },
+    "MostOrderedProducts": [
+      "Nature's Recipe Culinary Favorites Stew Recipe with Real White Meat Chicken & Garden Vegetables in Gravy Wet Cat Food, 2.75-oz, case of 24",
+      "As Seen on TV Kitty Shack 2 in 1 Cat Bed & Mat",
+      "Derby Originals Reflective Horse Fly Mask"
+    ],
+    "ConfidenceScore": 0.0,
+    "confidence_score": 0.7142857142857143,
+    "name": "sue ling"
+  },
+  "cust_confidence_score": 0.5642857142857143
+}
