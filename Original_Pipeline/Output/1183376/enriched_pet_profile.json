@@ -15,10 +15,10 @@
     "Birthday": "UNK",
     "BirthdayScore": 0.0,
     "PersonalityTraits": [
-      "Likes sturdy toys"
+      "UNK"
     ],
     "PersonalityScores": {
-      "Likes sturdy toys": 1.0
+      "UNK": 0.0
     },
     "FavoriteProductCategories": [
       "Cat Toys",
@@ -99,9 +99,9 @@
     "Gender": "MALE",
     "GenderScore": 1.0,
     "SizeCategory": "UNK",
-    "SizeScore": 0,
+    "SizeScore": 0.0,
     "Weight": "UNK",
-    "WeightScore": 0,
+    "WeightScore": 0.0,
     "Birthday": "2008-08-05",
     "BirthdayScore": 1.0,
     "PersonalityTraits": [
@@ -111,18 +111,18 @@
     ],
     "PersonalityScores": {
       "Likes wearing clothes": 0.8,
-      "Likes playing with toys": 0.7,
+      "Likes playing with toys": 0.8,
       "Likes certain foods": 0.9
     },
     "FavoriteProductCategories": [
       "Toys",
-      "Clothes",
-      "Food"
+      "Food",
+      "Clothing"
     ],
     "CategoryScores": {
-      "Toys": 0.8,
-      "Clothes": 0.7,
-      "Food": 0.9
+      "Toys": 0.9,
+      "Food": 0.9,
+      "Clothing": 0.8
     },
     "BrandPreferences": [
       "OurPets",
@@ -132,21 +132,31 @@
     ],
     "BrandScores": {
       "OurPets": 0.9,
-      "VeRUS": 0.7,
-      "Go! Solutions": 0.7,
-      "Purina Beyond": 0.7
+      "VeRUS": 0.8,
+      "Go! Solutions": 0.8,
+      "Purina Beyond": 0.8
     },
     "DietaryPreferences": [
       "Fish",
-      "Beef, Apple, Vegetable & Green Lipped Mussel",
-      "Pollock Grain-Free",
-      "Icelandic Arctic Char & Lentil"
+      "Beef",
+      "Apple",
+      "Vegetable",
+      "Green Lipped Mussel",
+      "Pollock",
+      "Grain-Free",
+      "Icelandic Arctic Char",
+      "Lentil"
     ],
     "DietaryScores": {
-      "Fish": 0.9,
-      "Beef, Apple, Vegetable & Green Lipped Mussel": 0.7,
-      "Pollock Grain-Free": 0.7,
-      "Icelandic Arctic Char & Lentil": 0.7
+      "Fish": 0.8,
+      "Beef": 0.8,
+      "Apple": 0.8,
+      "Vegetable": 0.8,
+      "Green Lipped Mussel": 0.8,
+      "Pollock": 0.8,
+      "Grain-Free": 0.8,
+      "Icelandic Arctic Char": 0.8,
+      "Lentil": 0.8
     },
     "BehavioralCues": [
       "Accepts medication easily"
@@ -159,13 +169,13 @@
       "Dental health"
     ],
     "HealthScores": {
-      "Healthy urinary tract": 0.7,
-      "Dental health": 0.7
+      "Healthy urinary tract": 0.8,
+      "Dental health": 0.8
     },
     "MostOrderedProducts": [
-      "OurPets Fish Teaser Wand Cat Toy, Color/Character Varies",
+      "OurPets Fish Teaser Wand Cat Toy",
       "VeRUS Beef, Apple, Vegetable & Green Lipped Mussel Canned Cat Food",
-      "Go! Solutions SENSITIVITIES Limited Ingredient Pollock Grain-Free Dry Cat Food, 8-lb bag",
+      "Go! Solutions SENSITIVITIES Limited Ingredient Pollock Grain-Free Dry Cat Food",
       "Purina Beyond Grain-Free Icelandic Arctic Char & Lentil Recipe Dry Cat Food"
     ],
     "ConfidenceScore": 0.0,
@@ -181,9 +191,9 @@
     "Gender": "MALE",
     "GenderScore": 1.0,
     "SizeCategory": "UNK",
-    "SizeScore": 0,
+    "SizeScore": 0.0,
     "Weight": "UNK",
-    "WeightScore": 0,
+    "WeightScore": 0.0,
     "Birthday": "2013-05-26",
     "BirthdayScore": 1.0,
     "PersonalityTraits": [
@@ -194,17 +204,17 @@
     "PersonalityScores": {
       "Likes wearing clothes": 0.8,
       "Likes toys": 0.7,
-      "Likes food": 1.0
+      "Likes food": 0.9
     },
     "FavoriteProductCategories": [
       "Toys",
       "Food",
-      "Clothing"
+      "Clothes"
     ],
     "CategoryScores": {
       "Toys": 0.8,
-      "Food": 1.0,
-      "Clothing": 0.7
+      "Food": 0.9,
+      "Clothes": 0.7
     },
     "BrandPreferences": [
       "OurPets",
@@ -219,32 +229,34 @@
       "Purina Beyond": 0.7
     },
     "DietaryPreferences": [
-      "Grain-Free",
       "Fish",
       "Beef",
       "Apple",
       "Vegetable",
       "Green Lipped Mussel",
       "Pollock",
+      "Grain-Free",
       "Icelandic Arctic Char",
       "Lentil"
     ],
     "DietaryScores": {
-      "Grain-Free": 0.8,
-      "Fish": 0.7,
+      "Fish": 0.9,
       "Beef": 0.7,
       "Apple": 0.7,
       "Vegetable": 0.7,
       "Green Lipped Mussel": 0.7,
       "Pollock": 0.7,
+      "Grain-Free": 0.7,
       "Icelandic Arctic Char": 0.7,
       "Lentil": 0.7
     },
     "BehavioralCues": [
-      "Accepts medication easily"
+      "Accepts medication",
+      "Interacts with multiple cats"
     ],
     "BehavioralScores": {
-      "Accepts medication easily": 0.8
+      "Accepts medication": 0.8,
+      "Interacts with multiple cats": 0.9
     },
     "HealthMentions": [
       "Urinary tract health",

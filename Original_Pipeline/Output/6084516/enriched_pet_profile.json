@@ -18,7 +18,7 @@
       "Picky eater"
     ],
     "PersonalityScores": {
-      "Picky eater": 0.8
+      "Picky eater": 0.7
     },
     "FavoriteProductCategories": [
       "Cat Food",
@@ -37,16 +37,16 @@
       "Hill's Prescription Diet": 0.7
     },
     "DietaryPreferences": [
-      "Grain Free"
+      "Grain free"
     ],
     "DietaryScores": {
-      "Grain Free": 0.8
+      "Grain free": 0.8
     },
     "BehavioralCues": [
-      "Doesn't like all treats"
+      "Does not like all treats"
     ],
     "BehavioralScores": {
-      "Doesn't like all treats": 0.8
+      "Does not like all treats": 0.7
     },
     "HealthMentions": [
       "Healthy"
@@ -71,9 +71,9 @@
     "Gender": "MALE",
     "GenderScore": 1.0,
     "SizeCategory": "UNK",
-    "SizeScore": 0,
+    "SizeScore": 0.0,
     "Weight": "UNK",
-    "WeightScore": 0,
+    "WeightScore": 0.0,
     "Birthday": "2014-06-26",
     "BirthdayScore": 1.0,
     "PersonalityTraits": [

@@ -1,36 +1,34 @@
 {
-  "sugar": {
+  "sue ling": {
     "PetType": "Cat",
     "PetTypeScore": 1.0,
-    "Breed": "Other",
+    "Breed": "American- Shorthair",
     "BreedScore": 1.0,
-    "LifeStage": "Senior",
-    "LifeStageScore": 0.8,
-    "Gender": "UNK",
-    "GenderScore": 0,
+    "LifeStage": "A",
+    "LifeStageScore": 1.0,
+    "Gender": "FMLE",
+    "GenderScore": 1.0,
     "SizeCategory": "UNK",
-    "SizeScore": 0,
+    "SizeScore": 0.0,
     "Weight": "UNK",
-    "WeightScore": 0,
-    "Birthday": "UNK",
-    "BirthdayScore": 0,
+    "WeightScore": 0.0,
+    "Birthday": "2016-01-01",
+    "BirthdayScore": 1.0,
     "PersonalityTraits": [
       "Picky eater",
-      "Likes to scratch"
+      "Older cat"
     ],
     "PersonalityScores": {
-      "Picky eater": 0.7,
-      "Likes to scratch": 0.6
+      "Picky eater": 0.9,
+      "Older cat": 1.0
     },
     "FavoriteProductCategories": [
-      "Cat Food",
       "Cat Bed & Mat",
-      "Cat Litter Box"
+      "Cat Food"
     ],
     "CategoryScores": {
-      "Cat Food": 0.9,
-      "Cat Bed & Mat": 0.8,
-      "Cat Litter Box": 0.7
+      "Cat Bed & Mat": 0.9,
+      "Cat Food": 1.0
     },
     "BrandPreferences": [
       "Nature's Recipe",
@@ -44,107 +42,96 @@
       "Chicken flavor"
     ],
     "DietaryScores": {
-      "Chicken flavor": 0.8
+      "Chicken flavor": 0.9
     },
     "BehavioralCues": [
-      "Likes to jump",
-      "Uses scratching post"
+      "Likes to scratch",
+      "Likes to sleep on warm surfaces"
     ],
     "BehavioralScores": {
-      "Likes to jump": 0.7,
-      "Uses scratching post": 0.8
+      "Likes to scratch": 0.8,
+      "Likes to sleep on warm surfaces": 0.9
     },
     "HealthMentions": [
       "Dental problems",
       "Eating problems"
     ],
     "HealthScores": {
-      "Dental problems": 0.8,
-      "Eating problems": 0.8
+      "Dental problems": 0.9,
+      "Eating problems": 0.9
     },
     "MostOrderedProducts": [
       "Nature's Recipe Culinary Favorites Stew Recipe with Real White Meat Chicken & Garden Vegetables in Gravy Wet Cat Food, 2.75-oz, case of 24",
-      "As Seen on TV Kitty Shack 2 in 1 Cat Bed & Mat",
-      "Soos Pets Waterless Pet Bath Mousse, 5.4-fl oz bottle",
-      "Rug Doctor Platinum Professional Spot & Stain Remover, 24-oz bottle"
+      "As Seen on TV Kitty Shack 2 in 1 Cat Bed & Mat"
     ],
     "ConfidenceScore": 0.0,
-    "confidence_score": 0.39999999999999997
+    "confidence_score": 0.7142857142857143
   },
-  "sue ling": {
+  "sugar": {
     "PetType": "Cat",
     "PetTypeScore": 1.0,
-    "Breed": "American- Shorthair",
+    "Breed": "Other",
     "BreedScore": 1.0,
-    "LifeStage": "A",
-    "LifeStageScore": 1.0,
-    "Gender": "FMLE",
-    "GenderScore": 1.0,
+    "LifeStage": "Older",
+    "LifeStageScore": 0.9,
+    "Gender": "UNK",
+    "GenderScore": 0,
     "SizeCategory": "UNK",
     "SizeScore": 0,
     "Weight": "UNK",
     "WeightScore": 0,
-    "Birthday": "2016-01-01",
-    "BirthdayScore": 1.0,
+    "Birthday": "UNK",
+    "BirthdayScore": 0,
     "PersonalityTraits": [
-      "Picky eater",
-      "Likes comfort",
-      "Likes to scratch"
+      "Picky eater"
     ],
     "PersonalityScores": {
-      "Picky eater": 0.8,
-      "Likes comfort": 0.7,
-      "Likes to scratch": 0.6
+      "Picky eater": 0.8
     },
     "FavoriteProductCategories": [
-      "Cat Food",
       "Cat Bed & Mat",
-      "Cat Scratchers"
+      "Cat Food"
     ],
     "CategoryScores": {
-      "Cat Food": 0.9,
-      "Cat Bed & Mat": 0.8,
-      "Cat Scratchers": 0.7
+      "Cat Bed & Mat": 0.9,
+      "Cat Food": 0.9
     },
     "BrandPreferences": [
       "Nature's Recipe",
-      "As Seen on TV",
-      "Derby Originals"
+      "As Seen on TV"
     ],
     "BrandScores": {
       "Nature's Recipe": 0.9,
-      "As Seen on TV": 0.8,
-      "Derby Originals": 0.7
+      "As Seen on TV": 0.8
     },
     "DietaryPreferences": [
       "Chicken flavor"
     ],
     "DietaryScores": {
-      "Chicken flavor": 0.8
+      "Chicken flavor": 0.9
     },
     "BehavioralCues": [
-      "Likes to stay indoors",
-      "Likes to use litter box"
+      "Likes to sleep on warm surfaces",
+      "Likes to scratch on wall corners"
     ],
     "BehavioralScores": {
-      "Likes to stay indoors": 0.7,
-      "Likes to use litter box": 0.6
+      "Likes to sleep on warm surfaces": 0.8,
+      "Likes to scratch on wall corners": 0.8
     },
     "HealthMentions": [
       "Dental problems",
       "Eating problems"
     ],
     "HealthScores": {
-      "Dental problems": 0.8,
-      "Eating problems": 0.8
+      "Dental problems": 0.9,
+      "Eating problems": 0.9
     },
     "MostOrderedProducts": [
       "Nature's Recipe Culinary Favorites Stew Recipe with Real White Meat Chicken & Garden Vegetables in Gravy Wet Cat Food, 2.75-oz, case of 24",
-      "As Seen on TV Kitty Shack 2 in 1 Cat Bed & Mat",
-      "Derby Originals Reflective Horse Fly Mask"
+      "As Seen on TV Kitty Shack 2 in 1 Cat Bed & Mat"
     ],
     "ConfidenceScore": 0.0,
-    "confidence_score": 0.7142857142857143
+    "confidence_score": 0.41428571428571426
   },
-  "cust_confidence_score": 0.5571428571428572
+  "cust_confidence_score": 0.5642857142857143
 }

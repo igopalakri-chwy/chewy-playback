@@ -51,7 +51,7 @@ Requirements:
 - Use the pet's actual name and characteristics
 - Make it whimsical and delightful
 - Include a signature with the pet's name
-- Keep it between 200-400 words
+- Keep it between 100-200 words
 - Make it feel like a real letter from the pet to their human
 
 Write the letter:"""
@@ -74,7 +74,7 @@ Write the letter:"""
                 "content": prompt
             }
         ],
-        "max_tokens": 500,
+        "max_tokens": 300,
         "temperature": 0.8
     }
     
@@ -302,7 +302,7 @@ Requirements:
 - Use the pets' actual names and characteristics
 - Make it whimsical and delightful
 - Include signatures from all known pets
-- Keep it between 300-500 words
+- Keep it between 150-250 words
 - Make it feel like a real collaborative letter from all pets to their human
 - Show how the pets work together as a family unit
 - If there are additional pets, mention them as part of the family without naming them specifically
@@ -327,7 +327,7 @@ Write the collective letter:"""
                 "content": prompt
             }
         ],
-        "max_tokens": 600,
+        "max_tokens": 400,
         "temperature": 0.8
     }
     

@@ -310,6 +310,14 @@ class ChewyPlaybackPipeline:
                 f.write(narrative_results[customer_id]['collective_letter'])
                 f.write("\n\n")
             
+            # Save visual prompt
+            visual_prompt_path = customer_dir / "visual_prompt.txt"
+            with open(visual_prompt_path, 'w') as f:
+                f.write(f"Visual Prompt for Customer {customer_id}\n")
+                f.write("=" * 60 + "\n\n")
+                f.write(narrative_results[customer_id]['collective_visual_prompt'])
+                f.write("\n\n")
+            
             # Save collective image (download and save)
             if customer_id in image_results and image_results[customer_id]:
                 images_dir = customer_dir / "images"
