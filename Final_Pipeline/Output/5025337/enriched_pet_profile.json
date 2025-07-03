@@ -1,0 +1,388 @@
+{
+  "Turkey": {
+    "PetName": "Turkey",
+    "PetType": "Dog",
+    "PetTypeScore": 1.0,
+    "Breed": "Biewer Terrier",
+    "BreedScore": 1.0,
+    "LifeStage": "A",
+    "LifeStageScore": 1.0,
+    "Gender": "MALE",
+    "GenderScore": 1.0,
+    "SizeCategory": "XS",
+    "SizeScore": 1.0,
+    "Weight": "UNK",
+    "WeightScore": 0.0,
+    "PersonalityTraits": [
+      "Food Lover"
+    ],
+    "PersonalityScores": {
+      "Food Lover": 0.9
+    },
+    "FavoriteProductCategories": [
+      "Dog Food",
+      "Dog Leash",
+      "Dog Toy"
+    ],
+    "CategoryScores": {
+      "Dog Food": 0.9,
+      "Dog Leash": 0.7,
+      "Dog Toy": 0.7
+    },
+    "BrandPreferences": [
+      "Primal",
+      "Natural Balance",
+      "K9 Natural"
+    ],
+    "BrandScores": {
+      "Primal": 0.9,
+      "Natural Balance": 0.8,
+      "K9 Natural": 0.8
+    },
+    "DietaryPreferences": [
+      "Grain-Free",
+      "Venison",
+      "Duck",
+      "Rabbit",
+      "Turkey and Sardine"
+    ],
+    "DietaryScores": {
+      "Grain-Free": 0.9,
+      "Venison": 0.9,
+      "Duck": 0.8,
+      "Rabbit": 0.8,
+      "Turkey and Sardine": 0.8
+    },
+    "BehavioralCues": [
+      "Likes Variety",
+      "Sensitive to Certain Foods"
+    ],
+    "BehavioralScores": {
+      "Likes Variety": 0.8,
+      "Sensitive to Certain Foods": 0.8
+    },
+    "HealthMentions": [
+      "Possible Allergy"
+    ],
+    "HealthScores": {
+      "Possible Allergy": 0.8
+    },
+    "MostOrderedProducts": [
+      "Natural Balance Limited Ingredient Reserve Sweet Potato & Venison Recipe Wet Dog Food",
+      "K9 Natural Lamb & King Salmon Grain-Free Freeze-Dried Dog Food, 4-lb bag",
+      "Mendota Products Small Slip Solid Rope Dog Leash, Hunter Green, 6-ft long, 3/8-in wide"
+    ],
+    "ConfidenceScore": 0.0,
+    "confidence_score": 0.8333333333333334
+  },
+  "The Princess Monaco": {
+    "PetName": "The Princess Monaco",
+    "PetType": "Dog",
+    "PetTypeScore": 1.0,
+    "Breed": "Biewer Terrier",
+    "BreedScore": 1.0,
+    "LifeStage": "S",
+    "LifeStageScore": 1.0,
+    "Gender": "FMLE",
+    "GenderScore": 1.0,
+    "SizeCategory": "XS",
+    "SizeScore": 1.0,
+    "Weight": "UNK",
+    "WeightScore": 0.0,
+    "PersonalityTraits": [
+      "Loves food",
+      "Sensitive to certain foods"
+    ],
+    "PersonalityScores": {
+      "Loves food": 1.0,
+      "Sensitive to certain foods": 1.0
+    },
+    "FavoriteProductCategories": [
+      "Dog Food",
+      "Dog Leash",
+      "Dog Toy",
+      "Dog Harness"
+    ],
+    "CategoryScores": {
+      "Dog Food": 1.0,
+      "Dog Leash": 0.9,
+      "Dog Toy": 0.9,
+      "Dog Harness": 0.9
+    },
+    "BrandPreferences": [
+      "Primal",
+      "Natural Balance",
+      "K9 Natural",
+      "Mendota Products",
+      "American Journey",
+      "Pets First",
+      "Blueberry Pet",
+      "Go! Solutions",
+      "Grriggles"
+    ],
+    "BrandScores": {
+      "Primal": 1.0,
+      "Natural Balance": 1.0,
+      "K9 Natural": 1.0,
+      "Mendota Products": 0.9,
+      "American Journey": 0.9,
+      "Pets First": 0.9,
+      "Blueberry Pet": 0.9,
+      "Go! Solutions": 0.9,
+      "Grriggles": 0.9
+    },
+    "DietaryPreferences": [
+      "Grain-Free",
+      "Organic",
+      "Freeze-Dried",
+      "Limited Ingredient",
+      "No Chicken",
+      "No Beef",
+      "No Pork"
+    ],
+    "DietaryScores": {
+      "Grain-Free": 1.0,
+      "Organic": 1.0,
+      "Freeze-Dried": 1.0,
+      "Limited Ingredient": 1.0,
+      "No Chicken": 1.0,
+      "No Beef": 1.0,
+      "No Pork": 1.0
+    },
+    "BehavioralCues": [
+      "Enjoys variety in food",
+      "Prefers soft food"
+    ],
+    "BehavioralScores": {
+      "Enjoys variety in food": 1.0,
+      "Prefers soft food": 1.0
+    },
+    "HealthMentions": [
+      "Possible food allergy"
+    ],
+    "HealthScores": {
+      "Possible food allergy": 1.0
+    },
+    "MostOrderedProducts": [
+      "Natural Balance Limited Ingredient Reserve Sweet Potato & Venison Recipe Wet Dog Food",
+      "K9 Natural Lamb & King Salmon Grain-Free Freeze-Dried Dog Food, 4-lb bag",
+      "Mendota Products Small Slip Solid Rope Dog Leash, Hunter Green, 6-ft long, 3/8-in wide",
+      "Trademark Fine Art 'Buddy' by Pat Saunders Canvas Wall Art, 24 x 24 inches",
+      "American Journey Halloween Peanut Butter Recipe Grain-Free Oven Baked Crunchy, 8-oz bag",
+      "Natural Balance L.I.D. Limited Ingredient Diets Duck & Potato Formula Grain-Free Canned Dog Food",
+      "Pets First NCAA Dog T-Shirt, Purdue, X-Small",
+      "Blueberry Pet Classic Solid Nylon Step In Back Clip Dog Harness, Dark Orchid, Small: 16.5 to 21.5-in chest",
+      "Go! Solutions Grain-Free Freshwater Trout Formula Canned Dog Food, 13.2-oz, case of 12, Original",
+      "Grriggles Rope Bones Dog Toy, Blue, 8-inch"
+    ],
+    "ConfidenceScore": 0.0,
+    "confidence_score": 0.8333333333333334
+  },
+  "Venison": {
+    "PetName": "Venison",
+    "PetType": "Dog",
+    "PetTypeScore": 1.0,
+    "Breed": "Biewer Terrier",
+    "BreedScore": 1.0,
+    "LifeStage": "A",
+    "LifeStageScore": 1.0,
+    "Gender": "MALE",
+    "GenderScore": 1.0,
+    "SizeCategory": "XS",
+    "SizeScore": 1.0,
+    "Weight": "UNK",
+    "WeightScore": 0.0,
+    "PersonalityTraits": [
+      "UNK"
+    ],
+    "PersonalityScores": {
+      "UNK": 0.0
+    },
+    "FavoriteProductCategories": [
+      "Dog Food",
+      "Dog Leash",
+      "Dog Toy",
+      "Dog Clothing"
+    ],
+    "CategoryScores": {
+      "Dog Food": 1.0,
+      "Dog Leash": 0.8,
+      "Dog Toy": 0.8,
+      "Dog Clothing": 0.8
+    },
+    "BrandPreferences": [
+      "Primal",
+      "Natural Balance",
+      "K9 Natural",
+      "Mendota Products",
+      "Trademark Fine Art",
+      "American Journey",
+      "Pets First",
+      "Blueberry Pet",
+      "Go! Solutions",
+      "Grriggles"
+    ],
+    "BrandScores": {
+      "Primal": 1.0,
+      "Natural Balance": 0.9,
+      "K9 Natural": 0.9,
+      "Mendota Products": 0.8,
+      "Trademark Fine Art": 0.8,
+      "American Journey": 0.8,
+      "Pets First": 0.8,
+      "Blueberry Pet": 0.8,
+      "Go! Solutions": 0.8,
+      "Grriggles": 0.8
+    },
+    "DietaryPreferences": [
+      "Grain-Free",
+      "Organic Veggies and Fruits",
+      "Venison",
+      "Duck",
+      "Rabbit",
+      "No Chicken",
+      "No Beef",
+      "No Pork"
+    ],
+    "DietaryScores": {
+      "Grain-Free": 1.0,
+      "Organic Veggies and Fruits": 1.0,
+      "Venison": 1.0,
+      "Duck": 0.9,
+      "Rabbit": 0.9,
+      "No Chicken": 0.9,
+      "No Beef": 0.9,
+      "No Pork": 0.9
+    },
+    "BehavioralCues": [
+      "UNK"
+    ],
+    "BehavioralScores": {
+      "UNK": 0.0
+    },
+    "HealthMentions": [
+      "Possible Allergy"
+    ],
+    "HealthScores": {
+      "Possible Allergy": 1.0
+    },
+    "MostOrderedProducts": [
+      "Natural Balance Limited Ingredient Reserve Sweet Potato & Venison Recipe Wet Dog Food",
+      "K9 Natural Lamb & King Salmon Grain-Free Freeze-Dried Dog Food, 4-lb bag",
+      "Mendota Products Small Slip Solid Rope Dog Leash, Hunter Green, 6-ft long, 3/8-in wide",
+      "Trademark Fine Art 'Buddy' by Pat Saunders Canvas Wall Art, 24 x 24 inches",
+      "American Journey Halloween Peanut Butter Recipe Grain-Free Oven Baked Crunchy, 8-oz bag",
+      "Natural Balance L.I.D. Limited Ingredient Diets Duck & Potato Formula Grain-Free Canned Dog Food",
+      "Pets First NCAA Dog T-Shirt, Purdue, X-Small",
+      "Blueberry Pet Classic Solid Nylon Step In Back Clip Dog Harness, Dark Orchid, Small: 16.5 to 21.5-in chest",
+      "Go! Solutions Grain-Free Freshwater Trout Formula Canned Dog Food, 13.2-oz, case of 12, Original",
+      "Grriggles Rope Bones Dog Toy, Blue, 8-inch"
+    ],
+    "ConfidenceScore": 0.0,
+    "confidence_score": 0.8333333333333334
+  },
+  "Harley (James) Davidson": {
+    "PetName": "Harley (James) Davidson",
+    "PetType": "Dog",
+    "PetTypeScore": 1.0,
+    "Breed": "Biewer Terrier",
+    "BreedScore": 1.0,
+    "LifeStage": "A",
+    "LifeStageScore": 1.0,
+    "Gender": "MALE",
+    "GenderScore": 1.0,
+    "SizeCategory": "XS",
+    "SizeScore": 1.0,
+    "Weight": "UNK",
+    "WeightScore": 0.0,
+    "PersonalityTraits": [
+      "Food Lover"
+    ],
+    "PersonalityScores": {
+      "Food Lover": 0.9
+    },
+    "FavoriteProductCategories": [
+      "Dog Food",
+      "Dog Leash",
+      "Dog Toy"
+    ],
+    "CategoryScores": {
+      "Dog Food": 0.9,
+      "Dog Leash": 0.7,
+      "Dog Toy": 0.7
+    },
+    "BrandPreferences": [
+      "Primal",
+      "Natural Balance",
+      "K9 Natural",
+      "Mendota Products",
+      "Trademark Fine Art",
+      "American Journey",
+      "Pets First",
+      "Blueberry Pet",
+      "Go! Solutions",
+      "Grriggles"
+    ],
+    "BrandScores": {
+      "Primal": 0.9,
+      "Natural Balance": 0.8,
+      "K9 Natural": 0.8,
+      "Mendota Products": 0.7,
+      "Trademark Fine Art": 0.7,
+      "American Journey": 0.7,
+      "Pets First": 0.7,
+      "Blueberry Pet": 0.7,
+      "Go! Solutions": 0.7,
+      "Grriggles": 0.7
+    },
+    "DietaryPreferences": [
+      "Grain-Free",
+      "Organic",
+      "Venison",
+      "Duck",
+      "Rabbit",
+      "No Chicken",
+      "No Beef",
+      "No Pork"
+    ],
+    "DietaryScores": {
+      "Grain-Free": 0.9,
+      "Organic": 0.7,
+      "Venison": 0.9,
+      "Duck": 0.9,
+      "Rabbit": 0.9,
+      "No Chicken": 0.8,
+      "No Beef": 0.8,
+      "No Pork": 0.8
+    },
+    "BehavioralCues": [
+      "Enjoys Chewing",
+      "Sensitive to Certain Foods"
+    ],
+    "BehavioralScores": {
+      "Enjoys Chewing": 0.8,
+      "Sensitive to Certain Foods": 0.8
+    },
+    "HealthMentions": [
+      "Possible Allergy"
+    ],
+    "HealthScores": {
+      "Possible Allergy": 0.8
+    },
+    "MostOrderedProducts": [
+      "Natural Balance Limited Ingredient Reserve Sweet Potato & Venison Recipe Wet Dog Food",
+      "K9 Natural Lamb & King Salmon Grain-Free Freeze-Dried Dog Food, 4-lb bag",
+      "Mendota Products Small Slip Solid Rope Dog Leash, Hunter Green, 6-ft long, 3/8-in wide",
+      "Trademark Fine Art 'Buddy' by Pat Saunders Canvas Wall Art, 24 x 24 inches",
+      "American Journey Halloween Peanut Butter Recipe Grain-Free Oven Baked Crunchy, 8-oz bag",
+      "Natural Balance L.I.D. Limited Ingredient Diets Duck & Potato Formula Grain-Free Canned Dog Food",
+      "Pets First NCAA Dog T-Shirt, Purdue, X-Small",
+      "Blueberry Pet Classic Solid Nylon Step In Back Clip Dog Harness, Dark Orchid, Small: 16.5 to 21.5-in chest",
+      "Go! Solutions Grain-Free Freshwater Trout Formula Canned Dog Food, 13.2-oz, case of 12, Original",
+      "Grriggles Rope Bones Dog Toy, Blue, 8-inch"
+    ],
+    "ConfidenceScore": 0.0,
+    "confidence_score": 0.8333333333333334
+  },
+  "cust_confidence_score": 0.8333333333333334
+}

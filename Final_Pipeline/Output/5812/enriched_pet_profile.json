@@ -1,0 +1,135 @@
+{
+  "Denali": {
+    "PetName": "Denali",
+    "PetType": "dog",
+    "PetTypeScore": 0.9,
+    "Breed": "Boxer",
+    "BreedScore": 0.9,
+    "LifeStage": "s",
+    "LifeStageScore": 0.9,
+    "Gender": "male",
+    "GenderScore": 0.9,
+    "SizeCategory": "large",
+    "SizeScore": 0.9,
+    "Weight": "5-15 lbs",
+    "WeightScore": 0.7,
+    "PersonalityTraits": [
+      "playful",
+      "curious",
+      "affectionate"
+    ],
+    "PersonalityScores": {
+      "playful": 0.9,
+      "curious": 0.7,
+      "affectionate": 0.8
+    },
+    "FavoriteProductCategories": [
+      "toys"
+    ],
+    "CategoryScores": {
+      "toys": 0.95,
+      "food": 0.0,
+      "treats": 0.0
+    },
+    "BrandPreferences": [
+      "GoDog",
+      "Outward Hound"
+    ],
+    "BrandScores": {
+      "GoDog": 0.9,
+      "Outward Hound": 0.8
+    },
+    "DietaryPreferences": [],
+    "DietaryScores": {},
+    "BehavioralCues": [
+      "loves toys"
+    ],
+    "BehavioralScores": {
+      "loves toys": 0.95,
+      "enjoys treats": 0.0
+    },
+    "HealthMentions": [
+      "healthy",
+      "active"
+    ],
+    "HealthScores": {
+      "healthy": 0.8,
+      "active": 0.7
+    },
+    "MostOrderedProducts": [
+      "GoDog Bugs Chew Guard Fly Dog Toy, Purple, Small",
+      "Outward Hound Lil Dudes Pig Squeaky Plush Dog Toy",
+      "Ruff Dawg Om Dawg Stress Reduction System"
+    ],
+    "ConfidenceScore": 0.5,
+    "confidence_score": 0.8666666666666667,
+    "name": "Denali"
+  },
+  "Gunner": {
+    "PetName": "Gunner",
+    "PetType": "dog",
+    "PetTypeScore": 0.9,
+    "Breed": "Boxer",
+    "BreedScore": 0.9,
+    "LifeStage": "a",
+    "LifeStageScore": 0.9,
+    "Gender": "male",
+    "GenderScore": 0.9,
+    "SizeCategory": "large",
+    "SizeScore": 0.9,
+    "Weight": "5-15 lbs",
+    "WeightScore": 0.7,
+    "PersonalityTraits": [
+      "playful",
+      "curious",
+      "affectionate"
+    ],
+    "PersonalityScores": {
+      "playful": 0.9,
+      "curious": 0.7,
+      "affectionate": 0.8
+    },
+    "FavoriteProductCategories": [
+      "toys"
+    ],
+    "CategoryScores": {
+      "toys": 0.95,
+      "food": 0.0,
+      "treats": 0.0
+    },
+    "BrandPreferences": [
+      "GoDog",
+      "Outward Hound"
+    ],
+    "BrandScores": {
+      "GoDog": 0.9,
+      "Outward Hound": 0.8
+    },
+    "DietaryPreferences": [],
+    "DietaryScores": {},
+    "BehavioralCues": [
+      "loves toys"
+    ],
+    "BehavioralScores": {
+      "loves toys": 0.95,
+      "enjoys treats": 0.0
+    },
+    "HealthMentions": [
+      "healthy",
+      "active"
+    ],
+    "HealthScores": {
+      "healthy": 0.8,
+      "active": 0.7
+    },
+    "MostOrderedProducts": [
+      "GoDog Bugs Chew Guard Fly Dog Toy, Purple, Small",
+      "Outward Hound Lil Dudes Pig Squeaky Plush Dog Toy",
+      "Ruff Dawg Om Dawg Stress Reduction System"
+    ],
+    "ConfidenceScore": 0.5,
+    "confidence_score": 0.8666666666666667,
+    "name": "Gunner"
+  },
+  "cust_confidence_score": 0.8666666666666667
+}

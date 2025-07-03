@@ -1,0 +1,149 @@
+{
+  "Mike": {
+    "PetName": "Mike",
+    "PetType": "cat",
+    "PetTypeScore": 0.9,
+    "Breed": "Domestic",
+    "BreedScore": 0.9,
+    "LifeStage": "a",
+    "LifeStageScore": 0.9,
+    "Gender": "male",
+    "GenderScore": 0.9,
+    "SizeCategory": "unknown",
+    "SizeScore": 0.9,
+    "Weight": "50-90 lbs",
+    "WeightScore": 0.7,
+    "PersonalityTraits": [
+      "playful",
+      "curious",
+      "affectionate"
+    ],
+    "PersonalityScores": {
+      "playful": 0.8,
+      "curious": 0.7,
+      "affectionate": 0.9
+    },
+    "FavoriteProductCategories": [
+      "treats",
+      "toys",
+      "food"
+    ],
+    "CategoryScores": {
+      "toys": 0.9,
+      "food": 0.8,
+      "treats": 0.7
+    },
+    "BrandPreferences": [
+      "Dr. Lyon's",
+      "Wellness CORE"
+    ],
+    "BrandScores": {
+      "Dr. Lyon's": 0.9,
+      "Wellness CORE": 0.8
+    },
+    "DietaryPreferences": [
+      "grain-free"
+    ],
+    "DietaryScores": {
+      "grain-free": 0.8
+    },
+    "BehavioralCues": [
+      "loves toys",
+      "enjoys treats"
+    ],
+    "BehavioralScores": {
+      "loves toys": 0.9,
+      "enjoys treats": 0.8
+    },
+    "HealthMentions": [
+      "healthy",
+      "active"
+    ],
+    "HealthScores": {
+      "healthy": 0.8,
+      "active": 0.7
+    },
+    "MostOrderedProducts": [
+      "Dr. Lyon's Pill Pouches Peanut Butter Flavor Dog Treats, 60 count",
+      "Wellness CORE Pure Rewards Turkey Grain-Free Jerky Bites Dog Treats, 4-oz bag",
+      "PetSafe Busy Buddy Fun Durables Treat Dispenser Dog Toy, Hippo, Medium/Large"
+    ],
+    "ConfidenceScore": 0.5,
+    "confidence_score": 0.8666666666666667,
+    "name": "Mike"
+  },
+  "Myles": {
+    "PetName": "Myles",
+    "PetType": "dog",
+    "PetTypeScore": 0.9,
+    "Breed": "Australian Shepherd",
+    "BreedScore": 0.9,
+    "LifeStage": "a",
+    "LifeStageScore": 0.9,
+    "Gender": "male",
+    "GenderScore": 0.9,
+    "SizeCategory": "medium",
+    "SizeScore": 0.9,
+    "Weight": "50-90 lbs",
+    "WeightScore": 0.7,
+    "PersonalityTraits": [
+      "playful",
+      "curious",
+      "affectionate"
+    ],
+    "PersonalityScores": {
+      "playful": 0.8,
+      "curious": 0.7,
+      "affectionate": 0.9
+    },
+    "FavoriteProductCategories": [
+      "treats",
+      "toys",
+      "food"
+    ],
+    "CategoryScores": {
+      "toys": 0.9,
+      "food": 0.8,
+      "treats": 0.7
+    },
+    "BrandPreferences": [
+      "Dr. Lyon's",
+      "Wellness CORE"
+    ],
+    "BrandScores": {
+      "Dr. Lyon's": 0.9,
+      "Wellness CORE": 0.8
+    },
+    "DietaryPreferences": [
+      "grain-free"
+    ],
+    "DietaryScores": {
+      "grain-free": 0.8
+    },
+    "BehavioralCues": [
+      "loves toys",
+      "enjoys treats"
+    ],
+    "BehavioralScores": {
+      "loves toys": 0.9,
+      "enjoys treats": 0.8
+    },
+    "HealthMentions": [
+      "healthy",
+      "active"
+    ],
+    "HealthScores": {
+      "healthy": 0.8,
+      "active": 0.7
+    },
+    "MostOrderedProducts": [
+      "Dr. Lyon's Pill Pouches Peanut Butter Flavor Dog Treats, 60 count",
+      "Wellness CORE Pure Rewards Turkey Grain-Free Jerky Bites Dog Treats, 4-oz bag",
+      "PetSafe Busy Buddy Fun Durables Treat Dispenser Dog Toy, Hippo, Medium/Large"
+    ],
+    "ConfidenceScore": 0.5,
+    "confidence_score": 0.8666666666666667,
+    "name": "Myles"
+  },
+  "cust_confidence_score": 0.8666666666666667
+}

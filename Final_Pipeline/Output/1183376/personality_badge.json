@@ -1,0 +1,10 @@
+{
+  "badge": "The Cuddler",
+  "compatible_with": [
+    "The Explorer",
+    "The Scholar",
+    "The Daydreamer"
+  ],
+  "icon_png": "the_cuddler.png",
+  "description": "This household is a feline snuggle fest with a shared love for comfy clothing, playful toys, and delectable eats."
+}
