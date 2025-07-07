@@ -1,0 +1,341 @@
+[
+    {
+      "id": 750,
+      "date": "2025-03-17T09:22:27",
+      "date_gmt": "2025-03-17T09:22:27",
+      "guid": {
+        "rendered": "https://haproxy.use1.lgcy.prd.aws.chewy.cloud/eks/ns/pet-health/pet-health-content-backend/breed/irish-wolfhound/"
+      },
+      "modified": "2025-06-04T17:16:09",
+      "modified_gmt": "2025-06-04T17:16:09",
+      "slug": "irish-wolfhound",
+      "status": "publish",
+      "type": "breed",
+      "link": "https://phcms.hlth.prd.aws.chewy.cloud/breed/irish-wolfhound/",
+      "title": {
+        "rendered": "Irish Wolfhound"
+      },
+      "featured_media": 4123,
+      "template": "",
+      "pet_type": [],
+      "class_list": [
+        "post-750",
+        "breed",
+        "type-breed",
+        "status-publish",
+        "has-post-thumbnail",
+        "hentry"
+      ],
+      "acf": {
+        "breed_snapshot_best_for": "\u003Cp\u003EHave an extra-large sectional sofa that’s not getting enough use? Your house is missing an Irish Wolfhound who’d love to cozy up to you on it. These extra-large pups have an impressive stature with an extra-large helping of affection and loyalty.\u003C/p\u003E",
+        "alt_image_text": "\u003Cp\u003EThinking of raising an Irish Wolfhound dog? These unique pups are the tallest dog breed and have big personalities, too. \u003C/p\u003E",
+        "breed_intro": "\u003Cp\u003E\u003Cspan data-contrast=\"auto\"\u003EIf you’ve ever dreamed of being friends with Chewbacca, you’re in luck: Being BFFs with an Irish Wolfhound, a gentle giant of the canine world, might be the next best thing. This pup will be as loyal to you as Chewy was to Han Solo.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"auto\"\u003EIf you’ve ever wanted to literally see eye-to-eye with your dog … this is about as close as you’re going to get. (Irish Wolfhounds are at least 30 inches tall—that’s nearly 3 feet!)\u003C/span\u003E\u003Cspan data-contrast=\"none\"\u003E And while they sometimes get preoccupied in their own little world, Irish Wolfhounds are devoted besties who might forget how big they are when they go in for snuggles; but that just makes it cozier, right? \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E",
+        "breed_related_products_product_card_set": "",
+        "breed_snapshot_temperament": "\u003Cp\u003EAffectionate, Kind, Loyal\u003C/p\u003E",
+        "what_does_this_breed_look_like_weight": "\u003Cp\u003E105–120 pounds\u003C/p\u003E",
+        "what_does_this_breed_look_like_height": "\u003Cp\u003E30–32 inches\u003C/p\u003E",
+        "breed_snapshot_life_expectancy": "\u003Cp\u003E6–8 years\u003C/p\u003E",
+        "breed_snapshot_maintenance_level": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_friendliness": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_snapshot_coat_color": "\u003Cp\u003EGray, Brindle, Red, Black, White, Fawn\u003C/p\u003E",
+        "breed_snapshot_shed_level": "\u003Cp\u003E3\u003C/p\u003E",
+        "in_article_video": null,
+        "breed_characteristics": "\u003Cp\u003EThese traits are rated on a scale of 1-5 with 1 being the lowest and 5 being the highest. Remember: Dogs are individuals, and not all dogs, even those of the same breed, will exhibit all the same qualities.\u003C/p\u003E",
+        "breed_characteristics_exercise_needs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_health_issues": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_barking_tendencies": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_grooming_needs": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_shedding_level": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_training_needs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_kids": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_with_cats": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_good_for_apartments_small_homes": "\u003Cp\u003E1\u003C/p\u003E",
+        "breed_characteristics_energy_level": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_with_other_dogs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_playfulnesss": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_cold_weather": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_warm_weather": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_for_first_time_parents": "\u003Cp\u003E2\u003C/p\u003E",
+        "how_do_i_look_card_image": 4124,
+        "what_does_this_breed_look_like": "\u003Cp\u003E\u003Cspan class=\"TextRun SCXW58543174 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"\u003E\u003Cspan class=\"NormalTextRun SCXW58543174 BCX4\"\u003EStrong and elegant, the Irish Wolfhound is the tallest of all the dog breeds recognized by the American Kennel Club\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW58543174 BCX4\"\u003E (AKC)\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW58543174 BCX4\"\u003E. \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW58543174 BCX4\"\u003EEven though their size \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW58543174 BCX4\"\u003Emight be\u003C/span\u003E \u003Cspan class=\"NormalTextRun SCXW58543174 BCX4\"\u003Ea little intimidating\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW58543174 BCX4\"\u003E, \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW58543174 BCX4\"\u003Ethese gentle giants are lovers at heart.\u003C/span\u003E\u003C/span\u003E\u003Cspan class=\"EOP SCXW58543174 BCX4\" data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E",
+        "what_does_this_breed_look_like_ears": "\u003Cp\u003EIrish Wolfhounds ears are small, folded, and thrown back.\u003C/p\u003E",
+        "what_does_this_breed_look_like_eyes": "\u003Cp\u003ETheir eyes are dark and often relatively round.\u003C/p\u003E",
+        "what_does_this_breed_look_like_nose": "\u003Cp\u003EAn Irish Wolfhound nose is dark with a fairly long muzzle.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_length": "\u003Cp\u003EThe Irish Wolfhound dog breed is double-coated, which means they have a soft undercoat and a wiry overcoat.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_color": "\u003Cp\u003EIrish Wolfhound colors include gray, brindle (faint tiger stripes), red, black, white, and fawn.\u003C/p\u003E",
+        "what_does_this_breed_look_like_tail": "\u003Cp\u003EAn Irish Wolfhound’s tail is long and curved.\u003C/p\u003E",
+        "h2_breed_temperament": "\u003Cp\u003E\u003Cspan data-contrast=\"auto\"\u003EThese calm, \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/general/behavior-breeds-10-friendliest-dog-breeds\"\u003E\u003Cspan data-contrast=\"none\"\u003Efriendly pups\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E are big softies at heart. When you bring home an Irish Wolfhound puppy, you’ve found a lifelong best friend. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"auto\"\u003EBut despite their devotion, an Irish Wolfhound’s sight hound instincts sometimes convince them that their agenda—like \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/why-do-dogs-sleep-so-much\"\u003E\u003Cspan data-contrast=\"none\"\u003Enapping\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E, \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/how-to-stop-your-young-dog-from-counter-surfing-for-good\"\u003E\u003Cspan data-contrast=\"none\"\u003Ecounter surfing\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E, or watching squirrels—is the most important thing in the world. An experienced pet parent can teach them that sometimes it’s good to follow a healthy routine. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"auto\"\u003EWhen trained and \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/positively-trained-puppy-socialization-dos-and-donts\"\u003E\u003Cspan data-contrast=\"none\"\u003Ewell-socialized\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E, Irish Wolfhounds can adapt to life with other pets. But due to their ancestral sight hound instinct, they might not do well around cats, but this depends on the individual dog and whether they were properly \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/general/is-this-normal-my-cat-is-afraid-of-my-new-dog\"\u003E\u003Cspan data-contrast=\"none\"\u003Eintroduced to feline friends\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"auto\"\u003EIrish Wolfhounds generally love interacting with children but are better suited for families with older kids, as your giant pup may accidentally bump into a little kiddo or inadvertently knock them over when playing. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"auto\"\u003EThis \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/general/behavior-breeds-10-easy-going-dog-breeds\"\u003E\u003Cspan data-contrast=\"none\"\u003Ecalm breed\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E is athletic and \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/how-to-run-with-dog\"\u003E\u003Cspan data-contrast=\"none\"\u003Eloves to run\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E, but they can also be talented couch potatoes if you let them.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E",
+        "h2_how_to_care_for_a_breed": "\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EThe Irish Wolfhound is a whole lot of dog—even Irish Wolfhound puppies are big compared with most other breeds. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003ETheir size impacts everything from diet to training. But their grooming needs aren’t as outsized as their body, and Irish Wolfhounds tend to be light shedders.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E",
+        "grooming": "\u003Cul\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EBathing:\u003C/span\u003E\u003C/b\u003E \u003Ca href=\"https://www.chewy.com/education/dog/grooming/how-to-bathe-a-dog-step-by-step-tips-from-a-professional-groomer\"\u003E\u003Cspan data-contrast=\"none\"\u003EBathe your Irish Wolfhound\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E every four to six weeks. Stock up on \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/b/shampoos-2445\"\u003E\u003Cspan data-contrast=\"none\"\u003Edog shampoo\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E—you’ll need to use a lot to lather the fur on their supersized build.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EBrushing:\u003C/span\u003E\u003C/b\u003E \u003Ca href=\"https://www.chewy.com/education/dog/grooming/brushing-a-dog\"\u003E\u003Cspan data-contrast=\"none\"\u003EBrush your pup\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E at least weekly so their coats don’t get matted. Unlike many double-coated breeds, Irish Wolfhounds don’t blow their coats (that is, shed heavily) during any particular season. Instead, they shed lightly all year round. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\r\n\u003Cul\u003E\r\n\t\u003Cli\u003E\u003Cspan data-contrast=\"none\"\u003EA \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/f/dog-rake-brushes_c355_f70v83790\"\u003E\u003Cspan data-contrast=\"none\"\u003Erake brush\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E will keep their hair from getting tangled; follow up with a \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/f/dog-pin-brushes_c356_f70v83789\"\u003E\u003Cspan data-contrast=\"none\"\u003Epin brush\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E afterward. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\u003C/ul\u003E\r\n\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EDental care:\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/grooming/health-wellness-how-to-brush-your-dogs-teeth-live-to-tell-the-tale\"\u003E\u003Cspan data-contrast=\"none\"\u003EBrushing your dog’s teeth\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E every day is the best way to prevent \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/cat/health-and-wellness/dental-disease-in-dogs\"\u003E\u003Cspan data-contrast=\"none\"\u003Edental disease\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E. Begin brushing your Irish Wolfhound puppy’s teeth when they’re young so they get used to the routine. Along with at-home brushing, get a \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/care/how-much-does-dog-teeth-cleaning-cost\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Eprofessional cleaning at the vet\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E once a year. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003ENail care:\u003C/span\u003E\u003C/b\u003E \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/guide-trimming-dogs-nails\"\u003E\u003Cspan data-contrast=\"none\"\u003ETrim their nails\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E every four to six weeks.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\u003C/ul\u003E",
+        "training": "\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EWhen it comes to training Irish Wolfhounds, start early. They aren’t always easy to train, but that’s not because they lack intelligence (they \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/dog-breeds/smartest-dog-breeds\"\u003E\u003Cspan data-contrast=\"none\"\u003Every smart dogs\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E!). Rather, those big brains might make them become bored of repeating cues.  \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EThe best way to convince them to follow your lead is through \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/behavior/how-to-train-a-dog-with-positive-reinforcement\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Epositive reinforcement\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E—reward their good behavior with \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/b/training-treats-1550\"\u003E\u003Cspan data-contrast=\"none\"\u003Etreats\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/b/toys-315\"\u003E\u003Cspan data-contrast=\"none\"\u003Etoys\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, and praise.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EIrish Wolfhounds are very bright, but without consistent \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/sit-stay-and-beyond-weve-got-the-essential-guide-to-basic-dog-obedience-training\"\u003E\u003Cspan data-contrast=\"none\"\u003Eobedience training\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, their independence may win over their intelligence and get them into mischief. Cues like \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-sit\"\u003E\u003Cspan data-contrast=\"none\"\u003Esit\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-stay\"\u003E\u003Cspan data-contrast=\"none\"\u003Estay\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, and \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-come\"\u003E\u003Cspan data-contrast=\"none\"\u003Ecome\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E are good places to start, along with teaching them \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/leash-train-dog-2\"\u003E\u003Cspan data-contrast=\"none\"\u003Ehow to walk nicely on a leash\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EYou’ll also want to socialize your Irish Wolfhound puppy when they’re young. Get them out into the world meeting new people and doing new things as early as your vet says it’s OK. One way to prioritize socialization is enrolling your extra-large puppy in puppy school. They’ll learn to play nicely with other dogs and meet new people. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EIf you adopt an Irish Wolfhound when they’re older, ask your vet for the best way to go about acclimating them to their new life. Either way, keep initial public outings short, frequent, and positive so your Irish Wolfhound has good associations with the outside world. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E",
+        "diet_nutrition": "\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EIrish Wolfhounds typically do well on \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/vet-verified/best-dog-food\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Ehigh-quality commercial dog food\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E. \u003C/span\u003E\u003Cspan data-contrast=\"auto\"\u003EChoose a formula that’s \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/nutrition/What-Is-AAFCO-and-What-Does-It-Do\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003EAAFCO-compliant\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E for your dog’s life stage (puppy, adult, or \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/vet-verified/best-senior-dog-food\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Esenior\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E).\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EProper nutrition is essential for Irish Wolfhound puppies when they are growing, and they’ll need \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/vet-verified/best-food-large-breed-puppies\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Epuppy food designed for large breeds\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E. Talk to your vet about when to \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/food-and-nutrition/the-ages-and-stages-of-dog-food-from-puppy-to-adult-to-senior\"\u003E\u003Cspan data-contrast=\"none\"\u003Eswitch from puppy food to adult food\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, since Irish Wolfhound puppies grow until they’re around 2 years old.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EIf you decide to supplement beyond a balanced diet, chat with your vet first. While \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/nutramax-welactin-omega-3-liquid-skin/dp/101459\"\u003E\u003Cspan data-contrast=\"none\"\u003EIrish Wolfhounds can benefit from some supplements\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, too much of certain nutrients (like calcium or fish oil) may damage their growing bones and joints. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EAdult Irish Wolfhounds can quickly become overweight, which can stress their joints and lead to heart issues. Always talk with your veterinarian when making decisions about your Irish Wolfhound’s diet. They’re in the best position to help you pick the right food for your individual dog. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003ERemember that treats should never be more than 10% of a dog’s daily calories.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EAnd because Irish Wolfhounds are susceptible to a life-threatening condition that can be triggered during mealtimes (more on that below), take these precautions when feeding your dog:\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cul\u003E\r\n\t\u003Cli\u003E\u003Cspan data-contrast=\"none\"\u003EOffer food in a \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/b/slow-feeders-1424\"\u003E\u003Cspan data-contrast=\"none\"\u003Eslow feeder bowl\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/frisco-pizza-snuffle-mat-yellow/dp/393326\"\u003E\u003Cspan data-contrast=\"none\"\u003Esnuffle mat\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, or \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/nina-ottosson-by-outward-hound-brick/dp/961006\"\u003E\u003Cspan data-contrast=\"none\"\u003Epuzzle toy\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E to slow down your dog’s gulping.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cspan data-contrast=\"none\"\u003EAvoid using elevated food bowls.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cspan data-contrast=\"none\"\u003EDon’t let your pup exercise for an hour before or after eating.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cspan data-contrast=\"none\"\u003EFeed your dog scheduled meals at least twice a day instead of one big meal.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\u003C/ul\u003E",
+        "exercise": "\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EWith a stride that could be 10 feet, Irish Wolfhounds need plenty of opportunities to stretch those legs. An hour or two of \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/how-much-exercise-does-my-dog-need\"\u003E\u003Cspan data-contrast=\"none\"\u003Edaily exercise\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E is a nonnegotiable. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EThis breed’s need for speed can top out at 30 miles an hour—yep, they’re faster than you’re typically allowed to drive in a suburban neighborhood. But their galloping ways and \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/behavior-pet-facts-why-do-dogs-get-the-zoomies\"\u003E\u003Cspan data-contrast=\"none\"\u003Eoccasional “zoomies”\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E are more for short jaunts rather than long distances. \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/walking-with-dog\"\u003E\u003Cspan data-contrast=\"none\"\u003EShorter walks\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E of one to two miles are ideal for daily exercise.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EExercise is always important, but growing Irish Wolfhound puppies need special consideration. Avoid jogging with them until they’re at least 16 months old; giant dog breeds are prone to joint issues, and strenuous exercise before their bodies are fully developed can damage their joints. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EStrive for a balanced approach: Allow Irish Wolfhound puppies to play on their terms, but make sure they don’t overdo it.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E",
+        "ideal_environment": "\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EIf you have a tiny home or apartment, an Irish Wolfhound might not be your perfect match. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EThese long-limbed pups do best with ample space and a fenced yard with room to run like the wind when the mood strikes. They’ll also appreciate an extra-large couch or \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/furhaven-ultra-plush-luxe-lounger/dp/198929\"\u003E\u003Cspan data-contrast=\"none\"\u003Eorthopedic dog bed\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, as they prefer to punctuate their days with naps when they’re not out playing (it’s a solid strategy!).\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EIf you’re an active, experienced pet parent who also enjoys frequent walks, an Irish Wolfhound is an ideal companion—though you may have trouble matching them stride for stride. (It’s OK—let them show off a bit!) \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EBecause Irish Wolfhounds are so tall, they may not be the best choice for homes with young kids. Your Irish Wolfhound might accidentally play too hard or bump them with a huge paw. That said, their friendly personality is a good fit for older children, and they can also be very good with other dogs, if they’re socialized. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EHomes with cats or other small pets might not be ideal, since all sight hounds tend to have a \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/behavior/prey-drive-dog\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Ehigh prey drive\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E; they might chase smaller animals out of instinct. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E",
+        "h2_breed_health": "\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EThe average Irish Wolfhound lifespan is 6–8 years. Their size makes them prone to certain health conditions, and it’s important for pet parents to know that routine vet care can quickly become expensive for this big breed. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EFor example, Irish Wolfhounds will need greater quantities of certain medications—the same doses smaller dogs receive just won’t be effective. This is a good reason to consider \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/general-health/how-much-does-pet-insurance-cost\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Epet insurance\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EHere are some health issues to be aware of. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cul\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EBloat and gastric dilatation-volvulus (GDV):\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E Irish Wolfhounds are prone to a \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/bloat-in-dogs\"\u003E\u003Cspan data-contrast=\"none\"\u003Elife-threatening condition called bloat\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E that occurs when the stomach becomes distended with air and/or food. A serious complication of bloat is \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/digestive/gastric-dilatation-volvulus-gdv-syndrome\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Egastric dilatation-volvulus\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, when the stomach twists on itself, cutting off blood supply to the organs. Symptoms include abdominal distension, restlessness, excessive drooling, and dry heaving; \u003C/span\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003Ego to the emergency vet immediately if you notice these signs.\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\r\n\u003Cul\u003E\r\n\t\u003Cli\u003E\u003Cspan data-contrast=\"none\"\u003EIf you’re concerned about GDV, talk to your vet about a \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/procedure/gastropexy-in-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Epreventative gastropexy procedure\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\u003C/ul\u003E\r\n\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EBone cancer\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E: More formally known as \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/c_multi_osteosarcoma\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Eosteosarcoma\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, bone cancer is common in Irish Wolfhounds. Treatment often includes surgery, \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/procedure/chemotherapy-for-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Echemotherapy\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, and radiation. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EElbow and hip dysplasia: \u003C/span\u003E\u003C/b\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/elbow-dysplasia-in-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003EElbow\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E and \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/hip-dysplasia-in-dogs\"\u003E\u003Cspan data-contrast=\"none\"\u003Ehip dysplasia\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E are genetic conditions that develop during puppyhood when the joints don’t align well and become loose. Signs include limping, and treatment might involve weight loss, reduced activity, \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/vet-verified/best-joint-supplements-for-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Ejoint supplements\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, physical therapy, pain meds, or (in severe cases) surgery.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"auto\"\u003EHeart disease\u003C/span\u003E\u003C/b\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003E: \u003C/span\u003E\u003C/b\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/cardiovascular/enlarged-heart-dilated-cardiomyopathy-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003EDilated cardiomyopathy\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E (DCM), or an enlarged heart, is one of the most common heart diseases in large-breed dogs. When the heart enlarges, it results in thin and weakened heart muscles, leading to heart failure. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003ELiver shunts\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E: This is an \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/general-health/liver-shunts-dogs-what-you-need-know\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Eabnormal series of blood vessels\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E that bypass a dog’s liver, which can cause stunted growth, poor muscle development, disorientation, and \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/what-causes-dogs-to-have-seizures\"\u003E\u003Cspan data-contrast=\"none\"\u003Eseizures\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E. There is no genetic screening test for liver shunts in dogs. Still, you can manage the condition with diet changes, antibiotics, other medications, and surgery. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\u003C/ul\u003E",
+        "h2_breed_history": "\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EThe name says it all: Irish Wolfhounds are hounds with origins in Ireland, and they hunted wolves as far back as the 1400s. Honored for centuries in Irish folklore, the Irish Wolfhound size and stature made them excellent companions on quests, battles, and general adventuring.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EHowever, Irish Wolfhounds may have done too good of a job: Wolves were eradicated in Ireland by the 1700s. Subsequently, the population of Irish Wolfhounds diminished, and they were in danger of extinction until there was renewed interest in preserving the breed in the 1800s, according to the \u003C/span\u003E\u003Ca href=\"https://www.iwclubofamerica.org/revival-starbuck\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003EIrish Wolfhound Club of America\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E. The American Kennel Club recognized the Irish Wolfhound in 1897. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EThe average Irish Wolfhound costs between $1,500–$3,500. If you choose this route, pick a \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/how-to-find-ethical-reputable-responsible-breeder\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Eresponsible breeder\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E.  \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EYou can also consider Irish Wolfhound adoption. Check in at a giant-breed rescue like \u003C/span\u003E\u003Ca href=\"https://justgiants.org/\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003EJust Giants\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E or \u003C/span\u003E\u003Ca href=\"https://www.bigdogshugepaws.com/adoption\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003EBig Dogs Huge Paws\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, and you can also keep an eye out at your local animal shelter or search \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/g/dog-irish-wolfhound_ga1\"\u003E\u003Cspan data-contrast=\"none\"\u003EChewy’s database of adoptable dogs\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E in your area.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E",
+        "expert_attribution": "\u003Cp\u003E\u003Ci\u003EThis content was medically reviewed by Barri Morrison, DVM, Chewy veterinarian.\u003C/i\u003E\u003C/p\u003E",
+        "facebook_social_snippet_with_cta": "\u003Cp\u003EIf you love the idea of a dog who defines the term \"gentle giant,\"  check out the Irish Wolfhound. Find out if these loving dogs are a good match for your family and check out all the facts, information and a bit of Irish Wolfhound history in our complete guide.\u003C/p\u003E",
+        "species": "\u003Cp\u003EDog\u003C/p\u003E",
+        "h2_faqs": "",
+        "faq_items": [
+          {
+            "faq_title": "Do Irish Wolfhounds shed? ",
+            "faq_content": "\u003Cp\u003E\u003Cspan class=\"TextRun SCXW184603612 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"\u003E\u003Cspan class=\"NormalTextRun SCXW184603612 BCX4\"\u003EYes, Irish Wolfhounds shed \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW184603612 BCX4\"\u003Emoderately\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW184603612 BCX4\"\u003E year-round. While they shed an average amount for a double-coated breed, Irish Wolfhounds \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW184603612 BCX4\"\u003Earen’t\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW184603612 BCX4\"\u003E known for heavy seasonal shedding.\u003C/span\u003E\u003C/span\u003E\u003Cspan class=\"EOP SCXW184603612 BCX4\" data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E"
+          },
+          {
+            "faq_title": "How long do Irish Wolfhounds live? ",
+            "faq_content": "\u003Cp\u003E\u003Cspan class=\"TextRun SCXW97398896 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"\u003E\u003Cspan class=\"NormalTextRun SCXW97398896 BCX4\"\u003EThe \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW97398896 BCX4\"\u003EIrish Wolfhound \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW97398896 BCX4\"\u003Elife expectancy is 6\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW97398896 BCX4\"\u003E–\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW97398896 BCX4\"\u003E8 years. Like many large and giant dog breeds, \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW97398896 BCX4\"\u003EIrish Wolfhound \u003C/span\u003E\u003C/span\u003E\u003Ca class=\"Hyperlink SCXW97398896 BCX4\" href=\"https://www.chewy.com/education/dog/health-and-wellness/how-long-do-dogs-live\" rel=\"noreferrer noopener\"\u003E\u003Cspan class=\"TextRun Underlined SCXW97398896 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\u003E\u003Cspan class=\"NormalTextRun SCXW97398896 BCX4\" data-ccp-charstyle=\"Hyperlink\"\u003Elifespans are shorter than smaller breeds\u003C/span\u003E\u003C/span\u003E\u003C/a\u003E\u003Cspan class=\"TextRun SCXW97398896 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"\u003E\u003Cspan class=\"NormalTextRun SCXW97398896 BCX4\"\u003E.\u003C/span\u003E\u003C/span\u003E\u003Cspan class=\"EOP SCXW97398896 BCX4\" data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E"
+          },
+          {
+            "faq_title": "How big do Irish Wolfhounds get? ",
+            "faq_content": "\u003Cp\u003E\u003Cspan class=\"TextRun SCXW192413216 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"\u003E\u003Cspan class=\"NormalTextRun SCXW192413216 BCX4\"\u003EIrish Wolfhounds get \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW192413216 BCX4\"\u003Every, very big\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW192413216 BCX4\"\u003E. \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW192413216 BCX4\"\u003EThe typical Irish Wolfhound height is 30–32 inches; they \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW192413216 BCX4\"\u003Eare the tallest dog breed recognized by the \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW192413216 BCX4\"\u003EAKC\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW192413216 BCX4\"\u003E.\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW192413216 BCX4\"\u003E Average Irish Wolfhound weight is \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW192413216 BCX4\"\u003E105–120 pounds\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW192413216 BCX4\"\u003E.\u003C/span\u003E\u003C/span\u003E\u003Cspan class=\"EOP SCXW192413216 BCX4\" data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E"
+          },
+          {
+            "faq_title": "Are Irish Wolfhounds good pets? ",
+            "faq_content": "\u003Cp\u003E\u003Cspan class=\"NormalTextRun SCXW199743577 BCX4\"\u003EYes, Irish Wolfhounds are good pets. \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW199743577 BCX4\"\u003EThey’re\u003C/span\u003E \u003Cspan class=\"NormalTextRun SCXW199743577 BCX4\"\u003Egenerally kind\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW199743577 BCX4\"\u003E and loyal\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW199743577 BCX4\"\u003E, and they love family life.\u003C/span\u003E\u003C/p\u003E"
+          },
+          {
+            "faq_title": "Irish Wolfhound vs. Great Dane: What’s the difference? ",
+            "faq_content": "\u003Cp\u003E\u003Cspan class=\"TextRun SCXW144536350 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\u003E\u003Cspan class=\"NormalTextRun SCXW144536350 BCX4\"\u003EIrish Wolfhounds and \u003C/span\u003E\u003C/span\u003E\u003Ca class=\"Hyperlink SCXW144536350 BCX4\" href=\"https://www.chewy.com/education/dog-breeds/great-dane\" rel=\"noreferrer noopener\"\u003E\u003Cspan class=\"TextRun Underlined SCXW144536350 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\u003E\u003Cspan class=\"NormalTextRun SCXW144536350 BCX4\" data-ccp-charstyle=\"Hyperlink\"\u003EGreat Danes\u003C/span\u003E\u003C/span\u003E\u003C/a\u003E\u003Cspan class=\"TextRun SCXW144536350 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\u003E\u003Cspan class=\"NormalTextRun SCXW144536350 BCX4\"\u003E are both giant breeds\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW144536350 BCX4\"\u003E that are similar in height. The biggest difference is in appearance: Irish Wolfhounds have coarse, wiry hair while a Great Dane’s coat is short and smooth. \u003C/span\u003E\u003C/span\u003E\u003Cspan class=\"EOP SCXW144536350 BCX4\" data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E"
+          },
+          {
+            "faq_title": "Irish Wolfhound vs. Deerhound: What’s the difference?   ",
+            "faq_content": "\u003Cp\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003Cspan data-contrast=\"none\"\u003EWhile they’re both giant dogs with a similar appearance, the \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/breeds/scottish-deerhound\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003EScottish Deerhound\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E is slightly smaller with a slenderer build. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E"
+          }
+        ],
+        "select_related_breeds": [
+          {
+            "selected_related_breed": 311,
+            "characteristic": "breed_characteristics_good_with_other_dogs"
+          },
+          {
+            "selected_related_breed": 939,
+            "characteristic": "breed_characteristics_shedding_level"
+          },
+          {
+            "selected_related_breed": 1217,
+            "characteristic": "breed_characteristics_training_needs"
+          },
+          {
+            "selected_related_breed": 902,
+            "characteristic": "breed_characteristics_good_for_first_time_parents"
+          },
+          {
+            "selected_related_breed": 331,
+            "characteristic": "breed_characteristics_exercise_needs"
+          },
+          {
+            "selected_related_breed": 1152,
+            "characteristic": "breed_characteristics_biting_tendencies"
+          }
+        ],
+        "enable_featured_gallery": [
+          "enable_featured_gallery"
+        ],
+        "featured_gallery_images": [739, 740, 741, 742, 743, 744, 745, 746]
+      },
+      "yoast_head": "\u003C!-- This site is optimized with the Yoast SEO plugin v23.8 - https://yoast.com/wordpress/plugins/seo/ --\u003E\n\u003Ctitle\u003EIrish Wolfhound Characteristics, Care &amp; Photos | Chewy\u003C/title\u003E\n\u003Cmeta name=\"description\" content=\"Irish Wolfhounds are affectionate and loyal. Learn more about the tallest dog breed and get expert advice on how best to care for them.\" /\u003E\n\u003Cmeta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" /\u003E\n\u003Clink rel=\"canonical\" href=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/irish-wolfhound/\" /\u003E\n\u003Cmeta property=\"og:locale\" content=\"en_US\" /\u003E\n\u003Cmeta property=\"og:type\" content=\"article\" /\u003E\n\u003Cmeta property=\"og:title\" content=\"Irish Wolfhound Characteristics, Care &amp; Photos | Chewy\" /\u003E\n\u003Cmeta property=\"og:description\" content=\"Irish Wolfhounds are affectionate and loyal. Learn more about the tallest dog breed and get expert advice on how best to care for them.\" /\u003E\n\u003Cmeta property=\"og:url\" content=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/irish-wolfhound/\" /\u003E\n\u003Cmeta property=\"og:site_name\" content=\"Chewy\" /\u003E\n\u003Cmeta property=\"article:modified_time\" content=\"2025-06-04T17:16:09+00:00\" /\u003E\n\u003Cmeta property=\"og:image\" content=\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/03/21152044/Breed-Hero-Irish-Wolfhound.jpg\" /\u003E\n\t\u003Cmeta property=\"og:image:width\" content=\"1835\" /\u003E\n\t\u003Cmeta property=\"og:image:height\" content=\"1032\" /\u003E\n\t\u003Cmeta property=\"og:image:type\" content=\"image/jpeg\" /\u003E\n\u003Cmeta name=\"twitter:card\" content=\"summary_large_image\" /\u003E\n\u003Cmeta name=\"twitter:label1\" content=\"Est. reading time\" /\u003E\n\t\u003Cmeta name=\"twitter:data1\" content=\"1 minute\" /\u003E\n\u003Cscript type=\"application/ld+json\" class=\"yoast-schema-graph\"\u003E{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/irish-wolfhound/\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/irish-wolfhound/\",\"name\":\"Irish Wolfhound Characteristics, Care & Photos | Chewy\",\"isPartOf\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/irish-wolfhound/#primaryimage\"},\"image\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/irish-wolfhound/#primaryimage\"},\"thumbnailUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/03/21152044/Breed-Hero-Irish-Wolfhound.jpg\",\"datePublished\":\"2025-03-17T09:22:27+00:00\",\"dateModified\":\"2025-06-04T17:16:09+00:00\",\"description\":\"Irish Wolfhounds are affectionate and loyal. Learn more about the tallest dog breed and get expert advice on how best to care for them.\",\"breadcrumb\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/irish-wolfhound/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://phcms.hlth.prd.aws.chewy.cloud/breed/irish-wolfhound/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/irish-wolfhound/#primaryimage\",\"url\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/03/21152044/Breed-Hero-Irish-Wolfhound.jpg\",\"contentUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/03/21152044/Breed-Hero-Irish-Wolfhound.jpg\",\"width\":1835,\"height\":1032,\"caption\":\"gray irish wolfhound sitting on an isolated blue background\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/irish-wolfhound/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://phcms.hlth.prd.aws.chewy.cloud/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Irish Wolfhound\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/\",\"name\":\"Chewy\",\"description\":\"\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"}]}\u003C/script\u003E\n\u003C!-- / Yoast SEO plugin. --\u003E",
+      "yoast_head_json": {
+        "title": "Irish Wolfhound Characteristics, Care & Photos | Chewy",
+        "description": "Irish Wolfhounds are affectionate and loyal. Learn more about the tallest dog breed and get expert advice on how best to care for them.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://phcms.hlth.prd.aws.chewy.cloud/breed/irish-wolfhound/",
+        "og_locale": "en_US",
+        "og_type": "article",
+        "og_title": "Irish Wolfhound Characteristics, Care & Photos | Chewy",
+        "og_description": "Irish Wolfhounds are affectionate and loyal. Learn more about the tallest dog breed and get expert advice on how best to care for them.",
+        "og_url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/irish-wolfhound/",
+        "og_site_name": "Chewy",
+        "article_modified_time": "2025-06-04T17:16:09+00:00",
+        "og_image": [
+          {
+            "width": 1835,
+            "height": 1032,
+            "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/03/21152044/Breed-Hero-Irish-Wolfhound.jpg",
+            "type": "image/jpeg"
+          }
+        ],
+        "twitter_card": "summary_large_image",
+        "twitter_misc": {
+          "Est. reading time": "1 minute"
+        },
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/irish-wolfhound/",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/irish-wolfhound/",
+              "name": "Irish Wolfhound Characteristics, Care & Photos | Chewy",
+              "isPartOf": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/irish-wolfhound/#primaryimage"
+              },
+              "image": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/irish-wolfhound/#primaryimage"
+              },
+              "thumbnailUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/03/21152044/Breed-Hero-Irish-Wolfhound.jpg",
+              "datePublished": "2025-03-17T09:22:27+00:00",
+              "dateModified": "2025-06-04T17:16:09+00:00",
+              "description": "Irish Wolfhounds are affectionate and loyal. Learn more about the tallest dog breed and get expert advice on how best to care for them.",
+              "breadcrumb": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/irish-wolfhound/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://phcms.hlth.prd.aws.chewy.cloud/breed/irish-wolfhound/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/irish-wolfhound/#primaryimage",
+              "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/03/21152044/Breed-Hero-Irish-Wolfhound.jpg",
+              "contentUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/03/21152044/Breed-Hero-Irish-Wolfhound.jpg",
+              "width": 1835,
+              "height": 1032,
+              "caption": "gray irish wolfhound sitting on an isolated blue background"
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/irish-wolfhound/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://phcms.hlth.prd.aws.chewy.cloud/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Irish Wolfhound"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/",
+              "name": "Chewy",
+              "description": "",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            }
+          ]
+        }
+      },
+      "yoast_meta": {
+        "yoast_wpseo_title": "",
+        "yoast_wpseo_metadesc": "",
+        "yoast_wpseo_canonical": ""
+      },
+      "_links": {
+        "self": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed/750",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/types/breed"
+          }
+        ],
+        "acf:attachment": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/746"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/745"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/744"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/743"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/742"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/741"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/740"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/739"
+          }
+        ],
+        "wp:featuredmedia": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/4123"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media?parent=750"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "pet_type",
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/pet_type?post=750"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ]

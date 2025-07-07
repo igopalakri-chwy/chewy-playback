@@ -1,188 +1,4 @@
 {
-  "Turbo": {
-    "PetName": "Turbo",
-    "PetType": "Cat",
-    "PetTypeScore": 1.0,
-    "Breed": "Himalayan",
-    "BreedScore": 1.0,
-    "LifeStage": "A",
-    "LifeStageScore": 1.0,
-    "Gender": "MALE",
-    "GenderScore": 1.0,
-    "SizeCategory": "UNK",
-    "SizeScore": 0.0,
-    "Weight": "UNK",
-    "WeightScore": 0.0,
-    "PersonalityTraits": [
-      "Likes to play with toys",
-      "Comfortable with clothing"
-    ],
-    "PersonalityScores": {
-      "Likes to play with toys": 0.8,
-      "Comfortable with clothing": 0.7
-    },
-    "FavoriteProductCategories": [
-      "Toys",
-      "Clothing",
-      "Food"
-    ],
-    "CategoryScores": {
-      "Toys": 0.9,
-      "Clothing": 0.7,
-      "Food": 1.0
-    },
-    "BrandPreferences": [
-      "OurPets",
-      "VeRUS",
-      "Go! Solutions",
-      "Purina Beyond"
-    ],
-    "BrandScores": {
-      "OurPets": 0.9,
-      "VeRUS": 0.7,
-      "Go! Solutions": 0.7,
-      "Purina Beyond": 0.7
-    },
-    "DietaryPreferences": [
-      "Fish",
-      "Beef",
-      "Apple",
-      "Vegetable",
-      "Green Lipped Mussel",
-      "Pollock",
-      "Grain-Free",
-      "Icelandic Arctic Char",
-      "Lentil"
-    ],
-    "DietaryScores": {
-      "Fish": 0.9,
-      "Beef": 0.7,
-      "Apple": 0.7,
-      "Vegetable": 0.7,
-      "Green Lipped Mussel": 0.7,
-      "Pollock": 0.7,
-      "Grain-Free": 0.7,
-      "Icelandic Arctic Char": 0.7,
-      "Lentil": 0.7
-    },
-    "BehavioralCues": [
-      "Accepts medication easily"
-    ],
-    "BehavioralScores": {
-      "Accepts medication easily": 0.8
-    },
-    "HealthMentions": [
-      "Healthy urinary tract",
-      "Dental health"
-    ],
-    "HealthScores": {
-      "Healthy urinary tract": 0.7,
-      "Dental health": 0.7
-    },
-    "MostOrderedProducts": [
-      "OurPets Fish Teaser Wand Cat Toy, Color/Character Varies",
-      "VeRUS Beef, Apple, Vegetable & Green Lipped Mussel Canned Cat Food",
-      "Go! Solutions SENSITIVITIES Limited Ingredient Pollock Grain-Free Dry Cat Food, 8-lb bag",
-      "Purina Beyond Grain-Free Icelandic Arctic Char & Lentil Recipe Dry Cat Food"
-    ],
-    "ConfidenceScore": 0.0,
-    "confidence_score": 0.6666666666666666,
-    "name": "Turbo"
-  },
-  "Elwood": {
-    "PetName": "Elwood",
-    "PetType": "Cat",
-    "PetTypeScore": 1.0,
-    "Breed": "Birman",
-    "BreedScore": 1.0,
-    "LifeStage": "A",
-    "LifeStageScore": 1.0,
-    "Gender": "MALE",
-    "GenderScore": 1.0,
-    "SizeCategory": "UNK",
-    "SizeScore": 0.0,
-    "Weight": "UNK",
-    "WeightScore": 0.0,
-    "PersonalityTraits": [
-      "Likes wearing clothes",
-      "Likes toys",
-      "Likes food"
-    ],
-    "PersonalityScores": {
-      "Likes wearing clothes": 0.8,
-      "Likes toys": 0.7,
-      "Likes food": 1.0
-    },
-    "FavoriteProductCategories": [
-      "Toys",
-      "Food",
-      "Clothing"
-    ],
-    "CategoryScores": {
-      "Toys": 0.8,
-      "Food": 1.0,
-      "Clothing": 0.8
-    },
-    "BrandPreferences": [
-      "OurPets",
-      "VeRUS",
-      "Go! Solutions",
-      "Purina Beyond"
-    ],
-    "BrandScores": {
-      "OurPets": 0.9,
-      "VeRUS": 0.7,
-      "Go! Solutions": 0.6,
-      "Purina Beyond": 0.6
-    },
-    "DietaryPreferences": [
-      "Grain-Free",
-      "Fish",
-      "Beef",
-      "Apple",
-      "Vegetable",
-      "Green Lipped Mussel",
-      "Pollock",
-      "Icelandic Arctic Char",
-      "Lentil"
-    ],
-    "DietaryScores": {
-      "Grain-Free": 0.8,
-      "Fish": 0.7,
-      "Beef": 0.7,
-      "Apple": 0.7,
-      "Vegetable": 0.7,
-      "Green Lipped Mussel": 0.7,
-      "Pollock": 0.6,
-      "Icelandic Arctic Char": 0.6,
-      "Lentil": 0.6
-    },
-    "BehavioralCues": [
-      "Accepts medication",
-      "Interacts with multiple cats"
-    ],
-    "BehavioralScores": {
-      "Accepts medication": 0.8,
-      "Interacts with multiple cats": 0.9
-    },
-    "HealthMentions": [
-      "Healthy urinary tract",
-      "Dental health"
-    ],
-    "HealthScores": {
-      "Healthy urinary tract": 0.7,
-      "Dental health": 0.6
-    },
-    "MostOrderedProducts": [
-      "OurPets Fish Teaser Wand Cat Toy, Color/Character Varies",
-      "VeRUS Beef, Apple, Vegetable & Green Lipped Mussel Canned Cat Food",
-      "Go! Solutions SENSITIVITIES Limited Ingredient Pollock Grain-Free Dry Cat Food, 8-lb bag",
-      "Purina Beyond Grain-Free Icelandic Arctic Char & Lentil Recipe Dry Cat Food"
-    ],
-    "ConfidenceScore": 0.0,
-    "confidence_score": 0.6666666666666666,
-    "name": "Elwood"
-  },
   "UNK": {
     "PetName": "UNK",
     "PetType": "Cat",
@@ -266,6 +82,194 @@
     "ConfidenceScore": 0.0,
     "confidence_score": 0.16666666666666666,
     "name": "UNK"
+  },
+  "Elwood": {
+    "PetName": "Elwood",
+    "PetType": "Cat",
+    "PetTypeScore": 1.0,
+    "Breed": "Birman",
+    "BreedScore": 1.0,
+    "LifeStage": "A",
+    "LifeStageScore": 1.0,
+    "Gender": "MALE",
+    "GenderScore": 1.0,
+    "SizeCategory": "UNK",
+    "SizeScore": 0,
+    "Weight": "UNK",
+    "WeightScore": 0,
+    "PersonalityTraits": [
+      "Likes wearing clothes",
+      "Likes playing with toys",
+      "Likes certain foods"
+    ],
+    "PersonalityScores": {
+      "Likes wearing clothes": 0.8,
+      "Likes playing with toys": 0.8,
+      "Likes certain foods": 0.9
+    },
+    "FavoriteProductCategories": [
+      "Toys",
+      "Clothes",
+      "Food"
+    ],
+    "CategoryScores": {
+      "Toys": 0.9,
+      "Clothes": 0.8,
+      "Food": 1.0
+    },
+    "BrandPreferences": [
+      "OurPets",
+      "VeRUS",
+      "Go! Solutions",
+      "Purina Beyond"
+    ],
+    "BrandScores": {
+      "OurPets": 0.9,
+      "VeRUS": 0.7,
+      "Go! Solutions": 0.7,
+      "Purina Beyond": 0.7
+    },
+    "DietaryPreferences": [
+      "Fish",
+      "Beef",
+      "Apple",
+      "Vegetable",
+      "Green Lipped Mussel",
+      "Pollock",
+      "Grain-Free",
+      "Icelandic Arctic Char",
+      "Lentil"
+    ],
+    "DietaryScores": {
+      "Fish": 0.9,
+      "Beef": 0.7,
+      "Apple": 0.7,
+      "Vegetable": 0.7,
+      "Green Lipped Mussel": 0.7,
+      "Pollock": 0.7,
+      "Grain-Free": 0.7,
+      "Icelandic Arctic Char": 0.7,
+      "Lentil": 0.7
+    },
+    "BehavioralCues": [
+      "Accepts medication easily"
+    ],
+    "BehavioralScores": {
+      "Accepts medication easily": 0.8
+    },
+    "HealthMentions": [
+      "Urinary tract health",
+      "Dental health"
+    ],
+    "HealthScores": {
+      "Urinary tract health": 0.8,
+      "Dental health": 0.7
+    },
+    "MostOrderedProducts": [
+      "OurPets Fish Teaser Wand Cat Toy, Color/Character Varies",
+      "VeRUS Beef, Apple, Vegetable & Green Lipped Mussel Canned Cat Food",
+      "Go! Solutions SENSITIVITIES Limited Ingredient Pollock Grain-Free Dry Cat Food, 8-lb bag",
+      "Purina Beyond Grain-Free Icelandic Arctic Char & Lentil Recipe Dry Cat Food"
+    ],
+    "ConfidenceScore": 0.0,
+    "confidence_score": 0.6666666666666666,
+    "name": "Elwood"
+  },
+  "Turbo": {
+    "PetName": "Turbo",
+    "PetType": "Cat",
+    "PetTypeScore": 1.0,
+    "Breed": "Himalayan",
+    "BreedScore": 1.0,
+    "LifeStage": "A",
+    "LifeStageScore": 1.0,
+    "Gender": "MALE",
+    "GenderScore": 1.0,
+    "SizeCategory": "UNK",
+    "SizeScore": 0,
+    "Weight": "UNK",
+    "WeightScore": 0,
+    "PersonalityTraits": [
+      "Likes wearing clothes",
+      "Likes toys",
+      "Likes certain foods"
+    ],
+    "PersonalityScores": {
+      "Likes wearing clothes": 0.8,
+      "Likes toys": 0.7,
+      "Likes certain foods": 0.9
+    },
+    "FavoriteProductCategories": [
+      "Toys",
+      "Clothes",
+      "Food"
+    ],
+    "CategoryScores": {
+      "Toys": 0.8,
+      "Clothes": 0.8,
+      "Food": 0.9
+    },
+    "BrandPreferences": [
+      "OurPets",
+      "VeRUS",
+      "Go! Solutions",
+      "Purina Beyond"
+    ],
+    "BrandScores": {
+      "OurPets": 0.9,
+      "VeRUS": 0.7,
+      "Go! Solutions": 0.7,
+      "Purina Beyond": 0.7
+    },
+    "DietaryPreferences": [
+      "Grain-Free",
+      "Fish",
+      "Beef",
+      "Apple",
+      "Vegetable",
+      "Green Lipped Mussel",
+      "Pollock",
+      "Icelandic Arctic Char",
+      "Lentil"
+    ],
+    "DietaryScores": {
+      "Grain-Free": 0.8,
+      "Fish": 0.7,
+      "Beef": 0.7,
+      "Apple": 0.7,
+      "Vegetable": 0.7,
+      "Green Lipped Mussel": 0.7,
+      "Pollock": 0.7,
+      "Icelandic Arctic Char": 0.7,
+      "Lentil": 0.7
+    },
+    "BehavioralCues": [
+      "Comfortable with clothes",
+      "Plays with toys",
+      "Eats variety of foods"
+    ],
+    "BehavioralScores": {
+      "Comfortable with clothes": 0.8,
+      "Plays with toys": 0.7,
+      "Eats variety of foods": 0.9
+    },
+    "HealthMentions": [
+      "Healthy urinary tract",
+      "Dental health"
+    ],
+    "HealthScores": {
+      "Healthy urinary tract": 0.7,
+      "Dental health": 0.7
+    },
+    "MostOrderedProducts": [
+      "OurPets Fish Teaser Wand Cat Toy",
+      "VeRUS Beef, Apple, Vegetable & Green Lipped Mussel Canned Cat Food",
+      "Go! Solutions SENSITIVITIES Limited Ingredient Pollock Grain-Free Dry Cat Food",
+      "Purina Beyond Grain-Free Icelandic Arctic Char & Lentil Recipe Dry Cat Food"
+    ],
+    "ConfidenceScore": 0.0,
+    "confidence_score": 0.6666666666666666,
+    "name": "Turbo"
   },
   "cust_confidence_score": 0.5
 }

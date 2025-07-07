@@ -1,0 +1,325 @@
+[
+    {
+      "id": 436,
+      "date": "2021-06-28T16:04:06",
+      "date_gmt": "2021-06-28T16:04:06",
+      "guid": {
+        "rendered": "https://haproxy.use1.lgcy.prd.aws.chewy.cloud/eks/ns/pet-health/pet-health-content-backend/breed/lakeland-terrier/"
+      },
+      "modified": "2025-05-05T14:21:31",
+      "modified_gmt": "2025-05-05T14:21:31",
+      "slug": "lakeland-terrier",
+      "status": "publish",
+      "type": "breed",
+      "link": "https://phcms.hlth.prd.aws.chewy.cloud/breed/lakeland-terrier/",
+      "title": {
+        "rendered": "Lakeland Terrier"
+      },
+      "featured_media": 435,
+      "template": "",
+      "pet_type": [],
+      "class_list": [
+        "post-436",
+        "breed",
+        "type-breed",
+        "status-publish",
+        "has-post-thumbnail",
+        "hentry"
+      ],
+      "acf": {
+        "breed_snapshot_best_for": "\u003Cp\u003ELakeland Terriers are energetic and affectionate dogs known for their adventurous spirit. They thrive in homes with experienced pet parents who can provide plenty of playtime and outdoor activity.\u003C/p\u003E",
+        "alt_image_text": "\u003Cp\u003EThe Lakeland Terrier dog is a sparky bundle ready to light up your world. See if you're a match in our guide. \u003C/p\u003E",
+        "breed_intro": "The Lakeland Terrier is curious, bold and loves to play. Lakies, as they're affectionately known, enjoy a good adventure. These curious pups never leave a good mystery unsolved, whether that's an interesting scent on a nature \u003Ca href=\"https://www.chewy.com/education/dog/general/ready-to-hit-the-hiking-trail-with-your-dog-heres-everything-you-need-to-know\"\u003Ehike\u003C/a\u003E or a puzzle toy they know is hiding a delicious treat. Lakies love to be busy, but once they've solved today's mystery, they're cool to hang out on the patio with you and recount their discoveries—and maybe snack on a treat or two.",
+        "breed_related_products_product_card_set": null,
+        "breed_snapshot_temperament": "\u003Cp\u003EPlayful, Quirky, Mischievous\u003C/p\u003E",
+        "what_does_this_breed_look_like_weight": "\u003Cp\u003EMale: 17 lbs\u003C/p\u003E\u003Cp\u003EFemale: Slightly smaller\u003C/p\u003E",
+        "what_does_this_breed_look_like_height": "\u003Cp\u003EMale: 14-15 inches\u003C/p\u003E\u003Cp\u003EFemale: Slightly smaller\u003C/p\u003E",
+        "breed_snapshot_life_expectancy": "\u003Cp\u003E12 to 15 years\u003C/p\u003E",
+        "breed_snapshot_maintenance_level": "\u003Cp\u003EMedium\u003C/p\u003E",
+        "breed_characteristics_friendliness": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_snapshot_coat_color": "\u003Cp\u003EBlack, Black and Tan, Blue, Blue and Tan, Grizzle and Tan, Liver, Red, Red Grizzle, Wheaten\u003C/p\u003E",
+        "breed_snapshot_shed_level": "\u003Cp\u003ELow\u003C/p\u003E",
+        "in_article_video": null,
+        "breed_characteristics": "These traits are rated on a scale of 1-5 with 1 being the lowest and 5 being the highest. Remember: Dogs are individuals, and not all dogs, even those of the same breed, will exhibit all the same qualities.",
+        "breed_characteristics_exercise_needs": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_health_issues": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_barking_tendencies": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_grooming_needs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_shedding_level": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_training_needs": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_with_kids": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_cats": "\u003Cp\u003E1\u003C/p\u003E",
+        "breed_characteristics_good_for_apartments_small_homes": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_energy_level": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_with_other_dogs": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_playfulnesss": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_cold_weather": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_warm_weather": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_for_first_time_parents": "\u003Cp\u003E2\u003C/p\u003E",
+        "how_do_i_look_card_image": 434,
+        "what_does_this_breed_look_like": "The Lakeland Terrier's square-set jaw, sturdy build and twinkling eyes let you know right away that their small size is no indication of a lack of personality. With a wispy, wiry coat and distinguished beard, this handsome pup is full of charm and character.",
+        "what_does_this_breed_look_like_ears": "\u003Cp\u003EThey have small, folded and V-shaped ears.\u003C/p\u003E",
+        "what_does_this_breed_look_like_eyes": "\u003Cp\u003ESmall and oval, Lakeland Terrier eyes are set somewhat far apart and range in color from warm brown to dark hazel to black.\u003C/p\u003E",
+        "what_does_this_breed_look_like_nose": "\u003Cp\u003EThey have a black or liver-colored (reddish brown) nose.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_length": "\u003Cp\u003ELakeland Terriers have a double coat with a hard, wavy and wiry outer coat and a soft, dense and temperature-regulating undercoat.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_color": "\u003Cp\u003EThe Lakeland Terrier breed may be either solid-colored or saddle-marked. Common colors include blue, black, liver (reddish brown), red, wheaten, and shades of grizzle (a mix of black hairs and another color) and tan.\u003C/p\u003E",
+        "what_does_this_breed_look_like_tail": "\u003Cp\u003EThey typically have a high-set tail carried with pride—upright and with a slight curve.\u003C/p\u003E",
+        "h2_breed_temperament": "Lakeland Terriers are feisty pups who look forward to adventures with you. With their intelligence and curious nature, Lakies really enjoy exploring, whether that's a walk in the neighborhood or a hike down a wooded path where they can run on a leash and discover scents with their nose.\n\nPlenty of play that exercises their minds and bodies will keep them happy, content and out of mischief. They're known to create their own entertainment if they get bored, like \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/how-to-stop-dogs-from-digging\"\u003Edigging holes in the yard\u003C/a\u003E. (Didn't you want that new bush over here?)\n\nLakeland Terriers love their families and are great playmates for children. However, \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/positively-trained-puppy-socialization-dos-and-donts\"\u003Esocialization\u003C/a\u003E starting when they're a puppy is important to help these pups get used to kids. Lakies can be wary of strangers and may feel the need to protect their food or toys, or feel threatened if they're being cornered. So, they may misinterpret a toddler's exuberant, quick movements and react. It's important to supervise all playtimes with your dog and small kids, and teach every child in your dog's life how to play nicely with your pup.\n\nLakies can get along with other dogs they've grown up with, but they might never be a cat's BFF. Lakelands have a strong prey drive to chase cats and other small pets, like rabbits or gerbils.\n\nThese confident pups make great watch dogs. Lakies are quick to bark at new sights and sounds—whether they see a squirrel in the backyard or a guest approaching the home.\n\nTheir confident and independent nature likely comes from their fox-hunting history. They started out as farm dogs raised to guard sheep, and the foxes they chased were often bigger than them. Now, that's a confident pup!",
+        "h2_how_to_care_for_a_breed": "Despite a Lakeland Terrier's independent nature, they do need their pet parents for a few key things—including consistent grooming, training and exercise—to look, feel and behave their best.",
+        "grooming": "Lakeland Terriers have fairly high grooming requirements compared to other breeds, although their needs are pretty typical of double-coated, wire-haired dogs.\n\nA regular grooming schedule complete with 15 to 30 minutes of brushing once a week—or more frequently for active dogs who spend a good amount of time outdoors digging in the dirt—keeps them less scraggly and more show-ring ready. A \u003Ca href=\"https://www.chewy.com/f/slicker-brush-dog-brushes-combs_c356_f70v83792\"\u003Eslicker brush\u003C/a\u003E and \u003Ca href=\"https://www.chewy.com/andis-steel-pet-comb/dp/54016\"\u003Emetal comb\u003C/a\u003E combo work well to remove dead hair, and special attention should be paid to the tufts on the face and legs to prevent matting. When properly groomed, Lakies are a low-shedding breed. While you're at it, check their ears every week for debris and signs of infection (redness, swelling, bad odor). If you notice anything unusual, contact your vet, who may advise you to \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/how-do-you-clean-a-dogs-ears-follow-this-vet-approved-step-by-step-guide\"\u003Eclean their ears\u003C/a\u003E. To keep their coats shiny, they should be \u003Ca href=\"https://www.chewy.com/education/dog/grooming/how-to-bathe-a-dog-step-by-step-tips-from-a-professional-groomer\"\u003Ebathed\u003C/a\u003E every four to six weeks.\n\nTo clip or not to clip—that is the question. If you want to show your Lakeland Terrier, you'll need to hand strip the coat three to four times a year. Hand stripping is a grooming technique in which hair is manually plucked. You could also clip your dog, but to keep their characteristic cut, you'll only clip certain parts of the body. Chat with your vet, a professional groomer or a breed expert about what's best for your pup and lifestyle.\n\nIf you want to keep their signature rectangular-shaped profile, you'll need to use \u003Ca href=\"https://www.chewy.com/b/hair-clippers-shears-1428\"\u003Egrooming scissors\u003C/a\u003E to carefully trim facial hair to keep their handsome head of hair dapper. And their nails should be \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/guide-trimming-dogs-nails\"\u003Etrimmed\u003C/a\u003E when they start making that \"click-clack\" noise as your Lakie scuttles across hardwood floors (about once a month or so).\n\nMost vets recommend you \u003Ca href=\"https://www.chewy.com/education/dog/grooming/health-wellness-how-to-brush-your-dogs-teeth-live-to-tell-the-tale\"\u003Ebrush your dog's teeth\u003C/a\u003E daily. This important practice helps keep dental disease, periodontal problems and bad breath at bay. Starting your pup on the practice at a young age is the best way to acclimate them. Your terrier's teeth should also be professionally cleaned once a year by your vet.",
+        "training": "Training a Lakeland Terrier puppy should involve positive reinforcement, an emphasis on socialization with other dogs and people, and reward-based tactics to encourage preferred behaviors over less-desirable ones (like excessive barking). Lakeland Terriers may respond well to training exercises disguised as playful games that get their mental gears going. Even a well-trained Lakie should be kept on a leash in public due to their strong prey drive and chasing instincts.\r\n\r\nTo help socialize your Lakie, take your puppy on walks and get them used to seeing people and other dogs in the area. Consider signing your pup up for puppy preschool. This is a great place for them to learn how to play nicely with other puppies and meet new people (who are not so strange after all) in one location.\r\n\r\nInitial training sessions may be kept relatively short and should not be so repetitive you bore this highly intelligent dog. Be sure to reward their efforts with treats, praise and play breaks with fun toys. Don't be discouraged if it takes a few tries for your Lakie to get the hang of a task or command; it's not that they don't understand, they're just reluctant to give up their rebel-hearted ways. But with practice and commitment to a positive attitude, you'll prevail—eventually.",
+        "diet_nutrition": "Lakeland Terriers typically thrive on a diet of \u003Ca href=\"https://www.chewy.com/b/food-332\"\u003Ehigh-quality dog food\u003C/a\u003E that fits your pet's stage of life (puppy, adult or senior). Be sure to look for a statement on the packaging that says it meets the standards set by the Association of American Feed Control Officials.\r\n\r\nThe Lakeland Terrier breed may become overweight if they eat more calories than they burn. As you plan mealtime, be sure to include the treats you give in your food count. Even an extra pound or two can adversely affect your pup's health and cause issues down the line. If you see your pup gaining extra weight, contact your vet. They can advise you about the best diet for your pet's individual needs and lifestyle.",
+        "exercise": "Lakies thrive when they have access to wide, open spaces—or at least a big backyard. They need a lot of daily activity (at least 45 minutes of high energy activity), and pet parents should beware that if these pups can't expend their considerable energy outside, they'll take their frustration out in some pretty inventive ways, like digging holes in your yard or chasing the neighbor's cat who finds their way into your backyard.\r\n\r\nShort walks on a leash aren't really enough exercise for Lakies; they need the chance to tire themselves out, whether through vigorous play sessions or as your jogging buddy. They make great playmates for kids, but you may want to avoid the dog park until you fully understand your pet's temperament and know how they respond to other dogs.\r\n\r\nDon't forget to exercise their minds, too. Lakies are curious dogs who need mental stimulation to keep their brains engaged. This can take the form of dog sports, like agility, tracking and obedience, or it can be \u003Ca href=\"https://www.chewy.com/b/puzzle-toys-games-2335\"\u003Edog puzzles\u003C/a\u003E left around the house or other games you create for your pup to solve.",
+        "ideal_environment": "Although Lakeland Terriers like to speed around a yard or larger house, apartment living is doable. In smaller square-footage scenarios, pet parents need to commit to providing their pup with the activity and mental stimulation they crave on a daily basis. Otherwise, you may witness the scope of mischief this breed is capable of. (But lazy Saturdays have never been a thing with you, right?) Pro tip: These escape artists need a home that's been \"terrier-proofed\" to ensure there are no fence gaps or small spaces your pup can squeeze through or tunnel under.\n\nLakies thrive best with active pet parents, and they're a good fit for families with kids who want a spunky playmate. Although they tend to be more tolerant of canine companions than other terrier types are, families with other dogs in the house should handle \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/doggie-play-date-etiquette-how-to-introduce-pets-successfully\"\u003Eintroductions\u003C/a\u003E carefully. In some cases, this approach also applies to human guests, around whom your Lakeland Terrier may be cautious, at least at first. But proper and early socialization can help a Lakie be more comfortable around new people and dogs.\n\nThe Lakeland Terrier's double coat is designed to regulate their body temperature, so they aren't particularly sensitive to heat or cold. But as with any dog, care should be taken in especially hot or cold climates. Your Lakie should always have access to plenty of fresh water if they're out playing in the heat of the day.",
+        "h2_breed_health": "Lakeland Terriers have a lifespan of 12 to 15 years, and these pups aren’t as popular as some of their cousins. Because they’re not bred as frequently, they have fewer health issues than some other terrier breeds. Being aware of their most common medical concerns can help your pup live the healthiest life possible.\r\n\u003Cul\u003E\r\n \t\u003Cli\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/endocrine/c_dg_hypothyroidism\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cstrong\u003EHypothyroidism\u003C/strong\u003E\u003C/a\u003E: This is a condition in which the thyroid gland doesn’t produce enough hormones. Luckily, this is typically easily treated by giving your dog thyroid medication every day. When detected early, it usually doesn’t impact the animal’s quality of life.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Cstrong\u003EEye Problems\u003C/strong\u003E: Lakeland Terriers’ eyes can be susceptible to issues like \u003Ca href=\"https://www.petmd.com/dog/conditions/eyes/c_dg_lens_luxation\" target=\"_blank\" rel=\"noopener\"\u003Elens luxation\u003C/a\u003E (an inherited eye condition) and \u003Ca href=\"https://www.petmd.com/dog/conditions/eyes/c_dg_trichiasis_distichiasis_ectopic_cilia\" target=\"_blank\" rel=\"noopener\"\u003Edistichiasis\u003C/a\u003E (unusual hair growth in the eye area). \u003Ca href=\"https://www.petmd.com/dog/conditions/eyes/c_dg_glaucoma\" target=\"_blank\" rel=\"noopener\"\u003EGlaucoma\u003C/a\u003E and \u003Ca href=\"https://www.petmd.com/dog/conditions/eye/c_dg_cataract\" target=\"_blank\" rel=\"noopener\"\u003Ecataracts\u003C/a\u003E may also be common in older Lakies. If your pup is having any issues with their eyes (redness, cloudiness, bulging, squinting or pain), see your vet immediately. Depending on the underlying problem, they may refer you to a veterinary ophthalmologist for advanced diagnostics or treatment options.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/c_dg_legg_calve_perthes_disease\"\u003E\u003Cstrong\u003ELegg-Calve-Perthes Disease\u003C/strong\u003E\u003C/a\u003E: This inherited hip disease occurs due to deterioration of the ball portion (femoral head) of the hip socket. This painful condition is often treated with surgery.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/cardiovascular/c_dg_von_willebrand_disease\"\u003E\u003Cstrong\u003Evon Willebrand’s Disease (vWB)\u003C/strong\u003E\u003C/a\u003E: This inherited bleeding disorder causes the dog’s blood not to clot properly. Most affected dogs live normal day-to-day lives, but unexpected bleeding can occur during surgery, even routine procedures. Genetic screening testing is available so be sure to ask your breeder.\u003C/li\u003E\r\n\u003C/ul\u003E",
+        "h2_breed_history": "The Lakeland Terrier is named for the Lake District of Northern England, where they were bred as farmers' dogs and tasked with critical jobs like protecting land and sheep, keeping farms free from pests and hunting foxes. The breed's hard-working attitude persists today, as does their fearlessness, pride and intelligence.\r\n\r\nA few other terrier breeds have similar origin stories: You'd be forgiven for confusing the Lakeland Terrier with their slightly larger cousin, the \u003Ca href=\"https://www.chewy.com/education/dog-breeds/welsh-terrier/\"\u003EWelsh Terrier\u003C/a\u003E—similar in disposition and physical characteristics, the two are sometimes mixed up for each other. (Hint: The Welsh Terrier is slightly larger and is only black and tan. Lakies come in more color options.)\r\n\r\nThanks to their confident poise and undeniable handsomeness, Lakies can make excellent show dogs. In fact, in 1967 a Lakeland Terrier—Champion Stingray of Derryabah—was the first dog to win Best in Show at both Crufts and Westminster.\r\n\r\nThe American Kennel Club (AKC) recognized the Lakeland Terrier dog in 1934. Are you looking to add a like Lakie love in your life? You can find a list of reputable breeders on the \u003Ca href=\"https://marketplace.akc.org/puppies/lakeland-terrier\" target=\"_blank\" rel=\"noopener\"\u003EAKC website\u003C/a\u003E. Lakeland Terrier puppy price ranges from $1,200 to $1,800. But for that, you're likely getting a pup who's been screened for health and temperament issues and may come with pedigree papers. If you'd like to adopt a pup, contact the \u003Ca href=\"https://usltc.org/\"\u003EUnited States Lakeland Terrier Club\u003C/a\u003E for rescue pups, keep an eye out for the breed at your local animal shelter, or search \u003Ca href=\"https://www.chewy.com/g/dog-lakeland-terrier_ga1\"\u003EChewy’s database of adoptable dogs\u003C/a\u003E in your area.",
+        "expert_attribution": "\u003Ci\u003EExpert input provided by veterinarian Dr. Cori Wigfall, DVM, BVM and veterinary spokesperson of \u003Ca href=\"https://spiritdogtraining.com/\" target=\"_blank\" rel=\"noopener\" data-saferedirecturl=\"https://www.google.com/url?q=https://spiritdogtraining.com/&amp;source=gmail&amp;ust=1621538344985000&amp;usg=AFQjCNEUiL9I2puWj2WeXcDipZsQdiOF0g\"\u003ESpiritDog Training\u003C/a\u003E; certified dog trainer Kate LaSala, CTC, CBCC-KA, PCBC-A, CSAT, owner of \u003Ca href=\"https://rescuedbytraining.com/\"\u003ERescued By Training\u003C/a\u003E; and breed expert Pat Rock, \u003Ca href=\"http://www.hollybriarfarm.com/\"\u003Ebreeder\u003C/a\u003E of Lakeland Terriers for 50 years.\u003C/i\u003E\r\n\r\n\u003Cem\u003EBreed characteristic ratings provided by veterinarian Dr. Sarah J. Wooten, DVM, CVJ, a veterinarian at \u003Ca href=\"https://sheepdraw.com/\" target=\"_blank\" rel=\"noopener\"\u003ESheep Draw Veterinary Hospital\u003C/a\u003E in Greeley, Colorado; dog trainer and behavior consultant Irith Bloom, CPDT-KSA, CBCC-KA, CDBC, owner of \u003Ca href=\"https://thesophisticateddog.com/\" target=\"_blank\" rel=\"noopener\"\u003EThe Sophisticated Dog, LLC\u003C/a\u003E, in Los Angeles; and certified animal behavior consultant \u003Ca href=\"https://shojai.com/\" target=\"_blank\" rel=\"noopener\"\u003EAmy Shojai\u003C/a\u003E, CABC, in Sherman, Texas. \u003C/em\u003E \r\n\r\n\u003Cem\u003EThe health content was medically reviewed by Chewy vets.\u003C/em\u003E ",
+        "facebook_social_snippet_with_cta": "\u003Cp\u003EWith their fiercely independent spirit, the Lakeland Terrier may be the hint of mischief that's missing from your home. Read more information about this spunky pup and see if you might be a fitting pet parent in our comprehensive breed profile.\u003C/p\u003E",
+        "species": "\u003Cp\u003EDog\u003C/p\u003E",
+        "h2_faqs": "\u003Ch3\u003EDo Lakeland Terriers shed?\u003C/h3\u003E\r\nLakeland Terriers do shed somewhat. Although their grooming needs can be involved, the breed is generally considered low-shedding and may be good for allergy sufferers.\r\n\u003Ch3\u003EAre Lakeland Terriers good pets?\u003C/h3\u003E\r\nYes, Lakeland Terriers are good pets! This breed can make a wonderful pet for the right family who understands their personality quirks. Raising a Lakeland Terrier with kids in the home can be a lot of fun—they can tire one another out during daily playtime.\r\n\u003Ch3\u003EHow long do Lakeland Terriers live?\u003C/h3\u003E\r\nThe average Lakeland Terrier's lifespan is between 12 and 15 years. With proper care, vet visits and a high-quality diet, you can help your Lakie live a long and happy life.\r\n\u003Ch3\u003EDo Lakeland Terriers bark a lot?\u003C/h3\u003E\r\nLakeland Terriers do tend to bark. Typical terriers, Lakies like to share their thoughts. As such, they may be inclined to bark a lot. You can help curb your pup's barking urge by teaching them when it's OK to bark (and when they need to keep those thoughts to themselves).\r\n\r\n&nbsp;\r\n\u003Ch3\u003EWhat are the most common Lakeland Terrier mixes?\u003C/h3\u003E\r\nSome common Lakeland Terrier mixes are:\r\n\u003Cul\u003E\r\n \t\u003Cli\u003ELakeland Terrier-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/jack-russell-terrier/\"\u003EJack Russell\u003C/a\u003E mix\u003C/li\u003E\r\n \t\u003Cli\u003ELakeland Terrier-Patterdale mix\u003C/li\u003E\r\n \t\u003Cli\u003ELakeland Terrier-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/welsh-terrier/\"\u003EWelsh Terrier\u003C/a\u003E mix\u003C/li\u003E\r\n \t\u003Cli\u003ELakeland Terrier-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/border-terrier/\"\u003EBorder Terrier\u003C/a\u003E mix\u003C/li\u003E\r\n\u003C/ul\u003E\r\nNote: These are not purebred dogs but mixed breeds.",
+        "faq_items": [
+          {
+            "faq_title": "Do Lakeland Terriers shed?",
+            "faq_content": "Lakeland Terriers do shed somewhat. Although their grooming needs can be involved, the breed is generally considered low-shedding and may be good for allergy sufferers."
+          },
+          {
+            "faq_title": "Are Lakeland Terriers good pets?",
+            "faq_content": "Yes, Lakeland Terriers are good pets! This breed can make a wonderful pet for the right family who understands their personality quirks. Raising a Lakeland Terrier with kids in the home can be a lot of fun—they can tire one another out during daily playtime."
+          },
+          {
+            "faq_title": "How long do Lakeland Terriers live?",
+            "faq_content": "The average Lakeland Terrier's lifespan is between 12 and 15 years. With proper care, vet visits and a high-quality diet, you can help your Lakie live a long and happy life."
+          },
+          {
+            "faq_title": "Do Lakeland Terriers bark a lot?",
+            "faq_content": "Lakeland Terriers do tend to bark. Typical terriers, Lakies like to share their thoughts. As such, they may be inclined to bark a lot. You can help curb your pup's barking urge by teaching them when it's OK to bark (and when they need to keep those thoughts to themselves).\r\n\r\n&nbsp;"
+          },
+          {
+            "faq_title": "What are the most common Lakeland Terrier mixes?",
+            "faq_content": "Some common Lakeland Terrier mixes are:\r\n\u003Cul\u003E\r\n \t\u003Cli\u003ELakeland Terrier-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/jack-russell-terrier/\"\u003EJack Russell\u003C/a\u003E mix\u003C/li\u003E\r\n \t\u003Cli\u003ELakeland Terrier-Patterdale mix\u003C/li\u003E\r\n \t\u003Cli\u003ELakeland Terrier-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/welsh-terrier/\"\u003EWelsh Terrier\u003C/a\u003E mix\u003C/li\u003E\r\n \t\u003Cli\u003ELakeland Terrier-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/border-terrier/\"\u003EBorder Terrier\u003C/a\u003E mix\u003C/li\u003E\r\n\u003C/ul\u003E\r\nNote: These are not purebred dogs but mixed breeds."
+          }
+        ],
+        "select_related_breeds": [
+          {
+            "selected_related_breed": 239,
+            "characteristic": "breed_characteristics_good_with_kids"
+          },
+          {
+            "selected_related_breed": 533,
+            "characteristic": "breed_characteristics_shedding_level"
+          },
+          {
+            "selected_related_breed": 1207,
+            "characteristic": "breed_characteristics_good_with_cats"
+          },
+          {
+            "selected_related_breed": 341,
+            "characteristic": "breed_characteristics_friendliness"
+          },
+          {
+            "selected_related_breed": 1242,
+            "characteristic": "breed_characteristics_energy_level"
+          },
+          {
+            "selected_related_breed": 160,
+            "characteristic": "breed_characteristics_playfulnesss"
+          }
+        ],
+        "enable_featured_gallery": [
+          "enable_featured_gallery"
+        ],
+        "featured_gallery_images": [427, 428, 429, 430, 431, 432]
+      },
+      "yoast_head": "\u003C!-- This site is optimized with the Yoast SEO plugin v23.8 - https://yoast.com/wordpress/plugins/seo/ --\u003E\n\u003Ctitle\u003ELakeland Terrier Breed: Characteristics, Care &amp; Photos | Chewy\u003C/title\u003E\n\u003Cmeta name=\"description\" content=\"Want to learn Lakeland Terrier 101? Get all the facts about this breed in our complete Lakeland Terrier guide.\" /\u003E\n\u003Cmeta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" /\u003E\n\u003Clink rel=\"canonical\" href=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/lakeland-terrier/\" /\u003E\n\u003Cmeta property=\"og:locale\" content=\"en_US\" /\u003E\n\u003Cmeta property=\"og:type\" content=\"article\" /\u003E\n\u003Cmeta property=\"og:title\" content=\"Lakeland Terrier Breed: Characteristics, Care &amp; Photos | Chewy\" /\u003E\n\u003Cmeta property=\"og:description\" content=\"Want to learn Lakeland Terrier 101? Get all the facts about this breed in our complete Lakeland Terrier guide.\" /\u003E\n\u003Cmeta property=\"og:url\" content=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/lakeland-terrier/\" /\u003E\n\u003Cmeta property=\"og:site_name\" content=\"Chewy\" /\u003E\n\u003Cmeta property=\"article:modified_time\" content=\"2025-05-05T14:21:31+00:00\" /\u003E\n\u003Cmeta property=\"og:image\" content=\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11163803/202106LakelandTerrier-FeaturedImage.jpg\" /\u003E\n\t\u003Cmeta property=\"og:image:width\" content=\"1440\" /\u003E\n\t\u003Cmeta property=\"og:image:height\" content=\"865\" /\u003E\n\t\u003Cmeta property=\"og:image:type\" content=\"image/jpeg\" /\u003E\n\u003Cmeta name=\"twitter:card\" content=\"summary_large_image\" /\u003E\n\u003Cscript type=\"application/ld+json\" class=\"yoast-schema-graph\"\u003E{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/lakeland-terrier/\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/lakeland-terrier/\",\"name\":\"Lakeland Terrier Breed: Characteristics, Care & Photos | Chewy\",\"isPartOf\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/lakeland-terrier/#primaryimage\"},\"image\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/lakeland-terrier/#primaryimage\"},\"thumbnailUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11163803/202106LakelandTerrier-FeaturedImage.jpg\",\"datePublished\":\"2021-06-28T16:04:06+00:00\",\"dateModified\":\"2025-05-05T14:21:31+00:00\",\"description\":\"Want to learn Lakeland Terrier 101? Get all the facts about this breed in our complete Lakeland Terrier guide.\",\"breadcrumb\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/lakeland-terrier/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://phcms.hlth.prd.aws.chewy.cloud/breed/lakeland-terrier/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/lakeland-terrier/#primaryimage\",\"url\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11163803/202106LakelandTerrier-FeaturedImage.jpg\",\"contentUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11163803/202106LakelandTerrier-FeaturedImage.jpg\",\"width\":1440,\"height\":865},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/lakeland-terrier/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://phcms.hlth.prd.aws.chewy.cloud/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Lakeland Terrier\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/\",\"name\":\"Chewy\",\"description\":\"\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"}]}\u003C/script\u003E\n\u003C!-- / Yoast SEO plugin. --\u003E",
+      "yoast_head_json": {
+        "title": "Lakeland Terrier Breed: Characteristics, Care & Photos | Chewy",
+        "description": "Want to learn Lakeland Terrier 101? Get all the facts about this breed in our complete Lakeland Terrier guide.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://phcms.hlth.prd.aws.chewy.cloud/breed/lakeland-terrier/",
+        "og_locale": "en_US",
+        "og_type": "article",
+        "og_title": "Lakeland Terrier Breed: Characteristics, Care & Photos | Chewy",
+        "og_description": "Want to learn Lakeland Terrier 101? Get all the facts about this breed in our complete Lakeland Terrier guide.",
+        "og_url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/lakeland-terrier/",
+        "og_site_name": "Chewy",
+        "article_modified_time": "2025-05-05T14:21:31+00:00",
+        "og_image": [
+          {
+            "width": 1440,
+            "height": 865,
+            "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11163803/202106LakelandTerrier-FeaturedImage.jpg",
+            "type": "image/jpeg"
+          }
+        ],
+        "twitter_card": "summary_large_image",
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/lakeland-terrier/",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/lakeland-terrier/",
+              "name": "Lakeland Terrier Breed: Characteristics, Care & Photos | Chewy",
+              "isPartOf": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/lakeland-terrier/#primaryimage"
+              },
+              "image": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/lakeland-terrier/#primaryimage"
+              },
+              "thumbnailUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11163803/202106LakelandTerrier-FeaturedImage.jpg",
+              "datePublished": "2021-06-28T16:04:06+00:00",
+              "dateModified": "2025-05-05T14:21:31+00:00",
+              "description": "Want to learn Lakeland Terrier 101? Get all the facts about this breed in our complete Lakeland Terrier guide.",
+              "breadcrumb": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/lakeland-terrier/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://phcms.hlth.prd.aws.chewy.cloud/breed/lakeland-terrier/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/lakeland-terrier/#primaryimage",
+              "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11163803/202106LakelandTerrier-FeaturedImage.jpg",
+              "contentUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11163803/202106LakelandTerrier-FeaturedImage.jpg",
+              "width": 1440,
+              "height": 865
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/lakeland-terrier/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://phcms.hlth.prd.aws.chewy.cloud/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Lakeland Terrier"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/",
+              "name": "Chewy",
+              "description": "",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            }
+          ]
+        }
+      },
+      "yoast_meta": {
+        "yoast_wpseo_title": "",
+        "yoast_wpseo_metadesc": "",
+        "yoast_wpseo_canonical": ""
+      },
+      "_links": {
+        "self": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed/436",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/types/breed"
+          }
+        ],
+        "acf:attachment": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/432"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/431"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/430"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/429"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/428"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/427"
+          }
+        ],
+        "wp:featuredmedia": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/435"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media?parent=436"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "pet_type",
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/pet_type?post=436"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ]

@@ -1,0 +1,317 @@
+[
+    {
+      "id": 367,
+      "date": "2021-06-29T10:33:43",
+      "date_gmt": "2021-06-29T10:33:43",
+      "guid": {
+        "rendered": "https://haproxy.use1.lgcy.prd.aws.chewy.cloud/eks/ns/pet-health/pet-health-content-backend/breed/xoloitzcuintli/"
+      },
+      "modified": "2025-05-05T14:21:25",
+      "modified_gmt": "2025-05-05T14:21:25",
+      "slug": "xoloitzcuintli",
+      "status": "publish",
+      "type": "breed",
+      "link": "https://phcms.hlth.prd.aws.chewy.cloud/breed/xoloitzcuintli/",
+      "title": {
+        "rendered": "Xoloitzcuintli"
+      },
+      "featured_media": 366,
+      "template": "",
+      "pet_type": [],
+      "class_list": [
+        "post-367",
+        "breed",
+        "type-breed",
+        "status-publish",
+        "has-post-thumbnail",
+        "hentry"
+      ],
+      "acf": {
+        "breed_snapshot_best_for": "\u003Cp\u003EThe Xoloitzcuintli is a rare, ancient and hairless dog breed originating in Mexico thousands of years ago. These Mexican hairless dogs were considered sacred by the Aztecs, and today are revered for their loyalty, intelligence and calm demeanor. \u003C/p\u003E",
+        "alt_image_text": "\u003Cp\u003EAlso known as the Mexican Hairless Dog, the Xoloitzcuintli is a loyal, family-friendly breed that dates back to the Aztecs. \u003C/p\u003E",
+        "breed_intro": "Looking for a constant canine companion who lives and breathes to be by your side? The Xoloitzcuintli (pronounced show-lo-eats-QUEENT-lee, or show-lo for short) is an ancient dog breed who expects your full attention at all times. From errands to the office, it's best to take them everywhere you go. (FOMO much?) Just be prepared to answer everyone's questions about what type of dog—or even what type of animal—you've got with you. This hairless dog breed stands out from the crowd.",
+        "breed_related_products_product_card_set": null,
+        "breed_snapshot_temperament": "\u003Cp\u003ELoving, Loyal, Alert\u003C/p\u003E",
+        "what_does_this_breed_look_like_weight": "\u003Cp\u003EToy: 10-15 pounds\u003C/p\u003E\u003Cp\u003EMiniature: 15-30 pounds\u003C/p\u003E\u003Cp\u003EStandard: 30-55 pounds\u003C/p\u003E",
+        "what_does_this_breed_look_like_height": "\u003Cp\u003EToy: 10-14 inches\u003C/p\u003E\u003Cp\u003EMiniature: 14-18 inches\u003C/p\u003E\u003Cp\u003EStandard: 18-23 inches\u003C/p\u003E",
+        "breed_snapshot_life_expectancy": "\u003Cp\u003E13 to 18 years\u003C/p\u003E",
+        "breed_snapshot_maintenance_level": "\u003Cp\u003ELow\u003C/p\u003E",
+        "breed_characteristics_friendliness": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_snapshot_coat_color": "\u003Cp\u003EBlack, Gray, Bronze, Brindle, Dark Brown, Liver, Palomino, Red, Fawn, Slate, Sable\u003C/p\u003E",
+        "breed_snapshot_shed_level": "\u003Cp\u003EVery Low\u003C/p\u003E",
+        "in_article_video": null,
+        "breed_characteristics": "Here are the qualities you can expect when raising a Xoloitzcuintli on a scale of 1 paw (low) to 5 paws (high). Remember that dogs are individuals, and not all dogs, even of the same breed, will fit the mold.",
+        "breed_characteristics_exercise_needs": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_health_issues": "\u003Cp\u003E1\u003C/p\u003E",
+        "breed_characteristics_barking_tendencies": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_grooming_needs": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_shedding_level": "\u003Cp\u003E1\u003C/p\u003E",
+        "breed_characteristics_training_needs": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_with_kids": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_with_cats": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_for_apartments_small_homes": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_energy_level": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_with_other_dogs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_playfulnesss": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_cold_weather": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_warm_weather": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_for_first_time_parents": "\u003Cp\u003E3\u003C/p\u003E",
+        "how_do_i_look_card_image": 365,
+        "what_does_this_breed_look_like": "When it comes to appearance, the Xoloitzcuintli is a truly unique breed. This lean and sturdy pup is also called the Mexican Hairless Dog—and for good reason. Most Xolos have mostly hairless skin that's smooth and tough. More rarely, some Xolos have a short, flat coat. Either way, their rectangular bodies come in three sizes—toy, miniature and standard—and a variety of colors, from black to lighter hues of liver and bronze.",
+        "what_does_this_breed_look_like_ears": "\u003Cp\u003EXoloitzcuintli ears are large and set high. They're thin and delicate in texture.\u003C/p\u003E",
+        "what_does_this_breed_look_like_eyes": "\u003Cp\u003EXoloitzcuintli eyes are almond-shaped and range from yellow to black, but darker-colored eyes are preferred by breeders. \u003C/p\u003E",
+        "what_does_this_breed_look_like_nose": "\u003Cp\u003EXolos' noses match their general coloring—dark on dark color dogs and lighter on lighter dogs.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_length": "\u003Cp\u003EXolos come in two coat types: hairless and coated. Most Xolo dogs don't have a coat—they have a smooth, thick hide that can sometimes have patches of coarse hair on top of the head, the last third of their long tail and feathered on the legs and feet. But for those Xolo puppies born with a coat, it's short and lies flat against the body.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_color": "\u003Cp\u003EWith or without a coat, the Xolo breed comes in a variety of colors, from black, gray and dark brown to red, liver (brown) and bronze. \u003C/p\u003E",
+        "what_does_this_breed_look_like_tail": "\u003Cp\u003ETheir tail is long and fine, set low and carried in a graceful curve.\u003C/p\u003E",
+        "h2_breed_temperament": "Xoloitzcuintli dogs are loyal and loving, and they are in need of constant human contact. They might be somewhat aloof with strangers but are very affectionate with their family. They form a strong bond with their favorite person (spoiler: that'll probably be you), but they'll spread the love around with the whole fam, including tiny humans and four-legged pals. These pups are typically gentle with children and are known to \"grip\" their humans with their webbed toes in a hug—families with small children should be ready for lots of loving “dog hugs.\"\r\n\r\nWhile they love other animals who are part of their family, Xolos are not the kind of dog you take to the dog park and expect to become friends with every other dog out there. They're a primitive breed, so they still have some instincts (like hunting) that are stronger than in breeds like \u003Ca href=\"https://www.chewy.com/education/dog-breeds/labrador-retriever/\"\u003ELabrador Retrievers\u003C/a\u003E. Xolos have a bit of a prey drive, which is why it's so important to socialize them as much as you can from an early age to help them get used to family cats and other small pets.\r\n\r\nXolo pups may be bitey, but they are not naturally aggressive and grow out of it after the \"teen years.\" An adult, well-socialized Xolo is both calm and alert: They are excellent watchdogs who will bark when there are changes in their environment but will also happily snuggle with you for a shared nap. (Fun fact: The ancient Aztecs even thought snuggling with a Xolo cured a variety of ailments!)",
+        "h2_how_to_care_for_a_breed": "The Xoloitzcuintli is a sensitive dog breed who thrives when given lots of attention. They are true companions who crave your company, so be prepared to take them everywhere you go and to spend time training them to be more at ease when you do have to leave them alone. The good news is, they don't require a ton of work in the grooming or exercise departments. As largely hairless dogs, regular brushing is not needed. And while they're active and athletic pups, they only need moderate exercise. A good daily walk around the block and access to an area where they can run will keep them fit and happy.",
+        "grooming": "The Xoloitzcuintli breed is pretty low maintenance when it comes to grooming. For one thing, most dogs from the breed are hairless, so there's practically no brushing needed (or shedding for that matter). Even the coated variety is easy to care for, requiring only a weekly brushing with a stiff \u003Ca href=\"https://www.chewy.com/f/dog-bristle-brushes_c355_f70v83784\"\u003Ebristle brush\u003C/a\u003E or \u003Ca href=\"https://www.chewy.com/f/dog-grooming-gloves_c355_f70v83788\"\u003Egrooming glove\u003C/a\u003E.\n\nXolos tend to clean themselves like cats, but they produce protective oils for their skin that can potentially build up while they're young and cause acne. You'll need to give them a bath every couple of weeks (not just while they're young), wiping them down with a damp cloth in between. If their skin looks ashy and dry, you can apply a non-oily lotion.\n\nThey're not super sensitive to the sun because their skin is considered a hide—it's so thick and tough—so they don't need sunscreen unless your pup is lighter-colored or you're planning on being outside all day. In fact, Xolos quite like sunbathing and their skin can tan, just like yours!\n\nBut as easy as their coat—or lack thereof—is to care for, they still have regular grooming needs when it comes it comes to their nails. You'll need to trim them about once a month. You'll know it's time for a trim when you hear the clickety-clack on your kitchen tile. (\u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/guide-trimming-dogs-nails\"\u003EGet the how-to here\u003C/a\u003E.) And don't forget to \u003Ca href=\"https://www.chewy.com/education/dog/grooming/health-wellness-how-to-brush-your-dogs-teeth-live-to-tell-the-tale\"\u003Ebrush their teeth\u003C/a\u003E daily to prevent bacteria and tartar buildup, and visit your vet for a professional teeth cleaning once a year, too.\n\nCheck their ears for excess wax and their eyes for any discharge. Contact your vet if you see a lot of wax, redness or swelling in the ears or if the eye discharge is green or yellow. Your pup may have an infection that needs treating.",
+        "training": "Xolos need a confident and calm pet parent who is committed to consistent training to bring the best out in this breed. They're intelligent, which means they'll respond well to training, but it also means they'll get into mischief and trouble if not properly trained. They'll learn best through positive reinforcement where you reward good behavior with treats, praise or playtime. Harsh training or harsh punishment will break their spirit and destroy the bond with the family—and it may even cause side effects such as fear and aggression. So, providing rewards, practicing patience, using the same commands and never giving \"passes\" are all key to getting the best out of your Xolo. (Say goodbye to weekends off!)\n\nThe Xoloitzcuintli bonds deeply to their people and, like most other dogs, are susceptible to \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/reducing-separation-anxiety-dog\"\u003Eseparation anxiety\u003C/a\u003E if frequently left alone for long hours. If doggy daycare or a pet sitter isn't an option, you can help your pup learn to be OK with alone time through crate training. This essentially teaches them to be comfortable in a dog crate or kennel when you aren't home (it's also useful for potty training or when traveling with your dog). You want to slowly get them used to the crate so that it gives them a sense of security. \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/positively-trained-how-to-make-crate-training-easy-for-your-pet-and-you\"\u003EFollow these step-by-step instructions\u003C/a\u003E from our certified dog trainer, but if your dog shows signs of separation anxiety (such as destroying your belongings, incessant barking, drooling or pacing), then it's best to seek out the assistance of a dog behaviorist.\n\nSocialization needs to be actively a part of their training (the earlier, the better) as Xolos are prone to bark at strangers and visitors. The more they are safely and positively exposed to changes in their environment, different people and animals, the more it will help them be comfortable in new situations and thus curb excessive barking. (Just remember you'll never completely train the bark out of them.) You can also enroll you and your pup in puppy school. This is a great place to start socializing your pup. They learn to play nicely with other puppies, and they get to meet new adults.",
+        "diet_nutrition": "The Xoloitzcuintli typically does well on \u003Ca href=\"https://www.chewy.com/b/premium-food-11728\" target=\"_blank\" rel=\"noopener\"\u003Ehigh-quality commercial dog food\u003C/a\u003E. Be sure to factor in your dog's age and choose a formula that fits their stage in life (puppy, adult, senior). Make sure there's a statement on the packaging that says it meets the nutritional standards of the Association of American Feed Control Officials.\r\n\r\nYour veterinarian can help you nail down a feeding chart to guide you on how much and how often to feed your dog based on their specific diet, but feeding your Xolo twice a day is a good place to start. Avoid leaving the bowl of food out for your dog to graze all day, because snacking all day can lead to weight gain. Even an extra pound can cause health problems, like heart disease, for your pup, so it's important to measure food to avoid overfeeding your Xolo.\r\n\r\nDon't forget to include the treats you give in your mealtime plan, too—those calories count! Consider switching up some snack rewards with special playtimes or massages. And if your pup has gained a little extra weight, chat with your vet. They're in the best position to help you pick the right ratio of mealtimes, snacks and exercise to help your pup shed the extra weight and maintain their optimal nutrition.",
+        "exercise": "Despite being an athletic dog, the Xoloitzcuintli only needs moderate amount of daily exercise, about 20 to 30 minutes. Take them out for walks to make sure they stay healthy. They're not known for being speedy, so walks are truly their ideal pace. Younger dogs are more active, so walk them regularly, give them access to a large outdoor area and treat them to games of fetch to help keep them mentally and physically stimulated. Don't forget to leave a few \u003Ca href=\"https://www.chewy.com/b/puzzle-toys-games-2335\"\u003Edog puzzles\u003C/a\u003E around the house to help engage their brains.\r\n\r\nRemember, this pup is a primitive breed with predatory instincts—never let them off-leash outside of a fenced yard. This will prevent them from running off to chase any critters they happen to spot. If left alone outside, your dog might start exploring their considerable climbing and digging talents, so make sure you keep them in a well-fenced area where they can't escape if you \u003Ci\u003Eabsolutely\u003C/i\u003E must leave them alone outside. But remember, they'd much prefer to accompany you to wherever you're going—and considering the alternatives, you'd probably prefer it, too!",
+        "ideal_environment": "The most important thing for a Xolo is to have a pet parent who truly understands the meaning of the word \u003Ci\u003Ecompanion\u003C/i\u003E—these dogs don't enjoy lots of time alone. They need someone who will be with them for most of the day or take them with them wherever they go.\r\n\r\nAnother thing they don't like? Cold weather. They are best suited for warmer climates; otherwise, their pet parent will need to keep them indoors and have a jacket for them to go outside. (But hey! We think shopping for \u003Ca href=\"https://www.chewy.com/b/sweaters-hoodies-1962\"\u003Edog sweaters\u003C/a\u003E sounds like fun!) Be sure to provide them with soft bedding to keep them snug and protect them from hard surfaces.\r\n\r\nXolos love their family, which can include children, dogs and other animals (as long as they're socialized early). They're wary of strangers, but socialization helps them be friendlier with family friends and people they meet while out and about.\r\n\r\nXolos do well in pretty much any size apartment or house. They don't need a lot of space inside the home, but they do need to be walked to get some exercise.",
+        "h2_breed_health": "Xolos have a lifespan of 13 to 18 years. Because they are a 3,000-year-old breed who naturally evolved without much human manipulation, they are very healthy dogs without many health issues. As a precaution, responsible breeders will test for typical dog breed health conditions (hips, eyes, heart and knees) to ensure the Xolo breed stays healthy for generations. As a Xolo parent, you should also keep an eye out for the following:\n\u003Cul\u003E\n \t\u003Cli\u003E\u003Cstrong\u003EJuvenile Acne:\u003C/strong\u003E Young Xolos tend to have \u003Ca href=\"https://www.petmd.com/dog/conditions/skin/c_dg_acne\" target=\"_blank\" rel=\"noopener\"\u003Eacne\u003C/a\u003E, but they typically outgrow it as they mature. Keep your pup clean and don’t pick at the acne to help the stage pass more quickly.\u003C/li\u003E\n \t\u003Cli\u003E\u003Cstrong\u003EMissing Teeth:\u003C/strong\u003E Hairless Xolos are always missing a few teeth, linked to their hairless genes It’s completely normal and doesn’t cause any issues—they can chew just fine (but don’t give them hard chews), watch closely for any gum irritation or redness, and discuss dental hygiene with your veterinarian. If your Xolo is coated, on the other hand, you can expect them to have all 42 teeth.\u003C/li\u003E\n \t\u003Cli\u003E\u003Cstrong\u003E\u003Ca href=\"https://www.petmd.com/dog/seasonal/can-dogs-wear-sunscreen\" target=\"_blank\" rel=\"noopener\"\u003ESunburn\u003C/a\u003E:\u003C/strong\u003E Even though these pups love the sun, they can burn if they stay out for too long (especially the lighter-colored pups). If you’re going to be out for a while, be sure to slather up your pup with a \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/does-my-dog-need-to-wear-sunscreen\"\u003Edog-approved sunscreen\u003C/a\u003E.\u003C/li\u003E\n \t\u003Cli\u003E\u003Cstrong\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/c_dg_hip_dysplasia\" target=\"_blank\" rel=\"noopener\"\u003EHip Dysplasia\u003C/a\u003E:\u003C/strong\u003E Is a condition when the ball and socket that make up the hip joint have a poor fit causing instability of the joint. Sadly, this leads to pain, lameness pain of the joint and surrounding muscles too. While hip dysplasia is more common in large breeds, it also affects the Standard Xoloitzcuintli. Options for treating canine hip dysplasia include surgery as well as managing the condition through medications.\u003C/li\u003E\n \t\u003Cli\u003E\u003Cstrong\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/c_multi_patellar_luxation\" target=\"_blank\" rel=\"noopener\"\u003ELuxating Patellas\u003C/a\u003E:\u003C/strong\u003E The patella or “kneecap” can become displaced and cause your Xolo to limp. This can be a sudden hind limp lameness, holding up one hind leg, or even running with a skip. Symptoms can also come and go. Treatment options for a luxating patella range from medical, like anti-inflammatory medications, to surgical.\u003C/li\u003E\n\u003C/ul\u003E",
+        "h2_breed_history": "The Xoloitzcuintli dates back approximately 3,000 to 3,500 years to the time of the Aztecs and can be considered the first dog breed native to the Americas. Unlike more modern breeds, the Xolo evolved through natural selection without being bred for specific purposes and, to this day, still has some of their primitive instincts.\r\n\r\nConsidered sacred by the Aztecs, Xolos were thought to have healing powers and to guard against evil spirits and intruders. For this reason, they were often sacrificed to guide their owners through the underworld. They even appear in the journals of Columbus and other European Conquistadors as \"strange hairless dogs.\"\r\n\r\nThey were first recognized by the American Kennel Club in 1887—referred to as the \"Mexican Hairless\"—but not much was heard from the breed until a Xolo called Chinito Jr. earned an AKC dog show championship in 1940 (the first and only time a Xolo won the distinction). Not long after, in 1959, the AKC deregistered the breed due to their scarcity, but recognized it again in 2011 as its 173rd breed.\r\n\r\nToday, it's estimated that there are around 30,000 Xolos worldwide. So, where's the best place to find a Xoloitzcuintli pup? You can find a list of reputable Xolo breeders on the \u003Ca href=\"https://marketplace.akc.org/puppies/xoloitzcuintli\"\u003EAmerican Kennel Club's website\u003C/a\u003E. You can expect to pay thousands of dollars for a Xolo pup—their price is about $1,500 to $3,000 on average. And you'll need to be patient, as puppies this rare are not available year-round. You can also reach out to a Xoloitzcuintli rescue organization or \u003Ca href=\"https://www.xoloitzcuintliclubofamerica.org/xolo-rescue\" target=\"_blank\" rel=\"noopener\"\u003EXoloitzcuintli Club of America\u003C/a\u003E to adopt a Xolo.",
+        "expert_attribution": "\u003Ci\u003EExpert input provided by veterinarian Diane Voss, DVM, who is an experienced Xoloitzcuintli and Rottweiler breeder at \u003Ca href=\"https://ivossrottweilers.com/\"\u003EIvoss Rottweilers\u003C/a\u003E, and Amber Walker, KPA-CTP, zoologist and owner of \u003Ca href=\"http://www.aitrainers.com/\"\u003EAnimal Intuitions\u003C/a\u003E.\u003C/i\u003E\r\n\r\n\u003Cem\u003EBreed characteristic ratings provided by Dr. Sarah J. Wooten, DVM, CVJ, a veterinarian at \u003Ca href=\"https://sheepdraw.com/\" target=\"_blank\" rel=\"noopener\"\u003ESheep Draw Veterinary Hospital\u003C/a\u003E in Greeley, Colorado; dog trainer and behavior consultant Irith Bloom, CPDT-KSA, CBCC-KA, CDBC, owner of \u003Ca href=\"https://thesophisticateddog.com/\" target=\"_blank\" rel=\"noopener\"\u003EThe Sophisticated Dog, LLC\u003C/a\u003E, in Los Angeles; and certified animal behavior consultant \u003Ca href=\"https://shojai.com/\" target=\"_blank\" rel=\"noopener\"\u003EAmy Shojai\u003C/a\u003E, CABC, in Sherman, Texas.\u003C/em\u003E\r\n\r\n\u003Cem\u003EThe health content was medically reviewed by Chewy vets.\u003C/em\u003E",
+        "facebook_social_snippet_with_cta": "\u003Cp\u003EConsidered sacred by the Aztecs, the Xoloitzcuintli breed is a loving and loyal family-friendly dog. Get all the information you need  about this breed and learn about their traits, health, grooming and a little about their origin in our complete Xoloitzcuintli guide.\u003C/p\u003E",
+        "species": "\u003Cp\u003EDog\u003C/p\u003E",
+        "h2_faqs": "\u003Ch3\u003EHow do you pronounce Xoloitzcuintli?\u003C/h3\u003E\nXoloitzcuintli is pronounced show-lo-eats-QUEENT-lee\u003Ci\u003E. \u003C/i\u003EBut you can also shorten their name to Xolo, pronounced SHOW-lo\u003Ci\u003E\u003C/i\u003E.\n\u003Ch3\u003EDo Xoloitzcuintli dogs shed?\u003C/h3\u003E\nXolos shed very minimally—even the coated variety!\n\u003Ch3\u003EWhat does Xoloitzcuintli mean?\u003C/h3\u003E\nXoloitzcuintli's meaning comes from the name of the Aztec god of fire, Xolotl, who escorted the dead to the underworld, and \"itzcuintli,\" which is the Aztec word for dog.\n\u003Ch3\u003EAre Xoloitzcuintli rare or extinct?\u003C/h3\u003E\nThe Xoloitzcuintli is indeed rare, but the breed is not extinct. It seems to have gained and lost popularity quite a bit throughout the years, ever since it was first recognized as an official breed by the American Kennel Club in 1887.\n\u003Ch3\u003EWhat are the most popular dog names for Xoloitzcuintli dogs?\u003C/h3\u003E\nThe most popular Xoloitzcuintli names include \u003Cb\u003E\u003C/b\u003EDante, Max, Buddy, Duke, Jake, Toby, \u003Cb\u003E\u003C/b\u003EBella, Lucy, Lulu, Coco, Nala and Zoe. \u003Ca href=\"https://www.chewy.com/education/dog/general/top-dog-names\"\u003EGet more dog names here\u003C/a\u003E.",
+        "faq_items": [
+          {
+            "faq_title": "How do you pronounce Xoloitzcuintli?",
+            "faq_content": "Xoloitzcuintli is pronounced show-lo-eats-QUEENT-lee\u003Ci\u003E. \u003C/i\u003EBut you can also shorten their name to Xolo, pronounced SHOW-lo\u003Ci\u003E\u003C/i\u003E."
+          },
+          {
+            "faq_title": "Do Xoloitzcuintli dogs shed?",
+            "faq_content": "Xolos shed very minimally—even the coated variety!"
+          },
+          {
+            "faq_title": "What does Xoloitzcuintli mean?",
+            "faq_content": "Xoloitzcuintli's meaning comes from the name of the Aztec god of fire, Xolotl, who escorted the dead to the underworld, and \"itzcuintli,\" which is the Aztec word for dog."
+          },
+          {
+            "faq_title": "Are Xoloitzcuintli rare or extinct?",
+            "faq_content": "The Xoloitzcuintli is indeed rare, but the breed is not extinct. It seems to have gained and lost popularity quite a bit throughout the years, ever since it was first recognized as an official breed by the American Kennel Club in 1887."
+          },
+          {
+            "faq_title": "What are the most popular dog names for Xoloitzcuintli dogs?",
+            "faq_content": "The most popular Xoloitzcuintli names include \u003Cb\u003E\u003C/b\u003EDante, Max, Buddy, Duke, Jake, Toby, \u003Cb\u003E\u003C/b\u003EBella, Lucy, Lulu, Coco, Nala and Zoe. \u003Ca href=\"https://www.chewy.com/education/dog/general/top-dog-names\"\u003EGet more dog names here\u003C/a\u003E."
+          }
+        ],
+        "select_related_breeds": [
+          {
+            "selected_related_breed": 789,
+            "characteristic": "breed_characteristics_friendliness"
+          },
+          {
+            "selected_related_breed": 989,
+            "characteristic": "breed_characteristics_good_for_apartments_small_homes"
+          },
+          {
+            "selected_related_breed": 182,
+            "characteristic": "breed_characteristics_shedding_level"
+          },
+          {
+            "selected_related_breed": 417,
+            "characteristic": "breed_characteristics_sensitive_to_cold_weather"
+          },
+          {
+            "selected_related_breed": 34,
+            "characteristic": "breed_characteristics_good_with_cats"
+          },
+          {
+            "selected_related_breed": 1273,
+            "characteristic": "breed_characteristics_biting_tendencies"
+          }
+        ],
+        "enable_featured_gallery": [
+          "enable_featured_gallery"
+        ],
+        "featured_gallery_images": [360, 361, 362, 363]
+      },
+      "yoast_head": "\u003C!-- This site is optimized with the Yoast SEO plugin v23.8 - https://yoast.com/wordpress/plugins/seo/ --\u003E\n\u003Ctitle\u003EXoloitzcuintli Breed: Characteristics, Care &amp; Photos | Chewy\u003C/title\u003E\n\u003Cmeta name=\"description\" content=\"Considered sacred by the Aztecs, the Xoloitzcuintli is a loyal family-friendly dog. Get all the facts about this breed in our complete Xoloitzcuintli guide.\" /\u003E\n\u003Cmeta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" /\u003E\n\u003Clink rel=\"canonical\" href=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/xoloitzcuintli/\" /\u003E\n\u003Cmeta property=\"og:locale\" content=\"en_US\" /\u003E\n\u003Cmeta property=\"og:type\" content=\"article\" /\u003E\n\u003Cmeta property=\"og:title\" content=\"Xoloitzcuintli Breed: Characteristics, Care &amp; Photos | Chewy\" /\u003E\n\u003Cmeta property=\"og:description\" content=\"Considered sacred by the Aztecs, the Xoloitzcuintli is a loyal family-friendly dog. Get all the facts about this breed in our complete Xoloitzcuintli guide.\" /\u003E\n\u003Cmeta property=\"og:url\" content=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/xoloitzcuintli/\" /\u003E\n\u003Cmeta property=\"og:site_name\" content=\"Chewy\" /\u003E\n\u003Cmeta property=\"article:modified_time\" content=\"2025-05-05T14:21:25+00:00\" /\u003E\n\u003Cmeta property=\"og:image\" content=\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11163359/202106Xoloitzcuintli-FeaturedImage.jpg\" /\u003E\n\t\u003Cmeta property=\"og:image:width\" content=\"1440\" /\u003E\n\t\u003Cmeta property=\"og:image:height\" content=\"865\" /\u003E\n\t\u003Cmeta property=\"og:image:type\" content=\"image/jpeg\" /\u003E\n\u003Cmeta name=\"twitter:card\" content=\"summary_large_image\" /\u003E\n\u003Cscript type=\"application/ld+json\" class=\"yoast-schema-graph\"\u003E{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/xoloitzcuintli/\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/xoloitzcuintli/\",\"name\":\"Xoloitzcuintli Breed: Characteristics, Care & Photos | Chewy\",\"isPartOf\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/xoloitzcuintli/#primaryimage\"},\"image\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/xoloitzcuintli/#primaryimage\"},\"thumbnailUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11163359/202106Xoloitzcuintli-FeaturedImage.jpg\",\"datePublished\":\"2021-06-29T10:33:43+00:00\",\"dateModified\":\"2025-05-05T14:21:25+00:00\",\"description\":\"Considered sacred by the Aztecs, the Xoloitzcuintli is a loyal family-friendly dog. Get all the facts about this breed in our complete Xoloitzcuintli guide.\",\"breadcrumb\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/xoloitzcuintli/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://phcms.hlth.prd.aws.chewy.cloud/breed/xoloitzcuintli/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/xoloitzcuintli/#primaryimage\",\"url\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11163359/202106Xoloitzcuintli-FeaturedImage.jpg\",\"contentUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11163359/202106Xoloitzcuintli-FeaturedImage.jpg\",\"width\":1440,\"height\":865},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/xoloitzcuintli/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://phcms.hlth.prd.aws.chewy.cloud/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Xoloitzcuintli\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/\",\"name\":\"Chewy\",\"description\":\"\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"}]}\u003C/script\u003E\n\u003C!-- / Yoast SEO plugin. --\u003E",
+      "yoast_head_json": {
+        "title": "Xoloitzcuintli Breed: Characteristics, Care & Photos | Chewy",
+        "description": "Considered sacred by the Aztecs, the Xoloitzcuintli is a loyal family-friendly dog. Get all the facts about this breed in our complete Xoloitzcuintli guide.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://phcms.hlth.prd.aws.chewy.cloud/breed/xoloitzcuintli/",
+        "og_locale": "en_US",
+        "og_type": "article",
+        "og_title": "Xoloitzcuintli Breed: Characteristics, Care & Photos | Chewy",
+        "og_description": "Considered sacred by the Aztecs, the Xoloitzcuintli is a loyal family-friendly dog. Get all the facts about this breed in our complete Xoloitzcuintli guide.",
+        "og_url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/xoloitzcuintli/",
+        "og_site_name": "Chewy",
+        "article_modified_time": "2025-05-05T14:21:25+00:00",
+        "og_image": [
+          {
+            "width": 1440,
+            "height": 865,
+            "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11163359/202106Xoloitzcuintli-FeaturedImage.jpg",
+            "type": "image/jpeg"
+          }
+        ],
+        "twitter_card": "summary_large_image",
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/xoloitzcuintli/",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/xoloitzcuintli/",
+              "name": "Xoloitzcuintli Breed: Characteristics, Care & Photos | Chewy",
+              "isPartOf": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/xoloitzcuintli/#primaryimage"
+              },
+              "image": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/xoloitzcuintli/#primaryimage"
+              },
+              "thumbnailUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11163359/202106Xoloitzcuintli-FeaturedImage.jpg",
+              "datePublished": "2021-06-29T10:33:43+00:00",
+              "dateModified": "2025-05-05T14:21:25+00:00",
+              "description": "Considered sacred by the Aztecs, the Xoloitzcuintli is a loyal family-friendly dog. Get all the facts about this breed in our complete Xoloitzcuintli guide.",
+              "breadcrumb": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/xoloitzcuintli/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://phcms.hlth.prd.aws.chewy.cloud/breed/xoloitzcuintli/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/xoloitzcuintli/#primaryimage",
+              "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11163359/202106Xoloitzcuintli-FeaturedImage.jpg",
+              "contentUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11163359/202106Xoloitzcuintli-FeaturedImage.jpg",
+              "width": 1440,
+              "height": 865
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/xoloitzcuintli/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://phcms.hlth.prd.aws.chewy.cloud/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Xoloitzcuintli"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/",
+              "name": "Chewy",
+              "description": "",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            }
+          ]
+        }
+      },
+      "yoast_meta": {
+        "yoast_wpseo_title": "",
+        "yoast_wpseo_metadesc": "",
+        "yoast_wpseo_canonical": ""
+      },
+      "_links": {
+        "self": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed/367",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/types/breed"
+          }
+        ],
+        "acf:attachment": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/363"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/362"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/361"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/360"
+          }
+        ],
+        "wp:featuredmedia": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/366"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media?parent=367"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "pet_type",
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/pet_type?post=367"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ]

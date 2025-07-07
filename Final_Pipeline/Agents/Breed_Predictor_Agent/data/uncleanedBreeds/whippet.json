@@ -1,0 +1,325 @@
+[
+    {
+      "id": 989,
+      "date": "2021-06-02T12:14:15",
+      "date_gmt": "2021-06-02T12:14:15",
+      "guid": {
+        "rendered": "https://haproxy.use1.lgcy.prd.aws.chewy.cloud/eks/ns/pet-health/pet-health-content-backend/breed/whippet/"
+      },
+      "modified": "2025-05-05T14:22:25",
+      "modified_gmt": "2025-05-05T14:22:25",
+      "slug": "whippet",
+      "status": "publish",
+      "type": "breed",
+      "link": "https://phcms.hlth.prd.aws.chewy.cloud/breed/whippet/",
+      "title": {
+        "rendered": "Whippet"
+      },
+      "featured_media": 988,
+      "template": "",
+      "pet_type": [],
+      "class_list": [
+        "post-989",
+        "breed",
+        "type-breed",
+        "status-publish",
+        "has-post-thumbnail",
+        "hentry"
+      ],
+      "acf": {
+        "breed_snapshot_best_for": "\u003Cp\u003EWhippets are graceful, gentle pups who need to run—a lot. But with minimal grooming requirements and a friendly nature, these dogs can fit perfectly into active families seeking a versatile, low-maintenance pet.\u003C/p\u003E",
+        "alt_image_text": "Whippet dog breed",
+        "breed_intro": "Whippets love to run. When they're not running, they're thinking about running. And when they're done running—they're dreaming about running. But that doesn't mean you need to love running like they do. They're perfectly happy to have you cheer them on from the sidelines. And when you meet them in the winner's circle, they're more than ready to celebrate with you. But you can forget the cold drinks. Their idea of celebrating is \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/best-dog-beds\"\u003Esnuggling down\u003C/a\u003E to catch some ZZZs while you catch a flick.",
+        "breed_related_products_product_card_set": null,
+        "breed_snapshot_temperament": "\u003Cp\u003ESocial, Intelligent, Athletic\u003C/p\u003E",
+        "what_does_this_breed_look_like_weight": "\u003Cp\u003E\u003C/p\u003E\u003Cp\u003EMale: 25-40  pounds\u003C/p\u003E\u003Cp\u003EFemale: 25-40 pounds \u003C/p\u003E",
+        "what_does_this_breed_look_like_height": "\u003Cp\u003EMale: 19-22 inches\u003C/p\u003E\u003Cp\u003EFemale: 18-21 inches\u003C/p\u003E",
+        "breed_snapshot_life_expectancy": "\u003Cp\u003E12 to 15 years\u003C/p\u003E",
+        "breed_snapshot_maintenance_level": "\u003Cp\u003EMedium\u003C/p\u003E",
+        "breed_characteristics_friendliness": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_snapshot_coat_color": "\u003Cp\u003EFawn, Cream, Black, Blue, White, Red, Blue Brindle, Blue Fawn, Fawn Brindle, White and Fawn, White and Red, Red Brindle, White and Blue Fawn, White and Black, White and Blue, White and Blue Brindle, White and Red Brindle, White and Fawn Brindle\u003C/p\u003E",
+        "breed_snapshot_shed_level": "\u003Cp\u003E Low\u003C/p\u003E",
+        "in_article_video": null,
+        "breed_characteristics": "These traits are rated on a scale of 1-5 with 1 being the lowest and 5 being the highest. Remember: Dogs are individuals, and not all dogs, even those of the same breed, will exhibit all the same qualities.",
+        "breed_characteristics_exercise_needs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_health_issues": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_barking_tendencies": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_grooming_needs": "\u003Cp\u003E1\u003C/p\u003E",
+        "breed_characteristics_shedding_level": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_training_needs": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_with_kids": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_cats": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_good_for_apartments_small_homes": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_energy_level": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_other_dogs": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_playfulnesss": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_cold_weather": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_warm_weather": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_good_for_first_time_parents": "\u003Cp\u003E4\u003C/p\u003E",
+        "how_do_i_look_card_image": 987,
+        "what_does_this_breed_look_like": "Whippets' faces are full of expression with their alert, intelligent eyes and small, neatly folded ears. They have a curve to their body, which is useful for sprinting short distances, and they're often mistaken for the \u003Ca href=\"https://www.chewy.com/education/dog-breeds/italian-greyhound/\"\u003EItalian Greyhound\u003C/a\u003E, although the Italian Greyhound is smaller. Whippets come in many different colors. While not very tall, they carry themselves with graceful dignity.",
+        "what_does_this_breed_look_like_ears": "\u003Cp\u003EWhippets have small ears that fold over slightly behind themselves, called a rose ear. (The insides of the ear resemble a rose.) Even when their ears are at attention, they usually don't perk straight up. \u003C/p\u003E",
+        "what_does_this_breed_look_like_eyes": "\u003Cp\u003EThey have dark brown, almost black eyes that are round with an intelligent expression.\u003C/p\u003E",
+        "what_does_this_breed_look_like_nose": "\u003Cp\u003EWhippet noses are a solid color, ranging from dark blue to dark brown to black. \u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_length": "\u003Cp\u003ETheir coats are short and are silky smooth on their heads and firm across their backs. \u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_color": "\u003Cp\u003EWhippets come in several colors, including fawn, red, blue, cream and black. Some Whippets may also have brindled fur (subtle tiger stripes).\u003C/p\u003E",
+        "what_does_this_breed_look_like_tail": "\u003Cp\u003ETheir tail is long and tapered at the end, with a slight upward curve. While walking or running, their tail is lower so they can use it like a steering wheel.\u003C/p\u003E",
+        "h2_breed_temperament": "Whippets love being with people and aren't shy when greeting visitors at your door or while out on a walk. So, if you're looking for a guard dog, look elsewhere—Whippets rarely bark, rarely bite and will welcome intruders. They love kids, especially those who treat them with respect (as all children who live with dogs should be taught to do). And because these gentle dogs love people and they're smaller in size, they make excellent therapy dogs for nursing homes and hospitals.\n\nBecause they are so social, the Whippet dog breed may struggle with separation anxiety and may not take to \u003Ca href=\"https://www.chewy.com/education/dog/new-dog/how-to-crate-train-a-puppy-a-step-by-step-guide-from-an-expert\"\u003Ecrate training\u003C/a\u003E. If you have to be away for several hours, check them into doggy daycare or arrange for a neighbor to stop by and play with them.\n\nWhippet dogs are smart and crave mental stimulation. They're not as eager to learn as a \u003Ca href=\"https://www.chewy.com/education/dog-breeds/border-collie/\"\u003EBorder Collie\u003C/a\u003E, but they have an instinct for hunting, so they have a natural intelligence when it comes to playing tracking games and giving chase. Pet parents often describe Whippets as clever, bright and quick to learn. As you train them, remember Whippets are soft-natured and have a sensitive side, and these qualities mean they need to be trained with gentleness.\n\nYou might be able to teach a Whippet to play nice with cats and other small animals, but they do have the tendency to chase. (They are lovers of a good pursuit after all!) Their instincts can kick in even with a well-known feline.",
+        "h2_how_to_care_for_a_breed": "The Whippet dog breed is laid-back and pretty easy to care for, with their minimal grooming needs and general good health. While they're pretty chill figuratively speaking, they don't do well in actual cold weather, so instead of stocking up on grooming supplies, you may find yourself buying a dog wardrobe of \u003Ca href=\"https://www.chewy.com/b/sweaters-hoodies-1962\" target=\"_blank\" rel=\"noopener\"\u003Ecoats and sweaters\u003C/a\u003E. One thing they're not relaxed about? Their desire to run. Whippets are high-energy dogs, so you'll need to provide them with plenty of opportunities for exercise and stretching those legs.",
+        "grooming": "Whippets make it extra easy to love them with a coat that rarely needs to be brushed. Use a \u003Ca href=\"https://www.chewy.com/f/bristle-brush-dog-brushes-combs_c356_f70v83784\" target=\"_blank\" rel=\"noopener\"\u003Esoft bristle brush\u003C/a\u003E or \u003Ca href=\"https://www.chewy.com/f/glove-dog-brushes-combs_c356_f70v83788\" target=\"_blank\" rel=\"noopener\"\u003Erubber glove\u003C/a\u003E once a week to remove any shedding hair and to keep their skin healthy. Their short, thin coats make grooming a snap. They're extra charming in that they really don't have an odor or shed much—a win for your carpets.\n\nThey aren't typically crazy about water, but that's OK because they don't need much bathing, about once every four to six weeks. (The obvious exception is when they've decided to play in the mud.) That's about the same time they'll need their \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/guide-trimming-dogs-nails\"\u003Enails trimmed\u003C/a\u003E. You'll know their nails are too long when you hear them tapping on hard surfaces.\n\nIdeally, you should \u003Ca href=\"https://www.chewy.com/education/dog/grooming/health-wellness-how-to-brush-your-dogs-teeth-live-to-tell-the-tale\"\u003Ebrush your Whippet's teeth daily\u003C/a\u003E. Your vet can teach you how to do this, and it's best to start teeth brushing as puppies so they'll get used to it faster. This is important because of the potential for dental and gum disease. Make sure you get them in for annual professional teeth cleanings by your vet, too.",
+        "training": "With their sensitive nature, any training that involves pressure, harsh words or intimidation will backfire. Whippets are smart—if they don't like something, they'll avoid it, and that includes your well-intentioned training plan. Patient and kind methods that use treats, praise and toys work best as rewards. Keep your training sessions short and fun, and be generous with those treats! Most importantly, keep your focus on what you want your Whippet puppy to do, rather than what you don't want them to do.\r\n\r\nWhippets get bored with too much repetition. They love variety, and a mix of mental and physical stimulation (think: agility training) is ideal. They can be a bit strong-willed (we'll chalk that up to their smarts), so obedience training may start slow until you figure out what works best for your pup.",
+        "diet_nutrition": "Whippets typically do well on a high-quality, well balanced diet. Be sure the dog food you choose meets the nutritional standards set by the Association of American Feed Control Officials (look for an AAFCO statement on the bag). Be sure to factor in your dog's age and choose a dog food formula that fits their stage in life (puppy, adult, senior). When in doubt, talk to your veterinarian. They are in the best position to help you pick the right food for your dog based on their individual needs.\r\n\r\nNo matter what food you choose, keep portions in mind when serving up supper. Again, your vet can help you determine the best mealtime portions for your pup. The Whippet breed has very little body fat, so even an extra pound or two makes a difference to their overall health. You'll be doling out a lot of treats for training (and just because you love your pup), so be sure you include those in your dog's overall calorie count. (Sadly, treat calories count, too!)",
+        "exercise": "Whippet dogs are athletic and need a lot of exercise, at least an hour a day. They were built to run, and truly, nothing gives them more joy. In order for them to really stretch their legs, they need to have access to an enclosed area where you can take them out off-leash, like a backyard. These pups have a high prey drive and can take off in a flash. A few sprints around a fenced area, and they're ready to come back and explore with you at a more leisurely pace.\r\n\r\nIf you think dog parks are your answer, you may need to pause that thought for a moment. Dog parks can be hit or miss; Whippets do love chasing, and that may include other pups at the dog park. You want to make sure your pup stays on friendly terms with the locals!\r\n\r\nOther excellent ways to give your pup opportunities for exercise include dog sports like agility and lure coursing. Truly, \u003Ca href=\"https://www.akc.org/sports/coursing/lure-coursing/\" target=\"_blank\" rel=\"noopener\"\u003Elure coursing\u003C/a\u003E is their jam—chasing mechanical lures in hot pursuit—and they don't need much guidance in something they were born to do.",
+        "ideal_environment": "With enough training, any dog can be socialized to get along with cats. But keep in mind that Whippets were bred to chase, so it may be especially tricky to teach them that cats are friends, not prey. Other dogs, on the other hand, are usually welcomed as besties.\r\n\r\nThese dogs love people and companionship (including kids), and as long as they aren't in a crowded, boisterous place where they could get overwhelmed, they'll be just fine with company. They're happy to be with you, and they need to be with you for most of the day. If you plan on being gone, you'll need to arrange for a buddy to swing by for some playtime.\r\n\r\nWhippets love a fenced yard where they can run to their hearts' content, but that shouldn't stop an apartment dweller from considering this breed. As long as they're given plenty of exercise and attention, they're fabulous companions and are suited for apartment living.\r\n\r\nAn ideal living environment for a Whippet is one with plenty of opportunities for exercise, then lots of soft beds, pillows and blankets for crashing afterward. You don't have to have an active lifestyle, as long as you can give them frequent chances to race around.\r\n\r\nSince there's not a lot of meat on a Whippet's bones, they get cold easily, so indoor living is a must. They're a bit high maintenance when it comes to the weather in general, including rain, so if you end up raising a Whippet, you may need a whole wardrobe of doggy sweaters, raincoats and warm jackets.",
+        "h2_breed_health": "Whippets have a life expectancy of 12 to 15 years, and while they’re generally a hardy, athletic breed, as with any dog, there are some health problems to watch for, including certain genetic conditions. A reputable breeder will test for those, so be sure you get a copy of the results. If you’re adopting your pup, get a copy of the vet wellness exam. It’s good to know information on some of these issues so you can help keep your Whippet puppy as healthy as possible.\r\n\u003Cul\u003E\r\n \t\u003Cli\u003E\u003Cstrong\u003EBlindness\u003C/strong\u003E: Whippets can have a condition called \u003Ca href=\"https://www.petmd.com/dog/conditions/eyes/c_dg_corneal_dystrophies\" target=\"_blank\" rel=\"noopener\"\u003Ecorneal dystrophy\u003C/a\u003E, where small white crystal deposits form in their corneas. It progresses slowly, and there’s no pain with it. Unfortunately, there’s also no treatment to remove these deposits. Another concern is a heredity disease called \u003Ca href=\"https://www.petmd.com/dog/condition/progressive-retinal-atrophy-in-dogs\" target=\"_blank\" rel=\"noopener\"\u003Eprogressive retinal atrophy\u003C/a\u003E, which causes dogs to go blind. This condition, like corneal dystrophy, doesn’t cause pain, but there’s no treatment. Still, your Whippet can lead a near-normal life with a few modifications and support from your veterinarian.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Cstrong\u003EThyroid Problems\u003C/strong\u003E: Whippets are at a higher risk for \u003Ca href=\"https://www.petmd.com/dog/conditions/endocrine/c_dg_hyperthyroidism\" target=\"_blank\" rel=\"noopener\"\u003Ehypothyroidism\u003C/a\u003E, a condition in which their body doesn’t make enough thyroid hormone. Your veterinarian will give a full exam, including bloodwork for testing their thyroid hormones. Treatment varies, but in most cases, it just involves a daily hormone medication.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/ears/deafness-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cstrong\u003EDeafness\u003C/strong\u003E\u003C/a\u003E: This breed is more prone to inherited deafness. If you think you’re pup may have hearing issues, contact your veterinarian, who will give your dog a thorough exam to make sure they don’t have something else, such as an ear infection. If your pet’s ears appear normal, but it seems like they can’t hear you, you’ll want to address this with your veterinarian.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Cstrong\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/digestive/gastric-dilatation-volvulus-gdv-syndrome\" target=\"_blank\" rel=\"noopener\"\u003EGastric Dilatation and Volvulus\u003C/a\u003E (GDV)\u003C/strong\u003E: This is a displacement and twisting of the stomach, leading to gas build up and tissue damage which is a life-threatening emergency in dogs. GDV is most commonly observed in large breed dogs, but with a Whippet’s deep chest, they are also vulnerable to this condition. Discussing preventative measures with your veterinarian, ensuring your dog is rested after eating and maintaining overall health can aid in lower risk.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/cardiovascular/c_dg_von_willebrand_disease\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cstrong\u003EVon Willebrand Disease\u003C/strong\u003E\u003C/a\u003E: This is a blood clotting disorder that is passed on to a Whippet puppy from their parents (so dogs should be tested before being used in a breeding program). Signs of Von Willebrand Disease include prolonged clotting time after any cut or scrape, blood in the urine or feces, or oral bleeding. Early detection can be performed with a DNA test of cheek cells or a blood test to identify clotting factors.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/cardiovascular/mitral-valve-disease-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cstrong\u003EMitral Valve Disease\u003C/strong\u003E\u003C/a\u003E: This condition affects the mitral valve located on the left side of the heart. Changes to this valve can lead to thickening of the left side of the heart, heart enlargement and back flow of blood. Symptoms include exercise intolerance, coughing, increased respiratory effort, difficulty getting comfortable and lethargy. Your veterinarian can help monitor any progression of the disease with routine examinations to detect any heart murmur linked to the mitral valve, grading the murmur for severity, x-rays, echocardiogram and even bloodwork to detect strain/damage to the cardiac muscle.\u003C/li\u003E\r\n\u003C/ul\u003E",
+        "h2_breed_history": "Whippets didn't get their name until the mid-1800s, but they've probably been around for hundreds, if not thousands of years. Their origins appeared in paintings and sculptures throughout the Middle Ages and the Renaissance, and they resemble small \u003Ca href=\"https://www.chewy.com/education/dog-breeds/greyhound/\" target=\"_blank\" rel=\"noopener\"\u003EGreyhounds\u003C/a\u003E. In fact, several hundred years ago in Great Britain, people who couldn't afford Greyhounds would keep Whippets, which is how they earned their nickname \"the poor man's Greyhound.\"\r\n\r\nHistorically, Whippets were used for hunting rabbits in open fields, where their speed and love of the chase came in handy. They didn't need to rely on tracking or scent because they relied on sight. This instinct was perfect for rag-racing, aka what is now known as lure coursing. The sport became so popular that this breed started exploding in popularity.\r\n\r\nWhen people immigrated from Europe in the 19th century, the Whippet started showing up in New England states, and rag races became the rage in America as well. And in 1888, the American Kennel Club recognized the Whippet.\r\n\r\nSo, where is the best place to find Whippet puppies today? Check out the list of reputable breeders on the \u003Ca href=\"https://marketplace.akc.org/puppies/whippet\" target=\"_blank\" rel=\"noopener\"\u003EAmerican Kennel Club website.\u003C/a\u003E The price for Whippet puppies depends on the breeder, but you can expect to spend $1,000 and $2,500. For this, you'll likely get a puppy who's been screened for health and temperament issues and may come with pedigree papers. You can also find Whippet rescue organizations to adopt a Whippet, check out your local animal shelter, or \u003Ca href=\"https://www.chewy.com/g/dog-whippet_ga1\"\u003Esearch Chewy’s database of adoptable dogs\u003C/a\u003E in your area.",
+        "expert_attribution": "\u003Ci\u003EExpert input provided by Dr. Antje Joslin, Veterinarian for \u003Ca href=\"http://www.dogtopia.com/\" target=\"_blank\" rel=\"noopener\"\u003EDogtopia\u003C/a\u003E, Matt Beisner, CPDT-KA, Host of 'Dog: Impossible' on Nat Geo WILD and Disney+, and Dr. Lisa Costello, DVM and Board of Directors for both the \u003Ca href=\"https://www.americanwhippetclub.org/\" target=\"_blank\" rel=\"noopener\"\u003EAmerican Whippet Club\u003C/a\u003E and the \u003Ca href=\"http://www.whippethealth.org/\" target=\"_blank\" rel=\"noopener\"\u003EWhippet Health Foundation\u003C/a\u003E.\u003C/i\u003E\r\n\r\n\u003Cem\u003EBreed characteristic ratings provided by veterinarian Dr. Sarah J. Wooten, DVM, CVJ, a veterinarian at \u003Ca href=\"https://sheepdraw.com/\" target=\"_blank\" rel=\"noopener\"\u003ESheep Draw Veterinary Hospital\u003C/a\u003E in Greeley, Colorado; dog trainer and behavior consultant Irith Bloom, CPDT-KSA, CBCC-KA, CDBC, owner of \u003Ca href=\"https://thesophisticateddog.com/\" target=\"_blank\" rel=\"noopener\"\u003EThe Sophisticated Dog, LLC\u003C/a\u003E, in Los Angeles; and certified animal behavior consultant \u003Ca href=\"https://shojai.com/\" target=\"_blank\" rel=\"noopener\"\u003EAmy Shojai\u003C/a\u003E, CABC, in Sherman, Texas. \u003C/em\u003E\r\n\r\n\u003Cem\u003EThe health content was medically reviewed by Chewy vets.\u003C/em\u003E",
+        "facebook_social_snippet_with_cta": "\u003Cp\u003EOften confused with the Italian Greyhound, the Whippet is a great family dog who loves to run. Think the Whippet might be a good match for your family? Learn all about the Whippet—from their health to their exercise needs—in our complete Whippet guide. \u003C/p\u003E",
+        "species": "\u003Cp\u003EDog\u003C/p\u003E",
+        "h2_faqs": "\u003Ch3\u003EDo Whippets shed?\u003C/h3\u003E\r\nYes, Whippets shed; however, it's minimal compared to other dogs. They really only need weekly brushing to keep your couches free of tiny hairs.\r\n\u003Ch3\u003EDo Whippets bark?\u003C/h3\u003E\r\nWhippets are not big barkers. They're known to alert you when someone rings the doorbell, but they aren't a very vocal breed. In fact, they are pretty quiet dogs.\r\n\u003Ch3\u003EAre Whippets good pets?\u003C/h3\u003E\r\nYes! Whippets are good pets. They love being around people and do well in a household that will give them plenty of exercise along with opportunities to be lazy and stretch out on the couch. They are great with kids, but often need a home without cats due to their overwhelming desire to chase.\r\n\u003Ch3\u003EAre Whippets smart?\u003C/h3\u003E\r\nWhippets are smart dogs, but they might be a bit strong-willed when it comes to obedience training. They master skills quickly but were bred to hunt without direction from people. They're independent but are very capable of learning manners and basic commands. They learn best with a gentle hand and lots of praise.\r\n\u003Ch3\u003EWhat are the most common Whippet mixes?\u003C/h3\u003E\r\n\u003Cul\u003E\r\n \t\u003Cli\u003EWhippet-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/labrador-retriever/\"\u003ELab\u003C/a\u003E mix (Whipador)\u003C/li\u003E\r\n \t\u003Cli\u003EWhippet-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/chihuahua/\"\u003EChihuahua\u003C/a\u003E mix (Chippet)\u003C/li\u003E\r\n \t\u003Cli\u003EWhippet-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/greyhound/\"\u003EGreyhound\u003C/a\u003E mix (Whippet-Greyhound)\u003C/li\u003E\r\n \t\u003Cli\u003EWhippet-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/american-pit-bull-terrier/\"\u003EPit Bull\u003C/a\u003E mix (Pit Whip)\u003C/li\u003E\r\n \t\u003Cli\u003EWhippet-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/border-collie/\"\u003EBorder Collie\u003C/a\u003E mix (Whippet-Border Collie)\u003C/li\u003E\r\n \t\u003Cli\u003EWhippet-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/beagle/\"\u003EBeagle\u003C/a\u003E mix (Whipbeagle)\u003C/li\u003E\r\n\u003C/ul\u003E\r\nNote: These are not purebred dogs but mixed breeds.",
+        "faq_items": [
+          {
+            "faq_title": "Do Whippets shed?",
+            "faq_content": "Yes, Whippets shed; however, it's minimal compared to other dogs. They really only need weekly brushing to keep your couches free of tiny hairs."
+          },
+          {
+            "faq_title": "Do Whippets bark?",
+            "faq_content": "Whippets are not big barkers. They're known to alert you when someone rings the doorbell, but they aren't a very vocal breed. In fact, they are pretty quiet dogs."
+          },
+          {
+            "faq_title": "Are Whippets good pets?",
+            "faq_content": "Yes! Whippets are good pets. They love being around people and do well in a household that will give them plenty of exercise along with opportunities to be lazy and stretch out on the couch. They are great with kids, but often need a home without cats due to their overwhelming desire to chase."
+          },
+          {
+            "faq_title": "Are Whippets smart?",
+            "faq_content": "Whippets are smart dogs, but they might be a bit strong-willed when it comes to obedience training. They master skills quickly but were bred to hunt without direction from people. They're independent but are very capable of learning manners and basic commands. They learn best with a gentle hand and lots of praise."
+          },
+          {
+            "faq_title": "What are the most common Whippet mixes?",
+            "faq_content": "\u003Cul\u003E\r\n \t\u003Cli\u003EWhippet-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/labrador-retriever/\"\u003ELab\u003C/a\u003E mix (Whipador)\u003C/li\u003E\r\n \t\u003Cli\u003EWhippet-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/chihuahua/\"\u003EChihuahua\u003C/a\u003E mix (Chippet)\u003C/li\u003E\r\n \t\u003Cli\u003EWhippet-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/greyhound/\"\u003EGreyhound\u003C/a\u003E mix (Whippet-Greyhound)\u003C/li\u003E\r\n \t\u003Cli\u003EWhippet-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/american-pit-bull-terrier/\"\u003EPit Bull\u003C/a\u003E mix (Pit Whip)\u003C/li\u003E\r\n \t\u003Cli\u003EWhippet-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/border-collie/\"\u003EBorder Collie\u003C/a\u003E mix (Whippet-Border Collie)\u003C/li\u003E\r\n \t\u003Cli\u003EWhippet-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/beagle/\"\u003EBeagle\u003C/a\u003E mix (Whipbeagle)\u003C/li\u003E\r\n\u003C/ul\u003E\r\nNote: These are not purebred dogs but mixed breeds."
+          }
+        ],
+        "select_related_breeds": [
+          {
+            "selected_related_breed": 1089,
+            "characteristic": "breed_characteristics_physical_appearance"
+          },
+          {
+            "selected_related_breed": 920,
+            "characteristic": "breed_characteristics_good_for_first_time_parents"
+          },
+          {
+            "selected_related_breed": 789,
+            "characteristic": "breed_characteristics_shedding_level"
+          },
+          {
+            "selected_related_breed": 883,
+            "characteristic": "breed_characteristics_playfulnesss"
+          },
+          {
+            "selected_related_breed": 827,
+            "characteristic": "breed_characteristics_good_with_kids"
+          },
+          {
+            "selected_related_breed": 1045,
+            "characteristic": "breed_characteristics_exercise_needs"
+          }
+        ],
+        "enable_featured_gallery": [
+          "enable_featured_gallery"
+        ],
+        "featured_gallery_images": [980, 981, 982, 983, 984, 985]
+      },
+      "yoast_head": "\u003C!-- This site is optimized with the Yoast SEO plugin v23.8 - https://yoast.com/wordpress/plugins/seo/ --\u003E\n\u003Ctitle\u003EWhippet Breed: Characteristics, Care &amp; Photos | Chewy\u003C/title\u003E\n\u003Cmeta name=\"description\" content=\"Often mistaken for the Italian Greyhound, the Whippet is a family-friendly dog. Learn more about this breed in our complete Whippet guide.\" /\u003E\n\u003Cmeta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" /\u003E\n\u003Clink rel=\"canonical\" href=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/whippet/\" /\u003E\n\u003Cmeta property=\"og:locale\" content=\"en_US\" /\u003E\n\u003Cmeta property=\"og:type\" content=\"article\" /\u003E\n\u003Cmeta property=\"og:title\" content=\"Whippet Breed: Characteristics, Care &amp; Photos | Chewy\" /\u003E\n\u003Cmeta property=\"og:description\" content=\"Often mistaken for the Italian Greyhound, the Whippet is a family-friendly dog. Learn more about this breed in our complete Whippet guide.\" /\u003E\n\u003Cmeta property=\"og:url\" content=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/whippet/\" /\u003E\n\u003Cmeta property=\"og:site_name\" content=\"Chewy\" /\u003E\n\u003Cmeta property=\"article:modified_time\" content=\"2025-05-05T14:22:25+00:00\" /\u003E\n\u003Cmeta property=\"og:image\" content=\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11170948/202106Whippet_FeaturedImage.jpg\" /\u003E\n\t\u003Cmeta property=\"og:image:width\" content=\"1440\" /\u003E\n\t\u003Cmeta property=\"og:image:height\" content=\"865\" /\u003E\n\t\u003Cmeta property=\"og:image:type\" content=\"image/jpeg\" /\u003E\n\u003Cmeta name=\"twitter:card\" content=\"summary_large_image\" /\u003E\n\u003Cscript type=\"application/ld+json\" class=\"yoast-schema-graph\"\u003E{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/whippet/\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/whippet/\",\"name\":\"Whippet Breed: Characteristics, Care & Photos | Chewy\",\"isPartOf\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/whippet/#primaryimage\"},\"image\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/whippet/#primaryimage\"},\"thumbnailUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11170948/202106Whippet_FeaturedImage.jpg\",\"datePublished\":\"2021-06-02T12:14:15+00:00\",\"dateModified\":\"2025-05-05T14:22:25+00:00\",\"description\":\"Often mistaken for the Italian Greyhound, the Whippet is a family-friendly dog. Learn more about this breed in our complete Whippet guide.\",\"breadcrumb\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/whippet/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://phcms.hlth.prd.aws.chewy.cloud/breed/whippet/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/whippet/#primaryimage\",\"url\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11170948/202106Whippet_FeaturedImage.jpg\",\"contentUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11170948/202106Whippet_FeaturedImage.jpg\",\"width\":1440,\"height\":865},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/whippet/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://phcms.hlth.prd.aws.chewy.cloud/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Whippet\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/\",\"name\":\"Chewy\",\"description\":\"\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"}]}\u003C/script\u003E\n\u003C!-- / Yoast SEO plugin. --\u003E",
+      "yoast_head_json": {
+        "title": "Whippet Breed: Characteristics, Care & Photos | Chewy",
+        "description": "Often mistaken for the Italian Greyhound, the Whippet is a family-friendly dog. Learn more about this breed in our complete Whippet guide.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://phcms.hlth.prd.aws.chewy.cloud/breed/whippet/",
+        "og_locale": "en_US",
+        "og_type": "article",
+        "og_title": "Whippet Breed: Characteristics, Care & Photos | Chewy",
+        "og_description": "Often mistaken for the Italian Greyhound, the Whippet is a family-friendly dog. Learn more about this breed in our complete Whippet guide.",
+        "og_url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/whippet/",
+        "og_site_name": "Chewy",
+        "article_modified_time": "2025-05-05T14:22:25+00:00",
+        "og_image": [
+          {
+            "width": 1440,
+            "height": 865,
+            "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11170948/202106Whippet_FeaturedImage.jpg",
+            "type": "image/jpeg"
+          }
+        ],
+        "twitter_card": "summary_large_image",
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/whippet/",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/whippet/",
+              "name": "Whippet Breed: Characteristics, Care & Photos | Chewy",
+              "isPartOf": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/whippet/#primaryimage"
+              },
+              "image": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/whippet/#primaryimage"
+              },
+              "thumbnailUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11170948/202106Whippet_FeaturedImage.jpg",
+              "datePublished": "2021-06-02T12:14:15+00:00",
+              "dateModified": "2025-05-05T14:22:25+00:00",
+              "description": "Often mistaken for the Italian Greyhound, the Whippet is a family-friendly dog. Learn more about this breed in our complete Whippet guide.",
+              "breadcrumb": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/whippet/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://phcms.hlth.prd.aws.chewy.cloud/breed/whippet/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/whippet/#primaryimage",
+              "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11170948/202106Whippet_FeaturedImage.jpg",
+              "contentUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11170948/202106Whippet_FeaturedImage.jpg",
+              "width": 1440,
+              "height": 865
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/whippet/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://phcms.hlth.prd.aws.chewy.cloud/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Whippet"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/",
+              "name": "Chewy",
+              "description": "",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            }
+          ]
+        }
+      },
+      "yoast_meta": {
+        "yoast_wpseo_title": "",
+        "yoast_wpseo_metadesc": "",
+        "yoast_wpseo_canonical": ""
+      },
+      "_links": {
+        "self": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed/989",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/types/breed"
+          }
+        ],
+        "acf:attachment": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/985"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/984"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/983"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/982"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/981"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/980"
+          }
+        ],
+        "wp:featuredmedia": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/988"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media?parent=989"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "pet_type",
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/pet_type?post=989"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ]

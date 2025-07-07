@@ -1,0 +1,321 @@
+[
+    {
+      "id": 417,
+      "date": "2021-06-29T10:27:05",
+      "date_gmt": "2021-06-29T10:27:05",
+      "guid": {
+        "rendered": "https://haproxy.use1.lgcy.prd.aws.chewy.cloud/eks/ns/pet-health/pet-health-content-backend/breed/german-pinscher/"
+      },
+      "modified": "2025-05-05T14:21:29",
+      "modified_gmt": "2025-05-05T14:21:29",
+      "slug": "german-pinscher",
+      "status": "publish",
+      "type": "breed",
+      "link": "https://phcms.hlth.prd.aws.chewy.cloud/breed/german-pinscher/",
+      "title": {
+        "rendered": "German Pinscher"
+      },
+      "featured_media": 416,
+      "template": "",
+      "pet_type": [],
+      "class_list": [
+        "post-417",
+        "breed",
+        "type-breed",
+        "status-publish",
+        "has-post-thumbnail",
+        "hentry"
+      ],
+      "acf": {
+        "breed_snapshot_best_for": "\u003Cp\u003EBecause German Pinschers have a sleek, shiny coat that needs minimal grooming, the bulk of your time will be spent in exercising and training this super-smart, super-athletic and super-feisty pup. Originally bred to hunt small critters, German Pinschers are best for experienced and active dog parents.\u003C/p\u003E",
+        "alt_image_text": "German Pinscher dog breed",
+        "breed_intro": "Think of the German Pinscher as your personal drill sergeant—with a mischievous side. These smart pups are full of energy and will make sure you're up and at 'em for a \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/how-to-run-with-dog\"\u003Emorning jog\u003C/a\u003E. With their sleek coat and confident gait, you'll be trying to match their perfect form. But these dogs have plenty of personality, too; they're ready to join you in all your hijinks (and maybe create some of their own). Fiesty, loving and a little sassy, this pup's a toughie with a heart of gold.",
+        "breed_related_products_product_card_set": null,
+        "breed_snapshot_temperament": "\u003Cp\u003EEnergetic, Strong, Tough Guy\u003C/p\u003E",
+        "what_does_this_breed_look_like_weight": "\u003Cp\u003EMale: 25-45 pounds\u003C/p\u003E\u003Cp\u003EFemale: 25-45 pounds\u003C/p\u003E",
+        "what_does_this_breed_look_like_height": "\u003Cp\u003EMale: 17-20 inches\u003C/p\u003E\u003Cp\u003EFemale: 17-20 inches\u003C/p\u003E",
+        "breed_snapshot_life_expectancy": "\u003Cp\u003E12 to 14 years\u003C/p\u003E",
+        "breed_snapshot_maintenance_level": "\u003Cp\u003EMedium\u003C/p\u003E",
+        "breed_characteristics_friendliness": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_snapshot_coat_color": "\u003Cp\u003EFawn (Isabella), Red, Black\u003C/p\u003E",
+        "breed_snapshot_shed_level": "\u003Cp\u003ELow\u003C/p\u003E",
+        "in_article_video": null,
+        "breed_characteristics": "These traits are rated on a scale of 1-5 with 1 being the lowest and 5 being the highest. Remember: Dogs are individuals, and not all dogs, even those of the same breed, will exhibit all the same qualities.",
+        "breed_characteristics_exercise_needs": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_health_issues": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_barking_tendencies": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_grooming_needs": "\u003Cp\u003E1\u003C/p\u003E",
+        "breed_characteristics_shedding_level": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_training_needs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_kids": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_with_cats": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_good_for_apartments_small_homes": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_energy_level": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_good_with_other_dogs": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_playfulnesss": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_cold_weather": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_warm_weather": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_for_first_time_parents": "\u003Cp\u003E2\u003C/p\u003E",
+        "how_do_i_look_card_image": 415,
+        "what_does_this_breed_look_like": "Head erect, eyes narrowed in focus and body at attention, the German Pinscher looks ever vigilant and ready for action. Their sleek form and slightly glossy coat give them an elegant air, too. Their looks, along with their always-on attitude, often get them confused for the \u003Ca href=\"https://www.chewy.com/education/dog-breeds/doberman-pinscher/\"\u003EDoberman Pinscher\u003C/a\u003E, but the German Pinscher is smaller in size and smaller-boned than the Doberman.",
+        "what_does_this_breed_look_like_ears": "\u003Cp\u003EA German Pinscher's ears are V-shaped and symmetrical. The AKC breed standard allows for their ears to be cropped, to stand erect. If left uncropped, the ears will fold over neatly and point to the ground. Ear cropping involves surgically cutting away the outer part of a dog’s ear. Veterinary groups along with many US states and countries have banned this procedure due to medical and behavioral reasons. If you are interested in this procedure, schedule a consultation with your veterinarian.\u003C/p\u003E",
+        "what_does_this_breed_look_like_eyes": "\u003Cp\u003ETheir eyes are medium-sized, dark and oval.\u003C/p\u003E",
+        "what_does_this_breed_look_like_nose": "\u003Cp\u003EThey have long, slender muzzle and black noses.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_length": "\u003Cp\u003EGerman Pinschers have short, dense coats that are smooth and shiny.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_color": "\u003Cp\u003ETheir coats come in several colors, including Isabella (a light yellowish tan), red, and black or blue, with red or tan markings.\u003C/p\u003E",
+        "what_does_this_breed_look_like_tail": "\u003Cp\u003ETheir tail is long and thin and usually docked between the second and third joints. The AKC breed standard allows for the tail to be docked. Docking involves cutting a portion of the dog’s tail off when they are puppies. Veterinary groups along with many US states and countries have banned this procedure due to medical and behavioral reasons. If you are interested in this procedure, schedule a consultation with your veterinarian.\u003C/p\u003E",
+        "h2_breed_temperament": "The German Pinscher is an energetic and intelligent dog who is loyal and protective of their families. Their personality can include a strong-willed and assertive streak. (That's why they're not a good choice for first-time pup parents—you'll likely need experience to teach them how to live in harmony with you.)\r\n\r\nThese dogs like to be busy, so plan to keep them occupied with exercise, \u003Ca href=\"https://www.chewy.com/b/puzzle-toys-games-2335\" target=\"_blank\" rel=\"noopener\"\u003Epuzzle toys\u003C/a\u003E and training. If you don't give them something to do, they'll find their own entertainment—and your shoes and your furniture may become unwilling participants.\r\n\r\nGerman Pinschers were originally bred to hunt small critters, but now they focus their efforts on being a loving companion to their families and guardian of their home. These pups can do well with other dogs or older kids, but early socialization and training are important. German Pinschers may do OK with a cat they've been raised with since puppyhood; otherwise, they'll always give chase. They tend to like a more peaceful home, which is why they may get along better with older kids who won't startle them. It's a good idea to teach children how to properly interact with dogs.",
+        "h2_how_to_care_for_a_breed": "German Pinschers have moderate maintenance needs. Their sleek, shiny coat needs minimal grooming and won't shed excessively. Instead, the bulk of your time will be spent in exercising and training this active, intelligent pup.",
+        "grooming": "The German Pinscher needs relatively little grooming, and you'll be pleased with how little they shed. Here are some grooming tips for your German Pinscher:\n\u003Cul\u003E\n \t\u003Cli\u003E\u003Cstrong\u003EBrushing:\u003C/strong\u003E Plan to \u003Ca href=\"https://www.chewy.com/education/dog/grooming/brushing-a-dog\"\u003Ebrush your pup's coat\u003C/a\u003E once a week with a \u003Ca href=\"https://www.chewy.com/f/dog-bristle-brushes_c355_f70v83784\" target=\"_blank\" rel=\"noopener\"\u003Ebristle brush\u003C/a\u003E. This will not only keep the coat healthy but will also benefit the skin underneath with a massage. Many dogs find this soothing, and it can be a great way to reward your pup during training.\u003C/li\u003E\n \t\u003Cli\u003E\u003Cstrong\u003EEar cleaning:\u003C/strong\u003E&nbsp;During your weekly brushing sessions, give your dog's ears a once-over. Check them for dirt and wax, sniff for any strange smells (which could indicate infection). \u003Cspan class=\"TextRun SCXW26721015 BCX0\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\u003E\u003Cspan class=\"NormalTextRun SCXW26721015 BCX0\"\u003EIf you notice anything, speak to your vet. If your vet recommends at-home cleaning, follow this \u003C/span\u003E\u003C/span\u003E\u003Ca class=\"Hyperlink SCXW26721015 BCX0\" href=\"https://www.chewy.com/education/dog/health-and-wellness/how-do-you-clean-a-dogs-ears-follow-this-vet-approved-step-by-step-guide\" target=\"_blank\" rel=\"noreferrer noopener\"\u003E\u003Cspan class=\"TextRun Underlined SCXW26721015 BCX0\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\u003E\u003Cspan class=\"NormalTextRun SCXW26721015 BCX0\" data-ccp-charstyle=\"Hyperlink\"\u003Estep-by-step guide on how to clean dog ears\u003C/span\u003E\u003C/span\u003E\u003C/a\u003E\u003Cspan class=\"TextRun SCXW26721015 BCX0\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\u003E\u003Cspan class=\"NormalTextRun SCXW26721015 BCX0\"\u003E.\u003C/span\u003E\u003C/span\u003E Check their eyes, too, and gently wipe away any gunk with a wet washcloth or cotton ball.\u003C/li\u003E\n \t\u003Cli\u003E\u003Cstrong\u003EBathing:\u003C/strong\u003E This pup will only need a bath once every four to six weeks.\u003C/li\u003E\n \t\u003Cli\u003E\u003Cstrong\u003ENail trimming:\u003C/strong\u003E Bath time is a good time to give their nails a trim—the bathwater makes the nails softer and easier to trim.\u003C/li\u003E\n \t\u003Cli\u003E\u003Cstrong\u003EDental care:\u003C/strong\u003E Their \u003Ca href=\"https://www.chewy.com/education/dog/grooming/health-wellness-how-to-brush-your-dogs-teeth-live-to-tell-the-tale\"\u003Eteeth need to be brushed\u003C/a\u003E daily. Start while your German Pinscher's a puppy, if possible, so they'll get used to it faster. And once each year, have your vet—not a groomer—give them a thorough cleaning and exam to check for good oral health.\u003C/li\u003E\n\u003C/ul\u003E",
+        "training": "The German Pinscher breed is highly intelligent but can be strong-willed; so the earlier you start \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/sit-stay-and-beyond-weve-got-the-essential-guide-to-basic-dog-obedience-training\"\u003Eobedience training\u003C/a\u003E, the better. (Obedience training includes basic commands like \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-sit\" target=\"_blank\" rel=\"noopener\"\u003Esit\u003C/a\u003E, \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-stay\" target=\"_blank\" rel=\"noopener\"\u003Estay\u003C/a\u003E and \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-come\" target=\"_blank\" rel=\"noopener\"\u003Ecome\u003C/a\u003E and \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/leash-train-dog-2\" target=\"_blank\" rel=\"noopener\"\u003Ehow to walk nicely on a leash\u003C/a\u003E.) A German Pinscher puppy needs a confident and calm leader who understands the consistency and patience needed to work with willful breeds, which is why they're better suited for people with previous dog experience.\n\nThese dogs were bred to hunt vermin, so it's important to always keep them on a leash when not in an enclosed area, like a fenced yard. No matter how well you train your German Pinscher, if they decide something needs chasing\u003Cem\u003E right now\u003C/em\u003E, they'll be off on the hunt—and they won't look both ways before crossing the street. These dogs are speedy, too; you won't be able to keep up—unless maybe you're Usain Bolt or Florence Griffith-Joyner.\n\nEarly \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/positively-trained-puppy-socialization-dos-and-donts\"\u003Esocialization\u003C/a\u003E is important to help your pup be more comfortable around other dogs and people. (But, let's be honest—they're never going to be as friendly as a \u003Ca href=\"https://www.chewy.com/education/dog-breeds/golden-retriever/\"\u003EGolden Retriever\u003C/a\u003E.) This means you'll need to take your German Pinscher puppy out on walks and let them experience new people, pets and situations. Start while they're young, and they'll grow up thinking it's normal to be around new people (and understanding there's no need to defend you). Puppy preschool is a great place to help with socialization skills. Here, puppies learn to play nicely with each other, and they get to meet new (and not \"dangerous\") people all in one setting.",
+        "diet_nutrition": "German Pinschers typically do well on \u003Ca href=\"https://www.chewy.com/b/premium-food-11728\" target=\"_blank\" rel=\"noopener\"\u003Ehigh-quality commercial dog food\u003C/a\u003E. Be sure to choose a formula for their stage in life (puppy, adult or senior). Look for a statement on the packaging that says it meets the nutritional standards set by the Association of American Feed Control Officials.\r\n\r\nBe sure to include the treats you give during all those training sessions (and just because they're adorable) in your overall mealtime plan, too. Even an extra pound or two can create health issues, like heart disease and diabetes, for your pup later in life. If you notice your dog's getting a little thick around the middle, talk with your vet. They're in the best position to help you put together an exercise and meal strategy to help your pup lose the weight and maintain their nutritional needs.",
+        "exercise": "How much exercise does the German Pinscher need? A lot. Plan on at least one hour (if not more) every day. This on-the-go breed was born to run and hunt—two traits that demand high energy—and you'll need to burn through all that energy on the daily.\n\nThese dogs are super smart and super athletic, so find different activities that play to both of those strengths. If you're looking for a running partner, your German Pinscher dog is a great reason to get out of bed (early!) in the morning. A few walks during the day are good, too, but always make sure they are on a leash when outside a fenced yard. Teaching your pup fun tricks, like play dead or shake, can be a great way to keep their brain engaged, as well as to bond with your bestie.\n\nIf you're competitive, consider getting your German Pinscher involved dog sports like \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/dog-agility-training-tips\"\u003Eagility\u003C/a\u003E, obedience, rally (similar to obedience) and tracking competitions. These activities work both the mind and the body, and as an added bonus, you'll get to show off your dog to a whole new audience.\n\nDon't forget to engage their brains when they're inside the house, too. Leave a few \u003Ca href=\"https://www.chewy.com/b/puzzle-toys-games-2335\" target=\"_blank\" rel=\"noopener\"\u003Epuzzle toys\u003C/a\u003E around for them to solve (and dish out a yummy treat when they've solved it!).",
+        "ideal_environment": "German Pinschers need confident, calm and patient leaders to show them the ropes; this dog is not ideal for a first-time pet parent. This breed is very active and needs someone who will take them on lots of adventures to make sure their wiggles are all wiggled out. If you're looking for a dog who wakes up and thinks about their next nap, the German Pinscher is not the right choice for you.\r\n\r\nGerman Pinschers prefer tranquil settings over a lot of raucous activity. When properly socialized, they can do well with older kids who won't alarm them with random squeals. They can get along with other dogs, too, and possibly cats they've known since they were a puppy. But small pets, like rabbits, are no dice. These working dogs were bred to hunt, and these types of pets are guaranteed to fire up their their hunting and chasing instincts.\r\n\r\nThey do well in homes of any size—apartments to homes with a fenced yard—as long as you're able to give them the daily exercise they need. But all off-leash play must be done in a fenced yard. As long as you're able to give them the activity and leadership they crave, these pups can be good pets.",
+        "h2_breed_health": "\u003Cspan data-contrast=\"none\"\u003EGerman Pinschers have a lifespan of 12-14 years, and there are several health concerns associated with the breed. With knowledge, proper care and routine vet checkups, you can help your pup live the healthiest life possible.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;335557856&quot;:16777215}\"\u003E \u003C/span\u003E\r\n\u003Cul\u003E\r\n \t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;multilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"1\" data-aria-level=\"1\"\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/c_dg_hip_dysplasia\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EHip Dysplasia\u003C/span\u003E\u003C/b\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E: This often-genetic condition occurs when the ball and socket of the hip is malformed and grinds instead of slides smoothly, causing your pup pain. Treatment options include weight management, exercise restriction, physical therapy, joint supplements, pain medications and, in severe cases, surgery.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;335557856&quot;:16777215,&quot;335559685&quot;:1117}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n \t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;multilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"2\" data-aria-level=\"1\"\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/cardiovascular/c_dg_von_willebrand_disease\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EVon Willebrand’s Disease\u003C/span\u003E\u003C/b\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E: This is a hereditary disease that causes the blood not to clot properly. Treatment may include blood transfusions, but dogs don’t usually need treatment unless they’re having surgery or are severely injured. Management may involve a change in activity to prevent injury.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;335557856&quot;:16777215,&quot;335559685&quot;:1117}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n \t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;multilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"3\" data-aria-level=\"1\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EHeart Problems\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E: There is a small incidence of heart problems in German Pinschers, often caused by the weakening of a valve that is detected as a \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/cardiovascular/c_dg_heart_murmur\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Eheart murmur\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E. If your vet hears a murmur, they will likely recommend seeing a veterinary cardiologist for an echocardiogram (ultrasound of the heart) to better determine the underlying cause and best treatment. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;335557856&quot;:16777215,&quot;335559685&quot;:1117}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n \t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;multilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"4\" data-aria-level=\"1\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EEye Problems\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E: German Pinschers may be at risk for \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/eye/c_dg_cataract\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Ecataracts\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E and \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/eyes/c_dg_corneal_dystrophies\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Ecorneal dystrophy\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, an inherited condition in which crystals form on the cornea and leads to vision loss. Cataracts may be corrected with surgery. While there is no treatment for corneal dystrophy, dogs with vision loss can still lead happy lives.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;335557856&quot;:16777215,&quot;335559685&quot;:1117}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\u003C/ul\u003E",
+        "h2_breed_history": "Originating in southern Germany, the German Pinscher is one of that country's oldest breeds. It was a foundation breed for the \u003Ca href=\"https://www.chewy.com/education/dog-breeds/doberman-pinscher/\" target=\"_blank\" rel=\"noopener\"\u003EDoberman Pinscher\u003C/a\u003E and \u003Ca href=\"https://www.chewy.com/education/dog-breeds/miniature-pinscher/\" target=\"_blank\" rel=\"noopener\"\u003EMiniature Pinscher\u003C/a\u003E, and in 1885, the dog was first listed in German records as a smooth-coated Pinscher. Originally, there were two types in the breed: smooth-coated and wire-coated. In the 1900s, the two types were split into two breeds: German Pinscher and Standard Schnauzer.\r\n\r\nThe German Pinscher dog almost went extinct after both World War I and World War II, with no litters registered in West Germany from 1949 to 1958. But Werner Jung, a breed enthusiast in Germany, saved the day—and the breed—when he smuggled a female out of East Germany and bred her with several Miniature Pinschers.\r\n\r\nIn the late 1970s and early 1980s, German Pinschers began to show up in the United States and were bred in small numbers. The American Kennel Club recognized the breed in 2003.\r\n\r\nDo you want to add a German Pinscher to your family? You can find a reputable breeder at the \u003Ca href=\"https://marketplace.akc.org/puppies/german-pinscher\" target=\"_blank\" rel=\"noopener\"\u003EAKC's website\u003C/a\u003E; a puppy can cost $650-$1,000, with some as much as $2,500. For that price, you're likely getting a puppy who's been screened for health and temperament issues and may come with pedigree papers. You can also contact German Pinscher rescues to adopt a pup or keep an eye out for the breed at a local rescue. Or, search \u003Ca href=\"https://www.chewy.com/g/dog-german-pinscher_ga1\" target=\"_blank\" rel=\"noopener\"\u003EChewy’s database of adoptable dogs\u003C/a\u003E in your area.",
+        "expert_attribution": "\u003Ci\u003EExpert input provided by \u003Cem\u003EDr. Sarah J. Wooten, DVM, CVJ, a veterinarian at \u003Ca href=\"https://sheepdraw.com/\" target=\"_blank\" rel=\"noopener\"\u003ESheep Draw Veterinary Hospital\u003C/a\u003E in Greeley, Colorado;\u003C/em\u003E and trainer Amber Walker, KPA-CTP, zoologist and owner of \u003Ca href=\"http://Aitrainers.com\" target=\"_blank\" rel=\"noopener\"\u003EAnimal Intuitions\u003C/a\u003E. \u003C/i\u003E\r\n\r\n\u003Cem\u003EBreed characteristic ratings provided by Dr. Wooten; dog trainer and behavior consultant Irith Bloom, CPDT-KSA, CBCC-KA, CDBC, owner of \u003Ca href=\"https://thesophisticateddog.com/\" target=\"_blank\" rel=\"noopener\"\u003EThe Sophisticated Dog, LLC\u003C/a\u003E, in Los Angeles; and certified animal behavior consultant \u003Ca href=\"https://shojai.com/\" target=\"_blank\" rel=\"noopener\"\u003EAmy Shojai\u003C/a\u003E, CABC, in Sherman, Texas.\u003C/em\u003E\r\n\r\n\u003Cem\u003EThe health content was medically reviewed by Chewy vets.\u003C/em\u003E\r\n\r\n\u003Ci\u003EPhoto credit for \"How do I look?\" \u003Ca href=\"https://www.akc.org/dog-breeds/german-pinscher/\"\u003EAmerican Kennel Club\u003C/a\u003E\u003C/i\u003E",
+        "facebook_social_snippet_with_cta": "\u003Cp\u003EGerman Pinschers are active dogs looking for someone to include them in all their adventures. Might that be you? Get the 101 on this loyal breed and see if you're a match made in doggie heaven.\u003C/p\u003E",
+        "species": "\u003Cp\u003EDog\u003C/p\u003E",
+        "h2_faqs": "\u003Ch3\u003EDo German Pinschers shed?\u003C/h3\u003E\r\nGerman Pinschers don't shed much because the dog is short-coated. They do shed occasionally, but you won't be sweeping up piles of fluff or contending with hair all over the couch.\r\n\u003Ch3\u003EAre German Pinschers good family dogs?\u003C/h3\u003E\r\nGerman Pinschers can be good family dogs in the right setting. These are very energetic dogs who don't like chaotic homes, so they do better in families with older kids. With proper socialization, these dogs can be good members of the family. It's also important to teach children how to interact with dogs.\r\n\u003Ch3\u003EHow big do German Pinschers get?\u003C/h3\u003E\r\nGerman Pinschers are medium dogs. They can get up to 20 inches tall at the shoulder and can weigh up to 45 pounds.\r\n\u003Ch3\u003EHow long do German Pinschers live?\u003C/h3\u003E\r\nGerman Pinschers live 12-14 years, giving you a lot of time to make wonderful memories with this dog.\r\n\u003Ch3\u003EDo German Pinschers bark a lot?\u003C/h3\u003E\r\nGerman Pinschers do bark, but not as much as, say, a \u003Ca href=\"https://www.chewy.com/education/dog-breeds/silky-terrier/\"\u003ESilky Terrier\u003C/a\u003E. German Pinschers take their guard-dog duties seriously, so they will bark to alert you when something's amiss or when new people or dogs come to your door.",
+        "faq_items": [
+          {
+            "faq_title": "Do German Pinschers shed?",
+            "faq_content": "German Pinschers don't shed much because the dog is short-coated. They do shed occasionally, but you won't be sweeping up piles of fluff or contending with hair all over the couch."
+          },
+          {
+            "faq_title": "Are German Pinschers good family dogs?",
+            "faq_content": "German Pinschers can be good family dogs in the right setting. These are very energetic dogs who don't like chaotic homes, so they do better in families with older kids. With proper socialization, these dogs can be good members of the family. It's also important to teach children how to interact with dogs."
+          },
+          {
+            "faq_title": "How big do German Pinschers get?",
+            "faq_content": "German Pinschers are medium dogs. They can get up to 20 inches tall at the shoulder and can weigh up to 45 pounds."
+          },
+          {
+            "faq_title": "How long do German Pinschers live?",
+            "faq_content": "German Pinschers live 12-14 years, giving you a lot of time to make wonderful memories with this dog."
+          },
+          {
+            "faq_title": "Do German Pinschers bark a lot?",
+            "faq_content": "German Pinschers do bark, but not as much as, say, a \u003Ca href=\"https://www.chewy.com/education/dog-breeds/silky-terrier/\"\u003ESilky Terrier\u003C/a\u003E. German Pinschers take their guard-dog duties seriously, so they will bark to alert you when something's amiss or when new people or dogs come to your door."
+          }
+        ],
+        "select_related_breeds": [
+          {
+            "selected_related_breed": 408,
+            "characteristic": "breed_characteristics_exercise_needs"
+          },
+          {
+            "selected_related_breed": 275,
+            "characteristic": "breed_characteristics_shedding_level"
+          },
+          {
+            "selected_related_breed": 1233,
+            "characteristic": "breed_characteristics_playfulnesss"
+          },
+          {
+            "selected_related_breed": 883,
+            "characteristic": "breed_characteristics_good_for_apartments_small_homes"
+          },
+          {
+            "selected_related_breed": 572,
+            "characteristic": "breed_characteristics_friendliness"
+          },
+          {
+            "selected_related_breed": 1074,
+            "characteristic": "breed_characteristics_playfulnesss"
+          }
+        ],
+        "enable_featured_gallery": [
+          "enable_featured_gallery"
+        ],
+        "featured_gallery_images": [409, 410, 411, 412, 413]
+      },
+      "yoast_head": "\u003C!-- This site is optimized with the Yoast SEO plugin v23.8 - https://yoast.com/wordpress/plugins/seo/ --\u003E\n\u003Ctitle\u003EGerman Pinscher Breed: Characteristics, Care &amp; Photos | Chewy\u003C/title\u003E\n\u003Cmeta name=\"description\" content=\"German Pinschers are active dogs looking for someone to include them in all their adventures. Might that be you? Get the 101 in our guide.\" /\u003E\n\u003Cmeta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" /\u003E\n\u003Clink rel=\"canonical\" href=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/german-pinscher/\" /\u003E\n\u003Cmeta property=\"og:locale\" content=\"en_US\" /\u003E\n\u003Cmeta property=\"og:type\" content=\"article\" /\u003E\n\u003Cmeta property=\"og:title\" content=\"German Pinscher Breed: Characteristics, Care &amp; Photos | Chewy\" /\u003E\n\u003Cmeta property=\"og:description\" content=\"German Pinschers are active dogs looking for someone to include them in all their adventures. Might that be you? Get the 101 in our guide.\" /\u003E\n\u003Cmeta property=\"og:url\" content=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/german-pinscher/\" /\u003E\n\u003Cmeta property=\"og:site_name\" content=\"Chewy\" /\u003E\n\u003Cmeta property=\"article:modified_time\" content=\"2025-05-05T14:21:29+00:00\" /\u003E\n\u003Cmeta property=\"og:image\" content=\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11163655/202106GermanPinscher-FeaturedImage.jpg\" /\u003E\n\t\u003Cmeta property=\"og:image:width\" content=\"1440\" /\u003E\n\t\u003Cmeta property=\"og:image:height\" content=\"865\" /\u003E\n\t\u003Cmeta property=\"og:image:type\" content=\"image/jpeg\" /\u003E\n\u003Cmeta name=\"twitter:card\" content=\"summary_large_image\" /\u003E\n\u003Cscript type=\"application/ld+json\" class=\"yoast-schema-graph\"\u003E{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/german-pinscher/\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/german-pinscher/\",\"name\":\"German Pinscher Breed: Characteristics, Care & Photos | Chewy\",\"isPartOf\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/german-pinscher/#primaryimage\"},\"image\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/german-pinscher/#primaryimage\"},\"thumbnailUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11163655/202106GermanPinscher-FeaturedImage.jpg\",\"datePublished\":\"2021-06-29T10:27:05+00:00\",\"dateModified\":\"2025-05-05T14:21:29+00:00\",\"description\":\"German Pinschers are active dogs looking for someone to include them in all their adventures. Might that be you? Get the 101 in our guide.\",\"breadcrumb\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/german-pinscher/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://phcms.hlth.prd.aws.chewy.cloud/breed/german-pinscher/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/german-pinscher/#primaryimage\",\"url\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11163655/202106GermanPinscher-FeaturedImage.jpg\",\"contentUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11163655/202106GermanPinscher-FeaturedImage.jpg\",\"width\":1440,\"height\":865},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/german-pinscher/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://phcms.hlth.prd.aws.chewy.cloud/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"German Pinscher\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/\",\"name\":\"Chewy\",\"description\":\"\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"}]}\u003C/script\u003E\n\u003C!-- / Yoast SEO plugin. --\u003E",
+      "yoast_head_json": {
+        "title": "German Pinscher Breed: Characteristics, Care & Photos | Chewy",
+        "description": "German Pinschers are active dogs looking for someone to include them in all their adventures. Might that be you? Get the 101 in our guide.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://phcms.hlth.prd.aws.chewy.cloud/breed/german-pinscher/",
+        "og_locale": "en_US",
+        "og_type": "article",
+        "og_title": "German Pinscher Breed: Characteristics, Care & Photos | Chewy",
+        "og_description": "German Pinschers are active dogs looking for someone to include them in all their adventures. Might that be you? Get the 101 in our guide.",
+        "og_url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/german-pinscher/",
+        "og_site_name": "Chewy",
+        "article_modified_time": "2025-05-05T14:21:29+00:00",
+        "og_image": [
+          {
+            "width": 1440,
+            "height": 865,
+            "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11163655/202106GermanPinscher-FeaturedImage.jpg",
+            "type": "image/jpeg"
+          }
+        ],
+        "twitter_card": "summary_large_image",
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/german-pinscher/",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/german-pinscher/",
+              "name": "German Pinscher Breed: Characteristics, Care & Photos | Chewy",
+              "isPartOf": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/german-pinscher/#primaryimage"
+              },
+              "image": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/german-pinscher/#primaryimage"
+              },
+              "thumbnailUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11163655/202106GermanPinscher-FeaturedImage.jpg",
+              "datePublished": "2021-06-29T10:27:05+00:00",
+              "dateModified": "2025-05-05T14:21:29+00:00",
+              "description": "German Pinschers are active dogs looking for someone to include them in all their adventures. Might that be you? Get the 101 in our guide.",
+              "breadcrumb": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/german-pinscher/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://phcms.hlth.prd.aws.chewy.cloud/breed/german-pinscher/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/german-pinscher/#primaryimage",
+              "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11163655/202106GermanPinscher-FeaturedImage.jpg",
+              "contentUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11163655/202106GermanPinscher-FeaturedImage.jpg",
+              "width": 1440,
+              "height": 865
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/german-pinscher/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://phcms.hlth.prd.aws.chewy.cloud/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "German Pinscher"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/",
+              "name": "Chewy",
+              "description": "",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            }
+          ]
+        }
+      },
+      "yoast_meta": {
+        "yoast_wpseo_title": "",
+        "yoast_wpseo_metadesc": "",
+        "yoast_wpseo_canonical": ""
+      },
+      "_links": {
+        "self": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed/417",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/types/breed"
+          }
+        ],
+        "acf:attachment": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/413"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/412"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/411"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/410"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/409"
+          }
+        ],
+        "wp:featuredmedia": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/416"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media?parent=417"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "pet_type",
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/pet_type?post=417"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ]

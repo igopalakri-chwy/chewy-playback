@@ -1,0 +1,321 @@
+[
+    {
+      "id": 311,
+      "date": "2021-07-06T15:59:58",
+      "date_gmt": "2021-07-06T15:59:58",
+      "guid": {
+        "rendered": "https://haproxy.use1.lgcy.prd.aws.chewy.cloud/eks/ns/pet-health/pet-health-content-backend/breed/irish-setter/"
+      },
+      "modified": "2025-05-05T14:21:20",
+      "modified_gmt": "2025-05-05T14:21:20",
+      "slug": "irish-setter",
+      "status": "publish",
+      "type": "breed",
+      "link": "https://phcms.hlth.prd.aws.chewy.cloud/breed/irish-setter/",
+      "title": {
+        "rendered": "Irish Setter"
+      },
+      "featured_media": 310,
+      "template": "",
+      "pet_type": [],
+      "class_list": [
+        "post-311",
+        "breed",
+        "type-breed",
+        "status-publish",
+        "has-post-thumbnail",
+        "hentry"
+      ],
+      "acf": {
+        "breed_snapshot_best_for": "\u003Cp\u003EIrish Setters are energetic and friendly dogs known for their rich, reddish coats and friendly disposition. They thrive in active homes with pet parents who appreciate their playful nature and can provide plenty of physical and mental stimulation.\u003C/p\u003E",
+        "alt_image_text": "Irish Setter dog breed",
+        "breed_intro": "A rambunctious redhead, born to run and with a sweet, goofy streak, Irish Setters are friend to all they meet and up for anything you love to do. Magazine-cover gorgeous and intelligent with an alert personality and outgoing manner, they're your new best friend as long as you can give them the attention and exercise they need to burn through all of that energy. Cat, other dogs, kids? Not a problem. We love everyone! So, not the best choice for a guard dog (unless tail-wagging can be considered a weapon) or in a situation of being left alone for most of the day. If you have the time and energy to keep up and enjoy meeting strangers who will want to love on your dog, an \u003Ca href=\"https://www.chewy.com/education/dog/new-dog/irish-dog-names\"\u003EIrish\u003C/a\u003E Setter might be the pooch for you.",
+        "breed_related_products_product_card_set": null,
+        "breed_snapshot_temperament": "\u003Cp\u003ELoving, Goofy, Curious\u003C/p\u003E",
+        "what_does_this_breed_look_like_weight": "\u003Cp\u003EMale: 70 pounds\u003C/p\u003E\u003Cp\u003EFemale: 60 pounds\u003C/p\u003E",
+        "what_does_this_breed_look_like_height": "\u003Cp\u003EMale: 27 inches\u003C/p\u003E\u003Cp\u003EFemale: 25 inches\u003C/p\u003E",
+        "breed_snapshot_life_expectancy": "\u003Cp\u003E12 to 15 years\u003C/p\u003E",
+        "breed_snapshot_maintenance_level": "\u003Cp\u003EHigh\u003C/p\u003E",
+        "breed_characteristics_friendliness": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_snapshot_coat_color": "\u003Cp\u003EMahogany, Chestnut, Red\u003C/p\u003E",
+        "breed_snapshot_shed_level": "\u003Cp\u003EMedium\u003C/p\u003E",
+        "in_article_video": null,
+        "breed_characteristics": "These traits are rated on a scale of 1-5 with 1 being the lowest and 5 being the highest. Remember: Dogs are individuals, and not all dogs, even those of the same breed, will exhibit all the same qualities.",
+        "breed_characteristics_exercise_needs": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_health_issues": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_barking_tendencies": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_grooming_needs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_shedding_level": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_training_needs": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_with_kids": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_good_with_cats": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_for_apartments_small_homes": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_energy_level": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_good_with_other_dogs": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_playfulnesss": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_cold_weather": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_warm_weather": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_for_first_time_parents": "\u003Cp\u003E3\u003C/p\u003E",
+        "how_do_i_look_card_image": 309,
+        "what_does_this_breed_look_like": "Irish Setters have long ears, expressive eyes and deep chestnut-colored coats with lots of feathering. This stunning redhead is often described as the most beautiful of dog breeds, and that holds true regardless of which of the two Irish Setter types you decide to make your own: a show dog or a field dog.",
+        "what_does_this_breed_look_like_ears": "\u003Cp\u003EAn Irish Setter's ears are long and set well back on their heads. The fur on their ears is often curly or wavy. \u003C/p\u003E",
+        "what_does_this_breed_look_like_eyes": "\u003Cp\u003EThey have dark- to medium-brown eyes that are slightly almond-shaped.\u003C/p\u003E",
+        "what_does_this_breed_look_like_nose": "\u003Cp\u003EThe Irish Setter's nose is black or brown and has wide nostrils.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_length": "\u003Cp\u003EIrish Setters have a flat, medium-length coat. Their hair and fringe are long and fine.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_color": "\u003Cp\u003EMost Irish Setters are a beautiful deep shade of auburn. The official colors for their stunning, silky coats are mahogany, chestnut and red.\u003C/p\u003E",
+        "what_does_this_breed_look_like_tail": "\u003Cp\u003EAn Irish Setter's tail tapers to a point and is carried straight or curving slightly upward. \u003C/p\u003E",
+        "h2_breed_temperament": "The Irish Setter breed is known for being energetic and friendly. You'd be hard-pressed to find an Irish Setter who's shy and withdrawn or one who's aggressive and hostile. This breed is happy-go-lucky, ready to romp with your kids in the backyard or keep you company in the house. The Irish Setter wants to be by your side at all times. Their gentle, loving and playful personality makes them a great fit for families. Because of these traits, they're also wonderful therapy dogs who can brighten up a hospital room or nursing home.\r\n\r\nIrish Setters love children, and their goofy nature will keep your kids entertained. These fiery redheads are also very comfortable with strangers (hello, life of the party!) and good with other pets, especially other dogs or cats. Just be careful with pet birds—since Irish Setters were bred to hunt birds, their prey drive might get them in trouble.\r\n\r\nAffectionate, playful and devoted are some of their main characteristics. But Irish Setter dogs also have a mischievous streak: they're fun-loving and curious, and definitely not above getting into a little trouble. The breed is slow to mature, meaning their playful puppy personality stays around a little longer than most dogs. At the end of the day, though, an Irish Setter's temperament is sweet and loving—and their desire to please their pup parent is one of the best qualities Irish Setters possess.",
+        "h2_how_to_care_for_a_breed": "Bringing an Irish Setter into your family requires a significant time commitment. Between grooming them multiple times a week, wearing them out with walks and games and providing enough mental stimulation to keep them out of trouble, an Irish Setter will definitely keep you busy. Here's your 101 guide to caring for your Irish Setter dog.",
+        "grooming": "Irish Setters are a long-haired breed with a beautiful, thick coat of fur. This coat adds extra responsibility for you as their pet parent to keep your pup looking nice. (But trust us, they're worth it.) Brush your Irish Setter every two to three days so their coat won't get tangled or matted. A long \u003Ca href=\"https://www.chewy.com/f/dog-pin-brushes_c356_f70v83789\"\u003Epin brush\u003C/a\u003E or \u003Ca href=\"https://www.chewy.com/bass-brushes-shine-condition-soft/dp/237366\"\u003Esoft bristle brush\u003C/a\u003E will do the trick, with a \u003Ca href=\"https://www.chewy.com/f/dog-grooming-combs_c355_f70v83785\"\u003Efine-tooth comb\u003C/a\u003E for your Irish Setter's tail. When it comes to shedding, you can expect moderate shedding during certain seasons of the year (more in the spring and fall).\n\nCheck your dog's ears regularly for redness, swelling and debris. If you find anything unusual, call your vet—they may advise you to \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/how-do-you-clean-a-dogs-ears-follow-this-vet-approved-step-by-step-guide\"\u003Eclean your dog's ears\u003C/a\u003E.\n\nYou'll also need to \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/guide-trimming-dogs-nails\"\u003Etrim your Irish Setter's nails\u003C/a\u003E every couple of weeks. If the nails touch the ground when your dog's paw is relaxed, it's time to give them a trim.\n\nIrish Setters should have \u003Ca href=\"https://www.chewy.com/education/dog/grooming/health-wellness-how-to-brush-your-dogs-teeth-live-to-tell-the-tale\"\u003Etheir teeth brushed\u003C/a\u003E every day if possible. This will help prevent gum disease and tooth decay. Your vet should also clean your dog's teeth once a year. Grooming your Irish Setter takes some time, but it's all worth it to keep your dog looking beautiful and feeling healthy.",
+        "training": "An Irish Setter's intelligence is high. Their desire to please you makes them easy to train and able to learn virtually any command. (Yep, beauty \u003Ci\u003Eand\u003C/i\u003E brains!) However, Irish Setters are prone to getting bored or distracted, which can lead to frustration for pet parents trying to get a training session complete.\n\nKeep in mind that Irish Setters are very sensitive, so yelling is not the way to get your point across—you'll only hurt their loving little hearts. Be patient and gentle as you work with your dog, guiding them to focus and using positive reinforcement (like giving them treats, attention or playtime as a reward). Irish Setters can also be strong-willed, which may stand in the way of a successful training session. Make sure to give them lots of outlets for their energy so they'll stay calm and focused during training.\n\nIrish Setters sometimes have \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/reducing-separation-anxiety-dog\"\u003Eseparation anxiety\u003C/a\u003E because they bond so closely with their families. (We did tell you that they'll want to be with you all the time!) Practicing separation is an important part of training your pup. Get your dog used to being home alone or simply being in a different room of the house from you by practicing in short increments and slowly building up the time.",
+        "diet_nutrition": "Feed your Irish Setter dog a \u003Ca href=\"https://www.chewy.com/b/premium-food-11728\"\u003Ehigh-quality commercial dog food\u003C/a\u003E made for dogs of their age (puppy, adult or senior). Your veterinarian can help you nail down a feeding chart to guide you on how much and how often to feed your dog based on their specific diet, but two to three cups of food each day—split into two servings—is generally recommended.\n\nIf your Irish Setter is highly active, they will require a diet for active sporting dogs to make sure they're getting in \u003Ca href=\"https://www.chewy.com/education/dog/food-and-nutrition/3-types-of-dogs-who-could-benefit-from-a-high-protein-dog-food\"\u003Eenough protein\u003C/a\u003E to help their muscles recover. It's also important to make sure your dog always has access to fresh, clean water, especially during the hot summer months.\n\nDon't give your Irish Setter food from the table. Many \"people foods\" are harmful or even poisonous to dogs. The occasional dog treat is OK, but don't overdo it—those calories count, too! If your pup has gained a little extra weight, chat with your vet. They're in the best position to help you pick the right ratio of mealtimes, snacks and exercise to help your pup shed the extra weight and maintain their optimal nutrition.",
+        "exercise": "An Irish Setter's exercise needs are high—this breed has a lot of energy! Your pup will need one to two hours of exercise each day. Daily walks or jogs are a great way to fulfill your dog's exercise needs and cater to that Irish Setter speed. This breed should also be allowed to run off-leash whenever possible—your fenced yard will do the trick. Energetic games such as \u003Ca href=\"https://www.chewy.com/b/discs-2330\"\u003EFrisbee\u003C/a\u003E, \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/how-to-teach-dog-to-fetch\"\u003Efetch\u003C/a\u003E and other dog sports will make your Irish Setter as happy as a clam. If you have access to water, you can take your pup for a swim—Irish Setters are strong swimmers and love the water.\n\nIt's important to provide your dog with ample exercise to help them stay healthy. But for Irish Setters, simple physical activity isn't enough. Irish Setters are very intelligent and love to learn, meaning that mental stimulation is equally important to keep them happy.\n\nObedience competitions, tracking (detecting and following a specific scent) and agility (going through an obstacle course) can all be a good fit for an Irish Setter's energy level and keep them from getting bored, \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/training-tips-how-to-stop-destructive-chewing-in-dogs\"\u003Echewing on things\u003C/a\u003E and barking excessively. You can even create puzzles at home, setting up scavenger hunts where your dog has to find their toys and food or doing scent work to find different scents in your home.",
+        "ideal_environment": "Irish Setters can experience separation anxiety and boredom, which can lead them to be destructive—say goodbye to your favorite pair of kicks! An Irish Setter probably won't thrive in a home where their pet parents are gone all day, every day. Besides your company, these pups also need someone who can provide them with plenty of exercise. If these active dogs don't get the exercise and stimulation they need, they might choose their own adventure—and as mentioned above, chances are you won't be a fan of what they pick.\r\n\r\nIf you're considering an Irish Setter, you'll want to be prepared for their grooming needs. This breed has a thick, beautiful coat of fur, but those luscious red locks require a lot of maintenance and upkeep. Between brushing, combing and trimming, you'll stay so busy taking care of your pup's coat that you may not get the time to care for your own locks.\r\n\r\nIrish Setters are excellent family dogs and do very well with children (although older children may be best because of this breed's high energy level). Setters are also good with cats and other dogs. (Just keep them away from birds!) Ideally, they'll live in a home that has a large outdoor space for them to run off-leash. An apartment, townhome or any home in a city would not be ideal for an Irish Setter, but with regular access to a fenced, dog-friendly park, you could make it work.",
+        "h2_breed_health": "Irish Setters have a life expectancy of 12 to 15 years. In general, Irish Setters are a healthy breed, with only a few breed-specific diseases for pet parents and vets to watch out for. These potential Irish Setter health issues include:\r\n\u003Cul\u003E\r\n \t\u003Cli\u003E\u003Cstrong\u003E\u003Ca href=\"https://www.petmd.com/dog/condition/progressive-retinal-atrophy-in-dogs\" target=\"_blank\" rel=\"noopener\"\u003EProgressive Retinal Atrophy\u003C/a\u003E (PRA)\u003C/strong\u003E: PRA is a disease that can lead to blindness in Irish Setters, and unfortunately there is no cure. Luckily, however, there is a genetic screening test, so be sure to ask your breeder and veterinarian.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/c_dg_hip_dysplasia\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cstrong\u003EHip Dysplasia\u003C/strong\u003E\u003C/a\u003E: Hip dysplasia is a potentially painful hereditary condition that can affect your dog’s mobility. Your vet can guide you to the proper treatment options, which include weight control, surgery, medication to alleviate stiffness and pain, and acupuncture.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Cstrong\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/digestive/signs-and-symptoms-bloat-dogs\" target=\"_blank\" rel=\"noopener\"\u003EBloat\u003C/a\u003E or \u003Ca href=\"https://www.petmd.com/dog/conditions/digestive/gastric-dilatation-volvulus-gdv-syndrome\" target=\"_blank\" rel=\"noopener\"\u003EGastric Dilatation-Volvulus\u003C/a\u003E (GDV)\u003C/strong\u003E: As a deep-chested breed, Irish Setters are at risk for bloat, which can be life-threatening. In this emergency condition, a dog’s stomach inflates with gas, then twists. Signs include a distended stomach, dry heave/retching and restlessness. Feeding multiple small meals and preventing vigorous exercise around mealtimes may help reduce the risk of bloating.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Cstrong\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/c_dg_osteodystrophy\" target=\"_blank\" rel=\"noopener\"\u003EHypertrophic Osteodystrophy\u003C/a\u003E (HOD)\u003C/strong\u003E: This developmental bone disease is often extremely painful and can be severe in a growing Irish Setter puppy. Symptoms include fever, anorexia (loss of appetite) and the inability to walk. If you have concerns that your pup is in pain, see your veterinarian immediately.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/endocrine/c_dg_hypothyroidism\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cstrong\u003EHypothyroidism\u003C/strong\u003E\u003C/a\u003E: Hypothyroidism is one of the most common health problems in many dog breeds, including Irish Setters. Hair loss, weight gain and lethargy are all signs of hypothyroidism. Diagnosis is typically via blood test and treatment is often daily medication.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/neurological/epilepsy-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cstrong\u003EEpilepsy\u003C/strong\u003E\u003C/a\u003E: Epilepsy can occur in Irish Setters. Typically, the first seizure is noted between 6 months and 5 years of age. Genetic screening may be available. Epilepsy can often be successfully treated with medication.\u003C/li\u003E\r\n\u003C/ul\u003E",
+        "h2_breed_history": "The Irish Setter's origin is fairly straightforward. The Irish Setter breed was first developed in Ireland in the early 1800s as a hunting dog to aid bird hunters in finding and retrieving prey. Hunters combined \u003Ca href=\"https://www.chewy.com/education/dog-breeds/gordon-setter/\" target=\"_blank\" rel=\"noopener\"\u003EGordon Setters\u003C/a\u003E, \u003Ca href=\"https://www.chewy.com/education/dog-breeds/english-setter/\" target=\"_blank\" rel=\"noopener\"\u003EEnglish Setters\u003C/a\u003E, pointers and spaniels to create an entirely new breed of dog: the Irish Setter. Setters detected birds and flushed them out of their hiding spots. Then the hunter shot the bird, and the dog retrieved the body and brought it back.\r\n\r\nThe American Kennel Club recognized the Irish Setter in 1878, making this bird dog one of the earliest breeds to ever be recognized by the organization. As the Irish Setter's history continued, this breed quickly became one of the most popular dog breeds in the United States.\r\n\r\nToday, some Irish Setters are still used as game dogs. Many more, however, live happy, fulfilled lives in homes with families. Puppies typically cost anywhere between $800 and $3,500, with $1,000 a common Irish Setter price. For that price, you'll likely get a pup who's been screened for health and temperament issues and may come with pedigree papers. You can find an Irish Setter puppy for sale with an \u003Ca href=\"https://marketplace.akc.org/puppies/irish-setter\"\u003EAKC-registered breeder\u003C/a\u003E. To adopt, check with your local animal shelter or search \u003Ca href=\"https://www.chewy.com/g/dog-irish-setter_ga1\"\u003EChewy’s database of adoptable dogs\u003C/a\u003E in your area.\r\n\r\n&nbsp;",
+        "expert_attribution": "\u003Cem\u003EExpert input provided by Erin Askeland, CPDT-KA, CBCC-KA, Animal Health &amp; Behavior Consultant at \u003Ca href=\"https://www.campbowwow.com/\"\u003ECamp Bow Wow\u003C/a\u003E, and J. Todd Gross, DVM and owner of \u003Ca href=\"https://www.goodlettsvilleanimal.com/\"\u003EGoodlettsville Animal Hospital\u003C/a\u003E in Nashville, Tenn. \u003C/em\u003E\r\n\r\n\u003Cem\u003EBreed characteristic ratings provided by veterinarian Dr. Sarah J. Wooten, DVM, CVJ, a veterinarian at \u003Ca href=\"https://sheepdraw.com/\" target=\"_blank\" rel=\"noopener\"\u003ESheep Draw Veterinary Hospital\u003C/a\u003E in Greeley, Colorado; dog trainer and behavior consultant Irith Bloom, CPDT-KSA, CBCC-KA, CDBC, owner of \u003Ca href=\"https://thesophisticateddog.com/\" target=\"_blank\" rel=\"noopener\"\u003EThe Sophisticated Dog, LLC\u003C/a\u003E, in Los Angeles; and certified animal behavior consultant \u003Ca href=\"https://shojai.com/\" target=\"_blank\" rel=\"noopener\"\u003EAmy Shojai\u003C/a\u003E, CABC, in Sherman, Texas.\u003C/em\u003E\r\n\r\n\u003Cem\u003EThe health content was medically reviewed by Chewy vets.\u003C/em\u003E",
+        "facebook_social_snippet_with_cta": "\u003Cp\u003EGot questions about the Irish Setter breed? We have answers. With high grooming needs and lots of energy, this dog takes a lot of work. But they're also a friendly, playful breed who'll keep you laughing. Here are all the Irish Setter facts and information you need to know.\u003C/p\u003E",
+        "species": "\u003Cp\u003EDog\u003C/p\u003E",
+        "h2_faqs": "\u003Ch3\u003EDo Irish Setters shed?\u003C/h3\u003E\r\nYes, Irish Setters do shed. This is not a hypoallergenic breed and not good for a family member with allergies. Compared to some dogs, however, an Irish Setter's shedding is not excessive—and it's only at its worst during the spring and autumn.\r\n\u003Ch3\u003EHow long do Irish Setters live?\u003C/h3\u003E\r\nIrish Setters live 12 to 15 years. Preventative healthcare (regular vet checkups to stay on top of any medical concerns) will help increase your Irish Setter's lifespan and allow them to live a happy, healthy life.\r\n\u003Ch3\u003EAre Irish Setters smart?\u003C/h3\u003E\r\nYes, Irish Setters are smart. They're an intelligent breed who can be trained to remember a variety of tasks and commands.\r\n\u003Ch3\u003EAre Irish Setters good with cats?\u003C/h3\u003E\r\nIrish Setters can be good with cats if raised with them from puppyhood. They have a strong prey drive but with training and encouragement, many Irish Setters get along well with indoor cats. (Just keep them away from pet birds!)\r\n\u003Ch3\u003EWhat are the most common Irish Setter mixes?\u003C/h3\u003E\r\n\u003Cul\u003E\r\n \t\u003Cli\u003EIrish Setter-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/labrador-retriever/\"\u003ELabrador\u003C/a\u003E mix (Lab Setter)\u003C/li\u003E\r\n \t\u003Cli\u003EIrish Setter-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/cocker-spaniel/\"\u003ECocker Spaniel\u003C/a\u003E mix (Cocker Setter )\u003C/li\u003E\r\n \t\u003Cli\u003EIrish Setter-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/german-shepherd/\"\u003EGerman Shepherd\u003C/a\u003E mix (Irish Shepherd)\u003C/li\u003E\r\n \t\u003Cli\u003EIrish Setter-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/golden-retriever/\"\u003EGolden Retriever\u003C/a\u003E mix (Golden Irish)\u003C/li\u003E\r\n \t\u003Cli\u003EIrish Setter-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/poodle/\"\u003EPoodle\u003C/a\u003E mix (Irish Doodle)\u003C/li\u003E\r\n\u003C/ul\u003E\r\nNote: These are not purebred dogs but mixed breeds.",
+        "faq_items": [
+          {
+            "faq_title": "Do Irish Setters shed?",
+            "faq_content": "Yes, Irish Setters do shed. This is not a hypoallergenic breed and not good for a family member with allergies. Compared to some dogs, however, an Irish Setter's shedding is not excessive—and it's only at its worst during the spring and autumn."
+          },
+          {
+            "faq_title": "How long do Irish Setters live?",
+            "faq_content": "Irish Setters live 12 to 15 years. Preventative healthcare (regular vet checkups to stay on top of any medical concerns) will help increase your Irish Setter's lifespan and allow them to live a happy, healthy life."
+          },
+          {
+            "faq_title": "Are Irish Setters smart?",
+            "faq_content": "Yes, Irish Setters are smart. They're an intelligent breed who can be trained to remember a variety of tasks and commands."
+          },
+          {
+            "faq_title": "Are Irish Setters good with cats?",
+            "faq_content": "Irish Setters can be good with cats if raised with them from puppyhood. They have a strong prey drive but with training and encouragement, many Irish Setters get along well with indoor cats. (Just keep them away from pet birds!)"
+          },
+          {
+            "faq_title": "What are the most common Irish Setter mixes?",
+            "faq_content": "\u003Cul\u003E\r\n \t\u003Cli\u003EIrish Setter-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/labrador-retriever/\"\u003ELabrador\u003C/a\u003E mix (Lab Setter)\u003C/li\u003E\r\n \t\u003Cli\u003EIrish Setter-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/cocker-spaniel/\"\u003ECocker Spaniel\u003C/a\u003E mix (Cocker Setter )\u003C/li\u003E\r\n \t\u003Cli\u003EIrish Setter-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/german-shepherd/\"\u003EGerman Shepherd\u003C/a\u003E mix (Irish Shepherd)\u003C/li\u003E\r\n \t\u003Cli\u003EIrish Setter-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/golden-retriever/\"\u003EGolden Retriever\u003C/a\u003E mix (Golden Irish)\u003C/li\u003E\r\n \t\u003Cli\u003EIrish Setter-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/poodle/\"\u003EPoodle\u003C/a\u003E mix (Irish Doodle)\u003C/li\u003E\r\n\u003C/ul\u003E\r\nNote: These are not purebred dogs but mixed breeds."
+          }
+        ],
+        "select_related_breeds": [
+          {
+            "selected_related_breed": 719,
+            "characteristic": "breed_characteristics_friendliness"
+          },
+          {
+            "selected_related_breed": 25,
+            "characteristic": "breed_characteristics_exercise_needs"
+          },
+          {
+            "selected_related_breed": 750,
+            "characteristic": "breed_characteristics_good_with_other_dogs"
+          },
+          {
+            "selected_related_breed": 257,
+            "characteristic": "breed_characteristics_shedding_level"
+          },
+          {
+            "selected_related_breed": 505,
+            "characteristic": "breed_characteristics_energy_level"
+          },
+          {
+            "selected_related_breed": 134,
+            "characteristic": "breed_characteristics_sensitive_to_cold_weather"
+          }
+        ],
+        "enable_featured_gallery": [
+          "enable_featured_gallery"
+        ],
+        "featured_gallery_images": [303, 304, 305, 306, 307]
+      },
+      "yoast_head": "\u003C!-- This site is optimized with the Yoast SEO plugin v23.8 - https://yoast.com/wordpress/plugins/seo/ --\u003E\n\u003Ctitle\u003EIrish Setter Breed: Characteristics, Care &amp; Photos | Chewy\u003C/title\u003E\n\u003Cmeta name=\"description\" content=\"Gorgeous, intelligent and with a mischievous streak, Irish Setters are a family-friendly dog breed. Find out if you&#039;re a match.\" /\u003E\n\u003Cmeta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" /\u003E\n\u003Clink rel=\"canonical\" href=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/irish-setter/\" /\u003E\n\u003Cmeta property=\"og:locale\" content=\"en_US\" /\u003E\n\u003Cmeta property=\"og:type\" content=\"article\" /\u003E\n\u003Cmeta property=\"og:title\" content=\"Irish Setter Breed: Characteristics, Care &amp; Photos | Chewy\" /\u003E\n\u003Cmeta property=\"og:description\" content=\"Gorgeous, intelligent and with a mischievous streak, Irish Setters are a family-friendly dog breed. Find out if you&#039;re a match.\" /\u003E\n\u003Cmeta property=\"og:url\" content=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/irish-setter/\" /\u003E\n\u003Cmeta property=\"og:site_name\" content=\"Chewy\" /\u003E\n\u003Cmeta property=\"article:modified_time\" content=\"2025-05-05T14:21:20+00:00\" /\u003E\n\u003Cmeta property=\"og:image\" content=\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11163030/202107IrishSetter-FeaturedImage.jpg\" /\u003E\n\t\u003Cmeta property=\"og:image:width\" content=\"1440\" /\u003E\n\t\u003Cmeta property=\"og:image:height\" content=\"865\" /\u003E\n\t\u003Cmeta property=\"og:image:type\" content=\"image/jpeg\" /\u003E\n\u003Cmeta name=\"twitter:card\" content=\"summary_large_image\" /\u003E\n\u003Cscript type=\"application/ld+json\" class=\"yoast-schema-graph\"\u003E{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/irish-setter/\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/irish-setter/\",\"name\":\"Irish Setter Breed: Characteristics, Care & Photos | Chewy\",\"isPartOf\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/irish-setter/#primaryimage\"},\"image\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/irish-setter/#primaryimage\"},\"thumbnailUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11163030/202107IrishSetter-FeaturedImage.jpg\",\"datePublished\":\"2021-07-06T15:59:58+00:00\",\"dateModified\":\"2025-05-05T14:21:20+00:00\",\"description\":\"Gorgeous, intelligent and with a mischievous streak, Irish Setters are a family-friendly dog breed. Find out if you're a match.\",\"breadcrumb\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/irish-setter/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://phcms.hlth.prd.aws.chewy.cloud/breed/irish-setter/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/irish-setter/#primaryimage\",\"url\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11163030/202107IrishSetter-FeaturedImage.jpg\",\"contentUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11163030/202107IrishSetter-FeaturedImage.jpg\",\"width\":1440,\"height\":865},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/irish-setter/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://phcms.hlth.prd.aws.chewy.cloud/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Irish Setter\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/\",\"name\":\"Chewy\",\"description\":\"\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"}]}\u003C/script\u003E\n\u003C!-- / Yoast SEO plugin. --\u003E",
+      "yoast_head_json": {
+        "title": "Irish Setter Breed: Characteristics, Care & Photos | Chewy",
+        "description": "Gorgeous, intelligent and with a mischievous streak, Irish Setters are a family-friendly dog breed. Find out if you're a match.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://phcms.hlth.prd.aws.chewy.cloud/breed/irish-setter/",
+        "og_locale": "en_US",
+        "og_type": "article",
+        "og_title": "Irish Setter Breed: Characteristics, Care & Photos | Chewy",
+        "og_description": "Gorgeous, intelligent and with a mischievous streak, Irish Setters are a family-friendly dog breed. Find out if you're a match.",
+        "og_url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/irish-setter/",
+        "og_site_name": "Chewy",
+        "article_modified_time": "2025-05-05T14:21:20+00:00",
+        "og_image": [
+          {
+            "width": 1440,
+            "height": 865,
+            "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11163030/202107IrishSetter-FeaturedImage.jpg",
+            "type": "image/jpeg"
+          }
+        ],
+        "twitter_card": "summary_large_image",
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/irish-setter/",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/irish-setter/",
+              "name": "Irish Setter Breed: Characteristics, Care & Photos | Chewy",
+              "isPartOf": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/irish-setter/#primaryimage"
+              },
+              "image": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/irish-setter/#primaryimage"
+              },
+              "thumbnailUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11163030/202107IrishSetter-FeaturedImage.jpg",
+              "datePublished": "2021-07-06T15:59:58+00:00",
+              "dateModified": "2025-05-05T14:21:20+00:00",
+              "description": "Gorgeous, intelligent and with a mischievous streak, Irish Setters are a family-friendly dog breed. Find out if you're a match.",
+              "breadcrumb": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/irish-setter/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://phcms.hlth.prd.aws.chewy.cloud/breed/irish-setter/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/irish-setter/#primaryimage",
+              "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11163030/202107IrishSetter-FeaturedImage.jpg",
+              "contentUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11163030/202107IrishSetter-FeaturedImage.jpg",
+              "width": 1440,
+              "height": 865
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/irish-setter/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://phcms.hlth.prd.aws.chewy.cloud/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Irish Setter"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/",
+              "name": "Chewy",
+              "description": "",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            }
+          ]
+        }
+      },
+      "yoast_meta": {
+        "yoast_wpseo_title": "",
+        "yoast_wpseo_metadesc": "",
+        "yoast_wpseo_canonical": ""
+      },
+      "_links": {
+        "self": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed/311",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/types/breed"
+          }
+        ],
+        "acf:attachment": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/307"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/306"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/305"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/304"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/303"
+          }
+        ],
+        "wp:featuredmedia": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/310"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media?parent=311"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "pet_type",
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/pet_type?post=311"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ]

@@ -1,0 +1,322 @@
+[
+    {
+      "id": 24956,
+      "date": "2025-06-27T15:50:15",
+      "date_gmt": "2025-06-27T15:50:15",
+      "guid": {
+        "rendered": "https://phcms.hlth.prd.aws.chewy.cloud/?post_type=breed&#038;p=24956"
+      },
+      "modified": "2025-06-30T17:01:01",
+      "modified_gmt": "2025-06-30T17:01:01",
+      "slug": "scottish-terrier",
+      "status": "publish",
+      "type": "breed",
+      "link": "https://phcms.hlth.prd.aws.chewy.cloud/breed/scottish-terrier/",
+      "title": {
+        "rendered": "Scottish Terrier"
+      },
+      "featured_media": 24957,
+      "template": "",
+      "pet_type": [188],
+      "class_list": [
+        "post-24956",
+        "breed",
+        "type-breed",
+        "status-publish",
+        "has-post-thumbnail",
+        "hentry",
+        "pet_type-dog"
+      ],
+      "acf": {
+        "breed_snapshot_best_for": "\u003Cp\u003EKnown for their bushy brow and beard, Scottish Terriers are both affectionate companions and independent thinkers. These smart pups do best with early, consistent training and a quiet home where they can spend plenty of one-on-one time with their family.\u003C/p\u003E",
+        "alt_image_text": "black scottish terrier sitting on an isolated blue background",
+        "breed_intro": "\u003Cp\u003EThe Scottish Terrier is often described as a big dog in a small package. These handsome pups will keep you on your toes with their confident, spunky personality. After a few days with a Scottie, you’ll learn why this breed is nicknamed The Diehard: Once they set their mind to something (like winning a game of tug-of-war), they’re surprisingly persistent.\u003C/p\u003E\r\n\u003Cp\u003ETheir courageous and determined temperament requires \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/sit-stay-and-beyond-weve-got-the-essential-guide-to-basic-dog-obedience-training\"\u003Eearly, consistent training\u003C/a\u003E to promote good manners. But with an experienced pet parent’s guidance, a well-trained and socialized Scottie will quickly win you over with their deep affection and devoted companionship. \u003C/p\u003E",
+        "breed_related_products_product_card_set": "",
+        "breed_snapshot_temperament": "\u003Cp\u003EFree-Spirited, Self-Assured, Attentive\u003C/p\u003E",
+        "what_does_this_breed_look_like_weight": "\u003Cp\u003E18–22 pounds\u003C/p\u003E",
+        "what_does_this_breed_look_like_height": "\u003Cp\u003E10 inches\u003C/p\u003E",
+        "breed_snapshot_life_expectancy": "\u003Cp\u003E12 years\u003C/p\u003E",
+        "breed_snapshot_maintenance_level": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_friendliness": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_snapshot_coat_color": "\u003Cp\u003EBlack, Black Brindle, Brindle, Red Brindle, Silver Brindle, Wheaten\u003C/p\u003E",
+        "breed_snapshot_shed_level": "\u003Cp\u003E2\u003C/p\u003E",
+        "in_article_video": null,
+        "breed_characteristics": "",
+        "breed_characteristics_exercise_needs": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_health_issues": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_barking_tendencies": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_grooming_needs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_shedding_level": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_training_needs": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_good_with_kids": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_with_cats": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_for_apartments_small_homes": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_energy_level": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_other_dogs": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_playfulnesss": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_cold_weather": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_warm_weather": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_for_first_time_parents": "\u003Cp\u003E3\u003C/p\u003E",
+        "how_do_i_look_card_image": 24958,
+        "what_does_this_breed_look_like": "\u003Cp\u003EThe Scottie’s looks capture the breed’s always-alert personality, particularly in pups’ pricked-up ears, bright eyes, and erect tail.\u003C/p\u003E",
+        "what_does_this_breed_look_like_ears": "\u003Cp\u003EScottie Terrier ears are small and pointed. They sit high up on the head and are covered in soft fur.\u003C/p\u003E",
+        "what_does_this_breed_look_like_eyes": "\u003Cp\u003EThe dark, piercing eyes of a Scottie are wide-set, almond-shaped, and rest beneath a strong brow.\u003C/p\u003E",
+        "what_does_this_breed_look_like_nose": "\u003Cp\u003EWhether you have a black Scottie or one with a lighter coat, these dogs always have a black nose at the end of a long muzzle.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_length": "\u003Cp\u003EScottie dogs have a double coat with a wiry outer layer and a dense, soft undercoat. Around the body, the coat is hand-stripped and kept at a medium length. The hair around the dogs’ beard, legs, and lower body is kept longer, creating a distinct, shaggy appearance.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_color": "\u003Cp\u003EScottish Terrier coats come in a range of colors: solid black; solid wheaten; or black, red, or silver brindle (a pattern like tiger stripes).\u003C/p\u003E",
+        "what_does_this_breed_look_like_tail": "\u003Cp\u003EScotties have a proud, erect tail set high on the back that stands either straight up or with a slight curve. Their tail is about 7 inches long and is covered in coarse hair.\u003C/p\u003E",
+        "h2_breed_temperament": "\u003Cp\u003EScotties are strong-willed and independent dogs, but they are also affectionate companions who love to hang out with their family.\u003C/p\u003E\r\n\u003Cp\u003EAlthough most Scotties aren’t known for being cuddle bugs, they still enjoy being in your company and will happily sit next to you on the couch. But when it comes to strangers, this breed is often aloof and not all that interested in making new friends. (This is when \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/positively-trained-puppy-socialization-dos-and-donts\"\u003Esocializing your Scottie puppy\u003C/a\u003E becomes important.)\u003C/p\u003E\r\n\u003Cp\u003EThe Scottish Terrier personality is influenced by their history as solo hunters in the Scottish Highlands. Because they were bred to go after small vermin, this breed can harbor a \u003Ca href=\"https://www.petmd.com/dog/behavior/prey-drive-dog\" target=\"_blank\" rel=\"noopener\"\u003Eprey drive\u003C/a\u003E toward other animals, says Jo-Anne Riddle, president of the \u003Ca href=\"https://stcgw.org/\" target=\"_blank\" rel=\"noopener\"\u003EScottish Terrier Club of Greater Washington, D.C.\u003C/a\u003E, and an AKC Breeder of Merit.\u003C/p\u003E\r\n\u003Cp\u003E\u003Ca href=\"https://www.petmd.com/dog/how-to-find-ethical-reputable-responsible-breeder\" target=\"_blank\" rel=\"noopener\"\u003EReputable breeders\u003C/a\u003E breed Scotties for more relaxed, amicable temperaments. When properly bred, socialized, and trained, “they can be very friendly,” Riddle says.\u003C/p\u003E\r\n\u003Cp\u003EHowever, even the best-behaved Scotties can be impatient with young children who might not understand the dog’s boundaries. For that reason, the terriers may not be the best choice for families with young kids.\u003C/p\u003E\r\n\u003Cp\u003EAs a working dog, Scottie Terriers need to keep their paws moving and the wheels in their big brain turning. These sport dogs excel at everything from \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/nose-work-training\"\u003Escent work\u003C/a\u003E to \u003Ca href=\"https://www.akc.org/sports/title-recognition-program/barn-hunt/\" target=\"_blank\" rel=\"noopener\"\u003Ebarn hunting\u003C/a\u003E, according to Susan Finn, former president of the Scottish Terrier Club of Greater New York and an AKC Breeder of Merit.\u003C/p\u003E\r\n\u003Cp\u003E“They do love everything,” she says. “But most of all, they love spending time with their people.”\u003C/p\u003E",
+        "h2_how_to_care_for_a_breed": "\u003Cp\u003EThough Scottie care is straightforward in some areas, their headstrong personality requires pet parents to step up their training game. Scottish Terrier puppies should learn basic obedience and be socialized early. This can help prevent \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/reducing-separation-anxiety-dog\"\u003Eseparation anxiety\u003C/a\u003E and keep them on their best behavior when they meet new people and other animals.\u003C/p\u003E\r\n\u003Cp\u003EAlong with training, maintaining the classic Scottie coat means setting aside extra time—and money—for specialized grooming.\u003C/p\u003E",
+        "grooming": "\u003Cp\u003EThe Scottie dog breed has a double coat, with a thick, soft undercoat and a coarse outer coat. This coat doesn't shed as much as other breeds, but if you want to maintain the Scottie’s classic, shaggy look, your dog will require some careful grooming.\u003C/p\u003E\r\n\u003Cp\u003E“They're not a wash-and-wear breed,” Riddle says. “If you're going to have show dogs, you have to have them hand-stripped.”\u003C/p\u003E\r\n\u003Cp\u003EHand-stripping is a process that involves manually removing excess top coat hairs, rather than cutting the hair with clippers. You can learn to do this yourself or take your dog to a professional groomer.\u003C/p\u003E\r\n\u003Cp\u003EIf you want a routine that’s a little less maintenance, you can clip your dog’s coat every six to eight weeks, Finn says, but this will change the coat’s overall appearance and character.\u003C/p\u003E\r\n\u003Cp\u003E“The top coat is wiry and water-resistant when it's hand-stripped,” Finn says. “Once you start to clipper in it, it softens the coat. You lose that texture, and it loses its water resistance.”\u003C/p\u003E\r\n\u003Cp\u003EOther than their coat, a Scottie’s grooming needs are relatively standard:\u003C/p\u003E\r\n\u003Cul\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003EBrushing:\u003C/strong\u003E Brush their coat weekly with a \u003Ca href=\"https://www.chewy.com/miracle-care-slicker-dog-brush/dp/111455\"\u003Eslicker brush\u003C/a\u003E to avoid tangles.\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003EBathing: \u003C/strong\u003EBathe your dog as needed; this will usually be about once a month. Always use a \u003Ca href=\"https://www.petmd.com/dog/vet-verified/best-dog-shampoos\" target=\"_blank\" rel=\"noopener\"\u003Edog-friendly shampoo\u003C/a\u003E to avoid drying out your Scottie’s skin.\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003EEye care: \u003C/strong\u003EDuring bathtime, check your pup’s eyes, and call your vet if you notice any changes.\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003EEar care: \u003C/strong\u003E\u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/how-do-you-clean-a-dogs-ears-follow-this-vet-approved-step-by-step-guide\"\u003EClean your dog’s ears\u003C/a\u003E with a \u003Ca href=\"https://www.chewy.com/virbac-epi-otic-advanced-ear-cleaner/dp/52807\"\u003Evet-approved solution\u003C/a\u003E after every bath.\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003EDental care: \u003C/strong\u003E\u003Ca href=\"https://www.chewy.com/education/dog/grooming/health-wellness-how-to-brush-your-dogs-teeth-live-to-tell-the-tale\"\u003EBrush your dog’s teeth\u003C/a\u003E at least three times a week (but daily brushing is always best).\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003ENail care:\u003C/strong\u003E \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/guide-trimming-dogs-nails\"\u003ETrim your Scottie’s nails\u003C/a\u003E about once a month, or whenever you can hear their nails clicking against the floor.\u003C/li\u003E\r\n\u003C/ul\u003E",
+        "training": "\u003Cp\u003EScotties are smart, independent dogs. While they can do well at obedience training, it does take patience and consistency.\u003C/p\u003E\r\n\u003Cp\u003E“A good [pet parent] just needs to find what currency motivates that dog, whether it's food, treats, or affection,” Finn says.\u003C/p\u003E\r\n\u003Cp\u003ERiddle recommends leaving training to the experts and enrolling your Scottish Terrier puppy in obedience class, which can also be a great opportunity for early socialization.\u003C/p\u003E\r\n\u003Cp\u003EHowever, it is possible to train a Scottie on your own. Scottie puppies do well with \u003Ca href=\"https://www.petmd.com/dog/behavior/how-to-train-a-dog-with-positive-reinforcement\" target=\"_blank\" rel=\"noopener\"\u003Epositive reinforcement training\u003C/a\u003E. Spend 10 or 15 minutes daily working with your dog on obedience skills such as \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-sit\"\u003Esit\u003C/a\u003E, \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-stay\"\u003Estay\u003C/a\u003E, and \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/leash-train-dog-2\"\u003Eleash walking\u003C/a\u003E. Keep each training session fun and upbeat to hold their interest. \u003C/p\u003E\r\n\u003Cp\u003EBecause this breed has such a high prey drive, leash-walking is an important skill for them to master at an early age. Always keep your Scottie on a leash when you’re in public.\u003C/p\u003E",
+        "diet_nutrition": "\u003Cp\u003EFeed your Scottie dog an \u003Ca href=\"https://www.petmd.com/dog/nutrition/What-Is-AAFCO-and-What-Does-It-Do\" target=\"_blank\" rel=\"noopener\"\u003EAAFCO-compliant dog food\u003C/a\u003E formulated for your pup’s age (\u003Ca href=\"https://www.petmd.com/dog/vet-verified/best-puppy-food\" target=\"_blank\" rel=\"noopener\"\u003Epuppy\u003C/a\u003E, adult, or \u003Ca href=\"https://www.petmd.com/dog/vet-verified/best-senior-dog-food\" target=\"_blank\" rel=\"noopener\"\u003Esenior\u003C/a\u003E). Chat with your vet to find the \u003Ca href=\"https://www.petmd.com/dog/vet-verified/best-dog-food\" target=\"_blank\" rel=\"noopener\"\u003Ebest dog food\u003C/a\u003E for your Scottie.\u003C/p\u003E\r\n\u003Cp\u003EFollow the serving instructions on your food’s packaging to help your Scottie maintain a healthy weight. If you free-feed your Scottish Terrier, they’re likely to overeat.\u003C/p\u003E\r\n\u003Cp\u003EAdult Scottish Terriers should eat twice a day—once in the morning and once in the evening—while puppies can eat three or four smaller meals throughout the day. \u003C/p\u003E",
+        "exercise": "\u003Cp\u003EA Scottie needs daily activity to stay fit and healthy, but their exercise needs aren’t as demanding as other breeds. Give your dog anywhere between 30 minutes and an hour of exercise per day, broken into 10- or 20-minute sessions.\u003C/p\u003E\r\n\u003Cp\u003EAccess to a fenced yard is a good perk when you’re a Scottish Terrier pet parent. This gives you space to run and play with your dog while keeping them in a safe space. If you don’t live in a place with a fenced yard, give your Scottie the exercise they need with \u003Ca href=\"http://be.chewy.com/walking-with-dog/\"\u003Ethree short walks a day\u003C/a\u003E: morning, afternoon, and before bed.\u003C/p\u003E\r\n\u003Cp\u003EScotties enjoy most dog sports, says Riddle. While every dog is unique, activities such as \u003Ca href=\"https://www.akc.org/sports/earthdog/\" target=\"_blank\" rel=\"noopener\"\u003EEarthdog\u003C/a\u003E, barn hunt, \u003Ca href=\"http://be.chewy.com/dog-agility-training-tips/\"\u003Eagility\u003C/a\u003E, and scent work are fun for most Scottish Terriers. Scotties also often enjoy \u003Ca href=\"https://www.chewy.com/education/dog/general/ready-to-hit-the-hiking-trail-with-your-dog-heres-everything-you-need-to-know\"\u003Egentle hikes\u003C/a\u003E, but given their short legs, they may not be the best choice for someone who likes to hike miles at a time, Finn says.\u003C/p\u003E",
+        "ideal_environment": "\u003Cp\u003EScotties are little dogs who can adapt well to different types of living—if they get enough daily exercise. “They are fine in apartments, as long as you walk them,” Riddle says. \u003C/p\u003E\r\n\u003Cp\u003EAlthough a fenced yard isn’t a dealbreaker, Scotties enjoy any opportunity to frolic in their own private space, so backyards are definitely a plus. They love to play, but they’re also happy hanging around the house with their family. When your Scottish Terrier is inside, give your \u003Ca href=\"https://www.chewy.com/b/puzzle-toys-games-2335\"\u003Edog puzzle toys\u003C/a\u003E to keep their mind sharp.\u003C/p\u003E\r\n\u003Cp\u003ETheir spunky personality might be a little difficult for new pet parents to rein in, so Scottish Terriers typically do best with people who are experienced raising and training dogs. Don’t hesitate to reach out to a \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/find-a-dog-trainer\"\u003Eprofessional dog trainer\u003C/a\u003E for help if you need it.\u003C/p\u003E\r\n\u003Cp\u003EA Scottie’s temperament and their history as hunting dogs also mean they may do best as the only pet at home, and they might not do well with small and rambunctious kiddos. But older \u003Ca href=\"https://www.petmd.com/dog/general-health/how-to-teach-kids-to-interact-with-pets\" target=\"_blank\" rel=\"noopener\"\u003Echildren who know how to properly interact with dogs\u003C/a\u003E can be OK!\u003C/p\u003E",
+        "h2_breed_health": "\u003Cp\u003EScotties are generally a healthy breed with an average lifespan of 12 years, according to the Scottish Terrier Club of America. Although they can be prone to certain health conditions, modern health testing has eliminated many of the most common diseases, Riddle says.\u003C/p\u003E\r\n\u003Cp\u003EAsk your breeder about health testing to ensure your Scottish Terrier puppy has been tested for genetic conditions. \u003C/p\u003E\r\n\u003Cul\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003EVon Willebrand Disease (vWD):\u003C/strong\u003E This is an inherited bleeding disorder that prevents a dog’s blood from clotting properly. \u003Ca href=\"https://www.petmd.com/dog/conditions/cardiovascular/c_dg_von_willebrand_disease\" target=\"_blank\" rel=\"noopener\"\u003EDogs with vWD\u003C/a\u003E bruise and bleed more easily, and they can bleed excessively during surgery. There’s no cure, but with proper management, many dogs can still live a normal lifespan.\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003EBladder cancer:\u003C/strong\u003E According to the breed club, the Scottie breed is \u003Ca href=\"https://stca.biz/wp-content/uploads/2020/03/Scotties-and-Bladder-Cancer_Loundsbury_Dawson.pdf\" target=\"_blank\" rel=\"noopener\"\u003E18% more likely\u003C/a\u003E to develop \u003Ca href=\"https://www.petmd.com/dog/conditions/cancer/bladder-cancer-dogs\" target=\"_blank\" rel=\"noopener\"\u003Ebladder cancer\u003C/a\u003E than other breeds. Take your pup to the vet immediately if you notice a change in urinary habits, as this may be an early sign of bladder cancer.\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003EScottie cramp: \u003C/strong\u003E\u003Ca href=\"https://veterinarypartner.vin.com/default.aspx\" target=\"_blank\" rel=\"noopener\"\u003EThis genetic condition\u003C/a\u003E causes benign muscle spasms, stiffness, and immobility triggered by moments of stress, high activity, or excitement. It’s a painless, episodic condition that doesn’t affect the dog’s overall health. \u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003ECataracts: \u003C/strong\u003EScotties may be susceptible to \u003Ca href=\"https://www.petmd.com/dog/conditions/eye/c_dg_cataract\" target=\"_blank\" rel=\"noopener\"\u003Ecataracts\u003C/a\u003E, which causes clouding in the eye and may reduce vision. Cataracts are more common in older Scotties and can be treated with surgery. \u003C/li\u003E\r\n\u003C/ul\u003E",
+        "h2_breed_history": "\u003Cp\u003EThe history of the Scottish Terrier dates back to the 13th century in the Scottish Highlands, where several \u003Ca href=\"https://www.petmd.com/dog/general-health/terrier-dog-breeds\" target=\"_blank\" rel=\"noopener\"\u003Etypes of terrier dogs\u003C/a\u003E were bred as four-legged vermin control.\u003C/p\u003E\r\n\u003Cp\u003E“They're bred to work in packs away from people,” Riddle says, which explains the contemporary Scottie’s aloof, independent personality.\u003C/p\u003E\r\n\u003Cp\u003ESottish Terriers are actually just \u003Cem\u003Eone\u003C/em\u003E of the terrier breeds employed for pest control in Scotland, along with the \u003Ca href=\"https://www.petmd.com/dog/breeds/dandie-dinmont-terrier\" target=\"_blank\" rel=\"noopener\"\u003EDandie Dinmont Terrier\u003C/a\u003E and the \u003Ca href=\"https://www.chewy.com/education/dog-breeds/irish-terrier\"\u003EIrish Terrier\u003C/a\u003E. It wasn’t until the late 1800s that the Scottie we know today was bred consistently enough to be established as a distinguished breed.\u003C/p\u003E\r\n\u003Cp\u003EThe Scottish Terrier Club of England formed in 1882, followed by the Scottish Terrier Club of Scotland in 1888 and the Scottish Terrier Club of America in 1990. The American Kennel Club recognized the Scottie in 1885.\u003C/p\u003E",
+        "expert_attribution": "\u003Cp\u003E\u003Cem\u003EThis content was medically reviewed by Hannah Hart, DVM, Chewy veterinarian.\u003C/em\u003E\u003C/p\u003E",
+        "facebook_social_snippet_with_cta": "",
+        "species": "",
+        "h2_faqs": "",
+        "faq_items": [
+          {
+            "faq_title": "Are Scottish Terriers hypoallergenic?",
+            "faq_content": "\u003Cp\u003EDespite not shedding much, Scottish Terriers are not considered \u003Ca href=\"https://www.chewy.com/education/dog/general/hypoallergenic-dogs\"\u003E“hypoallergenic” dogs\u003C/a\u003E. In fact, no dog is \u003Cem\u003Ereally\u003C/em\u003E hypoallergenic, because they all produce allergens in their skin, urine, and saliva (though some breeds produce less than others).\u003C/p\u003E"
+          },
+          {
+            "faq_title": "Are Scottish Terriers good house dogs?",
+            "faq_content": "\u003Cp\u003EYes. As long as a Scottish Terrier gets enough exercise and \u003Ca href=\"https://www.petmd.com/dog/general-health/ways-to-keep-dog-mentally-stimulated\" target=\"_blank\" rel=\"noopener\"\u003Emental stimulation\u003C/a\u003E, they can be good house dogs.\u003C/p\u003E"
+          },
+          {
+            "faq_title": "Does a Scottish Terrier bark a lot?",
+            "faq_content": "\u003Cp\u003EYes. Like many terrier breeds, Scotties can have boisterous personalities, and \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/why-do-dogs-bark\"\u003Etend to bark at unfamiliar people or animals\u003C/a\u003E. \u003C/p\u003E\r\n\u003Cp\u003E“They don't bark mindlessly,” Finn says. “They're barking at something, and they want you to investigate it.” \u003C/p\u003E\r\n\u003Cp\u003EYou may be able to reduce your Scottie’s barking by providing enough exercise and mental stimulation, and by \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/how-to-train-dog-not-to-bark\"\u003Eusing positive reinforcement training to quiet your pup\u003C/a\u003E.\u003C/p\u003E"
+          },
+          {
+            "faq_title": "Are Scottish Terriers good for seniors?",
+            "faq_content": "\u003Cp\u003EYes, Scotties can be a good dog for seniors as long as they’re able to get at least two walks every day. While not exactly cuddly, Scottie Terriers enjoy sitting beside their family on the couch, so they’re a relatively easy, low-maintenance companion for people with lower energy or mobility issues.\u003C/p\u003E"
+          }
+        ],
+        "select_related_breeds": [
+          {
+            "selected_related_breed": 275,
+            "characteristic": "breed_characteristics_physical_appearance"
+          },
+          {
+            "selected_related_breed": 543,
+            "characteristic": "breed_characteristics_physical_appearance"
+          },
+          {
+            "selected_related_breed": 979,
+            "characteristic": "breed_characteristics_physical_appearance"
+          },
+          {
+            "selected_related_breed": 341,
+            "characteristic": "breed_characteristics_physical_appearance"
+          },
+          {
+            "selected_related_breed": 779,
+            "characteristic": "breed_characteristics_physical_appearance"
+          }
+        ],
+        "enable_featured_gallery": [
+          "enable_featured_gallery"
+        ],
+        "featured_gallery_images": [24964, 24968, 24969, 24971, 24972, 24973]
+      },
+      "yoast_head": "\u003C!-- This site is optimized with the Yoast SEO plugin v23.8 - https://yoast.com/wordpress/plugins/seo/ --\u003E\n\u003Ctitle\u003EScottish Terrier Scottish Terrier: Characteristics, Care, &amp; Photos | Chewy\u003C/title\u003E\n\u003Cmeta name=\"description\" content=\"Scottish Terriers, or Scotties, are an energetic terrier with an independent personality. Learn to care for Scottie puppies and dogs.\" /\u003E\n\u003Cmeta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" /\u003E\n\u003Clink rel=\"canonical\" href=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/scottish-terrier/\" /\u003E\n\u003Cmeta property=\"og:locale\" content=\"en_US\" /\u003E\n\u003Cmeta property=\"og:type\" content=\"article\" /\u003E\n\u003Cmeta property=\"og:title\" content=\"Scottish Terrier Scottish Terrier: Characteristics, Care, &amp; Photos | Chewy\" /\u003E\n\u003Cmeta property=\"og:description\" content=\"Scottish Terriers, or Scotties, are an energetic terrier with an independent personality. Learn to care for Scottie puppies and dogs.\" /\u003E\n\u003Cmeta property=\"og:url\" content=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/scottish-terrier/\" /\u003E\n\u003Cmeta property=\"og:site_name\" content=\"Chewy\" /\u003E\n\u003Cmeta property=\"article:modified_time\" content=\"2025-06-30T17:01:01+00:00\" /\u003E\n\u003Cmeta property=\"og:image\" content=\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/06/20152954/scottish-terrier-dog-breed.jpg\" /\u003E\n\t\u003Cmeta property=\"og:image:width\" content=\"1835\" /\u003E\n\t\u003Cmeta property=\"og:image:height\" content=\"1032\" /\u003E\n\t\u003Cmeta property=\"og:image:type\" content=\"image/jpeg\" /\u003E\n\u003Cmeta name=\"twitter:card\" content=\"summary_large_image\" /\u003E\n\u003Cmeta name=\"twitter:label1\" content=\"Est. reading time\" /\u003E\n\t\u003Cmeta name=\"twitter:data1\" content=\"1 minute\" /\u003E\n\u003Cscript type=\"application/ld+json\" class=\"yoast-schema-graph\"\u003E{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/scottish-terrier/\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/scottish-terrier/\",\"name\":\"Scottish Terrier Scottish Terrier: Characteristics, Care, & Photos | Chewy\",\"isPartOf\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/scottish-terrier/#primaryimage\"},\"image\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/scottish-terrier/#primaryimage\"},\"thumbnailUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/06/20152954/scottish-terrier-dog-breed.jpg\",\"datePublished\":\"2025-06-27T15:50:15+00:00\",\"dateModified\":\"2025-06-30T17:01:01+00:00\",\"description\":\"Scottish Terriers, or Scotties, are an energetic terrier with an independent personality. Learn to care for Scottie puppies and dogs.\",\"breadcrumb\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/scottish-terrier/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://phcms.hlth.prd.aws.chewy.cloud/breed/scottish-terrier/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/scottish-terrier/#primaryimage\",\"url\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/06/20152954/scottish-terrier-dog-breed.jpg\",\"contentUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/06/20152954/scottish-terrier-dog-breed.jpg\",\"width\":1835,\"height\":1032,\"caption\":\"black scottish terrier sitting on an isolated blue background\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/scottish-terrier/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://phcms.hlth.prd.aws.chewy.cloud/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Scottish Terrier\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/\",\"name\":\"Chewy\",\"description\":\"\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"}]}\u003C/script\u003E\n\u003C!-- / Yoast SEO plugin. --\u003E",
+      "yoast_head_json": {
+        "title": "Scottish Terrier Scottish Terrier: Characteristics, Care, & Photos | Chewy",
+        "description": "Scottish Terriers, or Scotties, are an energetic terrier with an independent personality. Learn to care for Scottie puppies and dogs.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://phcms.hlth.prd.aws.chewy.cloud/breed/scottish-terrier/",
+        "og_locale": "en_US",
+        "og_type": "article",
+        "og_title": "Scottish Terrier Scottish Terrier: Characteristics, Care, & Photos | Chewy",
+        "og_description": "Scottish Terriers, or Scotties, are an energetic terrier with an independent personality. Learn to care for Scottie puppies and dogs.",
+        "og_url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/scottish-terrier/",
+        "og_site_name": "Chewy",
+        "article_modified_time": "2025-06-30T17:01:01+00:00",
+        "og_image": [
+          {
+            "width": 1835,
+            "height": 1032,
+            "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/06/20152954/scottish-terrier-dog-breed.jpg",
+            "type": "image/jpeg"
+          }
+        ],
+        "twitter_card": "summary_large_image",
+        "twitter_misc": {
+          "Est. reading time": "1 minute"
+        },
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/scottish-terrier/",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/scottish-terrier/",
+              "name": "Scottish Terrier Scottish Terrier: Characteristics, Care, & Photos | Chewy",
+              "isPartOf": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/scottish-terrier/#primaryimage"
+              },
+              "image": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/scottish-terrier/#primaryimage"
+              },
+              "thumbnailUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/06/20152954/scottish-terrier-dog-breed.jpg",
+              "datePublished": "2025-06-27T15:50:15+00:00",
+              "dateModified": "2025-06-30T17:01:01+00:00",
+              "description": "Scottish Terriers, or Scotties, are an energetic terrier with an independent personality. Learn to care for Scottie puppies and dogs.",
+              "breadcrumb": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/scottish-terrier/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://phcms.hlth.prd.aws.chewy.cloud/breed/scottish-terrier/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/scottish-terrier/#primaryimage",
+              "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/06/20152954/scottish-terrier-dog-breed.jpg",
+              "contentUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/06/20152954/scottish-terrier-dog-breed.jpg",
+              "width": 1835,
+              "height": 1032,
+              "caption": "black scottish terrier sitting on an isolated blue background"
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/scottish-terrier/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://phcms.hlth.prd.aws.chewy.cloud/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Scottish Terrier"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/",
+              "name": "Chewy",
+              "description": "",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            }
+          ]
+        }
+      },
+      "yoast_meta": {
+        "yoast_wpseo_title": "",
+        "yoast_wpseo_metadesc": "",
+        "yoast_wpseo_canonical": ""
+      },
+      "_links": {
+        "self": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed/24956",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/types/breed"
+          }
+        ],
+        "acf:attachment": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/24973"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/24972"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/24971"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/24969"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/24968"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/24964"
+          }
+        ],
+        "wp:featuredmedia": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/24957"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media?parent=24956"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "pet_type",
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/pet_type?post=24956"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ]

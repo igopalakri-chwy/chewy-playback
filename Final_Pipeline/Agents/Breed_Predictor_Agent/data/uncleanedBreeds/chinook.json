@@ -1,0 +1,326 @@
+[
+    {
+      "id": 929,
+      "date": "2021-06-03T15:29:19",
+      "date_gmt": "2021-06-03T15:29:19",
+      "guid": {
+        "rendered": "https://haproxy.use1.lgcy.prd.aws.chewy.cloud/eks/ns/pet-health/pet-health-content-backend/breed/chinook/"
+      },
+      "modified": "2025-05-05T14:22:20",
+      "modified_gmt": "2025-05-05T14:22:20",
+      "slug": "chinook",
+      "status": "publish",
+      "type": "breed",
+      "link": "https://phcms.hlth.prd.aws.chewy.cloud/breed/chinook/",
+      "title": {
+        "rendered": "Chinook"
+      },
+      "featured_media": 3210,
+      "template": "",
+      "pet_type": [],
+      "class_list": [
+        "post-929",
+        "breed",
+        "type-breed",
+        "status-publish",
+        "has-post-thumbnail",
+        "hentry"
+      ],
+      "acf": {
+        "breed_snapshot_best_for": "\u003Cp\u003EAre you ready to add a Chinook to your pack? These are sled dogs descended from Huskies, known for their strength and gentle nature. They thrive in active households, needing ample exercise and mental stimulation. \u003C/p\u003E",
+        "alt_image_text": "Chinook dog breed",
+        "breed_intro": "The Chinook is a \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/how-to-calm-a-high-energy-puppy\"\u003Ehigh-energy dog\u003C/a\u003E who loves their people with as much gusto as they love running and playing. Much like the \u003Ca href=\"https://www.chewy.com/education/dog-breeds/husky/\"\u003EHusky\u003C/a\u003E, which this breed is descended from, the Chinook believes running is a team sport, so lace up those sneakers! In fact, Chinooks approach all things in life as a team effort: playtime, nap time—even running errands. They'd rather be with you than without you. And if you do leave them home alone, expect them to be waiting for you at the door. You'll know you've been gone too long when your pup gives you the business as you walk back in. So, say goodbye to quiet nights full of contemplation. But when your pup looks at you with those adoring eyes, you'll wonder why you ever valued time alone before.",
+        "breed_related_products_product_card_set": null,
+        "breed_snapshot_temperament": "\u003Cp\u003EAffectionate Companion, Energetic, Social Butterfly\u003C/p\u003E",
+        "what_does_this_breed_look_like_weight": "\u003Cp\u003EMale: 55-90 pounds\u003C/p\u003E\u003Cp\u003EFemale: 50-65 pounds\u003C/p\u003E",
+        "what_does_this_breed_look_like_height": "\u003Cp\u003EMale: 24-26 inches\u003C/p\u003E\u003Cp\u003EFemale: 22-24 inches\u003C/p\u003E",
+        "breed_snapshot_life_expectancy": "\u003Cp\u003E12 to 15 years\u003C/p\u003E",
+        "breed_snapshot_maintenance_level": "\u003Cp\u003EMedium\u003C/p\u003E",
+        "breed_characteristics_friendliness": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_snapshot_coat_color": "\u003Cp\u003EFawn, Gray Red, Palomino, Red Gold, Silver Fawn, Tawny\u003C/p\u003E",
+        "breed_snapshot_shed_level": "\u003Cp\u003EHigh\u003C/p\u003E",
+        "in_article_video": null,
+        "breed_characteristics": "These traits are rated on a scale of 1-5 with 1 being the lowest and 5 being the highest. Remember: Dogs are individuals, and not all dogs, even those of the same breed, will exhibit all the same qualities.",
+        "breed_characteristics_exercise_needs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_health_issues": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_barking_tendencies": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_grooming_needs": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_shedding_level": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_training_needs": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_with_kids": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_good_with_cats": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_for_apartments_small_homes": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_energy_level": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_other_dogs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_playfulnesss": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_cold_weather": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_warm_weather": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_for_first_time_parents": "\u003Cp\u003E4\u003C/p\u003E",
+        "how_do_i_look_card_image": 3209,
+        "what_does_this_breed_look_like": "Chinooks are large, athletic dogs. They were originally bred for sled dog racing, and with their long legs and strong, sloped backs, you can see why they're perfect for it. These dogs have a naturally long stride that's powered by their muscular body. Their coats are a range of tawny colors from pale honey to a reddish-gold with black markings on their face (like a mask) or buff or white markings that add more uniqueness to this rare dog.",
+        "what_does_this_breed_look_like_ears": "\u003Cp\u003EChinook ears are medium-sized and V-shaped. They tend to have rounded tips and can hang down or stand up. Some dogs may have \"propeller ears,\" where the ears stay folded, even when the dog is focused and alert. \u003C/p\u003E",
+        "what_does_this_breed_look_like_eyes": "\u003Cp\u003EChinook eyes are medium-sized and shaped like almonds. They can be any shade of brown. \u003C/p\u003E",
+        "what_does_this_breed_look_like_nose": "\u003Cp\u003EThe Chinook nose is large, solid black and features a tapered muzzle. \u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_length": "\u003Cp\u003EThe Chinook's coat is thick and warm. Their double coat features an outer coat made of straight hairs, while the undercoat feels like down and acts as insulation.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_color": "\u003Cp\u003ETheir colors are one of the easily recognizable traits of this breed. These dogs have a tawny coloration varying from reddish-gold to a paler honey-colored shade. Many dogs have darker ears and muzzles, and some have black shading in these areas. Other dogs feature white or cream markings on their cheeks, throat, underside and chest. \u003C/p\u003E",
+        "what_does_this_breed_look_like_tail": "\u003Cp\u003ETheir tails are medium in length and taper to the end. Chinooks carry their tail in a curve. \u003C/p\u003E",
+        "h2_breed_temperament": "The temperament of a Chinook is friendly, patient, highly intelligent and outgoing. As social butterflies, they thrive in busy households and form strong attachments to their pet parents. Your dog will need plenty of attention and time with you, so it's best if someone will be home with the dog for most of the day.\r\n\r\nChinooks are not known for biting beyond the puppy stage. Properly training and socializing your Chinook puppy can reinforce that biting and nipping aren't acceptable behaviors in a well-mannered family member. (More on that below in the Training section.)\r\n\r\nTheir amiable demeanor makes them great family dogs, although because these dogs are large, it's important to supervise them around small children. (Your pup may knock a tiny tot over accidentally!) That friendliness also means they don't make the best guard dogs. You may actually find they are the best \"welcome mat\"—they will greet visitors enthusiastically at your door.",
+        "h2_how_to_care_for_a_breed": "The Chinook breed is a high-energy dog with moderate care needs. Because they are so active, they need a fair amount of training and exercise to deal with their deep energy reserves. Even though they don't have long fur like a Husky, they do shed a bit and require a modest amount of grooming. But all your time spent with your pup is quality time strengthening your bond.",
+        "grooming": "A Chinook's grooming needs aren't too demanding when compared to other breeds, but it's important to keep your pup's coat, teeth and nails maintained for optimum health.\n\nThis dog's coat is thick, and if it gets matted, it can lead to skin infections and other problems. Brush them every week with a \u003Ca href=\"https://www.chewy.com/f/slicker-brush-dog-brushes-combs_c356_f70v83792\"\u003Eslicker brush\u003C/a\u003E. Regular brushing also will help keep up with shedding. They don't shed much for most of the year, but twice a year (fall and spring) it will pick up, and you may need to brush your dog daily during those seasons. While you're at it, check their ears for debris and signs of ear infection (redness, swelling). If you notice anything, contact your vet, who may advise you to \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/how-do-you-clean-a-dogs-ears-follow-this-vet-approved-step-by-step-guide\"\u003Eclean their ears\u003C/a\u003E. They'll only need a bath about every six to eight weeks, unless your dog swims a lot or works on a farm, in which case you may need to increase the frequency of bathtime.\n\nAbout every three weeks it will be time for a nail trim. You'll know it's time when you hear the nails clacking on hard surfaces. While you're trimming them, inspect the bottoms of your dog's paws and trim hair that's growing between the pads to ensure your dog can get a firm footing. If you haven't done a nail trim before, your vet can teach you how, or your groomer or vet can take care of this chore for you. (\u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/guide-trimming-dogs-nails\"\u003EGet the at-home how-to here\u003C/a\u003E.)\n\nLet's talk teeth. Brush your \u003Ca href=\"https://www.chewy.com/education/dog/grooming/health-wellness-how-to-brush-your-dogs-teeth-live-to-tell-the-tale\"\u003Edog's teeth every day\u003C/a\u003E, spending 30 seconds on each of the outer four tooth surfaces. It's best to get them used to brushing while they're a puppy; it makes it easier when they're all grown up. Regular dental care helps prevent issues like plaque, gum infections, pain and eventual tooth loss. Be sure to schedule an annual cleaning with your vet once a year, too.",
+        "training": "Training is an essential part of preparing your Chinook puppy for a successful life with your family and friends. Because they are so eager to please, Chinooks tend to be pretty easy to train and respond well to positive reinforcement, which focuses on rewarding the pup for what they've done right with lots of treats, toys and praise. This type of training instills a sense of confidence and curiosity in dogs, and training becomes an enjoyable activity that you and your dog can participate in together.\r\n\r\nChinooks are naturally friendly pups, but you should still start socializing them early. While they're puppies, introduce them to other people, pets and situations to create positive experiences and reinforce their outgoing traits. Puppy school, where puppies learn to play with each other and meet new people, is ideal for this.\r\n\r\nTraining also provides valuable learning opportunities and mental exercises for your pup. And it's also a great way to burn some of their energy. (They have LOTS!) Look for training and dog sports to help put that energy to good use. Sports like dock diving and agility can keep your dog engaged and active, and they'll give you new challenges, too.",
+        "diet_nutrition": "Chinooks typically do well on a high-quality commercial dog food. Be sure to factor in your dog's age and choose a formula that fits their stage in life, whether you have a puppy, adult or senior dog.\r\n\r\nIf your dog is a highly active working dog or participates in intense sports like sledding, then they may need a diet that includes higher levels of protein and fat to support their activity. Be sure to check with your vet, as they are in the best position to help you pick the right food for your pup based on their individual needs.\r\n\r\nOnce you've found the right food for your dog, be sure to keep an eye on their waistline, especially as they age. Even just one or two extra pounds can make a difference. (Don't forget to include treat calories. They count, too!) Obesity can bring on health problems like arthritis. If you think your pup might be getting a little too round, consult with your vet. They can help you put together a diet and exercise plan to help your pup shed the excess weight and still get all the nutrition they need.",
+        "exercise": "Chinooks need exercise, and they need it daily (about an hour). It's important to have plenty of ways to keep your dog active.\r\n\r\nYour dog's natural speed makes them well-suited for dog sports like agility and dock diving. You can play to their pulling instincts by participating in \u003Ca href=\"https://www.skijorusa.com/\"\u003Eskijoring\u003C/a\u003E or bikjoring in the summer. They'll also thrive in environments where they can run, whether that's accompanying you as you train for a 10K or helping you out as you work on the farm.\r\n\r\nPlenty of playtime can also help to keep your dog well-exercised. Long games of fetch can get your dog moving, and a fenced-in backyard area is an ideal way to keep your dog active. The backyard alone won't suffice, though, so plan on spending time engaging with and exercising your dog daily.\r\n\r\nAnd don't forget the mental exercises. Chinooks are intelligent pups, so be sure to engage their minds. In addition to training time, give your pup a few \u003Ca href=\"https://www.chewy.com/b/interactive-toys-319\"\u003Einteractive toys\u003C/a\u003E to play with. They'll enjoy solving puzzles, and they'll really enjoy getting a treat when they've solved it!",
+        "ideal_environment": "The Chinook is a friendly dog, and they do well with families or in a home with just you. Either way, they need to be with active people who can accommodate their need to be busy. Bred to be a working dog, the Chinook benefits from plenty of daily exercise. Activities like hiking, walking and jogging can help the dog to get rid of excess energy. These dogs also thrive in dog sports that keep them active, like agility, \u003Ca href=\"https://www.flyball.org/aboutflyball.html\"\u003Eflyball\u003C/a\u003E and dock diving.\r\n\r\nChinooks are great for a first-time pup parent. Their outgoing personality and eager-to-please demeanor makes them well suited for newbies. Because they are so attached to their families, it's best if someone can be home with them for most of the day. If you do have to be gone for long, check them into doggy daycare or arrange for a neighbor or pet sitter to swing by for playtime.\r\n\r\nWhile they aren't good guard dogs thanks to their love of people, they will be a bit of a social butterfly at parties and barbecues. Their friendliness isn't limited to humans, either. Chinooks tend to get along well with cats, dogs and even livestock.",
+        "h2_breed_health": "Chinooks have a lifespan of 12 to 15 years and are relatively healthy dogs. However, being aware of their common health issues can help you give your pup the healthiest and longest life possible.\r\n\u003Cul\u003E\r\n \t\u003Cli\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/c_dg_hip_dysplasia\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cstrong\u003EHip Dysplasia\u003C/strong\u003E\u003C/a\u003E: Hip dysplasia is a skeletal condition that causes the ball and socket of your dog’s hip joint to rub together; it can be very painful and worsen with time. Dogs with hip dysplasia can have difficulty jumping and running, may limp or hop like a rabbit, and may develop arthritis, making it hard to participate in activities they once loved such as fetch and frisbee. Hip dysplasia occurs to different degrees, and there are many ways to manage it, including physical therapy, anti-inflammatory medications, joint supplements or surgery. Hip dysplasia can be hereditary, but there is no genetic screening test.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/eye/c_dg_cataract\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cstrong\u003ECataracts\u003C/strong\u003E\u003C/a\u003E: Just like people, dogs can develop a white, cloudy appearance in the eye that leads to vision loss. While cataracts occur more frequently in older dogs, it’s possible for younger dogs to develop them when the cataracts are genetic. Treatment for cataracts depends on how advanced they are, but your vet may prescribe eye drops, monitor the cataracts, or opt for surgery to remove them.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Cstrong\u003EChinook Seizures\u003C/strong\u003E: Some Chinook dogs are prone to a seizure-like condition called paroxysmal dyskinesia. These may look like a “weakened” seizure (less jerking), and the dog is awake and looking around. (Typically, a dog isn’t conscious during a typical grand mal seizure.) Some experts consider this a “movement” disorder rather than a traditional seizure disorder. Treatment will depend on their severity and cause, but a vet may recommend medication to help control it.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Cstrong\u003ESkin and Coat Issues\u003C/strong\u003E: Since Chinooks have thick coats, they can experience matting and skin issues if the coat isn’t properly cared for. Mats prevent air from reaching the skin, and issues like sores and infections can result. Regular, thorough brushing can help to promote skin and coat health. Inspecting your dog’s skin daily can also help you to spot issues early on, so you can promptly treat them before they get worse. Your vet may prescribe topical medications or shampoos to help.\u003C/li\u003E\r\n\u003C/ul\u003E",
+        "h2_breed_history": "The Chinook's history begins with the sled dogs of Alaska. Arthur Treadwell Walden, an adventurer and sled dog driver, traveled to Alaska in 1896. Drawn by the Gold Rush, Walden traveled across the Klondike and became a talented musher (someone who drives a sled). He was inspired by the sled dogs and decided to develop his own sled dog breed.\r\n\r\nWalden returned to his hometown of Wonalancet, New Hampshire, in 1902 and set about making his dream a reality. He carefully chose the dogs he bred together. He selected a \u003Ca href=\"https://www.chewy.com/education/dog-breeds/husky/\" target=\"_blank\" rel=\"noopener\"\u003EHusky\u003C/a\u003E lead dog named Polaris, as well as a farm dog who was a mastiff-type breed. In 1917, a litter of three puppies was born, and the Chinook breed began.\r\n\r\nThe puppies were friendly toward humans, but they also had a natural sledding talent that quickly got them plenty of attention. Others who had sled dogs learned about Walden's dogs, and his breeding program became successful.\r\n\r\nWalden named one of those three puppies \"Chinook\" after one of the sled dogs he worked with while in Alaska. Chinook was a tawny brown color and became a lead dog, sledding in New England and even traveled to Antarctica.\r\n\r\nWalden passed away in 1947, and the Chinook breed (named for Walden's puppy) almost didn't survive without him. In 1965, the Guinness World Records recognized the breed as the rarest dog breed in the world—only 125 Chinook dogs existed at the time.\r\n\r\nThankfully, other dog breeders recognized the importance of the breed and worked to increase their numbers. The Chinook became the official state dog of New Hampshire in 2009 and was recognized by the American Kennel Club in 2013.\r\n\r\nAre you thinking about adding a Chinook to your family? While the breed is rare, you can find a list of reputable breeders on the \u003Ca href=\"https://marketplace.akc.org/puppies/chinook\"\u003EAmerican Kennel Club's website\u003C/a\u003E. The price for a puppy can range from $1,000 to $2,000, depending on the breeder. But for that price, you're getting a puppy who's been screened for health and temperament issues and may come with pedigree papers. To adopt a Chinook, contact the \u003Ca href=\"http://www.chinookclubofamerica.org/chinook-adoptions.html\"\u003EChinook Club of America\u003C/a\u003E. Because these dogs are so rare, you won't find them in local rescues, but you may be able to find one through the parent club or one of their endorsed breeders.",
+        "expert_attribution": "\u003Ci\u003EExpert input provided by veterinarian Dr. Carol Osborne, DVM, a board-certified diplomate of the American Board of Anti-Aging Medicine and founder and director of the \u003Ca href=\"https://www.chagrinfallspetclinic.com/\"\u003EChagrin Falls Veterinary Center\u003C/a\u003E, and certified dog trainer Erica Gennaro, owner of \u003Ca href=\"https://www.everdogtraining.com/\"\u003EEverdog Training and Behavior\u003C/a\u003E.\u003C/i\u003E\r\n\r\n\u003Cem\u003EBreed characteristic ratings provided by veterinarian Dr. Sarah J. Wooten, DVM, CVJ, a veterinarian at \u003Ca href=\"https://sheepdraw.com/\" target=\"_blank\" rel=\"noopener\"\u003ESheep Draw Veterinary Hospital\u003C/a\u003E in Greeley, Colorado; dog trainer and behavior consultant Irith Bloom, CPDT-KSA, CBCC-KA, CDBC, owner of \u003Ca href=\"https://thesophisticateddog.com/\" target=\"_blank\" rel=\"noopener\"\u003EThe Sophisticated Dog, LLC\u003C/a\u003E, in Los Angeles; and certified animal behavior consultant \u003Ca href=\"https://shojai.com/\" target=\"_blank\" rel=\"noopener\"\u003EAmy Shojai\u003C/a\u003E, CABC, in Sherman, Texas. \u003C/em\u003E\r\n\r\n\u003Cem\u003EThe health content was medically reviewed by Chewy vets.\u003C/em\u003E\r\n\r\n\u003Ci\u003EPhoto credit for \"How do I look?\" ©2020 by Desert Sol Chinooks. \"Are we a match?\" by Karen Hinchy of \u003Ca href=\"http://vanguardchinooks.com/\" target=\"_blank\" rel=\"noopener noreferrer\" data-stringify-link=\"http://VanguardChinooks.com\" data-sk=\"tooltip_parent\"\u003EVanguard Chinooks.\u003C/a\u003E\u003C/i\u003E",
+        "facebook_social_snippet_with_cta": "\u003Cp\u003EThe Chinook may have been bred to be a sled dog, but today they're a fantastic choice for active families. This intelligent dog is easy to train and will be your next best friend. Is a Chinook a good match for you? Get more information about this rare breed in our complete Chinook guide.\u003C/p\u003E",
+        "species": "\u003Cp\u003EDog\u003C/p\u003E",
+        "h2_faqs": "\u003Ch3\u003EDo Chinooks shed?\u003C/h3\u003E\r\nYes, Chinooks shed but not particularly heavily. They have a double coat, and it can be maintained with weekly brushing. Their shedding increases twice a year during the change of seasons (fall and spring), but daily brushing during these times can help minimize the amount of fur that ends up in your home and your car.\r\n\u003Ch3\u003EWhere are Chinook dogs from?\u003C/h3\u003E\r\nChinook dogs come from New Hampshire. Their origins started with an explorer named Arthur Treadwell Walden. Walden lived in Wonalancet, New Hampshire, and was inspired by the sled dogs of Alaska. He bred the first Chinook dogs, and those dogs quickly became popular for their talents as sled dogs.\r\n\u003Ch3\u003EAre Chinooks good family dogs?\u003C/h3\u003E\r\nChinooks are good family dogs. They are very friendly and bond strongly to their people. Because these dogs are large, they may do better in homes with older children. (In their exuberance to greet little ones, a Chinook may accidentally knock them over.) With good training and socialization, a Chinook can become a beloved member of your family.\r\n\u003Ch3\u003EAre Chinook dogs rare?\u003C/h3\u003E\r\nYes, Chinook dogs are rare. In 1965, the Guinness Book of World Records recognized the Chinook as the world's rarest dog breed. Luckily, plenty of breeding enthusiasts dedicated to the Chinook have increased their numbers and work to ensure the breed survives.\r\n\u003Ch3\u003EDo Chinooks bark a lot?\u003C/h3\u003E\r\nNo, Chinooks aren't known to bark a lot—unless they're bored or full of extra energy. Then, they may give you the business because they're so bored. But if you keep them exercised and entertained (and completely exhausted), they'll likely remain the quiet pups they're known to be.",
+        "faq_items": [
+          {
+            "faq_title": "Do Chinooks shed?",
+            "faq_content": "Yes, Chinooks shed but not particularly heavily. They have a double coat, and it can be maintained with weekly brushing. Their shedding increases twice a year during the change of seasons (fall and spring), but daily brushing during these times can help minimize the amount of fur that ends up in your home and your car."
+          },
+          {
+            "faq_title": "Where are Chinook dogs from?",
+            "faq_content": "Chinook dogs come from New Hampshire. Their origins started with an explorer named Arthur Treadwell Walden. Walden lived in Wonalancet, New Hampshire, and was inspired by the sled dogs of Alaska. He bred the first Chinook dogs, and those dogs quickly became popular for their talents as sled dogs."
+          },
+          {
+            "faq_title": "Are Chinooks good family dogs?",
+            "faq_content": "Chinooks are good family dogs. They are very friendly and bond strongly to their people. Because these dogs are large, they may do better in homes with older children. (In their exuberance to greet little ones, a Chinook may accidentally knock them over.) With good training and socialization, a Chinook can become a beloved member of your family."
+          },
+          {
+            "faq_title": "Are Chinook dogs rare?",
+            "faq_content": "Yes, Chinook dogs are rare. In 1965, the Guinness Book of World Records recognized the Chinook as the world's rarest dog breed. Luckily, plenty of breeding enthusiasts dedicated to the Chinook have increased their numbers and work to ensure the breed survives."
+          },
+          {
+            "faq_title": "Do Chinooks bark a lot?",
+            "faq_content": "No, Chinooks aren't known to bark a lot—unless they're bored or full of extra energy. Then, they may give you the business because they're so bored. But if you keep them exercised and entertained (and completely exhausted), they'll likely remain the quiet pups they're known to be."
+          }
+        ],
+        "select_related_breeds": [
+          {
+            "selected_related_breed": 446,
+            "characteristic": "breed_characteristics_good_with_kids"
+          },
+          {
+            "selected_related_breed": 1285,
+            "characteristic": "breed_characteristics_shedding_level"
+          },
+          {
+            "selected_related_breed": 1402,
+            "characteristic": "breed_characteristics_good_for_first_time_parents"
+          },
+          {
+            "selected_related_breed": 681,
+            "characteristic": "breed_characteristics_friendliness"
+          },
+          {
+            "selected_related_breed": 553,
+            "characteristic": "breed_characteristics_exercise_needs"
+          },
+          {
+            "selected_related_breed": 376,
+            "characteristic": "breed_characteristics_good_with_other_dogs"
+          }
+        ],
+        "enable_featured_gallery": [
+          "enable_featured_gallery"
+        ],
+        "featured_gallery_images": [928, 921, 922, 923, 924, 925]
+      },
+      "yoast_head": "\u003C!-- This site is optimized with the Yoast SEO plugin v23.8 - https://yoast.com/wordpress/plugins/seo/ --\u003E\n\u003Ctitle\u003EChinook Breed: Characteristics, Care &amp; Photos | Chewy\u003C/title\u003E\n\u003Cmeta name=\"description\" content=\"Chinook dogs were originally bred as sled dogs, and they&#039;re still right at home in the snow thanks to their double coats.\" /\u003E\n\u003Cmeta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" /\u003E\n\u003Clink rel=\"canonical\" href=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/chinook/\" /\u003E\n\u003Cmeta property=\"og:locale\" content=\"en_US\" /\u003E\n\u003Cmeta property=\"og:type\" content=\"article\" /\u003E\n\u003Cmeta property=\"og:title\" content=\"Chinook Breed: Characteristics, Care &amp; Photos | Chewy\" /\u003E\n\u003Cmeta property=\"og:description\" content=\"Chinook dogs were originally bred as sled dogs, and they&#039;re still right at home in the snow thanks to their double coats.\" /\u003E\n\u003Cmeta property=\"og:url\" content=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/chinook/\" /\u003E\n\u003Cmeta property=\"og:site_name\" content=\"Chewy\" /\u003E\n\u003Cmeta property=\"article:modified_time\" content=\"2025-05-05T14:22:20+00:00\" /\u003E\n\u003Cmeta property=\"og:image\" content=\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07145722/202106Breed-Hero-Chinook.jpg\" /\u003E\n\t\u003Cmeta property=\"og:image:width\" content=\"1835\" /\u003E\n\t\u003Cmeta property=\"og:image:height\" content=\"1032\" /\u003E\n\t\u003Cmeta property=\"og:image:type\" content=\"image/jpeg\" /\u003E\n\u003Cmeta name=\"twitter:card\" content=\"summary_large_image\" /\u003E\n\u003Cscript type=\"application/ld+json\" class=\"yoast-schema-graph\"\u003E{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/chinook/\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/chinook/\",\"name\":\"Chinook Breed: Characteristics, Care & Photos | Chewy\",\"isPartOf\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/chinook/#primaryimage\"},\"image\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/chinook/#primaryimage\"},\"thumbnailUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07145722/202106Breed-Hero-Chinook.jpg\",\"datePublished\":\"2021-06-03T15:29:19+00:00\",\"dateModified\":\"2025-05-05T14:22:20+00:00\",\"description\":\"Chinook dogs were originally bred as sled dogs, and they're still right at home in the snow thanks to their double coats.\",\"breadcrumb\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/chinook/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://phcms.hlth.prd.aws.chewy.cloud/breed/chinook/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/chinook/#primaryimage\",\"url\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07145722/202106Breed-Hero-Chinook.jpg\",\"contentUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07145722/202106Breed-Hero-Chinook.jpg\",\"width\":1835,\"height\":1032,\"caption\":\"Chinook\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/chinook/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://phcms.hlth.prd.aws.chewy.cloud/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Chinook\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/\",\"name\":\"Chewy\",\"description\":\"\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"}]}\u003C/script\u003E\n\u003C!-- / Yoast SEO plugin. --\u003E",
+      "yoast_head_json": {
+        "title": "Chinook Breed: Characteristics, Care & Photos | Chewy",
+        "description": "Chinook dogs were originally bred as sled dogs, and they're still right at home in the snow thanks to their double coats.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://phcms.hlth.prd.aws.chewy.cloud/breed/chinook/",
+        "og_locale": "en_US",
+        "og_type": "article",
+        "og_title": "Chinook Breed: Characteristics, Care & Photos | Chewy",
+        "og_description": "Chinook dogs were originally bred as sled dogs, and they're still right at home in the snow thanks to their double coats.",
+        "og_url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/chinook/",
+        "og_site_name": "Chewy",
+        "article_modified_time": "2025-05-05T14:22:20+00:00",
+        "og_image": [
+          {
+            "width": 1835,
+            "height": 1032,
+            "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07145722/202106Breed-Hero-Chinook.jpg",
+            "type": "image/jpeg"
+          }
+        ],
+        "twitter_card": "summary_large_image",
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/chinook/",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/chinook/",
+              "name": "Chinook Breed: Characteristics, Care & Photos | Chewy",
+              "isPartOf": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/chinook/#primaryimage"
+              },
+              "image": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/chinook/#primaryimage"
+              },
+              "thumbnailUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07145722/202106Breed-Hero-Chinook.jpg",
+              "datePublished": "2021-06-03T15:29:19+00:00",
+              "dateModified": "2025-05-05T14:22:20+00:00",
+              "description": "Chinook dogs were originally bred as sled dogs, and they're still right at home in the snow thanks to their double coats.",
+              "breadcrumb": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/chinook/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://phcms.hlth.prd.aws.chewy.cloud/breed/chinook/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/chinook/#primaryimage",
+              "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07145722/202106Breed-Hero-Chinook.jpg",
+              "contentUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07145722/202106Breed-Hero-Chinook.jpg",
+              "width": 1835,
+              "height": 1032,
+              "caption": "Chinook"
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/chinook/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://phcms.hlth.prd.aws.chewy.cloud/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Chinook"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/",
+              "name": "Chewy",
+              "description": "",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            }
+          ]
+        }
+      },
+      "yoast_meta": {
+        "yoast_wpseo_title": "",
+        "yoast_wpseo_metadesc": "",
+        "yoast_wpseo_canonical": ""
+      },
+      "_links": {
+        "self": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed/929",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/types/breed"
+          }
+        ],
+        "acf:attachment": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/925"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/924"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/923"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/922"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/921"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/928"
+          }
+        ],
+        "wp:featuredmedia": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/3210"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media?parent=929"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "pet_type",
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/pet_type?post=929"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ]

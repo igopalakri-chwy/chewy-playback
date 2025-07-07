@@ -1,0 +1,345 @@
+[
+    {
+      "id": 1393,
+      "date": "2025-02-28T09:53:35",
+      "date_gmt": "2025-02-28T09:53:35",
+      "guid": {
+        "rendered": "https://haproxy.use1.lgcy.prd.aws.chewy.cloud/eks/ns/pet-health/pet-health-content-backend/breed/cane-corso/"
+      },
+      "modified": "2025-06-04T18:52:31",
+      "modified_gmt": "2025-06-04T18:52:31",
+      "slug": "cane-corso",
+      "status": "publish",
+      "type": "breed",
+      "link": "https://phcms.hlth.prd.aws.chewy.cloud/breed/cane-corso/",
+      "title": {
+        "rendered": "Cane Corso"
+      },
+      "featured_media": 3252,
+      "template": "",
+      "pet_type": [],
+      "class_list": [
+        "post-1393",
+        "breed",
+        "type-breed",
+        "status-publish",
+        "has-post-thumbnail",
+        "hentry"
+      ],
+      "acf": {
+        "breed_snapshot_best_for": "\u003Cp\u003EIf there’s a dog who could be mistaken for a member of your human family merely because of their size, it’s the Cane Corso. Weighing in at about 100 pounds, this Italian mastiff thrives with a pet parent who’s willing to share an unbreakable bond and give their bestie all the rigorous exercise they need.\u003C/p\u003E",
+        "alt_image_text": "A black Cane Corso dog relaxes at the beach",
+        "breed_intro": "\u003Cp\u003EThese big Italian pups—with soulful eyes to boot—are loyal friends with a devotion to their people. The Cane Corso (pronounced KAH-neh KOR-so) is a driven and strong-willed breed, but they’re very affectionate with their family.\u003C/p\u003E\r\n\u003Cp\u003EGrooming is a cinch with these giants, but training, \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/positively-trained-puppy-socialization-dos-and-donts\"\u003Eas well as socialization\u003C/a\u003E, takes time. For that reason, Cani Corsi (the plural version of their Italian name) are best for pet parents with experience, patience, and persistence.\u003C/p\u003E",
+        "breed_related_products_product_card_set": "",
+        "breed_snapshot_temperament": "\u003Cp\u003ELoyal, Serious, Smart\u003C/p\u003E",
+        "what_does_this_breed_look_like_weight": "\u003Cp\u003E88–110 pounds\u003C/p\u003E",
+        "what_does_this_breed_look_like_height": "\u003Cp\u003E23.5–27.5 inches \u003C/p\u003E",
+        "breed_snapshot_life_expectancy": "\u003Cp\u003E9–12 years\u003C/p\u003E",
+        "breed_snapshot_maintenance_level": "\u003Cp\u003EMedium\u003C/p\u003E",
+        "breed_characteristics_friendliness": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_snapshot_coat_color": "\u003Cp\u003EBlack, Gray, Fawn, Black Brindle, Gray Brindle, Red, Chestnut Brindle\u003C/p\u003E",
+        "breed_snapshot_shed_level": "\u003Cp\u003ELow\u003C/p\u003E",
+        "in_article_video": null,
+        "breed_characteristics": "\u003Cp\u003EThese traits are rated on a scale of 1-5 with 1 being the lowest and 5 being the highest. Remember: Dogs are individuals, and not all dogs, even those of the same breed, will exhibit all the same qualities.\u003C/p\u003E",
+        "breed_characteristics_exercise_needs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_health_issues": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_barking_tendencies": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_grooming_needs": "\u003Cp\u003E1\u003C/p\u003E",
+        "breed_characteristics_shedding_level": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_training_needs": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_good_with_kids": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_good_with_cats": "\u003Cp\u003E1\u003C/p\u003E",
+        "breed_characteristics_good_for_apartments_small_homes": "\u003Cp\u003E1\u003C/p\u003E",
+        "breed_characteristics_energy_level": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_other_dogs": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_playfulnesss": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_cold_weather": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_warm_weather": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_for_first_time_parents": "\u003Cp\u003E1\u003C/p\u003E",
+        "how_do_i_look_card_image": 3251,
+        "what_does_this_breed_look_like": "\u003Cp\u003EOnce bred to be guardians, the Cane Corso is a sturdy, muscular giant who funnily enough begins life as an adorably floppy-eared puppy. As they age, they take on a more royal look—picture the elegant gaze of nobility.\u003C/p\u003E\r\n\u003Cp\u003ETheir impressive stature has made Cani Corsi stars on Instagram, where pet parents with the time and energy to give these dogs the best life show off their majestic pups.\u003C/p\u003E",
+        "what_does_this_breed_look_like_ears": "\u003Cp\u003EThe American Kennel Club (AKC) breed standard allows for the ears to be cropped or uncropped. Ear cropping involves surgically cutting away the outer part of a dog’s ear. Many countries and states have banned it for medical and behavioral reasons, and some veterinary groups, including the American Veterinary Medical Association (AMVA) oppose this cosmetic procedure.  It’s best to leave your Cane Corso’s ears as nature intended—floppy and cute.\u003C/p\u003E",
+        "what_does_this_breed_look_like_eyes": "\u003Cp\u003ECani Corsi have almond-shaped eyes that are dark brown, though lighter shades are possible in gray-muzzled dogs.\u003C/p\u003E",
+        "what_does_this_breed_look_like_nose": "\u003Cp\u003ETheir big noses are flush with the muzzle, and they’re black or gray.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_length": "\u003Cp\u003ECani Corsi coats are short and stiff.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_color": "\u003Cp\u003ECane Corso colors include black, fawn, gray, and red. However, you could also have a brindle Cane Corso, in black, gray, or chestnut brindle. Dogs with lighter fur often have a gray mask over their eyes and muzzle.\u003C/p\u003E",
+        "what_does_this_breed_look_like_tail": "\u003Cp\u003EWhile the AKC standard still calls for Cane Corso puppies to have their tails docked, this practice is falling out of favor for welfare reasons, and you’ll now see Cani Corsi with long tails. Many groups, including AMVA, oppose tail docking, and several countries as well as U.S. states have banned the practice.\u003C/p\u003E",
+        "h2_breed_temperament": "\u003Cp\u003EYou’ll never get bored with a Cane Corso around. They’re super smart and will react well to (and take seriously) all the training and socialization you do with them—but it is something you’ll need to devote significant time to.\u003C/p\u003E\r\n\u003Cp\u003ESince they were originally bred as guardians, the Cane Corso temperament still has a natural inclination to be slightly suspicious of the mailperson, the pizza delivery guy, or the \u003Ca href=\"https://www.chewy.com/education/dog-breeds/golden-retriever\"\u003EGolden Retriever\u003C/a\u003E next door—possibly anyone who’s not \u003Cem\u003Eyou\u003C/em\u003E. So, it’s important to teach these sensitive souls that most strangers are safe, whether two-legged or four-legged.\u003C/p\u003E\r\n\u003Cp\u003EThe good news is that they’re smart and learn quickly. And with members of their own family, the Cane Corso is likely to be exceptionally affectionate and embrace you as their own.\u003C/p\u003E",
+        "h2_how_to_care_for_a_breed": "\u003Cp\u003ECani Corsi are low maintenance in the grooming department, which balances being fairly high maintenance where exercise and training are concerned. Their large size requires room to spread out, and their energy and intensity need plenty of fenced-in space for exercise.\u003C/p\u003E",
+        "grooming": "\u003Cp\u003EIntroduce your Cane Corso dog to bathing and brushing early on (as a puppy is ideal) and get tooth brushing and nail trimming in there, too.\u003C/p\u003E\r\n\u003Cul\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003EBathing:\u003C/strong\u003E An \u003Ca href=\"https://www.chewy.com/education/dog/grooming/how-to-bathe-a-dog-step-by-step-tips-from-a-professional-groomer\"\u003Eoccasional bath\u003C/a\u003E whenever your Cane Corso gets stinky is enough to keep their coat sleek and clean. Use a \u003Ca href=\"https://www.chewy.com/vetnique-labs-furbliss-pet-bathing/dp/234717\"\u003Egood pet wipe\u003C/a\u003E between baths to keep them from smelling.\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003EBrushing: \u003C/strong\u003EWith their short, stiff coat, shedding isn’t usually a problem, although you’ll want to keep a brush and a vacuum handy for seasonal shedding a couple times a year—particularly in the spring. Otherwise, a weekly brushing works.\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003EDental care: \u003C/strong\u003E\u003Ca href=\"https://www.chewy.com/education/dog/grooming/health-wellness-how-to-brush-your-dogs-teeth-live-to-tell-the-tale\"\u003EBrush your dog’s teeth\u003C/a\u003E every day to reduce the potential for dental disease later on. As with many large dogs, your Cane Corso will likely have an adorable drool, so keep a towel close to mop up messes.\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003EEar care: \u003C/strong\u003ECheck their ears regularly for redness, odd smells, or other \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/dog-ear-infection\"\u003Esigns of an ear infection\u003C/a\u003E.\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003ENail care: \u003C/strong\u003EIf you hear their nails clicking on the floor or sidewalk, it’s time for a trim. Plan to give them a little \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/guide-trimming-dogs-nails\"\u003Emanicure once a month\u003C/a\u003E.\u003C/li\u003E\r\n\u003C/ul\u003E",
+        "training": "\u003Cp\u003EThis breed is one smart cookie, and their brilliant noggins make them easy to \u003Ca href=\"https://www.petmd.com/dog/behavior/how-to-train-a-dog-with-positive-reinforcement\" target=\"_blank\" rel=\"noopener\"\u003Etrain using positive reinforcement\u003C/a\u003E—that is, rewarding good behavior with \u003Ca href=\"https://www.chewy.com/b/training-treats-1550\"\u003Etreats\u003C/a\u003E, rewards, and praise. A delicious, high-value training treat, like \u003Ca href=\"https://www.chewy.com/american-journey-beef-recipe-grain/dp/177956\"\u003EAmerican Journey Beef Training Bits\u003C/a\u003E, can keep their attention as you teach them new skills.\u003C/p\u003E\r\n\u003Cp\u003EThese pups thrive with trainers who can be patient and consistent from Day One. It’s best to begin training your Cane Corso puppy as young as possible—as early as 8 weeks old—but you can work with a certified dog behaviorist or trainer at any stage.\u003C/p\u003E\r\n\u003Cp\u003EIntroduce your Cane Corso to as many people and pets as possible when they first come home; it will help your pup be a productive member of society—and perhaps even a neighborhood favorite. \u003C/p\u003E\r\n\u003Cp\u003ERemember: Training is a commitment that must be maintained throughout a Cane Corso’s life, along with \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/how-much-exercise-does-my-dog-need\"\u003Eplenty of exercise\u003C/a\u003E and \u003Ca href=\"https://www.petmd.com/dog/general-health/ways-to-keep-dog-mentally-stimulated\" target=\"_blank\" rel=\"noopener\"\u003Emental stimulation\u003C/a\u003E.\u003C/p\u003E",
+        "diet_nutrition": "\u003Cp\u003EThe best food for a Cane Corso must be complete, balanced, and specialized for large or giant breeds. Choose a diet that’s \u003Ca href=\"https://www.petmd.com/dog/nutrition/What-Is-AAFCO-and-What-Does-It-Do\" target=\"_blank\" rel=\"noopener\"\u003EAAFCO-compliant\u003C/a\u003E for your dog’s life stage (\u003Ca href=\"https://www.petmd.com/dog/vet-verified/best-puppy-food\" target=\"_blank\" rel=\"noopener\"\u003Epuppy\u003C/a\u003E, \u003Ca href=\"https://www.petmd.com/dog/vet-verified/best-dog-food\" target=\"_blank\" rel=\"noopener\"\u003Eadult\u003C/a\u003E, or \u003Ca href=\"https://www.petmd.com/dog/vet-verified/best-senior-dog-food\" target=\"_blank\" rel=\"noopener\"\u003Esenior\u003C/a\u003E).\u003C/p\u003E\r\n\u003Cp\u003EFeeding a large-breed dog formula is important because these bigger breeds have different nutritional requirements for calcium and phosphorus than smaller dogs. Developing puppies must be fed a \u003Ca href=\"https://www.petmd.com/dog/nutrition/best-puppy-food-large-breeds\" target=\"_blank\" rel=\"noopener\"\u003Elarge- or giant-breed puppy formula\u003C/a\u003E to ensure the normal growth of bones and joints. Ignoring this advice can result in long-term orthopedic problems.\u003C/p\u003E\r\n\u003Cp\u003EAs always, talk to your veterinarian about your dog’s specific needs to find the \u003Ca href=\"https://www.chewy.com/best/dog-foods-for-cane-corsos_s140078\"\u003Ebest food for your Cane Corso\u003C/a\u003E. Your vet may also recommend joint supplements, like \u003Ca href=\"https://www.chewy.com/zesty-paws-mobility-bites-hip-joint/dp/133664\"\u003EZesty Paws Mobility Bites\u003C/a\u003E, especially if your pup begins to show signs of joint stiffness or lameness.\u003C/p\u003E\r\n\u003Cp\u003EFeed your full-grown Cane Corso two or three smaller meals throughout the day using a \u003Ca href=\"https://www.chewy.com/b/slow-feeders-1424\"\u003Eslow feeder bowl\u003C/a\u003E, which forces your dog to slow down and eat less in one gulp. This helps prevent life-threatening \u003Ca href=\"https://www.petmd.com/dog/conditions/digestive/gastric-dilatation-volvulus-gdv-syndrome\" target=\"_blank\" rel=\"noopener\"\u003Egastric dilatation-volvulus\u003C/a\u003E, which the breed is susceptible to. It’s also important not to exercise your dog within an hour of eating, either before or after meals.\u003C/p\u003E",
+        "exercise": "\u003Cp\u003ECani Corsi are known for their speed. But because they’re so big, they don’t quite zoom around the way other working breeds might. That doesn’t mean you and your Corso can kick back and be couch potatoes together, though. Your dog still needs \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/walking-with-dog\"\u003Elong walks\u003C/a\u003E, as well as playtime and training for enrichment.\u003C/p\u003E\r\n\u003Cp\u003EA couple of miles a day, split into two or three shorter walks, will keep your Corso fit and keep their energy directed in a positive way. Don’t let colder weather deter you—a romp in the snow is an ideal way to burn their energy.\u003C/p\u003E\r\n\u003Cp\u003EAs a working breed, Cani Corsi are happiest if you can give them a job to keep them occupied. \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/sit-stay-and-beyond-weve-got-the-essential-guide-to-basic-dog-obedience-training\"\u003EObedience training\u003C/a\u003E, learning tricks, and dog sports can all be a source of joy.\u003C/p\u003E",
+        "ideal_environment": "\u003Cp\u003EA home with enough space for exercising and training your pup is a must. At minimum, you’ll need a backyard with a tall, sturdy fence. Cani Corsi might not be cut out for romps with smaller pups at the dog park.\u003C/p\u003E\r\n\u003Cp\u003EIf raised with cats or other small pets from a young age, Cani Corsi will probably live happily with housemates. But these dogs often don’t know their own strength, so even well-intentioned play could cause unintended injury to kids and smaller animals, and their playful rambunctiousness could easily knock over an unprepared family member, especially older relatives.\u003C/p\u003E\r\n\u003Cp\u003EFor those reasons, these elegant, loyal pups might do best in an adult household where they are the only dog, or in homes with older children who help out with training.\u003C/p\u003E\r\n\u003Cp\u003EStrong, first-time dog parents committed to providing their new pet with a strong framework could adopt a Cane Corso successfully. Generally, though, Cani Corsi are best suited for pet parents with a bit of experience under their belt.\u003C/p\u003E",
+        "h2_breed_health": "\u003Cp\u003EThe Cane Corso lifespan is 9–12 years, but they may experience a few health issues over that time.\u003C/p\u003E\r\n\u003Cul\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003EBloat and gastric dilatation-volvulus (GDV)\u003C/strong\u003E\u003Cstrong\u003E:\u003C/strong\u003E The large, deep chests of the Cane Corso make them \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/bloat-in-dogs\"\u003Esusceptible to bloat\u003C/a\u003E, which can trigger gastric dilatation-volvulus, a life-threatening condition where the stomach rotates and twists on itself. To help prevent this condition, your \u003Ca href=\"https://www.petmd.com/dog/procedure/gastropexy-in-dogs\" target=\"_blank\" rel=\"noopener\"\u003Edog can have a gastropexy surgery\u003C/a\u003E when they’re spayed or neutered; it tacks the stomach to the abdominal wall so it cannot twist.\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003EEpilepsy:\u003C/strong\u003E \u003Ca href=\"https://www.petmd.com/dog/conditions/neurological/epilepsy-dogs\" target=\"_blank\" rel=\"noopener\"\u003EEpilepsy\u003C/a\u003E is a seizure disorder that typically starts between 6 months and 5 years of age. While it can be managed with medication, there’s no cure. That said, dogs can still lead a long and happy life.\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003EEye issues:\u003C/strong\u003E Cane Corso dogs are prone to both \u003Ca href=\"https://www.petmd.com/dog/conditions/eyes/c_multi_entropion\" target=\"_blank\" rel=\"noopener\"\u003Eentropion\u003C/a\u003E (in which the eyelid folds inward) and its opposite, ectropion (which causes the lower lid to fold outward). Another common problem is \u003Ca href=\"https://www.petmd.com/dog/conditions/eyes/c_multi_prolapsed_gland\" target=\"_blank\" rel=\"noopener\"\u003Echerry eye\u003C/a\u003E, when the pink, fleshy part of the eye’s corner (the third eyelid) becomes swollen and bulges out. \u003Ca href=\"https://www.petmd.com/dog/general-health/dog-eye-discharge\" target=\"_blank\" rel=\"noopener\"\u003EDischarge\u003C/a\u003E, squinting, \u003Ca href=\"https://www.petmd.com/dog/symptoms/cloudy-eyes-dogs\" target=\"_blank\" rel=\"noopener\"\u003Ecloudiness\u003C/a\u003E, bulging, and \u003Ca href=\"https://www.petmd.com/dog/symptoms/red-eyes-in-dogs\" target=\"_blank\" rel=\"noopener\"\u003Eredness\u003C/a\u003E are all reasons to see your vet right away.\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003EHip dysplasia\u003C/strong\u003E\u003Cstrong\u003E:\u003C/strong\u003E A skeletal condition common to large-breed dogs, \u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/hip-dysplasia-dogs\" target=\"_blank\" rel=\"noopener\"\u003Ehip dysplasia\u003C/a\u003E is a malformation of the ball and socket joint, resulting in looseness. The condition causes mobility issues, pain, and arthritis. Large-breed puppy dog food and proper joint care can be preventive.\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003EObesity:\u003C/strong\u003E With the already massive Cane Corso size, any extra weight will put added strain on their joints, leading to pain and mobility issues. A proper diet is crucial, as is daily exercise.\u003C/li\u003E\r\n\u003C/ul\u003E",
+        "h2_breed_history": "\u003Cp\u003EThe Cane Corso traces its origins back thousands of years to a group of working breeds called Molossers, after an ancient Greek tribe that bred these big, \u003Ca href=\"https://www.chewy.com/education/dog-breeds/mastiff\"\u003EMastiff\u003C/a\u003E-type dogs to be guardians.\u003C/p\u003E\r\n\u003Cp\u003EAfter the Romans conquered the Greek Islands, they brought these dogs back to Italy, where they produced the ancestors of today’s Cane Corso. The Romans originally used the Cane Corso as \u003Cem\u003Epireferi\u003C/em\u003E—essentially, they were some of the world’s first military service dogs.\u003C/p\u003E\r\n\u003Cp\u003EAfter the Roman Empire dissolved in the 5th century, this \u003Ca href=\"https://www.chewy.com/education/dog/general/behavior-breeds-8-italian-dog-breeds\"\u003EItalian breed\u003C/a\u003E was used for hunting, herding, and even as guardians for farms. After two world wars, economic downturns, and an end to many family-owned farms, the breed nearly went extinct. \u003C/p\u003E\r\n\u003Cp\u003EFortunately, some surviving Cani Corsi were discovered in the 1970s, and a group of Italian dog fanciers set out to revive the breed. By the 1990s, Cani Corsi were making waves at dog shows across Europe.\u003C/p\u003E\r\n\u003Cp\u003EThey arrived in the U.S. in the late 1980s, and a few years later, the International Cane Corso Association was formed. The breed was officially recognized by the American Kennel Club in 2010.\u003C/p\u003E\r\n\u003Cp\u003ELooking to make one of these pups a part of your family? Cane Corso puppies typically cost between $1,800 and $3,000. If you choose this route, \u003Ca href=\"https://www.petmd.com/dog/how-to-find-ethical-reputable-responsible-breeder\" target=\"_blank\" rel=\"noopener\"\u003Epick a responsible breeder\u003C/a\u003E.\u003C/p\u003E\r\n\u003Cp\u003EYou can also adopt a Cane Corso via a rescue organization (such as \u003Ca href=\"https://canecorsorescue.org/\" target=\"_blank\" rel=\"noopener\"\u003ECane Corso Rescue, Inc.\u003C/a\u003E), ask your local shelter if they have any Cani Corsi or mixes, or search \u003Ca href=\"https://www.chewy.com/g/dog-cane-corso_ga1\"\u003EChewy’s database of adoptable dogs\u003C/a\u003E in your area.\u003C/p\u003E",
+        "expert_attribution": "\u003Cp\u003E\u003Cem\u003EThis content was medically reviewed by Barri Morrison, DVM, Chewy veterinarian.\u003C/em\u003E\u003C/p\u003E",
+        "facebook_social_snippet_with_cta": "\u003Cp\u003ECan you handle the Cane Corso? Bright, loyal and loving—not to mention huge. Here's the facts to help you discover whether this giant guardian dog breed is right for you and your family.\u003C/p\u003E",
+        "species": "\u003Cp\u003EDog\u003C/p\u003E",
+        "h2_faqs": "\u003Ch3\u003EAre Cani Corsi hypoallergenic?\u003C/h3\u003E\r\n\u003Cp\u003ENo, Cani Corsi are not hypoallergenic. Dog allergens are produced by saliva and dander, which all dogs have. So technically, there's no such thing as a hypoallergenic dog. Hairless breeds and non-shedding breeds like Poodles tend to be easier for allergy-sufferers to live with. But with a coat that's prone to light shedding and heavy seasonal shedding, Cani Corsi are not hypoallergenic in any sense.\u003C/p\u003E\r\n\u003Ch3\u003EAre Cani Corsi good with kids?\u003C/h3\u003E\r\n\u003Cp\u003EWith proper socialization, Cani Corsi can be good with kids, not to mention protective of them. But because of their large size and the fact that they sometimes don't know their own strength, it's important to teach them how to behave around small children— and all members of your household must be taught how to behave with dogs, too.\u003C/p\u003E\r\n\u003Ch3\u003EWhat are the most common Cane Corso mixes?\u003C/h3\u003E\r\n\u003Cul\u003E\r\n\t\u003Cli\u003ECane Corso-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/boxer/\"\u003EBoxer\u003C/a\u003E mix (Corxer)\u003C/li\u003E\r\n\t\u003Cli\u003ECane Corso-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/rottweiler/\"\u003ERottweiler\u003C/a\u003E mix (Rotticorso)\u003C/li\u003E\r\n\t\u003Cli\u003ECane Corso-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/mastiff/\"\u003EMastiff\u003C/a\u003E mix (Mastcorso)\u003C/li\u003E\r\n\t\u003Cli\u003ECane Corso-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/american-pit-bull-terrier/\"\u003EPit Bull\u003C/a\u003E mix (Pitcorso)\u003C/li\u003E\r\n\t\u003Cli\u003ECane Corso-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/great-dane/\"\u003EGreat Dane\u003C/a\u003E mix (Dane Corso)\u003C/li\u003E\r\n\t\u003Cli\u003ECane Corso-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/german-shepherd/\"\u003EGerman Shepherd\u003C/a\u003E mix (German Corso)\u003C/li\u003E\r\n\t\u003Cli\u003ECane Corso-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/labrador-retriever/\"\u003ELab\u003C/a\u003E mix (Labracorso)\u003C/li\u003E\r\n\t\u003Cli\u003ECane Corso-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/doberman-pinscher/\"\u003EDoberman\u003C/a\u003E mix (Dobercorso)\u003C/li\u003E\r\n\t\u003Cli\u003ECane Corso-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/husky/\"\u003EHusky\u003C/a\u003E mix\u003C/li\u003E\r\n\u003C/ul\u003E\r\n\u003Cp\u003ENote: These are not purebred dogs but mixed breeds.\u003C/p\u003E",
+        "faq_items": [
+          {
+            "faq_title": "What is the plural of Cane Corso: Cane Corsos or Cani Corsi?",
+            "faq_content": "\u003Cp\u003EThe correct way to plural Cane Corso is “Cani Corsi.”\u003C/p\u003E"
+          },
+          {
+            "faq_title": "Are Cani Corsi hypoallergenic?",
+            "faq_content": "\u003Cp\u003ENo, Cani Corsi are not considered \u003Ca href=\"https://www.chewy.com/education/dog/general/4-hypoallergenic-dog-breeds\"\u003Ehypoallergenic dogs\u003C/a\u003E. Although their coat is prone to only light shedding, this still does not mean they’re hypoallergenic, and it’s important to note that they experience heavy seasonal shedding.\u003C/p\u003E"
+          },
+          {
+            "faq_title": "Are Cani Corsi good with kids?",
+            "faq_content": "\u003Cp\u003EWith proper socialization as puppies, Cani Corsi can be good with kids. But because of their large size and the fact that they sometimes don’t know their own strength, it’s important to teach them how to behave around small children. Children and other members of the family should learn how to interact respectfully with your pup, too.\u003C/p\u003E"
+          },
+          {
+            "faq_title": "How big is a Cane Corso dog full-grown?",
+            "faq_content": "\u003Cp\u003EExpect your full-grown Cane Corso to be at least 90 pounds. Male dogs can even be 110 pounds when fully grown.\u003C/p\u003E"
+          },
+          {
+            "faq_title": "Are Cane Corso puppies expensive? How much is a Cane Corso?",
+            "faq_content": "\u003Cp\u003EYes, Cani Corsi tend to be expensive when purchased from a breeder. Expect to pay $1,800–$3,000.\u003C/p\u003E"
+          }
+        ],
+        "select_related_breeds": [
+          {
+            "selected_related_breed": 1152,
+            "characteristic": "breed_characteristics_physical_appearance"
+          },
+          {
+            "selected_related_breed": 376,
+            "characteristic": "breed_characteristics_exercise_needs"
+          },
+          {
+            "selected_related_breed": 591,
+            "characteristic": "breed_characteristics_training_needs"
+          },
+          {
+            "selected_related_breed": 302,
+            "characteristic": "breed_characteristics_energy_level"
+          },
+          {
+            "selected_related_breed": 1195,
+            "characteristic": "breed_characteristics_shedding_level"
+          },
+          {
+            "selected_related_breed": 84,
+            "characteristic": "breed_characteristics_friendliness"
+          }
+        ],
+        "enable_featured_gallery": [
+          "enable_featured_gallery"
+        ],
+        "featured_gallery_images": [1392, 1381, 1382, 1383, 1384, 1385, 1386, 1387, 1388, 1389]
+      },
+      "yoast_head": "\u003C!-- This site is optimized with the Yoast SEO plugin v23.8 - https://yoast.com/wordpress/plugins/seo/ --\u003E\n\u003Ctitle\u003ECane Corso Breed: Characteristics, Care &amp; Photos | Chewy\u003C/title\u003E\n\u003Cmeta name=\"description\" content=\"Read our complete Cane Corso guide and discover whether this breed is a good fit for your personality and lifestyle.\" /\u003E\n\u003Cmeta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" /\u003E\n\u003Clink rel=\"canonical\" href=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/cane-corso/\" /\u003E\n\u003Cmeta property=\"og:locale\" content=\"en_US\" /\u003E\n\u003Cmeta property=\"og:type\" content=\"article\" /\u003E\n\u003Cmeta property=\"og:title\" content=\"Cane Corso Breed: Characteristics, Care &amp; Photos | Chewy\" /\u003E\n\u003Cmeta property=\"og:description\" content=\"Read our complete Cane Corso guide and discover whether this breed is a good fit for your personality and lifestyle.\" /\u003E\n\u003Cmeta property=\"og:url\" content=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/cane-corso/\" /\u003E\n\u003Cmeta property=\"og:site_name\" content=\"Chewy\" /\u003E\n\u003Cmeta property=\"article:modified_time\" content=\"2025-06-04T18:52:31+00:00\" /\u003E\n\u003Cmeta property=\"og:image\" content=\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07150822/202104Breed-Hero-Cane-Corso.jpg\" /\u003E\n\t\u003Cmeta property=\"og:image:width\" content=\"1835\" /\u003E\n\t\u003Cmeta property=\"og:image:height\" content=\"1032\" /\u003E\n\t\u003Cmeta property=\"og:image:type\" content=\"image/jpeg\" /\u003E\n\u003Cmeta name=\"twitter:card\" content=\"summary_large_image\" /\u003E\n\u003Cmeta name=\"twitter:label1\" content=\"Est. reading time\" /\u003E\n\t\u003Cmeta name=\"twitter:data1\" content=\"1 minute\" /\u003E\n\u003Cscript type=\"application/ld+json\" class=\"yoast-schema-graph\"\u003E{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/cane-corso/\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/cane-corso/\",\"name\":\"Cane Corso Breed: Characteristics, Care & Photos | Chewy\",\"isPartOf\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/cane-corso/#primaryimage\"},\"image\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/cane-corso/#primaryimage\"},\"thumbnailUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07150822/202104Breed-Hero-Cane-Corso.jpg\",\"datePublished\":\"2025-02-28T09:53:35+00:00\",\"dateModified\":\"2025-06-04T18:52:31+00:00\",\"description\":\"Read our complete Cane Corso guide and discover whether this breed is a good fit for your personality and lifestyle.\",\"breadcrumb\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/cane-corso/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://phcms.hlth.prd.aws.chewy.cloud/breed/cane-corso/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/cane-corso/#primaryimage\",\"url\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07150822/202104Breed-Hero-Cane-Corso.jpg\",\"contentUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07150822/202104Breed-Hero-Cane-Corso.jpg\",\"width\":1835,\"height\":1032,\"caption\":\"Cane Corso\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/cane-corso/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://phcms.hlth.prd.aws.chewy.cloud/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Cane Corso\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/\",\"name\":\"Chewy\",\"description\":\"\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"}]}\u003C/script\u003E\n\u003C!-- / Yoast SEO plugin. --\u003E",
+      "yoast_head_json": {
+        "title": "Cane Corso Breed: Characteristics, Care & Photos | Chewy",
+        "description": "Read our complete Cane Corso guide and discover whether this breed is a good fit for your personality and lifestyle.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://phcms.hlth.prd.aws.chewy.cloud/breed/cane-corso/",
+        "og_locale": "en_US",
+        "og_type": "article",
+        "og_title": "Cane Corso Breed: Characteristics, Care & Photos | Chewy",
+        "og_description": "Read our complete Cane Corso guide and discover whether this breed is a good fit for your personality and lifestyle.",
+        "og_url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/cane-corso/",
+        "og_site_name": "Chewy",
+        "article_modified_time": "2025-06-04T18:52:31+00:00",
+        "og_image": [
+          {
+            "width": 1835,
+            "height": 1032,
+            "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07150822/202104Breed-Hero-Cane-Corso.jpg",
+            "type": "image/jpeg"
+          }
+        ],
+        "twitter_card": "summary_large_image",
+        "twitter_misc": {
+          "Est. reading time": "1 minute"
+        },
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/cane-corso/",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/cane-corso/",
+              "name": "Cane Corso Breed: Characteristics, Care & Photos | Chewy",
+              "isPartOf": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/cane-corso/#primaryimage"
+              },
+              "image": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/cane-corso/#primaryimage"
+              },
+              "thumbnailUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07150822/202104Breed-Hero-Cane-Corso.jpg",
+              "datePublished": "2025-02-28T09:53:35+00:00",
+              "dateModified": "2025-06-04T18:52:31+00:00",
+              "description": "Read our complete Cane Corso guide and discover whether this breed is a good fit for your personality and lifestyle.",
+              "breadcrumb": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/cane-corso/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://phcms.hlth.prd.aws.chewy.cloud/breed/cane-corso/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/cane-corso/#primaryimage",
+              "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07150822/202104Breed-Hero-Cane-Corso.jpg",
+              "contentUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07150822/202104Breed-Hero-Cane-Corso.jpg",
+              "width": 1835,
+              "height": 1032,
+              "caption": "Cane Corso"
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/cane-corso/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://phcms.hlth.prd.aws.chewy.cloud/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Cane Corso"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/",
+              "name": "Chewy",
+              "description": "",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            }
+          ]
+        }
+      },
+      "yoast_meta": {
+        "yoast_wpseo_title": "",
+        "yoast_wpseo_metadesc": "",
+        "yoast_wpseo_canonical": ""
+      },
+      "_links": {
+        "self": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed/1393",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/types/breed"
+          }
+        ],
+        "acf:attachment": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/1389"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/1388"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/1387"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/1386"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/1385"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/1384"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/1383"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/1382"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/1381"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/1392"
+          }
+        ],
+        "wp:featuredmedia": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/3252"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media?parent=1393"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "pet_type",
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/pet_type?post=1393"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ]

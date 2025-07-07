@@ -1,0 +1,321 @@
+[
+    {
+      "id": 543,
+      "date": "2021-06-23T16:09:33",
+      "date_gmt": "2021-06-23T16:09:33",
+      "guid": {
+        "rendered": "https://haproxy.use1.lgcy.prd.aws.chewy.cloud/eks/ns/pet-health/pet-health-content-backend/breed/west-highland-white-terrier/"
+      },
+      "modified": "2025-05-05T14:21:43",
+      "modified_gmt": "2025-05-05T14:21:43",
+      "slug": "west-highland-white-terrier",
+      "status": "publish",
+      "type": "breed",
+      "link": "https://phcms.hlth.prd.aws.chewy.cloud/breed/west-highland-white-terrier/",
+      "title": {
+        "rendered": "West Highland White Terrier"
+      },
+      "featured_media": 542,
+      "template": "",
+      "pet_type": [],
+      "class_list": [
+        "post-543",
+        "breed",
+        "type-breed",
+        "status-publish",
+        "has-post-thumbnail",
+        "hentry"
+      ],
+      "acf": {
+        "breed_snapshot_best_for": "\u003Cp\u003EWest Highland White Terriers are spirited, friendly pups who require regular grooming and daily exercise. They thrive in active homes with attentive pet parents who appreciate their playful nature and can provide consistent training.\u003C/p\u003E",
+        "alt_image_text": "\u003Cp\u003EThe feisty West Highland White Terrier is ready for adventure with you. Learn more about this little white dog in our guide.\u003C/p\u003E",
+        "breed_intro": "Cute and feisty is an apt description of your new Westie bestie. West Highland White Terriers (commonly referred to as Westies) are a big personality wrapped in a little package. These pups don't back down, and that includes a \"discussion\" on whether it's time for walk or not. These independent, confident and \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/how-to-calm-a-high-energy-puppy\"\u003Eenergetic\u003C/a\u003E dogs may seem a little cocky, but they're a friendly, playful dog at heart who loves nothing more than being the center of your world.",
+        "breed_related_products_product_card_set": null,
+        "breed_snapshot_temperament": "\u003Cp\u003EConfident, Independent, Lively\u003C/p\u003E",
+        "what_does_this_breed_look_like_weight": "\u003Cp\u003EMale: 15-20 pounds \u003C/p\u003E\u003Cp\u003EFemale: 15-20 pounds \u003C/p\u003E",
+        "what_does_this_breed_look_like_height": "\u003Cp\u003EMale: 11 inches \u003C/p\u003E\u003Cp\u003EFemale: 10 inches \u003C/p\u003E",
+        "breed_snapshot_life_expectancy": "\u003Cp\u003E13 to 15 years\u003C/p\u003E",
+        "breed_snapshot_maintenance_level": "\u003Cp\u003EHigh\u003C/p\u003E",
+        "breed_characteristics_friendliness": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_snapshot_coat_color": "\u003Cp\u003EWhite\u003C/p\u003E",
+        "breed_snapshot_shed_level": "\u003Cp\u003ELow\u003C/p\u003E",
+        "in_article_video": null,
+        "breed_characteristics": "These traits are rated on a scale of 1-5 with 1 being the lowest and 5 being the highest. Remember: Dogs are individuals, and not all dogs, even those of the same breed, will exhibit all the same qualities.",
+        "breed_characteristics_exercise_needs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_health_issues": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_barking_tendencies": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_grooming_needs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_shedding_level": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_training_needs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_kids": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_good_with_cats": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_good_for_apartments_small_homes": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_energy_level": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_other_dogs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_playfulnesss": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_cold_weather": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_warm_weather": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_for_first_time_parents": "\u003Cp\u003E3\u003C/p\u003E",
+        "how_do_i_look_card_image": 541,
+        "what_does_this_breed_look_like": "The West Highland White Terrier has a distinctive look that's easy to recognize and hard to forget. It's that unmistakable combination of a strong compact body, stark white coat, sharp pointed ears and expressive intelligent eyes that sets them apart. They are truly one of the most recognizable dog breeds around!",
+        "what_does_this_breed_look_like_ears": "\u003Cp\u003EWest Highland White Terrier ears are small, triangular, wide set and erect.\u003C/p\u003E",
+        "what_does_this_breed_look_like_eyes": "\u003Cp\u003EWestie eyes are dark brown and almond-shaped with a lively, intelligent expression.\u003C/p\u003E",
+        "what_does_this_breed_look_like_nose": "\u003Cp\u003EThe Westie muzzle is somewhat blunt with a large black nose.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_length": "\u003Cp\u003EWesties are double-coated with a hard, straight outer coat about two inches in length and a soft undercoat.  \u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_color": "\u003Cp\u003EThe West Highland White Terrier color is white, exactly as their name implies.\u003C/p\u003E",
+        "what_does_this_breed_look_like_tail": "\u003Cp\u003EThe Westie tail is compact, strong, and straight. Its shape is often compared to a carrot. \u003C/p\u003E",
+        "h2_breed_temperament": "Westies are active dogs who pack a lot of life and love into that small frame. They're like that popular girl in high school who was student council president, captain of the field hockey team, took all honors classes, remembered everyone's birthday and made a mean red velvet cupcake. Not only are they a friendly, cheerful pet, Westies are confident, smart and tenacious.\n\nOutgoing and loyal, the Westie dog loves to be the center of attention and will keep you entertained with their energetic antics. These dogs love to play games like chase and \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/how-to-teach-dog-to-fetch\"\u003Efetch\u003C/a\u003E and show off all the tricks they know. But if they don't get the exercise they need, those antics can become... less entertaining. You may find them chasing other animals, \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/how-to-stop-dogs-from-digging\"\u003Edigging in your yard\u003C/a\u003E or \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/training-training-tips-how-to-stop-your-puppy-from-barking-5-tips-to-try\"\u003Ebarking\u003C/a\u003E a lot.\n\nThey are good dogs for families with older kids, but can do well with younger children if they're trained and socialized properly at a young age (and as long as the kids in their life are taught to play gently with them). Don't expect a Westie to be your lapdog, though. Like all terriers bred to hunt vermin, they have a feisty, independent streak and could get frustrated if someone invades their space too often.\n\nCare should be taken when introducing Westies to other pets. The West Highland White Terrier puppy can learn to adjust, especially if \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/positively-trained-puppy-socialization-dos-and-donts\"\u003Esocialized from puppyhood\u003C/a\u003E. If you're bringing an older Westie into a multi-pet home, it's best to consult with a certified dog trainer with experience of West Highland White Terrier types to help with the transition. Westies also have a strong prey drive that could send them chasing after smaller pets. These behaviors can be tempered through training, but it does take time and commitment.\n\nWesties won't hesitate to sound the bark alarm (again and again) at a passing leaf or when visitors come to the door, but that rarely translates into aggression. Rather, once your visitor has settled in, your Westie will want to become their new best friend and show off their antics for a new audience.",
+        "h2_how_to_care_for_a_breed": "Raising a West Highland White Terrier takes time and commitment. Their grooming needs are plentiful, especially if you want to maintain that distinctive show-dog look. Training is also a must; with their keen intellect, abundant energy and powerful hunting instincts, Westies need the mental and physical stimulation that training provides.",
+        "grooming": "It's up to you to decide what kind of hairstyle your Westie will have. While they tend to shed less than other breeds, their overall grooming needs can tip toward the higher end of the scale. That quintessential Westie look, for example—the one you see at dog shows with fluffy fur around the legs and shorter on the back and tail with fluffy facial hair—will take more time and energy to maintain. Grooming a Westie to have this traditional look involves hand stripping once a month, which removes the dead topcoat to make room for new growth, and retains the Westie's hard, coarse coat. Alternatively, you can take your Westie for a spa day every four to six weeks for grooming, which will result in a softer, curlier coat. Pet parents also have the option of forgoing the show-dog look and keeping their Westie's coat trimmed short.\n\nRegardless of which look you ultimately decide to go with, regular brushing with a \u003Ca href=\"https://www.chewy.com/f/dog-pin-brushes_c356_f70v83789\"\u003Epin brush\u003C/a\u003E is still required at least two or three times a week, though daily brushing is ideal. With their hard, thick coats, a Westie needs a bath every four to six weeks (or whenever they get really dirty!), and their \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/guide-trimming-dogs-nails\"\u003Enails should be trimmed\u003C/a\u003E every two weeks. And don't forget their teeth! \u003Ca href=\"https://www.chewy.com/education/dog/grooming/health-wellness-how-to-brush-your-dogs-teeth-live-to-tell-the-tale\"\u003EDaily toothbrushing\u003C/a\u003E is recommended for Westies to prevent tartar buildup and gum disease. Start them when they're puppies so they get used to the feeling, and remember to schedule an annual visit with your vet for a professional cleaning.",
+        "training": "Training is an excellent way to bond with your Westie and provide them with both mental and physical stimulation and help reign in some of their more impulsive tendencies. It does, however, require patience and persistence.\r\n\r\nWestie intelligence makes them easy to train, but their independent nature and strong prey drive can sometimes derail training sessions. For this reason, it's important to train your Westie in a quiet location free from distractions, like a fenced backyard. If you're out at a park with kids, squirrels and other interesting things running by, that strong prey drive will kick in and your Westie will quickly forget all about training.\r\n\r\nEven when distractions are minimized, you may still struggle to hold your Westie's attention during training sessions. With their spunky confidence, Westies think they should be in charge. When this happens, gently refocus their attention to the task at hand. You may need to be firm, but you should never resort to harsh training methods; positive reinforcement with yummy treats and praise always works best.\r\n\r\nFor the best results, begin training your West Highland White Terrier puppy as soon as you bring them home; 8 weeks old isn't too early to start! And training sessions should become part of your daily routine. If you need help with training, look for a certified dog trainer in your area who's worked with terrier group types in the past and can teach you some Westie dog 101.\r\n\r\nEven though this pup is naturally friendly, you still need to start socializing your Westie with new people and other dogs while they're puppies to bring out all those wonderful qualities. Take your pup on leashed walks and allow them to meet new friends, both two- and four-legged. And enroll your dog in puppy preschool, so they learn to play nicely with other puppies and meet new people all in one location.",
+        "diet_nutrition": "West Highland White Terriers aren't picky eaters, and they do well on high-quality commercial dog food. Just make sure the food you choose is nutritionally complete and balanced and appropriate for their life stage (puppy, adult, senior). Look on the label for a statement indicating the food meets Association of American Feed Control Officials (AAFCO) standards.\r\n\r\nYou should also select a food that's appropriate for your dog's age, weight and activity level. Older dogs need less fat and protein than growing puppies (and fewer calories, too!). If you feed puppy food to an adult dog, they'll end up obese, which can cause a host of other health problems. And don't forget about dog treats! Those count toward the Westie's daily caloric intake.\r\n\r\nIf you're not sure what or how much to feed your West Highland White Terrier, consult your veterinarian. They are in the best position to help you choose the right food and feeding plan for your pup's individual needs.",
+        "exercise": "The West Highland White Terrier has a high energy level, but their exercise needs are easily met. They're typically content with daily 30-minute walks, as long as they're given plenty of opportunity to sniff and investigate. (Some may call them nosy, but Westies prefer to call it \"interested in life.\") But make sure they're on leash if not in an enclosed space; if a critter wanders by, those hunting instincts will kick in, and they'll take off after it. And with their surprisingly fast speed, it could take a while before you finally catch up.\n\nWesties also love to romp around and play. That strong desire to chase can often be channeled into a hearty game of fetch (though your arm will likely tire out before your dog does). Dog sports and dog shows are another great outlet for the Westie's abundant energy; they tend to excel at events like agility and rally (which tests their obedience skills), too.\n\nIf you don't give them the exercise they need, they'll find their own entertainment. They may chase small animals, dig in your yard or just bark their heads off. Dog sports that play to their nature, like barn hunts and earthdog competitions are ideal. (Earthdog is where dogs hunt for small critters underground—but don't worry; the critters are kept safe from the dogs.) You may also want to fill a kiddie pool with sand to give your dog an \"approved\" place to dig to their hearts content.\n\nWith their amazing intellect, don't forget to engage their brains to keep them stimulated. Teach them new tricks like play dead, \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/dog-commands-shake-a-paw\"\u003Eshake\u003C/a\u003E and \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/training-training-tips-how-to-teach-your-dog-to-roll-over\"\u003Eroll over\u003C/a\u003E and play games like hide-and-seek to get them working their minds. You can also leave a few \u003Ca href=\"https://www.chewy.com/b/puzzle-toys-games-2335\"\u003Epuzzle toys\u003C/a\u003E around the house for them to solve and get a yummy treat as their reward.",
+        "ideal_environment": "West Highland White Terriers can thrive in a variety of settings, but only when provided with outlets for their abundant energy and strong intellect. Pet parents must commit to daily training and exercise, or your Westie will end up ruling the roost.\r\n\r\nWhile they are highly energetic, the exercise needs for this dog can be kept in check with robust daily walks and yard or park exercise. While they'd certainly enjoy romping around in a large backyard (who doesn't?), it's not required; Westies can be perfectly content in either an apartment or single-family home. The only challenge with apartment living is the Westie's tendency to bark, something your neighbors might not enjoy.\r\n\r\nWhen properly trained and socialized, Westies make great family dogs, especially with older kids. The Westie breed has a strong desire to chase prey, so they might end up chasing your kids and cats unless they're taught good canine behavior at an early age. Children in the household also might need a bit of training; people assume all small dogs like to be picked up and coddled, but not the Westie. If a child (or any other person) insists on handling them against the Westie's will, your dog may react.",
+        "h2_breed_health": "Westies have a lifespan of 13 to 15 years and are generally regarded as a healthy breed, thanks in large part to responsible breeding practices. However, there are a few health problems that pet parents should be on the lookout for.\n\u003Cul\u003E\n \t\u003Cli\u003E\u003Cstrong\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/mouth/c_dg_craniomandibular_osteopathy\" target=\"_blank\" rel=\"noopener\"\u003ECraniomandibular Osteopathy\u003C/a\u003E (CMO)\u003C/strong\u003E: Craniomandibular osteopathy (or Lion Jaw) is an inherited condition that causes noncancerous bone growth on the lower jawbone. For Westie puppies with this condition, symptoms can start appearing anywhere between 1 to 10 months of age and include pain or difficulty opening the mouth, difficulty chewing, jaw swelling and excessive drooling. The condition is painful but use of anti-inflammatories, soft foods and close monitoring by your veterinarian can determine if a “wait and see” approach or if surgery will be needed. Around 1 year of age the puppy, and jaw, slows down growing and recession of the jaw can be seen, but some dogs will need surgery.\u003C/li\u003E\n \t\u003Cli\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/c_multi_patellar_luxation\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cstrong\u003ELuxating Patella\u003C/strong\u003E\u003C/a\u003E: A luxating patella (or kneecap) is a shift in the knee’s stability due to the movement of the patella over the joint. This is a common finding for many smaller breeds, Westies included, and can present as hind limb lameness. Symptoms to look for include walking stiffly or awkwardly, extending the leg while resting, or kicking the leg off to the side in an attempt to reset the knee. Skipping is also commonly noted by pet parents. There are a variety of treatments available depending upon the severity of the condition, such as icing the knee, taking \u003Ca href=\"https://www.chewy.com/education/cat/food-and-nutrition/choosing-the-best-joint-supplements-for-dogs\" target=\"_blank\" rel=\"noopener\"\u003Ejoint supplements\u003C/a\u003E or medication, \u003Ca href=\"https://www.petmd.com/dog/wellness/evr_multi_therapeutic_services_for_dogs\" target=\"_blank\" rel=\"noopener\"\u003Ephysical therapy\u003C/a\u003E and surgery for severe cases.\u003C/li\u003E\n \t\u003Cli\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/c_dg_hip_dysplasia\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cstrong\u003EHip Dysplasia\u003C/strong\u003E\u003C/a\u003E: Hip dysplasia is a degenerative disease that is caused by instability of the hip joint. It’s often seen in larger dog breeds, however in some Westie lines it is also very prevalent. This condition can be seen in both puppies and dogs with symptoms including lameness, “bunny hopping” gait, difficulty standing, running, jumping, difficulty getting up from rest, climbing stairs and even pain/vocalization as it progresses. Early diagnosis is helpful to focus on limiting pain and the progression of arthritis of the joint. Use of medications (pain management and anti-inflammatories), exercise or physical therapy, joint support supplements and diet, can help support the joint, and surgical interventions are used in severe cases. Reputable breeders often screen their dogs for this disorder to prevent it from being passed on.\u003C/li\u003E\n \t\u003Cli\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/c_dg_legg_calve_perthes_disease\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cstrong\u003ELegg-Calve-Perthes Disease\u003C/strong\u003E\u003C/a\u003E: Another hip disorder that can affect West Highland White Terriers is Legg-Calve-Perthes Disease. This condition, which is thought to be hereditary, occurs when the head of the femur begins to degenerate. The primary symptom is limping, which may progress to lameness if left untreated. Medication, physical therapy and surgery are common treatment options.\u003C/li\u003E\n \t\u003Cli\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/skin/c_dg_atopic_dermatitis\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cstrong\u003EAtopic Dermatitis\u003C/strong\u003E\u003C/a\u003E: The Westie is predisposed to developing atopic dermatitis, a skin condition triggered by allergens in the pet’s environment. Dogs with this condition will often scratch, rub their bodies on furniture or the floor, licking their paws, or shake their head and bodies in efforts to alleviate the itchiness. Some mild cases can be managed by \u003Ca href=\"https://www.petmd.com/dog/grooming/do-you-need-medicated-dog-shampoo\" target=\"_blank\" rel=\"noopener\"\u003Emedicated baths\u003C/a\u003E, topical ointment, antihistamines and/or supplements. More severe cases may require the use of immunotherapy, corticosteroids or immunosuppressive medication.\u003C/li\u003E\n\u003C/ul\u003E",
+        "h2_breed_history": "The West Highland White Terrier origin traces back to Scotland where they were bred to hunt rats and other vermin. For hundreds of years, the Westie and other small terriers were used in homes and on farms to keep the pest populations under control. While we don't know exactly when the Westie got their start, there's evidence of their existence dating back to the 1500 to 1600s.\r\n\r\nThe typical Westie traits come from their history as rat hunters. With their sharp intellect, high energy, strong prey drive, high speed and powerful sense of smell, farmers and landholders were able to train Westies to track, chase and eliminate vermin. Their brash confidence helped in the hunt, too; Westies refused to back down when faced with their prey, regardless of their size.\r\n\r\nThe West Highland White Terrier began their second career as show dogs later in their history. Even though they'd been around for hundreds of years, their first official showing didn't occur until 1896 at a Scottish dog show. Just 10 years later, in 1906, Westies made their first appearance at an American Kennel Club show. The first official AKC registration of a West Highland White Terrier soon followed in 1908.\r\n\r\nOften a favorite of dog show judges, the Westie has also enjoyed mainstream popularity. The breed has consistently ranked in the top third of all dog breeds in the United States. Thanks to the breed's popularity, Westie breeders are abundant with the current cost of a puppy ranging from $1,500 to $2,000. But for that price, you're likely getting a pup who's been screened for health and temperament issues and may come with pedigree papers. If you're interested in raising a West Highland White Terrier, you can find reputable breeders at \u003Ca href=\"https://marketplace.akc.org/puppies/west-highland-white-terrier\"\u003Ethe AKC marketplace\u003C/a\u003E. You can also contact a Westie rescue, keep an eye out at your local animal shelter or search \u003Ca href=\"https://www.chewy.com/g/dog-westie_ga1\"\u003EChewy’s database of adoptable dogs\u003C/a\u003E in your area if you're interested in adopting a West Highland White Terrier.",
+        "expert_attribution": "\u003Ci\u003EExpert input provided by: veterinarians \u003Ca href=\"https://airvet.com/\"\u003EDr. Anthony Hall\u003C/a\u003E and \u003Ca href=\"https://www.hopevetclinic.com/\"\u003EDr. Dimple Hall\u003C/a\u003E; certified dog trainers \u003Ca href=\"https://delighteddogsmn.com/\"\u003EAllison Lamminen\u003C/a\u003E, \u003Ca href=\"https://tuffpuptraining.com/\"\u003EMatt Schimsky\u003C/a\u003E and \u003Ca href=\"https://doglatindogtraining.com/\"\u003EBeth Mullen\u003C/a\u003E; and Katherine Houpt VMD PhD DACVB of Cornell University who conducts research on the behavior and welfare of domestic animals.\u003C/i\u003E\r\n\r\n\u003Cem\u003EBreed characteristic ratings provided by veterinarian Dr. Sarah J. Wooten, DVM, CVJ, a veterinarian at \u003Ca href=\"https://sheepdraw.com/\" target=\"_blank\" rel=\"noopener\"\u003ESheep Draw Veterinary Hospital\u003C/a\u003E in Greeley, Colorado; dog trainer and behavior consultant Irith Bloom, CPDT-KSA, CBCC-KA, CDBC, owner of \u003Ca href=\"https://thesophisticateddog.com/\" target=\"_blank\" rel=\"noopener\"\u003EThe Sophisticated Dog, LLC\u003C/a\u003E, in Los Angeles; and certified animal behavior consultant \u003Ca href=\"https://shojai.com/\" target=\"_blank\" rel=\"noopener\"\u003EAmy Shojai\u003C/a\u003E, CABC, in Sherman, Texas. \u003C/em\u003E\r\n\r\n\u003Cem\u003EThe health content was medically reviewed by Chewy vets.\u003C/em\u003E",
+        "facebook_social_snippet_with_cta": "\u003Cp\u003EWhat's adorable, white and furry on the outside but feisty and courageous on the inside? It's the West Highland White Terrier! With their unmistakable look and bold personality, the Westie has no equal. Check out our guide to learn more about this lively breed.\u003C/p\u003E",
+        "species": "\u003Cp\u003EDog\u003C/p\u003E",
+        "h2_faqs": "\u003Ch3\u003EAre Westies hypoallergenic?\u003C/h3\u003E\nNo dog is truly hypoallergenic, but compared to most other breeds, Westies shed very little. That makes them a pretty good choice for people with allergies.\n\u003Ch3\u003EDo Westies bark a lot?\u003C/h3\u003E\nYes, Westies tend to bark a lot. Like many other terriers, Westies are a vocal breed. They tend to alarm bark at unfamiliar sounds and visitors, which makes them a decent watchdog.\n\u003Ch3\u003EWhat are the most popular Westie dog names?\u003C/h3\u003E\nMany pet parents like to use Scottish names in honor of the breed's heritage. Popular Westie names include: Alba, Bonnie, Fiona, Nessie, Angus, Brody, Fergus and Jock. Those are just a few options; \u003Ca href=\"https://www.chewy.com/education/dog/general/top-dog-names\"\u003Eyou can get more dog names here.\u003C/a\u003E\n\u003Ch3\u003EAre Westies good family dogs?\u003C/h3\u003E\nWesties make great family dogs in homes with children. They do have an independent streak, however, so small children should be taught to not to handle them too much.",
+        "faq_items": [
+          {
+            "faq_title": "Are Westies hypoallergenic?",
+            "faq_content": "No dog is truly hypoallergenic, but compared to most other breeds, Westies shed very little. That makes them a pretty good choice for people with allergies."
+          },
+          {
+            "faq_title": "Do Westies bark a lot?",
+            "faq_content": "Yes, Westies tend to bark a lot. Like many other terriers, Westies are a vocal breed. They tend to alarm bark at unfamiliar sounds and visitors, which makes them a decent watchdog."
+          },
+          {
+            "faq_title": "What are the most popular Westie dog names?",
+            "faq_content": "Many pet parents like to use Scottish names in honor of the breed's heritage. Popular Westie names include: Alba, Bonnie, Fiona, Nessie, Angus, Brody, Fergus and Jock. Those are just a few options; \u003Ca href=\"https://www.chewy.com/education/dog/general/top-dog-names\"\u003Eyou can get more dog names here.\u003C/a\u003E"
+          },
+          {
+            "faq_title": "Are Westies good family dogs?",
+            "faq_content": "Westies make great family dogs in homes with children. They do have an independent streak, however, so small children should be taught to not to handle them too much."
+          }
+        ],
+        "select_related_breeds": [
+          {
+            "selected_related_breed": 892,
+            "characteristic": "breed_characteristics_good_with_cats"
+          },
+          {
+            "selected_related_breed": 399,
+            "characteristic": "breed_characteristics_shedding_level"
+          },
+          {
+            "selected_related_breed": 818,
+            "characteristic": "breed_characteristics_friendliness"
+          },
+          {
+            "selected_related_breed": 459,
+            "characteristic": "breed_characteristics_good_with_other_dogs"
+          },
+          {
+            "selected_related_breed": 1054,
+            "characteristic": "breed_characteristics_exercise_needs"
+          },
+          {
+            "selected_related_breed": 1134,
+            "characteristic": "breed_characteristics_good_for_apartments_small_homes"
+          }
+        ],
+        "enable_featured_gallery": [
+          "enable_featured_gallery"
+        ],
+        "featured_gallery_images": [534, 535, 536, 537, 538, 539]
+      },
+      "yoast_head": "\u003C!-- This site is optimized with the Yoast SEO plugin v23.8 - https://yoast.com/wordpress/plugins/seo/ --\u003E\n\u003Ctitle\u003EWest Highland White Terrier Breed: Characteristics, Care &amp; Photos | Chewy\u003C/title\u003E\n\u003Cmeta name=\"description\" content=\"Adorable and feisty, the Westie has an unmistakable look and personality. Get the facts in our West Highland White Terrier guide.\" /\u003E\n\u003Cmeta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" /\u003E\n\u003Clink rel=\"canonical\" href=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/west-highland-white-terrier/\" /\u003E\n\u003Cmeta property=\"og:locale\" content=\"en_US\" /\u003E\n\u003Cmeta property=\"og:type\" content=\"article\" /\u003E\n\u003Cmeta property=\"og:title\" content=\"West Highland White Terrier Breed: Characteristics, Care &amp; Photos | Chewy\" /\u003E\n\u003Cmeta property=\"og:description\" content=\"Adorable and feisty, the Westie has an unmistakable look and personality. Get the facts in our West Highland White Terrier guide.\" /\u003E\n\u003Cmeta property=\"og:url\" content=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/west-highland-white-terrier/\" /\u003E\n\u003Cmeta property=\"og:site_name\" content=\"Chewy\" /\u003E\n\u003Cmeta property=\"article:modified_time\" content=\"2025-05-05T14:21:43+00:00\" /\u003E\n\u003Cmeta property=\"og:image\" content=\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11164408/202106WestHighlandWhiteTerrier-FeaturedImage.jpg\" /\u003E\n\t\u003Cmeta property=\"og:image:width\" content=\"1440\" /\u003E\n\t\u003Cmeta property=\"og:image:height\" content=\"865\" /\u003E\n\t\u003Cmeta property=\"og:image:type\" content=\"image/jpeg\" /\u003E\n\u003Cmeta name=\"twitter:card\" content=\"summary_large_image\" /\u003E\n\u003Cscript type=\"application/ld+json\" class=\"yoast-schema-graph\"\u003E{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/west-highland-white-terrier/\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/west-highland-white-terrier/\",\"name\":\"West Highland White Terrier Breed: Characteristics, Care & Photos | Chewy\",\"isPartOf\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/west-highland-white-terrier/#primaryimage\"},\"image\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/west-highland-white-terrier/#primaryimage\"},\"thumbnailUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11164408/202106WestHighlandWhiteTerrier-FeaturedImage.jpg\",\"datePublished\":\"2021-06-23T16:09:33+00:00\",\"dateModified\":\"2025-05-05T14:21:43+00:00\",\"description\":\"Adorable and feisty, the Westie has an unmistakable look and personality. Get the facts in our West Highland White Terrier guide.\",\"breadcrumb\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/west-highland-white-terrier/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://phcms.hlth.prd.aws.chewy.cloud/breed/west-highland-white-terrier/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/west-highland-white-terrier/#primaryimage\",\"url\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11164408/202106WestHighlandWhiteTerrier-FeaturedImage.jpg\",\"contentUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11164408/202106WestHighlandWhiteTerrier-FeaturedImage.jpg\",\"width\":1440,\"height\":865},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/west-highland-white-terrier/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://phcms.hlth.prd.aws.chewy.cloud/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"West Highland White Terrier\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/\",\"name\":\"Chewy\",\"description\":\"\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"}]}\u003C/script\u003E\n\u003C!-- / Yoast SEO plugin. --\u003E",
+      "yoast_head_json": {
+        "title": "West Highland White Terrier Breed: Characteristics, Care & Photos | Chewy",
+        "description": "Adorable and feisty, the Westie has an unmistakable look and personality. Get the facts in our West Highland White Terrier guide.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://phcms.hlth.prd.aws.chewy.cloud/breed/west-highland-white-terrier/",
+        "og_locale": "en_US",
+        "og_type": "article",
+        "og_title": "West Highland White Terrier Breed: Characteristics, Care & Photos | Chewy",
+        "og_description": "Adorable and feisty, the Westie has an unmistakable look and personality. Get the facts in our West Highland White Terrier guide.",
+        "og_url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/west-highland-white-terrier/",
+        "og_site_name": "Chewy",
+        "article_modified_time": "2025-05-05T14:21:43+00:00",
+        "og_image": [
+          {
+            "width": 1440,
+            "height": 865,
+            "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11164408/202106WestHighlandWhiteTerrier-FeaturedImage.jpg",
+            "type": "image/jpeg"
+          }
+        ],
+        "twitter_card": "summary_large_image",
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/west-highland-white-terrier/",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/west-highland-white-terrier/",
+              "name": "West Highland White Terrier Breed: Characteristics, Care & Photos | Chewy",
+              "isPartOf": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/west-highland-white-terrier/#primaryimage"
+              },
+              "image": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/west-highland-white-terrier/#primaryimage"
+              },
+              "thumbnailUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11164408/202106WestHighlandWhiteTerrier-FeaturedImage.jpg",
+              "datePublished": "2021-06-23T16:09:33+00:00",
+              "dateModified": "2025-05-05T14:21:43+00:00",
+              "description": "Adorable and feisty, the Westie has an unmistakable look and personality. Get the facts in our West Highland White Terrier guide.",
+              "breadcrumb": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/west-highland-white-terrier/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://phcms.hlth.prd.aws.chewy.cloud/breed/west-highland-white-terrier/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/west-highland-white-terrier/#primaryimage",
+              "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11164408/202106WestHighlandWhiteTerrier-FeaturedImage.jpg",
+              "contentUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11164408/202106WestHighlandWhiteTerrier-FeaturedImage.jpg",
+              "width": 1440,
+              "height": 865
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/west-highland-white-terrier/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://phcms.hlth.prd.aws.chewy.cloud/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "West Highland White Terrier"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/",
+              "name": "Chewy",
+              "description": "",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            }
+          ]
+        }
+      },
+      "yoast_meta": {
+        "yoast_wpseo_title": "",
+        "yoast_wpseo_metadesc": "",
+        "yoast_wpseo_canonical": ""
+      },
+      "_links": {
+        "self": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed/543",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/types/breed"
+          }
+        ],
+        "acf:attachment": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/539"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/538"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/537"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/536"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/535"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/534"
+          }
+        ],
+        "wp:featuredmedia": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/542"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media?parent=543"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "pet_type",
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/pet_type?post=543"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ]

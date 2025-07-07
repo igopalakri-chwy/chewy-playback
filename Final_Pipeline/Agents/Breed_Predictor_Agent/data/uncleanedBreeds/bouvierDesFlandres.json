@@ -1,0 +1,326 @@
+[
+    {
+      "id": 257,
+      "date": "2021-07-07T13:26:03",
+      "date_gmt": "2021-07-07T13:26:03",
+      "guid": {
+        "rendered": "https://haproxy.use1.lgcy.prd.aws.chewy.cloud/eks/ns/pet-health/pet-health-content-backend/breed/bouvier-des-flandres/"
+      },
+      "modified": "2025-05-05T14:21:14",
+      "modified_gmt": "2025-05-05T14:21:14",
+      "slug": "bouvier-des-flandres",
+      "status": "publish",
+      "type": "breed",
+      "link": "https://phcms.hlth.prd.aws.chewy.cloud/breed/bouvier-des-flandres/",
+      "title": {
+        "rendered": "Bouvier des Flandres"
+      },
+      "featured_media": 3168,
+      "template": "",
+      "pet_type": [],
+      "class_list": [
+        "post-257",
+        "breed",
+        "type-breed",
+        "status-publish",
+        "has-post-thumbnail",
+        "hentry"
+      ],
+      "acf": {
+        "breed_snapshot_best_for": "\u003Cp\u003EBouvier des Flandres dogs are full of energy—so they thrive with active pet parents who can provide plenty of exercise and socialization and keep up with their grooming needs. These gentle giants would also love access to a big backyard where they can run and play.\u003C/p\u003E",
+        "alt_image_text": "\u003Cp\u003EHardworking, intelligent and loving—what more could you want from the distinctive Bouvier des Flandres dog?\u003C/p\u003E",
+        "breed_intro": "The first thing you need to know about the Bouvier des Flandres is they were bred to herd. This means pretty much what you would expect: They will be inclined to take change of the situation, even if that situation is you. Large, strong and family-friendly, they're the good-looking muscle that's there to keep everyone safe. Their high level of intelligence and \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/how-to-calm-a-high-energy-puppy\"\u003Eenergy\u003C/a\u003E requires you to stay ahead of them, or else they'll get ahead of you. But all that said, they're sweet and serene, all beauty and brawn, who just want to turn your house into their den of zen.",
+        "breed_related_products_product_card_set": null,
+        "breed_snapshot_temperament": "\u003Cp\u003EGentle Giant, Assertive, Hard Worker\u003C/p\u003E",
+        "what_does_this_breed_look_like_weight": "\u003Cp\u003EMales: 70-110 pounds\u003C/p\u003E\u003Cp\u003EFemales: 70-110 pounds\u003C/p\u003E",
+        "what_does_this_breed_look_like_height": "\u003Cp\u003EMale: 24.5-27.5 inches\u003C/p\u003E\u003Cp\u003EFemale: 23.5-26.5 inches\u003C/p\u003E",
+        "breed_snapshot_life_expectancy": "\u003Cp\u003E10 to 12 years\u003C/p\u003E",
+        "breed_snapshot_maintenance_level": "\u003Cp\u003EHigh\u003C/p\u003E",
+        "breed_characteristics_friendliness": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_snapshot_coat_color": "\u003Cp\u003EBlack, Brindle, Fawn, Gray Brindle, Pepper and Salt, Gray\u003C/p\u003E",
+        "breed_snapshot_shed_level": "\u003Cp\u003EMedium\u003C/p\u003E",
+        "in_article_video": null,
+        "breed_characteristics": "These traits are rated on a scale of 1-5 with 1 being the lowest and 5 being the highest. Remember: Dogs are individuals, and not all dogs, even those of the same breed, will exhibit all the same qualities.",
+        "breed_characteristics_exercise_needs": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_health_issues": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_barking_tendencies": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_grooming_needs": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_shedding_level": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_training_needs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_kids": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_cats": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_for_apartments_small_homes": "\u003Cp\u003E1\u003C/p\u003E",
+        "breed_characteristics_energy_level": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_with_other_dogs": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_playfulnesss": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_cold_weather": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_warm_weather": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_for_first_time_parents": "\u003Cp\u003E2\u003C/p\u003E",
+        "how_do_i_look_card_image": 3167,
+        "what_does_this_breed_look_like": "Bouvier des Flandres look almost like giant, stocky teddy bears. Their mustache, beard and wiry eyebrows give their face a unique look, while the breed's muscular body is powerful and heavyset. And with Bouvier colors coming in a rainbow that ranges from fawn to black, their rough double coat sets them up equally as well for dirty outdoor jobs or relaxing inside.",
+        "what_does_this_breed_look_like_ears": "\u003Cp\u003EBouvier des Flandres ears are floppy and set high on the head.\u003C/p\u003E",
+        "what_does_this_breed_look_like_eyes": "\u003Cp\u003EBouvier eyes are oval-shaped and dark brown.\u003C/p\u003E",
+        "what_does_this_breed_look_like_nose": "\u003Cp\u003ETheir nose is large and black with flared nostrils.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_length": "\u003Cp\u003ETheir double coats are medium in length and capable of withstanding harsh weather. The outer coat is rough and harsh, and the undercoat is fine, soft and dense. \u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_color": "\u003Cp\u003EThe Bouvier coat colors include fawn, salt and pepper, gray, brindle (subtle tiger stripes) and black.\u003C/p\u003E",
+        "what_does_this_breed_look_like_tail": "\u003Cp\u003EThe AKC breed standard calls for the tail to be docked. Docking involves cutting a portion of the dog’s tail off when they are puppies. Veterinary groups along with many US states and countries have banned this procedure due to medical and behavioral reasons. If you are interested in this procedure, schedule a consultation with your veterinarian.\u003C/p\u003E",
+        "h2_breed_temperament": "Affectionately known as “gentle giants,\" Bouvier des Flandres are assertive, but simultaneously loyal and intelligent. They have a strong, self-confident personality and need a firm hand when training. At the same time, however, they're loyal and loving—happy to spend time with your family on the couch or going for a long walk. Young Bouviers can be rowdy or destructive, but the breed typically mellows out as they age (Bouviers are considered fully grown by the time they're 2 or 3 years old).\r\n\r\nThe Bouvier des Flandres is a working dog, happiest when they're herding a group of cattle or guarding your home to keep your family safe. Bred to help out with various jobs around a farm, today's Bouviers are equally as happy acting as police dogs or service dogs. Don't be afraid to give your Bouvier a job in your household—that's exactly what they want. (And that laundry isn't going to fold itself, after all.)\r\n\r\nBouvier des Flandres tend to do well with kids, especially if they grow up alongside them. But Bouviers don't always get along with other animals; they can be dominant over other dogs, and their high prey drive may interfere with their relationship with cats. Slow introductions and setting firm boundaries can help improve a Bouvier's relationship with other pets. To people outside your family, Bouviers' traits may show up as reserved or aloof (that's where those guard dog tendencies come in). But to the members of your household, a Bouvier will be affectionate and loyal to the end.",
+        "h2_how_to_care_for_a_breed": "Between their curly coat, assertive personality and strong work ethic, Bouviers des Flandres have a unique set of needs. For an experienced pet parent, however, a Bouvier won't be overly difficult to take care of. And your Bouvier will give you ample reward for your hard work—offering their love, dependability and protection of your home.",
+        "grooming": "Bouvier shedding is minimal. However, this breed has a double coat that's water-resistant and their coat gets dirty fast, leaving the Bouvier with a unique set of grooming needs. This is not a wash-and-wear type of dog: Bouvier des Flandres grooming often takes much more time than grooming other dog breeds. Here are some grooming tips for your Bouvier:\n\u003Cul\u003E\n \t\u003Cli\u003E\u003Cstrong\u003EBrushing:\u003C/strong\u003E Your Bouvier will need to be \u003Ca href=\"https://www.chewy.com/education/dog/grooming/brushing-a-dog\"\u003Ebrushed\u003C/a\u003E at least once a week. This will help work out any tangles or mats in their long fur. You'll likely end up brushing your Bouvier multiple times a week as they pick up dirt, burrs and other debris while running and playing outside. Use a \u003Ca href=\"https://www.chewy.com/f/slicker-brush-dog-brushes-combs_c356_f70v83792\" target=\"_blank\" rel=\"noopener\"\u003Eslicker brush\u003C/a\u003E and a metal dematting \u003Ca href=\"https://www.chewy.com/f/dog-grooming-combs_c355_f70v83785\" target=\"_blank\" rel=\"noopener\"\u003Edog comb\u003C/a\u003E to get the job done. Many parents also choose to give their Bouvier a haircut, trimming their entire coat to make those regular grooming sessions quicker and easier.\u003C/li\u003E\n \t\u003Cli\u003E\u003Cstrong\u003EBathing:\u003C/strong\u003E Bouviers need to be \u003Ca href=\"https://www.chewy.com/education/dog/grooming/how-to-bathe-a-dog-step-by-step-tips-from-a-professional-groomer\"\u003Egiven a bath\u003C/a\u003E a minimum of once a month. Again, this number will likely go up based on how much time the dog spends outside.\u003C/li\u003E\n \t\u003Cli\u003E\u003Cstrong\u003ENail trimming:\u003C/strong\u003E You should also trim your dog's toenails after bath time so your Bouvier doesn't experience pain while walking.\u003C/li\u003E\n \t\u003Cli\u003E\u003Cstrong\u003EEar cleaning:\u003C/strong\u003E Check your Bouvier's ears each week when you groom them to make sure their ears stay clean and dry. \u003Cspan class=\"TextRun SCXW265553935 BCX0\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\u003E\u003Cspan class=\"NormalTextRun SCXW265553935 BCX0\"\u003ECheck their \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW265553935 BCX0\"\u003Eear\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW265553935 BCX0\"\u003Es for debris and any redness or swelling. If you notice anything, speak to your vet. If your vet recommends at-home \u003C/span\u003E\u003Cspan class=\"FindHit SCXW265553935 BCX0\"\u003Eclea\u003C/span\u003E\u003Cspan class=\"FindHit SCXW265553935 BCX0\"\u003En\u003C/span\u003E\u003Cspan class=\"FindHit SCXW265553935 BCX0\"\u003Eing\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW265553935 BCX0\"\u003E, follow this \u003C/span\u003E\u003C/span\u003E\u003Ca class=\"Hyperlink SCXW265553935 BCX0\" href=\"https://www.chewy.com/education/dog/health-and-wellness/how-do-you-clean-a-dogs-ears-follow-this-vet-approved-step-by-step-guide\" target=\"_blank\" rel=\"noreferrer noopener\"\u003E\u003Cspan class=\"TextRun Underlined SCXW265553935 BCX0\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\u003E\u003Cspan class=\"NormalTextRun SCXW265553935 BCX0\" data-ccp-charstyle=\"Hyperlink\"\u003Estep-by-step guide on how to \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW265553935 BCX0\" data-ccp-charstyle=\"Hyperlink\"\u003Eclea\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW265553935 BCX0\" data-ccp-charstyle=\"Hyperlink\"\u003En\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW265553935 BCX0\" data-ccp-charstyle=\"Hyperlink\"\u003E dog \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW265553935 BCX0\" data-ccp-charstyle=\"Hyperlink\"\u003Eear\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW265553935 BCX0\" data-ccp-charstyle=\"Hyperlink\"\u003Es\u003C/span\u003E\u003C/span\u003E\u003C/a\u003E\u003Cspan class=\"TextRun SCXW265553935 BCX0\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\u003E\u003Cspan class=\"NormalTextRun SCXW265553935 BCX0\"\u003E.\u003C/span\u003E\u003C/span\u003E\u003Cspan class=\"EOP SCXW265553935 BCX0\" data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559685&quot;:720,&quot;335559731&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}\"\u003E&nbsp;\u003C/span\u003E\u003C/li\u003E\n \t\u003Cli\u003E\u003Cstrong\u003EDental care: \u003C/strong\u003EDaily \u003Ca href=\"https://www.chewy.com/education/dog/grooming/health-wellness-how-to-brush-your-dogs-teeth-live-to-tell-the-tale\"\u003Eteeth brushing\u003C/a\u003E&nbsp;is important, too. Regular teeth brushing will prevent plaque buildup, which might cause tooth decay or infection. Your vet can show you how to brush your dog's teeth and can also give your dog a professional teeth cleaning once a year.\u003C/li\u003E\n\u003C/ul\u003E",
+        "training": "When training your Bouviers des Flandres, don't be surprised if you utter the phrase, \"Too smart for their own good,\" on more than one occasion. They are extremely intelligent dogs who can pick up commands in moments. \u003Ca href=\"https://www.chewy.com/education/dog/new-dog/how-to-potty-train-your-dog-in-7-days\"\u003EPotty training\u003C/a\u003E and other basic commands are no problem for Bouviers. Their strong personality, however, can sometimes make them difficult to train. A mixture of firm corrections and positive reinforcement is ideal to help them learn. A new dog parent might feel out of their depth with Bouvier des Flandres training, but a more experienced dog parent should be fine.\n\n\u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/leash-train-dog-2\"\u003ELeash training\u003C/a\u003E is extremely important for Bouviers. They're large dogs with strong herding instincts and an assertive personality—if your Bouvier isn't leash trained, that's a recipe for disaster... and a lot of running amok around your neighborhood.\n\nAvoiding boredom is also key for Bouviers, so many Bouvier parents choose to continue into advanced training with their dog. While it's important to practice basic \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/sit-stay-and-beyond-weve-got-the-essential-guide-to-basic-dog-obedience-training\"\u003Eobedience training commands\u003C/a\u003E, like \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-sit\"\u003Esit\u003C/a\u003E and \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-stay\"\u003Estay\u003C/a\u003E, make sure you aren't too repetitive or your Bouvier will make their boredom known, acting out with undesirable behaviors. Learning new things is key to keeping the Bouvier des Flandres physically and mentally engaged. Herding, dock jumping and \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/dog-agility-training-tips\"\u003Eagility\u003C/a\u003E are just a few of the areas where Bouviers excel. Because Bouviers are used to working in some capacity, training is extremely important for this breed.",
+        "diet_nutrition": "All Bouvier des Flandres need a balanced diet consisting of \u003Ca href=\"https://www.chewy.com/education/dog/food-and-nutrition/your-complete-guide-to-the-best-high-quality-dog-food\"\u003Ehigh-quality commercial dog food\u003C/a\u003E that's tailored to their age and stage in life (puppy, adult, senior). Bouviers are big and highly active, so they need plenty of fuel to keep them on the go. Three to five cups per day over two servings should suffice, but speak with your veterinarian to select the best amount of food based on your dog's specific needs. Bouviers are also prone to obesity—so as hard as it may be to resist that scruffy face, limit the \u003Ca href=\"https://www.chewy.com/b/treats-335\" target=\"_blank\" rel=\"noopener\"\u003Etreats\u003C/a\u003E.\n\nExperts recommend that Bouvier puppies are fed a large-breed \u003Ca href=\"https://www.chewy.com/b/puppy-11097\" target=\"_blank\" rel=\"noopener\"\u003Epuppy food\u003C/a\u003E that has modified protein and calcium/phosphorus levels. This kind of food will help avoid juvenile bone disorders that can occur in some rapidly-growing puppies.",
+        "exercise": "The Bouvier des Flandres' exercise needs are high. Experts recommend 60-90 minutes of physical activity daily. This will ensure your Bouvier stays both happy and healthy—Bouviers can easily become overweight, so plenty of exercise helps keep them trim.\n\nAs working dogs, Bouviers des Flandres have lots of energy and stamina. You'll want to put on comfortable shoes if you're heading out for a walk—your Bouvier will be willing to walk much farther than you, and frankly, a basic walk isn't going to suffice for their daily exercise needs. Try going for a \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/how-to-run-with-dog\"\u003Erun\u003C/a\u003E or a \u003Ca href=\"https://www.chewy.com/education/dog/general/ready-to-hit-the-hiking-trail-with-your-dog-heres-everything-you-need-to-know\"\u003Ehike\u003C/a\u003E to up the game. Because Bouviers thrive when they have a job to do, you can also incorporate games and activities into your dog's daily exercise routine. Tug of war, Frisbee or an \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/dog-agility-training-tips\"\u003Eagility\u003C/a\u003E course will stimulate your pet both physically and mentally and put that Bouvier intelligence to work. Some Bouvier parents even participate in herding trials or a dog show. This breed also loves water, so if you have access to a lake or other body of water, \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/dog-swimming-pool-safety-tips\"\u003Eswimming\u003C/a\u003E can provide a great way to burn off some energy. It's important to provide plenty of mental stimulation so your Bouvier doesn't get bored and turn destructive.\n\nAs your dog ages, you can decrease the amount of daily exercise based on their needs. However, gentle exercise is still important to keep them in good physical shape and keep the Bouviers' energy level satisfied. If you have a Bouvier puppy, you'll also want to be mindful of your dog's daily activity. It's important that the Bouvier breed is not overworked while they're young. This allows young Bouviers to develop properly.",
+        "ideal_environment": "The Bouvier des Flandres needs plenty of outdoor space to run. A rural or country setting is ideal for this large dog, as is a home with a large yard in which they can speed around. While a Bouvier might be able to adjust to living in a small home or apartment, this isn't ideal—its essential they have ample exercise every day.\r\n\r\nBouviers are good with kids, although it's better if they grow up along with those kids so they view the children as part of their “pack.\" Keep an eye on a Bouvier around kids, and be cautious with small children—while Bouviers don't mean to cause harm, their large stature and herding instinct may cause them to nip at a child's heels while playing or accidentally knock over a toddler. It's also important to teach kids how to interact with dogs. Bouviers can be strong-willed with other dogs and might not be a good fit for households with additional pets. Because Bouviers can be protective, they also tend to be aloof when strangers or company are around (at least, until you give them the go-ahead).\r\n\r\nBouviers will thrive living with an experienced dog parent. Their high level of intelligence and energy requires you to stay ahead of them, or else they'll get ahead of you. The ideal Bouvier parent would live in the country with lots of space for exercise. He or she should also be prepared to set strong boundaries and provide the grooming the dog will need.",
+        "h2_breed_health": "\u003Cspan data-contrast=\"none\"\u003EBouvier des Flandres dogs have a life expectancy of 10-12 years, and they are a fairly hardy breed. Like any dog, however, the Bouvier does have a few inherited diseases that pet parents will need to watch out for. Bouviers can also be prone to other health problems, and parents should speak with their veterinarians about those less frequent ailments. Common health problems include:\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;335557856&quot;:16777215}\"\u003E&nbsp;\u003C/span\u003E\n\u003Cul\u003E\n \t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;multilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"1\" data-aria-level=\"1\"\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/c_dg_hip_dysplasia\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EHip\u003C/span\u003E\u003C/b\u003E\u003C/a\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003E and \u003C/span\u003E\u003C/b\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/c_dg_elbow_dysplasia\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EElbow Dysplasia\u003C/span\u003E\u003C/b\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E: Hip and elbow dysplasia are congenital defects where the joint wasn’t formed properly, which can cause lameness and pain. Sometimes, these conditions require surgery. Often, however, they can be managed through weight management, anti-inflammatories and \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/food-and-nutrition/best-natural-dog-treats\"\u003E\u003Cspan data-contrast=\"none\"\u003Ejoint supplements\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;335557856&quot;:16777215,&quot;335559685&quot;:1117}\"\u003E&nbsp;\u003C/span\u003E\u003C/li\u003E\n \t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;multilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"2\" data-aria-level=\"1\"\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/endocrine/c_dg_hypothyroidism\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EHypothyroidism\u003C/span\u003E\u003C/b\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E: Hypothyroidism is an endocrine disorder that develops in middle-aged to senior Bouviers. This health problem can be treated with thyroid hormone replacement.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;335557856&quot;:16777215,&quot;335559685&quot;:1117}\"\u003E&nbsp;\u003C/span\u003E\u003C/li\u003E\n \t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;multilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"3\" data-aria-level=\"1\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EEye Conditions\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E: \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/eye/c_dg_cataract\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003ECataracts\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/eyes/c_dg_glaucoma\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Eglaucoma\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/eyes/c_multi_entropion\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Eentropion\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E and \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/eyes/c_dg_ectropion\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Eectropion\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E are a few of the eye conditions your Bouvier des Flandres may develop. Cataracts and glaucoma can lead to blindness but may be corrected with surgery. Entropion is where the eyelid rolls inward, and ectropion is where the eyelid rolls out. Surgery may be a solution for both.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;335557856&quot;:16777215,&quot;335559685&quot;:1117}\"\u003E&nbsp;\u003C/span\u003E\u003C/li\u003E\n \t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;multilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"4\" data-aria-level=\"1\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003ESub-aortic Stenosis (SAS)\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E: SAS is a heart condition that is common in large dog breeds and can range from mild to severe. Severe cases cause symptoms like fainting, weakness and difficulty breathing. SAS is generally treated with medications and exercise restriction.&nbsp;&nbsp;\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;335557856&quot;:16777215,&quot;335559685&quot;:1117}\"\u003E&nbsp;\u003C/span\u003E\u003C/li\u003E\n\u003C/ul\u003E",
+        "h2_breed_history": "The Bouvier des Flandres was first bred in Belgium in the late 1800s. While their exact origin is not entirely clear, experts speculate that \u003Ca href=\"https://www.chewy.com/education/dog-breeds/standard-schnauzer/\" rel=\"noopener\"\u003ESchnauzers\u003C/a\u003E, \u003Ca href=\"https://www.chewy.com/education/dog-breeds/beauceron/\" rel=\"noopener\"\u003EBeaucerons\u003C/a\u003E, local farm dogs, and potentially \u003Ca href=\"https://www.chewy.com/education/dog-breeds/irish-wolfhound/\" rel=\"noopener\"\u003EIrish Wolfhounds\u003C/a\u003E and Scottish Deerhounds were bred to create the Bouvier as we know them today. Farmers used the Bouvier as drovers (cattle herds), guard dogs and draft animals (to pull carts). Essentially, Bouviers would take on any job that needed to be done around the farm. An official breed standard was established for the Bouvier in 1912.\r\n\r\nBy the early 1900s, war was brewing in Europe and smart, strong Bouviers were sometimes used to pull ambulances and carry guns and messages during World War I. The dogs who made it through the war were taken to other countries—and that's how the Bouvier eventually ended up in America in 1920.\r\n\r\nThe Bouvier des Flandres breed also served during World War II. The Resistance in Holland used Bouviers to carry messages at night. A fun Bouvier fact is that later in the 20th century, this breed became popular among royalty and presidential leadership: Ronald and Nancy Reagan had a Bouvier named Lucky, and a Bouvier police dog named Jango was sometimes used to guard Princess Diana.\r\n\r\nThe Bouvier des Flandres was recognized by the American Kennel Club (AKC) in 1929. Today, they're ranked as “somewhat popular\" according to the breed's AKC rating. Not everyone has heard of the Bouvier des Flandres, but those who have are staunchly devoted to the breed. If you're wondering about the average Bouvier cost, you can expect to pay $1,500-$2,000 for a Bouvier des Flandres puppy. Find a list of breeders on the \u003Ca href=\"https://marketplace.akc.org/puppies/bouvier-des-flandres\" target=\"_blank\" rel=\"noopener\"\u003EAKC's website\u003C/a\u003E. Cast a wide net and keep an eye out at local animal shelters and Humane Societies, too. You never know where a Bouvier or a Bouvier mix will turn up. You can also search \u003Ca href=\"https://www.chewy.com/g/dog-bouvier-des-flandres_ga1\" target=\"_blank\" rel=\"noopener\"\u003EChewy’s database of adoptable dogs\u003C/a\u003E in your area.",
+        "expert_attribution": "\u003Cem\u003EExpert input provided by Erin Askeland, CPDT-KA, CBCC-KA, Animal Health &amp; Behavior Consultant at \u003Ca href=\"https://www.campbowwow.com/\" target=\"_blank\" rel=\"noopener\"\u003ECamp Bow Wow\u003C/a\u003E; and Dr. J. Todd Gross, DVM, of \u003Ca href=\"https://www.goodlettsvilleanimal.com/\" target=\"_blank\" rel=\"noopener\"\u003EGoodlettsville Animal Hospital\u003C/a\u003E in Nashville, Tennessee. \u003C/em\u003E\r\n\r\n\u003Cem\u003EPhoto credit for \"How do I look?\" by the \u003Ca href=\"http://archive.nytimes.com/www.nytimes.com/interactive/2013/02/12/sports/westminster-dog-show-best-of-breed.html\" target=\"_blank\" rel=\"noopener\"\u003ENew York Times\u003C/a\u003E\u003C/em\u003E\r\n\r\n\u003Cem\u003EBreed characteristic ratings provided by Dr. Sarah J. Wooten, DVM, CVJ, a veterinarian at \u003Ca href=\"https://sheepdraw.com/\" target=\"_blank\" rel=\"noopener\"\u003ESheep Draw Veterinary Hospital\u003C/a\u003E in Greeley, Colorado; dog trainer and behavior consultant Irith Bloom, CPDT-KSA, CBCC-KA, CDBC, owner of \u003Ca href=\"https://thesophisticateddog.com/\" target=\"_blank\" rel=\"noopener\"\u003EThe Sophisticated Dog, LLC\u003C/a\u003E, in Los Angeles; and certified animal behavior consultant \u003Ca href=\"https://shojai.com/\" target=\"_blank\" rel=\"noopener\"\u003EAmy Shojai\u003C/a\u003E, CABC, in Sherman, Texas.\u003C/em\u003E\r\n\r\n\u003Cem\u003EThe health content was medically reviewed by Chewy vets.\u003C/em\u003E",
+        "facebook_social_snippet_with_cta": "\u003Cp\u003EThe Bouvier des Flandres is a hardworking, friendly dog breed who thrives with a job to do. Wondering if the Bouvier breed is a good fit for you? Check out this guide and get the facts and information about all things Bouvier.\u003C/p\u003E",
+        "species": "\u003Cp\u003EDog\u003C/p\u003E",
+        "h2_faqs": "\u003Ch3\u003EDo Bouviers des Flandres shed?\u003C/h3\u003E\r\nBouviers des Flandres are low shedding. However, this rough coated dog has a coat that picks up dust and dirt very easily, and regular grooming is required to keep them clean.\r\n\u003Ch3\u003EHow do you pronounce Bouvier des Flandres?\u003C/h3\u003E\r\nBouvier des Flandres is pronounced boo-VYEY dey FLAN-derz.\r\n\u003Ch3\u003EWhat does Bouvier des Flandres mean?\u003C/h3\u003E\r\nBouvier is a French word that means cowherd or herdsman. The word Flandres simply refers to Flanders, a region of Belgium. The name Bouvier des Flandres, then, literally means “herdsman from Flanders\"—an accurate name for a herding dog who originated in Flanders.\r\n\u003Ch3\u003EAre Bouviers good family dogs?\u003C/h3\u003E\r\nBouviers are excellent family dogs, especially when raised with children.\r\n\u003Ch3\u003EDo Bouviers bark a lot?\u003C/h3\u003E\r\nNo, Bouviers do not bark a lot.",
+        "faq_items": [
+          {
+            "faq_title": "Do Bouviers des Flandres shed?",
+            "faq_content": "Bouviers des Flandres are low shedding. However, this rough coated dog has a coat that picks up dust and dirt very easily, and regular grooming is required to keep them clean."
+          },
+          {
+            "faq_title": "How do you pronounce Bouvier des Flandres?",
+            "faq_content": "Bouvier des Flandres is pronounced boo-VYEY dey FLAN-derz."
+          },
+          {
+            "faq_title": "What does Bouvier des Flandres mean?",
+            "faq_content": "Bouvier is a French word that means cowherd or herdsman. The word Flandres simply refers to Flanders, a region of Belgium. The name Bouvier des Flandres, then, literally means “herdsman from Flanders\"—an accurate name for a herding dog who originated in Flanders."
+          },
+          {
+            "faq_title": "Are Bouviers good family dogs?",
+            "faq_content": "Bouviers are excellent family dogs, especially when raised with children."
+          },
+          {
+            "faq_title": "Do Bouviers bark a lot?",
+            "faq_content": "No, Bouviers do not bark a lot."
+          }
+        ],
+        "select_related_breeds": [
+          {
+            "selected_related_breed": 719,
+            "characteristic": "breed_characteristics_friendliness"
+          },
+          {
+            "selected_related_breed": 690,
+            "characteristic": "breed_characteristics_exercise_needs"
+          },
+          {
+            "selected_related_breed": 25,
+            "characteristic": "breed_characteristics_shedding_level"
+          },
+          {
+            "selected_related_breed": 486,
+            "characteristic": "breed_characteristics_good_for_first_time_parents"
+          },
+          {
+            "selected_related_breed": 1297,
+            "characteristic": "breed_characteristics_training_needs"
+          },
+          {
+            "selected_related_breed": 505,
+            "characteristic": "breed_characteristics_good_with_kids"
+          }
+        ],
+        "enable_featured_gallery": [
+          "enable_featured_gallery"
+        ],
+        "featured_gallery_images": [256, 249, 250, 251, 252, 253]
+      },
+      "yoast_head": "\u003C!-- This site is optimized with the Yoast SEO plugin v23.8 - https://yoast.com/wordpress/plugins/seo/ --\u003E\n\u003Ctitle\u003EBouvier des Flandres Breed: Characteristics, Care &amp; Photos | Chewy\u003C/title\u003E\n\u003Cmeta name=\"description\" content=\"The Bouvier des Flandres is a hardworking breed of dog originating from Belgium. Learn all about this dog breed in our complete guide.\" /\u003E\n\u003Cmeta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" /\u003E\n\u003Clink rel=\"canonical\" href=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/bouvier-des-flandres/\" /\u003E\n\u003Cmeta property=\"og:locale\" content=\"en_US\" /\u003E\n\u003Cmeta property=\"og:type\" content=\"article\" /\u003E\n\u003Cmeta property=\"og:title\" content=\"Bouvier des Flandres Breed: Characteristics, Care &amp; Photos | Chewy\" /\u003E\n\u003Cmeta property=\"og:description\" content=\"The Bouvier des Flandres is a hardworking breed of dog originating from Belgium. Learn all about this dog breed in our complete guide.\" /\u003E\n\u003Cmeta property=\"og:url\" content=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/bouvier-des-flandres/\" /\u003E\n\u003Cmeta property=\"og:site_name\" content=\"Chewy\" /\u003E\n\u003Cmeta property=\"article:modified_time\" content=\"2025-05-05T14:21:14+00:00\" /\u003E\n\u003Cmeta property=\"og:image\" content=\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07144010/202107Breed-Hero-Bouvier-des-Flandres.jpg\" /\u003E\n\t\u003Cmeta property=\"og:image:width\" content=\"1835\" /\u003E\n\t\u003Cmeta property=\"og:image:height\" content=\"1032\" /\u003E\n\t\u003Cmeta property=\"og:image:type\" content=\"image/jpeg\" /\u003E\n\u003Cmeta name=\"twitter:card\" content=\"summary_large_image\" /\u003E\n\u003Cscript type=\"application/ld+json\" class=\"yoast-schema-graph\"\u003E{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/bouvier-des-flandres/\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/bouvier-des-flandres/\",\"name\":\"Bouvier des Flandres Breed: Characteristics, Care & Photos | Chewy\",\"isPartOf\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/bouvier-des-flandres/#primaryimage\"},\"image\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/bouvier-des-flandres/#primaryimage\"},\"thumbnailUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07144010/202107Breed-Hero-Bouvier-des-Flandres.jpg\",\"datePublished\":\"2021-07-07T13:26:03+00:00\",\"dateModified\":\"2025-05-05T14:21:14+00:00\",\"description\":\"The Bouvier des Flandres is a hardworking breed of dog originating from Belgium. Learn all about this dog breed in our complete guide.\",\"breadcrumb\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/bouvier-des-flandres/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://phcms.hlth.prd.aws.chewy.cloud/breed/bouvier-des-flandres/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/bouvier-des-flandres/#primaryimage\",\"url\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07144010/202107Breed-Hero-Bouvier-des-Flandres.jpg\",\"contentUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07144010/202107Breed-Hero-Bouvier-des-Flandres.jpg\",\"width\":1835,\"height\":1032,\"caption\":\"Bouvier des Flandres\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/bouvier-des-flandres/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://phcms.hlth.prd.aws.chewy.cloud/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Bouvier des Flandres\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/\",\"name\":\"Chewy\",\"description\":\"\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"}]}\u003C/script\u003E\n\u003C!-- / Yoast SEO plugin. --\u003E",
+      "yoast_head_json": {
+        "title": "Bouvier des Flandres Breed: Characteristics, Care & Photos | Chewy",
+        "description": "The Bouvier des Flandres is a hardworking breed of dog originating from Belgium. Learn all about this dog breed in our complete guide.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://phcms.hlth.prd.aws.chewy.cloud/breed/bouvier-des-flandres/",
+        "og_locale": "en_US",
+        "og_type": "article",
+        "og_title": "Bouvier des Flandres Breed: Characteristics, Care & Photos | Chewy",
+        "og_description": "The Bouvier des Flandres is a hardworking breed of dog originating from Belgium. Learn all about this dog breed in our complete guide.",
+        "og_url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/bouvier-des-flandres/",
+        "og_site_name": "Chewy",
+        "article_modified_time": "2025-05-05T14:21:14+00:00",
+        "og_image": [
+          {
+            "width": 1835,
+            "height": 1032,
+            "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07144010/202107Breed-Hero-Bouvier-des-Flandres.jpg",
+            "type": "image/jpeg"
+          }
+        ],
+        "twitter_card": "summary_large_image",
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/bouvier-des-flandres/",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/bouvier-des-flandres/",
+              "name": "Bouvier des Flandres Breed: Characteristics, Care & Photos | Chewy",
+              "isPartOf": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/bouvier-des-flandres/#primaryimage"
+              },
+              "image": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/bouvier-des-flandres/#primaryimage"
+              },
+              "thumbnailUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07144010/202107Breed-Hero-Bouvier-des-Flandres.jpg",
+              "datePublished": "2021-07-07T13:26:03+00:00",
+              "dateModified": "2025-05-05T14:21:14+00:00",
+              "description": "The Bouvier des Flandres is a hardworking breed of dog originating from Belgium. Learn all about this dog breed in our complete guide.",
+              "breadcrumb": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/bouvier-des-flandres/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://phcms.hlth.prd.aws.chewy.cloud/breed/bouvier-des-flandres/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/bouvier-des-flandres/#primaryimage",
+              "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07144010/202107Breed-Hero-Bouvier-des-Flandres.jpg",
+              "contentUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07144010/202107Breed-Hero-Bouvier-des-Flandres.jpg",
+              "width": 1835,
+              "height": 1032,
+              "caption": "Bouvier des Flandres"
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/bouvier-des-flandres/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://phcms.hlth.prd.aws.chewy.cloud/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Bouvier des Flandres"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/",
+              "name": "Chewy",
+              "description": "",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            }
+          ]
+        }
+      },
+      "yoast_meta": {
+        "yoast_wpseo_title": "",
+        "yoast_wpseo_metadesc": "",
+        "yoast_wpseo_canonical": ""
+      },
+      "_links": {
+        "self": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed/257",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/types/breed"
+          }
+        ],
+        "acf:attachment": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/253"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/252"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/251"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/250"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/249"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/256"
+          }
+        ],
+        "wp:featuredmedia": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/3168"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media?parent=257"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "pet_type",
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/pet_type?post=257"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ]

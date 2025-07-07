@@ -1,0 +1,317 @@
+[
+    {
+      "id": 673,
+      "date": "2021-06-15T16:32:57",
+      "date_gmt": "2021-06-15T16:32:57",
+      "guid": {
+        "rendered": "https://haproxy.use1.lgcy.prd.aws.chewy.cloud/eks/ns/pet-health/pet-health-content-backend/breed/nova-scotia-duck-tolling-retriever/"
+      },
+      "modified": "2025-05-05T14:21:56",
+      "modified_gmt": "2025-05-05T14:21:56",
+      "slug": "nova-scotia-duck-tolling-retriever",
+      "status": "publish",
+      "type": "breed",
+      "link": "https://phcms.hlth.prd.aws.chewy.cloud/breed/nova-scotia-duck-tolling-retriever/",
+      "title": {
+        "rendered": "Nova Scotia Duck Tolling Retriever"
+      },
+      "featured_media": 672,
+      "template": "",
+      "pet_type": [],
+      "class_list": [
+        "post-673",
+        "breed",
+        "type-breed",
+        "status-publish",
+        "has-post-thumbnail",
+        "hentry"
+      ],
+      "acf": {
+        "breed_snapshot_best_for": "\u003Cp\u003ENova Scotia Duck Tolling Retrievers, affectionately known as \"Tollers,\" are a medium-sized sporting dog breed originating from Canada. Renowned for their intelligence, playful demeanor and fox-like red coat, Tollers excel in hunting and do best in active households.\u003C/p\u003E",
+        "alt_image_text": "\u003Cp\u003EDiscover if the Nova Scotia Duck Tolling Retriever is a good match for you in our guide.\u003C/p\u003E",
+        "breed_intro": "If you've always wanted a \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/dog-walking-exercise-routine\"\u003Eworkout buddy\u003C/a\u003E who never flakes and will accompany you on your adventures without asking anything in return—except maybe a sloppy kiss—then a Nova Scotia Duck Tolling Retriever could be your new best friend. Tollers are energetic pups who thrive in active households. The smallest of the retrievers, they were bred to run along riverbanks to entice ducks to the shore. So, if \"water sports\" is your middle name, the Nova Scotia Duck Tolling Retriever is ready to make a splash with you.  ",
+        "breed_related_products_product_card_set": null,
+        "breed_snapshot_temperament": "\u003Cp\u003EEnergetic, Intelligent, Devoted\u003C/p\u003E",
+        "what_does_this_breed_look_like_weight": "\u003Cp\u003EMale: 35-50 pounds\u003C/p\u003E\u003Cp\u003EFemale: 35-50 pounds\u003C/p\u003E",
+        "what_does_this_breed_look_like_height": "\u003Cp\u003EMale: 18-21 inches\u003C/p\u003E\u003Cp\u003EFemale: 17-20 inches\u003C/p\u003E",
+        "breed_snapshot_life_expectancy": "\u003Cp\u003E12 to 14 years\u003C/p\u003E",
+        "breed_snapshot_maintenance_level": "\u003Cp\u003EHigh\u003C/p\u003E",
+        "breed_characteristics_friendliness": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_snapshot_coat_color": "\u003Cp\u003ERed, Buff, Red Gold\u003C/p\u003E",
+        "breed_snapshot_shed_level": "\u003Cp\u003EMedium\u003C/p\u003E",
+        "in_article_video": null,
+        "breed_characteristics": "These traits are rated on a scale of 1-5 with 1 being the lowest and 5 being the highest. Remember: Dogs are individuals, and not all dogs, even those of the same breed, will exhibit all the same qualities.",
+        "breed_characteristics_exercise_needs": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_health_issues": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_barking_tendencies": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_grooming_needs": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_shedding_level": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_training_needs": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_with_kids": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_good_with_cats": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_for_apartments_small_homes": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_energy_level": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_good_with_other_dogs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_playfulnesss": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_cold_weather": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_warm_weather": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_for_first_time_parents": "\u003Cp\u003E3\u003C/p\u003E",
+        "how_do_i_look_card_image": 671,
+        "what_does_this_breed_look_like": "The regal Nova Scotia Duck Tolling Retriever looks similar to a fox. They have a striking golden red coat with a dash of white markings. Their bright eyes exude intelligence, determination and affection. This small retriever is athletic and lean with a flowing, feathery coat and a jaunty white-tipped tail that wags high to signal their zest for working.",
+        "what_does_this_breed_look_like_ears": "\u003Cp\u003ENova Scotia Duck Tolling Retrievers' triangular ears have rounded tips and frame their face with a graceful floppiness.\u003C/p\u003E",
+        "what_does_this_breed_look_like_eyes": "\u003Cp\u003ETheir eyes are almond-shaped and match the their golden red coat color.\u003C/p\u003E",
+        "what_does_this_breed_look_like_nose": "\u003Cp\u003ETollers have a broad nose with wide-open nostrils. Their nose either matches the color of their coat or is black.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_length": "\u003Cp\u003EThey have a soft, medium-length, water-repellent double coat. The top coat may be feathered or wavy. Their undercoat is soft and thick. \u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_color": "\u003Cp\u003ETheir coat colors are any shade of red from a golden red to a dark, coppery red and may have white markings on the tip of their tail, feet, chest or blaze (between their eyes).\u003C/p\u003E",
+        "what_does_this_breed_look_like_tail": "\u003Cp\u003EThe Nova Scotia Duck Tolling Retriever's tail is long and feathered. Tollers hold their tails upright in a slight curve when they're alert and working.\u003C/p\u003E",
+        "h2_breed_temperament": "The Nova Scotia Duck Tolling Retriever is high-energy, playful and loving with a dash of independence—especially when they get distracted. Their temperament reflects their hunting dog origins. If they're not hunting, their next favorite thing to do is play with you or a gaggle of kids (a match made in heaven!). They're also great with other dogs, and if raised around cats as a puppy, they'll accept felines. Be warned: A Toller dog's energy level and drive may sometimes be too much for cats.\r\n\r\nThe Toller breed is a friendly, social and loving dog, so start socializing them while they're puppies to bring out these wonderful traits as they grow up. Just be warned: pent-up energy will express itself in unwanted behaviors if they don't get enough physical and mental exercise. These pups are not for people who love the couch more than activity.",
+        "h2_how_to_care_for_a_breed": "The Toller breed is a gun dog bred for duck hunting. This means they need a job to channel their high energy. They require a lot of physical and mental exercise, confident leadership and obedience training. Tollers are very loving and affectionate, so pet parents committed to respecting their intelligence, playfulness and work ethic will reap the rewards of having this awesome dog to call their own.",
+        "grooming": "The Nova Scotia Duck Tolling Retriever breed has a waterproof double coat, and they are moderate shedders, but they'll shed more during the fall and spring. Plan on brushing your Toller weekly to keep their coat in tip-top shape. Take time to brush the fur around their ears, which tends to get knotted. Use a slicker brush, like the \u003Ca href=\"https://www.chewy.com/safari-self-cleaning-slicker-brush/dp/46213\"\u003ESafari Self-Cleaning Slicker Brush\u003C/a\u003E. And during shedding season, carve out time daily to help keep the shedding fur at bay.\n\nWhile brushing their fur, check out the fur between their toes. The fur that grows between their toes can cover their pads. Trim the hair on their paws as needed to ensure they get good traction when walking on slippery surfaces. Speaking of their toes, \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/guide-trimming-dogs-nails\" target=\"_blank\" rel=\"noopener\"\u003Etrim your Toller's nails\u003C/a\u003E every month. You'll know their nails are too long if you hear your pup coming on hard surfaces. (That familiar click-clack song.)\n\nYou can bathe your Tolling Retriever once every four to six weeks. Your Toller dog may need more frequent bathing based on outdoor activities and whether they're due for a good scrub after a particularly muddy excursion.\n\n\u003Ca href=\"https://www.chewy.com/education/dog/grooming/health-wellness-how-to-brush-your-dogs-teeth-live-to-tell-the-tale\"\u003EBrush your dog's teeth\u003C/a\u003E at least a few times a week and work up to every day. It's best to start the teeth brushing routine when your Toller is a puppy, so they'll get used to it. Keeping your dog's teeth clean ensures they stay healthy overall. Beyond curbing bad breath, daily brushing prevents plaque and tartar build-up, which leads to tooth decay and possibly life-threatening infections—plan on having your Toller's teeth cleaned professionally yearly by your vet (not your groomer).",
+        "training": "Nova Scotia Duck Tolling Retrievers are bright, independent and not as eager to please as the \u003Ca href=\"https://www.chewy.com/education/dog-breeds/golden-retriever/\"\u003EGolden Retriever\u003C/a\u003E. Therefore, they need a confident and patient trainer to guide them. Being lovingly firm and consistent is key for training. And foundational obedience skills—sit, stay, come and how to walk nicely on a leash—are a must.\r\n\r\nWhen training, keep your sessions short (10 minutes or so); otherwise, they'll get bored with endless repetition. Reward-based training methods (focusing on what they do right and re-directing them when they don't do what you want) work well for them, too. Mix up their rewards and use treats, praise and play breaks when they do a good job.\r\n\r\nSocialization is also important for a Toller puppy. Take your pup for walks and let them experience new people, other dogs and new situations. Puppy school is a great place to start. Puppies learn to play nicely with each other, and they get to mix and mingle with other people.",
+        "diet_nutrition": "The Nova Scotia Duck Tolling Retriever typically does well on a \u003Ca href=\"https://www.chewy.com/b/premium-food-11728\"\u003Ehigh-quality commercial dog food\u003C/a\u003E. Be sure to factor in your dog's age and choose a formula that fits their stage in life (puppy, adult, senior). And consider supplementing your Toller's food with a \u003Ca href=\"https://www.chewy.com/s?query=fish%20oil%20supplement%20dogs&amp;nav-submit-button=\"\u003Efish oil supplement\u003C/a\u003E to help keep their skin and coat healthy.\r\n\r\nAs you plan your pup's meals, remember to include all the treats you give. Remember that treats = calories, and even a few extra pounds can create health problems for your pup. Talk with your vet if you see your pup gaining a pound or two. They are in the best position to help you create a meal and exercise plan to help your dog shed weight and maintain their nutritional needs.",
+        "exercise": "A Nova Scotia Duck Tolling Retriever's energy level is high, so they'll need about an hour of exercise daily. As a dog born with a job to do (work with hunters), these pups don't do well with idle time. If they can't get rid of their energy every day, they will find ways to entertain themselves—and your shoes and your home will be the worst for it.\r\n\r\nIf you enjoy running, you're in luck; Tollers are fast—they can reach up to 45 mph! So, lace up your running shoes and take your Toller with you. They also enjoy swimming and games like fetch or hide-and-seek. Take your pup for a few walks during the day and give them plenty of time to play off-leash (in the backyard or at the dog park). \u003Ca href=\"https://www.chewy.com/b/balls-2329\"\u003EDog ball toys\u003C/a\u003E are great for endless ball-chasing antics your pup will love (all that retrieving).\r\n\r\nAny activities that allow them to use their bodies and brains are also great. Get your Toller into dog sports, like agility or \u003Ca href=\"https://www.flyball.org/aboutflyball.html\"\u003Eflyball\u003C/a\u003E. These competitive sports are great ways to strengthen your bond. When Tollers exercise enough, they're happy to cuddle up with you and lounge on the couch—an excellent way to relax at the end of a day of play.",
+        "ideal_environment": "A Toller is happiest in a home with a large yard where they have room to play and exercise. This pup is medium-sized, so they may do OK in a smaller house or apartment if they have daily access to outdoor space to run and play. (This includes lazy days and stormy or cold days, too!) This water-loving pooch would be thrilled if you have a swimming pool they could play in. (And they wouldn't say no to a nearby pond or lake.)\r\n\r\nTollers are wonderful dogs for active pet parents willing to put the time into exercising them. They may not be as ideal for first-time pup parents as, say, a \u003Ca href=\"https://www.chewy.com/education/dog-breeds/labrador-retriever/\"\u003ELabrador Retriever\u003C/a\u003E, but as long as you're committed to their training and exercise needs, this pup can be a good fit.\r\n\r\nRaising a Nova Scotia Duck Tolling Retriever with kids and other pets will ensure your home is always full of laughter and fun escapades—you may find your only quiet time is at night! These pups are happy with their family, wherever that may be, at home or on your travels or local adventures.",
+        "h2_breed_health": "Nova Scotia Duck Tolling Retrievers have a lifespan of 12 to 14 years and are a relatively healthy breed without many health problems. But it’s best to be aware of their health issues.\r\n\u003Cul\u003E\r\n \t\u003Cli\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/c_dg_hip_dysplasia\"\u003E\u003Cstrong\u003EHip\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E and \u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/c_dg_elbow_dysplasia\"\u003EElbow\u003C/a\u003E Dysplasia\u003C/strong\u003E: Dysplasia occurs when the joints don't form properly, which causes them to rub and result in lameness, pain, and arthritis. Treatments range from weight management to physical therapy to surgery.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Cstrong\u003EProgressive Retinal Atrophy (\u003Ca href=\"https://www.petmd.com/dog/condition/progressive-retinal-atrophy-in-dogs\"\u003EPRA\u003C/a\u003E)\u003C/strong\u003E: PRA is a degenerative eye disease that eventually causes vision loss. This condition has no treatment, but a pup can still live a happy life with vision loss. A genetic screening test is available, so ask your breeder.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Cb\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/endocrine/c_dg_hypoadrenocorticism\"\u003EAddison's Disease\u003C/a\u003E\u003C/b\u003E: This is a disorder of the endocrine system where the adrenal glands fail to produce enough hormones for normal function. It usually starts with lack of appetite, vomiting or diarrhea but can be more severe with collapsing and life-threatening low blood sugar, low heart rate, and elevated potassium. Diagnosis is typically a blood test, and with treatment, dogs with Addison’s can live relatively normal lives.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Cb\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/degenerative-myelopathy-dogs\"\u003EDegenerative Myelopathy\u003C/a\u003E\u003C/b\u003E: DM is a neurological disorder that affects the white matter tissue of the spinal cord. The disease usually appears in adulthood, and dogs exhibit gradual muscle atrophy and loss of coordination that typically begins in the hind legs. There is no treatment for this condition at this time, but genetic screening testing is available.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Cb\u003EDegenerative Encephalopathy\u003C/b\u003E: With this disease, the region of the brain that's important in controlling movement and some aspects of behavior degenerate over time. Unfortunately, there are no treatments for this disease.\u003C/li\u003E\r\n\u003C/ul\u003E",
+        "h2_breed_history": "It's all in a name when it comes to the Nova Scotia Duck Tolling Retriever's origin. This breed hails from the Little River District of Nova Scotia, where 19th-century sportsmen first bred them. Their nickname, Little River Duck Dog, is an homage to their origins.\r\n\r\nTollers were bred with a particular purpose in mind. These \"decoy dogs\" are designed to imitate foxes in size and color. Hunters took them along the river banks to act as a decoy to splash along the shoreline and lure curious ducks to shore. (Did you know ducks are fascinated by foxes? They are, though the exact reason why is unclear.) The breed's name includes a derivative of the Middle English word \u003Cem\u003Etollen\u003C/em\u003E, which means to lure. Once the ducks came to see what commotion the Tollers were causing, they were poised for hunters to shoot them. The history of the Nova Scotia Duck Tolling Retriever is still evident in the breed's personality—they are inexhaustible, hardworking dogs capable of retrieving without seeming to stop.\r\n\r\nThe American Kennel Club recognized the Nova Scotia Duck Tolling Retriever in 2003. Not surprisingly, they are the breed with the longest name in the AKC Studbook.\r\n\r\nHoping to add a Nova Scotia Duck Tolling Retriever to your pack? Find a list of reputable breeders on the \u003Ca href=\"https://marketplace.akc.org/puppies/nova-scotia-duck-tolling-retriever\"\u003EAmerican Kennel Club\u003C/a\u003E website. What's the average price for a puppy? You can expect to pay an average of $1,500 to $2,500 for a pup. But for that price, you're likely getting a pup who's been screened for health and temperament issues and may come with pedigree papers. You can also contact a Nova Scotia Duck Tolling Retriever rescue organization near you, keep an eye out for the breed at your local animal shelter to adopt a pup, or search \u003Ca href=\"https://www.chewy.com/g/dog_ga1\"\u003EChewy's database of adoptable dogs\u003C/a\u003E in your area.",
+        "expert_attribution": "\u003Ci\u003EExpert input provided by Dr. Jerry Klein, Chief Veterinary Officer for the \u003Ca href=\"https://www.akc.org/\"\u003EAmerican Kennel Club\u003C/a\u003E, Dr. Elizabeth Grey, Veterinarian, President and Hospital Director of \u003Ca href=\"https://carmelmountainvet.com/\"\u003ECarmel Mountain Ranch Veterinary Hospital\u003C/a\u003E, and owner of \u003Ca href=\"https://www.drgreyplaynstay.com/\"\u003EDr. Grey's Play &amp; Stay\u003C/a\u003E, and Graham Bloem, Certified Dog Trainer &amp; Behavior Expert, Owner &amp; Training Director of \u003Ca href=\"https://specialtydogtraining.com/\"\u003ESpecialty Dog Training\u003C/a\u003E.\u003C/i\u003E\r\n\r\n\u003Cem\u003EBreed characteristic ratings provided by veterinarian Dr. Sarah J. Wooten, DVM, CVJ, a veterinarian at \u003Ca href=\"https://sheepdraw.com/\" target=\"_blank\" rel=\"noopener\"\u003ESheep Draw Veterinary Hospital\u003C/a\u003E in Greeley, Colorado; dog trainer and behavior consultant Irith Bloom, CPDT-KSA, CBCC-KA, CDBC, owner of \u003Ca href=\"https://thesophisticateddog.com/\" target=\"_blank\" rel=\"noopener\"\u003EThe Sophisticated Dog, LLC\u003C/a\u003E, in Los Angeles; and certified animal behavior consultant \u003Ca href=\"https://shojai.com/\" target=\"_blank\" rel=\"noopener\"\u003EAmy Shojai\u003C/a\u003E, CABC, in Sherman, Texas. \u003C/em\u003E\r\n\r\n\u003Cem\u003EThe health content was medically reviewed by Chewy vets.\u003C/em\u003E",
+        "facebook_social_snippet_with_cta": "\u003Cp\u003EWe've found you a workout buddy who will never flake. Even saying their name will make you break a sweat. The Nova Scotia Duck Tolling Retriever is a beautiful dog with soulful eyes and boundless energy. Find out what's so alluring about these dogs who makes every duck take a closer look.\u003C/p\u003E",
+        "species": "\u003Cp\u003EDog\u003C/p\u003E",
+        "h2_faqs": "\u003Ch3\u003EDo Nova Scotia Duck Tolling Retrievers shed?\u003C/h3\u003E\nYes, Nova Scotia Duck Tolling Retrievers shed moderately and more heavily during the fall and spring. Regular brushing will help minimize shedding, but this breed is by no means hypoallergenic.\n\u003Ch3\u003EAre Tollers good family dogs?\u003C/h3\u003E\nTollers make great family dogs if you give them plenty of physical and mental exercise. These sporty, working dogs need lots of activity, so they're best suited for families who can match their energy level.\n\u003Ch3\u003EDo Nova Scotia Duck Tolling Retrievers bark a lot?\u003C/h3\u003E\nLike most dogs, a Nova Scotia Duck Tolling Retriever may bark a lot if left alone all day or for an extended period. Tollers are also known to have a high-pitched scream unique to their breed.\n\u003Ch3\u003EWhat are the most popular Nova Scotia Duck Tolling Retriever names?\u003C/h3\u003E\nSome of the most popular Nova Scotia Duck Tolling Retriever names are Scout, Lucky, Simba, Chief, Honey, Jack, Penny, Duke, Daisy, Dixie and Rusty. Get more dog names \u003Ca href=\"https://www.chewy.com/education/dog/general/top-dog-names\"\u003Ehere\u003C/a\u003E.\n\u003Ch3\u003EWhat are the most common Nova Scotia Duck Tolling Retriever Mixes?\u003C/h3\u003E\nThe most common Nova Scotia Duck Tolling Retriever types of mixes are:\n\u003Cul\u003E\n \t\u003Cli\u003ENova Scotia Duck Tolling Retriever-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/poodle/\"\u003EPoodle\u003C/a\u003E mix\u003C/li\u003E\n \t\u003Cli\u003ENova Scotia Duck Tolling Retriever-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/border-collie/\"\u003EBorder Collie\u003C/a\u003E mix\u003C/li\u003E\n \t\u003Cli\u003ENova Scotia Duck Tolling Retriever-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/golden-retriever/\"\u003EGolden Retriever\u003C/a\u003E mix\u003C/li\u003E\n \t\u003Cli\u003ENova Scotia Duck Tolling Retriever-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/husky/\"\u003EHusky\u003C/a\u003E mix\u003C/li\u003E\n \t\u003Cli\u003ENova Scotia Duck Tolling Retriever-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/labrador-retriever/\"\u003ELabrador\u003C/a\u003E mix\u003C/li\u003E\n\u003C/ul\u003E\n\u003Cem\u003ENote: These are not purebred dogs but mixed breeds.\u003C/em\u003E",
+        "faq_items": [
+          {
+            "faq_title": "Do Nova Scotia Duck Tolling Retrievers shed?",
+            "faq_content": "Yes, Nova Scotia Duck Tolling Retrievers shed moderately and more heavily during the fall and spring. Regular brushing will help minimize shedding, but this breed is by no means hypoallergenic."
+          },
+          {
+            "faq_title": "Are Tollers good family dogs?",
+            "faq_content": "Tollers make great family dogs if you give them plenty of physical and mental exercise. These sporty, working dogs need lots of activity, so they're best suited for families who can match their energy level."
+          },
+          {
+            "faq_title": "Do Nova Scotia Duck Tolling Retrievers bark a lot?",
+            "faq_content": "Like most dogs, a Nova Scotia Duck Tolling Retriever may bark a lot if left alone all day or for an extended period. Tollers are also known to have a high-pitched scream unique to their breed."
+          },
+          {
+            "faq_title": "What are the most popular Nova Scotia Duck Tolling Retriever names?",
+            "faq_content": "Some of the most popular Nova Scotia Duck Tolling Retriever names are Scout, Lucky, Simba, Chief, Honey, Jack, Penny, Duke, Daisy, Dixie and Rusty. Get more dog names \u003Ca href=\"https://www.chewy.com/education/dog/general/top-dog-names\"\u003Ehere\u003C/a\u003E."
+          },
+          {
+            "faq_title": "What are the most common Nova Scotia Duck Tolling Retriever Mixes?",
+            "faq_content": "The most common Nova Scotia Duck Tolling Retriever types of mixes are:\r\n\u003Cul\u003E\r\n \t\u003Cli\u003ENova Scotia Duck Tolling Retriever-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/poodle/\"\u003EPoodle\u003C/a\u003E mix\u003C/li\u003E\r\n \t\u003Cli\u003ENova Scotia Duck Tolling Retriever-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/border-collie/\"\u003EBorder Collie\u003C/a\u003E mix\u003C/li\u003E\r\n \t\u003Cli\u003ENova Scotia Duck Tolling Retriever-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/golden-retriever/\"\u003EGolden Retriever\u003C/a\u003E mix\u003C/li\u003E\r\n \t\u003Cli\u003ENova Scotia Duck Tolling Retriever-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/husky/\"\u003EHusky\u003C/a\u003E mix\u003C/li\u003E\r\n \t\u003Cli\u003ENova Scotia Duck Tolling Retriever-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/labrador-retriever/\"\u003ELabrador\u003C/a\u003E mix\u003C/li\u003E\r\n\u003C/ul\u003E\r\n\u003Cem\u003ENote: These are not purebred dogs but mixed breeds.\u003C/em\u003E"
+          }
+        ],
+        "select_related_breeds": [
+          {
+            "selected_related_breed": 468,
+            "characteristic": "breed_characteristics_exercise_needs"
+          },
+          {
+            "selected_related_breed": 138,
+            "characteristic": "breed_characteristics_good_with_other_dogs"
+          },
+          {
+            "selected_related_breed": 293,
+            "characteristic": "breed_characteristics_energy_level"
+          },
+          {
+            "selected_related_breed": 73,
+            "characteristic": "breed_characteristics_playfulnesss"
+          },
+          {
+            "selected_related_breed": 450,
+            "characteristic": "breed_characteristics_shedding_level"
+          },
+          {
+            "selected_related_breed": 1429,
+            "characteristic": "breed_characteristics_sensitive_to_cold_weather"
+          }
+        ],
+        "enable_featured_gallery": [
+          "enable_featured_gallery"
+        ],
+        "featured_gallery_images": [666, 667, 668, 669]
+      },
+      "yoast_head": "\u003C!-- This site is optimized with the Yoast SEO plugin v23.8 - https://yoast.com/wordpress/plugins/seo/ --\u003E\n\u003Ctitle\u003ENova Scotia Duck Tolling Retriever Breed: Characteristics, Care &amp; Photos | Chewy\u003C/title\u003E\n\u003Cmeta name=\"description\" content=\"Nova Scotia Duck Tolling Retrievers love adventure. Learn more about this energetic breed and get expert advice on how best to care for them.\" /\u003E\n\u003Cmeta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" /\u003E\n\u003Clink rel=\"canonical\" href=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/nova-scotia-duck-tolling-retriever/\" /\u003E\n\u003Cmeta property=\"og:locale\" content=\"en_US\" /\u003E\n\u003Cmeta property=\"og:type\" content=\"article\" /\u003E\n\u003Cmeta property=\"og:title\" content=\"Nova Scotia Duck Tolling Retriever Breed: Characteristics, Care &amp; Photos | Chewy\" /\u003E\n\u003Cmeta property=\"og:description\" content=\"Nova Scotia Duck Tolling Retrievers love adventure. Learn more about this energetic breed and get expert advice on how best to care for them.\" /\u003E\n\u003Cmeta property=\"og:url\" content=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/nova-scotia-duck-tolling-retriever/\" /\u003E\n\u003Cmeta property=\"og:site_name\" content=\"Chewy\" /\u003E\n\u003Cmeta property=\"article:modified_time\" content=\"2025-05-05T14:21:56+00:00\" /\u003E\n\u003Cmeta property=\"og:image\" content=\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11165138/202106NovaScotiaDuckTollingRetriever-FeaturedImage.jpg\" /\u003E\n\t\u003Cmeta property=\"og:image:width\" content=\"1440\" /\u003E\n\t\u003Cmeta property=\"og:image:height\" content=\"865\" /\u003E\n\t\u003Cmeta property=\"og:image:type\" content=\"image/jpeg\" /\u003E\n\u003Cmeta name=\"twitter:card\" content=\"summary_large_image\" /\u003E\n\u003Cscript type=\"application/ld+json\" class=\"yoast-schema-graph\"\u003E{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/nova-scotia-duck-tolling-retriever/\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/nova-scotia-duck-tolling-retriever/\",\"name\":\"Nova Scotia Duck Tolling Retriever Breed: Characteristics, Care & Photos | Chewy\",\"isPartOf\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/nova-scotia-duck-tolling-retriever/#primaryimage\"},\"image\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/nova-scotia-duck-tolling-retriever/#primaryimage\"},\"thumbnailUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11165138/202106NovaScotiaDuckTollingRetriever-FeaturedImage.jpg\",\"datePublished\":\"2021-06-15T16:32:57+00:00\",\"dateModified\":\"2025-05-05T14:21:56+00:00\",\"description\":\"Nova Scotia Duck Tolling Retrievers love adventure. Learn more about this energetic breed and get expert advice on how best to care for them.\",\"breadcrumb\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/nova-scotia-duck-tolling-retriever/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://phcms.hlth.prd.aws.chewy.cloud/breed/nova-scotia-duck-tolling-retriever/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/nova-scotia-duck-tolling-retriever/#primaryimage\",\"url\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11165138/202106NovaScotiaDuckTollingRetriever-FeaturedImage.jpg\",\"contentUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11165138/202106NovaScotiaDuckTollingRetriever-FeaturedImage.jpg\",\"width\":1440,\"height\":865},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/nova-scotia-duck-tolling-retriever/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://phcms.hlth.prd.aws.chewy.cloud/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Nova Scotia Duck Tolling Retriever\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/\",\"name\":\"Chewy\",\"description\":\"\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"}]}\u003C/script\u003E\n\u003C!-- / Yoast SEO plugin. --\u003E",
+      "yoast_head_json": {
+        "title": "Nova Scotia Duck Tolling Retriever Breed: Characteristics, Care & Photos | Chewy",
+        "description": "Nova Scotia Duck Tolling Retrievers love adventure. Learn more about this energetic breed and get expert advice on how best to care for them.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://phcms.hlth.prd.aws.chewy.cloud/breed/nova-scotia-duck-tolling-retriever/",
+        "og_locale": "en_US",
+        "og_type": "article",
+        "og_title": "Nova Scotia Duck Tolling Retriever Breed: Characteristics, Care & Photos | Chewy",
+        "og_description": "Nova Scotia Duck Tolling Retrievers love adventure. Learn more about this energetic breed and get expert advice on how best to care for them.",
+        "og_url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/nova-scotia-duck-tolling-retriever/",
+        "og_site_name": "Chewy",
+        "article_modified_time": "2025-05-05T14:21:56+00:00",
+        "og_image": [
+          {
+            "width": 1440,
+            "height": 865,
+            "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11165138/202106NovaScotiaDuckTollingRetriever-FeaturedImage.jpg",
+            "type": "image/jpeg"
+          }
+        ],
+        "twitter_card": "summary_large_image",
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/nova-scotia-duck-tolling-retriever/",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/nova-scotia-duck-tolling-retriever/",
+              "name": "Nova Scotia Duck Tolling Retriever Breed: Characteristics, Care & Photos | Chewy",
+              "isPartOf": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/nova-scotia-duck-tolling-retriever/#primaryimage"
+              },
+              "image": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/nova-scotia-duck-tolling-retriever/#primaryimage"
+              },
+              "thumbnailUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11165138/202106NovaScotiaDuckTollingRetriever-FeaturedImage.jpg",
+              "datePublished": "2021-06-15T16:32:57+00:00",
+              "dateModified": "2025-05-05T14:21:56+00:00",
+              "description": "Nova Scotia Duck Tolling Retrievers love adventure. Learn more about this energetic breed and get expert advice on how best to care for them.",
+              "breadcrumb": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/nova-scotia-duck-tolling-retriever/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://phcms.hlth.prd.aws.chewy.cloud/breed/nova-scotia-duck-tolling-retriever/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/nova-scotia-duck-tolling-retriever/#primaryimage",
+              "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11165138/202106NovaScotiaDuckTollingRetriever-FeaturedImage.jpg",
+              "contentUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11165138/202106NovaScotiaDuckTollingRetriever-FeaturedImage.jpg",
+              "width": 1440,
+              "height": 865
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/nova-scotia-duck-tolling-retriever/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://phcms.hlth.prd.aws.chewy.cloud/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Nova Scotia Duck Tolling Retriever"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/",
+              "name": "Chewy",
+              "description": "",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            }
+          ]
+        }
+      },
+      "yoast_meta": {
+        "yoast_wpseo_title": "",
+        "yoast_wpseo_metadesc": "",
+        "yoast_wpseo_canonical": ""
+      },
+      "_links": {
+        "self": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed/673",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/types/breed"
+          }
+        ],
+        "acf:attachment": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/669"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/668"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/667"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/666"
+          }
+        ],
+        "wp:featuredmedia": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/672"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media?parent=673"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "pet_type",
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/pet_type?post=673"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ]

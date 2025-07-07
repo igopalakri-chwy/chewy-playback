@@ -1,0 +1,321 @@
+[
+    {
+      "id": 948,
+      "date": "2021-06-03T15:27:31",
+      "date_gmt": "2021-06-03T15:27:31",
+      "guid": {
+        "rendered": "https://haproxy.use1.lgcy.prd.aws.chewy.cloud/eks/ns/pet-health/pet-health-content-backend/breed/silky-terrier/"
+      },
+      "modified": "2025-05-05T14:22:22",
+      "modified_gmt": "2025-05-05T14:22:22",
+      "slug": "silky-terrier",
+      "status": "publish",
+      "type": "breed",
+      "link": "https://phcms.hlth.prd.aws.chewy.cloud/breed/silky-terrier/",
+      "title": {
+        "rendered": "Silky Terrier"
+      },
+      "featured_media": 947,
+      "template": "",
+      "pet_type": [],
+      "class_list": [
+        "post-948",
+        "breed",
+        "type-breed",
+        "status-publish",
+        "has-post-thumbnail",
+        "hentry"
+      ],
+      "acf": {
+        "breed_snapshot_best_for": "\u003Cp\u003ELively and spirited, Silky Terriers are best for pup parents and families who are lively but not always on the go. This affectionate, adaptable, pint-sized dog breed can thrive in homes big and small, and they do well with other dogs, too, as long as they're properly socialized.\u003C/p\u003E",
+        "alt_image_text": "Silky Terrier dog breed",
+        "breed_intro": "Silkies are smart and funny little dogs with gorgeous locks of fur—and they know it. So, if you're used to having the best hair in your crowd, get ready to take a back seat. Silkies don't always want to be center stage, though. They just want to be the center of \u003Ci\u003Eyour\u003C/i\u003E world—and that means being wherever you are: in the living room, in the bathroom or even out running errands. For a small dog, they'll fill up your home with a lot of life—and noise. \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/how-to-train-dog-not-to-bark\"\u003EThese pups like to bark\u003C/a\u003E! They'll let you know when neighbors walk by... or a cat comes around... or even when leaves blow by. And they'll let you know when you're late with dinner. But this sweet little dog is the perfect friend for paling around and guaranteed to bring out the sunshine on any cloudy day.",
+        "breed_related_products_product_card_set": null,
+        "breed_snapshot_temperament": "\u003Cp\u003ESmarty Pants, Joyful, Chatty\u003C/p\u003E",
+        "what_does_this_breed_look_like_weight": "\u003Cp\u003EMale: around 10 pounds\u003C/p\u003E\u003Cp\u003EFemale: around 10 pounds\u003C/p\u003E",
+        "what_does_this_breed_look_like_height": "\u003Cp\u003EMale: 10-11 inches\u003C/p\u003E\u003Cp\u003EFemale: 10-11 inches\u003C/p\u003E",
+        "breed_snapshot_life_expectancy": "\u003Cp\u003E13 to 15 years\u003C/p\u003E",
+        "breed_snapshot_maintenance_level": "\u003Cp\u003EMedium\u003C/p\u003E",
+        "breed_characteristics_friendliness": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_snapshot_coat_color": "\u003Cp\u003EBlue Silver and Tan, Gray and Tan, Silver and Tan, Silver Black and Tan, Blue and Tan, Black and Tan\u003C/p\u003E",
+        "breed_snapshot_shed_level": "\u003Cp\u003EVery Low\u003C/p\u003E",
+        "in_article_video": null,
+        "breed_characteristics": "These traits are rated on a scale of 1-5 with 1 being the lowest and 5 being the highest. Remember: Dogs are individuals, and not all dogs, even those of the same breed, will exhibit all the same qualities.",
+        "breed_characteristics_exercise_needs": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_health_issues": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_barking_tendencies": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_grooming_needs": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_shedding_level": "\u003Cp\u003E1\u003C/p\u003E",
+        "breed_characteristics_training_needs": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_with_kids": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_with_cats": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_good_for_apartments_small_homes": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_energy_level": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_other_dogs": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_playfulnesss": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_cold_weather": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_warm_weather": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_for_first_time_parents": "\u003Cp\u003E3\u003C/p\u003E",
+        "how_do_i_look_card_image": 946,
+        "what_does_this_breed_look_like": "Silky Terriers are often mistaken for their diminutive cousin, the \u003Ca href=\"https://www.chewy.com/education/dog-breeds/yorkshire-terrier/\"\u003EYorkshire Terrier\u003C/a\u003E. They have similar gorgeous hair, but Silky colors are a glossy tan and blue that can be silvery or dark. Their perky ears stand out from their wedge-shaped heads, constantly listening to what's going on around them (the nosy buggers). Their docked tails are held almost straight up and wag merrily. And when the dog is in motion, their whole body expresses their joyful outlook on life.",
+        "what_does_this_breed_look_like_ears": "\u003Cp\u003ESilky ears may be small, but they will capture your every word (even if your pup doesn't obey what you're saying). Their ears are V-shaped and set high on the head.\u003C/p\u003E",
+        "what_does_this_breed_look_like_eyes": "\u003Cp\u003ESilky Terrier dogs have keenly inquisitive, almond-shaped eyes that look like they have perfect black eyeliner.\u003C/p\u003E",
+        "what_does_this_breed_look_like_nose": "\u003Cp\u003ETheir head is small and wedge-shaped, giving them a more elongated face than their round-faced Yorkie cousin. Their cute, little-but-powerful nose is black. \u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_length": "\u003Cp\u003ESilkies have long hair, which as their name implies, is silky in texture. It parts from their head to the tail, and as long as it's kept mat-free, the fur flows freely without looking overly coiffed.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_color": "\u003Cp\u003ESilkies come in six standard colors, including silver, tan, black and blue. The blue can be silver blue, pigeon blue (a steel gray) or slate blue (dark gray).\u003C/p\u003E",
+        "what_does_this_breed_look_like_tail": "\u003Cp\u003EThe AKC breed standard calls for the tail to be docked, but some pup parents keep their Silkies' tails in its natural state. Docking involves cutting a portion of the dog’s tail off when they are puppies. Veterinary groups along with many US states and countries have banned this procedure due to medical and behavioral reasons. If you are interested in this procedure, schedule a consultation with your veterinarian. Whether docked or not, the tails are kept high when in motion and do not curl.\u003C/p\u003E",
+        "h2_breed_temperament": "Silky Terriers love being with their people, whether hanging out at home, running errands or going into the office with you. They can suffer from \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/how-to-treat-and-prevent-puppy-separation-anxiety\"\u003Eseparation anxiety\u003C/a\u003E, so if you're going to be gone for long, consider checking them into doggy daycare or arranging for a neighbor or pet sitter to swing by for some playtime.\n\nThis pup has a sparkly personality and loves to play and will perform all sorts of tricks for a treat. But they do have that traditional \"terrier temperament,\" which is feisty and bold. These traits endear them to their families, but without proper training and exercise, their boldness and feistiness may look a lot like stubbornness and attitude.\n\nWith proper \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/positively-trained-puppy-socialization-dos-and-donts\"\u003Esocialization\u003C/a\u003E and \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/sit-stay-and-beyond-weve-got-the-essential-guide-to-basic-dog-obedience-training\"\u003Etraining\u003C/a\u003E, these pups do well with kids and other dogs. This breed isn't known for being aggressive or biters, but they will defend themselves if they feel threatened. So, it's a good idea to supervise them around small kids and babies (a Silky may misread a toddler's quick movements, squeezy hugs and squeals and try to protect themselves). It's also important to ensure children are taught how to properly interact with dogs.\n\nIt might surprise you, but Silkies have a high-prey drive. These dogs are born hunters and were bred to hunt vermin (mostly rats and snakes). So, they'll chase cats and other small animals. But a pup who's had a full day of exercise and play is just too tired to chase the neighbor's cat out of your backyard.\n\nSilkies are known for their barking skills. If it was an Olympic sport, Silkies would take home the gold every time. This trait makes them excellent watchdogs. But know that, while you can \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/how-to-train-dog-not-to-bark\"\u003Eteach them to bark less often\u003C/a\u003E, you'll never train the bark completely out of them.\n\nSilky Terrier dogs are very intelligent, so be sure to engage their brains as well as their bodies. \u003Ca href=\"https://www.chewy.com/b/interactive-toys-319\" target=\"_blank\" rel=\"noopener\"\u003EInteractive toys\u003C/a\u003E and dog sports like \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/dog-agility-training-tips\"\u003Eagility\u003C/a\u003E are great ways to keep their active minds busy and out of trouble.",
+        "h2_how_to_care_for_a_breed": "The Silky Terrier breed is happiest when they're with you, which gives you plenty of time to bond with your pup while caring for them. To keep their coat, well, silky, you will spend a lot of time brushing and combing those tresses. But Silkies shed hardly at all, so you won't be vacuuming up large quantities of hair every week. This small dog breed has a lot of energy, but because they're tiny, it doesn't take much to wear them out. And they love pleasing their people, and they take quickly to training—you'll just have to navigate that stubborn streak common to pups like the Silky.",
+        "grooming": "Allergy sufferers, rejoice! Silky Terriers are very low-shedding pups. But the price for a dog who sheds hardly at all is made up in the amount of time you'll be spending brushing their long, flowing hair. For that reason, many pet parents keep their Silkies in a shorter, \"puppy\" cut where the hair is kept to one to two inches in length all over their compact little bodies. (Can you say \"less brushing\"?) Here are more grooming tips for your Silky:\n\u003Cul\u003E\n \t\u003Cli\u003E\u003Cstrong\u003EBrushing:\u003C/strong\u003E Regardless of what length you keep their coat, plan on \u003Ca href=\"https://www.chewy.com/education/dog/grooming/brushing-a-dog\"\u003Ebrushing them\u003C/a\u003E two to three times a week with a \u003Ca href=\"https://www.chewy.com/f/dog-pin-brushes_c356_f70v83789\" target=\"_blank\" rel=\"noopener\"\u003Epin brush\u003C/a\u003E followed by a \u003Ca href=\"https://www.chewy.com/b/brushes-combs-356\" target=\"_blank\" rel=\"noopener\"\u003Ecomb\u003C/a\u003E to make sure they're tangle-free. Give special attention to their bum area as fecal matter can get matted in long fur and cause potty time issues.\u003C/li\u003E\n \t\u003Cli\u003E\u003Cstrong\u003EDental care:\u003C/strong\u003E Poor dental health seems to plague small dog breeds like the Silky Terrier (not enough room in their mouths to fit their teeth). \u003Ca href=\"https://www.chewy.com/education/dog/grooming/health-wellness-how-to-brush-your-dogs-teeth-live-to-tell-the-tale\"\u003EBrush their teeth\u003C/a\u003E daily to help keep their teeth healthy and prevent dental disease. Schedule an annual cleaning with your vet to keep them in tip-top shape.\u003C/li\u003E\n \t\u003Cli\u003E\u003Cstrong\u003EBathing:\u003C/strong\u003E Plan on \u003Ca href=\"https://www.chewy.com/education/dog/grooming/how-to-bathe-a-dog-step-by-step-tips-from-a-professional-groomer\"\u003Egiving your pup a bath\u003C/a\u003E at least once a month. If your pup is active, you may need to up the frequency.\u003C/li\u003E\n \t\u003Cli\u003E\u003Cstrong\u003ENail trimming:\u003C/strong\u003E Bath time is a great time to \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/guide-trimming-dogs-nails\"\u003Etrim their nails\u003C/a\u003E. (The water makes them softer and easier to clip.) Because Silky nails are black and you can't see the quick (vein) inside, you may find it easier to trim them with a grinder, like the \u003Ca href=\"https://www.chewy.com/furminator-nail-grinder-dogs-cats/dp/40181\" target=\"_blank\" rel=\"noopener\"\u003EFURminator Nail Grinder\u003C/a\u003E. Not only will you be less likely to cut the quick and cause bleeding, but this one also has a guard, which prevents the hair from getting tangled around the spinning rod of the grinder. You'll know it's time for a grind when you can hear those nails tippy tapping on your hardwood floors.\u003C/li\u003E\n\u003C/ul\u003E\nSome pup parents prefer to take their pooch to the groomer for a spa day. Start taking your Silky Terrier puppy to the groomer while they're young to help them get used to all the sights, sounds and smells of the groomer's. One day soon, they'll enjoy a spa day just as much as you do.",
+        "training": "Silky Terriers are smart, independent dogs; and training is just as important for them as it is for a big dog, like an \u003Ca href=\"https://www.chewy.com/education/dog-breeds/australian-shepherd/\"\u003EAustralian Shepherd\u003C/a\u003E. Silkies are cute and will charm you with their good looks and spunky personalities, but don't let them charm you into keeping bad habits. Rude is rude no matter how adorable you are.\n\nSilkies learn quickly—they want to please you, and they'll do just about anything for a treat—so you may find your pup quickly picks up the basics like \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-sit\"\u003Esit\u003C/a\u003E, \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-stay\"\u003Estay\u003C/a\u003E, \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-come\"\u003Ecome\u003C/a\u003E and \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/leash-train-dog-2\"\u003Ehow to walk nicely on a leash\u003C/a\u003E. Don't let your training stop there! Training your pup more complicated tricks like play dead, \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/training-training-tips-how-to-teach-your-dog-to-roll-over\"\u003Eroll over\u003C/a\u003E and \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/dog-commands-shake-a-paw\"\u003Eshake\u003C/a\u003E are guaranteed crowd-pleasers and a great way to keep your dog's mind engaged.\n\nLike all people pleasers (you included), Silkies do well when you reward the good things they've done and re-direct their mistakes. These techniques, called positive reinforcement, use lots of praise, treats and playtime breaks with special toys to reward your dog for a job well done.\n\nYour Silky Terrier puppy needs to be socialized from an early age, and puppy preschool is a great place to start. These preschools are ideal for puppies to learn how to play with each other and get used to being around adults. This will go a long way to help your pup be cool with new situations, people and dogs as they grow up.\n\nSilkies are yappy. They'll bark at you when they want to play, they'll bark when they're bored, they'll bark when they're mad, and they'll bark at everyone who passes by. You will not be able to train the bark out of your dog—it's in their DNA! (They often burrowed underground to find their quarry, and their bark told their people where to find them.) But you can teach your pup to be quiet after a short barking sesh. (They've just gotta get it out, man.)",
+        "diet_nutrition": "Silky Terrier dogs need a complete and balanced diet and often do well on a high-quality commercial dog food. Look for the statement on the package that says it meets the nutritional standards of the \u003Ca href=\"https://www.aafco.org/\" target=\"_blank\" rel=\"noopener\"\u003EAssociation of American Feed Control Officials\u003C/a\u003E (AAFCO) and be sure the formula matches your dog's stage in life (puppy, adult, senior) and activity level.\r\n\r\nSilkies are small dogs, so even an extra pound will make a big difference in your pup's overall health. And don't forget to count those treats! You'll be doling them out left and right for all their tricks and just because you love them, but treats can pack on the pounds, too. Your vet can help you determine a good portion size and mealtime schedule for your dog. If you do notice your pup gaining extra weight, talk with your vet. They can help you put together a diet and exercise plan to help shed the weight and maintain your dog's nutritional needs.",
+        "exercise": "Silky Terriers may look like sweet little lapdogs, but that's only after a day of play. And even though they're small, they need a lot of daily exercise—at least an hour, maybe two.\n\nSilkies love to use their noses (they're born hunters), so walks with the opportunity to smell all the things will work both their brains and their bodies.\n\nDo you like to jog? Guess what? So does your Silky (they're surprisingly speedy)! But because they like to chase things, Silkies should never be allowed off-leash. They're focused little hunters, and they won't hear you call until they've ended the chase. Leashes also are a good way to keep your pup safe from birds of prey like falcons or owls. Silkies are small enough that one of these large birds may mistake your pet for dinner, and keeping your pup on a leash when out in open fields may help keep them safe.\n\nJust be sure to attach that leash to a harness to protect their delicate necks. (Silkies will jerk if they see something they'd love to chase.)\n\nIf you're looking for a few out-of-the-box ideas, your pet will enjoy \u003Ca href=\"https://www.chewy.com/education/dog/general/ready-to-hit-the-hiking-trail-with-your-dog-heres-everything-you-need-to-know\"\u003Ehiking\u003C/a\u003E and swimming. Are you a bit competitive? You know your Silky is! Silkies do well at dog sports like \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/dog-agility-training-tips\"\u003Eagility\u003C/a\u003E, \u003Ca href=\"https://www.akc.org/sports/earthdog/\" target=\"_blank\" rel=\"noopener\"\u003EEarthdog\u003C/a\u003E (where dogs hunt vermin, but the critters are kept safe) and \u003Ca href=\"https://www.akc.org/sports/title-recognition-program/barn-hunt/\" target=\"_blank\" rel=\"noopener\"\u003Ebarn hunt\u003C/a\u003E. (They do love the winner's circle.)",
+        "ideal_environment": "The Silky Terrier breed is great for active single people or families, although they're better suited for families with older children. Toddlers and babies don't often know their own strength and could hurt this petite pup, or the dog could misinterpret a toddler's actions and try to defend themselves. So, not only is it important to supervise play, but it's also important to socialize and train your pup and to teach children how to properly interact with dogs.\r\n\r\nBecause Silkies love their people, it's best if you can be with them for most of the day or can make arrangements for a puppy play date when you'll be gone for a while. (The separation anxiety is real, people.)\r\n\r\nThey do well in houses with yards, but their diminutive size makes them ideal for apartments. However, you'll need to make sure your pup gets their exercise needs met every day (including snowy and rainy ones), or you may become the most hated person in your building. (All. The. Barking.)",
+        "h2_breed_health": "\u003Cspan data-contrast=\"none\"\u003ESilky Terriers have a lifespan of 13-15 years and have a few health issues. It’s important pup parents know these potential health problems, so they can keep their dog healthier for longer.\u003C/span\u003E\u003Cspan data-ccp-props=\"{}\"\u003E&nbsp;\u003C/span\u003E\n\u003Cul\u003E\n \t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559684&quot;:-2,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"1\" data-aria-level=\"1\"\u003E\u003Ca href=\"https://www.petmd.com/dog/general-health/collapsing-trachea-dogs-everything-you-need-know\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003ECollapsing Trachea\u003C/span\u003E\u003C/b\u003E\u003C/a\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003E:\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E Collapsing trachea occurs when the cartilage rings for the trachea become floppy or weak and can flatten, making it hard to breathe.&nbsp;Treatments for a collapsed trachea range from pain medications to anti-inflammatories and weight loss. In severe cases, surgery may be needed. When walking a dog with collapsing trachea, using a harness instead of a neck collar is recommended so as not to put additional pressure on the neck.&nbsp;&nbsp;\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;335559685&quot;:1117}\"\u003E&nbsp;\u003C/span\u003E\u003C/li\u003E\n \t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559684&quot;:-2,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"2\" data-aria-level=\"1\"\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/eye/c_dg_cataract\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003ECataracts\u003C/span\u003E\u003C/b\u003E\u003C/a\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003E:\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E Silkies tend to be especially prone to cataracts as they age. Cataracts cause blindness and may be corrected with surgery.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;335559685&quot;:1117}\"\u003E&nbsp;\u003C/span\u003E\u003C/li\u003E\n \t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559684&quot;:-2,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"3\" data-aria-level=\"1\"\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/c_multi_patellar_luxation\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EPatella Luxation\u003C/span\u003E\u003C/b\u003E\u003C/a\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003E:\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E Luxating patella occurs when the kneecap slips out of place. This can cause bunny hopping, lameness, pain and arthritis.&nbsp; Treatment may include weight management, joint supplements or, in severe cases, surgery.&nbsp;\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;335559685&quot;:1117}\"\u003E&nbsp;\u003C/span\u003E\u003C/li\u003E\n \t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559684&quot;:-2,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"4\" data-aria-level=\"1\"\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/c_dg_legg_calve_perthes_disease\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003ELegg-Calve-Perthes\u003C/span\u003E\u003C/b\u003E\u003C/a\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003E:\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E This potentially genetic orthopedic condition involves degeneration of the femoral head (ball in the ball and socket of the hip joint) resulting in lameness and pain.&nbsp;X-rays can confirm it, and surgery is often needed to treat it.&nbsp;&nbsp;\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;335559685&quot;:1117}\"\u003E&nbsp;\u003C/span\u003E\u003C/li\u003E\n \t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559684&quot;:-2,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"5\" data-aria-level=\"1\"\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/neurological/epilepsy-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EEpilepsy\u003C/span\u003E\u003C/b\u003E\u003C/a\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003E:\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E&nbsp;Epilepsy is a seizure condition that typically starts between 6 months and 5 years of age.&nbsp;While there is no cure, most dogs can be successfully managed with daily medications.&nbsp;\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;335559685&quot;:1117}\"\u003E&nbsp;\u003C/span\u003E\u003C/li\u003E\n \t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559684&quot;:-2,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"6\" data-aria-level=\"1\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EEndocrine Disease:\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E Silky terriers may be prone to \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/endocrine/diabetes-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Ediabetes mellitus\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E and \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/cushings-disease-in-dogs\"\u003E\u003Cspan data-contrast=\"none\"\u003ECushing’s disease\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E.&nbsp;Both are endocrine diseases that can result in increased drinking and urinating, increased appetite and lethargy. If you suspect your pet may have one of these conditions, please make an appointment with your vet right away for bloodwork.&nbsp;\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;201341983&quot;:0,&quot;335551550&quot;:1,&quot;335551620&quot;:1,&quot;335559685&quot;:1117,&quot;335559737&quot;:0,&quot;335559740&quot;:259,&quot;335559991&quot;:360}\"\u003E&nbsp;\u003C/span\u003E\u003C/li\u003E\n \t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559684&quot;:-2,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"7\" data-aria-level=\"1\"\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/endocrine/c_multi_pancreatitis\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EPancreatitis\u003C/span\u003E\u003C/b\u003E\u003C/a\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003E:  \u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003EPancreatitis is the inflammation of the pancreas and is a potentially life-threatening condition that \u003C/span\u003E\u003Ca href=\"https://www.hillspet.com/dog-care/healthcare/understanding-pancreatitis-in-dogs#:~:text=Miniature%20Schnauzers%2C%20Yorkshire%20Terriers%2C%20Silky,and%20females%20may%20be%20affected.\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003ESilkies may be more prone\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E to than other dogs. Signs of pancreatitis include frequent vomiting, diarrhea, loss of appetite, dehydration and \u003C/span\u003E\u003Cspan data-contrast=\"none\"\u003Elethargy\u003C/span\u003E\u003Cspan data-contrast=\"none\"\u003E. Depending on the severity, your vet may treat it immediately with hospitalization on IV-fluid therapy, then manage it long-term with a low-fat diet. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;335559685&quot;:1117}\"\u003E&nbsp;\u003C/span\u003E\u003C/li\u003E\n\u003C/ul\u003E",
+        "h2_breed_history": "No one likes to be mistaken for their family member, so let's get it straight from the beginning: Silky Terriers are not the same as \u003Ca href=\"https://www.chewy.com/education/dog-breeds/yorkshire-terrier/\"\u003EYorkshire Terriers\u003C/a\u003E. How can you tell them apart? For one, Silky Terriers (aka the Australian Silky Terrier) are bigger than Yorkies. Silkies also come in a range of blues (silvery, steel gray and dark gray), while Yorkies are only dark gray and tan. Thirdly, they come from opposite sides of the world: Yorkies hail from Great Britain, while Silky Terriers originated in Australia.\r\n\r\nSilkies were created in the late 19th century when the native Australian Terrier was crossed with a Yorkshire Terrier. (There may be other terrier breeds lurking in their ancestry, but those can be debated.) The Sydney Silky Terrier was primarily developed to become companion pups, but these dogs proved to be great at controlling vermin on farms. (Great looks \u003Cem\u003Eand \u003C/em\u003Erough-and-tumble!)\r\n\r\nIn 1954, \"This Week\" magazine featured a Silky on the cover, and America was won over. In 1955, the Sydney Silky Terrier Club of America was formed. That same year, their name changed in Australia to the Australian Silky Terrier, and the dog became the Silky Terrier in the United States. The American Kennel Club recognized the Silky Terrier in 1959.\r\n\r\nAre you looking to add a Silky Terrier to your family? You can find reputable breeders on the \u003Ca href=\"https://www.akc.org/dog-breeds/silky-terrier/\" target=\"_blank\" rel=\"noopener\"\u003EAKC's website\u003C/a\u003E. The cost for a puppy is between $1,000-$2,000. But for that price, you're likely getting a pup who's been screened for health and temperament issues and may come with pedigree papers. If you'd like to adopt a pup, contact Silky Terrier rescues or keep an eye out for the breed at your local animal shelter. You can also search \u003Ca href=\"https://www.chewy.com/g/dog-silky-terrier_ga1\" target=\"_blank\" rel=\"noopener\"\u003EChewy’s database of adoptable dogs\u003C/a\u003E in your area.",
+        "expert_attribution": "\u003Ci\u003EExpert input provided by Dr. Kyle Fugett, DVM, owner of \u003Ca href=\"https://www.amcrogers.com/our-doctors/\" target=\"_blank\" rel=\"noopener\"\u003EAnimal Medical Center\u003C/a\u003E in Rogers, Arkansas\u003C/i\u003E\u003Ci\u003E; Melinda Robles, CDPT-KA, owner of \u003Ca href=\"https://www.elitepettraining.com/\" target=\"_blank\" rel=\"noopener\"\u003EElite Pet University\u003C/a\u003E in Fayetteville, Arkansas; and Hannah Manaserah, owner of \u003Ca href=\"https://ldcgrooming.wixsite.com/luckydogs\" target=\"_blank\" rel=\"noopener\"\u003ELucky Dog Canine Grooming\u003C/a\u003E in Fayetteville, Arkansas.\u003C/i\u003E\r\n\r\n\u003Cem\u003EBreed characteristic ratings provided by veterinarian Dr. Sarah J. Wooten, DVM, CVJ, a veterinarian at \u003Ca href=\"https://sheepdraw.com/\" target=\"_blank\" rel=\"noopener\"\u003ESheep Draw Veterinary Hospital\u003C/a\u003E in Greeley, Colorado; dog trainer and behavior consultant Irith Bloom, CPDT-KSA, CBCC-KA, CDBC, owner of \u003Ca href=\"https://thesophisticateddog.com/\" target=\"_blank\" rel=\"noopener\"\u003EThe Sophisticated Dog, LLC\u003C/a\u003E, in Los Angeles; and certified animal behavior consultant \u003Ca href=\"https://shojai.com/\" target=\"_blank\" rel=\"noopener\"\u003EAmy Shojai\u003C/a\u003E, CABC, in Sherman, Texas. \u003C/em\u003E\r\n\r\n\u003Cem\u003EThe health content was medically reviewed by Chewy vets.\u003C/em\u003E",
+        "facebook_social_snippet_with_cta": "\u003Cp\u003EAre you looking for a jogging buddy, but prefer a pint-sized pooch? You really \u003Cem\u003Ecan\u003C/em\u003E have it all! Meet the Silky Terrier, a highly active dog who's up for jogging and spa days. Check out our guide to see if this tiny dynamo is the right type of dog for you.\u003C/p\u003E",
+        "species": "\u003Cp\u003EDog\u003C/p\u003E",
+        "h2_faqs": "\u003Ch3\u003EDo Silky Terriers shed?\u003C/h3\u003E\nSilky Terriers hardly shed at all. But that doesn't mean you can skip on their grooming! Regular brushing and monthly baths go a long way to keeping their hair in tip-top shape.\n\u003Ch3\u003EHow long do Silky Terriers live?\u003C/h3\u003E\nSilky Terriers live about 13-15 years, which gives you a very long time to love on this adorable pup.\u003Cb\u003E \u003C/b\u003E\n\u003Ch3\u003EHow big do Silky Terriers get?\u003C/h3\u003E\nSilky Terriers do not get very big... unless you're comparing them to their Yorkie cousins. Then they're big. Silkies usually weigh around 10 pounds, while Yorkies top out at 7 pounds.\n\u003Ch3\u003EDo Silky Terriers bark a lot?\u003C/h3\u003E\nYes, Silky Terriers bark a lot. They'll bark at everything that moves, and a few things they're sure are \u003Cem\u003Eabout \u003C/em\u003Eto move. You will never train your Silky into silence, but a \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/how-to-train-dog-not-to-bark\"\u003Ewell-trained pup\u003C/a\u003E can be taught to hush.\n\u003Ch3\u003EWhat are the most common Silky Terrier mixes?\u003C/h3\u003E\n\u003Cul\u003E\n \t\u003Cli\u003ESilky Terrier-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/yorkshire-terrier/\"\u003EYorkie\u003C/a\u003E mix (Silky Terrier Yorkie)\u003C/li\u003E\n \t\u003Cli\u003ESilky Terrier-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/maltese/\"\u003EMaltese\u003C/a\u003E mix (Silkese)\u003C/li\u003E\n \t\u003Cli\u003ESilky Terrier-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/chihuahua/\"\u003EChihuahua\u003C/a\u003E mix (Silky Chi)\u003C/li\u003E\n \t\u003Cli\u003ESilky Terrier-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/poodle/\"\u003EPoodle\u003C/a\u003E mix (Pookly)\u003C/li\u003E\n \t\u003Cli\u003ESilky Terrier-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/shih-tzu/\"\u003EShih Tzu\u003C/a\u003E mix (Silky Tzu)\u003C/li\u003E\n\u003C/ul\u003E\nNote: These are not purebred dogs but mixed breeds.",
+        "faq_items": [
+          {
+            "faq_title": "Do Silky Terriers shed?",
+            "faq_content": "Silky Terriers hardly shed at all. But that doesn't mean you can skip on their grooming! Regular brushing and monthly baths go a long way to keeping their hair in tip-top shape."
+          },
+          {
+            "faq_title": "How long do Silky Terriers live?",
+            "faq_content": "Silky Terriers live about 13-15 years, which gives you a very long time to love on this adorable pup.\u003Cb\u003E \u003C/b\u003E"
+          },
+          {
+            "faq_title": "How big do Silky Terriers get?",
+            "faq_content": "Silky Terriers do not get very big... unless you're comparing them to their Yorkie cousins. Then they're big. Silkies usually weigh around 10 pounds, while Yorkies top out at 7 pounds."
+          },
+          {
+            "faq_title": "Do Silky Terriers bark a lot?",
+            "faq_content": "Yes, Silky Terriers bark a lot. They'll bark at everything that moves, and a few things they're sure are \u003Cem\u003Eabout \u003C/em\u003Eto move. You will never train your Silky into silence, but a \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/how-to-train-dog-not-to-bark\"\u003Ewell-trained pup\u003C/a\u003E can be taught to hush."
+          },
+          {
+            "faq_title": "What are the most common Silky Terrier mixes?",
+            "faq_content": "\u003Cul\u003E\r\n \t\u003Cli\u003ESilky Terrier-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/yorkshire-terrier/\"\u003EYorkie\u003C/a\u003E mix (Silky Terrier Yorkie)\u003C/li\u003E\r\n \t\u003Cli\u003ESilky Terrier-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/maltese/\"\u003EMaltese\u003C/a\u003E mix (Silkese)\u003C/li\u003E\r\n \t\u003Cli\u003ESilky Terrier-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/chihuahua/\"\u003EChihuahua\u003C/a\u003E mix (Silky Chi)\u003C/li\u003E\r\n \t\u003Cli\u003ESilky Terrier-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/poodle/\"\u003EPoodle\u003C/a\u003E mix (Pookly)\u003C/li\u003E\r\n \t\u003Cli\u003ESilky Terrier-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/shih-tzu/\"\u003EShih Tzu\u003C/a\u003E mix (Silky Tzu)\u003C/li\u003E\r\n\u003C/ul\u003E\r\nNote: These are not purebred dogs but mixed breeds."
+          }
+        ],
+        "select_related_breeds": [
+          {
+            "selected_related_breed": 151,
+            "characteristic": "breed_characteristics_physical_appearance"
+          },
+          {
+            "selected_related_breed": 611,
+            "characteristic": "breed_characteristics_shedding_level"
+          },
+          {
+            "selected_related_breed": 1242,
+            "characteristic": "breed_characteristics_good_for_apartments_small_homes"
+          },
+          {
+            "selected_related_breed": 979,
+            "characteristic": "breed_characteristics_good_with_cats"
+          },
+          {
+            "selected_related_breed": 1418,
+            "characteristic": "breed_characteristics_energy_level"
+          },
+          {
+            "selected_related_breed": 106,
+            "characteristic": "breed_characteristics_biting_tendencies"
+          }
+        ],
+        "enable_featured_gallery": [
+          "enable_featured_gallery"
+        ],
+        "featured_gallery_images": [940, 941, 942, 943, 944]
+      },
+      "yoast_head": "\u003C!-- This site is optimized with the Yoast SEO plugin v23.8 - https://yoast.com/wordpress/plugins/seo/ --\u003E\n\u003Ctitle\u003ESilky Terrier Breed: Characteristics, Care &amp; Photos | Chewy\u003C/title\u003E\n\u003Cmeta name=\"description\" content=\"Silky Terriers are tiny dynamos who love hanging with you. Get all the information about this breed in our complete Silky Terrier guide.\" /\u003E\n\u003Cmeta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" /\u003E\n\u003Clink rel=\"canonical\" href=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/silky-terrier/\" /\u003E\n\u003Cmeta property=\"og:locale\" content=\"en_US\" /\u003E\n\u003Cmeta property=\"og:type\" content=\"article\" /\u003E\n\u003Cmeta property=\"og:title\" content=\"Silky Terrier Breed: Characteristics, Care &amp; Photos | Chewy\" /\u003E\n\u003Cmeta property=\"og:description\" content=\"Silky Terriers are tiny dynamos who love hanging with you. Get all the information about this breed in our complete Silky Terrier guide.\" /\u003E\n\u003Cmeta property=\"og:url\" content=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/silky-terrier/\" /\u003E\n\u003Cmeta property=\"og:site_name\" content=\"Chewy\" /\u003E\n\u003Cmeta property=\"article:modified_time\" content=\"2025-05-05T14:22:22+00:00\" /\u003E\n\u003Cmeta property=\"og:image\" content=\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11170718/202106Silky-Terrier-FeaturedImage.jpg\" /\u003E\n\t\u003Cmeta property=\"og:image:width\" content=\"1440\" /\u003E\n\t\u003Cmeta property=\"og:image:height\" content=\"865\" /\u003E\n\t\u003Cmeta property=\"og:image:type\" content=\"image/jpeg\" /\u003E\n\u003Cmeta name=\"twitter:card\" content=\"summary_large_image\" /\u003E\n\u003Cscript type=\"application/ld+json\" class=\"yoast-schema-graph\"\u003E{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/silky-terrier/\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/silky-terrier/\",\"name\":\"Silky Terrier Breed: Characteristics, Care & Photos | Chewy\",\"isPartOf\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/silky-terrier/#primaryimage\"},\"image\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/silky-terrier/#primaryimage\"},\"thumbnailUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11170718/202106Silky-Terrier-FeaturedImage.jpg\",\"datePublished\":\"2021-06-03T15:27:31+00:00\",\"dateModified\":\"2025-05-05T14:22:22+00:00\",\"description\":\"Silky Terriers are tiny dynamos who love hanging with you. Get all the information about this breed in our complete Silky Terrier guide.\",\"breadcrumb\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/silky-terrier/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://phcms.hlth.prd.aws.chewy.cloud/breed/silky-terrier/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/silky-terrier/#primaryimage\",\"url\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11170718/202106Silky-Terrier-FeaturedImage.jpg\",\"contentUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11170718/202106Silky-Terrier-FeaturedImage.jpg\",\"width\":1440,\"height\":865},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/silky-terrier/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://phcms.hlth.prd.aws.chewy.cloud/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Silky Terrier\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/\",\"name\":\"Chewy\",\"description\":\"\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"}]}\u003C/script\u003E\n\u003C!-- / Yoast SEO plugin. --\u003E",
+      "yoast_head_json": {
+        "title": "Silky Terrier Breed: Characteristics, Care & Photos | Chewy",
+        "description": "Silky Terriers are tiny dynamos who love hanging with you. Get all the information about this breed in our complete Silky Terrier guide.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://phcms.hlth.prd.aws.chewy.cloud/breed/silky-terrier/",
+        "og_locale": "en_US",
+        "og_type": "article",
+        "og_title": "Silky Terrier Breed: Characteristics, Care & Photos | Chewy",
+        "og_description": "Silky Terriers are tiny dynamos who love hanging with you. Get all the information about this breed in our complete Silky Terrier guide.",
+        "og_url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/silky-terrier/",
+        "og_site_name": "Chewy",
+        "article_modified_time": "2025-05-05T14:22:22+00:00",
+        "og_image": [
+          {
+            "width": 1440,
+            "height": 865,
+            "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11170718/202106Silky-Terrier-FeaturedImage.jpg",
+            "type": "image/jpeg"
+          }
+        ],
+        "twitter_card": "summary_large_image",
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/silky-terrier/",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/silky-terrier/",
+              "name": "Silky Terrier Breed: Characteristics, Care & Photos | Chewy",
+              "isPartOf": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/silky-terrier/#primaryimage"
+              },
+              "image": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/silky-terrier/#primaryimage"
+              },
+              "thumbnailUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11170718/202106Silky-Terrier-FeaturedImage.jpg",
+              "datePublished": "2021-06-03T15:27:31+00:00",
+              "dateModified": "2025-05-05T14:22:22+00:00",
+              "description": "Silky Terriers are tiny dynamos who love hanging with you. Get all the information about this breed in our complete Silky Terrier guide.",
+              "breadcrumb": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/silky-terrier/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://phcms.hlth.prd.aws.chewy.cloud/breed/silky-terrier/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/silky-terrier/#primaryimage",
+              "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11170718/202106Silky-Terrier-FeaturedImage.jpg",
+              "contentUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11170718/202106Silky-Terrier-FeaturedImage.jpg",
+              "width": 1440,
+              "height": 865
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/silky-terrier/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://phcms.hlth.prd.aws.chewy.cloud/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Silky Terrier"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/",
+              "name": "Chewy",
+              "description": "",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            }
+          ]
+        }
+      },
+      "yoast_meta": {
+        "yoast_wpseo_title": "",
+        "yoast_wpseo_metadesc": "",
+        "yoast_wpseo_canonical": ""
+      },
+      "_links": {
+        "self": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed/948",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/types/breed"
+          }
+        ],
+        "acf:attachment": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/944"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/943"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/942"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/941"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/940"
+          }
+        ],
+        "wp:featuredmedia": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/947"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media?parent=948"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "pet_type",
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/pet_type?post=948"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ]

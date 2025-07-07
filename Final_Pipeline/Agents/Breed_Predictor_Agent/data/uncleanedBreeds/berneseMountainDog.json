@@ -1,0 +1,329 @@
+[
+    {
+      "id": 1217,
+      "date": "2025-03-07T08:47:19",
+      "date_gmt": "2025-03-07T08:47:19",
+      "guid": {
+        "rendered": "https://haproxy.use1.lgcy.prd.aws.chewy.cloud/eks/ns/pet-health/pet-health-content-backend/breed/bernese-mountain-dog/"
+      },
+      "modified": "2025-06-04T16:56:42",
+      "modified_gmt": "2025-06-04T16:56:42",
+      "slug": "bernese-mountain-dog",
+      "status": "publish",
+      "type": "breed",
+      "link": "https://phcms.hlth.prd.aws.chewy.cloud/breed/bernese-mountain-dog/",
+      "title": {
+        "rendered": "Bernese Mountain Dog"
+      },
+      "featured_media": 2893,
+      "template": "",
+      "pet_type": [],
+      "class_list": [
+        "post-1217",
+        "breed",
+        "type-breed",
+        "status-publish",
+        "has-post-thumbnail",
+        "hentry"
+      ],
+      "acf": {
+        "breed_snapshot_best_for": "\u003Cp\u003EBernese Mountain Dogs are gentle giants with an unwavering loyalty to their person, making them the perfect family pet. They thrive in calm homes with pet parents who can offer outdoor adventures and lots of love.\u003C/p\u003E",
+        "alt_image_text": "\u003Cp\u003EBernese Mountain Dogs are beautiful, noble dogs who are very affectionate with their pet parents. \u003C/p\u003E",
+        "breed_intro": "\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EIf you’re the kind of family who can’t wait to pack up for a \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/pet-parenting/attention-happy-campers-heres-everything-you-need-to-know-about-camping-with-dogs-and-other-pets\"\u003E\u003Cspan data-contrast=\"none\"\u003Eweekend camping trip\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, you’re going to love the Bernese Mountain Dog. These pups live for the weekends, when the great outdoors calls their name and they sprint outside. It’s not that they have unlimited energy or even a lot of energy by canine standards—they just don’t like to be bored. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EThese easygoing pups radiate friendliness, from their big smile to their animated eyes to their fluffy, always-wagging tail. Bernese Mountain Dogs just want to make you happy.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E",
+        "breed_related_products_product_card_set": "",
+        "breed_snapshot_temperament": "\u003Cp\u003EAffectionate, Fun-Loving, Loyal\u003C/p\u003E",
+        "what_does_this_breed_look_like_weight": "\u003Cp\u003E70–115 lbs\u003C/p\u003E",
+        "what_does_this_breed_look_like_height": "\u003Cp\u003E23–27.5 inches\u003C/p\u003E",
+        "breed_snapshot_life_expectancy": "\u003Cp\u003E7–10 years\u003C/p\u003E",
+        "breed_snapshot_maintenance_level": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_friendliness": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_snapshot_coat_color": "\u003Cp\u003EBlack Rust and White, Black Tan and White\u003C/p\u003E",
+        "breed_snapshot_shed_level": "\u003Cp\u003EHigh\u003C/p\u003E",
+        "in_article_video": null,
+        "breed_characteristics": "\u003Cp\u003EThese traits are rated on a scale of 1-5 with 1 being the lowest and 5 being the highest. Remember: Dogs are individuals, and not all dogs, even those of the same breed, will exhibit all the same qualities.\u003C/p\u003E",
+        "breed_characteristics_exercise_needs": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_health_issues": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_barking_tendencies": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_grooming_needs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_shedding_level": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_training_needs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_kids": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_with_cats": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_for_apartments_small_homes": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_energy_level": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_with_other_dogs": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_playfulnesss": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_cold_weather": "\u003Cp\u003E1\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_warm_weather": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_for_first_time_parents": "\u003Cp\u003E3\u003C/p\u003E",
+        "how_do_i_look_card_image": 3230,
+        "what_does_this_breed_look_like": "\u003Cp\u003E\u003Cspan data-contrast=\"auto\"\u003EBernese Mountain Dogs—aka Berners—have playful brown eyes and a deservedly proud gait that gives them a noble air. Don’t let that fool you, though; they’re big softies at heart. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"auto\"\u003ETheir thick, distinctly marked tri-color coat is mostly black, with white markings and rust-colored highlights. Their bushy tail is ready to wag whenever they see you. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E",
+        "what_does_this_breed_look_like_ears": "\u003Cp\u003ETheir gently rounded, triangular ears hang close to the head when relaxed. When something catches the Bernese Mountain Dog’s attention, they bring their ears forward attentively.\u003C/p\u003E",
+        "what_does_this_breed_look_like_eyes": "\u003Cp\u003EThey have intelligent, oval-shaped eyes that are typically brown. In rare cases, their eyes might be blue.\u003C/p\u003E",
+        "what_does_this_breed_look_like_nose": "\u003Cp\u003ETheir nose is black and their snout is straight.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_length": "\u003Cp\u003EThe Bernese Mountain Dog's medium-length, thick double coat can be wavy or straight. It typically has a healthy shine.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_color": "\u003Cp\u003EBerners have a distinctive tricolored coat that’s black, white, and rust. They have white on their chest, muzzle, and the tip of their tail. They sometimes have white on their feet, too.\u003C/p\u003E",
+        "what_does_this_breed_look_like_tail": "\u003Cp\u003EBernese Mountain Dogs have a bushy tail that they sometimes carry higher when alert. Their tails are low when they’re relaxed.\u003C/p\u003E",
+        "h2_breed_temperament": "\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EBerners are great pets, partly due to their adoring temperament—yes, they’re pretty much obsessed with you, and they’d like the sentiment returned. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EThese are not dogs who want to be left to do their own thing in the yard when you let them out, so grab a ball and \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/how-to-teach-dog-to-fetch\"\u003E\u003Cspan data-contrast=\"none\"\u003Eplay a game of fetch\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E if they’re into it. Berners love to explore, so take them with you on adventures outside the neighborhood, too. After a \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/general/ready-to-hit-the-hiking-trail-with-your-dog-heres-everything-you-need-to-know\"\u003E\u003Cspan data-contrast=\"none\"\u003Ehike\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E or \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/pet-parenting/dog-park-etiquette\"\u003E\u003Cspan data-contrast=\"none\"\u003Etrip to the dog park\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, they love nothing more than cuddling up with you.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EThese dogs are smart and eager to please, and they thrive with structured games or sports. Although they’re not a high-energy dog like the \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog-breeds/border-collie\"\u003E\u003Cspan data-contrast=\"none\"\u003EBorder Collie\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, Bernese Mountain Dogs still need \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/how-much-exercise-does-my-dog-need\"\u003E\u003Cspan data-contrast=\"none\"\u003Econsistent daily exercise\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E. They typically love \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/dog-agility-training-tips\"\u003E\u003Cspan data-contrast=\"none\"\u003Eagility courses\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E and \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/behavior/importance-scent-walks-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Escent walks\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EAlthough the Bernese Mountain Dog’s size makes them big and strong, they’re also gentle and kind. These patient \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/general/best-family-dogs\"\u003E\u003Cspan data-contrast=\"none\"\u003Edogs are good with children\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, provided that both children and pups are taught how to behave around each other. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003ELike many dogs, Berners might be shy around strangers or in new situations, so give them time to adjust. It’s helpful to \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/positively-trained-puppy-socialization-dos-and-donts\"\u003E\u003Cspan data-contrast=\"none\"\u003Esocialize them as puppies\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, or as early as you can if you adopt a Bernese Mountain Dog. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E",
+        "h2_how_to_care_for_a_breed": "\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EBerners are known for their patience, but they still need socialization. They also need lots of brushing, especially when the seasons change in the spring and fall. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EThese pups thrive with mental and physical exercises, so get them involved in dog sports and other fun activities. But Bernese Mountain Dogs’ thick coats can make hot weather tough; make sure they don’t overexert themselves and that they have access to AC and cold water during the summer.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E",
+        "grooming": "\u003Cul\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EBathing: \u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003EBernese Mountain Dogs \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/grooming/how-to-bathe-a-dog-step-by-step-tips-from-a-professional-groomer\"\u003E\u003Cspan data-contrast=\"none\"\u003Eneed a bath\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E every couple of months, as long as they don’t take a spill in the mud. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EBrushing: \u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003EThe Bernese Mountain Dog has a \u003C/span\u003E\u003Cspan data-contrast=\"auto\"\u003Ethick, double coat that sheds a lot\u003C/span\u003E\u003Cspan data-contrast=\"none\"\u003E. \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/f/dog-pin-brushes_c356_f70v83789\"\u003E\u003Cspan data-contrast=\"none\"\u003EBrush your pup\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E three to four times a week to keep tangles and shedding manageable.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\r\n\u003Cul\u003E\r\n\t\u003Cli\u003E\u003Cspan data-contrast=\"none\"\u003ELike many double-coated dog breeds, Berners undergo “coat blowing” in the spring and fall. They shed their undercoat as the weather turns warmer, then they shed their lighter coat when the temps start to cool. Brush your Berner multiple times a day during these seasons. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\u003C/ul\u003E\r\n\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EDental care:\u003C/span\u003E\u003C/b\u003E \u003Ca href=\"https://www.chewy.com/education/dog/grooming/health-wellness-how-to-brush-your-dogs-teeth-live-to-tell-the-tale\"\u003E\u003Cspan data-contrast=\"none\"\u003EBrush your dog’s teeth\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E daily. A vet can point you to the \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/vet-verified/best-dog-toothbrushes-and-dental-tools\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Ebest tooth-brushing supplies\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E and techniques\u003C/span\u003E\u003Cspan data-contrast=\"none\"\u003E. Get your \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/care/how-much-does-dog-teeth-cleaning-cost\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Edog’s teeth professionally cleaned\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E once a year.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003ENail care:\u003C/span\u003E\u003C/b\u003E \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/guide-trimming-dogs-nails\"\u003E\u003Cspan data-contrast=\"none\"\u003ETrim your dog’s nails\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E every two weeks or anytime they start to touch the floor when the dog is standing (too-long nails may be painful). You’ll hear when it’s time—they’ll make clacking noises on hard surfaces.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\u003C/ul\u003E",
+        "training": "\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003ESocialize your Bernese Mountain Dog puppy early (or as early as possible if you adopt them as an adult). An adult Berner can be 100 pounds or more, so it’s important for them to learn good manners. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EThe Bernese Mountain Dog is very smart and also eager to please. When you train them, \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/behavior/how-to-train-a-dog-with-positive-reinforcement\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Euse positive reinforcement\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E—that is, \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/b/treats-335\"\u003E\u003Cspan data-contrast=\"none\"\u003Etreats\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/b/toys-315\"\u003E\u003Cspan data-contrast=\"none\"\u003Etoys\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, and praise; as with all dogs, negative reinforcement can have poor consequences and do a lot more harm than good. Your Berner will probably love \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/clicker-training-for-dogs\"\u003E\u003Cspan data-contrast=\"none\"\u003Eclicker training\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E. They’re bright enough to learn almost anything you want to teach them.  \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EIf you’d like some help, a \u003C/span\u003E\u003Cspan data-contrast=\"auto\"\u003Ecertified dog trainer who uses positive reinforcement\u003C/span\u003E\u003Cspan data-contrast=\"none\"\u003E can work with you and your Bernese Mountain Dog puppy.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E",
+        "diet_nutrition": "\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EThere’s no one-size-fits-all nutrition plan for your Bernese Mountain Dog, but every pup needs a complete and balanced diet that \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/nutrition/What-Is-AAFCO-and-What-Does-It-Do\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Emeets AAFCO standards\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E. Also choose a formula that’s made for your dog’s life stage (\u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/vet-verified/best-puppy-food\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Epuppy\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/vet-verified/best-dog-food\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Eadult\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, or \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/vet-verified/best-senior-dog-food\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Esenior\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E). Bernese Mountain Dog puppies need a \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/nutrition/best-puppy-food-large-breeds\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Epuppy food designed for large breeds\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E to support their super-fast growth spurts.  \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EYour vet is your best resource when \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/nutrition/how-to-choose-the-best-dog-food\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Echoosing food for your dog\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E. They can give you portion guidance, too, so you don’t overfeed your Berner. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EDon’t forget to calculate treats into your pup’s daily meal plan—too many goodies can make your dog pack on harmful extra weight. Treats should never make up more than 10% of your Bernese Mountain Dog’s daily calories. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E",
+        "exercise": "\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EThe Bernese Mountain Dog craves activities that satisfy them mentally and physically. Take them for at least one 30- to 60-minute walk every day, and give them time to sniff and explore the world around them while out and about.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EBerners have moderate energy levels, so don’t keep them cooped up all day. When they get outside, they prefer to do their “workouts” with you, their exercise buddy. But if you’re a marathon runner, your own wellness routine should include time exercising with your fluffy workout partner.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EBerners love dog sports, structured games, playing fetch, and other challenging activities. Consider getting your Berner involved in scent work or agility trials.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E",
+        "ideal_environment": "\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EBernese Mountain Dogs are \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/general/behavior-breeds-8-dog-breeds-that-love-the-snow\"\u003E\u003Cspan data-contrast=\"none\"\u003Ebest-suited for cold climates\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E and adore playing in the snow. They can, however, adapt to warmer environments if they have access to air-conditioning. In hotter months, schedule outdoor time in the early morning or in the evening when it’s cooler, and pay attention to \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/how-to-cool-down-a-dog-overheating\"\u003E\u003Cspan data-contrast=\"none\"\u003Esigns of overheating\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EBerners love playing with you in the yard, but they don’t need tons of outdoor space in their own home to be happy. They can live in an apartment, but you’ll need to take your Berner for a little adventure (like a neighborhood jaunt) every day.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EThey make good family pets and do well with other pets and kids. However, dogs younger than 4 years old may need supervision around kids or cats; it takes them time to realize their own strength and they might accidentally knock someone down during playtime. But overall, a well-socialized Bernese Mountain Dog is sweet and thrives in busy homes where they’ll find plenty of outlets for their energy and inquisitive mind.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EWhat Berners crave the most, though, is love, attention, and playtime. Make sure that you show up for them every single day, and they’ll be happy.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E",
+        "h2_breed_health": "\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EThe typical Bernese Mountain Dog lifespan is 7–10 years. However, there are some health issues pet parents should be aware of. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cul\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EBloat and gastric dilatation-volvulus (GDV):\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E Bernese Mountain Dogs, like many large breeds, are prone to a \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/bloat-in-dogs\"\u003E\u003Cspan data-contrast=\"none\"\u003Elife-threatening condition called bloat\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E. It occurs when the stomach fills with air or food. A serious complication of bloat is when the stomach twists on itself, cutting off blood supply to the organs. This is \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/digestive/gastric-dilatation-volvulus-gdv-syndrome\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Ecalled GDV\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, and symptoms include abdominal distension, restlessness, and dry heaving. \u003C/span\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EIf you notice these signs, go to the vet immediately.\u003C/span\u003E\u003C/b\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\r\n\u003Cul\u003E\r\n\t\u003Cli\u003E\u003Cspan data-contrast=\"none\"\u003EYou can take steps to prevent bloat and GDV: Feed your dog multiple smaller meals throughout the day, use \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/b/slow-feeders-1424\"\u003E\u003Cspan data-contrast=\"none\"\u003Eslow-feeder bowls\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, and talk to your vet about a \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/procedure/gastropexy-in-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Epreventative gastropexy procedure\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\u003C/ul\u003E\r\n\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003ECancer:\u003C/span\u003E\u003C/b\u003E \u003Ca href=\"https://www.petmd.com/dog/conditions/cancer/histiocytic-sarcoma-dogs-symptoms-causes-and-treatment\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003EHistiocytic sarcoma\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E is an aggressive cancer that’s thought to be genetic, as higher rates are seen in Bernese Mountain Dogs. Symptoms include \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/symptoms/lethargy-in-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Elethargy\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/food-and-nutrition/nutrition-pet-diet-tips-why-wont-my-dog-eat-his-food\"\u003E\u003Cspan data-contrast=\"none\"\u003Eloss of appetite\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, and \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/symptoms/why-your-dog-is-losing-weight\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Eweight loss\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E. Unfortunately, the prognosis is usually poor.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"auto\"\u003EDegenerative myelopathy (DM)\u003C/span\u003E\u003C/b\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003E:\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E This is a \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/degenerative-myelopathy-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Eneurological disease that affects the spinal cord\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E; it slowly weakens, then paralyzes the back legs, and it causes problems with breathing, vocalizing, and eating. There is no treatment to reverse DM, but \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/blogs/fullyvetted/2013/jan/physical_therapy_for_pets-29676\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Ephysical therapy\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E may help. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EEar infections:\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E Bernese Mountain Dogs are predisposed to \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/dog-ear-infection\"\u003E\u003Cspan data-contrast=\"none\"\u003Eear infections\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E. Symptoms include head shaking, redness, or swelling in the ear canal, as well as itchiness or odor. Prevent ear infections by keeping ears clean and dry, especially after a bath or swim. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EElbow and hip dysplasia:\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E Like many large breeds, Berners can develop \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/c_dg_elbow_dysplasia\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Eelbow dysplasia\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E and \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/c_dg_hip_dysplasia\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Ehip dysplasia\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, where the joint doesn’t work properly. Treatment might involve weight loss, reduced activity, \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/vet-verified/best-joint-supplements-for-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Ejoint supplements\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, physical therapy, \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/general-health/pain-meds-for-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Epain meds\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, or (in severe cases) surgery.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EEye issues\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E: Bernese Mountain Dogs can develop \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/eye/c_dg_cataract\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Ecataracts\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/condition/progressive-retinal-atrophy-in-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Eprogressive retinal atrophy\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E,\u003C/span\u003E\u003Cspan data-contrast=\"none\"\u003E and \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/eyes/entropion-dogs-causes-symptoms-and-treatment\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Eentropion\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E. Give your vet a call if you notice changes in your dog’s eyes. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EVon Willebrand’s disease\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E: Bernese Mountain Dogs are susceptible to \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/cardiovascular/c_dg_von_willebrand_disease\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Evon Willebrand’s disease\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, a disorder where the blood doesn’t clot properly. Your veterinarian can test your dog for this. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\u003C/ul\u003E",
+        "h2_breed_history": "\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EBernese Mountain Dogs originated in Switzerland, where they herded cows, pulled carts, and worked as guardian dogs on farms, according to the \u003C/span\u003E\u003Ca href=\"https://www.bmdca.org/history\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003EBernese Mountain Dog Club of American\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E. They were bred to have a thick, insulated coat that could keep them warm even in the freezing Swiss Alps.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EThanks to the Industrial Revolution, these pups retired from farm life. When their numbers diminished in the 1800s, Swiss breeders decided to repopulate them with the help of \u003C/span\u003E\u003Ca href=\"https://riahorter.com/index_htm_files/CC-Bermese%20Mountain%20Dog.pdf\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003EProfessor Albert Heim, a distinguished Swiss geologist\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EA Kansas farmer brought the first two Berners to the U.S. in 1926, which skyrocketed their popularity. The first Bernese Mountain Dog was registered with the American Kennel Club (AKC) in 1937. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EThese dogs are closely related to the \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog-breeds/greater-swiss-mountain-dog\"\u003E\u003Cspan data-contrast=\"none\"\u003EGreater Swiss Mountain Dog\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E. There are actually four varieties of Swiss mountain dogs, but only Berners have a silky, longer coat.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EA Bernese Mountain Dog puppy can cost anywhere from $800 to $2,000. If you choose this route, \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/how-to-find-ethical-reputable-responsible-breeder\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Epick a responsible breeder\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EYou can also adopt a Bernese Mountain Dog, as many of these pups are waiting for forever homes. Reach out to a Bernese Mountain Dog rescue, such as the \u003C/span\u003E\u003Ca href=\"https://www.nationalbmdrescuenetwork.org/\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003ENational Bernese Mountain Dog Rescue Network\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, keep an eye out for the breed at your local animal shelter or on their social media, or search \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/g/dog-bernese-mountain-dog_ga1\"\u003E\u003Cspan data-contrast=\"none\"\u003EChewy’s database of adoptable dogs\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E in your area. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E",
+        "expert_attribution": "\u003Cp\u003E\u003Cem\u003E\u003Cspan class=\"NormalTextRun SCXW245662364 BCX4\"\u003EThis content was medically reviewed by \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW245662364 BCX4\"\u003EBarri Morrison\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW245662364 BCX4\"\u003E, DVM, Chewy veterinarian.\u003C/span\u003E\u003C/em\u003E\u003C/p\u003E",
+        "facebook_social_snippet_with_cta": "\u003Cp\u003EBernese Mountain Dogs may look large and imposing, but they're actually sweet, patient, fun-loving family members. Want to know if the Berner is a good match for you? Get all the facts and information, from personality and temperament to grooming, health and the breed's history, in our guide.\u003C/p\u003E",
+        "species": "\u003Cp\u003EDog\u003C/p\u003E",
+        "h2_faqs": "",
+        "faq_items": [
+          {
+            "faq_title": "Do Bernese Mountain Dogs shed? ",
+            "faq_content": "\u003Cp\u003E\u003Cspan class=\"TextRun SCXW219491341 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"\u003E\u003Cspan class=\"NormalTextRun SCXW219491341 BCX4\"\u003EYes,\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW219491341 BCX4\"\u003E Bernese Mountain Dog shedding \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW219491341 BCX4\"\u003Ecan be intense\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW219491341 BCX4\"\u003E. They usually\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW219491341 BCX4\"\u003E need to be brushed three to four times a week\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW219491341 BCX4\"\u003E. B\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW219491341 BCX4\"\u003Eut when the seasons change\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW219491341 BCX4\"\u003E in the spring and fall\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW219491341 BCX4\"\u003E, \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW219491341 BCX4\"\u003Eyou’ll\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW219491341 BCX4\"\u003E need to brush \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW219491341 BCX4\"\u003Ethem multiple times\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW219491341 BCX4\"\u003E a day\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW219491341 BCX4\"\u003E.\u003C/span\u003E\u003C/span\u003E\u003Cspan class=\"EOP SCXW219491341 BCX4\" data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E"
+          },
+          {
+            "faq_title": "How long do Bernese Mountain Dogs live? ",
+            "faq_content": "\u003Cp\u003E\u003Cspan class=\"TextRun SCXW149147714 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"\u003E\u003Cspan class=\"NormalTextRun SCXW149147714 BCX4\"\u003EThe \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW149147714 BCX4\"\u003EBernese Mountain Dog \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW149147714 BCX4\"\u003Elifespan is\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW149147714 BCX4\"\u003E 7\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW149147714 BCX4\"\u003E–\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW149147714 BCX4\"\u003E10 years\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW149147714 BCX4\"\u003E.\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW149147714 BCX4\"\u003E \u003C/span\u003E\u003C/span\u003E\u003Cspan class=\"EOP SCXW149147714 BCX4\" data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E"
+          },
+          {
+            "faq_title": "Do Bernese Mountain Dogs drool? ",
+            "faq_content": "\u003Cp\u003E\u003Cspan class=\"TextRun SCXW136063139 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"\u003E\u003Cspan class=\"NormalTextRun SCXW136063139 BCX4\"\u003EBernese Mountain Dogs \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW136063139 BCX4\"\u003Edon’t\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW136063139 BCX4\"\u003E typically drool a lot. However, if \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW136063139 BCX4\"\u003Ea\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW136063139 BCX4\"\u003E Berner has looser jowls or lips that hang \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW136063139 BCX4\"\u003Elow\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW136063139 BCX4\"\u003E, they might drool more often.\u003C/span\u003E\u003C/span\u003E\u003Cspan class=\"EOP SCXW136063139 BCX4\" data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E"
+          },
+          {
+            "faq_title": "Are Bernese Mountain Dogs good with cats? ",
+            "faq_content": "\u003Cp\u003E\u003Cspan class=\"TextRun SCXW31507326 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"\u003E\u003Cspan class=\"NormalTextRun SCXW31507326 BCX4\"\u003EYes. \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW31507326 BCX4\"\u003EBernese Mountain Dogs are affectionate and easygoing, making them \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW31507326 BCX4\"\u003Ea great addition\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW31507326 BCX4\"\u003E to households with pets, including cats. \u003C/span\u003E\u003C/span\u003E\u003Cspan class=\"EOP SCXW31507326 BCX4\" data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E"
+          }
+        ],
+        "select_related_breeds": [
+          {
+            "selected_related_breed": 969,
+            "characteristic": "breed_characteristics_shedding_level"
+          },
+          {
+            "selected_related_breed": 1334,
+            "characteristic": "breed_characteristics_training_needs"
+          },
+          {
+            "selected_related_breed": 1297,
+            "characteristic": "breed_characteristics_sensitive_to_cold_weather"
+          },
+          {
+            "selected_related_breed": 1111,
+            "characteristic": "breed_characteristics_exercise_needs"
+          },
+          {
+            "selected_related_breed": 939,
+            "characteristic": "breed_characteristics_friendliness"
+          },
+          {
+            "selected_related_breed": 719,
+            "characteristic": "breed_characteristics_biting_tendencies"
+          }
+        ],
+        "enable_featured_gallery": [
+          "enable_featured_gallery"
+        ],
+        "featured_gallery_images": [1216, 1208, 1209, 1210, 1211, 1212, 1213]
+      },
+      "yoast_head": "\u003C!-- This site is optimized with the Yoast SEO plugin v23.8 - https://yoast.com/wordpress/plugins/seo/ --\u003E\n\u003Ctitle\u003EBernese Mountain Dog Characteristics, Care &amp; Photos | Chewy\u003C/title\u003E\n\u003Cmeta name=\"description\" content=\"The Bernese Mountain Dog is a popular breed with many unique traits. Learn about this large, affectionate dog in our complete Bernese Mountain Dog guide.\" /\u003E\n\u003Cmeta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" /\u003E\n\u003Clink rel=\"canonical\" href=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/bernese-mountain-dog/\" /\u003E\n\u003Cmeta property=\"og:locale\" content=\"en_US\" /\u003E\n\u003Cmeta property=\"og:type\" content=\"article\" /\u003E\n\u003Cmeta property=\"og:title\" content=\"Bernese Mountain Dog Characteristics, Care &amp; Photos | Chewy\" /\u003E\n\u003Cmeta property=\"og:description\" content=\"The Bernese Mountain Dog is a popular breed with many unique traits. Learn about this large, affectionate dog in our complete Bernese Mountain Dog guide.\" /\u003E\n\u003Cmeta property=\"og:url\" content=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/bernese-mountain-dog/\" /\u003E\n\u003Cmeta property=\"og:site_name\" content=\"Chewy\" /\u003E\n\u003Cmeta property=\"article:modified_time\" content=\"2025-06-04T16:56:42+00:00\" /\u003E\n\u003Cmeta property=\"og:image\" content=\"https://pet-health-content-media.chewy.com/wp-content/uploads/2021/05/13200318/202105Breed-Hero-Bernese-Mountain-Dog.jpg\" /\u003E\n\t\u003Cmeta property=\"og:image:width\" content=\"1835\" /\u003E\n\t\u003Cmeta property=\"og:image:height\" content=\"1032\" /\u003E\n\t\u003Cmeta property=\"og:image:type\" content=\"image/jpeg\" /\u003E\n\u003Cmeta name=\"twitter:card\" content=\"summary_large_image\" /\u003E\n\u003Cmeta name=\"twitter:label1\" content=\"Est. reading time\" /\u003E\n\t\u003Cmeta name=\"twitter:data1\" content=\"1 minute\" /\u003E\n\u003Cscript type=\"application/ld+json\" class=\"yoast-schema-graph\"\u003E{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/bernese-mountain-dog/\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/bernese-mountain-dog/\",\"name\":\"Bernese Mountain Dog Characteristics, Care & Photos | Chewy\",\"isPartOf\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/bernese-mountain-dog/#primaryimage\"},\"image\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/bernese-mountain-dog/#primaryimage\"},\"thumbnailUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2021/05/13200318/202105Breed-Hero-Bernese-Mountain-Dog.jpg\",\"datePublished\":\"2025-03-07T08:47:19+00:00\",\"dateModified\":\"2025-06-04T16:56:42+00:00\",\"description\":\"The Bernese Mountain Dog is a popular breed with many unique traits. Learn about this large, affectionate dog in our complete Bernese Mountain Dog guide.\",\"breadcrumb\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/bernese-mountain-dog/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://phcms.hlth.prd.aws.chewy.cloud/breed/bernese-mountain-dog/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/bernese-mountain-dog/#primaryimage\",\"url\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2021/05/13200318/202105Breed-Hero-Bernese-Mountain-Dog.jpg\",\"contentUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2021/05/13200318/202105Breed-Hero-Bernese-Mountain-Dog.jpg\",\"width\":1835,\"height\":1032,\"caption\":\"Bernese Mountain Dog\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/bernese-mountain-dog/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://phcms.hlth.prd.aws.chewy.cloud/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Bernese Mountain Dog\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/\",\"name\":\"Chewy\",\"description\":\"\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"}]}\u003C/script\u003E\n\u003C!-- / Yoast SEO plugin. --\u003E",
+      "yoast_head_json": {
+        "title": "Bernese Mountain Dog Characteristics, Care & Photos | Chewy",
+        "description": "The Bernese Mountain Dog is a popular breed with many unique traits. Learn about this large, affectionate dog in our complete Bernese Mountain Dog guide.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://phcms.hlth.prd.aws.chewy.cloud/breed/bernese-mountain-dog/",
+        "og_locale": "en_US",
+        "og_type": "article",
+        "og_title": "Bernese Mountain Dog Characteristics, Care & Photos | Chewy",
+        "og_description": "The Bernese Mountain Dog is a popular breed with many unique traits. Learn about this large, affectionate dog in our complete Bernese Mountain Dog guide.",
+        "og_url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/bernese-mountain-dog/",
+        "og_site_name": "Chewy",
+        "article_modified_time": "2025-06-04T16:56:42+00:00",
+        "og_image": [
+          {
+            "width": 1835,
+            "height": 1032,
+            "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2021/05/13200318/202105Breed-Hero-Bernese-Mountain-Dog.jpg",
+            "type": "image/jpeg"
+          }
+        ],
+        "twitter_card": "summary_large_image",
+        "twitter_misc": {
+          "Est. reading time": "1 minute"
+        },
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/bernese-mountain-dog/",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/bernese-mountain-dog/",
+              "name": "Bernese Mountain Dog Characteristics, Care & Photos | Chewy",
+              "isPartOf": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/bernese-mountain-dog/#primaryimage"
+              },
+              "image": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/bernese-mountain-dog/#primaryimage"
+              },
+              "thumbnailUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2021/05/13200318/202105Breed-Hero-Bernese-Mountain-Dog.jpg",
+              "datePublished": "2025-03-07T08:47:19+00:00",
+              "dateModified": "2025-06-04T16:56:42+00:00",
+              "description": "The Bernese Mountain Dog is a popular breed with many unique traits. Learn about this large, affectionate dog in our complete Bernese Mountain Dog guide.",
+              "breadcrumb": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/bernese-mountain-dog/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://phcms.hlth.prd.aws.chewy.cloud/breed/bernese-mountain-dog/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/bernese-mountain-dog/#primaryimage",
+              "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2021/05/13200318/202105Breed-Hero-Bernese-Mountain-Dog.jpg",
+              "contentUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2021/05/13200318/202105Breed-Hero-Bernese-Mountain-Dog.jpg",
+              "width": 1835,
+              "height": 1032,
+              "caption": "Bernese Mountain Dog"
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/bernese-mountain-dog/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://phcms.hlth.prd.aws.chewy.cloud/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Bernese Mountain Dog"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/",
+              "name": "Chewy",
+              "description": "",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            }
+          ]
+        }
+      },
+      "yoast_meta": {
+        "yoast_wpseo_title": "",
+        "yoast_wpseo_metadesc": "",
+        "yoast_wpseo_canonical": ""
+      },
+      "_links": {
+        "self": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed/1217",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/types/breed"
+          }
+        ],
+        "acf:attachment": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/1213"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/1212"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/1211"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/1210"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/1209"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/1208"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/1216"
+          }
+        ],
+        "wp:featuredmedia": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/2893"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media?parent=1217"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "pet_type",
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/pet_type?post=1217"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ]

@@ -1,0 +1,321 @@
+[
+    {
+      "id": 524,
+      "date": "2021-06-25T08:05:33",
+      "date_gmt": "2021-06-25T08:05:33",
+      "guid": {
+        "rendered": "https://haproxy.use1.lgcy.prd.aws.chewy.cloud/eks/ns/pet-health/pet-health-content-backend/breed/welsh-springer-spaniel/"
+      },
+      "modified": "2025-05-05T14:21:41",
+      "modified_gmt": "2025-05-05T14:21:41",
+      "slug": "welsh-springer-spaniel",
+      "status": "publish",
+      "type": "breed",
+      "link": "https://phcms.hlth.prd.aws.chewy.cloud/breed/welsh-springer-spaniel/",
+      "title": {
+        "rendered": "Welsh Springer Spaniel"
+      },
+      "featured_media": 523,
+      "template": "",
+      "pet_type": [],
+      "class_list": [
+        "post-524",
+        "breed",
+        "type-breed",
+        "status-publish",
+        "has-post-thumbnail",
+        "hentry"
+      ],
+      "acf": {
+        "breed_snapshot_best_for": "\u003Cp\u003EWelsh Springer Spaniels are loyal and energetic dogs who need regular grooming and plenty of adventure. They thrive in active homes with pet parents who enjoy outdoor activities and can provide consistent training.\u003C/p\u003E",
+        "alt_image_text": "\u003Cp\u003E Get the facts about the Welsh Springer Spaniel breed and learn about their personality in our guide.\u003C/p\u003E",
+        "breed_intro": "Even if your own \"hunting\" activity is limited to finding the best bench at the park or buried treasure at the flea market, Welsh Springer Spaniels, born to run and famous for their prowess at flushing out game for which they were once bred, are all about riding shotgun on your adventures. Smart, agile, loyal, loving and totally gorgeous in that sporty countryside sort of way, Welshies, as they are known, will be your go everywhere, do anything furry pal. If you are looking for a medium-sized, sweet-tempered dog with exceptional athletic ability who really just wants you more than anything, and you can provide the kind of \u003Ca href=\"https://www.chewy.com/education/dog/general/ready-to-hit-the-hiking-trail-with-your-dog-heres-everything-you-need-to-know\"\u003Eactive lifestyle\u003C/a\u003E that their high-energy demands (they're called \"Springer\" for a reason), they're the total package.",
+        "breed_related_products_product_card_set": null,
+        "breed_snapshot_temperament": "\u003Cp\u003EIntelligent, Athletic, Graceful \u003C/p\u003E",
+        "what_does_this_breed_look_like_weight": "\u003Cp\u003EMale: 40-55 pounds\u003C/p\u003E\u003Cp\u003EFemale: 35-50 pounds\u003C/p\u003E",
+        "what_does_this_breed_look_like_height": "\u003Cp\u003EMale: 18-19 inches\u003C/p\u003E\u003Cp\u003EFemale: 17-18 inches\u003C/p\u003E",
+        "breed_snapshot_life_expectancy": "\u003Cp\u003E12 to 15 years\u003C/p\u003E",
+        "breed_snapshot_maintenance_level": "\u003Cp\u003EMedium\u003C/p\u003E",
+        "breed_characteristics_friendliness": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_snapshot_coat_color": "\u003Cp\u003ERed and White\u003C/p\u003E",
+        "breed_snapshot_shed_level": "\u003Cp\u003EMedium\u003C/p\u003E",
+        "in_article_video": null,
+        "breed_characteristics": "These traits are rated on a scale of 1-5 with 1 being the lowest and 5 being the highest. Remember: Dogs are individuals, and not all dogs, even those of the same breed, will exhibit all the same qualities.",
+        "breed_characteristics_exercise_needs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_health_issues": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_barking_tendencies": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_grooming_needs": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_shedding_level": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_training_needs": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_with_kids": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_cats": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_for_apartments_small_homes": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_energy_level": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_other_dogs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_playfulnesss": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_cold_weather": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_warm_weather": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_for_first_time_parents": "\u003Cp\u003E3\u003C/p\u003E",
+        "how_do_i_look_card_image": 522,
+        "what_does_this_breed_look_like": "Gorgeous and graceful, the Welsh Springer Spaniel will catch your eye before capturing your heart. Their soft red and white coat covers a compact, agile body, and their ears are delightfully floppy and lightly feathered. They often have flecks on their muzzles, which look a lot like freckles.",
+        "what_does_this_breed_look_like_ears": "\u003Cp\u003E Welsh Springer Spaniel ears are floppy, medium-sized and lightly feathered.\u003C/p\u003E",
+        "what_does_this_breed_look_like_eyes": "\u003Cp\u003E Welsh Springer Spaniel eyes are medium to dark brown and oval in shape with a soft expression.\u003C/p\u003E",
+        "what_does_this_breed_look_like_nose": "\u003Cp\u003EWelsh Springer noses are typically black or brown.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_length": "\u003Cp\u003ETheir coat is soft and straight and medium length with moderate feathering on the hind legs, chest and underside. \u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_color": "\u003Cp\u003EWelsh Springer Spaniels have a red and white coat. Some of the white areas may be flecked with red ticking.\u003C/p\u003E",
+        "what_does_this_breed_look_like_tail": "\u003Cp\u003E The AKC breed standard allows for the tail to be docked or undocked. Docking involves cutting a portion of the dog’s tail off when they are puppies. Veterinary groups along with many U.S. states and countries have banned this procedure due to medical and behavioral reasons. If you are interested in this procedure, schedule a consultation with your veterinarian.  \u003C/p\u003E",
+        "h2_breed_temperament": "The Welsh Springer Spaniel is a beautiful, athletic dog who's easy to train and even easier to love. They're the perfect blend of grit and grace, and like the girl who runs a mile without breaking a sweat, Welsh Springers will tear around the park and look gorgeous while doing it.\n\nThey've got an irresistibly sweet temperament and a sharp mind, too. They'd make a wonderful addition to any family and will love your kids almost as much as you do. But don't expect them to lavish kisses all over your visiting friends and relatives—Welsh Springer Spaniels tend to be reserved when meeting strangers, and it may take a little time for them to warm up to new people.\n\nThankfully, that reserved nature doesn't translate into unwanted behavior; though they may be a bit aloof around newcomers, they're rarely aggressive and not prone to biting. They can even live happily with cats and other dogs in the household, if given the proper \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/sit-stay-and-beyond-weve-got-the-essential-guide-to-basic-dog-obedience-training\"\u003Etraining\u003C/a\u003E and \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/positively-trained-puppy-socialization-dos-and-donts\"\u003Esocialization\u003C/a\u003E.\n\nWelsh Springers have a pretty high energy level and need daily exercise to burn off the wiggles. But rest assured, a well-exercised Welsh Springer is a happy Welsh Springer, and at the end of the day, they'll be happy to curl up and cuddle with you.",
+        "h2_how_to_care_for_a_breed": "Welsh Springer Spaniels are your typical sporting dog: smart, lively and athletic. They need mental and physical stimulation through daily exercise and training. But the slightly higher level of energy you put into training is balanced out by their moderate grooming needs—thanks to their weatherproof coat, grooming is a breeze, and a weekly brushing and nail trim plus a bath whenever they get dirty is all that's necessary.",
+        "grooming": "Compared to other dogs with medium-length coats, the Welsh Springer Spaniel breed is easy to maintain.&nbsp;The ease of grooming is mostly due to the versatility of their coat. Due to hundreds of years of selective breeding, Welsh Springer Spaniels have the ideal coat for hunting—one that repels water and won't snag on branches or become tangled. The added bonus of their weatherproof coats means you won't be smelling a lot of funky dog odors or spending hours combing mats out of their fur. All you need to do is brush them out once a week, and they're good to go.\n\nBathing is only necessary when they get dirty and you can skip trips to the groomer—unlike other spaniels, Welsh Springer coats should not be shaved or trimmed. They do shed a moderate amount, however, so you may want to invest in a \u003Ca href=\"https://www.chewy.com/kong-dog-zoomgroom-multi-use-brush/dp/45799\"\u003EZoomGroom brush\u003C/a\u003E to help eliminate the dead undercoat during their seasonal shed, which happens in the spring and fall.\n\nAdditional grooming needs for the Welsh Springer Spaniel include \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/guide-trimming-dogs-nails\"\u003Etrimming their nails\u003C/a\u003E every two weeks if they get too long and \u003Ca href=\"https://www.chewy.com/education/dog/grooming/health-wellness-how-to-brush-your-dogs-teeth-live-to-tell-the-tale\"\u003Ebrushing their teeth\u003C/a\u003E daily. And it's always a good idea to take your Welsh Springer into the vet annually for a professional teeth cleaning to keep those pearly whites in tip-top shape.",
+        "training": "The Welsh Springer breed responds exceptionally well to training, and training sessions should become a regular part of their daily routine. At least two 10-minute sessions every day using positive reinforcement will promote good behavior. Positive reinforcement uses rewards, like treats, praise and playtime with fun toys, to encourage your pup towards good behavior. And thanks to their origin as a hunting dog, they're naturally active and attentive, which means they're likely to stay focused during training sessions. (Of course, offering them something yummy as a reward helps keep their attention, too.)\n\nRunning off-leash is one of the Welsh Springer's favorite activities; it gives them a chance to stretch their legs, sniff around and burn some energy. But recall training (teaching them to \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-come\"\u003Ecome when called\u003C/a\u003E) is especially important to this breed—with their insatiable love of running and strong prey drive, they're sure to give chase if a furry little critter crosses their path. Without proper recall training, you have only one option left: get your running shoes on and chase after them!\n\nWelsh Springer Spaniel dogs also tend to be shy around strangers. If you want them to respond well when visitors come over, it's important to socialize them at a young age. If you're not sure how to get started with dog training and socialization, contact a local certified trainer who's had experience with the breed—they can set you and your dog on the right track.",
+        "diet_nutrition": "Welsh Springers do very well on commercial dog food, provided it's complete, balanced and made of high-quality ingredients. Dog food should also be selected based on your pet's age (puppy, adult, senior), weight and activity level. For athletic dogs like the Welsh Springer, they're likely to need more protein to fuel all that activity. Younger dogs also tend to need more protein and fat to strengthen their growing bodies.\r\n\r\nAnd don't forget that while Welsh Springers are motivated during training by tiny nibbles, those foodbits do count toward their daily caloric intake. Consult with your vet, who can provide you with information on the right balance of food and treats your pet needs every day.",
+        "exercise": "Exercise isn't just something that Welsh Springers do, it's part of who they are. This beautiful breed was made to move—they're quite speedy! They love to run, especially off-leash, but they'll also be up for some hiking, a little hunting or maybe even a swim (dog depending—they may not take to it immediately but some Welsh Springers learn to love a good dip!).\n\nEven if you're not the future Olympian type, don't fret, you can still enjoy the Welsh Springer breed. Their energy needs an outlet, but that can be provided through daily walks, games of \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/how-to-teach-dog-to-fetch\"\u003Efetch\u003C/a\u003E, agility classes or other dog sports. As long as they get at least an hour of moderate to vigorous exercise twice a day, your Springer will be a happy pup.",
+        "ideal_environment": "The Welsh Springer loves to run, so a single-family home with a large yard would be ideal. They can adapt to apartment living, but only if their pet parent is 100-percent committed to taking them to the park and letting them run—they need at least an hour or two of exercise every day.\r\n\r\nWelsh Springer Spaniels may love being outside, but that doesn't mean you can keep them there—they want to be with you, indoors and out. With their tender, devoted nature, they thrive when living in a family setting. Otherwise, you'll end up with a bored and sullen pupper (and no one wants that).\r\n\r\nThat gentle, loving temperament is what makes them such great family dogs; they're an awesome choice if you've got kids in the household. They also adapt well to other pets, especially if they're introduced while your Welsh Springer Spaniel puppy is still young.\r\n\r\nIf yours is a home with a lot of guests, or if your home is anywhere you lay your head (aka you love to travel) and you want an adaptable dog along for the ride, this may not be the breed for you. Welsh Springers tend to be cautious around people they don't know, though with proper training and socialization, they can learn to be more comfortable in the company of strangers.",
+        "h2_breed_health": "The Welsh Springer Spaniel has a life expectancy of 12 to 15 years, but they are susceptible to a few serious health problems. Thanks to the efforts of responsible breeders, these conditions are becoming less common. Hopefully you won't experience any of these health issues with your own Welsh Springer, but it's best to learn about them so you know what to look for and to keep your dog happy and healthy throughout their life.\r\n\u003Cul\u003E\r\n \t\u003Cli\u003E\u003Cb\u003EHip Dysplasia\u003C/b\u003E: Hip dysplasia is a hereditary condition that occurs when the ball and socket in the hip joint doesn't fit together properly. In Welsh Springer Spaniels, the likelihood of this occurring can increase when dogs are spayed and neutered before their second birthday. Treatment options can include medication, physical therapy or surgery, depending on the severity of the case.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Cb\u003EElbow Dysplasia\u003C/b\u003E:\u003Cb\u003E \u003C/b\u003ELike hip dysplasia, elbow dysplasia is another hereditary disorder of the joint that can be treated through surgical and non-surgical methods. Symptoms include swollen joints or difficulty getting up. Surgery is recommended in most cases. Because it's genetic, reputable breeders test their stock to make sure they don't pass the condition on to their puppies.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Cb\u003EGlaucoma\u003C/b\u003E: Glaucoma is caused by fluid buildup in the eye. The pressure created by this buildup can eventually cause blindness if left untreated. Treatment may include eye drops, medication or surgery. Another hereditary condition, breeders are taking measures to reduce its occurrence.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Cb\u003EAutoimmune Thyroiditis\u003C/b\u003E: The Welsh Springer Spaniel is genetically predisposed to autoimmune thyroiditis. This condition causes the immune system to attack the thyroid gland, diminishing its effectiveness. Though it can be treated through daily medication and routine blood work, it's best to purchase your pet from a responsible breeder who screens their stock for this condition.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Cb\u003EEar Infections\u003C/b\u003E: With their adorably floppy ears and fondness for the outdoors, Welsh Springers have a tendency to develop ear infections.\u003Cb\u003E \u003C/b\u003EPups who spend a lot of time outdoors tend to get more debris or water in their ears, which can lead to infections. Symptoms may include head shaking, redness of the ear canal, scratching, brown or yellow buildup and a yeasty odor. Topical ear drops and antibiotics are common treatments for this condition. Weekly ear cleanings can help keep the infection from returning.\u003C/li\u003E\r\n\u003C/ul\u003E",
+        "h2_breed_history": "The Welsh Springer Spaniel can trace their origin back to Wales—no surprise there! But what you may not know is that they've been around for hundreds of years. Originally developed to flush out game in the days before guns, this astute hunting dog would spring from their hiding place and drive game straight into the hunter's net. This spring-like action is how the breed earned their name.\r\n\r\nEven after the advent of guns, Welsh Springers proved to be useful in the field; after flushing out prey, they would retrieve it and bring it to their masters. Hunters prized the Welsh Springer Spaniel dog for being the perfect blend of helper and companion. With their temperate, affectionate demeanor, they made excellent additions to the family.\r\n\r\nMany people assume that Welsh Springer Spaniels and \u003Ca href=\"https://www.chewy.com/education/dog-breeds/english-springer-spaniel/\" target=\"_blank\" rel=\"noopener\"\u003EEnglish Springer Spaniels\u003C/a\u003E are closely related. After all, they do look alike, act alike and come from the same island. But despite their similarities in looks and abilities, these two breeds developed separately. And there are some slight differences between them: Welsh Springer Spaniels are a bit more reserved than English Springers, and they only come in one glorious color combination—red and white.\r\n\r\nWelsh Springers also never enjoyed the same wide-spread popularity as English Springers. Though they were officially recognized by the American Kennel Club in 1914, their numbers dropped off so drastically after World War II, that few, if any, remained in the United States.\r\n\r\nThanks to Welsh Springer Spaniel enthusiasts, the breed was reintroduced and revived in the US. Current breeders—who are also devoted fans of the breed—do all they can to keep their lineage going. If you're thinking of adding a Welsh Springer Spaniel puppy to your family, be prepared to pay around $1,800 to $2,000. But for that price, you're likely getting a pup who's been screened for health and temperament issues and may come with pedigree papers. The best way to find a reputable breeder is through \u003Ca href=\"https://marketplace.akc.org/puppies/welsh-springer-spaniel\"\u003Ethe American Kennel Club website\u003C/a\u003E. You can also check with Welsh Springer Spaniel rescues, keep an eye out for the breed at your local shelter, or search \u003Ca href=\"https://www.chewy.com/g/dog-welsh-springer-spaniel_ga1\"\u003EChewy’s database of adoptable dogs\u003C/a\u003E in your area.",
+        "expert_attribution": "\u003Ci\u003EExpert input provided by: Dr. Anthony Hall, Veterinary Consultant at \u003Ca href=\"https://airvet.com\"\u003EAirvet\u003C/a\u003E; Matt Schimsky, CPDT-KA, Owner of \u003Ca href=\"https://tuffpuptraining.com\"\u003ETuff Pup Traning, LLC\u003C/a\u003E in Philadelphia, Pa.; Allison Lamminen, CTC, CSAT, \u003Ca href=\"https://delighteddogsmn.com\"\u003EOwner of Delighted Dogs\u003C/a\u003E; Beth Mullen, CBCC, KPA-CTP, Owner/Founder of \u003Ca href=\"https://doglatindogtraining.com\"\u003EDog Latin Dog Training &amp; Behavior Consulting\u003C/a\u003E; and Susan Riese of Statesman Welsh Springer Spaniels in Covington, Ga.\u003C/i\u003E\r\n\r\n\u003Cem\u003EBreed characteristic ratings provided by veterinarian Dr. Sarah J. Wooten, DVM, CVJ, a veterinarian at \u003Ca href=\"https://sheepdraw.com/\" target=\"_blank\" rel=\"noopener\"\u003ESheep Draw Veterinary Hospital\u003C/a\u003E in Greeley, Colorado; dog trainer and behavior consultant Irith Bloom, CPDT-KSA, CBCC-KA, CDBC, owner of \u003Ca href=\"https://thesophisticateddog.com/\" target=\"_blank\" rel=\"noopener\"\u003EThe Sophisticated Dog, LLC\u003C/a\u003E, in Los Angeles; and certified animal behavior consultant \u003Ca href=\"https://shojai.com/\" target=\"_blank\" rel=\"noopener\"\u003EAmy Shojai\u003C/a\u003E, CABC, in Sherman, Texas. \u003C/em\u003E\r\n\r\n\u003Cem\u003EThe health content was medically reviewed by Chewy vets.\u003C/em\u003E",
+        "facebook_social_snippet_with_cta": "\u003Cp\u003EGorgeous and graceful, the Welsh Springer Spaniel will catch your eye before capturing your heart. Add in brains, athleticism and a big tender heart and you've got the total package! Read our Welsh Springer Spaniel guide to learn more about this fascinating dog breed.\u003C/p\u003E",
+        "species": "\u003Cp\u003EDog\u003C/p\u003E",
+        "h2_faqs": "\u003Ch3\u003EDo Welsh Springer Spaniels shed?\u003C/h3\u003E\r\nYes, Welsh Springer Spaniels shed a moderate amount throughout the year compared to other breeds. They also experience seasonal shedding, so be prepared to vacuum a bit more in the spring and fall. Gently brushing or combing them will help remove excess fur and reduce the amount they shed.\r\n\u003Ch3\u003EAre Welsh Springer Spaniels good family dogs?\u003C/h3\u003E\r\nAbsolutely! Welsh Springer Spaniels are wonderful family pets—they're affectionate, loyal and great with kids. They're especially well-suited to families who enjoy outdoor activities like hiking, swimming and running.\r\n\u003Ch3\u003EHow long do Welsh Springer Spaniels live?\u003C/h3\u003E\r\nWhen well cared for, the Welsh Springer Spaniel lifespan can reach up to 12 to 15 years.\r\n\u003Ch3\u003EAre Welsh Springer Spaniels good with cats?\u003C/h3\u003E\r\nWelsh Springer Spaniels can be good with cats, if raised with them from puppyhood. They may be hesitant when meeting a cat for the first time, though they're unlikely to become aggressive. Care should be taken when introducing new pets; a veterinarian or dog trainer can help you through the process. Through proper training and socialization, Welsh Springer Spaniels can learn to live quite happily in a multi-pet home.",
+        "faq_items": [
+          {
+            "faq_title": "Do Welsh Springer Spaniels shed?",
+            "faq_content": "Yes, Welsh Springer Spaniels shed a moderate amount throughout the year compared to other breeds. They also experience seasonal shedding, so be prepared to vacuum a bit more in the spring and fall. Gently brushing or combing them will help remove excess fur and reduce the amount they shed."
+          },
+          {
+            "faq_title": "Are Welsh Springer Spaniels good family dogs?",
+            "faq_content": "Absolutely! Welsh Springer Spaniels are wonderful family pets—they're affectionate, loyal and great with kids. They're especially well-suited to families who enjoy outdoor activities like hiking, swimming and running."
+          },
+          {
+            "faq_title": "How long do Welsh Springer Spaniels live?",
+            "faq_content": "When well cared for, the Welsh Springer Spaniel lifespan can reach up to 12 to 15 years."
+          },
+          {
+            "faq_title": "Are Welsh Springer Spaniels good with cats?",
+            "faq_content": "Welsh Springer Spaniels can be good with cats, if raised with them from puppyhood. They may be hesitant when meeting a cat for the first time, though they're unlikely to become aggressive. Care should be taken when introducing new pets; a veterinarian or dog trainer can help you through the process. Through proper training and socialization, Welsh Springer Spaniels can learn to live quite happily in a multi-pet home."
+          }
+        ],
+        "select_related_breeds": [
+          {
+            "selected_related_breed": 477,
+            "characteristic": "breed_characteristics_playfulnesss"
+          },
+          {
+            "selected_related_breed": 408,
+            "characteristic": "breed_characteristics_good_with_kids"
+          },
+          {
+            "selected_related_breed": 495,
+            "characteristic": "breed_characteristics_exercise_needs"
+          },
+          {
+            "selected_related_breed": 827,
+            "characteristic": "breed_characteristics_friendliness"
+          },
+          {
+            "selected_related_breed": 1009,
+            "characteristic": "breed_characteristics_energy_level"
+          },
+          {
+            "selected_related_breed": 1273,
+            "characteristic": "breed_characteristics_good_with_other_dogs"
+          }
+        ],
+        "enable_featured_gallery": [
+          "enable_featured_gallery"
+        ],
+        "featured_gallery_images": [515, 516, 517, 518, 519, 520]
+      },
+      "yoast_head": "\u003C!-- This site is optimized with the Yoast SEO plugin v23.8 - https://yoast.com/wordpress/plugins/seo/ --\u003E\n\u003Ctitle\u003EWelsh Springer Spaniel Breed: Characteristics, Care &amp; Photos | Chewy\u003C/title\u003E\n\u003Cmeta name=\"description\" content=\"Brains, good looks, and athleticism—this dog has all the traits you&#039;re looking for! Learn more in our complete Welsh Springer Spaniel guide.\" /\u003E\n\u003Cmeta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" /\u003E\n\u003Clink rel=\"canonical\" href=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/welsh-springer-spaniel/\" /\u003E\n\u003Cmeta property=\"og:locale\" content=\"en_US\" /\u003E\n\u003Cmeta property=\"og:type\" content=\"article\" /\u003E\n\u003Cmeta property=\"og:title\" content=\"Welsh Springer Spaniel Breed: Characteristics, Care &amp; Photos | Chewy\" /\u003E\n\u003Cmeta property=\"og:description\" content=\"Brains, good looks, and athleticism—this dog has all the traits you&#039;re looking for! Learn more in our complete Welsh Springer Spaniel guide.\" /\u003E\n\u003Cmeta property=\"og:url\" content=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/welsh-springer-spaniel/\" /\u003E\n\u003Cmeta property=\"og:site_name\" content=\"Chewy\" /\u003E\n\u003Cmeta property=\"article:modified_time\" content=\"2025-05-05T14:21:41+00:00\" /\u003E\n\u003Cmeta property=\"og:image\" content=\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11164301/202106WelshSpringerSpaniel-FeaturedImage.jpg\" /\u003E\n\t\u003Cmeta property=\"og:image:width\" content=\"1440\" /\u003E\n\t\u003Cmeta property=\"og:image:height\" content=\"865\" /\u003E\n\t\u003Cmeta property=\"og:image:type\" content=\"image/jpeg\" /\u003E\n\u003Cmeta name=\"twitter:card\" content=\"summary_large_image\" /\u003E\n\u003Cscript type=\"application/ld+json\" class=\"yoast-schema-graph\"\u003E{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/welsh-springer-spaniel/\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/welsh-springer-spaniel/\",\"name\":\"Welsh Springer Spaniel Breed: Characteristics, Care & Photos | Chewy\",\"isPartOf\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/welsh-springer-spaniel/#primaryimage\"},\"image\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/welsh-springer-spaniel/#primaryimage\"},\"thumbnailUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11164301/202106WelshSpringerSpaniel-FeaturedImage.jpg\",\"datePublished\":\"2021-06-25T08:05:33+00:00\",\"dateModified\":\"2025-05-05T14:21:41+00:00\",\"description\":\"Brains, good looks, and athleticism—this dog has all the traits you're looking for! Learn more in our complete Welsh Springer Spaniel guide.\",\"breadcrumb\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/welsh-springer-spaniel/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://phcms.hlth.prd.aws.chewy.cloud/breed/welsh-springer-spaniel/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/welsh-springer-spaniel/#primaryimage\",\"url\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11164301/202106WelshSpringerSpaniel-FeaturedImage.jpg\",\"contentUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11164301/202106WelshSpringerSpaniel-FeaturedImage.jpg\",\"width\":1440,\"height\":865},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/welsh-springer-spaniel/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://phcms.hlth.prd.aws.chewy.cloud/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Welsh Springer Spaniel\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/\",\"name\":\"Chewy\",\"description\":\"\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"}]}\u003C/script\u003E\n\u003C!-- / Yoast SEO plugin. --\u003E",
+      "yoast_head_json": {
+        "title": "Welsh Springer Spaniel Breed: Characteristics, Care & Photos | Chewy",
+        "description": "Brains, good looks, and athleticism—this dog has all the traits you're looking for! Learn more in our complete Welsh Springer Spaniel guide.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://phcms.hlth.prd.aws.chewy.cloud/breed/welsh-springer-spaniel/",
+        "og_locale": "en_US",
+        "og_type": "article",
+        "og_title": "Welsh Springer Spaniel Breed: Characteristics, Care & Photos | Chewy",
+        "og_description": "Brains, good looks, and athleticism—this dog has all the traits you're looking for! Learn more in our complete Welsh Springer Spaniel guide.",
+        "og_url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/welsh-springer-spaniel/",
+        "og_site_name": "Chewy",
+        "article_modified_time": "2025-05-05T14:21:41+00:00",
+        "og_image": [
+          {
+            "width": 1440,
+            "height": 865,
+            "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11164301/202106WelshSpringerSpaniel-FeaturedImage.jpg",
+            "type": "image/jpeg"
+          }
+        ],
+        "twitter_card": "summary_large_image",
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/welsh-springer-spaniel/",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/welsh-springer-spaniel/",
+              "name": "Welsh Springer Spaniel Breed: Characteristics, Care & Photos | Chewy",
+              "isPartOf": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/welsh-springer-spaniel/#primaryimage"
+              },
+              "image": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/welsh-springer-spaniel/#primaryimage"
+              },
+              "thumbnailUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11164301/202106WelshSpringerSpaniel-FeaturedImage.jpg",
+              "datePublished": "2021-06-25T08:05:33+00:00",
+              "dateModified": "2025-05-05T14:21:41+00:00",
+              "description": "Brains, good looks, and athleticism—this dog has all the traits you're looking for! Learn more in our complete Welsh Springer Spaniel guide.",
+              "breadcrumb": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/welsh-springer-spaniel/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://phcms.hlth.prd.aws.chewy.cloud/breed/welsh-springer-spaniel/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/welsh-springer-spaniel/#primaryimage",
+              "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11164301/202106WelshSpringerSpaniel-FeaturedImage.jpg",
+              "contentUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11164301/202106WelshSpringerSpaniel-FeaturedImage.jpg",
+              "width": 1440,
+              "height": 865
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/welsh-springer-spaniel/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://phcms.hlth.prd.aws.chewy.cloud/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Welsh Springer Spaniel"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/",
+              "name": "Chewy",
+              "description": "",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            }
+          ]
+        }
+      },
+      "yoast_meta": {
+        "yoast_wpseo_title": "",
+        "yoast_wpseo_metadesc": "",
+        "yoast_wpseo_canonical": ""
+      },
+      "_links": {
+        "self": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed/524",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/types/breed"
+          }
+        ],
+        "acf:attachment": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/520"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/519"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/518"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/517"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/516"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/515"
+          }
+        ],
+        "wp:featuredmedia": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/523"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media?parent=524"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "pet_type",
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/pet_type?post=524"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ]

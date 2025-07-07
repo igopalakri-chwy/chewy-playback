@@ -20,10 +20,12 @@ import pandas as pd
 sys.path.append('Agents/Review_and_Order_Intelligence_Agent')
 sys.path.append('Agents/Narrative_Generation_Agent')
 sys.path.append('Agents/Image_Generation_Agent')
+sys.path.append('Agents/Breed_Predictor_Agent')
 
 from review_order_intelligence_agent import ReviewOrderIntelligenceAgent
 from pet_letter_llm_system import PetLetterLLMSystem
 from add_confidence_score import ConfidenceScoreCalculator
+from breed_predictor_agent import BreedPredictorAgent
 import openai
 from dotenv import load_dotenv
 
@@ -541,6 +543,7 @@ class ChewyPlaybackPipeline:
         self.review_agent = ReviewOrderIntelligenceAgent(openai_api_key=self.openai_api_key)
         self.order_agent = OrderIntelligenceAgent(openai_api_key=self.openai_api_key)
         self.narrative_agent = PetLetterLLMSystem(openai_api_key=self.openai_api_key)
+        self.breed_predictor_agent = BreedPredictorAgent(openai_api_key=self.openai_api_key)
         
     def preprocess_data(self):
         """Preprocess the raw CSV data for the agents."""
@@ -835,6 +838,30 @@ class ChewyPlaybackPipeline:
         print(f"✅ Generated narratives for {len(narrative_results)} customers")
         return narrative_results
     
+    def run_breed_predictor_agent(self, enriched_profiles: Dict[str, Any]) -> Dict[str, Any]:
+        """Run the Breed Predictor Agent for pets with unknown/mixed breeds."""
+        print("\n🐕 Running Breed Predictor Agent...")
+        
+        breed_predictions = {}
+        
+        for customer_id, customer_data in enriched_profiles.items():
+            # Handle different data structures
+            if isinstance(customer_data, dict) and 'pets' in customer_data:
+                pets_data = customer_data['pets']
+            else:
+                pets_data = customer_data
+            
+            # Run breed prediction for this customer's pets
+            customer_predictions = self.breed_predictor_agent.process_customer_pets(
+                customer_id, pets_data
+            )
+            
+            if customer_predictions:
+                breed_predictions[customer_id] = customer_predictions
+        
+        print(f"✅ Breed predictions completed for {len(breed_predictions)} customers")
+        return breed_predictions
+    
     def _get_customer_reviews(self, customer_id: str) -> List[Dict[str, Any]]:
         """Get review data for a specific customer."""
         try:
@@ -955,7 +982,8 @@ class ChewyPlaybackPipeline:
     
     def save_outputs(self, enriched_profiles: Dict[str, Any], 
                     narrative_results: Dict[str, Any], 
-                    image_results: Dict[str, Any]):
+                    image_results: Dict[str, Any],
+                    breed_predictions: Dict[str, Any] = None):
         """Save all outputs to the Output directory structure."""
         print("\n💾 Saving outputs...")
         
@@ -1016,6 +1044,13 @@ class ChewyPlaybackPipeline:
                         shutil.copy2(source_badge_path, dest_badge_path)
                         print(f"    🏆 Saved personality badge: {badge_info.get('badge', 'Unknown')}")
             
+            # Save breed predictions if available
+            if breed_predictions and customer_id in breed_predictions:
+                breed_path = customer_dir / "predicted_breed.json"
+                with open(breed_path, 'w') as f:
+                    json.dump(breed_predictions[customer_id], f, indent=2)
+                print(f"    🐕 Saved breed predictions for {len(breed_predictions[customer_id])} pets")
+            
             # Save collective image (download and save)
             if customer_id in image_results and image_results[customer_id]:
                 images_dir = customer_dir / "images"
@@ -1049,11 +1084,14 @@ class ChewyPlaybackPipeline:
             # Step 3: Run Narrative Generation Agent
             narrative_results = self.run_narrative_generation_agent(enriched_profiles)
             
-            # Step 4: Run Image Generation Agent
+            # Step 4: Run Breed Predictor Agent
+            breed_predictions = self.run_breed_predictor_agent(enriched_profiles)
+            
+            # Step 5: Run Image Generation Agent
             image_results = self.run_image_generation_agent(narrative_results)
             
-            # Step 5: Save all outputs
-            self.save_outputs(enriched_profiles, narrative_results, image_results)
+            # Step 6: Save all outputs
+            self.save_outputs(enriched_profiles, narrative_results, image_results, breed_predictions)
             
             print("\n🎉 Pipeline completed successfully!")
             print(f"📁 Check the 'Output' directory for results")

@@ -1,0 +1,334 @@
+[
+    {
+      "id": 1054,
+      "date": "2021-05-27T14:13:27",
+      "date_gmt": "2021-05-27T14:13:27",
+      "guid": {
+        "rendered": "https://haproxy.use1.lgcy.prd.aws.chewy.cloud/eks/ns/pet-health/pet-health-content-backend/breed/basenji/"
+      },
+      "modified": "2025-05-05T14:22:31",
+      "modified_gmt": "2025-05-05T14:22:31",
+      "slug": "basenji",
+      "status": "publish",
+      "type": "breed",
+      "link": "https://phcms.hlth.prd.aws.chewy.cloud/breed/basenji/",
+      "title": {
+        "rendered": "Basenji"
+      },
+      "featured_media": 2838,
+      "template": "",
+      "pet_type": [],
+      "class_list": [
+        "post-1054",
+        "breed",
+        "type-breed",
+        "status-publish",
+        "has-post-thumbnail",
+        "hentry"
+      ],
+      "acf": {
+        "breed_snapshot_best_for": "The Basenji is a small hunting breed originating from Africa. Known as the \"barkless dog,\" they produce a unique yodel-like sound instead of barking. Independent and intelligent, Basenjis are curious and spirited companions with a cat-like grooming behavior. They thrive best with active pet parents who provide a stimulating environment.",
+        "alt_image_text": "basenji dog breed",
+        "breed_intro": "If you'd like a dog who's as unique as you are, then the Basenji may be the breed for you. This small hound dog may only stand about a foot-and-a-half tall, but they have what it takes to stand out in a crowd. They don't bark, they yodel. They're independent thinkers. They brim with self-confidence, and they groom themselves much like cats do.",
+        "breed_related_products_product_card_set": null,
+        "breed_snapshot_temperament": "Independent, Active, Intelligent",
+        "what_does_this_breed_look_like_weight": "Male: 24 pounds\u003Cbr /\u003EFemale: 22 pounds",
+        "what_does_this_breed_look_like_height": "Male: 17 inches\u003Cbr/\u003EFemale: 16 inches",
+        "breed_snapshot_life_expectancy": "13 to 14 years",
+        "breed_snapshot_maintenance_level": "Medium",
+        "breed_characteristics_friendliness": "3",
+        "breed_snapshot_coat_color": "Black and White, Black Tan and White, Brindle and White, Red and White",
+        "breed_snapshot_shed_level": "Low",
+        "in_article_video": null,
+        "breed_characteristics": "Here are the qualities you can expect when raising a Basenji on a scale of 1 paw (low) to 5 paws (high). Remember that dogs are individuals, and not all dogs, even of the same breed, will fit the mold.",
+        "breed_characteristics_exercise_needs": "4",
+        "breed_characteristics_health_issues": "3",
+        "breed_characteristics_barking_tendencies": "1",
+        "breed_characteristics_grooming_needs": "1",
+        "breed_characteristics_shedding_level": "2",
+        "breed_characteristics_training_needs": "4",
+        "breed_characteristics_good_with_kids": "3",
+        "breed_characteristics_good_with_cats": "2",
+        "breed_characteristics_good_for_apartments_small_homes": "3",
+        "breed_characteristics_energy_level": "5",
+        "breed_characteristics_good_with_other_dogs": "3",
+        "breed_characteristics_playfulnesss": "3",
+        "breed_characteristics_sensitive_to_cold_weather": "3",
+        "breed_characteristics_sensitive_to_warm_weather": "2",
+        "breed_characteristics_good_for_first_time_parents": "2",
+        "how_do_i_look_card_image": 2837,
+        "what_does_this_breed_look_like": "The Basenji is a small dog with distinctive and adorable forehead wrinkles. Their muzzles are shorter than their skulls, and their bodies are shorter than they are tall. This all adds up to make a rather compact, unique-looking dog who is elegant, alert and ready for anything.",
+        "what_does_this_breed_look_like_ears": "The Basenji's ears are upright and slightly hooded (curves in on both sides).",
+        "what_does_this_breed_look_like_eyes": "Basenji eyes can range from hazel to dark brown with dark rims and are almond-shaped.",
+        "what_does_this_breed_look_like_nose": "Black is the preferred color for a Basenji nose, and the overall muzzle shape is quite short.",
+        "what_does_this_breed_look_like_coat_length": "Basenji coats are short and smooth.",
+        "what_does_this_breed_look_like_coat_color": "They come in a variety of color types, including black and white; red and white; tricolor (black, tan and white), and brindle (subtle tiger stripes) and white. The white should be an accent and not compete with the overall base color.",
+        "what_does_this_breed_look_like_tail": "Their tails are upright and tightly curled over either side of their backs.",
+        "h2_breed_temperament": "The Basenji breed's temperament might seem unusual if you're used to more popular dog breeds like \u003Ca href=\"https://www.chewy.com/education/dog-breeds/golden-retriever/\"\u003EGolden Retrievers\u003C/a\u003E or \u003Ca href=\"https://www.chewy.com/education/dog-breeds/labrador-retriever/\"\u003ELabs\u003C/a\u003E. They're quite particular dogs who aren't overly friendly and are often described as being cat like.\r\n\r\nOriginally bred as hunting dogs in Africa, Basenjis are high-energy, independent thinkers. They're instinctively alert dogs who love to chase things—and will do just that!—and they need plenty of mental exercise to keep from being bored. They can be good with with other dogs and children they know, but early socialization is needed to make sure they grow up accepting new people, dogs and situations. They're also fussy about their hygiene and will keep themselves tidy whenever possible.\r\n\r\nIntelligent, active and individualistic dogs, Basenjis will do best in families who appreciate their uniqueness.",
+        "h2_how_to_care_for_a_breed": "Basenjis are easy to groom, and their food needs aren't complicated. But they have an independent nature that may make training a challenge for the inexperienced pup parent. And Basenjis have a lot of energy that needs to be burned daily or else they just might find themselves getting into trouble.",
+        "grooming": "If you're not interested in long grooming sessions and dislike dog hair throughout the house, the Basenji is a great choice for you. These short-haired dogs are easy to care for, and shedding is minimal even during shedding seasons (spring and fall). They even groom themselves like cats. But that doesn't mean they require zero assistance in this area.\n\u003Cul\u003E\n \t\u003Cli\u003E\u003Cstrong\u003EBrushing:\u003C/strong\u003E A once-a-week brushing with a \u003Ca href=\"https://www.chewy.com/f/dog-curry-brushes_c355_f70v83786\" target=\"_blank\" rel=\"noopener\"\u003Erubber curry\u003C/a\u003E or a \u003Ca href=\"https://www.chewy.com/f/dog-bristle-brushes_c355_f70v83784\" target=\"_blank\" rel=\"noopener\"\u003Eboar bristle brush\u003C/a\u003E will work well for this breed. If you notice your pup needs extra attention during shedding season, bump up the brushing sesh to a few times a week.\u003C/li\u003E\n \t\u003Cli\u003E\u003Cstrong\u003EBathing:\u003C/strong\u003E \u003Ca href=\"https://www.chewy.com/education/dog/grooming/how-to-bathe-a-dog-step-by-step-tips-from-a-professional-groomer\"\u003EBathing your Basenji\u003C/a\u003E is not a chore you'll need to do very often. Their short coats naturally stay cleaner than a long-coated breed, and they are quite particular about keeping themselves clean. Plan on bathing them about twice a year (unless your pet gets into something that requires a bath).\u003C/li\u003E\n \t\u003Cli\u003E\u003Cstrong\u003EDental Care:\u003C/strong\u003E Dental care is very important for all dogs. The best way to maintain your Basenji's oral health is by \u003Ca href=\"https://www.chewy.com/education/dog/grooming/health-wellness-how-to-brush-your-dogs-teeth-live-to-tell-the-tale\"\u003Ebrushing their teeth daily\u003C/a\u003E. Introducing the toothbrush to your pet as a puppy should help make the task easier. And don't forget an annual professional dental cleaning with your veterinarian.\u003C/li\u003E\n \t\u003Cli\u003E\u003Cstrong\u003ENail Trimming:\u003C/strong\u003E Adult Basenjis should have their nails trimmed about once a month. But when your pet is a puppy, it might be wise to trim the very tips of their nails every week to provide plenty of opportunities for them to become used to \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/guide-trimming-dogs-nails\"\u003Ethe nail-trimming process\u003C/a\u003E.\u003C/li\u003E\n\u003C/ul\u003E",
+        "training": "Keep in mind that Basenjis originated as independent hunting dogs, capable of making decisions on their own. (This type of hunting dog is called a sighthound; they hunt by sight rather than by scent.) Your pet still possesses these independent instincts. To be successful, you'll need to adjust your training techniques accordingly.\n\nFor starters, keep training positive and upbeat, being sure to use lots of praise, treats and special toys to reward your pup for doing a good job. You'll also want to keep your training segments short—two to three minutes max, then take a break. Basenjis favor positive reinforcement techniques over drills and repetition.\n\n\u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/positively-trained-puppy-socialization-dos-and-donts\"\u003ESocialization is an important part of any dog's training\u003C/a\u003E; it helps them be comfortable with new situations, people and other dogs. But Basenjis may require a little extra attention in this area. Without it, they may be more wary of strangers. Start socialization (meeting new human friends and other dogs) early, but keep interactions short (just like the training sessions) so as not to overwhelm your puppy. And don't stop socializing just because your puppy is “all grown up\" at 4 or 6 months of age. Socialization should continue throughout a dog's life, and each new experience is part of their socialization training.",
+        "diet_nutrition": "As with any dog breed, a Basenji should be fed a complete and balanced diet. There are plenty of \u003Ca href=\"https://www.chewy.com/b/premium-food-11728\"\u003Ehigh-quality commercial dog foods\u003C/a\u003E to choose from. Be sure to factor in your dog's age and choose a formula that fits their stage in life (puppy, adult, senior).\r\n\r\nSome pet parents prefer to make their pup's food, but it must be done under the guidance of your vet to ensure your pup gets the proper nutrition they need.\r\n\r\nWhen purchasing a Basenji puppy from a breeder, ask the breeder what food brands and feeding schedules have worked in their breeding program; you'll likely pick up some valuable information that way. But always consult with your veterinarian, as they are in the best position to help you pick the right food for your dog based on their individual needs.\r\n\r\nBe sure to protect your dog from obesity by paying attention to the amount of food you give them every day. And don't forget to include the treats you give in your \"mealtime math.\" Even a couple of extra pounds can lead to health problems down the road. If you notice your dog gaining weight, talk with your vet. They can help you develop a diet and exercise plan to get your pup back to a healthy weight and still get the nutrition they need.",
+        "exercise": "Basenjis have high energy levels, so it's not surprising they have somewhat high exercise needs for their physical and mental health. Plan on spending about an hour a day exhausting their energy reserves. Since Basenjis love to run, be sure to give your pup time every day to run freely in a safely fenced yard. These dogs feel the need for speed, and running off-leash is really the only way they can experience this properly. But it's absolutely critical they're unable to escape from the yard. You can also throw in a few long walks (think a couple of miles) to give them a way to explore their world.\n\nIf you're into competition, Basenjis excel at dog sports like \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/dog-agility-training-tips\"\u003Eagility\u003C/a\u003E and \u003Ca href=\"https://www.akc.org/sports/coursing/lure-coursing/\"\u003Elure coursing\u003C/a\u003E where dogs chase a motorized lure around a track. They get to really stretch their legs, and it's really fun to watch!\n\nThat's not to say this breed won't relax in the house too. As adults, many Basenjis are content to sleep cuddled up on a chair or couch. But don't choose a Basenji if you're primarily seeking a couch-potato dog. After all, the Basenji's top speed is upwards of 25 mph!",
+        "ideal_environment": "Basenjis are a good choice for an active and experienced pup parent, and their independent personalities may prove challenging if this is your first pet. Basenjis are ideal for single people; they're one of those dog breeds who may choose one person as \"theirs.\"\r\n\r\nBasenjis are generally good with kids and other dogs, although early socialization and training will help them be more accepting of their human and canine siblings. As with any dog, always supervise your pup around children.\r\n\r\nIf you're thinking of choosing a Basenji because they're a “barkless dog,\" and you'd like a silent canine, think again! Sure, one of the Basenji's characteristics is that they don't bark, but they do make a wide range of vocalizations including growls, howls and yodels. They can be quite lippy!\r\n\r\nThe size of your home really won't matter to a Basenji—they're adaptable to everything from small apartments to condos to homes of any size. They are primarily indoor dogs, after all. The key caveat is that they must have outdoor space to accommodate their high energy needs.",
+        "h2_breed_health": "Basenjis have a lifespan of about 13 to 14 years. They are generally healthy dogs with few health problems. The following are common health issues seen in the Basenji dog breed that pup parents should be aware of so you can help your pet live the fullest life possible:\r\n\u003Cul\u003E\r\n \t\u003Cli\u003E\u003Cstrong\u003EFanconi Syndrome:\u003C/strong\u003E Basenjis can be predisposed to a genetic condition called Fanconi Syndrome, which affects a part of the of the kidneys called the tubules. Affected dogs fail to reabsorb some nutrients and electrolytes back into the body. Fortunately, breeders can screen for this condition to ensure it’s not passed to future generations. There is no treatment for this condition, but it may be managed with supplements.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Cstrong\u003EProgressive Retinal Atrophy:\u003C/strong\u003E This is a genetic eye issue that leads to eventual blindness. Typically, night and low-light vision are affected first. There is no cure for \u003Ca href=\"https://www.petmd.com/dog/condition/progressive-retinal-atrophy-in-dogs\" target=\"_blank\" rel=\"noopener\"\u003EPRA\u003C/a\u003E; it’s usually a slow progression to blindness, giving the dog time to adapt.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Cstrong\u003EPersistent Pupillary Membrane:\u003C/strong\u003E This is an \u003Ca href=\"https://www.petmd.com/dog/conditions/eyes/c_dg_congenital_eye_defects\" target=\"_blank\" rel=\"noopener\"\u003Eeye condition\u003C/a\u003E that can occur when the puppy’s embryonic vessels that attach to their lens don’t resorb completely and remain present in the eye. This may cause mild to severe vision issues. Fortunately, this may clear up on its own and only occasionally needs veterinary intervention.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Cstrong\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/c_dg_hip_dysplasia\" target=\"_blank\" rel=\"noopener\"\u003EHip Dysplasia\u003C/a\u003E:\u003C/strong\u003E This is a hereditary issue that occurs when the hip joint doesn’t develop properly, which results in looseness of the joint. Depending on severity, it can be quite painful. Treatment options may include weight management, joint supplements, pain medications, physical therapy or even surgery.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Cstrong\u003EHypothyroidism:\u003C/strong\u003E This condition occurs when the thyroid gland is damaged or deteriorates, and no longer regulates the metabolism properly. When this happens, problems like weight gain, lethargy, skin/haircoat changes, reproductive changes, or neurological problems may develop. Hypothyroidism is usually diagnosed with blood testing, and may be managed with thyroid supplementation.\u003C/li\u003E\r\n\u003C/ul\u003E",
+        "h2_breed_history": "While Basenjis have only been in the United States since the 1930s, their history stretches back for centuries. \u003Ca href=\"https://www.basenji.org/BasenjiU/Owner/103History/TimePDFs/SCcienceDNAArticle2004.pdf\" target=\"_blank\" rel=\"noopener\"\u003ECanine DNA research\u003C/a\u003E has shown Basenjis to be a truly ancient breed with unique DNA unlike any other domesticated dog breed. Cave paintings in Africa depict Basenji-like dogs with curled tails, and these dogs were given to pharaohs in ancient Egypt.\r\n\r\nBasenjis were hunting dogs in Africa in the 1800s, but the qualities and characteristics of this intriguing breed fascinated Europeans. Early efforts to import Basenjis to England proved difficult due to distemper and other factors. In the 1930s, Mrs. Olivia Burn was instrumental in her efforts to establish Basenjis in England; she referred to them as “the barkless dog of the Congo.\"\r\n\r\nThe first Basenjis arrived in the United States in 1937, and the \u003Ca href=\"https://www.basenji.org/\" target=\"_blank\" rel=\"noopener\"\u003EBasenji Club of America\u003C/a\u003E was established in 1942.) The American Kennel Club recognized the Basenji breed a couple years later in 1944.\r\n\r\nAre you looking to add a Basenjis as a family member? It depends on the breeder and the region where you live, but generally, a Basenjis puppy will cost between $1,500 and $3,000. Check out the \u003Ca href=\"https://marketplace.akc.org/puppies/basenji\" rel=\"noopener\" target=\"_blank\"\u003EAKC puppy finder\u003C/a\u003E to find a reputable breeder. You can also seek out local Basenjis rescues, like \u003Ca href=\"https://www.basenjirescue.org/\" rel=\"noopener\" target=\"_blank\"\u003EBasenji Rescue and Transport\u003C/a\u003E; keep an eye out for the breed at your local shelter; or \u003Ca href=\"https://www.chewy.com/g/dog-basenji_ga1\" rel=\"noopener\" target=\"_blank\"\u003Esearch Chewy’s database\u003C/a\u003E of adoptable dogs in your area.",
+        "expert_attribution": "\u003Cem\u003EExpert input provided by veterinarian Dr. Ellen Kinzl, DVM, of Liberty Village Animal Hospital and certified dog trainer Christine Danker, CPDT-KA, KPA-CTP, PMCT3, of Hemlock Hollow LLC.\u003C/em\u003E\r\n\r\n\u003Cem\u003EBreed characteristic ratings provided by veterinarian Dr. Sarah J. Wooten, DVM, CVJ, a veterinarian at \u003Ca href=\"https://sheepdraw.com/\" target=\"_blank\" rel=\"noopener\"\u003ESheep Draw Veterinary Hospital\u003C/a\u003E in Greeley, Colorado; dog trainer and behavior consultant Irith Bloom, CPDT-KSA, CBCC-KA, CDBC, owner of \u003Ca href=\"https://thesophisticateddog.com/\" target=\"_blank\" rel=\"noopener\"\u003EThe Sophisticated Dog, LLC\u003C/a\u003E, in Los Angeles; and certified animal behavior consultant \u003Ca href=\"https://shojai.com/\" target=\"_blank\" rel=\"noopener\"\u003EAmy Shojai\u003C/a\u003E, CABC, in Sherman, Texas. \u003C/em\u003E\r\n\r\n\u003Cem\u003EThe health content was medically reviewed by Chewy vets.\u003C/em\u003E",
+        "facebook_social_snippet_with_cta": "If barking isn't your favorite canine characteristic, you just might love the barkless Basenji. Find out if these curly-tailed dogs are a good match for your family and check out all the facts, information and a bit of Basenji history in our complete guide.",
+        "species": "Dog",
+        "h2_faqs": "\u003Ch3\u003EDo Basenjis bark?\u003C/h3\u003E\nNo, Basenjis do not bark. But even though they are considered barkless, it's important to remember they do make noise. Basenjis are capable of making many sounds, and they love to yodel.\n\u003Ch3\u003EAre Basenjis hypoallergenic? Do they shed?\u003C/h3\u003E\nWhile it's impossible to say that any dog is 100-percent hypoallergenic, Basenjis tend to be a better match for people with allergies than many other dog breeds. Basenjis shed minimally and have low amounts of dander, plus they are fastidiously clean dogs, which also helps to reduce allergens.\n\u003Ch3\u003EAre Basenjis good family dogs?\u003C/h3\u003E\nBasenjis can be good family dogs when they're properly socialized and trained from an early age. In general, all dogs should be supervised around young children, and children should be taught how to properly handle dogs and respect their boundaries.\n\u003Ch3\u003EWhich breed is most similar to the Basenji?\u003C/h3\u003E\nWe have found \u003Ca href=\"https://www.chewy.com/education/dog-breeds/shiba-inu/\"\u003EShiba Inus\u003C/a\u003E to have several similar characteristics as Basenjis. \u003Ca href=\"https://www.chewy.com/education/dog-breeds\"\u003ECompare these two breeds side-by-side\u003C/a\u003E&nbsp;and see for yourself.\n\u003Ch3\u003EWhat are the most common Basenji dog mixes?\u003C/h3\u003E\n\u003Cul\u003E\n \t\u003Cli\u003EBasenji-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/chihuahua/\"\u003EChihuahua\u003C/a\u003E mix (Chisenji or Basenji Chi)\u003C/li\u003E\n \t\u003Cli\u003EBasenji-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/american-pit-bull-terrier/\"\u003EAmerican Pit Bull Terrier\u003C/a\u003E mix (Pitsenji)\u003C/li\u003E\n \t\u003Cli\u003EBasenji-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/labrador-retriever/\"\u003ELabrador Retriever\u003C/a\u003E mix (Labrasenji)\u003C/li\u003E\n \t\u003Cli\u003EBasenji-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/cardigan-welsh-corgi/\"\u003ECardigan Welsh Corgi\u003C/a\u003E mix (Corsenji)\u003C/li\u003E\n \t\u003Cli\u003EBasenji-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/german-shepherd/\"\u003EGerman Shepherd\u003C/a\u003E mix (German Shepenji)\u003C/li\u003E\n \t\u003Cli\u003EBasenji-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/husky/\"\u003ESiberian Husky\u003C/a\u003E mix (Basenji Siberian Husky)\u003C/li\u003E\n\u003C/ul\u003E\n\u003Ch3\u003EAre there any famous Basenjis?\u003C/h3\u003E\nIn the 1950s film Good-bye, My Lady the title role was played by a Basenji by the name of My Lady of the Congo.\n\u003Ch3\u003EHow do you pronounce Basenji?\u003C/h3\u003E\nBasenji is pronounced \u003Cem\u003Ebuh-SEN-jee\u003C/em\u003E.",
+        "faq_items": [
+          {
+            "faq_title": "Do Basenjis bark?",
+            "faq_content": "No, Basenjis do not bark. But even though they are considered barkless, it's important to remember they do make noise. Basenjis are capable of making many sounds, and they love to yodel."
+          },
+          {
+            "faq_title": "Are Basenjis hypoallergenic? Do they shed?",
+            "faq_content": "While it's impossible to say that any dog is 100-percent hypoallergenic, Basenjis tend to be a better match for people with allergies than many other dog breeds. Basenjis shed minimally and have low amounts of dander, plus they are fastidiously clean dogs, which also helps to reduce allergens."
+          },
+          {
+            "faq_title": "Are Basenjis good family dogs?",
+            "faq_content": "Basenjis can be good family dogs when they're properly socialized and trained from an early age. In general, all dogs should be supervised around young children, and children should be taught how to properly handle dogs and respect their boundaries."
+          },
+          {
+            "faq_title": "Which breed is most similar to the Basenji?",
+            "faq_content": "We have found \u003Ca href=\"https://www.chewy.com/education/dog-breeds/shiba-inu/\"\u003EShiba Inus\u003C/a\u003E to have several similar characteristics as Basenjis. \u003Ca href=\"https://www.chewy.com/education/dog-breeds\"\u003ECompare these two breeds side-by-side\u003C/a\u003E&nbsp;and see for yourself."
+          },
+          {
+            "faq_title": "What are the most common Basenji dog mixes?",
+            "faq_content": "\u003Cul\u003E\r\n \t\u003Cli\u003EBasenji-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/chihuahua/\"\u003EChihuahua\u003C/a\u003E mix (Chisenji or Basenji Chi)\u003C/li\u003E\r\n \t\u003Cli\u003EBasenji-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/american-pit-bull-terrier/\"\u003EAmerican Pit Bull Terrier\u003C/a\u003E mix (Pitsenji)\u003C/li\u003E\r\n \t\u003Cli\u003EBasenji-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/labrador-retriever/\"\u003ELabrador Retriever\u003C/a\u003E mix (Labrasenji)\u003C/li\u003E\r\n \t\u003Cli\u003EBasenji-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/cardigan-welsh-corgi/\"\u003ECardigan Welsh Corgi\u003C/a\u003E mix (Corsenji)\u003C/li\u003E\r\n \t\u003Cli\u003EBasenji-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/german-shepherd/\"\u003EGerman Shepherd\u003C/a\u003E mix (German Shepenji)\u003C/li\u003E\r\n \t\u003Cli\u003EBasenji-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/husky/\"\u003ESiberian Husky\u003C/a\u003E mix (Basenji Siberian Husky)\u003C/li\u003E\r\n\u003C/ul\u003E"
+          },
+          {
+            "faq_title": "Are there any famous Basenjis?",
+            "faq_content": "In the 1950s film Good-bye, My Lady the title role was played by a Basenji by the name of My Lady of the Congo."
+          },
+          {
+            "faq_title": "How do you pronounce Basenji?",
+            "faq_content": "Basenji is pronounced \u003Cem\u003Ebuh-SEN-jee\u003C/em\u003E."
+          }
+        ],
+        "select_related_breeds": [
+          {
+            "selected_related_breed": 359,
+            "characteristic": "breed_characteristics_exercise_needs"
+          },
+          {
+            "selected_related_breed": 1134,
+            "characteristic": "breed_characteristics_shedding_level"
+          },
+          {
+            "selected_related_breed": 1064,
+            "characteristic": "breed_characteristics_training_needs"
+          },
+          {
+            "selected_related_breed": 601,
+            "characteristic": "breed_characteristics_friendliness"
+          },
+          {
+            "selected_related_breed": 999,
+            "characteristic": "breed_characteristics_playfulnesss"
+          },
+          {
+            "selected_related_breed": 73,
+            "characteristic": "breed_characteristics_energy_level"
+          }
+        ],
+        "enable_featured_gallery": [
+          "enable_featured_gallery"
+        ],
+        "featured_gallery_images": [1053, 1046, 1047, 1048, 1049, 1050]
+      },
+      "yoast_head": "\u003C!-- This site is optimized with the Yoast SEO plugin v23.8 - https://yoast.com/wordpress/plugins/seo/ --\u003E\n\u003Ctitle\u003EBasenji Breed: Characteristics, Care &amp; Photos | Chewy\u003C/title\u003E\n\u003Cmeta name=\"description\" content=\"These &quot;barkless&quot; dogs are easy to groom, intelligent and need room to run. Learn more about Basenji behavior, characteristics and compatibility.\" /\u003E\n\u003Cmeta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" /\u003E\n\u003Clink rel=\"canonical\" href=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/basenji/\" /\u003E\n\u003Cmeta property=\"og:locale\" content=\"en_US\" /\u003E\n\u003Cmeta property=\"og:type\" content=\"article\" /\u003E\n\u003Cmeta property=\"og:title\" content=\"Basenji Breed: Characteristics, Care &amp; Photos | Chewy\" /\u003E\n\u003Cmeta property=\"og:description\" content=\"These &quot;barkless&quot; dogs are easy to groom, intelligent and need room to run. Learn more about Basenji behavior, characteristics and compatibility.\" /\u003E\n\u003Cmeta property=\"og:url\" content=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/basenji/\" /\u003E\n\u003Cmeta property=\"og:site_name\" content=\"Chewy\" /\u003E\n\u003Cmeta property=\"article:modified_time\" content=\"2025-05-05T14:22:31+00:00\" /\u003E\n\u003Cmeta property=\"og:image\" content=\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/12/13153842/202105Breed-Hero-Basenji.jpg\" /\u003E\n\t\u003Cmeta property=\"og:image:width\" content=\"1835\" /\u003E\n\t\u003Cmeta property=\"og:image:height\" content=\"1032\" /\u003E\n\t\u003Cmeta property=\"og:image:type\" content=\"image/jpeg\" /\u003E\n\u003Cmeta name=\"twitter:card\" content=\"summary_large_image\" /\u003E\n\u003Cscript type=\"application/ld+json\" class=\"yoast-schema-graph\"\u003E{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/basenji/\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/basenji/\",\"name\":\"Basenji Breed: Characteristics, Care & Photos | Chewy\",\"isPartOf\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/basenji/#primaryimage\"},\"image\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/basenji/#primaryimage\"},\"thumbnailUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/12/13153842/202105Breed-Hero-Basenji.jpg\",\"datePublished\":\"2021-05-27T14:13:27+00:00\",\"dateModified\":\"2025-05-05T14:22:31+00:00\",\"description\":\"These \\\"barkless\\\" dogs are easy to groom, intelligent and need room to run. Learn more about Basenji behavior, characteristics and compatibility.\",\"breadcrumb\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/basenji/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://phcms.hlth.prd.aws.chewy.cloud/breed/basenji/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/basenji/#primaryimage\",\"url\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/12/13153842/202105Breed-Hero-Basenji.jpg\",\"contentUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/12/13153842/202105Breed-Hero-Basenji.jpg\",\"width\":1835,\"height\":1032,\"caption\":\"Basenji\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/basenji/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://phcms.hlth.prd.aws.chewy.cloud/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Basenji\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/\",\"name\":\"Chewy\",\"description\":\"\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"}]}\u003C/script\u003E\n\u003C!-- / Yoast SEO plugin. --\u003E",
+      "yoast_head_json": {
+        "title": "Basenji Breed: Characteristics, Care & Photos | Chewy",
+        "description": "These \"barkless\" dogs are easy to groom, intelligent and need room to run. Learn more about Basenji behavior, characteristics and compatibility.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://phcms.hlth.prd.aws.chewy.cloud/breed/basenji/",
+        "og_locale": "en_US",
+        "og_type": "article",
+        "og_title": "Basenji Breed: Characteristics, Care & Photos | Chewy",
+        "og_description": "These \"barkless\" dogs are easy to groom, intelligent and need room to run. Learn more about Basenji behavior, characteristics and compatibility.",
+        "og_url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/basenji/",
+        "og_site_name": "Chewy",
+        "article_modified_time": "2025-05-05T14:22:31+00:00",
+        "og_image": [
+          {
+            "width": 1835,
+            "height": 1032,
+            "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/12/13153842/202105Breed-Hero-Basenji.jpg",
+            "type": "image/jpeg"
+          }
+        ],
+        "twitter_card": "summary_large_image",
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/basenji/",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/basenji/",
+              "name": "Basenji Breed: Characteristics, Care & Photos | Chewy",
+              "isPartOf": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/basenji/#primaryimage"
+              },
+              "image": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/basenji/#primaryimage"
+              },
+              "thumbnailUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/12/13153842/202105Breed-Hero-Basenji.jpg",
+              "datePublished": "2021-05-27T14:13:27+00:00",
+              "dateModified": "2025-05-05T14:22:31+00:00",
+              "description": "These \"barkless\" dogs are easy to groom, intelligent and need room to run. Learn more about Basenji behavior, characteristics and compatibility.",
+              "breadcrumb": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/basenji/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://phcms.hlth.prd.aws.chewy.cloud/breed/basenji/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/basenji/#primaryimage",
+              "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/12/13153842/202105Breed-Hero-Basenji.jpg",
+              "contentUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/12/13153842/202105Breed-Hero-Basenji.jpg",
+              "width": 1835,
+              "height": 1032,
+              "caption": "Basenji"
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/basenji/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://phcms.hlth.prd.aws.chewy.cloud/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Basenji"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/",
+              "name": "Chewy",
+              "description": "",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            }
+          ]
+        }
+      },
+      "yoast_meta": {
+        "yoast_wpseo_title": "",
+        "yoast_wpseo_metadesc": "",
+        "yoast_wpseo_canonical": ""
+      },
+      "_links": {
+        "self": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed/1054",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/types/breed"
+          }
+        ],
+        "acf:attachment": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/1050"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/1049"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/1048"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/1047"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/1046"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/1053"
+          }
+        ],
+        "wp:featuredmedia": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/2838"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media?parent=1054"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "pet_type",
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/pet_type?post=1054"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ]

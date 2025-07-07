@@ -1,0 +1,333 @@
+[
+    {
+      "id": 801,
+      "date": "2021-06-14T09:17:18",
+      "date_gmt": "2021-06-14T09:17:18",
+      "guid": {
+        "rendered": "https://haproxy.use1.lgcy.prd.aws.chewy.cloud/eks/ns/pet-health/pet-health-content-backend/breed/dutch-shepherd/"
+      },
+      "modified": "2025-05-05T14:22:06",
+      "modified_gmt": "2025-05-05T14:22:06",
+      "slug": "dutch-shepherd",
+      "status": "publish",
+      "type": "breed",
+      "link": "https://phcms.hlth.prd.aws.chewy.cloud/breed/dutch-shepherd/",
+      "title": {
+        "rendered": "Dutch Shepherd"
+      },
+      "featured_media": 3397,
+      "template": "",
+      "pet_type": [],
+      "class_list": [
+        "post-801",
+        "breed",
+        "type-breed",
+        "status-publish",
+        "has-post-thumbnail",
+        "hentry"
+      ],
+      "acf": {
+        "breed_snapshot_best_for": "\u003Cp\u003EDutch Shepherds are versatile herding dogs who need ample exercise and mental stimulation to live their best lives. They thrive in active households and love adventure.\u003C/p\u003E",
+        "alt_image_text": "Dutch Shepherd dog breed",
+        "breed_intro": "\u003Cp\u003EIf James Bond were a dog, he might just be the Dutch Shepherd. This handsome, hard-working, quick-witted breed with \u003Ca href=\"https://www.chewy.com/education/dog/general/9-dog-movies-honoring-military-canines\"\u003Emilitary\u003C/a\u003E ties and loads of drive is always ready for action—minus the martini, of course. Make no mistake: The Dutch Shepherd, or Dutchie, isn't interchangeable with their cousin the German Shepherd. With their brindle coats and propensity for the working life, these dogs are in a class all their own. Full of energy and ambition, they are ready and waiting to go on adventure with you today and every day. And when they're off the clock, these playful, affectionate dogs adore their families and live to please.\u003C/p\u003E",
+        "breed_related_products_product_card_set": null,
+        "breed_snapshot_temperament": "\u003Cp\u003EClever, Exuberant, Independent\u003C/p\u003E",
+        "what_does_this_breed_look_like_weight": "\u003Cp\u003EMale: 42-75 pounds\u003C/p\u003E\u003Cp\u003EFemale: 42-75 pounds \u003C/p\u003E",
+        "what_does_this_breed_look_like_height": "\u003Cp\u003EMale: 22.5-24.5 inches\u003C/p\u003E\u003Cp\u003EFemale: 21.5-23.5 inches\u003C/p\u003E",
+        "breed_snapshot_life_expectancy": "\u003Cp\u003E11 to 14 years\u003C/p\u003E",
+        "breed_snapshot_maintenance_level": "\u003Cp\u003EHigh\u003C/p\u003E",
+        "breed_characteristics_friendliness": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_snapshot_coat_color": "\u003Cp\u003EGold Brindle, Silver Brindle\u003C/p\u003E",
+        "breed_snapshot_shed_level": "\u003Cp\u003EHigh \u003C/p\u003E",
+        "in_article_video": null,
+        "breed_characteristics": "\u003Cp\u003EThese traits are rated on a scale of 1-5 with 1 being the lowest and 5 being the highest. Remember: Dogs are individuals, and not all dogs, even those of the same breed, will exhibit all the same qualities.\u003C/p\u003E",
+        "breed_characteristics_exercise_needs": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_health_issues": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_barking_tendencies": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_grooming_needs": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_shedding_level": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_training_needs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_kids": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_cats": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_for_apartments_small_homes": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_energy_level": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_good_with_other_dogs": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_playfulnesss": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_cold_weather": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_warm_weather": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_for_first_time_parents": "\u003Cp\u003E3\u003C/p\u003E",
+        "how_do_i_look_card_image": 3398,
+        "what_does_this_breed_look_like": "\u003Cp\u003EDutch Shepherds have a lot in common with the \u003Ca href=\"https://www.chewy.com/education/dog-breeds/german-shepherd/\" target=\"_blank\" rel=\"noopener\"\u003EGerman Shepherd\u003C/a\u003E, but don't confuse the two—Dutchies have their own unique traits. Their gold or silver brindle coats can be short, long or rough over a woolly undercoat, and their muscular build, alert ears and watchful eyes can make them look like they're reporting for K-9 duty with your local police squad. But they're not all business—that wide smile will remind you they're fun-loving furry friends at heart.\u003C/p\u003E",
+        "what_does_this_breed_look_like_ears": "\u003Cp\u003EDutch Shepherd ears are large and pointed and stand upright on their wedge-shaped heads. A Dutch Shepherd puppy will have floppy ears, but they'll perk up over time as the muscles and cartilage develop.\u003C/p\u003E",
+        "what_does_this_breed_look_like_eyes": "\u003Cp\u003EDutch Shepherd eyes are almond-shaped and typically brown or gold. \u003C/p\u003E",
+        "what_does_this_breed_look_like_nose": "\u003Cp\u003EThey have long muzzles and black noses, giving them that signature shepherd look. \u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_length": "\u003Cp\u003EA Dutch Shepherd's coat can be one of three types: short-hair (close fitting with a wooly undercoat), long-hair (medium in length and straight with a wooly undercoat) and rough-hair (dense, harsh with a wooly undercoat). \u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_color": "\u003Cp\u003EMost Dutch Shepherd's colors are brindle—faintly tiger-striped—in shades of silver or gold. \u003C/p\u003E",
+        "what_does_this_breed_look_like_tail": "\u003Cp\u003EThe Dutch Shepherd tail is long and hangs down with a slight curve when they're relaxed. It arcs upwards when they're active. \u003C/p\u003E",
+        "h2_breed_temperament": "\u003Cp\u003EJust as you wouldn't expect a \u003Ca href=\"https://www.chewy.com/education/dog-breeds/havanese/\"\u003EHavanese\u003C/a\u003E to be a fierce watchdog, the Dutch Shepherd temperament isn't all cuddles and snuggles—but that doesn't mean they aren't affectionate! These dogs are faithful pets and people-pleasers who are happiest right by your side, and while they're active and highly motivated, they're also happy to lounge by your feet when the day is done.\u003C/p\u003E\n\u003Cp\u003EDutch Shepherds live to work, but they're good at knowing when it's quittin' time, too. When the job is done, they'll settle down and recharge (and will let you do the same). Their intelligence, endurance and go-to-the-ends-of-the-earth-for-you loyalty make them both great pets and a top-notch working dog (aka a dog bred to perform a job). There's a reason they're a preferred breed for the police and military, and why you'll often see them as service dogs. Dutch Shepherds can put blinders on to focus on the job at hand and won't rest until it's done—and you better believe it will be done right.\u003C/p\u003E\n\u003Cp\u003EAt the same time, they can switch gears in the blink of an eye. Their stoic, no-nonsense mugs belie the friendly, faithful and playful dog they are; these pups are great playmates for kids! They aren't naturally aggressive, but they will keep strangers at bay. If they aren't working, Dutchies are happiest when they are with their family, and they hate to be left out. When they're alone for too long, they are sure to get bored and lonely, and undesirable behaviors (like \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/training-tips-how-to-stop-destructive-chewing-in-dogs\"\u003Echewing your shoes\u003C/a\u003E) may pop up. Keep a Dutch Shepherd busy, give them lots of affection, and you'll be besties for life.\u003C/p\u003E",
+        "h2_how_to_care_for_a_breed": "\u003Cp\u003EGood news! While the Dutch Shepherd's high energy levels mean lots of walks and jogs (the next episode of your latest Netflix binge can wait, right?), caring for them is otherwise relatively easy. The amount of grooming you'll have to do depends on their coat type—the shorter the coat, the easier the job.\u003C/p\u003E",
+        "grooming": "\u003Cp\u003EDon't be surprised if someone asks you how you're managing with your \"Dutch shedder.\" Dutch Shepherd shedding is light for most of the year and can be controlled with brushing. However, these pups do shed a lot in the spring and fall, and you'll need to up your brushing game during these times. You may want to keep both a hand-held vacuum and a lint brush at the ready—and opt out of wearing black pants for a while.\u003C/p\u003E\n\u003Cp\u003EShort-coated Dutchies only need to be brushed occasionally (every two to three weeks) to keep their coat smooth and shiny. During shedding season, you'll need to brush out your dog every day, and a \u003Ca href=\"https://www.chewy.com/education/dog/grooming/less-shedding-yes-please-your-guide-to-the-best-dog-brushes-to-groom-your-pet\" target=\"_blank\" rel=\"noopener\"\u003Eslicker brush and deshedding tool\u003C/a\u003E will be your best friend in helping get rid of loose, dead hair.\u003C/p\u003E\n\u003Cp\u003ELong-coated Dutchies (a rare trait of the breed) need to be brushed with a \u003Ca href=\"https://www.chewy.com/f/slicker-brush-dog-brushes-combs_c356_f70v83792\"\u003Eslicker brush\u003C/a\u003E followed with a \u003Ca href=\"https://www.chewy.com/b/brushes-combs-356\"\u003Ecomb\u003C/a\u003E every week to help remove tangles. Plan on upping that to daily during shedding season.\u003C/p\u003E\n\u003Cp\u003ERough-coated pups can be \u003Ca href=\"https://www.chewy.com/b/brushes-combs-356\"\u003Ecombed\u003C/a\u003E once a month, but their coats will need to be hand-stripped (when you rake through the coat with your hands or a \u003Ca href=\"https://www.chewy.com/s?query=hand%20stripping%20tools&amp;nav-submit-button=\"\u003Estripping tool\u003C/a\u003E to get rid of loose, dead hair) in the spring and fall.\u003C/p\u003E\n\u003Cp\u003EBathing Dutchies, on the other hand, is far less complicated. The nice thing about this breed is that they really don't need frequent baths. Provided your dog isn't applying full-body mud masks on a daily basis, you don't need to bathe them more than once every four to six weeks.\u003C/p\u003E\n\u003Cp\u003ETo make sure they're staying healthy, do a weekly once-over of their ears and teeth. Look for any redness or swelling in their ears (signs of infection) and contact your veterinarian if you notice anything unusual. (They may advise you to \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/how-do-you-clean-a-dogs-ears-follow-this-vet-approved-step-by-step-guide\"\u003Eclean their ears\u003C/a\u003E.)\u003C/p\u003E\n\u003Cp\u003E\u003Ca href=\"https://www.chewy.com/education/dog/grooming/health-wellness-how-to-brush-your-dogs-teeth-live-to-tell-the-tale\" target=\"_blank\" rel=\"noopener\"\u003EBrush\u003C/a\u003E your dog's teeth daily, and be sure to schedule an annual visit to your vet for a professional dental cleaning to keep those pearly whites in tip-top shape.\u003C/p\u003E\n\u003Cp\u003EAnd don't forget to \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/guide-trimming-dogs-nails\" target=\"_blank\" rel=\"noopener\"\u003Eclip your Dutch Shepherd's nails\u003C/a\u003E once a month to make sure they don't grow uncomfortably long. You'll know it's time for a trim when you hear them clacking on hard surfaces.\u003C/p\u003E",
+        "training": "\u003Cp\u003EDutch Shepherds are smart and independent—excellent traits! But if they aren't taught what to do and provided structure in their lives, they might take matters into their own hands and try to take charge—not so excellent. Short, active training sessions are best for this intelligent breed to keep them engaged and eager to learn.\u003C/p\u003E\n\u003Cp\u003EFortunately, Dutch Shepherds excel at following directions and are eager to please their families. They're quick-witted and driven to learn, and that makes for a highly trainable breed. Keep training sessions relatively short so your dog stays stimulated and focused. After you've mastered \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/sit-stay-and-beyond-weve-got-the-essential-guide-to-basic-dog-obedience-training\"\u003Eobedience training\u003C/a\u003E (the basics like \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-sit\"\u003Esit\u003C/a\u003E, \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-stay\"\u003Estay\u003C/a\u003E and \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-come\"\u003Ecome\u003C/a\u003E), you can move on to more complex skills like jumps, scent training, and protection training—and why stop there? Dutch Shepherds are so smart they can be taught to fetch your slippers and even pick up the mail. Using positive reinforcement, aka rewarding your dog's good behavior with treats, toys and praise, will make the training experience more enjoyable for everyone. If you are a newbie Dutchie parent, you can get some advice from a reputable dog trainer who has experience with Dutch Shepherd types.\u003C/p\u003E\n\u003Cp\u003EDaily decompression walks and and enrichment activities are ideal throughout the entirety of the dog's life. These dogs do best with pet parents who are patient and can work at their pace.\u003C/p\u003E\n\u003Cp\u003EEven though these pups are friendly, \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/positively-trained-puppy-socialization-dos-and-donts\"\u003Esocialization\u003C/a\u003E is still important. Getting your dog used to new people, other animals and situations while they're a puppy helps bring out their friendly qualities as they grow up. Enroll your dog in puppy school; this is a great way for them to learn how to play nicely with other puppies, and they get to meet other pup parents, too.\u003C/p\u003E",
+        "diet_nutrition": "\u003Cp\u003EThe Dutch Shepherd is a big dog with a big appetite, and because they're so active, they can benefit from a \u003Ca href=\"https://www.chewy.com/f/high-protein-dog-food_c332_f3v84890\" target=\"_blank\" rel=\"noopener\"\u003Ehigh-protein dog food\u003C/a\u003E that can help build muscle and sustain them all day long. Be sure to look for the statement on the package that says the formula meets the nutritional standards of the Association of American Feed Control Officials. Consult your vet for the recommended serving size and frequency of whatever high-quality commercial dog food you choose for your pup and make sure it's right for their life stage (puppy, adult, senior).\u003C/p\u003E\r\n\u003Cp\u003ETreats will be key when you're training, too. Counting calories isn't usually necessary with this super-active breed of dog, but be conscious of how many fatty dog treats you're giving your dog a day—those treat calories count! Even an extra few pounds can adversely affect your pup's health. Veggies can be a good treat substitute during training. If you're concerned about your Dutchie's weight, talk with your vet. They're in the best position to help you put together a meal and exercise regime to help your pup shed the extra weight.\u003C/p\u003E",
+        "exercise": "\u003Cp\u003ELonely hikers, bikers and runners, rejoice! Think of the Dutch Shepherd as your partner in all things athletic and outdoorsy, and count on needing to fit a lot of physical activity into your daily routine when this breed joins your family. Your Dutch Shepherd is built for running, endurance and speed and will keep pace with you on those long treks. And then, without a word of complaint, they'll do it all again tomorrow.\u003C/p\u003E\r\n\u003Cp\u003EThese dogs are the opposite of homebodies and will be happiest when they're right there by your side, whether you're weeding the garden or walking to your pet-friendly neighborhood corner store. Dutchies need both mental and physical stimulation, so don't forget to have \u003Ca href=\"https://www.chewy.com/b/puzzle-toys-games-2335\"\u003Etoy puzzles\u003C/a\u003E around for them to engage their intelligent minds as well.\u003C/p\u003E\r\n\u003Cp\u003EOne to two hours of exercise each day, which could include a long stroll and/or dog sports like catch or fetch, and some time puzzle time should be plenty to burn off all that energy.\u003C/p\u003E",
+        "ideal_environment": "\u003Cp\u003EWhy don't you see a ton of Dutch Shepherds in the city? The reason is right there in the name. This hardy breed has shepherd roots and needs lots of space to run and roam. Farms, country houses and homes with fenced yards in the suburbs are all perfect for this breed. Still, if you're a city person with daily access to a large, fenced-in area, you can make it work.\u003C/p\u003E\r\n\u003Cp\u003EDutch Shepherds enjoy family life and are a good fit for homes with children. They'll get along with other dogs in the household, but they may need extra training and socialization to do the same with cats. Above all else, they need a family with an active lifestyle or one that can prioritize getting these pups the high levels of exercise they need. In other words, you won't find many Dutch Shepherds who enjoy sleeping the entire day away on the front porch. This dog really needs to run and play to live a happy, healthy life.\u003C/p\u003E\r\n\u003Cp\u003EThis is a robust breed who's built to work outdoors, so cold weather and rain aren't likely to faze them. Some Dutch Shepherds may be sensitive to warm weather, though, so a hot and humid climate isn't their ideal home.\u003C/p\u003E",
+        "h2_breed_health": "\u003Cp\u003EDutch Shepherds have a lifespan of 11 to 14 years and are, in general, a healthy breed. Genetic health problems aren’t common with Dutch Shepherds. That said, there are a few health issues you’ll want to watch out for.\u003C/p\u003E\r\n\u003Cul\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/c_dg_hip_dysplasia\" target=\"_blank\" rel=\"noopener\"\u003EHip\u003C/a\u003E and \u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/c_dg_elbow_dysplasia\" target=\"_blank\" rel=\"noopener\"\u003EElbow Dysplasia\u003C/a\u003E\u003C/strong\u003E: Hip and elbow dysplasia occurs when the ball of the hip or elbow joint doesn’t fit well in its socket, and it can be a painful and serious issue for larger breeds like the Dutch Shepherd. Because these conditions are hereditary, talk to your breeder about the health of your puppy’s parents. Encourage them to perform Penn Hip Improvement Program (PennHIP) or Orthopedic Foundation for Animals (OFA) diagnostic screenings to test for these diseases and put your mind at ease. If your dog does suffer from dysplasia, treatments range from weight management to physical therapy to surgery, depending on the severity.\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003EThyroid Conditions\u003C/strong\u003E: Parents of long-haired Dutch Shepherds should keep an eye out for thyroid problems. Hypothyroidism—when your dog’s metabolism slows because they’re not producing enough thyroid hormones—is usually detected after a dog starts to act sluggish, gain weight and even lose hair. Regular screenings, conducted by your vet, can help you make sure your dog is healthy, and detect and treat problems right away. Thyroid problems usually respond well to medication.\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003EGoniodysplasia\u003C/strong\u003E: Dutch Shepherds with a rough-haired coat are more genetically susceptible to this form of \u003Ca href=\"https://www.petmd.com/dog/conditions/eyes/c_dg_glaucoma\" target=\"_blank\" rel=\"noopener\"\u003Eglaucoma\u003C/a\u003E in which the fluid in the eye doesn’t drain properly. It’s important to treat this condition right away to prevent vision loss. Medications and surgery are both good options, depending on the severity of the case.\u003C/li\u003E\r\n\u003C/ul\u003E",
+        "h2_breed_history": "\u003Cp\u003ESpoiler alert: As their name suggests, the Dutch Shepherd originated in the Netherlands. In the early 1880s, this breed was developed to work as a farm dog, herder and guard dog. Having a Dutch Shepherd on hand was like having a farm hand, a watchdog and a security detail all rolled into one. Over time, their intelligence and vigilant nature led to their use as police and military dogs, and they've held positions as search and rescue dogs, too. No wonder people sometimes describe Dutch Shepherds as a breed of workaholics.\u003C/p\u003E\r\n\u003Cp\u003EIt's widely believed that Dutch Shepherds, \u003Ca href=\"https://www.chewy.com/education/dog-breeds/german-shepherd/\" target=\"_blank\" rel=\"noopener\"\u003EGerman Shepherds\u003C/a\u003E and \u003Ca href=\"https://www.chewy.com/education/dog-breeds/belgian-malinois/\" target=\"_blank\" rel=\"noopener\"\u003EBelgian Shepherds, or Belgian Malinois\u003C/a\u003E, all descended from the same herding dogs, and you'll notice they do look similar. Most Dutch Shepherds lived near Belgium—and stayed there for a long, long time without venturing outside the Netherlands' borders. By the 1940s and 1950s, when modern farming reduced the need for herding sheep, the popularity of the Dutch Shepherd plummeted. During World War II, these dogs almost became extinct. While the breed survived, the Dutch Shepherd remains relatively rare even today. The Dutch Shepherd is not yet an American Kennel Club-recognized breed.\u003C/p\u003E\r\n\u003Cp\u003ELooking to add a Dutch Shepherd to your family? The cost of a Dutch Shepherd averages around $1,200, but dogs with a superior pedigree can go for more than three times that much. Many pet parents will tell you it's worth it, though, to have these wonderful dogs in their lives. And for that price, you'll likely get a pup who's been screened for health and temperament issues and may come with pedigree papers. The \u003Ca href=\"https://marketplace.akc.org/puppies/dutch-shepherd\"\u003EAKC website\u003C/a\u003E can help you find Dutch Shepherd puppies from a reputable breeder. Otherwise, you can consider contacting your local Dutch Shepherd rescue to adopt one of these dogs. \u003Ca href=\"https://www.chewy.com/g/dog-dutch-shepherd_ga1\" target=\"_blank\" rel=\"noopener\"\u003ESearch Chewy’s database of adoptable dogs\u003C/a\u003E for Dutch Shepherds in your area.\u003C/p\u003E",
+        "expert_attribution": "\u003Cp\u003E\u003Ci\u003EExpert input provided by Michelle MeGill, VSA-certified dog trainer and founder of Philadelphia-based \u003Ca href=\"https://www.trainwiththunderdogz.com/\" target=\"_blank\" rel=\"noopener\"\u003EThunderdogz\u003C/a\u003E, \u003C/i\u003E\u003Ci\u003E\u003Ci\u003Epet behaviorist/former veterinarian Dr. Heather Rife, and \u003Ci\u003EC\u003C/i\u003E\u003Ci\u003Eonnecticut-based Jennifer Dematteo, owner of training and dog-walking service \u003Ca href=\"https://www.instagram.com/jennywalkstheblock/\" target=\"_blank\" rel=\"noopener\"\u003EJenny Walks the Block\u003C/a\u003E.\u003C/i\u003E\u003C/i\u003E\u003C/i\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cem\u003EBreed characteristic ratings provided by veterinarian Dr. Sarah J. Wooten, DVM, CVJ, a veterinarian at \u003Ca href=\"https://sheepdraw.com/\" target=\"_blank\" rel=\"noopener\"\u003ESheep Draw Veterinary Hospital\u003C/a\u003E in Greeley, Colorado; dog trainer and behavior consultant Irith Bloom, CPDT-KSA, CBCC-KA, CDBC, owner of \u003Ca href=\"https://thesophisticateddog.com/\" target=\"_blank\" rel=\"noopener\"\u003EThe Sophisticated Dog, LLC\u003C/a\u003E, in Los Angeles; and certified animal behavior consultant \u003Ca href=\"https://shojai.com/\" target=\"_blank\" rel=\"noopener\"\u003EAmy Shojai\u003C/a\u003E, CABC, in Sherman, Texas. \u003C/em\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cem\u003EThe health content was medically reviewed by Chewy vets.\u003C/em\u003E\u003C/p\u003E",
+        "facebook_social_snippet_with_cta": "\u003Cp\u003EAthletic and intelligent, with a wolf-like appearance and an incomparable drive to work, the Dutch Shepherd is a special breed who might just be your perfect match. \u003C/p\u003E",
+        "species": "\u003Cp\u003EDog\u003C/p\u003E",
+        "h2_faqs": "\u003Ch3\u003EDo Dutch Shepherds shed?\u003C/h3\u003E\r\n\u003Cp\u003EYes, Dutch Shepherds do shed and will do so heavily in the spring and fall. During this time, your dog will need a thorough daily brushing to keep flyaways at bay.\u003C/p\u003E\r\n\u003Ch3\u003EAre Dutch Shepherds good family dogs?\u003C/h3\u003E\r\n\u003Cp\u003EYes, Dutch Shepherds are great family dogs! While they may look intimidating, they're a friendly and playful breed who's ideal for families with children.\u003C/p\u003E\r\n\u003Ch3\u003EWhat are the most common Dutch Shepherd mixes?\u003C/h3\u003E\r\n\u003Cul\u003E\r\n\t\u003Cli\u003EDutch Shepherd-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/belgian-malinois/\"\u003EBelgian Malinois\u003C/a\u003E mix (Mali Dutchie)\u003C/li\u003E\r\n\t\u003Cli\u003EDutch Shepherd-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/german-shepherd/\"\u003EGerman Shepherd\u003C/a\u003E mix (Dutch Shepherd German Shepherd)\u003C/li\u003E\r\n\t\u003Cli\u003EDutch Shepherd-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/labrador-retriever/\"\u003ELabrador\u003C/a\u003E mix (Dutch Lab)\u003C/li\u003E\r\n\t\u003Cli\u003EDutch Shepherd-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/american-pit-bull-terrier/\"\u003EPit Bull\u003C/a\u003E mix (Shepherd Pit)\u003C/li\u003E\r\n\t\u003Cli\u003EDutch Shepherd-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/husky/\"\u003EHusky\u003C/a\u003E mix (Dutchie Husky)\u003C/li\u003E\r\n\u003C/ul\u003E\r\n\u003Cp\u003ENote: These are not purebred dogs but mixed breeds.\u003C/p\u003E",
+        "faq_items": [
+          {
+            "faq_title": "Do Dutch Shepherds shed?",
+            "faq_content": "\u003Cp\u003EYes, Dutch Shepherds do shed and will do so heavily in the spring and fall. During this time, your dog will need a thorough daily brushing to keep flyaways at bay.\u003C/p\u003E"
+          },
+          {
+            "faq_title": "Are Dutch Shepherds good family dogs?",
+            "faq_content": "\u003Cp\u003EYes, Dutch Shepherds are great family dogs! While they may look intimidating, they're a friendly and playful breed who's ideal for families with children.\u003C/p\u003E"
+          },
+          {
+            "faq_title": "What are the most common Dutch Shepherd mixes?",
+            "faq_content": "\u003Cul\u003E\r\n\t\u003Cli\u003EDutch Shepherd-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/belgian-malinois/\"\u003EBelgian Malinois\u003C/a\u003E mix (Mali Dutchie)\u003C/li\u003E\r\n\t\u003Cli\u003EDutch Shepherd-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/german-shepherd/\"\u003EGerman Shepherd\u003C/a\u003E mix (Dutch Shepherd German Shepherd)\u003C/li\u003E\r\n\t\u003Cli\u003EDutch Shepherd-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/labrador-retriever/\"\u003ELabrador\u003C/a\u003E mix (Dutch Lab)\u003C/li\u003E\r\n\t\u003Cli\u003EDutch Shepherd-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/american-pit-bull-terrier/\"\u003EPit Bull\u003C/a\u003E mix (Shepherd Pit)\u003C/li\u003E\r\n\t\u003Cli\u003EDutch Shepherd-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/husky/\"\u003EHusky\u003C/a\u003E mix (Dutchie Husky)\u003C/li\u003E\r\n\u003C/ul\u003E\r\n\u003Cp\u003ENote: These are not purebred dogs but mixed breeds.\u003C/p\u003E"
+          }
+        ],
+        "select_related_breeds": [
+          {
+            "selected_related_breed": 769,
+            "characteristic": "breed_characteristics_exercise_needs"
+          },
+          {
+            "selected_related_breed": 1429,
+            "characteristic": "breed_characteristics_shedding_level"
+          },
+          {
+            "selected_related_breed": 856,
+            "characteristic": "breed_characteristics_good_as_a_service_dog"
+          },
+          {
+            "selected_related_breed": 1325,
+            "characteristic": "breed_characteristics_exercise_needs"
+          },
+          {
+            "selected_related_breed": 138,
+            "characteristic": "breed_characteristics_training_needs"
+          },
+          {
+            "selected_related_breed": 95,
+            "characteristic": "breed_characteristics_biting_tendencies"
+          }
+        ],
+        "enable_featured_gallery": [
+          "enable_featured_gallery"
+        ],
+        "featured_gallery_images": [800, 790, 791, 792, 793, 794, 795, 796, 797]
+      },
+      "yoast_head": "\u003C!-- This site is optimized with the Yoast SEO plugin v23.8 - https://yoast.com/wordpress/plugins/seo/ --\u003E\n\u003Ctitle\u003EDutch Shepherd Breed: Characteristics, Care &amp; Photos | Chewy\u003C/title\u003E\n\u003Cmeta name=\"description\" content=\"Your guide to Dutch Shepherd Dogs 101—the ideal police dog and great companions for active owners—has all the Dutch Shepherd information you need.\" /\u003E\n\u003Cmeta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" /\u003E\n\u003Clink rel=\"canonical\" href=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/dutch-shepherd/\" /\u003E\n\u003Cmeta property=\"og:locale\" content=\"en_US\" /\u003E\n\u003Cmeta property=\"og:type\" content=\"article\" /\u003E\n\u003Cmeta property=\"og:title\" content=\"Dutch Shepherd Breed: Characteristics, Care &amp; Photos | Chewy\" /\u003E\n\u003Cmeta property=\"og:description\" content=\"Your guide to Dutch Shepherd Dogs 101—the ideal police dog and great companions for active owners—has all the Dutch Shepherd information you need.\" /\u003E\n\u003Cmeta property=\"og:url\" content=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/dutch-shepherd/\" /\u003E\n\u003Cmeta property=\"og:site_name\" content=\"Chewy\" /\u003E\n\u003Cmeta property=\"article:modified_time\" content=\"2025-05-05T14:22:06+00:00\" /\u003E\n\u003Cmeta property=\"og:image\" content=\"https://pet-health-content-media.chewy.com/wp-content/uploads/2021/06/12160449/Breed-Hero-Dutch-Shepherd.jpg\" /\u003E\n\t\u003Cmeta property=\"og:image:width\" content=\"1835\" /\u003E\n\t\u003Cmeta property=\"og:image:height\" content=\"1032\" /\u003E\n\t\u003Cmeta property=\"og:image:type\" content=\"image/jpeg\" /\u003E\n\u003Cmeta name=\"twitter:card\" content=\"summary_large_image\" /\u003E\n\u003Cmeta name=\"twitter:label1\" content=\"Est. reading time\" /\u003E\n\t\u003Cmeta name=\"twitter:data1\" content=\"1 minute\" /\u003E\n\u003Cscript type=\"application/ld+json\" class=\"yoast-schema-graph\"\u003E{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/dutch-shepherd/\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/dutch-shepherd/\",\"name\":\"Dutch Shepherd Breed: Characteristics, Care & Photos | Chewy\",\"isPartOf\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/dutch-shepherd/#primaryimage\"},\"image\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/dutch-shepherd/#primaryimage\"},\"thumbnailUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2021/06/12160449/Breed-Hero-Dutch-Shepherd.jpg\",\"datePublished\":\"2021-06-14T09:17:18+00:00\",\"dateModified\":\"2025-05-05T14:22:06+00:00\",\"description\":\"Your guide to Dutch Shepherd Dogs 101—the ideal police dog and great companions for active owners—has all the Dutch Shepherd information you need.\",\"breadcrumb\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/dutch-shepherd/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://phcms.hlth.prd.aws.chewy.cloud/breed/dutch-shepherd/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/dutch-shepherd/#primaryimage\",\"url\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2021/06/12160449/Breed-Hero-Dutch-Shepherd.jpg\",\"contentUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2021/06/12160449/Breed-Hero-Dutch-Shepherd.jpg\",\"width\":1835,\"height\":1032,\"caption\":\"Dutch Shepherd\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/dutch-shepherd/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://phcms.hlth.prd.aws.chewy.cloud/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Dutch Shepherd\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/\",\"name\":\"Chewy\",\"description\":\"\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"}]}\u003C/script\u003E\n\u003C!-- / Yoast SEO plugin. --\u003E",
+      "yoast_head_json": {
+        "title": "Dutch Shepherd Breed: Characteristics, Care & Photos | Chewy",
+        "description": "Your guide to Dutch Shepherd Dogs 101—the ideal police dog and great companions for active owners—has all the Dutch Shepherd information you need.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://phcms.hlth.prd.aws.chewy.cloud/breed/dutch-shepherd/",
+        "og_locale": "en_US",
+        "og_type": "article",
+        "og_title": "Dutch Shepherd Breed: Characteristics, Care & Photos | Chewy",
+        "og_description": "Your guide to Dutch Shepherd Dogs 101—the ideal police dog and great companions for active owners—has all the Dutch Shepherd information you need.",
+        "og_url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/dutch-shepherd/",
+        "og_site_name": "Chewy",
+        "article_modified_time": "2025-05-05T14:22:06+00:00",
+        "og_image": [
+          {
+            "width": 1835,
+            "height": 1032,
+            "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2021/06/12160449/Breed-Hero-Dutch-Shepherd.jpg",
+            "type": "image/jpeg"
+          }
+        ],
+        "twitter_card": "summary_large_image",
+        "twitter_misc": {
+          "Est. reading time": "1 minute"
+        },
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/dutch-shepherd/",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/dutch-shepherd/",
+              "name": "Dutch Shepherd Breed: Characteristics, Care & Photos | Chewy",
+              "isPartOf": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/dutch-shepherd/#primaryimage"
+              },
+              "image": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/dutch-shepherd/#primaryimage"
+              },
+              "thumbnailUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2021/06/12160449/Breed-Hero-Dutch-Shepherd.jpg",
+              "datePublished": "2021-06-14T09:17:18+00:00",
+              "dateModified": "2025-05-05T14:22:06+00:00",
+              "description": "Your guide to Dutch Shepherd Dogs 101—the ideal police dog and great companions for active owners—has all the Dutch Shepherd information you need.",
+              "breadcrumb": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/dutch-shepherd/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://phcms.hlth.prd.aws.chewy.cloud/breed/dutch-shepherd/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/dutch-shepherd/#primaryimage",
+              "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2021/06/12160449/Breed-Hero-Dutch-Shepherd.jpg",
+              "contentUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2021/06/12160449/Breed-Hero-Dutch-Shepherd.jpg",
+              "width": 1835,
+              "height": 1032,
+              "caption": "Dutch Shepherd"
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/dutch-shepherd/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://phcms.hlth.prd.aws.chewy.cloud/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Dutch Shepherd"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/",
+              "name": "Chewy",
+              "description": "",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            }
+          ]
+        }
+      },
+      "yoast_meta": {
+        "yoast_wpseo_title": "",
+        "yoast_wpseo_metadesc": "",
+        "yoast_wpseo_canonical": ""
+      },
+      "_links": {
+        "self": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed/801",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/types/breed"
+          }
+        ],
+        "acf:attachment": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/797"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/796"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/795"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/794"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/793"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/792"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/791"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/790"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/800"
+          }
+        ],
+        "wp:featuredmedia": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/3397"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media?parent=801"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "pet_type",
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/pet_type?post=801"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ]

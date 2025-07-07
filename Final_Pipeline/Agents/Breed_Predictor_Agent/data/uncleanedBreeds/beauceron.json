@@ -1,0 +1,322 @@
+[
+    {
+      "id": 514,
+      "date": "2021-06-25T08:08:21",
+      "date_gmt": "2021-06-25T08:08:21",
+      "guid": {
+        "rendered": "https://haproxy.use1.lgcy.prd.aws.chewy.cloud/eks/ns/pet-health/pet-health-content-backend/breed/beauceron/"
+      },
+      "modified": "2025-05-05T14:21:40",
+      "modified_gmt": "2025-05-05T14:21:40",
+      "slug": "beauceron",
+      "status": "publish",
+      "type": "breed",
+      "link": "https://phcms.hlth.prd.aws.chewy.cloud/breed/beauceron/",
+      "title": {
+        "rendered": "Beauceron"
+      },
+      "featured_media": 2804,
+      "template": "",
+      "pet_type": [],
+      "class_list": [
+        "post-514",
+        "breed",
+        "type-breed",
+        "status-publish",
+        "has-post-thumbnail",
+        "hentry"
+      ],
+      "acf": {
+        "breed_snapshot_best_for": "\u003Cp\u003EBeaucerons, loyal and energetic, thrive on adventure. They need plenty of exercise and do best in homes with experienced pet parents who can provide firm leadership and ample space for their active lifestyle.\u003C/p\u003E",
+        "alt_image_text": "\u003Cp\u003EBeaucerons are powerful, loyal dogs. See this guide for more Beauceron facts and breed information.\u003C/p\u003E",
+        "breed_intro": "Adventure lovers, activate! Get ready to be part of a dynamic duo with a Beauceron in your life. Smart, affectionate, energetic and surprisingly gentle considering they were bred for boar herding, hunting and guarding, Beaucerons will be happy to tackle any adventure that comes their way, as long as they're with you. Day of \u003Ca href=\"https://www.chewy.com/education/dog/general/ready-to-hit-the-hiking-trail-with-your-dog-heres-everything-you-need-to-know\"\u003Ehiking\u003C/a\u003E? No problem. Running a few dog sport courses? Absolutely. Defenders of the realm? Fighting crime? Well... they might accidentally topple a criminal to the ground in their enthusiastic greeting. You'll need to teach them who's boss early and often, but no matter what the journey, the unique and regal Beauceron is with you for the ride, from start to finish.",
+        "breed_related_products_product_card_set": null,
+        "breed_snapshot_temperament": "\u003Cp\u003EIntelligent, Adventure-Loving, Friendly\u003C/p\u003E",
+        "what_does_this_breed_look_like_weight": "\u003Cp\u003EMale: 70 to 110 pounds\u003C/p\u003E\u003Cp\u003EFemale: 70 to 110 pounds \u003C/p\u003E",
+        "what_does_this_breed_look_like_height": "\u003Cp\u003EMale: 25.5-27.5 inches\u003C/p\u003E\u003Cp\u003EFemale: 24.-26.5 inches\u003C/p\u003E",
+        "breed_snapshot_life_expectancy": "\u003Cp\u003E10 to 12 years\u003C/p\u003E",
+        "breed_snapshot_maintenance_level": "\u003Cp\u003EMedium\u003C/p\u003E",
+        "breed_characteristics_friendliness": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_snapshot_coat_color": "\u003Cp\u003EBlack and Rust, Black and Tan, Gray Black and Tan, Harlequin \u003C/p\u003E",
+        "breed_snapshot_shed_level": "\u003Cp\u003EMedium\u003C/p\u003E",
+        "in_article_video": null,
+        "breed_characteristics": "These traits are rated on a scale of 1-5 with 1 being the lowest and 5 being the highest. Remember: Dogs are individuals, and not all dogs, even those of the same breed, will exhibit all the same qualities.",
+        "breed_characteristics_exercise_needs": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_health_issues": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_barking_tendencies": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_grooming_needs": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_shedding_level": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_training_needs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_kids": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_with_cats": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_good_for_apartments_small_homes": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_energy_level": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_good_with_other_dogs": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_playfulnesss": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_cold_weather": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_warm_weather": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_for_first_time_parents": "\u003Cp\u003E2\u003C/p\u003E",
+        "how_do_i_look_card_image": 2803,
+        "what_does_this_breed_look_like": "The Beauceron's dark, expressive eyes are always alert, hinting at the dog's intelligence and quick mind. The powerful, muscular breed may intimidate others with their impressive height and weight, but a well-trained Beauceron has a friendly energy behind all that strength. Their dark coat is highlighted with tan or red accents, or a black-and-tan coat with gray accents. They're bred to have double dewclaws on their rear legs (kind of like a big toe on humans). The dog is sometimes mistaken for a \u003Ca href=\"https://www.chewy.com/education/dog-breeds/doberman-pinscher/\"\u003EDoberman Pinscher\u003C/a\u003E, but Beaucerons tend to be a little stockier and have slightly longer fur.",
+        "what_does_this_breed_look_like_ears": "\u003Cp\u003EThe Beauceron dog's ears rest high on the head. The AKC breed standard allows for the ears to be cropped or natural. Cropping involves surgically cutting away part of a dog’s ears. Veterinary groups along with many U.S. states and countries have banned this procedure due to medical and behavioral reasons. If you are interested in this procedure, schedule a consultation with your veterinarian. Cropped ears stand high and upright. Natural ears drop slightly but still stand off their cheeks and are often held alert.\u003C/p\u003E",
+        "what_does_this_breed_look_like_eyes": "\u003Cp\u003EThe Beauceron breed's eyes are dark brown, oval in shape and have an expressive quality showcasing their intelligence. \u003C/p\u003E",
+        "what_does_this_breed_look_like_nose": "\u003Cp\u003EThe Beauceron dog's nose is always black.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_length": "\u003Cp\u003EThe Beauceron breed is double-coated with a downy undercoat and a short outer coat that is medium length. The coat has a slight fringe on the thighs and tail and tends to be a bit longer around the neck. \u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_color": "\u003Cp\u003EThe Beauceron breed has two main types of colors. The dog can be fully black with tan or rust-colored markings on different parts of the body, including the face, chest and legs. Or the breed can be a \"Harlequin\" or merle (uneven speckled flecks) shade of black and tan, with patches of blue-gray. \u003C/p\u003E",
+        "what_does_this_breed_look_like_tail": "\u003Cp\u003ETheir tail is slightly fringed and hangs down, forming the shape of a soft J. When active or alert, the Beauceron may carry their tail higher. \u003C/p\u003E",
+        "h2_breed_temperament": "This high-energy, intelligent dog loves to get out and adventure with an active family. As a friendly and regal pup, Beaucerons can adapt well to children if they're \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/positively-trained-puppy-socialization-dos-and-donts\"\u003Esocialized\u003C/a\u003E from the time they're a puppy. To be extra safe with kids, you'll want to set up playpens and baby gates and close doors when needed, since the dogs can be pretty strong. Plus, they're herders, so they may try to herd smaller children. And of course, monitor their interactions when they're together, to ensure everyone—dogs and tiny, young humans alike—respect each others' boundaries.\n\nAlthough they look intimidating, Beaucerons are not aggressive. When they do run up to people, it's to greet them enthusiastically. However, Beaucerons can be trained to be effective guard dogs when needed.\n\nTheir high level of intelligence makes them easy to train, but those smarts can also lead them to feel stressed or anxious if they don't get enough mental stimulation\u003Cb\u003E—\u003C/b\u003Eand it also can mean they can be comedians and get into a lot of funny antics.\n\nBeaucerons have a strong prey drive, so they may not be the best pet for homes with cats or small dogs. But early socialization can certainly help with other dogs and cats in the home. But even around other dogs, you'll want to supervise them, since they can be a little bossy when they play.\n\nBecause of their intelligence, large size and high energy levels, they may not be the best choice for first-time pet parents. But experienced pet parents who have previous experience training dogs may find a Beauceron to be a loyal companion for life.",
+        "h2_how_to_care_for_a_breed": "The Beauceron breed doesn't need a lot of grooming, but they do need a lot of exercise. So while brushing and bathing won't take up a lot of your time, you will need to take them out for adventures at least a couple of times every day. Beaucerons also do best with early socialization so they can adapt well to encounters with other pets and strangers.",
+        "grooming": "Good news! You can save the epic adventures for your vacation, rather than grooming your Beauceron. While you don't need to brush your Beauceron every day, you'll want to brush your them a few times a week with a \u003Ca href=\"https://www.chewy.com/f/dog-pin-brushes_c356_f70v83789\"\u003Epin brush\u003C/a\u003E or \u003Ca href=\"https://www.chewy.com/f/slicker-brush-dog-brushes-combs_c356_f70v83792\"\u003Eslicker brush\u003C/a\u003E to keep up with the shedding. And when the seasons change in the spring, they'll shed more, which may temporarily up your brushing game to daily.\n\nWhen it comes to baths, Beaucerons only need a dip in the bubbles about once a month, unless they get dirty while playing outside and need an extra bath. When you do bathe your Beauceron, use a good quality \u003Ca href=\"https://www.chewy.com/b/shampoos-2445\" target=\"_blank\" rel=\"noopener\"\u003Edog shampoo\u003C/a\u003E with natural ingredients and make sure they are rinsed thoroughly and dried well.\n\nLet's talk teeth. In general, many veterinarians recommend \u003Ca href=\"https://www.chewy.com/education/dog/grooming/health-wellness-how-to-brush-your-dogs-teeth-live-to-tell-the-tale\"\u003Ebrushing your dog's teeth\u003C/a\u003E daily. You'll have the most success if you start brushing your dog's teeth as a puppy, so they get used to the sensation. Your veterinarian can help teach you the best tooth brushing techniques. You'll also want to visit your vet annually for professional teeth cleaning.\n\nBeaucerons may need their nails trimmed every six to eight weeks. Some, however, will naturally file down their nails through play and exercise outside. You can tell your dog \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/guide-trimming-dogs-nails\"\u003Eneeds a nail trimming\u003C/a\u003E when you can hear the clickety-clack of their claws on the floor before you can actually see your pup.",
+        "training": "When you make a Beauceron puppy your family member, make sure they know who rules the roost (you, of course), as they can test boundaries that aren't clearly defined. Without guidance, you may find your Beauceron trying to become the supreme ruler of the household.\n\nThankfully, these intelligent dogs respond well to encouragement and positive reinforcement training, and they're eager to please. Treats might not motivate them, but they'll be very motivated by their favorite toy. As dogs with high prey drives, Beaucerons will respond well to training that hones in on their desire to herd, like using \u003Ca href=\"https://www.chewy.com/outward-hound-tail-teaser-refill-dog/dp/50955\"\u003Eflirt poles\u003C/a\u003E (exercise equipment for dogs that entices them to chase a fast-moving lure) or Treibball (a sport where you direct your dog to move large exercise balls into a goal, like herding sheep into a pen).\n\nA good rule is to start training and socializing your Beauceron as a puppy. Some pet parents prefer the help of certified trainers, so they'll begin by taking their Beaucerons to puppy classes and then graduate to \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/sit-stay-and-beyond-weve-got-the-essential-guide-to-basic-dog-obedience-training\"\u003Eobedience training\u003C/a\u003E, where they learn commands like \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/sit-stay-and-beyond-weve-got-the-essential-guide-to-basic-dog-obedience-training\"\u003Esit\u003C/a\u003E, \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-stay\"\u003Estay\u003C/a\u003E and \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-come\"\u003Ecome\u003C/a\u003E and \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/leash-train-dog-2\"\u003Ehow to walk nicely on a leash\u003C/a\u003E. Whether training yourself or with a professional, you'll want to make sure your dog is socialized to get along with other dogs and people. Ultimately, Beaucerons are so smart, they can be trained for some pretty impressive jobs, including being a guard dog, a hunting dog or even working with police or helping with search and rescue operations.",
+        "diet_nutrition": "Beaucerons tend do well on high-quality, commercial dog food that provides a balanced diet meeting all their nutrition needs. You'll want to provide food designed for their current stage in life, whether they're a puppy, an adult dog or a senior dog. Your veterinarian can help you nail down a feeding chart that will guide you on how much and how often to feed your dog based on their specific needs.\r\n\r\nBe sure and calculate any treats you may give your dog during the day, so you don't accidentally overfeed your dog. And of course, if your dog is getting a lot of exercise every day, you'll want to keep this in mind too and feed a little more accordingly. Since Beaucerons love mental challenges, they might also enjoy slow feeders and interactive toys (such as \u003Ca href=\"https://www.chewy.com/f/kong-dog-toys_c315_f1v151771\" target=\"_blank\" rel=\"noopener\"\u003EKongs\u003C/a\u003E) that dispense their food through play.\r\n\r\nBut again, consult with your veterinarian. They are in the best position to help you pick the ideal food for your dog based on their individual needs.",
+        "exercise": "In order to give your Beauceron the exercise they need every day, you'll need to exercise both their minds and their bodies, totalling about two hours.\r\n\r\nTake your pup on a long walk, about an hour, and give them time to explore with their noses. Beaucerons love to run and play outdoors, so jogging and hiking can be fun activities for the both of you.\r\n\r\nThis breed also loves to guard and hunt. Since they have such a strong herding instinct, competitive sports may be a great option for Beaucerons. Consider dog sports like Treibball, where a dog pushes a large ball toward a goal. Parkour, which is an agility sport that involves running, jumping, balancing and climbing over various obstacles, is also something they'd love. Beaucerons can also take to \u003Ca href=\"http://www.flyball.org/aboutflyball.shtml\"\u003Eflyball\u003C/a\u003E sports.\r\n\r\nAnother fun exercise your Beauceron will love is Canicross, which is a form of urban mushing where instead of pulling sleds, your dog pulls you. Mental and physical work out while spending time with their favorite person? Well that's a recipe for a very happy Beauceron.\r\n\r\nThe upshot is this: Don't skimp out on a Beauceron's exercise. If they don't get enough mental and physical stimulation, they might take out some of their pent-up energy on your favorite shoes or furniture.",
+        "ideal_environment": "A Beauceron's ideal environment is one where they can spend a lot of time with their pet parents, going on adventures and outings, and in general where they can be a part of the action. Their high exercise needs make a larger home with a yard where they can run and play and get rid of pent-up energy preferable, but Beaucerons can adapt well to a smaller apartment, as long as they're taken on at least two long, brisk walks—about an hour each—every day.\r\n\r\nThe Beauceron breed can get along well with children and other pets if they've been socialized well as puppies, even though you'll still want to keep a close eye on them. Their herding instincts run deep, and they may try to herd smaller kids and other dogs. However, they might not do well in homes with cats since they have a strong prey drive.",
+        "h2_breed_health": "Beaucerons have a life expectancy of 10 to 12 years and are considered a healthy breed. You can help them have the fullest possible lifespan by looking out for these health issues.\r\n\u003Cul\u003E\r\n \t\u003Cli\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/digestive/signs-and-symptoms-bloat-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cstrong\u003EBloat\u003C/strong\u003E\u003C/a\u003E: Because of their deep chest shape, Beaucerons may be susceptible to bloat, also called twisted stomach or \u003Ca href=\"https://www.petmd.com/dog/conditions/digestive/gastric-dilatation-volvulus-gdv-syndrome\" target=\"_blank\" rel=\"noopener\"\u003Egastric dilation-volvulus\u003C/a\u003E (GDV). This condition is life-threatening, so you’ll want to see a veterinarian immediately if your pet develops symptoms suspicious of bloat. Symptoms include salivating, trying to throw up without success (dry heaving or retching), pacing, breathing rapidly or acting distressed. One way to help prevent bloat is by using \u003Ca href=\"https://www.chewy.com/b/slow-feeders-1424\" target=\"_blank\" rel=\"noopener\"\u003Eslow feeders\u003C/a\u003E and not exercising after eating. However, genetics likely play a factor and if other dogs in the family line have bloated, your pup may be at increased risk. The treatment is emergency surgery but a preventative version of this surgery to tack the stomach to the body well can sometimes help prevent bloat from occurring and is often performed at a young dog’s spay or neuter. Ask your vet about preventative gastropexy.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/c_dg_hip_dysplasia\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cstrong\u003EHip Dysplasia\u003C/strong\u003E\u003C/a\u003E: Larger dogs like Beaucerons are more prone to hip dysplasia, which is when the ball of the hip joint is loose and does not fit well into the socket. This can be painful and result in limping. While there is not a genetic screening test for hip dysplasia in dogs, it is genetic and dogs with the condition should not be used for breeding. Treatments may include weight management, joint supplements, pain medication or, in severe cases, surgery.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Ca href=\"https://www.petmd.com/dog/general-health/food-allergies-vs-seasonal-allergies-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cstrong\u003EAllergies\u003C/strong\u003E\u003C/a\u003E: Beaucerons may also be prone to certain allergies such as seasonal or food allergies. If your pup is extra itchy, talk to your vet about allergy testing or available medications. For severe allergies, a veterinary dermatologist may be consulted.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Cstrong\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/cardiovascular/enlarged-heart-dilated-cardiomyopathy-dogs\" target=\"_blank\" rel=\"noopener\"\u003EDilated Cardiomyopathy\u003C/a\u003E (DCM)\u003C/strong\u003E: DCM is a hereditary heart condition common among large breed dogs. It occurs when the heart becomes enlarged resulting in weak and thin heart muscle. Symptoms may include trouble breathing, cough, exercise intolerance, weakness or fainting/collapse. If you have any concerns about your pet’s heart, please see a veterinarian immediately. There is a genetic screening test so ask your breeder. Treatment is typically medications.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Cstrong\u003EEye Issues\u003C/strong\u003E: Beauceron dogs may be prone to \u003Ca href=\"https://www.petmd.com/dog/condition/progressive-retinal-atrophy-in-dogs\" target=\"_blank\" rel=\"noopener\"\u003Eprogressive retinal atrophy\u003C/a\u003E (PRA). This is an inherited disorder that eventually results in loss of vision for dogs. There is a genetic screening test so be sure to ask your breeder. Unfortunately, there is no treatment for PRA, but dogs who lose their vision can still have excellent quality of life.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Cstrong\u003ECanine Copper-Associated Hepatitis\u003C/strong\u003E: This is a rare condition in which copper accumulates in the liver, leading to inflammation and damage to the liver. Testing typically includes bloodwork, abdominal ultrasound and liver biopsy to diagnose this disease, and treatment will likely include medications and prescription diet.\u003C/li\u003E\r\n\u003C/ul\u003E",
+        "h2_breed_history": "The Beauceron's origin dates back to France in the Middle Ages. In fact, the oldest manuscript referencing the Beauceron is a Renaissance manuscript from 1578 by French naturalist M.Buffon.\r\n\r\nOne of two French sheepdogs, the Beauceron is also known as Berger de Beauce or the Bas Rouge. In 1896, the two breeds of French shepherd dogs were officially classified. The French shepherd dog with shorter hair was named the Beauceron and the dog with long coat was named the \u003Ca href=\"https://www.chewy.com/education/dog-breeds/briard/\" target=\"_blank\" rel=\"noopener\"\u003EBriard\u003C/a\u003E.\r\n\r\nThroughout their history, the Beauceron has had many roles. They were used in World War I in trench warfare, as messenger dogs for the French army, and to herd and guard livestock including sheep and cattle. They've even served as police dogs.\r\n\r\nThe Beauceron was officially recognized by the American Kennel Club in 2007 and assigned to the Herding group. (Herding breeds share an instinctual ability to control the movement of other animals.) The dog is more well known in France, while in the United States, the breed is sometimes mistaken for Doberman Pinschers.\r\n\r\nSo where is the best place to find Beauceron puppies today? You can find a list of reputable Beauceron breeders on the \u003Ca href=\"https://marketplace.akc.org/puppies/beauceron?breed=30&amp;page=1\"\u003EAmerican Kennel Club's website\u003C/a\u003E. Depending on the breeder, expect the Beauceron average cost to be anywhere from $1,000 to more than $2,000, depending on health and temperament screenings and pedigree papers. You can also reach out to rescue organizations or local animal shelters about adopting a Beauceron puppy, or search \u003Ca href=\"https://www.chewy.com/g/dog-beauceron_ga1\"\u003EChewy’s database of adoptable dogs\u003C/a\u003E in your area.",
+        "expert_attribution": "\u003Ci\u003EExpert input provided by veterinarian Sara Ochoa, DVM, who is a consultant for \u003Ca href=\"https://doglab.com/team/dr-sara-dvm/\"\u003EDogLab\u003C/a\u003E, and positive-reinforcement dog trainer Ali Smith, who trained with the Institute of Modern Dog Trainers and is the founder of \u003Ca href=\"https://rebarkable.com/\"\u003ERebarkable\u003C/a\u003E.\u003C/i\u003E\r\n\r\n\u003Cem\u003EBreed characteristic ratings provided by veterinarian Dr. Sarah J. Wooten, DVM, CVJ, a veterinarian at \u003Ca href=\"https://sheepdraw.com/\" target=\"_blank\" rel=\"noopener\"\u003ESheep Draw Veterinary Hospital\u003C/a\u003E in Greeley, Colorado; dog trainer and behavior consultant Irith Bloom, CPDT-KSA, CBCC-KA, CDBC, owner of \u003Ca href=\"https://thesophisticateddog.com/\" target=\"_blank\" rel=\"noopener\"\u003EThe Sophisticated Dog, LLC\u003C/a\u003E, in Los Angeles; and certified animal behavior consultant \u003Ca href=\"https://shojai.com/\" target=\"_blank\" rel=\"noopener\"\u003EAmy Shojai\u003C/a\u003E, CABC, in Sherman, Texas. \u003C/em\u003E\r\n\r\n\u003Cem\u003EThe health content was medically reviewed by Chewy vets.\u003C/em\u003E",
+        "facebook_social_snippet_with_cta": "\u003Cp\u003EBeaucerons are loyal, friendly and energetic. Want to know if this unique dog is a good match for you? Our guide gives you all the information, from personality and temperament to proper grooming and health, along with a little about their history.\u003C/p\u003E",
+        "species": "\u003Cp\u003EDog\u003C/p\u003E",
+        "h2_faqs": "\u003Ch3\u003EHow do you pronounce Beauceron?\u003C/h3\u003E\r\nBeauceron is French and is pronounced bow-sehr-AHN.\r\n\u003Ch3\u003EDo Beaucerons shed?\u003C/h3\u003E\r\nDespite having short hair, Beaucerons can still shed quite a bit, especially in the spring when they're losing their winter coat. They need to be brushed a few times a week, but don't have many grooming needs beyond that.\r\n\u003Ch3\u003EDo Beaucerons make good guard dogs?\u003C/h3\u003E\r\nYes, Beaucerons can be trained to make excellent guard dogs because of their intelligence, size and strength. In fact, they are commonly used as police dogs or in search and rescue operations.\r\n\u003Ch3\u003EWhat are the most common Beauceron mixes?\u003C/h3\u003E\r\nThe most common Beauceron mixes are:\r\n\u003Cul\u003E\r\n \t\u003Cli\u003EBeauceron-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/german-shepherd/\"\u003EGerman Shepherd\u003C/a\u003E mix (Beauceron German Shepherd)\u003C/li\u003E\r\n \t\u003Cli\u003EBeauceron-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/rottweiler/\"\u003ERottweiler\u003C/a\u003E mix (Beauceron Rottweiler)\u003C/li\u003E\r\n \t\u003Cli\u003EBeauceron-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/doberman-pinscher/\"\u003EDoberman\u003C/a\u003E mix (Beauceron Doberman Pinscher)\u003C/li\u003E\r\n \t\u003Cli\u003EBeauceron-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/labrador-retriever/\"\u003ELabrador\u003C/a\u003E mix (Beaucador)\u003C/li\u003E\r\n \t\u003Cli\u003EBeauceron-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/border-collie/\"\u003EBorder Collie\u003C/a\u003E mix (Beauceron Border Collie)\u003C/li\u003E\r\n\u003C/ul\u003E\r\nNote: These are not purebred dogs but mixed breeds.",
+        "faq_items": [
+          {
+            "faq_title": "How do you pronounce Beauceron?",
+            "faq_content": "Beauceron is French and is pronounced bow-sehr-AHN."
+          },
+          {
+            "faq_title": "Do Beaucerons shed?",
+            "faq_content": "Despite having short hair, Beaucerons can still shed quite a bit, especially in the spring when they're losing their winter coat. They need to be brushed a few times a week, but don't have many grooming needs beyond that."
+          },
+          {
+            "faq_title": "Do Beaucerons make good guard dogs?",
+            "faq_content": "Yes, Beaucerons can be trained to make excellent guard dogs because of their intelligence, size and strength. In fact, they are commonly used as police dogs or in search and rescue operations."
+          },
+          {
+            "faq_title": "What are the most common Beauceron mixes?",
+            "faq_content": "The most common Beauceron mixes are:\r\n\u003Cul\u003E\r\n \t\u003Cli\u003EBeauceron-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/german-shepherd/\"\u003EGerman Shepherd\u003C/a\u003E mix (Beauceron German Shepherd)\u003C/li\u003E\r\n \t\u003Cli\u003EBeauceron-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/rottweiler/\"\u003ERottweiler\u003C/a\u003E mix (Beauceron Rottweiler)\u003C/li\u003E\r\n \t\u003Cli\u003EBeauceron-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/doberman-pinscher/\"\u003EDoberman\u003C/a\u003E mix (Beauceron Doberman Pinscher)\u003C/li\u003E\r\n \t\u003Cli\u003EBeauceron-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/labrador-retriever/\"\u003ELabrador\u003C/a\u003E mix (Beaucador)\u003C/li\u003E\r\n \t\u003Cli\u003EBeauceron-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/border-collie/\"\u003EBorder Collie\u003C/a\u003E mix (Beauceron Border Collie)\u003C/li\u003E\r\n\u003C/ul\u003E\r\nNote: These are not purebred dogs but mixed breeds."
+          }
+        ],
+        "select_related_breeds": [
+          {
+            "selected_related_breed": 1402,
+            "characteristic": "breed_characteristics_exercise_needs"
+          },
+          {
+            "selected_related_breed": 486,
+            "characteristic": "breed_characteristics_playfulnesss"
+          },
+          {
+            "selected_related_breed": 191,
+            "characteristic": "breed_characteristics_training_needs"
+          },
+          {
+            "selected_related_breed": 116,
+            "characteristic": "breed_characteristics_shedding_level"
+          },
+          {
+            "selected_related_breed": 553,
+            "characteristic": "breed_characteristics_good_for_first_time_parents"
+          },
+          {
+            "selected_related_breed": 1355,
+            "characteristic": "breed_characteristics_friendliness"
+          }
+        ],
+        "enable_featured_gallery": [
+          "enable_featured_gallery"
+        ],
+        "featured_gallery_images": [513, 506, 507, 508, 509, 510]
+      },
+      "yoast_head": "\u003C!-- This site is optimized with the Yoast SEO plugin v23.8 - https://yoast.com/wordpress/plugins/seo/ --\u003E\n\u003Ctitle\u003EBeauceron Breed: Characteristics, Care &amp; Photos | Chewy\u003C/title\u003E\n\u003Cmeta name=\"description\" content=\"The Beauceron is an active pup ready to join you on your adventures. Learn all the facts about this dog in our Beauceron guide.\" /\u003E\n\u003Cmeta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" /\u003E\n\u003Clink rel=\"canonical\" href=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/beauceron/\" /\u003E\n\u003Cmeta property=\"og:locale\" content=\"en_US\" /\u003E\n\u003Cmeta property=\"og:type\" content=\"article\" /\u003E\n\u003Cmeta property=\"og:title\" content=\"Beauceron Breed: Characteristics, Care &amp; Photos | Chewy\" /\u003E\n\u003Cmeta property=\"og:description\" content=\"The Beauceron is an active pup ready to join you on your adventures. Learn all the facts about this dog in our Beauceron guide.\" /\u003E\n\u003Cmeta property=\"og:url\" content=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/beauceron/\" /\u003E\n\u003Cmeta property=\"og:site_name\" content=\"Chewy\" /\u003E\n\u003Cmeta property=\"article:modified_time\" content=\"2025-05-05T14:21:40+00:00\" /\u003E\n\u003Cmeta property=\"og:image\" content=\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/12/13152940/202106Breed-Hero-Beauceron.jpg\" /\u003E\n\t\u003Cmeta property=\"og:image:width\" content=\"1835\" /\u003E\n\t\u003Cmeta property=\"og:image:height\" content=\"1032\" /\u003E\n\t\u003Cmeta property=\"og:image:type\" content=\"image/jpeg\" /\u003E\n\u003Cmeta name=\"twitter:card\" content=\"summary_large_image\" /\u003E\n\u003Cscript type=\"application/ld+json\" class=\"yoast-schema-graph\"\u003E{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/beauceron/\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/beauceron/\",\"name\":\"Beauceron Breed: Characteristics, Care & Photos | Chewy\",\"isPartOf\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/beauceron/#primaryimage\"},\"image\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/beauceron/#primaryimage\"},\"thumbnailUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/12/13152940/202106Breed-Hero-Beauceron.jpg\",\"datePublished\":\"2021-06-25T08:08:21+00:00\",\"dateModified\":\"2025-05-05T14:21:40+00:00\",\"description\":\"The Beauceron is an active pup ready to join you on your adventures. Learn all the facts about this dog in our Beauceron guide.\",\"breadcrumb\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/beauceron/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://phcms.hlth.prd.aws.chewy.cloud/breed/beauceron/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/beauceron/#primaryimage\",\"url\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/12/13152940/202106Breed-Hero-Beauceron.jpg\",\"contentUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/12/13152940/202106Breed-Hero-Beauceron.jpg\",\"width\":1835,\"height\":1032,\"caption\":\"Beauceron\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/beauceron/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://phcms.hlth.prd.aws.chewy.cloud/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Beauceron\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/\",\"name\":\"Chewy\",\"description\":\"\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"}]}\u003C/script\u003E\n\u003C!-- / Yoast SEO plugin. --\u003E",
+      "yoast_head_json": {
+        "title": "Beauceron Breed: Characteristics, Care & Photos | Chewy",
+        "description": "The Beauceron is an active pup ready to join you on your adventures. Learn all the facts about this dog in our Beauceron guide.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://phcms.hlth.prd.aws.chewy.cloud/breed/beauceron/",
+        "og_locale": "en_US",
+        "og_type": "article",
+        "og_title": "Beauceron Breed: Characteristics, Care & Photos | Chewy",
+        "og_description": "The Beauceron is an active pup ready to join you on your adventures. Learn all the facts about this dog in our Beauceron guide.",
+        "og_url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/beauceron/",
+        "og_site_name": "Chewy",
+        "article_modified_time": "2025-05-05T14:21:40+00:00",
+        "og_image": [
+          {
+            "width": 1835,
+            "height": 1032,
+            "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/12/13152940/202106Breed-Hero-Beauceron.jpg",
+            "type": "image/jpeg"
+          }
+        ],
+        "twitter_card": "summary_large_image",
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/beauceron/",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/beauceron/",
+              "name": "Beauceron Breed: Characteristics, Care & Photos | Chewy",
+              "isPartOf": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/beauceron/#primaryimage"
+              },
+              "image": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/beauceron/#primaryimage"
+              },
+              "thumbnailUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/12/13152940/202106Breed-Hero-Beauceron.jpg",
+              "datePublished": "2021-06-25T08:08:21+00:00",
+              "dateModified": "2025-05-05T14:21:40+00:00",
+              "description": "The Beauceron is an active pup ready to join you on your adventures. Learn all the facts about this dog in our Beauceron guide.",
+              "breadcrumb": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/beauceron/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://phcms.hlth.prd.aws.chewy.cloud/breed/beauceron/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/beauceron/#primaryimage",
+              "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/12/13152940/202106Breed-Hero-Beauceron.jpg",
+              "contentUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/12/13152940/202106Breed-Hero-Beauceron.jpg",
+              "width": 1835,
+              "height": 1032,
+              "caption": "Beauceron"
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/beauceron/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://phcms.hlth.prd.aws.chewy.cloud/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Beauceron"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/",
+              "name": "Chewy",
+              "description": "",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            }
+          ]
+        }
+      },
+      "yoast_meta": {
+        "yoast_wpseo_title": "",
+        "yoast_wpseo_metadesc": "",
+        "yoast_wpseo_canonical": ""
+      },
+      "_links": {
+        "self": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed/514",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/types/breed"
+          }
+        ],
+        "acf:attachment": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/510"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/509"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/508"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/507"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/506"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/513"
+          }
+        ],
+        "wp:featuredmedia": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/2804"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media?parent=514"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "pet_type",
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/pet_type?post=514"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ]

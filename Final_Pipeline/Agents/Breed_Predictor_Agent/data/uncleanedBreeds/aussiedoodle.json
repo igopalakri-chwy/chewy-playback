@@ -1,0 +1,325 @@
+[
+    {
+      "id": 5143,
+      "date": "2025-04-14T15:00:53",
+      "date_gmt": "2025-04-14T15:00:53",
+      "guid": {
+        "rendered": "https://phcms.hlth.prd.aws.chewy.cloud/?post_type=breed&#038;p=5143"
+      },
+      "modified": "2025-06-04T17:35:16",
+      "modified_gmt": "2025-06-04T17:35:16",
+      "slug": "aussiedoodle",
+      "status": "publish",
+      "type": "breed",
+      "link": "https://phcms.hlth.prd.aws.chewy.cloud/breed/aussiedoodle/",
+      "title": {
+        "rendered": "Aussiedoodle"
+      },
+      "featured_media": 5144,
+      "template": "",
+      "pet_type": [],
+      "class_list": [
+        "post-5143",
+        "breed",
+        "type-breed",
+        "status-publish",
+        "has-post-thumbnail",
+        "hentry"
+      ],
+      "acf": {
+        "breed_snapshot_best_for": "\u003Cp\u003EThe Aussiedoodle, or Aussiepoo, is the bright, brainy cross between two beloved breeds: the Australian Shepherd and the Poodle. With minds and bodies perpetually primed for action, Aussiedoodles thrive in homes where they can get plenty of physical and mental exercise—and a good brushing afterward.\u003C/p\u003E",
+        "alt_image_text": "aussiedoodle dog breed",
+        "breed_intro": "\u003Cp\u003EThe Aussiedoodle may sound like a dog from Down Under, but this fun, furry mixed breed is unquestionably tops when it comes to brains, beauty, and athletic ability. \u003C/p\u003E\r\n\u003Cp\u003EA cross between an \u003Ca href=\"https://www.chewy.com/education/dog-breeds/australian-shepherd\"\u003EAustralian Shepherd\u003C/a\u003E and a \u003Ca href=\"https://www.chewy.com/education/dog-breeds/poodle\"\u003EStandard\u003C/a\u003E or \u003Ca href=\"https://www.chewy.com/education/dog-breeds/miniature-poodle\"\u003EMiniature Poodle\u003C/a\u003E, Aussiedoodles and Mini Aussiedoodles mirror their parent breeds’ love of learning and action. So if you’re looking for a lap dog, keep looking! But if you have an insatiable appetite for exercise and want to add a canine companion on your daily outdoor adventures, the Aussiedoodle just might be your perfect match.\u003C/p\u003E",
+        "breed_related_products_product_card_set": "",
+        "breed_snapshot_temperament": "\u003Cp\u003ECanine Einstein, Doggy Dynamo, Star Athlete\u003C/p\u003E",
+        "what_does_this_breed_look_like_weight": "\u003Cp\u003EMiniature: 15–40 pounds\u003C/p\u003E\u003Cp\u003EStandard: 40–70 pounds\u003C/p\u003E",
+        "what_does_this_breed_look_like_height": "\u003Cp\u003EMiniature: 10–14 inches\u003C/p\u003E\u003Cp\u003EStandard: 15–23 inches\u003C/p\u003E",
+        "breed_snapshot_life_expectancy": "\u003Cp\u003E12–15 years\u003C/p\u003E",
+        "breed_snapshot_maintenance_level": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_friendliness": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_snapshot_coat_color": "\u003Cp\u003EApricot, Black, Blue, Brown, Cream, Gray, Merle, Red, Silver, White\u003C/p\u003E",
+        "breed_snapshot_shed_level": "\u003Cp\u003E2\u003C/p\u003E",
+        "in_article_video": null,
+        "breed_characteristics": "",
+        "breed_characteristics_exercise_needs": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_health_issues": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_barking_tendencies": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_grooming_needs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_shedding_level": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_training_needs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_kids": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_cats": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_for_apartments_small_homes": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_energy_level": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_good_with_other_dogs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_playfulnesss": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_cold_weather": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_warm_weather": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_for_first_time_parents": "\u003Cp\u003E3\u003C/p\u003E",
+        "how_do_i_look_card_image": 5145,
+        "what_does_this_breed_look_like": "\u003Cp\u003EMixed breeds are always a bit of a mixed bag, as their appearance ultimately depends on which parent they favor. Two Aussiedoodle puppies from the same litter can look wildly different!\u003C/p\u003E",
+        "what_does_this_breed_look_like_ears": "\u003Cp\u003EAussies have triangular ears that fold forward from the top of their head, while Poodle ears start at eye level and hang down close to the head. Placement and shape may vary, but Aussiedoodle ears will probably be floppy.\u003C/p\u003E",
+        "what_does_this_breed_look_like_eyes": "\u003Cp\u003EAn Aussiedoodle’s eyes can be brown, blue, amber, or a combination of these colors. It’s not uncommon for Aussies to have two different-colored eyes.\u003C/p\u003E",
+        "what_does_this_breed_look_like_nose": "\u003Cp\u003EAussiedoodles have a straight snout with a black, brown, or pink nose.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_length": "\u003Cp\u003EAn Aussiedoodle’s coat might be medium or long, wavy or curly, and low-shed or constantly losing fur. It all varies from dog to dog.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_color": "\u003Cp\u003ELike length and texture, their coat colors have a wide range and include black, blue, brown, cream, gray, silver, or white. They often have a merle pattern (irregular splotches of color) but can also be bicolor or tricolor.\u003C/p\u003E",
+        "what_does_this_breed_look_like_tail": "\u003Cp\u003EAussiedoodles often have a tail that’s long and held over the back. Some Aussies are born with bobbed tails, so you might see this in Aussiedoodle puppies, too.\u003C/p\u003E",
+        "h2_breed_temperament": "\u003Cp\u003EThe Aussiedoodle is a cross of two popular working dog breeds—and they have the temperament to prove it. These are dogs with seriously stellar wits and get-up-and-go energy, making them a top choice for therapy, service, and search-and-rescue roles. \u003C/p\u003E\r\n\u003Cp\u003EAs family pets, Aussiedoodles will still need a “job” in the form of \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/how-much-exercise-does-my-dog-need\"\u003Edaily exercise\u003C/a\u003E and play, and you couldn’t find a more willing companion. The breed excels at \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/dog-agility-training-tips\"\u003Eagility\u003C/a\u003E, \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/dog-swimming-pool-safety-tips\"\u003Eswimming\u003C/a\u003E, \u003Ca href=\"https://www.chewy.com/education/dog/general/ready-to-hit-the-hiking-trail-with-your-dog-heres-everything-you-need-to-know\"\u003Ehiking\u003C/a\u003E, dock diving, and \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/how-to-run-with-dog\"\u003Erunning\u003C/a\u003E.\u003C/p\u003E\r\n\u003Cp\u003EBecause of their herding and hunting instincts, all outdoor play should occur \u003Ca href=\"https://www.chewy.com/b/leashes-346\"\u003Eon a leash\u003C/a\u003E or within a fenced area. Aussiedoodles are also great with kids who are old enough to safely interact with a high-energy pup—they can entertain each other!\u003C/p\u003E\r\n\u003Cp\u003EWhile Aussiedoodles love their families, they can be more reserved around strangers, especially if they take after their Australian Shepherd parent. (This caution served Aussies well as ranch hands!) \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/positively-trained-puppy-socialization-dos-and-donts\"\u003EEarly socialization\u003C/a\u003E and training can help Aussiedoodles feel more comfortable with their surroundings, thereby reducing \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/why-do-dogs-bark\"\u003Ethe alarm they might sound\u003C/a\u003E at something new. \u003C/p\u003E",
+        "h2_how_to_care_for_a_breed": "\u003Cp\u003EWhen it comes to caring for Aussiedoodles, there are three main areas to consider: their brain, their body, and their fur.\u003C/p\u003E",
+        "grooming": "\u003Cp\u003EAustralian Shepherds and Poodles have very different fur, so every Aussiedoodle’s coat is unique. Aussies have double coats that shed regularly year-round. The Poodle’s tight curls, on the other hand, shed very little but require lots of care. \u003C/p\u003E\r\n\u003Cp\u003EYour grooming routine might look a little different depending on what type of coat your Aussiedoodle inherited, but all dogs need consistent nail, ear, and dental care.\u003C/p\u003E\r\n\u003Cul\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003EBathing:\u003C/strong\u003E If your Aussiedoodle loves swimming and outdoor adventuring, they may need \u003Ca href=\"https://www.chewy.com/education/dog/grooming/how-to-bathe-a-dog-step-by-step-tips-from-a-professional-groomer\"\u003Emore frequent baths\u003C/a\u003E. Use a \u003Ca href=\"https://www.chewy.com/b/shampoos-2445\"\u003Edog-friendly shampoo\u003C/a\u003E and dry their ears after they get out of the tub.\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003EBrushing:\u003C/strong\u003E Aussiedoodles with curlier coats might benefit from more frequent haircuts and \u003Ca href=\"https://www.chewy.com/education/dog/grooming/brushing-a-dog\"\u003Ebrushing\u003C/a\u003E, while those with wavy fur might need less daily attention. Regardless of the type of coat, it’s important to use a brush that can get down to the skin to keep tangles and matting at bay. \u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003ENail trimming:\u003C/strong\u003E Your Aussiedoodle’s active lifestyle should help wear down their nails, but \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/guide-trimming-dogs-nails\"\u003Efrequent nail trims\u003C/a\u003E will still be necessary. A good rule of thumb is that if you can hear your dog’s nails clicking as they walk across hard surfaces, it’s time for a trim. \u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003EEar cleaning:\u003C/strong\u003E Water-loving Aussiedoodles with ears that hang down are particularly prone to \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/dog-ear-infection\"\u003Eear infections\u003C/a\u003E. Ask your veterinarian for tips on \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/how-do-you-clean-a-dogs-ears-follow-this-vet-approved-step-by-step-guide\"\u003Ehow to safely clean your pet’s ears\u003C/a\u003E and how often it should be done.\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003EDental care:\u003C/strong\u003E \u003Ca href=\"https://www.chewy.com/education/cat/health-and-wellness/dental-disease-in-dogs\"\u003EDental disease\u003C/a\u003E is common in all dogs, especially those with smaller mouths like the Miniature Aussiedoodle. \u003Ca href=\"https://www.chewy.com/education/dog/grooming/health-wellness-how-to-brush-your-dogs-teeth-live-to-tell-the-tale\"\u003EDaily brushing\u003C/a\u003E and regular \u003Ca href=\"https://www.petmd.com/dog/care/how-much-does-dog-teeth-cleaning-cost\" target=\"_blank\" rel=\"noopener\"\u003Eveterinary dental cleanings\u003C/a\u003E are key to keeping their teeth and gums healthy.\u003C/li\u003E\r\n\u003C/ul\u003E",
+        "training": "\u003Cp\u003ESocializing and training your Aussiedoodle puppy as soon as you bring them home will help the best parts of your Aussiedoodle’s personality shine—and you couldn’t ask for a more willing or capable pupil. \u003C/p\u003E\r\n\u003Cp\u003ESocialization involves introducing your puppy to new animals, people, environments, activities, and objects with the goal of helping them feel more comfortable in new situations throughout their life. Your veterinarian can suggest age-appropriate socialization ideas, as some activities may require your \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/dog-vaccinations-a-complete-guide\"\u003Epup to be fully vaccinated\u003C/a\u003E.\u003C/p\u003E\r\n\u003Cp\u003ELike all dogs, the smarty pants Aussiedoodle thrives with \u003Ca href=\"https://www.petmd.com/dog/behavior/how-to-train-a-dog-with-positive-reinforcement\" target=\"_blank\" rel=\"noopener\"\u003Epositive training\u003C/a\u003E that uses \u003Ca href=\"https://www.chewy.com/b/training-treats-1550\"\u003Etreats\u003C/a\u003E and \u003Ca href=\"https://www.chewy.com/b/toys-315\"\u003Etoys\u003C/a\u003E to motivate learning. If you feel you don’t have the time or experience to provide training on your own, partner with a \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/find-a-dog-trainer\"\u003Eprofessional trainer\u003C/a\u003E or enroll your puppy in \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/sit-stay-and-beyond-weve-got-the-essential-guide-to-basic-dog-obedience-training\"\u003Eobedience school\u003C/a\u003E. \u003C/p\u003E\r\n\u003Cp\u003EWhile we often think of training as an activity for puppies, learning is lifelong. Your Aussiedoodle can keep building on their obedience and skills as they grow and mature. As a bonus, learning new cues provides them with vital mental stimulation and exercise. \u003C/p\u003E",
+        "diet_nutrition": "\u003Cp\u003EEven a dog with as much pep in their step as the Aussiedoodle has to refuel every now and then.\u003C/p\u003E\r\n\u003Cp\u003EPartner with your veterinarian to find the \u003Ca href=\"https://www.petmd.com/dog/vet-verified/best-dog-food\" target=\"_blank\" rel=\"noopener\"\u003Ebest food for your unique dog\u003C/a\u003E. They’ll help you find a diet that meets nutritional standards set by the \u003Ca href=\"https://www.petmd.com/dog/nutrition/What-Is-AAFCO-and-What-Does-It-Do\" target=\"_blank\" rel=\"noopener\"\u003EAAFCO\u003C/a\u003E, and that’s formulated and nutritionally complete for your dog’s lifestyle, size, health, and life stage (\u003Ca href=\"https://www.petmd.com/dog/vet-verified/best-puppy-food\" target=\"_blank\" rel=\"noopener\"\u003Epuppy\u003C/a\u003E, adult, \u003Ca href=\"https://www.petmd.com/dog/vet-verified/best-senior-dog-food\" target=\"_blank\" rel=\"noopener\"\u003Esenior\u003C/a\u003E). \u003C/p\u003E\r\n\u003Cp\u003EMost full-grown Aussiedoodles should eat two meals a day: once in the morning and again in the evening. Aussiedoodle puppies have faster metabolisms and need to eat more frequently—between three and four times a day. \u003C/p\u003E\r\n\u003Cp\u003EBreaking up mealtimes can help reduce the risk of a \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/bloat-in-dogs\"\u003Elife-threatening condition called bloat\u003C/a\u003E that Standard Aussiedoodles are susceptible to. (More on that later.) If you notice that your dog can’t seem to eat their food fast enough, slow their snarfing by using a \u003Ca href=\"https://www.chewy.com/outward-hound-fun-feeder-interactive/dp/113716\"\u003Eslow-feeder bowl\u003C/a\u003E, \u003Ca href=\"https://www.chewy.com/frisco-pizza-snuffle-mat-yellow/dp/393326\"\u003Esnuffle mat\u003C/a\u003E, or \u003Ca href=\"https://www.chewy.com/nina-ottosson-by-outward-hound-brick/dp/961006\"\u003Epuzzle toy\u003C/a\u003E.\u003C/p\u003E\r\n\u003Cp\u003EWhile your Aussiedoodle probably won’t agree, it’s possible to give your dog too many treats. Treats should only make up 10% of your dog’s diet to ensure they’re able to eat their regular food, which is formulated to provide the nutrients they need. \u003C/p\u003E\r\n\u003Cp\u003EIf you notice that treats are beginning to flow too freely during training sessions, you can reward your Aussiedoodle with other things they enjoy, like toys and attention. \u003C/p\u003E",
+        "exercise": "\u003Cp\u003EHave you ever heard the saying that a tired dog is a happy dog? In the case of the high-energy, highly athletic Aussiedoodle, it will take some effort on your part to make them happy (but you’ll have a lot of fun in the process).\u003C/p\u003E\r\n\u003Cp\u003EPlan to spend an hour or more every day being active with your Aussiedoodle. They make excellent walking, jogging, hiking, and swimming companions, and they can thrive in canine sports like agility and lure coursing. These playful pups will also readily engage in \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/how-to-teach-dog-to-fetch\"\u003Egames of fetch\u003C/a\u003E and other kid-friendly backyard activities. \u003C/p\u003E\r\n\u003Cp\u003EKeep in mind that even well-trained Aussiedoodles can be overpowered by their instincts to herd and chase. That’s why it’s so important to keep them on a leash or within a fenced area when exercising outdoors. Otherwise, their interests may lead them into danger.\u003C/p\u003E",
+        "ideal_environment": "\u003Cp\u003EYour Aussiedoodle’s exercise needs will be easiest to meet if you have convenient access to the outdoors, whether it’s a large backyard in the country or a sprawling city park. \u003C/p\u003E\r\n\u003Cp\u003EAussiedoodles aim to please and can befriend family members of all ages. What’s most important is that they have a family who’s committed to their socialization, training, and daily exercise.\u003C/p\u003E\r\n\u003Cp\u003EAussiedoodles are best suited to older children who can safely hold their own with an energetic dog who may try to herd them. And while Aussiedoodles can live at peace with other pets, there’s no guarantee their furry housemates won’t be seen as herd animals either.\u003C/p\u003E",
+        "h2_breed_health": "\u003Cp\u003EAustralian Shepherds typically live 12–15 years, while a Poodle’s life expectancy is 10–18 years. You can expect your Aussiedoodle’s lifespan to fall within this range.\u003C/p\u003E\r\n\u003Cp\u003ELike all breeds, they can develop certain health conditions:\u003C/p\u003E\r\n\u003Cul\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003EHypothyroidism:\u003C/strong\u003E Aussies are predisposed to develop autoimmune thyroiditis, a condition in which a dog’s immune system creates inflammation that damages healthy thyroid tissue. It’s the most common cause of \u003Ca href=\"https://www.petmd.com/dog/conditions/endocrine/c_dg_hypothyroidism\" target=\"_blank\" rel=\"noopener\"\u003Ehypothyroidism in dogs\u003C/a\u003E and can be managed with lifelong medication. \u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003ESebaceous adenitis:\u003C/strong\u003E Poodles are prone to an inflammatory skin disease called \u003Ca href=\"https://www.petmd.com/dog/conditions/skin/sebaceous-adenitis-dogs\" target=\"_blank\" rel=\"noopener\"\u003Esebaceous adenitis\u003C/a\u003E, which causes hair loss, scaling, dandruff, and secondary \u003Ca href=\"https://www.petmd.com/dog/conditions/skin/skin-infections-dogs\" target=\"_blank\" rel=\"noopener\"\u003Eskin infections\u003C/a\u003E. Treatment depends on the severity but can include medications and antibiotic shampoos.\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003EHip and elbow dysplasia:\u003C/strong\u003E \u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/elbow-dysplasia-in-dogs\" target=\"_blank\" rel=\"noopener\"\u003EElbow\u003C/a\u003E and \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/hip-dysplasia-in-dogs\"\u003Ehip dysplasia\u003C/a\u003E are conditions where a dog’s joints don’t develop properly, leading to pain and \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/arthritis-in-dogs\"\u003Earthritis\u003C/a\u003E. Mild cases can be managed with anti-inflammatory medication, \u003Ca href=\"https://www.petmd.com/vet-verified/best-joint-supplements-for-dogs\" target=\"_blank\" rel=\"noopener\"\u003Ejoint supplements\u003C/a\u003E, and weight management. Severe cases may require \u003Ca href=\"https://www.petmd.com/dog/procedure/hip-dysplasia-surgery-dogs\" target=\"_blank\" rel=\"noopener\"\u003Esurgery\u003C/a\u003E.\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003EBloat:\u003C/strong\u003E Bloat in dogs occurs when gas and/or food cause the stomach to expand. Sometimes, bloat progresses into a condition called \u003Ca href=\"https://www.petmd.com/dog/conditions/digestive/gastric-dilatation-volvulus-gdv-syndrome\" target=\"_blank\" rel=\"noopener\"\u003Egastric dilatation-volvulus (GDV)\u003C/a\u003E, in which the dog’s stomach twists and cuts off blood flow to and from the stomach and the spleen. \u003Cstrong\u003EGDV is painful and a life-threatening emergency\u003C/strong\u003E, and signs include retching or dry heaving without vomiting, swollen abdomen, sudden anxiety, pacing, panting and drooling, and collapse. \u003Cstrong\u003EIf you notice any of these signs, get immediate veterinary care. \u003C/strong\u003E\u003C/li\u003E\r\n\u003C/ul\u003E",
+        "h2_breed_history": "\u003Cp\u003EThe history of the Aussiedoodle begins with a tale of two working breeds.\u003C/p\u003E\r\n\u003Cp\u003EDespite their geographically misleading moniker, Australian Shepherds trace their heritage to Basque herding dogs called Pyrenean Shepherds. These dogs eventually took their sheep-herding skills to Australia and then to California, where ranchers assumed they’d originated from Down Under and dubbed them Australian Shepherds. Since then, Aussies have become common fixtures in Western culture, including cowboy movies and rodeos. \u003C/p\u003E\r\n\u003Cp\u003EPoodles have a similarly muddled origin story, because while they may be the national dog of France, the breed was developed in Germany. Poodles got their start retrieving ducks from icy waters hundreds of years ago, but their noble demeanor and elegant appearance helped spur the transition from hunting dog to household companion.\u003C/p\u003E\r\n\u003Cp\u003EAustralian Shepherds became official members of the American Kennel Club (AKC) herding group in 1993, and both Standard and Miniature Poodles joined the AKC’s non-sporting group in 1887.\u003C/p\u003E\r\n\u003Cp\u003EThe Aussiedoodle is a relatively recent mixed breed—likely originating around the 1990s—and isn’t yet a member of the AKC.\u003C/p\u003E",
+        "expert_attribution": "\u003Cp\u003E\u003Cem\u003EThis content was medically reviewed by Kelly Gold, DVM, Chewy veterinarian.\u003C/em\u003E\u003C/p\u003E",
+        "facebook_social_snippet_with_cta": "",
+        "species": "",
+        "h2_faqs": "",
+        "faq_items": [
+          {
+            "faq_title": "Do Aussiedoodles shed a lot?",
+            "faq_content": "\u003Cp\u003EHow much an Aussiedoodle sheds depends on which parent they favor. Their Australian Shepherd parent sheds moderately, but their Poodle parent is a low-shedding breed.\u003C/p\u003E"
+          },
+          {
+            "faq_title": "Are Aussiedoodles hypoallergenic?",
+            "faq_content": "\u003Cp\u003ENo dog is technically 100% hypoallergenic, but some—including Poodles—are \u003Ca href=\"https://www.chewy.com/education/hypoallergenic-dogs\"\u003Emore allergen-friendly than others\u003C/a\u003E. Aussiedoodles who take after their Poodle parent may be a good fit for some people with allergies, but this isn’t a guarantee.\u003C/p\u003E"
+          },
+          {
+            "faq_title": "Are Aussiedoodles high maintenance?",
+            "faq_content": "\u003Cp\u003EAussiedoodles may be considered high maintenance in two areas: exercise and grooming. This high-energy breed needs at least an hour of exercise and play each day. And if your Aussiedoodle takes after their Poodle parent, they may need daily brushing and frequent haircuts to keep their coat healthy and free of tangles.\u003C/p\u003E"
+          },
+          {
+            "faq_title": "Are Aussiedoodles a good family dog?",
+            "faq_content": "\u003Cp\u003EAussiedoodles are playful dogs who love children, but they may not be a great fit for every family. Aussiedoodles need the care of a very active family who can provide them with daily outlets for their energy and intellect.\u003C/p\u003E"
+          },
+          {
+            "faq_title": "How much do Aussiedoodles cost?",
+            "faq_content": "\u003Cp\u003EThe price of an Aussiedoodle puppy or Mini Aussiedoodle puppy will vary by breeder, but you can generally expect to pay $1,000 or more.\u003C/p\u003E"
+          }
+        ],
+        "select_related_breeds": [
+          {
+            "selected_related_breed": 1325,
+            "characteristic": "breed_characteristics_physical_appearance"
+          },
+          {
+            "selected_related_breed": 95,
+            "characteristic": "breed_characteristics_physical_appearance"
+          },
+          {
+            "selected_related_breed": 3698,
+            "characteristic": "breed_characteristics_physical_appearance"
+          },
+          {
+            "selected_related_breed": 4071,
+            "characteristic": "breed_characteristics_physical_appearance"
+          },
+          {
+            "selected_related_breed": 4160,
+            "characteristic": "breed_characteristics_physical_appearance"
+          }
+        ],
+        "enable_featured_gallery": [
+          "enable_featured_gallery"
+        ],
+        "featured_gallery_images": [5146, 5151, 5147, 5149, 5150, 5148]
+      },
+      "yoast_head": "\u003C!-- This site is optimized with the Yoast SEO plugin v23.8 - https://yoast.com/wordpress/plugins/seo/ --\u003E\n\u003Ctitle\u003EAussiedoodle Characteristics, Care &amp; Photos | Chewy\u003C/title\u003E\n\u003Cmeta name=\"description\" content=\"Aussiedodles are an energetic Australian Shepherd-Poodle mix. Learn to care for Aussiedoodle puppies and dogs here.\" /\u003E\n\u003Cmeta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" /\u003E\n\u003Clink rel=\"canonical\" href=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/aussiedoodle/\" /\u003E\n\u003Cmeta property=\"og:locale\" content=\"en_US\" /\u003E\n\u003Cmeta property=\"og:type\" content=\"article\" /\u003E\n\u003Cmeta property=\"og:title\" content=\"Aussiedoodle Characteristics, Care &amp; Photos | Chewy\" /\u003E\n\u003Cmeta property=\"og:description\" content=\"Aussiedodles are an energetic Australian Shepherd-Poodle mix. Learn to care for Aussiedoodle puppies and dogs here.\" /\u003E\n\u003Cmeta property=\"og:url\" content=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/aussiedoodle/\" /\u003E\n\u003Cmeta property=\"og:site_name\" content=\"Chewy\" /\u003E\n\u003Cmeta property=\"article:modified_time\" content=\"2025-06-04T17:35:16+00:00\" /\u003E\n\u003Cmeta property=\"og:image\" content=\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/04/14142930/1984000-2025-05-Breed-Hero-16-9-L-Aussiedoodle.jpg\" /\u003E\n\t\u003Cmeta property=\"og:image:width\" content=\"1835\" /\u003E\n\t\u003Cmeta property=\"og:image:height\" content=\"1032\" /\u003E\n\t\u003Cmeta property=\"og:image:type\" content=\"image/jpeg\" /\u003E\n\u003Cmeta name=\"twitter:card\" content=\"summary_large_image\" /\u003E\n\u003Cmeta name=\"twitter:label1\" content=\"Est. reading time\" /\u003E\n\t\u003Cmeta name=\"twitter:data1\" content=\"1 minute\" /\u003E\n\u003Cscript type=\"application/ld+json\" class=\"yoast-schema-graph\"\u003E{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/aussiedoodle/\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/aussiedoodle/\",\"name\":\"Aussiedoodle Characteristics, Care & Photos | Chewy\",\"isPartOf\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/aussiedoodle/#primaryimage\"},\"image\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/aussiedoodle/#primaryimage\"},\"thumbnailUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/04/14142930/1984000-2025-05-Breed-Hero-16-9-L-Aussiedoodle.jpg\",\"datePublished\":\"2025-04-14T15:00:53+00:00\",\"dateModified\":\"2025-06-04T17:35:16+00:00\",\"description\":\"Aussiedodles are an energetic Australian Shepherd-Poodle mix. Learn to care for Aussiedoodle puppies and dogs here.\",\"breadcrumb\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/aussiedoodle/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://phcms.hlth.prd.aws.chewy.cloud/breed/aussiedoodle/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/aussiedoodle/#primaryimage\",\"url\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/04/14142930/1984000-2025-05-Breed-Hero-16-9-L-Aussiedoodle.jpg\",\"contentUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/04/14142930/1984000-2025-05-Breed-Hero-16-9-L-Aussiedoodle.jpg\",\"width\":1835,\"height\":1032,\"caption\":\"aussiedoodle dog breed\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/aussiedoodle/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://phcms.hlth.prd.aws.chewy.cloud/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Aussiedoodle\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/\",\"name\":\"Chewy\",\"description\":\"\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"}]}\u003C/script\u003E\n\u003C!-- / Yoast SEO plugin. --\u003E",
+      "yoast_head_json": {
+        "title": "Aussiedoodle Characteristics, Care & Photos | Chewy",
+        "description": "Aussiedodles are an energetic Australian Shepherd-Poodle mix. Learn to care for Aussiedoodle puppies and dogs here.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://phcms.hlth.prd.aws.chewy.cloud/breed/aussiedoodle/",
+        "og_locale": "en_US",
+        "og_type": "article",
+        "og_title": "Aussiedoodle Characteristics, Care & Photos | Chewy",
+        "og_description": "Aussiedodles are an energetic Australian Shepherd-Poodle mix. Learn to care for Aussiedoodle puppies and dogs here.",
+        "og_url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/aussiedoodle/",
+        "og_site_name": "Chewy",
+        "article_modified_time": "2025-06-04T17:35:16+00:00",
+        "og_image": [
+          {
+            "width": 1835,
+            "height": 1032,
+            "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/04/14142930/1984000-2025-05-Breed-Hero-16-9-L-Aussiedoodle.jpg",
+            "type": "image/jpeg"
+          }
+        ],
+        "twitter_card": "summary_large_image",
+        "twitter_misc": {
+          "Est. reading time": "1 minute"
+        },
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/aussiedoodle/",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/aussiedoodle/",
+              "name": "Aussiedoodle Characteristics, Care & Photos | Chewy",
+              "isPartOf": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/aussiedoodle/#primaryimage"
+              },
+              "image": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/aussiedoodle/#primaryimage"
+              },
+              "thumbnailUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/04/14142930/1984000-2025-05-Breed-Hero-16-9-L-Aussiedoodle.jpg",
+              "datePublished": "2025-04-14T15:00:53+00:00",
+              "dateModified": "2025-06-04T17:35:16+00:00",
+              "description": "Aussiedodles are an energetic Australian Shepherd-Poodle mix. Learn to care for Aussiedoodle puppies and dogs here.",
+              "breadcrumb": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/aussiedoodle/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://phcms.hlth.prd.aws.chewy.cloud/breed/aussiedoodle/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/aussiedoodle/#primaryimage",
+              "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/04/14142930/1984000-2025-05-Breed-Hero-16-9-L-Aussiedoodle.jpg",
+              "contentUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/04/14142930/1984000-2025-05-Breed-Hero-16-9-L-Aussiedoodle.jpg",
+              "width": 1835,
+              "height": 1032,
+              "caption": "aussiedoodle dog breed"
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/aussiedoodle/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://phcms.hlth.prd.aws.chewy.cloud/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Aussiedoodle"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/",
+              "name": "Chewy",
+              "description": "",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            }
+          ]
+        }
+      },
+      "yoast_meta": {
+        "yoast_wpseo_title": "",
+        "yoast_wpseo_metadesc": "",
+        "yoast_wpseo_canonical": ""
+      },
+      "_links": {
+        "self": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed/5143",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/types/breed"
+          }
+        ],
+        "acf:attachment": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/5148"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/5150"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/5149"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/5147"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/5151"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/5146"
+          }
+        ],
+        "wp:featuredmedia": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/5144"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media?parent=5143"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "pet_type",
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/pet_type?post=5143"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ]

@@ -1,10 +1,10 @@
 {
-  "badge": "The Cuddler",
+  "badge": "The Diva",
   "compatible_with": [
-    "The Explorer",
-    "The Scholar",
-    "The Daydreamer"
+    "The Cuddler",
+    "The Trickster",
+    "The Nurturer"
   ],
-  "icon_png": "the_cuddler.png",
-  "description": "This household is a feline snuggle fest with a shared love for comfy clothing, playful toys, and delectable eats."
+  "icon_png": "the_diva.png",
+  "description": "This household is a feline fiesta of fashion-forward kitties who have a taste for the finer things in life, from gourmet meals to stylish sweaters."
 }

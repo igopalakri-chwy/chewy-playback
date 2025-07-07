@@ -1,0 +1,326 @@
+[
+    {
+      "id": 160,
+      "date": "2021-07-12T10:02:43",
+      "date_gmt": "2021-07-12T10:02:43",
+      "guid": {
+        "rendered": "https://haproxy.use1.lgcy.prd.aws.chewy.cloud/eks/ns/pet-health/pet-health-content-backend/breed/australian-terrier/"
+      },
+      "modified": "2025-05-05T14:21:04",
+      "modified_gmt": "2025-05-05T14:21:04",
+      "slug": "australian-terrier",
+      "status": "publish",
+      "type": "breed",
+      "link": "https://phcms.hlth.prd.aws.chewy.cloud/breed/australian-terrier/",
+      "title": {
+        "rendered": "Australian Terrier"
+      },
+      "featured_media": 2797,
+      "template": "",
+      "pet_type": [],
+      "class_list": [
+        "post-160",
+        "breed",
+        "type-breed",
+        "status-publish",
+        "has-post-thumbnail",
+        "hentry"
+      ],
+      "acf": {
+        "breed_snapshot_best_for": "\u003Cp\u003EAustralian Terriers are best for active pet parents who are able to give this high-energy pup the exercise and attention they need. While these exuberant pups are relatively easy to groom, their high energy levels and independent nature requires lots of training and playtime.\u003C/p\u003E",
+        "alt_image_text": "Australian Terrier dog breed",
+        "breed_intro": "Cheerful, lively and ready to take charge? If that sounds like you, you've met your match with the Australian Terrier. This peppy pup would love to rule the roost if you'd let them. But Australian Terriers are most happy when paling around with their bestie (that's you!), whether that's running errands, \u003Ca href=\"https://www.chewy.com/education/dog/general/ready-to-hit-the-hiking-trail-with-your-dog-heres-everything-you-need-to-know\"\u003Ehiking your favorite trail\u003C/a\u003E or taking a stroll through the neighborhood. These pups love to keep all your attention for themselves; they're happiest when they're your only pet. Their whole goal in life is to spend every moment with you—and that's a goal you're ready to take on.",
+        "breed_related_products_product_card_set": null,
+        "breed_snapshot_temperament": "\u003Cp\u003EExuberant, Zippy, Occasionally Aloof\u003C/p\u003E",
+        "what_does_this_breed_look_like_weight": "\u003Cp\u003EMale: 15-20 pounds\u003C/p\u003E\u003Cp\u003EFemale: 15-20 pounds\u003C/p\u003E",
+        "what_does_this_breed_look_like_height": "\u003Cp\u003EMale: 10-11 inches\u003C/p\u003E\u003Cp\u003EFemale: 10-11 inches\u003C/p\u003E",
+        "breed_snapshot_life_expectancy": "\u003Cp\u003E11 to 15 years\u003C/p\u003E",
+        "breed_snapshot_maintenance_level": "\u003Cp\u003EMedium\u003C/p\u003E",
+        "breed_characteristics_friendliness": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_snapshot_coat_color": "\u003Cp\u003EBlue and Tan, Red, Sandy\u003C/p\u003E",
+        "breed_snapshot_shed_level": "\u003Cp\u003EVery Low\u003C/p\u003E",
+        "in_article_video": null,
+        "breed_characteristics": "These traits are rated on a scale of 1-5 with 1 being the lowest and 5 being the highest. Remember: Dogs are individuals, and not all dogs, even those of the same breed, will exhibit all the same qualities.",
+        "breed_characteristics_exercise_needs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_health_issues": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_barking_tendencies": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_grooming_needs": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_shedding_level": "\u003Cp\u003E1\u003C/p\u003E",
+        "breed_characteristics_training_needs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_kids": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_with_cats": "\u003Cp\u003E1\u003C/p\u003E",
+        "breed_characteristics_good_for_apartments_small_homes": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_energy_level": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_other_dogs": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_playfulnesss": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_cold_weather": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_warm_weather": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_for_first_time_parents": "\u003Cp\u003E2\u003C/p\u003E",
+        "how_do_i_look_card_image": 2796,
+        "what_does_this_breed_look_like": "The Australian Terrier is a small, solid dog with a long body and neck and short legs. With intelligent-looking eyes, pricked ears (ears that stand up) and a pert tail, they're an alert and attentive-looking breed. You'll find them in a range of coat colors, from blue and tan to red or sandy.",
+        "what_does_this_breed_look_like_ears": "\u003Cp\u003EThe Australian Terrier's pointed ears are set high on their heads and stand upright.\u003C/p\u003E",
+        "what_does_this_breed_look_like_eyes": "\u003Cp\u003EThe Australian Terrier breed has small dark brown or black eyes that look alert and perceptive.\u003C/p\u003E",
+        "what_does_this_breed_look_like_nose": "\u003Cp\u003EThis dog's nose is black at the end of a long, narrow muzzle.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_length": "\u003Cp\u003EAustralian Terriers have a double coat. The outer coat is harsh, straight and about two-and-a-half inches long and is shorter on the tail, rear legs and around the ankles and feet. The coat is longer around the neck, forming a protective ruff. The undercoat is short and soft.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_color": "\u003Cp\u003EAn Australian Terrier dog's coat can be blue and tan, solid red or sandy.\u003C/p\u003E",
+        "what_does_this_breed_look_like_tail": "\u003Cp\u003ETheir tail is set high and carried at the twelve or one o'clock position. The AKC breed standard allows for the tail to be docked or undocked. If docked, it's slightly less than half its original length. If left natural, it's either straight or curves forward. Docking involves cutting a portion of the dog’s tail off when they are puppies. Veterinary groups along with many US states and countries have banned this procedure due to medical and behavioral reasons. If you are interested in this procedure, schedule a consultation with your veterinarian.\u003C/p\u003E",
+        "h2_breed_temperament": "The personality of the Australian Terrier breed is generally joyful and upbeat—these dogs are a bundle of energy. They are the type of pup to keep their family entertained, but they'll get into mischief (aka chewing things, excessive barking) if they aren't sufficiently exercised or if they're left alone for too long. Because Aussies were bred to be companions, in addition to keeping vermin, like rats, off the farm, they bond strongly with their families and can get very attached to humans. If you're someone with a busy travel or work schedule, the Australian Terrier might not be the breed for you.\r\n\r\nDespite their devotion to their pet parents, this isn't your happy-go-lucky \u003Ca href=\"https://www.chewy.com/education/dog-breeds/golden-retriever/\"\u003EGolden Retriever\u003C/a\u003E who'll bound up to strangers and lick their face. Australian Terriers can be aloof with people they don't know well—children, neighbors or strangers. They'd choose gardening with their parent at home over mingling at a neighborhood block party any day of the week. But socialization, starting when they're a puppy, will help them get used to meeting new people and situations.\r\n\r\nAustralian Terriers do best as the only dog in your home. Because they were bred to hunt vermin, small pets, like cats and bunnies, will be high on their list of things to chase—best to keep them in a home without any kitties or critters.\r\n\r\nDue to their intelligence and innate desire to hunt prey, these dogs are strong-willed and independent thinkers. They have the terrier characteristics to want to be the leader, but with the right approach and experienced pet parents, they can be well-trained.",
+        "h2_how_to_care_for_a_breed": "Australian Terriers have moderate care needs. Despite looking like their cousins, the high-maintenance \u003Ca href=\"https://www.chewy.com/education/dog-breeds/silky-terrier/\"\u003ESilky\u003C/a\u003E and the \u003Ca href=\"https://www.chewy.com/education/dog-breeds/yorkshire-terrier/\"\u003EYorkshire Terriers\u003C/a\u003E, these pups are relatively easy to groom. However, with their high energy levels and independent nature, you'll be bonding with your pup over lots of time training and playing together.",
+        "grooming": "Australian Terriers are really low maintenance when it comes to their coat care. This dog's coat is more than just for looks—the Australian Terrier uses their coat for protection. In the Australian Outback, the longer hair around their neck protects them against snake bites when nosing around in the brush, so their neck ruff should be left intact. Their coat also acts as a defense against the elements. They're a double-coated breed, and that coat keeps them warm in the winter, and in the summer, it regulates their body temperature and protects them from sunburn.\n\nHere are some grooming tips for your Australian Terrier:\n\u003Cul\u003E\n \t\u003Cli\u003E\u003Cstrong\u003EBrushing:\u003C/strong\u003E Because their coats are so low-maintenance, many pet parents handle grooming themselves. To care for your Australian Terrier's coat, \u003Ca href=\"https://www.chewy.com/education/dog/grooming/brushing-a-dog\"\u003Ebrush it once a week\u003C/a\u003E using a \u003Ca href=\"https://www.chewy.com/master-grooming-tools-dog-stripping/dp/163546\" target=\"_blank\" rel=\"noopener\"\u003Estripping comb\u003C/a\u003E or \u003Ca href=\"https://www.chewy.com/loyalty-pet-products-dog-stripping/dp/240888\" target=\"_blank\" rel=\"noopener\"\u003Eknife\u003C/a\u003E to remove the dead hair, keep the coat from getting matted and maintain that signature terrier look. There's no need to give this breed a haircut.\u003C/li\u003E\n \t\u003Cli\u003E\u003Cstrong\u003EEar cleaning:\u003C/strong\u003E While you're brushing your pup, peek inside their ears once a week to c\u003Cspan class=\"TextRun SCXW188706997 BCX0\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\u003E\u003Cspan class=\"NormalTextRun SCXW188706997 BCX0\"\u003Eheck for de\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW188706997 BCX0\"\u003Ebri\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW188706997 BCX0\"\u003Es and any redness or swelling. If you notice anything, speak to your vet. If your vet recommends at-home \u003C/span\u003E\u003Cspan class=\"FindHit SCXW188706997 BCX0\"\u003Ecle\u003C/span\u003E\u003Cspan class=\"FindHit SCXW188706997 BCX0\"\u003Ea\u003C/span\u003E\u003Cspan class=\"FindHit SCXW188706997 BCX0\"\u003En\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW188706997 BCX0\"\u003Ein\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW188706997 BCX0\"\u003Eg\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW188706997 BCX0\"\u003E, follow this \u003C/span\u003E\u003C/span\u003E\u003Ca class=\"Hyperlink SCXW188706997 BCX0\" href=\"https://www.chewy.com/education/dog/health-and-wellness/how-do-you-clean-a-dogs-ears-follow-this-vet-approved-step-by-step-guide\" target=\"_blank\" rel=\"noreferrer noopener\"\u003E\u003Cspan class=\"TextRun Underlined SCXW188706997 BCX0\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\u003E\u003Cspan class=\"NormalTextRun SCXW188706997 BCX0\" data-ccp-charstyle=\"Hyperlink\"\u003Estep-by-step guide on how to \u003C/span\u003E\u003Cspan class=\"FindHit SCXW188706997 BCX0\" data-ccp-charstyle=\"Hyperlink\"\u003Ecle\u003C/span\u003E\u003Cspan class=\"FindHit SCXW188706997 BCX0\" data-ccp-charstyle=\"Hyperlink\"\u003Ea\u003C/span\u003E\u003Cspan class=\"FindHit SCXW188706997 BCX0\" data-ccp-charstyle=\"Hyperlink\"\u003En\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW188706997 BCX0\" data-ccp-charstyle=\"Hyperlink\"\u003E dog ears\u003C/span\u003E\u003C/span\u003E\u003C/a\u003E\u003Cspan class=\"TextRun SCXW188706997 BCX0\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\u003E\u003Cspan class=\"NormalTextRun SCXW188706997 BCX0\"\u003E.\u003C/span\u003E\u003C/span\u003E\u003Cspan class=\"EOP SCXW188706997 BCX0\" data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559685&quot;:720,&quot;335559731&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}\"\u003E&nbsp;\u003C/span\u003E\u003C/li\u003E\n \t\u003Cli\u003E\u003Cstrong\u003ENail trimming:\u003C/strong\u003E \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/guide-trimming-dogs-nails\"\u003EYour pup's nails\u003C/a\u003E will most likely need a trim about once a month. If they get too long, it can be more difficult for your pup to walk and even lead to arthritis. You'll know it's time for a trim when you hear your pup tap dancing on your kitchen floors.\u003C/li\u003E\n \t\u003Cli\u003E\u003Cstrong\u003EBathing:\u003C/strong\u003E These dogs don't require frequent \u003Ca href=\"https://www.chewy.com/education/dog/grooming/how-to-bathe-a-dog-step-by-step-tips-from-a-professional-groomer\"\u003Ebathing\u003C/a\u003E, so aim to pop them in the tub no more than three to four times a year unless they've played in something particularly stinky or muddy.\u003C/li\u003E\n \t\u003Cli\u003E\u003Cstrong\u003EDental care:\u003C/strong\u003E \u003Ca href=\"https://www.chewy.com/education/dog/grooming/health-wellness-how-to-brush-your-dogs-teeth-live-to-tell-the-tale\"\u003EBrush your Australian Terrier's teeth\u003C/a\u003E daily to defend against periodontal disease, and schedule an annual professional cleaning with your vet. Be sure to familiarize your Aussie with the toothbrush when they're a puppy, so they're used to the process as they get older.\u003C/li\u003E\n\u003C/ul\u003E",
+        "training": "Australian Terriers respond well to structure and routine, and keeping them on a schedule can make training them much easier. Everyone likes to be rewarded when they do a good job, so be sure to use lots of treats and praise when your Australian Terrier does the right thing. (This is known as positive reinforcement training.) Start with the \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/sit-stay-and-beyond-weve-got-the-essential-guide-to-basic-dog-obedience-training\"\u003Ebasics of obedience\u003C/a\u003E, like \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-sit\"\u003Esit\u003C/a\u003E, \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-stay\"\u003Estay\u003C/a\u003E and \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-come\"\u003Ecome\u003C/a\u003E, and be sure to teach them how to \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/leash-train-dog-2\"\u003Ewalk nicely on a leash\u003C/a\u003E.\n\nIf you find your Australian Terrier puppy doesn't take easily to \u003Ca href=\"https://www.chewy.com/education/dog/new-dog/how-to-potty-train-your-dog-in-7-days\"\u003Ehouse training\u003C/a\u003E, don't fret! Sometimes small dogs are just harder to train; they have small bladders and need to go out more often, and their potty time cues may not be as instantly recognizable as a larger dog's. Consistency is the key. Be sure to take your pup out about 20 minutes after every meal and reward them when they potty outside. (Be sure to use the same cue words, like “Let's go potty,\" so they start to learn what it means.)\n\n\u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/positively-trained-how-to-make-crate-training-easy-for-your-pet-and-you\"\u003ECrate training\u003C/a\u003E is a great way to help potty train your puppy. Dogs like to keep their “dens\" clean, and a crate that's just the right size mimics that den-like feel. Find a \u003Ca href=\"https://www.chewy.com/b/crates-kennels-369\" target=\"_blank\" rel=\"noopener\"\u003Ecrate\u003C/a\u003E that fits the “Goldilocks\" zone: not too small and not too large. You want a crate with enough room they can turn around in, not one so large your puppy chooses to use one end as a bathroom.\n\nAustralian Terriers are not naturally friendly; \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/positively-trained-puppy-socialization-dos-and-donts\"\u003Esocialization\u003C/a\u003E is crucial to help these pups get used to meeting new people and other dogs and other social situations. Starting while they're a puppy, take your dog on walks and let them sniff and meet new people and other friendly dogs. Enroll in puppy preschool, where they'll learn to play nicely with other puppies and interact with other pup parents all in one location.\n\nOne characteristic you might need to work on with your Australian Terrier is excessive barking. It's natural for them to bark at visitors, strangers or other dogs, but you can teach them to know when to bark and when to keep their thoughts to themselves. It's important to remember that, while you can teach your pup to curb their natural instincts, like barking and chasing, you'll never train these traits completely out of your dog.",
+        "diet_nutrition": "Because Australian Terriers are so active, it's important to feed them a \u003Ca href=\"https://www.chewy.com/b/premium-food-11728\" target=\"_blank\" rel=\"noopener\"\u003Ehigh-quality commercial dog food\u003C/a\u003E that sustains them on those long walks and chase sessions in the yard. Be sure to choose a formula that fits their age and stage in life (puppy, adult or senior). Talk to your veterinarian about the best food and feeding schedule for your individual dog.\r\n\r\nOne topic of conversation that might come up with older dog is obesity—something many small dogs struggle with as they age. It's important not to overfeed your Australian Terrier, as obesity can limit their mobility and lead to other health issues down the road like heart disease.\r\n\r\nYou'll probably go through quite a few treats during obedience training, but remember that treats equal calories. Instead of always rewarding your pup with food, give your dog playtime with a special toy you only use during training or give them a massage.\r\n\r\nWhen feeding your Australian Terrier, watch out for food sensitivities and allergies. If you notice your dog isn't doing well with a particular food—symptoms may include itching, vomiting or diarrhea—consult your vet right away. They can help you determine what's causing your pup's symptoms and the best course of action, whether that's a change in food or medication.",
+        "exercise": "The Australian Terrier's short legs may lead you to believe they prefer a short stroll down the sidewalk to a mountain hike, but don't underestimate these energetic and adventurous dogs. Plan on 60-90 minutes of exercise throughout the day.\n\nThey need vigorous exercise and play sessions several times a day, whether that takes the form of a long walk in the woods, an off-leash romp in a fenced yard or a rousing game of hide-and-seek. Australian Terriers play well with older kids and young children they're already comfortable with and will run circles around them for days before tiring themselves out.\n\nIt's important to keep these pups on a leash if you're not in an enclosed area, like a fenced backyard. These dogs have a very high prey drive and will chase when they see something that needs chasing. So, for their safety and your mental well-being, keep them on a leash when out and about.\n\nAustralian Terriers are smart cookies; be sure to engage their brains as well as their bodies. You may want to participate in dog sports, like \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/dog-agility-training-tips\"\u003Eagility\u003C/a\u003E, or give them a job to do, like pick up their toys or socks or shoes left lying around the house. You can also give them a few \u003Ca href=\"https://www.chewy.com/b/puzzle-toys-games-2335\" target=\"_blank\" rel=\"noopener\"\u003Epuzzle toys\u003C/a\u003E to solve on those days when you can't get outside to run and play.",
+        "ideal_environment": "Australian Terriers love a home where they can run around to their heart's content, making a home with a fenced yard they can speed around on their Top 10 list. Their compact size makes them ideal for apartments, but you'll need to be able to give them the abundant exercise they need every day. Without it, they'll annoy your neighbors as they sing the song of their people. All. Day. Long.\r\n\r\nAustralian Terriers are active little pups who love adventure; they will not be happy left at home with their thoughts. And because they're so active and think they're pretty smart, they're better suited for pet parents who have experience training dogs.\r\n\r\nThese pups have an affinity for both children and the elderly. They can be very gentle with kids, particularly if they're introduced to them as puppies. While they prefer to be the only dog in the home, Australian Terriers can get along with other dogs if raised together. They won't do well with another Australian Terrier of the same sex, though, as both will vie to be top dog. And because of their high prey drive, they don't mix well with small animals like cats or rabbits.\r\n\r\nThese dogs are not the most welcoming with strangers or people they don't know well, so they may not thrive in homes that are \"party central.\" Socialization can help, but they'll never be as friendly as a \u003Ca href=\"https://www.chewy.com/education/dog-breeds/biewer-terrier/\"\u003EBiewer Terrier\u003C/a\u003E.",
+        "h2_breed_health": "\u003Cspan data-contrast=\"none\"\u003EWhile Australian Terriers are generally a hardy breed with a good life expectancy of 11-15 years, they’re prone to a few health problems that you should be aware of before bringing them into your home.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;335557856&quot;:16777215}\"\u003E \u003C/span\u003E\r\n\u003Cul\u003E\r\n \t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;multilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"1\" data-aria-level=\"1\"\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/endocrine/diabetes-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EDiabetes Mellitus\u003C/span\u003E\u003C/b\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E: Australian Terriers have a \u003C/span\u003E\u003Ca href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7514011/\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Erisk of developing diabetes mellitus\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, which looks like Type 1 diabetes in humans. This is a genetic disease rather than a diet-related condition; and while there is currently \u003C/span\u003E\u003Ca href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4579387/\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Eno genetic testing for diabetes in dogs\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, responsible breeders won’t use dogs with diabetes in their breeding programs. Symptoms of diabetes include excessive thirst, increased peeing and appetite and weight loss. If your pet is having any of these issues, it is recommended to contact their veterinarian for an examination and likely bloodwork.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;335557856&quot;:16777215,&quot;335559685&quot;:1117}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n \t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;multilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"2\" data-aria-level=\"1\"\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/c_multi_patellar_luxation\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003ELuxating Patella\u003C/span\u003E\u003C/b\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E: Common in small breed dogs, a luxating patella is where the kneecap can shift sideways (luxate) out of its normal position. You’ll often see your pup skip for a few steps or even shake their leg. Often, the knee will slip back into place on its own. Treatment may include joint supplements and weight management.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;335557856&quot;:16777215,&quot;335559685&quot;:1117}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n \t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;multilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"3\" data-aria-level=\"1\"\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/c_dg_legg_calve_perthes_disease\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003ELegg-Calve-Perthes\u003C/span\u003E\u003C/b\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E: This is a heredity condition affecting the hip joint in small breed dogs. Dogs affected will typically have a slowing progressing back leg limp affecting one or both back legs. It is diagnosed by X-rays and treated with surgery.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;335557856&quot;:16777215,&quot;335559685&quot;:1117}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n \t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;multilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"4\" data-aria-level=\"1\"\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/eye/c_dg_cataract\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003ECataracts\u003C/span\u003E\u003C/b\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E: Cataracts create a clouding of the lens of the eye results in decreased or lost vision. There are over \u003C/span\u003E\u003Ca href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10032449/#:~:text=Genetic%20testing%20currently%20involves%20screening,and%20inform%20future%20family%20planning.\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003E115 genes\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E known to cause cataracts, so genetic screening is not always practical. However, surgical treatment may help to restore vision in affected pups.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;335557856&quot;:16777215,&quot;335559685&quot;:1117}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n \t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;multilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"5\" data-aria-level=\"1\"\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/neurological/epilepsy-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EEpilepsy\u003C/span\u003E\u003C/b\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E: Australian Terriers are prone to seizures and \u003C/span\u003E\u003Ca href=\"https://embarkvet.com/products/dog-health/health-conditions/benign-familial-juvenile-epilepsy-remitting-focal-epilepsy/\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Egenetic testing\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E may help screen at risk dogs. Often seizures can be well managed in dogs with daily medication.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;335557856&quot;:16777215,&quot;335559685&quot;:1117}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\u003C/ul\u003E",
+        "h2_breed_history": "The Australian Terrier hails from Australia (no surprise there!), but this dog owes their origins to the British settlers who brought working terriers \"Down Under.\" The development of this breed started around 1820, when they were called Rough Coated Terriers; they became known as the Australian Terrier in 1892. The breed's ancestors include the \u003Ca href=\"https://www.chewy.com/education/dog-breeds/norwich-terrier/\" rel=\"noopener\"\u003ENorwich Terrier\u003C/a\u003E, the Scottish Terrier and the \u003Ca href=\"https://www.chewy.com/education/dog-breeds/yorkshire-terrier/\"\u003EYorkshire Terrier\u003C/a\u003E. The word \"terrier,\" from \u003Cem\u003Eterre\u003C/em\u003E and \u003Cem\u003Etera\u003C/em\u003E, the French and Latin words for earth, refers to these dogs' tendency to burrow.\n\nLike other prey-driven dogs, including the \u003Ca href=\"https://www.chewy.com/education/dog-breeds/cairn-terrier\" rel=\"noopener\"\u003ECairn Terrier\u003C/a\u003E and Dandie Dinmont, the Australian Terrier was (and still is!) adept at hunting rats, mice and snakes on farms and homesteads. Their double coats protected them against the extreme temperatures of the Australian Outback, while the long hair on their necks and chests defended against snake bites. These dogs were keen and fearless hunters, and their instinct to hunt small animals remains to this day.\n\nIn spite of their hunting prowess, and unlike some terrier breeds, Australian Terriers had a dual purpose: they were also bred to be companion dogs. While they worked hard at their outdoor jobs, they were equally happy to keep farm families company inside the home. The Australian Terrier was Australia's first officially recognized dog and was recognized by the American Kennel Club (AKC) in 1960, having first been introduced to the US in the 1940s.\n\nIf you want one of these dogs in your life, the price for a purebred Australian Terrier puppy can range $1,300-$1,500 or more. For that price, you're likely getting a pup who's been screened for health and temperament issues and may come with pedigree papers. You can find a list of reputable breeders on the \u003Ca href=\"https://marketplace.akc.org/puppies/australian-terrier\" target=\"_blank\" rel=\"noopener\"\u003EAKC's website\u003C/a\u003E. These dogs are relatively rare in North America and can be difficult to find in an animal shelter, but you can check with the \u003Ca href=\"https://www.australianterrierrescue.org/\" target=\"_blank\" rel=\"noopener\"\u003EAustralian Terrier Rescue\u003C/a\u003E group to adopt a pup. You can also search&nbsp;\u003Ca href=\"https://www.chewy.com/g/dog-australian-terrier_ga1\" target=\"_blank\" rel=\"noopener\"\u003EChewy’s database of adoptable dogs\u003C/a\u003E&nbsp;in your area.",
+        "expert_attribution": "\u003Ci\u003EExpert input provided by Dr. Heather Rife, former veterinarian and breeder; and \u003C/i\u003E\u003Ci\u003EJulie Seaton, AKC Breeder of Merit with \u003C/i\u003E\u003Ci\u003E\u003Ca href=\"https://www.temora.net\" target=\"_blank\" rel=\"noopener\"\u003ETemora Australian Terriers\u003C/a\u003E.\u003C/i\u003E\u003Ci\u003E\u003C/i\u003E\r\n\r\n\u003Cem\u003EBreed characteristic ratings provided by Dr. Sarah J. Wooten, DVM, CVJ, a veterinarian at \u003Ca href=\"https://sheepdraw.com/\" target=\"_blank\" rel=\"noopener\"\u003ESheep Draw Veterinary Hospital\u003C/a\u003E in Greeley, Colorado; dog trainer and behavior consultant Irith Bloom, CPDT-KSA, CBCC-KA, CDBC, owner of \u003Ca href=\"https://thesophisticateddog.com/\" target=\"_blank\" rel=\"noopener\"\u003EThe Sophisticated Dog, LLC\u003C/a\u003E, in Los Angeles; and certified animal behavior consultant \u003Ca href=\"https://shojai.com/\" target=\"_blank\" rel=\"noopener\"\u003EAmy Shojai\u003C/a\u003E, CABC, in Sherman, Texas.\u003C/em\u003E\r\n\r\n\u003Cem\u003EThe health content was medically reviewed by Chewy vets.\u003C/em\u003E",
+        "facebook_social_snippet_with_cta": "\u003Cp\u003ESmall and sprightly dogs from the Land Down Under, Australian Terriers are a distinctive, desirable and high-energy pup for all your adventures. Get all the information you need about them in our comprehensive guide. \u003C/p\u003E",
+        "species": "\u003Cp\u003EDog\u003C/p\u003E",
+        "h2_faqs": "\u003Ch3\u003EDo Australian Terriers shed?\u003C/h3\u003E\r\nAustralian Terriers hardly shed at all, making them a great choice for someone who suffers from allergies.\r\n\u003Ch3\u003EAre Australian Terriers good family dogs?\u003C/h3\u003E\r\nYes, Australian Terriers make good family dogs and generally love homes with kids, when they're properly socialized. It's best to supervise them around young children they don't know well, as they don't have much patience for poking and prodding.\r\n\u003Ch3\u003EHow long do Australian Terriers live?\u003C/h3\u003E\r\nMost Australian Terriers live to be 11-15 years old, giving you many years to create fond memories with your pup.\r\n\u003Ch3\u003EDo Australian Terriers bark a lot?\u003C/h3\u003E\r\nAustralian Terriers can, in fact, be big barkers. They can be trained to be less yappy, but their watchdog instinct makes them naturally prone to barking.\r\n\u003Ch3\u003EWhat are the most common Australian Terrier mixes?\u003C/h3\u003E\r\n\u003Cul\u003E\r\n \t\u003Cli\u003EAustralian Terrier-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/yorkshire-terrier/\"\u003EYorkie\u003C/a\u003E mix (Australian Yorkshire Terrier)\u003C/li\u003E\r\n \t\u003Cli\u003EAustralian Terrier-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/chihuahua/\"\u003EChihuahua\u003C/a\u003E mix\u003C/li\u003E\r\n \t\u003Cli\u003EAustralian Terrier-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/poodle/\"\u003EPoodle\u003C/a\u003E mix (Terripoo)\u003C/li\u003E\r\n \t\u003Cli\u003EAustralian Terrier-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/jack-russell-terrier/\"\u003EJack Russell\u003C/a\u003E mix (Rustralian)\u003C/li\u003E\r\n \t\u003Cli\u003EAustralian Terrier-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/labrador-retriever/\"\u003ELabrador\u003C/a\u003E mix\u003C/li\u003E\r\n\u003C/ul\u003E\r\nNote: These are not purebred dogs but mixed breeds.",
+        "faq_items": [
+          {
+            "faq_title": "Do Australian Terriers shed?",
+            "faq_content": "Australian Terriers hardly shed at all, making them a great choice for someone who suffers from allergies."
+          },
+          {
+            "faq_title": "Are Australian Terriers good family dogs?",
+            "faq_content": "Yes, Australian Terriers make good family dogs and generally love homes with kids, when they're properly socialized. It's best to supervise them around young children they don't know well, as they don't have much patience for poking and prodding."
+          },
+          {
+            "faq_title": "How long do Australian Terriers live?",
+            "faq_content": "Most Australian Terriers live to be 11-15 years old, giving you many years to create fond memories with your pup."
+          },
+          {
+            "faq_title": "Do Australian Terriers bark a lot?",
+            "faq_content": "Australian Terriers can, in fact, be big barkers. They can be trained to be less yappy, but their watchdog instinct makes them naturally prone to barking."
+          },
+          {
+            "faq_title": "What are the most common Australian Terrier mixes?",
+            "faq_content": "\u003Cul\u003E\r\n \t\u003Cli\u003EAustralian Terrier-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/yorkshire-terrier/\"\u003EYorkie\u003C/a\u003E mix (Australian Yorkshire Terrier)\u003C/li\u003E\r\n \t\u003Cli\u003EAustralian Terrier-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/chihuahua/\"\u003EChihuahua\u003C/a\u003E mix\u003C/li\u003E\r\n \t\u003Cli\u003EAustralian Terrier-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/poodle/\"\u003EPoodle\u003C/a\u003E mix (Terripoo)\u003C/li\u003E\r\n \t\u003Cli\u003EAustralian Terrier-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/jack-russell-terrier/\"\u003EJack Russell\u003C/a\u003E mix (Rustralian)\u003C/li\u003E\r\n \t\u003Cli\u003EAustralian Terrier-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/labrador-retriever/\"\u003ELabrador\u003C/a\u003E mix\u003C/li\u003E\r\n\u003C/ul\u003E\r\nNote: These are not purebred dogs but mixed breeds."
+          }
+        ],
+        "select_related_breeds": [
+          {
+            "selected_related_breed": 151,
+            "characteristic": "breed_characteristics_physical_appearance"
+          },
+          {
+            "selected_related_breed": 1098,
+            "characteristic": "breed_characteristics_shedding_level"
+          },
+          {
+            "selected_related_breed": 1207,
+            "characteristic": "breed_characteristics_exercise_needs"
+          },
+          {
+            "selected_related_breed": 200,
+            "characteristic": "breed_characteristics_training_needs"
+          },
+          {
+            "selected_related_breed": 874,
+            "characteristic": "breed_characteristics_energy_level"
+          },
+          {
+            "selected_related_breed": 533,
+            "characteristic": "breed_characteristics_playfulnesss"
+          }
+        ],
+        "enable_featured_gallery": [
+          "enable_featured_gallery"
+        ],
+        "featured_gallery_images": [159, 152, 153, 154, 155, 156]
+      },
+      "yoast_head": "\u003C!-- This site is optimized with the Yoast SEO plugin v23.8 - https://yoast.com/wordpress/plugins/seo/ --\u003E\n\u003Ctitle\u003EAustralian Terrier Breed: Characteristics, Care &amp; Photos | Chewy\u003C/title\u003E\n\u003Cmeta name=\"description\" content=\"Get the 101 on the Australian native breed, a rough-coated terrier who makes a great family pet in our complete Australian Terrier guide.\" /\u003E\n\u003Cmeta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" /\u003E\n\u003Clink rel=\"canonical\" href=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/australian-terrier/\" /\u003E\n\u003Cmeta property=\"og:locale\" content=\"en_US\" /\u003E\n\u003Cmeta property=\"og:type\" content=\"article\" /\u003E\n\u003Cmeta property=\"og:title\" content=\"Australian Terrier Breed: Characteristics, Care &amp; Photos | Chewy\" /\u003E\n\u003Cmeta property=\"og:description\" content=\"Get the 101 on the Australian native breed, a rough-coated terrier who makes a great family pet in our complete Australian Terrier guide.\" /\u003E\n\u003Cmeta property=\"og:url\" content=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/australian-terrier/\" /\u003E\n\u003Cmeta property=\"og:site_name\" content=\"Chewy\" /\u003E\n\u003Cmeta property=\"article:modified_time\" content=\"2025-05-05T14:21:04+00:00\" /\u003E\n\u003Cmeta property=\"og:image\" content=\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/12/13152404/202107Breed-Hero-Australian-Terrier.jpg\" /\u003E\n\t\u003Cmeta property=\"og:image:width\" content=\"1835\" /\u003E\n\t\u003Cmeta property=\"og:image:height\" content=\"1032\" /\u003E\n\t\u003Cmeta property=\"og:image:type\" content=\"image/jpeg\" /\u003E\n\u003Cmeta name=\"twitter:card\" content=\"summary_large_image\" /\u003E\n\u003Cscript type=\"application/ld+json\" class=\"yoast-schema-graph\"\u003E{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/australian-terrier/\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/australian-terrier/\",\"name\":\"Australian Terrier Breed: Characteristics, Care & Photos | Chewy\",\"isPartOf\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/australian-terrier/#primaryimage\"},\"image\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/australian-terrier/#primaryimage\"},\"thumbnailUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/12/13152404/202107Breed-Hero-Australian-Terrier.jpg\",\"datePublished\":\"2021-07-12T10:02:43+00:00\",\"dateModified\":\"2025-05-05T14:21:04+00:00\",\"description\":\"Get the 101 on the Australian native breed, a rough-coated terrier who makes a great family pet in our complete Australian Terrier guide.\",\"breadcrumb\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/australian-terrier/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://phcms.hlth.prd.aws.chewy.cloud/breed/australian-terrier/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/australian-terrier/#primaryimage\",\"url\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/12/13152404/202107Breed-Hero-Australian-Terrier.jpg\",\"contentUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/12/13152404/202107Breed-Hero-Australian-Terrier.jpg\",\"width\":1835,\"height\":1032,\"caption\":\"Australian Terrier\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/australian-terrier/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://phcms.hlth.prd.aws.chewy.cloud/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Australian Terrier\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/\",\"name\":\"Chewy\",\"description\":\"\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"}]}\u003C/script\u003E\n\u003C!-- / Yoast SEO plugin. --\u003E",
+      "yoast_head_json": {
+        "title": "Australian Terrier Breed: Characteristics, Care & Photos | Chewy",
+        "description": "Get the 101 on the Australian native breed, a rough-coated terrier who makes a great family pet in our complete Australian Terrier guide.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://phcms.hlth.prd.aws.chewy.cloud/breed/australian-terrier/",
+        "og_locale": "en_US",
+        "og_type": "article",
+        "og_title": "Australian Terrier Breed: Characteristics, Care & Photos | Chewy",
+        "og_description": "Get the 101 on the Australian native breed, a rough-coated terrier who makes a great family pet in our complete Australian Terrier guide.",
+        "og_url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/australian-terrier/",
+        "og_site_name": "Chewy",
+        "article_modified_time": "2025-05-05T14:21:04+00:00",
+        "og_image": [
+          {
+            "width": 1835,
+            "height": 1032,
+            "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/12/13152404/202107Breed-Hero-Australian-Terrier.jpg",
+            "type": "image/jpeg"
+          }
+        ],
+        "twitter_card": "summary_large_image",
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/australian-terrier/",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/australian-terrier/",
+              "name": "Australian Terrier Breed: Characteristics, Care & Photos | Chewy",
+              "isPartOf": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/australian-terrier/#primaryimage"
+              },
+              "image": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/australian-terrier/#primaryimage"
+              },
+              "thumbnailUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/12/13152404/202107Breed-Hero-Australian-Terrier.jpg",
+              "datePublished": "2021-07-12T10:02:43+00:00",
+              "dateModified": "2025-05-05T14:21:04+00:00",
+              "description": "Get the 101 on the Australian native breed, a rough-coated terrier who makes a great family pet in our complete Australian Terrier guide.",
+              "breadcrumb": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/australian-terrier/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://phcms.hlth.prd.aws.chewy.cloud/breed/australian-terrier/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/australian-terrier/#primaryimage",
+              "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/12/13152404/202107Breed-Hero-Australian-Terrier.jpg",
+              "contentUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/12/13152404/202107Breed-Hero-Australian-Terrier.jpg",
+              "width": 1835,
+              "height": 1032,
+              "caption": "Australian Terrier"
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/australian-terrier/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://phcms.hlth.prd.aws.chewy.cloud/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Australian Terrier"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/",
+              "name": "Chewy",
+              "description": "",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            }
+          ]
+        }
+      },
+      "yoast_meta": {
+        "yoast_wpseo_title": "",
+        "yoast_wpseo_metadesc": "",
+        "yoast_wpseo_canonical": ""
+      },
+      "_links": {
+        "self": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed/160",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/types/breed"
+          }
+        ],
+        "acf:attachment": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/156"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/155"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/154"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/153"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/152"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/159"
+          }
+        ],
+        "wp:featuredmedia": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/2797"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media?parent=160"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "pet_type",
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/pet_type?post=160"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ]

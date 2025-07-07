@@ -1,0 +1,325 @@
+[
+    {
+      "id": 572,
+      "date": "2021-06-21T09:27:59",
+      "date_gmt": "2021-06-21T09:27:59",
+      "guid": {
+        "rendered": "https://haproxy.use1.lgcy.prd.aws.chewy.cloud/eks/ns/pet-health/pet-health-content-backend/breed/vizsla/"
+      },
+      "modified": "2025-05-05T14:21:45",
+      "modified_gmt": "2025-05-05T14:21:45",
+      "slug": "vizsla",
+      "status": "publish",
+      "type": "breed",
+      "link": "https://phcms.hlth.prd.aws.chewy.cloud/breed/vizsla/",
+      "title": {
+        "rendered": "Vizsla"
+      },
+      "featured_media": 571,
+      "template": "",
+      "pet_type": [],
+      "class_list": [
+        "post-572",
+        "breed",
+        "type-breed",
+        "status-publish",
+        "has-post-thumbnail",
+        "hentry"
+      ],
+      "acf": {
+        "breed_snapshot_best_for": "The lightning-fast Vizsla is full of non-stop energy and needs access to outdoor space. Often called \"Velcro dogs,\" Vizslas stick close to their people, but need consistent training to keep them focused. With socialization and the proper attention, Vizslas make faithful, family pets.",
+        "alt_image_text": "\u003Cp\u003EThe Vizsla is a speedy, sporty, super friend and quite the looker, too. Learn more about this dog in our complete guide.\u003C/p\u003E",
+        "breed_intro": "So, you may not have known this, but you're gonna need a faster bike. Yup, thanks to your Vizsla, trading in your regular wheels for an electric upgrade is a must. Sure, the Vizsla breed isn't a large dog, but this wiggly, wild creature is lightning fast, running like the wind any time they get the chance. (You might want to think about starting an \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/dog-walking-exercise-routine\"\u003Eexercise routine\u003C/a\u003E if you don't have one already.) Non-stop energy, sleek good looks and long ears that cradle the \u003Ci\u003Esweetest\u003C/i\u003E face will prompt you to show off your Vizsla dog. But there's just one problem. You. Can't. Catch. Up. On second thought, skip the e-bike—and get a Vespa.",
+        "breed_related_products_product_card_set": null,
+        "breed_snapshot_temperament": "\u003Cp\u003EAthletic, Gentle, Fearless\u003C/p\u003E",
+        "what_does_this_breed_look_like_weight": "\u003Cp\u003EMale: 55-60 pounds\u003C/p\u003E\u003Cp\u003EFemale: 44-55 pounds\u003C/p\u003E",
+        "what_does_this_breed_look_like_height": "\u003Cp\u003EMale: 22-24 inches\u003C/p\u003E\u003Cp\u003EFemale: 21-23 inches\u003C/p\u003E",
+        "breed_snapshot_life_expectancy": "\u003Cp\u003E12 to 14 years\u003C/p\u003E",
+        "breed_snapshot_maintenance_level": "\u003Cp\u003EMedium\u003C/p\u003E",
+        "breed_characteristics_friendliness": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_snapshot_coat_color": "\u003Cp\u003EGolden Rust \u003C/p\u003E",
+        "breed_snapshot_shed_level": "\u003Cp\u003ELow\u003C/p\u003E",
+        "in_article_video": null,
+        "breed_characteristics": "These traits are rated on a scale of 1-5 with 1 being the lowest and 5 being the highest. Remember: Dogs are individuals, and not all dogs, even those of the same breed, will exhibit all the same qualities.",
+        "breed_characteristics_exercise_needs": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_health_issues": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_barking_tendencies": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_grooming_needs": "\u003Cp\u003E1\u003C/p\u003E",
+        "breed_characteristics_shedding_level": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_training_needs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_kids": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_cats": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_for_apartments_small_homes": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_energy_level": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_good_with_other_dogs": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_playfulnesss": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_cold_weather": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_warm_weather": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_for_first_time_parents": "\u003Cp\u003E3\u003C/p\u003E",
+        "how_do_i_look_card_image": 570,
+        "what_does_this_breed_look_like": "A Vizsla dog's smooth golden rust coat and delicate droopy ears are two distinctive features that entice potential pet parents to welcome this handsome pup into their homes. Add in a lean, muscular frame, gentle eyes and a curious, intelligent face and you can see why this ancient hunting dog attracts so many canine fans.",
+        "what_does_this_breed_look_like_ears": "\u003Cp\u003EVizsla ears hang close to the cheeks and are thin and silky with rounded edges.\u003C/p\u003E",
+        "what_does_this_breed_look_like_eyes": "\u003Cp\u003EVizsla eyes are medium in size and tend to blend in with the dog's coat color.\u003C/p\u003E",
+        "what_does_this_breed_look_like_nose": "\u003Cp\u003EThe Vizsla dog breed's nose is rounded and the same golden rust color as their fur.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_length": "\u003Cp\u003EThe Vizsla dog breed is short-coated with smooth, dense, close-lying fur.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_color": "\u003Cp\u003EA Vizsla's coat sports shades of golden rust.\u003C/p\u003E",
+        "what_does_this_breed_look_like_tail": "The AKC breed standard calls for the tail to be docked. Docking involves cutting a portion of the dog’s tail off when they are puppies. Veterinary groups along with many U.S. states and countries have banned this procedure due to medical and behavioral reasons. If you are interested in this procedure, schedule a consultation with your veterinarian.",
+        "h2_breed_temperament": "Bounding, wiggling, racing away—the Vizsla dog breed has a high-energy personality that's always ready to go, go, go. (Keeping up with the Energizer Bunny would not be an issue). Inquisitive and loving, a Vizsla is sometimes called a \"Velcro dog\" as they tend to stick close to their people. Vizslas have a gentle, friendly nature and a playful demeanor.\r\n\r\nHaving a Vizsla in a home with kids and babies is a fine idea—and the breed also enjoys the company of other dogs, especially when they're young. Bonus: They can even be trained to live peaceably with cats. But keep in mind that Vizslas have a high prey drive and may chase a kitty, so if you plan to introduce a feline to the family, take care to keep the cat safe until your Vizsla puppy is well socialized.\r\n\r\nVizsla qualities also include a high level of competence and an ability to learn quickly, making this dog highly trainable. Vizsla intelligence has long been prized; the breed has a distinguished history as a faithful hunting companion that was bred to both point and retrieve. Modern-day Vizslas have equally demanding jobs as seeing eye dogs, search and rescue animals and professional sniffers (think drugs or explosives). And Vizslas even have a patriotic streak, serving as canine recovery workers at Ground Zero in New York City after the attacks on September 11, 2001.",
+        "h2_how_to_care_for_a_breed": "A Vizsla guide to care puts great emphasis on physical exercise and mental stimulation to keep this extremely active canine happy. Luckily, health and wellness are breed hallmarks and Vizsla grooming is quick and easy.",
+        "grooming": "A Vizsla is very \"wash and wear,\" which means their coat needs are on the low side as compared with other breeds. That's thanks to the fact that there's no long hair here—this dog has super-easy short fur. Plan to brush your puppy pal weekly to keep their coat healthy and clean and strive for a bath once a month (though more often may be necessary if your Vizsla dog rolls in something smelly). Shedding does occur, though it's far from profuse. You can keep up on any errant fur with a \u003Ca href=\"https://www.chewy.com/f/dog-curry-brushes_c355_f70v83786\" target=\"_blank\" rel=\"noopener\"\u003Erubber brush\u003C/a\u003E.\n\nVizsla ears, however, do need cleaning, so check their ears for debris and any redness or swelling. If you notice anything, speak to your vet. If your vet recommends at-home cleaning, follow this \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/how-do-you-clean-a-dogs-ears-follow-this-vet-approved-step-by-step-guide\"\u003Estep-by-step guide on how to clean dog ears\u003C/a\u003E.&nbsp;Monthly nail clipping is important, too, as overly long nails may cause pain.\n\nAnd be sure to get inside your Vizsla's mouth as often as you can with a doggy toothbrush and paste. Daily brushing is ideal and will go a long way toward fighting plaque and improving your pup's breath. You should also schedule a professional teeth cleaning by the vet once a year.",
+        "training": "A Vizsla's training needs are on the high side, which means solid, consistent obedience lessons that start from puppyhood are your best bet. Vizslas tend to have a good response to methods that use positive reinforcement (tasty treats, lots of praise and fun play breaks) to motivate.\r\n\r\nAs smart, fast-learning and biddable as these dogs are, the Vizsla is also a curious breed, pushing boundaries and trying new things that may not be on the accepted list of doggy activities. This dog type needs a job to do, whether it's running alongside you, fetching a ball or learning a new trick. Without sanctioned tasks, your Vizsla puppy may get into trouble on their own.\r\n\r\nIt's important to start socializing your dog with new people, dogs and situations while they're a puppy. Socialization helps your pup get used to new experiences and help them be OK with meeting new people and dogs as they get older. Take your pup on walks so they can see (and sniff) other dogs and people. Enroll your puppy in puppy school. Here, they will learn how to play nicely with other puppies and meet new people all in one location.\r\n\r\nAs luck would have it, your canine pal will no doubt adore the attention and time you'll spend as you train, so strive to make the teaching fun, whether you offer some \u003Ca href=\"https://www.chewy.com/s?query=scented%20dog%20toys&amp;nav-submit-button=\"\u003Escented toys\u003C/a\u003E to play with or an agility course to run through in the back yard.",
+        "diet_nutrition": "A Vizsla's food and diet should consist of a high-quality commercial dog food that meets nutritional standards set by AAFCO (Association of American Feed Control Officials). Home-prepared meals should meet the same standard. Check in with your pup's vet to be sure what you're serving meets your pet's nutritional requirements. Also, consider your dog's age and choose a formula that fits their stage in life (puppy, adult, senior).\r\n\r\nYour dog's age is especially important as it relates to the breed's food needs since an active Vizsla puppy will need extra helpings of kibble to keep their energy up (maybe even 4-5 cups a day), while older dogs might only eat half of that amount. You can always consult your dog's vet for help with food choices and seek out a feeding chart in order to keep track of when and how much chow to offer.\r\n\r\nFresh water should always be on hand so this sprightly dog can wet their whistle. And as for \u003Ca href=\"https://www.chewy.com/b/treats-335?ref-query=dog+treats&amp;ref=searchRedirect&amp;nav-submit-button=\"\u003Edog treats\u003C/a\u003E, use them sparingly, perhaps reserving that special pouch just for training sessions since too many can lead to obesity, even in a slender Vizsla.",
+        "exercise": "Vizsla exercise needs are intense as this dog really needs to \u003Ci\u003Emove\u003C/i\u003E. Be ready to take your canine pal out three times a day for at least 30 minutes per walk, and then make some time for off-leash playing and fetching games. These dogs were literally bred to hunt birds for hours which means proper physical exercise, especially when Vizslas are young, is not optional.\r\n\r\nIf you have access to an outdoor space where your Vizsla can run hard, whether it's a local dog run, public park or your own backyard, it'll suit this pup just fine. Or, if you love to jog or bike, a Vizsla is the ideal companion. However, if your dog is still younger than 24 months, limit long-distance running until they're more mature to avoid injuring their growing bones.",
+        "ideal_environment": "Raising a Vizsla with kids is more than acceptable as this friendly breed makes a great family pet. Still, all dog types—including the Vizsla—need to be supervised around very young children, particularly if you're still in the training phase and helping your pet to socialize. But nearly all dog lovers can qualify for Vizsla parenting as long as they're dedicated to lots of activity. Busy families who can't manage more than a quick walk around the block should pass on this breed as the Vizsla energy level is truly sky high.\r\n\r\nAn enclosed piece of outdoor space to meet a Vizsla's exercise needs is pretty much required as these pets are actually rather adept escape artists (nickname: Houdini) and fence jumpers (check your gates before releasing your animal!). Apartment life may suit a Vizsla's barking tendency since they're not super vocal, but city dwellers and small home owners need to be prepared to take their pet running or hiking daily or book regular visits at a doggy day care where off-leash romps are allowed. Active pet parents might also want to get involved in some dog-centric fun by taking advantage of the Vizsla speed and participating with them in such activities as barn hunts, \u003Ca href=\"http://www.flyball.org/\" target=\"_blank\" rel=\"noopener\"\u003Eflyball\u003C/a\u003E or scent work.",
+        "h2_breed_health": "\u003Cspan data-contrast=\"none\"\u003EThe Vizsla lifespan is a generous one (up to 14 years), and the breed is considered healthy. Still, all dogs are prone to certain health problems. Here’s a look at the common Vizsla health issues you might encounter with this medium-sized canine\u003C/span\u003E\u003Cspan data-contrast=\"none\"\u003E:\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;335557856&quot;:16777215}\"\u003E \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;335557856&quot;:16777215,&quot;335559685&quot;:0}\"\u003E \u003C/span\u003E\r\n\u003Cul\u003E\r\n \t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559684&quot;:-2,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;multilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"1\" data-aria-level=\"1\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EEye Disorders\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E: Vizslas are prone to several eye conditions, including ocular melanosis, an inherited disease that thickens and discolors the iris and can cause glaucoma in some cases. While there’s no cure, anti-inflammatory and glaucoma medications can help. \u003C/span\u003E\u003Ca href=\"http://entropion/\"\u003E\u003Cspan data-contrast=\"none\"\u003EEntropion\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, a rolling inward of the eyelids that results in the lashes irritating the cornea, is another eye disorder, with surgery as the treatment. \u003C/span\u003E\u003Ca href=\"http://progressive%20retinal%20atrophy/\"\u003E\u003Cspan data-contrast=\"none\"\u003EProgressive retinal atrophy\u003C/span\u003E\u003C/a\u003E \u003Cspan data-contrast=\"none\"\u003E(PRA)\u003C/span\u003E\u003Cspan data-contrast=\"none\"\u003E is a degenerative, hereditary eye disease that may result in blindness\u003C/span\u003E\u003Cspan data-contrast=\"none\"\u003E.\u003C/span\u003E\u003Cspan data-contrast=\"none\"\u003E Dogs with PRA can usually adapt to this vision loss, though there’s currently no treatment for it.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;335557856&quot;:16777215,&quot;335559685&quot;:1117}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n \t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559684&quot;:-2,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;multilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"2\" data-aria-level=\"1\"\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/neurological/epilepsy-dogs\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EEpilepsy\u003C/span\u003E\u003C/b\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E: This inherited seizure disorder may be partial or generalized, but fortunately, it may be managed with anti-epileptic medications.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;335557856&quot;:16777215,&quot;335559685&quot;:1117}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n \t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559684&quot;:-2,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;multilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"3\" data-aria-level=\"1\"\u003E\u003Ca href=\"http://hip%20dysplasia/\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EHip Dysplasia\u003C/span\u003E\u003C/b\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E:\u003C/span\u003E \u003Cspan data-contrast=\"none\"\u003EHip dysplasia occurs when the hip joint does not form properly as a dog grows. This leads to looseness in the hip joint, which can cause pain and lameness, and will eventually lead\u003C/span\u003E\u003Cspan data-contrast=\"none\"\u003E to degenerative arthritis. Hip dysplasia is genetic in origin and can be treated with medications and supplements, dietary changes or weight reduction. In more severe cases, surgery may be necessary.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;335557856&quot;:16777215,&quot;335559685&quot;:1117}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n \t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559684&quot;:-2,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;multilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"5\" data-aria-level=\"1\"\u003E\u003Ca href=\"http://thyroid%20conditions/\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EThyroid Conditions\u003C/span\u003E\u003C/b\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E: Hypothyroidism, typically caused by the degeneration or destruction of the thyroid gland, leads to slower metabolism. This may appear as lethargy, weight gain,\u003C/span\u003E \u003Cspan data-contrast=\"none\"\u003Eskin and coat changes or other signs in your Vizsla. Thyroid supplementation is the go-to treatment.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;335557856&quot;:16777215,&quot;335559685&quot;:1117}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\u003C/ul\u003E",
+        "h2_breed_history": "The Vizsla's history is inextricably linked to the Magyars, an ethnic Hungarian group who traversed a wide-ranging swath of Asia and Europe centuries ago before settling in what is now Hungary. The Magyars' prowess on horseback was legendary as was their ability to ride fast with equally fleet-footed dogs at their sides. Their canine pals featured reddish-brown coats—and today's Vizslas are their descendants.\r\n\r\nOriginally bred as Magyar companions in their quest for dominance across the continent, Vizslas later became the favored hunting breed of Hungarian nobles. Vizslas were actually early multitaskers because they served two jobs as pointers \u003Ci\u003Eand\u003C/i\u003E retrievers of rabbits, upland game (quail, partridge) and waterfowl (ducks).\r\n\r\nAt the end of World War I, the Vizsla breed was nearly extinct, with just a handful of purebreds in existence. Fortunately, breed enthusiasts were able to repopulate the dog again, and they began to arrive in the US after World War II in the 1950s. The Vizsla was recognized by the American Kennel Club (AKC) in 1960 and has grown to become a popular family pet ever since.\r\n\r\nVizslas continue to display great versatility as working canines in many different capacities, including that of seeing-eye dog, on drug detection details for the Transportation Security Administration and as part of search and rescue teams at disaster sites, including the one that occurred in New York City on September 11, 2001.\r\n\r\nIf you'd like to bring this energetic pup into your home, Vizsla dog prices tend to be about $2,000 from a breeder. The \u003Ca href=\"https://marketplace.akc.org/puppies/vizsla\" target=\"_blank\" rel=\"noopener\"\u003EAKC Marketplace\u003C/a\u003E has information about Vizsla puppies for sale. You can also reach out to Vizsla rescue organizations, keep an eye out for the breed at your local animal shelter or search \u003Ca href=\"https://www.chewy.com/g/dog-vizsla_ga1\"\u003EChewy’s database of adoptable dogs\u003C/a\u003E in your area.",
+        "expert_attribution": "\u003Ci\u003EExpert input provided by veterinarian Carly Fox, DVM, of \u003Ca href=\"https://www.amcny.org/\" target=\"_blank\" rel=\"noopener\"\u003EAnimal Medical Center\u003C/a\u003E in New York City and dog trainers Margaret Simek of \u003Ca href=\"https://www.onehappydog.com/\" target=\"_blank\" rel=\"noopener\"\u003EOne Happy Dog\u003C/a\u003E and Mary Thompson, owner of \u003Ca href=\"https://www.happyhounduniversity.com/\" target=\"_blank\" rel=\"noopener\"\u003EHappy Hound University\u003C/a\u003E.\u003C/i\u003E\r\n\r\n\u003Cem\u003EBreed characteristic ratings provided by veterinarian Dr. Sarah J. Wooten, DVM, CVJ, a veterinarian at \u003Ca href=\"https://sheepdraw.com/\" target=\"_blank\" rel=\"noopener\"\u003ESheep Draw Veterinary Hospital\u003C/a\u003E in Greeley, Colorado; dog trainer and behavior consultant Irith Bloom, CPDT-KSA, CBCC-KA, CDBC, owner of \u003Ca href=\"https://thesophisticateddog.com/\" target=\"_blank\" rel=\"noopener\"\u003EThe Sophisticated Dog, LLC\u003C/a\u003E, in Los Angeles; and certified animal behavior consultant \u003Ca href=\"https://shojai.com/\" target=\"_blank\" rel=\"noopener\"\u003EAmy Shojai\u003C/a\u003E, CABC, in Sherman, Texas. \u003C/em\u003E\r\n\r\n\u003Cem\u003EThe health content was medically reviewed by Chewy vets.\u003C/em\u003E",
+        "facebook_social_snippet_with_cta": "\u003Cp\u003EThe Vizsla's personality is infectious, with their joyful energy and adorably expressive face. If you'd like to bring a Vizsla into your life, we've got all the information you need to make the best decision for your family. Get ready to learn about this sweet-yet-speedy breed!\u003C/p\u003E",
+        "species": "\u003Cp\u003EDog\u003C/p\u003E",
+        "h2_faqs": "\u003Ch3\u003EDo Vizslas shed?\u003C/h3\u003E\nYes, Vizslas do shed but not as much as some breeds with longer, thicker fur. As long as you brush your pup once a week, you'll keep their coat looking shiny and healthy.\n\u003Ch3\u003EHow do you pronounce Vizsla?\u003C/h3\u003E\nThe Hungarian Vizsla's name isn't easy to say upon first glance—so here's some help. This dog breed's name is pronounced VEESH-lah.\n\u003Ch3\u003EWhat are the most popular Vizsla dog names?\u003C/h3\u003E\nThe most fun Vizsla names—and most appropriate!—are often connected with the Vizsla's origin in Hungary, so you might like Laszlo, Zoltan or Jozsef. You might also consider the Vizsla's past work as a hunting dog and pick names such as Chase, Ranger or Scout. Or you can check out our list of \u003Ca href=\"https://www.chewy.com/education/dog/general/top-dog-names\"\u003Edog names\u003C/a\u003E.\n\u003Ch3\u003EAre Vizslas good family dogs?\u003C/h3\u003E\nYes, Vizslas rank highly as family dogs as their friendly, playful nature mixes well with small children. Still, all dogs need early proper socialization in order to live in harmony with little ones. Make sure your Vizsla is well-trained during puppyhood.\n\u003Ch3\u003EAre Vizslas smart dogs?\u003C/h3\u003E\nYes, Vizslas are extremely intelligent and love to learn. This breed adores attention and working alongside their pet parents, whether learning to sit, stay and come or playing fetch in the back yard.\n\u003Ch3\u003EWhat are the most common Vizsla dog mixes?\u003C/h3\u003E\nThe most common Vizsla mixes are:\n\u003Cul\u003E\n \t\u003Cli\u003EVizsla-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/labrador-retriever/\"\u003ELab\u003C/a\u003E mix (Labralas)\u003C/li\u003E\n \t\u003Cli\u003EVizsla-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/american-pit-bull-terrier/\"\u003EPitbull mix\u003C/a\u003E (Vizsla Pitbull)\u003C/li\u003E\n \t\u003Cli\u003EVizsla-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/Weimaraner/\"\u003EWeimaraner\u003C/a\u003E mix (Vizmaraner)\u003C/li\u003E\n \t\u003Cli\u003EVizsla-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/poodle/\"\u003EPoodle\u003C/a\u003E mix (Vislapoo)\u003C/li\u003E\n \t\u003Cli\u003EVizsla-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/Beagle/\"\u003EBeagle\u003C/a\u003E mix (Vizsla Beagle)\u003C/li\u003E\n \t\u003Cli\u003EVizsla-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/German-Shepherd/\"\u003EGerman Shepherd\u003C/a\u003E mix (Vizsla German Shepherd)\u003C/li\u003E\n\u003C/ul\u003E",
+        "faq_items": [
+          {
+            "faq_title": "Do Vizslas shed?",
+            "faq_content": "Yes, Vizslas do shed but not as much as some breeds with longer, thicker fur. As long as you brush your pup once a week, you'll keep their coat looking shiny and healthy."
+          },
+          {
+            "faq_title": "How do you pronounce Vizsla?",
+            "faq_content": "The Hungarian Vizsla's name isn't easy to say upon first glance—so here's some help. This dog breed's name is pronounced VEESH-lah."
+          },
+          {
+            "faq_title": "What are the most popular Vizsla dog names?",
+            "faq_content": "The most fun Vizsla names—and most appropriate!—are often connected with the Vizsla's origin in Hungary, so you might like Laszlo, Zoltan or Jozsef. You might also consider the Vizsla's past work as a hunting dog and pick names such as Chase, Ranger or Scout. Or you can check out our list of \u003Ca href=\"https://www.chewy.com/education/dog/general/top-dog-names\"\u003Edog names\u003C/a\u003E."
+          },
+          {
+            "faq_title": "Are Vizslas good family dogs?",
+            "faq_content": "Yes, Vizslas rank highly as family dogs as their friendly, playful nature mixes well with small children. Still, all dogs need early proper socialization in order to live in harmony with little ones. Make sure your Vizsla is well-trained during puppyhood."
+          },
+          {
+            "faq_title": "Are Vizslas smart dogs?",
+            "faq_content": "Yes, Vizslas are extremely intelligent and love to learn. This breed adores attention and working alongside their pet parents, whether learning to sit, stay and come or playing fetch in the back yard."
+          },
+          {
+            "faq_title": "What are the most common Vizsla dog mixes?",
+            "faq_content": "The most common Vizsla mixes are:\r\n\u003Cul\u003E\r\n \t\u003Cli\u003EVizsla-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/labrador-retriever/\"\u003ELab\u003C/a\u003E mix (Labralas)\u003C/li\u003E\r\n \t\u003Cli\u003EVizsla-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/american-pit-bull-terrier/\"\u003EPitbull mix\u003C/a\u003E (Vizsla Pitbull)\u003C/li\u003E\r\n \t\u003Cli\u003EVizsla-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/Weimaraner/\"\u003EWeimaraner\u003C/a\u003E mix (Vizmaraner)\u003C/li\u003E\r\n \t\u003Cli\u003EVizsla-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/poodle/\"\u003EPoodle\u003C/a\u003E mix (Vislapoo)\u003C/li\u003E\r\n \t\u003Cli\u003EVizsla-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/Beagle/\"\u003EBeagle\u003C/a\u003E mix (Vizsla Beagle)\u003C/li\u003E\r\n \t\u003Cli\u003EVizsla-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/German-Shepherd/\"\u003EGerman Shepherd\u003C/a\u003E mix (Vizsla German Shepherd)\u003C/li\u003E\r\n\u003C/ul\u003E"
+          }
+        ],
+        "select_related_breeds": [
+          {
+            "selected_related_breed": 417,
+            "characteristic": "breed_characteristics_exercise_needs"
+          },
+          {
+            "selected_related_breed": 495,
+            "characteristic": "breed_characteristics_shedding_level"
+          },
+          {
+            "selected_related_breed": 477,
+            "characteristic": "breed_characteristics_training_needs"
+          },
+          {
+            "selected_related_breed": 524,
+            "characteristic": "breed_characteristics_good_with_kids"
+          },
+          {
+            "selected_related_breed": 647,
+            "characteristic": "breed_characteristics_friendliness"
+          },
+          {
+            "selected_related_breed": 1074,
+            "characteristic": "breed_characteristics_playfulnesss"
+          }
+        ],
+        "enable_featured_gallery": [
+          "enable_featured_gallery"
+        ],
+        "featured_gallery_images": [564, 565, 566, 567, 568]
+      },
+      "yoast_head": "\u003C!-- This site is optimized with the Yoast SEO plugin v23.8 - https://yoast.com/wordpress/plugins/seo/ --\u003E\n\u003Ctitle\u003EVizsla Breed: Characteristics, Care &amp; Photos | Chewy\u003C/title\u003E\n\u003Cmeta name=\"description\" content=\"The Vizsla dog is full of energy and has an affectionate nature. Check out our comprehensive guide to this ancient breed to learn more.\" /\u003E\n\u003Cmeta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" /\u003E\n\u003Clink rel=\"canonical\" href=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/vizsla/\" /\u003E\n\u003Cmeta property=\"og:locale\" content=\"en_US\" /\u003E\n\u003Cmeta property=\"og:type\" content=\"article\" /\u003E\n\u003Cmeta property=\"og:title\" content=\"Vizsla Breed: Characteristics, Care &amp; Photos | Chewy\" /\u003E\n\u003Cmeta property=\"og:description\" content=\"The Vizsla dog is full of energy and has an affectionate nature. Check out our comprehensive guide to this ancient breed to learn more.\" /\u003E\n\u003Cmeta property=\"og:url\" content=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/vizsla/\" /\u003E\n\u003Cmeta property=\"og:site_name\" content=\"Chewy\" /\u003E\n\u003Cmeta property=\"article:modified_time\" content=\"2025-05-05T14:21:45+00:00\" /\u003E\n\u003Cmeta property=\"og:image\" content=\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11164548/202106Vizsla-FeaturedImage.jpg\" /\u003E\n\t\u003Cmeta property=\"og:image:width\" content=\"1440\" /\u003E\n\t\u003Cmeta property=\"og:image:height\" content=\"865\" /\u003E\n\t\u003Cmeta property=\"og:image:type\" content=\"image/jpeg\" /\u003E\n\u003Cmeta name=\"twitter:card\" content=\"summary_large_image\" /\u003E\n\u003Cscript type=\"application/ld+json\" class=\"yoast-schema-graph\"\u003E{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/vizsla/\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/vizsla/\",\"name\":\"Vizsla Breed: Characteristics, Care & Photos | Chewy\",\"isPartOf\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/vizsla/#primaryimage\"},\"image\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/vizsla/#primaryimage\"},\"thumbnailUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11164548/202106Vizsla-FeaturedImage.jpg\",\"datePublished\":\"2021-06-21T09:27:59+00:00\",\"dateModified\":\"2025-05-05T14:21:45+00:00\",\"description\":\"The Vizsla dog is full of energy and has an affectionate nature. Check out our comprehensive guide to this ancient breed to learn more.\",\"breadcrumb\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/vizsla/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://phcms.hlth.prd.aws.chewy.cloud/breed/vizsla/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/vizsla/#primaryimage\",\"url\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11164548/202106Vizsla-FeaturedImage.jpg\",\"contentUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11164548/202106Vizsla-FeaturedImage.jpg\",\"width\":1440,\"height\":865},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/vizsla/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://phcms.hlth.prd.aws.chewy.cloud/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Vizsla\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/\",\"name\":\"Chewy\",\"description\":\"\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"}]}\u003C/script\u003E\n\u003C!-- / Yoast SEO plugin. --\u003E",
+      "yoast_head_json": {
+        "title": "Vizsla Breed: Characteristics, Care & Photos | Chewy",
+        "description": "The Vizsla dog is full of energy and has an affectionate nature. Check out our comprehensive guide to this ancient breed to learn more.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://phcms.hlth.prd.aws.chewy.cloud/breed/vizsla/",
+        "og_locale": "en_US",
+        "og_type": "article",
+        "og_title": "Vizsla Breed: Characteristics, Care & Photos | Chewy",
+        "og_description": "The Vizsla dog is full of energy and has an affectionate nature. Check out our comprehensive guide to this ancient breed to learn more.",
+        "og_url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/vizsla/",
+        "og_site_name": "Chewy",
+        "article_modified_time": "2025-05-05T14:21:45+00:00",
+        "og_image": [
+          {
+            "width": 1440,
+            "height": 865,
+            "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11164548/202106Vizsla-FeaturedImage.jpg",
+            "type": "image/jpeg"
+          }
+        ],
+        "twitter_card": "summary_large_image",
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/vizsla/",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/vizsla/",
+              "name": "Vizsla Breed: Characteristics, Care & Photos | Chewy",
+              "isPartOf": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/vizsla/#primaryimage"
+              },
+              "image": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/vizsla/#primaryimage"
+              },
+              "thumbnailUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11164548/202106Vizsla-FeaturedImage.jpg",
+              "datePublished": "2021-06-21T09:27:59+00:00",
+              "dateModified": "2025-05-05T14:21:45+00:00",
+              "description": "The Vizsla dog is full of energy and has an affectionate nature. Check out our comprehensive guide to this ancient breed to learn more.",
+              "breadcrumb": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/vizsla/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://phcms.hlth.prd.aws.chewy.cloud/breed/vizsla/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/vizsla/#primaryimage",
+              "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11164548/202106Vizsla-FeaturedImage.jpg",
+              "contentUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11164548/202106Vizsla-FeaturedImage.jpg",
+              "width": 1440,
+              "height": 865
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/vizsla/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://phcms.hlth.prd.aws.chewy.cloud/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Vizsla"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/",
+              "name": "Chewy",
+              "description": "",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            }
+          ]
+        }
+      },
+      "yoast_meta": {
+        "yoast_wpseo_title": "",
+        "yoast_wpseo_metadesc": "",
+        "yoast_wpseo_canonical": ""
+      },
+      "_links": {
+        "self": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed/572",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/types/breed"
+          }
+        ],
+        "acf:attachment": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/568"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/567"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/566"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/565"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/564"
+          }
+        ],
+        "wp:featuredmedia": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/571"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media?parent=572"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "pet_type",
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/pet_type?post=572"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ]

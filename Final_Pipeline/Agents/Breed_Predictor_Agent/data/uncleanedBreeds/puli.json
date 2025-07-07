@@ -1,0 +1,300 @@
+[
+    {
+      "id": 138,
+      "date": "2021-07-16T07:47:45",
+      "date_gmt": "2021-07-16T07:47:45",
+      "guid": {
+        "rendered": "https://haproxy.use1.lgcy.prd.aws.chewy.cloud/eks/ns/pet-health/pet-health-content-backend/breed/puli/"
+      },
+      "modified": "2025-05-05T14:21:02",
+      "modified_gmt": "2025-05-05T14:21:02",
+      "slug": "puli",
+      "status": "publish",
+      "type": "breed",
+      "link": "https://phcms.hlth.prd.aws.chewy.cloud/breed/puli/",
+      "title": {
+        "rendered": "Puli"
+      },
+      "featured_media": 137,
+      "template": "",
+      "pet_type": [],
+      "class_list": [
+        "post-138",
+        "breed",
+        "type-breed",
+        "status-publish",
+        "has-post-thumbnail",
+        "hentry"
+      ],
+      "acf": {
+        "breed_snapshot_best_for": "\u003Cp\u003EPuli dogs are intelligent and playful pups who require daily grooming and lots of exercise. They thrive in spacious homes with active and experienced pet parents, even those with dog allergies—this breed is considered hypoallergenic.\u003C/p\u003E",
+        "alt_image_text": "Puli dog breed",
+        "breed_intro": "\u003Cspan data-preserver-spaces=\"true\"\u003EIt can be hard to see a Puli's eyes through their corded fur—but that doesn't mean a Puli can't see yours. And you know what? They love what they see. Pulik (the plural term for these devoted dogs) are \u003Ca href=\"https://www.chewy.com/education/dog/general/the-best-dog-toys-for-every-playful-pup\"\u003Eready to play\u003C/a\u003E at the word go. You can expect this super clever—and sometimes sneaky—breed to figure out how to get you off the couch and into the&nbsp;\u003C/span\u003E\u003Cspan data-preserver-spaces=\"true\"\u003EGreat Outdoors\u003C/span\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E. The Puli is perfect for you if you're a kid at heart—they remain playful and curious long after puppyhood.\u003C/span\u003E",
+        "breed_related_products_product_card_set": null,
+        "breed_snapshot_temperament": "\u003Cp\u003EConfident, Intelligent, Playful \u003C/p\u003E",
+        "what_does_this_breed_look_like_weight": "\u003Cp\u003EMale: 25-35 pounds\u003C/p\u003E\u003Cp\u003EFemale: 25-35 pounds\u003C/p\u003E",
+        "what_does_this_breed_look_like_height": "\u003Cp\u003EMale: 17 inches\u003C/p\u003E\u003Cp\u003EFemale: 16 inches\u003C/p\u003E",
+        "breed_snapshot_life_expectancy": "\u003Cp\u003E10 to 15 years\u003C/p\u003E",
+        "breed_snapshot_maintenance_level": "\u003Cp\u003EHigh\u003C/p\u003E",
+        "breed_characteristics_friendliness": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_snapshot_coat_color": "\u003Cp\u003EBlack, Silver, White \u003C/p\u003E",
+        "breed_snapshot_shed_level": "\u003Cp\u003ELow\u003C/p\u003E",
+        "in_article_video": null,
+        "breed_characteristics": "These traits are rated on a scale of 1-5 with 1 being the lowest and 5 being the highest. Remember: Dogs are individuals, and not all dogs, even those of the same breed, will exhibit all the same qualities.",
+        "breed_characteristics_exercise_needs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_health_issues": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_barking_tendencies": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_grooming_needs": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_shedding_level": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_training_needs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_kids": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_with_cats": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_good_for_apartments_small_homes": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_energy_level": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_with_other_dogs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_playfulnesss": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_cold_weather": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_warm_weather": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_for_first_time_parents": "\u003Cp\u003E2\u003C/p\u003E",
+        "how_do_i_look_card_image": 136,
+        "what_does_this_breed_look_like": "With their long cords of fur, the Puli dog certainly has a unique look. This signature coat style is naturally occurring (with a bit of grooming help from you) thanks to the breed's soft, wooly and dense undercoat, and comes in black, gray and white. When you can see their eyes, you'll notice the Puli always watches and observes their surroundings, drawing on a deep herding instinct.",
+        "what_does_this_breed_look_like_ears": "\u003Cp\u003EA Puli's ears are medium-sized and V-shaped, hanging about half the length of their head.\u003C/p\u003E",
+        "what_does_this_breed_look_like_eyes": "\u003Cp\u003EThe Puli has large, almond-shaped eyes, which are dark brown with black or slate gray rims.\u003C/p\u003E",
+        "what_does_this_breed_look_like_nose": "\u003Cp\u003E Pulik noses are black and proportionate to other features.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_length": "\u003Cp\u003EPulik have double coats. The outer coat is wavy or curly, and the undercoat is soft, wooly and dense. It can be corded, giving them their mop-like look, or brushed out. \u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_color": "\u003Cp\u003EA Puli's coat may be black, silver or white. \u003C/p\u003E",
+        "what_does_this_breed_look_like_tail": "\u003Cp\u003EThe Puli tail arches over and blends in with the dog's back.\u003C/p\u003E",
+        "h2_breed_temperament": "\u003Cspan data-preserver-spaces=\"true\"\u003EJust like you, the Puli is one of a kind. With their unmistakable long cords (which people sometimes mistake for dreadlocks), a fun-loving but sometimes ornery attitude and eager-to-please personality, Pulik are loyal dogs who live for fun with their favorite human (that's you!).\u003C/span\u003E\n\n\u003Cspan data-preserver-spaces=\"true\"\u003EThe Puli breed has its roots in Hungarian sheepherding, and today, the herding instinct remains strong. That means early socialization and basic obedience training (skills like \u003C/span\u003E\u003Ca class=\"editor-rtfLink\" href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-sit\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-preserver-spaces=\"true\"\u003Esit\u003C/span\u003E\u003C/a\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E,&nbsp;\u003C/span\u003E\u003Ca class=\"editor-rtfLink\" href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-stay\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-preserver-spaces=\"true\"\u003Estay\u003C/span\u003E\u003C/a\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E&nbsp;and&nbsp;\u003C/span\u003E\u003Ca class=\"editor-rtfLink\" href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-come\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-preserver-spaces=\"true\"\u003Ecome\u003C/span\u003E\u003C/a\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E) are essential to raising a confident adult Puli dog. This intelligent breed loves using their brains, so they're also happy to learn advanced skills.\u003C/span\u003E\n\n\u003Cspan data-preserver-spaces=\"true\"\u003EThough strong-willed, thanks to being bred to work independently, Pulik are dedicated to their family. They are naturally protective and can be wary of strangers, which makes them good guarding dogs. However, they generally get along well with people (once they get to know them) and other dogs. The downside to having the long corded fur is that when it covers their eyes and disguises the tail and ears of the Puli, it can be difficult for other dogs to read their body language—the primary way dogs communicate. If only dogs could pass notes to each other. (\"I like you, do you like me? Check a box: Yes or No.\")\u003C/span\u003E\n\n\u003Cspan data-preserver-spaces=\"true\"\u003EA Puli dog can live with a cat; it helps if they grow up together and pet parents set boundaries to prevent the dog from giving into their herding instincts and chasing the cat. Same with young children—your Puli may try to keep your children from straying too far away or wandering around the house, but training can help. Children in your Puli's life should also be taught to play respectfully with dogs.\u003C/span\u003E\n\n\u003Cspan data-preserver-spaces=\"true\"\u003EPulik need a lot of mental and physical stimulation—no couch potatoes allowed, and don't be stingy with the walks, either! Long walks,&nbsp;\u003C/span\u003E\u003Ca class=\"editor-rtfLink\" href=\"https://www.chewy.com/b/puzzle-toys-games-2335\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-preserver-spaces=\"true\"\u003Epuzzle toys\u003C/span\u003E\u003C/a\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E&nbsp;in the house, or an agility or herding dog class will keep your Puli satisfied and help them put their best paw forward daily.\u003C/span\u003E",
+        "h2_how_to_care_for_a_breed": "The most significant aspect of Puli breed grooming is that their long, corded fur requires daily care. Even if you decide to leave the coat shaggy, you'll still have to brush it at least weekly. The breed also has higher daily exercise needs than many other breeds. Pulik are generally healthy dogs that can live into their teens with the proper nutrition and care.",
+        "grooming": "\u003Cspan data-preserver-spaces=\"true\"\u003EIf your daily hair care routine takes longer than the average sitcom, you can probably relate to what a Puli needs to keep their locks looking lovely. Grooming a Puli is a serious time commitment, though not due to shedding—these dogs are not known to shed a lot. However, once your Puli puppy hits 8 to 10 months of age, their wooly and dense undercoat starts to develop. If you want to keep your pup in their distinctive corded coat, you'll have to help separate the clumps of hair to form the cords with your fingers.\u003C/span\u003E\n\n\u003Cspan data-preserver-spaces=\"true\"\u003ECords are essentially \"mats\" that have historically helped the breed stay warm while herding sheep during the frigid winter. The cords take about five years to grow out and reach the ground and require daily care. You'll need to check the cords to ensure the mats don't clump together and cause problems like skin lesions. You can use a&nbsp;\u003C/span\u003E\u003Ca class=\"editor-rtfLink\" href=\"https://www.chewy.com/f/dog-bristle-brushes_c355_f70v83784\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-preserver-spaces=\"true\"\u003Ebristle brush\u003C/span\u003E\u003C/a\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E&nbsp;or your fingers.\u003C/span\u003E\n\n\u003Cspan data-preserver-spaces=\"true\"\u003EIf you're not into the corded look, you can brush out your pup's coat weekly with a&nbsp;\u003C/span\u003E\u003Ca class=\"editor-rtfLink\" href=\"https://www.chewy.com/f/dog-pin-brushes_c356_f70v83789\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-preserver-spaces=\"true\"\u003Epin brush\u003C/span\u003E\u003C/a\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E. (No skipping, or the coat will start to cord.) Work in sections and brush away from the dog (there's so much fur!). Spray with water or a&nbsp;\u003C/span\u003E\u003Ca class=\"editor-rtfLink\" href=\"https://www.chewy.com/b/conditioners-2446\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-preserver-spaces=\"true\"\u003Econditioner\u003C/span\u003E\u003C/a\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E&nbsp;to prevent coat breakage after brushing the area.\u003C/span\u003E\n\n\u003Cspan data-preserver-spaces=\"true\"\u003EYour Puli will only need a bath every six to eight weeks, some even less often. When you do bathe your Puli, check their cords afterward to make sure they are completely dry, as wet cords can cause skin problems.\u003C/span\u003E\n\n\u003Cspan data-preserver-spaces=\"true\"\u003EAside from the fur, there are a few other grooming tasks.\u003C/span\u003E \u003Ca class=\"editor-rtfLink\" href=\"https://www.chewy.com/education/dog/health-and-wellness/guide-trimming-dogs-nails\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-preserver-spaces=\"true\"\u003EClip their nails\u003C/span\u003E\u003C/a\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E before they get long enough to touch the floor (every two to four weeks). You should also check their ears for debris and any redness or swelling. If you notice anything, speak to your vet. If your vet recommends at-home cleaning, follow \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/how-do-you-clean-a-dogs-ears-follow-this-vet-approved-step-by-step-guide\"\u003Ethis step-by-step guide on how to clean dog ears\u003C/a\u003E.&nbsp;\u003C/span\u003E\n\n\u003Cspan data-preserver-spaces=\"true\"\u003EExperts recommend you&nbsp;\u003C/span\u003E\u003Ca class=\"editor-rtfLink\" href=\"https://www.chewy.com/education/dog/grooming/health-wellness-how-to-brush-your-dogs-teeth-live-to-tell-the-tale\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-preserver-spaces=\"true\"\u003Ebrush your dog's teeth\u003C/span\u003E\u003C/a\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E daily to stop plaque and tartar from building up. Periodontal disease can lead to a loss of teeth and even more severe issues like heart, liver and kidney disease. In addition to regular brushings at home, take your dog to the vet for annual dental cleanings with a professional.\u003C/span\u003E",
+        "training": "Pulik are an intelligent breed who love to learn and are naturally curious. Pair that with tons of energy, and you have a dog who requires training and looks forward to it. They're so bright, in fact, that some pet parents might say their Puli can be a little manipulative to get things to go their way. (Hey, if you were this cute, wouldn't you use it to your advantage too?)\r\n\r\nPulik can be headstrong and super focused on what they're doing, so they need a dedicated and consistent pet parent. Good initial commands include the basics (sit, stay, come) and cues such as \"leave it.\" Working on agility skills to build your dog's confidence appropriately can be helpful, too.\r\n\r\nLike other breeds, Pulik learn best with positive reinforcement training (treats, toys and praise for good behavior) to help them develop confidence and look forward to training.\r\n\r\nSince Pulik are reserved around people they don't know, it's important to start socializing them, aka introducing them to new people and experiences, when they're puppies, to help them learn that different people and situations are ordinary. Take your puppy on walks and let them meet the people and dogs you encounter. Enroll in puppy school, where they'll learn to play nicely with other puppies and meet pup parents in one location.",
+        "diet_nutrition": "\u003Cspan data-preserver-spaces=\"true\"\u003EThe Puli typically does well on \u003Ca href=\"https://www.chewy.com/b/premium-food-11728\"\u003Ehigh-quality commercial dog food\u003C/a\u003E. Be sure to factor in your dog's age and choose a formula that fits their stage in life (puppy, adult or senior).\u003C/span\u003E\r\n\r\n\u003Cspan data-preserver-spaces=\"true\"\u003EBecause Pulik are so active and always on the go, they may benefit from \u003C/span\u003E\u003Ca class=\"editor-rtfLink\" href=\"https://www.chewy.com/f/high-protein-dog-food_c332_f3v84890\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-preserver-spaces=\"true\"\u003Ehigh-protein dog food\u003C/span\u003E\u003C/a\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E or different serving sizes than recommended. And remember to factor in \u003C/span\u003E\u003Ca class=\"editor-rtfLink\" href=\"https://www.chewy.com/b/treats-335\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-preserver-spaces=\"true\"\u003Etreats\u003C/span\u003E\u003C/a\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E! Those little nibbles also count toward your Puli's daily caloric intake. If you think you're pup's gaining a little extra weight (and it's not just those cords!), chat with your vet. They can help you create a mealtime and exercise plan to help your pup lose the extra weight and maintain their nutritional needs.\u003C/span\u003E",
+        "exercise": "\u003Cspan data-preserver-spaces=\"true\"\u003EYou know daily exercise is good for you, but it's a must for your Puli. The Puli is a herding breed requiring tons of mental and physical activity. But don't worry if you're not going to make the Olympics for the 100-yard dash—these dogs aren't known for their speed. Your Puli will do best with one to two hours of daily exercise, whether a long walk, hike, (slow) run or an agility/herding class. You may want to invest in an extra pair of athletic shoes because lazy days are few and far between with a Puli in your life.\u003C/span\u003E\r\n\r\n\u003Cspan data-preserver-spaces=\"true\"\u003EPulis also need to use their brains with things like \u003C/span\u003E\u003Ca class=\"editor-rtfLink\" href=\"https://www.chewy.com/b/puzzle-toys-games-2335\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-preserver-spaces=\"true\"\u003Epuzzle toys\u003C/span\u003E\u003C/a\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E and will let you know if they aren't getting enough stimulation by finding a way to get into trouble. Another way to incorporate using their brain into daily life is with a \u003C/span\u003E\u003Ca class=\"editor-rtfLink\" href=\"https://www.chewy.com/b/slow-feeders-1424\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-preserver-spaces=\"true\"\u003Eslow feeder\u003C/span\u003E\u003C/a\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E bowl, which turns mealtimes into a fun and challenging puzzle.\u003C/span\u003E",
+        "ideal_environment": "\u003Cspan data-preserver-spaces=\"true\"\u003EIf they get enough exercise, a Puli can thrive in whatever size home you've got. While they'll be happiest if they can embrace their herding instincts in a class or on a farm, your Puli will love roaming a large yard or any ample, fenced-in space you can access.\u003C/span\u003E\r\n\r\n\u003Cspan data-preserver-spaces=\"true\"\u003EPuli dogs are utterly dedicated to their families. They can be wary of strangers, so if yours is the party house, know that your Puli won't make the rounds with drinks and appetizers like a \u003C/span\u003E\u003Ca class=\"editor-rtfLink\" href=\"https://www.chewy.com/education/dog-breeds/labrador-retriever/\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-preserver-spaces=\"true\"\u003ELabrador Retriever\u003C/span\u003E\u003C/a\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E might. However, with proper socialization, you can help your pup be more comfortable with social situations.\u003C/span\u003E\r\n\r\n\u003Cspan data-preserver-spaces=\"true\"\u003EThe Puli's natural herding traits come out with children and cats. Still, if your Puli puppy grows up learning to respect boundaries, they will likely be a well-behaved adult dog.\u003C/span\u003E",
+        "h2_breed_health": "A Puli’s life expectancy is 10 to 15 years. They are generally healthy, but if you get your puppy from a breeder, ensure they follow the Puli Club of America guidelines and screen for common health issues.\r\n\u003Cul\u003E\r\n \t\u003Cli\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/c_dg_hip_dysplasia\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cstrong\u003EHip Dysplasia\u003C/strong\u003E\u003C/a\u003E: Hip dysplasia is a genetic condition in which the hip joint doesn’t form properly. It can cause lameness and pain in your dog. Many treatments and therapies are available, including weight management, restricting activities, physical therapy and medication. Sometimes, surgery is required.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/c_multi_patellar_luxation\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cstrong\u003EPatellar Luxation\u003C/strong\u003E\u003C/a\u003E: Patellar luxation is common in small to medium-sized dogs. It occurs when a dog’s kneecap slips out of the joint, which can cause arthritis or joint problems in the hips and other legs. You can manage it by keeping your dog at a healthy weight and curtailing strenuous exercise if it’s not severe. If it becomes severe, surgery may be necessary.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/degenerative-myelopathy-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cstrong\u003EDegenerative Myelopathy\u003C/strong\u003E\u003C/a\u003E: Degenerative myelopathy is a disease that affects the spinal cord. It slowly progresses, causing weakness and paralysis in a dog’s back legs. It is similar to Lou Gehrig’s Disease in humans and is most common in middle-aged dogs. There is no effective cure, but managing the weight of your Puli and keeping them as active as possible can help.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Cstrong\u003EEye Problems\u003C/strong\u003E: Pulis can develop \u003Ca href=\"https://www.petmd.com/dog/conditions/eye/c_dg_cataract\" target=\"_blank\" rel=\"noopener\"\u003Ecataracts\u003C/a\u003E, which cloud the eye and lead to blindness. Surgery may be an option for cataracts. They can also inherit \u003Ca href=\"https://www.petmd.com/dog/condition/progressive-retinal-atrophy-in-dogs\" target=\"_blank\" rel=\"noopener\"\u003Eprogressive retinal atrophy\u003C/a\u003E (PRA), which causes the dog to go blind. There is currently no treatment for PRA, but pet parents can make accommodations to help dogs who lose their vision, such as avoiding changing the layout of their homes.\u003C/li\u003E\r\n\u003C/ul\u003E",
+        "h2_breed_history": "\u003Cspan data-preserver-spaces=\"true\"\u003EWhile no one knows the Pulik's origin for sure, it's thought the breed was brought to Europe more than a thousand years ago by a nomadic tribe called the Magyars in the region now known as Hungary. The breed herded flocks of sheep on the Hungarian plains, developing its trademark corded coat to help protect them from frigid winters.\u003C/span\u003E\r\n\r\n\u003Cspan data-preserver-spaces=\"true\"\u003EStarting in the 17th century, the number of Pulik dwindled and almost disappeared, but Dr. Emil Raitsits, professor at the Hungarian University of Veterinarian Medicine, revived the breeding of Pulik and established the breed standard between 1912-1915 so they didn't become a lost part of canine history.\u003C/span\u003E\r\n\r\n\u003Cspan data-preserver-spaces=\"true\"\u003EThe Puli was brought to the United States in 1935 as part of a study by the US Department of Agriculture to find a breed that wouldn't harm the animals they were supposed to be herding. They mixed Pulik with other breeds and kept some purebred, but the program yielded nothing definitive. After World War II, the Pulik were auctioned off to breeders, becoming the pets we know today.\u003C/span\u003E\r\n\r\n\u003Cspan data-preserver-spaces=\"true\"\u003EThe American Kennel Club recognized the Puli in 1936. You can find a list of reputable breeders on the \u003C/span\u003E\u003Ca class=\"editor-rtfLink\" href=\"https://marketplace.akc.org/puppies/puli\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-preserver-spaces=\"true\"\u003EAKC's website\u003C/span\u003E\u003C/a\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E. Working with a reputable breeder usually means you're getting a Puli puppy who's been screened for health problems and temperament. Depending on the breeder, a Puli can range from $1,200 to $2,000. You can also contact the \u003C/span\u003E\u003Ca class=\"editor-rtfLink\" href=\"http://www.pulirescue.org/wp/top/\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-preserver-spaces=\"true\"\u003EPuli Club of America Rescue Trust\u003C/span\u003E\u003C/a\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E, keep an eye out for the breed at your local animal shelter, or search \u003Ca href=\"https://www.chewy.com/g/dog-puli_ga1\"\u003EChewy’s database of adoptable dogs\u003C/a\u003E in your area. \u003C/span\u003E",
+        "expert_attribution": "\u003Cem\u003EExpert input provided by veterinarian Dr. Ann Hohenhaus, staff doctor at \u003Ca href=\"http://www.amcny.org/\" target=\"_blank\" rel=\"noopener\" data-saferedirecturl=\"https://www.google.com/url?q=http://www.amcny.org/&amp;source=gmail&amp;ust=1622599034236000&amp;usg=AFQjCNEp3lCqK00TE-0FbIhkxF0cDxiqZQ\"\u003ENYC's Animal Medical Center\u003C/a\u003E, and certified dog trainer Russell Hartstein, CDBC, CPDT-KA, and owner of the LA-based \u003Ca href=\"http://www.funpawcare.com\"\u003EFun Paw Care\u003C/a\u003E.\u003C/em\u003E\r\n\r\n\u003Cem\u003EBreed characteristic ratings provided by Dr. Sarah J. Wooten, DVM, CVJ, a veterinarian at \u003Ca href=\"https://sheepdraw.com/\" target=\"_blank\" rel=\"noopener\"\u003ESheep Draw Veterinary Hospital\u003C/a\u003E in Greeley, Colorado; dog trainer and behavior consultant Irith Bloom, CPDT-KSA, CBCC-KA, CDBC, owner of \u003Ca href=\"https://thesophisticateddog.com/\" target=\"_blank\" rel=\"noopener\"\u003EThe Sophisticated Dog, LLC\u003C/a\u003E, in Los Angeles; and certified animal behavior consultant \u003Ca href=\"https://shojai.com/\" target=\"_blank\" rel=\"noopener\"\u003EAmy Shojai\u003C/a\u003E, CABC, in Sherman, Texas.\u003C/em\u003E\r\n\r\n\u003Cem\u003EThe health content was medically reviewed by Chewy vets.\u003C/em\u003E",
+        "facebook_social_snippet_with_cta": "\u003Cp\u003EUnique, adorable, inquisitive and intelligent, the Puli may very well be your ideal companion. Read our Puli information guide on breed traits, types and health issues to determine if this loveable shepherding dog is right for you.\u003C/p\u003E",
+        "species": "\u003Cp\u003EDog\u003C/p\u003E",
+        "h2_faqs": "\u003Ch3\u003EWhy do Puli dogs have dreadlocks?\u003C/h3\u003E\r\nPuli cords, sometimes mistaken for dreadlocks, naturally occur in this breed due to their wooly, dense undercoat and coarse outer coat. Around 8 to 10 months, the soft undercoat starts to come in, and the cords begin to form, though you will have to put in some work to separate the cords throughout your Puli's life.\r\n\u003Ch3\u003EDo Puli dogs shed?\u003C/h3\u003E\r\nNo, Puli dogs don't shed, and their fur turns into cords. They are considered hypoallergenic.\r\n\u003Ch3\u003EHow long do Puli dogs live?\u003C/h3\u003E\r\nPuli dogs have a life expectancy of 10 to 15 years on average.\r\n\u003Ch3\u003EAre Puli dogs able to see?\u003C/h3\u003E\r\nPuli dogs can see just fine, though their long corded hair often covers their eyes!\r\n\u003Ch3\u003EHow big does Pulis get?\u003C/h3\u003E\r\nPulik grow to about 25 to 35 pounds and can get up to 17 inches tall at the shoulder. They are considered a medium-sized breed.",
+        "faq_items": [
+          {
+            "faq_title": "Why do Puli dogs have dreadlocks?",
+            "faq_content": "Puli cords, sometimes mistaken for dreadlocks, naturally occur in this breed due to their wooly, dense undercoat and coarse outer coat. Around 8 to 10 months, the soft undercoat starts to come in, and the cords begin to form, though you will have to put in some work to separate the cords throughout your Puli's life."
+          },
+          {
+            "faq_title": "Do Puli dogs shed?",
+            "faq_content": "No, Puli dogs don't shed, and their fur turns into cords. They are considered hypoallergenic."
+          },
+          {
+            "faq_title": "How long do Puli dogs live?",
+            "faq_content": "Puli dogs have a life expectancy of 10 to 15 years on average."
+          },
+          {
+            "faq_title": "Are Puli dogs able to see?",
+            "faq_content": "Puli dogs can see just fine, though their long corded hair often covers their eyes!"
+          },
+          {
+            "faq_title": "How big does Pulis get?",
+            "faq_content": "Pulik grow to about 25 to 35 pounds and can get up to 17 inches tall at the shoulder. They are considered a medium-sized breed."
+          }
+        ],
+        "select_related_breeds": [
+          {
+            "selected_related_breed": 912,
+            "characteristic": "breed_characteristics_physical_appearance"
+          },
+          {
+            "selected_related_breed": 95,
+            "characteristic": "breed_characteristics_exercise_needs"
+          },
+          {
+            "selected_related_breed": 856,
+            "characteristic": "breed_characteristics_good_with_other_dogs"
+          },
+          {
+            "selected_related_breed": 57,
+            "characteristic": "breed_characteristics_training_needs"
+          },
+          {
+            "selected_related_breed": 284,
+            "characteristic": "breed_characteristics_sensitive_to_cold_weather"
+          },
+          {
+            "selected_related_breed": 1325,
+            "characteristic": "breed_characteristics_good_with_cats"
+          }
+        ],
+        "enable_featured_gallery": "",
+        "featured_gallery_images": null
+      },
+      "yoast_head": "\u003C!-- This site is optimized with the Yoast SEO plugin v23.8 - https://yoast.com/wordpress/plugins/seo/ --\u003E\n\u003Ctitle\u003EPuli Breed: Characteristics, Care &amp; Photos | Chewy\u003C/title\u003E\n\u003Cmeta name=\"description\" content=\"Loyal, protective and spirited, our comprehensive Puli 101 guide shows what makes this dog an individual. Find out if you two are a good fit!\" /\u003E\n\u003Cmeta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" /\u003E\n\u003Clink rel=\"canonical\" href=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/puli/\" /\u003E\n\u003Cmeta property=\"og:locale\" content=\"en_US\" /\u003E\n\u003Cmeta property=\"og:type\" content=\"article\" /\u003E\n\u003Cmeta property=\"og:title\" content=\"Puli Breed: Characteristics, Care &amp; Photos | Chewy\" /\u003E\n\u003Cmeta property=\"og:description\" content=\"Loyal, protective and spirited, our comprehensive Puli 101 guide shows what makes this dog an individual. Find out if you two are a good fit!\" /\u003E\n\u003Cmeta property=\"og:url\" content=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/puli/\" /\u003E\n\u003Cmeta property=\"og:site_name\" content=\"Chewy\" /\u003E\n\u003Cmeta property=\"article:modified_time\" content=\"2025-05-05T14:21:02+00:00\" /\u003E\n\u003Cmeta property=\"og:image\" content=\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11162140/202107Puli-FeaturedImage.jpg\" /\u003E\n\t\u003Cmeta property=\"og:image:width\" content=\"1440\" /\u003E\n\t\u003Cmeta property=\"og:image:height\" content=\"865\" /\u003E\n\t\u003Cmeta property=\"og:image:type\" content=\"image/jpeg\" /\u003E\n\u003Cmeta name=\"twitter:card\" content=\"summary_large_image\" /\u003E\n\u003Cmeta name=\"twitter:label1\" content=\"Est. reading time\" /\u003E\n\t\u003Cmeta name=\"twitter:data1\" content=\"1 minute\" /\u003E\n\u003Cscript type=\"application/ld+json\" class=\"yoast-schema-graph\"\u003E{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/puli/\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/puli/\",\"name\":\"Puli Breed: Characteristics, Care & Photos | Chewy\",\"isPartOf\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/puli/#primaryimage\"},\"image\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/puli/#primaryimage\"},\"thumbnailUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11162140/202107Puli-FeaturedImage.jpg\",\"datePublished\":\"2021-07-16T07:47:45+00:00\",\"dateModified\":\"2025-05-05T14:21:02+00:00\",\"description\":\"Loyal, protective and spirited, our comprehensive Puli 101 guide shows what makes this dog an individual. Find out if you two are a good fit!\",\"breadcrumb\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/puli/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://phcms.hlth.prd.aws.chewy.cloud/breed/puli/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/puli/#primaryimage\",\"url\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11162140/202107Puli-FeaturedImage.jpg\",\"contentUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11162140/202107Puli-FeaturedImage.jpg\",\"width\":1440,\"height\":865},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/puli/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://phcms.hlth.prd.aws.chewy.cloud/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Puli\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/\",\"name\":\"Chewy\",\"description\":\"\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"}]}\u003C/script\u003E\n\u003C!-- / Yoast SEO plugin. --\u003E",
+      "yoast_head_json": {
+        "title": "Puli Breed: Characteristics, Care & Photos | Chewy",
+        "description": "Loyal, protective and spirited, our comprehensive Puli 101 guide shows what makes this dog an individual. Find out if you two are a good fit!",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://phcms.hlth.prd.aws.chewy.cloud/breed/puli/",
+        "og_locale": "en_US",
+        "og_type": "article",
+        "og_title": "Puli Breed: Characteristics, Care & Photos | Chewy",
+        "og_description": "Loyal, protective and spirited, our comprehensive Puli 101 guide shows what makes this dog an individual. Find out if you two are a good fit!",
+        "og_url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/puli/",
+        "og_site_name": "Chewy",
+        "article_modified_time": "2025-05-05T14:21:02+00:00",
+        "og_image": [
+          {
+            "width": 1440,
+            "height": 865,
+            "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11162140/202107Puli-FeaturedImage.jpg",
+            "type": "image/jpeg"
+          }
+        ],
+        "twitter_card": "summary_large_image",
+        "twitter_misc": {
+          "Est. reading time": "1 minute"
+        },
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/puli/",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/puli/",
+              "name": "Puli Breed: Characteristics, Care & Photos | Chewy",
+              "isPartOf": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/puli/#primaryimage"
+              },
+              "image": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/puli/#primaryimage"
+              },
+              "thumbnailUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11162140/202107Puli-FeaturedImage.jpg",
+              "datePublished": "2021-07-16T07:47:45+00:00",
+              "dateModified": "2025-05-05T14:21:02+00:00",
+              "description": "Loyal, protective and spirited, our comprehensive Puli 101 guide shows what makes this dog an individual. Find out if you two are a good fit!",
+              "breadcrumb": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/puli/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://phcms.hlth.prd.aws.chewy.cloud/breed/puli/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/puli/#primaryimage",
+              "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11162140/202107Puli-FeaturedImage.jpg",
+              "contentUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11162140/202107Puli-FeaturedImage.jpg",
+              "width": 1440,
+              "height": 865
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/puli/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://phcms.hlth.prd.aws.chewy.cloud/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Puli"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/",
+              "name": "Chewy",
+              "description": "",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            }
+          ]
+        }
+      },
+      "yoast_meta": {
+        "yoast_wpseo_title": "",
+        "yoast_wpseo_metadesc": "",
+        "yoast_wpseo_canonical": ""
+      },
+      "_links": {
+        "self": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed/138",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/types/breed"
+          }
+        ],
+        "wp:featuredmedia": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/137"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media?parent=138"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "pet_type",
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/pet_type?post=138"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ]

@@ -1,0 +1,322 @@
+[
+    {
+      "id": 1355,
+      "date": "2021-04-19T15:29:19",
+      "date_gmt": "2021-04-19T15:29:19",
+      "guid": {
+        "rendered": "https://haproxy.use1.lgcy.prd.aws.chewy.cloud/eks/ns/pet-health/pet-health-content-backend/breed/doberman-pinscher/"
+      },
+      "modified": "2025-05-05T14:22:43",
+      "modified_gmt": "2025-05-05T14:22:43",
+      "slug": "doberman-pinscher",
+      "status": "publish",
+      "type": "breed",
+      "link": "https://phcms.hlth.prd.aws.chewy.cloud/breed/doberman-pinscher/",
+      "title": {
+        "rendered": "Doberman Pinscher"
+      },
+      "featured_media": 3248,
+      "template": "",
+      "pet_type": [],
+      "class_list": [
+        "post-1355",
+        "breed",
+        "type-breed",
+        "status-publish",
+        "has-post-thumbnail",
+        "hentry"
+      ],
+      "acf": {
+        "breed_snapshot_best_for": "\u003Cp\u003EThe Doberman Pinscher is a large, sleek and muscular breed originally bred in Germany to be a guard dog. Though they have a long history serving as protectors, these highly trainable, energetic dogs also make devoted companions and excel in active families.\u003C/p\u003E",
+        "alt_image_text": "Doberman Pinscher dog breed",
+        "breed_intro": "Though known for their imposing, tough-dog exterior, underneath you'll discover Dobermans actually have a heart of gold. Bred to serve as protectors, Doberman Pinschers have long-excelled as guard dogs and police and military dogs. But make no mistake: The Doberman Pinscher is a fun-loving, family-oriented dog with an up-for-anything personality, especially if it's a run around the neighborhood.",
+        "breed_related_products_product_card_set": null,
+        "breed_snapshot_temperament": "\u003Cp\u003EDevoted, Protective, Sensitive\u003C/p\u003E",
+        "what_does_this_breed_look_like_weight": "\u003Cp\u003EMale: 75-100 pounds\u003C/p\u003E\u003Cp\u003EFemale: 60-90 pounds\u003C/p\u003E",
+        "what_does_this_breed_look_like_height": "\u003Cp\u003EMale: 26-28 inches\u003C/p\u003E\u003Cp\u003EFemale: 24-26 inches\u003C/p\u003E",
+        "breed_snapshot_life_expectancy": "\u003Cp\u003E10 to 12 years\u003C/p\u003E",
+        "breed_snapshot_maintenance_level": "\u003Cp\u003EMedium\u003C/p\u003E",
+        "breed_characteristics_friendliness": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_snapshot_coat_color": "\u003Cp\u003EBlack and Rust, Red and Rust, Blue and Rust, Fawn and Rust \u003C/p\u003E",
+        "breed_snapshot_shed_level": "\u003Cp\u003ELow\u003C/p\u003E",
+        "in_article_video": null,
+        "breed_characteristics": "Here are the qualities you can expect when raising a Doberman Pinscher dog on a scale of 1 paw (low) to 5 paws (high). Just remember that dogs are individuals, and not all dogs, even of the same breed, will fit the mold.",
+        "breed_characteristics_exercise_needs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_health_issues": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_barking_tendencies": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_grooming_needs": "\u003Cp\u003E1\u003C/p\u003E",
+        "breed_characteristics_shedding_level": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_training_needs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_kids": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_with_cats": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_good_for_apartments_small_homes": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_energy_level": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_other_dogs": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_playfulnesss": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_cold_weather": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_warm_weather": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_good_for_first_time_parents": "\u003Cp\u003E2\u003C/p\u003E",
+        "how_do_i_look_card_image": 3247,
+        "what_does_this_breed_look_like": "Sleek and muscular, Dobermans project a proud and powerful appearance. Black with rust markings is the most common of the Doberman colors, and the breed is generally solidly built and compact, with an attentive and observant expression.",
+        "what_does_this_breed_look_like_ears": "\u003Cp\u003EA Doberman's ears are typically cropped, per the American Kennel Club. Cropping involves surgically cutting away part of a dog’s ears. Veterinary groups along with many U.S. states and countries have banned this procedure due to medical and behavioral reasons. If you are interested in this procedure, schedule a consultation with your veterinarian. \u003C/p\u003E",
+        "what_does_this_breed_look_like_eyes": "\u003Cp\u003ETheir eyes are almond-shaped and mid to dark brown for dogs with black coats; otherwise, their eye color is similar to the surrounding fur. The darker the iris, the better!\u003C/p\u003E",
+        "what_does_this_breed_look_like_nose": "\u003Cp\u003EThe Dobie's nose is black, brown, gray or tan, depending on their coat color. The overall muzzle shape is long and narrow.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_length": "\u003Cp\u003EThe Doberman's coat is smooth and short.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_color": "\u003Cp\u003EThey come in a variety of colors: black, blue, fawn (Isabella) or red, with reddish-brown markings.\u003C/p\u003E",
+        "what_does_this_breed_look_like_tail": "\u003Cp\u003EThe AKC standard calls for the tail to be docked. Docking involves cutting a portion of the dog’s tail off when they are puppies. Veterinary groups along with many U.S. states and countries have banned this procedure due to medical and behavioral reasons. If you are interested in this procedure, schedule a consultation with your veterinarian. \u003C/p\u003E",
+        "h2_breed_temperament": "Dobermans are highly intelligent, athletic and alert—all things that make them great guard dogs, which is what they were bred to do. And Dobies take their job as guard dog extraordinaire very seriously. This drive, along with their imposing physical appearance, has earned them a reputation of being notoriously protective. But when the pup parent provides the proper training, socialization and structure, these dogs are also a loving member of the family.\r\n\r\nYou'll soon discover that, along with their formidable presence, Dobermans possess a deep devotion to their people. In fact, they bond so deeply with their humans and are so dedicated to their families, these affectionate dogs are sometimes referred to as \"Velcro dogs.\"\r\n\r\nIn addition to their work as guard dogs, Dobermans have a long history as police and military dogs, dating back to the early 20th century. Dobermans even assisted U.S. Marines during World War II.",
+        "h2_how_to_care_for_a_breed": "Caring for a Doberman isn't rocket science, but there is definitely some work involved, as with any dog. While their grooming needs are fairly easy to keep up with, Dobies require a good amount of daily exercise and \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/training-secrets-for-doberman-pinschers\"\u003Elots of training.\u003C/a\u003E With all that training and time spent together, you'll quickly build a tight bond with this super-smart dog.",
+        "grooming": "Dobermans are a short-coated dog breed, and this will save you plenty of time when it comes to brushing. (The short coat will also make housework easier, as shedding is minimal.) Nevertheless, brushing is absolutely important and vital to maintaining a shiny, healthy and good-looking coat.\n\nYou should brush your Dobie a couple of times a week, and the sessions don't have to be very long—about 15 minutes (or less) will do the trick. Use a \u003Ca href=\"https://www.chewy.com/f/dog-bristle-brushes_c355_f70v83784\"\u003Esimple bristle brush\u003C/a\u003E to keep the coat clean and free of dandruff. Another excellent grooming tool for short-coated dogs is the \u003Ca href=\"https://www.chewy.com/kong-dog-zoomgroom-multi-use-brush/dp/51528\"\u003EKONG ZoomGroom\u003C/a\u003E, which removes loose hair and improves coat condition.\n\nA complete head-to-toe grooming session will take a bit more time. Like any dog, your Doberman will need to have their \u003Ca href=\"https://www.chewy.com/education/dog/grooming/health-wellness-how-to-brush-your-dogs-teeth-live-to-tell-the-tale\"\u003Eteeth brushed\u003C/a\u003E every day and their \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/guide-trimming-dogs-nails\"\u003Enails trimmed\u003C/a\u003E as needed (generally once month will do it). In addition to daily teeth brushing at home, it's a good idea to have your vet professionally clean your pup's teeth once a year. \u003Ca href=\"https://www.chewy.com/education/dog/grooming/how-to-bathe-a-dog-step-by-step-tips-from-a-professional-groomer\"\u003EBaths\u003C/a\u003E are only needed occasionally to keep your dog smelling fresh or whenever they get exceptionally dirty from playing outside.\n\nThese grooming sessions not only help your dog feel and look their best but also allow you to look for developing health issues and spend some bonding time together—and we all know Dobermans LOVE quality time with their people.",
+        "training": "Don't underestimate the importance of training your Doberman. Solid \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior\"\u003Eobedience training\u003C/a\u003E is essential for any dog, but it's especially important for Dobermans. Remember, these are large, powerful dogs.\n\nA \u003Ca href=\"https://www.chewy.com/b/martingale-11541\"\u003Emartingale collar\u003C/a\u003E can be a useful training tool, as it contains two loops that tighten slightly (but not too much!) when the dog pulls. It can help give a pet parent additional control and help the dog learn not to pull on the leash. Dog harnesses are also helpful. If you're having trouble with your dog pulling on the leash during walks, this is a sign your dog may need more training.\n\nIf you're unsure about general obedience training, find a certified dog trainer in your area who uses positive reinforcement. They'll help lay the foundation and aid in molding your Dobie into a happy and well-mannered member of the home.\n\nHappily, Dobermans are very easy to train. They learn quickly and have even been called too smart. They can be sensitive to correction, so again, gentle and positive reinforcement is best. Take advantage of your Doberman's natural intelligence to help guide them toward your goals. Once they understand what's important to you, it will be important to them!",
+        "diet_nutrition": "Dobermans need a complete and balanced dog food to ensure they remain at the appropriate weight and receive the proper nutrients. The choice of wet or dry food is really up to you, as long as it's a quality, balanced diet.\n\nAim to feed your Doberman on a set schedule and don't—if possible!—treat with \"human\" foods. That's a toughie, of course, especially when your Doberman gives you the \"I want some, too!\" face. But it's really for the best because those calories do add up. Just make sure you treat with \"dog-safe\" people food. (Find out what human foods aren't safe to feed your dog \u003Ca href=\"https://www.chewy.com/education/dog/food-and-nutrition/toxic-foods-for-pets\"\u003Ehere\u003C/a\u003E.) Luckily, there are plenty of suitable \u003Ca href=\"https://www.chewy.com/b/treats-335\"\u003Etreats made specifically for dogs\u003C/a\u003E. Treats are often an important part of training (and used to show your dog you love them), but again, you want to make sure you don't overdo them.\n\nYour vet is a great resource to help you determine the best food, feeding schedule and \"treat times\" for your individual dog based on factors like their age, weight and activity level.",
+        "exercise": "Dobermans are highly energetic dogs who require plenty of exercise. Daily walks are essential, so get ready to put on your walking shoes because Dobermans need at least an hour of exercise a day to meet their needs.\n\nIf you're a runner, your Doberman will likely enjoy running with you several times a week. Dobermans have high energy levels, and they'll appreciate the exercise, provided you take it easy at first and build up to the desired activity level. Just like you, your dog needs to become fit for the task. Fun fact: A Doberman's top speed is over 30 miles per hour—much faster than you can run! So, \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/how-to-go-bike-riding-with-your-dog\"\u003Etaking your dog with you on a bike ride\u003C/a\u003E is a good way to help them really stretch their legs. Occasional off-leash play—in a fenced-in yard or dog park—is good, too. Many Dobermans also enjoy swimming.\n\nIn addition to physical exercise, Dobermans need mental stimulation. \u003Ca href=\"https://www.chewy.com/b/puzzle-toys-games-2335\" target=\"_blank\" rel=\"noopener\"\u003EDog puzzles\u003C/a\u003E, games, agility or similar activities will do the trick.",
+        "ideal_environment": "Of course, with all that energy, your Doberman would love a nice, large fenced-in yard to run and play, but as long as you're meeting their exercise needs elsewhere, they can handle apartment life. Some might even appreciate time in an appropriately sized dog run.\r\n\r\nThe Doberman's ideal environment is a mixture of indoor and outdoor time. And activities with you are high on their priority list. Outdoor time is necessary for exercise and overall well-being, but they really want to be with their families, so being involved with the day-to-day activities inside the house is very important. Also, Dobermans are naturally lean and don't have the coat length to handle cold weather for long periods and can overheat on hot summer days.",
+        "h2_breed_health": "Hopefully, your Doberman is a healthy dog who happily reaches their 10- to 12-year lifespan with little or no trouble. That said, there are some Doberman health problems and conditions that commonly affect this breed.\n\u003Cul\u003E\n \t\u003Cli\u003E\u003Cstrong\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/cardiovascular/enlarged-heart-dilated-cardiomyopathy-dogs\" target=\"_blank\" rel=\"noopener\"\u003EDilated Cardiomyopathy\u003C/a\u003E (DCM):\u003C/strong\u003E DCM is an inherited disease that affects the heart muscle and is commonly seen in Dobermans. In dogs with DCM, their heart muscle is weakened and cannot pump blood effectively. Over time, this leads to heart enlargement (dilation) and can result in complications like abnormal heart rhythms (arrhythmia), difficulty exercising and heart failure. Screenings should be done annually. Several drugs are used to treat the symptoms and help prolong life.\u003C/li\u003E\n \t\u003Cli\u003E\u003Cstrong\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/cardiovascular/c_dg_von_willebrand_disease\" target=\"_blank\" rel=\"noopener\"\u003EVon Willebrand Disease\u003C/a\u003E:\u003C/strong\u003E This is a genetic disorder that affects the ability of blood platelets to clot properly, which can lead to excessive bleeding from injuries. One study showed that \u003Ca href=\"https://pubmed.ncbi.nlm.nih.gov/1607320/\" target=\"_blank\" rel=\"noopener\"\u003Eover 70 percent of Dobermans\u003C/a\u003E are carriers, although not all show signs of the disease. Your veterinarian can screen your dog for it.\u003C/li\u003E\n \t\u003Cli\u003E\u003Cstrong\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/neurological/c_dg_wobbler_syndrome\" target=\"_blank\" rel=\"noopener\"\u003EWobbler Syndrome\u003C/a\u003E:\u003C/strong\u003E This is a problem with larger dogs like Dobermans. Issues with the spinal cord in the neck cause considerable pain and may affect the legs (especially the hind legs). Dobermans may begin showing signs of the disease—like a lack of coordination—around age 6, and some are treated with medications while others may need to undergo surgery.\u003C/li\u003E\n \t\u003Cli\u003E\u003Cstrong\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/c_dg_hip_dysplasia\" target=\"_blank\" rel=\"noopener\"\u003EHip Dysplasia\u003C/a\u003E:\u003C/strong\u003E This is an inherited issue involving the hip joint that results in pain, muscle loss and lameness. It’s a degenerative disease, but there are many treatments and therapies available. Hip dysplasia can affect any dog, but it’s more common in larger breeds, such as Dobermans.\u003C/li\u003E\n \t\u003Cli\u003E\u003Cstrong\u003E\u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/bloat-in-dogs\" target=\"_blank\" rel=\"noopener\"\u003EBloat\u003C/a\u003E:\u003C/strong\u003E Otherwise known as gastric dilatation-volvulus (\u003Ca href=\"https://www.petmd.com/dog/conditions/digestive/gastric-dilatation-volvulus-gdv-syndrome\" target=\"_blank\" rel=\"noopener\"\u003EGDV\u003C/a\u003E), is a life-threatening condition affecting large breed dogs where the stomach fills up with food or air and twists.&nbsp; The main symptoms include non-productive retching (trying to vomit but no vomit is produced) and abdominal distension.&nbsp; If you notice these symptoms, please take your Dobie to the vet immediately.&nbsp; Typically, emergency surgery is needed.\u003C/li\u003E\n \t\u003Cli\u003E\u003Cstrong\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/endocrine/c_dg_hypothyroidism\" target=\"_blank\" rel=\"noopener\"\u003EHypothyroidism\u003C/a\u003E:\u003C/strong\u003E Hypothyroidism is an endocrine disease where the body does not make enough thyroid hormone.&nbsp; Symptoms often include weight gain, hair loss, and lethargy.&nbsp;Typically it is diagnosed with a blood test and treated with daily medications.\u003C/li\u003E\n \t\u003Cli\u003E\u003Cstrong\u003EProgressive Retinal Atrophy (\u003Ca href=\"https://www.petmd.com/dog/condition/progressive-retinal-atrophy-in-dogs\" target=\"_blank\" rel=\"noopener\"\u003EPRA\u003C/a\u003E):\u003C/strong\u003E&nbsp;This inherited disorder results in vision loss and eventually blindness with no cure.&nbsp; However, genetic screening testing is available so be sure to ask your breeder.\u003C/li\u003E\n\u003C/ul\u003E",
+        "h2_breed_history": "So what is the origin of the Doberman dog? In 19th century Germany, a tax collector named Louis Dobermann decided he needed a dog to be his companion and protector as he went about his duties. He wanted a dog who would be loyal and strong but intimidating too. Over time, he developed the breed now known as the Doberman. (The breed was named for him, but with only one N.) Several breeds are believed to have influenced the \u003Ca href=\"https://dpca.org/breed/breed-history/\"\u003EDoberman's development\u003C/a\u003E, including the English Greyhound, the Black and Tan Manchester Terrier, the \u003Ca href=\"https://www.chewy.com/education/dog-breeds/german-shepherd/\" target=\"_blank\" rel=\"noopener\"\u003EGerman Shepherd\u003C/a\u003E, the German Pinscher, the Weimaraner and the \u003Ca href=\"https://www.chewy.com/education/dog-breeds/rottweiler/\" target=\"_blank\" rel=\"noopener\"\u003ERottweiler\u003C/a\u003E.\r\n\r\nBy the early 1900s, the Doberman breed had arrived in America, and the American Kennel Club (AKC) recognized the breed in 1908. Doberman population growth in the United States was slow in the early years but received a boost thanks to George Howard Earle III, a Doberman enthusiast and politician. (He was later governor of Pennsylvania.) Earle was one of the founders of the \u003Ca href=\"https://dpca.org/\"\u003EDoberman Pinscher Club of America\u003C/a\u003E (DPCA), which was formed in 1921. The breed was admired for their excellent skills and qualities, especially as a protective and loyal guard dog. And the rest, as they say, is (Doberman) history.\r\n\r\nDuring the 1970s, a random albino mutation gene occurred, and while it resulted in a new color for the breed (white), the albino gene wasn't without its accompanying health issues. The specific gene has since been identified, and breeders can use a simple DNA test to help avoid albinism in Dobermans.\r\n\r\nToday, the Doberman is a popular family dog. Along with 30 other breeds, the Doberman Pinscher is part of the AKC's Working Group classification, which recognizes breeds that have historically performed jobs (search-and-rescue dogs or guard dogs, for example).\r\n\r\nSo, where is the best place to find Doberman puppies? You can find a list of reputable Doberman breeders on the \u003Ca href=\"https://marketplace.akc.org/puppies/doberman-pinscher\"\u003EAmerican Kennel Club's website\u003C/a\u003E. What's the average Doberman price? Depending on the breeder, expect to spend anywhere from $1,500 to $3,000 for a pup. But for that, you usually are getting a dog who's been screened for health and temperament issues, and they might even come with pedigree papers. You can also reach out to Doberman Pinscher rescue organizations to adopt a Doberman, keep an eye out for the breed at your local animal shelter, or search \u003Ca href=\"https://www.chewy.com/g/dog-doberman-pinscher_ga1\" target=\"_blank\" rel=\"noopener\"\u003EChewy’s database of adoptable dogs\u003C/a\u003E in your area.",
+        "expert_attribution": "\u003Cem\u003EExpert input provided by veterinarian Dr. Ryan C. Fries, Assistant Professor of Cardiology, Department of Veterinary Clinical Medicine, College of Veterinary Medicine at the \u003Ca href=\"https://vetmed.illinois.edu/\"\u003EUniversity of Illinois at Urbana-Champaign\u003C/a\u003E and certified dog trainer Erin Magnani Topp, CPDT-KA, KPA CTP, owner of Topp Canine Solutions.\u003C/em\u003E\r\n\r\n\u003Cem\u003EBreed characteristic ratings provided by Dr. Sarah J. Wooten, DVM, CVJ, a veterinarian at \u003Ca href=\"https://sheepdraw.com/\" target=\"_blank\" rel=\"noopener\"\u003ESheep Draw Veterinary Hospital\u003C/a\u003E in Greeley, Colorado; dog trainer and behavior consultant Irith Bloom, CPDT-KSA, CBCC-KA, CDBC, owner of \u003Ca href=\"https://thesophisticateddog.com/\" target=\"_blank\" rel=\"noopener\"\u003EThe Sophisticated Dog, LLC\u003C/a\u003E, in Los Angeles; and certified animal behavior consultant \u003Ca href=\"https://shojai.com/\" target=\"_blank\" rel=\"noopener\"\u003EAmy Shojai\u003C/a\u003E, CABC, in Sherman, Texas.\u003C/em\u003E\r\n\r\n\u003Cem\u003EThe health content was medically reviewed by Chewy vets.\u003C/em\u003E",
+        "facebook_social_snippet_with_cta": "\u003Cp\u003EDobermans can have an intimidating, tough-dog exterior. But along with their imposing presence and attitude, Dobermans are loyal, loving and devoted to their family. If you're ready to add a Dobie to your family, check out our guide for all the facts and information on the Doberman Pinscher. \u003C/p\u003E",
+        "species": "\u003Cp\u003EDog\u003C/p\u003E",
+        "h2_faqs": "\u003Ch3\u003EAre Dobermans hypoallergenic?\u003C/h3\u003E\r\nUnfortunately no, Dobermans aren't hypoallergenic, and even though they are a short-haired breed, their hair and dander may trigger allergies.\r\n\u003Ch3\u003EAre Dobermans good with kids?\u003C/h3\u003E\r\nA Doberman puppy and a small child probably aren't a wise combination, but an older dog and an older child can often coexist quite well, as long as you properly instruct the child on how to behave around dogs (and vice versa). Of course, every dog is different, and some may not be good with kids, but once a Doberman understands the child is part of the family, they usually shower the child with love and protection. Remember, always supervise your Doberman when interacting with a child.\r\n\u003Ch3\u003EAre Dobermans dangerous?\u003C/h3\u003E\r\nDobermans are strong, imposing dogs and may seem intimidating, especially to those outside their families, but they aren't considered more or less dangerous than other dog breeds. Like all dog breeds, Dobermans can display unwanted behaviors you'll need to address, but a reputable trainer can help you work through any issues. As noted, Dobermans can display protective tendencies, and they do have a strong bite force.\r\n\u003Ch3\u003EWhat are the most common Doberman mixes?\u003C/h3\u003E\r\n\u003Cul\u003E\r\n \t\u003Cli\u003EDoberman-Rottweiler mix (Rotterman)\u003C/li\u003E\r\n \t\u003Cli\u003EDoberman-German Shepherd mix (Doberman Shepherd)\u003C/li\u003E\r\n \t\u003Cli\u003EDoberman-Beagle mix (Beagleman)\u003C/li\u003E\r\n \t\u003Cli\u003EDoberman-Labrador Retriever mix (Doberdor)\u003C/li\u003E\r\n \t\u003Cli\u003EDoberman-Boxer mix (Boxerman)\u003C/li\u003E\r\n \t\u003Cli\u003EDoberman-Corgi mix (Dobergi or Dorgi)\u003C/li\u003E\r\n \t\u003Cli\u003EDoberman-Golden Retriever mix (Golderman)\u003C/li\u003E\r\n \t\u003Cli\u003EDoberman-Husky mix (Siberian Pinscher or Dobsky)\u003C/li\u003E\r\n \t\u003Cli\u003EDoberman-Great Dane mix (Doberdane)\u003C/li\u003E\r\n \t\u003Cli\u003EDoberman-Poodle mix (Doberdoodle)\u003C/li\u003E\r\n \t\u003Cli\u003EDoberman-Bouvier des Flandres mix (Bouberman)\u003C/li\u003E\r\n\u003C/ul\u003E",
+        "faq_items": [
+          {
+            "faq_title": "Are Dobermans hypoallergenic?",
+            "faq_content": "Unfortunately no, Dobermans aren't hypoallergenic, and even though they are a short-haired breed, their hair and dander may trigger allergies."
+          },
+          {
+            "faq_title": "Are Dobermans good with kids?",
+            "faq_content": "A Doberman puppy and a small child probably aren't a wise combination, but an older dog and an older child can often coexist quite well, as long as you properly instruct the child on how to behave around dogs (and vice versa). Of course, every dog is different, and some may not be good with kids, but once a Doberman understands the child is part of the family, they usually shower the child with love and protection. Remember, always supervise your Doberman when interacting with a child."
+          },
+          {
+            "faq_title": "Are Dobermans dangerous?",
+            "faq_content": "Dobermans are strong, imposing dogs and may seem intimidating, especially to those outside their families, but they aren't considered more or less dangerous than other dog breeds. Like all dog breeds, Dobermans can display unwanted behaviors you'll need to address, but a reputable trainer can help you work through any issues. As noted, Dobermans can display protective tendencies, and they do have a strong bite force."
+          },
+          {
+            "faq_title": "What are the most common Doberman mixes?",
+            "faq_content": "\u003Cul\u003E\r\n \t\u003Cli\u003EDoberman-Rottweiler mix (Rotterman)\u003C/li\u003E\r\n \t\u003Cli\u003EDoberman-German Shepherd mix (Doberman Shepherd)\u003C/li\u003E\r\n \t\u003Cli\u003EDoberman-Beagle mix (Beagleman)\u003C/li\u003E\r\n \t\u003Cli\u003EDoberman-Labrador Retriever mix (Doberdor)\u003C/li\u003E\r\n \t\u003Cli\u003EDoberman-Boxer mix (Boxerman)\u003C/li\u003E\r\n \t\u003Cli\u003EDoberman-Corgi mix (Dobergi or Dorgi)\u003C/li\u003E\r\n \t\u003Cli\u003EDoberman-Golden Retriever mix (Golderman)\u003C/li\u003E\r\n \t\u003Cli\u003EDoberman-Husky mix (Siberian Pinscher or Dobsky)\u003C/li\u003E\r\n \t\u003Cli\u003EDoberman-Great Dane mix (Doberdane)\u003C/li\u003E\r\n \t\u003Cli\u003EDoberman-Poodle mix (Doberdoodle)\u003C/li\u003E\r\n \t\u003Cli\u003EDoberman-Bouvier des Flandres mix (Bouberman)\u003C/li\u003E\r\n\u003C/ul\u003E"
+          }
+        ],
+        "select_related_breeds": [
+          {
+            "selected_related_breed": 657,
+            "characteristic": "breed_characteristics_physical_appearance"
+          },
+          {
+            "selected_related_breed": 514,
+            "characteristic": "breed_characteristics_training_needs"
+          },
+          {
+            "selected_related_breed": 1264,
+            "characteristic": "breed_characteristics_exercise_needs"
+          },
+          {
+            "selected_related_breed": 191,
+            "characteristic": "breed_characteristics_friendliness"
+          },
+          {
+            "selected_related_breed": 446,
+            "characteristic": "breed_characteristics_shedding_level"
+          },
+          {
+            "selected_related_breed": 84,
+            "characteristic": "breed_characteristics_biting_tendencies"
+          }
+        ],
+        "enable_featured_gallery": [
+          "enable_featured_gallery"
+        ],
+        "featured_gallery_images": [1354, 1347, 1348, 1349, 1350, 1351]
+      },
+      "yoast_head": "\u003C!-- This site is optimized with the Yoast SEO plugin v23.8 - https://yoast.com/wordpress/plugins/seo/ --\u003E\n\u003Ctitle\u003EDoberman Pinscher Breed: Characteristics, Care &amp; Photos | Chewy\u003C/title\u003E\n\u003Cmeta name=\"description\" content=\"The athletic, devoted Doberman Pinscher was originally bred to be a guard dog. Read our complete Doberman guide to learn more about this popular breed.\" /\u003E\n\u003Cmeta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" /\u003E\n\u003Clink rel=\"canonical\" href=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/doberman-pinscher/\" /\u003E\n\u003Cmeta property=\"og:locale\" content=\"en_US\" /\u003E\n\u003Cmeta property=\"og:type\" content=\"article\" /\u003E\n\u003Cmeta property=\"og:title\" content=\"Doberman Pinscher Breed: Characteristics, Care &amp; Photos | Chewy\" /\u003E\n\u003Cmeta property=\"og:description\" content=\"The athletic, devoted Doberman Pinscher was originally bred to be a guard dog. Read our complete Doberman guide to learn more about this popular breed.\" /\u003E\n\u003Cmeta property=\"og:url\" content=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/doberman-pinscher/\" /\u003E\n\u003Cmeta property=\"og:site_name\" content=\"Chewy\" /\u003E\n\u003Cmeta property=\"article:modified_time\" content=\"2025-05-05T14:22:43+00:00\" /\u003E\n\u003Cmeta property=\"og:image\" content=\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07150727/202104Breed-Hero-Doberman-Pinscher.jpg\" /\u003E\n\t\u003Cmeta property=\"og:image:width\" content=\"1835\" /\u003E\n\t\u003Cmeta property=\"og:image:height\" content=\"1032\" /\u003E\n\t\u003Cmeta property=\"og:image:type\" content=\"image/jpeg\" /\u003E\n\u003Cmeta name=\"twitter:card\" content=\"summary_large_image\" /\u003E\n\u003Cscript type=\"application/ld+json\" class=\"yoast-schema-graph\"\u003E{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/doberman-pinscher/\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/doberman-pinscher/\",\"name\":\"Doberman Pinscher Breed: Characteristics, Care & Photos | Chewy\",\"isPartOf\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/doberman-pinscher/#primaryimage\"},\"image\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/doberman-pinscher/#primaryimage\"},\"thumbnailUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07150727/202104Breed-Hero-Doberman-Pinscher.jpg\",\"datePublished\":\"2021-04-19T15:29:19+00:00\",\"dateModified\":\"2025-05-05T14:22:43+00:00\",\"description\":\"The athletic, devoted Doberman Pinscher was originally bred to be a guard dog. Read our complete Doberman guide to learn more about this popular breed.\",\"breadcrumb\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/doberman-pinscher/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://phcms.hlth.prd.aws.chewy.cloud/breed/doberman-pinscher/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/doberman-pinscher/#primaryimage\",\"url\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07150727/202104Breed-Hero-Doberman-Pinscher.jpg\",\"contentUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07150727/202104Breed-Hero-Doberman-Pinscher.jpg\",\"width\":1835,\"height\":1032,\"caption\":\"Doberman Pinscher\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/doberman-pinscher/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://phcms.hlth.prd.aws.chewy.cloud/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Doberman Pinscher\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/\",\"name\":\"Chewy\",\"description\":\"\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"}]}\u003C/script\u003E\n\u003C!-- / Yoast SEO plugin. --\u003E",
+      "yoast_head_json": {
+        "title": "Doberman Pinscher Breed: Characteristics, Care & Photos | Chewy",
+        "description": "The athletic, devoted Doberman Pinscher was originally bred to be a guard dog. Read our complete Doberman guide to learn more about this popular breed.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://phcms.hlth.prd.aws.chewy.cloud/breed/doberman-pinscher/",
+        "og_locale": "en_US",
+        "og_type": "article",
+        "og_title": "Doberman Pinscher Breed: Characteristics, Care & Photos | Chewy",
+        "og_description": "The athletic, devoted Doberman Pinscher was originally bred to be a guard dog. Read our complete Doberman guide to learn more about this popular breed.",
+        "og_url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/doberman-pinscher/",
+        "og_site_name": "Chewy",
+        "article_modified_time": "2025-05-05T14:22:43+00:00",
+        "og_image": [
+          {
+            "width": 1835,
+            "height": 1032,
+            "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07150727/202104Breed-Hero-Doberman-Pinscher.jpg",
+            "type": "image/jpeg"
+          }
+        ],
+        "twitter_card": "summary_large_image",
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/doberman-pinscher/",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/doberman-pinscher/",
+              "name": "Doberman Pinscher Breed: Characteristics, Care & Photos | Chewy",
+              "isPartOf": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/doberman-pinscher/#primaryimage"
+              },
+              "image": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/doberman-pinscher/#primaryimage"
+              },
+              "thumbnailUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07150727/202104Breed-Hero-Doberman-Pinscher.jpg",
+              "datePublished": "2021-04-19T15:29:19+00:00",
+              "dateModified": "2025-05-05T14:22:43+00:00",
+              "description": "The athletic, devoted Doberman Pinscher was originally bred to be a guard dog. Read our complete Doberman guide to learn more about this popular breed.",
+              "breadcrumb": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/doberman-pinscher/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://phcms.hlth.prd.aws.chewy.cloud/breed/doberman-pinscher/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/doberman-pinscher/#primaryimage",
+              "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07150727/202104Breed-Hero-Doberman-Pinscher.jpg",
+              "contentUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07150727/202104Breed-Hero-Doberman-Pinscher.jpg",
+              "width": 1835,
+              "height": 1032,
+              "caption": "Doberman Pinscher"
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/doberman-pinscher/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://phcms.hlth.prd.aws.chewy.cloud/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Doberman Pinscher"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/",
+              "name": "Chewy",
+              "description": "",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            }
+          ]
+        }
+      },
+      "yoast_meta": {
+        "yoast_wpseo_title": "",
+        "yoast_wpseo_metadesc": "",
+        "yoast_wpseo_canonical": ""
+      },
+      "_links": {
+        "self": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed/1355",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/types/breed"
+          }
+        ],
+        "acf:attachment": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/1351"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/1350"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/1349"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/1348"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/1347"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/1354"
+          }
+        ],
+        "wp:featuredmedia": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/3248"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media?parent=1355"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "pet_type",
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/pet_type?post=1355"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ]

@@ -1,0 +1,330 @@
+[
+    {
+      "id": 495,
+      "date": "2021-06-25T11:59:43",
+      "date_gmt": "2021-06-25T11:59:43",
+      "guid": {
+        "rendered": "https://haproxy.use1.lgcy.prd.aws.chewy.cloud/eks/ns/pet-health/pet-health-content-backend/breed/portuguese-water-dog/"
+      },
+      "modified": "2025-05-05T14:21:38",
+      "modified_gmt": "2025-05-05T14:21:38",
+      "slug": "portuguese-water-dog",
+      "status": "publish",
+      "type": "breed",
+      "link": "https://phcms.hlth.prd.aws.chewy.cloud/breed/portuguese-water-dog/",
+      "title": {
+        "rendered": "Portuguese Water Dog"
+      },
+      "featured_media": 494,
+      "template": "",
+      "pet_type": [],
+      "class_list": [
+        "post-495",
+        "breed",
+        "type-breed",
+        "status-publish",
+        "has-post-thumbnail",
+        "hentry"
+      ],
+      "acf": {
+        "breed_snapshot_best_for": "Originally bred to assist fishermen, Portuguese Water Dogs are best suited for highly active pet parents since they require near-constant physical and mental stimulation. Porties can live happily alongside kids, dogs and cats provided they were raised together from a young age.",
+        "alt_image_text": "\u003Cp\u003EThe Portuguese Water Dog was originally bred to help fishermen. Read all about it in our complete Portuguese Water Dog guide.\u003C/p\u003E",
+        "breed_intro": "If Olympic champion swimmer Michael Phelps were to assume canine form, he'd most likely be the Portuguese Water Dog. Originally bred to assist fishermen, these \u003Ca href=\"https://www.chewy.com/education/dog/general/dog-breeds-that-dont-shed\" target=\"_blank\" rel=\"noopener\"\u003Elow-shedding\u003C/a\u003E, expert paddlers are affable hard workers who can get up to some mischief if not kept busy. No wonder they live their best lives as members of an active family—that's why Bo and Sunny, a pair of Porties, fit right in when the Obamas welcomed them to the White House as \"First Pets.\" While there's no requirement here to just add water (they are just fine in your dry land backyard), you will need to provide a lifestyle for a pup who's up for more than just a walk around the block. Ready to dive into a relationship with a Portuguese Water Dog?",
+        "breed_related_products_product_card_set": null,
+        "breed_snapshot_temperament": "\u003Cp\u003EDynamo, Super Smart, People Pleaser\u003C/p\u003E",
+        "what_does_this_breed_look_like_weight": "\u003Cp\u003EMale: 42-60 pounds\u003C/p\u003E\u003Cp\u003EFemale: 35-50 pounds \u003C/p\u003E",
+        "what_does_this_breed_look_like_height": "\u003Cp\u003EMale: 20-23 inches\u003C/p\u003E\u003Cp\u003EFemale: 17-21 inches\u003C/p\u003E",
+        "breed_snapshot_life_expectancy": "\u003Cp\u003E11 to 13 years\u003C/p\u003E",
+        "breed_snapshot_maintenance_level": "\u003Cp\u003EMedium\u003C/p\u003E",
+        "breed_characteristics_friendliness": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_snapshot_coat_color": "\u003Cp\u003EBlack, White, Brown\u003C/p\u003E",
+        "breed_snapshot_shed_level": "\u003Cp\u003ELow\u003C/p\u003E",
+        "in_article_video": null,
+        "breed_characteristics": "These traits are rated on a scale of 1-5 with 1 being the lowest and 5 being the highest. Remember: Dogs are individuals, and not all dogs, even those of the same breed, will exhibit all the same qualities.",
+        "breed_characteristics_exercise_needs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_health_issues": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_barking_tendencies": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_grooming_needs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_shedding_level": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_training_needs": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_with_kids": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_with_cats": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_for_apartments_small_homes": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_energy_level": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_other_dogs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_playfulnesss": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_cold_weather": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_warm_weather": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_for_first_time_parents": "\u003Cp\u003E3\u003C/p\u003E",
+        "how_do_i_look_card_image": 493,
+        "what_does_this_breed_look_like": "The Portuguese Water Dog's dark, penetrating eyes and attentive expression reveal their keen intelligence and playful nature. Bred to be strong swimmers (with webbed feet, no less), Porties can use their long, thickly based tail as a rudder in the water. As active as they are fun-loving, their fuzzy fur—curly-coated or wavy—covers a solid and well-muscled build. They come in black, white, brown or a combination of black and white or brown and white.",
+        "what_does_this_breed_look_like_ears": "\u003Cp\u003EThe heart-shaped ears of the Portuguese Water Dog are usually covered in wavy hair, hanging down on the sides and framing their inquisitive faces.\u003C/p\u003E",
+        "what_does_this_breed_look_like_eyes": "\u003Cp\u003EThe medium-sized, roundish eyes of the Portuguese Water Dog come in various shades of brown, as well as black, and have an alert and attentive expression.\u003C/p\u003E",
+        "what_does_this_breed_look_like_nose": "\u003Cp\u003EPortuguese Water Dogs typically have broad nostrils; their noses are black in black dogs or various tones of brown in those with brown coats.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_length": "\u003Cp\u003EThere are two types of Portuguese Water Dog coats. Some Porties have compact, cylindrical curls while others have fur that falls in gentle waves.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_color": "\u003Cp\u003EPortuguese Water Dog coat colors can include black, white, various tones of brown and combinations of black or brown with white.\u003C/p\u003E",
+        "what_does_this_breed_look_like_tail": "\u003Cp\u003EThe Portuguese Water Dog has a long, low-hanging tail.\u003C/p\u003E",
+        "h2_breed_temperament": "Portuguese Water Dogs are quintessential working dogs who have successfully transitioned to family pets over the centuries. These proud seafarers hail from the southern coast of Portugal, where they swam out to nets to help Portuguese fishermen retrieve their catch. You don't need a boat, however, to befriend a Portie.\n\nPorties typically have a friendly and kind temperament and are very loyal to their families. Meaning, they'll likely shoot a suspicious glance or growl in the new deliveryman's direction, but that's as far as it goes. They have low biting tendencies and are generally good around strangers.\n\nThey also tend to get along great with other dogs and fairly well with cats and kids they grew up with. Still, they benefit from proper \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/positively-trained-puppy-socialization-dos-and-donts\"\u003Esocialization\u003C/a\u003E early on (great excuse for a \"Meet My Puppy\" party with all your friends).\n\nOn the flip side, Porties are so smart and energetic, they crave constant mental stimulation and can get bored if left to their own devices. Pet parents can keep their dog from going to town on favorite footwear by engaging Porties in vigorous activity, indoors or out. Prepare to play fetch for hours on end with your tireless pet and keep them away from your belongings with an army of chew toys at their disposal. At the end of the day, as active and independent-minded as they can be, Porties are happiest when exercising with the family they love—all the better if that involves swimming in a lake, beach or pool.",
+        "h2_how_to_care_for_a_breed": "The Portuguese Water Dog breed is low shedding and often considered a good choice for people with allergies, but that doesn't mean they're low maintenance. They require regular \u003Ca href=\"https://www.chewy.com/education/dog/grooming/home-pet-grooming-cheat-sheet\" target=\"_blank\" rel=\"noopener\"\u003Egrooming\u003C/a\u003E and plenty of stimulating activities to keep them happy and healthy. Fortunately, they tend to be friendly and adapt well to first-time pet parents with small children and other pets; as long as they're getting all the other elements they need to flourish.",
+        "grooming": "There's no beating around the bush—Portuguese Water Dogs' coats can get a bit unruly without regular maintenance and extensive grooming, ideally by a professional. Porties feature two types of coat textures—curly or wavy—groomed in two different fur styles (fun!). The lion clip is when the fur on the muzzle and hindquarters is clipped close to the skin. The retriever clip is where the entire coat is trimmed to one inch in length, except for the tail tip, which remains full-length.\n\nAside from a clip at the groomer's every month or so, a Portie needs:\n\u003Cul\u003E\n \t\u003Cli\u003EDaily brushing with a \u003Ca href=\"https://www.chewy.com/f/slicker-brush-dog-brushes-combs_c356_f70v83792\" target=\"_blank\" rel=\"noopener\"\u003Eslicker brush\u003C/a\u003E\u003C/li\u003E\n \t\u003Cli\u003EDaily \u003Ca href=\"https://www.chewy.com/education/dog/grooming/health-wellness-how-to-brush-your-dogs-teeth-live-to-tell-the-tale\" target=\"_blank\" rel=\"noopener\"\u003Eteeth brushing\u003C/a\u003E with \u003Ca href=\"https://www.chewy.com/s?query=dog%20toothpastes&amp;nav-submit-button=\"\u003Eflavored toothpaste\u003C/a\u003E, as well as annual professional cleanings at the veterinarian\u003C/li\u003E\n \t\u003Cli\u003EMonthly \u003Ca href=\"https://www.chewy.com/education/dog/grooming/how-to-bathe-a-dog-step-by-step-tips-from-a-professional-groomer\" target=\"_blank\" rel=\"noopener\"\u003Ebaths\u003C/a\u003E with a mild shampoo to keep tangles at bay\u003C/li\u003E\n \t\u003Cli\u003EWeekly \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/how-do-you-clean-a-dogs-ears-follow-this-vet-approved-step-by-step-guide\" target=\"_blank\" rel=\"noopener\"\u003Eear cleaning\u003C/a\u003E to avoid infections (signs of trouble include excessive scratching, whining and head shaking)\u003C/li\u003E\n\u003C/ul\u003E\nRound off their grooming ritual with a \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/guide-trimming-dogs-nails\" target=\"_blank\" rel=\"noopener\"\u003Enail trim\u003C/a\u003E every month or when you hear your pet's tapping paws from any room in your home, whichever comes first.\n\nDespite their grooming needs, the good news is that these curly mops have no undercoat and shedding is minimal. This Portuguese Water Dog quality makes them a popular choice for folks with dog allergies. However, do keep in mind that no breed is 100-percent hypoallergenic.",
+        "training": "Brilliant and playful pups like the Portuguese Water Dog breed are an absolute joy to be around. However, since they're capable of thinking independently, it's not uncommon for untrained Porties to challenge the will of their pet parent despite their hunger for attention and affection.\n\nLuckily, you can use their enthusiastic work ethic and eager-to-please nature to your advantage. Training a Portuguese Water Dog is easy: They're quick to understand commands and respond well to positive reinforcement training using \u003Ca href=\"https://www.chewy.com/b/training-treats-1550\" target=\"_blank\" rel=\"noopener\"\u003Etreats\u003C/a\u003E and \u003Ca href=\"https://www.chewy.com/b/toys-315\" target=\"_blank\" rel=\"noopener\"\u003Etoys\u003C/a\u003E. This makes them ideal candidates for learning skills in obedience (tasks like \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-sit\" target=\"_blank\" rel=\"noopener\"\u003Esit\u003C/a\u003E, jump, \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/how-to-teach-dog-to-fetch\" target=\"_blank\" rel=\"noopener\"\u003Efetch\u003C/a\u003E, everything short of making cocktails), agility sports (a series of timed obstacle courses) and of course, dog sports like dock diving (high jumping into water) or even service training like seizure detection.\n\nWhile they generally do well with children and other pets, most Portuguese Water Dogs require some training to become the best family member they can be. It's a good idea to invest in a qualified trainer or behaviorist during your Portie's puppyhood; a well-trained Portie makes a fun companion for families with the stamina to keep up.\n\nMake sure your Portuguese Water Dog puppy is well-socialized from the start by taking them around town to meet all walks of life and by enrolling them in puppy preschool where their fun-loving nature will have them full of furry friends in no time at all.",
+        "diet_nutrition": "A balanced Portuguese Water Dog diet that includes high-quality dog food is usually recommended. Before buying, remember to consider your dog's age and choose a formula befitting their particular stage in life, whether that's puppy, adult or senior.\r\n\r\nSince Porties are so active, some may do best on a high-protein diet. Others have a tendency to pack on the pounds. If that's the case, monitor your dog's treat intake—while they can be instrumental in training, they're also high in calories. The bottom line? Each dog is an individual, so chat with your veterinarian about your pet's particular needs. They can help you design the best course of action when it comes to the ideal diet for your canine bestie.",
+        "exercise": "You're probably getting the picture by now—the exercise needs of Portuguese Water Dogs, at least 45-60 minutes per day, are high. Although they make outstanding running buddies, a quick daily walk or run around the yard, no matter the speed, will not cut it for this athletic breed.\r\n\r\nDue to their high intelligence (they rank near the top compared to many other dog breeds) and people-pleasing ways, Porties enjoy mentally stimulating games such as hide-and-go-seek and treasure hunting. However, regardless of the games they play, Portuguese Water Dogs thrive when paired with active pet parents who love spending time with them and can find creative ways to keep their Porties busy and engaged. Otherwise, they might find other ways to burn energy, which may or may not involve chewing up your new shoes.\r\n\r\nTaking frequent family adventures is also a great way to keep these energetic dogs content. They'd love nothing more than to assist you on a long hike in the mountains or a visit to the beach. And don't forget to leave time to stop at a lake or take a dip in the sea. Your heart will swell with pride watching your trusty sidekick go for a swim. For Porties, their happy place is in the water.",
+        "ideal_environment": "If Portuguese Water Dogs were to design their dream home, they would definitely want it to have access to a body of water for lots of swim time, whether that's in a pond, lake or even a pool. In reality, though, it doesn't matter if they're in a city or on a farm—Portuguese Water Dogs need plenty of structured activities to stay in peak form. Of course, plenty of space is ideal for this medium-sized breed, but they can get by in a small apartment with the guidance of an experienced and highly active pet parent.\r\n\r\nThese strong, medium-sized dogs also do well with lots of space (think suburbia or the country) but can make do with a small apartment provided their pup parents are constantly running, hiking, camping or, you guessed it, swimming. Porties are really in their element in the water and make ideal beach buddies (or pool pals). Simply putting your Portuguese Water Dog in a backyard, no matter how much space you have, won't do; it just doesn't provide the type of stimulation these busy bees crave.\r\n\r\nPorties make loyal family pets who are friendly with kids and the cats and dogs they grew up with. However, they can be a bit suspicious of strangers since they're so devoted to their pet parents. Don't worry—it's an easy fix if your pup exhibits these tendencies because this breed is super bright and easy to train.",
+        "h2_breed_health": "\u003Cspan data-contrast=\"none\"\u003EThe Portuguese Water Dog has a life expectancy of 11-13 years. They’re healthy in general, but can develop some of the same issues that plague dogs of similar size. They’re also prone to some congenital disorders, but good breeding practices have made this increasingly rare. Regardless, it’s wise to educate yourself about any potential health problems so you can keep your pet going strong.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;335557856&quot;:16777215}\"\u003E \u003C/span\u003E\r\n\u003Cul\u003E\r\n \t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559684&quot;:-2,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;multilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"1\" data-aria-level=\"1\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EEye Problems\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E: Porties can be prone to \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/eye/c_dg_cataract\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Ecataracts\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E where one or both eyes becomes progressively cloudy. Symptoms include changes in eye color or size and excessive eye rubbing. As cataracts can result in blindness, check with your vet about surgery as a possible treatment option. \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/condition/progressive-retinal-atrophy-in-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003EProgressive retinal atrophy\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E (PRA) is another threat to the breed. This congenital condition, which can be identified with DNA testing, can lead to night blindness. There is currently no treatment, but dogs with loss of vision can do very well and live happy lives.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;335557856&quot;:16777215,&quot;335559685&quot;:1117}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n \t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559684&quot;:-2,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;multilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"2\" data-aria-level=\"1\"\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/c_dg_hip_dysplasia\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EHip Dysplasia\u003C/span\u003E\u003C/b\u003E\u003C/a\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003E: \u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003EPorties can be prone to this painful condition attributed to a poorly fitting ball and socket in the hip joint. Symptoms include limping, decreased activity and difficulty running or jumping. Depending on the severity of the condition, treatments can be as simple as weight reduction and exercise restriction. In severe cases, surgery may be needed.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;335557856&quot;:16777215,&quot;335559685&quot;:1117}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n \t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559684&quot;:-2,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;multilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"3\" data-aria-level=\"1\"\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/cardiovascular/enlarged-heart-dilated-cardiomyopathy-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EDilated Cardiomyopathy\u003C/span\u003E\u003C/b\u003E\u003C/a\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003E (DCM): \u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003EThis fatal heart condition is inherited and can present in young Portuguese Water Dogs. Genetic screening testing is available so be sure to ask your breeder. If your vet hears a \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/cardiovascular/c_dg_heart_murmur\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Eheart murmur\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E in your pet, they will likely refer you to a veterinary cardiologist for an echocardiogram (ultrasound of the heart) to help determine the cause.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;335557856&quot;:16777215,&quot;335559685&quot;:1117}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n \t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559684&quot;:-2,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;multilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"4\" data-aria-level=\"1\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EGM1 Disease: \u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003EThis devastating congenital disorder progressively destroys nerve cells in the brain and spinal cord. It presents with tremors, seizures and vision loss in puppies around 6 months of age and is, sadly, fatal. While all Portuguese Water Dogs should be genetically tested for this disease, good breeding practices have nearly eliminated it from the breed.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;335557856&quot;:16777215,&quot;335559685&quot;:1117}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\u003C/ul\u003E",
+        "h2_breed_history": "The history of the Portuguese Water Dog is a tale of impressive redemption following a fall from grace. Here are the facts: They hail from, you guessed it, Portugal (their origin can be traced to the Algarve region along the southern coast, to be exact). Written evidence indicates they've been prowling Iberian beaches since at least 1297, but they likely appeared centuries earlier in their role as fishermen's BFFs. They fearlessly dove into the sea to herd fish and retrieve nets and tackle. These hearty creatures even escorted Portuguese fishermen on fishing boats, making the long and arduous journey from the Atlantic waters of their homeland to the coast of Iceland to chase down cod.\r\n\r\nHowever, technological developments eventually made the cherished job of the Portuguese Water Dog obsolete. In fact, they almost became extinct during the 1930s until a wealthy Portuguese businessman took it upon himself to revive the breed. American breeder Deyanne Miller is primarily credited with bringing the breed to the United States and helped establish the Portuguese Water Dog Club of America in 1972. By 1983, they were recognized by the American Kennel Club.\r\n\r\nAwareness of the breed reached its zenith when Senator Ted Kennedy gifted Bo, a Portuguese Water Dog, to President Barack Obama in 2009. Then the Obama family added Sunny to the White House in 2013. This relatively rare breed has been growing in popularity ever since.\r\n\r\nDoes their captivating history make you interested in raising a Portuguese Water Dog of your very own? You can find information on reputable breeders on the \u003Ca class=\"editor-rtfLink\" href=\"https://marketplace.akc.org/puppies/portuguese-water-dog\" target=\"_blank\" rel=\"noopener\"\u003EAmerican Kennel Club's website\u003C/a\u003E. The average price of a Portuguese Water Dog is around $1,500-$2,500, depending on the breeder. These dogs usually come with pedigree papers and are also screened for health and temperament issues. Alternatively, keep an eye out for Portuguese Water Dog rescue organizations, ask about the breed at your local animal shelter or search \u003Ca href=\"https://www.chewy.com/g/dog-portuguese-water-dog_ga1\" target=\"_blank\" rel=\"noopener\"\u003EChewy’s database of adoptable dogs\u003C/a\u003E in your area.",
+        "expert_attribution": "\u003Ci\u003EExpert input provided by veterinarian \u003Ca href=\"https://www.amcny.org/find_doctor/carly-fox/\" target=\"_blank\" rel=\"noopener\"\u003ECarly Fox, DVM\u003C/a\u003E, staff doctor at \u003Ca href=\"http://www.amcny.org/\" target=\"_blank\" rel=\"noopener\"\u003EAnimal Medical Center\u003C/a\u003E in New York City, and certified dog behaviorist and trainer Russell Hartstein, CDBC, CPDT-KA, Fear Free Certified, founder of \u003Ca href=\"https://www.funpawcare.com/\" target=\"_blank\" rel=\"noopener\"\u003EFun Paw Care Dog Training\u003C/a\u003E in Los Angeles. \u003C/i\u003E\r\n\r\n\u003Cem\u003EBreed characteristic ratings provided by veterinarian Dr. Sarah J. Wooten, DVM, CVJ, a veterinarian at \u003Ca href=\"https://sheepdraw.com/\" target=\"_blank\" rel=\"noopener\"\u003ESheep Draw Veterinary Hospital\u003C/a\u003E in Greeley, Colorado; dog trainer and behavior consultant Irith Bloom, CPDT-KSA, CBCC-KA, CDBC, owner of \u003Ca href=\"https://thesophisticateddog.com/\" target=\"_blank\" rel=\"noopener\"\u003EThe Sophisticated Dog, LLC\u003C/a\u003E, in Los Angeles; and certified animal behavior consultant \u003Ca href=\"https://shojai.com/\" target=\"_blank\" rel=\"noopener\"\u003EAmy Shojai\u003C/a\u003E, CABC, in Sherman, Texas. \u003C/em\u003E\r\n\r\n\u003Cem\u003EThe health content was medically reviewed by Chewy vets.\u003C/em\u003E",
+        "facebook_social_snippet_with_cta": "\u003Cp\u003EOriginally bred to assist fishermen, Portuguese Water Dogs thrive as members of an active family. That's why Bo and Sunny, a pair of Porties, fit right in when the Obamas welcomed them to the White House. Is the favorite breed of the former president right for you? Read on to find out. \u003C/p\u003E",
+        "species": "\u003Cp\u003EDog\u003C/p\u003E",
+        "h2_faqs": "\u003Ch3\u003EDo Portuguese Water Dogs shed?\u003C/h3\u003E\nPortuguese Water Dog shedding is minimal. It's one of the breed's most well-known traits, and this quality makes them a good pet choice for people who are allergic or sensitive. Just keep in mind that no dog is entirely hypoallergenic.\n\u003Ch3\u003EHow big do Portuguese Water Dogs get?\u003C/h3\u003E\nPortuguese Water Dog adult males typically weigh 42-60 pounds and are between 20-23 inches tall at the shoulder. Females are a bit smaller, weighing in at about 35-50 pounds and measuring 17-21 inches tall at the shoulder.\n\u003Ch3\u003EHow long do Portuguese Water Dogs live?\u003C/h3\u003E\nHealthy Portuguese Water Dogs live about 11-13 years. With proper diet, exercise, regular vet visits and a lot of love, you can help your Portie live a long and happy life.\n\u003Ch3\u003EDo Portuguese Water Dogs bark a lot?\u003C/h3\u003E\nPortuguese Water Dogs do not bark a lot. Almost all dogs bark, but being extra noisy isn't one of the most common characteristics of this good-natured breed.\n\u003Ch3\u003EAre Portuguese Water Dogs easy to train?\u003C/h3\u003E\nPortuguese Water dogs are not only easy, but they are also a joy to train. They're intelligent, highly motivated, eager to please and respond well to positive reinforcement.\n\u003Ch3\u003EWhat are the most popular Portuguese Water Dog names?\u003C/h3\u003E\nThe most popular Portuguese Water Dog names are Zeus, Riley, Pepper, Beau, Sparky, Lucky, Shadow, Rusty, Casey, Ragnor, Rogue, Murphy, Rufus, Chaos, Jett, Sandy, Lily, Penny, Maddy, Pepper, Sheba, Tasha, Baby, Sammy, Juno, Misty, Lady, Sasha, Abby and Roxy. \u003Ca href=\"https://www.chewy.com/education/dog/general/top-dog-names\" target=\"_blank\" rel=\"noopener\"\u003EGet more dog names here\u003C/a\u003E.\n\u003Ch3\u003EWhat are the most common Portuguese water dog mixes?\u003C/h3\u003E\nThe most common Portuguese Water Dog mixes are:\n\u003Cul\u003E\n \t\u003Cli\u003EPortuguese Water Dog-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/poodle\" target=\"_blank\" rel=\"noopener\"\u003EPoodle\u003C/a\u003E mix (Portie-Doodle)\u003C/li\u003E\n \t\u003Cli\u003EPortuguese Water Dog-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/golden-retriever/\" target=\"_blank\" rel=\"noopener\"\u003EGolden Retriever\u003C/a\u003E mix\u003C/li\u003E\n \t\u003Cli\u003EPortuguese Water Dog-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/German-Shepherd/\" target=\"_blank\" rel=\"noopener\"\u003EGerman Shepherd\u003C/a\u003E mix\u003C/li\u003E\n \t\u003Cli\u003EPortuguese Water Dog-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/australian-Shepherd/\" target=\"_blank\" rel=\"noopener\"\u003EAustralian Shepherd\u003C/a\u003E mix\u003C/li\u003E\n\u003C/ul\u003E\nNote: These are not purebred dogs but mixed breeds.",
+        "faq_items": [
+          {
+            "faq_title": "Do Portuguese Water Dogs shed?",
+            "faq_content": "Portuguese Water Dog shedding is minimal. It's one of the breed's most well-known traits, and this quality makes them a good pet choice for people who are allergic or sensitive. Just keep in mind that no dog is entirely hypoallergenic."
+          },
+          {
+            "faq_title": "How big do Portuguese Water Dogs get?",
+            "faq_content": "Portuguese Water Dog adult males typically weigh 42-60 pounds and are between 20-23 inches tall at the shoulder. Females are a bit smaller, weighing in at about 35-50 pounds and measuring 17-21 inches tall at the shoulder."
+          },
+          {
+            "faq_title": "How long do Portuguese Water Dogs live?",
+            "faq_content": "Healthy Portuguese Water Dogs live about 11-13 years. With proper diet, exercise, regular vet visits and a lot of love, you can help your Portie live a long and happy life."
+          },
+          {
+            "faq_title": "Do Portuguese Water Dogs bark a lot?",
+            "faq_content": "Portuguese Water Dogs do not bark a lot. Almost all dogs bark, but being extra noisy isn't one of the most common characteristics of this good-natured breed."
+          },
+          {
+            "faq_title": "Are Portuguese Water Dogs easy to train?",
+            "faq_content": "Portuguese Water dogs are not only easy, but they are also a joy to train. They're intelligent, highly motivated, eager to please and respond well to positive reinforcement."
+          },
+          {
+            "faq_title": "What are the most popular Portuguese Water Dog names?",
+            "faq_content": "The most popular Portuguese Water Dog names are Zeus, Riley, Pepper, Beau, Sparky, Lucky, Shadow, Rusty, Casey, Ragnor, Rogue, Murphy, Rufus, Chaos, Jett, Sandy, Lily, Penny, Maddy, Pepper, Sheba, Tasha, Baby, Sammy, Juno, Misty, Lady, Sasha, Abby and Roxy. \u003Ca href=\"https://www.chewy.com/education/dog/general/top-dog-names\" target=\"_blank\" rel=\"noopener\"\u003EGet more dog names here\u003C/a\u003E."
+          },
+          {
+            "faq_title": "What are the most common Portuguese water dog mixes?",
+            "faq_content": "The most common Portuguese Water Dog mixes are:\r\n\u003Cul\u003E\r\n \t\u003Cli\u003EPortuguese Water Dog-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/poodle\" target=\"_blank\" rel=\"noopener\"\u003EPoodle\u003C/a\u003E mix (Portie-Doodle)\u003C/li\u003E\r\n \t\u003Cli\u003EPortuguese Water Dog-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/golden-retriever/\" target=\"_blank\" rel=\"noopener\"\u003EGolden Retriever\u003C/a\u003E mix\u003C/li\u003E\r\n \t\u003Cli\u003EPortuguese Water Dog-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/German-Shepherd/\" target=\"_blank\" rel=\"noopener\"\u003EGerman Shepherd\u003C/a\u003E mix\u003C/li\u003E\r\n \t\u003Cli\u003EPortuguese Water Dog-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/australian-Shepherd/\" target=\"_blank\" rel=\"noopener\"\u003EAustralian Shepherd\u003C/a\u003E mix\u003C/li\u003E\r\n\u003C/ul\u003E\r\nNote: These are not purebred dogs but mixed breeds."
+          }
+        ],
+        "select_related_breeds": [
+          {
+            "selected_related_breed": 810,
+            "characteristic": "breed_characteristics_shedding_level"
+          },
+          {
+            "selected_related_breed": 524,
+            "characteristic": "breed_characteristics_playfulnesss"
+          },
+          {
+            "selected_related_breed": 350,
+            "characteristic": "breed_characteristics_exercise_needs"
+          },
+          {
+            "selected_related_breed": 883,
+            "characteristic": "breed_characteristics_friendliness"
+          },
+          {
+            "selected_related_breed": 477,
+            "characteristic": "breed_characteristics_energy_level"
+          },
+          {
+            "selected_related_breed": 408,
+            "characteristic": "breed_characteristics_good_with_other_dogs"
+          }
+        ],
+        "enable_featured_gallery": [
+          "enable_featured_gallery"
+        ],
+        "featured_gallery_images": [487, 488, 489, 490, 491]
+      },
+      "yoast_head": "\u003C!-- This site is optimized with the Yoast SEO plugin v23.8 - https://yoast.com/wordpress/plugins/seo/ --\u003E\n\u003Ctitle\u003EPortuguese Water Dog Breed: Characteristics, Care &amp; Photos | Chewy\u003C/title\u003E\n\u003Cmeta name=\"description\" content=\"Portuguese Water Dogs were bred to assist fishermen. They&#039;re highly energetic and loyal, and make fun companions for active pet parents.\" /\u003E\n\u003Cmeta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" /\u003E\n\u003Clink rel=\"canonical\" href=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/portuguese-water-dog/\" /\u003E\n\u003Cmeta property=\"og:locale\" content=\"en_US\" /\u003E\n\u003Cmeta property=\"og:type\" content=\"article\" /\u003E\n\u003Cmeta property=\"og:title\" content=\"Portuguese Water Dog Breed: Characteristics, Care &amp; Photos | Chewy\" /\u003E\n\u003Cmeta property=\"og:description\" content=\"Portuguese Water Dogs were bred to assist fishermen. They&#039;re highly energetic and loyal, and make fun companions for active pet parents.\" /\u003E\n\u003Cmeta property=\"og:url\" content=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/portuguese-water-dog/\" /\u003E\n\u003Cmeta property=\"og:site_name\" content=\"Chewy\" /\u003E\n\u003Cmeta property=\"article:modified_time\" content=\"2025-05-05T14:21:38+00:00\" /\u003E\n\u003Cmeta property=\"og:image\" content=\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11164105/202106portuguese-water-dog-1.jpg\" /\u003E\n\t\u003Cmeta property=\"og:image:width\" content=\"1440\" /\u003E\n\t\u003Cmeta property=\"og:image:height\" content=\"865\" /\u003E\n\t\u003Cmeta property=\"og:image:type\" content=\"image/jpeg\" /\u003E\n\u003Cmeta name=\"twitter:card\" content=\"summary_large_image\" /\u003E\n\u003Cscript type=\"application/ld+json\" class=\"yoast-schema-graph\"\u003E{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/portuguese-water-dog/\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/portuguese-water-dog/\",\"name\":\"Portuguese Water Dog Breed: Characteristics, Care & Photos | Chewy\",\"isPartOf\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/portuguese-water-dog/#primaryimage\"},\"image\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/portuguese-water-dog/#primaryimage\"},\"thumbnailUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11164105/202106portuguese-water-dog-1.jpg\",\"datePublished\":\"2021-06-25T11:59:43+00:00\",\"dateModified\":\"2025-05-05T14:21:38+00:00\",\"description\":\"Portuguese Water Dogs were bred to assist fishermen. They're highly energetic and loyal, and make fun companions for active pet parents.\",\"breadcrumb\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/portuguese-water-dog/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://phcms.hlth.prd.aws.chewy.cloud/breed/portuguese-water-dog/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/portuguese-water-dog/#primaryimage\",\"url\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11164105/202106portuguese-water-dog-1.jpg\",\"contentUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11164105/202106portuguese-water-dog-1.jpg\",\"width\":1440,\"height\":865,\"caption\":\"LynMc42k/iStock / Getty Images Plus via Getty Images\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/portuguese-water-dog/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://phcms.hlth.prd.aws.chewy.cloud/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Portuguese Water Dog\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/\",\"name\":\"Chewy\",\"description\":\"\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"}]}\u003C/script\u003E\n\u003C!-- / Yoast SEO plugin. --\u003E",
+      "yoast_head_json": {
+        "title": "Portuguese Water Dog Breed: Characteristics, Care & Photos | Chewy",
+        "description": "Portuguese Water Dogs were bred to assist fishermen. They're highly energetic and loyal, and make fun companions for active pet parents.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://phcms.hlth.prd.aws.chewy.cloud/breed/portuguese-water-dog/",
+        "og_locale": "en_US",
+        "og_type": "article",
+        "og_title": "Portuguese Water Dog Breed: Characteristics, Care & Photos | Chewy",
+        "og_description": "Portuguese Water Dogs were bred to assist fishermen. They're highly energetic and loyal, and make fun companions for active pet parents.",
+        "og_url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/portuguese-water-dog/",
+        "og_site_name": "Chewy",
+        "article_modified_time": "2025-05-05T14:21:38+00:00",
+        "og_image": [
+          {
+            "width": 1440,
+            "height": 865,
+            "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11164105/202106portuguese-water-dog-1.jpg",
+            "type": "image/jpeg"
+          }
+        ],
+        "twitter_card": "summary_large_image",
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/portuguese-water-dog/",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/portuguese-water-dog/",
+              "name": "Portuguese Water Dog Breed: Characteristics, Care & Photos | Chewy",
+              "isPartOf": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/portuguese-water-dog/#primaryimage"
+              },
+              "image": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/portuguese-water-dog/#primaryimage"
+              },
+              "thumbnailUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11164105/202106portuguese-water-dog-1.jpg",
+              "datePublished": "2021-06-25T11:59:43+00:00",
+              "dateModified": "2025-05-05T14:21:38+00:00",
+              "description": "Portuguese Water Dogs were bred to assist fishermen. They're highly energetic and loyal, and make fun companions for active pet parents.",
+              "breadcrumb": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/portuguese-water-dog/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://phcms.hlth.prd.aws.chewy.cloud/breed/portuguese-water-dog/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/portuguese-water-dog/#primaryimage",
+              "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11164105/202106portuguese-water-dog-1.jpg",
+              "contentUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11164105/202106portuguese-water-dog-1.jpg",
+              "width": 1440,
+              "height": 865,
+              "caption": "LynMc42k/iStock / Getty Images Plus via Getty Images"
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/portuguese-water-dog/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://phcms.hlth.prd.aws.chewy.cloud/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Portuguese Water Dog"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/",
+              "name": "Chewy",
+              "description": "",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            }
+          ]
+        }
+      },
+      "yoast_meta": {
+        "yoast_wpseo_title": "",
+        "yoast_wpseo_metadesc": "",
+        "yoast_wpseo_canonical": ""
+      },
+      "_links": {
+        "self": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed/495",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/types/breed"
+          }
+        ],
+        "acf:attachment": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/491"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/490"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/489"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/488"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/487"
+          }
+        ],
+        "wp:featuredmedia": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/494"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media?parent=495"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "pet_type",
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/pet_type?post=495"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ]

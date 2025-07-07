@@ -1,0 +1,330 @@
+[
+    {
+      "id": 293,
+      "date": "2021-07-06T16:05:31",
+      "date_gmt": "2021-07-06T16:05:31",
+      "guid": {
+        "rendered": "https://haproxy.use1.lgcy.prd.aws.chewy.cloud/eks/ns/pet-health/pet-health-content-backend/breed/boykin-spaniel/"
+      },
+      "modified": "2025-05-05T14:21:18",
+      "modified_gmt": "2025-05-05T14:21:18",
+      "slug": "boykin-spaniel",
+      "status": "publish",
+      "type": "breed",
+      "link": "https://phcms.hlth.prd.aws.chewy.cloud/breed/boykin-spaniel/",
+      "title": {
+        "rendered": "Boykin Spaniel"
+      },
+      "featured_media": 3170,
+      "template": "",
+      "pet_type": [],
+      "class_list": [
+        "post-293",
+        "breed",
+        "type-breed",
+        "status-publish",
+        "has-post-thumbnail",
+        "hentry"
+      ],
+      "acf": {
+        "breed_snapshot_best_for": "\u003Cp\u003EOriginally bred to hunt birds in South Carolina, Boykin Spaniels are athletic, intelligent pups. They're the ideal companion for pet parents who lead active lifestyles (think hiking, biking, swimming) and have access to big outdoor spaces for all the high-spirited exercise they need and love.\u003C/p\u003E",
+        "alt_image_text": "\u003Cp\u003EFirst bred for hunting, the Boykin Spaniel is a happy-go-lucky breed who will thrive if you keep them active.\u003C/p\u003E",
+        "breed_intro": "What do you get when you bundle Southern charm, intelligence and athleticism into one adorable package? No, not your next Tinder match. (Though that would be nice!) All these qualities can be found in South Carolina's best-kept secret: the Boykin Spaniel. Originally bred to hunt birds in the backwoods and waterways of Boykin, South Carolina, these friendly pups are happiest when they're on the move, so they're the ideal companion if you like to \u003Ca href=\"https://www.chewy.com/education/dog/general/ready-to-hit-the-hiking-trail-with-your-dog-heres-everything-you-need-to-know\"\u003Ehike\u003C/a\u003E, bike, swim, \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/how-to-run-with-dog\"\u003Erun\u003C/a\u003E, kayak or hunt. Did we mention that they're astonishingly good-looking? With their floppy feathered ears, dark wavy coat and soulful amber eyes, these Southern charmers are sure to steal your heart.",
+        "breed_related_products_product_card_set": null,
+        "breed_snapshot_temperament": "\u003Cp\u003EEnthusiastic, Friendly, Lovable\u003C/p\u003E",
+        "what_does_this_breed_look_like_weight": "\u003Cp\u003EMale: 30-40 pounds\u003C/p\u003E\u003Cp\u003EFemale: 25-35 pounds\u003C/p\u003E",
+        "what_does_this_breed_look_like_height": "\u003Cp\u003EMale: 15.5-18 inches\u003C/p\u003E\u003Cp\u003EFemale: 14-16.5 inches\u003C/p\u003E",
+        "breed_snapshot_life_expectancy": "\u003Cp\u003E10 to 15 years\u003C/p\u003E",
+        "breed_snapshot_maintenance_level": "\u003Cp\u003EHigh\u003C/p\u003E",
+        "breed_characteristics_friendliness": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_snapshot_coat_color": "\u003Cp\u003ELiver\u003C/p\u003E",
+        "breed_snapshot_shed_level": "\u003Cp\u003EMedium\u003C/p\u003E",
+        "in_article_video": null,
+        "breed_characteristics": "These traits are rated on a scale of 1-5 with 1 being the lowest and 5 being the highest. Remember: Dogs are individuals, and not all dogs, even those of the same breed, will exhibit all the same qualities.",
+        "breed_characteristics_exercise_needs": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_health_issues": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_barking_tendencies": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_grooming_needs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_shedding_level": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_training_needs": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_with_kids": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_cats": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_for_apartments_small_homes": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_energy_level": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_good_with_other_dogs": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_playfulnesss": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_cold_weather": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_warm_weather": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_for_first_time_parents": "\u003Cp\u003E3\u003C/p\u003E",
+        "how_do_i_look_card_image": 3169,
+        "what_does_this_breed_look_like": "Boykin Spaniels convey their ready-to-go enthusiasm in their high-energy body language. Eyes alert, wise and watchful, tails wagging at warp speed, they move quickly with a happy sense of purpose, following their straight noses with determination. The colors of their coats cover a spectrum of solid browns and are fringed with light red. Sometimes, they have white patches on their chests, adding a dash of panache to this sturdy companion's confident bearing.",
+        "what_does_this_breed_look_like_ears": "\u003Cp\u003EBoykin Spaniels have adorably floppy, feathery, long, flat ears.\u003C/p\u003E",
+        "what_does_this_breed_look_like_eyes": "\u003Cp\u003EBoykin Spaniels' eyes shine in different hues of brown, amber or yellow and are oval or almond in shape.\u003C/p\u003E",
+        "what_does_this_breed_look_like_nose": "\u003Cp\u003EThe Boykin Spaniel's nose is dark liver-colored and straight, with wide open nostrils.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_length": "\u003Cp\u003EBoykin Spaniels have medium-length coats that can be wavy or flat.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_color": "\u003Cp\u003EBoykin Spaniel's coats are a solid liver (reddish-brown) color with chocolate shades ranging from light to very dark.\u003C/p\u003E",
+        "what_does_this_breed_look_like_tail": "\u003Cp\u003EThe AKC breed standard calls for the tail to be docked from 3-5 inches long. Docking involves cutting a portion of the dog’s tail off when they are puppies. Veterinary groups along with many US states and countries have banned this procedure due to medical and behavioral reasons. If you are interested in this procedure, schedule a consultation with your veterinarian.\u003C/p\u003E",
+        "h2_breed_temperament": "Boykin Spaniels have a sweet smile and a speedy, bouncy gait; and their personality tends to be high-energy and outgoing with a somewhat mischievous streak—don't say we didn't warn you! They're so lovable that their antics, however naughty, will still probably make your day.\r\n\r\nLooking for a family dog to add to your brood? Boykin Spaniels typically get along well with people, other dogs, cats and children. In fact, Boykin Spaniels are great for families with kids.\r\n\r\nSome Boykin Spaniels can be a little testy, but—as with a lot of breeds—this is often because they haven't been taught boundaries and rules. When it comes to biting tendencies, Boykin Spaniels don't bite any more or less than any other retrieving breed. Some might want to mouth you a little on the arm; but don't worry, they don't grip down—it's just their way of playing.\r\n\r\nBecause Boykin Spaniels were bred to be hunting dogs, their high energy level serves them well in jobs of that type. If you have one with a calmer disposition, they can do well as therapy dogs in places like schools and nursing homes.",
+        "h2_how_to_care_for_a_breed": "Caring for a Boykin Spaniel takes time, but you'll love every minute you spend doting on these adorable pups, making sure they're eating right and that they have everything they need to stay healthy and busy. Plus, you get to have a blast charging through field, forest and stream with these energetic outdoor pals. Like you, they have a need for speed! Ready to bone up on caring for these beauties? Here's the 101 on Boykin Spaniel dogs.",
+        "grooming": "Compared to other types of dogs, your Boykin Spaniel won't require too much grooming. They shed moderately year-round and a bit more heavily in the fall and spring. Here are some grooming tips for your Boykin:\n\u003Cul\u003E\n \t\u003Cli\u003E\u003Cstrong\u003EBrushing:\u003C/strong\u003E Brushing their medium-length coat once a week is usually enough to curb their shedding, but it's OK to brush your pup daily if you'd like. If your Boykin dog has a long coat, a set of combs and brushes will help you keep them looking gorgeous and mat-free. Invest in a \u003Ca href=\"https://www.chewy.com/f/dog-grooming-combs_c355_f70v83785\" target=\"_blank\" rel=\"noopener\"\u003Estripping comb\u003C/a\u003E and a \u003Ca href=\"https://www.chewy.com/f/dog-bristle-brushes_c355_f70v83784\" target=\"_blank\" rel=\"noopener\"\u003Ebristle brush\u003C/a\u003E, plus a \u003Ca href=\"https://www.chewy.com/s?query=steel%20comb&amp;nav-submit-button=\" target=\"_blank\" rel=\"noopener\"\u003Esteel comb\u003C/a\u003E for the coat on their ears. If they have a short coat, a bristle brush will do the trick, and a \u003Ca href=\"https://www.chewy.com/f/slicker-brush-dog-brushes-combs_c356_f70v83792\" target=\"_blank\" rel=\"noopener\"\u003Eslicker brush\u003C/a\u003E will help remove mats and snarls from their coat.\u003C/li\u003E\n \t\u003Cli\u003E\u003Cstrong\u003EBathing:\u003C/strong\u003E Too much bathing can dry out your Boykin's skin, so once every couple of weeks should be enough—unless they've been rolling around in the mud or splashing in a lake! If your pup's outdoorsy nature has been running wild, then it's bath time as soon as you get home.\u003C/li\u003E\n \t\u003Cli\u003E\u003Cstrong\u003EDental care:\u003C/strong\u003E It's recommended by vets to \u003Ca href=\"https://www.chewy.com/education/dog/grooming/health-wellness-how-to-brush-your-dogs-teeth-live-to-tell-the-tale\"\u003Ebrush your Boykin's teeth\u003C/a\u003E daily. Your vet can teach you how to brush your Boykin's pearly whites, and they should also give your pup an annual professional teeth cleaning.\u003C/li\u003E\n \t\u003Cli\u003E\u003Cstrong\u003ENail trimming: \u003C/strong\u003E\u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/guide-trimming-dogs-nails\" target=\"_blank\" rel=\"noopener\"\u003ENail trimming\u003C/a\u003E is also essential to keep your dog healthy and happy. (Hello, mani-pedi! Or is it pedi-pedi?) Your Boykin Spaniel's nails shouldn't touch the floor, so if you hear them clicking against it like they're the world's tiniest tap dancers, it's time for a trim. While some nails grow faster than others, trimming them once a month will usually be enough for Boykin Spaniels.\u003C/li\u003E\n \t\u003Cli\u003E\u003Cstrong\u003EEar cleaning:\u003C/strong\u003E The main thing you need to look out for? Boykin Spaniels' long ears tend to hold heat, making them prime real estate for nasty stuff like yeast and bacteria. \u003Cspan class=\"TextRun SCXW258040531 BCX0\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\u003E\u003Cspan class=\"NormalTextRun SCXW258040531 BCX0\"\u003ECheck their \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW258040531 BCX0\"\u003Eear\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW258040531 BCX0\"\u003Es for debris and any redness or swelling. If you notice anything, speak to your vet. If your vet recommends at-home \u003C/span\u003E\u003Cspan class=\"FindHit SCXW258040531 BCX0\"\u003Eclea\u003C/span\u003E\u003Cspan class=\"FindHit SCXW258040531 BCX0\"\u003En\u003C/span\u003E\u003Cspan class=\"FindHit SCXW258040531 BCX0\"\u003Eing\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW258040531 BCX0\"\u003E, follow this \u003C/span\u003E\u003C/span\u003E\u003Ca class=\"Hyperlink SCXW258040531 BCX0\" href=\"https://www.chewy.com/education/dog/health-and-wellness/how-do-you-clean-a-dogs-ears-follow-this-vet-approved-step-by-step-guide\" target=\"_blank\" rel=\"noreferrer noopener\"\u003E\u003Cspan class=\"TextRun Underlined SCXW258040531 BCX0\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\u003E\u003Cspan class=\"NormalTextRun SCXW258040531 BCX0\" data-ccp-charstyle=\"Hyperlink\"\u003Estep-by-step guide on how to \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW258040531 BCX0\" data-ccp-charstyle=\"Hyperlink\"\u003Eclea\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW258040531 BCX0\" data-ccp-charstyle=\"Hyperlink\"\u003En\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW258040531 BCX0\" data-ccp-charstyle=\"Hyperlink\"\u003E dog \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW258040531 BCX0\" data-ccp-charstyle=\"Hyperlink\"\u003Eear\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW258040531 BCX0\" data-ccp-charstyle=\"Hyperlink\"\u003Es\u003C/span\u003E\u003C/span\u003E\u003C/a\u003E\u003Cspan class=\"TextRun SCXW258040531 BCX0\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\u003E\u003Cspan class=\"NormalTextRun SCXW258040531 BCX0\"\u003E.\u003C/span\u003E\u003C/span\u003E\u003Cspan class=\"EOP SCXW258040531 BCX0\" data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559685&quot;:720,&quot;335559731&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}\"\u003E&nbsp;\u003C/span\u003E\u003C/li\u003E\n\u003C/ul\u003E",
+        "training": "Boykin Spaniels have amazing qualities and traits that make them highly trainable: They're smart, quick learners and eager to please their pet parents. That said, new puppies need a lot of supervision, so raising a Boykin Spaniel will definitely keep you on your toes. They can be very energetic, so don't be surprised to find they've chewed your new shoes when your back was turned. (If they suddenly become suspiciously quiet, that's a sign they might be getting into trouble.)\n\nBoykins are sensitive, so training that uses positive reinforcement (treats and praise as rewards for positive behavior) and is consistent and even-handed is the best way for them to learn. When working with Boykin puppies, it's important to make sure that both their minds and bodies are stimulated so they don't get distracted by things like, well, your new shoes. Get your Boykin something to chew on that's digestible, like \u003Ca href=\"https://www.chewy.com/best-bully-sticks-6-joint-jerky-dog/dp/135391\" target=\"_blank\" rel=\"noopener\"\u003EBest Bully Sticks\u003C/a\u003E or other \u003Ca href=\"https://www.chewy.com/b/training-treats-1550\" target=\"_blank\" rel=\"noopener\"\u003Etraining treats\u003C/a\u003E. Avoid plush toys, which they could easily destroy and/or eat. When training a Boykin, it's often important to work on alone time so they can learn to be by themselves. You may find \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/positively-trained-how-to-make-crate-training-easy-for-your-pet-and-you\"\u003Ecrate training\u003C/a\u003E helpful in teaching this.\n\nBoykin Spaniels are generally outgoing and not shy if properly \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/positively-trained-puppy-socialization-dos-and-donts\"\u003Esocialized\u003C/a\u003E, so make sure you expose them to all kinds of people, furry friends and situations. Puppy school is a good place to start. It teaches your pup how to play nicely with other puppies—and their pet parents, too.",
+        "diet_nutrition": "The Boykin Spaniel typically does well on \u003Ca href=\"https://www.chewy.com/b/premium-food-11728\" target=\"_blank\" rel=\"noopener\"\u003Ehigh-quality commercial dog food\u003C/a\u003E. Be sure to factor in your dog's age and choose a formula that fits their stage in life (puppy, adult, senior).\r\n\r\nYour vet can help you nail down a feeding chart to guide you on how much and how often to feed your dog based on their specific diet. Allergies to foods like wheat can crop up in them, too, so check with your vet if you have questions about food sensitivities.\r\n\r\nWhen it comes to specific nutritional needs, due to their active lifestyles, Boykin Spaniels may benefit from \u003Ca href=\"https://www.chewy.com/b/high-protein-11105\" target=\"_blank\" rel=\"noopener\"\u003Ehigh-protein dog food\u003C/a\u003E. But again, consult with your veterinarian, as they are in the best position to help you pick the right food for your dog based on their individual needs. Always check with your vet before you share any people food with your pooch, too.\r\n\r\nTreats can help with training, but keep calories in mind, too. Obesity can lead to health issues like heart disease, so factor treat calories into their overall diet plan to keep your pup from gaining extra weight.",
+        "exercise": "Boykin Spaniels love to exercise, from going on long \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/leash-train-dog-2\"\u003Ewalks\u003C/a\u003E and hikes to playing \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/how-to-teach-dog-to-fetch\"\u003Efetch\u003C/a\u003E, \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/dog-swimming-pool-safety-tips\"\u003Eswimming\u003C/a\u003E and hunting. (Remember, they were bred to retrieve, so they'll excel at activities where they can do that!) They enjoy the water and would thrive in a home with a pool or a pond—just make sure they're properly taught how to get out of the pool, especially if there are no steps, and always supervise them when they're swimming.\n\nHow much daily activity is best for these high-energy pups? They'll thrive with vigorous exercise three times a day, for 10-15 minutes at a time. You should wait until they're about 9 months to a 1 old, though, before you take them running or jogging with you; strenuous activities before that time can damage their growing joints. You can also find a local \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/dog-agility-training-tips\"\u003Eagility\u003C/a\u003E course or hunt test club to put your pooch through their paces like a real pro. You might even find that you enjoy it as much as they do!",
+        "ideal_environment": "Most Boykin Spaniels get along well with other animals when they've been properly socialized, although some have more of a prey drive than others. The larger their area is to run and play, the happier they'll be. A small home or an apartment are OK, as long as you're able to give them the exercise and outdoor activity they need.\r\n\r\nThey're a good choice for pet parents who've had previous experience with high-energy dogs and who can keep up with their exercise needs. You like exploring the great outdoors every chance you get? Perfect, so do they! So get ready to lace up those hiking boots and hit the trails or hop in a boat and play fetch in the water with your Boykin companion!",
+        "h2_breed_health": "\u003Cspan data-contrast=\"none\"\u003EBoykin Spaniels have a life expectancy of 10-15 years, but they’re also prone to some health issues. It’s helpful to know what those potential health problems are in advance so you can keep your pup healthy for longer.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;335557856&quot;:16777215}\"\u003E \u003C/span\u003E\r\n\u003Cul\u003E\r\n \t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;multilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"1\" data-aria-level=\"1\"\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/genetic/exercise-induced-collapse-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EExercise-Induced Collapse\u003C/span\u003E\u003C/b\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E: Boykin Spaniels are prone to exercise-induced collapse, where a dog will collapse either during or right after intense exercise. Preventative treatment involves avoiding excessive exercise and ensuring that your dog is well-hydrated and doesn’t become overheated.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;335557856&quot;:16777215,&quot;335559685&quot;:1117}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n \t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"2\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;multilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"2\" data-aria-level=\"1\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EEye Conditions: \u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003EBoykin Spaniels are prone to several eye conditions, including \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/eyes/collie-eye-anomaly\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003ECollie Eye Anomaly\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E (CEA) and juvenile cataracts. Both conditions can lead to vision loss\u003C/span\u003E\u003Cspan data-contrast=\"none\"\u003E. Genetic testing is available for both conditions, so be sure to discuss if your pup and their parents have been tested with any potential breeders.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;335557856&quot;:16777215,&quot;335559685&quot;:1117}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n \t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"2\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;multilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"3\" data-aria-level=\"1\"\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/c_dg_hip_dysplasia\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EHip Dysplasia\u003C/span\u003E\u003C/b\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E:\u003C/span\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003E \u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003EHip dysplasia is a genetic disease affecting many dog breeds. It’s a deformity that occurs during growth and can be affected by factors such as diet and exercise. Treatment options can range from lifestyle changes like weight loss to surgery, depending on the severity of the dog’s condition.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;335557856&quot;:16777215,&quot;335559685&quot;:1117}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n \t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"2\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;multilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"4\" data-aria-level=\"1\"\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/degenerative-myelopathy-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EDegenerative Myelopathy\u003C/span\u003E\u003C/b\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E:\u003C/span\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003E \u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003EThis genetic spinal disease that gradually causes paralysis can affect Boykin Spaniels. Dogs can be tested to help determine their risk for the disease. Although there is currently no cure for degenerative myelopathy, treating other concurrent problems such as hip dysplasia or arthritis may make dogs more comfortable. A healthy diet and exercise that doesn’t stress joints, like swimming, are also important in preventing obesity, which can exacerbate the condition.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;335557856&quot;:16777215,&quot;335559685&quot;:1117}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n \t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"2\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;multilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"5\" data-aria-level=\"1\"\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/c_multi_patellar_luxation\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EPatellar Luxation\u003C/span\u003E\u003C/b\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E:\u003C/span\u003E \u003Cspan data-contrast=\"none\"\u003EKneecap dislocation can cause pain and lameness. Treatment options can range from medications to surgery, depending on the severity.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;335557856&quot;:16777215,&quot;335559685&quot;:1117}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n \t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"2\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;multilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"6\" data-aria-level=\"1\"\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/cardiovascular/pulmonic-stenosis-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EPulmonic Stenosis\u003C/span\u003E\u003C/b\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E: Pulmonic stenosis is a congenital heart defect that can present as a heart murmur or with symptoms like exercise intolerance or fainting. Treatment typically involves passing a balloon catheter into the heart to widen the narrowed heart valve.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;335557856&quot;:16777215,&quot;335559685&quot;:1117}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\u003C/ul\u003E",
+        "h2_breed_history": "Boykin Spaniels have an impressive origin and history. They were originally bred for wild turkey and duck hunting in the swampy areas of South Carolina in the early 1900s. Word got around pretty quickly about these medium hunting dogs' high levels of physical and mental stamina—as well as their relentless work ethic—and they soon became so beloved in their home state that they've earned the title of the official state dog of South Carolina.\r\n\r\nAlthough the American Kennel Club (AKC) recognized the Boykin Spaniel in 2009, their popularity has skyrocketed in the decade or so since thanks to their highly desirable characteristics and personality. Although they can be very focused on work, especially hunting, their friendly and happy-go-lucky nature has blossomed to the benefit of families who enjoy being active with these high-energy pets.\r\n\r\nWhere is the best place to find Boykin Spaniel puppies today? The \u003Ca href=\"https://marketplace.akc.org/puppies/boykin-spaniel?breed=54&amp;page=1\" target=\"_blank\" rel=\"noopener\"\u003EAKC's website\u003C/a\u003E offers a list of reputable breeders and contact information for them. What's the average Boykin Spaniel price? Expect to pay about $1,000 for a pup, although some are as much as $4,500 if you're looking for a high-quality performance or show dog. For that price, you're usually getting a dog who's been screened for health and temperament issues, and they might even come with pedigree papers. You can also reach out to Boykin Spaniel rescue organizations to adopt a Boykin or keep an eye out for the breed at your local animal shelter. Or, search \u003Ca href=\"https://www.chewy.com/g/dog-boykin-spaniel_ga1\" target=\"_blank\" rel=\"noopener\"\u003EChewy’s database of adoptable dogs\u003C/a\u003E in your area.",
+        "expert_attribution": "\u003Ci\u003EExpert input provided by veterinarian Dr. Fred J. Wright, DVM, \u003Ca href=\"https://cloverleafanimalhospital.com/\" target=\"_blank\" rel=\"noopener\"\u003ECloverleaf Animal Hospital\u003C/a\u003E; Susan Marett, CPDT-KA, CSAT, owner of \u003Ca href=\"https://www.purelypositive.com/\" target=\"_blank\" rel=\"noopener\"\u003EPurely Positive Dog Training\u003C/a\u003E; Kim Parkman, breeder, owner, \u003Ca href=\"http://www.pocotaligokennel.com/\" target=\"_blank\" rel=\"noopener\"\u003EPocotaglio Kennel\u003C/a\u003E, AKC Breeder of Merit, Boykin Spaniel Society Gold Level Preferred Breeder; and Blaine Tarnecki, breeder, \u003Ca href=\"https://www.hudsonriverretrievers.com/\" target=\"_blank\" rel=\"noopener\"\u003EHudson River Retrievers\u003C/a\u003E.\u003C/i\u003E\r\n\r\n\u003Ci\u003EPhoto credit for \"How do I look?\" by \u003Ca href=\"https://www.akc.org/dog-breeds/boykin-spaniel/\" target=\"_blank\" rel=\"noopener\"\u003EAmerican Kennel Club\u003C/a\u003E.\u003C/i\u003E\u003Ci\u003E\u003C/i\u003E\r\n\r\n\u003Cem\u003EBreed characteristic ratings provided by Dr. Sarah J. Wooten, DVM, CVJ, a veterinarian at \u003Ca href=\"https://sheepdraw.com/\" target=\"_blank\" rel=\"noopener\"\u003ESheep Draw Veterinary Hospital\u003C/a\u003E in Greeley, Colorado; dog trainer and behavior consultant Irith Bloom, CPDT-KSA, CBCC-KA, CDBC, owner of \u003Ca href=\"https://thesophisticateddog.com/\" target=\"_blank\" rel=\"noopener\"\u003EThe Sophisticated Dog, LLC\u003C/a\u003E, in Los Angeles; and certified animal behavior consultant \u003Ca href=\"https://shojai.com/\" target=\"_blank\" rel=\"noopener\"\u003EAmy Shojai\u003C/a\u003E, CABC, in Sherman, Texas.\u003C/em\u003E\r\n\r\n\u003Cem\u003EThe health content was medically reviewed by Chewy vets.\u003C/em\u003E",
+        "facebook_social_snippet_with_cta": "\u003Cp\u003EFirst bred for hunting, the Boykin Spaniel's popularity has soared in the last decade. Get all the facts about this breed in our complete Boykin Spaniel guide and find out if you have what it takes to be their devoted dog parent.\u003C/p\u003E",
+        "species": "\u003Cp\u003EDog\u003C/p\u003E",
+        "h2_faqs": "\u003Ch3\u003EDo Boykin Spaniels shed?\u003C/h3\u003E\r\nBoykin Spaniels are beautiful brown dogs who shed moderately, so they're pretty low maintenance when it comes to brushing. You'll typically only need to brush their coats once a week, but you can brush them daily to get rid of loose hair and mats. They're not hypoallergenic, and they also have a double coat, so they probably wouldn't be the best choice for a pet parent with allergies.\r\n\u003Ch3\u003EHow long do Boykin Spaniels live?\u003C/h3\u003E\r\nBoykin Spaniels live about 10-15 years. Luckily, you can help your Boykin dog have the best possible life—and enrich your life in the process—by devoting time and attention to them. Make sure they get lots of exercise, stimulation, the love they need and the right diet to help your furry little companion stay fit, peppy and happy.\r\n\u003Ch3\u003EAre Boykin Spaniels smart?\u003C/h3\u003E\r\nThe Boykin Spaniel is pretty smart and learns quickly, which typically makes them fairly easy to train. Because they're sensitive, training that uses positive reinforcement and is consistent and even-handed is the best way for them to learn.\r\n\u003Ch3\u003EAre Boykin Spaniels good family dogs?\u003C/h3\u003E\r\nYes, Boykin Spaniels are good family dogs. As family pets, the Boykin breed is generally outgoing with kids, especially those they've been raised with. They would do well with an active family. Like kids, Boykins can be rambunctious, but they still need to be treated gently and lovingly, and they'll return the affection in spades. As with many breeds, socialization—starting when they're puppies—is important for the Boykin breed. It's also important to teach kids how to interact with dogs.\r\n\u003Ch3\u003EDo Boykin Spaniels bark a lot?\u003C/h3\u003E\r\nUnlike other hunting breeds like the \u003Ca href=\"https://www.chewy.com/education/dog-breeds/redbone-coonhound/\"\u003ERedbone Coonhound\u003C/a\u003E, Boykin Spaniels aren't prone to howl or bark a lot. They also typically don't bark as much as the \u003Ca href=\"https://www.chewy.com/education/dog-breeds/english-cocker-spaniel/\"\u003EEnglish Cocker Spaniel\u003C/a\u003E. They only bark when they feel they have to, for instance, in response to unfamiliar sounds or to warn their people of potential intruders to the home.\r\n\u003Ch3\u003EAre Boykin Spaniels easy to train?\u003C/h3\u003E\r\nYes, the Boykin Spaniel breed is pretty easy to train, because they're both intelligent and like to make their pet parents happy. They're speedy learners who do well with positive reinforcement and training that's fair, firm and consistent. Although they'll probably want to be with you a lot, it's important to train them how to be by themselves for short-term time alone.",
+        "faq_items": [
+          {
+            "faq_title": "Do Boykin Spaniels shed?",
+            "faq_content": "Boykin Spaniels are beautiful brown dogs who shed moderately, so they're pretty low maintenance when it comes to brushing. You'll typically only need to brush their coats once a week, but you can brush them daily to get rid of loose hair and mats. They're not hypoallergenic, and they also have a double coat, so they probably wouldn't be the best choice for a pet parent with allergies."
+          },
+          {
+            "faq_title": "How long do Boykin Spaniels live?",
+            "faq_content": "Boykin Spaniels live about 10-15 years. Luckily, you can help your Boykin dog have the best possible life—and enrich your life in the process—by devoting time and attention to them. Make sure they get lots of exercise, stimulation, the love they need and the right diet to help your furry little companion stay fit, peppy and happy."
+          },
+          {
+            "faq_title": "Are Boykin Spaniels smart?",
+            "faq_content": "The Boykin Spaniel is pretty smart and learns quickly, which typically makes them fairly easy to train. Because they're sensitive, training that uses positive reinforcement and is consistent and even-handed is the best way for them to learn."
+          },
+          {
+            "faq_title": "Are Boykin Spaniels good family dogs?",
+            "faq_content": "Yes, Boykin Spaniels are good family dogs. As family pets, the Boykin breed is generally outgoing with kids, especially those they've been raised with. They would do well with an active family. Like kids, Boykins can be rambunctious, but they still need to be treated gently and lovingly, and they'll return the affection in spades. As with many breeds, socialization—starting when they're puppies—is important for the Boykin breed. It's also important to teach kids how to interact with dogs."
+          },
+          {
+            "faq_title": "Do Boykin Spaniels bark a lot?",
+            "faq_content": "Unlike other hunting breeds like the \u003Ca href=\"https://www.chewy.com/education/dog-breeds/redbone-coonhound/\"\u003ERedbone Coonhound\u003C/a\u003E, Boykin Spaniels aren't prone to howl or bark a lot. They also typically don't bark as much as the \u003Ca href=\"https://www.chewy.com/education/dog-breeds/english-cocker-spaniel/\"\u003EEnglish Cocker Spaniel\u003C/a\u003E. They only bark when they feel they have to, for instance, in response to unfamiliar sounds or to warn their people of potential intruders to the home."
+          },
+          {
+            "faq_title": "Are Boykin Spaniels easy to train?",
+            "faq_content": "Yes, the Boykin Spaniel breed is pretty easy to train, because they're both intelligent and like to make their pet parents happy. They're speedy learners who do well with positive reinforcement and training that's fair, firm and consistent. Although they'll probably want to be with you a lot, it's important to train them how to be by themselves for short-term time alone."
+          }
+        ],
+        "select_related_breeds": [
+          {
+            "selected_related_breed": 284,
+            "characteristic": "breed_characteristics_exercise_needs"
+          },
+          {
+            "selected_related_breed": 673,
+            "characteristic": "breed_characteristics_energy_level"
+          },
+          {
+            "selected_related_breed": 95,
+            "characteristic": "breed_characteristics_friendliness"
+          },
+          {
+            "selected_related_breed": 138,
+            "characteristic": "breed_characteristics_shedding_level"
+          },
+          {
+            "selected_related_breed": 426,
+            "characteristic": "breed_characteristics_good_with_kids"
+          },
+          {
+            "selected_related_breed": 1031,
+            "characteristic": "breed_characteristics_training_needs"
+          }
+        ],
+        "enable_featured_gallery": [
+          "enable_featured_gallery"
+        ],
+        "featured_gallery_images": [292, 285, 286, 287, 288, 289]
+      },
+      "yoast_head": "\u003C!-- This site is optimized with the Yoast SEO plugin v23.8 - https://yoast.com/wordpress/plugins/seo/ --\u003E\n\u003Ctitle\u003EBoykin Spaniel Breed: Characteristics, Care &amp; Photos | Chewy\u003C/title\u003E\n\u003Cmeta name=\"description\" content=\"First bred for hunting, the Boykin Spaniel&#039;s popularity has soared in the last decade. Get all the facts in our complete Boykin Spaniel guide.\" /\u003E\n\u003Cmeta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" /\u003E\n\u003Clink rel=\"canonical\" href=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/boykin-spaniel/\" /\u003E\n\u003Cmeta property=\"og:locale\" content=\"en_US\" /\u003E\n\u003Cmeta property=\"og:type\" content=\"article\" /\u003E\n\u003Cmeta property=\"og:title\" content=\"Boykin Spaniel Breed: Characteristics, Care &amp; Photos | Chewy\" /\u003E\n\u003Cmeta property=\"og:description\" content=\"First bred for hunting, the Boykin Spaniel&#039;s popularity has soared in the last decade. Get all the facts in our complete Boykin Spaniel guide.\" /\u003E\n\u003Cmeta property=\"og:url\" content=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/boykin-spaniel/\" /\u003E\n\u003Cmeta property=\"og:site_name\" content=\"Chewy\" /\u003E\n\u003Cmeta property=\"article:modified_time\" content=\"2025-05-05T14:21:18+00:00\" /\u003E\n\u003Cmeta property=\"og:image\" content=\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07144105/202107Breed-Hero-Boykin-Spaniel-3.jpg\" /\u003E\n\t\u003Cmeta property=\"og:image:width\" content=\"1835\" /\u003E\n\t\u003Cmeta property=\"og:image:height\" content=\"1032\" /\u003E\n\t\u003Cmeta property=\"og:image:type\" content=\"image/jpeg\" /\u003E\n\u003Cmeta name=\"twitter:card\" content=\"summary_large_image\" /\u003E\n\u003Cscript type=\"application/ld+json\" class=\"yoast-schema-graph\"\u003E{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/boykin-spaniel/\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/boykin-spaniel/\",\"name\":\"Boykin Spaniel Breed: Characteristics, Care & Photos | Chewy\",\"isPartOf\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/boykin-spaniel/#primaryimage\"},\"image\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/boykin-spaniel/#primaryimage\"},\"thumbnailUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07144105/202107Breed-Hero-Boykin-Spaniel-3.jpg\",\"datePublished\":\"2021-07-06T16:05:31+00:00\",\"dateModified\":\"2025-05-05T14:21:18+00:00\",\"description\":\"First bred for hunting, the Boykin Spaniel's popularity has soared in the last decade. Get all the facts in our complete Boykin Spaniel guide.\",\"breadcrumb\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/boykin-spaniel/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://phcms.hlth.prd.aws.chewy.cloud/breed/boykin-spaniel/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/boykin-spaniel/#primaryimage\",\"url\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07144105/202107Breed-Hero-Boykin-Spaniel-3.jpg\",\"contentUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07144105/202107Breed-Hero-Boykin-Spaniel-3.jpg\",\"width\":1835,\"height\":1032,\"caption\":\"Boykin Spaniel\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/boykin-spaniel/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://phcms.hlth.prd.aws.chewy.cloud/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Boykin Spaniel\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/\",\"name\":\"Chewy\",\"description\":\"\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"}]}\u003C/script\u003E\n\u003C!-- / Yoast SEO plugin. --\u003E",
+      "yoast_head_json": {
+        "title": "Boykin Spaniel Breed: Characteristics, Care & Photos | Chewy",
+        "description": "First bred for hunting, the Boykin Spaniel's popularity has soared in the last decade. Get all the facts in our complete Boykin Spaniel guide.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://phcms.hlth.prd.aws.chewy.cloud/breed/boykin-spaniel/",
+        "og_locale": "en_US",
+        "og_type": "article",
+        "og_title": "Boykin Spaniel Breed: Characteristics, Care & Photos | Chewy",
+        "og_description": "First bred for hunting, the Boykin Spaniel's popularity has soared in the last decade. Get all the facts in our complete Boykin Spaniel guide.",
+        "og_url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/boykin-spaniel/",
+        "og_site_name": "Chewy",
+        "article_modified_time": "2025-05-05T14:21:18+00:00",
+        "og_image": [
+          {
+            "width": 1835,
+            "height": 1032,
+            "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07144105/202107Breed-Hero-Boykin-Spaniel-3.jpg",
+            "type": "image/jpeg"
+          }
+        ],
+        "twitter_card": "summary_large_image",
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/boykin-spaniel/",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/boykin-spaniel/",
+              "name": "Boykin Spaniel Breed: Characteristics, Care & Photos | Chewy",
+              "isPartOf": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/boykin-spaniel/#primaryimage"
+              },
+              "image": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/boykin-spaniel/#primaryimage"
+              },
+              "thumbnailUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07144105/202107Breed-Hero-Boykin-Spaniel-3.jpg",
+              "datePublished": "2021-07-06T16:05:31+00:00",
+              "dateModified": "2025-05-05T14:21:18+00:00",
+              "description": "First bred for hunting, the Boykin Spaniel's popularity has soared in the last decade. Get all the facts in our complete Boykin Spaniel guide.",
+              "breadcrumb": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/boykin-spaniel/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://phcms.hlth.prd.aws.chewy.cloud/breed/boykin-spaniel/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/boykin-spaniel/#primaryimage",
+              "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07144105/202107Breed-Hero-Boykin-Spaniel-3.jpg",
+              "contentUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07144105/202107Breed-Hero-Boykin-Spaniel-3.jpg",
+              "width": 1835,
+              "height": 1032,
+              "caption": "Boykin Spaniel"
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/boykin-spaniel/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://phcms.hlth.prd.aws.chewy.cloud/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Boykin Spaniel"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/",
+              "name": "Chewy",
+              "description": "",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            }
+          ]
+        }
+      },
+      "yoast_meta": {
+        "yoast_wpseo_title": "",
+        "yoast_wpseo_metadesc": "",
+        "yoast_wpseo_canonical": ""
+      },
+      "_links": {
+        "self": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed/293",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/types/breed"
+          }
+        ],
+        "acf:attachment": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/289"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/288"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/287"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/286"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/285"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/292"
+          }
+        ],
+        "wp:featuredmedia": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/3170"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media?parent=293"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "pet_type",
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/pet_type?post=293"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ]

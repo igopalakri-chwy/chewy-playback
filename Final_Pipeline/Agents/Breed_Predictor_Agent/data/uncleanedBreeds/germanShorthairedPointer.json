@@ -1,0 +1,321 @@
+[
+    {
+      "id": 408,
+      "date": "2021-06-29T10:28:29",
+      "date_gmt": "2021-06-29T10:28:29",
+      "guid": {
+        "rendered": "https://haproxy.use1.lgcy.prd.aws.chewy.cloud/eks/ns/pet-health/pet-health-content-backend/breed/german-shorthaired-pointer/"
+      },
+      "modified": "2025-05-05T14:21:29",
+      "modified_gmt": "2025-05-05T14:21:29",
+      "slug": "german-shorthaired-pointer",
+      "status": "publish",
+      "type": "breed",
+      "link": "https://phcms.hlth.prd.aws.chewy.cloud/breed/german-shorthaired-pointer/",
+      "title": {
+        "rendered": "German Shorthaired Pointer"
+      },
+      "featured_media": 407,
+      "template": "",
+      "pet_type": [],
+      "class_list": [
+        "post-408",
+        "breed",
+        "type-breed",
+        "status-publish",
+        "has-post-thumbnail",
+        "hentry"
+      ],
+      "acf": {
+        "breed_snapshot_best_for": "\u003Cp\u003EIn search of a canine hiking buddy? Look no further than the loyal, loving German Shorthaired Pointer. These high-energy, hard-working pups pair well with experienced pet parents who can match their activity level and provide plenty of training, exercise and playtime.\u003C/p\u003E",
+        "alt_image_text": "\u003Cp\u003EThinking about raising a German Shorthaired Pointer? Get ready, they're full of energy! See if they're a good match for you.\u003C/p\u003E",
+        "breed_intro": "The German Shorthaired Pointer (GSP) thinks there's only one thing better than being on the go—and that's being on the go 24/7/365. So, if you like to sleep in or spend the afternoon reading, you'll need to look elsewhere for your canine soulmate. But if you love \u003Ca href=\"https://www.chewy.com/education/dog/general/ready-to-hit-the-hiking-trail-with-your-dog-heres-everything-you-need-to-know\"\u003Eexploring your local hiking trails\u003C/a\u003E, daily jogs through your neighborhood and the thrill of constant outdoor activity, you won't find a more eager canine companion than the GSP. Hey, if you hurry, they might just let you join them on their next adventure.",
+        "breed_related_products_product_card_set": null,
+        "breed_snapshot_temperament": "\u003Cp\u003EHigh-energy, Sometimes Intense, Loyal\u003C/p\u003E",
+        "what_does_this_breed_look_like_weight": "\u003Cp\u003EMale: 55-70 pounds\u003C/p\u003E\u003Cp\u003EFemale: 45-60 pounds\u003C/p\u003E",
+        "what_does_this_breed_look_like_height": "\u003Cp\u003EMale: 23-25 inches\u003C/p\u003E\u003Cp\u003EFemale: 21-23 inches\u003C/p\u003E",
+        "breed_snapshot_life_expectancy": "\u003Cp\u003E10 to 12 years\u003C/p\u003E",
+        "breed_snapshot_maintenance_level": "\u003Cp\u003EMedium\u003C/p\u003E",
+        "breed_characteristics_friendliness": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_snapshot_coat_color": "\u003Cp\u003EBlack, Black and White, Black Roan, Liver, Liver and White, Liver Roan, White and Liver\u003C/p\u003E",
+        "breed_snapshot_shed_level": "\u003Cp\u003EMedium\u003C/p\u003E",
+        "in_article_video": null,
+        "breed_characteristics": "These traits are rated on a scale of 1-5 with 1 being the lowest and 5 being the highest. Remember: Dogs are individuals, and not all dogs, even those of the same breed, will exhibit all the same qualities.",
+        "breed_characteristics_exercise_needs": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_health_issues": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_barking_tendencies": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_grooming_needs": "\u003Cp\u003E1\u003C/p\u003E",
+        "breed_characteristics_shedding_level": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_training_needs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_kids": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_cats": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_good_for_apartments_small_homes": "\u003Cp\u003E1\u003C/p\u003E",
+        "breed_characteristics_energy_level": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_good_with_other_dogs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_playfulnesss": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_cold_weather": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_warm_weather": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_for_first_time_parents": "\u003Cp\u003E2\u003C/p\u003E",
+        "how_do_i_look_card_image": 406,
+        "what_does_this_breed_look_like": "The German Shorthaired Pointer breed is a medium dog with a strong dash of attentiveness that shows up in their alert, brown eyes. You can see their strong muscles through their short and often spotted coats, and their floppy ears add a touch of whimsy as they run gracefully towards you.",
+        "what_does_this_breed_look_like_ears": "\u003Cp\u003ETheir floppy ears hang down and are set somewhat high on their head.\u003C/p\u003E",
+        "what_does_this_breed_look_like_eyes": "\u003Cp\u003ETheir eyes should be dark brown and almond-shaped.\u003C/p\u003E",
+        "what_does_this_breed_look_like_nose": "\u003Cp\u003EThe ideal German Shorthaired Pointer dog's nose is brown, not spotted, and large. The overall muzzle shape is long.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_length": "\u003Cp\u003EThey don't call 'em \"shorthaired\" for nothing! The GSP coat is short and rather coarse.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_color": "\u003Cp\u003EYou'll find several German Shorthaired Pointer types, but the preferred color is liver (brown) with a variety of white markings. They come in solid liver, black, black and white, black roan (an even mix of colors) and liver roan, and can include ticking and patches.\u003C/p\u003E",
+        "what_does_this_breed_look_like_tail": "\u003Cp\u003EThe AKC breed standard calls for the tail to be docked. Docking involves cutting a portion of the dog’s tail off when they are puppies. Veterinary groups along with many US states and countries have banned this procedure due to medical and behavioral reasons. If you are interested in this procedure, schedule a consultation with your veterinarian.\u003C/p\u003E",
+        "h2_breed_temperament": "The German Shorthaired Pointer breed is a loyal, loving dog who wants to hang out with their pet parent. These dogs enjoy working, and you'll find they're alert dogs who keep an eye—and a very strong nose—on everything.\r\n\r\nTheir temperament is easygoing, and they can be friendly with new people. Socialization will help bring out more friendly qualities when meeting new people. German Shorthaired Pointers are great with kids and other dogs. But these dogs were bred to hunt, so they don't mix well with smaller pets, like a rabbit or cat.\r\n\r\nThese high-energy pups love to please their people. However, they're easily distracted by what they see and smell, and that may make training a little more difficult. These are hard-working pups who love it when you give them something to do. You can fulfill their type-A needs through playing games like fetch or through dog sports like agility.",
+        "h2_how_to_care_for_a_breed": "German Shorthaired Pointers are generally easy dogs to care for. They're easy to groom, their shedding level is manageable, and they're smart. You'll be spending the bulk of your time in training and exercise, which gives you fun ways to bond with your pup.",
+        "grooming": "German Shorthaired Pointers have very low grooming needs for most of the year. Here are some grooming tips for your GSP:\n\u003Cul\u003E\n \t\u003Cli\u003E\u003Cstrong\u003EBrushing:\u003C/strong\u003E Their short coat only requires simple brushing once or twice a week with a hound glove, \u003Ca href=\"https://www.chewy.com/f/dog-curry-brushes_c355_f70v83786\" target=\"_blank\" rel=\"noopener\"\u003Erubber curry\u003C/a\u003E or soft \u003Ca href=\"https://www.chewy.com/s?page=1&amp;query=bristle+brush\" target=\"_blank\" rel=\"noopener\"\u003Ebristle brush\u003C/a\u003E. They will up their shedding game in the spring and fall when they blow their coats. A dog who blows their coat will shed it in chunks instead of shedding a bunch of individual hairs.\u003C/li\u003E\n \t\u003Cli\u003E\u003Cstrong\u003EBathing:\u003C/strong\u003E Bathing can help get rid of the dead hair during shedding season; otherwise, your GSP only needs a bath three or four times a year.\u003C/li\u003E\n \t\u003Cli\u003E\u003Cstrong\u003EEar cleaning:\u003C/strong\u003E While you're brushing your pup's coat, check your dog's ears for debris and any redness or swelling once a week to help prevent ear infections. \u003Cspan class=\"TextRun SCXW216420301 BCX0\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\u003E\u003Cspan class=\"NormalTextRun SCXW216420301 BCX0\"\u003EIf you notice anything, speak to your vet. If your vet recommends at-home cleaning, follow this \u003C/span\u003E\u003C/span\u003E\u003Ca class=\"Hyperlink SCXW216420301 BCX0\" href=\"https://www.chewy.com/education/dog/health-and-wellness/how-do-you-clean-a-dogs-ears-follow-this-vet-approved-step-by-step-guide\" target=\"_blank\" rel=\"noreferrer noopener\"\u003E\u003Cspan class=\"TextRun Underlined SCXW216420301 BCX0\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\u003E\u003Cspan class=\"NormalTextRun SCXW216420301 BCX0\" data-ccp-charstyle=\"Hyperlink\"\u003Estep-by-step guide on how to clean dog ears\u003C/span\u003E\u003C/span\u003E\u003C/a\u003E\u003Cspan class=\"TextRun SCXW216420301 BCX0\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\u003E\u003Cspan class=\"NormalTextRun SCXW216420301 BCX0\"\u003E.\u003C/span\u003E\u003C/span\u003E\u003Cspan class=\"EOP SCXW216420301 BCX0\" data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559685&quot;:720,&quot;335559731&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}\"\u003E&nbsp;\u003C/span\u003E\u003C/li\u003E\n \t\u003Cli\u003E\u003Cstrong\u003EDental care: \u003C/strong\u003E\u003Ca href=\"https://www.chewy.com/education/dog/grooming/health-wellness-how-to-brush-your-dogs-teeth-live-to-tell-the-tale\" rel=\"noopener\"\u003EDaily toothbrushing\u003C/a\u003E will help protect your dog's dental health and may help prevent more serious health issues later in life. Introducing this when your German Shorthaired Pointer's a puppy may help them accept the process easier. Of course, an annual professional dental cleaning at your pet's veterinarian is also important.\u003C/li\u003E\n \t\u003Cli\u003E\u003Cstrong\u003ENail trimming:\u003C/strong\u003E \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/guide-trimming-dogs-nails\"\u003ENail trimming\u003C/a\u003E should be done about once a month or when you hear the familiar clicking sound on the kitchen floor.\u003C/li\u003E\n\u003C/ul\u003E",
+        "training": "German Shorthaired Pointers are whip-smart, and they really do want to please you—both of which make training them relatively easy. Start basic \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/sit-stay-and-beyond-weve-got-the-essential-guide-to-basic-dog-obedience-training\"\u003Eobedience training\u003C/a\u003E (commands like \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-sit\" target=\"_blank\" rel=\"noopener\"\u003Esit\u003C/a\u003E, \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-stay\" target=\"_blank\" rel=\"noopener\"\u003Estay\u003C/a\u003E, \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-come\" target=\"_blank\" rel=\"noopener\"\u003Ecome\u003C/a\u003E and \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/leash-train-dog-2\" target=\"_blank\" rel=\"noopener\"\u003Ehow to walk nicely on a leash\u003C/a\u003E) while they're a puppy to help bring out the best in your dog. GSPs love to work and love the interaction they receive from you, so training allows them to accomplish both at the same time.\n\nThese dogs were bred to hunt, which means they're easily distracted by all the things they smell and see to chase. You might think they are scatterbrained or are uninterested in training; they're just really fascinated by what's going on around them. To help them stay focused, keep training sessions short, use delicious treats to hold their attention on you and take lots of play breaks before either of you get frustrated. Their easily distracted nature is why they're better suited to an experienced pup parent and may be too frustrating for first-timers.\n\n\u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/positively-trained-puppy-socialization-dos-and-donts\"\u003ESocialization\u003C/a\u003E, aka exposing your dog to new people, places and objects, can't be ignored, either. GSPs are usually good with people and dogs, but make sure you get them out to meet new people (and have people over) frequently. Take your German Shorthaired Pointer puppy on walks, so they can meet people and other dogs in the neighborhood, and enroll them in puppy preschool. Here, they learn to play nicely with other puppies and meet new people all in one location.",
+        "diet_nutrition": "German Shorthaired Pointers typically do well on a \u003Ca href=\"https://www.chewy.com/b/premium-food-11728\" target=\"_blank\" rel=\"noopener\"\u003Ehigh-quality commercial dog food\u003C/a\u003E. Be sure to factor in your dog's age and choose a formula that fits their stage in life (puppy, adult, senior). Look for a statement of the food's packaging that says it meets the nutritional standards set by the Association of American Feed Control Officials.\r\n\r\nEven though your pup's got a lot of energy to burn, you need to be careful not to overfeed them—and that includes the treats you give during training (or just because you love them). Overfeeding your pup can lead to health issues, including obesity, heart disease and arthritis. If you notice that your dog has gained an extra pound or two, contact your vet. They can help you create a diet and exercise plan to help your pup shed the extra weight and still get the nutrition they need.",
+        "exercise": "Your GSP may not be able to talk, but if they could, they might wake you up every morning with, “It's 6 a.m., and we're burning daylight. LET'S GO!\"\n\nGerman Shorthaired Pointer dogs have the need for speed built into them, and they have high exercise needs. Many will benefit from two exercise sessions every day, in the mornings and evenings, instead of one long play session. They'll need 60-90 minutes of energy-burning play each day. If you don't give your dog the activity they need, your pup may chew your shoes or your couch to entertain themselves.\n\nInclude informal activities like fun games of \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/how-to-teach-dog-to-fetch\"\u003Efetch\u003C/a\u003E or tug-of-war and romping in the backyard, as well as more adventurous outside-the-home exercises like walking, hiking or jogging, or dog sports like \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/dog-agility-training-tips\"\u003Eagility\u003C/a\u003E or dock diving.\n\nRemember your dog's mental exercise needs, too! Mental stimulation is also incredibly important because this breed is so intelligent. You can hide treats in old Chewy boxes and let them sniff out a snack or keep a few \u003Ca href=\"https://www.chewy.com/b/puzzle-toys-games-2335\" target=\"_blank\" rel=\"noopener\"\u003Epuzzle toys\u003C/a\u003E around for them to solve.",
+        "ideal_environment": "German Shorthaired Pointers's massive amounts of energy influence every area of their lives, including their ideal home. Anyone considering bringing a GSP into their life for a companion should also be very active. Homes with large, fenced yards are ideal, as they give the dog plenty of space to safely run around off-leash. And because of their exercise needs and loud barks (even though they don't bark a lot), they may not be suitable for close-living situations, like apartments or condos.\r\n\r\nGSPs are a lovely breed who are very affectionate with their families, whether it's just you or a large family with kids. They like to be part of all the activity, whether it's a fun game of fetch or an enthusiastic Frisbee battle in the park. GSPs are generally great with kids and other dogs. With proper socialization, they can be fine around strangers and guests. And it always helps to teach kids how to properly interact with dogs. GSPs may not be the best dog breed for homes with small pets or first-time pup parents.",
+        "h2_breed_health": "\u003Cspan data-contrast=\"none\"\u003EGerman Shorthaired Pointer (GSP) dogs are usually healthy and have an average lifespan of 10-12 years. That said, any dog can develop the occasional health problem, and GSPs are no different. A few of the more common health issues that can affect your German Shorthaired Pointer include:\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;335557856&quot;:16777215}\"\u003E \u003C/span\u003E\r\n\u003Cul\u003E\r\n \t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;multilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"1\" data-aria-level=\"1\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EBloat/\u003C/span\u003E\u003C/b\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/digestive/gastric-dilatation-volvulus-gdv-syndrome\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EGastric Dilatation-Volvulus\u003C/span\u003E\u003C/b\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E (GDV): Bloat is a life-threatening condition that can occur very quickly and is always an emergency situation. Also known as Gastric Dilatation-Volvulus, the stomach fills with gas and twists on itself. Signs include unproductive retching, bloating, excessive drooling and abdominal pain. Techniques that may prevent GDV include feeding your dog smaller meals more frequently throughout the day with a \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/b/slow-feeders-1424s\" target=\"_blank\" rel=\"noopener\"\u003Eslow feeding bowl\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E and waiting to exercise for one hour before and after meals. Your vet can also perform a surgery that pins the stomach to the side of the body to help prevent it.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;335557856&quot;:16777215,&quot;335559685&quot;:1117}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n \t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;multilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"2\" data-aria-level=\"1\"\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/c_dg_hip_dysplasia\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EHip\u003C/span\u003E\u003C/b\u003E\u003C/a\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003E and \u003C/span\u003E\u003C/b\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/c_dg_elbow_dysplasia\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EElbow Dysplasia\u003C/span\u003E\u003C/b\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E: GSPs are prone to hip and elbow dysplasia—painful conditions that happen when these joints are not formed properly and rub, causing the dog pain. In most cases, lameness is the result. Treatments include weight management, exercise restriction, medications, joint supplements, physical therapy and, in severe cases, surgery.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;335557856&quot;:16777215,&quot;335559685&quot;:1117}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n \t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;multilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"3\" data-aria-level=\"1\"\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/endocrine/c_dg_hypothyroidism\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EHypothyroidism\u003C/span\u003E\u003C/b\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E: This is an autoimmune condition that causes an underactive thyroid gland, which results in a lower metabolism. This may lead to weight gain, hair loss, lethargy and other symptoms. Treatment includes a daily hormone replacement pill.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;335557856&quot;:16777215,&quot;335559685&quot;:1117}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n \t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;multilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"4\" data-aria-level=\"1\"\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/cardiovascular/c_dg_von_willebrand_disease\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EVon Willebrand’s Disease\u003C/span\u003E\u003C/b\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E: This is a genetic condition that prevents proper blood clotting, resulting in excess bleeding. Management of the disease includes adjusting the dog’s activity to avoid injury and blood transfusions, if needed.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;335557856&quot;:16777215,&quot;335559685&quot;:1117}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\u003C/ul\u003E",
+        "h2_breed_history": "The German Shorthaired Pointer's place of origin is Germany (no surprise there), where the breed was developed in the 18th and 19th centuries. In the early days of their history, breeders wanted a brilliant, versatile hunting dog who could do it all—point, flush and retrieve. This idea appealed to hunters who couldn't keep and care for multiple dogs to fulfill each purpose. Early breeders used several breeds (such as the German Bird Dog, the Spanish Pointer and the \u003Ca href=\"https://www.chewy.com/education/dog-breeds/pointer/\" target=\"_blank\" rel=\"noopener\"\u003EEnglish Pointer\u003C/a\u003E) to fulfill that goal, and the German Shorthaired Pointer was developed. Naturally, the impressively useful GSP was widely appealing.\r\n\r\nThe breed came to the United States in the 1920s, and the first litter of German Shorthaired Pointers born in the US arrived in 1925. The American Kennel Club (AKC) recognized the breed in the 1930s, and the \u003Ca href=\"https://www.gspca.org/index.html\" target=\"_blank\" rel=\"noopener\"\u003EGerman Shorthaired Pointer Club of America\u003C/a\u003E was established shortly thereafter. Today, the breed's popularity is firmly established in the US, and the German Shorthaired Pointer ranks No. 10 on the \u003Ca href=\"https://www.akc.org/most-popular-breeds/\" target=\"_blank\" rel=\"noopener\"\u003EAKC's list of most popular breeds\u003C/a\u003E.\r\n\r\nSo, where is the best place to find German Shorthaired Pointer puppies? You can find a list of reputable breeders on the \u003Ca href=\"https://marketplace.akc.org/puppies/german-shorthaired-pointer\" target=\"_blank\" rel=\"noopener\"\u003EAKC's website\u003C/a\u003E. What's the average German Shorthaired Pointer price? Depending on the breeder, expect to spend $800-$2,000 for a pup. For that price, you usually get a dog who's been screened for health and temperament issues, and they might even come with pedigree papers. You can also reach out to German Shorthaired Pointer rescue organizations to adopt or keep an eye out for the breed at your local animal shelter. Or, search \u003Ca href=\"https://www.chewy.com/g/dog-german-shorthaired-pointer_ga1\" target=\"_blank\" rel=\"noopener\"\u003EChewy’s database of adoptable dogs\u003C/a\u003E in your area.",
+        "expert_attribution": "\u003Ci\u003EExpert input provided by veterinarian Dr. Ellen Kinzl, DVM, of \u003Ca href=\"http://libertyvillageanimalhospital.com/\" target=\"_blank\" rel=\"noopener\"\u003ELiberty Village Animal Hospital\u003C/a\u003E in Canada; and certified dog trainer Erin Magnani Topp, CPDT-KA, KPA CTP, owner of \u003Ca href=\"http://www.toppcaninesolutions.com/\" target=\"_blank\" rel=\"noopener\"\u003ETopp Canine Solutions\u003C/a\u003E in Cambridge, Iowa.\u003C/i\u003E\r\n\r\n\u003Cem\u003EBreed characteristic ratings provided by Dr. Sarah J. Wooten, DVM, CVJ, a veterinarian at \u003Ca href=\"https://sheepdraw.com/\" target=\"_blank\" rel=\"noopener\"\u003ESheep Draw Veterinary Hospital\u003C/a\u003E in Greeley, Colorado; dog trainer and behavior consultant Irith Bloom, CPDT-KSA, CBCC-KA, CDBC, owner of \u003Ca href=\"https://thesophisticateddog.com/\" target=\"_blank\" rel=\"noopener\"\u003EThe Sophisticated Dog, LLC\u003C/a\u003E, in Los Angeles; and certified animal behavior consultant \u003Ca href=\"https://shojai.com/\" target=\"_blank\" rel=\"noopener\"\u003EAmy Shojai\u003C/a\u003E, CABC, in Sherman, Texas.\u003C/em\u003E\r\n\r\n\u003Cem\u003EThe health content was medically reviewed by Chewy vets.\u003C/em\u003E",
+        "facebook_social_snippet_with_cta": "\u003Cp\u003EIf you're looking for the ultimate partner in outdoor adventures, you need to meet the German Shorthaired Pointer. Check out all the facts and learn about the traits of GSPs and see if you're a match made in doggy heaven in our complete guide.\u003C/p\u003E",
+        "species": "\u003Cp\u003EDog\u003C/p\u003E",
+        "h2_faqs": "\u003Ch3\u003EDo German Shorthaired Pointers shed?\u003C/h3\u003E\r\nGerman Shorthaired Pointers do shed, but they aren't considered heavy shedders, thanks to their short coats. However, they do shed more in the spring and fall when they blow their coats.\r\n\u003Ch3\u003EHow long do German Shorthaired Pointers live?\u003C/h3\u003E\r\nGerman Shorthaired Pointers typically live 10-12 years, although some dogs live into their teens. With the proper nutrition, exercise and vet visits, you can help your pup live a long and happy life.\r\n\u003Ch3\u003EAre German Shorthaired Pointers good family dogs?\u003C/h3\u003E\r\nYes, German Shorthaired Pointers can be good family dogs. They're affectionate, attentive and good with kids. They like people and family life and being in the center of activity.\r\n\u003Ch3\u003EHow big do German Shorthaired Pointers get?\u003C/h3\u003E\r\nGerman Shorthaired Pointers don't get too big; they're a medium dog. They can get up to 25 inches tall at the shoulder and weigh up to 70 pounds.\r\n\u003Ch3\u003EWhat are the most common German Shorthaired Pointers mixes?\u003C/h3\u003E\r\n\u003Cul\u003E\r\n \t\u003Cli\u003EGerman Shorthaired Pointer-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/labrador-retriever/\"\u003ELabrador Retriever\u003C/a\u003E mix\u003C/li\u003E\r\n \t\u003Cli\u003EGerman Shorthaired Pointer-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/american-pit-bull-terrier/\"\u003EAmerican Pit Bull Terrier\u003C/a\u003E mix\u003C/li\u003E\r\n \t\u003Cli\u003EGerman Shorthaired Pointer-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/poodle/\"\u003EPoodle\u003C/a\u003E mix\u003C/li\u003E\r\n \t\u003Cli\u003EGerman Shorthaired Pointer-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/german-shepherd/\"\u003EGerman Shepherd\u003C/a\u003E mix\u003C/li\u003E\r\n \t\u003Cli\u003EGerman Shorthaired Pointer-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/weimaraner/\"\u003EWeimaraner\u003C/a\u003E mix\u003C/li\u003E\r\n\u003C/ul\u003E\r\nNote: These are not purebred dogs but mixed breeds.",
+        "faq_items": [
+          {
+            "faq_title": "Do German Shorthaired Pointers shed?",
+            "faq_content": "German Shorthaired Pointers do shed, but they aren't considered heavy shedders, thanks to their short coats. However, they do shed more in the spring and fall when they blow their coats."
+          },
+          {
+            "faq_title": "How long do German Shorthaired Pointers live?",
+            "faq_content": "German Shorthaired Pointers typically live 10-12 years, although some dogs live into their teens. With the proper nutrition, exercise and vet visits, you can help your pup live a long and happy life."
+          },
+          {
+            "faq_title": "Are German Shorthaired Pointers good family dogs?",
+            "faq_content": "Yes, German Shorthaired Pointers can be good family dogs. They're affectionate, attentive and good with kids. They like people and family life and being in the center of activity."
+          },
+          {
+            "faq_title": "How big do German Shorthaired Pointers get?",
+            "faq_content": "German Shorthaired Pointers don't get too big; they're a medium dog. They can get up to 25 inches tall at the shoulder and weigh up to 70 pounds."
+          },
+          {
+            "faq_title": "What are the most common German Shorthaired Pointers mixes?",
+            "faq_content": "\u003Cul\u003E\r\n \t\u003Cli\u003EGerman Shorthaired Pointer-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/labrador-retriever/\"\u003ELabrador Retriever\u003C/a\u003E mix\u003C/li\u003E\r\n \t\u003Cli\u003EGerman Shorthaired Pointer-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/american-pit-bull-terrier/\"\u003EAmerican Pit Bull Terrier\u003C/a\u003E mix\u003C/li\u003E\r\n \t\u003Cli\u003EGerman Shorthaired Pointer-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/poodle/\"\u003EPoodle\u003C/a\u003E mix\u003C/li\u003E\r\n \t\u003Cli\u003EGerman Shorthaired Pointer-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/german-shepherd/\"\u003EGerman Shepherd\u003C/a\u003E mix\u003C/li\u003E\r\n \t\u003Cli\u003EGerman Shorthaired Pointer-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/weimaraner/\"\u003EWeimaraner\u003C/a\u003E mix\u003C/li\u003E\r\n\u003C/ul\u003E\r\nNote: These are not purebred dogs but mixed breeds."
+          }
+        ],
+        "select_related_breeds": [
+          {
+            "selected_related_breed": 386,
+            "characteristic": "breed_characteristics_exercise_needs"
+          },
+          {
+            "selected_related_breed": 417,
+            "characteristic": "breed_characteristics_friendliness"
+          },
+          {
+            "selected_related_breed": 275,
+            "characteristic": "breed_characteristics_good_with_kids"
+          },
+          {
+            "selected_related_breed": 524,
+            "characteristic": "breed_characteristics_good_with_other_dogs"
+          },
+          {
+            "selected_related_breed": 218,
+            "characteristic": "breed_characteristics_good_for_apartments_small_homes"
+          },
+          {
+            "selected_related_breed": 1074,
+            "characteristic": "breed_characteristics_playfulnesss"
+          }
+        ],
+        "enable_featured_gallery": [
+          "enable_featured_gallery"
+        ],
+        "featured_gallery_images": [400, 401, 402, 403, 404]
+      },
+      "yoast_head": "\u003C!-- This site is optimized with the Yoast SEO plugin v23.8 - https://yoast.com/wordpress/plugins/seo/ --\u003E\n\u003Ctitle\u003EGerman Shorthaired Pointer Breed: Characteristics, Care &amp; Photos | Chewy\u003C/title\u003E\n\u003Cmeta name=\"description\" content=\"Looking for facts and information on German Shorthaired Pointers? Learn all about this dog breed in our German Shorthaired Pointer guide.\" /\u003E\n\u003Cmeta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" /\u003E\n\u003Clink rel=\"canonical\" href=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/german-shorthaired-pointer/\" /\u003E\n\u003Cmeta property=\"og:locale\" content=\"en_US\" /\u003E\n\u003Cmeta property=\"og:type\" content=\"article\" /\u003E\n\u003Cmeta property=\"og:title\" content=\"German Shorthaired Pointer Breed: Characteristics, Care &amp; Photos | Chewy\" /\u003E\n\u003Cmeta property=\"og:description\" content=\"Looking for facts and information on German Shorthaired Pointers? Learn all about this dog breed in our German Shorthaired Pointer guide.\" /\u003E\n\u003Cmeta property=\"og:url\" content=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/german-shorthaired-pointer/\" /\u003E\n\u003Cmeta property=\"og:site_name\" content=\"Chewy\" /\u003E\n\u003Cmeta property=\"article:modified_time\" content=\"2025-05-05T14:21:29+00:00\" /\u003E\n\u003Cmeta property=\"og:image\" content=\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11163626/202106GermanShorthairedPointer-FeaturedImage.jpg\" /\u003E\n\t\u003Cmeta property=\"og:image:width\" content=\"1440\" /\u003E\n\t\u003Cmeta property=\"og:image:height\" content=\"865\" /\u003E\n\t\u003Cmeta property=\"og:image:type\" content=\"image/jpeg\" /\u003E\n\u003Cmeta name=\"twitter:card\" content=\"summary_large_image\" /\u003E\n\u003Cscript type=\"application/ld+json\" class=\"yoast-schema-graph\"\u003E{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/german-shorthaired-pointer/\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/german-shorthaired-pointer/\",\"name\":\"German Shorthaired Pointer Breed: Characteristics, Care & Photos | Chewy\",\"isPartOf\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/german-shorthaired-pointer/#primaryimage\"},\"image\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/german-shorthaired-pointer/#primaryimage\"},\"thumbnailUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11163626/202106GermanShorthairedPointer-FeaturedImage.jpg\",\"datePublished\":\"2021-06-29T10:28:29+00:00\",\"dateModified\":\"2025-05-05T14:21:29+00:00\",\"description\":\"Looking for facts and information on German Shorthaired Pointers? Learn all about this dog breed in our German Shorthaired Pointer guide.\",\"breadcrumb\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/german-shorthaired-pointer/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://phcms.hlth.prd.aws.chewy.cloud/breed/german-shorthaired-pointer/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/german-shorthaired-pointer/#primaryimage\",\"url\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11163626/202106GermanShorthairedPointer-FeaturedImage.jpg\",\"contentUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11163626/202106GermanShorthairedPointer-FeaturedImage.jpg\",\"width\":1440,\"height\":865},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/german-shorthaired-pointer/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://phcms.hlth.prd.aws.chewy.cloud/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"German Shorthaired Pointer\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/\",\"name\":\"Chewy\",\"description\":\"\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"}]}\u003C/script\u003E\n\u003C!-- / Yoast SEO plugin. --\u003E",
+      "yoast_head_json": {
+        "title": "German Shorthaired Pointer Breed: Characteristics, Care & Photos | Chewy",
+        "description": "Looking for facts and information on German Shorthaired Pointers? Learn all about this dog breed in our German Shorthaired Pointer guide.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://phcms.hlth.prd.aws.chewy.cloud/breed/german-shorthaired-pointer/",
+        "og_locale": "en_US",
+        "og_type": "article",
+        "og_title": "German Shorthaired Pointer Breed: Characteristics, Care & Photos | Chewy",
+        "og_description": "Looking for facts and information on German Shorthaired Pointers? Learn all about this dog breed in our German Shorthaired Pointer guide.",
+        "og_url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/german-shorthaired-pointer/",
+        "og_site_name": "Chewy",
+        "article_modified_time": "2025-05-05T14:21:29+00:00",
+        "og_image": [
+          {
+            "width": 1440,
+            "height": 865,
+            "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11163626/202106GermanShorthairedPointer-FeaturedImage.jpg",
+            "type": "image/jpeg"
+          }
+        ],
+        "twitter_card": "summary_large_image",
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/german-shorthaired-pointer/",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/german-shorthaired-pointer/",
+              "name": "German Shorthaired Pointer Breed: Characteristics, Care & Photos | Chewy",
+              "isPartOf": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/german-shorthaired-pointer/#primaryimage"
+              },
+              "image": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/german-shorthaired-pointer/#primaryimage"
+              },
+              "thumbnailUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11163626/202106GermanShorthairedPointer-FeaturedImage.jpg",
+              "datePublished": "2021-06-29T10:28:29+00:00",
+              "dateModified": "2025-05-05T14:21:29+00:00",
+              "description": "Looking for facts and information on German Shorthaired Pointers? Learn all about this dog breed in our German Shorthaired Pointer guide.",
+              "breadcrumb": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/german-shorthaired-pointer/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://phcms.hlth.prd.aws.chewy.cloud/breed/german-shorthaired-pointer/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/german-shorthaired-pointer/#primaryimage",
+              "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11163626/202106GermanShorthairedPointer-FeaturedImage.jpg",
+              "contentUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11163626/202106GermanShorthairedPointer-FeaturedImage.jpg",
+              "width": 1440,
+              "height": 865
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/german-shorthaired-pointer/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://phcms.hlth.prd.aws.chewy.cloud/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "German Shorthaired Pointer"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/",
+              "name": "Chewy",
+              "description": "",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            }
+          ]
+        }
+      },
+      "yoast_meta": {
+        "yoast_wpseo_title": "",
+        "yoast_wpseo_metadesc": "",
+        "yoast_wpseo_canonical": ""
+      },
+      "_links": {
+        "self": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed/408",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/types/breed"
+          }
+        ],
+        "acf:attachment": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/404"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/403"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/402"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/401"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/400"
+          }
+        ],
+        "wp:featuredmedia": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/407"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media?parent=408"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "pet_type",
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/pet_type?post=408"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ]

@@ -1,0 +1,326 @@
+[
+    {
+      "id": 426,
+      "date": "2021-06-29T10:26:19",
+      "date_gmt": "2021-06-29T10:26:19",
+      "guid": {
+        "rendered": "https://haproxy.use1.lgcy.prd.aws.chewy.cloud/eks/ns/pet-health/pet-health-content-backend/breed/bearded-collie/"
+      },
+      "modified": "2025-05-05T14:21:30",
+      "modified_gmt": "2025-05-05T14:21:30",
+      "slug": "bearded-collie",
+      "status": "publish",
+      "type": "breed",
+      "link": "https://phcms.hlth.prd.aws.chewy.cloud/breed/bearded-collie/",
+      "title": {
+        "rendered": "Bearded Collie"
+      },
+      "featured_media": 2802,
+      "template": "",
+      "pet_type": [],
+      "class_list": [
+        "post-426",
+        "breed",
+        "type-breed",
+        "status-publish",
+        "has-post-thumbnail",
+        "hentry"
+      ],
+      "acf": {
+        "breed_snapshot_best_for": "\u003Cp\u003EIntelligent and adventurous, this medium dog needs lots of exercise, daily grooming and plenty of human interaction. Because Bearded Collies are born leaders who thrive on activity, they're best for pet parents (including first-time pup parents!) who can keep their minds and bodies busy.\u003C/p\u003E",
+        "alt_image_text": "Bearded Collie dog breed",
+        "breed_intro": "You're packing your gear for a weekend \u003Ca href=\"https://www.chewy.com/education/dog/general/dog-camping-gear\"\u003Ecamping\u003C/a\u003E trip when your beloved Bearded Collie scampers over and pricks their ears in anticipation. There's no question—they're coming with you. These dogs are as rambunctious as they are smart, so they're always up for a new adventure, whether it's a quick trip to the store or a long hike in the woods. Plus, they're herding dogs, so you can count on them to keep tabs on your family and friends, too. You smile to yourself knowing this weekend's going to be full of fun and excitement—for both you and your dog.",
+        "breed_related_products_product_card_set": null,
+        "breed_snapshot_temperament": "\u003Cp\u003EQuick Learner, Adventurous, High Energy\u003C/p\u003E",
+        "what_does_this_breed_look_like_weight": "\u003Cp\u003EMale: 45-55 pounds\u003C/p\u003E\u003Cp\u003EFemale: 45-55 pounds\u003C/p\u003E",
+        "what_does_this_breed_look_like_height": "\u003Cp\u003EMale: 21-22 inches\u003C/p\u003E\u003Cp\u003EFemale: 20-21 inches\u003C/p\u003E",
+        "breed_snapshot_life_expectancy": "\u003Cp\u003E12 to 14 years\u003C/p\u003E",
+        "breed_snapshot_maintenance_level": "\u003Cp\u003EHigh\u003C/p\u003E",
+        "breed_characteristics_friendliness": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_snapshot_coat_color": "\u003Cp\u003EBlack, Blue, Brown, Fawn\u003C/p\u003E",
+        "breed_snapshot_shed_level": "\u003Cp\u003EHigh\u003C/p\u003E",
+        "in_article_video": null,
+        "breed_characteristics": "These traits are rated on a scale of 1-5 with 1 being the lowest and 5 being the highest. Remember: Dogs are individuals, and not all dogs, even those of the same breed, will exhibit all the same qualities.",
+        "breed_characteristics_exercise_needs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_health_issues": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_barking_tendencies": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_grooming_needs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_shedding_level": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_training_needs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_kids": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_cats": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_for_apartments_small_homes": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_energy_level": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_other_dogs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_playfulnesss": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_cold_weather": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_warm_weather": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_for_first_time_parents": "\u003Cp\u003E4\u003C/p\u003E",
+        "how_do_i_look_card_image": 2801,
+        "what_does_this_breed_look_like": "The first thing you'll notice about a Bearded Collie is their shaggy double-coat bouncing in the wind as they run toward you with agility and speed. But beneath that abundant mane is a surprisingly lean dog for their size. Weighing in around 50 pounds when full-grown, these rambunctious pups peer out from their bangs with shining, inquisitive eyes that reflect their desire to be with you. Their coats range in color from black or gray to light brown, and your pup's color may change as they grow up.",
+        "what_does_this_breed_look_like_ears": "\u003Cp\u003EBearded Collies' floppy ears hang down and are covered in long hair. They tend to perk up at the base when the dog is particularly alert.\u003C/p\u003E",
+        "what_does_this_breed_look_like_eyes": "\u003Cp\u003EBeardies have large, expressive eyes and arched eyebrows. Their eye color corresponds to their coat: Black dogs have dark eyes while silver dogs have blue-gray eyes.\u003C/p\u003E",
+        "what_does_this_breed_look_like_nose": "\u003Cp\u003EThey typically have a large, square-shaped nose that ranges in color from black to gray.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_length": "\u003Cp\u003EDouble-coated Beardies have soft, furry undercoats and long, shaggy topcoats.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_color": "\u003Cp\u003EBearded Collie colors range from black to yellowish tan and some have white or tan markings. The coat color sometimes lightens as they age.\u003C/p\u003E",
+        "what_does_this_breed_look_like_tail": "\u003Cp\u003EThey have a long, hairy tail that often curves and swishes when the dog's excited.\u003C/p\u003E",
+        "h2_breed_temperament": "Inquisitive and independent, Bearded Collies are born leaders. These highly intelligent dogs thrive on activity, so you'll want to keep their minds and bodies busy. Otherwise, if they get bored, Beardies might come up with their own list of fun activities (think: herding friends and family, stampeding wildly through the house or destroying the furniture).\r\n\r\nLike \u003Ca href=\"https://www.chewy.com/education/dog-breeds/border-collie/\" target=\"_blank\" rel=\"noopener\"\u003EBorder Collies\u003C/a\u003E, Beardies were bred for herding sheep. Their herding behavior can be an issue in chaotic households with young kids and other animals. But this doesn't mean they can't excel in family homes. In fact, your ever-alert Beardie will eagerly steer friends and family out of danger. With early training, you can help your Beardie know when it's OK to use those herding instincts. It's also a good idea to teach children of all ages how to properly interact with dogs.\r\n\r\nBearded Collies are rambunctious at all ages, which can be entertaining for friends and family. These athletic dogs love chasing, playing and running alongside you while doing everything from hiking to running errands. Instead of being left at home while you jog, Beardies would love to come with you. There's no such thing as too much activity for these pups.\r\n\r\nBearded Collie dogs' high energy level and keen intelligence can sometimes lead to a bit of a strong-willed streak, especially in training. It's not that they don't want to obey; they just think their way is better. Starting their training and socialization while they're puppies will help them see that you're pretty smart yourself.",
+        "h2_how_to_care_for_a_breed": "Bearded Collies are incredibly smart, but that doesn't mean they don't need help from their human families. This medium-sized dog needs lots of exercise, daily grooming and plenty of human interaction. As independent thinkers, they thrive with firm structure and expectations so that they don't stray too far off course.",
+        "grooming": "Bearded Collies have a soft undercoat and a long, somewhat rough outer coat. They shed all year long, but your vacuum cleaner will work harder in the spring and fall when they shed more.&nbsp;If you keep your Beardie's coat long, you may want to opt to use a barrette to keep their hair out of their eyes. Some pet parents give their Beardies a haircut to reduce maintenance. Shorter coats are easier to brush, but be aware of potential matting. Here are some more grooming tips for your Bearded Collie:\n\u003Cul\u003E\n \t\u003Cli\u003E\u003Cb\u003E\u003C/b\u003E\u003Cstrong\u003EBrushing:\u003C/strong\u003E You should give your pup a quick daily \u003Ca href=\"https://www.chewy.com/education/dog/grooming/brushing-a-dog\"\u003Ebrush\u003C/a\u003E to keep the tangles at a minimum. This will take about 10 minutes, if you keep your Beardie in a long coat, and even less time for shorter coats. Keep a towel and brush handy inside the door to wipe them off when they come in from frolicking in the backyard, and your daily detangle can become a fun, natural bonding experience instead of a chore. You'll want to give them a more in-depth brushing once a week, using a \u003Ca href=\"https://www.chewy.com/f/dog-pin-brushes_c356_f70v83789\" target=\"_blank\" rel=\"noopener\"\u003Epin brush\u003C/a\u003E to get the tangles out and a \u003Ca href=\"https://www.chewy.com/f/bristle-brush-dog-brushes-combs_c356_f70v83784\" target=\"_blank\" rel=\"noopener\"\u003Eboar bristle brush\u003C/a\u003E to smooth and shine their coat. You may also find a \u003Ca href=\"https://www.chewy.com/f/slicker-brush-dog-brushes-combs_c356_f70v83792\" target=\"_blank\" rel=\"noopener\"\u003Eslicker brush\u003C/a\u003E and \u003Ca href=\"https://www.chewy.com/s?query=mat%20comb&amp;nav-submit-button=\" target=\"_blank\" rel=\"noopener\"\u003Ede-matting comb\u003C/a\u003E handy, too. This more thorough brushing will take 30-60 minutes.\u003C/li\u003E\n \t\u003Cli\u003E\u003Cstrong\u003EEar cleaning:\u003C/strong\u003E While you're giving your pup their weekly brush, check your pup's ears for debris, wax build-up and signs of infection (redness or swelling)—because these pups are prone to ear infections. \u003Cspan class=\"TextRun SCXW118330495 BCX0\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\u003E\u003Cspan class=\"NormalTextRun SCXW118330495 BCX0\"\u003EIf you notice anything, speak to your vet. If your vet recommends at-home cleaning, follow this \u003C/span\u003E\u003C/span\u003E\u003Ca class=\"Hyperlink SCXW118330495 BCX0\" href=\"https://www.chewy.com/education/dog/health-and-wellness/how-do-you-clean-a-dogs-ears-follow-this-vet-approved-step-by-step-guide\" rel=\"noreferrer noopener\"\u003E\u003Cspan class=\"TextRun Underlined SCXW118330495 BCX0\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\u003E\u003Cspan class=\"NormalTextRun SCXW118330495 BCX0\" data-ccp-charstyle=\"Hyperlink\"\u003Estep-by-step guide on how to clean dog ears\u003C/span\u003E\u003C/span\u003E\u003C/a\u003E\u003Cspan class=\"TextRun SCXW118330495 BCX0\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\u003E\u003Cspan class=\"NormalTextRun SCXW118330495 BCX0\"\u003E.\u003C/span\u003E\u003C/span\u003E\u003C/li\u003E\n \t\u003Cli\u003E\u003Cstrong\u003EBathing:\u003C/strong\u003E If your \u003Cb\u003E\u003C/b\u003EBeardie's a show dog, you'll be giving your pup a weekly \u003Ca href=\"https://www.chewy.com/education/dog/grooming/how-to-bathe-a-dog-step-by-step-tips-from-a-professional-groomer\"\u003Ebath\u003C/a\u003E. Otherwise, they'll be happy with a bath once every four to six weeks. Some veterinarians recommend bathing your Beardie no more than once a month to avoid skin damage.\u003C/li\u003E\n \t\u003Cli\u003E\u003Cstrong\u003ENail trimming:\u003C/strong\u003E You'll know your Beardie's \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/guide-trimming-dogs-nails\"\u003Enails need a trim\u003C/a\u003E when you can hear them clicking on the floor. Some Bearded Collie puppies need nail trims every other week, while others wear down their own nails with everyday running and playing.\u003C/li\u003E\n \t\u003Cli\u003E\u003Cstrong\u003EDental care:\u003C/strong\u003E Just like you, your Bearded Collie dog will stay happy and healthy with \u003Ca href=\"https://www.chewy.com/education/dog/grooming/health-wellness-how-to-brush-your-dogs-teeth-live-to-tell-the-tale\"\u003Edaily teeth brushing\u003C/a\u003E. And don't forget to schedule an annual professional cleaning by your vet (not a groomer).\u003C/li\u003E\n\u003C/ul\u003E",
+        "training": "The Bearded Collie dog breed is highly intelligent and energetic. Take advantage of their natural smarts and energy and start training your puppy as soon as they come home. Your Bearded Collie puppy will probably pick up the basics—\u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-sit\"\u003Esit\u003C/a\u003E, \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-come\"\u003Ecome\u003C/a\u003E and \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-stay\"\u003Estay\u003C/a\u003E—very quickly. Use lots of rewards—treats, praise and play breaks—to let them know they're doing a good job.\n\nBecause Beardies are herding dogs, they are inherently prone to offer direction rather than take it. They also learn quickly, which could lead to boredom and distraction during training sessions. Keep sessions energetic, moving on to new skills and tricks as soon as the dog has mastered one. And remember: Despite their instinct to push limits, these dogs want to please you.\n\n\u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/positively-trained-puppy-socialization-dos-and-donts\"\u003ESocialization\u003C/a\u003E is important for this naturally friendly dog. Introduce them to new people and other dogs, beginning as soon as you bring your Bearded Collie puppy home. Take them on walks to meet new friends in the neighborhood and enroll them in puppy school. Here, they'll learn to play nicely with other puppies and meet new people—all under one roof.",
+        "diet_nutrition": "There's no one-size-fits-all feeding chart for the Bearded Collie breed. You'll need to factor in your dog's stage of life (puppy, adult, senior) into the variety you choose. Look for the statement that says it meets the nutritional standards set by the Association of American Feed Control Officials.\r\n\r\nMost Bearded Collie dogs do well on a \u003Ca href=\"https://www.chewy.com/b/premium-food-11728\" target=\"_blank\" rel=\"noopener\"\u003Ehigh-quality commercial dog food\u003C/a\u003E diet with a few treats thrown in—but remember that treats can be high in calories, which can lead to obesity and the health issues that accompany it, so keep a careful eye on your dog's weight. Because Beardies are so active, they might benefit from a \u003Ca href=\"https://www.chewy.com/s?query=high%20protein%20dog%20food&amp;nav-submit-button=\" target=\"_blank\" rel=\"noopener\"\u003Ehigh-protein dog food formula\u003C/a\u003E.\r\n\r\nIf you have any questions, chat with your veterinarian. They are in the best position to help you pick the right food for your dog based on their individual needs.",
+        "exercise": "Bearded Collies need lots of time to run around outside for their mental and physical health. Aim for about one hour each day. If you're not able to get their wiggles out every day, these pups are creative and will come up with their own fun games, like \"let's chew the Manolos\" or \"tearing out the bushes.\"\n\nBeardies enjoy long walks or jogs and frequent adventures to the dog park. They'll appreciate fun games in the backyard, like \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/how-to-teach-dog-to-fetch\"\u003Efetch\u003C/a\u003E, too. If you're into competition, sign up for dog sports. These pups excel at \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/dog-agility-training-tips\"\u003Eagility\u003C/a\u003E, rally and herding.\n\nAs you exercise their bodies, don't forget their minds need stimulation as well. Teach them fun tricks, like play dead or shake, and give them \u003Ca href=\"https://www.chewy.com/b/interactive-toys-319\" target=\"_blank\" rel=\"noopener\"\u003Einteractive dog toys\u003C/a\u003E to play with around the house.",
+        "ideal_environment": "Bearded Collies can thrive in a fast-paced environment of any size. Their ideal living space? A family home with a large, fenced-in yard. A sprawling lawn gives Beardies the chance to run and play outside, where they and the kids (or fellow pets) can tire each other out.\r\n\r\nIf you live in a smaller home or apartment, you can still fulfill your dreams of having a Beardie as a pet. As long as you can meet their daily exercise needs—yes, that means even on rainy or snowy days—they will do just fine with apartment life.\r\n\r\nHerding breeds like Bearded Collies are popular with families because they're friendly, athletic and have a distinct look that'll make them the star of the neighborhood. They're a good choice for a first-time pup parent, too. However, it's important Beardies are included in your daily activities, not left by themselves for most of the day. A Beardie pup left home all day while the kids and parents rush off to their activities could cause chaos by coming up with chewing, digging and other ways to stay busy at home.",
+        "h2_breed_health": "\u003Cspan data-contrast=\"none\"\u003EBearded Collies are a generally healthy breed with a life expectancy of 12-14 years, but they are prone to a few health issues. Look out for these Bearded Collie health conditions in advance so you can keep your pet healthy and happy.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;335557856&quot;:16777215}\"\u003E \u003C/span\u003E\r\n\u003Cul\u003E\r\n \t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;multilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"1\" data-aria-level=\"1\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EAutoimmune Diseases\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E: Bearded Collies are prone to developing autoimmune diseases, such as \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/endocrine/c_dg_hypoadrenocorticism\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Ehypoadrenocorticism\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E (Addison’s disease), \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/endocrine/c_dg_hypothyroidism\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Ehypothyroidism\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/skin/pemphigus-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Epemphigus\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, low platelet (\u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/cardiovascular/immune-mediated-thrombocytopenia-itp-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003EITP\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E) or red blood cell count (\u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/cardiovascular/imha-immune-mediated-hemolytic-anemia-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003EIMHA\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E). If your vet suspects an autoimmune disease, they will probably order blood tests. Most autoimmune diseases are treatable with medications.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;335557856&quot;:16777215,&quot;335559685&quot;:1117}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n \t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;multilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"2\" data-aria-level=\"1\"\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/c_dg_hip_dysplasia\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EHip Dysplasia\u003C/span\u003E\u003C/b\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E:\u003C/span\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003E \u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003EBearded Collies are less prone to joint issues than giant breed dogs, however, researchers have found that about \u003C/span\u003E\u003Ca href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5325577/\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003E5 percent of Beardies develop hip dysplasia\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, a condition where the hip joint is malformed causing the joint to be loose. Symptoms of hip dysplasia include limping, pain or decreased mobility. Treatments typically include weight management, joint supplements, pain medication, physical therapy and, in severe cases, potential surgery.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;335557856&quot;:16777215,&quot;335559685&quot;:1117}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n \t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;multilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"3\" data-aria-level=\"1\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EEye Problems\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E:\u003C/span\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003E \u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003EBearded Collies are prone to eye problems, including \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/eye/c_dg_cataract\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Ecataracts\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E and \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/condition/progressive-retinal-atrophy-in-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Eprogressive retinal atrophy\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E (PRA). Cataracts can often be treated with surgery, but there is no treatment for PRA.  If you suspect your pup is having trouble with their vision, please check with your veterinarian.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;335557856&quot;:16777215,&quot;335559685&quot;:1117}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\u003C/ul\u003E",
+        "h2_breed_history": "The Bearded Collie breed's origin and history can be traced back to the Scottish Highlands, where the dogs were raised to help shepherds by herding and driving sheep across the rugged land. The dogs were prized for their energy, wit and stamina—they worked long days. Because of their role and geography, they were often called Highland Collies or Mountain Collies. Somewhere along the line, these humble herding dogs found their way into the homes of the Scottish elite. They became quite fashionable, even appearing in portrait paintings with their families. By the early 1800s, the Bearded Collie types had developed a rather standard look, temperament and set of traits that match the breed of today. Beardies were a well-kept secret of the Scottish Highlands; they made their way to the United States only in the mid-20th century. The American Kennel Club formally recognized the breed in 1983.\r\n\r\nSo, where should you look for Bearded Collie puppies? You can find a list of reputable breeders on the \u003Ca href=\"https://marketplace.akc.org/puppies/bearded-collie\" target=\"_blank\" rel=\"noopener\"\u003EAmerican Kennel Club's website\u003C/a\u003E. The cost of a pup can range $1,500-$2,500. For that price, you're likely getting a pup who's been screened for health and temperament issues and may come with pedigree papers. If you're interested in adopting a Beardie, reach out to a Bearded Collie rescue organization or your local animal shelter. You can also search \u003Ca href=\"https://www.chewy.com/g/dog-bearded-collie_ga1\" target=\"_blank\" rel=\"noopener\"\u003EChewy’s database of adoptable dogs\u003C/a\u003E in your area.",
+        "expert_attribution": "\u003Ci\u003EExpert input provided by veterinarians Dr. Amanda Williams, DVM, of \u003Ca href=\"https://www.furryfriendsadoption.org/\" target=\"_blank\" rel=\"noopener\"\u003EFurry Friends Adoption, Clinic &amp; Ranch\u003C/a\u003E in Jupiter, Florida; Dr. Linda Aronson, DVM, of \u003Ca href=\"http://petshrink.com/\" target=\"_blank\" rel=\"noopener\"\u003EPetShrink\u003C/a\u003E; and Emilia Byrum, KPA-CTP, RVT, owner and head trainer at \u003Ca href=\"https://maggiesfoundation.wixsite.com/website\" target=\"_blank\" rel=\"noopener\"\u003EMaggie's Foundation: Pet Training LLC\u003C/a\u003E in Indianapolis, Indiana.\u003C/i\u003E\r\n\r\n\u003Cem\u003EBreed characteristic ratings provided by veterinarian Dr. Sarah J. Wooten, DVM, CVJ, a veterinarian at \u003Ca href=\"https://sheepdraw.com/\" target=\"_blank\" rel=\"noopener\"\u003ESheep Draw Veterinary Hospital\u003C/a\u003E in Greeley, Colorado; dog trainer and behavior consultant Irith Bloom, CPDT-KSA, CBCC-KA, CDBC, owner of \u003Ca href=\"https://thesophisticateddog.com/\" target=\"_blank\" rel=\"noopener\"\u003EThe Sophisticated Dog, LLC\u003C/a\u003E, in Los Angeles; and certified animal behavior consultant \u003Ca href=\"https://shojai.com/\" target=\"_blank\" rel=\"noopener\"\u003EAmy Shojai\u003C/a\u003E, CABC, in Sherman, Texas.\u003C/em\u003E\r\n\r\n\u003Cem\u003EThe health content was medically reviewed by Chewy vets.\u003C/em\u003E",
+        "facebook_social_snippet_with_cta": "\u003Cp\u003EWhich dog is smart, independent and can keep up with your energetic pace? The Bearded Collie, of course! Read the full Beardie guide to see if you're a match made in doggy heaven.\u003C/p\u003E",
+        "species": "\u003Cp\u003EDog\u003C/p\u003E",
+        "h2_faqs": "\u003Ch3\u003EDo Bearded Collies shed?\u003C/h3\u003E\r\nYes, Bearded Collies shed moderately, so prepare to sweep and vacuum regularly! However, daily brushing can help reduce the effects of your Bearded Collie's shedding.\r\n\u003Ch3\u003EHow long do Bearded Collies live?\u003C/h3\u003E\r\nBearded Collies' life expectancy is 12-14 years. Providing your dog with high-quality food, consistent exercise and regular visits to the vet will boost your pet's chances of a long, healthy life.\r\n\u003Ch3\u003EAre Bearded Collies good family dogs?\u003C/h3\u003E\r\nYes, Bearded Collies are good family dogs. Raising a Bearded Collie with kids is a great idea; with all their energy, your kids and your Beardie can wear each other out.\r\n\u003Ch3\u003EDo Bearded Collies bark?\u003C/h3\u003E\r\nYes, Bearded Collies do bark but not excessively. This herding dog breed will bark to greet guests or when \"rounding up\" the family during playtime.\r\n\u003Ch3\u003EHow big do Bearded Collies get?\u003C/h3\u003E\r\nBearded Collies don't get very big; they're considered a medium dog. They can get up to 22 inches at the shoulder and weigh up to 55 pounds.",
+        "faq_items": [
+          {
+            "faq_title": "Do Bearded Collies shed?",
+            "faq_content": "Yes, Bearded Collies shed moderately, so prepare to sweep and vacuum regularly! However, daily brushing can help reduce the effects of your Bearded Collie's shedding."
+          },
+          {
+            "faq_title": "How long do Bearded Collies live?",
+            "faq_content": "Bearded Collies' life expectancy is 12-14 years. Providing your dog with high-quality food, consistent exercise and regular visits to the vet will boost your pet's chances of a long, healthy life."
+          },
+          {
+            "faq_title": "Are Bearded Collies good family dogs?",
+            "faq_content": "Yes, Bearded Collies are good family dogs. Raising a Bearded Collie with kids is a great idea; with all their energy, your kids and your Beardie can wear each other out."
+          },
+          {
+            "faq_title": "Do Bearded Collies bark?",
+            "faq_content": "Yes, Bearded Collies do bark but not excessively. This herding dog breed will bark to greet guests or when \"rounding up\" the family during playtime."
+          },
+          {
+            "faq_title": "How big do Bearded Collies get?",
+            "faq_content": "Bearded Collies don't get very big; they're considered a medium dog. They can get up to 22 inches at the shoulder and weigh up to 55 pounds."
+          }
+        ],
+        "select_related_breeds": [
+          {
+            "selected_related_breed": 134,
+            "characteristic": "breed_characteristics_physical_appearance"
+          },
+          {
+            "selected_related_breed": 450,
+            "characteristic": "breed_characteristics_good_for_first_time_parents"
+          },
+          {
+            "selected_related_breed": 248,
+            "characteristic": "breed_characteristics_good_with_other_dogs"
+          },
+          {
+            "selected_related_breed": 138,
+            "characteristic": "breed_characteristics_exercise_needs"
+          },
+          {
+            "selected_related_breed": 73,
+            "characteristic": "breed_characteristics_playfulnesss"
+          },
+          {
+            "selected_related_breed": 1031,
+            "characteristic": "breed_characteristics_training_needs"
+          }
+        ],
+        "enable_featured_gallery": [
+          "enable_featured_gallery"
+        ],
+        "featured_gallery_images": [425, 418, 419, 420, 421, 422]
+      },
+      "yoast_head": "\u003C!-- This site is optimized with the Yoast SEO plugin v23.8 - https://yoast.com/wordpress/plugins/seo/ --\u003E\n\u003Ctitle\u003EBearded Collie Breed: Characteristics, Care &amp; Photos | Chewy\u003C/title\u003E\n\u003Cmeta name=\"description\" content=\"Which dog is smart, independent and can keep up with your energetic pace? The Bearded Collie, of course! Read the full Beardie guide.\" /\u003E\n\u003Cmeta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" /\u003E\n\u003Clink rel=\"canonical\" href=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/bearded-collie/\" /\u003E\n\u003Cmeta property=\"og:locale\" content=\"en_US\" /\u003E\n\u003Cmeta property=\"og:type\" content=\"article\" /\u003E\n\u003Cmeta property=\"og:title\" content=\"Bearded Collie Breed: Characteristics, Care &amp; Photos | Chewy\" /\u003E\n\u003Cmeta property=\"og:description\" content=\"Which dog is smart, independent and can keep up with your energetic pace? The Bearded Collie, of course! Read the full Beardie guide.\" /\u003E\n\u003Cmeta property=\"og:url\" content=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/bearded-collie/\" /\u003E\n\u003Cmeta property=\"og:site_name\" content=\"Chewy\" /\u003E\n\u003Cmeta property=\"article:modified_time\" content=\"2025-05-05T14:21:30+00:00\" /\u003E\n\u003Cmeta property=\"og:image\" content=\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/12/13152817/202106Breed-Hero-Bearded-Collie.jpg\" /\u003E\n\t\u003Cmeta property=\"og:image:width\" content=\"1835\" /\u003E\n\t\u003Cmeta property=\"og:image:height\" content=\"1032\" /\u003E\n\t\u003Cmeta property=\"og:image:type\" content=\"image/jpeg\" /\u003E\n\u003Cmeta name=\"twitter:card\" content=\"summary_large_image\" /\u003E\n\u003Cscript type=\"application/ld+json\" class=\"yoast-schema-graph\"\u003E{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/bearded-collie/\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/bearded-collie/\",\"name\":\"Bearded Collie Breed: Characteristics, Care & Photos | Chewy\",\"isPartOf\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/bearded-collie/#primaryimage\"},\"image\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/bearded-collie/#primaryimage\"},\"thumbnailUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/12/13152817/202106Breed-Hero-Bearded-Collie.jpg\",\"datePublished\":\"2021-06-29T10:26:19+00:00\",\"dateModified\":\"2025-05-05T14:21:30+00:00\",\"description\":\"Which dog is smart, independent and can keep up with your energetic pace? The Bearded Collie, of course! Read the full Beardie guide.\",\"breadcrumb\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/bearded-collie/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://phcms.hlth.prd.aws.chewy.cloud/breed/bearded-collie/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/bearded-collie/#primaryimage\",\"url\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/12/13152817/202106Breed-Hero-Bearded-Collie.jpg\",\"contentUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/12/13152817/202106Breed-Hero-Bearded-Collie.jpg\",\"width\":1835,\"height\":1032,\"caption\":\"Bearded Collie\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/bearded-collie/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://phcms.hlth.prd.aws.chewy.cloud/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Bearded Collie\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/\",\"name\":\"Chewy\",\"description\":\"\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"}]}\u003C/script\u003E\n\u003C!-- / Yoast SEO plugin. --\u003E",
+      "yoast_head_json": {
+        "title": "Bearded Collie Breed: Characteristics, Care & Photos | Chewy",
+        "description": "Which dog is smart, independent and can keep up with your energetic pace? The Bearded Collie, of course! Read the full Beardie guide.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://phcms.hlth.prd.aws.chewy.cloud/breed/bearded-collie/",
+        "og_locale": "en_US",
+        "og_type": "article",
+        "og_title": "Bearded Collie Breed: Characteristics, Care & Photos | Chewy",
+        "og_description": "Which dog is smart, independent and can keep up with your energetic pace? The Bearded Collie, of course! Read the full Beardie guide.",
+        "og_url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/bearded-collie/",
+        "og_site_name": "Chewy",
+        "article_modified_time": "2025-05-05T14:21:30+00:00",
+        "og_image": [
+          {
+            "width": 1835,
+            "height": 1032,
+            "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/12/13152817/202106Breed-Hero-Bearded-Collie.jpg",
+            "type": "image/jpeg"
+          }
+        ],
+        "twitter_card": "summary_large_image",
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/bearded-collie/",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/bearded-collie/",
+              "name": "Bearded Collie Breed: Characteristics, Care & Photos | Chewy",
+              "isPartOf": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/bearded-collie/#primaryimage"
+              },
+              "image": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/bearded-collie/#primaryimage"
+              },
+              "thumbnailUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/12/13152817/202106Breed-Hero-Bearded-Collie.jpg",
+              "datePublished": "2021-06-29T10:26:19+00:00",
+              "dateModified": "2025-05-05T14:21:30+00:00",
+              "description": "Which dog is smart, independent and can keep up with your energetic pace? The Bearded Collie, of course! Read the full Beardie guide.",
+              "breadcrumb": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/bearded-collie/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://phcms.hlth.prd.aws.chewy.cloud/breed/bearded-collie/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/bearded-collie/#primaryimage",
+              "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/12/13152817/202106Breed-Hero-Bearded-Collie.jpg",
+              "contentUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/12/13152817/202106Breed-Hero-Bearded-Collie.jpg",
+              "width": 1835,
+              "height": 1032,
+              "caption": "Bearded Collie"
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/bearded-collie/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://phcms.hlth.prd.aws.chewy.cloud/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Bearded Collie"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/",
+              "name": "Chewy",
+              "description": "",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            }
+          ]
+        }
+      },
+      "yoast_meta": {
+        "yoast_wpseo_title": "",
+        "yoast_wpseo_metadesc": "",
+        "yoast_wpseo_canonical": ""
+      },
+      "_links": {
+        "self": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed/426",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/types/breed"
+          }
+        ],
+        "acf:attachment": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/422"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/421"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/420"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/419"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/418"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/425"
+          }
+        ],
+        "wp:featuredmedia": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/2802"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media?parent=426"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "pet_type",
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/pet_type?post=426"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ]

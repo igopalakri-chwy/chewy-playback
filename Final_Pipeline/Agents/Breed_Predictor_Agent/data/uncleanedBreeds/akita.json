@@ -1,0 +1,322 @@
+[
+    {
+      "id": 1334,
+      "date": "2021-04-27T15:23:00",
+      "date_gmt": "2021-04-27T15:23:00",
+      "guid": {
+        "rendered": "https://haproxy.use1.lgcy.prd.aws.chewy.cloud/eks/ns/pet-health/pet-health-content-backend/breed/akita/"
+      },
+      "modified": "2025-05-05T14:22:42",
+      "modified_gmt": "2025-05-05T14:22:42",
+      "slug": "akita",
+      "status": "publish",
+      "type": "breed",
+      "link": "https://phcms.hlth.prd.aws.chewy.cloud/breed/akita/",
+      "title": {
+        "rendered": "Akita"
+      },
+      "featured_media": 2861,
+      "template": "",
+      "pet_type": [],
+      "class_list": [
+        "post-1334",
+        "breed",
+        "type-breed",
+        "status-publish",
+        "has-post-thumbnail",
+        "hentry"
+      ],
+      "acf": {
+        "breed_snapshot_best_for": "\u003Cp\u003ELoyal and independent, Akitas are best for homes of any size with experienced pet parents who can provide long, daily walks and plenty of quality time. Consistent training and a committed pet parent contribute to a successful and loving Akita companionship.\u003C/p\u003E",
+        "alt_image_text": "\u003Cp\u003EAkitas are playful, loyal dogs who bond deeply with their family. Discover all the facts and information in our guide.\u003C/p\u003E",
+        "breed_intro": "If you secretly get excited when someone cancels plans or if you prefer the company of a few good friends over large social gatherings, then the Akita may be the dog for you. This \u003Ca href=\"https://www.chewy.com/education/dog/grooming/how-to-keep-house-cat-dog-hair-free\"\u003Efurry\u003C/a\u003E, independent, quiet breed is a bit of an introvert and would enjoy lying low on a Friday night just as much as you. A loyal breed, Akitas bond deeply with their family. And while not the most social, they prefer to show their softer side to those they love the most. But hey, who needs a big crowd when you have each other?",
+        "breed_related_products_product_card_set": null,
+        "breed_snapshot_temperament": "\u003Cp\u003EIntelligent, Introvert, Loyal\u003C/p\u003E",
+        "what_does_this_breed_look_like_weight": "\u003Cp\u003EMale: 100-130 pounds\u003C/p\u003E\u003Cp\u003EFemale: 70-100 pounds\u003C/p\u003E",
+        "what_does_this_breed_look_like_height": "\u003Cp\u003EMale: 26-28 inches\u003C/p\u003E\u003Cp\u003EFemale: 24-26 inches\u003C/p\u003E",
+        "breed_snapshot_life_expectancy": "\u003Cp\u003E10 to 14 years\u003C/p\u003E",
+        "breed_snapshot_maintenance_level": "\u003Cp\u003EHigh\u003C/p\u003E",
+        "breed_characteristics_friendliness": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_snapshot_coat_color": "\u003Cp\u003EBlack, Fawn, Red, White, Brown Brindle\u003C/p\u003E",
+        "breed_snapshot_shed_level": "\u003Cp\u003EVery High\u003C/p\u003E",
+        "in_article_video": null,
+        "breed_characteristics": "These traits are rated on a scale of 1-5 with 1 being the lowest and 5 being the highest. Remember: Dogs are individuals, and not all dogs, even those of the same breed, will exhibit all the same qualities.",
+        "breed_characteristics_exercise_needs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_health_issues": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_barking_tendencies": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_grooming_needs": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_shedding_level": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_training_needs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_kids": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_good_with_cats": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_good_for_apartments_small_homes": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_energy_level": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_with_other_dogs": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_playfulnesss": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_cold_weather": "\u003Cp\u003E1\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_warm_weather": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_for_first_time_parents": "\u003Cp\u003E1\u003C/p\u003E",
+        "how_do_i_look_card_image": 2860,
+        "what_does_this_breed_look_like": "Akitas display their courage and commitment through their proud stature. With tails curled high and ears alert, they're ready whenever you need them. These burly dogs can appear imposing when full-grown, weighing over 100 pounds. Their plush doublecoats have a wide range of 20 total colors, including black, brown, fawn, red, silver and white. Their coats can be solid-colored or mixed with brindle (fur streaked with brown or tan stripes) or pinto (large, evenly placed patches of color) markings. Some even have a mask on their faces, highlighting their intelligent eyes.",
+        "what_does_this_breed_look_like_ears": "\u003Cp\u003EAkitas' ears stand tall and alert. They're small in comparison to their head size, and they're shaped like rounded triangles.\u003C/p\u003E",
+        "what_does_this_breed_look_like_eyes": "\u003Cp\u003EAkitas' intelligent eyes are small and dark brown, with a triangle shape.\u003C/p\u003E",
+        "what_does_this_breed_look_like_nose": "\u003Cp\u003EThey have broad noses that are typically black but might be a lighter shade on some dogs.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_length": "\u003Cp\u003EAkitas are double-coated. Their thick fur is the longest around the withers (the highest point of the shoulder blade) and rump, measuring about two inches. The undercoat is soft and dense, while the outer coat is straight.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_color": "\u003Cp\u003EThe Akita comes in a variety of colors, including black, brown, fawn, red, silver and white. They may have brindle or pinto markings or \"masks\" on their faces.\u003C/p\u003E",
+        "what_does_this_breed_look_like_tail": "\u003Cp\u003EThey carry their tails high with a distinctive curl, often over their back. Their tails have longer fur but without a feathery plume seen in other dogs.\u003C/p\u003E",
+        "h2_breed_temperament": "Quiet and dignified, Akitas are loyal dogs who love spending time with their families. They're intelligent and fairly energetic, so they'd enjoy both mental and physical activities, like going on long walks together or solving doggy puzzles.\r\n\r\nSocial butterflies they are not. Akitas often feel cautious around strangers. Because of their more aloof personality, they'll benefit from extra socialization and training while growing up. Still, it's best to supervise them closely around other pets or young children, especially once your pup is fully grown. Akitas may actually do best as the only pet in a home without small children or babies around.\r\n\r\nOriginally bred to serve as guard dogs, Akitas have a strong bite force and will monitor what's going on in the home while they're spending time with you. A good pup parent will provide proper training and socialization to ensure their dog knows the difference between a foe and friend.",
+        "h2_how_to_care_for_a_breed": "Akitas thrive when they get lots of socialization as puppies so they can be well-adjusted, happy adult dogs. They need extra grooming when the seasons change but are surprisingly adept at keeping themselves clean. You'll want to be cautious if you're around strangers because they can be guarded and aloof. The good news is they'll adapt wonderfully to a small or large home\u003Cspan class=\"s1\"\u003E—\u003C/span\u003Eas long as they can expend their energy going outside with you every day.",
+        "grooming": "Akitas are so good at keeping themselves clean that some people compare their grooming habits to cats. Here are some grooming tips to keep in mind:\n\u003Cul\u003E\n \t\u003Cli\u003E\u003Cstrong\u003EBrushing:\u003C/strong\u003E For most of the year, these double-coated dogs only need to be brushed weekly, which is considerably less than many longer-haired dogs. As the seasons change, however, they experience seasonal coat blowing when they shed either their winter or summer undercoat. During these times, their undercoat will shed in large tufts about 10-times faster than normal. It's vital to \u003Ca href=\"https://www.chewy.com/education/dog/grooming/brushing-a-dog\"\u003Ebrush your Akita\u003C/a\u003E daily during this time, so you don't end up with fur scattered everywhere in your home. Look for \u003Ca href=\"https://www.chewy.com/f/dog-pin-brushes_c356_f70v83789\" target=\"_blank\" rel=\"noopener\"\u003Epin brushes\u003C/a\u003E, which can penetrate to the think undercoat. Outside of this time of year, grooming needs are more low-key.\u003C/li\u003E\n \t\u003Cli\u003E\u003Cstrong\u003EBathing and nail trimming:\u003C/strong\u003E Just like with any dog, you'll want to give your Akita an occasional \u003Ca href=\"https://www.chewy.com/education/dog/grooming/how-to-bathe-a-dog-step-by-step-tips-from-a-professional-groomer\"\u003Ebath\u003C/a\u003E and \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/guide-trimming-dogs-nails\"\u003Enail trim\u003C/a\u003E. A bath once a month should be sufficient, unless your Akita has played in the dirt or mud. Make that monthly bath \"spa time,\" and clip your pup's nails while you're at it. You'll know it's time to give them a trim when you hear that \"click-clacking\" on hard surfaces.\u003C/li\u003E\n \t\u003Cli\u003E\u003Cstrong\u003EDental care:\u003C/strong\u003E It's a good idea to \u003Ca href=\"https://www.chewy.com/education/dog/grooming/health-wellness-how-to-brush-your-dogs-teeth-live-to-tell-the-tale\"\u003Ebrush your Akita's teeth\u003C/a\u003E daily, so they don't develop plaque, tartar or other dental issues. Start brushing their teeth when they're a puppy, so they're used to the feeling. Your veterinarian can help teach you the best tooth-brushing methods. Be sure to take your dog to the vet for a professional teeth cleaning once a year.\u003C/li\u003E\n\u003C/ul\u003E",
+        "training": "Akitas are smart, independent dogs, so they take well to positive reinforcement \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/sit-stay-and-beyond-weve-got-the-essential-guide-to-basic-dog-obedience-training\"\u003Etraining\u003C/a\u003E in which you reward them for behaviors you like to see more of. However, their intelligence also means they might get bored if the training is too repetitive. It's important to keep training sessions short—just five minutes long or so—and fun. Have lots of patience and take things slow, figuring out what treats and other rewards motivate your Akita the most.\n\nMake sure you don't use any force-based methods when training your Akita. These powerful dogs tend to be wary and might react to being pushed too hard to do something. If you're not clear about how positive reinforcement works, ask a certified trainer to help you. Sometimes Akitas are so clever that a confident, experienced trainer is a better option if you want to have the most success.",
+        "diet_nutrition": "Akitas do well on high-quality commercial dog food. Look for one with the appropriate nutrition for their age and activity level. Choose a formula that fits their stage in life, whether your dog's a puppy, adult, or senior.\r\n\r\nYou also want to make sure you don't exercise your Akita too close to mealtime or let your Akita eat too quickly. Akitas can be at risk for gastric dilation and volvulus (GDV), which happens when their stomach twists on itself after becoming distended with gas. This can be serious and even require emergency surgery. \u003Ca href=\"https://www.chewy.com/b/slow-feeders-1424\" target=\"_blank\" rel=\"noopener\"\u003ESlower feeding\u003C/a\u003E and keeping exercise spaced out from mealtime can help. A good rule is to hold off exercising an hour or two before and after mealtimes.\r\n\r\nYour veterinarian can help you nail down a feeding chart to guide you on how much and how often to feed your Akita. It's always important to consult your veterinarian since they can help you pick the ideal food for your dog's individual needs.",
+        "exercise": "Akitas crave regular exercise, and they'll need more than the short walks you might take for a potty break. They love outdoor adventures and would be thrilled if they went for a long walk with you every day. In fact, their ideal day would include more than one walk that's at least 30 minutes long, whether it's a brisk stroll around the neighborhood or a more intense hike. But don't leave them alone in your backyard to fulfill their exercise needs. They really just want to be with you.\r\n\r\nAkitas are happiest with daily physical and mental activity, but this doesn't mean they need to play all the time. As long as they can get some exercise, they're content to be at home with you for the rest of their day.",
+        "ideal_environment": "Akitas can be perfectly happy living in a large home or a small apartment, as long as they get sufficient exercise. Since they tend to be hesitant around strangers, it's best if they live in a quieter home. If you have a lot of parties or people coming in and out all day, that's not the best environment for having an Akita dog as a pet. But if it's mostly just you and your family, they'll thrive and want to bond with you throughout the day.\r\n\r\nAkitas are loyal to their families, and an Akita raised with cats or socialized as a puppy may do well with a family's small pets and children. However, you'll still want to ensure children are taught how to interact with dogs, as well as supervise all their interactions to ensure everyone stays safe.\r\n\r\nIn general, Akitas thrive best in a home without young children, where they're the only pet and can bask in all your love and attention.",
+        "h2_breed_health": "\u003Cspan data-contrast=\"none\"\u003EAkita dogs have a life expectancy of 10-14 years, but the breed does have a few health issues you’ll want to watch for to give them the longest lifespan possible. The best preventive measure is working with an Akita breeder who screens for these issues. Ask to see the test results of the litter you’re considering. If you’re rescuing your Akita from a shelter, make sure you get a copy of the dog’s wellness check.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;201341983&quot;:0,&quot;335559738&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E&nbsp;\u003C/span\u003E\n\u003Cul\u003E\n \t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559684&quot;:-2,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"1\" data-aria-level=\"1\"\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/c_dg_hip_dysplasia\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EHip Dysplasia\u003C/span\u003E\u003C/b\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E: The Akita is a large breed in size and weight, so they are prone to hip dysplasia or other joint issues. Although hip dysplasia isn’t preventable, you can get your Akita’s hips tested. One of the key factors in reducing the effects of hip dysplasia is to keep your pup at a healthy weight. Ask your veterinarian if a \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/cat/food-and-nutrition/choosing-the-best-joint-supplements-for-dogs\"\u003E\u003Cspan data-contrast=\"none\"\u003Esupplement\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E like glucosamine would be helpful or if there are any exercises to help keep the dysplasia from affecting your dog’s quality of life.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;201341983&quot;:0,&quot;335559738&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E&nbsp;\u003C/span\u003E\u003C/li\u003E\n \t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559684&quot;:-2,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"2\" data-aria-level=\"1\"\u003E\u003Ca href=\"https://www.petmd.com/dog/condition/progressive-retinal-atrophy-in-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EProgressive Retinal Atrophy\u003C/span\u003E\u003C/b\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E: Akitas can have eye problems. PRA is a genetic condition that can cause affected dogs to go blind. Unfortunately, there’s no cure. If caught early, you can have more time to prepare for and adjust to the condition.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;201341983&quot;:0,&quot;335559738&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E&nbsp;\u003C/span\u003E\u003C/li\u003E\n \t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559684&quot;:-2,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"3\" data-aria-level=\"1\"\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/cardiovascular/c_dg_von_willebrand_disease\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EVon Willebrand Disease\u003C/span\u003E\u003C/b\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E: The Akita breed can develop von Willebrand Disease, a bleeding disorder where the blood doesn’t clot well. If the dog loses a significant amount of blood, a transfusion is often needed. Your veterinarian can test your dog for this and help you know what precautions need to be taken\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;201341983&quot;:0,&quot;335559738&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E&nbsp;\u003C/span\u003E\u003C/li\u003E\n \t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559684&quot;:-2,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"4\" data-aria-level=\"1\"\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/digestive/gastric-dilatation-volvulus-gdv-syndrome\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EGastric Dilation and Volvulus (GDV)\u003C/span\u003E\u003C/b\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E: GDV (otherwise known as \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/digestive/signs-and-symptoms-bloat-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Ebloat\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E) is a life-threatening condition that Akitas are more at risk for developing because of how deep and narrow their chests are. GDV occurs when the stomach is distended with gas and twists on itself. This is a medical emergency. If your pet is showing any signs of possible bloat, including dry-heaving, non-productive retching or abdominal distension, they should be seen by an emergency veterinarian immediately.&nbsp;&nbsp; \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;201341983&quot;:0,&quot;335559738&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E&nbsp;\u003C/span\u003E\u003C/li\u003E\n \t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559684&quot;:-2,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"5\" data-aria-level=\"1\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EImmune Disorders\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E: Akitas are prone to several immune system disorders, including \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/neurological/c_dg_myasthenia_gravis\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Emyasthenia gravis\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E. This can cause weakness and fatigue. Your veterinarian can help you determine the best treatment options.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;201341983&quot;:0,&quot;335559738&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E&nbsp;\u003C/span\u003E\u003C/li\u003E\n \t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559684&quot;:-2,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"6\" data-aria-level=\"1\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EEndocrine Disorders:\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E&nbsp;Akitas are prone to \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/endocrine/c_dg_hypothyroidism\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Ehypothyroidism\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E.&nbsp;This endocrine disease can cause weight loss, lethargy and hair loss but is typically easily managed with medication.&nbsp;\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;201341983&quot;:0,&quot;335559738&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E&nbsp;\u003C/span\u003E\u003C/li\u003E\n \t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559684&quot;:-2,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"7\" data-aria-level=\"1\"\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/skin/c_dg_sebaceous_adenitis\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003ESebaceous Adenitis\u003C/span\u003E\u003C/b\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E: Akitas can also develop skin-related immune disorders, like sebaceous adenitis, which can cause irritated skin, hair pigment changes and patchy hair loss. This can lead to skin infections if left untreated. Treatments range from omega-3 supplements and special shampoos to mineral baths and antibiotics. Talk to your veterinarian if you notice any symptoms.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;201341983&quot;:0,&quot;335559738&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E&nbsp;\u003C/span\u003E\u003C/li\u003E\n\u003C/ul\u003E",
+        "h2_breed_history": "The Akita's origin is from 17th century northern Japan when a banished nobleman was seeking to breed a loyal hunting dog. The Akita was bred to have characteristics that helped them hunt deer, boar and even local bears. The breed was close to extinction a few times; today, it's seen as a symbol of health and happiness in Japan.\r\n\r\nHelen Keller brought the first Akita to the United States after she was gifted one while visiting Japan in 1937. Although World War II slowed the breeds' introduction to the United States, some soldiers brought Akitas back with them when they returned home.\r\n\r\nThe Akita was officially recognized by the AKC in 1972 when the breed entered the AKC's Stud Book; they joined the Working group in 1973. (The dogs in this group were all bred to do specific jobs, like hunting or pulling sleds). Currently, there are two main types of Akitas: the more commonly known American Akita (or just Akita) and the Akitainu (meaning \"dog\"), also called the Japanese Akita. The AKC considers these two separate breeds: the Akita and the Japanese Akitainu.\r\n\r\nWhere is the best place to find Akita puppies today? You can find a list of reputable Akita breeders on the \u003Ca href=\"https://marketplace.akc.org/puppies/akita?breed=4&amp;page=1\" target=\"_blank\" rel=\"noopener\"\u003EAmerican Kennel Club's website\u003C/a\u003E. The average Akita price can be anywhere from $600 to nearly $2,000 for an Akita puppy, depending on the breeder, pedigree papers and any health or temperament screenings performed. An Akita puppy with prize-winning parents might even cost up to $4,000. Akita rescue organizations can also help you find a purebred, or you can check your local shelters for Akitas to adopt. You can also search \u003Ca href=\"https://www.chewy.com/g/dog-akita_ga1\" target=\"_blank\" rel=\"noopener\"\u003EChewy’s database of adoptable dogs\u003C/a\u003E in your area.",
+        "expert_attribution": "\u003Ci\u003EExpert input provided by veterinarian Dr. Georgina Ushi Phillips, DVM, who writes the \u003Ca href=\"https://notabully.org/\" target=\"_blank\" rel=\"noopener\"\u003ENot a Bully\u003C/a\u003E website.\u003C/i\u003E\r\n\r\n\u003Ci\u003E\u003Cspan data-contrast=\"auto\"\u003EBreed characteristic ratings provided by veterinarian Dr. Sarah J. Wooten, DVM, CVJ, a veterinarian at \u003C/span\u003E\u003C/i\u003E\u003Ca href=\"https://sheepdraw.com/\" target=\"_blank\" rel=\"noopener\"\u003E\u003Ci\u003E\u003Cspan data-contrast=\"none\"\u003ESheep Draw Veterinary Hospital\u003C/span\u003E\u003C/i\u003E\u003C/a\u003E\u003Ci\u003E\u003Cspan data-contrast=\"auto\"\u003E in Greeley, Colorado; dog trainer and behavior consultant Irith Bloom, CPDT-KSA, CBCC-KA, CDBC, owner of\u003C/span\u003E\u003C/i\u003E \u003Ca href=\"https://thesophisticateddog.com/\" target=\"_blank\" rel=\"noopener\"\u003E\u003Ci\u003E\u003Cspan data-contrast=\"none\"\u003EThe Sophisticated Dog, LLC\u003C/span\u003E\u003C/i\u003E\u003C/a\u003E\u003Ci\u003E\u003Cspan data-contrast=\"auto\"\u003E, in Los Angeles; and certified animal behavior consultant \u003C/span\u003E\u003C/i\u003E\u003Ca href=\"https://shojai.com/\" target=\"_blank\" rel=\"noopener\"\u003E\u003Ci\u003E\u003Cspan data-contrast=\"none\"\u003EAmy Shojai\u003C/span\u003E\u003C/i\u003E\u003C/a\u003E\u003Ci\u003E\u003Cspan data-contrast=\"auto\"\u003E, CABC, in Sherman, Texas.\u003C/span\u003E\u003C/i\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\r\n\r\n\u003Ci\u003E\u003Cspan data-contrast=\"none\"\u003EThe health content was medically reviewed by Chewy vets.\u003C/span\u003E\u003C/i\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\r\n\r\n&nbsp;",
+        "facebook_social_snippet_with_cta": "\u003Cp\u003EAkitas are an intelligent and playful breed, making loyal companions. Want to know if this popular dog is a good match for you? Our guide covers all the bases, from personality and temperament to proper grooming and health, and learn a little about their history.\u003C/p\u003E",
+        "species": "\u003Cp\u003EDog\u003C/p\u003E",
+        "h2_faqs": "\u003Ch3\u003EDo Akitas shed?\u003C/h3\u003E\nAkitas shed a lot when the season changes from warm to cold or vice versa. They need daily brushing during this time. But outside of this, you only need to brush your Akita about once a week.\n\u003Ch3\u003EAre Akitas good with kids?\u003C/h3\u003E\nAkitas are good with kids if they are well socialized and trained. But they need to be supervised around young children. They may misunderstand their play and try to intervene. Akitas are more well-mannered if they're raised around children and trained as a puppy, but it's best to closely supervise Akitas when they're with young kids and babies. You can also teach children how to properly interact with dogs.\n\u003Ch3\u003EWhat are the most popular Akita names?\u003C/h3\u003E\nSome of the most popular Akita names are Hiro, Yori, Yoshi, Sora, Kin, Michi, Sora, Hachiko, Tomy, Laila, Kimi, Natsumi, Yuzuki, Megumi, Jun, Akio, Taro and Kazuki. \u003Ca href=\"https://www.chewy.com/education/dog/general/top-dog-names\"\u003EGet more dog names\u003C/a\u003E.\n\u003Ch3\u003EWhat are the most common Akita mixes?\u003C/h3\u003E\nThe most common Akita mixes are:\n\u003Cul\u003E\n \t\u003Cli\u003EAkita-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/husky/\"\u003EHusky\u003C/a\u003E mix (Huskita)\u003C/li\u003E\n \t\u003Cli\u003EAkita-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/german-shepherd/\"\u003EGerman Shepherd\u003C/a\u003E mix (Akita Shepherd)\u003C/li\u003E\n \t\u003Cli\u003EAkita-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/american-pit-bull-terrier/\"\u003EAmerican Pit Bull Terrier\u003C/a\u003E mix (Akita Pit)\u003C/li\u003E\n \t\u003Cli\u003EAkita-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/labrador-retriever/\"\u003ELabrador\u003C/a\u003E mix (Labrakita)\u003C/li\u003E\n \t\u003Cli\u003EAkita-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/chow-chow/\"\u003EChow\u003C/a\u003E mix (Akita Chow)\u003C/li\u003E\n \t\u003Cli\u003EAkita-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/rottweiler/\"\u003ERottweiler\u003C/a\u003E mix (Akita Rottie)\u003C/li\u003E\n\u003C/ul\u003E\nNote: These are not purebred dogs but mixed breeds.",
+        "faq_items": [
+          {
+            "faq_title": "Do Akitas shed?",
+            "faq_content": "Akitas shed a lot when the season changes from warm to cold or vice versa. They need daily brushing during this time. But outside of this, you only need to brush your Akita about once a week."
+          },
+          {
+            "faq_title": "Are Akitas good with kids?",
+            "faq_content": "Akitas are good with kids if they are well socialized and trained. But they need to be supervised around young children. They may misunderstand their play and try to intervene. Akitas are more well-mannered if they're raised around children and trained as a puppy, but it's best to closely supervise Akitas when they're with young kids and babies. You can also teach children how to properly interact with dogs."
+          },
+          {
+            "faq_title": "What are the most popular Akita names?",
+            "faq_content": "Some of the most popular Akita names are Hiro, Yori, Yoshi, Sora, Kin, Michi, Sora, Hachiko, Tomy, Laila, Kimi, Natsumi, Yuzuki, Megumi, Jun, Akio, Taro and Kazuki. \u003Ca href=\"https://www.chewy.com/education/dog/general/top-dog-names\"\u003EGet more dog names\u003C/a\u003E."
+          },
+          {
+            "faq_title": "What are the most common Akita mixes?",
+            "faq_content": "The most common Akita mixes are:\r\n\u003Cul\u003E\r\n \t\u003Cli\u003EAkita-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/husky/\"\u003EHusky\u003C/a\u003E mix (Huskita)\u003C/li\u003E\r\n \t\u003Cli\u003EAkita-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/german-shepherd/\"\u003EGerman Shepherd\u003C/a\u003E mix (Akita Shepherd)\u003C/li\u003E\r\n \t\u003Cli\u003EAkita-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/american-pit-bull-terrier/\"\u003EAmerican Pit Bull Terrier\u003C/a\u003E mix (Akita Pit)\u003C/li\u003E\r\n \t\u003Cli\u003EAkita-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/labrador-retriever/\"\u003ELabrador\u003C/a\u003E mix (Labrakita)\u003C/li\u003E\r\n \t\u003Cli\u003EAkita-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/chow-chow/\"\u003EChow\u003C/a\u003E mix (Akita Chow)\u003C/li\u003E\r\n \t\u003Cli\u003EAkita-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/rottweiler/\"\u003ERottweiler\u003C/a\u003E mix (Akita Rottie)\u003C/li\u003E\r\n\u003C/ul\u003E\r\nNote: These are not purebred dogs but mixed breeds."
+          }
+        ],
+        "select_related_breeds": [
+          {
+            "selected_related_breed": 902,
+            "characteristic": "breed_characteristics_good_for_apartments_small_homes"
+          },
+          {
+            "selected_related_breed": 719,
+            "characteristic": "breed_characteristics_shedding_level"
+          },
+          {
+            "selected_related_breed": 690,
+            "characteristic": "breed_characteristics_training_needs"
+          },
+          {
+            "selected_related_breed": 969,
+            "characteristic": "breed_characteristics_sensitive_to_cold_weather"
+          },
+          {
+            "selected_related_breed": 376,
+            "characteristic": "breed_characteristics_playfulnesss"
+          },
+          {
+            "selected_related_breed": 1393,
+            "characteristic": "breed_characteristics_biting_tendencies"
+          }
+        ],
+        "enable_featured_gallery": [
+          "enable_featured_gallery"
+        ],
+        "featured_gallery_images": [3244, 1326, 1327, 1328, 1329, 1330]
+      },
+      "yoast_head": "\u003C!-- This site is optimized with the Yoast SEO plugin v23.8 - https://yoast.com/wordpress/plugins/seo/ --\u003E\n\u003Ctitle\u003EAkita Breed: Characteristics, Care &amp; Photos | Chewy\u003C/title\u003E\n\u003Cmeta name=\"description\" content=\"The Akita is a popular breed with many unique traits. Learn all about this loyal, intelligent dog in our complete Akita guide.\" /\u003E\n\u003Cmeta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" /\u003E\n\u003Clink rel=\"canonical\" href=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/akita/\" /\u003E\n\u003Cmeta property=\"og:locale\" content=\"en_US\" /\u003E\n\u003Cmeta property=\"og:type\" content=\"article\" /\u003E\n\u003Cmeta property=\"og:title\" content=\"Akita Breed: Characteristics, Care &amp; Photos | Chewy\" /\u003E\n\u003Cmeta property=\"og:description\" content=\"The Akita is a popular breed with many unique traits. Learn all about this loyal, intelligent dog in our complete Akita guide.\" /\u003E\n\u003Cmeta property=\"og:url\" content=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/akita/\" /\u003E\n\u003Cmeta property=\"og:site_name\" content=\"Chewy\" /\u003E\n\u003Cmeta property=\"article:modified_time\" content=\"2025-05-05T14:22:42+00:00\" /\u003E\n\u003Cmeta property=\"og:image\" content=\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/12/13154337/202104Breed-Hero-Akita.jpg\" /\u003E\n\t\u003Cmeta property=\"og:image:width\" content=\"1835\" /\u003E\n\t\u003Cmeta property=\"og:image:height\" content=\"1032\" /\u003E\n\t\u003Cmeta property=\"og:image:type\" content=\"image/jpeg\" /\u003E\n\u003Cmeta name=\"twitter:card\" content=\"summary_large_image\" /\u003E\n\u003Cscript type=\"application/ld+json\" class=\"yoast-schema-graph\"\u003E{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/akita/\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/akita/\",\"name\":\"Akita Breed: Characteristics, Care & Photos | Chewy\",\"isPartOf\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/akita/#primaryimage\"},\"image\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/akita/#primaryimage\"},\"thumbnailUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/12/13154337/202104Breed-Hero-Akita.jpg\",\"datePublished\":\"2021-04-27T15:23:00+00:00\",\"dateModified\":\"2025-05-05T14:22:42+00:00\",\"description\":\"The Akita is a popular breed with many unique traits. Learn all about this loyal, intelligent dog in our complete Akita guide.\",\"breadcrumb\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/akita/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://phcms.hlth.prd.aws.chewy.cloud/breed/akita/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/akita/#primaryimage\",\"url\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/12/13154337/202104Breed-Hero-Akita.jpg\",\"contentUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/12/13154337/202104Breed-Hero-Akita.jpg\",\"width\":1835,\"height\":1032,\"caption\":\"Akita\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/akita/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://phcms.hlth.prd.aws.chewy.cloud/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Akita\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/\",\"name\":\"Chewy\",\"description\":\"\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"}]}\u003C/script\u003E\n\u003C!-- / Yoast SEO plugin. --\u003E",
+      "yoast_head_json": {
+        "title": "Akita Breed: Characteristics, Care & Photos | Chewy",
+        "description": "The Akita is a popular breed with many unique traits. Learn all about this loyal, intelligent dog in our complete Akita guide.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://phcms.hlth.prd.aws.chewy.cloud/breed/akita/",
+        "og_locale": "en_US",
+        "og_type": "article",
+        "og_title": "Akita Breed: Characteristics, Care & Photos | Chewy",
+        "og_description": "The Akita is a popular breed with many unique traits. Learn all about this loyal, intelligent dog in our complete Akita guide.",
+        "og_url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/akita/",
+        "og_site_name": "Chewy",
+        "article_modified_time": "2025-05-05T14:22:42+00:00",
+        "og_image": [
+          {
+            "width": 1835,
+            "height": 1032,
+            "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/12/13154337/202104Breed-Hero-Akita.jpg",
+            "type": "image/jpeg"
+          }
+        ],
+        "twitter_card": "summary_large_image",
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/akita/",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/akita/",
+              "name": "Akita Breed: Characteristics, Care & Photos | Chewy",
+              "isPartOf": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/akita/#primaryimage"
+              },
+              "image": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/akita/#primaryimage"
+              },
+              "thumbnailUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/12/13154337/202104Breed-Hero-Akita.jpg",
+              "datePublished": "2021-04-27T15:23:00+00:00",
+              "dateModified": "2025-05-05T14:22:42+00:00",
+              "description": "The Akita is a popular breed with many unique traits. Learn all about this loyal, intelligent dog in our complete Akita guide.",
+              "breadcrumb": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/akita/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://phcms.hlth.prd.aws.chewy.cloud/breed/akita/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/akita/#primaryimage",
+              "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/12/13154337/202104Breed-Hero-Akita.jpg",
+              "contentUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/12/13154337/202104Breed-Hero-Akita.jpg",
+              "width": 1835,
+              "height": 1032,
+              "caption": "Akita"
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/akita/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://phcms.hlth.prd.aws.chewy.cloud/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Akita"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/",
+              "name": "Chewy",
+              "description": "",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            }
+          ]
+        }
+      },
+      "yoast_meta": {
+        "yoast_wpseo_title": "",
+        "yoast_wpseo_metadesc": "",
+        "yoast_wpseo_canonical": ""
+      },
+      "_links": {
+        "self": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed/1334",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/types/breed"
+          }
+        ],
+        "acf:attachment": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/1330"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/1329"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/1328"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/1327"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/1326"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/3244"
+          }
+        ],
+        "wp:featuredmedia": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/2861"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media?parent=1334"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "pet_type",
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/pet_type?post=1334"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ]

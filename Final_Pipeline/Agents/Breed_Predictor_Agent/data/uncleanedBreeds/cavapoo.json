@@ -1,0 +1,325 @@
+[
+    {
+      "id": 5083,
+      "date": "2025-04-11T16:49:17",
+      "date_gmt": "2025-04-11T16:49:17",
+      "guid": {
+        "rendered": "https://phcms.hlth.prd.aws.chewy.cloud/?post_type=breed&#038;p=5083"
+      },
+      "modified": "2025-06-04T17:16:45",
+      "modified_gmt": "2025-06-04T17:16:45",
+      "slug": "cavapoo",
+      "status": "publish",
+      "type": "breed",
+      "link": "https://phcms.hlth.prd.aws.chewy.cloud/breed/cavapoo/",
+      "title": {
+        "rendered": "Cavapoo"
+      },
+      "featured_media": 5085,
+      "template": "",
+      "pet_type": [],
+      "class_list": [
+        "post-5083",
+        "breed",
+        "type-breed",
+        "status-publish",
+        "has-post-thumbnail",
+        "hentry"
+      ],
+      "acf": {
+        "breed_snapshot_best_for": "\u003Cp\u003EWhat do you get when you cross a Miniature or Toy Poodle with a Cavalier King Charles Spaniel? The Cavapoo, a small, playful pup who always wants to be by your side. But take note: That cute coat needs a lot of TLC.\u003C/p\u003E",
+        "alt_image_text": "cavapoo",
+        "breed_intro": "\u003Cp\u003EWhat is a Cavapoo? This mixed breed is a cross between a \u003Ca href=\"https://www.chewy.com/education/dog-breeds/cavalier-king-charles-spaniel\"\u003ECavalier King Charles Spaniel\u003C/a\u003E and either a \u003Ca href=\"https://www.chewy.com/education/dog-breeds/miniature-poodle\"\u003EMiniature Poodle\u003C/a\u003E or \u003Ca href=\"https://www.chewy.com/education/dog-breeds/toy-poodle\"\u003EToy Poodle\u003C/a\u003E. Put ’em together, and you’ve got a small and affectionate companion for life.\u003C/p\u003E\r\n\u003Cp\u003EBring home a Cavapoo puppy and you’re guaranteed plenty of snuggles, as these dogs are known for forming deep attachments to their family. When you’re not cozying up on the couch, challenge your Cavapoo with \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/15-minute-games-to-play-with-dogs\"\u003Einteractive games\u003C/a\u003E and training exercises. You’ll be surprised by how bright this little dog can be!\u003C/p\u003E\r\n\u003Cp\u003EIn exchange for the cuddles, you’ll need to commit to regular at-home brushing and trips to the groomer so your Cavapoo’s curly hair stays free of mats and tangles. \u003C/p\u003E",
+        "breed_related_products_product_card_set": "",
+        "breed_snapshot_temperament": "\u003Cp\u003ESocial Butterfly, Cuddle Bug, Eager ot Please\u003C/p\u003E",
+        "what_does_this_breed_look_like_weight": "\u003Cp\u003E8–25 pounds\u003C/p\u003E",
+        "what_does_this_breed_look_like_height": "\u003Cp\u003E9–14 inches\u003C/p\u003E",
+        "breed_snapshot_life_expectancy": "\u003Cp\u003E12–15 years\u003C/p\u003E",
+        "breed_snapshot_maintenance_level": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_friendliness": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_snapshot_coat_color": "\u003Cp\u003ERed, Apricot, Blue, Black, Tan, White\u003C/p\u003E",
+        "breed_snapshot_shed_level": "\u003Cp\u003E2\u003C/p\u003E",
+        "in_article_video": null,
+        "breed_characteristics": "",
+        "breed_characteristics_exercise_needs": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_health_issues": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_barking_tendencies": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_grooming_needs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_shedding_level": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_training_needs": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_good_with_kids": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_cats": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_for_apartments_small_homes": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_energy_level": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_with_other_dogs": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_playfulnesss": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_cold_weather": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_warm_weather": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_for_first_time_parents": "\u003Cp\u003E4\u003C/p\u003E",
+        "how_do_i_look_card_image": 5087,
+        "what_does_this_breed_look_like": "\u003Cp\u003EA Cavapoo bears some physical characteristics of both Cavalier King Charles Spaniels and Poodles. There’s also no set breed standard, and the dogs—even Cavapoo puppies from the same litter—can look quite different depending on the genes they inherit from their parents.\u003C/p\u003E\r\n\u003Cp\u003EBut in general, Cavapoos have a curly coat like a Poodle with large, expressive eyes and floppy ears borrowed from the Spaniel family. Cavapoos descended from a Toy Poodle are typically smaller than those with Miniature Poodle heritage, and the dogs can come in a wide array of colors.\u003C/p\u003E",
+        "what_does_this_breed_look_like_ears": "\u003Cp\u003EA Cavapoo’s ears are typically long and folded over to frame their head.\u003C/p\u003E",
+        "what_does_this_breed_look_like_eyes": "\u003Cp\u003ECavapoo eyes are big and dark.\u003C/p\u003E",
+        "what_does_this_breed_look_like_nose": "\u003Cp\u003ETheir nose is round and can be black or brown.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_length": "\u003Cp\u003ETheir coat is typically long, and somewhere between wavy and curly.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_color": "\u003Cp\u003ECavs are typically white, black, and red, but Poodles come in a wide variety of coat colors. Because of this, Cavapoo puppies can range from apricot to blue to black, and red Cavapoos are fairly common.\u003C/p\u003E",
+        "what_does_this_breed_look_like_tail": "\u003Cp\u003EWhile often long, a naturally bobbed tail is also common with Cavapoo puppies.\u003C/p\u003E",
+        "h2_breed_temperament": "\u003Cp\u003ECavapoos are known for their gentle and affectionate personality. Erin Askeland, MSc, CPDT-KA, CBCC-KA, an animal health and behavior consultant at \u003Ca href=\"https://www.campbowwow.com/\" target=\"_blank\" rel=\"noopener\"\u003ECamp Bow Wow\u003C/a\u003E, says this breed is generally friendly and people-focused.\u003C/p\u003E\r\n\u003Cp\u003EThese companion dogs love to spend time with their human family members in leisure time, play, or \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/walking-with-dog\"\u003Ea walk outdoors\u003C/a\u003E. So don’t be surprised to discover your Cavapoo’s favorite spot to sit is in your lap or right by your side. \u003C/p\u003E\r\n\u003Cp\u003ESince the Cavapoo temperament is usually quite playful, these dogs make good companions for children—as long as you \u003Ca href=\"https://www.petmd.com/dog/general-health/how-to-teach-kids-to-interact-with-pets\" target=\"_blank\" rel=\"noopener\"\u003Eteach young children how to be gentle with a dog\u003C/a\u003E. A Cavapoo’s gentle demeanor and social personality also means these dogs often get along well with other pets—cats included.\u003C/p\u003E\r\n\u003Cp\u003EThis tight family bond can come with drawbacks, though, and Askeland says Cavapoos can develop \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/reducing-separation-anxiety-dog\"\u003Eseparation anxiety\u003C/a\u003E if they’re not prepared to handle being alone.\u003C/p\u003E\r\n\u003Cp\u003EShe encourages Cavapoo pet parents to “work with their dog early on to practice short periods of separation, both by leaving the home and being separate within the home.” It’s also important to meet your pup’s needs before leaving, so make sure your dog has had enough playtime, \u003Ca href=\"https://www.petmd.com/dog/general-health/ways-to-keep-dog-mentally-stimulated\" target=\"_blank\" rel=\"noopener\"\u003Emental enrichment\u003C/a\u003E, food, and potty time before you leave the house.\u003C/p\u003E",
+        "h2_how_to_care_for_a_breed": "\u003Cp\u003EThough Cavapoos are adaptable and happy-go-lucky pups, you still need to make sure you can provide basic care requirements before bringing one home.\u003C/p\u003E\r\n\u003Cp\u003ECavapoos need daily exercise and playtime, a healthy diet, routine veterinary care, and a commitment to training and socialization. Don’t overlook grooming, either—it’s essential for keeping a Cavapoo healthy.\u003C/p\u003E",
+        "grooming": "\u003Cul\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003ECoat care: \u003C/strong\u003E\u003Ca href=\"https://www.jessronagrooming.com/\" target=\"_blank\" rel=\"noopener\"\u003EJess Rona\u003C/a\u003E, a professional dog groomer in Los Angeles, advises Cavapoo pet parents to plan on monthly visits to a grooming salon for a bath, haircut, and nail trim. Keeping your dog’s long curls trimmed short makes at-home upkeep a lot easier for pet parents.\r\n\r\n\u003Cul\u003E\r\n\t\u003Cli\u003EBetween grooming appointments, \u003Ca href=\"https://www.chewy.com/education/dog/grooming/brushing-a-dog\"\u003Ebrush your dog at home\u003C/a\u003E a few times each week. A \u003Ca href=\"https://www.chewy.com/lil-pals-coated-tips-dog-slicker/dp/155279\"\u003Eslicker brush\u003C/a\u003E is a good choice for Cavapoo coats.\u003C/li\u003E\r\n\u003C/ul\u003E\r\n\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003EBathing: \u003C/strong\u003EYour Cavapoo will likely only need a bath during their grooming appointments—unless they \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/why-do-dogs-roll-in-poop\"\u003Eroll in something stinky or dirty\u003C/a\u003E.\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003EDental care: \u003C/strong\u003E\u003Ca href=\"https://www.chewy.com/education/dog/grooming/health-wellness-how-to-brush-your-dogs-teeth-live-to-tell-the-tale\"\u003EBrush your Cavapoo’s teeth\u003C/a\u003E every day with a \u003Ca href=\"https://www.chewy.com/petsmile-professional-natural-london/dp/229520\"\u003Edog-safe toothpaste\u003C/a\u003E. This is the best way to prevent \u003Ca href=\"https://www.chewy.com/education/cat/health-and-wellness/dental-disease-in-dogs\"\u003Edental disease\u003C/a\u003E, which small dogs are highly susceptible to.\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003EEar care: \u003C/strong\u003ECavapoos who have long ears like a Cavalier King Charles Spaniel require \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/how-do-you-clean-a-dogs-ears-follow-this-vet-approved-step-by-step-guide\"\u003Ediligent ear cleaning\u003C/a\u003E, Rona says. These floppy ears can easily become dirty, smelly, and infected. Ask your vet which \u003Ca href=\"https://www.petmd.com/dog/vet-verified/best-ear-cleaners-dogs\" target=\"_blank\" rel=\"noopener\"\u003Eear-cleaning product\u003C/a\u003E is best for your dog.\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003ENail care: \u003C/strong\u003E\u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/guide-trimming-dogs-nails\"\u003ETrim your dog’s nails\u003C/a\u003E if you hear them tip-tapping across the floor when they walk. Your groomer can do this at your monthly appointment, too.\u003C/li\u003E\r\n\u003C/ul\u003E",
+        "training": "\u003Cp\u003EMost Cavapoo dogs are eager and intelligent. They’re often a good fit for first-time pet parents because they want to make their family happy. So \u003Ca href=\"https://www.chewy.com/education/dog/new-dog/how-to-potty-train-your-dog-in-7-days\"\u003Ehouse training\u003C/a\u003E, \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/sit-stay-and-beyond-weve-got-the-essential-guide-to-basic-dog-obedience-training\"\u003Eobedience training\u003C/a\u003E, and learning new tricks all come quickly to this pup.\u003C/p\u003E\r\n\u003Cp\u003EBut like with every dog, consistency is important in your training efforts. Without patience and \u003Ca href=\"https://www.petmd.com/dog/behavior/how-to-train-a-dog-with-positive-reinforcement\" target=\"_blank\" rel=\"noopener\"\u003Epositive reinforcement\u003C/a\u003E, a Cavapoo may struggle to learn. Find what gets your dog excited, like a special treat or toy, and reward them for good behavior.\u003C/p\u003E\r\n\u003Cp\u003EWhen meeting new people, a Cavapoo is a social butterfly who relishes the opportunity for attention and affection. But even the \u003Ca href=\"https://www.chewy.com/education/dog/general/behavior-breeds-10-friendliest-dog-breeds\"\u003Efriendliest dog\u003C/a\u003E needs early and consistent socialization to be comfortable in different scenarios, so chat with your vet about \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/positively-trained-puppy-socialization-dos-and-donts\"\u003Ehow to socialize your puppy\u003C/a\u003E. This is just as important as training!\u003C/p\u003E",
+        "diet_nutrition": "\u003Cp\u003EAlong with grooming and training, food is a super important part of Cavapoo care. These pups need a high-quality dog food made for their life stage (\u003Ca href=\"https://www.petmd.com/dog/vet-verified/best-puppy-food\" target=\"_blank\" rel=\"noopener\"\u003Epuppy\u003C/a\u003E, \u003Ca href=\"https://www.petmd.com/dog/vet-verified/best-dog-food\" target=\"_blank\" rel=\"noopener\"\u003Eadult\u003C/a\u003E, or \u003Ca href=\"https://www.petmd.com/dog/vet-verified/best-senior-dog-food\" target=\"_blank\" rel=\"noopener\"\u003Esenior\u003C/a\u003E). Look for food that meets the \u003Ca href=\"https://www.petmd.com/dog/nutrition/What-Is-AAFCO-and-What-Does-It-Do\" target=\"_blank\" rel=\"noopener\"\u003EAAFCO’s nutritional standards\u003C/a\u003E.\u003C/p\u003E\r\n\u003Cp\u003EBut feeding your dog the right food is just one piece of the puzzle; you also need to make sure your Cavapoo is eating the right portions on the right schedule.\u003C/p\u003E\r\n\u003Cp\u003EUse your Cavapoo’s weight and the feeding guidelines for the dog food you choose to gauge how much you should feed your dog each day, then divide that daily total into meals. Don’t overfeed your dog; \u003Ca href=\"https://www.petmd.com/dog/conditions/digestive/obesity-dogs\" target=\"_blank\" rel=\"noopener\"\u003Eobesity\u003C/a\u003E can lead to health and mobility problems.\u003C/p\u003E\r\n\u003Cp\u003EMost adult Cavapoos do well with twice-daily feedings. Cavapoo puppies may need to eat more often to prevent \u003Ca href=\"https://www.petmd.com/dog/conditions/systemic/hypoglycemia-dogs\" target=\"_blank\" rel=\"noopener\"\u003Ehypoglycemia\u003C/a\u003E, so chat with your vet about what’s best.  \u003C/p\u003E\r\n\u003Cp\u003EAnd don’t forget that treats contribute to your dog’s daily calorie intake! \u003Ca href=\"https://www.chewy.com/b/training-treats-1550\"\u003ETraining treats\u003C/a\u003E and \u003Ca href=\"https://www.chewy.com/b/dental-treats-1539\"\u003Edental chews\u003C/a\u003E serve a purpose but can be a sneaky source of calories that add up quickly. Treats should not make up more than 10% of your Cavapoo’s daily calorie intake.\u003C/p\u003E",
+        "exercise": "\u003Cp\u003EWhile a Cavapoo enjoys a brisk walk around the block or romp in a fenced backyard, these pups don’t won’t need a marathon to tire them out. “They have moderate energy, so while \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/how-much-exercise-does-my-dog-need\"\u003Ethey require daily exercise\u003C/a\u003E and activity, they are also comfortable chilling at home,” says Askeland.\u003C/p\u003E\r\n\u003Cp\u003E\u003Ca href=\"https://www.petmd.com/dog/general-health/ways-to-keep-dog-mentally-stimulated\" target=\"_blank\" rel=\"noopener\"\u003EMental stimulation\u003C/a\u003E is just as important as exercise, and these smart dogs need the opportunity to problem-solve regularly. Use a \u003Ca href=\"https://www.chewy.com/nina-ottosson-by-outward-hound-brick/dp/961006\"\u003Epuzzle toy\u003C/a\u003E or set up dog-friendly games, like a scavenger hunt, to encourage your Cavapoo to use their brain.\u003C/p\u003E\r\n\u003Cp\u003EOther favorite Cavapoo pastimes include \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/how-to-teach-dog-to-fetch\"\u003Eplaying fetch\u003C/a\u003E, tug-of-war, neighborhood walks, \u003Ca href=\"https://www.chewy.com/b/puzzle-toys-games-2335\"\u003Efood puzzles\u003C/a\u003E, and \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/nose-work-training\"\u003Enose work\u003C/a\u003E.\u003C/p\u003E",
+        "ideal_environment": "\u003Cp\u003EIf you’re looking for an adaptable and easygoing dog breed, the Cavapoo is a great choice. They’re an excellent match for single people, bustling homes with kids, or an older adult looking for an affectionate companion.\u003C/p\u003E\r\n\u003Cp\u003EAs small and friendly dogs, Cavapoos do well in small homes and apartments with close-by neighbors they’ll be happy to meet. But be watchful for signs of separation anxiety. \u003Ca href=\"https://www.chewy.com/education/dog/new-dog/how-to-crate-train-a-puppy-a-step-by-step-guide-from-an-expert\"\u003ECrate training\u003C/a\u003E can help, but dogs with severe separation anxiety may need the help of a certified animal behaviorist.\u003C/p\u003E\r\n\u003Cp\u003EMake sure there’s room in your budget for monthly grooming sessions, too. Or, roll up your sleeves and handle their extensive grooming (which requires bathing, brushing, clipping the coat, and trimming their nails) on your own.\u003C/p\u003E",
+        "h2_breed_health": "\u003Cp\u003EThe typical Cavapoo lifespan is about 12–15 years. They’re usually healthy dogs, but they can experience a few conditions throughout their life.\u003C/p\u003E\r\n\u003Cul\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003EAllergies: \u003C/strong\u003EAllergies can affect Cavapoos, which may manifest as excessive itching, licking, or biting at the skin. Recurring \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/dog-ear-infection\"\u003Eear infections\u003C/a\u003E and \u003Ca href=\"https://www.petmd.com/dog/conditions/skin/skin-infections-dogs\" target=\"_blank\" rel=\"noopener\"\u003Eskin infections\u003C/a\u003E are also a sign of allergies. Talk to your vet if you’re concerned your Cavapoo may be allergic to something in their environment.\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003EHeart problems: \u003C/strong\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/cardiovascular/mitral-valve-disease-dogs\" target=\"_blank\" rel=\"noopener\"\u003EMitral valve disease\u003C/a\u003E is a heart condition that affects both Miniature Poodles and Cavalier King Charles Spaniels. This inherited condition can lead to poor blood circulation and, in time, \u003Ca href=\"https://www.petmd.com/dog/conditions/cardiovascular/c_multi_congestive_heart_failure_rt\" target=\"_blank\" rel=\"noopener\"\u003Econgestive heart failure\u003C/a\u003E. While there is no cure, it can be effectively managed for many years with medication and regular vet care. \u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003EPatellar luxation: \u003C/strong\u003ESmall dogs like the Cavapoo are at risk of \u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/luxating-patella-in-dogs\" target=\"_blank\" rel=\"noopener\"\u003Epatellar luxation\u003C/a\u003E, where the kneecap slips out of place. This can cause a limp and lead to arthritis. Severe patellar luxation might need surgery.\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003EEye conditions: \u003C/strong\u003EA Cavapoo’s big dark eyes are cute, but they can develop problems such as \u003Ca href=\"https://www.petmd.com/dog/condition/progressive-retinal-atrophy-in-dogs\" target=\"_blank\" rel=\"noopener\"\u003Eprogressive retinal atrophy (PRA)\u003C/a\u003E, \u003Ca href=\"https://www.petmd.com/dog/conditions/eyes/distichiasis-dogs\" target=\"_blank\" rel=\"noopener\"\u003Eextra eyelashes\u003C/a\u003E, \u003Ca href=\"https://www.petmd.com/dog/conditions/eyes/entropion-dogs-causes-symptoms-and-treatment\" target=\"_blank\" rel=\"noopener\"\u003Eentropion\u003C/a\u003E, \u003Ca href=\"https://www.petmd.com/dog/conditions/eyes/corneal-dystrophy-dogs-causes-symptoms-and-how-treat-it\" target=\"_blank\" rel=\"noopener\"\u003Ecorneal dystrophy\u003C/a\u003E, and \u003Ca href=\"https://www.petmd.com/dog/conditions/eye/c_dg_cataract\" target=\"_blank\" rel=\"noopener\"\u003Ecataracts\u003C/a\u003E. Be alert for changes in your dog’s eyes and talk to your vet if you notice something out of the ordinary.\u003C/li\u003E\r\n\u003C/ul\u003E\r\n\u003Cp\u003EConsider \u003Ca href=\"https://www.petmd.com/dog/general-health/insurance-for-dogs\" target=\"_blank\" rel=\"noopener\"\u003Epurchasing pet insurance\u003C/a\u003E to help with unexpected illnesses or health conditions.\u003C/p\u003E",
+        "h2_breed_history": "\u003Cp\u003EWhile it’s impossible to pinpoint the exact origin of the Cavapoo, these dogs have become increasingly popular with the rise of designer dog breeds that started in the 1990s.\u003C/p\u003E\r\n\u003Cp\u003EBy crossing a Cavalier King Charles Spaniel with a Poodle, breeders hope to combine the gentle and affectionate nature of the CKC Spaniel with the Poodle’s intelligence, playfulness, and low-allergen coat.\u003C/p\u003E\r\n\u003Cp\u003EIn the past few decades, different types of Cavapoo dogs have emerged:\u003C/p\u003E\r\n\u003Cul\u003E\r\n\t\u003Cli\u003EAn \u003Cstrong\u003EF1 Cavapoo\u003C/strong\u003E is a puppy bred from a Poodle and a Cavalier King Charles Spaniel.\u003C/li\u003E\r\n\t\u003Cli\u003EAn \u003Cstrong\u003EF1b Cavapoo\u003C/strong\u003E is a puppy bred from a Cavapoo and a Poodle parent. These dogs have stronger Poodle genes.\u003C/li\u003E\r\n\t\u003Cli\u003EAn \u003Cstrong\u003EF2 Cavapoo\u003C/strong\u003E is the offspring of two Cavapoos.\u003C/li\u003E\r\n\u003C/ul\u003E\r\n\u003Cp\u003EThe price for a Cavapoo puppy can vary significantly but is often between $1,500–$3,500. Factors like where you live, your chosen breeder, and whether your puppy is an F1, F1b, or F2 Cavapoo all play a part in the cost. You may also get lucky and find Cavapoo rescue dogs by searching your local shelter.\u003C/p\u003E",
+        "expert_attribution": "\u003Cp\u003EThis content was medically reviewed by Jo Cornett, DVM, Chewy veterinarian.\u003C/p\u003E",
+        "facebook_social_snippet_with_cta": "",
+        "species": "",
+        "h2_faqs": "",
+        "faq_items": [
+          {
+            "faq_title": "How big do Cavapoos get?",
+            "faq_content": "\u003Cp\u003EA full-grown Cavapoo’s size depends on whether they were bred from a Toy Poodle or a Miniature Poodle. Those with a Miniature Poodle parent will be slightly larger, but all Cavapoos typically stand 9–14 inches tall and weigh 8–25 pounds.\u003C/p\u003E"
+          },
+          {
+            "faq_title": "Are Cavapoos hypoallergenic?",
+            "faq_content": "\u003Cp\u003EYes, Cavapoos have a reputation for being \u003Ca href=\"https://www.chewy.com/education/hypoallergenic-dogs\"\u003Ehypoallergenic dogs\u003C/a\u003E. But it’s important to know that no dog is 100% hypoallergenic, as they contain allergens in their skin, urine, and saliva. Cavapoos who take after their CKC Spaniel side might also not be very allergy-friendly. \u003C/p\u003E"
+          },
+          {
+            "faq_title": "Do Cavapoos shed?",
+            "faq_content": "\u003Cp\u003EA Cavapoo generally sheds much less than most other dog breeds, especially if they have a Poodle’s curly coat.\u003C/p\u003E"
+          },
+          {
+            "faq_title": "Cavapoo vs. Cockapoo: What’s the difference?",
+            "faq_content": "\u003Cp\u003ECavapoos are a Cavalier King Charles Spaniel-Poodle mix. \u003Ca href=\"https://www.chewy.com/education/dog-breeds/cockapoo\"\u003ECockapoos\u003C/a\u003E, on the other hand, are a \u003Ca href=\"https://www.chewy.com/education/dog-breeds/cocker-spaniel\"\u003ECocker Spaniel\u003C/a\u003E-Poodle mix.\u003C/p\u003E"
+          }
+        ],
+        "select_related_breeds": [
+          {
+            "selected_related_breed": 3698,
+            "characteristic": "breed_characteristics_physical_appearance"
+          },
+          {
+            "selected_related_breed": 3590,
+            "characteristic": "breed_characteristics_physical_appearance"
+          },
+          {
+            "selected_related_breed": 1229,
+            "characteristic": "breed_characteristics_physical_appearance"
+          },
+          {
+            "selected_related_breed": 3572,
+            "characteristic": "breed_characteristics_physical_appearance"
+          },
+          {
+            "selected_related_breed": 4071,
+            "characteristic": "breed_characteristics_physical_appearance"
+          },
+          {
+            "selected_related_breed": 16344,
+            "characteristic": "breed_characteristics_physical_appearance"
+          }
+        ],
+        "enable_featured_gallery": [
+          "enable_featured_gallery"
+        ],
+        "featured_gallery_images": [5091, 5093, 5094, 5095, 5096, 5099]
+      },
+      "yoast_head": "\u003C!-- This site is optimized with the Yoast SEO plugin v23.8 - https://yoast.com/wordpress/plugins/seo/ --\u003E\n\u003Ctitle\u003ECavapoo Characteristics, Care &amp; Photos | Chewy\u003C/title\u003E\n\u003Cmeta name=\"description\" content=\"What is a Cavapoo? A friendly Cavalier King Charles Spaniel-Poodle mix. Learn whether a Cavapoo puppy or dog is right for you here.\" /\u003E\n\u003Cmeta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" /\u003E\n\u003Clink rel=\"canonical\" href=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/cavapoo/\" /\u003E\n\u003Cmeta property=\"og:locale\" content=\"en_US\" /\u003E\n\u003Cmeta property=\"og:type\" content=\"article\" /\u003E\n\u003Cmeta property=\"og:title\" content=\"Cavapoo Characteristics, Care &amp; Photos | Chewy\" /\u003E\n\u003Cmeta property=\"og:description\" content=\"What is a Cavapoo? A friendly Cavalier King Charles Spaniel-Poodle mix. Learn whether a Cavapoo puppy or dog is right for you here.\" /\u003E\n\u003Cmeta property=\"og:url\" content=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/cavapoo/\" /\u003E\n\u003Cmeta property=\"og:site_name\" content=\"Chewy\" /\u003E\n\u003Cmeta property=\"article:modified_time\" content=\"2025-06-04T17:16:45+00:00\" /\u003E\n\u003Cmeta property=\"og:image\" content=\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/04/11161350/1984000-2025-05-Breed-Hero-16-9-M-Cavapoo.jpg\" /\u003E\n\t\u003Cmeta property=\"og:image:width\" content=\"1835\" /\u003E\n\t\u003Cmeta property=\"og:image:height\" content=\"1032\" /\u003E\n\t\u003Cmeta property=\"og:image:type\" content=\"image/jpeg\" /\u003E\n\u003Cmeta name=\"twitter:card\" content=\"summary_large_image\" /\u003E\n\u003Cmeta name=\"twitter:label1\" content=\"Est. reading time\" /\u003E\n\t\u003Cmeta name=\"twitter:data1\" content=\"1 minute\" /\u003E\n\u003Cscript type=\"application/ld+json\" class=\"yoast-schema-graph\"\u003E{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/cavapoo/\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/cavapoo/\",\"name\":\"Cavapoo Characteristics, Care & Photos | Chewy\",\"isPartOf\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/cavapoo/#primaryimage\"},\"image\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/cavapoo/#primaryimage\"},\"thumbnailUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/04/11161350/1984000-2025-05-Breed-Hero-16-9-M-Cavapoo.jpg\",\"datePublished\":\"2025-04-11T16:49:17+00:00\",\"dateModified\":\"2025-06-04T17:16:45+00:00\",\"description\":\"What is a Cavapoo? A friendly Cavalier King Charles Spaniel-Poodle mix. Learn whether a Cavapoo puppy or dog is right for you here.\",\"breadcrumb\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/cavapoo/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://phcms.hlth.prd.aws.chewy.cloud/breed/cavapoo/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/cavapoo/#primaryimage\",\"url\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/04/11161350/1984000-2025-05-Breed-Hero-16-9-M-Cavapoo.jpg\",\"contentUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/04/11161350/1984000-2025-05-Breed-Hero-16-9-M-Cavapoo.jpg\",\"width\":1835,\"height\":1032,\"caption\":\"apricot cavapoo sitting on a blue background\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/cavapoo/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://phcms.hlth.prd.aws.chewy.cloud/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Cavapoo\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/\",\"name\":\"Chewy\",\"description\":\"\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"}]}\u003C/script\u003E\n\u003C!-- / Yoast SEO plugin. --\u003E",
+      "yoast_head_json": {
+        "title": "Cavapoo Characteristics, Care & Photos | Chewy",
+        "description": "What is a Cavapoo? A friendly Cavalier King Charles Spaniel-Poodle mix. Learn whether a Cavapoo puppy or dog is right for you here.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://phcms.hlth.prd.aws.chewy.cloud/breed/cavapoo/",
+        "og_locale": "en_US",
+        "og_type": "article",
+        "og_title": "Cavapoo Characteristics, Care & Photos | Chewy",
+        "og_description": "What is a Cavapoo? A friendly Cavalier King Charles Spaniel-Poodle mix. Learn whether a Cavapoo puppy or dog is right for you here.",
+        "og_url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/cavapoo/",
+        "og_site_name": "Chewy",
+        "article_modified_time": "2025-06-04T17:16:45+00:00",
+        "og_image": [
+          {
+            "width": 1835,
+            "height": 1032,
+            "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/04/11161350/1984000-2025-05-Breed-Hero-16-9-M-Cavapoo.jpg",
+            "type": "image/jpeg"
+          }
+        ],
+        "twitter_card": "summary_large_image",
+        "twitter_misc": {
+          "Est. reading time": "1 minute"
+        },
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/cavapoo/",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/cavapoo/",
+              "name": "Cavapoo Characteristics, Care & Photos | Chewy",
+              "isPartOf": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/cavapoo/#primaryimage"
+              },
+              "image": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/cavapoo/#primaryimage"
+              },
+              "thumbnailUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/04/11161350/1984000-2025-05-Breed-Hero-16-9-M-Cavapoo.jpg",
+              "datePublished": "2025-04-11T16:49:17+00:00",
+              "dateModified": "2025-06-04T17:16:45+00:00",
+              "description": "What is a Cavapoo? A friendly Cavalier King Charles Spaniel-Poodle mix. Learn whether a Cavapoo puppy or dog is right for you here.",
+              "breadcrumb": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/cavapoo/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://phcms.hlth.prd.aws.chewy.cloud/breed/cavapoo/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/cavapoo/#primaryimage",
+              "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/04/11161350/1984000-2025-05-Breed-Hero-16-9-M-Cavapoo.jpg",
+              "contentUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/04/11161350/1984000-2025-05-Breed-Hero-16-9-M-Cavapoo.jpg",
+              "width": 1835,
+              "height": 1032,
+              "caption": "apricot cavapoo sitting on a blue background"
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/cavapoo/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://phcms.hlth.prd.aws.chewy.cloud/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Cavapoo"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/",
+              "name": "Chewy",
+              "description": "",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            }
+          ]
+        }
+      },
+      "yoast_meta": {
+        "yoast_wpseo_title": "",
+        "yoast_wpseo_metadesc": "",
+        "yoast_wpseo_canonical": ""
+      },
+      "_links": {
+        "self": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed/5083",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/types/breed"
+          }
+        ],
+        "acf:attachment": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/5099"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/5096"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/5095"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/5094"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/5093"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/5091"
+          }
+        ],
+        "wp:featuredmedia": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/5085"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media?parent=5083"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "pet_type",
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/pet_type?post=5083"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ]

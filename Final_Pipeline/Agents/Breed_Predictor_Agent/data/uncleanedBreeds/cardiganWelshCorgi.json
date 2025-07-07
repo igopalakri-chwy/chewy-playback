@@ -1,0 +1,330 @@
+[
+    {
+      "id": 459,
+      "date": "2021-06-28T10:03:44",
+      "date_gmt": "2021-06-28T10:03:44",
+      "guid": {
+        "rendered": "https://haproxy.use1.lgcy.prd.aws.chewy.cloud/eks/ns/pet-health/pet-health-content-backend/breed/cardigan-welsh-corgi/"
+      },
+      "modified": "2025-05-05T14:21:34",
+      "modified_gmt": "2025-05-05T14:21:34",
+      "slug": "cardigan-welsh-corgi",
+      "status": "publish",
+      "type": "breed",
+      "link": "https://phcms.hlth.prd.aws.chewy.cloud/breed/cardigan-welsh-corgi/",
+      "title": {
+        "rendered": "Cardigan Welsh Corgi"
+      },
+      "featured_media": 3174,
+      "template": "",
+      "pet_type": [],
+      "class_list": [
+        "post-459",
+        "breed",
+        "type-breed",
+        "status-publish",
+        "has-post-thumbnail",
+        "hentry"
+      ],
+      "acf": {
+        "breed_snapshot_best_for": "\u003Cp\u003ECardigan Welsh Corgis are affectionate, vocal and playful pups known for their short legs and long, stocky frame. Their compact size makes them ideal for apartment dwellers, though they love having space to romp and family to frolic with. \u003C/p\u003E",
+        "alt_image_text": "\u003Cp\u003EThis brown and white Cardigan Welsh Corgi's exercise needs include running around in forests, woods or in parks over grass.\u003C/p\u003E",
+        "breed_intro": "Intelligent, fun-loving and adaptable, Cardigan Welsh Corgis are ideal pets for active families—with or without kids or other furry friends. Though short in stature, they were bred for herding and are surprisingly athletic dogs who enjoy \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/how-to-teach-dog-to-fetch\"\u003Eplaying fetch\u003C/a\u003E in the park (and have a big dog bark). When not romping around, the affectionate Cardigan Welsh Corgi is happy to sit by your side binge-watching your favorite shows. Plucky, playful and devoted, Cardis make excellent companions. ",
+        "breed_related_products_product_card_set": null,
+        "breed_snapshot_temperament": "\u003Cp\u003EFun-loving, Intelligent, Friendly\u003C/p\u003E",
+        "what_does_this_breed_look_like_weight": "\u003Cp\u003EMale: 30-38 pounds\u003C/p\u003E\u003Cp\u003EFemale: 25-34 pounds\u003C/p\u003E",
+        "what_does_this_breed_look_like_height": "\u003Cp\u003EMale: 10.5-12.5 inches\u003C/p\u003E\u003Cp\u003EFemale: 10.5-12.5 inches\u003C/p\u003E",
+        "breed_snapshot_life_expectancy": "\u003Cp\u003E12 to 15 years\u003C/p\u003E",
+        "breed_snapshot_maintenance_level": "\u003Cp\u003EHigh\u003C/p\u003E",
+        "breed_characteristics_friendliness": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_snapshot_coat_color": "\u003Cp\u003EBlack and White, Blue Merle and White, Brindle and White, Red and White, Sable and White\u003C/p\u003E",
+        "breed_snapshot_shed_level": "\u003Cp\u003EHigh\u003C/p\u003E",
+        "in_article_video": null,
+        "breed_characteristics": "These traits are rated on a scale of 1-5 with 1 being the lowest and 5 being the highest. Remember: Dogs are individuals, and not all dogs, even those of the same breed, will exhibit all the same qualities.",
+        "breed_characteristics_exercise_needs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_health_issues": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_barking_tendencies": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_grooming_needs": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_shedding_level": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_training_needs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_kids": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_cats": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_for_apartments_small_homes": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_energy_level": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_with_other_dogs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_playfulnesss": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_cold_weather": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_warm_weather": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_for_first_time_parents": "\u003Cp\u003E4\u003C/p\u003E",
+        "how_do_i_look_card_image": 3173,
+        "what_does_this_breed_look_like": "The Cardigan Welsh Corgi's short legs and long, stocky frame can be deceiving; these little dynamos can run with great agility and speed. Their fox-like faces look alert and gentle, and their bushy, low-set tails shoot up when they're excited. They have a confident bark. Coat colors range from shades of reds, brindles (subtle tiger stripes) and sables to blacks or blue merles (mottled colors)—typically with white markings and multi-hued patterns and shapes.",
+        "what_does_this_breed_look_like_ears": "\u003Cp\u003ECardigan Welsh Corgi ears are erect with slightly rounded tips and are large in proportion to their small size. \u003C/p\u003E",
+        "what_does_this_breed_look_like_eyes": "\u003Cp\u003ECardigan eyes are wide-set, moderately large and dark (blue merles can have blue eyes or one blue and one brown) with dark rims and a gentle, friendly expression.\u003C/p\u003E",
+        "what_does_this_breed_look_like_nose": "\u003Cp\u003EThe nose is black for all Cardigan colors, though blue merles can also sport patches of light pink.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_length": "\u003Cp\u003ECardigans are double-coated. They have a thick, medium-length outer coat that's slightly thicker near the ruff, thighs and tail. Their head and legs have soft, short undercoat hair. \u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_color": "\u003Cp\u003ETheir coat colors come in shades of red, sable and brindle, as well as black and blue merle. Patches of white are common on parts of the head, neck, chest, legs and tail. \u003C/p\u003E",
+        "what_does_this_breed_look_like_tail": "\u003Cp\u003EThe Cardigan Welsh Corgi breed has a thick, low-set and bushy tail.\u003C/p\u003E",
+        "h2_breed_temperament": "Cardigan Welsh Corgi dogs are incredibly loyal to and affectionate with their families. These fun-loving pups get along well with kids, other dogs, and even cats, provided they're properly socialized when they're puppies. As a herding breed, your Corgi may try to herd your kids and nip at their heels, so remember to supervise playtimes with kids and your pup.\r\n\r\nTheir energy levels fall somewhere in between couch potato and triathlete. Cardis are just as happy to snuggle with you on the couch as they are to play outside all day—just as long as their family keeps them company. These smart dogs need variety in their training and exercise routine to keep them from getting bored and deciding your shoes make great chew toys.\r\n\r\nCardigans may take a while to warm up to visitors. Introducing them to new people when they're puppies will help them warm up quickly to new friends as they grow up. And because these pups are big barkers, they'll let you know whenever someone comes to the door.",
+        "h2_how_to_care_for_a_breed": "Cardigan Welsh Corgis are relatively high maintenance. These good-humored charmers need a varied daily exercise routine, regular grooming and a lot of mental stimulation. A well-kept Cardi is a happy dog who will reward you with love and loyalty.",
+        "grooming": "Cardigan Welsh Corgis are double-coated with a thick and fluffy undercoat and smooth yet coarse outer coat that is surprisingly easy to maintain with consistent brushing. Although they are shedders, a good, once-a-week brushing, ideally with a top-quality \u003Ca href=\"https://www.chewy.com/f/slicker-brush-dog-brushes-combs_c356_f70v83792\"\u003Eslicker brush\u003C/a\u003E, will keep them looking healthy and clean. And they will shed more heavily in the spring and fall when they blow their coat. (They shed their coat in chunks of fur instead of many individual hairs.)\n\nCardigan coats also help regulate their body temperature, so haircuts should be kept to a minimum—except around the back of their legs and feet, where dirt tends to collect. While Cardigan Welsh Corgi grooming needs are relatively the same year-round, black-colored Cardis may need trims more regularly than their lighter-toned counterparts to avoid overheating during the warm summer months.\n\nDepending on how much time your Cardigan spends outdoors, their \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/guide-trimming-dogs-nails\"\u003Enails should be trimmed\u003C/a\u003E at least every couple of weeks. When you hear them clicking on hard surfaces, you'll know it's time for a trim. If you live near large, green spaces, you might need to bath them more often than that but don't worry, little Cardis love to swim, indoors or out.\n\nSmall dogs like Cardigans are more likely to get a dental disease than big dogs, so dental hygiene is extra important. Get crafty with toothpaste flavors and teeth-cleaning treats, \u003Ca href=\"https://www.chewy.com/education/dog/grooming/health-wellness-how-to-brush-your-dogs-teeth-live-to-tell-the-tale\"\u003Edaily brushings\u003C/a\u003E and annual vet cleaning to keep your Cardigan looking and feeling their best.",
+        "training": "The Cardigan Welsh Corgi breed is so intelligent and eager to please that training them is a walk in the park. But, great attitude aside, they need consistent incentives and exposure to many scenarios to remain well-behaved.\r\n\r\nWith the right motivation and positive reinforcement, training, preferably in fun games where the whole family participates, will teach your Cardigan Welsh Corgi puppy to sit, fetch and roll over—any trick you can think of short of making dinner.\r\n\r\nOf course, success depends on your dog's unique personality as some habits, such as excessive barking (a Cardigan specialty!), are hard to break even after months of trying. If all else fails, invest in a qualified trainer or behaviorist. Your Cardi, your ears and your neighbors will be glad you did.\r\n\r\nMake sure your Cardigan Welsh Corgi puppy is well-socialized, starting when they're young to bring out their friendly nature. Take them on walks and let them meet and sniff new two- and four-legged friends. Enroll them in puppy school, where they'll learn to play nicely with other puppies and meet new people.",
+        "diet_nutrition": "A healthy Cardigan Welsh Corgi diet consists of high-quality commercial dog food. Before buying, be sure to factor in your dog's age, lifestyle and stage in life (puppy, adult or senior) to pick the best dog food for them.\r\n\r\nCardigans are pickier eaters than their cousins, the \u003Ca href=\"https://www.chewy.com/education/dog-breeds/pembroke-welsh-corgi/\"\u003EPembroke Welsh Corgis\u003C/a\u003E, and may require higher percentages of protein, especially if not neutered or spayed. In addition, active dogs also need higher rates of fat in their dog food to avoid health issues in the future.\r\n\r\nKeep treats to a minimum, as their weight seems to skyrocket just by smelling them. Since Cardis resemble a loaf of bread with legs, it may be hard to notice if they've put on weight. So the rule of thumb is: If you can't feel their ribs or see a hint of waistline, it's time to cut back on their food.\r\n\r\nTo keep your dog in top form, consult with your veterinarian on a diet specific to your Cardigan Welsh Corgi. After all, they are in the best position to help you pick the right food for your dog based on their needs.",
+        "exercise": "Cardigans are highly adaptable to many lifestyles, but they need mental and physical stimulation to keep them healthy and out of trouble. Plan on about 45 minutes of exercise throughout the day. This is great if you enjoy taking long hikes in the hills or strolls on the beach. Cardis also enjoy snuggling up with you whenever possible.\r\n\r\nCardis love to exercise outdoors and excel in dog sports, including herding, rally and tracking, but they love being with their family more, so if you're not active, neither are they.\r\n\r\nIf time is limited, a great compromise is playing a rousing round of fetch in the yard or walking around town while running errands—new sights, smells and sounds add to their socialization training.",
+        "ideal_environment": "Raising Cardigan Welsh Corgis with kids and cats is a great idea, provided your Cardigan is socialized and enjoys such company. They also get along with most dogs and happily share their home and toys with a canine playmate.\r\n\r\nAdditionally, their versatile nature allows them to live in both urban and country environments. However, if they could choose, they'd prefer to live out their days on the farm where you'll likely find your Cardigan running and digging (arguably their favorite pastime) to their little heart's content.\r\n\r\nCardigans can be great companions for just about anyone with proper training, although they are best suited for good-humored pet parents prepared to take on a Cardi's quirks.",
+        "h2_breed_health": "Cardigan Welsh Corgis have a lifespan of 12 to 15 years and are unfortunately prone to a few health issues. But with proper care, knowledge and vet visits, you can help your pup live a long and happy life.\r\n\u003Cul\u003E\r\n \t\u003Cli\u003E\u003Cb\u003EIntervertebral Disc Disease (\u003Ca href=\"https://www.petmd.com/dog/conditions/neurological/c_dg_intervertebral_disc_disease\"\u003EIVDD\u003C/a\u003E)\u003C/b\u003E: IVDD is the result of a herniated disc and secondary pressure on the spinal cord. Symptoms may range from back pain and lethargy to trouble or inability to walk. Depending on the severity, treatments range from pain medication and laser therapy to emergency surgery. Dogs with short legs and long backs are at higher risk for IVDD. Pet parents may help decrease the risks of their pup having back issues by using stairs for the bed/couch and limiting high jumping.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Cb\u003EDegenerative Myelopathy (\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/degenerative-myelopathy-dogs\"\u003EDM\u003C/a\u003E)\u003C/b\u003E: This neurological condition affects the spinal cord of older dogs, causing progressive weakness of hind limbs and loss of coordination. Genetic screening testing is available, so be sure to ask your breeder.\u003Cb\u003E\u003C/b\u003E\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Cb\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/c_dg_hip_dysplasia\"\u003EHip\u003C/a\u003E and \u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/c_dg_elbow_dysplasia\"\u003EElbow\u003C/a\u003E Dysplasia\u003C/b\u003E: Dysplasia is when the joint isn't formed properly and rubs, causing the dog pain. Symptoms include lameness and \"bunny hopping.\" Treatments range from weight management to physical therapy to surgery. There is no genetic screening test for dysplasia, but breeders should work to remove it from their lines by not breeding affected dogs.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Cb\u003EProgressive Retinal Atrophy (\u003Ca href=\"https://www.petmd.com/dog/condition/progressive-retinal-atrophy-in-dogs\"\u003EPRA\u003C/a\u003E)\u003C/b\u003E: A dog with PRA gradually loses vision, often starting with night blindness. While PRA has no cure, dogs who lose sight can still lead happy lives. Genetic screening testing is available, so ask your breeder.\u003C/li\u003E\r\n \t\u003C/li\u003E\r\n\u003C/ul\u003E",
+        "h2_breed_history": "The Cardigan Welsh Corgi's history dates back to medieval times. As the oldest of two Corgi dog breeds and one of the oldest breeds in Britain, Cardigans are believed to have originated in 1200 B.C. when the Celts migrated with them from central Europe to Wales in the British Isles. Their name comes from the ancient kingdom of Cardiganshire and is a variation of the Celtic word for \"dog.\"\r\n\r\nThroughout their long history, Cardigans have been excellent herding dogs due to their small stature and agility, protective traits, and ability to nip at the heels of cattle. Nowadays, these little doggies spend their time running around, protecting their family from the dreaded mailman and, if they failed obedience school, nipping at the heels of children.\r\n\r\nDespite their differences, in Britain, Cardigans and Pembrokes, the favorite pup of Queen Elizabeth II, were considered a single breed until 1934. However, the first pair of Cardigans arrived in the U.S. in the early 1930s, and the American Kennel Club officially recognized them as a breed in 1935.\r\n\r\nSo, where is the best place to find the Cardigan Welsh Corgi dog breed today? You can find a list of reputable breeders at the \u003Ca href=\"https://www.akc.org/dog-breeds/cardigan-welsh-corgi/\" target=\"_blank\" rel=\"noopener\"\u003EAmerican Kennel Club's website\u003C/a\u003E. Cardigan prices average between $800 and $2,000, depending on the breeder. To adopt a pup, you can contact a Cardigan rescue organization, an animal shelter, or search \u003Ca href=\"https://www.chewy.com/g/dog-cardigan-welsh-corgi_ga1\"\u003EChewy’s database of adoptable dogs\u003C/a\u003E in your area.",
+        "expert_attribution": "\u003Cem\u003EExpert input provided by veterinarian and breeder Sara Austin, DVM who runs the Austin Veterinary Animal Hospital in Beaufort, N.C. and owner of \u003Ca href=\"https://saltycreekcardigans.wordpress.com/\"\u003ESalty Creek Cardigan Welsh Corgis\u003C/a\u003E and Amber Walker, KPA-CTP, zoologist, and owner of \u003Ca href=\"http://Aitrainers.com%20\"\u003EAnimal Intuitions\u003C/a\u003E. \u003C/em\u003E\r\n\r\n\u003Cem\u003EBreed characteristic ratings provided by veterinarian Dr. Sarah J. Wooten, DVM, CVJ, a veterinarian at \u003Ca href=\"https://sheepdraw.com/\" target=\"_blank\" rel=\"noopener\"\u003ESheep Draw Veterinary Hospital\u003C/a\u003E in Greeley, Colorado; dog trainer and behavior consultant Irith Bloom, CPDT-KSA, CBCC-KA, CDBC, owner of \u003Ca href=\"https://thesophisticateddog.com/\" target=\"_blank\" rel=\"noopener\"\u003EThe Sophisticated Dog, LLC\u003C/a\u003E, in Los Angeles; and certified animal behavior consultant \u003Ca href=\"https://shojai.com/\" target=\"_blank\" rel=\"noopener\"\u003EAmy Shojai\u003C/a\u003E, CABC, in Sherman, Texas. \u003C/em\u003E\r\n\r\n\u003Cem\u003EThe health content was medically reviewed by Chewy vets.\u003C/em\u003E",
+        "facebook_social_snippet_with_cta": "\u003Cp\u003ELoyal, fun-loving and smart as a whip, the Cardigan Welsh Corgi may very well be your ideal dog. Read our comprehensive guide on Cardigan types, their needs, wants and health issues and get the facts to know if this devoted pooch is right for you. \u003C/p\u003E",
+        "species": "\u003Cp\u003EDog\u003C/p\u003E",
+        "h2_faqs": "\u003Ch3\u003EDo Cardigan Welsh Corgis shed?\u003C/h3\u003E\r\nCardigan Welsh Corgis shed year-round, especially during their coat-blowing shedding season in the spring and fall. Still, it's not excessive compared to other short-legged breeds like the \u003Ca href=\"https://www.chewy.com/education/dog-breeds/basset-hound/\"\u003EBasset Hound\u003C/a\u003E. Keep it to a minimum with weekly brushings.\r\n\u003Ch3\u003EWhat is the difference between a Cardigan and a Pembroke Welsh Corgi?\u003C/h3\u003E\r\nThe most significant differences are physical; the Cardigan's tail is long (not docked), their ears are more prominent ears and they come in more color varieties than the Pembroke. Personality-wise, both are outgoing and love people, but the Cardigan may take a minute to warm up to strangers.\r\n\u003Ch3\u003EAre Cardigan Welsh Corgis good family dogs?\u003C/h3\u003E\r\nCardigans are excellent family dogs; they're intelligent, playful, and loyal to their loved ones. What more can you ask for?\r\n\u003Ch3\u003EShould I get a Cardigan or a Pembroke Welsh Corgi?\u003C/h3\u003E\r\nYour lifestyle and preferences will determine if you should get a Cardigan or a Pembroke Welsh Corgi. Pembrokes tend to be more outgoing and are always ready for a party. Cardigans are more reserved when meeting new people and take a bit to warm up.\r\n\u003Ch3\u003EWhat are the most popular Cardigan Welsh Corgi names?\u003C/h3\u003E\r\nSome of the most popular Cardigan Welsh Corgi names are Luna, Lucy, Charlie, Bella, Cooper, Daisy, Winston, Stella, Piper, Lola, Zoe, Willow, Milo, Millie, Bailey, Louie, Bear, Lily, Oliver, Max, Ellie, Bentley, Sophie, Dexter, Toby, Penny, Rocky, Molly, Loki and Sadie.\r\n\u003Ch3\u003EWhat are the most common Cardigan Welsh Corgi mixes?\u003C/h3\u003E\r\n\u003Cb\u003E\u003C/b\u003EThe most common Cardigan Welsh Corgi mixes are:\u003Cb\u003E\u003C/b\u003E\r\n\u003Cul\u003E\r\n \t\u003Cli\u003ECorgi-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/husky/\"\u003EHusky\u003C/a\u003E mix (Siborgi or Horgi)\u003C/li\u003E\r\n \t\u003Cli\u003ECorgi-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/german-shepherd/\"\u003EGerman Shepherd\u003C/a\u003E mix (Corman Shepherds or German Corgi)\u003C/li\u003E\r\n \t\u003Cli\u003ECorgi-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/Chihuahua/\"\u003EChihuahua\u003C/a\u003E mix (Chigi)\u003C/li\u003E\r\n \t\u003Cli\u003ECorgi-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/Golden-Retriever/\"\u003EGolden Retriever\u003C/a\u003E mix (Golden Retriever Corgi)\u003C/li\u003E\r\n \t\u003Cli\u003ECorgi-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/Dachshund/\"\u003EDachshund\u003C/a\u003E mix (Dorgi)\u003C/li\u003E\r\n\u003C/ul\u003E\r\nNote: These are not purebred dogs but mixed breeds.",
+        "faq_items": [
+          {
+            "faq_title": "Do Cardigan Welsh Corgis shed?",
+            "faq_content": "Cardigan Welsh Corgis shed year-round, especially during their coat-blowing shedding season in the spring and fall. Still, it's not excessive compared to other short-legged breeds like the \u003Ca href=\"https://www.chewy.com/education/dog-breeds/basset-hound/\"\u003EBasset Hound\u003C/a\u003E. Keep it to a minimum with weekly brushings."
+          },
+          {
+            "faq_title": "What is the difference between a Cardigan and a Pembroke Welsh Corgi?",
+            "faq_content": "The most significant differences are physical; the Cardigan's tail is long (not docked), their ears are more prominent ears and they come in more color varieties than the Pembroke. Personality-wise, both are outgoing and love people, but the Cardigan may take a minute to warm up to strangers."
+          },
+          {
+            "faq_title": "Are Cardigan Welsh Corgis good family dogs?",
+            "faq_content": "Cardigans are excellent family dogs; they're intelligent, playful, and loyal to their loved ones. What more can you ask for?"
+          },
+          {
+            "faq_title": "Should I get a Cardigan or a Pembroke Welsh Corgi?",
+            "faq_content": "Your lifestyle and preferences will determine if you should get a Cardigan or a Pembroke Welsh Corgi. Pembrokes tend to be more outgoing and are always ready for a party. Cardigans are more reserved when meeting new people and take a bit to warm up."
+          },
+          {
+            "faq_title": "What are the most popular Cardigan Welsh Corgi names?",
+            "faq_content": "Some of the most popular Cardigan Welsh Corgi names are Luna, Lucy, Charlie, Bella, Cooper, Daisy, Winston, Stella, Piper, Lola, Zoe, Willow, Milo, Millie, Bailey, Louie, Bear, Lily, Oliver, Max, Ellie, Bentley, Sophie, Dexter, Toby, Penny, Rocky, Molly, Loki and Sadie."
+          },
+          {
+            "faq_title": "What are the most common Cardigan Welsh Corgi mixes?",
+            "faq_content": "\u003Cb\u003E\u003C/b\u003EThe most common Cardigan Welsh Corgi mixes are:\u003Cb\u003E\u003C/b\u003E\r\n\u003Cul\u003E\r\n \t\u003Cli\u003ECorgi-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/husky/\"\u003EHusky\u003C/a\u003E mix (Siborgi or Horgi)\u003C/li\u003E\r\n \t\u003Cli\u003ECorgi-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/german-shepherd/\"\u003EGerman Shepherd\u003C/a\u003E mix (Corman Shepherds or German Corgi)\u003C/li\u003E\r\n \t\u003Cli\u003ECorgi-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/Chihuahua/\"\u003EChihuahua\u003C/a\u003E mix (Chigi)\u003C/li\u003E\r\n \t\u003Cli\u003ECorgi-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/Golden-Retriever/\"\u003EGolden Retriever\u003C/a\u003E mix (Golden Retriever Corgi)\u003C/li\u003E\r\n \t\u003Cli\u003ECorgi-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/Dachshund/\"\u003EDachshund\u003C/a\u003E mix (Dorgi)\u003C/li\u003E\r\n\u003C/ul\u003E\r\nNote: These are not purebred dogs but mixed breeds."
+          }
+        ],
+        "select_related_breeds": [
+          {
+            "selected_related_breed": 818,
+            "characteristic": "breed_characteristics_good_for_first_time_parents"
+          },
+          {
+            "selected_related_breed": 543,
+            "characteristic": "breed_characteristics_exercise_needs"
+          },
+          {
+            "selected_related_breed": 399,
+            "characteristic": "breed_characteristics_friendliness"
+          },
+          {
+            "selected_related_breed": 892,
+            "characteristic": "breed_characteristics_good_with_other_dogs"
+          },
+          {
+            "selected_related_breed": 1176,
+            "characteristic": "breed_characteristics_playfulnesss"
+          },
+          {
+            "selected_related_breed": 1134,
+            "characteristic": "breed_characteristics_good_for_apartments_small_homes"
+          }
+        ],
+        "enable_featured_gallery": [
+          "enable_featured_gallery"
+        ],
+        "featured_gallery_images": [458, 451, 452, 453, 454, 455]
+      },
+      "yoast_head": "\u003C!-- This site is optimized with the Yoast SEO plugin v23.8 - https://yoast.com/wordpress/plugins/seo/ --\u003E\n\u003Ctitle\u003ECardigan Welsh Corgi Breed: Characteristics, Care &amp; Photos | Chewy\u003C/title\u003E\n\u003Cmeta name=\"description\" content=\"Cardigan Welsh Corgis are fun-loving and loyal. Learn more about this short-legged breed and get expert advice on how best to care for them.\" /\u003E\n\u003Cmeta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" /\u003E\n\u003Clink rel=\"canonical\" href=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/cardigan-welsh-corgi/\" /\u003E\n\u003Cmeta property=\"og:locale\" content=\"en_US\" /\u003E\n\u003Cmeta property=\"og:type\" content=\"article\" /\u003E\n\u003Cmeta property=\"og:title\" content=\"Cardigan Welsh Corgi Breed: Characteristics, Care &amp; Photos | Chewy\" /\u003E\n\u003Cmeta property=\"og:description\" content=\"Cardigan Welsh Corgis are fun-loving and loyal. Learn more about this short-legged breed and get expert advice on how best to care for them.\" /\u003E\n\u003Cmeta property=\"og:url\" content=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/cardigan-welsh-corgi/\" /\u003E\n\u003Cmeta property=\"og:site_name\" content=\"Chewy\" /\u003E\n\u003Cmeta property=\"article:modified_time\" content=\"2025-05-05T14:21:34+00:00\" /\u003E\n\u003Cmeta property=\"og:image\" content=\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07144454/202106Breed-Hero-Cardigan-Welsh-Corgi.jpg\" /\u003E\n\t\u003Cmeta property=\"og:image:width\" content=\"1835\" /\u003E\n\t\u003Cmeta property=\"og:image:height\" content=\"1032\" /\u003E\n\t\u003Cmeta property=\"og:image:type\" content=\"image/jpeg\" /\u003E\n\u003Cmeta name=\"twitter:card\" content=\"summary_large_image\" /\u003E\n\u003Cscript type=\"application/ld+json\" class=\"yoast-schema-graph\"\u003E{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/cardigan-welsh-corgi/\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/cardigan-welsh-corgi/\",\"name\":\"Cardigan Welsh Corgi Breed: Characteristics, Care & Photos | Chewy\",\"isPartOf\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/cardigan-welsh-corgi/#primaryimage\"},\"image\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/cardigan-welsh-corgi/#primaryimage\"},\"thumbnailUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07144454/202106Breed-Hero-Cardigan-Welsh-Corgi.jpg\",\"datePublished\":\"2021-06-28T10:03:44+00:00\",\"dateModified\":\"2025-05-05T14:21:34+00:00\",\"description\":\"Cardigan Welsh Corgis are fun-loving and loyal. Learn more about this short-legged breed and get expert advice on how best to care for them.\",\"breadcrumb\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/cardigan-welsh-corgi/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://phcms.hlth.prd.aws.chewy.cloud/breed/cardigan-welsh-corgi/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/cardigan-welsh-corgi/#primaryimage\",\"url\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07144454/202106Breed-Hero-Cardigan-Welsh-Corgi.jpg\",\"contentUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07144454/202106Breed-Hero-Cardigan-Welsh-Corgi.jpg\",\"width\":1835,\"height\":1032,\"caption\":\"Cardigan Welsh Corgi\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/cardigan-welsh-corgi/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://phcms.hlth.prd.aws.chewy.cloud/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Cardigan Welsh Corgi\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/\",\"name\":\"Chewy\",\"description\":\"\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"}]}\u003C/script\u003E\n\u003C!-- / Yoast SEO plugin. --\u003E",
+      "yoast_head_json": {
+        "title": "Cardigan Welsh Corgi Breed: Characteristics, Care & Photos | Chewy",
+        "description": "Cardigan Welsh Corgis are fun-loving and loyal. Learn more about this short-legged breed and get expert advice on how best to care for them.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://phcms.hlth.prd.aws.chewy.cloud/breed/cardigan-welsh-corgi/",
+        "og_locale": "en_US",
+        "og_type": "article",
+        "og_title": "Cardigan Welsh Corgi Breed: Characteristics, Care & Photos | Chewy",
+        "og_description": "Cardigan Welsh Corgis are fun-loving and loyal. Learn more about this short-legged breed and get expert advice on how best to care for them.",
+        "og_url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/cardigan-welsh-corgi/",
+        "og_site_name": "Chewy",
+        "article_modified_time": "2025-05-05T14:21:34+00:00",
+        "og_image": [
+          {
+            "width": 1835,
+            "height": 1032,
+            "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07144454/202106Breed-Hero-Cardigan-Welsh-Corgi.jpg",
+            "type": "image/jpeg"
+          }
+        ],
+        "twitter_card": "summary_large_image",
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/cardigan-welsh-corgi/",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/cardigan-welsh-corgi/",
+              "name": "Cardigan Welsh Corgi Breed: Characteristics, Care & Photos | Chewy",
+              "isPartOf": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/cardigan-welsh-corgi/#primaryimage"
+              },
+              "image": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/cardigan-welsh-corgi/#primaryimage"
+              },
+              "thumbnailUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07144454/202106Breed-Hero-Cardigan-Welsh-Corgi.jpg",
+              "datePublished": "2021-06-28T10:03:44+00:00",
+              "dateModified": "2025-05-05T14:21:34+00:00",
+              "description": "Cardigan Welsh Corgis are fun-loving and loyal. Learn more about this short-legged breed and get expert advice on how best to care for them.",
+              "breadcrumb": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/cardigan-welsh-corgi/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://phcms.hlth.prd.aws.chewy.cloud/breed/cardigan-welsh-corgi/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/cardigan-welsh-corgi/#primaryimage",
+              "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07144454/202106Breed-Hero-Cardigan-Welsh-Corgi.jpg",
+              "contentUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07144454/202106Breed-Hero-Cardigan-Welsh-Corgi.jpg",
+              "width": 1835,
+              "height": 1032,
+              "caption": "Cardigan Welsh Corgi"
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/cardigan-welsh-corgi/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://phcms.hlth.prd.aws.chewy.cloud/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Cardigan Welsh Corgi"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/",
+              "name": "Chewy",
+              "description": "",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            }
+          ]
+        }
+      },
+      "yoast_meta": {
+        "yoast_wpseo_title": "",
+        "yoast_wpseo_metadesc": "",
+        "yoast_wpseo_canonical": ""
+      },
+      "_links": {
+        "self": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed/459",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/types/breed"
+          }
+        ],
+        "acf:attachment": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/455"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/454"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/453"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/452"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/451"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/458"
+          }
+        ],
+        "wp:featuredmedia": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/3174"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media?parent=459"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "pet_type",
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/pet_type?post=459"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ]

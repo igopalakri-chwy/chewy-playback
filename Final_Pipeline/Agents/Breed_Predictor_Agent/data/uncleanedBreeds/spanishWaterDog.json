@@ -1,0 +1,325 @@
+[
+    {
+      "id": 386,
+      "date": "2021-06-29T10:32:26",
+      "date_gmt": "2021-06-29T10:32:26",
+      "guid": {
+        "rendered": "https://haproxy.use1.lgcy.prd.aws.chewy.cloud/eks/ns/pet-health/pet-health-content-backend/breed/spanish-water-dog/"
+      },
+      "modified": "2025-05-05T14:21:27",
+      "modified_gmt": "2025-05-05T14:21:27",
+      "slug": "spanish-water-dog",
+      "status": "publish",
+      "type": "breed",
+      "link": "https://phcms.hlth.prd.aws.chewy.cloud/breed/spanish-water-dog/",
+      "title": {
+        "rendered": "Spanish Water Dog"
+      },
+      "featured_media": 385,
+      "template": "",
+      "pet_type": [],
+      "class_list": [
+        "post-386",
+        "breed",
+        "type-breed",
+        "status-publish",
+        "has-post-thumbnail",
+        "hentry"
+      ],
+      "acf": {
+        "breed_snapshot_best_for": "\u003Cp\u003ESpanish Water Dogs are loyal and versatile pups known for their love of play and adventure, especially if it involves—what else?—water. They thrive in active homes with experienced pet parents who love the great outdoors as much as they do.\u003C/p\u003E",
+        "alt_image_text": "Spanish Water Dog breed",
+        "breed_intro": "If you could combine a world-class athlete, a star student and a huggable stuffed toy, you'd get the Spanish Water Dog. Loyal, playful and brainy, this breed excels at everything—especially loving their families. In fact, these active pets adore their pet parents so much, you might think of naming yours \"Shadow,\" because they'll be right by your side, no matter where you are. Great if you're always on the go, Spanish Water Dogs want daily exercise and mental stimulation. Get ready to play fetch, swim and \u003Ca href=\"https://www.chewy.com/education/dog/general/ready-to-hit-the-hiking-trail-with-your-dog-heres-everything-you-need-to-know\"\u003Ehike\u003C/a\u003E—they'll love any adventure, as long as you're together.",
+        "breed_related_products_product_card_set": null,
+        "breed_snapshot_temperament": "\u003Cp\u003E Fun-loving, Sporty, Brainy \u003C/p\u003E",
+        "what_does_this_breed_look_like_weight": "\u003Cp\u003EMale:  40-49 pounds\u003C/p\u003E\u003Cp\u003EFemale: 31-40 pounds\u003C/p\u003E",
+        "what_does_this_breed_look_like_height": "\u003Cp\u003EMale: 17.5-19.75 inches\u003C/p\u003E\u003Cp\u003EFemale: 15.75-18 inches\u003C/p\u003E",
+        "breed_snapshot_life_expectancy": "\u003Cp\u003E12 to 14 years\u003C/p\u003E",
+        "breed_snapshot_maintenance_level": "\u003Cp\u003EMedium\u003C/p\u003E",
+        "breed_characteristics_friendliness": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_snapshot_coat_color": "\u003Cp\u003EBlack, Black and White, Brown, Brown and White, White w/Black Nose, White w/Brown Nose, Beige w/Black Nose, Beige w/Brown Nose, Beige and White w/Black Nose, Beige and White w/Brown Nose, White and Black, White and Brown, White and Beige w/Black Nose, White and Beige w/Brown Nose\u003C/p\u003E",
+        "breed_snapshot_shed_level": "\u003Cp\u003E Very Low\u003C/p\u003E",
+        "in_article_video": null,
+        "breed_characteristics": "These traits are rated on a scale of 1-5 with 1 being the lowest and 5 being the highest. Remember: Dogs are individuals, and not all dogs, even those of the same breed, will exhibit all the same qualities.",
+        "breed_characteristics_exercise_needs": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_health_issues": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_barking_tendencies": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_grooming_needs": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_shedding_level": "\u003Cp\u003E1\u003C/p\u003E",
+        "breed_characteristics_training_needs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_kids": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_with_cats": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_good_for_apartments_small_homes": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_energy_level": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_other_dogs": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_playfulnesss": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_cold_weather": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_warm_weather": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_for_first_time_parents": "\u003Cp\u003E2\u003C/p\u003E",
+        "how_do_i_look_card_image": 384,
+        "what_does_this_breed_look_like": "The Spanish Water Dog's expressive eyes may hide behind a curtain of curls, but their fun-loving nature always shines through. A medium-sized dog, they don't shed their woolly coat (much) and are usually colored rustic brown, black, white or mixed (parti-colored). Their webbed feet and muscular bodies make them good swimmers.",
+        "what_does_this_breed_look_like_ears": "\u003Cp\u003ESpanish Water Dog ears are drooping, triangular-shaped with slightly rounded tips. \u003C/p\u003E",
+        "what_does_this_breed_look_like_eyes": "\u003Cp\u003ESpanish Water Dog eyes have a slightly slanted shape and come in shades of brown, from hazel to dark chestnut.\u003C/p\u003E",
+        "what_does_this_breed_look_like_nose": "\u003Cp\u003EThey typically have noses that match or are slightly darker than the darkest color of their coats. Lighter dogs may have black or brown noses.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_length": "\u003Cp\u003EThe Spanish Water Dog's coat length is between one and five inches with a curly, woolly look and feel.   \u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_color": "\u003Cp\u003EThe Spanish Water Dog colors include shades of black, brown, beige, white or parti-color (brown, black or beige with white patches).\u003C/p\u003E",
+        "what_does_this_breed_look_like_tail": "\u003Cp\u003EThe AKC breed standard allows for the tail to be docked or undocked. Docking involves cutting a portion of the dog’s tail off when they are puppies. Veterinary groups along with many U.S. states and countries have banned this procedure due to medical and behavioral reasons. If you are interested in this procedure, schedule a consultation with your veterinarian. Some dogs are born with a bobbed tail.\u003C/p\u003E",
+        "h2_breed_temperament": "Affectionate, highly intelligent, loyal and playful, the Spanish Water Dog embodies pretty much all of the traits you'd hope to find in a BFF. And if you like to stay active, you're in luck—this dog's energy levels are sky-high. They need daily exercise, for long intervals, whenever possible. Otherwise, prepare yourself for sleepless nights as your woolly pet looks for ways to release their energy, like \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/training-tips-how-to-stop-destructive-chewing-in-dogs\"\u003Eusing your favorite pair of heels as their new chew toy\u003C/a\u003E.\n\nSpanish Water Dogs need \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/positively-trained-puppy-socialization-dos-and-donts\"\u003Esocialization\u003C/a\u003E, or exposure to all kinds of people and social scenarios, early on in their lives—it helps to curb their natural herding instincts and tendency to shy away from strangers.\n\nThey won't bark at every leaf that blows across your yard—we're looking at you, \u003Ca href=\"https://www.chewy.com/education/dog-breeds/cairn-terrier/\"\u003ECairn Terrier\u003C/a\u003E—but they will alert their family when people come to the front door or when they think something's not quite right, making them an effective watchdog. But a Spanish Water Dog's temperament is not aggressive, nor are they prone to bite.\n\nOriginally bred for high-intelligence tasks like herding and hunting, Spanish Water Dogs benefit from mental stimulation. Engage them in a game of hide-and-seek or searching for hidden treats, and they'll be even more enamored with you (a feat you might not have thought possible).\n\nThese dogs are happiest with an active job, whether it's dog sports, farm chores or finding their parent's keys. When not working, they'll match your energy. If you're always on your feet, they will be, too. If you are a couch potato, they'll be snuggled beside you.\n\nThese pups are eager to please, but they're intelligent and hard-working dogs, which means they know they're pretty smart and may think their way is better. This can often look like an unwillingness to follow your lead—a frustrating trait for a first-time dog parent. What the Spanish Water Dog needs is an experienced, gentle, confident and patient leader to guide them.",
+        "h2_how_to_care_for_a_breed": "The Spanish Water Dog breed may look like a happy-go-lucky Muppet with a ton of thick hair, but surprisingly, they don't need much grooming or bathing to keep them looking their best. But they do need plenty of daily activities and stimulation, a balanced diet, and regular nail trimming and teeth brushing to help keep them healthy for a lifetime.",
+        "grooming": "A Spanish Water Dog's grooming needs are surprisingly easy—even with all that hair, they rarely have a bad hair day. In fact, you should never brush this low-shedding dog. (We know—we could barely believe it either!) As their curly coat grows, they'll naturally form cords that look like dreadlocks. Check for tangles and ease them apart by hand to avoid matting. But matting is usually inevitable—once a year, have a professional groomer shear their coat to an inch all over their body to remove the mats.\n\nSpanish Water Dogs shouldn't be bathed more than once a month, and when you do bathe them, use a mild shampoo. Afterwards, it's best to let these pups dry naturally. Just blot their fur gently with a towel before letting them air dry. (You can let them wait it out in their crate to avoid letting them leave damp spots on your floor or furniture.)\n\nLike most dogs who love the outdoors and water, Spanish Water Dogs are prone to ear infections, so check their ears regularly for redness, swelling and debris. If you see anything unusual, contact your vet, who may advise you to \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/how-do-you-clean-a-dogs-ears-follow-this-vet-approved-step-by-step-guide\"\u003Eclean their ears\u003C/a\u003E.\n\nTheir teeth need \u003Ca href=\"https://www.chewy.com/education/dog/grooming/health-wellness-how-to-brush-your-dogs-teeth-live-to-tell-the-tale\"\u003Edaily brushing\u003C/a\u003E with a \u003Ca href=\"https://www.chewy.com/b/toothbrushes-2597\"\u003Eproper toothbrush\u003C/a\u003E and \u003Ca href=\"https://www.chewy.com/b/toothpastes-2598\"\u003Eflavored doggie toothpaste\u003C/a\u003E. (It's best to start from puppyhood, to help them get used to having their teeth brushed early.) Finally, keep their teeth in top form and avoid infections with annual teeth cleanings at the vet.",
+        "training": "Training a Spanish Water Dog can be fun—if you're willing to put in the work. These pups are intelligent and eager to please, but they can also be cheeky and are known to challenge commands. Confidence, consistency and patience are all essential for pet parents who are up to the task, so it's helpful to have experience training dogs before you add an Spanish Water Dog to your family.\n\nBe sure you teach your pup the basics of obedience, like \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-sit\" target=\"_blank\" rel=\"noopener\"\u003Esit\u003C/a\u003E, \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-stay\" target=\"_blank\" rel=\"noopener\"\u003Estay\u003C/a\u003E and \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-come\" target=\"_blank\" rel=\"noopener\"\u003Ecome\u003C/a\u003E and \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/leash-train-dog-2\" target=\"_blank\" rel=\"noopener\"\u003Ehow to walk nicely on a leash\u003C/a\u003E. These dogs love solving problems, and learning new tricks and commands scratch that itch. So, be sure to teach them fun commands, like \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/dog-commands-shake-a-paw\"\u003Eshake\u003C/a\u003E, play dead and \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/training-training-tips-how-to-teach-your-dog-to-roll-over\"\u003Eroll over\u003C/a\u003E, and use positive reinforcement techniques—praise, treats and playtimes with fun toys—as rewards for their efforts.\n\nSpanish Water Dogs need socialization, or exposure to all kinds of people and social scenarios, early on in their lives—it helps to curb their natural herding instincts and tendency to shy away from strangers. So yes, do bring your pet along while running errands, exploring the neighborhood and during your workout in the park. Before you know it, your Spanish Water Dog will be happily greeting new friends.\n\nUltimately, successful training depends on an individual Spanish Water Dog's personality and their pet parent's confidence level. If, after your best efforts at training, your dog still wants to test boundaries, invest in a \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/find-a-dog-trainer\"\u003Ecertified trainer\u003C/a\u003E or behaviorist and keep at it.",
+        "diet_nutrition": "Spanish Water Dogs typically do well on a diet of \u003Ca href=\"https://www.chewy.com/b/premium-food-11728\" target=\"_blank\" rel=\"noopener\"\u003Ehigh-quality commercial dog food\u003C/a\u003E. Be sure to factor in your dog's stage in life (puppy, adult or senior) when choosing what to feed them.\r\n\r\nSpanish Water Dogs are always on the move, but it's still important to keep an eye on their portion size when feeding them. Even with high-energy, active breeds like the Spanish Water Dog, weight can quickly pile on when meals or treats aren't monitored adequately. Even an extra pound or two can lead to health problems, like heart disease. If you notice your pup's gaining extra weight, chat with your vet. They can recommend an exercise and diet plan to help your pup lose the extra weight and still maintain their nutritional needs.\r\n\r\nConcerned about feeding your pup the right stuff? Consult with your veterinarian. They're in the best position to advise you about your dog's unique dietary needs.",
+        "exercise": "Some dogs could live in a shoebox and be perfectly content. The Spanish Water Dog is not one of those breeds. This active, multi-purpose dog is only a few generations removed from farm life, and they still feel the need for to show off their speed and agility. They're happiest when exercised often and given plenty of activities and mental stimulation games, so plan on about an hour of activity every day.\n\nBack in the day, this rustic breed could, among other tasks, herd farm animals, retrieve fowl and catch fish fallen from fishing boats. So, saying they are versatile is a bit of an understatement. For an Spanish Water Dog, alternating between mountain hiking, \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/how-to-teach-dog-to-fetch\"\u003Efetching\u003C/a\u003E in a lake and running in the park is right up their alley.\n\nNaturally, this pup is perfect for pet parents interested in dog sports (they're amazing at agility and rally). But despite their boundless energy, they can easily switch gears to enjoy quiet time at home.\n\nSpecial care is needed to keep eager Spanish Water Dog puppies from hurting themselves or becoming overworked while their bones and joints are growing. Avoid strenuous activities, like running or competitions, until they're fully mature, around 2 years old. Be sure to check in with your vet before starting new activities to make sure your pup's physically ready for the new endeavor.",
+        "ideal_environment": "The ideal pet parent for a Spanish Water Dog is one with a very active lifestyle—and we do mean \u003Ci\u003Every\u003C/i\u003E active, as in someone who hikes 20 miles for fun. Prospective Spanish Water Dog parents should also have a strong commitment to training their dog. Bonus points if you're interested in competitive dog sports, as this athletic pup excels at many tasks.\r\n\r\nThese pups aren't naturally social, so raising a Spanish Water Dog puppy with kids and other pets starts getting them used to being around others. Their playful nature makes them a good playmate for kids, but always be sure to supervise playtimes with kids and your dog. Not only will these medium-sized pups accidentally knock over smaller children during play, these are herding dogs, so without proper training, they're likely to want to herd kids (and may nip to get them where your dog wants them to go).\r\n\r\nThese sturdy dogs were bred to enjoy both hot and cold climates. And though Spanish Water Dogs can adapt to small apartments or homes, they'll need lots of space to move around. A home with a big yard or nearby large outdoor spaces—preferably near water—suits them best.",
+        "h2_breed_health": "Spanish Water Dogs have a life expectancy of 12 to 14 years, and they’re also prone to a few health issues. It’s good to know what those potential health problems may be in advance, so you can keep your puppy healthy for longer. Spanish Water Dogs were formally recognized relatively recently, in 2015, so breeders are still learning about potential health issues. If you’re concerned about the health of your dog, consult with your veterinarian or contact the official AKC parent club, \u003Ca href=\"https://www.swdclub.org/\" target=\"_blank\" rel=\"noopener\"\u003Ethe Spanish Water Dog Club of America\u003C/a\u003E.\r\n\u003Cul\u003E\r\n \t\u003Cli\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/c_dg_hip_dysplasia\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cstrong\u003EHip Dysplasia\u003C/strong\u003E\u003C/a\u003E: Hip dysplasia is an inherited condition affecting how the hip bones fit together, which causes the dog pain. Prevention and treatments for the condition include lifestyle changes, joint supplements, medication and, in more severe cases, surgery. There is no genetic screening testing for hip dysplasia, but reputable breeders will participate in OFA hip screening of their lines.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Cstrong\u003EOcular Conditions\u003C/strong\u003E: Spanish water dogs may be prone to eye conditions such as inherited eyelash development issues (\u003Ca href=\"https://www.petmd.com/dog/conditions/eyes/c_dg_trichiasis_distichiasis_ectopic_cilia\" target=\"_blank\" rel=\"noopener\"\u003Edistichiasis\u003C/a\u003E) or \u003Ca href=\"https://www.petmd.com/dog/conditions/eyes/c_dg_glaucoma\" target=\"_blank\" rel=\"noopener\"\u003Eglaucoma\u003C/a\u003E. If you notice eye symptoms like redness, cloudiness, discharge, bulging or pain, make an appointment to see your veterinarian right away.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Cstrong\u003E\u003Ca href=\"https://www.petmd.com/dog/condition/progressive-retinal-atrophy-in-dogs\" target=\"_blank\" rel=\"noopener\"\u003EProgressive Retinal Atrophy\u003C/a\u003E (PRA)\u003C/strong\u003E: PRA is a degenerative eye disease that can eventually lead to blindness. There is no treatment for PRA, but a dog can adjust to vision loss. Genetic screening testing is available for PRA so be sure to ask your breeder.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/endocrine/c_dg_hypothyroidism\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cstrong\u003EHypothyroidism\u003C/strong\u003E\u003C/a\u003E: This form of hypothyroidism called autoimmune thyroiditis means the body’s immune system attacks the thyroid gland. Symptoms include lethargy, hair loss and weight gain. Treatment is typically a daily oral medication. A much rarer form, congenital hypothyroidism with goiter (CHG), is also found in Spanish Water Dogs. It can be fatal and does not always respond to traditional hypothyroidism therapy. A genetic screening test is available so be sure to ask your breeder.\u003C/li\u003E\r\n\u003C/ul\u003E",
+        "h2_breed_history": "No one really knows where the Spanish Water Dog originated. Theories include Moors bringing them from North Africa to the Iberian Peninsula or Turkish traders introducing them to Spain through merchant boats. That may explain why the Spanish Water Dog is also known as an Andalucian Turk, with other nicknames including Perro de Agua Español (Spanish for \"Spanish Water Dog\"), Perro Turco (Turkish dog) or a Turco Andaluz (Turkish Andalusian), and they may be related to the \u003Ca href=\"https://www.chewy.com/education/dog-breeds/portuguese-water-dog/\" target=\"_blank\" rel=\"noopener\"\u003EPortuguese Water Dogs\u003C/a\u003E.\r\n\r\nOnce in Spain, country farmers used Spanish Water Dogs to drive herds to pasture and hunt and retrieve fowl. A third activity involved swimming to boats to retrieve fish and fishing tackle.\r\n\r\nWherever they came from, one thing is certain: This ancient breed is still a hardworking, multi-purpose herding dog.\r\n\r\nRecognized as a breed by the American Kennel Club in 2015, the Spanish Water Dog continues to find employment as sheepherders, retrievers and K-9 patrol dogs, thanks to their intelligence, agility and athleticism. They've also earned a reputation for being loyal companions.\r\n\r\nSo, where is the best place to find the Spanish Water Dog breed today? You can find a list of \u003Ca href=\"https://marketplace.akc.org/puppies/spanish-water-dog\" target=\"_blank\" rel=\"noopener\"\u003Ereputable breeders\u003C/a\u003E at the American Kennel Club's website. Depending on the breeder, the cost of a Spanish Water Dog averages between $1,500 to $2,500. For these prices, you're likely getting a Spanish Water Dog screened for temperament and health issues and possibly pedigree papers. You can also contact a Spanish WaterDog rescue organization to adopt a dog or scan your local animal shelters' listings for the breed.",
+        "expert_attribution": "\u003Ci\u003EExpert input provided by veterinarian Dr. Rachel Barrack, DVM, CVA, CVCH founder of concierge veterinary practice \u003Ca href=\"http://animalacupuncture.com/\"\u003EAnimal Acupuncture\u003C/a\u003E, Lisa Harper, AKC Breeder of Merit; SWD owner, breeder and competitor since 2000 and Amber Walker, KPA-CTP, zoologist, and owner of \u003Ca href=\"http://Aitrainers.com\"\u003EAnimal Intuitions\u003C/a\u003E. \u003C/i\u003E\r\n\r\n\u003Cem\u003EBreed characteristic ratings provided by veterinarian Dr. Sarah J. Wooten, DVM, CVJ, a veterinarian at \u003Ca href=\"https://sheepdraw.com/\" target=\"_blank\" rel=\"noopener\"\u003ESheep Draw Veterinary Hospital\u003C/a\u003E in Greeley, Colorado; dog trainer and behavior consultant Irith Bloom, CPDT-KSA, CBCC-KA, CDBC, owner of \u003Ca href=\"https://thesophisticateddog.com/\" target=\"_blank\" rel=\"noopener\"\u003EThe Sophisticated Dog, LLC\u003C/a\u003E, in Los Angeles; and certified animal behavior consultant \u003Ca href=\"https://shojai.com/\" target=\"_blank\" rel=\"noopener\"\u003EAmy Shojai\u003C/a\u003E, CABC, in Sherman, Texas.\u003C/em\u003E \r\n\r\n\u003Cem\u003EThe health content was medically reviewed by Chewy vets.\u003C/em\u003E \r\n\r\n\u003Ci\u003EPhoto credit for \"How do I look?\" by \u003Ca href=\"https://commons.wikimedia.org/wiki/File:Spanish_Water_dog.JPG\"\u003Ewikimedia.org\u003C/a\u003E\u003C/i\u003E",
+        "facebook_social_snippet_with_cta": "\u003Cp\u003ELoyal, lovable and bursting with energy, the Spanish Water Dog traits, types, qualities and history may very well make them the perfect pet for those always on the move. Our Spanish Water Dog guide has the information you need  to find out if this woolly dog is the right breed for you.  \u003C/p\u003E",
+        "species": "\u003Cp\u003EDog\u003C/p\u003E",
+        "h2_faqs": "\u003Ch3\u003EDo Spanish Water Dogs shed?\u003C/h3\u003E\r\nNo, Spanish Water Dogs do not shed a lot. This breed is both low-shed and low-dander.\r\n\u003Ch3\u003EAre Spanish Water Dog good family dogs?\u003C/h3\u003E\r\nSpanish Water Dogs can be good family dogs with proper socialization and training starting when they're puppies.\r\n\u003Ch3\u003EDo Spanish Water Dogs smell?\u003C/h3\u003E\r\nNo, Spanish Water Dogs are not naturally smelly dogs. They do have lots of energy, however, meaning they will likely play in mud, grass and dirt or take a dip in any body of water—murky or not—which can make them dirty and/or smelly.\r\n\u003Ch3\u003EAre Spanish Water Dogs smart?\u003C/h3\u003E\r\nSpanish Water Dogs are extremely smart. As herding dogs, they are alert, diligent and always looking to please. As a pet parent, you'll need to keep their minds busy with tasks and activities in order for the Spanish Water Dog breed to thrive.\r\n\u003Ch3\u003EAre Spanish Water Dogs rare?\u003C/h3\u003E\r\nYes, Spanish Water Dogs are considered a rare dog breed. In fact, there are only a handful of breeders in North America. Folks looking for a responsible breeder should refer to the \u003Ca href=\"https://www.swdclub.org/findingabreeder.html\" target=\"_blank\" rel=\"noopener\"\u003ESpanish Water Dog Club of America\u003C/a\u003E breeders list or find \u003Ca href=\"https://marketplace.akc.org/puppies/spanish-water-dog\" target=\"_blank\" rel=\"noopener\"\u003Ereputable breeders\u003C/a\u003E at the American Kennel Club.",
+        "faq_items": [
+          {
+            "faq_title": "Do Spanish Water Dogs shed?",
+            "faq_content": "No, Spanish Water Dogs do not shed a lot. This breed is both low-shed and low-dander."
+          },
+          {
+            "faq_title": "Are Spanish Water Dog good family dogs?",
+            "faq_content": "Spanish Water Dogs can be good family dogs with proper socialization and training starting when they're puppies."
+          },
+          {
+            "faq_title": "Do Spanish Water Dogs smell?",
+            "faq_content": "No, Spanish Water Dogs are not naturally smelly dogs. They do have lots of energy, however, meaning they will likely play in mud, grass and dirt or take a dip in any body of water—murky or not—which can make them dirty and/or smelly."
+          },
+          {
+            "faq_title": "Are Spanish Water Dogs smart?",
+            "faq_content": "Spanish Water Dogs are extremely smart. As herding dogs, they are alert, diligent and always looking to please. As a pet parent, you'll need to keep their minds busy with tasks and activities in order for the Spanish Water Dog breed to thrive."
+          },
+          {
+            "faq_title": "Are Spanish Water Dogs rare?",
+            "faq_content": "Yes, Spanish Water Dogs are considered a rare dog breed. In fact, there are only a handful of breeders in North America. Folks looking for a responsible breeder should refer to the \u003Ca href=\"https://www.swdclub.org/findingabreeder.html\" target=\"_blank\" rel=\"noopener\"\u003ESpanish Water Dog Club of America\u003C/a\u003E breeders list or find \u003Ca href=\"https://marketplace.akc.org/puppies/spanish-water-dog\" target=\"_blank\" rel=\"noopener\"\u003Ereputable breeders\u003C/a\u003E at the American Kennel Club."
+          }
+        ],
+        "select_related_breeds": [
+          {
+            "selected_related_breed": 386,
+            "characteristic": "breed_characteristics_physical_appearance"
+          },
+          {
+            "selected_related_breed": 248,
+            "characteristic": "breed_characteristics_exercise_needs"
+          },
+          {
+            "selected_related_breed": 266,
+            "characteristic": "breed_characteristics_shedding_level"
+          },
+          {
+            "selected_related_breed": 350,
+            "characteristic": "breed_characteristics_training_needs"
+          },
+          {
+            "selected_related_breed": 275,
+            "characteristic": "breed_characteristics_playfulnesss"
+          },
+          {
+            "selected_related_breed": 572,
+            "characteristic": "breed_characteristics_good_with_kids"
+          }
+        ],
+        "enable_featured_gallery": [
+          "enable_featured_gallery"
+        ],
+        "featured_gallery_images": [377, 378, 379, 380, 381, 382]
+      },
+      "yoast_head": "\u003C!-- This site is optimized with the Yoast SEO plugin v23.8 - https://yoast.com/wordpress/plugins/seo/ --\u003E\n\u003Ctitle\u003ESpanish Water Dog Breed: Characteristics, Care &amp; Photos | Chewy\u003C/title\u003E\n\u003Cmeta name=\"description\" content=\"Spanish Water Dogs are fun-loving, smart and full of energy. Read our guide to find out if this is the right pup for you.\" /\u003E\n\u003Cmeta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" /\u003E\n\u003Clink rel=\"canonical\" href=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/spanish-water-dog/\" /\u003E\n\u003Cmeta property=\"og:locale\" content=\"en_US\" /\u003E\n\u003Cmeta property=\"og:type\" content=\"article\" /\u003E\n\u003Cmeta property=\"og:title\" content=\"Spanish Water Dog Breed: Characteristics, Care &amp; Photos | Chewy\" /\u003E\n\u003Cmeta property=\"og:description\" content=\"Spanish Water Dogs are fun-loving, smart and full of energy. Read our guide to find out if this is the right pup for you.\" /\u003E\n\u003Cmeta property=\"og:url\" content=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/spanish-water-dog/\" /\u003E\n\u003Cmeta property=\"og:site_name\" content=\"Chewy\" /\u003E\n\u003Cmeta property=\"article:modified_time\" content=\"2025-05-05T14:21:27+00:00\" /\u003E\n\u003Cmeta property=\"og:image\" content=\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11163505/202106SpanishWaterDog-FeaturedImage.jpg\" /\u003E\n\t\u003Cmeta property=\"og:image:width\" content=\"1440\" /\u003E\n\t\u003Cmeta property=\"og:image:height\" content=\"865\" /\u003E\n\t\u003Cmeta property=\"og:image:type\" content=\"image/jpeg\" /\u003E\n\u003Cmeta name=\"twitter:card\" content=\"summary_large_image\" /\u003E\n\u003Cscript type=\"application/ld+json\" class=\"yoast-schema-graph\"\u003E{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/spanish-water-dog/\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/spanish-water-dog/\",\"name\":\"Spanish Water Dog Breed: Characteristics, Care & Photos | Chewy\",\"isPartOf\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/spanish-water-dog/#primaryimage\"},\"image\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/spanish-water-dog/#primaryimage\"},\"thumbnailUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11163505/202106SpanishWaterDog-FeaturedImage.jpg\",\"datePublished\":\"2021-06-29T10:32:26+00:00\",\"dateModified\":\"2025-05-05T14:21:27+00:00\",\"description\":\"Spanish Water Dogs are fun-loving, smart and full of energy. Read our guide to find out if this is the right pup for you.\",\"breadcrumb\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/spanish-water-dog/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://phcms.hlth.prd.aws.chewy.cloud/breed/spanish-water-dog/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/spanish-water-dog/#primaryimage\",\"url\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11163505/202106SpanishWaterDog-FeaturedImage.jpg\",\"contentUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11163505/202106SpanishWaterDog-FeaturedImage.jpg\",\"width\":1440,\"height\":865},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/spanish-water-dog/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://phcms.hlth.prd.aws.chewy.cloud/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Spanish Water Dog\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/\",\"name\":\"Chewy\",\"description\":\"\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"}]}\u003C/script\u003E\n\u003C!-- / Yoast SEO plugin. --\u003E",
+      "yoast_head_json": {
+        "title": "Spanish Water Dog Breed: Characteristics, Care & Photos | Chewy",
+        "description": "Spanish Water Dogs are fun-loving, smart and full of energy. Read our guide to find out if this is the right pup for you.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://phcms.hlth.prd.aws.chewy.cloud/breed/spanish-water-dog/",
+        "og_locale": "en_US",
+        "og_type": "article",
+        "og_title": "Spanish Water Dog Breed: Characteristics, Care & Photos | Chewy",
+        "og_description": "Spanish Water Dogs are fun-loving, smart and full of energy. Read our guide to find out if this is the right pup for you.",
+        "og_url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/spanish-water-dog/",
+        "og_site_name": "Chewy",
+        "article_modified_time": "2025-05-05T14:21:27+00:00",
+        "og_image": [
+          {
+            "width": 1440,
+            "height": 865,
+            "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11163505/202106SpanishWaterDog-FeaturedImage.jpg",
+            "type": "image/jpeg"
+          }
+        ],
+        "twitter_card": "summary_large_image",
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/spanish-water-dog/",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/spanish-water-dog/",
+              "name": "Spanish Water Dog Breed: Characteristics, Care & Photos | Chewy",
+              "isPartOf": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/spanish-water-dog/#primaryimage"
+              },
+              "image": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/spanish-water-dog/#primaryimage"
+              },
+              "thumbnailUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11163505/202106SpanishWaterDog-FeaturedImage.jpg",
+              "datePublished": "2021-06-29T10:32:26+00:00",
+              "dateModified": "2025-05-05T14:21:27+00:00",
+              "description": "Spanish Water Dogs are fun-loving, smart and full of energy. Read our guide to find out if this is the right pup for you.",
+              "breadcrumb": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/spanish-water-dog/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://phcms.hlth.prd.aws.chewy.cloud/breed/spanish-water-dog/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/spanish-water-dog/#primaryimage",
+              "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11163505/202106SpanishWaterDog-FeaturedImage.jpg",
+              "contentUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11163505/202106SpanishWaterDog-FeaturedImage.jpg",
+              "width": 1440,
+              "height": 865
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/spanish-water-dog/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://phcms.hlth.prd.aws.chewy.cloud/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Spanish Water Dog"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/",
+              "name": "Chewy",
+              "description": "",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            }
+          ]
+        }
+      },
+      "yoast_meta": {
+        "yoast_wpseo_title": "",
+        "yoast_wpseo_metadesc": "",
+        "yoast_wpseo_canonical": ""
+      },
+      "_links": {
+        "self": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed/386",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/types/breed"
+          }
+        ],
+        "acf:attachment": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/382"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/381"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/380"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/379"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/378"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/377"
+          }
+        ],
+        "wp:featuredmedia": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/385"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media?parent=386"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "pet_type",
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/pet_type?post=386"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ]

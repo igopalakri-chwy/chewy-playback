@@ -1,0 +1,325 @@
+[
+    {
+      "id": 738,
+      "date": "2021-06-14T09:23:45",
+      "date_gmt": "2021-06-14T09:23:45",
+      "guid": {
+        "rendered": "https://haproxy.use1.lgcy.prd.aws.chewy.cloud/eks/ns/pet-health/pet-health-content-backend/breed/pekingese/"
+      },
+      "modified": "2025-05-05T14:22:01",
+      "modified_gmt": "2025-05-05T14:22:01",
+      "slug": "pekingese",
+      "status": "publish",
+      "type": "breed",
+      "link": "https://phcms.hlth.prd.aws.chewy.cloud/breed/pekingese/",
+      "title": {
+        "rendered": "Pekingese"
+      },
+      "featured_media": 737,
+      "template": "",
+      "pet_type": [],
+      "class_list": [
+        "post-738",
+        "breed",
+        "type-breed",
+        "status-publish",
+        "has-post-thumbnail",
+        "hentry"
+      ],
+      "acf": {
+        "breed_snapshot_best_for": "\u003Cp\u003ESmall, smart and charming, Pekingese are best for experienced pet parents who can provide consistent training and socialization. These \"lion dogs\" prefer a quiet, low-key lifestyle and are a great choice for apartment or urban living.\u003C/p\u003E",
+        "alt_image_text": "\u003Cp\u003EThe Pekingese is a sassy dog who just wants your undying loyalty. Check out all the facts about this pup in our guide.\u003C/p\u003E",
+        "breed_intro": "The Pekingese is literally doggy royalty—and don't they know it! Bred to be companions to emperors, these little pups certainly understand the finer things in life. That includes quiet mornings for reflection. And if you wake them up early for a morning jog, they'll roll their eyes and go back to \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/best-dog-beds\"\u003Ebed\u003C/a\u003E. (Who gets up before the sun, anyway?) These feisty little pups know what they want, and they have no problem telling you, their favorite head of staff. But don't be fooled, being a pet parent to a Pekingese is plenty of fun—just be prepared to set out a few velvet cushions for your little monarch to lounge on.",
+        "breed_related_products_product_card_set": null,
+        "breed_snapshot_temperament": "\u003Cp\u003EStrong-Willed, Attention-Seekers, People-Oriented\u003C/p\u003E",
+        "what_does_this_breed_look_like_weight": "\u003Cp\u003EMale: up to 14 pounds\u003C/p\u003E\u003Cp\u003EFemale: up to 14 pounds\u003C/p\u003E",
+        "what_does_this_breed_look_like_height": "\u003Cp\u003EMale: 6-9 inches\u003C/p\u003E\u003Cp\u003EFemale: 6-9 inches\u003C/p\u003E",
+        "breed_snapshot_life_expectancy": "\u003Cp\u003E12 to 14 years\u003C/p\u003E",
+        "breed_snapshot_maintenance_level": "\u003Cp\u003EMedium\u003C/p\u003E",
+        "breed_characteristics_friendliness": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_snapshot_coat_color": "\u003Cp\u003EBiscuit, Black, Black and Tan, Cream, Fawn, Sable, Fawn Sable, Gray, Gray Sable, Red, Red Sable, White\u003C/p\u003E",
+        "breed_snapshot_shed_level": "\u003Cp\u003EHigh\u003C/p\u003E",
+        "in_article_video": null,
+        "breed_characteristics": "These traits are rated on a scale of 1-5 with 1 being the lowest and 5 being the highest. Remember: Dogs are individuals, and not all dogs, even those of the same breed, will exhibit all the same qualities.",
+        "breed_characteristics_exercise_needs": "\u003Cp\u003E1\u003C/p\u003E",
+        "breed_characteristics_health_issues": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_barking_tendencies": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_grooming_needs": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_shedding_level": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_training_needs": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_with_kids": "\u003Cp\u003E1\u003C/p\u003E",
+        "breed_characteristics_good_with_cats": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_for_apartments_small_homes": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_energy_level": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_good_with_other_dogs": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_playfulnesss": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_cold_weather": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_warm_weather": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_for_first_time_parents": "\u003Cp\u003E3\u003C/p\u003E",
+        "how_do_i_look_card_image": 736,
+        "what_does_this_breed_look_like": "The Pekingese lives up to their nickname \"lion dog,\" thanks to the impressive mane of dense hair around their neck. Aside from their mane, they also have naturally long hair that, unless trimmed short, entirely covers their compact and low-slung body, which is surprisingly heavy for their height. There's nothing dainty or delicate about a Pekingese. Another of their defining characteristics is their broad, flat head and soulful eyes that hints this ancient breed know just how to live life the way they have for centuries: in the lap of luxury.",
+        "what_does_this_breed_look_like_ears": "\u003Cp\u003EPekingese ears are heart-shaped and lie flat against the head. They are heavily feathered and fringed, framing the face and accentuating its shape.\u003C/p\u003E",
+        "what_does_this_breed_look_like_eyes": "\u003Cp\u003EPekingese eyes are very large, round and dark. The eyes should be bold but not bulging. They are set relatively far apart.\u003C/p\u003E",
+        "what_does_this_breed_look_like_nose": "\u003Cp\u003ETheir nose is broad and short—which gives them their characteristically smooshy faces—and is always black.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_length": "\u003Cp\u003EPekingese dogs have a long and dense coat. The outer coat has a coarse texture and the undercoat is softer. There is a distinct longer \"mane\" around the neck and shoulders, and the rest of the coat is shorter in comparison. A long and bountiful coat is desirable if it doesn't obscure the pup's shape. The thighs, forelegs and toes have long feathers.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_color": "\u003Cp\u003EPekingese come in 11 standard colors, from biscuit, black and gray to gray, red, fawn sable (color is darker at the tips) and more. Many dogs will also have a black mask.\u003C/p\u003E",
+        "what_does_this_breed_look_like_tail": "\u003Cp\u003EThe Pekingese tail is set high with a slight arch and should be free from kinks or curls. The tail is carried over the back and is covered with profuse fringing.\u003C/p\u003E",
+        "h2_breed_temperament": "Pekingese bond very strongly with their families, but they're less impressed with strangers. As a natural and observant watchdog, one of their qualities includes keeping a close eye on their surroundings. They will bark to let you know if anyone is approaching their kingdom, which they'll often take to include the whole neighborhood!\n\nThey're certainly not an aggressive breed, but they're not afraid to let people and other dogs know if they've overstepped the mark. They can live in a house with kids and babies but won't necessarily want to play with them. It's not that they don't like kids; they just don't know what to do with them. Pekingese are not as playful as some other dog breeds, like the \u003Ca href=\"https://www.chewy.com/education/dog-breeds/labrador-retriever/\"\u003ELabrador Retriever\u003C/a\u003E, and they'd rather chill with you on the couch. If you do have kids around, make sure they know how to interact with a dog in a gentle and appropriate manner. A Pekingese may nip if their patience is tested too often. They can also live with other pets, although they may not be tolerant of a playful kitten or bouncy puppy as they get older. Because of this, it's important to start socializing your puppy early, so they get used to being around kids and other animals.\n\nPekingese are incredibly charming, and they know how to use that to their advantage. They also have a huge amount of boldness and self-esteem—traits that stem from centuries of being revered by royalty. This, combined with their small size, means it can be tempting to slack off on training, but Pekingese need an experienced pet parent who understands the need for consistency so they don't fall into bad habits, like deciding \u003Ca href=\"https://www.chewy.com/education/dog/new-dog/how-to-potty-train-your-dog-in-7-days\"\u003Epotty training\u003C/a\u003E isn't important. Just because they can be more challenging to train than other breeds doesn't mean these dogs aren't intelligent. On the contrary, they're smart enough to train their humans—so watch out!\n\nThis breed adores spending time with their pet parents but will also happily spend a few hours on their own indoors. They can sometimes bond with one member of the family more than everyone else, and while they will be affectionate with all their family, their true devotion will be reserved for their chosen person.",
+        "h2_how_to_care_for_a_breed": "Pekingese expect to be waited on like the royal dogs they are. They might be small, but they need a decent amount of both grooming and training. They don't need much exercise, but they do expect (and demand) plenty of affection from their devoted pet parents. These little dogs are brachycephalic (which gives them their cute, smooshy faces) and need be in a cooler environment as they can easily overheat in hot weather.",
+        "grooming": "These little pups are pretty high maintenance when it comes to grooming. Here are some tips to keep in mind for your Pekingese:\n\u003Cul\u003E\n \t\u003Cli\u003E\u003Cstrong\u003EBrushing:\u003C/strong\u003E You should dedicate at least one hour a week to \u003Ca href=\"https://www.chewy.com/education/dog/grooming/brushing-a-dog\"\u003Ebrushing your dog's coat\u003C/a\u003E to keep it free from tangles and remove dead hair. You might decide to split this into smaller daily sessions. A \u003Ca href=\"https://www.chewy.com/f/slicker-brush-dog-brushes-combs_c356_f70v83792\" target=\"_blank\" rel=\"noopener\"\u003Eslicker brush\u003C/a\u003E plus a \u003Ca href=\"https://www.chewy.com/f/dog-deshedding-tools_c355_f70v83787\" target=\"_blank\" rel=\"noopener\"\u003Edeshedding tool\u003C/a\u003E will be your friend when it comes to grooming your Peke.\u003C/li\u003E\n \t\u003Cli\u003E\u003Cstrong\u003EHaircuts:\u003C/strong\u003E If you're not interested in dog shows, many pet parents opt to have their dog's coat trimmed (not short) to keep it more manageable. Bear in mind that giving a Peke a short haircut isn't recommended, as their double coat acts as insulation in both hot and cold weather. But a regular sesh with a professional groomer—a brush, bath and trim—about every four to six weeks can help keep your Peke's coat looking neat.\u003C/li\u003E\n \t\u003Cli\u003E\u003Cstrong\u003EBathing:\u003C/strong\u003E For most of the year, a \u003Ca href=\"https://www.chewy.com/education/dog/grooming/how-to-bathe-a-dog-step-by-step-tips-from-a-professional-groomer\"\u003Ebath\u003C/a\u003E once every month or two will help keep your dog's coat looking its best. During heavier shedding seasons (fall and spring), you may choose to bathe your Pekingese once a week or bi-weekly; it helps get rid of the dead hair.\u003C/li\u003E\n \t\u003Cli\u003E\u003Cstrong\u003ENail trimming:\u003C/strong\u003E As well as looking after your Peke's coat, you'll need to check their nails once a week. Trim or clean these as necessary. You'll know it's time to trim their nails when you hear them tapping on hard surfaces. \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/guide-trimming-dogs-nails\"\u003E(Get the how-to-here\u003C/a\u003E.)\u003C/li\u003E\n \t\u003Cli\u003E\u003Cstrong\u003EEar cleaning:\u003C/strong\u003E Check your Pekingese's ears once a week for \u003Cspan class=\"TextRun SCXW128104346 BCX0\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\u003E\u003Cspan class=\"NormalTextRun SCXW128104346 BCX0\"\u003Edebris and any redness or swelling. If you notice anything, speak to your vet. If your vet recommends at-home cleaning, follow this \u003C/span\u003E\u003C/span\u003E\u003Ca class=\"Hyperlink SCXW128104346 BCX0\" href=\"https://www.chewy.com/education/dog/health-and-wellness/how-do-you-clean-a-dogs-ears-follow-this-vet-approved-step-by-step-guide\" target=\"_blank\" rel=\"noreferrer noopener\"\u003E\u003Cspan class=\"TextRun Underlined SCXW128104346 BCX0\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\u003E\u003Cspan class=\"NormalTextRun SCXW128104346 BCX0\" data-ccp-charstyle=\"Hyperlink\"\u003Estep-by-step guide on how to clean dog ears\u003C/span\u003E\u003C/span\u003E\u003C/a\u003E\u003Cspan class=\"TextRun SCXW128104346 BCX0\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\u003E\u003Cspan class=\"NormalTextRun SCXW128104346 BCX0\"\u003E.\u003C/span\u003E\u003C/span\u003E\u003C/li\u003E\n \t\u003Cli\u003E\u003Cstrong\u003EDental care:\u003C/strong\u003E Pekingese dogs need their \u003Ca href=\"https://www.chewy.com/education/dog/grooming/health-wellness-how-to-brush-your-dogs-teeth-live-to-tell-the-tale\"\u003Eteeth brushed\u003C/a\u003E daily; this helps prevent them from getting gum disease or plaque. Starting this routine while your dog is still a puppy is a great idea, as it's much easier for them to accept it as part of their routine. Your dog will still need an annual dental cleaning by your vet. Pekingese often have an underbite, which you should ask your vet to monitor in case it causes any issues.\u003C/li\u003E\n\u003C/ul\u003E",
+        "training": "The sooner you can start training your Pekingese puppy, the better. This breed needs consistent training and guidance. Being born for palace life gets one used to, um, having one's own way and they may try to boss you around! Starting training while they're a puppy helps them understand you're the boss (applesauce) and will trust you as their leader.\n\nAs you train your pup, be sure to use positive reinforcement, a type of reward-based training that uses treats, praise and playtime with special toys, when your pup does a good job.\n\nPekes also need plenty of \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/positively-trained-puppy-socialization-dos-and-donts\"\u003Esocialization\u003C/a\u003E so they learn how to interact with strangers and other dogs. A great place to start is with puppy preschool. Here, puppies learn to play nicely with each other, and they get to meet new people.\n\nOne potential area of difficulty is \u003Ca href=\"https://www.chewy.com/education/dog/new-dog/how-to-potty-train-your-dog-in-7-days\"\u003Epotty training\u003C/a\u003E. Sometimes small dogs are just harder to potty train. Diminutive pups have small bladders and need to go out more frequently, and their cues aren't as obvious as, say, a \u003Ca href=\"https://www.chewy.com/education/dog-breeds/labrador-retriever/\"\u003ELabrador's\u003C/a\u003E. As with all training, consistency is the key. Be sure to take your pup out about 20 minutes after every meal and reward them when they potty outside. (You'll want to use the same cue words, like \"let's go potty,\" so they start to learn what it means.)\n\n\u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/positively-trained-how-to-make-crate-training-easy-for-your-pet-and-you\"\u003ECrate training\u003C/a\u003E is a great way to help potty train your puppy. Dogs like to keep their \"dens\" clean, and a crate that's just the right size mimics that den-like feel. Find a \u003Ca href=\"https://www.chewy.com/b/crates-kennels-369\" target=\"_blank\" rel=\"noopener\"\u003Ecrate\u003C/a\u003E that falls within the \"Goldilocks\" zone: not too small and not too large. You want a crate with enough room they can turn around in, not one so large your puppy chooses to use one end as a bathroom.\n\nWorking with a \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/find-a-dog-trainer\"\u003Ecertified dog trainer\u003C/a\u003E can help you find the techniques you need to get the best results with this independent and strong-willed breed. These little pups might be more of a challenge to train than other breeds, but that doesn't mean they're not smart. Training a Pekingese is not the same as working with an enthusiastic and eager-to-please \u003Ca href=\"https://www.chewy.com/education/dog-breeds/golden-retriever/\"\u003EGolden Retriever\u003C/a\u003E, so while Pekingese may be suited for an experienced person, they'll do well with a first-time pup parent who's confident in their training abilities and understands the need for consistency.",
+        "diet_nutrition": "Pekingese dogs usually do well on a high-quality, complete and balanced commercial dog food. Make sure you choose a formula for your \u003Ca href=\"https://www.chewy.com/education/dog/food-and-nutrition/the-ages-and-stages-of-dog-food-from-puppy-to-adult-to-senior\"\u003Edog's specific life stage\u003C/a\u003E (puppy, adult, senior), and look for a statement on the bag that says it meets the nutritional standards established by the \u003Ca href=\"https://www.aafco.org/\" target=\"_blank\" rel=\"noopener\"\u003EAssociation of American Feed Control Officials\u003C/a\u003E (AAFCO).\n\nThe small size of this breed means it can be very easy for them to put on weight. Avoid feeding fatty table scraps and make sure all those dog treats you dole out during training are accounted for when you're working out how much to feed your pup every day. If your pup is packing on the pounds, your vet may recommend you feed a \u003Ca href=\"https://www.chewy.com/f/weight-control-dry-dog-food_c294_f3v9080\" target=\"_blank\" rel=\"noopener\"\u003Eweight-control dog food\u003C/a\u003E with reduced calories but still containing all the nutrition your dog needs.\n\nIf you're not sure where to start, it's always best to ask your vet for advice. They can help you choose the best food for your dog based on their unique requirements.",
+        "exercise": "With their lower energy level and exercise needs, Pekingese lead a pretty sedentary lifestyle. They're much happier sitting—preferably on their velvet cushion—and watching the world go by (with the odd bark when necessary) than running around with the other dogs. But they still need exercise and will benefit from a short walk around 20 to 30 minutes every day.\r\n\r\nSome Pekes may enjoy joining in dog sports like agility but don't expect them to win any prizes for speed, in part due to their characteristic \"rolling\" gait. This breed takes life at their own pace and won't be rushed. On hot or humid days, it's best to keep your dog inside an air-conditioned home or take your walks in the cooler parts of the day; they don't cope well with hot weather due to their short muzzles. If you're looking for an active breed to accompany you on hikes, runs or long walks, the Pekingese is likely not the dog for you. (Check out the \u003Ca href=\"https://www.chewy.com/education/dog-breeds/husky/\"\u003EHusky\u003C/a\u003E or \u003Ca href=\"https://www.chewy.com/education/dog-breeds/dalmatian/\"\u003EDalmatian\u003C/a\u003E.)",
+        "ideal_environment": "The Pekingese is a great choice for apartment or urban living, thanks to their small size and low exercise needs. They're incredibly devoted to their pet parents but aren't fond of strangers or an excessively busy home. They can be vocal watchdogs, too, so expect running commentary from your little friend.\n\nPekingese can be a little challenging to train, so they're more suited for experienced pet parents with the skills to get the best from a breed who likes to get their own way whenever possible. Pekingese prefer a quiet life without children or other pets where they can be their rightful place as the center of attention. They can adapt to living in homes with more activity, but \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/positively-trained-puppy-socialization-dos-and-donts\"\u003Esocialization—early and often—is important\u003C/a\u003E.\n\nThis breed is a brachycephalic dog; their short muzzles mean they can struggle in hot weather. AC is a must if you live somewhere warmer, and some Peke families travel with cooling blankets&nbsp;or ice packs to help their pups stay comfortable. They're also poor swimmers and should always be supervised near water.",
+        "h2_breed_health": "\u003Cspan data-contrast=\"none\"\u003EPekingese have a life expectancy of 12-14 years; although, like any breed, they can suffer from a few different types of health issues. It’s a good idea to familiarize yourself with these, so you know you can provide what your Peke needs to stay healthy for as long as possible.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;335557856&quot;:16777215}\"\u003E \u003C/span\u003E\r\n\u003Cul\u003E\r\n \t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559684&quot;:-2,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"1\" data-aria-level=\"1\"\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/respiratory/brachycephalic-airway-syndrome-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EBrachycephalic Airway Obstruction Syndrome\u003C/span\u003E\u003C/b\u003E\u003C/a\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003E (BAOS)\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E: One of the most common health problems for this breed is BAOS. BAOS affects breeds with short muzzles and can lead to breathing problems, particularly in hot weather. In severe cases, surgery may be needed. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;201341983&quot;:0,&quot;335551550&quot;:1,&quot;335551620&quot;:1,&quot;335557856&quot;:16777215,&quot;335559685&quot;:1117,&quot;335559737&quot;:0,&quot;335559740&quot;:259,&quot;335559991&quot;:360}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n \t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559684&quot;:-2,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"2\" data-aria-level=\"1\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EEye Problems\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E: Pekingese eyes are prominent, and their shortened muzzle can’t protect them from bumps and \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/eyes/c_dg_Keratitis_Ulcerative\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Ecorneal ulcers\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E. Pekingese can suffer from \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/eyes/c_dg_trichiasis_distichiasis_ectopic_cilia\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Edistichiasis\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, where extra eyelashes grow inside the eyelid and can be either plucked or treated with lubricants. \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/eye/c_dg_cataract\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003ECataracts\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E and \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/eyes/c_dg_glaucoma\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Eglaucoma\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E both cause blindness. Cataracts may be treated with surgery, and glaucoma may be treated with analgesics if caught early enough. \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/eyes/c_dg_keratoconjunctivitis_sicca\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003EDry eye\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, another eye problem seen in Pekes, may be treated with medicated eye drops.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;335557856&quot;:16777215,&quot;335559685&quot;:1117}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n \t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559684&quot;:-2,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"3\" data-aria-level=\"1\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EBack Problems\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E: The combination of their short legs and long back can result in issues like \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/neurological/c_dg_intervertebral_disc_disease\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Eintervertebral disc disease\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E (IVDD). Symptoms can range from pain to trouble walking to inability to stand or walk. Possible treatment can include rest, medication or surgery based on severity. If your dog is showing signs of IVDD, please see a veterinarian immediately.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;335557856&quot;:16777215,&quot;335559685&quot;:1117}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n \t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559684&quot;:-2,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"4\" data-aria-level=\"1\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EHeart Issues\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E: Pekingese can suffer from \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/cardiovascular/mitral-valve-disease-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Emitral valve disease\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, which may cause a \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/cardiovascular/c_dg_heart_murmur\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Eheart murmur\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E. If your vet detects a heart murmur, they will likely refer you to a veterinary cardiologist for an echocardiogram (ultrasound of the heart) to determine the cause.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;201341983&quot;:0,&quot;335551550&quot;:1,&quot;335551620&quot;:1,&quot;335557856&quot;:16777215,&quot;335559685&quot;:1117,&quot;335559737&quot;:0,&quot;335559740&quot;:259,&quot;335559991&quot;:360}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n \t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559684&quot;:-2,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"5\" data-aria-level=\"1\"\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/c_multi_patellar_luxation\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EPatellar Luxation\u003C/span\u003E\u003C/b\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E: This occurs when the kneecap, or patella, slips from the correct position. It’s a common issue in small dogs and can be inherited. The main symptom is lameness, although sometimes this resolves very quickly when the patella returns to the correct position. Treatments vary depending on the severity and range from weight management to surgery.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;335557856&quot;:16777215,&quot;335559685&quot;:1117}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\u003C/ul\u003E",
+        "h2_breed_history": "The Pekingese breed is of Chinese origin, with legends telling us that Buddha took a lion and shrunk them into the size of a dog to create the Pekingese breed, aka the \"lion dog.\" While this might not be the true facts of how the breed came to be, we do know the Imperial Family in 8th-century China was fascinated with the breeding of small dogs. The Pekingese share their heritage with the \u003Ca href=\"https://www.chewy.com/education/dog-breeds/shih-tzu/\" target=\"_blank\" rel=\"noopener\"\u003EShih Tzu\u003C/a\u003E and \u003Ca href=\"https://www.chewy.com/education/dog-breeds/pug/\" target=\"_blank\" rel=\"noopener\"\u003EPug\u003C/a\u003E in that respect. These breeds were protected by the Chinese emperors of the Peking Palace for centuries, with the Western world being unaware of their existence.\r\n\r\nThe Pekingese dog was bred to be companion dogs to Chinese nobles—only they were allowed to have them. But the dogs became ornamental as some nobles would carry their dogs in the wide sleeves of their robes, which led to the Pekingese's other nickname, \"sleeve dogs.\" These sleeve dogs also became the personal guard dogs for the nobles who carried them.\r\n\r\nThe Pekingese only came to the West after Peking (now called Beijing) was ransacked by the British in 1860. History tells us the Chinese nobility killed their dogs rather than allow them to fall into the hands of their enemies. Despite their attempts, five dogs were discovered in hiding and were removed by British troops before the Palace was burnt.\r\n\r\nThese dogs were brought to Britain and gifted to Queen Victoria, and the Pekingese dog became the favorite of another royal family. The first Pekingese came to the US in the late 1890s, and the breed was registered with the American Kennel Club (AKC) in 1906. Today, these small dogs rank 96 on the \u003Ca href=\"https://www.akc.org/most-popular-breeds/\" target=\"_blank\" rel=\"noopener\"\u003EAKC's popularity list\u003C/a\u003E.\r\n\r\nReady to look for a Pekingese puppy? The best place to start your search is with the \u003Ca href=\"https://marketplace.akc.org/puppies/pekingese\" target=\"_blank\" rel=\"noopener\"\u003Ereputable breeders\u003C/a\u003E on the AKC website. Pekingese puppies cost $700-$3,000. Reputable breeders should screen for health and temperament issues and may offer pedigree papers. If you'd like to adopt a Pekingese dog, look for a Pekingese rescue or keep an eye out for the breed at a local animal shelter. You can also search \u003Ca href=\"https://www.chewy.com/g/dog-pekingese_ga1\" target=\"_blank\" rel=\"noopener\"\u003EChewy’s database of adoptable dogs\u003C/a\u003E in your area.",
+        "expert_attribution": "\u003Ci\u003EExpert input provided by Dr. Jay Rowan, VMD, co-owner of the AAHA-accredited \u003Ca href=\"http://paolivet.com/\" target=\"_blank\" rel=\"noopener\"\u003EPaoli Vetcare\u003C/a\u003E; and certified dog trainer Jenna Slutzky, KPA, CTP, from \u003Ca href=\"https://sabradogtraining.com/\" target=\"_blank\" rel=\"noopener\"\u003ESabra Dog Training\u003C/a\u003E.\u003C/i\u003E\r\n\r\n\u003Cem\u003EBreed characteristic ratings provided by veterinarian Dr. Sarah J. Wooten, DVM, CVJ, a veterinarian at \u003Ca href=\"https://sheepdraw.com/\" target=\"_blank\" rel=\"noopener\"\u003ESheep Draw Veterinary Hospital\u003C/a\u003E in Greeley, Colorado; dog trainer and behavior consultant Irith Bloom, CPDT-KSA, CBCC-KA, CDBC, owner of \u003Ca href=\"https://thesophisticateddog.com/\" target=\"_blank\" rel=\"noopener\"\u003EThe Sophisticated Dog, LLC\u003C/a\u003E, in Los Angeles; and certified animal behavior consultant \u003Ca href=\"https://shojai.com/\" target=\"_blank\" rel=\"noopener\"\u003EAmy Shojai\u003C/a\u003E, CABC, in Sherman, Texas. \u003C/em\u003E\r\n\r\n\u003Cem\u003EThe health content was medically reviewed by Chewy vets.\u003C/em\u003E",
+        "facebook_social_snippet_with_cta": "\u003Cp\u003EAfter centuries of being treated like royalty—by royalty—the small yet bold Pekingese is a breed who knows what they want. These pups are devoted and charismatic but don't expect them to jump in and play with the other dogs. They'd rather watch while getting hand-fed their favorite food!\u003C/p\u003E",
+        "species": "\u003Cp\u003EDog\u003C/p\u003E",
+        "h2_faqs": "\u003Ch3\u003EDo Pekingese shed?\u003C/h3\u003E\r\nYes, Pekingese shed. And thanks to their long and dense double coat, their shedding can be significant. Pekingese will shed throughout the year but will often shed more heavily in the spring and fall.\r\n\u003Ch3\u003EHow do you pronounce Pekingese?\u003C/h3\u003E\r\nPekingese is a word of Chinese origin and is pronounced \"pee-kuh-NEEZ,\" with emphasis on the last syllable.\r\n\u003Ch3\u003EAre Pekingese smart dogs?\u003C/h3\u003E\r\nYes, Pekingese are smart dogs. They are famous for their intelligence. They're also known for their independent and spirited natures. So while they may understand exactly what you're asking them to do, they may simply choose not to do it. The best way to harness the intelligence of your little Peke is to work with a trainer who uses positive reinforcement. (See more of that above in the Training section.)\r\n\u003Ch3\u003EDo Pekingese bark a lot?\u003C/h3\u003E\r\nPekingese only bark when necessary. They are always on the lookout and will sound the alarm whenever they see something out of the ordinary. They're not overly yappy, so they only bark when there's something to bark about. Depending on where you live, this may be a little barking or a lot.\r\n\u003Ch3\u003ECan Pekingese dogs swim?\u003C/h3\u003E\r\nTechnically, Pekingese can swim. However, this breed isn't a strong swimmer due to their combination of flat face, short legs and dense coat. Some Pekingese may enjoy a paddle in shallow water on a hot day, but they should never be left unattended around water and should always wear a \u003Ca href=\"https://www.chewy.com/b/life-jackets-2462\" target=\"_blank\" rel=\"noopener\"\u003Edoggy life jacket\u003C/a\u003E. If you have swimming pools, ponds or any other types of water on your property, be sure to restrict access, so your dog can't accidentally fall in.\r\n\u003Ch3\u003EWhat are the most common Pekingese mixes?\u003C/h3\u003E\r\nThe most common Pekingese mixes are:\r\n\u003Cul\u003E\r\n \t\u003Cli\u003EPekingese-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/chihuahua/\"\u003EChihuahua\u003C/a\u003E mix (Pekachi)\u003C/li\u003E\r\n \t\u003Cli\u003EPekingese-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/shih-tzu/\"\u003EShih Tzu\u003C/a\u003E mix (Shihnese)\u003C/li\u003E\r\n \t\u003Cli\u003EPekingese-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/pug/\"\u003EPug\u003C/a\u003E mix (Puginese)\u003C/li\u003E\r\n \t\u003Cli\u003EPekingese-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/pomeranian/\"\u003EPomeranian\u003C/a\u003E mix (Peek-A-Pom)\u003C/li\u003E\r\n \t\u003Cli\u003EPekingese-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/yorkshire-terrier/\"\u003EYorkshire Terrier\u003C/a\u003E mix (Yorkingese)\u003C/li\u003E\r\n\u003C/ul\u003E\r\nNote: These are not purebred dogs but mixed breeds.",
+        "faq_items": [
+          {
+            "faq_title": "Do Pekingese shed?",
+            "faq_content": "Yes, Pekingese shed. And thanks to their long and dense double coat, their shedding can be significant. Pekingese will shed throughout the year but will often shed more heavily in the spring and fall."
+          },
+          {
+            "faq_title": "How do you pronounce Pekingese?",
+            "faq_content": "Pekingese is a word of Chinese origin and is pronounced \"pee-kuh-NEEZ,\" with emphasis on the last syllable."
+          },
+          {
+            "faq_title": "Are Pekingese smart dogs?",
+            "faq_content": "Yes, Pekingese are smart dogs. They are famous for their intelligence. They're also known for their independent and spirited natures. So while they may understand exactly what you're asking them to do, they may simply choose not to do it. The best way to harness the intelligence of your little Peke is to work with a trainer who uses positive reinforcement. (See more of that above in the Training section.)"
+          },
+          {
+            "faq_title": "Do Pekingese bark a lot?",
+            "faq_content": "Pekingese only bark when necessary. They are always on the lookout and will sound the alarm whenever they see something out of the ordinary. They're not overly yappy, so they only bark when there's something to bark about. Depending on where you live, this may be a little barking or a lot."
+          },
+          {
+            "faq_title": "Can Pekingese dogs swim?",
+            "faq_content": "Technically, Pekingese can swim. However, this breed isn't a strong swimmer due to their combination of flat face, short legs and dense coat. Some Pekingese may enjoy a paddle in shallow water on a hot day, but they should never be left unattended around water and should always wear a \u003Ca href=\"https://www.chewy.com/b/life-jackets-2462\" target=\"_blank\" rel=\"noopener\"\u003Edoggy life jacket\u003C/a\u003E. If you have swimming pools, ponds or any other types of water on your property, be sure to restrict access, so your dog can't accidentally fall in."
+          },
+          {
+            "faq_title": "What are the most common Pekingese mixes?",
+            "faq_content": "The most common Pekingese mixes are:\r\n\u003Cul\u003E\r\n \t\u003Cli\u003EPekingese-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/chihuahua/\"\u003EChihuahua\u003C/a\u003E mix (Pekachi)\u003C/li\u003E\r\n \t\u003Cli\u003EPekingese-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/shih-tzu/\"\u003EShih Tzu\u003C/a\u003E mix (Shihnese)\u003C/li\u003E\r\n \t\u003Cli\u003EPekingese-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/pug/\"\u003EPug\u003C/a\u003E mix (Puginese)\u003C/li\u003E\r\n \t\u003Cli\u003EPekingese-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/pomeranian/\"\u003EPomeranian\u003C/a\u003E mix (Peek-A-Pom)\u003C/li\u003E\r\n \t\u003Cli\u003EPekingese-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/yorkshire-terrier/\"\u003EYorkshire Terrier\u003C/a\u003E mix (Yorkingese)\u003C/li\u003E\r\n\u003C/ul\u003E\r\nNote: These are not purebred dogs but mixed breeds."
+          }
+        ],
+        "select_related_breeds": [
+          {
+            "selected_related_breed": 106,
+            "characteristic": "breed_characteristics_exercise_needs"
+          },
+          {
+            "selected_related_breed": 239,
+            "characteristic": "breed_characteristics_shedding_level"
+          },
+          {
+            "selected_related_breed": 601,
+            "characteristic": "breed_characteristics_good_for_apartments_small_homes"
+          },
+          {
+            "selected_related_breed": 874,
+            "characteristic": "breed_characteristics_good_with_cats"
+          },
+          {
+            "selected_related_breed": 1054,
+            "characteristic": "breed_characteristics_friendliness"
+          },
+          {
+            "selected_related_breed": 1346,
+            "characteristic": "breed_characteristics_good_with_kids"
+          }
+        ],
+        "enable_featured_gallery": [
+          "enable_featured_gallery"
+        ],
+        "featured_gallery_images": [730, 731, 732, 733, 734]
+      },
+      "yoast_head": "\u003C!-- This site is optimized with the Yoast SEO plugin v23.8 - https://yoast.com/wordpress/plugins/seo/ --\u003E\n\u003Ctitle\u003EPekingese Breed: Characteristics, Care &amp; Photos | Chewy\u003C/title\u003E\n\u003Cmeta name=\"description\" content=\"Pekingese are cute, sassy and love to be treated like royalty. Learn all about these &#039;lion dogs&#039; in our complete Pekingese guide.\" /\u003E\n\u003Cmeta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" /\u003E\n\u003Clink rel=\"canonical\" href=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/pekingese/\" /\u003E\n\u003Cmeta property=\"og:locale\" content=\"en_US\" /\u003E\n\u003Cmeta property=\"og:type\" content=\"article\" /\u003E\n\u003Cmeta property=\"og:title\" content=\"Pekingese Breed: Characteristics, Care &amp; Photos | Chewy\" /\u003E\n\u003Cmeta property=\"og:description\" content=\"Pekingese are cute, sassy and love to be treated like royalty. Learn all about these &#039;lion dogs&#039; in our complete Pekingese guide.\" /\u003E\n\u003Cmeta property=\"og:url\" content=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/pekingese/\" /\u003E\n\u003Cmeta property=\"og:site_name\" content=\"Chewy\" /\u003E\n\u003Cmeta property=\"article:modified_time\" content=\"2025-05-05T14:22:01+00:00\" /\u003E\n\u003Cmeta property=\"og:image\" content=\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11165517/202106Pekingese-FeaturedImage.jpg\" /\u003E\n\t\u003Cmeta property=\"og:image:width\" content=\"1440\" /\u003E\n\t\u003Cmeta property=\"og:image:height\" content=\"865\" /\u003E\n\t\u003Cmeta property=\"og:image:type\" content=\"image/jpeg\" /\u003E\n\u003Cmeta name=\"twitter:card\" content=\"summary_large_image\" /\u003E\n\u003Cscript type=\"application/ld+json\" class=\"yoast-schema-graph\"\u003E{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/pekingese/\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/pekingese/\",\"name\":\"Pekingese Breed: Characteristics, Care & Photos | Chewy\",\"isPartOf\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/pekingese/#primaryimage\"},\"image\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/pekingese/#primaryimage\"},\"thumbnailUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11165517/202106Pekingese-FeaturedImage.jpg\",\"datePublished\":\"2021-06-14T09:23:45+00:00\",\"dateModified\":\"2025-05-05T14:22:01+00:00\",\"description\":\"Pekingese are cute, sassy and love to be treated like royalty. Learn all about these 'lion dogs' in our complete Pekingese guide.\",\"breadcrumb\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/pekingese/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://phcms.hlth.prd.aws.chewy.cloud/breed/pekingese/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/pekingese/#primaryimage\",\"url\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11165517/202106Pekingese-FeaturedImage.jpg\",\"contentUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11165517/202106Pekingese-FeaturedImage.jpg\",\"width\":1440,\"height\":865},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/pekingese/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://phcms.hlth.prd.aws.chewy.cloud/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Pekingese\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/\",\"name\":\"Chewy\",\"description\":\"\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"}]}\u003C/script\u003E\n\u003C!-- / Yoast SEO plugin. --\u003E",
+      "yoast_head_json": {
+        "title": "Pekingese Breed: Characteristics, Care & Photos | Chewy",
+        "description": "Pekingese are cute, sassy and love to be treated like royalty. Learn all about these 'lion dogs' in our complete Pekingese guide.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://phcms.hlth.prd.aws.chewy.cloud/breed/pekingese/",
+        "og_locale": "en_US",
+        "og_type": "article",
+        "og_title": "Pekingese Breed: Characteristics, Care & Photos | Chewy",
+        "og_description": "Pekingese are cute, sassy and love to be treated like royalty. Learn all about these 'lion dogs' in our complete Pekingese guide.",
+        "og_url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/pekingese/",
+        "og_site_name": "Chewy",
+        "article_modified_time": "2025-05-05T14:22:01+00:00",
+        "og_image": [
+          {
+            "width": 1440,
+            "height": 865,
+            "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11165517/202106Pekingese-FeaturedImage.jpg",
+            "type": "image/jpeg"
+          }
+        ],
+        "twitter_card": "summary_large_image",
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/pekingese/",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/pekingese/",
+              "name": "Pekingese Breed: Characteristics, Care & Photos | Chewy",
+              "isPartOf": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/pekingese/#primaryimage"
+              },
+              "image": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/pekingese/#primaryimage"
+              },
+              "thumbnailUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11165517/202106Pekingese-FeaturedImage.jpg",
+              "datePublished": "2021-06-14T09:23:45+00:00",
+              "dateModified": "2025-05-05T14:22:01+00:00",
+              "description": "Pekingese are cute, sassy and love to be treated like royalty. Learn all about these 'lion dogs' in our complete Pekingese guide.",
+              "breadcrumb": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/pekingese/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://phcms.hlth.prd.aws.chewy.cloud/breed/pekingese/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/pekingese/#primaryimage",
+              "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11165517/202106Pekingese-FeaturedImage.jpg",
+              "contentUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11165517/202106Pekingese-FeaturedImage.jpg",
+              "width": 1440,
+              "height": 865
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/pekingese/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://phcms.hlth.prd.aws.chewy.cloud/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Pekingese"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/",
+              "name": "Chewy",
+              "description": "",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            }
+          ]
+        }
+      },
+      "yoast_meta": {
+        "yoast_wpseo_title": "",
+        "yoast_wpseo_metadesc": "",
+        "yoast_wpseo_canonical": ""
+      },
+      "_links": {
+        "self": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed/738",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/types/breed"
+          }
+        ],
+        "acf:attachment": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/734"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/733"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/732"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/731"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/730"
+          }
+        ],
+        "wp:featuredmedia": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/737"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media?parent=738"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "pet_type",
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/pet_type?post=738"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ]

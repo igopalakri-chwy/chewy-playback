@@ -1,0 +1,341 @@
+[
+    {
+      "id": 43,
+      "date": "2025-03-03T06:24:58",
+      "date_gmt": "2025-03-03T06:24:58",
+      "guid": {
+        "rendered": "https://haproxy.use1.lgcy.prd.aws.chewy.cloud/eks/ns/pet-health/pet-health-content-backend/breed/maltese/"
+      },
+      "modified": "2025-06-04T17:32:42",
+      "modified_gmt": "2025-06-04T17:32:42",
+      "slug": "maltese",
+      "status": "publish",
+      "type": "breed",
+      "link": "https://phcms.hlth.prd.aws.chewy.cloud/breed/maltese/",
+      "title": {
+        "rendered": "Maltese"
+      },
+      "featured_media": 4143,
+      "template": "",
+      "pet_type": [],
+      "class_list": [
+        "post-43",
+        "breed",
+        "type-breed",
+        "status-publish",
+        "has-post-thumbnail",
+        "hentry"
+      ],
+      "acf": {
+        "breed_snapshot_best_for": "\u003Cp\u003EKnown for their bright white coat, the Maltese is permanently happy—as long as you’re around to offer friendship and affection. With a history of courting nobility, this kind little dog is a delightful and charming companion.\u003C/p\u003E",
+        "alt_image_text": "\u003Cp\u003EGet all the information about the beautiful Maltese in our definitive guide. \u003C/p\u003E",
+        "breed_intro": "\u003Cp\u003EMaltese are so cute they should probably be on magazine covers, but this plucky dog is too down-to-earth to be stuck-up about how adorable they are. Most likely, they’ll be more concerned with making sure their new best friend (that’s you) is happy.\u003C/p\u003E\r\n\u003Cp\u003EThese petite pups have been known to court queens, so consider it an honor if one has chosen to be your bestie, too. You can repay your Maltese by taking them with you to the office, to brunch, or anywhere they’re welcome. They’re delightful companions who are eager to impress.\u003C/p\u003E",
+        "breed_related_products_product_card_set": "",
+        "breed_snapshot_temperament": "\u003Cp\u003ECharismatic, Friendly, Gentle\u003C/p\u003E",
+        "what_does_this_breed_look_like_weight": "\u003Cp\u003Eunder 7 pounds\u003C/p\u003E",
+        "what_does_this_breed_look_like_height": "\u003Cp\u003E7–9 inches\u003C/p\u003E",
+        "breed_snapshot_life_expectancy": "\u003Cp\u003E12–15 years\u003C/p\u003E",
+        "breed_snapshot_maintenance_level": "\u003Cp\u003EMedium\u003C/p\u003E",
+        "breed_characteristics_friendliness": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_snapshot_coat_color": "\u003Cp\u003EWhite\u003C/p\u003E",
+        "breed_snapshot_shed_level": "\u003Cp\u003ELow\u003C/p\u003E",
+        "in_article_video": null,
+        "breed_characteristics": "\u003Cdiv class=\"Section_description__Yr0Qq\"\u003E\u003Cem\u003ERemember: Dogs are individuals and not all dogs, even those of the same breed, will exhibit all the same qualities.\u003C/em\u003E\u003C/div\u003E",
+        "breed_characteristics_exercise_needs": "\u003Cp\u003E1\u003C/p\u003E",
+        "breed_characteristics_health_issues": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_barking_tendencies": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_grooming_needs": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_shedding_level": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_training_needs": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_with_kids": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_good_with_cats": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_for_apartments_small_homes": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_energy_level": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_with_other_dogs": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_playfulnesss": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_cold_weather": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_warm_weather": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_for_first_time_parents": "\u003Cp\u003E4\u003C/p\u003E",
+        "how_do_i_look_card_image": 4142,
+        "what_does_this_breed_look_like": "\u003Cp\u003EThe Maltese is a small dog with dark, friendly eyes; a small black nose; and white fur. While they traditionally have a long, silky coat, some pet parents give these dogs short haircuts, which are equally charming.\u003C/p\u003E",
+        "what_does_this_breed_look_like_ears": "\u003Cp\u003EThe Maltese’s feathery ears hang low and are covered with long hair. Although typically white, their ears might also have tan or lemon colors.\u003C/p\u003E",
+        "what_does_this_breed_look_like_eyes": "\u003Cp\u003EThe Maltese dog’s eyes are dark and friendly, with a gentle, round shape. Their eyes pop amongst all that white fur.\u003C/p\u003E",
+        "what_does_this_breed_look_like_nose": "\u003Cp\u003EThey have a gumdrop-shaped black nose that stands out against their all-white coat.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_length": "\u003Cp\u003EThe Maltese breed’s silky, single-layered coat grows to be floor-length unless trimmed into a cute haircut.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_color": "\u003Cp\u003EA Maltese coat is white, though their ears might have a light tan or lemon color.\u003C/p\u003E",
+        "what_does_this_breed_look_like_tail": "\u003Cp\u003EA Maltese dog’s tail is a long, silky plume carried gracefully over their back. The tip of the tail rests on the side of their back end.\u003C/p\u003E",
+        "h2_breed_temperament": "\u003Cp\u003EMaltese have a love for laps and their people. Their favorite place is to be wherever you are, and although they’re not among the most energetic breeds, they are lively and playful little dogs.\u003C/p\u003E\r\n\u003Cp\u003EThese friendly pups are fairly outgoing and generally get along well with other pets, provided they are properly trained and \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/positively-trained-puppy-socialization-dos-and-donts\"\u003Esocialized with other animals\u003C/a\u003E. Their small size does make them fragile, so they should always be supervised around young tots and babies to make sure they’re not overwhelmed by children who mistake them for a plushie.\u003C/p\u003E\r\n\u003Cp\u003EThe tiny Maltese has a sweet personality that makes them great therapy dogs. But more than anything else, they just want a chance to sit in your lap and be close to you.\u003C/p\u003E",
+        "h2_how_to_care_for_a_breed": "\u003Cp\u003EThe Maltese personality is not high-maintenance, but their grooming will need your attention. They don’t have extensive exercise needs, so use that extra time to give their coat some TLC.\u003C/p\u003E\r\n\u003Cp\u003EAnd even though they love being in your lap, they need to explore the world on their own, so physical and \u003Ca href=\"https://www.petmd.com/dog/general-health/ways-to-keep-dog-mentally-stimulated\" target=\"_blank\" rel=\"noopener\"\u003Emental enrichment\u003C/a\u003E are a must.\u003C/p\u003E",
+        "grooming": "\u003Cp\u003EThe Maltese needs more grooming than your average dog. Even though their long, silky fur lacks an undercoat (which means \u003Ca href=\"https://www.chewy.com/education/dog/general/dog-breeds-that-dont-shed\"\u003Ethey shed less than many other dogs\u003C/a\u003E) they still need quite a bit of brushing.\u003C/p\u003E\r\n\u003Cul\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003EBathing:\u003C/strong\u003EBathing a Maltese too often can dry out their skin and coat. So, \u003Ca href=\"https://www.chewy.com/education/dog/grooming/how-to-bathe-a-dog-step-by-step-tips-from-a-professional-groomer\"\u003Egive your pup a bath\u003C/a\u003E every four to six weeks. You can even use a \u003Ca href=\"https://www.chewy.com/f/whitening-dog-shampoos-conditioners_c358_f71v83807\"\u003Eshampoo specifically formulated to keep their fur bright\u003C/a\u003E.\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003EBrushing:\u003C/strong\u003EMaltese dogs need consistent brushing, even if they have a shorter haircut. Their long coat needs to be \u003Ca href=\"https://www.chewy.com/education/dog/grooming/brushing-a-dog\"\u003Ebrushed every day\u003C/a\u003E, ideally with a \u003Ca href=\"https://www.chewy.com/f/dog-pin-brushes_c356_f70v83789\"\u003Epin brush\u003C/a\u003E to prevent tangles. Once a week, use a \u003Ca href=\"https://www.chewy.com/f/slicker-brush-dog-brushes-combs_c356_f70v83792\"\u003Eslicker brush\u003C/a\u003E to get deeper into the coat and remove any debris.\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003EDental care:\u003C/strong\u003ESmall dogs are prone to \u003Ca href=\"https://www.chewy.com/education/cat/health-and-wellness/dental-disease-in-dogs\"\u003Edental disease\u003C/a\u003E, so \u003Ca href=\"https://www.chewy.com/education/dog/grooming/health-wellness-how-to-brush-your-dogs-teeth-live-to-tell-the-tale\"\u003Ebrush your Maltese’s teeth daily\u003C/a\u003E to control tartar. Get a \u003Ca href=\"https://www.petmd.com/dog/care/how-much-does-dog-teeth-cleaning-cost\" target=\"_blank\" rel=\"noopener\"\u003Epro cleaning at your vet\u003C/a\u003E once a year.\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003ENail care:\u003C/strong\u003E\u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/guide-trimming-dogs-nails\"\u003ETrim your dog’s nails\u003C/a\u003E once a month. If you can hear the nails clicking on hard surfaces when they walk, it’s time to trim.\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003EEye care: \u003C/strong\u003EMaltese often have noticeable reddish-brown \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/treating-dog-tears-stains-dogs-coat\"\u003Etear stains\u003C/a\u003E that stand out on their white coats, and you may be able to clear up the stains just by wiping your dog’s eyes and face every day with \u003Ca href=\"https://www.petmd.com/vet-verified/best-dog-tear-stain-removers\" target=\"_blank\" rel=\"noopener\"\u003Especial tear stain wipes\u003C/a\u003E. If this isn’t enough, talk to your veterinarian about health issues that could be contributing to the staining.\u003C/li\u003E\r\n\u003C/ul\u003E",
+        "training": "\u003Cp\u003EMaltese just want to make their favorite person (that’s you) happy, so they’re eager to please when it comes to training. They respond great to \u003Ca href=\"https://www.petmd.com/dog/behavior/how-to-train-a-dog-with-positive-reinforcement\" target=\"_blank\" rel=\"noopener\"\u003Epositive reinforcement\u003C/a\u003E (think \u003Ca href=\"https://www.chewy.com/b/training-treats-1550\"\u003Etreats\u003C/a\u003E, \u003Ca href=\"https://www.chewy.com/b/toys-315\"\u003Etoys\u003C/a\u003E, and praise for good behavior).  \u003C/p\u003E\r\n\u003Cp\u003EIf you bring home a Maltese puppy, start \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/sit-stay-and-beyond-weve-got-the-essential-guide-to-basic-dog-obedience-training\"\u003Eobedience training\u003C/a\u003E early; you can teach them cues like \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-sit\"\u003Esit\u003C/a\u003E, \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-stay\"\u003Estay\u003C/a\u003E, and \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-come\"\u003Ecome\u003C/a\u003E as early as 8 weeks old. Also invest some time in proper socialization, which involves exposing them to new people, places, and things in a positive manner.\u003C/p\u003E\r\n\u003Cp\u003EIf you adopt a Maltese as an adult, that’s perfect, too—chat with your vet or a certified trainer about training and socialization. It’s never too late!\u003C/p\u003E\r\n\u003Cp\u003ESome Maltese will also enjoy learning new tricks or participating in \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/dog-agility-training-tips\"\u003Eagility training\u003C/a\u003E. For extra mental stimulation, they may enjoy \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/nose-work-training\"\u003Escent work\u003C/a\u003E.\u003C/p\u003E",
+        "diet_nutrition": "\u003Cp\u003EThe Maltese breed typically does well on \u003Ca href=\"https://www.petmd.com/dog/vet-verified/best-dog-food\" target=\"_blank\" rel=\"noopener\"\u003Ehigh-quality, commercial dog food\u003C/a\u003E. The best food for Maltese is \u003Ca href=\"https://www.petmd.com/dog/nutrition/What-Is-AAFCO-and-What-Does-It-Do\" target=\"_blank\" rel=\"noopener\"\u003EAAFCO-compliant\u003C/a\u003E for your dog’s life stage (\u003Ca href=\"https://www.petmd.com/dog/vet-verified/best-puppy-food\" target=\"_blank\" rel=\"noopener\"\u003Epuppy\u003C/a\u003E, adult, or \u003Ca href=\"https://www.petmd.com/dog/vet-verified/best-senior-dog-food\" target=\"_blank\" rel=\"noopener\"\u003Esenior\u003C/a\u003E). Consider a \u003Ca href=\"https://www.petmd.com/dog/vet-verified/best-dog-food-for-small-dogs\" target=\"_blank\" rel=\"noopener\"\u003Ediet for small-breed pups\u003C/a\u003E; some brands even sell \u003Ca href=\"https://www.chewy.com/royal-canin-breed-health-nutrition/dp/165949\"\u003Edog food specially made just for Maltese\u003C/a\u003E.\u003C/p\u003E\r\n\u003Cp\u003EYour vet can help you decide \u003Ca href=\"https://www.chewy.com/education/dog/food-and-nutrition/how-much-food-to-feed-my-dog\"\u003Ethe appropriate amount to feed your dog\u003C/a\u003E. You may want to incorporate mental enrichment into your dog’s meal plan, dispensing treats or kibble through \u003Ca href=\"https://www.chewy.com/b/treat-toys-dispensers-2336\"\u003Efood toys or interactive treat balls\u003C/a\u003E.\u003C/p\u003E\r\n\u003Cp\u003ERemember that treats (even ones that you use during training) count toward calories; treats should never be more than 10% of a dog’s daily calories.\u003C/p\u003E",
+        "exercise": "\u003Cp\u003EMaltese dogs don’t have the high energy levels of star athletes like \u003Ca href=\"https://www.chewy.com/education/dog-breeds/border-collie\"\u003EBorder Collies\u003C/a\u003E or \u003Ca href=\"https://www.chewy.com/education/dog-breeds/australian-shepherd\"\u003EAustralian Shepherds\u003C/a\u003E, but they still need daily exercise to stay happy and healthy (and out of trouble!). Spend some time playing with your pup at home, and take them on at least one brisk 20- to 30-minute \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/walking-with-dog\"\u003Ewalk around the neighborhood\u003C/a\u003E every day.\u003C/p\u003E\r\n\u003Cp\u003EMaltese puppies and dogs enjoy mixing up their activities a bit. So, switch it up between walks, \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/15-minute-games-to-play-with-dogs\"\u003Eindoor games\u003C/a\u003E, \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/how-to-teach-dog-to-fetch\"\u003Efetch in a fenced yard\u003C/a\u003E, and mental enrichment exercises like scent work or \u003Ca href=\"https://www.chewy.com/b/interactive-toys-319\"\u003Einteractive toys\u003C/a\u003E.\u003C/p\u003E",
+        "ideal_environment": "\u003Cp\u003EA Maltese dog would love to live in an apartment, but they’d also love a larger home. The most important thing in their environment is \u003Cem\u003Eyou\u003C/em\u003E.\u003C/p\u003E\r\n\u003Cp\u003EThese pups are deeply attached to their people, so they do best when someone is with them for most of the day. If you will be away for long, check them into doggy daycare or have a friend or \u003Ca href=\"https://www.chewy.com/education/cat/pet-parenting/pet-parenting-travel-8-surefire-signs-of-a-trustworthy-pet-sitter\"\u003Eprofessional dog sitter\u003C/a\u003E drop by to play with them.\u003C/p\u003E\r\n\u003Cp\u003EIt’s important to note that a Maltese might be startled by everyday noises if you are away. So if you live in an apartment with close neighbors, you may need to work with a trainer to \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/how-to-train-dog-not-to-bark\"\u003Ecurb their barking\u003C/a\u003E. A \u003Ca href=\"https://www.chewy.com/yogasleep-pawzz-home-dog-sound/dp/893974\"\u003Ewhite noise machine\u003C/a\u003E can also distract them from outside noises.\u003C/p\u003E\r\n\u003Cp\u003EA Maltese won’t be scared to share you, and they’ll likely be delighted to have siblings. They usually get along great with other pets as well as kids, making them \u003Ca href=\"https://www.chewy.com/education/dog/general/best-family-dogs\"\u003Egreat family dogs\u003C/a\u003E. But with bigger dogs or young children, always supervise interactions to make sure the Maltese doesn’t feel overwhelmed by these larger creatures.\u003C/p\u003E",
+        "h2_breed_health": "\u003Cp\u003EA Maltese lifespan is 12–15 years. Here are some potential health issues to be aware of.\u003C/p\u003E\r\n\u003Cul\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003EAcquired tremors syndrome:\u003C/strong\u003E Also known as shaker syndrome, this condition affects mostly small white dog breeds (though small dogs with other coat colors can have it, too). Dogs with this syndrome may have mild tremors in one body part or more severe tremors all over that make it difficult for them to walk. This condition is usually \u003Ca href=\"https://www.petmd.com/pet-medication/prednisone-and-prednisolone-for-dogs-cats\" target=\"_blank\" rel=\"noopener\"\u003Etreated with prednisone\u003C/a\u003E.\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003ECataracts\u003C/strong\u003E: \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/cataracts-in-dogs-and-cats\"\u003ECataracts\u003C/a\u003E aren’t usually painful, but they can cause cloudy eyes and vision loss, so get a yearly eye test to catch them early. Surgery is the go-to treatment. \u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003EEpiphora:\u003C/strong\u003E \u003Ca href=\"https://www.petmd.com/dog/conditions/eyes/watery-eyes-epiphora-dogs\" target=\"_blank\" rel=\"noopener\"\u003EEpiphora\u003C/a\u003E is another name for watery eyes, and it contributes to tear stains. Most tear staining isn’t a cause for concern, but if your pup is tearing up more than normal, it could be the result of an underlying health condition like \u003Ca href=\"https://www.petmd.com/dog/general-health/food-allergies-vs-seasonal-allergies-dogs\" target=\"_blank\" rel=\"noopener\"\u003Eallergies\u003C/a\u003E, \u003Ca href=\"https://www.petmd.com/dog/conditions/eyes/c_dg_Keratitis_Ulcerative\" target=\"_blank\" rel=\"noopener\"\u003Ecorneal ulcers\u003C/a\u003E, \u003Ca href=\"https://www.petmd.com/dog/conditions/eyes/c_dg_keratoconjunctivitis_sicca\" target=\"_blank\" rel=\"noopener\"\u003Edry eye syndrome\u003C/a\u003E, or another eye disease. Contact your vet if you think something may be up.\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003EGlaucoma\u003C/strong\u003E\u003Cstrong\u003E:\u003C/strong\u003E \u003Ca href=\"https://www.petmd.com/dog/conditions/eyes/glaucoma-dogs-what-it-and-what-are-symptoms\" target=\"_blank\" rel=\"noopener\"\u003EGlaucoma\u003C/a\u003E occurs when fluid in the eyes doesn’t drain and pressure builds. It’s painful and can result in \u003Ca href=\"https://www.petmd.com/dog/conditions/eyes/blindness-dogs\" target=\"_blank\" rel=\"noopener\"\u003Eblindness\u003C/a\u003E, so it’s a medical emergency. Treatment is topical medications or surgery.  \u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003EGranulomatous meningoencephalitis (\u003C/strong\u003E\u003Cstrong\u003EGME\u003C/strong\u003E\u003Cstrong\u003E):\u003C/strong\u003E \u003Ca href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC3113901/\" target=\"_blank\" rel=\"noopener\"\u003EGME is a complex condition\u003C/a\u003E that affects the brain and spinal cord. While there is no cure, the condition is often treated for life with steroids or immunosuppressive drugs.\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003EHypoglycemia\u003C/strong\u003E\u003Cstrong\u003E:\u003C/strong\u003E \u003Ca href=\"https://www.petmd.com/dog/conditions/systemic/hypoglycemia-dogs\" target=\"_blank\" rel=\"noopener\"\u003ELow blood sugar\u003C/a\u003E is common in Maltese dogs. Feed your dog on a regular schedule to prevent hypoglycemia; your vet can give you advice.\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003ELuxating patella: \u003C/strong\u003EMaltese can develop a \u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/luxating-patella-in-dogs\" target=\"_blank\" rel=\"noopener\"\u003Eluxating patella\u003C/a\u003E, where the kneecap slips out of place. It may be treated with supplements and meds, if mild, though surgery may be necessary. Keeping your dog at a healthy weight can help prevent this condition.\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003EPatent ductus arteriosus (PDA): \u003C/strong\u003EPDA is a \u003Ca href=\"https://www.petmd.com/dog/conditions/cardiovascular/c_multi_patent_ductus_arteriosus\" target=\"_blank\" rel=\"noopener\"\u003Econgenital heart defect\u003C/a\u003E in dogs. It’s when a blood vessel near the heart doesn’t completely close after birth, and it can lead to heart failure. It can often be corrected with surgery.\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003EPortosystemic shunt\u003C/strong\u003E\u003Cstrong\u003E:\u003C/strong\u003E Also called a liver or hepatic shunt, a \u003Ca href=\"https://www.petmd.com/dog/general-health/liver-shunts-dogs-what-you-need-know\" target=\"_blank\" rel=\"noopener\"\u003Eportosystemic shunt\u003C/a\u003E is when blood vessels circumvent the liver, preventing it from clearing the blood of toxins. Surgery is often the best treatment.\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003EProgressive retinal atrophy (PRA):\u003C/strong\u003E \u003Ca href=\"https://www.petmd.com/dog/condition/progressive-retinal-atrophy-in-dogs\" target=\"_blank\" rel=\"noopener\"\u003EPRA leads to blindness in dogs\u003C/a\u003E, and while there is no cure, pups who lose their eyesight tend to adapt well and can still live full, happy lives.\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003ETracheal collapse:\u003C/strong\u003E \u003Ca href=\"https://www.petmd.com/dog/general-health/collapsing-trachea-dogs-everything-you-need-know\" target=\"_blank\" rel=\"noopener\"\u003ETracheal collapse\u003C/a\u003E happens when a dog’s windpipe flattens. It makes it hard to get air into the lungs, and as a result many dogs may make a dry, goose-like honking cough. Pups with this condition should have their \u003Ca href=\"https://www.chewy.com/b/harnesses-347\"\u003Eleash attached to a harness\u003C/a\u003E, not a collar (which can push on the trachea), and treatment may include weight management, medications, or surgery. \u003C/li\u003E\r\n\u003C/ul\u003E",
+        "h2_breed_history": "\u003Cp\u003EThe Maltese has a long history as a beloved lapdog, and they take their name from the island of Malta in the Mediterranean Sea.\u003C/p\u003E\r\n\u003Cp\u003EFrom 1500 B.C.E., Malta was conquered by different empires for two millennia, and it’s thought that Phoenicians (who were around before the rise of Greece) introduced them to the island.\u003C/p\u003E\r\n\u003Cp\u003EThe dogs were well-loved in Greek culture in the 4th and 5th centuries; they were depicted in art and praised by Aristotle for their symmetry. They were a status symbol for ancient Romans, and there is even a legend that Saint Paul was given a Maltese after he was shipwrecked on Malta.\u003C/p\u003E\r\n\u003Cp\u003EWhen the Roman Empire collapsed and ushered Europe into the Dark Ages, the Maltese breed thrived in China, where the dogs were crossed with native breeds; later, they became popular again in Europe and were owned by nobility, notably Mary, Queen of Scots and Marie Antoinette.\u003C/p\u003E\r\n\u003Cp\u003EA Maltese puppy can cost as much as $4,000. If you choose this route, \u003Ca href=\"https://www.petmd.com/dog/how-to-find-ethical-reputable-responsible-breeder\" target=\"_blank\" rel=\"noopener\"\u003Epick a responsible breeder\u003C/a\u003E.\u003C/p\u003E\r\n\u003Cp\u003EYou can also look for Maltese dogs for adoption. Seek out a local Maltese rescue like the \u003Ca href=\"https://www.americanmalteserescue.org/\" target=\"_blank\" rel=\"noopener\"\u003EAmerican Maltese Rescue Association\u003C/a\u003E, keep an eye out at your local shelter, or search \u003Ca href=\"https://www.chewy.com/g/dog-maltese_ga1\"\u003EChewy’s database of adoptable dogs\u003C/a\u003E in your area.\u003C/p\u003E",
+        "expert_attribution": "\u003Cp\u003E\u003Cem\u003EThis content was medically reviewed by Barri Morrison, DVM, Chewy veterinarian.\u003C/em\u003E\u003C/p\u003E",
+        "facebook_social_snippet_with_cta": "",
+        "species": "\u003Cp\u003EDog\u003C/p\u003E",
+        "h2_faqs": "",
+        "faq_items": [
+          {
+            "faq_title": "Are Maltese hypoallergenic? Do Maltese shed?",
+            "faq_content": "\u003Cp\u003EMaltese are considered \u003Ca href=\"https://www.chewy.com/education/dog/general/4-hypoallergenic-dog-breeds\"\u003Ehypoallergenic dogs\u003C/a\u003E because they don’t have an undercoat and are very low shedders. Brushing your pup will keep those flyaway hairs at bay and allergy triggers to a minimum. However, no dog is 100% hypoallergenic.\u003C/p\u003E"
+          },
+          {
+            "faq_title": "Do Maltese bark a lot?",
+            "faq_content": "\u003Cp\u003EIt depends on the individual dog, but some Maltese may bark, especially if they are fearful or experience \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/reducing-separation-anxiety-dog\"\u003Eseparation anxiety\u003C/a\u003E when away from their family. Work with a certified, positive-reinforcement trainer to pinpoint the cause of the barking and resolve it.\u003C/p\u003E"
+          },
+          {
+            "faq_title": "Are Maltese good with kids?",
+            "faq_content": "\u003Cp\u003EYes, Maltese can be great with kids when properly socialized. The biggest issue with children is that Maltese can be fragile because they are so small. You’ll need to supervise these dogs around smaller kiddos so they aren’t injured by rough play.\u003C/p\u003E"
+          },
+          {
+            "faq_title": "Can Maltese dogs swim?",
+            "faq_content": "\u003Cp\u003EMaltese can swim, but they’re not as talented as dogs who were bred to work in water, like \u003Ca href=\"https://www.chewy.com/education/dog-breeds/golden-retriever\"\u003EGolden Retrievers\u003C/a\u003E. Their long hair can weigh them down, kind of like if you were to swim in jeans. Always make sure they’re wearing a \u003Ca href=\"https://www.chewy.com/b/life-jackets-2462\"\u003Edoggy life jacket\u003C/a\u003E when they’re near water.\u003C/p\u003E"
+          },
+          {
+            "faq_title": "Should I buy a teacup Maltese or miniature Maltese?",
+            "faq_content": "\u003Cp\u003ENo. Maltese are already very tiny dogs, and \u003Ca href=\"https://www.petmd.com/dog/general-health/teacup-dogs-puppies\" target=\"_blank\" rel=\"noopener\"\u003Ebreeding them to be even smaller isn’t healthy\u003C/a\u003E. Do not work with any breeder who claims to sell a teacup Maltese dog or a mini Maltese.\u003C/p\u003E"
+          },
+          {
+            "faq_title": "Can a Maltese have black fur?",
+            "faq_content": "\u003Cp\u003ENope. If you’ve come across a black Maltese, you’ve got an adorable pup who’s most likely a Maltipoo (Maltese–\u003Ca href=\"https://www.chewy.com/education/dog-breeds/poodle\"\u003EPoodle\u003C/a\u003E mix) or a Maltipom (Maltese–\u003Ca href=\"https://www.chewy.com/education/dog-breeds/pomeranian\"\u003EPomeranian\u003C/a\u003E mix).\u003C/p\u003E"
+          },
+          {
+            "faq_title": "How long do Maltese live? ",
+            "faq_content": "\u003Cp\u003E\u003Cspan style=\"font-family: 'Calibri',sans-serif;\"\u003EThe life expectancy of a Maltese is a lengthy 12–15 years. \u003C/span\u003E\u003C/p\u003E"
+          },
+          {
+            "faq_title": "How big do Maltese get?",
+            "faq_content": "\u003Cp\u003E\u003Cspan style=\"font-family: 'Calibri',sans-serif;\"\u003EThese petite pups stay small. Maltese tend to weigh under 7 pounds and stand no more than 9 inches tall. \u003C/span\u003E\u003C/p\u003E"
+          },
+          {
+            "faq_title": "What are the most common Maltese mixes?",
+            "faq_content": "\u003Cp\u003EThe most common Maltese mixes are:\u003C/p\u003E\r\n\u003Cul\u003E\r\n\t\u003Cli\u003EMaltese-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/shih-tzu\"\u003EShih Tzu\u003C/a\u003E mix (Malt-Tzu)\u003C/li\u003E\r\n\t\u003Cli\u003EMaltese-Poodle mix (\u003Ca href=\"https://www.chewy.com/education/dog-breeds/maltipoo\"\u003EMaltipoo\u003C/a\u003E)\u003C/li\u003E\r\n\t\u003Cli\u003EMaltese-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/yorkshire-terrier\"\u003EYorkie\u003C/a\u003E mix (\u003Ca href=\"https://www.petmd.com/dog/breeds/morkie\"\u003EMorkie\u003C/a\u003E)\u003C/li\u003E\r\n\t\u003Cli\u003EMaltese-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/chihuahua\"\u003EChihuahua\u003C/a\u003E mix (Malchi)\u003C/li\u003E\r\n\t\u003Cli\u003EMaltese-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/bichon-frise\"\u003EBichon\u003C/a\u003E mix (Maltichon)\u003C/li\u003E\r\n\t\u003Cli\u003EMaltese-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/havanese\"\u003EHavanese\u003C/a\u003E mix (Havamalt)\u003C/li\u003E\r\n\t\u003Cli\u003EMaltese-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/pomeranian\"\u003EPomeranian\u003C/a\u003E mix (Maltipom)\u003C/li\u003E\r\n\u003C/ul\u003E"
+          }
+        ],
+        "select_related_breeds": [
+          {
+            "selected_related_breed": 151,
+            "characteristic": "breed_characteristics_exercise_needs"
+          },
+          {
+            "selected_related_breed": 1019,
+            "characteristic": "breed_characteristics_good_with_cats"
+          },
+          {
+            "selected_related_breed": 1418,
+            "characteristic": "breed_characteristics_good_for_first_time_parents"
+          },
+          {
+            "selected_related_breed": 611,
+            "characteristic": "breed_characteristics_friendliness"
+          },
+          {
+            "selected_related_breed": 581,
+            "characteristic": "breed_characteristics_good_for_apartments_small_homes"
+          },
+          {
+            "selected_related_breed": 399,
+            "characteristic": "breed_characteristics_biting_tendencies"
+          }
+        ],
+        "enable_featured_gallery": [
+          "enable_featured_gallery"
+        ],
+        "featured_gallery_images": [35, 36, 37, 38, 39]
+      },
+      "yoast_head": "\u003C!-- This site is optimized with the Yoast SEO plugin v23.8 - https://yoast.com/wordpress/plugins/seo/ --\u003E\n\u003Ctitle\u003EMaltese Characteristics, Care &amp; Photos | Chewy\u003C/title\u003E\n\u003Cmeta name=\"description\" content=\"The Maltese is a charming breed with many unique traits. Get all the facts about this loyal lapdog in our complete Maltese guide.\" /\u003E\n\u003Cmeta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" /\u003E\n\u003Clink rel=\"canonical\" href=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/maltese/\" /\u003E\n\u003Cmeta property=\"og:locale\" content=\"en_US\" /\u003E\n\u003Cmeta property=\"og:type\" content=\"article\" /\u003E\n\u003Cmeta property=\"og:title\" content=\"Maltese Characteristics, Care &amp; Photos | Chewy\" /\u003E\n\u003Cmeta property=\"og:description\" content=\"The Maltese is a charming breed with many unique traits. Get all the facts about this loyal lapdog in our complete Maltese guide.\" /\u003E\n\u003Cmeta property=\"og:url\" content=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/maltese/\" /\u003E\n\u003Cmeta property=\"og:site_name\" content=\"Chewy\" /\u003E\n\u003Cmeta property=\"article:modified_time\" content=\"2025-06-04T17:32:42+00:00\" /\u003E\n\u003Cmeta property=\"og:image\" content=\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/03/21155022/Breed-Hero-Maltese.jpg\" /\u003E\n\t\u003Cmeta property=\"og:image:width\" content=\"1835\" /\u003E\n\t\u003Cmeta property=\"og:image:height\" content=\"1032\" /\u003E\n\t\u003Cmeta property=\"og:image:type\" content=\"image/jpeg\" /\u003E\n\u003Cmeta name=\"twitter:card\" content=\"summary_large_image\" /\u003E\n\u003Cmeta name=\"twitter:label1\" content=\"Est. reading time\" /\u003E\n\t\u003Cmeta name=\"twitter:data1\" content=\"1 minute\" /\u003E\n\u003Cscript type=\"application/ld+json\" class=\"yoast-schema-graph\"\u003E{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/maltese/\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/maltese/\",\"name\":\"Maltese Characteristics, Care & Photos | Chewy\",\"isPartOf\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/maltese/#primaryimage\"},\"image\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/maltese/#primaryimage\"},\"thumbnailUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/03/21155022/Breed-Hero-Maltese.jpg\",\"datePublished\":\"2025-03-03T06:24:58+00:00\",\"dateModified\":\"2025-06-04T17:32:42+00:00\",\"description\":\"The Maltese is a charming breed with many unique traits. Get all the facts about this loyal lapdog in our complete Maltese guide.\",\"breadcrumb\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/maltese/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://phcms.hlth.prd.aws.chewy.cloud/breed/maltese/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/maltese/#primaryimage\",\"url\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/03/21155022/Breed-Hero-Maltese.jpg\",\"contentUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/03/21155022/Breed-Hero-Maltese.jpg\",\"width\":1835,\"height\":1032,\"caption\":\"white maltese dog standing on an isolated background\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/maltese/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://phcms.hlth.prd.aws.chewy.cloud/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Maltese\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/\",\"name\":\"Chewy\",\"description\":\"\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"}]}\u003C/script\u003E\n\u003C!-- / Yoast SEO plugin. --\u003E",
+      "yoast_head_json": {
+        "title": "Maltese Characteristics, Care & Photos | Chewy",
+        "description": "The Maltese is a charming breed with many unique traits. Get all the facts about this loyal lapdog in our complete Maltese guide.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://phcms.hlth.prd.aws.chewy.cloud/breed/maltese/",
+        "og_locale": "en_US",
+        "og_type": "article",
+        "og_title": "Maltese Characteristics, Care & Photos | Chewy",
+        "og_description": "The Maltese is a charming breed with many unique traits. Get all the facts about this loyal lapdog in our complete Maltese guide.",
+        "og_url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/maltese/",
+        "og_site_name": "Chewy",
+        "article_modified_time": "2025-06-04T17:32:42+00:00",
+        "og_image": [
+          {
+            "width": 1835,
+            "height": 1032,
+            "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/03/21155022/Breed-Hero-Maltese.jpg",
+            "type": "image/jpeg"
+          }
+        ],
+        "twitter_card": "summary_large_image",
+        "twitter_misc": {
+          "Est. reading time": "1 minute"
+        },
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/maltese/",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/maltese/",
+              "name": "Maltese Characteristics, Care & Photos | Chewy",
+              "isPartOf": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/maltese/#primaryimage"
+              },
+              "image": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/maltese/#primaryimage"
+              },
+              "thumbnailUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/03/21155022/Breed-Hero-Maltese.jpg",
+              "datePublished": "2025-03-03T06:24:58+00:00",
+              "dateModified": "2025-06-04T17:32:42+00:00",
+              "description": "The Maltese is a charming breed with many unique traits. Get all the facts about this loyal lapdog in our complete Maltese guide.",
+              "breadcrumb": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/maltese/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://phcms.hlth.prd.aws.chewy.cloud/breed/maltese/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/maltese/#primaryimage",
+              "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/03/21155022/Breed-Hero-Maltese.jpg",
+              "contentUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/03/21155022/Breed-Hero-Maltese.jpg",
+              "width": 1835,
+              "height": 1032,
+              "caption": "white maltese dog standing on an isolated background"
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/maltese/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://phcms.hlth.prd.aws.chewy.cloud/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Maltese"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/",
+              "name": "Chewy",
+              "description": "",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            }
+          ]
+        }
+      },
+      "yoast_meta": {
+        "yoast_wpseo_title": "",
+        "yoast_wpseo_metadesc": "",
+        "yoast_wpseo_canonical": ""
+      },
+      "_links": {
+        "self": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed/43",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/types/breed"
+          }
+        ],
+        "acf:attachment": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/39"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/38"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/37"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/36"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/35"
+          }
+        ],
+        "wp:featuredmedia": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/4143"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media?parent=43"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "pet_type",
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/pet_type?post=43"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ]

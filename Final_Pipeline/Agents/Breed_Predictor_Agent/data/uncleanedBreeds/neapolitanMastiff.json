@@ -1,0 +1,321 @@
+[
+  {
+    "id": 620,
+    "date": "2021-06-17T11:55:50",
+    "date_gmt": "2021-06-17T11:55:50",
+    "guid": {
+      "rendered": "https://haproxy.use1.lgcy.prd.aws.chewy.cloud/eks/ns/pet-health/pet-health-content-backend/breed/neapolitan-mastiff/"
+    },
+    "modified": "2025-05-05T14:21:50",
+    "modified_gmt": "2025-05-05T14:21:50",
+    "slug": "neapolitan-mastiff",
+    "status": "publish",
+    "type": "breed",
+    "link": "https://phcms.hlth.prd.aws.chewy.cloud/breed/neapolitan-mastiff/",
+    "title": {
+      "rendered": "Neapolitan Mastiff"
+    },
+    "featured_media": 619,
+    "template": "",
+    "pet_type": [],
+    "class_list": [
+      "post-620",
+      "breed",
+      "type-breed",
+      "status-publish",
+      "has-post-thumbnail",
+      "hentry"
+    ],
+    "acf": {
+      "breed_snapshot_best_for": "\u003Cp\u003EWith their giant size, it's no surprise that Neapolitan Mastiffs were originally trained as guard dogs. Today, these pups have a chill, homebody vibe—as long as there's enough space for them at home. Give them regular exercise and early socialization and you'll have a loyal pal for life.\u003C/p\u003E",
+      "alt_image_text": "Neapolitan Mastiff dog breed",
+      "breed_intro": "When you first look at a Neapolitan Mastiff, you might think, \"How wrinkly! How... HUGE!\" And you're not wrong. Neos (as they're affectionately called) were originally bred to guard their homes—something they're capable of doing with a look and a (deep) \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/how-to-train-dog-not-to-bark\"\u003Ebark\u003C/a\u003E. But these extra-large pups are more than their massive build—they love their families unconditionally. They often show that love with drooly kisses... and they may try to crawl into your lap.",
+      "breed_related_products_product_card_set": null,
+      "breed_snapshot_temperament": "\u003Cp\u003ELoving, Chill, Gentle\u003C/p\u003E",
+      "what_does_this_breed_look_like_weight": "\u003Cp\u003EMale: 150 pounds\u003C/p\u003E\u003Cp\u003EFemale: 110 pounds\u003C/p\u003E",
+      "what_does_this_breed_look_like_height": "\u003Cp\u003EMale: 26-31 inches\u003C/p\u003E\u003Cp\u003EFemale: 24-29 inches\u003C/p\u003E",
+      "breed_snapshot_life_expectancy": "\u003Cp\u003E7 to 9 years\u003C/p\u003E",
+      "breed_snapshot_maintenance_level": "\u003Cp\u003EMedium\u003C/p\u003E",
+      "breed_characteristics_friendliness": "\u003Cp\u003E2\u003C/p\u003E",
+      "breed_snapshot_coat_color": "\u003Cp\u003EBlue, Black, Mahogany, Tawny\u003C/p\u003E",
+      "breed_snapshot_shed_level": "\u003Cp\u003EMedium\u003C/p\u003E",
+      "in_article_video": null,
+      "breed_characteristics": "These traits are rated on a scale of 1-5 with 1 being the lowest and 5 being the highest. Remember: Dogs are individuals, and not all dogs, even those of the same breed, will exhibit all the same qualities.",
+      "breed_characteristics_exercise_needs": "\u003Cp\u003E2\u003C/p\u003E",
+      "breed_characteristics_health_issues": "\u003Cp\u003E5\u003C/p\u003E",
+      "breed_characteristics_barking_tendencies": "\u003Cp\u003E2\u003C/p\u003E",
+      "breed_characteristics_grooming_needs": "\u003Cp\u003E3\u003C/p\u003E",
+      "breed_characteristics_shedding_level": "\u003Cp\u003E3\u003C/p\u003E",
+      "breed_characteristics_training_needs": "\u003Cp\u003E4\u003C/p\u003E",
+      "breed_characteristics_good_with_kids": "\u003Cp\u003E3\u003C/p\u003E",
+      "breed_characteristics_good_with_cats": "\u003Cp\u003E3\u003C/p\u003E",
+      "breed_characteristics_good_for_apartments_small_homes": "\u003Cp\u003E2\u003C/p\u003E",
+      "breed_characteristics_energy_level": "\u003Cp\u003E2\u003C/p\u003E",
+      "breed_characteristics_good_with_other_dogs": "\u003Cp\u003E1\u003C/p\u003E",
+      "breed_characteristics_playfulnesss": "\u003Cp\u003E2\u003C/p\u003E",
+      "breed_characteristics_sensitive_to_cold_weather": "\u003Cp\u003E2\u003C/p\u003E",
+      "breed_characteristics_sensitive_to_warm_weather": "\u003Cp\u003E4\u003C/p\u003E",
+      "breed_characteristics_good_for_first_time_parents": "\u003Cp\u003E1\u003C/p\u003E",
+      "how_do_i_look_card_image": 618,
+      "what_does_this_breed_look_like": "The Neapolitan Mastiff is known for their giant size and their giant wrinkles. When you pair their color palette of black, blue, mahogany or tawny (with the occasional bridle tiger stripes) with their droopy ears, eyes and jowls, these pups look sorrowful. But their \"Eeyore\" appearance belies a secret Neo lovers know best: These sad-looking pups are happiest hanging with their families. \u003Cb\u003E\u003C/b\u003E",
+      "what_does_this_breed_look_like_ears": "\u003Cp\u003EThe AKC breed standard allows for the ears to be cropped or natural. Cropping involves surgically cutting away part of a dog’s ears. Veterinary groups along with many U.S. states and countries have banned this procedure due to medical and behavioral reasons. If you are interested in this procedure, schedule a consultation with your veterinarian.  If left natural, the ears are medium-sized, triangular and droopy. \u003C/p\u003E",
+      "what_does_this_breed_look_like_eyes": "\u003Cp\u003ETheir eyes are deeply set with drooping upper and lower eyelids and are amber or brown depending on their coat color.\u003C/p\u003E",
+      "what_does_this_breed_look_like_nose": "\u003Cp\u003ENeo's noses are large with wide nostrils. The color matches the dog's coat.\u003C/p\u003E",
+      "what_does_this_breed_look_like_coat_length": "\u003Cp\u003ENeapolitan Mastiffs are short-coated dogs with loose skin and dense hair.\u003C/p\u003E",
+      "what_does_this_breed_look_like_coat_color": "\u003Cp\u003ETheir coats are blue, black, tawny or mahogany, and some are brindled.\u003C/p\u003E",
+      "what_does_this_breed_look_like_tail": "\u003Cp\u003ETheir tail is wide, thick and tapered toward the end. The AKC breed standard calls for the tail to be docked. Docking involves cutting a portion of the dog’s tail off when they are puppies. Veterinary groups along with many U.S. states and countries have banned this procedure due to medical and behavioral reasons. If you are interested in this procedure, schedule a consultation with your veterinarian. \u003C/p\u003E",
+      "h2_breed_temperament": "Neapolitan Mastiff dogs (aka Mastinos or Neos) love their families. Despite their extra-large size, you may find your gentle giant trying to snuggle up on your lap! And these lumbering pups do well as playmates with children. Just keep an eye on extra-small kids; even though Neos aren't as active as \u003Ca href=\"https://www.chewy.com/education/dog-breeds/border-collie/\"\u003EBorder Collies\u003C/a\u003E, they may knock over a toddler accidentally due to their sheer size.\n\nNeos are wary of newcomers, but they are rarely reactive. Still, their massive size and deep, throaty bark are usually enough to keep unwanted visitors at bay. Early \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/positively-trained-puppy-socialization-dos-and-donts\"\u003Esocialization\u003C/a\u003E is important to help teach them the difference between friends and foes.\n\nNeos may not naturally get along with other dogs, so \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/doggie-play-date-etiquette-how-to-introduce-pets-successfully\"\u003Eproper introductions\u003C/a\u003E and lots of socialization are key if you're adding them to an existing pack. They may do OK with a family cat if raised with them through puppyhood, but some Neos will chase cats.\n\nMastino puppies are energetic and playful. As adults, they're the ultimate couch potatoes and live to lounge near their people.",
+      "h2_how_to_care_for_a_breed": "Caring for a Neapolitan Mastiff isn't as time-consuming as they may appear. This chill dog doesn't need a lot of exercise or grooming—but pay attention their skin folds to prevent infection and keep a towel to clean up their drooling. The bulk of your time will be spent in training this powerful, large-breed pooch.",
+      "grooming": "With their size and hallmark wrinkly nature, plan on brushing your Neapolitan Mastiff dog with a \u003Ca href=\"https://www.chewy.com/f/slicker-brush-dog-brushes-combs_c356_f70v83792\"\u003Eslicker brush\u003C/a\u003E two or three times a week to keep their shedding under control. While you're brushing your pup, be sure to clean their folds, especially around the face. Drool, dirt and food can accumulate, causing infection if not taken care of. And don't forget to check their ears for debris, redness and swelling. If you notice anything unusual, contact your vet, who may recommend \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/how-do-you-clean-a-dogs-ears-follow-this-vet-approved-step-by-step-guide\"\u003Ecleaning their ears\u003C/a\u003E.\n\nDepending on their activity level, a bath every four to six weeks will keep their coat shiny and smelling fresh. Bathtime is a good time to \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/guide-trimming-dogs-nails\"\u003Etrim their nails\u003C/a\u003E. (The bath softens the nails, making them easier to clip.) You'll know they're ready for a trim when you can hear them clacking on hard surfaces.\n\nWhen it comes to your Mastino's pearly whites, \u003Ca href=\"https://www.chewy.com/education/dog/grooming/health-wellness-how-to-brush-your-dogs-teeth-live-to-tell-the-tale\"\u003Ebrush their teeth\u003C/a\u003E&nbsp;daily. It's best to start the habit when your Neapolitan Mastiff's a puppy, so they get used to it sooner. Otherwise, your gentle giant will be at risk for health problems like gum disease. And an annual professional teeth cleaning by your vet (not your groomer) is mandatory.",
+      "training": "Neapolitan Mastiffs are intelligent dogs who learn best with patience, consistency and positivity. So be sure to reward your pup with treats, praise and fun playtimes when they do a good job. Mastino puppies are very energetic, while the adults are very laid back. But their adolescent years? These pups can be a bit strong-willed and will try to tell you their way of doing things is better than yours. And this is why it's a good idea to start training early; you want to have your pup trusting your leadership long before they weigh well over 100 pounds!\n\nOne of the best parts of training a Neapolitan Mastiff puppy is that you don't need to reinvent the wheel or make a game of everything. They have a natural desire to please you, so they do well with repetition. It's important to focus on a few behaviors (or even just one) at a time and aim for simplicity and perfection. (For example, instead of teaching \"\u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-stay\"\u003Estay\u003C/a\u003E,\" teach a really long \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-sit\"\u003Esit\u003C/a\u003E that outlasts distractions with ease.)\n\nDon't forget socialization! It's super important for these pups. These dogs can be wary of strangers—they were originally bred to be guard dogs—so it's important you start socializing your dog while they're a puppy. Take them on walks and let them see other people and dogs, and enroll them in puppy school. Puppy school is a great place to learn how to play nicely with other puppies and meet people outside their family.",
+      "diet_nutrition": "Neapolitan Mastiffs thrive on high-quality, large-breed \u003Ca href=\"https://www.chewy.com/education/dog/food-and-nutrition/the-ages-and-stages-of-dog-food-from-puppy-to-adult-to-senior\"\u003Edog food\u003C/a\u003E designed for their age (puppy, adult or senior). These pups grow fast, so be sure you don't add extra calcium (either bone meal or other supplements) to their diet—it could hinder bone development.\n\nMastinos eat a lot, up to six cups of food a day, and it can be easy to overfeed these pups. Even on large dogs, a few extra pounds can add health problems down the road, like arthritis. As you balance your pup's meals and exercise, don't forget to include the treats you give in that ratio. Those calories count. If you notice your pup's a little portly, chat with your vet. They can help you put together a mealtime and exercise plan to help your dog lose the extra weight and still maintain their nutritional needs.",
+      "exercise": "Neapolitan Mastiffs have lower exercise needs than other dogs their size. They enjoy daily walks lumbering throughout the neighborhood, the local park or short nature trails that offer the space they need to move their big bodies. These dogs are not known for their speed, so jogging with you is out of the question. (Besides, it's hard on their joints.) Plan on giving them about 30 to 40 minutes of exercise every day. Neos don't do well in the heat, so be sure to keep their walks to the cooler parts of the day.\r\n\r\nA Neapolitan Mastiff puppy is as energetic as other puppies and loves to play, but rough play can inadvertently damage their bones. So, make sure they don't jump off furniture or play too roughly. And while games of tug-of-war or wrestling are cute when they're little, this dog will grow to outweigh some adults (and definitely be stronger than them, too). So, don't get your puppy in the habit of playing these types of games while they're young. (Or, you'll regret it as they grow up.)",
+      "ideal_environment": "Neapolitan Mastiffs are a giant breed, and their quiet, adaptable nature suits medium-to-large-sized homes. Apartments may be OK if they're spacious and you don't have a lot of stairs (and bonus points if there's an elevator).\r\n\r\nMastinos are ideal for experienced pup parents and families with children, as long as both dog and kids have been taught to interact safely and respectfully. Their sheer size and power make them less-than-ideal for newbie dog parents.\r\n\r\nThese pups choose their dog friends carefully, so they may need lots of training and socialization if you're adding them to a home with other dogs. If you raise your Neo from puppyhood with a cat, they are likely to get along.\r\n\r\nNeos prefer colder climates and can overheat when it's hot out, so keep walks to the cooler parts of the day, the AC cranked and fresh water available for your pup to lap up.",
+      "h2_breed_health": "The Neapolitan Mastiff has a life expectancy of 7 to 9 years, and the breed is prone to a lot of health issues. But this shouldn’t stop you from considering this wonderful pup. By knowing what these health issues are, you can help your dog live the longest life possible.\r\n\u003Cul\u003E\r\n \t\u003Cli\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/eyes/c_multi_prolapsed_gland\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cstrong\u003ECherry Eye\u003C/strong\u003E\u003C/a\u003E: Dogs have three eyelids. The third eyelid has a gland that contributes to tear production called the nictitans gland. This gland can prolapse, appearing as a pink fleshy tissue at the corner of the eye commonly called “cherry eye”. Typically, surgery is needed to return the gland to its proper place.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Cstrong\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/c_dg_hip_dysplasia\" target=\"_blank\" rel=\"noopener\"\u003EHip\u003C/a\u003E and \u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/c_dg_elbow_dysplasia\" target=\"_blank\" rel=\"noopener\"\u003EElbow Dysplasia\u003C/a\u003E\u003C/strong\u003E: Dysplasia is a hereditary condition in which the joint is malformed and rubs, causing your dog pain, lameness and, eventually, arthritis. Treatments range from weight and exercise management to physical therapy to surgery.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Cstrong\u003EFacial Fold Infections\u003C/strong\u003E: The nooks and crannies of your Neo’s folds are a breeding ground for bacteria, which can develop into yeast infections. Keep an eye on folds particularly around the mouth and underbelly while bathing and grooming and contact your vet if irritation develops.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Cstrong\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/digestive/gastric-dilatation-volvulus-gdv-syndrome\" target=\"_blank\" rel=\"noopener\"\u003EGastric Dilatation Volvulus\u003C/a\u003E (GDV)\u003C/strong\u003E: GDV (otherwise known as \u003Ca href=\"https://www.petmd.com/dog/conditions/digestive/signs-and-symptoms-bloat-dogs\" target=\"_blank\" rel=\"noopener\"\u003Ebloat\u003C/a\u003E) is a life-threatening, emergency condition in which the stomach fills with gas and twists on itself. To help protect your pup from GDV, feed them smaller meals throughout the day with a  \u003Ca href=\"https://www.chewy.com/b/slow-feeders-1424\" target=\"_blank\" rel=\"noopener\"\u003Eslow feeding bowl \u003C/a\u003E and wait an hour before and after mealtimes before exercising.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Cstrong\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/cardiovascular/enlarged-heart-dilated-cardiomyopathy-dogs\" target=\"_blank\" rel=\"noopener\"\u003EDilated Cardiomyopathy\u003C/a\u003E (DCM)\u003C/strong\u003E: This inherited heart condition causes the heart to become enlarged resulting in thin and weakened heart muscle. This can lead to heart failure. Daily medication is the likely course of treatment.\u003C/li\u003E\r\n\u003C/ul\u003E",
+      "h2_breed_history": "The Neapolitan Mastiff's history dates back to Ancient Rome (and maybe as far as 700 B.C.), where their ancestors' strength and girth made them ideal war dogs, gladiators and guards of hearth and home. These original pups (the Molossus) were later bred to be more family-friendly, and the Neapolitan Mastiff came to be. (They are named for Naples, where they originated.)\r\n\r\nBy the 1940s, Neapolitan Mastiffs were nearly extinct, but thanks to a concerted effort by Italian breeders, the Neapolitan Mastiff Renaissance was born. Also known as Neos or Mastinos, Neapolitan Mastiffs were recognized by the American Kennel Club in 2004, and included in the Working group, aka the group of dogs bred for a specific job, like guarding or search and rescue.\r\n\r\nAre you looking to add a Mastino to your family? You can find reputable breeders on the \u003Ca href=\"https://marketplace.akc.org/puppies/neapolitan-mastiff\"\u003EAKC website\u003C/a\u003E. Neapolitan Mastiff puppies cost about $1,500 to $2,500 but can exceed $5,000, depending on the lineage. But for that price, you're likely getting a pup who's been screened for health and temperament issues and may come with pedigree papers. If you'd like to adopt a pup, connect with a Neapolitan Rescue organization or look out for the breed at your local shelter. Search \u003Ca href=\"https://www.chewy.com/g/dog-neapolitan-mastiff_ga1\"\u003EChewy’s database of adoptable dogs\u003C/a\u003E in your area.",
+      "expert_attribution": "\u003Ci\u003EExpert input provided by veterinarian Dr. Christina Haney, DVM, founder of \u003Ca href=\"https://www.aliciapacvet.com/\"\u003EAlicia Pacific Vet Center\u003C/a\u003E in Laguna Niguel, Calif., and certified dog trainer Ali Smith, owner of \u003Ca href=\"http://www.rebarkable.com.\"\u003Ewww.rebarkable.com.\u003C/a\u003E\u003C/i\u003E\r\n\r\n\u003Cem\u003EBreed characteristic ratings provided by veterinarian Dr. Sarah J. Wooten, DVM, CVJ, a veterinarian at \u003Ca href=\"https://sheepdraw.com/\" target=\"_blank\" rel=\"noopener\"\u003ESheep Draw Veterinary Hospital\u003C/a\u003E in Greeley, Colorado; dog trainer and behavior consultant Irith Bloom, CPDT-KSA, CBCC-KA, CDBC, owner of \u003Ca href=\"https://thesophisticateddog.com/\" target=\"_blank\" rel=\"noopener\"\u003EThe Sophisticated Dog, LLC\u003C/a\u003E, in Los Angeles; and certified animal behavior consultant \u003Ca href=\"https://shojai.com/\" target=\"_blank\" rel=\"noopener\"\u003EAmy Shojai\u003C/a\u003E, CABC, in Sherman, Texas. \u003C/em\u003E\r\n\r\n\u003Cem\u003EThe health content was medically reviewed by Chewy vets.\u003C/em\u003E\r\n\r\n\u003Cem\u003EPhoto credit for \"How do I look?\" \u003Ca href=\"https://www.akc.org/dog-breeds/neapolitan-mastiff/\"\u003EAKC.org\u003C/a\u003E\u003C/em\u003E",
+      "facebook_social_snippet_with_cta": "\u003Cp\u003EAre you looking for a loyal dog who can scare the pants off intruders with just a look? Check out the Neapolitan Mastiff! These pups were born to protect their homes and love their families. Get all the information about this pup, including traits, grooming needs and more in our guide.\u003C/p\u003E",
+      "species": "\u003Cp\u003EDog\u003C/p\u003E",
+      "h2_faqs": "\u003Ch3\u003EWhat is the difference between a Neapolitan and an English Mastiff?\u003C/h3\u003E\r\nNeapolitan Mastiffs and \u003Ca href=\"https://www.chewy.com/education/dog-breeds/mastiff/\"\u003EEnglish Mastiffs\u003C/a\u003E are different breeds. While they share an ancestor, English Mastiffs are taller and heavier than Neapolitans. Mastinos are stockier in build and are distinguished by their wrinkly, drooping folds of skin.\r\n\u003Ch3\u003EDo Neapolitan Mastiffs shed?\u003C/h3\u003E\r\nYes, Neapolitan Mastiffs shed moderately, so don't put your vacuum away for too long!\r\n\u003Ch3\u003EHow big do Neapolitan Mastiffs get?\u003C/h3\u003E\r\nNeapolitan Mastiffs get very big! They can get up to 31 inches tall at the shoulder and weigh 150 pounds.\r\n\u003Ch3\u003EAre Neapolitan Mastiffs good guard dogs?\u003C/h3\u003E\r\nNeapolitan Mastiffs can be trained to be good guard dogs. The Romans bred these dogs to use as war dogs, gladiators and guard dogs. Their large build and deep, loud bark make them ideal for guard duty.\r\n\u003Ch3\u003EWhat are the most common Neapolitan Mastiff mixes?\u003C/h3\u003E\r\n\u003Cul\u003E\r\n \t\u003Cli\u003ENeapolitan Mastiff-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/american-pit-bull-terrier/\"\u003EPit Bull\u003C/a\u003E mix (Pitbull Mastiff)\u003C/li\u003E\r\n \t\u003Cli\u003ENeapolitan Mastiff-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/great-dane/\"\u003EGreat Dane\u003C/a\u003E mix (Neo Daniff)\u003C/li\u003E\r\n \t\u003Cli\u003ENeapolitan Mastiff-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/cane-corso/\"\u003ECane Corso\u003C/a\u003E mix (Neo Corso)\u003C/li\u003E\r\n \t\u003Cli\u003ENeapolitan Mastiff-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/american-bulldog/\"\u003EAmerican Bulldog\u003C/a\u003E mix (American Neo Bull)\u003C/li\u003E\r\n \t\u003Cli\u003ENeapolitan Mastiff-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/german-shepherd/\"\u003EGerman Shepherd\u003C/a\u003E mix (German Shepherd Mastiff)\u003C/li\u003E\r\n\u003C/ul\u003E\r\nNote: These are not purebred dogs but mixed breeds.",
+      "faq_items": [
+        {
+          "faq_title": "What is the difference between a Neapolitan and an English Mastiff?",
+          "faq_content": "Neapolitan Mastiffs and \u003Ca href=\"https://www.chewy.com/education/dog-breeds/mastiff/\"\u003EEnglish Mastiffs\u003C/a\u003E are different breeds. While they share an ancestor, English Mastiffs are taller and heavier than Neapolitans. Mastinos are stockier in build and are distinguished by their wrinkly, drooping folds of skin."
+        },
+        {
+          "faq_title": "Do Neapolitan Mastiffs shed?",
+          "faq_content": "Yes, Neapolitan Mastiffs shed moderately, so don't put your vacuum away for too long!"
+        },
+        {
+          "faq_title": "How big do Neapolitan Mastiffs get?",
+          "faq_content": "Neapolitan Mastiffs get very big! They can get up to 31 inches tall at the shoulder and weigh 150 pounds."
+        },
+        {
+          "faq_title": "Are Neapolitan Mastiffs good guard dogs?",
+          "faq_content": "Neapolitan Mastiffs can be trained to be good guard dogs. The Romans bred these dogs to use as war dogs, gladiators and guard dogs. Their large build and deep, loud bark make them ideal for guard duty."
+        },
+        {
+          "faq_title": "What are the most common Neapolitan Mastiff mixes?",
+          "faq_content": "\u003Cul\u003E\r\n \t\u003Cli\u003ENeapolitan Mastiff-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/american-pit-bull-terrier/\"\u003EPit Bull\u003C/a\u003E mix (Pitbull Mastiff)\u003C/li\u003E\r\n \t\u003Cli\u003ENeapolitan Mastiff-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/great-dane/\"\u003EGreat Dane\u003C/a\u003E mix (Neo Daniff)\u003C/li\u003E\r\n \t\u003Cli\u003ENeapolitan Mastiff-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/cane-corso/\"\u003ECane Corso\u003C/a\u003E mix (Neo Corso)\u003C/li\u003E\r\n \t\u003Cli\u003ENeapolitan Mastiff-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/american-bulldog/\"\u003EAmerican Bulldog\u003C/a\u003E mix (American Neo Bull)\u003C/li\u003E\r\n \t\u003Cli\u003ENeapolitan Mastiff-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/german-shepherd/\"\u003EGerman Shepherd\u003C/a\u003E mix (German Shepherd Mastiff)\u003C/li\u003E\r\n\u003C/ul\u003E\r\nNote: These are not purebred dogs but mixed breeds."
+        }
+      ],
+      "select_related_breeds": [
+        {
+          "selected_related_breed": 302,
+          "characteristic": "breed_characteristics_training_needs"
+        },
+        {
+          "selected_related_breed": 1117,
+          "characteristic": "breed_characteristics_energy_level"
+        },
+        {
+          "selected_related_breed": 591,
+          "characteristic": "breed_characteristics_friendliness"
+        },
+        {
+          "selected_related_breed": 690,
+          "characteristic": "breed_characteristics_playfulnesss"
+        },
+        {
+          "selected_related_breed": 1083,
+          "characteristic": "breed_characteristics_good_with_other_dogs"
+        },
+        {
+          "selected_related_breed": 939,
+          "characteristic": "breed_characteristics_exercise_needs"
+        }
+      ],
+      "enable_featured_gallery": [
+        "enable_featured_gallery"
+      ],
+      "featured_gallery_images": [612, 613, 614, 615, 616]
+    },
+    "yoast_head": "\u003C!-- This site is optimized with the Yoast SEO plugin v23.8 - https://yoast.com/wordpress/plugins/seo/ --\u003E\n\u003Ctitle\u003ENeapolitan Mastiff Breed: Characteristics, Care &amp; Photos | Chewy\u003C/title\u003E\n\u003Cmeta name=\"description\" content=\"The Neapolitan Mastiff breed is a chill dog ready to protect your home. See if they&#039;re a good match for you in our complete Neapolitan Mastiff guide.\" /\u003E\n\u003Cmeta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" /\u003E\n\u003Clink rel=\"canonical\" href=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/neapolitan-mastiff/\" /\u003E\n\u003Cmeta property=\"og:locale\" content=\"en_US\" /\u003E\n\u003Cmeta property=\"og:type\" content=\"article\" /\u003E\n\u003Cmeta property=\"og:title\" content=\"Neapolitan Mastiff Breed: Characteristics, Care &amp; Photos | Chewy\" /\u003E\n\u003Cmeta property=\"og:description\" content=\"The Neapolitan Mastiff breed is a chill dog ready to protect your home. See if they&#039;re a good match for you in our complete Neapolitan Mastiff guide.\" /\u003E\n\u003Cmeta property=\"og:url\" content=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/neapolitan-mastiff/\" /\u003E\n\u003Cmeta property=\"og:site_name\" content=\"Chewy\" /\u003E\n\u003Cmeta property=\"article:modified_time\" content=\"2025-05-05T14:21:50+00:00\" /\u003E\n\u003Cmeta property=\"og:image\" content=\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11164845/202106NeapolitanMastiff-FeaturedImage.jpg\" /\u003E\n\t\u003Cmeta property=\"og:image:width\" content=\"1440\" /\u003E\n\t\u003Cmeta property=\"og:image:height\" content=\"865\" /\u003E\n\t\u003Cmeta property=\"og:image:type\" content=\"image/jpeg\" /\u003E\n\u003Cmeta name=\"twitter:card\" content=\"summary_large_image\" /\u003E\n\u003Cscript type=\"application/ld+json\" class=\"yoast-schema-graph\"\u003E{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/neapolitan-mastiff/\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/neapolitan-mastiff/\",\"name\":\"Neapolitan Mastiff Breed: Characteristics, Care & Photos | Chewy\",\"isPartOf\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/neapolitan-mastiff/#primaryimage\"},\"image\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/neapolitan-mastiff/#primaryimage\"},\"thumbnailUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11164845/202106NeapolitanMastiff-FeaturedImage.jpg\",\"datePublished\":\"2021-06-17T11:55:50+00:00\",\"dateModified\":\"2025-05-05T14:21:50+00:00\",\"description\":\"The Neapolitan Mastiff breed is a chill dog ready to protect your home. See if they're a good match for you in our complete Neapolitan Mastiff guide.\",\"breadcrumb\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/neapolitan-mastiff/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://phcms.hlth.prd.aws.chewy.cloud/breed/neapolitan-mastiff/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/neapolitan-mastiff/#primaryimage\",\"url\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11164845/202106NeapolitanMastiff-FeaturedImage.jpg\",\"contentUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11164845/202106NeapolitanMastiff-FeaturedImage.jpg\",\"width\":1440,\"height\":865},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/neapolitan-mastiff/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://phcms.hlth.prd.aws.chewy.cloud/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Neapolitan Mastiff\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/\",\"name\":\"Chewy\",\"description\":\"\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"}]}\u003C/script\u003E\n\u003C!-- / Yoast SEO plugin. --\u003E",
+    "yoast_head_json": {
+      "title": "Neapolitan Mastiff Breed: Characteristics, Care & Photos | Chewy",
+      "description": "The Neapolitan Mastiff breed is a chill dog ready to protect your home. See if they're a good match for you in our complete Neapolitan Mastiff guide.",
+      "robots": {
+        "index": "index",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "canonical": "https://phcms.hlth.prd.aws.chewy.cloud/breed/neapolitan-mastiff/",
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "Neapolitan Mastiff Breed: Characteristics, Care & Photos | Chewy",
+      "og_description": "The Neapolitan Mastiff breed is a chill dog ready to protect your home. See if they're a good match for you in our complete Neapolitan Mastiff guide.",
+      "og_url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/neapolitan-mastiff/",
+      "og_site_name": "Chewy",
+      "article_modified_time": "2025-05-05T14:21:50+00:00",
+      "og_image": [
+        {
+          "width": 1440,
+          "height": 865,
+          "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11164845/202106NeapolitanMastiff-FeaturedImage.jpg",
+          "type": "image/jpeg"
+        }
+      ],
+      "twitter_card": "summary_large_image",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/neapolitan-mastiff/",
+            "url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/neapolitan-mastiff/",
+            "name": "Neapolitan Mastiff Breed: Characteristics, Care & Photos | Chewy",
+            "isPartOf": {
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/neapolitan-mastiff/#primaryimage"
+            },
+            "image": {
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/neapolitan-mastiff/#primaryimage"
+            },
+            "thumbnailUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11164845/202106NeapolitanMastiff-FeaturedImage.jpg",
+            "datePublished": "2021-06-17T11:55:50+00:00",
+            "dateModified": "2025-05-05T14:21:50+00:00",
+            "description": "The Neapolitan Mastiff breed is a chill dog ready to protect your home. See if they're a good match for you in our complete Neapolitan Mastiff guide.",
+            "breadcrumb": {
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/neapolitan-mastiff/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://phcms.hlth.prd.aws.chewy.cloud/breed/neapolitan-mastiff/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/neapolitan-mastiff/#primaryimage",
+            "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11164845/202106NeapolitanMastiff-FeaturedImage.jpg",
+            "contentUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11164845/202106NeapolitanMastiff-FeaturedImage.jpg",
+            "width": 1440,
+            "height": 865
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/neapolitan-mastiff/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://phcms.hlth.prd.aws.chewy.cloud/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Neapolitan Mastiff"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website",
+            "url": "https://phcms.hlth.prd.aws.chewy.cloud/",
+            "name": "Chewy",
+            "description": "",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en-US"
+          }
+        ]
+      }
+    },
+    "yoast_meta": {
+      "yoast_wpseo_title": "",
+      "yoast_wpseo_metadesc": "",
+      "yoast_wpseo_canonical": ""
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed/620",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/types/breed"
+        }
+      ],
+      "acf:attachment": [
+        {
+          "embeddable": true,
+          "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/616"
+        },
+        {
+          "embeddable": true,
+          "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/615"
+        },
+        {
+          "embeddable": true,
+          "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/614"
+        },
+        {
+          "embeddable": true,
+          "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/613"
+        },
+        {
+          "embeddable": true,
+          "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/612"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/619"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media?parent=620"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "pet_type",
+          "embeddable": true,
+          "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/pet_type?post=620"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+]

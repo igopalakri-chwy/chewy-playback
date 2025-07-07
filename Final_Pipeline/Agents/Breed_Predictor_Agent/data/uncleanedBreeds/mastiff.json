@@ -1,0 +1,314 @@
+[
+    {
+      "id": 1117,
+      "date": "2021-05-25T11:21:38",
+      "date_gmt": "2021-05-25T11:21:38",
+      "guid": {
+        "rendered": "https://haproxy.use1.lgcy.prd.aws.chewy.cloud/eks/ns/pet-health/pet-health-content-backend/breed/mastiff/"
+      },
+      "modified": "2025-05-05T14:22:34",
+      "modified_gmt": "2025-05-05T14:22:34",
+      "slug": "mastiff",
+      "status": "publish",
+      "type": "breed",
+      "link": "https://phcms.hlth.prd.aws.chewy.cloud/breed/mastiff/",
+      "title": {
+        "rendered": "Mastiff"
+      },
+      "featured_media": 1638,
+      "template": "",
+      "pet_type": [],
+      "class_list": [
+        "post-1117",
+        "breed",
+        "type-breed",
+        "status-publish",
+        "has-post-thumbnail",
+        "hentry"
+      ],
+      "acf": {
+        "breed_snapshot_best_for": "\u003Cp\u003EMastiffs are gentle giants with a calm demeanor and moderate exercise needs. These steadfast companions they make loyal family pets for those with lots of time for training—and who aren't afraid of a little (ok, a lot) of drool.\u003C/p\u003E",
+        "alt_image_text": "\u003Cp\u003EGet all the information about the Mastiff—their origin, temperament and grooming—in our complete guide.\u003C/p\u003E",
+        "breed_intro": "This gentle giant lumbers along instead of trotting and leaves behind a wake of smeary drool. But if you're a quick draw with a roll of paper towels and awed by the majesty that a Mastiff brings to the table, you may want to check out this special canine. Not for the faint of heart (or anyone with tiny biceps), a Mastiff puppy requires an all-in \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/sit-stay-and-beyond-weve-got-the-essential-guide-to-basic-dog-obedience-training\"\u003Etraining\u003C/a\u003E approach—but in return, they'll match your efforts with steadfast loyalty and love.",
+        "breed_related_products_product_card_set": null,
+        "breed_snapshot_temperament": "\u003Cp\u003EUnruffled, Dignified, Protective\u003C/p\u003E",
+        "what_does_this_breed_look_like_weight": "\u003Cp\u003EMale: 160-230 pounds\u003C/p\u003E\u003Cp\u003EFemale: 120-170 pounds\u003C/p\u003E",
+        "what_does_this_breed_look_like_height": "\u003Cp\u003EMale: 30 inches and up\u003C/p\u003E\u003Cp\u003EFemale: 27.5 inches and up\u003C/p\u003E",
+        "breed_snapshot_life_expectancy": "\u003Cp\u003E6 to 10 years\u003C/p\u003E",
+        "breed_snapshot_maintenance_level": "\u003Cp\u003EMedium\u003C/p\u003E",
+        "breed_characteristics_friendliness": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_snapshot_coat_color": "\u003Cp\u003EFawn, Apricot, Brindle\u003C/p\u003E",
+        "breed_snapshot_shed_level": "\u003Cp\u003ELow\u003C/p\u003E",
+        "in_article_video": null,
+        "breed_characteristics": "These traits are rated on a scale of 1-5 with 1 being the lowest and 5 being the highest. Remember: Dogs are individuals, and not all dogs, even those of the same breed, will exhibit all the same qualities.",
+        "breed_characteristics_exercise_needs": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_health_issues": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_barking_tendencies": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_grooming_needs": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_shedding_level": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_training_needs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_kids": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_cats": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_for_apartments_small_homes": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_energy_level": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_good_with_other_dogs": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_playfulnesss": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_cold_weather": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_warm_weather": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_for_first_time_parents": "\u003Cp\u003E1\u003C/p\u003E",
+        "how_do_i_look_card_image": 3225,
+        "what_does_this_breed_look_like": "The Mastiff dog breed's heavy-boned frame contains a gentle heart. With a huge head, framed by long, soft ears, and oh-so-many expressive wrinkles, this very large pup moves slowly but with great purpose. Expect oodles of drool from their large droopy jowls but at least their short coat, which comes in fawn, apricot or brindle (subtle tiger stripes), is easy to care for.",
+        "what_does_this_breed_look_like_ears": "\u003Cp\u003EMastiff ears are small compared with their very large head and are V-shaped with rounded tips.\u003C/p\u003E",
+        "what_does_this_breed_look_like_eyes": "\u003Cp\u003EMastiff eyes are wide-set, medium in size and brown (the darker the better).\u003C/p\u003E",
+        "what_does_this_breed_look_like_nose": "\u003Cp\u003EA Mastiff's muzzle is half the length of their head, and their nose is broad and dark in color (black is preferred).\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_length": "\u003Cp\u003EMastiffs are short-coated pups with a dense outer coat and a short, close-lying undercoat.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_color": "\u003Cp\u003ETheir coat colors consist of fawn, apricot or brindle (subtle tiger stripes).\u003C/p\u003E",
+        "what_does_this_breed_look_like_tail": "\u003Cp\u003EA Mastiff tail is wide at the base and tapers toward the end, and it may hang straight or curve slightly upward.\u003C/p\u003E",
+        "h2_breed_temperament": "Extreme loyalty and a courageous nature are the defining characteristics of a Mastiff's temperament. While a Mastiff's massive weight and height may put off some potential pet parents, this breed is quite friendly and makes an excellent family pet. If little ones are in your mix, know that with early and consistent training, having a Mastiff with kids is very doable since barking and biting aren't common to this breed. Their kindly personality extends to four-legged pals as well, which means you can often add this colossal canine to homes with cats and other dogs.\r\n\r\nA Mastiff has competency in spades, thanks to their innate intelligence and eagerness to please. As a quick learner, the Mastiff thrives on service, perhaps because this working breed has a long history of guarding and fighting alongside soldiers in battle.\r\n\r\nIt may seem counterintuitive that such a large animal might not have deep energy reserves, but this is actually the case with the Mastiff dog breed. Slow and steady wins the race here, so low-key pup parents are often the best pairing for this majestic creature.",
+        "h2_how_to_care_for_a_breed": "Mastiff exercise needs are moderate and their coats are rather easy to brush—two reasons this most excellent dog breed may be the one for you. But keep in mind that this pup drools—a lot! So, you'll always need at least one towel on hand for keeping their face (and your furniture) drool-free.",
+        "grooming": "Mastiff grooming and shedding are low-effort when compared with other breeds, and this dog's short coat and leisurely pace means they stay pretty clean. Plan on brushing your Mastiff every few days, though daily brushing is even better as it removes dead hair and keeps your pup looking sharp. As for brushing tools, most pup parents choose between a \u003Ca href=\"https://www.chewy.com/f/glove-dog-brushes-combs_c356_f70v83788\"\u003Egrooming mitt\u003C/a\u003E or a \u003Ca href=\"https://www.chewy.com/f/dog-bristle-brushes_c355_f70v83784\"\u003Ebristle brush\u003C/a\u003E—and as long as you brush regularly, a bath is only needed every four to six weeks.\n\nKeep your Mastiff's teeth shiny and plaque-free by striving for \u003Ca href=\"https://www.chewy.com/education/dog/grooming/health-wellness-how-to-brush-your-dogs-teeth-live-to-tell-the-tale\"\u003Edaily sessions with the toothbrush\u003C/a\u003E (work up to this goal by brushing a few times a week at first). Your vet can give you pointers if the thought of prying open a Mastiff's mouth gives you pause. And don't forget a professional teeth cleaning by the vet annually to maintain optimal dental health.\n\nTrim your Mastiff's nails once a month. You'll know they're ready for a trim when you hear them clacking on hard surfaces. Check their ears for debris, redness, swelling or mites a few times a week. \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/how-do-dogs-get-ear-mites\"\u003ESigns of ear mites\u003C/a\u003E include a dark debris that looks like coffee grounds in their ears or your pup shaking their head from side to side more frequently. If you notice anything speak to your vet, who may recommend \u003Ca href=\"https://www.chewy.com/b/cleansers-2436\"\u003Eat-home ear cleaning\u003C/a\u003E.",
+        "training": "Much the way people respond to kindness and praise when learning something new, so too does the Mastiff. Be sure you hold your pet's gaze as you teach the various commands. The reason? This dog breed is known to communicate with eye contact. The Mastiff is also good at reading body language and their pet parents' expressions, which means wearing a smile and using positive language will go a long way. Think a dog can't have hurt feelings? Guess again—Mastiffs are truly bothered by a raised voice, and they'll check out if your teaching methods aren't engaging.\r\n\r\nExperience is a must when dealing with the training and obedience lessons that a Mastiff requires. But this pup type may become bored quickly with some of the repetitive approaches that are typically used in training classes. If your Mastiff looks away—or worse, decides to recline on the ground and take a nap—then you've lost your canine student. The best approach is to take advantage of your Mastiff's intelligence by aiming to create training sessions that are short and sweet yet still fun. Soon, you'll have a star pupil and a trained pup to take on the town.",
+        "diet_nutrition": "For maximum health, all dogs require food that provides complete and balanced nutrition, and the Mastiff typically does well on a high-quality commercial large-breed dog food. Always consider your dog's age and choose a formula that fits their stage in life, whether you have a puppy, adult or senior dog.\r\n\r\nSince this dog breed is giant and grows very quickly, proper Mastiff nutrition is especially important from the puppy stage up to 2 years of age. A feeding chart and a treat schedule makes good sense for Mastiffs as it'll help to prevent excess weight gain. Your vet can help you determine how much food to serve and when.\r\n\r\nKeep the nutrient content of your Mastiff's food top of mind since this breed requires the correct ratio of calcium to phosphorus—and without it, a skeletal disorder could develop. Protein content is also a consideration (strive for no more than 26 percent protein in your dog's adult food blend). You can always consult with your veterinarian for help picking the best food for your dog based on their individual needs.",
+        "exercise": "Contrary to what you might think, big dogs don't necessarily require big, adventurous outings. Instead, a Mastiff's exercise needs are low compared with other canines, which means they're not built to race alongside as you train for that 10K. (They do not feel the need for speed.) Remember, there's a lot of weight on this very large dog's frame, so jogging long distances, especially on pavement, isn't recommended.\r\n\r\nInstead, stick to grassy surfaces and walk your full-grown Mastiff twice a day at a slower pace for a mile or two. (Aim for 20 to 30 minutes at a time.) And if you have access to a pond or pool, low-impact exercises like swimming are beneficial for this breed, as is a fenced yard where your pet can walk leisurely or fetch a tennis ball. (Check with your vet or certified trainer to see if your pup would benefit from swimming lessons first.)\r\n\r\nA Mastiff's energy level is higher as a puppy, of course, but don't allow this little guy or young adult to jump from furniture or race on the stairs. Too much activity can damage a large breed's growth plates, which are the soft areas at the end of long bones, so your best bet is to walk half a block with puppies. Lastly, don't venture \u003Ci\u003Etoo\u003C/i\u003E far as Mastiffs may stop and drop when pooped, leaving you (and your back!) to haul them home.",
+        "ideal_environment": "Mastiffs (aka English Mastiffs) are a good match for families with children, particularly if their training starts early. Mastiffs are also compatible with other dogs and cats, and while they're best suited for large homes and yards, they'll do OK in a small home or apartment as they aren't prone to lots of barking.\r\n\r\nKeep in mind, however, that petite abodes may be an issue if concrete sidewalks are the only walking surface available. A Mastiff's physical traits are best suited to soft materials underfoot, so a nearby park, dog run or wooded trail suits them best. Since low-impact exercise works well for this breed, a home with a pool or lake access is ideal.",
+        "h2_breed_health": "Mastiffs have a lifespan of 6 to 10 years. As with any dog breed, certain conditions are endemic. Potential pet parents should be aware of these health issues, so they can help their pup live the healthiest life possible.\r\n\u003Cul\u003E\r\n \t\u003Cli\u003E\u003Cstrong\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/c_dg_hip_dysplasia\" target=\"_blank\" rel=\"noopener\"\u003EHip\u003C/a\u003E and \u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/c_dg_elbow_dysplasia\" target=\"_blank\" rel=\"noopener\"\u003EElbow Dysplasia\u003C/a\u003E:\u003C/strong\u003E These conditions, which may be genetic and occur when the joints form abnormally, can cause pain and lameness in a Mastiff. Weight management and medication may be recommended, as well as surgery in more severe cases.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Cstrong\u003E\u003Ca href=\"https://www.petmd.com/dog/condition/progressive-retinal-atrophy-in-dogs\" target=\"_blank\" rel=\"noopener\"\u003EProgressive Retinal Atrophy\u003C/a\u003E (PRA)\u003C/strong\u003E: Multiple dog breeds may be affected by a family of inherited progressive degenerative eye diseases. One in this category is progressive retinal atrophy or PRA, and it strikes the retina, ultimately causing blindness. While there’s no cure for PRA, Mastiffs typically get used to the vision loss and have good quality of life.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Cstrong\u003EHeart Disease\u003C/strong\u003E: There are several possible conditions that can affect a Mastiff’s heart including issues with the \u003Ca href=\"https://www.petmd.com/dog/conditions/cardiovascular/c_dg_atrioventricular_valve_dysplasia\" target=\"_blank\" rel=\"noopener\"\u003Eheart valves\u003C/a\u003E and \u003Ca href=\"https://www.petmd.com/dog/conditions/cardiovascular/enlarged-heart-dilated-cardiomyopathy-dogs\" target=\"_blank\" rel=\"noopener\"\u003Edilated cardiomyopathy\u003C/a\u003E (DCM). Often one of the first signs will be a \u003Ca href=\"https://www.petmd.com/dog/conditions/cardiovascular/c_dg_heart_murmu\" target=\"_blank\" rel=\"noopener\"\u003Eheart murmur\u003C/a\u003E. If your vet detects a heart murmur, they will likely refer you to a veterinary cardiologist for an echocardiogram (ultrasound of the heart) to determine the exact cause.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Cstrong\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/degenerative-myelopathy-dogs\" target=\"_blank\" rel=\"noopener\"\u003EDegenerative myelopathy\u003C/a\u003E (DM)\u003C/strong\u003E: This inherited neurologic condition is characterized by a progressive weakness of the rear limbs and ultimately may result in the dog being unable to stand or walk. There is no cure for DM but genetic screening testing is available so be sure to ask your breeder.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Cstrong\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/digestive/signs-and-symptoms-bloat-dogs\" target=\"_blank\" rel=\"noopener\"\u003EBloat\u003C/a\u003E or \u003Ca href=\"https://www.petmd.com/dog/conditions/digestive/gastric-dilatation-volvulus-gdv-syndrome\" target=\"_blank\" rel=\"noopener\"\u003EGastric Dilatation-Volvulus\u003C/a\u003E (GDV)\u003C/strong\u003E: Large breeds with deep chests may be affected by this condition, which is suspected of having a genetic link as well as environmental causes such as eating too fast and having only one large meal a day. Bloat can be life-threatening as the stomach fills with air then twists. This is an emergency and you should take your pup to the vet immediately if they show any of the signs which include abdominal distension, retching/dry heaving, and restlessness. To help reduce the chances of getting bloat, feed your pup with a \u003Ca href=\"https://www.chewy.com/b/slow-feeders-1424\" target=\"_blank\" rel=\"noopener\"\u003Eslow feeder bowl\u003C/a\u003E and feed them smaller meals throughout the day.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/neurological/epilepsy-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cstrong\u003EEpilepsy\u003C/strong\u003E\u003C/a\u003E: Mastiffs are prone to this potentially inherited seizure disorder which typically begins around 6 months to 5 years of age. Treatment is most often daily oral medication.\u003C/li\u003E\r\n\u003C/ul\u003E",
+        "h2_breed_history": "The Mastiff enjoys a proud ancient lineage, though some confusion may erupt over mastiffs generally (as a type of dog) and Britain's Old English Mastiff, which the American Kennel Club has simply named \"Mastiff.\" Dogs known as mastiffs have thrived for millennia in Greece, Rome, China and Egypt, with hieroglyphics of Mastiff likenesses showing up on monuments in the Nile region as early as 3000 BC. In fact, today's \u003Ca href=\"https://www.chewy.com/education/dog-breeds/tibetan-mastiff/\" target=\"_blank\" rel=\"noopener\"\u003ETibetan Mastiff\u003C/a\u003E and Neapolitan Mastiff breeds share a gene pool with mastiffs of yore.\r\n\r\nMastiff history is steeped in service as war dogs who fought invaders on many fronts. Caesar himself was apparently in awe of the breed when he ventured onto Britain's shores in 55 BC. He brought Mastiffs home to Rome to be matched against gladiators and wild animals such as bears, bulls, lions and tigers. Mastiffs also worked as big game hunters, guard dogs and on the battlefield in an important campaign against the French in 1415.\r\n\r\nMastiffs came to the US in the late 1800s and were used to guard plantations. The pup joined the ranks of the American Kennel Club in 1885, making them one of the first recognized breeds in the AKC.\r\n\r\nAfter World War II, the Mastiff nearly died out, with just 14 remaining in England. Fortunately for this noble animal, the Mastiff was brought back from the brink by dedicated breeders. Today, this canine's combat boots have been hung up in favor of a cushier life in homes as a loyal companion.\r\n\r\nAre you thinking about a Mastiff as a pet? Mastiff prices are about $2,500 to $3,500, depending on where you live. But for that price, you'll likely get a pup who's been screened for health issues and may come with pedigree papers. The \u003Ca href=\"https://marketplace.akc.org/puppies/mastiff\" target=\"_blank\" rel=\"noopener\"\u003EAKC Marketplace\u003C/a\u003E is a good place to find reputable breeders for your Mastiff puppy. You can also check with Mastiff rescues, keep an eye out at local animal shelters, or \u003Ca href=\"https://www.chewy.com/g/dog-mastiff_ga1\" target=\"_blank\" rel=\"noopener\"\u003Esearch Chewy’s database of adoptable dogs\u003C/a\u003E in your area if you want to adopt a pup.",
+        "expert_attribution": "\u003Ci\u003EExpert input provided by Dr. Jerry Klein, DVM, American Kennel Club's Chief Veterinary Officer and Mary R. Burch, PhD, Certified Applied Animal Behaviorist and AKC Family Dog Director\u003C/i\u003E\r\n\r\n\u003Cem\u003EBreed characteristic ratings provided by veterinarian Dr. Sarah J. Wooten, DVM, CVJ, a veterinarian at \u003Ca href=\"https://sheepdraw.com/\" target=\"_blank\" rel=\"noopener\"\u003ESheep Draw Veterinary Hospital\u003C/a\u003E in Greeley, Colorado; dog trainer and behavior consultant Irith Bloom, CPDT-KSA, CBCC-KA, CDBC, owner of \u003Ca href=\"https://thesophisticateddog.com/\" target=\"_blank\" rel=\"noopener\"\u003EThe Sophisticated Dog, LLC\u003C/a\u003E, in Los Angeles; and certified animal behavior consultant \u003Ca href=\"https://shojai.com/\" target=\"_blank\" rel=\"noopener\"\u003EAmy Shojai\u003C/a\u003E, CABC, in Sherman, Texas. \u003C/em\u003E\r\n\r\n\u003Cem\u003EThe health content was medically reviewed by Chewy vets.\u003C/em\u003E",
+        "facebook_social_snippet_with_cta": "\u003Cp\u003EThe Mastiff breed is one of the most magnificent—but their size and trainability aren't for dog dabblers. If you think you have the chops to handle this pup's power, here's what you need to know about bringing this pet into your home. (Consider moving the couch?)\u003C/p\u003E",
+        "species": "\u003Cp\u003EDog\u003C/p\u003E",
+        "h2_faqs": "\u003Ch3\u003EDo Mastiffs shed?\u003C/h3\u003E\nMastiff shedding is on the low side, comparatively, which is good news for homeowners (much less sweeping and vacuuming). Still, a Mastiff does shed once or twice a year when the seasons change, so brush more frequently, even daily, during these periods to whisk away dead fur.\n\u003Ch3\u003EAre Mastiffs good with kids?\u003C/h3\u003E\nYes, Mastiffs are generally considered to be good with kids. Like any dog, they should be well-socialized and taught how to interact with children—and children should be taught how to play gently and respectfully with dogs as well.\n\u003Ch3\u003EWhat does Mastiff mean?\u003C/h3\u003E\nThe word mastiff is influenced by an old French word \u003Cem\u003Emestif\u003C/em\u003E, meaning mongrel. As a type of dog, mastiff refers to large, powerful dogs once used for hunting.\n\u003Ch3\u003EWhat are the most popular Mastiff names?\u003C/h3\u003E\nThe most popular Mastiff names are easy to spitball, in part because of this breed's enormity (think Zeus, Titan, Bubba and Moose). Or, you could go in the other direction with a tongue-in-cheek moniker such as Tiny, Mouse or Bean. If you're stumped and need some help, we've got \u003Ca href=\"https://www.chewy.com/education/dog/general/top-dog-names\" target=\"_blank\" rel=\"noopener\"\u003Egreat dog names\u003C/a\u003E ready for choosing.\n\u003Ch3\u003EWhat are the most common Mastiff mixes?\u003C/h3\u003E\nThe most common Mastiff mixes are:\n\u003Cul\u003E\n \t\u003Cli\u003EMastiff-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/american-pit-bull-terrier/\"\u003EPit Bull\u003C/a\u003E mix (Pit Mastiff)\u003C/li\u003E\n \t\u003Cli\u003EMastiff-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/great-dane/\"\u003EGreat Dane\u003C/a\u003E mix (Daniff)\u003C/li\u003E\n \t\u003Cli\u003EMastiff-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/labrador-retriever/\"\u003ELabrador\u003C/a\u003E mix (Mastador)\u003C/li\u003E\n \t\u003Cli\u003EMastiff-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/german-shepherd/\"\u003EGerman Shepherd\u003C/a\u003E mix (Mastiff shepherd)\u003C/li\u003E\n \t\u003Cli\u003EMastiff-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/rottweiler/\"\u003ERottweiler\u003C/a\u003E mix\u003C/li\u003E\n \t\u003Cli\u003EMastiff-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/husky/\"\u003EHusky\u003C/a\u003E mix\u003C/li\u003E\n\u003C/ul\u003E\nNote: These are not purebred dogs but mixed breeds.",
+        "faq_items": [
+          {
+            "faq_title": "Do Mastiffs shed?",
+            "faq_content": "Mastiff shedding is on the low side, comparatively, which is good news for homeowners (much less sweeping and vacuuming). Still, a Mastiff does shed once or twice a year when the seasons change, so brush more frequently, even daily, during these periods to whisk away dead fur."
+          },
+          {
+            "faq_title": "Are Mastiffs good with kids?",
+            "faq_content": "Yes, Mastiffs are generally considered to be good with kids. Like any dog, they should be well-socialized and taught how to interact with children—and children should be taught how to play gently and respectfully with dogs as well."
+          },
+          {
+            "faq_title": "What does Mastiff mean?",
+            "faq_content": "The word mastiff is influenced by an old French word \u003Cem\u003Emestif\u003C/em\u003E, meaning mongrel. As a type of dog, mastiff refers to large, powerful dogs once used for hunting."
+          },
+          {
+            "faq_title": "What are the most popular Mastiff names?",
+            "faq_content": "The most popular Mastiff names are easy to spitball, in part because of this breed's enormity (think Zeus, Titan, Bubba and Moose). Or, you could go in the other direction with a tongue-in-cheek moniker such as Tiny, Mouse or Bean. If you're stumped and need some help, we've got \u003Ca href=\"https://www.chewy.com/education/dog/general/top-dog-names\" target=\"_blank\" rel=\"noopener\"\u003Egreat dog names\u003C/a\u003E ready for choosing."
+          },
+          {
+            "faq_title": "What are the most common Mastiff mixes?",
+            "faq_content": "The most common Mastiff mixes are:\r\n\u003Cul\u003E\r\n \t\u003Cli\u003EMastiff-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/american-pit-bull-terrier/\"\u003EPit Bull\u003C/a\u003E mix (Pit Mastiff)\u003C/li\u003E\r\n \t\u003Cli\u003EMastiff-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/great-dane/\"\u003EGreat Dane\u003C/a\u003E mix (Daniff)\u003C/li\u003E\r\n \t\u003Cli\u003EMastiff-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/labrador-retriever/\"\u003ELabrador\u003C/a\u003E mix (Mastador)\u003C/li\u003E\r\n \t\u003Cli\u003EMastiff-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/german-shepherd/\"\u003EGerman Shepherd\u003C/a\u003E mix (Mastiff shepherd)\u003C/li\u003E\r\n \t\u003Cli\u003EMastiff-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/rottweiler/\"\u003ERottweiler\u003C/a\u003E mix\u003C/li\u003E\r\n \t\u003Cli\u003EMastiff-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/husky/\"\u003EHusky\u003C/a\u003E mix\u003C/li\u003E\r\n\u003C/ul\u003E\r\nNote: These are not purebred dogs but mixed breeds."
+          }
+        ],
+        "select_related_breeds": [
+          {
+            "selected_related_breed": 1111,
+            "characteristic": "breed_characteristics_training_needs"
+          },
+          {
+            "selected_related_breed": 302,
+            "characteristic": "breed_characteristics_good_with_kids"
+          },
+          {
+            "selected_related_breed": 620,
+            "characteristic": "breed_characteristics_energy_level"
+          },
+          {
+            "selected_related_breed": 1393,
+            "characteristic": "breed_characteristics_shedding_level"
+          },
+          {
+            "selected_related_breed": 1083,
+            "characteristic": "breed_characteristics_playfulnesss"
+          },
+          {
+            "selected_related_breed": 331,
+            "characteristic": "breed_characteristics_friendliness"
+          }
+        ],
+        "enable_featured_gallery": [
+          "enable_featured_gallery"
+        ],
+        "featured_gallery_images": [1112, 1113, 1114]
+      },
+      "yoast_head": "\u003C!-- This site is optimized with the Yoast SEO plugin v23.8 - https://yoast.com/wordpress/plugins/seo/ --\u003E\n\u003Ctitle\u003EMastiff Breed: Characteristics, Care &amp; Photos | Chewy\u003C/title\u003E\n\u003Cmeta name=\"description\" content=\"Learn all about this colossal canine, including exercise needs, health problems, nutrition tips and grooming advice, in our complete Mastiff guide.\" /\u003E\n\u003Cmeta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" /\u003E\n\u003Clink rel=\"canonical\" href=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/mastiff/\" /\u003E\n\u003Cmeta property=\"og:locale\" content=\"en_US\" /\u003E\n\u003Cmeta property=\"og:type\" content=\"article\" /\u003E\n\u003Cmeta property=\"og:title\" content=\"Mastiff Breed: Characteristics, Care &amp; Photos | Chewy\" /\u003E\n\u003Cmeta property=\"og:description\" content=\"Learn all about this colossal canine, including exercise needs, health problems, nutrition tips and grooming advice, in our complete Mastiff guide.\" /\u003E\n\u003Cmeta property=\"og:url\" content=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/mastiff/\" /\u003E\n\u003Cmeta property=\"og:site_name\" content=\"Chewy\" /\u003E\n\u003Cmeta property=\"article:modified_time\" content=\"2025-05-05T14:22:34+00:00\" /\u003E\n\u003Cmeta property=\"og:image\" content=\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/11/04192826/DogMastiff_mainImage.jpg\" /\u003E\n\t\u003Cmeta property=\"og:image:width\" content=\"1440\" /\u003E\n\t\u003Cmeta property=\"og:image:height\" content=\"865\" /\u003E\n\t\u003Cmeta property=\"og:image:type\" content=\"image/jpeg\" /\u003E\n\u003Cmeta name=\"twitter:card\" content=\"summary_large_image\" /\u003E\n\u003Cscript type=\"application/ld+json\" class=\"yoast-schema-graph\"\u003E{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/mastiff/\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/mastiff/\",\"name\":\"Mastiff Breed: Characteristics, Care & Photos | Chewy\",\"isPartOf\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/mastiff/#primaryimage\"},\"image\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/mastiff/#primaryimage\"},\"thumbnailUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/11/04192826/DogMastiff_mainImage.jpg\",\"datePublished\":\"2021-05-25T11:21:38+00:00\",\"dateModified\":\"2025-05-05T14:22:34+00:00\",\"description\":\"Learn all about this colossal canine, including exercise needs, health problems, nutrition tips and grooming advice, in our complete Mastiff guide.\",\"breadcrumb\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/mastiff/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://phcms.hlth.prd.aws.chewy.cloud/breed/mastiff/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/mastiff/#primaryimage\",\"url\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/11/04192826/DogMastiff_mainImage.jpg\",\"contentUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/11/04192826/DogMastiff_mainImage.jpg\",\"width\":1440,\"height\":865,\"caption\":\"Mastiff Dog\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/mastiff/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://phcms.hlth.prd.aws.chewy.cloud/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Mastiff\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/\",\"name\":\"Chewy\",\"description\":\"\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"}]}\u003C/script\u003E\n\u003C!-- / Yoast SEO plugin. --\u003E",
+      "yoast_head_json": {
+        "title": "Mastiff Breed: Characteristics, Care & Photos | Chewy",
+        "description": "Learn all about this colossal canine, including exercise needs, health problems, nutrition tips and grooming advice, in our complete Mastiff guide.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://phcms.hlth.prd.aws.chewy.cloud/breed/mastiff/",
+        "og_locale": "en_US",
+        "og_type": "article",
+        "og_title": "Mastiff Breed: Characteristics, Care & Photos | Chewy",
+        "og_description": "Learn all about this colossal canine, including exercise needs, health problems, nutrition tips and grooming advice, in our complete Mastiff guide.",
+        "og_url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/mastiff/",
+        "og_site_name": "Chewy",
+        "article_modified_time": "2025-05-05T14:22:34+00:00",
+        "og_image": [
+          {
+            "width": 1440,
+            "height": 865,
+            "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/11/04192826/DogMastiff_mainImage.jpg",
+            "type": "image/jpeg"
+          }
+        ],
+        "twitter_card": "summary_large_image",
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/mastiff/",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/mastiff/",
+              "name": "Mastiff Breed: Characteristics, Care & Photos | Chewy",
+              "isPartOf": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/mastiff/#primaryimage"
+              },
+              "image": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/mastiff/#primaryimage"
+              },
+              "thumbnailUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/11/04192826/DogMastiff_mainImage.jpg",
+              "datePublished": "2021-05-25T11:21:38+00:00",
+              "dateModified": "2025-05-05T14:22:34+00:00",
+              "description": "Learn all about this colossal canine, including exercise needs, health problems, nutrition tips and grooming advice, in our complete Mastiff guide.",
+              "breadcrumb": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/mastiff/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://phcms.hlth.prd.aws.chewy.cloud/breed/mastiff/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/mastiff/#primaryimage",
+              "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/11/04192826/DogMastiff_mainImage.jpg",
+              "contentUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/11/04192826/DogMastiff_mainImage.jpg",
+              "width": 1440,
+              "height": 865,
+              "caption": "Mastiff Dog"
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/mastiff/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://phcms.hlth.prd.aws.chewy.cloud/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Mastiff"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/",
+              "name": "Chewy",
+              "description": "",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            }
+          ]
+        }
+      },
+      "yoast_meta": {
+        "yoast_wpseo_title": "",
+        "yoast_wpseo_metadesc": "",
+        "yoast_wpseo_canonical": ""
+      },
+      "_links": {
+        "self": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed/1117",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/types/breed"
+          }
+        ],
+        "acf:attachment": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/1114"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/1113"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/1112"
+          }
+        ],
+        "wp:featuredmedia": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/1638"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media?parent=1117"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "pet_type",
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/pet_type?post=1117"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ]

@@ -1,0 +1,325 @@
+[
+    {
+      "id": 789,
+      "date": "2021-06-14T09:18:16",
+      "date_gmt": "2021-06-14T09:18:16",
+      "guid": {
+        "rendered": "https://haproxy.use1.lgcy.prd.aws.chewy.cloud/eks/ns/pet-health/pet-health-content-backend/breed/plott-hound/"
+      },
+      "modified": "2025-05-05T14:22:05",
+      "modified_gmt": "2025-05-05T14:22:05",
+      "slug": "plott-hound",
+      "status": "publish",
+      "type": "breed",
+      "link": "https://phcms.hlth.prd.aws.chewy.cloud/breed/plott-hound/",
+      "title": {
+        "rendered": "Plott Hound"
+      },
+      "featured_media": 788,
+      "template": "",
+      "pet_type": [],
+      "class_list": [
+        "post-789",
+        "breed",
+        "type-breed",
+        "status-publish",
+        "has-post-thumbnail",
+        "hentry"
+      ],
+      "acf": {
+        "breed_snapshot_best_for": "\u003Cp\u003EAthletic and ready for adventure, Plott Hounds need plenty of exercise and mental stimulation. They were originally bred for hunting, which means thrive in active homes with space to roam and lots of opportunities to use their tracking skills.\u003C/p\u003E",
+        "alt_image_text": "\u003Cp\u003EGet all the information and facts you need to know if the Plott Hound dog is right for you in our guide.\u003C/p\u003E",
+        "breed_intro": "If you live for the great outdoors and dream of finding a fun and fearless adventure buddy, look no further than the Plott Hound. Like you, the Plott Hound is athletic and enthusiastic with energy to spare. These dogs are ready to join you for a trek through the woods or canoeing down the river. And the best part? They appreciate some down time after a good sweat. Plott Hounds may be nonstop on the trail, but at home, this Southern breed is as mellow as sweet tea on a porch swing in summer. And when they're ready to head back outside for more \u003Ca href=\"https://www.chewy.com/education/dog/general/ready-to-hit-the-hiking-trail-with-your-dog-heres-everything-you-need-to-know\"\u003Ehikes\u003C/a\u003E and hijinks, their hound dog bark will let you know it!",
+        "breed_related_products_product_card_set": null,
+        "breed_snapshot_temperament": "\u003Cp\u003EAdventurous, Inquisitive, Devoted\u003C/p\u003E",
+        "what_does_this_breed_look_like_weight": "\u003Cp\u003EMale: 50-60 lbs\u003C/p\u003E\u003Cp\u003EFemale: 40-55 lbs\u003C/p\u003E",
+        "what_does_this_breed_look_like_height": "\u003Cp\u003EMale: 20-25 inches\u003C/p\u003E\u003Cp\u003EFemale: 20-23 inches\u003C/p\u003E",
+        "breed_snapshot_life_expectancy": "\u003Cp\u003E12 to 14 years\u003C/p\u003E",
+        "breed_snapshot_maintenance_level": "\u003Cp\u003EMedium\u003C/p\u003E",
+        "breed_characteristics_friendliness": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_snapshot_coat_color": "\u003Cp\u003EGray Brindle, Blue Brindle, Black Brindle, Black, Yellow Brindle, Tan Brindle, Orange Brindle, Maltese, Buckskin, Red Brindle, Brown Brindle, Chocolate Brindle, Liver Brindle\u003C/p\u003E",
+        "breed_snapshot_shed_level": "\u003Cp\u003ELow \u003C/p\u003E",
+        "in_article_video": null,
+        "breed_characteristics": "These traits are rated on a scale of 1-5 with 1 being the lowest and 5 being the highest. Remember: Dogs are individuals, and not all dogs, even those of the same breed, will exhibit all the same qualities.",
+        "breed_characteristics_exercise_needs": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_health_issues": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_barking_tendencies": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_grooming_needs": "\u003Cp\u003E1\u003C/p\u003E",
+        "breed_characteristics_shedding_level": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_training_needs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_kids": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_with_cats": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_good_for_apartments_small_homes": "\u003Cp\u003E1\u003C/p\u003E",
+        "breed_characteristics_energy_level": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_good_with_other_dogs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_playfulnesss": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_cold_weather": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_warm_weather": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_for_first_time_parents": "\u003Cp\u003E2\u003C/p\u003E",
+        "how_do_i_look_card_image": 787,
+        "what_does_this_breed_look_like": "Plott Hounds are distinguished-looking dogs whose wise and watchful eyes will capture your heart. Like many hunting dogs, they're muscular and lithe, and their glossy, autumn-colored coats often feature a brindle—or tiger-striped—pattern. Their ears, adorably oversized on a Plott Hound puppy, perk up when they're curious or extra-alert.",
+        "what_does_this_breed_look_like_ears": "\u003Cp\u003EPlott Hounds have floppy ears of medium length.\u003C/p\u003E",
+        "what_does_this_breed_look_like_eyes": "\u003Cp\u003ETheir expressive, black-rimmed eyes are typically brown or hazel.\u003C/p\u003E",
+        "what_does_this_breed_look_like_nose": "\u003Cp\u003EThe Plott Hound's nose is long and square.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_length": "\u003Cp\u003EThe Plott Hound has a short coat designed to keep them dry and protected from the cold. The texture is usually moderately coarse.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_color": "\u003Cp\u003EWith their unique brindle coats, Plott Hounds can be anything from black or brown to tan or burnt orange. You might even find a shade of brindle that's buckskin (sand-colored or light cream) or a solid black pup, along with white markings on their chest and feet. \u003C/p\u003E",
+        "what_does_this_breed_look_like_tail": "\u003Cp\u003ETheir long, tapered tails are carried either above or below their back based on the dog's excitement level and overall mood. \u003C/p\u003E",
+        "h2_breed_temperament": "Plott Hounds are hunting dogs at their core, which means they're lively and energetic with stamina to spare. They crave physical activity and the mental stimulation that comes from long walks and outdoor sniffing sessions.\n\nRaising a Plott Hound puppy is largely about making sure they get enough exercise since their energy level is high. With plenty of daily activity, though, these dogs can be relaxed and are happy to chill with you around the house. They may get into mischief now and then since they're curious and independent, but if you keep them active, they're likely to stay out of trouble.\n\nThe Plott Hound breed is mild-mannered by nature but is best behaved when they're \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/positively-trained-puppy-socialization-dos-and-donts\"\u003Esocialized\u003C/a\u003E at a young age. They're also bold and intelligent, and while they may be happiest blazing trails outside, they have no qualms about cuddling with you and your crew on the couch.\n\nLike other hound dogs, they're vocal and have a low, bellowing bark. Be prepared to hear their voice often, particularly if squirrels are around to chase and howl at. Born hunters, these dogs have a high prey drive and will give chase the minute they smell something of interest. Be sure to always walk your pup on a leash to keep them (and neighborhood cats) safe. Plott Hounds also have an independent streak that may turn up from time to time. Since they're so eager to please, headstrong behavior usually doesn't last long.\n\nOverall, the Plott Hound temperament is best described as intelligent, energetic, bold and inquisitive, social, devoted to their families and trustworthy and good with kids.",
+        "h2_how_to_care_for_a_breed": "Plott Hounds are a healthy breed, and you can expect to spend a moderate amount of time tending to their needs. Since they have a lot of energy, the bulk of that time will be spent bonding with your pup over training and playing. But happily, these dogs don't shed much, and their grooming needs are minimal, so it's a fair trade-off.",
+        "grooming": "When it comes to grooming, Plott Hounds are very low-maintenance dogs. They require extensive brushing when they shed their coats twice a year, in the spring and fall, but day-to-day shedding is minimal. You won't need to do more than a light brushing with a \u003Ca href=\"https://www.chewy.com/f/dog-curry-brushes_c355_f70v83786\"\u003Ecurry comb\u003C/a\u003E or \u003Ca href=\"https://www.chewy.com/f/slicker-brush-dog-brushes-combs_c356_f70v83792\"\u003Eslicker brush\u003C/a\u003E once a week for the rest of the year. While you're brushing them, check out their ears for debris, redness or swelling. Their ears can be prone to infection, so be sure to contact your vet if you notice anything amiss. They may recommend \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/how-do-you-clean-a-dogs-ears-follow-this-vet-approved-step-by-step-guide\"\u003Ecleaning the ears\u003C/a\u003E&nbsp;to get rid of wax buildup.\n\nPlott Hound dogs don't require regular bathing, either. If they romp through a swamp, pop them in the tub, but the rest of the time, their dense coats tend to stay clean. Otherwise, plan on giving them a \u003Ca href=\"https://www.chewy.com/education/dog/grooming/how-to-bathe-a-dog-step-by-step-tips-from-a-professional-groomer\"\u003Ebath\u003C/a\u003E about once every other month. \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/guide-trimming-dogs-nails\"\u003EClip their nails\u003C/a\u003E every three to four weeks, so they can walk comfortably. You'll know it's time for a trim when you hear them clacking on hard surfaces.\n\nEven though larger breeds like the Plott Hound tend to have harder tooth enamel and aren't predisposed to dental problems, veterinarians recommend \u003Ca href=\"https://www.chewy.com/education/dog/grooming/health-wellness-how-to-brush-your-dogs-teeth-live-to-tell-the-tale\"\u003Ebrushing your dog's teeth\u003C/a\u003E every day. Familiarize puppies with toothbrushing early, so they learn to tolerate it. And be sure to schedule a professional cleaning by your vet once a year.",
+        "training": "The Plott Hound's intelligence and attentiveness will work in your favor when it's time for training. Bred to hunt big game, these pups are independent, so they can seem strong-willed. It's important to start their training early and be consistent to help them be a well-behaved member of the family. As with all dogs, Plott Hounds respond well to positive reinforcement, which uses treats, praise and toys as rewards for doing a good job.\n\nPlott Hounds are vocal and noisy dogs. They may be trying to alert you to a threat, even if it's just the mailman or a neighbor walking past your house. It's important to understand that you'll never train the bark completely out of this breed, but you can teach them when it's appropriate to bark. Some pup parents find \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/find-a-dog-trainer\"\u003Eworking with a certified trainer\u003C/a\u003E who uses positive reinforcement can help bring the best out in their dog.\n\nBecause of their deep instincts to roam and sniff, one of the breed's most common traits is wandering off your property, which is a real concern, particularly if your Plott Hound catches the scent of something intriguing, like a rabbit. A securely fenced yard can help contain your hound and keep them safe. And be sure you only let your dog off-leash in a fenced area.",
+        "diet_nutrition": "Plott Hounds typically do well on a high-quality, \u003Ca href=\"https://www.chewy.com/f/large-dog-breeds-food_c332_f6v13792\"\u003Elarge-breed commercial dog food\u003C/a\u003E that's designed for their stage in life (puppy, adult, senior).\r\n\r\nCoonhound breeds like the Plott Hound are extremely active, but even energetic dogs can gain weight as they age. If you find your dog's looking a little heavy, you may need to switch to a low-calorie food. But check with your vet; they're in the best position to help you choose the right food for your pup to help them shed the extra weight and still maintain their nutritional needs.\r\n\r\nBecause of this breed's predisposition to gastric bloat, be sure to spread out mealtimes throughout the day, rather than giving them one large meal, and wait an hour before any heavy activity. (See more on bloat below in the Health section.)\r\n\r\nAnd, of course, always make sure there's always plenty of water around, so your dog can stay hydrated.",
+        "exercise": "The Plott Hound's exercise needs are significant, so you should aim to walk yours two to three times a day—plan for about 45 to 60 minutes in total. If you can fit in a longer walk or hike on the weekend, all the better! In between walks, Plott Hounds enjoy having a fenced yard to explore since this breed is independent by nature.\n\nFor a Plott Hound, the world is a smorgasbord of smells. The hunting dog in them loves to track a scent, so another fun way to ensure they get enough exercise is to let them sniff someone's sock and hide it somewhere in your neighborhood—put your pup on a leash, and let the games begin! Because these dogs love the thrill of the chase, yours will likely enjoy playing \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/how-to-teach-dog-to-fetch\"\u003Efetch\u003C/a\u003E or catching a Frisbee, too. You can also play to their hunting instincts and get them involved in dog sports, like tracking.",
+        "ideal_environment": "The Plott Hound isn't the most ideal city dog, both due to their size and tendency to be vocal. Large houses in the suburbs, country homes and farms are the best places for these pups. If you do live in an apartment, make sure you have regular access to a large, fenced area where your pup can get their zoomies out.\r\n\r\nThey'll be thrilled if you live near the woods or a dog-friendly nature trail and even happier if they can make regular visits. They aren't particularly sensitive to hot or cold climates; whatever the weather and season, they're raring to go.\r\n\r\nThese pups need an active pup parent who understands the need for consistent training (there are no \"off days\" with a Plott Hound). And they do well with children as long as the dog has been properly socialized, starting when they're a puppy. The children in your hound's life should be taught how to respectfully interact with dogs, too.\r\n\r\nSocial and group-oriented, Plott Hounds are generally good with other pets and will make fast friends with fellow dogs. Cats could be more of a challenge, though, due to this breed's instinct to chase.",
+        "h2_breed_health": "Plott Hounds are a robust breed with a life expectancy of 12 to 14 years, and with thoughtful care, they can enjoy a long and healthy life. Happily, the breed doesn’t suffer from many health issues, but it’s good for potential parents to be aware of them, so they can help their pup live the longest life possible.\n\u003Cul\u003E\n \t\u003Cli\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/c_dg_hip_dysplasia\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cstrong\u003EHip Dysplasia\u003C/strong\u003E\u003C/a\u003E: Hip dysplasia—when the ball portion of the hip joint doesn’t fit well in its socket—can be a problem with Plott Hounds. Symptoms may include lameness, pain and arthritis. While there is no genetic screening test available, dogs with this condition should not be bred. Treatments range from weight reduction to physical therapy to surgery, depending on the severity.\u003C/li\u003E\n \t\u003Cli\u003E\u003Cstrong\u003EEar Infections\u003C/strong\u003E: The Plott Hound’s lovable floppy ears may cause them to have ear infections more frequently. Regular cleanings (typically once per week) may reduce the risk of ear infections, so be sure to ask your veterinarian for the best ear cleaner for your pet.\u003C/li\u003E\n \t\u003Cli\u003E\u003Cstrong\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/digestive/signs-and-symptoms-bloat-dogs\" target=\"_blank\" rel=\"noopener\"\u003EBloat\u003C/a\u003E and \u003Ca href=\"https://www.petmd.com/dog/conditions/digestive/gastric-dilatation-volvulus-gdv-syndrome\" target=\"_blank\" rel=\"noopener\"\u003EGastric Dilatation-Volvulus\u003C/a\u003E (GDV)\u003C/strong\u003E: Because of their deep chests, Plott Hound are susceptible to bloat —essentially, a twisted stomach. GDV is an emergent, life-threatening condition. If you notice your Plott Hound has a swollen abdomen, is restless or is experiencing dry heaving/retching, call your veterinarian right away. To help prevent \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/bloat-in-dogs\"\u003Ebloat\u003C/a\u003E, feed your pup smaller meals throughout the day and use a  \u003Ca href=\"https://www.chewy.com/b/slow-feeders-1424\" target=\"_blank\" rel=\"noopener\"\u003Eslow feeder\u003C/a\u003E  to keep them from woofing down their meals.\u003C/li\u003E\n \t\u003Cli\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/endocrine/c_dg_hypothyroidism\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cstrong\u003EHypothyroidism\u003C/strong\u003E\u003C/a\u003E: This genetic endocrine condition occurs when the thyroid gland does not produce enough thyroid hormone, resulting in lethargy, weight gain and hair loss. Diagnosis is typically with a blood test and treatment is most commonly a daily oral medication.\u003C/li\u003E\n\u003C/ul\u003E",
+        "h2_breed_history": "The official state dog of North Carolina, Plott Hounds are rugged working dogs who were originally bred to hunt big game, like bear and mountain lion, in and around the Great Smoky Mountains. Their intelligence, speed, keen sense of smell and echoing howl made them excellent hunting dogs.\r\n\r\nOut of all the hound dog breeds, the Plott Hound is the only one without British roots. Some historians believe they trace their lineage back to medieval bloodhounds, specifically boar-hunting Hanoverian Schweisshunds, which have the same floppy ears, trademark brown and gold coloring and brindle coat. Plott Hounds arrived in North Carolina in the mid-1700s with their German family, the Plotts. Their dogs were often called upon to help neighbors track predators that threatened their livestock, as they excelled at following a scent through the swamp, woods and mountains.\r\n\r\nEven with a reputation for being fierce and fearless hunters, Plott Hounds also served as farm dogs, helping their humans herd pigs and cattle and protecting the homestead. They were found to be affectionate companions and gentle with children. The American Kennel Club recognized the Plott Hound breed in 2006.\r\n\r\nDespite being great family dogs, Plott Hounds are a fairly uncommon breed today—but that doesn't mean you can't find a sweet pup to bring into your home. You can search for litters on the \u003Ca href=\"https://marketplace.akc.org/puppies/plott-hound?\" target=\"_blank\" rel=\"noopener\"\u003EAmerican Kennel Club's website\u003C/a\u003E. Expect to pay anywhere from $300 to $700 for a puppy. But for that price, you're likely getting a pup who's been screened for health and temperament issues and may come with pedigree papers. Or, if you'd like to adopt an older dog, contact one of the Plott Hound rescue organizations that specialize in finding homes for this unique breed. You can also \u003Ca href=\"https://www.chewy.com/g/dog-plott-hound_ga1\"\u003Esearch Chewy’s database of adoptable dogs\u003C/a\u003E for Plott Hounds in your area.",
+        "expert_attribution": "\u003Ci\u003EExpert input provided by veterinarian Dr. John Brandy, DVM with \u003Ca href=\"http://vvhcny.com\" target=\"_blank\" rel=\"noopener\"\u003EVillage Veterinary Hospital\u003C/a\u003E in Canastota, NY, and Michael Konstantaras, Dog Behavioral Therapist and Master Trainer at \u003Ca href=\"https://www.barkbusters.com\" target=\"_blank\" rel=\"noopener\"\u003EBark Busters\u003C/a\u003E in Stamford, Conn. \u003C/i\u003E\r\n\r\n\u003Cem\u003EBreed characteristic ratings provided by veterinarian Dr. Sarah J. Wooten, DVM, CVJ, a veterinarian at \u003Ca href=\"https://sheepdraw.com/\" target=\"_blank\" rel=\"noopener\"\u003ESheep Draw Veterinary Hospital\u003C/a\u003E in Greeley, Colorado; dog trainer and behavior consultant Irith Bloom, CPDT-KSA, CBCC-KA, CDBC, owner of \u003Ca href=\"https://thesophisticateddog.com/\" target=\"_blank\" rel=\"noopener\"\u003EThe Sophisticated Dog, LLC\u003C/a\u003E, in Los Angeles; and certified animal behavior consultant \u003Ca href=\"https://shojai.com/\" target=\"_blank\" rel=\"noopener\"\u003EAmy Shojai\u003C/a\u003E, CABC, in Sherman, Texas. \u003C/em\u003E\r\n\r\n\u003Cem\u003EThe health content was medically reviewed by Chewy vets.\u003C/em\u003E\r\n\r\n\u003Ci\u003EPhoto credit for \"How do I look?\" by \u003Ca href=\"http://extremedogbreeds.blogspot.com/2012/04/plott-hound.html\"\u003EExtremeDogBreeds\u003C/a\u003E. \u003C/i\u003E",
+        "facebook_social_snippet_with_cta": "\u003Cp\u003EHow much do you know about North Carolina's State Dog? Meet the Plott Hound, an adventurous, affectionate, and fiercely intelligent canine companion. \u003C/p\u003E",
+        "species": "\u003Cp\u003EDog\u003C/p\u003E",
+        "h2_faqs": "\u003Ch3\u003EDo Plott Hounds shed?\u003C/h3\u003E\nPlott Hounds shed their coats twice a year, in the spring and fall, and need almost daily brushing when that happens. However, they don't shed much in between.\n\u003Ch3\u003EWhat were Plott Hounds bred for?\u003C/h3\u003E\nPlott Hounds were originally bred to hunt big game in North Carolina. These working dogs were sometimes used to herd livestock, too.\n\u003Ch3\u003EAre Plott Hounds good family dogs?\u003C/h3\u003E\nPlott Hounds are a friendly, affectionate and loyal breed, which makes them good dogs for families. They'll follow you anywhere, especially if you're going outside, and properly socialized dogs are happy to play with kids and other pets. (Although, they may still chase a cat.)\n\u003Ch3\u003EWhat are the most popular Plott Dog names?\u003C/h3\u003E\nThe most popular Plott Hound names are Bandit, Bella, Boss, Brownie, Buddy, Coco, Cooper, Diesel, Hunter, Jack, Toby, Layla, Lucky, Lucy, Lulu, Luna, Max, Milo, Molly, Roxy, Sasha, Stanley, Stella and Zeus. \u003Ca href=\"https://www.chewy.com/education/dog/general/top-dog-names\" target=\"_blank\" rel=\"noopener\"\u003EGet more dog names here\u003C/a\u003E.\n\u003Ch3\u003EWhat are the most common Plott Hound mixes?\u003C/h3\u003E\nThe most common Plott Hound mixes are:\n\u003Cul\u003E\n \t\u003Cli\u003EPlott Hound-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/labrador-retriever/\"\u003ELabrador Retriever\u003C/a\u003E mix\u003C/li\u003E\n \t\u003Cli\u003EPlott Hound-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/boxer/\"\u003EBoxer\u003C/a\u003E mix\u003C/li\u003E\n \t\u003Cli\u003EPlott Hound-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/beagle/\"\u003EBeagle\u003C/a\u003E mix\u003C/li\u003E\n \t\u003Cli\u003EPlott Hound-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/australian-shepherd/\"\u003EAustralian Shepherd\u003C/a\u003E mix\u003C/li\u003E\n \t\u003Cli\u003EPlott Hound-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/mastiff/\"\u003EMastiff\u003C/a\u003E mix\u003C/li\u003E\n\u003C/ul\u003E\nNote: These are not purebred dogs but mixed breeds.",
+        "faq_items": [
+          {
+            "faq_title": "Do Plott Hounds shed?",
+            "faq_content": "Plott Hounds shed their coats twice a year, in the spring and fall, and need almost daily brushing when that happens. However, they don't shed much in between."
+          },
+          {
+            "faq_title": "What were Plott Hounds bred for?",
+            "faq_content": "Plott Hounds were originally bred to hunt big game in North Carolina. These working dogs were sometimes used to herd livestock, too."
+          },
+          {
+            "faq_title": "Are Plott Hounds good family dogs?",
+            "faq_content": "Plott Hounds are a friendly, affectionate and loyal breed, which makes them good dogs for families. They'll follow you anywhere, especially if you're going outside, and properly socialized dogs are happy to play with kids and other pets. (Although, they may still chase a cat.)"
+          },
+          {
+            "faq_title": "What are the most popular Plott Dog names?",
+            "faq_content": "The most popular Plott Hound names are Bandit, Bella, Boss, Brownie, Buddy, Coco, Cooper, Diesel, Hunter, Jack, Toby, Layla, Lucky, Lucy, Lulu, Luna, Max, Milo, Molly, Roxy, Sasha, Stanley, Stella and Zeus. \u003Ca href=\"https://www.chewy.com/education/dog/general/top-dog-names\" target=\"_blank\" rel=\"noopener\"\u003EGet more dog names here\u003C/a\u003E."
+          },
+          {
+            "faq_title": "What are the most common Plott Hound mixes?",
+            "faq_content": "The most common Plott Hound mixes are:\r\n\u003Cul\u003E\r\n \t\u003Cli\u003EPlott Hound-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/labrador-retriever/\"\u003ELabrador Retriever\u003C/a\u003E mix\u003C/li\u003E\r\n \t\u003Cli\u003EPlott Hound-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/boxer/\"\u003EBoxer\u003C/a\u003E mix\u003C/li\u003E\r\n \t\u003Cli\u003EPlott Hound-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/beagle/\"\u003EBeagle\u003C/a\u003E mix\u003C/li\u003E\r\n \t\u003Cli\u003EPlott Hound-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/australian-shepherd/\"\u003EAustralian Shepherd\u003C/a\u003E mix\u003C/li\u003E\r\n \t\u003Cli\u003EPlott Hound-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/mastiff/\"\u003EMastiff\u003C/a\u003E mix\u003C/li\u003E\r\n\u003C/ul\u003E\r\nNote: These are not purebred dogs but mixed breeds."
+          }
+        ],
+        "select_related_breeds": [
+          {
+            "selected_related_breed": 426,
+            "characteristic": "breed_characteristics_playfulnesss"
+          },
+          {
+            "selected_related_breed": 709,
+            "characteristic": "breed_characteristics_exercise_needs"
+          },
+          {
+            "selected_related_breed": 647,
+            "characteristic": "breed_characteristics_shedding_level"
+          },
+          {
+            "selected_related_breed": 760,
+            "characteristic": "breed_characteristics_training_needs"
+          },
+          {
+            "selected_related_breed": 275,
+            "characteristic": "breed_characteristics_friendliness"
+          },
+          {
+            "selected_related_breed": 1074,
+            "characteristic": "breed_characteristics_good_with_other_dogs"
+          }
+        ],
+        "enable_featured_gallery": [
+          "enable_featured_gallery"
+        ],
+        "featured_gallery_images": [780, 781, 782, 783, 784, 785]
+      },
+      "yoast_head": "\u003C!-- This site is optimized with the Yoast SEO plugin v23.8 - https://yoast.com/wordpress/plugins/seo/ --\u003E\n\u003Ctitle\u003EPlott Hound Breed: Characteristics, Care &amp; Photos | Chewy\u003C/title\u003E\n\u003Cmeta name=\"description\" content=\"The Plott Hound is North Carolina&#039;s State Dog. Learn if this breed is the right type of dog for you in our complete Plott Hound guide.\" /\u003E\n\u003Cmeta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" /\u003E\n\u003Clink rel=\"canonical\" href=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/plott-hound/\" /\u003E\n\u003Cmeta property=\"og:locale\" content=\"en_US\" /\u003E\n\u003Cmeta property=\"og:type\" content=\"article\" /\u003E\n\u003Cmeta property=\"og:title\" content=\"Plott Hound Breed: Characteristics, Care &amp; Photos | Chewy\" /\u003E\n\u003Cmeta property=\"og:description\" content=\"The Plott Hound is North Carolina&#039;s State Dog. Learn if this breed is the right type of dog for you in our complete Plott Hound guide.\" /\u003E\n\u003Cmeta property=\"og:url\" content=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/plott-hound/\" /\u003E\n\u003Cmeta property=\"og:site_name\" content=\"Chewy\" /\u003E\n\u003Cmeta property=\"article:modified_time\" content=\"2025-05-05T14:22:05+00:00\" /\u003E\n\u003Cmeta property=\"og:image\" content=\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11165820/202106PlottHound-FeaturedImage.jpg\" /\u003E\n\t\u003Cmeta property=\"og:image:width\" content=\"1440\" /\u003E\n\t\u003Cmeta property=\"og:image:height\" content=\"865\" /\u003E\n\t\u003Cmeta property=\"og:image:type\" content=\"image/jpeg\" /\u003E\n\u003Cmeta name=\"twitter:card\" content=\"summary_large_image\" /\u003E\n\u003Cscript type=\"application/ld+json\" class=\"yoast-schema-graph\"\u003E{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/plott-hound/\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/plott-hound/\",\"name\":\"Plott Hound Breed: Characteristics, Care & Photos | Chewy\",\"isPartOf\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/plott-hound/#primaryimage\"},\"image\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/plott-hound/#primaryimage\"},\"thumbnailUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11165820/202106PlottHound-FeaturedImage.jpg\",\"datePublished\":\"2021-06-14T09:18:16+00:00\",\"dateModified\":\"2025-05-05T14:22:05+00:00\",\"description\":\"The Plott Hound is North Carolina's State Dog. Learn if this breed is the right type of dog for you in our complete Plott Hound guide.\",\"breadcrumb\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/plott-hound/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://phcms.hlth.prd.aws.chewy.cloud/breed/plott-hound/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/plott-hound/#primaryimage\",\"url\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11165820/202106PlottHound-FeaturedImage.jpg\",\"contentUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11165820/202106PlottHound-FeaturedImage.jpg\",\"width\":1440,\"height\":865},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/plott-hound/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://phcms.hlth.prd.aws.chewy.cloud/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Plott Hound\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/\",\"name\":\"Chewy\",\"description\":\"\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"}]}\u003C/script\u003E\n\u003C!-- / Yoast SEO plugin. --\u003E",
+      "yoast_head_json": {
+        "title": "Plott Hound Breed: Characteristics, Care & Photos | Chewy",
+        "description": "The Plott Hound is North Carolina's State Dog. Learn if this breed is the right type of dog for you in our complete Plott Hound guide.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://phcms.hlth.prd.aws.chewy.cloud/breed/plott-hound/",
+        "og_locale": "en_US",
+        "og_type": "article",
+        "og_title": "Plott Hound Breed: Characteristics, Care & Photos | Chewy",
+        "og_description": "The Plott Hound is North Carolina's State Dog. Learn if this breed is the right type of dog for you in our complete Plott Hound guide.",
+        "og_url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/plott-hound/",
+        "og_site_name": "Chewy",
+        "article_modified_time": "2025-05-05T14:22:05+00:00",
+        "og_image": [
+          {
+            "width": 1440,
+            "height": 865,
+            "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11165820/202106PlottHound-FeaturedImage.jpg",
+            "type": "image/jpeg"
+          }
+        ],
+        "twitter_card": "summary_large_image",
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/plott-hound/",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/plott-hound/",
+              "name": "Plott Hound Breed: Characteristics, Care & Photos | Chewy",
+              "isPartOf": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/plott-hound/#primaryimage"
+              },
+              "image": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/plott-hound/#primaryimage"
+              },
+              "thumbnailUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11165820/202106PlottHound-FeaturedImage.jpg",
+              "datePublished": "2021-06-14T09:18:16+00:00",
+              "dateModified": "2025-05-05T14:22:05+00:00",
+              "description": "The Plott Hound is North Carolina's State Dog. Learn if this breed is the right type of dog for you in our complete Plott Hound guide.",
+              "breadcrumb": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/plott-hound/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://phcms.hlth.prd.aws.chewy.cloud/breed/plott-hound/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/plott-hound/#primaryimage",
+              "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11165820/202106PlottHound-FeaturedImage.jpg",
+              "contentUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11165820/202106PlottHound-FeaturedImage.jpg",
+              "width": 1440,
+              "height": 865
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/plott-hound/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://phcms.hlth.prd.aws.chewy.cloud/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Plott Hound"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/",
+              "name": "Chewy",
+              "description": "",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            }
+          ]
+        }
+      },
+      "yoast_meta": {
+        "yoast_wpseo_title": "",
+        "yoast_wpseo_metadesc": "",
+        "yoast_wpseo_canonical": ""
+      },
+      "_links": {
+        "self": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed/789",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/types/breed"
+          }
+        ],
+        "acf:attachment": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/785"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/784"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/783"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/782"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/781"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/780"
+          }
+        ],
+        "wp:featuredmedia": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/788"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media?parent=789"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "pet_type",
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/pet_type?post=789"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ]

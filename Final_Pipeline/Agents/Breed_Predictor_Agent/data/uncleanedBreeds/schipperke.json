@@ -1,0 +1,321 @@
+[
+    {
+      "id": 200,
+      "date": "2021-07-12T09:53:11",
+      "date_gmt": "2021-07-12T09:53:11",
+      "guid": {
+        "rendered": "https://haproxy.use1.lgcy.prd.aws.chewy.cloud/eks/ns/pet-health/pet-health-content-backend/breed/schipperke/"
+      },
+      "modified": "2025-05-05T14:21:09",
+      "modified_gmt": "2025-05-05T14:21:09",
+      "slug": "schipperke",
+      "status": "publish",
+      "type": "breed",
+      "link": "https://phcms.hlth.prd.aws.chewy.cloud/breed/schipperke/",
+      "title": {
+        "rendered": "Schipperke"
+      },
+      "featured_media": 199,
+      "template": "",
+      "pet_type": [],
+      "class_list": [
+        "post-200",
+        "breed",
+        "type-breed",
+        "status-publish",
+        "has-post-thumbnail",
+        "hentry"
+      ],
+      "acf": {
+        "breed_snapshot_best_for": "\u003Cp\u003EVivacious and curious, Schipperkes are best in both large homes and small apartments as long as they get mental stimulation, consistent training and daily exercise. They love kids, get along well with cats and other dogs, and thrive as part of a family unit.\u003C/p\u003E",
+        "alt_image_text": "schipperke dog breed",
+        "breed_intro": "Schipperkes are small dogs who believe they're giant and possess the boisterous demeanor to match. Also called the \"little black devil\" because their curiosity can land them in trouble, Schipperkes (pronounced \"skipper-kee\") are dynamic pups with the heart of a lion—in the body of a fluffy, feisty guard dog. With their take-charge, \"I have it covered\" nature, Schipperkes will keep you on your toes with their clever ways and high level of intelligence. Looking for the Thelma to your Louise? A lively Schipperke will eagerly join you on all your \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/sup-with-your-pup-heres-how-to-stand-up-paddle-board-with-your-dog\"\u003Eadventures\u003C/a\u003E and be your dearest friend. (And check out that smile!)",
+        "breed_related_products_product_card_set": null,
+        "breed_snapshot_temperament": "\u003Cp\u003ECurious, Protective, Vivacious\u003C/p\u003E",
+        "what_does_this_breed_look_like_weight": "\u003Cp\u003EMale: 10-16 pounds\u003C/p\u003E\u003Cp\u003EFemale: 10-16 pounds\u003C/p\u003E",
+        "what_does_this_breed_look_like_height": "\u003Cp\u003EMale: 11-13 inches\u003C/p\u003E\u003Cp\u003EFemale: 10-12 inches\u003C/p\u003E",
+        "breed_snapshot_life_expectancy": "\u003Cp\u003E12 to 16 years\u003C/p\u003E",
+        "breed_snapshot_maintenance_level": "\u003Cp\u003EMedium\u003C/p\u003E",
+        "breed_characteristics_friendliness": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_snapshot_coat_color": "\u003Cp\u003EBlack\u003C/p\u003E",
+        "breed_snapshot_shed_level": "\u003Cp\u003ELow\u003C/p\u003E",
+        "in_article_video": null,
+        "breed_characteristics": "These traits are rated on a scale of 1-5 with 1 being the lowest and 5 being the highest. Remember: Dogs are individuals, and not all dogs, even those of the same breed, will exhibit all the same qualities.",
+        "breed_characteristics_exercise_needs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_health_issues": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_barking_tendencies": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_grooming_needs": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_shedding_level": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_training_needs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_kids": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_with_cats": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_for_apartments_small_homes": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_energy_level": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_other_dogs": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_playfulnesss": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_cold_weather": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_warm_weather": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_for_first_time_parents": "\u003Cp\u003E3\u003C/p\u003E",
+        "how_do_i_look_card_image": 198,
+        "what_does_this_breed_look_like": "Schipperkes are small dogs who believe they're giant and possess the boisterous demeanor to match. The Schipperke dog has a sturdy frame and alert, curious eyes. Their pointy ears stand straight up on top of their head—like antennae in constant search of their next signal! Most Schipperkes are solid black with fluffy fur of varied lengths.",
+        "what_does_this_breed_look_like_ears": "\u003Cp\u003ESchipperkes have small, triangular ears standing at attention on top of their head.\u003C/p\u003E",
+        "what_does_this_breed_look_like_eyes": "\u003Cp\u003ESchipperke eyes are small, oval and dark brown, and always curious and alert.\u003C/p\u003E",
+        "what_does_this_breed_look_like_nose": "\u003Cp\u003ESchipperkes have a small, black, pointy nose that's poised to sniff out new adventures.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_length": "\u003Cp\u003EThe Schipperke breed's coat length varies across the body. Hair is shorter around the face and legs and medium-length on the body. They are double-coated and have a thick undercoat beneath their fluffier outer coat.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_color": "\u003Cp\u003EA solid black coat is the most common and is preferred by breed enthusiasts.\u003C/p\u003E",
+        "what_does_this_breed_look_like_tail": "\u003Cp\u003ESchipperkes have varying types of tails. Many breeders dock their tails at birth, and some have naturally shorter tails—or a longer, fluffy tail that curves upward. The AKC breed standard allows for the tail to be docked or undocked. Docking involves cutting a portion of the dog’s tail off when they are puppies. Veterinary groups along with many US states and countries have banned this procedure due to medical and behavioral reasons. If you are interested in this procedure, schedule a consultation with your veterinarian.\u003C/p\u003E",
+        "h2_breed_temperament": "Schipperkes have oodles of personality that will keep you both busy and entertained. Socialize them with other dogs, cats and people. They may be wary of strangers and need to warm up to new faces, but they love and dote on their family members. Their temperament makes Schipperkes an ideal roommate addition if you already have cats, other dogs and kiddos at home—this breed loves them all! The saying \"their bark is worse than their bite\" definitely applies to a Schipperke: They like to bark to alert their pet parents of noises or passersby, but their small size means they can't really protect you as a guard dog!\r\n\r\nBred to root out and kill rats and other vermin, Schipperkes are lightning fast, so always keep this curious and agile breed on a leash while exploring the world. Ensure your yard also has a secure fence because these dashing escape artists may decide to fly solo if given the chance. This leads us to the next point: Schipperkes are highly independent and stubborn, so you'll need to match or outdo their strong persona to raise and train your Schipperke to be obedient yet still full of verve.",
+        "h2_how_to_care_for_a_breed": "Schipperke traits include excessive barking, high energy and behavioral characteristics that warrant training, but caring for this breed physically is a breeze. Their small stature makes them easy to bathe and brush, and they only need a bath once a month unless they get into some mischief! Daily exercise, a healthy diet and obedience training will add up to a happy dog who'll bring tons of zeal to your home and give your kids a loyal playmate who's always ready to have fun.",
+        "grooming": "\u003Cspan data-preserver-spaces=\"true\"\u003EWhen it comes to grooming, Schipperkes are relatively low-maintenance. Here are grooming tips for your Schipperke:\u003C/span\u003E\n\u003Cul\u003E\n \t\u003Cli\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E\u003Cstrong\u003EBrushing:\u003C/strong\u003E They have double coats with a fluffier undercoat and a more coarse medium-length outer coat. Use a \u003C/span\u003E\u003Ca class=\"editor-rtfLink\" href=\"https://www.chewy.com/frisco-bone-dog-curry-brush/dp/233452\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-preserver-spaces=\"true\"\u003Erubber curry brush\u003C/span\u003E\u003C/a\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E&nbsp;or a&nbsp;\u003C/span\u003E\u003Ca class=\"editor-rtfLink\" href=\"https://www.chewy.com/f/dog-pin-brushes_c356_f70v83789\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-preserver-spaces=\"true\"\u003Epin brush\u003C/span\u003E\u003C/a\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E to \u003Ca href=\"https://www.chewy.com/education/dog/grooming/brushing-a-dog\"\u003Ebrush your Schipperke's coat\u003C/a\u003E once a week—and two to three times a week during their shedding season (which occurs once or twice a year).\u003C/span\u003E\u003C/li\u003E\n \t\u003Cli\u003E\u003Cstrong\u003EBathing:\u003C/strong\u003E Schipperkes only need one \u003Ca href=\"https://www.chewy.com/education/dog/grooming/how-to-bathe-a-dog-step-by-step-tips-from-a-professional-groomer\"\u003Ebath\u003C/a\u003E every four weeks—unless they get dirty during playtime or on their outings and require one sooner!\u003C/li\u003E\n \t\u003Cli\u003E\u003Cstrong\u003EDental care:\u003C/strong\u003E Plan on \u003Ca href=\"https://www.chewy.com/education/dog/grooming/health-wellness-how-to-brush-your-dogs-teeth-live-to-tell-the-tale\"\u003Ebrushing your Schipperke's teeth\u003C/a\u003E daily. This is most beneficial for removing tartar and bacteria. Ask your vet to teach you how to brush your Schipperke's pearly whites using \u003Ca class=\"editor-rtfLink\" href=\"https://www.chewy.com/b/toothpastes-2598\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-preserver-spaces=\"true\"\u003Etoothpaste just for dogs\u003C/span\u003E\u003C/a\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E. Ideally, start the ritual when your Schipperke puppy is young so they grow accustomed to the process. This vital step in dog grooming keeps plaque, gum disease and tooth decay at bay and reduces the risk of developing a possibly life-threatening infection in your dog. Schedule an annual&nbsp;\u003C/span\u003E\u003Cspan data-preserver-spaces=\"true\"\u003Eprofessional teeth cleaning\u003C/span\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E with your veterinarian (not your groomer) to keep your dog's teeth in tip-top shape.\u003C/span\u003E\u003C/li\u003E\n \t\u003Cli\u003E\u003Cstrong\u003ENail trimming:\u003C/strong\u003E If you can hear your Schipperke's nails tap dancing on the floor when they walk, it's time for a \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/guide-trimming-dogs-nails\"\u003Enail trim\u003C/a\u003E. Trimming their nails one to two times a month should keep them well-manicured.\u003C/li\u003E\n\u003C/ul\u003E",
+        "training": "Training is a much-needed component of parenting the Schipperke breed. Without proper socialization and boundaries, your clever pooch can take their job too seriously and become challenging, presenting an over-the-top \"watchdog\" response, excessive barking and an independent mindset. (We did warn you that you could be in for one feisty pup!)\n\nIt's important to \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/positively-trained-puppy-socialization-dos-and-donts\"\u003Esocialize\u003C/a\u003E your Schipperke starting when they're young so they get used to interacting with new people and other animals. Take your puppy out on walks to meet new people and other dogs. Enroll in puppy school, where they learn to play nicely with other puppies and interact with other dog parents—all under one roof.\n\nIn a home that understands the breed's needs and commits to exercise and training, this loyal pup can make a great family pet. You'll need to learn Schipperke 101 and the best ways to ensure you establish ground rules and boundaries with your dog. Teach your Schipperke to come when called by their name as soon as possible. Their independence, mischievousness and curiosity may lead them to dart off quickly, and you'll need to be able to reign in your Schipperke if they try running away.\n\n\u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/sit-stay-and-beyond-weve-got-the-essential-guide-to-basic-dog-obedience-training\"\u003ETraining\u003C/a\u003E will also provide your escape artist with the mental stimulation they need. A Schipperke's intelligence makes this dog a wonderful student who will excel under the training of a patient and consistent pet parent.",
+        "diet_nutrition": "\u003Cspan data-preserver-spaces=\"true\"\u003ESchipperkes typically do well consuming \u003C/span\u003E\u003Ca class=\"editor-rtfLink\" href=\"https://www.chewy.com/b/premium-food-11728\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-preserver-spaces=\"true\"\u003Ehigh-quality, commercial dog food\u003C/span\u003E\u003C/a\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E. When purchasing dog food, consider your dog's age and select the appropriate formula to best meet their needs for their current life stage (puppy, adult, senior).\u003C/span\u003E\r\n\r\n\u003Cspan data-preserver-spaces=\"true\"\u003EIf you're not sure which brand of dog food is best or how much to feed your Schipperke, your veterinarian can provide you with suggestions and a feeding chart to guide you on the amount of food your dog should be eating and how often you should feed them to meet the needs for their specific diet.\u003C/span\u003E\r\n\r\n\u003Cspan data-preserver-spaces=\"true\"\u003EBe aware of your Schipperke's size. They are small dogs, and although their energy level keeps them active, they can quickly become overweight if overfed. Keep this in mind when doling out the treats while raising a Schipperke. Treats equal calories, so you'll want to use them sparingly.\u003C/span\u003E\r\n\r\n\u003Cspan data-preserver-spaces=\"true\"\u003EAgain, consult with your veterinarian; they are in the best position to help you pick the right food for your dog based on their needs.\u003C/span\u003E",
+        "exercise": "\u003Cspan data-preserver-spaces=\"true\"\u003ESchipperkes are highly active, lively and energetic. Playing in a fenced yard with their family can be enough exercise for them. Remember: They're quick and can dart away when their infamous Schipperke speed doesn't have boundaries!\u003C/span\u003E\n\n\u003Cspan data-preserver-spaces=\"true\"\u003ESchipperkes also love \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/walking-with-dog\"\u003Elong walks\u003C/a\u003E to burn off energy while exploring their neighborhood and sniffing their surroundings to their heart's content; 30–60 minutes a day on one or two walks should do the trick. And take your Schipperke for a short run to really put the wind in their sails... remember their nickname is \"Belgium's little captain,\" after all. When you see your Schipperke running, you'll be amazed by their speed.\u003C/span\u003E\n\n\u003Cspan data-preserver-spaces=\"true\"\u003EKeep in mind that a tired dog is a happy dog, and making sure your Schipperke is well-exercised can help stave off behavioral issues that may stem from boredom and pent-up energy. If you can't leave the house one day, enjoy active indoor play and a \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/how-to-teach-dog-to-fetch\"\u003Egame of fetch\u003C/a\u003E using&nbsp;\u003C/span\u003E\u003Ca class=\"editor-rtfLink\" href=\"https://www.chewy.com/f/small-dog-toys_c315_f6v13790\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-preserver-spaces=\"true\"\u003Edog toys\u003C/span\u003E\u003C/a\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E.\u003C/span\u003E\n\n\u003Cspan data-preserver-spaces=\"true\"\u003EYour Schipperke would also love to participate in \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/dog-agility-training-tips\"\u003Eagility training\u003C/a\u003E (directing your dog through a pre-set obstacle course), which will increase your bond and help build trust in your relationship. Regular, daily exercise will also help keep your dog healthy, and that's a breath of fresh air all around!\u003C/span\u003E",
+        "ideal_environment": "Schipperkes can live well in both large homes with yards and small apartments, as their small size makes them ideal roommates in less spacious dwellings. They can play well with toys indoors in an apartment but still require regular exercise and outdoor walking.\r\n\r\nSchipperkes are known for adoring children—likely because they have so much in common, including boundless vivacity, curiosity and zest for life! A Schipperke puppy will thrive in a home with kids; watching them play together will bring you plenty of laughter and joy.\r\n\r\nThey also get along great with cats, as well as other dogs. But you'll want to socialize your Schipperke early because they tend to be territorial around their family, which can result in barking and wary behavior with visitors and unknown animals, so nip that in the bud from puppyhood.\r\n\r\nThe ideal parent for a Schipperke is confident in their ability to train these independent, strong-willed dogs. You'll also need patience and a sense of humor for Schipperke's antics. Interested in a watchdog who barks to alert and protect their family? As long as you're not after an actual guard dog, this feisty pup might just be the dog for you!",
+        "h2_breed_health": "\u003Cspan data-contrast=\"none\"\u003ESchipperkes have a lifespan of 12–16 years and are generally a healthy breed, but they do have some health issues that you should know about as a pet parent to help your pup live the longest life possible.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;335557856&quot;:16777215}\"\u003E \u003C/span\u003E\r\n\u003Cul\u003E\r\n \t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"1\" data-aria-level=\"1\"\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/c_dg_legg_calve_perthes_disease\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003ELegg-Calve-Perthes Disease\u003C/span\u003E\u003C/b\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E: This genetic, developmental orthopedic disorder of the hip joint leads to lameness and pain. An interrupted supply of blood to the head and neck of the femur bone is the cause. This condition may be found on X-rays when the pet presents with rear leg limping. Treatment may include medications or surgery depending on the severity. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;335557856&quot;:16777215,&quot;335559685&quot;:1117}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n \t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"2\" data-aria-level=\"1\"\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/c_multi_patellar_luxation\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003ELuxating Patella\u003C/span\u003E\u003C/b\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E: Common in many small breeds, luxating patella is a condition where the kneecap is able to slide in and out of place. Symptoms often include a limp or knee pain. Treatment can include joint supplements, medications and, in severe cases, surgery.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;335557856&quot;:16777215,&quot;335559685&quot;:1117}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n \t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"3\" data-aria-level=\"1\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EMPS IIIB (Mucopolysaccharidosis IIIB)\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E: This is a rare, fatal genetic disease, and the symptoms are related to the cerebellum part of the brain. The signs include tremors, difficulty balancing and walking and other balance-related issues. There is no cure or successful treatment for this disease, but genetic screening testing is available, so ask your breeder.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;335557856&quot;:16777215,&quot;335559685&quot;:1117}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n \t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"4\" data-aria-level=\"1\"\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/endocrine/c_dg_hypothyroidism\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EHypothyroidism\u003C/span\u003E\u003C/b\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E: Hypothyroidism is when the body doesn’t make enough thyroid hormone. Symptoms of hypothyroidism include dry skin and coat, hair loss, weight gain and lethargy. Typically diagnosed by a blood test, your veterinarian will likely treat with daily oral medication.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;201341983&quot;:0,&quot;335551550&quot;:1,&quot;335551620&quot;:1,&quot;335557856&quot;:16777215,&quot;335559685&quot;:1117,&quot;335559737&quot;:0,&quot;335559740&quot;:259,&quot;335559991&quot;:360}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n \t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"5\" data-aria-level=\"1\"\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/eye/c_dg_cataract\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003ECataracts\u003C/span\u003E\u003C/b\u003E\u003C/a\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003E and \u003C/span\u003E\u003C/b\u003E\u003Ca href=\"https://www.petmd.com/dog/condition/progressive-retinal-atrophy-in-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EProgressive Retinal Atrophy\u003C/span\u003E\u003C/b\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E: Eye problems that can affect Schipperkes are cataracts and progressive retinal atrophy (PRA), an eye disease that will eventually cause vision loss. Surgery can correct cataracts in some cases. There is no treatment for PRA. However, a dog with vision loss can still live a happy life.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;335557856&quot;:16777215,&quot;335559685&quot;:1117}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\u003C/ul\u003E",
+        "h2_breed_history": "\u003Cspan data-preserver-spaces=\"true\"\u003ESchipperkes' ancient origin dates back to the 1600s and includes a storied history of seafaring escapades. First born in medieval Belgium, the word Schipperke is Flemish for \"little captain.\" A breakdown of the Schipperke name: \u003C/span\u003E\u003Cem\u003E\u003Cspan data-preserver-spaces=\"true\"\u003ESchip\u003C/span\u003E\u003C/em\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E is Flemish for boat, and \u003C/span\u003E\u003Cem\u003E\u003Cspan data-preserver-spaces=\"true\"\u003Eschipper\u003C/span\u003E\u003C/em\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E means skipper or boat captain, so \u003C/span\u003E\u003Cem\u003E\u003Cspan data-preserver-spaces=\"true\"\u003Eschipperke\u003C/span\u003E\u003C/em\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E translates to little captain of the boat. (Pretty cool, huh?) Schipperkes earned this nickname with their constant nautical presence, hunting vermin on ships and guarding boats in Belgian dockyards.\u003C/span\u003E\r\n\r\n\u003Cspan data-preserver-spaces=\"true\"\u003EThis small shepherd originated from a black Belgian sheepdog called a Leauvenaar. These active dogs were bred to work and toiled on boats to root out and kill all the rats. Shopkeepers also relied on Schipperkes to watch over and protect their merchandise.\u003C/span\u003E\r\n\r\n\u003Cspan data-preserver-spaces=\"true\"\u003EAfter the first Schipperke arrived in America in 1888, the American Kennel Club (AKC) recognized the breed in 1904. The AKC Parent Club for this breed, the \u003C/span\u003E\u003Ca class=\"editor-rtfLink\" href=\"https://schipperkeclubofamerica.org/\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-preserver-spaces=\"true\"\u003ESchipperke Club of America\u003C/span\u003E\u003C/a\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E, was established in 1929. Schipperkes rank 113 out of 200 breeds according to the \u003Ca href=\"https://www.akc.org/most-popular-breeds/\" target=\"_blank\" rel=\"noopener\"\u003EAKC's breed popularity ranking system\u003C/a\u003E.\u003C/span\u003E\r\n\r\n\u003Cspan data-preserver-spaces=\"true\"\u003EA fun Schipperke fact is that they were the companion dog of choice for beloved actress Lucille Ball, who owned many of these feisty little dogs. She named one of her pet Schipperkes Ginger.\u003C/span\u003E\r\n\r\n\u003Cspan data-preserver-spaces=\"true\"\u003EHoping to add a Schipperke to your pack? Find a list of reputable breeders on the \u003C/span\u003E\u003Ca class=\"editor-rtfLink\" href=\"https://marketplace.akc.org/puppies/schipperke?breed=224&amp;page=1\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-preserver-spaces=\"true\"\u003EAKC website\u003C/span\u003E\u003C/a\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E. What's the average Schipperke price? You can expect to pay $700 to several thousand dollars for a purebred pup. You can also find a Schipperke rescue organization near you, keep a lookout for the breed to be up for adoption at your local animal shelter, or search \u003Ca href=\"https://www.chewy.com/g/dog-schipperke_ga1\" target=\"_blank\" rel=\"noopener\"\u003EChewy’s database of adoptable dogs\u003C/a\u003E in your area. \u003C/span\u003E",
+        "expert_attribution": "\u003Ci\u003EExpert input provided by Dr. Jerry Klein, Chief Veterinary Officer for the \u003Ca href=\"https://www.akc.org/\" target=\"_blank\" rel=\"noopener\"\u003EAmerican Kennel Club\u003C/a\u003E; Dr. Elizabeth Grey, Veterinarian, President and Hospital Director of \u003Ca href=\"https://carmelmountainvet.com/\" target=\"_blank\" rel=\"noopener\"\u003ECarmel Mountain Ranch Veterinary Hospital\u003C/a\u003E, and owner of \u003Ca href=\"https://www.drgreyplaynstay.com/\" target=\"_blank\" rel=\"noopener\"\u003EDr. Grey's Play &amp; Stay\u003C/a\u003E; Graham Bloem, Certified Dog Trainer &amp; Behavior Expert, Owner &amp; Training Director of \u003Ca href=\"https://specialtydogtraining.com/\" target=\"_blank\" rel=\"noopener\"\u003ESpecialty Dog Training\u003C/a\u003E; and Dr. Shirley Quillen, Health and Genetics Chair, \u003Ca href=\"https://www.schipperkeclub-usa.org/\" target=\"_blank\" rel=\"noopener\"\u003ESchipperke Club of America\u003C/a\u003E.\u003C/i\u003E\r\n\r\n\u003Cem\u003EBreed characteristic ratings provided by Dr. Sarah J. Wooten, DVM, CVJ, a veterinarian at \u003Ca href=\"https://sheepdraw.com/\" target=\"_blank\" rel=\"noopener\"\u003ESheep Draw Veterinary Hospital\u003C/a\u003E in Greeley, Colorado; dog trainer and behavior consultant Irith Bloom, CPDT-KSA, CBCC-KA, CDBC, owner of \u003Ca href=\"https://thesophisticateddog.com/\" target=\"_blank\" rel=\"noopener\"\u003EThe Sophisticated Dog, LLC\u003C/a\u003E, in Los Angeles; and certified animal behavior consultant \u003Ca href=\"https://shojai.com/\" target=\"_blank\" rel=\"noopener\"\u003EAmy Shojai\u003C/a\u003E, CABC, in Sherman, Texas.\u003C/em\u003E\r\n\r\n\u003Cem\u003EThe health content was medically reviewed by Chewy vets.\u003C/em\u003E",
+        "facebook_social_snippet_with_cta": "\u003Cp\u003EDid you know Schipperkes were Lucille Ball's favorite dogs? These small, spirited bundles of energy are the perfect curious companion on life's adventures, and on the home front, they make impeccable watchdogs. Learn why Lucille (and many others) love this pup in our guide.\u003C/p\u003E",
+        "species": "\u003Cp\u003EDog\u003C/p\u003E",
+        "h2_faqs": "\u003Ch3\u003E\u003Cspan data-preserver-spaces=\"true\"\u003EDo Schipperkes shed?\u003C/span\u003E\u003C/h3\u003E\r\n\u003Cspan data-preserver-spaces=\"true\"\u003ESchipperkes shed minimally year-round and have a heavier shedding season once or twice annually (in the spring and fall). Weekly brushing can help. \u003C/span\u003E\r\n\u003Ch3\u003E\u003Cspan data-preserver-spaces=\"true\"\u003EHow long do Schipperkes live?\u003C/span\u003E\u003C/h3\u003E\r\n\u003Cspan data-preserver-spaces=\"true\"\u003ESchipperkes have a lifespan of 12–16 years.\u003C/span\u003E\r\n\u003Ch3\u003E\u003Cspan data-preserver-spaces=\"true\"\u003EAre Schipperkes good family dogs?\u003C/span\u003E\u003C/h3\u003E\r\n\u003Cspan data-preserver-spaces=\"true\"\u003EYes, Schipperkes are good family dogs. They are great with children and are known to adore kids and play tirelessly with them. Schipperkes' small size makes them less intimidating to young kids as well.\u003C/span\u003E\r\n\u003Ch3\u003E\u003Cspan data-preserver-spaces=\"true\"\u003EDo Schipperkes bark a lot?\u003C/span\u003E\u003C/h3\u003E\r\n\u003Cspan data-preserver-spaces=\"true\"\u003ESchipperkes are prone to excessive barking, especially given their nature as guard dogs and territorial tendencies, making them suspicious of strangers.\u003C/span\u003E\r\n\u003Ch3\u003E\u003Cspan data-preserver-spaces=\"true\"\u003EWhat are the most common Schipperke mixes?\u003C/span\u003E\u003C/h3\u003E\r\n\u003Cul\u003E\r\n \t\u003Cli\u003E\u003Cspan data-preserver-spaces=\"true\"\u003ESchipperke-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/chihuahua/\"\u003EChihuahua\u003C/a\u003E mix (Schipper-Chi)\u003C/span\u003E\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Cspan data-preserver-spaces=\"true\"\u003ESchipperke-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/pomeranian/\"\u003EPomeranian\u003C/a\u003E mix (Schip-A-Pom or Pomerke)\u003C/span\u003E\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Cspan data-preserver-spaces=\"true\"\u003ESchipperke-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/border-collie/\"\u003EBorder Collie\u003C/a\u003E mix (Border Schipper)\u003C/span\u003E\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Cspan data-preserver-spaces=\"true\"\u003ESchipperke-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/pembroke-welsh-corgi/\"\u003ECorgi\u003C/a\u003E mix (Corgi Schip)\u003C/span\u003E\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Cspan data-preserver-spaces=\"true\"\u003ESchipperke-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/labrador-retriever/\"\u003ELab\u003C/a\u003E mix (Schipperke Retriever)\u003C/span\u003E\u003C/li\u003E\r\n\u003C/ul\u003E\r\nNote: These are not purebred dogs but mixed breeds.",
+        "faq_items": [
+          {
+            "faq_title": "\u003Cspan data-preserver-spaces=\"true\"\u003EDo Schipperkes shed?\u003C/span\u003E",
+            "faq_content": "\u003Cspan data-preserver-spaces=\"true\"\u003ESchipperkes shed minimally year-round and have a heavier shedding season once or twice annually (in the spring and fall). Weekly brushing can help. \u003C/span\u003E"
+          },
+          {
+            "faq_title": "\u003Cspan data-preserver-spaces=\"true\"\u003EHow long do Schipperkes live?\u003C/span\u003E",
+            "faq_content": "\u003Cspan data-preserver-spaces=\"true\"\u003ESchipperkes have a lifespan of 12–16 years.\u003C/span\u003E"
+          },
+          {
+            "faq_title": "\u003Cspan data-preserver-spaces=\"true\"\u003EAre Schipperkes good family dogs?\u003C/span\u003E",
+            "faq_content": "\u003Cspan data-preserver-spaces=\"true\"\u003EYes, Schipperkes are good family dogs. They are great with children and are known to adore kids and play tirelessly with them. Schipperkes' small size makes them less intimidating to young kids as well.\u003C/span\u003E"
+          },
+          {
+            "faq_title": "\u003Cspan data-preserver-spaces=\"true\"\u003EDo Schipperkes bark a lot?\u003C/span\u003E",
+            "faq_content": "\u003Cspan data-preserver-spaces=\"true\"\u003ESchipperkes are prone to excessive barking, especially given their nature as guard dogs and territorial tendencies, making them suspicious of strangers.\u003C/span\u003E"
+          },
+          {
+            "faq_title": "\u003Cspan data-preserver-spaces=\"true\"\u003EWhat are the most common Schipperke mixes?\u003C/span\u003E",
+            "faq_content": "\u003Cul\u003E\r\n \t\u003Cli\u003E\u003Cspan data-preserver-spaces=\"true\"\u003ESchipperke-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/chihuahua/\"\u003EChihuahua\u003C/a\u003E mix (Schipper-Chi)\u003C/span\u003E\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Cspan data-preserver-spaces=\"true\"\u003ESchipperke-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/pomeranian/\"\u003EPomeranian\u003C/a\u003E mix (Schip-A-Pom or Pomerke)\u003C/span\u003E\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Cspan data-preserver-spaces=\"true\"\u003ESchipperke-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/border-collie/\"\u003EBorder Collie\u003C/a\u003E mix (Border Schipper)\u003C/span\u003E\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Cspan data-preserver-spaces=\"true\"\u003ESchipperke-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/pembroke-welsh-corgi/\"\u003ECorgi\u003C/a\u003E mix (Corgi Schip)\u003C/span\u003E\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Cspan data-preserver-spaces=\"true\"\u003ESchipperke-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/labrador-retriever/\"\u003ELab\u003C/a\u003E mix (Schipperke Retriever)\u003C/span\u003E\u003C/li\u003E\r\n\u003C/ul\u003E\r\nNote: These are not purebred dogs but mixed breeds."
+          }
+        ],
+        "select_related_breeds": [
+          {
+            "selected_related_breed": 160,
+            "characteristic": "breed_characteristics_exercise_needs"
+          },
+          {
+            "selected_related_breed": 436,
+            "characteristic": "breed_characteristics_shedding_level"
+          },
+          {
+            "selected_related_breed": 321,
+            "characteristic": "breed_characteristics_training_needs"
+          },
+          {
+            "selected_related_breed": 160,
+            "characteristic": "breed_characteristics_friendliness"
+          },
+          {
+            "selected_related_breed": 1365,
+            "characteristic": "breed_characteristics_energy_level"
+          },
+          {
+            "selected_related_breed": 1143,
+            "characteristic": "breed_characteristics_sensitive_to_cold_weather"
+          }
+        ],
+        "enable_featured_gallery": [
+          "enable_featured_gallery"
+        ],
+        "featured_gallery_images": [192, 193, 194, 195, 196]
+      },
+      "yoast_head": "\u003C!-- This site is optimized with the Yoast SEO plugin v23.8 - https://yoast.com/wordpress/plugins/seo/ --\u003E\n\u003Ctitle\u003ESchipperke Breed: Characteristics, Care &amp; Photos | Chewy\u003C/title\u003E\n\u003Cmeta name=\"description\" content=\"All the facts you need to know about Schipperkes can be found in our expert guide, including how to care for and raise these vivacious pups.\" /\u003E\n\u003Cmeta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" /\u003E\n\u003Clink rel=\"canonical\" href=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/schipperke/\" /\u003E\n\u003Cmeta property=\"og:locale\" content=\"en_US\" /\u003E\n\u003Cmeta property=\"og:type\" content=\"article\" /\u003E\n\u003Cmeta property=\"og:title\" content=\"Schipperke Breed: Characteristics, Care &amp; Photos | Chewy\" /\u003E\n\u003Cmeta property=\"og:description\" content=\"All the facts you need to know about Schipperkes can be found in our expert guide, including how to care for and raise these vivacious pups.\" /\u003E\n\u003Cmeta property=\"og:url\" content=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/schipperke/\" /\u003E\n\u003Cmeta property=\"og:site_name\" content=\"Chewy\" /\u003E\n\u003Cmeta property=\"article:modified_time\" content=\"2025-05-05T14:21:09+00:00\" /\u003E\n\u003Cmeta property=\"og:image\" content=\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11162433/202107Schipperke-FeaturedImage.jpg\" /\u003E\n\t\u003Cmeta property=\"og:image:width\" content=\"1440\" /\u003E\n\t\u003Cmeta property=\"og:image:height\" content=\"865\" /\u003E\n\t\u003Cmeta property=\"og:image:type\" content=\"image/jpeg\" /\u003E\n\u003Cmeta name=\"twitter:card\" content=\"summary_large_image\" /\u003E\n\u003Cscript type=\"application/ld+json\" class=\"yoast-schema-graph\"\u003E{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/schipperke/\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/schipperke/\",\"name\":\"Schipperke Breed: Characteristics, Care & Photos | Chewy\",\"isPartOf\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/schipperke/#primaryimage\"},\"image\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/schipperke/#primaryimage\"},\"thumbnailUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11162433/202107Schipperke-FeaturedImage.jpg\",\"datePublished\":\"2021-07-12T09:53:11+00:00\",\"dateModified\":\"2025-05-05T14:21:09+00:00\",\"description\":\"All the facts you need to know about Schipperkes can be found in our expert guide, including how to care for and raise these vivacious pups.\",\"breadcrumb\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/schipperke/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://phcms.hlth.prd.aws.chewy.cloud/breed/schipperke/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/schipperke/#primaryimage\",\"url\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11162433/202107Schipperke-FeaturedImage.jpg\",\"contentUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11162433/202107Schipperke-FeaturedImage.jpg\",\"width\":1440,\"height\":865},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/schipperke/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://phcms.hlth.prd.aws.chewy.cloud/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Schipperke\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/\",\"name\":\"Chewy\",\"description\":\"\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"}]}\u003C/script\u003E\n\u003C!-- / Yoast SEO plugin. --\u003E",
+      "yoast_head_json": {
+        "title": "Schipperke Breed: Characteristics, Care & Photos | Chewy",
+        "description": "All the facts you need to know about Schipperkes can be found in our expert guide, including how to care for and raise these vivacious pups.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://phcms.hlth.prd.aws.chewy.cloud/breed/schipperke/",
+        "og_locale": "en_US",
+        "og_type": "article",
+        "og_title": "Schipperke Breed: Characteristics, Care & Photos | Chewy",
+        "og_description": "All the facts you need to know about Schipperkes can be found in our expert guide, including how to care for and raise these vivacious pups.",
+        "og_url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/schipperke/",
+        "og_site_name": "Chewy",
+        "article_modified_time": "2025-05-05T14:21:09+00:00",
+        "og_image": [
+          {
+            "width": 1440,
+            "height": 865,
+            "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11162433/202107Schipperke-FeaturedImage.jpg",
+            "type": "image/jpeg"
+          }
+        ],
+        "twitter_card": "summary_large_image",
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/schipperke/",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/schipperke/",
+              "name": "Schipperke Breed: Characteristics, Care & Photos | Chewy",
+              "isPartOf": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/schipperke/#primaryimage"
+              },
+              "image": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/schipperke/#primaryimage"
+              },
+              "thumbnailUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11162433/202107Schipperke-FeaturedImage.jpg",
+              "datePublished": "2021-07-12T09:53:11+00:00",
+              "dateModified": "2025-05-05T14:21:09+00:00",
+              "description": "All the facts you need to know about Schipperkes can be found in our expert guide, including how to care for and raise these vivacious pups.",
+              "breadcrumb": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/schipperke/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://phcms.hlth.prd.aws.chewy.cloud/breed/schipperke/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/schipperke/#primaryimage",
+              "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11162433/202107Schipperke-FeaturedImage.jpg",
+              "contentUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11162433/202107Schipperke-FeaturedImage.jpg",
+              "width": 1440,
+              "height": 865
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/schipperke/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://phcms.hlth.prd.aws.chewy.cloud/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Schipperke"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/",
+              "name": "Chewy",
+              "description": "",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            }
+          ]
+        }
+      },
+      "yoast_meta": {
+        "yoast_wpseo_title": "",
+        "yoast_wpseo_metadesc": "",
+        "yoast_wpseo_canonical": ""
+      },
+      "_links": {
+        "self": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed/200",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/types/breed"
+          }
+        ],
+        "acf:attachment": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/196"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/195"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/194"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/193"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/192"
+          }
+        ],
+        "wp:featuredmedia": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/199"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media?parent=200"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "pet_type",
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/pet_type?post=200"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ]

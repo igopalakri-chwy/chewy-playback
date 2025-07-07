@@ -1,0 +1,309 @@
+[
+    {
+      "id": 450,
+      "date": "2021-06-28T10:04:38",
+      "date_gmt": "2021-06-28T10:04:38",
+      "guid": {
+        "rendered": "https://haproxy.use1.lgcy.prd.aws.chewy.cloud/eks/ns/pet-health/pet-health-content-backend/breed/english-setter/"
+      },
+      "modified": "2025-05-05T14:21:33",
+      "modified_gmt": "2025-05-05T14:21:33",
+      "slug": "english-setter",
+      "status": "publish",
+      "type": "breed",
+      "link": "https://phcms.hlth.prd.aws.chewy.cloud/breed/english-setter/",
+      "title": {
+        "rendered": "English Setter"
+      },
+      "featured_media": 3401,
+      "template": "",
+      "pet_type": [],
+      "class_list": [
+        "post-450",
+        "breed",
+        "type-breed",
+        "status-publish",
+        "has-post-thumbnail",
+        "hentry"
+      ],
+      "acf": {
+        "breed_snapshot_best_for": "\u003Cp\u003EEnglish Setter dogs are social and high-energy pups who require lots of exercise and grooming. They thrive with active pet parents and families with kids, and can be a great choice for first-time pup parents.\u003C/p\u003E",
+        "alt_image_text": "english setter dog breed",
+        "breed_intro": "\u003Cp\u003EEnglish Setters never seem to take a bad photo—just look at that coat! But these dogs aren't all glammy and Instagrammy; they enjoy a bit of rough-and-tumble play as well. And while they do love a grand outdoor adventure, they're perfectly happy with a long walk and games of fetch with you where they can get their wiggles out. And really, having their BFF (that's you!) with them is really the deciding factor—if you're going, \u003Cem\u003Ethey're \u003C/em\u003Egoing. And if you're staying in, they will, too. They're just delighted to be your sweet sidekick.\u003C/p\u003E",
+        "breed_related_products_product_card_set": null,
+        "breed_snapshot_temperament": "\u003Cp\u003ESocial Butterfly, Affectionate, High-Energy \u003C/p\u003E",
+        "what_does_this_breed_look_like_weight": "\u003Cp\u003EMale: 65-80 pounds\u003C/p\u003E\u003Cp\u003EFemale: 45-55 pounds\u003C/p\u003E",
+        "what_does_this_breed_look_like_height": "\u003Cp\u003EMale: 25 inches\u003C/p\u003E\u003Cp\u003EFemale: 24 inches\u003C/p\u003E",
+        "breed_snapshot_life_expectancy": "\u003Cp\u003E12 years\u003C/p\u003E",
+        "breed_snapshot_maintenance_level": "\u003Cp\u003EHigh\u003C/p\u003E",
+        "breed_characteristics_friendliness": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_snapshot_coat_color": "\u003Cp\u003EBlue Belton, Blue Belton and Tan (Tri-Color), Lemon Belton, Liver Belton, Orange Belton, White\u003C/p\u003E",
+        "breed_snapshot_shed_level": "\u003Cp\u003EMedium\u003C/p\u003E",
+        "in_article_video": null,
+        "breed_characteristics": "\u003Cp\u003EThese traits are rated on a scale of 1-5 with 1 being the lowest and 5 being the highest. Remember: Dogs are individuals, and not all dogs, even those of the same breed, will exhibit all the same qualities.\u003C/p\u003E",
+        "breed_characteristics_exercise_needs": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_health_issues": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_barking_tendencies": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_grooming_needs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_shedding_level": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_training_needs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_kids": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_good_with_cats": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_for_apartments_small_homes": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_energy_level": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_good_with_other_dogs": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_playfulnesss": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_cold_weather": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_warm_weather": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_for_first_time_parents": "\u003Cp\u003E4\u003C/p\u003E",
+        "how_do_i_look_card_image": 3402,
+        "what_does_this_breed_look_like": "\u003Cp\u003EThe medium-sized English Setter breed oozes elegance and is the picture of strength, stamina and pure grace. They have a flat coat with feathering on their ears, chest, legs and tail. English Setter dogs are generally white with speckles, known as ticking or belton. Blue or orange belton is the most common type.\u003C/p\u003E",
+        "what_does_this_breed_look_like_ears": "\u003Cp\u003EThe English Setter's floppy ears are medium length, slightly rounded at the ends and feel like thin leather covered in silky hair.\u003C/p\u003E",
+        "what_does_this_breed_look_like_eyes": "\u003Cp\u003EThe eyes of the English Setter dog are large and round. While they may be dark brown in color, they're bright with an intelligent expression. \u003C/p\u003E",
+        "what_does_this_breed_look_like_nose": "\u003Cp\u003EThe nose of the English Setter is a solid dark brown or black. Their nostrils are large and set wide. \u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_length": "\u003Cp\u003ETheir coat is flat, medium length and feels silky to the touch. The English Setter breed also has long, silky feathering on their ears, neck, chest, down the back of the front legs, under their belly and on their hind legs.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_color": "\u003Cp\u003EEnglish Setters are typically white with speckles or ticking, aka belton. Blue or orange belton colors are common, and liver or lemon belton colors are quite rare. \u003C/p\u003E",
+        "what_does_this_breed_look_like_tail": "\u003Cp\u003EThe tail of the English Setter is medium length, straight and level with the dog's back. It tapers to a point and has feathering that's long and silky.\u003C/p\u003E",
+        "h2_breed_temperament": "\u003Cp\u003EEnglish Setters are happy-go-lucky pups who are gentle and affectionate and great with kids; they think everyone they meet is their best friend. These guys will be your biggest fan, so make sure to invest in a \u003Ca href=\"https://www.chewy.com/b/large-beds-8607\" target=\"_blank\" rel=\"noopener\"\u003Ecomfy dog bed\u003C/a\u003E and put it in the center of the action as they're happiest when surrounded by the love and laughter of their people, both day and night.\u003C/p\u003E\r\n\u003Cp\u003EThese pups are great playmates for kids, and they're more than happy to join other dogs in the home. While they're born hunters, they can get along with cats as long as they're raised with them from puppyhood. But expect these dogs to chase smaller pets, like rabbits and hamsters; they may be a challenging addition if you keep critters at home.\u003C/p\u003E\r\n\u003Cp\u003EEnglish Setters are alert and protective and make great watchdogs. They won't hesitate to sound the alarm when someone unfamiliar approaches, but once settled, they're just fine—they tend to return to a state of calm pretty quickly too.\u003C/p\u003E",
+        "h2_how_to_care_for_a_breed": "\u003Cp\u003EIt's just a fact that a dog with such a gorgeous and luxurious coat is going to be high maintenance, and the English Setter is true-to-form. While they shed a moderate amount, their coat care, training and exercise needs will require a lot of your attention. But hey—it gives you more time to love on your pup.\u003C/p\u003E",
+        "grooming": "\u003Cp\u003EEnglish Setters have a soft silky coat with medium-length hair on their body. While shedding is not a big issue, they should be brushed at least once a week to prevent tangles and mats on the areas where their hair is feathered. Pet parents should use a \u003Ca href=\"https://www.chewy.com/f/bristle-brush-dog-brushes-combs_c356_f70v83784\" target=\"_blank\" rel=\"noopener\"\u003Esoft-bristled brush\u003C/a\u003E for weekly grooming, and for areas where their hair is feathered (underbelly, legs and tail), a long-toothed \u003Ca href=\"https://www.chewy.com/f/stainless-steel-dog-brushes-combs_c356_f7v17020\"\u003Emetal comb\u003C/a\u003E will help detangle those long, silky strands of hair. Moreover, a bath every four to six weeks should keep skin healthy and their coat looking clean. When it's bathtime, \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/guide-trimming-dogs-nails\"\u003Echeck their nails\u003C/a\u003E; they may be ready for a trim. Bonus: the bathwater will soften the nails, making them easier to cut. A good rule is if you can hear their nails tapping as they walk, it's time for a trim.\u003C/p\u003E\n\u003Cp\u003EWhile pet parents should \u003Ca href=\"https://www.chewy.com/education/dog/grooming/health-wellness-how-to-brush-your-dogs-teeth-live-to-tell-the-tale\" target=\"_blank\" rel=\"noopener\"\u003Ebrush their pup's teeth\u003C/a\u003E daily to keep tartar and gingivitis at bay. When raising an English Setter, pet parents should get their dog used to teeth brushing while they're a puppy, so it's easier to do once they've grown up. Plus, your dog should get a professional cleaning by your vet at least once a year.\u003C/p\u003E",
+        "training": "\u003Cp\u003EEnglish Setters rank high for intelligence, so they're relatively \u003Ca href=\"https://www.chewy.com/education/dog/new-dog/basic-puppy-training\" target=\"_blank\" rel=\"noopener\"\u003Eeasy to train\u003C/a\u003E. But the pups were bred as hunting dogs, so they may think they're smarter than you and know better. Starting while your English Setter's a puppy and being patient will win them over. Be sure to reward them with treats, praise and fun playtimes with special toys when they do a good job (aka positive reinforcement).\u003C/p\u003E\n\u003Cp\u003EStart your puppy with the basics, like \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-sit\"\u003Esit\u003C/a\u003E, \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-stay\"\u003Estay\u003C/a\u003E and \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-come\"\u003Ecome\u003C/a\u003E and be sure they know how to \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/leash-train-dog-2\"\u003Ewalk nicely on a leash\u003C/a\u003E. These will help you manage their hunting instincts (like chasing), but it's important to remember that you won't train these traits completely out of your pup.\u003C/p\u003E\n\u003Cp\u003EIf you find your English Setter puppy doesn't take to \u003Ca href=\"https://www.chewy.com/education/dog/new-dog/how-to-potty-train-your-dog-in-7-days\"\u003Epotty training\u003C/a\u003E easily, be patient. You may find crate training to be helpful, as it limits access to your entire house. Like with the rest of their obedience training, patience, consistency and lots of positive reinforcement are the keys to successfully housetraining your dog.\u003C/p\u003E\n\u003Cp\u003EBe sure to start introducing your puppy to new people, other dogs and situations while they're young. These experiences will help their naturally friendly nature shine. Take them on walks and introduce them to new people and dogs and enroll in puppy preschool. Here, they'll learn how to play nicely with other puppies and meet new people all under one roof.\u003C/p\u003E",
+        "diet_nutrition": "\u003Cp\u003ELike most dogs, high-quality commercially available dog food should suffice for your English Setter. Choose a formula based on their stage in life (puppy, adult or senior), and look for the statement that says it meets the nutritional standards set by the Association of American Feed Control Officials.\u003C/p\u003E\r\n\u003Cp\u003EPet parents should know that English Setters are prone to obesity, so maintaining a healthy weight is important. Extra pounds can lead to health problems down the road, like heart disease. And while treats can make everyone happy, it's important to remember that they have calories, too; be sure to include them in your daily meal plans.\u003C/p\u003E\r\n\u003Cp\u003EIf you have questions about your pup's diet, chat with your veterinarian. They're in the best position to help guide you when picking the right food for your English Setter based on their unique needs.\u003C/p\u003E",
+        "exercise": "\u003Cp\u003EEnglish Setters have a high energy level, and they require daily exercise. Plan on spending about an hour every day dedicated to burning their energy reserves. While pet parents who have an active lifestyle will find they have a great buddy for running and hiking, it's not a deal-breaker for pet parents who aren't so active. Like many dogs, a long walk twice a day with your furry companion should be more than enough. Playing games like fetch in the backyard or at the dog park are also great ways to give them the activity they need. If you're a bit competitive, you and your pup may enjoy dog sports, like agility or tracking.\u003C/p\u003E\r\n\u003Cp\u003EThese dogs are born to hunt, so any off-leash activity needs to be in a controlled environment, like a fenced yard or dog park. Otherwise, your nose-first pup may catch wind of something that needs chasing, and they're off speeding away from you! Even with all the expert training you'll give, these pups will be laser-focused on their quarry. And no amount of calling or begging will get them to pay attention to you. So, for their safety and your mental health, always have them on a leash when out and about.\u003C/p\u003E\r\n\u003Cp\u003EIt's important to note that the English Setter breed doesn't fully mature until they're about 2 years old. Protect their growing bones and joints and don't include them in strenuous activities until after they've stopped growing. It's a good idea to check with your vet before engaging in a new activity.\u003C/p\u003E",
+        "ideal_environment": "\u003Cp\u003EEnglish Setters thrive in the hustle and bustle of a loving family—whether that's a home with a gaggle of kids or just you. They enjoy being around a lot of activity, so they'll be happy welcoming guests to your home for a summer BBQ. While they may bark at strangers, they're not barky, like a \u003Ca href=\"https://www.chewy.com/education/dog-breeds/silky-terrier/\"\u003ESilky Terrier\u003C/a\u003E, and they'll quiet down fairly quickly. These guys are great with kids and other dogs, and with proper socialization, they'll even get along with cats. But English Setters will chase small pets that look like critters—hamsters, rabbits and gerbils beware. And they're relatively easy to train, making them a good choice for someone looking for their first pet.\u003C/p\u003E\r\n\u003Cp\u003EThese dogs really need a home with a fenced yard where they can run around and get all their wiggles out. They're not ideally suited for smaller homes, like apartments, but if you're able to give them the daily exercise they need (either at a dog park or on leashed walks), you may find they do well in tinier abodes.\u003C/p\u003E",
+        "h2_breed_health": "\u003Cp\u003EBred as sporting dogs, English Setters are quite hardy. While they have a life expectancy of 12 years, there are a few health issues and problems that potential English Setter pet parents should be aware of.\u003C/p\u003E\r\n\u003Cul\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/c_dg_hip_dysplasia\" target=\"_blank\" rel=\"noopener\"\u003EHip\u003C/a\u003E and \u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/c_dg_elbow_dysplasia\" target=\"_blank\" rel=\"noopener\"\u003EElbow Dysplasia\u003C/a\u003E\u003C/strong\u003E: With hip and elbow dysplasia, the bones that make up the joints in those areas don’t form correctly, causing pain for your pup. Common symptoms of hip and elbow dysplasia include limping and an unwillingness to play. Treatment includes medication, physical therapy and surgery in severe cases.\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/endocrine/c_dg_hypothyroidism\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cstrong\u003EHypothyroidism\u003C/strong\u003E\u003C/a\u003E: Dogs who suffer from hypothyroidism have an underactive thyroid. This condition can lead to weight gain, lethargy, excessive shedding, hair loss and itching and redness of the skin. Hypothyroidism is typically diagnosed with a blood test and managed with daily medication.\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003EDeafness\u003C/strong\u003E: Deafness is another health condition commonly seen with English Setters, especially if they are all white. It’s important to remember that dogs can live full and wonderful lives despite being deaf.\u003C/li\u003E\r\n\u003C/ul\u003E",
+        "h2_breed_history": "\u003Cp\u003EThe origin of the English Setter goes back centuries where records indicate they were trained bird dogs in England. (The term “setter\" refers to the seated or crouched position these dogs assume when they discover game; they lay down quietly or “set.\") However, the history of the modern English Setter begins in the 19th century where the breed was first developed by Englishman Edward Laverack and Welshman R.L. Purcell Llewellin.\u003C/p\u003E\r\n\u003Cp\u003EAt one point, English Setters were referred to as Laverack or Llewellin Setters, a name clearly reflecting their lineage. But eventually, the roads diverged for this breed. The Laverack line became known as the show-dog type, and the Llewellin line was prized for their field qualities.\u003C/p\u003E\r\n\u003Cp\u003EEnglish Setters were one of the first nine breeds ever registered in America and joined the American Kennel Club when it was founded in 1884. As part of the Sporting group (dogs who work with hunters), English Setters have retained their popularity since their introduction.\u003C/p\u003E\r\n\u003Cp\u003EWhile Setters are sometimes mistakenly believed to be one breed that includes English, Irish, and Gordon Setters, these three types of dogs are, in fact, three separate breeds with different traits and characteristics. The English Setter, for example, is slightly smaller than \u003Ca href=\"https://www.chewy.com/education/dog-breeds/irish-setter\"\u003EIrish Setters\u003C/a\u003E or \u003Ca href=\"https://www.chewy.com/education/dog-breeds/gordon-setter/\"\u003EGordon Setters\u003C/a\u003E, and they are known for being more gentle as well.\u003C/p\u003E\r\n\u003Cp\u003EIf the English Setter sounds like a match for you, you can find reputable breeders on \u003Ca href=\"https://marketplace.akc.org/puppies/english-setter\" target=\"_blank\" rel=\"noopener\"\u003EAKC Marketplace\u003C/a\u003E. The average price for a puppy is around $700 but can go up depending on the pup's lineage and pedigree. For that price, you're likely getting a puppy who's been screened for health and temperament issues and may come with pedigree papers. You can also reach out to English Setter rescue organizations, keep an eye out for the breed at your local animal shelter, or search \u003Ca href=\"https://www.chewy.com/g/dog-english-setter_ga1\"\u003EChewy’s database of adoptable dogs\u003C/a\u003E in your area.\u003C/p\u003E",
+        "expert_attribution": "\u003Cp\u003E\u003Ci\u003EExpert input provided by \u003Ca href=\"https://www.linkedin.com/in/jamiefreyer/\" target=\"_blank\" rel=\"noopener\"\u003EJamie Freyer\u003C/a\u003E, DVM, and Jody Haas Wolfson, CPDT-KA, and owner of \u003Ca href=\"https://www.rootdogtraining.com/\" target=\"_blank\" rel=\"noopener\"\u003ERoot Dog Training\u003C/a\u003E.\u003C/i\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cem\u003EBreed characteristic ratings provided by Dr. Sarah J. Wooten, DVM, CVJ, a veterinarian at \u003Ca href=\"https://sheepdraw.com/\" target=\"_blank\" rel=\"noopener\"\u003ESheep Draw Veterinary Hospital\u003C/a\u003E in Greeley, Colorado; dog trainer and behavior consultant Irith Bloom, CPDT-KSA, CBCC-KA, CDBC, owner of \u003Ca href=\"https://thesophisticateddog.com/\" target=\"_blank\" rel=\"noopener\"\u003EThe Sophisticated Dog, LLC\u003C/a\u003E, in Los Angeles; and certified animal behavior consultant \u003Ca href=\"https://shojai.com/\" target=\"_blank\" rel=\"noopener\"\u003EAmy Shojai\u003C/a\u003E, CABC, in Sherman, Texas.\u003C/em\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cem\u003EThe health content was medically reviewed by Chewy vets.\u003C/em\u003E\u003C/p\u003E",
+        "facebook_social_snippet_with_cta": "\u003Cp\u003EBorn hunters, English Setters are happy hunting for that treat you hid under the Chewy box. And after an adventurous walk, they're equally happy to Netflix and chill with you on a Friday night. Get more information about these sweet and companionable dogs in our English Setter guide.\u003C/p\u003E",
+        "species": "\u003Cp\u003EDog\u003C/p\u003E",
+        "h2_faqs": "\u003Ch3\u003EDo English Setters shed?\u003C/h3\u003E\r\n\u003Cp\u003EYes, English Setters shed moderately, but you can manage their shedding hair with regular brushing and baths. (And keep the vacuum handy.)\u003C/p\u003E\r\n\u003Ch3\u003EWhen do English Setters get their spots?\u003C/h3\u003E\r\n\u003Cp\u003ESurprise! English Setters don't get their spots at birth; they're born solid white, like \u003Ca href=\"https://www.chewy.com/education/dog-breeds/dalmatian/\"\u003EDalmatians\u003C/a\u003E. Their spots start to appear within days after their birth. What begins as tiny pinpoints of color on their tummies and muzzles eventually turns into larger speckles, ticking or belton.\u003C/p\u003E\r\n\u003Ch3\u003EAre English Setters good family dogs?\u003C/h3\u003E\r\n\u003Cp\u003EYes, English Setters are great family dogs, and they are never happier than when they're a part of the hustle and bustle a family offers. These guys love their humans and by your side is where they prefer to be. This breed is good with kids, and with proper socialization and an introduction from an early age, they're good with cats as well.\u003C/p\u003E\r\n\u003Ch3\u003EAre English Setters easy to train?\u003C/h3\u003E\r\n\u003Cp\u003EEnglish Setters are smart as a whip, so they're pretty easy to train. However, pet parents may want to keep in mind that while they are intelligent, they think they're pretty smart, too, and you may find they're a bit stubborn. But with patience and consistency, you can bring your puppy to your way of seeing things.\u003C/p\u003E\r\n\u003Ch3\u003EWhat are the most common English Setter mixes?\u003C/h3\u003E\r\n\u003Cul\u003E\r\n\t\u003Cli\u003EEnglish Setter-Poodle mix (English Doodle)\u003C/li\u003E\r\n\t\u003Cli\u003EEnglish Setter-Labrador mix (English Setter Labrador)\u003C/li\u003E\r\n\t\u003Cli\u003EEnglish Setter-Border Collie mix (English Borsetter Collie)\u003C/li\u003E\r\n\t\u003Cli\u003EEnglish Setter-Golden Retriever mix (English Setter Golden Retriever)\u003C/li\u003E\r\n\t\u003Cli\u003EEnglish Setter-Pointer mix (English Setter Pointer)\u003C/li\u003E\r\n\u003C/ul\u003E",
+        "faq_items": [
+          {
+            "faq_title": "Do English Setters shed?",
+            "faq_content": "\u003Cp\u003EYes, English Setters shed moderately, but you can manage their shedding hair with regular brushing and baths. (And keep the vacuum handy.)\u003C/p\u003E"
+          },
+          {
+            "faq_title": "When do English Setters get their spots?",
+            "faq_content": "\u003Cp\u003ESurprise! English Setters don't get their spots at birth; they're born solid white, like \u003Ca href=\"https://www.chewy.com/education/dog-breeds/dalmatian/\"\u003EDalmatians\u003C/a\u003E. Their spots start to appear within days after their birth. What begins as tiny pinpoints of color on their tummies and muzzles eventually turns into larger speckles, ticking or belton.\u003C/p\u003E"
+          },
+          {
+            "faq_title": "Are English Setters good family dogs?",
+            "faq_content": "\u003Cp\u003EYes, English Setters are great family dogs, and they are never happier than when they're a part of the hustle and bustle a family offers. These guys love their humans and by your side is where they prefer to be. This breed is good with kids, and with proper socialization and an introduction from an early age, they're good with cats as well.\u003C/p\u003E"
+          },
+          {
+            "faq_title": "Are English Setters easy to train?",
+            "faq_content": "\u003Cp\u003EEnglish Setters are smart as a whip, so they're pretty easy to train. However, pet parents may want to keep in mind that while they are intelligent, they think they're pretty smart, too, and you may find they're a bit stubborn. But with patience and consistency, you can bring your puppy to your way of seeing things.\u003C/p\u003E"
+          },
+          {
+            "faq_title": "What are the most common English Setter mixes?",
+            "faq_content": "\u003Cul\u003E\r\n\t\u003Cli\u003EEnglish Setter-Poodle mix (English Doodle)\u003C/li\u003E\r\n\t\u003Cli\u003EEnglish Setter-Labrador mix (English Setter Labrador)\u003C/li\u003E\r\n\t\u003Cli\u003EEnglish Setter-Border Collie mix (English Borsetter Collie)\u003C/li\u003E\r\n\t\u003Cli\u003EEnglish Setter-Golden Retriever mix (English Setter Golden Retriever)\u003C/li\u003E\r\n\t\u003Cli\u003EEnglish Setter-Pointer mix (English Setter Pointer)\u003C/li\u003E\r\n\u003C/ul\u003E"
+          }
+        ],
+        "select_related_breeds": [
+          {
+            "selected_related_breed": 293,
+            "characteristic": "breed_characteristics_exercise_needs"
+          },
+          {
+            "selected_related_breed": 856,
+            "characteristic": "breed_characteristics_good_for_first_time_parents"
+          },
+          {
+            "selected_related_breed": 426,
+            "characteristic": "breed_characteristics_training_needs"
+          },
+          {
+            "selected_related_breed": 1429,
+            "characteristic": "breed_characteristics_friendliness"
+          },
+          {
+            "selected_related_breed": 673,
+            "characteristic": "breed_characteristics_shedding_level"
+          },
+          {
+            "selected_related_breed": 73,
+            "characteristic": "breed_characteristics_energy_level"
+          }
+        ],
+        "enable_featured_gallery": [
+          "enable_featured_gallery"
+        ],
+        "featured_gallery_images": [449]
+      },
+      "yoast_head": "\u003C!-- This site is optimized with the Yoast SEO plugin v23.8 - https://yoast.com/wordpress/plugins/seo/ --\u003E\n\u003Ctitle\u003EEnglish Setter Breed: Characteristics, Care &amp; Photos | Chewy\u003C/title\u003E\n\u003Cmeta name=\"description\" content=\"Originally bred as hunting dogs, English Setters make great companions. See if you&#039;re a match in our complete English Setter guide.\" /\u003E\n\u003Cmeta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" /\u003E\n\u003Clink rel=\"canonical\" href=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/english-setter/\" /\u003E\n\u003Cmeta property=\"og:locale\" content=\"en_US\" /\u003E\n\u003Cmeta property=\"og:type\" content=\"article\" /\u003E\n\u003Cmeta property=\"og:title\" content=\"English Setter Breed: Characteristics, Care &amp; Photos | Chewy\" /\u003E\n\u003Cmeta property=\"og:description\" content=\"Originally bred as hunting dogs, English Setters make great companions. See if you&#039;re a match in our complete English Setter guide.\" /\u003E\n\u003Cmeta property=\"og:url\" content=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/english-setter/\" /\u003E\n\u003Cmeta property=\"og:site_name\" content=\"Chewy\" /\u003E\n\u003Cmeta property=\"article:modified_time\" content=\"2025-05-05T14:21:33+00:00\" /\u003E\n\u003Cmeta property=\"og:image\" content=\"https://pet-health-content-media.chewy.com/wp-content/uploads/2021/06/12172407/Breed-Hero-English-Setter.jpg\" /\u003E\n\t\u003Cmeta property=\"og:image:width\" content=\"1835\" /\u003E\n\t\u003Cmeta property=\"og:image:height\" content=\"1032\" /\u003E\n\t\u003Cmeta property=\"og:image:type\" content=\"image/jpeg\" /\u003E\n\u003Cmeta name=\"twitter:card\" content=\"summary_large_image\" /\u003E\n\u003Cmeta name=\"twitter:label1\" content=\"Est. reading time\" /\u003E\n\t\u003Cmeta name=\"twitter:data1\" content=\"1 minute\" /\u003E\n\u003Cscript type=\"application/ld+json\" class=\"yoast-schema-graph\"\u003E{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/english-setter/\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/english-setter/\",\"name\":\"English Setter Breed: Characteristics, Care & Photos | Chewy\",\"isPartOf\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/english-setter/#primaryimage\"},\"image\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/english-setter/#primaryimage\"},\"thumbnailUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2021/06/12172407/Breed-Hero-English-Setter.jpg\",\"datePublished\":\"2021-06-28T10:04:38+00:00\",\"dateModified\":\"2025-05-05T14:21:33+00:00\",\"description\":\"Originally bred as hunting dogs, English Setters make great companions. See if you're a match in our complete English Setter guide.\",\"breadcrumb\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/english-setter/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://phcms.hlth.prd.aws.chewy.cloud/breed/english-setter/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/english-setter/#primaryimage\",\"url\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2021/06/12172407/Breed-Hero-English-Setter.jpg\",\"contentUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2021/06/12172407/Breed-Hero-English-Setter.jpg\",\"width\":1835,\"height\":1032,\"caption\":\"English Setter\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/english-setter/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://phcms.hlth.prd.aws.chewy.cloud/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"English Setter\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/\",\"name\":\"Chewy\",\"description\":\"\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"}]}\u003C/script\u003E\n\u003C!-- / Yoast SEO plugin. --\u003E",
+      "yoast_head_json": {
+        "title": "English Setter Breed: Characteristics, Care & Photos | Chewy",
+        "description": "Originally bred as hunting dogs, English Setters make great companions. See if you're a match in our complete English Setter guide.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://phcms.hlth.prd.aws.chewy.cloud/breed/english-setter/",
+        "og_locale": "en_US",
+        "og_type": "article",
+        "og_title": "English Setter Breed: Characteristics, Care & Photos | Chewy",
+        "og_description": "Originally bred as hunting dogs, English Setters make great companions. See if you're a match in our complete English Setter guide.",
+        "og_url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/english-setter/",
+        "og_site_name": "Chewy",
+        "article_modified_time": "2025-05-05T14:21:33+00:00",
+        "og_image": [
+          {
+            "width": 1835,
+            "height": 1032,
+            "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2021/06/12172407/Breed-Hero-English-Setter.jpg",
+            "type": "image/jpeg"
+          }
+        ],
+        "twitter_card": "summary_large_image",
+        "twitter_misc": {
+          "Est. reading time": "1 minute"
+        },
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/english-setter/",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/english-setter/",
+              "name": "English Setter Breed: Characteristics, Care & Photos | Chewy",
+              "isPartOf": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/english-setter/#primaryimage"
+              },
+              "image": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/english-setter/#primaryimage"
+              },
+              "thumbnailUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2021/06/12172407/Breed-Hero-English-Setter.jpg",
+              "datePublished": "2021-06-28T10:04:38+00:00",
+              "dateModified": "2025-05-05T14:21:33+00:00",
+              "description": "Originally bred as hunting dogs, English Setters make great companions. See if you're a match in our complete English Setter guide.",
+              "breadcrumb": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/english-setter/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://phcms.hlth.prd.aws.chewy.cloud/breed/english-setter/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/english-setter/#primaryimage",
+              "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2021/06/12172407/Breed-Hero-English-Setter.jpg",
+              "contentUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2021/06/12172407/Breed-Hero-English-Setter.jpg",
+              "width": 1835,
+              "height": 1032,
+              "caption": "English Setter"
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/english-setter/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://phcms.hlth.prd.aws.chewy.cloud/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "English Setter"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/",
+              "name": "Chewy",
+              "description": "",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            }
+          ]
+        }
+      },
+      "yoast_meta": {
+        "yoast_wpseo_title": "",
+        "yoast_wpseo_metadesc": "",
+        "yoast_wpseo_canonical": ""
+      },
+      "_links": {
+        "self": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed/450",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/types/breed"
+          }
+        ],
+        "acf:attachment": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/449"
+          }
+        ],
+        "wp:featuredmedia": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/3401"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media?parent=450"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "pet_type",
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/pet_type?post=450"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ]

@@ -1,0 +1,333 @@
+[
+    {
+      "id": 690,
+      "date": "2025-03-11T10:46:47",
+      "date_gmt": "2025-03-11T10:46:47",
+      "guid": {
+        "rendered": "https://haproxy.use1.lgcy.prd.aws.chewy.cloud/eks/ns/pet-health/pet-health-content-backend/breed/great-pyrenees/"
+      },
+      "modified": "2025-06-04T18:53:15",
+      "modified_gmt": "2025-06-04T18:53:15",
+      "slug": "great-pyrenees",
+      "status": "publish",
+      "type": "breed",
+      "link": "https://phcms.hlth.prd.aws.chewy.cloud/breed/great-pyrenees/",
+      "title": {
+        "rendered": "Great Pyrenees"
+      },
+      "featured_media": 4130,
+      "template": "",
+      "pet_type": [],
+      "class_list": [
+        "post-690",
+        "breed",
+        "type-breed",
+        "status-publish",
+        "has-post-thumbnail",
+        "hentry"
+      ],
+      "acf": {
+        "breed_snapshot_best_for": "\u003Cp\u003EThe Great Pyrenees is a majestic giant with origins in the snowy Pyrenees Mountains. These kind, gentle dogs are known for their fluffy white coat, larger-than-life size, and cool demeanor. They’re super devoted pups who thrive in calm homes with plenty of space to spread out and roam.\u003C/p\u003E",
+        "alt_image_text": "Great Pyrenees dog breed",
+        "breed_intro": "\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EHave you ever done a double-take and wondered if a polar bear just moved into your neighborhood? It was probably just a Great Pyrenees. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EA Pyr, as they’re sometimes called, is the kind of pup who looks like they were made for après-ski: Just picture them lying by a roaring fireplace with snow falling outside while you sip a hot cider and cuddle up by their furry side. But no matter the weather, these happy, gentle mountain dogs are devoted best friends all year round, and they make \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/general/best-family-dogs\"\u003E\u003Cspan data-contrast=\"none\"\u003Egreat family pets\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, too. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E",
+        "breed_related_products_product_card_set": "",
+        "breed_snapshot_temperament": "\u003Cp\u003EConfident, Serene, Smart\u003C/p\u003E",
+        "what_does_this_breed_look_like_weight": "\u003Cp\u003E 85 pounds and up\u003C/p\u003E",
+        "what_does_this_breed_look_like_height": "\u003Cp\u003E25–32 inches\u003C/p\u003E",
+        "breed_snapshot_life_expectancy": "\u003Cp\u003E10–12 years\u003C/p\u003E",
+        "breed_snapshot_maintenance_level": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_friendliness": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_snapshot_coat_color": "\u003Cp\u003EWhite\u003C/p\u003E",
+        "breed_snapshot_shed_level": "\u003Cp\u003EVery High\u003C/p\u003E",
+        "in_article_video": null,
+        "breed_characteristics": "\u003Cp\u003EThese traits are rated on a scale of 1-5 with 1 being the lowest and 5 being the highest. Remember: Dogs are individuals, and not all dogs, even those of the same breed, will exhibit all the same qualities.\u003C/p\u003E",
+        "breed_characteristics_exercise_needs": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_health_issues": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_barking_tendencies": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_grooming_needs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_shedding_level": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_training_needs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_kids": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_cats": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_for_apartments_small_homes": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_energy_level": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_with_other_dogs": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_playfulnesss": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_cold_weather": "\u003Cp\u003E1\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_warm_weather": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_for_first_time_parents": "\u003Cp\u003E2\u003C/p\u003E",
+        "how_do_i_look_card_image": 4129,
+        "what_does_this_breed_look_like": "\u003Cp\u003E\u003Cspan class=\"TextRun SCXW62583922 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"\u003E\u003Cspan class=\"NormalTextRun SCXW62583922 BCX4\"\u003EWith their bright white coat and \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW62583922 BCX4\"\u003Elarge frame\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW62583922 BCX4\"\u003E, \u003C/span\u003E\u003Cspan class=\"NormalTextRun ContextualSpellingAndGrammarErrorV2Themed SCXW62583922 BCX4\"\u003Ea Great\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW62583922 BCX4\"\u003E Pyrenees has a striking appearance. They have \u003C/span\u003E\u003Cspan class=\"NormalTextRun ContextualSpellingAndGrammarErrorV2Themed GrammarErrorHighlight SCXW62583922 BCX4\"\u003Ea rounded head\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW62583922 BCX4\"\u003E, intelligent brown eyes, a quiet gaze, a lot of fur, and a feathery tail.\u003C/span\u003E\u003C/span\u003E\u003Cspan class=\"EOP SCXW62583922 BCX4\" data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E",
+        "what_does_this_breed_look_like_ears": "\u003Cp\u003EGreat Pyrenees ears are V-shaped, small to medium in size, and rounded at the tips.\u003C/p\u003E",
+        "what_does_this_breed_look_like_eyes": "\u003Cp\u003EGreat Pyrenees eyes are almond-shaped, a medium size, and dark brown.\u003C/p\u003E",
+        "what_does_this_breed_look_like_nose": "\u003Cp\u003EA Great Pyrenees nose is black and round.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_length": "\u003Cp\u003EAs mountain dogs, Great Pyrenees sport a thick double coat consisting of two parts: a long, flat outer coat and a dense, wooly undercoat. More abundant fur grows around the neck and shoulders in males to form a ruff or mane.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_color": "\u003Cp\u003EGreat Pyrenees are either all white or white with some markings in reddish brown, badger (markings that fade as they age), tan, or gray.\u003C/p\u003E",
+        "what_does_this_breed_look_like_tail": "\u003Cp\u003EA Great Pyrenees’ tail has longer hair than the rest of their body and forms a plume.\u003C/p\u003E",
+        "h2_breed_temperament": "\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EPatient and affectionate, Great Pyrenees are generally friendly and well-suited to family life. They’ll get along well with kids if \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/general-health/how-to-teach-kids-to-interact-with-pets\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Echildren are taught to respect your dog’s space\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, and Pyrs are likely to do well with cats, dogs, and other animals, too (their ancestors spent all that time hanging out with sheep, after all). \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EEven though Great Pyrenees are known for their gentleness, their origins as a guardian dog back in the day mean that they can have a mind of their own, so \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/sit-stay-and-beyond-weve-got-the-essential-guide-to-basic-dog-obedience-training\"\u003E\u003Cspan data-contrast=\"none\"\u003Eearly training\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E and \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/positively-trained-puppy-socialization-dos-and-donts\"\u003E\u003Cspan data-contrast=\"none\"\u003Esocialization\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E is essential. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003ETheir guardian dog legacy also left them with a high level of patience; this pup’s ancestors were accustomed to the slow pace of watching sheep for hours, and years later, that nugget of patience still lies within their soul. But that doesn’t mean they won’t bark; in fact, this wise soul will try to tell you what’s happening around the house and the neighborhood. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EDespite any noisemaking, the serene Great Pyrenees enjoys a quiet home life (perfect for pet parents who appreciate evenings in front of the TV or with a good novel). Of course, exercise is a nonnegotiable—so like your pup, you’ll need to enjoy some activity, too. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E",
+        "h2_how_to_care_for_a_breed": "\u003Cp\u003E\u003Cspan class=\"TextRun SCXW163848234 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\u003E\u003Cspan class=\"NormalTextRun SCXW163848234 BCX4\"\u003EGrooming a Great Pyrenees\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW163848234 BCX4\"\u003E dog\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW163848234 BCX4\"\u003E is less intense than you might think\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW163848234 BCX4\"\u003E. B\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW163848234 BCX4\"\u003Eut you do need to spend extra time on training and socialization, make sure they get \u003C/span\u003E\u003C/span\u003E\u003Ca class=\"Hyperlink SCXW163848234 BCX4\" href=\"https://www.chewy.com/education/dog/training-and-behavior/how-much-exercise-does-my-dog-need\" target=\"_blank\" rel=\"noreferrer noopener\"\u003E\u003Cspan class=\"TextRun Underlined SCXW163848234 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\u003E\u003Cspan class=\"NormalTextRun SCXW163848234 BCX4\" data-ccp-charstyle=\"Hyperlink\"\u003Edaily exercise\u003C/span\u003E\u003C/span\u003E\u003C/a\u003E\u003Cspan class=\"TextRun SCXW163848234 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\u003E\u003Cspan class=\"NormalTextRun SCXW163848234 BCX4\"\u003E, and give them enough room to \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW163848234 BCX4\"\u003Eroam\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW163848234 BCX4\"\u003E. \u003C/span\u003E\u003C/span\u003E\u003Cspan class=\"EOP SCXW163848234 BCX4\" data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E",
+        "grooming": "\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EAll that fur might look like it takes hours to tame, but it’s usually not the case. That said, you still need to spend time making sure your pup looks (and feels!) their best.\u003C/span\u003E\u003C/p\u003E\r\n\u003Cul\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EBathing:\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E A \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/grooming/how-to-bathe-a-dog-step-by-step-tips-from-a-professional-groomer\"\u003E\u003Cspan data-contrast=\"none\"\u003Emonthly bath\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E is plenty for this breed, unless they get extra dirty. If you see matted fur, ask your vet about \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/b/grooming-sprays-detanglers-2460\"\u003E\u003Cspan data-contrast=\"none\"\u003Edetangling conditioners\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EBrushing:\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E A Pyrenees’ thick coat is surprisingly resistant to dirt and tangles. Still, you should \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/grooming/brushing-a-dog\"\u003E\u003Cspan data-contrast=\"none\"\u003Ebrush your dog\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E several times a week using a \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/f/slicker-brush-dog-brushes-combs_c356_f70v83792\"\u003E\u003Cspan data-contrast=\"none\"\u003Eslicker brush\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E or \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/f/rake-dog-brushes-combs_c356_f70v83790\"\u003E\u003Cspan data-contrast=\"none\"\u003Erake brush\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E to keep them clean and mat-free. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\r\n\u003Cul\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EPro Tip:\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E Any pet parents with a black wardrobe may want to rethink their outfit choices. Great Pyrenees shed a \u003C/span\u003E\u003Ci\u003E\u003Cspan data-contrast=\"none\"\u003Eton\u003C/span\u003E\u003C/i\u003E\u003Cspan data-contrast=\"none\"\u003E, leaving a literal white trail all over the floor, sofa, and (possibly) you. Add an extra brushing session (or three!) to combat this blizzard of fluff.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\u003C/ul\u003E\r\n\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EDental care: \u003C/span\u003E\u003C/b\u003E\u003Ca href=\"https://www.chewy.com/education/dog/grooming/health-wellness-how-to-brush-your-dogs-teeth-live-to-tell-the-tale\"\u003E\u003Cspan data-contrast=\"none\"\u003EBrush your pup’s teeth\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E daily, and get a yearly \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/care/how-much-does-dog-teeth-cleaning-cost\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Eprofessional cleaning\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003ENail care:\u003C/span\u003E\u003C/b\u003E \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/guide-trimming-dogs-nails\"\u003E\u003Cspan data-contrast=\"none\"\u003ETrim your dog’s nails\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E every two weeks or anytime they start to touch the floor when your Pyr is standing (too-long nails may be painful). You’ll hear when it’s time for a trim—they’ll make clacking noises on hard surfaces.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\u003C/ul\u003E",
+        "training": "\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EYou might feel a bit ignored when trying to train your Great Pyrenees, but don’t take it personally. They were bred to be independent thinkers, and it’s a powerful trait that lasts to this day. Once upon a time, these guardian dogs were used to working alone—not having to sit and come each time you offer a \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/food-and-nutrition/can-dogs-eat-peanut-butter-everything-you-need-to-know\"\u003E\u003Cspan data-contrast=\"none\"\u003Epeanut butter treat\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EFor best results, keep your training sessions short and reward good behavior with \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/b/training-treats-1550\"\u003E\u003Cspan data-contrast=\"none\"\u003Etreats\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, praise, and playtime. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EDon’t overdo it with repetition, or you might get a look from your pup that lies somewhere between boredom and sympathy. Again, don’t take it personally; these calm, clever pups are super smart and prefer to be actively engaged with new things. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003ETrain in various settings and be realistic with your goals. Great Pyrenees are very intelligent, but they’re not as athletic as \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog-breeds/border-collie\"\u003E\u003Cspan data-contrast=\"none\"\u003EBorder Collies\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E or other breeds who live for competitive sports. Slow and steady wins the training race with the Great Pyrenees. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E",
+        "diet_nutrition": "\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EPyrs do well on high-quality commercial dog food that’s high-protein and specially made for \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/f/large-dog-breeds-food_c332_f6v13792\"\u003E\u003Cspan data-contrast=\"none\"\u003Elarge breeds\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E. Choose a diet that’s \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/nutrition/What-Is-AAFCO-and-What-Does-It-Do\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003EAAFCO-compliant\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E for your dog’s life stage (\u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/vet-verified/best-food-large-breed-puppies\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Epuppy\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/vet-verified/best-dog-food\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Eadult\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, or \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/vet-verified/best-senior-dog-food\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Esenior\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E).\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EMake sure your dog doesn’t gobble up kibble. Great Pyrenees are \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/bloat-in-dogs\"\u003E\u003Cspan data-contrast=\"none\"\u003Esusceptible to bloat\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, and eating a lot of food quickly can lead to this life-threatening condition. To help prevent bloat:\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cul\u003E\r\n\t\u003Cli\u003E\u003Cspan data-contrast=\"none\"\u003EFeed your Great Pyrenees two or three meals per day instead of one big dinner.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cspan data-contrast=\"none\"\u003EGive your dog food in a \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/b/slow-feeders-1424\"\u003E\u003Cspan data-contrast=\"none\"\u003Eslow feeder bowl\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/frisco-pizza-snuffle-mat-yellow/dp/393326\"\u003E\u003Cspan data-contrast=\"none\"\u003Esnuffle mat\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, or \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/nina-ottosson-by-outward-hound-brick/dp/175425\"\u003E\u003Cspan data-contrast=\"none\"\u003Epuzzle toy\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E to prevent them from eating too quickly. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cspan data-contrast=\"none\"\u003EDon’t exercise your Pyr for an hour before or after they eat. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cspan data-contrast=\"none\"\u003EAvoid using elevated food bowls—these might increase the risk of bloat. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cspan data-contrast=\"none\"\u003EAsk your veterinarian about a \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/procedure/gastropexy-in-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Epreventative gastropexy procedure\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\u003C/ul\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003ETreats are great rewards for good behavior, but don’t go wild. Too many yummy snacks add calories and could lead to obesity, which can cause health problems like \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/cardiovascular/heart-disease-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Eheart disease\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:240}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EChat with your vet if you have questions about your pup’s diet (or if they need to shed a few pounds). \u003C/span\u003E\u003Cspan data-contrast=\"auto\"\u003ETreats should never be more than 10% of a dog’s daily calories.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:240}\"\u003E \u003C/span\u003E\u003C/p\u003E",
+        "exercise": "\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EIf you want a running buddy, a Great Pyrenees is not your perfect match. They don’t need a ton of strenuous exercise to be happy and healthy, and fast-paced activities don’t suit them. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EJust like their ancestors, the Great Pyrenees is happiest on patrol—they prefer to conserve some energy in case they must protect a lost lamb! It’s a noble trait (shh, don’t tell them there won’t be sheep to save), but it’s up to you to ensure they get enough exercise to maintain muscle strength and physical conditioning. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EMake sure your Great Pyrenees has 20–30 minutes of exercise a couple of times a day. They’ll love \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/walking-with-dog\"\u003E\u003Cspan data-contrast=\"none\"\u003Egentle strolls\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/general/ready-to-hit-the-hiking-trail-with-your-dog-heres-everything-you-need-to-know\"\u003E\u003Cspan data-contrast=\"none\"\u003Eafternoon hikes\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, or hanging out in the yard together. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E",
+        "ideal_environment": "\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EChances are, a Great Pyrenees is going to get along great with your whole family, including the kids. You should still supervise them—if only because the Pyrenees is so big—and make sure that both kiddos and dog know how to interact with one another.  \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EThe Great Pyrenees is usually happy to share a home with other dogs and cats, too.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003ELots of (fenced!) outdoor space to roam and pace is ideal for the Great Pyrenees. They’d love acres of land, if you have it, which might rule out a small apartment or home in the city. However, you can meet your Great Pyrenees’ exercise needs anywhere if you’re consistent with your outings.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EThese pups are intelligent and independent—generally great characteristics in anyone, though they can be challenging for a first-time dog parent. New pet parents should recognize that this breed needs a confident and patient person to lead them through training. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EClimate plays a huge part in an ideal environment for these dogs. Great Pyrenees were initially bred on snowy mountain tops, which means they’re accustomed to lower temperatures and don’t do well in hot weather. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EIf you live somewhere warm, keep your outdoor activity to the cooler parts of the day and ensure your pup has access to plenty of fresh, cool water. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EAnd while a Great Pyrenees does best in cooler locations, that doesn’t mean they should be \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/care/how-cold-too-cold-dog\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Eleft outside in freezing temps\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E (or outside alone at all). Find a happy medium where your dog is always comfortable.  \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E",
+        "h2_breed_health": "\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EThe typical Great Pyrenees lifespan is 10–12 years, but there are some health issues to be aware of.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cul\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EBloat and gastric dilatation-volvulus (GDV):\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E Great Pyrenees, like many large, deep-chested breeds, are prone to a \u003C/span\u003E\u003Cspan data-contrast=\"auto\"\u003Econdition called bloat\u003C/span\u003E\u003Cspan data-contrast=\"none\"\u003E, when the stomach fills with air or food. A life-threatening \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/digestive/gastric-dilatation-volvulus-gdv-syndrome\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Ecomplication of bloat is GDV\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, when the stomach twists on itself and cuts off blood supply to the organs. Symptoms include abdominal distension, restlessness, excessive drooling, and dry heaving. \u003C/span\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EIf you notice these signs, go to the vet immediately.\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EDeafness\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E: \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/ears/deafness-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003ECongenital deafness\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E can appear in any breed, but it’s more prevalent in dogs with white skin and fur, like the Great Pyrenees. While there’s no cure for this condition, deaf dogs can do well in calm homes.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EEye issues\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E: There are several eye conditions that Great Pyrenees dogs can develop.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\r\n\u003Cul\u003E\r\n\t\u003Cli\u003E\u003Ca href=\"https://www.vet.upenn.edu/research/academic-departments/clinical-sciences-advanced-medicine/research-labs-centers/penngen/penngen-tests/genetic-tests/Detail/64/\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003ECanine multifocal retinopathy\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E is a genetic eye disease that can lead to vision loss. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/eye/c_dg_cataract\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003ECataracts in dogs\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E look like an opaque lens in the eye and may cause blindness, but surgery can remove them.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/eyes/entropion-dogs-causes-symptoms-and-treatment\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003EEntropion\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E is when the eyelid grows inward\u003C/span\u003E\u003Cspan data-contrast=\"none\"\u003E, causing the eyelashes to rub against the cornea, \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/eyes/c_dg_Keratitis_Ulcerative\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Ecausing ulcers\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E; surgery may be needed to correct it.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\u003C/ul\u003E\r\n\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EHip and elbow dysplasia:\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E Common in large breeds, dysplasia is where the joints don’t fit together properly, whether it’s the \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/hip-dysplasia-in-dogs\"\u003E\u003Cspan data-contrast=\"none\"\u003Ehip\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E or \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/elbow-dysplasia-in-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Eelbow\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E. Treatment may include weight management, \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/vet-verified/best-joint-supplements-for-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Ejoint supplements\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, pain medication, physical therapy, and/or surgery.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"auto\"\u003ELuxating patella\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E: In \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/luxating-patella-in-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Edogs with a luxating patella\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, the kneecap can pop out of place, resulting in lameness, pain, and eventually \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/arthritis-in-dogs\"\u003E\u003Cspan data-contrast=\"none\"\u003Earthritis\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E. Surgery is needed in severe cases.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003ENeuronal degeneration (NDG):\u003C/span\u003E\u003C/b\u003E \u003Ca href=\"https://vetmed.umn.edu/research/research-labs/canine-genetics-lab/canine-genetics-testing/great-pyrenees-health-panel#:~:text=Neuronal%20Degeneration%20(NDG)&amp;text=The%20age%2Dof%2Donset%20of,weak%2C%20clumsy%2C%20or%20uncoordinated.\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003ENDG is a genetic disorder\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E that causes changes to your dog’s nervous system and eventually makes it difficult for pups to have control over their movements. Symptoms can include a loss of coordination, slipping or sliding in the hind legs, and falling. There is no cure or treatment, although genetic screening testing is available for Great Pyrenees puppies.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\u003C/ul\u003E",
+        "h2_breed_history": "\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EThe Great Pyrenees has roots in the Pyrenees Mountains that divide France and Spain. Their lineage is ancient—their origins have been traced back as far as the Bronze Age, or 1800 to 1000 B.C.E.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EOriginally bred to herd and guard sheep and other animals, Great Pyrenees were eventually embraced by French royals and the noble class, who put them to work as guardian dogs in castles in southwest France. King Louis XIV even bestowed the special moniker “\u003C/span\u003E\u003Ca href=\"https://greatpyrenees.club/history-of-the-great-pyrenees/\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003ERoyal Dog of France\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E” upon the Great Pyrenees breed.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EEngland’s Queen Victoria also had a Great Pyrenees, and French military officer the Marquis de Lafayette, who served alongside George Washington during the American Revolution, brought the breed to the U.S. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003ERecognized by the American Kennel Club in 1933, today’s Great Pyrenees are valued family members, though they’re still sometimes found working on farms. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EGreat Pyrenees puppies cost anywhere from $1,750–$2,500 or more. If you choose this route, \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/how-to-find-ethical-reputable-responsible-breeder\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Epick a responsible breeder\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EYou can also adopt a Great Pyrenees dog. To find your best buddy, look for a Great Pyrenees rescue like \u003C/span\u003E\u003Ca href=\"https://nationalpyr.org/\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003ENational Pyr Rescue\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, keep an eye out for the breed at your local animal shelter or on their social media, or search \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/g/dog-great-pyrenees_ga1\"\u003E\u003Cspan data-contrast=\"none\"\u003EChewy’s database of adoptable dogs\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E in your area.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E",
+        "expert_attribution": "\u003Cp\u003E\u003Cem\u003E\u003Cspan class=\"NormalTextRun SCXW222847474 BCX4\"\u003EThis content was medically reviewed by \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW222847474 BCX4\"\u003EBarri Morrison\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW222847474 BCX4\"\u003E, DVM, Chewy veterinarian.\u003C/span\u003E\u003C/em\u003E\u003C/p\u003E",
+        "facebook_social_snippet_with_cta": "\u003Cp\u003EMassive, yet majestic, the Great Pyrenees dog breed is a powerful pet born and bred to guard their keep. If your family is looking for an intelligent and beautiful animal to welcome into your home, a Pyr is worth a look. Check out all the Great Pyrenees facts in this comprehensive profile.\u003C/p\u003E",
+        "species": "\u003Cp\u003EDog\u003C/p\u003E",
+        "h2_faqs": "",
+        "faq_items": [
+          {
+            "faq_title": "Are Great Pyrenees hypoallergenic? Do Great Pyrenees shed? ",
+            "faq_content": "\u003Cp\u003E\u003Cspan class=\"TextRun SCXW236182171 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"\u003E\u003Cspan class=\"NormalTextRun SCXW236182171 BCX4\"\u003ENo, Great Pyrenees are not \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW236182171 BCX4\"\u003Econsidered \u003C/span\u003E\u003C/span\u003E\u003Ca class=\"Hyperlink SCXW236182171 BCX4\" href=\"https://www.chewy.com/education/dog/general/4-hypoallergenic-dog-breeds\" rel=\"noreferrer noopener\"\u003E\u003Cspan class=\"TextRun Underlined SCXW236182171 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\u003E\u003Cspan class=\"NormalTextRun SCXW236182171 BCX4\" data-ccp-charstyle=\"Hyperlink\"\u003Ehypoallergenic\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW236182171 BCX4\" data-ccp-charstyle=\"Hyperlink\"\u003E dogs\u003C/span\u003E\u003C/span\u003E\u003C/a\u003E\u003Cspan class=\"TextRun SCXW236182171 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"\u003E\u003Cspan class=\"NormalTextRun SCXW236182171 BCX4\"\u003E. This high-shedding breed has lots of fur and dander, which means \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW236182171 BCX4\"\u003Ethey’re\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW236182171 BCX4\"\u003E not a good match for people with allergies\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW236182171 BCX4\"\u003E.\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW236182171 BCX4\"\u003E \u003C/span\u003E\u003C/span\u003E\u003Cspan class=\"EOP SCXW236182171 BCX4\" data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E"
+          },
+          {
+            "faq_title": "Do Great Pyrenees drool? ",
+            "faq_content": "\u003Cp\u003E\u003Cspan class=\"TextRun SCXW66687621 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"\u003E\u003Cspan class=\"NormalTextRun SCXW66687621 BCX4\"\u003EYes, \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW66687621 BCX4\"\u003EGreat Pyre\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW66687621 BCX4\"\u003En\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW66687621 BCX4\"\u003Eees will drool a little\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW66687621 BCX4\"\u003E, usually when eating or if \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW66687621 BCX4\"\u003Ethey’ve\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW66687621 BCX4\"\u003E been exercising. These pups \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW66687621 BCX4\"\u003Earen’t\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW66687621 BCX4\"\u003E suited to hot weather and may pant and drool \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW66687621 BCX4\"\u003Ewhen \u003C/span\u003E\u003C/span\u003E\u003Ca class=\"Hyperlink SCXW66687621 BCX4\" href=\"https://www.chewy.com/education/dog/health-and-wellness/how-to-cool-down-a-dog-overheating\" rel=\"noreferrer noopener\"\u003E\u003Cspan class=\"TextRun Underlined SCXW66687621 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\u003E\u003Cspan class=\"NormalTextRun SCXW66687621 BCX4\" data-ccp-charstyle=\"Hyperlink\"\u003Eov\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW66687621 BCX4\" data-ccp-charstyle=\"Hyperlink\"\u003Ee\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW66687621 BCX4\" data-ccp-charstyle=\"Hyperlink\"\u003Erheated\u003C/span\u003E\u003C/span\u003E\u003C/a\u003E\u003Cspan class=\"TextRun SCXW66687621 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"\u003E\u003Cspan class=\"NormalTextRun SCXW66687621 BCX4\"\u003E; if you notice this, get them somewhere cool \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW66687621 BCX4\"\u003Eimmediately\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW66687621 BCX4\"\u003E.\u003C/span\u003E\u003C/span\u003E\u003Cspan class=\"EOP SCXW66687621 BCX4\" data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E"
+          },
+          {
+            "faq_title": "Are Great Pyrenees good with kids?",
+            "faq_content": "\u003Cp\u003E\u003Cspan class=\"TextRun SCXW66584178 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"\u003E\u003Cspan class=\"NormalTextRun SCXW66584178 BCX4\"\u003EYes, Great Pyrenees are \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW66584178 BCX4\"\u003Egenerally good\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW66584178 BCX4\"\u003E with kids and make great additions to the family. However, due to their sheer size, you should always supervise playtime\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW66584178 BCX4\"\u003E to make sure \u003C/span\u003E\u003Cspan class=\"NormalTextRun ContextualSpellingAndGrammarErrorV2Themed SCXW66584178 BCX4\"\u003Ekiddos\u003C/span\u003E \u003Cspan class=\"NormalTextRun SCXW66584178 BCX4\"\u003Earen’t\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW66584178 BCX4\"\u003E accidentally knocked over or stepped on\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW66584178 BCX4\"\u003E.\u003C/span\u003E\u003C/span\u003E\u003Cspan class=\"EOP SCXW66584178 BCX4\" data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E"
+          },
+          {
+            "faq_title": "Do Great Pyrenees like water?",
+            "faq_content": "\u003Cp\u003E\u003Cspan class=\"TextRun SCXW134767143 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"\u003E\u003Cspan class=\"NormalTextRun SCXW134767143 BCX4\"\u003EGreat Pyrenees \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW134767143 BCX4\"\u003Earen’t\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW134767143 BCX4\"\u003E big swimmers, though some puppies can be introduced to water early and learn to love it. With such a heavy double coat and only moderate energy reserves, they \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW134767143 BCX4\"\u003Ewon’t\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW134767143 BCX4\"\u003E be excited to paddle around a pool the same way a \u003C/span\u003E\u003C/span\u003E\u003Ca class=\"Hyperlink SCXW134767143 BCX4\" href=\"https://www.chewy.com/education/dog-breeds/labrador-retriever\" rel=\"noreferrer noopener\"\u003E\u003Cspan class=\"TextRun Underlined SCXW134767143 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\u003E\u003Cspan class=\"NormalTextRun SCXW134767143 BCX4\" data-ccp-charstyle=\"Hyperlink\"\u003ELabrador\u003C/span\u003E\u003C/span\u003E\u003C/a\u003E\u003Cspan class=\"TextRun SCXW134767143 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"\u003E\u003Cspan class=\"NormalTextRun SCXW134767143 BCX4\"\u003E might.\u003C/span\u003E\u003C/span\u003E\u003Cspan class=\"EOP SCXW134767143 BCX4\" data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E"
+          },
+          {
+            "faq_title": "How much does a Great Pyrenees weigh?",
+            "faq_content": "\u003Cp\u003E\u003Cspan class=\"TextRun SCXW143421841 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"\u003E\u003Cspan class=\"NormalTextRun SCXW143421841 BCX4\"\u003EThe average Great Pyrenees weight is as much as a human! Female Great Pyrenees tend to weigh 85 pounds or more, and male \u003C/span\u003E\u003Cspan class=\"NormalTextRun SpellingErrorV2Themed SCXW143421841 BCX4\"\u003EPyrs\u003C/span\u003E \u003Cspan class=\"NormalTextRun SCXW143421841 BCX4\"\u003Egenerally weigh\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW143421841 BCX4\"\u003E 100 pounds or more.\u003C/span\u003E\u003C/span\u003E\u003C/p\u003E"
+          },
+          {
+            "faq_title": "What is the life expectancy of a Great Pyrenees?  ",
+            "faq_content": "\u003Cp\u003E\u003Cspan class=\"TextRun SCXW165102409 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\u003E\u003Cspan class=\"NormalTextRun SCXW165102409 BCX4\"\u003EThe \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW165102409 BCX4\"\u003Etypical \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW165102409 BCX4\"\u003EGreat Pyrenees \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW165102409 BCX4\"\u003Elife expectancy\u003C/span\u003E \u003Cspan class=\"NormalTextRun SCXW165102409 BCX4\"\u003Eis\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW165102409 BCX4\"\u003E 10–12 years\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW165102409 BCX4\"\u003E. Keep up with routine vet visits, a healthy diet, and regular exercise to help them live their best life\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW165102409 BCX4\"\u003E.  \u003C/span\u003E\u003C/span\u003E\u003Cspan class=\"EOP SCXW165102409 BCX4\" data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E"
+          }
+        ],
+        "select_related_breeds": [
+          {
+            "selected_related_breed": 638,
+            "characteristic": "breed_characteristics_physical_appearance"
+          },
+          {
+            "selected_related_breed": 1334,
+            "characteristic": "breed_characteristics_shedding_level"
+          },
+          {
+            "selected_related_breed": 750,
+            "characteristic": "breed_characteristics_training_needs"
+          },
+          {
+            "selected_related_breed": 939,
+            "characteristic": "breed_characteristics_playfulnesss"
+          },
+          {
+            "selected_related_breed": 681,
+            "characteristic": "breed_characteristics_good_for_first_time_parents"
+          },
+          {
+            "selected_related_breed": 969,
+            "characteristic": "breed_characteristics_sensitive_to_cold_weather"
+          }
+        ],
+        "enable_featured_gallery": [
+          "enable_featured_gallery"
+        ],
+        "featured_gallery_images": [4128, 682, 683, 684, 685, 686]
+      },
+      "yoast_head": "\u003C!-- This site is optimized with the Yoast SEO plugin v23.8 - https://yoast.com/wordpress/plugins/seo/ --\u003E\n\u003Ctitle\u003EGreat Pyrenees Breed: Characteristics, Care &amp; Photos | Chewy\u003C/title\u003E\n\u003Cmeta name=\"description\" content=\"The gentle Great Pyrenees is a stoic, observant pet. Learn more about this majestic breed and get expert advice on how best to care for them.\" /\u003E\n\u003Cmeta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" /\u003E\n\u003Clink rel=\"canonical\" href=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/great-pyrenees/\" /\u003E\n\u003Cmeta property=\"og:locale\" content=\"en_US\" /\u003E\n\u003Cmeta property=\"og:type\" content=\"article\" /\u003E\n\u003Cmeta property=\"og:title\" content=\"Great Pyrenees Breed: Characteristics, Care &amp; Photos | Chewy\" /\u003E\n\u003Cmeta property=\"og:description\" content=\"The gentle Great Pyrenees is a stoic, observant pet. Learn more about this majestic breed and get expert advice on how best to care for them.\" /\u003E\n\u003Cmeta property=\"og:url\" content=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/great-pyrenees/\" /\u003E\n\u003Cmeta property=\"og:site_name\" content=\"Chewy\" /\u003E\n\u003Cmeta property=\"article:modified_time\" content=\"2025-06-04T18:53:15+00:00\" /\u003E\n\u003Cmeta property=\"og:image\" content=\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/03/21153005/Breed-Hero-Great-Pyrenees.jpg\" /\u003E\n\t\u003Cmeta property=\"og:image:width\" content=\"1835\" /\u003E\n\t\u003Cmeta property=\"og:image:height\" content=\"1032\" /\u003E\n\t\u003Cmeta property=\"og:image:type\" content=\"image/jpeg\" /\u003E\n\u003Cmeta name=\"twitter:card\" content=\"summary_large_image\" /\u003E\n\u003Cmeta name=\"twitter:label1\" content=\"Est. reading time\" /\u003E\n\t\u003Cmeta name=\"twitter:data1\" content=\"1 minute\" /\u003E\n\u003Cscript type=\"application/ld+json\" class=\"yoast-schema-graph\"\u003E{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/great-pyrenees/\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/great-pyrenees/\",\"name\":\"Great Pyrenees Breed: Characteristics, Care & Photos | Chewy\",\"isPartOf\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/great-pyrenees/#primaryimage\"},\"image\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/great-pyrenees/#primaryimage\"},\"thumbnailUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/03/21153005/Breed-Hero-Great-Pyrenees.jpg\",\"datePublished\":\"2025-03-11T10:46:47+00:00\",\"dateModified\":\"2025-06-04T18:53:15+00:00\",\"description\":\"The gentle Great Pyrenees is a stoic, observant pet. Learn more about this majestic breed and get expert advice on how best to care for them.\",\"breadcrumb\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/great-pyrenees/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://phcms.hlth.prd.aws.chewy.cloud/breed/great-pyrenees/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/great-pyrenees/#primaryimage\",\"url\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/03/21153005/Breed-Hero-Great-Pyrenees.jpg\",\"contentUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/03/21153005/Breed-Hero-Great-Pyrenees.jpg\",\"width\":1835,\"height\":1032,\"caption\":\"great pyrenees sitting on an isolated background\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/great-pyrenees/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://phcms.hlth.prd.aws.chewy.cloud/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Great Pyrenees\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/\",\"name\":\"Chewy\",\"description\":\"\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"}]}\u003C/script\u003E\n\u003C!-- / Yoast SEO plugin. --\u003E",
+      "yoast_head_json": {
+        "title": "Great Pyrenees Breed: Characteristics, Care & Photos | Chewy",
+        "description": "The gentle Great Pyrenees is a stoic, observant pet. Learn more about this majestic breed and get expert advice on how best to care for them.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://phcms.hlth.prd.aws.chewy.cloud/breed/great-pyrenees/",
+        "og_locale": "en_US",
+        "og_type": "article",
+        "og_title": "Great Pyrenees Breed: Characteristics, Care & Photos | Chewy",
+        "og_description": "The gentle Great Pyrenees is a stoic, observant pet. Learn more about this majestic breed and get expert advice on how best to care for them.",
+        "og_url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/great-pyrenees/",
+        "og_site_name": "Chewy",
+        "article_modified_time": "2025-06-04T18:53:15+00:00",
+        "og_image": [
+          {
+            "width": 1835,
+            "height": 1032,
+            "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/03/21153005/Breed-Hero-Great-Pyrenees.jpg",
+            "type": "image/jpeg"
+          }
+        ],
+        "twitter_card": "summary_large_image",
+        "twitter_misc": {
+          "Est. reading time": "1 minute"
+        },
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/great-pyrenees/",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/great-pyrenees/",
+              "name": "Great Pyrenees Breed: Characteristics, Care & Photos | Chewy",
+              "isPartOf": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/great-pyrenees/#primaryimage"
+              },
+              "image": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/great-pyrenees/#primaryimage"
+              },
+              "thumbnailUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/03/21153005/Breed-Hero-Great-Pyrenees.jpg",
+              "datePublished": "2025-03-11T10:46:47+00:00",
+              "dateModified": "2025-06-04T18:53:15+00:00",
+              "description": "The gentle Great Pyrenees is a stoic, observant pet. Learn more about this majestic breed and get expert advice on how best to care for them.",
+              "breadcrumb": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/great-pyrenees/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://phcms.hlth.prd.aws.chewy.cloud/breed/great-pyrenees/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/great-pyrenees/#primaryimage",
+              "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/03/21153005/Breed-Hero-Great-Pyrenees.jpg",
+              "contentUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/03/21153005/Breed-Hero-Great-Pyrenees.jpg",
+              "width": 1835,
+              "height": 1032,
+              "caption": "great pyrenees sitting on an isolated background"
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/great-pyrenees/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://phcms.hlth.prd.aws.chewy.cloud/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Great Pyrenees"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/",
+              "name": "Chewy",
+              "description": "",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            }
+          ]
+        }
+      },
+      "yoast_meta": {
+        "yoast_wpseo_title": "",
+        "yoast_wpseo_metadesc": "",
+        "yoast_wpseo_canonical": ""
+      },
+      "_links": {
+        "self": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed/690",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/types/breed"
+          }
+        ],
+        "acf:attachment": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/686"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/685"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/684"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/683"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/682"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/4128"
+          }
+        ],
+        "wp:featuredmedia": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/4130"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media?parent=690"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "pet_type",
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/pet_type?post=690"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ]

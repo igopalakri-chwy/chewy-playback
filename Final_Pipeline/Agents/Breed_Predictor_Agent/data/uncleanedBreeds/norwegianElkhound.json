@@ -1,0 +1,325 @@
+[
+    {
+      "id": 468,
+      "date": "2021-06-25T13:59:15",
+      "date_gmt": "2021-06-25T13:59:15",
+      "guid": {
+        "rendered": "https://haproxy.use1.lgcy.prd.aws.chewy.cloud/eks/ns/pet-health/pet-health-content-backend/breed/norwegian-elkhound/"
+      },
+      "modified": "2025-05-05T14:21:35",
+      "modified_gmt": "2025-05-05T14:21:35",
+      "slug": "norwegian-elkhound",
+      "status": "publish",
+      "type": "breed",
+      "link": "https://phcms.hlth.prd.aws.chewy.cloud/breed/norwegian-elkhound/",
+      "title": {
+        "rendered": "Norwegian Elkhound"
+      },
+      "featured_media": 467,
+      "template": "",
+      "pet_type": [],
+      "class_list": [
+        "post-468",
+        "breed",
+        "type-breed",
+        "status-publish",
+        "has-post-thumbnail",
+        "hentry"
+      ],
+      "acf": {
+        "breed_snapshot_best_for": "\u003Cp\u003EThe Norwegian Elkhound is an ancient breed known for their loyalty, intelligence and silver-gray coat. These athletes crave lots of physical and mental stimulation and are great for experienced dog parents ready for lots of outdoor adventures. \u003C/p\u003E",
+        "alt_image_text": "\u003Cp\u003ELoving, loyal and ready for adventure, we have all the information you need to know about the Norwegian Elkhound dog. \u003C/p\u003E",
+        "breed_intro": "If your Saturday plans often involve serious outdoor adventuring, a Norwegian Elkhound may be the canine companion you're looking for. These silver-gray dogs hail from—you guessed it—Norway and are born athletes, always ready to tackle a day of outdoor adventure with you. Norway's national dog is a fierce, loyal, intelligent and ancient breed that requires lots of physical and mental stimulation. Daily exercise, \u003Ca href=\"https://www.chewy.com/education/dog/new-dog/basic-puppy-training\"\u003Etraining\u003C/a\u003E and possibly dog sports will be in your future, so feel free to cancel your Netflix subscription (and invest in a good vacuum) before you welcome your newest family member.",
+        "breed_related_products_product_card_set": null,
+        "breed_snapshot_temperament": "\u003Cp\u003ELoyal, Versatile, Intelligent\u003C/p\u003E",
+        "what_does_this_breed_look_like_weight": "\u003Cp\u003EMale: 55 pounds \u003C/p\u003E\u003Cp\u003EFemale: 48 pounds \u003C/p\u003E",
+        "what_does_this_breed_look_like_height": "\u003Cp\u003EMale: 20.5 inches\u003C/p\u003E\u003Cp\u003EFemale: 19.5 inches\u003C/p\u003E",
+        "breed_snapshot_life_expectancy": "\u003Cp\u003E12 to 15 years\u003C/p\u003E",
+        "breed_snapshot_maintenance_level": "\u003Cp\u003EHigh\u003C/p\u003E",
+        "breed_characteristics_friendliness": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_snapshot_coat_color": "\u003Cp\u003EGray Black & Silver, Silver Gray & Black, Gray & Black, Silver & Black, Black White & Silver, Black & Gray, Black & Silver\u003C/p\u003E",
+        "breed_snapshot_shed_level": "\u003Cp\u003EVery High \u003C/p\u003E",
+        "in_article_video": null,
+        "breed_characteristics": "These traits are rated on a scale of 1-5 with 1 being the lowest and 5 being the highest. Remember: Dogs are individuals, and not all dogs, even those of the same breed, will exhibit all the same qualities.",
+        "breed_characteristics_exercise_needs": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_health_issues": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_barking_tendencies": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_grooming_needs": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_shedding_level": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_training_needs": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_with_kids": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_cats": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_good_for_apartments_small_homes": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_energy_level": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_other_dogs": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_playfulnesss": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_cold_weather": "\u003Cp\u003E1\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_warm_weather": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_for_first_time_parents": "\u003Cp\u003E3\u003C/p\u003E",
+        "how_do_i_look_card_image": 466,
+        "what_does_this_breed_look_like": "Typical Norwegian Elkhound physical traits include thick fur, pointy ears, slender muzzles and curled tails. Their heads are broad, and they're commonly mistaken for Siberian Huskies. However, Elkhounds' muzzles are black and get lighter over their heads, and they have a distinctive harness mark (a band of longer guard hairs from shoulder to elbow).",
+        "what_does_this_breed_look_like_ears": "\u003Cp\u003EThe Norwegian Elkhound breed has black ears that are pointed and erect, although they may relax when the dog is calm.\u003C/p\u003E",
+        "what_does_this_breed_look_like_eyes": "\u003Cp\u003ETheir medium-oval eyes are dark brown. \u003C/p\u003E",
+        "what_does_this_breed_look_like_nose": "\u003Cp\u003ETheir black, slender muzzles are tapered with a blunt nose. \u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_length": "\u003Cp\u003ENorwegian Elkhounds have smooth-laying double coats with long outer hair and a soft undercoat. Elkhounds shed twice a year in the spring and fall.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_color": "\u003Cp\u003EElkhounds come in various combinations and shades of gray, black, and silver with dark markings, such as black ears, muzzles and tail tips. \u003C/p\u003E",
+        "what_does_this_breed_look_like_tail": "\u003Cp\u003ENorwegian Elkhound tails are full and curl tightly over their backs. \u003C/p\u003E",
+        "h2_breed_temperament": "A Norwegian Elkhound's temperament is active and intelligent, strong-willed and devoted. These qualities make them a great family dog for an on-the-go crew who's up to the challenge.\r\n\r\nA typical Norwegian Elkhound is loyal and friendly, although they aren't quite as outgoing as a \u003Ca href=\"https://www.chewy.com/education/dog-breeds/labrador-retriever/\"\u003ELabrador\u003C/a\u003E or \u003Ca href=\"https://www.chewy.com/education/dog-breeds/golden-retriever/\"\u003EGolden Retriever\u003C/a\u003E. They may take time to warm up to strangers, though they will generally come around. They aren't aloof like some breeds but don't always seek a new BFF. Their loyalty is to their pet parent first and foremost. Norwegian\u003Cb\u003E \u003C/b\u003EElkhounds can cohabitate with other dogs, although it's best to introduce them to other dogs when they're young.\r\n\r\nElkhounds are historically hunting dogs, eager to track, chase and keep large animals at bay, so they tend to be quite vocal and won't hesitate to sound the bark alarm if they want to tell you something Very Important, like that a stranger's approaching or you're 10 minutes late with their dinner.",
+        "h2_how_to_care_for_a_breed": "Norwegian Elkhounds require commitment. Their high energy demands a high activity level, and they must be well-trained or they may try to lead \u003Cem\u003Eyou\u003C/em\u003E. On top of that, daily brushing is a must for this double-coated breed, and they will shed their undercoat twice a year, sending your vacuum cleaner into overdrive.",
+        "grooming": "The rugged Norwegian Elkhound breed has fairly average grooming needs, though they do shed a lot. They don't need to be regularly coiffed by a professional, but you do need to brush them daily. A few minutes a day will do wonders to offset any shedding woes for most of the year. You may find yourself brushing them more frequently in the spring and fall when they blow their coats—they shed it in chunks instead of individual hairs. You can do your best to keep tumbleweeds at bay by back-brushing (brushing backward from how their fur lays) with a \u003Ca href=\"https://www.chewy.com/f/slicker-brush-dog-brushes-combs_c356_f70v83792\"\u003Eslicker brush\u003C/a\u003E.\n\nOne of the unique characteristics of the Norwegian Elkhound is how their coats keep odors away. That said, they do need the occasional bath, though typically only two or three times annually (unless, of course, your hikes get particularly muddy); baths are beneficial every six months or so when your dog sheds their undercoat. \u003Ca href=\"https://www.chewy.com/education/dog/grooming/how-to-bathe-a-dog-step-by-step-tips-from-a-professional-groomer\"\u003EGet expert tips on how to bathe a dog\u003C/a\u003E. Note: This breed should never be shaved, even in the summer. That double coat of theirs works as insulation, which helps keep them cool in the summer and warm in the winter and protects them from sunburn.\n\n\u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/guide-trimming-dogs-nails\"\u003ETrim their nails\u003C/a\u003E as needed, which is usually monthly. If they're getting long, you'll hear the distinctive clickety-clack warning on hard surfaces.\n\nAs for their pearly whites, brush them daily. Start \u003Ca href=\"https://www.chewy.com/education/dog/grooming/health-wellness-how-to-brush-your-dogs-teeth-live-to-tell-the-tale\"\u003Eteeth brushing\u003C/a\u003E when your Elkhound is a puppy. The task will be much easier if they are used to it. Don't forget that an annual professional cleaning by your vet is vital for your doggy's dental health.",
+        "training": "Patience is a virtue, as they say, and you have it in spades. That's good, as you'll need to tap into that well when it comes to training your Norwegian Elkhound. Training this breed is important but challenging (for both you and your pup), as these smart dogs sometimes like to think that they know what's best. (Spoiler: They do not.) Without guidance, they'll tend to make their own fun. (Spoiler: Hope you didn't want to wear that pair of shoes again—ever.)\n\nStart training your puppy with the basics, like \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-sit\"\u003Esit\u003C/a\u003E, stay and \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-come\"\u003Ecome\u003C/a\u003E and how to \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/leash-train-dog-2\"\u003Ewalk nicely on a leash\u003C/a\u003E. Because Elkhounds are intelligent, they're eager to learn as long as it's not routine. (Routine is so boooor-riiinnnng.)\n\nThe key is to keep your Elkhound mentally stimulated and make training fun. One way to do that is to use positive reinforcement training methods where you reward good behavior with treats, toys or praise. Pro tip: You may find the help of a \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/find-a-dog-trainer\"\u003Ecertified dog trainer\u003C/a\u003E beneficial to keep things engaging and creative.\n\nSocialization is important, too, even for this naturally friendly breed. Start socializing your dog while they're a puppy and take them on walks to meet the neighbors (both two- and four-legged) and experience new places and things. You may also want to enroll them in puppy preschool, where they'll learn to play nicely with other puppies and mix and mingle with adults all in one location.\n\nConsistency is key when training any dog, especially when teaching a super smart dog like the Elkhound breed. Work on obedience every day, don't switch commands up (i.e., using \"sit\" and \"place\" interchangeably), and don't give your pup a day where the rules don't apply. Inexperienced pet parents may quickly find themselves being trained rather than the other way around.",
+        "diet_nutrition": "Norwegian Elkhounds, like most breeds, typically do well on a diet of \u003Ca href=\"https://www.chewy.com/b/premium-food-11728\" target=\"_blank\" rel=\"noopener\"\u003Ehigh-quality commercial dog food\u003C/a\u003E. Always factor in your dog's age and choose a food that fits their stage in life, whether they are a puppy, adult or senior dog. Your veterinarian can help you choose the best food for your dog's lifestyle and provide a feeding chart or schedule to guide you on how much and how often to feed your dog.\r\n\r\nAlthough Norwegian Elkhounds are active dogs, obesity is a concern for this breed. They love food and aren't likely to miss a meal. Expect them to let you know it's mealtime. Resist the urge to overfeed them or give them too many treats. Remember, treats equal calories and should make up no more than 10% of their daily diet. Always check with your vet for diet recommendations based on your pet's needs.",
+        "exercise": "Because Norwegian Elkhounds were bred to hunt in the cold, rugged Nordic climate, they are high-energy dogs who don't need much persuasion to exercise. Today's Elkhounds and their pet parents aren't likely to be tracking moose, so it's important to give these dogs the physical and mental stimulation they need. Lack of activity can cause them to become anxious, frustrated and destructive. These dogs aren't suited to life as couch potatoes.\r\n\r\nWhen it comes to exercise styles, Norwegian Elkhounds aren't really into lacing up their shoes and heading out for a run, and maybe you can relate. These medium-sized dogs are much better suited for exercise that feels like play—again, perhaps you relate—and their high exercise needs make them the ideal breed to enroll in various dog sports, depending on your—and your dog's—interests. Norwegian Elkhounds excel in activities like conformation trials (aka dog shows), agility, and bikejoring (it's like sled-pulling without the snow and uses bicycles).\r\n\r\nIf competition's not your thing, strenuous hikes will do the trick. Norwegian Elkhounds are known less for their speed and more for their stamina, so be bold and take a long trek—as long as they have the all-clear from your vet. At a minimum, ensure they get 20 to 30 minutes of exercise twice daily. Walking around the neighborhood might not be enough of a challenge for an Elkhound, so mix in tasks like scent work and opportunities for off-leash exercise in a well-fenced-in area. Without that fence, their natural hunting instincts may lead them to take off at first sight of a wandering critter, and no one needs to play chase around the neighborhood.",
+        "ideal_environment": "Big house, little house—Norwegian Elkhounds can adapt to a variety of living environments. However, they are physically active dogs prone to barking and sometimes howling, so apartment living or small spaces can be a challenge if you prefer to keep the peace with neighbors and don't have the time to ensure your Norwegian Elkhound gets enough exercise. They are a northern breed, so they thrive in cold climates, but they can live in warm places, too. Just be sure to keep outdoor activity to the cooler parts of the day when it's hot out, and always make sure they have access to plenty of fresh, cool water.\r\n\r\nA fenced-in yard is ideal, although leaving an Elkhound to roam in the backyard all day isn't enough activity for them. They will get bored with what's in their space, potentially leading to mischief. Their activity level must go far beyond a yard and an occasional walk.\r\n\r\nNorwegian Elkhounds are good with kids and do best in an active family. This breed is typically OK with another dog in the home, especially if you introduce them to the other dog as a puppy.",
+        "h2_breed_health": "Norwegian Elkhounds' life expectancy is 12 to 15 years. They are a generally sound breed with few health problems. But there are a few health issues to be aware of. Here are some of the other health issues you should be mindful of.\r\n\u003Cul\u003E\r\n \t\u003Cli\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/c_dg_hip_dysplasia\"\u003E\u003Cb\u003EHip Dysplasia\u003C/b\u003E\u003C/a\u003E: A common problem in large breeds and older dogs, hip dysplasia occurs in some Elkhounds. Hip dysplasia is a condition in which the hip joint isn't formed properly and rubs, causing the dog pain. Symptoms include lameness in the back legs, decreased activity and \"bunny hopping.\" Treatment options include physical therapy, joint supplements, medications and potentially surgery.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Cb\u003EGenetic Eye Conditions\u003C/b\u003E: Several genetic eye conditions that lead to blindness occur in the breed, including progressive retinal atrophy (\u003Ca href=\"https://www.petmd.com/dog/condition/progressive-retinal-atrophy-in-dogs\"\u003EPRA\u003C/a\u003E), glaucoma and cataracts. If your pup has any issues with their eyes (redness, cloudiness, squinting, bulging, running into things, pain), please see your veterinarian right away.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Cb\u003ERenal (Kidney) Disease\u003C/b\u003E: Norwegian Elkhounds may experience kidney problems, including \u003Ca href=\"https://www.petmd.com/dog/conditions/urinary/fanconi-syndrome-dogs\"\u003EFanconi syndrome\u003C/a\u003E. Symptoms include excessive urination and thirst, as well as weight loss. There's no cure for kidney disease, but there are treatment options, including a prescription diet, medications and ensuring your dog always has access to plenty of fresh water.\u003C/li\u003E\r\n\u003C/ul\u003E",
+        "h2_breed_history": "The so-called “Dog of the Vikings,\" the Norwegian Elkhound has an origin that dates back further than even the Vikings themselves. What's believed to be skeletons and depictions of Elkhound-like dogs have been found among human remains at Stone Age archeological sites in Norway. They hunted with their Viking companions, who bred these fearless hounds for trailing and cornering big game like moose, reindeer and bears. They've also served as guardians and watchdogs, barking incessantly at threats that came their family's way. Their strong noses and barking abilities persist in the breed today.\r\n\r\nNorwegian Elkhounds became show dogs in their native country in the late 1800s. The American Kennel Club officially recognized the breed in 1913. In 1931, the \u003Ca href=\"https://neaa.net/\"\u003ENorwegian Elkhound Association of America\u003C/a\u003E gifted an Elkhound puppy, named Weegie, to President Herbert Hoover after his German Shepherd died. At the time, there were only a couple dozen Elkhounds in the US, although they were more common in Europe. Today, they rank 97th out of 197 in AKC breed popularity.\r\n\r\nWhere can you find a puppy today if you are considering raising a Norwegian Elkhound? The \u003Ca href=\"https://marketplace.akc.org/puppies/norwegian-elkhound\"\u003EAKC Marketplace\u003C/a\u003E lists puppies available from AKC-registered breeders. How much does a Norwegian Elkhound puppy cost? The price for a puppy from a reputable breeder ranges from around $1,000 to $2,000. But for that price, you're likely getting a pup who's been screened for health and temperament issues and may come with pedigree papers. If you're interested in adopting a member of this breed, several rescue organizations also specialize in Norwegian Elkhounds. You can also keep an eye out at your local animal shelters or search \u003Ca href=\"https://www.chewy.com/g/dog-norwegian-elkhound_ga1\"\u003EChewy’s database of adoptable dogs\u003C/a\u003E in your area.",
+        "expert_attribution": "\u003Ci\u003EExpert input provided by veterinarian Jo Myers, DVM, a veterinary expert on \u003Ca href=\"http://www.justanswer.com/\" target=\"_blank\" rel=\"noopener\"\u003EJustAnswer\u003C/a\u003E; \u003Ca href=\"https://apdt.com/\"\u003EAssociation of Professional Dog Trainers\u003C/a\u003E board member Sandy Modell, CPDT-KA, who is owner of Wholistic Hound Academy in Alexandria, Va.; and Holly Lewis, breed ambassador for the \u003Ca href=\"https://neaa.net/\"\u003ENorwegian Elkhound Association of America\u003C/a\u003E. \u003C/i\u003E\r\n\r\n\u003Cem\u003EBreed characteristic ratings provided by veterinarian Dr. Sarah J. Wooten, DVM, CVJ, a veterinarian at \u003Ca href=\"https://sheepdraw.com/\" target=\"_blank\" rel=\"noopener\"\u003ESheep Draw Veterinary Hospital\u003C/a\u003E in Greeley, Colorado; dog trainer and behavior consultant Irith Bloom, CPDT-KSA, CBCC-KA, CDBC, owner of \u003Ca href=\"https://thesophisticateddog.com/\" target=\"_blank\" rel=\"noopener\"\u003EThe Sophisticated Dog, LLC\u003C/a\u003E, in Los Angeles; and certified animal behavior consultant \u003Ca href=\"https://shojai.com/\" target=\"_blank\" rel=\"noopener\"\u003EAmy Shojai\u003C/a\u003E, CABC, in Sherman, Texas. \u003C/em\u003E\r\n\r\n\u003Cem\u003EThe health content was medically reviewed by Chewy vets.\u003C/em\u003E\r\n\r\n\u003Ci\u003EPhoto credit for \"How do I look?\" \u003Ca href=\"https://www.thesprucepets.com/norwegian-dog-breeds-4796920\"\u003EThe Spruce Pets\u003C/a\u003E\u003C/i\u003E\u003Ci\u003E\u003C/i\u003E",
+        "facebook_social_snippet_with_cta": "\u003Cp\u003ELooking for a loyal companion? Are you an active person who loves a challenge? Pet parents who love to hit the hiking trails or are open to dog sports are the ideal match for Norwegian Elkhounds. Learn more about the \"Dog of the Vikings\" in our complete guide.\u003C/p\u003E",
+        "species": "\u003Cp\u003EDog\u003C/p\u003E",
+        "h2_faqs": "\u003Ch3\u003EHow do you pronounce Elkhound?\u003C/h3\u003E\nElkhound is pronounced elk-haund. The name comes from the original Norwegian name, Norsk Elghund. \u003Cem\u003EElg\u003C/em\u003E means \"moose,\" and \u003Cem\u003Ehund\u003C/em\u003E means \"dog.\"\n\u003Ch3\u003EDo Norwegian Elkhounds shed?\u003C/h3\u003E\nYes, Norwegian Elkhounds shed—be prepared to vacuum a lot. Their thick, double coat requires daily brushing to keep it in shape, but when they blow their coats in the spring and fall, be prepared for the fur to fly.\n\u003Ch3\u003EHow long do Norwegian Elkhounds live?\u003C/h3\u003E\nNorwegian Elkhounds live about 12 to 15 years and are relatively healthy. When well taken care of, this pup can bring you love, joy and companionship for a long time.\n\u003Ch3\u003EAre Norwegian Elkhounds good family dogs?\u003C/h3\u003E\nYes, Norwegian Elkhounds can be good family dogs. Like many pets, they do well with children when they're properly socialized, starting at a young age. Fiercely loyal, Elkhounds are devoted to their families, preferring companionship over alone time.\n\u003Ch3\u003EWhat are the most popular Norwegian Elkhound names?\u003C/h3\u003E\nSome of the most popular Norwegian Elkhound names echo their Nordic roots and include names like Lars, Corey, Nils, Oskar, Olaf, Elsa, Astrid and Iver. \u003Ca href=\"https://www.chewy.com/education/dog/general/top-dog-names\"\u003EGet more dog name inspiration here\u003C/a\u003E.\n\u003Ch3\u003EWhat are the most common Norwegian Elkhound dog mixes?\u003C/h3\u003E\nThe most common Norwegian Elkhound dog mixes are:\n\u003Cul\u003E\n \t\u003Cli\u003ENorwegian Elkhound-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/german-shepherd/\"\u003EGerman Shepherd\u003C/a\u003E mix\u003C/li\u003E\n \t\u003Cli\u003ENorwegian Elkhound-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/husky/\"\u003EHusky\u003C/a\u003E mix\u003C/li\u003E\n \t\u003Cli\u003ENorwegian Elkhound-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/labrador-retriever/\"\u003ELabrador\u003C/a\u003E mix\u003C/li\u003E\n \t\u003Cli\u003ENorwegian Elkhound-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/border-collie/\"\u003EBorder Collie\u003C/a\u003E mix\u003C/li\u003E\n \t\u003Cli\u003ENorwegian Elkhound-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/golden-retriever/\"\u003EGolden Retriever\u003C/a\u003E mix\u003C/li\u003E\n\u003C/ul\u003E\n\u003Cem\u003ENote: These are not purebred dogs but mixed breeds.\u003C/em\u003E",
+        "faq_items": [
+          {
+            "faq_title": "How do you pronounce Elkhound?",
+            "faq_content": "Elkhound is pronounced elk-haund. The name comes from the original Norwegian name, Norsk Elghund. \u003Cem\u003EElg\u003C/em\u003E means \"moose,\" and \u003Cem\u003Ehund\u003C/em\u003E means \"dog.\""
+          },
+          {
+            "faq_title": "Do Norwegian Elkhounds shed?",
+            "faq_content": "Yes, Norwegian Elkhounds shed—be prepared to vacuum a lot. Their thick, double coat requires daily brushing to keep it in shape, but when they blow their coats in the spring and fall, be prepared for the fur to fly."
+          },
+          {
+            "faq_title": "How long do Norwegian Elkhounds live?",
+            "faq_content": "Norwegian Elkhounds live about 12 to 15 years and are relatively healthy. When well taken care of, this pup can bring you love, joy and companionship for a long time."
+          },
+          {
+            "faq_title": "Are Norwegian Elkhounds good family dogs?",
+            "faq_content": "Yes, Norwegian Elkhounds can be good family dogs. Like many pets, they do well with children when they're properly socialized, starting at a young age. Fiercely loyal, Elkhounds are devoted to their families, preferring companionship over alone time."
+          },
+          {
+            "faq_title": "What are the most popular Norwegian Elkhound names?",
+            "faq_content": "Some of the most popular Norwegian Elkhound names echo their Nordic roots and include names like Lars, Corey, Nils, Oskar, Olaf, Elsa, Astrid and Iver. \u003Ca href=\"https://www.chewy.com/education/dog/general/top-dog-names\"\u003EGet more dog name inspiration here\u003C/a\u003E."
+          },
+          {
+            "faq_title": "What are the most common Norwegian Elkhound dog mixes?",
+            "faq_content": "The most common Norwegian Elkhound dog mixes are:\r\n\u003Cul\u003E\r\n \t\u003Cli\u003ENorwegian Elkhound-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/german-shepherd/\"\u003EGerman Shepherd\u003C/a\u003E mix\u003C/li\u003E\r\n \t\u003Cli\u003ENorwegian Elkhound-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/husky/\"\u003EHusky\u003C/a\u003E mix\u003C/li\u003E\r\n \t\u003Cli\u003ENorwegian Elkhound-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/labrador-retriever/\"\u003ELabrador\u003C/a\u003E mix\u003C/li\u003E\r\n \t\u003Cli\u003ENorwegian Elkhound-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/border-collie/\"\u003EBorder Collie\u003C/a\u003E mix\u003C/li\u003E\r\n \t\u003Cli\u003ENorwegian Elkhound-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/golden-retriever/\"\u003EGolden Retriever\u003C/a\u003E mix\u003C/li\u003E\r\n\u003C/ul\u003E\r\n\u003Cem\u003ENote: These are not purebred dogs but mixed breeds.\u003C/em\u003E"
+          }
+        ],
+        "select_related_breeds": [
+          {
+            "selected_related_breed": 450,
+            "characteristic": "breed_characteristics_exercise_needs"
+          },
+          {
+            "selected_related_breed": 125,
+            "characteristic": "breed_characteristics_sensitive_to_cold_weather"
+          },
+          {
+            "selected_related_breed": 138,
+            "characteristic": "breed_characteristics_good_with_other_dogs"
+          },
+          {
+            "selected_related_breed": 1429,
+            "characteristic": "breed_characteristics_energy_level"
+          },
+          {
+            "selected_related_breed": 769,
+            "characteristic": "breed_characteristics_good_with_cats"
+          },
+          {
+            "selected_related_breed": 95,
+            "characteristic": "breed_characteristics_biting_tendencies"
+          }
+        ],
+        "enable_featured_gallery": [
+          "enable_featured_gallery"
+        ],
+        "featured_gallery_images": [460, 461, 462, 463, 464]
+      },
+      "yoast_head": "\u003C!-- This site is optimized with the Yoast SEO plugin v23.8 - https://yoast.com/wordpress/plugins/seo/ --\u003E\n\u003Ctitle\u003ENorwegian Elkhound Breed: Characteristics, Care &amp; Photos | Chewy\u003C/title\u003E\n\u003Cmeta name=\"description\" content=\"Norwegian Elkhounds are a friendly, exuberant breed. Learn more about this strong-willed dog and how best to care for them.\" /\u003E\n\u003Cmeta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" /\u003E\n\u003Clink rel=\"canonical\" href=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/norwegian-elkhound/\" /\u003E\n\u003Cmeta property=\"og:locale\" content=\"en_US\" /\u003E\n\u003Cmeta property=\"og:type\" content=\"article\" /\u003E\n\u003Cmeta property=\"og:title\" content=\"Norwegian Elkhound Breed: Characteristics, Care &amp; Photos | Chewy\" /\u003E\n\u003Cmeta property=\"og:description\" content=\"Norwegian Elkhounds are a friendly, exuberant breed. Learn more about this strong-willed dog and how best to care for them.\" /\u003E\n\u003Cmeta property=\"og:url\" content=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/norwegian-elkhound/\" /\u003E\n\u003Cmeta property=\"og:site_name\" content=\"Chewy\" /\u003E\n\u003Cmeta property=\"article:modified_time\" content=\"2025-05-05T14:21:35+00:00\" /\u003E\n\u003Cmeta property=\"og:image\" content=\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11163940/202106NorwegianElkhound-FeaturedImage.jpg\" /\u003E\n\t\u003Cmeta property=\"og:image:width\" content=\"1440\" /\u003E\n\t\u003Cmeta property=\"og:image:height\" content=\"865\" /\u003E\n\t\u003Cmeta property=\"og:image:type\" content=\"image/jpeg\" /\u003E\n\u003Cmeta name=\"twitter:card\" content=\"summary_large_image\" /\u003E\n\u003Cscript type=\"application/ld+json\" class=\"yoast-schema-graph\"\u003E{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/norwegian-elkhound/\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/norwegian-elkhound/\",\"name\":\"Norwegian Elkhound Breed: Characteristics, Care & Photos | Chewy\",\"isPartOf\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/norwegian-elkhound/#primaryimage\"},\"image\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/norwegian-elkhound/#primaryimage\"},\"thumbnailUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11163940/202106NorwegianElkhound-FeaturedImage.jpg\",\"datePublished\":\"2021-06-25T13:59:15+00:00\",\"dateModified\":\"2025-05-05T14:21:35+00:00\",\"description\":\"Norwegian Elkhounds are a friendly, exuberant breed. Learn more about this strong-willed dog and how best to care for them.\",\"breadcrumb\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/norwegian-elkhound/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://phcms.hlth.prd.aws.chewy.cloud/breed/norwegian-elkhound/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/norwegian-elkhound/#primaryimage\",\"url\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11163940/202106NorwegianElkhound-FeaturedImage.jpg\",\"contentUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11163940/202106NorwegianElkhound-FeaturedImage.jpg\",\"width\":1440,\"height\":865},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/norwegian-elkhound/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://phcms.hlth.prd.aws.chewy.cloud/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Norwegian Elkhound\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/\",\"name\":\"Chewy\",\"description\":\"\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"}]}\u003C/script\u003E\n\u003C!-- / Yoast SEO plugin. --\u003E",
+      "yoast_head_json": {
+        "title": "Norwegian Elkhound Breed: Characteristics, Care & Photos | Chewy",
+        "description": "Norwegian Elkhounds are a friendly, exuberant breed. Learn more about this strong-willed dog and how best to care for them.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://phcms.hlth.prd.aws.chewy.cloud/breed/norwegian-elkhound/",
+        "og_locale": "en_US",
+        "og_type": "article",
+        "og_title": "Norwegian Elkhound Breed: Characteristics, Care & Photos | Chewy",
+        "og_description": "Norwegian Elkhounds are a friendly, exuberant breed. Learn more about this strong-willed dog and how best to care for them.",
+        "og_url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/norwegian-elkhound/",
+        "og_site_name": "Chewy",
+        "article_modified_time": "2025-05-05T14:21:35+00:00",
+        "og_image": [
+          {
+            "width": 1440,
+            "height": 865,
+            "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11163940/202106NorwegianElkhound-FeaturedImage.jpg",
+            "type": "image/jpeg"
+          }
+        ],
+        "twitter_card": "summary_large_image",
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/norwegian-elkhound/",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/norwegian-elkhound/",
+              "name": "Norwegian Elkhound Breed: Characteristics, Care & Photos | Chewy",
+              "isPartOf": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/norwegian-elkhound/#primaryimage"
+              },
+              "image": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/norwegian-elkhound/#primaryimage"
+              },
+              "thumbnailUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11163940/202106NorwegianElkhound-FeaturedImage.jpg",
+              "datePublished": "2021-06-25T13:59:15+00:00",
+              "dateModified": "2025-05-05T14:21:35+00:00",
+              "description": "Norwegian Elkhounds are a friendly, exuberant breed. Learn more about this strong-willed dog and how best to care for them.",
+              "breadcrumb": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/norwegian-elkhound/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://phcms.hlth.prd.aws.chewy.cloud/breed/norwegian-elkhound/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/norwegian-elkhound/#primaryimage",
+              "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11163940/202106NorwegianElkhound-FeaturedImage.jpg",
+              "contentUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11163940/202106NorwegianElkhound-FeaturedImage.jpg",
+              "width": 1440,
+              "height": 865
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/norwegian-elkhound/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://phcms.hlth.prd.aws.chewy.cloud/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Norwegian Elkhound"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/",
+              "name": "Chewy",
+              "description": "",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            }
+          ]
+        }
+      },
+      "yoast_meta": {
+        "yoast_wpseo_title": "",
+        "yoast_wpseo_metadesc": "",
+        "yoast_wpseo_canonical": ""
+      },
+      "_links": {
+        "self": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed/468",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/types/breed"
+          }
+        ],
+        "acf:attachment": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/464"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/463"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/462"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/461"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/460"
+          }
+        ],
+        "wp:featuredmedia": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/467"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media?parent=468"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "pet_type",
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/pet_type?post=468"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ]

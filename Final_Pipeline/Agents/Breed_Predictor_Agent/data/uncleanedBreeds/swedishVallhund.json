@@ -1,0 +1,321 @@
+[
+    {
+      "id": 874,
+      "date": "2021-06-04T14:14:43",
+      "date_gmt": "2021-06-04T14:14:43",
+      "guid": {
+        "rendered": "https://haproxy.use1.lgcy.prd.aws.chewy.cloud/eks/ns/pet-health/pet-health-content-backend/breed/swedish-vallhund/"
+      },
+      "modified": "2025-05-05T14:22:14",
+      "modified_gmt": "2025-05-05T14:22:14",
+      "slug": "swedish-vallhund",
+      "status": "publish",
+      "type": "breed",
+      "link": "https://phcms.hlth.prd.aws.chewy.cloud/breed/swedish-vallhund/",
+      "title": {
+        "rendered": "Swedish Vallhund"
+      },
+      "featured_media": 873,
+      "template": "",
+      "pet_type": [],
+      "class_list": [
+        "post-874",
+        "breed",
+        "type-breed",
+        "status-publish",
+        "has-post-thumbnail",
+        "hentry"
+      ],
+      "acf": {
+        "breed_snapshot_best_for": "\u003Cp\u003ESmall-but-mighty Swedish Vallhunds are best for active households (small and large!), and they thrive with pet parents and families who enjoy spending time outdoors. These smart, energetic and friendly dogs need regular exercise and mental stimulation, and they especially love training challenges.\u003C/p\u003E",
+        "alt_image_text": "\u003Cp\u003EAlways up for a run or a chat, the Swedish Vallhund bounds through life with energy and ease.\u003C/p\u003E",
+        "breed_intro": "Need someone to help you take over the world? Look no further than the newest Scandinavian superhero (no, not Thor), the small but mighty Swedish Vallhund. Bred to be herding dogs, these brave little warriors have an adventurous spirit and will follow you and your family anywhere you want to go, making friends every step of the way. You may not want to share all your secrets, as they are likely to spill your plans for world domination. (They just can't help it. They \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/how-to-train-dog-not-to-bark\"\u003Elove to talk\u003C/a\u003E!) But when these pups aren't helping you conquer the world, they'll curl up in your lap, making sure to conquer your heart.",
+        "breed_related_products_product_card_set": null,
+        "breed_snapshot_temperament": "\u003Cp\u003EFearless, Quick Learner, Loyal\u003C/p\u003E",
+        "what_does_this_breed_look_like_weight": "\u003Cp\u003EMale: 20-35 pounds\u003C/p\u003E\u003Cp\u003EFemale: 20-35 pounds\u003C/p\u003E",
+        "what_does_this_breed_look_like_height": "\u003Cp\u003EMale: 12.5-13.75 inches\u003C/p\u003E\u003Cp\u003EFemale: 11.5-12.75 inches\u003C/p\u003E",
+        "breed_snapshot_life_expectancy": "\u003Cp\u003E12 to 15 years\u003C/p\u003E",
+        "breed_snapshot_maintenance_level": "\u003Cp\u003EMedium\u003C/p\u003E",
+        "breed_characteristics_friendliness": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_snapshot_coat_color": "\u003Cp\u003EGray, Red\u003C/p\u003E",
+        "breed_snapshot_shed_level": "\u003Cp\u003EHigh\u003C/p\u003E",
+        "in_article_video": null,
+        "breed_characteristics": "These traits are rated on a scale of 1-5 with 1 being the lowest and 5 being the highest. Remember: Dogs are individuals, and not all dogs, even those of the same breed, will exhibit all the same qualities.",
+        "breed_characteristics_exercise_needs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_health_issues": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_barking_tendencies": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_grooming_needs": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_shedding_level": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_training_needs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_kids": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_cats": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_for_apartments_small_homes": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_energy_level": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_other_dogs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_playfulnesss": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_cold_weather": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_warm_weather": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_for_first_time_parents": "\u003Cp\u003E3\u003C/p\u003E",
+        "how_do_i_look_card_image": 872,
+        "what_does_this_breed_look_like": "Swedish Vallhunds are stocky little dogs with short legs and long bodies, similar to \u003Ca href=\"https://www.chewy.com/education/dog-breeds/pembroke-welsh-corgi/\"\u003ECorgis\u003C/a\u003E. Their ears stand at attention just waiting to hear you coming through the door. Their colors include gray and red, and they have signature harness markings (fur that is a different color from the rest of their coat in a pattern that looks like they're wearing a harness) with dapper patches of white on their chest. They may or may not have a tail (but they'll be wagging it if they do!).",
+        "what_does_this_breed_look_like_ears": "\u003Cp\u003ESwedish Vallhund pointed ears are shaped like a \"V,\" and they're always alert and at attention.\u003C/p\u003E",
+        "what_does_this_breed_look_like_eyes": "\u003Cp\u003ETheir eyes are oval and dark brown with black rims that perfectly accent their soulful expression.\u003C/p\u003E",
+        "what_does_this_breed_look_like_nose": "\u003Cp\u003EVallhunds have black noses.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_length": "\u003Cp\u003ESwedish Vallhunds have a medium-length double coat with a rough top coat and a soft, dense undercoat. They have longer hair on the neck, chest and on the backs of their legs.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_color": "\u003Cp\u003EThey have sable-patterned coats that are lighter at the base and darker at the tip in shades of red or gray and all shades in between. Patches of white may appear on their legs and chest.\u003C/p\u003E",
+        "what_does_this_breed_look_like_tail": "\u003Cp\u003EThe Swedish Vallhund tail comes in all sizes, from long and fluffy to a simple stub or bob.\u003C/p\u003E",
+        "h2_breed_temperament": "Remember your classmate who always got yelled at by the teacher for talking in class? (Maybe it was you.) The Swedish Vallhund is that classmate, albeit in dog form. Whether announcing guests at the door or simply telling you about their day, one of their most charming traits is their need to communicate whatever is on their mind using their outside voice. (In addition to barking, they'll \"talk\" with silly whines and groans.) A \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/how-to-train-dog-not-to-bark\"\u003Ebit of training\u003C/a\u003E can easily help teach them to curb their endless canine chatter.\n\nProperly \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/positively-trained-puppy-socialization-dos-and-donts\"\u003Esocialized\u003C/a\u003E Vallhund dogs are happy to introduce you to new friends wherever you go (whether you were looking for new friends or not).&nbsp;Friendliness is one of their best qualities, but know that Swedish Vallhunds will not hesitate tell you if they feel you're stepping out of line. Some might call it being a bit bossy, but the Vallhund prefers to see it as their duty as your loyal pal—and maybe a little shout-out to their deeply ingrained herding instinct from their cattle dog days.\n\nSwedish Vallhunds and kids are a natural fit, as long as the two-legged little ones are taught how to gently play with their new four-legged sibling. Vallhunds also do well with cats and other pets in the home. But while family pets get the Vallhund's love, Vallhunds take their duties as head of the neighborhood watch group seriously, and animals outside the home—whether the neighborhood cat or your neighbor's dog—may not be as welcomed. So, be sure to socialize and train your Vallhund.",
+        "h2_how_to_care_for_a_breed": "With their hearty Viking genes, Swedish Vallhunds are generally healthy, muscular dogs who are eager to make you their new BFF. That doesn't mean everything will be a walk in the park with your new four-legged family member (though expect lots of those) because this is a high-energy breed who needs lots of playtime, training and activity.",
+        "grooming": "Grooming a Swedish Vallhund is pretty simple compared to more high-maintenance dog breeds, but these dogs do shed. Here are some grooming tips for your Vallhund:\n\u003Cul\u003E\n \t\u003Cli\u003E\u003Cstrong\u003EBrushing:\u003C/strong\u003E To prevent a cloud of fluffy fur in your living room, give your Swedish Vallhund dog a \u003Ca href=\"https://www.chewy.com/education/dog/grooming/brushing-a-dog\"\u003Egood brushing\u003C/a\u003E at least once a week (two to three times a week is ideal). For everyday brushing, a \u003Ca href=\"https://www.chewy.com/f/slicker-brush-dog-brushes-combs_c356_f70v83792\" target=\"_blank\" rel=\"noopener\"\u003Eslicker brush\u003C/a\u003E will remove excess fur and knots, but when they shed more heavily in the spring and fall, you may find that a \u003Ca href=\"https://www.chewy.com/f/dog-deshedding-tools_c355_f70v83787\" target=\"_blank\" rel=\"noopener\"\u003Edeshedding brush\u003C/a\u003E is your best bet to remove the mounds of fur that your Vallhund emits.\u003C/li\u003E\n \t\u003Cli\u003E\u003Cstrong\u003EBathing:\u003C/strong\u003E Their rough outer coat is pretty good about repelling dirt, so unless your Vallhund is rolling in mud puddles, you'll generally only need to \u003Ca href=\"https://www.chewy.com/education/dog/grooming/how-to-bathe-a-dog-step-by-step-tips-from-a-professional-groomer\"\u003Ebathe your dog\u003C/a\u003E once a month to keep their coat clean.\u003C/li\u003E\n \t\u003Cli\u003E\u003Cstrong\u003EDental care:\u003C/strong\u003E When it comes to keeping your Vallhund's pearly whites clean, \u003Ca href=\"https://www.chewy.com/education/dog/grooming/health-wellness-how-to-brush-your-dogs-teeth-live-to-tell-the-tale\"\u003Ebrush their teeth\u003C/a\u003E daily. Start your Vallhund puppy with twice-a-week brushing to get them used to it. And don't forget to visit your vet for a yearly dental cleaning.\u003C/li\u003E\n \t\u003Cli\u003E\u003Cstrong\u003ENail trimming:\u003C/strong\u003E If you hear the pitter-patter of little nails on your floors when your Vallhund is by your side (which is more often than not), it's probably time for a \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/guide-trimming-dogs-nails\"\u003Enail trimming\u003C/a\u003E, which you should do every other week.\u003C/li\u003E\n\u003C/ul\u003E",
+        "training": "One of the most endearing Swedish Vallhund characteristics is their need to please, which makes \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/sit-stay-and-beyond-weve-got-the-essential-guide-to-basic-dog-obedience-training\"\u003Etraining these pups\u003C/a\u003E a pleasure. Plus, their intelligence is off the charts, and these smart cookies learn quickly and are happily motivated by (dog) cookies or toys. These pups do have a sensitive streak, so always keep training sessions upbeat and fun to avoid hurt feelings.\n\nYou may see some stubbornness when it comes to \u003Ca href=\"https://www.chewy.com/education/dog/new-dog/how-to-potty-train-your-dog-in-7-days\"\u003Epotty training\u003C/a\u003E. Small pups are often harder to train; they have small bladders and need more frequent potty breaks, and their cues aren't as obvious as a bigger dog, like the \u003Ca href=\"https://www.chewy.com/education/dog-breeds/greyhound/\"\u003EGreyhound\u003C/a\u003E. Encouragement, rewards for success and a consistent schedule are keys to acing this skill. And be sure to take your pup out about 20 minutes after every meal and bring treats with you. (Reward them outside; don't wait to come in.)\n\nAnd while their herding instincts may make them inclined to nip at your heels, that's a behavior you can nip in the bud with positive training—rewarding with treats, toys or praise the behavior you want (no nips) and ignoring those you don't (nipped ankles). The same goes for their chatty Cathy tendencies when they start talking (and talking, and talking ...) at inappropriate times. Talking when people enter your yard? Tell me more! Talking during a movie? Stop trying to spoil the ending!",
+        "diet_nutrition": "When it comes to a Swedish Vallhund's diet, they typically do well on a high-quality commercial dog food. Be sure to factor in your dog's age and choose a formula that fits their stage in life (puppy, adult, senior). When choosing the best food, consult with your veterinarian. Your vet can give you a good idea of how much and how often to feed your pooch based on their small size and age.\r\n\r\nBecause Vallhunds are such active dogs who are always on the move, a high-protein diet may benefit them. But again, consult with your veterinarian, as they are in the best position to help you pick the right food for your dog based on their individual needs.\r\n\r\nAlthough treats are a great training aid with Vallhunds, remember that too much of a good thing can lead to a portly pup. While Vallhund dogs don't suffer from back problems as much as their distant cousins, the Corgis, it's important to keep them at a healthy weight (between 20 to 35 pounds) to prevent issues with mobility.",
+        "exercise": "Although the Swedish Vallhund might be short in stature, they are big in exercise needs and high in energy, so plan on spending up to an hour every day giving this type of farm dog the exercise they need.\n\nAs their pet parent, be ready to shower them with praise as they show off in dog sports like \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/dog-agility-training-tips\"\u003Eagility\u003C/a\u003E, which helps them burn off excess energy while bonding with you and engaging their minds and muscular little bodies (win-win-win).\n\nGames of \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/how-to-teach-dog-to-fetch\"\u003Efetch\u003C/a\u003E, \u003Ca href=\"https://www.flyball.org/aboutflyball.html\" target=\"_blank\" rel=\"noopener\"\u003Eflyball\u003C/a\u003E, tracking and barn hunt are all favorites of Vallhunds who are known for their lightning-fast speed, as are herding competitions (which they dominate with their mad skills). And of course, daily walks are a must.\n\nNot all activity has to be physical. These dogs love engaging with \u003Ca href=\"https://www.chewy.com/b/puzzle-toys-games-2335\" target=\"_blank\" rel=\"noopener\"\u003Epuzzle toys\u003C/a\u003E and playing hide-and-seek with you indoors too. (They \u003Cem\u003Ewill\u003C/em\u003E find you!) This keeps these problem-solving pups on their toes mentally, giving their minds a good daily workout.",
+        "ideal_environment": "While a lot of land gives the Vallhund space to happily herd all those children/sheep/unsuspecting visitors you've got hanging around, these pups are just as content living in the big city as long as they have plenty of \u003Ca href=\"https://www.chewy.com/b/toys-315\" target=\"_blank\" rel=\"noopener\"\u003Etoys to play with\u003C/a\u003E and time exploring the outdoors with you, their new bestie.\r\n\r\nSwedish Vallhunds are loyal family dogs who get along well with children (under proper supervision and with proper training) and other pets, including cats. Remember to teach your kiddos how to politely interact with your Swedish Vallhund puppy, though, before introducing them. And when raising a Swedish Vallhund puppy, socialize them to strangers to ensure they turn into a social butterfly instead of Sergeant No Fun when company visits.\r\n\r\nLike their Scandinavian forefathers, these dogs do well in cooler climates. Just don't expect their short legs to get them through huge snowdrifts. They also thrive in warmer climates, too, but shouldn't be left out in extreme weather (both cold and warm).",
+        "h2_breed_health": "\u003Cspan data-contrast=\"none\"\u003ESwedish Vallhunds live fairly long lives, with a life expectancy averaging 12-15 years. While they are a healthy breed, there are some health issues for you to be aware of—this way you can look for signs of them early on and get them treated quickly.\u003C/span\u003E\u003Cspan data-ccp-props=\"{}\"\u003E \u003C/span\u003E\r\n\u003Cul\u003E\r\n \t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559684&quot;:-2,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;multilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"1\" data-aria-level=\"1\"\u003E\u003Ca href=\"https://www.petmd.com/dog/condition/progressive-retinal-atrophy-in-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EProgressive Retinal Atrophy\u003C/span\u003E\u003C/b\u003E\u003C/a\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003E (PRA)\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E: Vallhunds suffer from a unique form of PRA known as Swedish Vallhund Retinopathy. \u003C/span\u003E\u003Ca href=\"http://www.swedishvallhund.com/wp-content/uploads/2011/02/NewsletterUpdate2007.pdf\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003EOne study\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E found that up to 10 percent of Vallhunds were found to have this hereditary eye condition. Retinopathy can cause night-blindness in dogs and other vision issues, usually starting around the age of 10. Fortunately, \u003C/span\u003E\u003Ca href=\"http://www.swedishvallhund.com/wp-content/uploads/2011/02/Retinopathy_research_letter.pdf\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Eresearchers have identified the genetic markers\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E behind this disease, and most reputable breeders now screen each Swedish Vallhund puppy for retinopathy. If you notice your dog is a bit reluctant to go out at night, a visit to a veterinary ophthalmologist can determine whether your dog has this condition and the best ways to mitigate it.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;335559685&quot;:1117}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n \t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559684&quot;:-2,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;multilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"2\" data-aria-level=\"1\"\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/eye/c_dg_cataract\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003ECataracts\u003C/span\u003E\u003C/b\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E: Another eye issue the Vallhund breed may develop in their later years is cataracts, sometimes as a result of retinopathy. When proteins clump together within the lenses of the Vallhund’s eyes, it can block out the light and eventually cause blindness. Surgery is typically recommended for cataracts.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;335559685&quot;:1117}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n \t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559684&quot;:-2,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;multilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"3\" data-aria-level=\"1\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EOther Eye Issues\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E: The Swedish Vallhund breed can suffer from several eye conditions besides retinopathy and cataracts, including \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/eyes/c_dg_trichiasis_distichiasis_ectopic_cilia\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Edistichiasis\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, corneal dystrophy, Persistent Pupillary Membranes (PPM), vitreous degeneration and retinal dysplasia. These conditions can affect your dog’s vision or cause their eyes to become irritated. A veterinary ophthalmologist can give you the best treatment options for these conditions after an exam.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;335559685&quot;:1117}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n \t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559684&quot;:-2,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;multilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"4\" data-aria-level=\"1\"\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/c_dg_hip_dysplasia\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EHip Dysplasia\u003C/span\u003E\u003C/b\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E: This is a genetic condition that is caused by the malformation of the hip sockets. It can lead to trouble walking and arthritis over time. Treatments include surgery, \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/b/hip-joint-1568\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Ejoint supplements\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E and even lifestyle changes such as weight management.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;335559685&quot;:1117}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\u003C/ul\u003E",
+        "h2_breed_history": "The Swedish Vallhund origin story starts 1,000-1,200 years ago when the Vikings were exploring the world with their Spitz dogs. At some point, these dogs mixed with the Welsh Corgis in Britain and the Swedish Vallhund breed or \"Vikingarnas Dog\" was born.\r\n\r\nOriginally bred for herding cattle and other livestock, these hardy working dogs were favorites on Swedish farms until 1942, when the breed almost disappeared. It was then that Bjorn von Rosen and K. G. Zettersten started the breeding program that would bring this dog back from the brink of extinction. Soon after, in 1943, the breed was officially recognized by the Swedish Kennel Club.\r\n\r\nIt wouldn't be long before the little Viking dogs or Vastgotaspets (as they were called in Sweden) came to the United States. In 1983, the first of several Vallhunds was brought to the US, and soon after, the first litter of Swedish Vallhund puppies was whelped by Marilyn Thell at the Jonricker Kennel in 1986. Later, the American Kennel Club officially recognized the Swedish Vallhund (literally translated to Swedish herding dog) in 2007 as its 157th breed.\r\n\r\nAlthough the Swedish Vallhund breed is rarer than most, you can find a list of reputable breeders on the \u003Ca href=\"https://marketplace.akc.org/puppies/swedish-vallhund?breed=251&amp;page=1\" target=\"_blank\" rel=\"noopener\"\u003EAmerican Kennel Club's website\u003C/a\u003E. What's the average price of a Swedish Vallhund? Depending on the breeder, expect to spend anywhere from $1,400 to $2,400 for a pup. Breeders approved by the AKC typically screen their dogs for health and temperament issues; your dog will likely come with pedigree papers, too. You can also reach out to the \u003Ca href=\"http://www.swedishvallhund.com/breed-information/rescue\" target=\"_blank\" rel=\"noopener\"\u003ESwedish Vallhund Club of America's rescue coordinator\u003C/a\u003E to adopt a Vallhund; check the listings of your local animal shelter; or search \u003Ca href=\"https://www.chewy.com/g/dog-swedish-vallhund_ga1\" target=\"_blank\" rel=\"noopener\"\u003EChewy’s database of adoptable dogs\u003C/a\u003E in your area.",
+        "expert_attribution": "\u003Ci\u003EExpert input provided by veterinarian Dr. Sara Ochoa, DVM, a veterinarian at \u003Ca title=\"https://protect-us.mimecast.com/s/yEnZCmZj6jUjPD1vgfDOBLV?domain=animalhospitalwm.net\" href=\"http://www.animalhospitalwm.net/\" target=\"_blank\" rel=\"nofollow noopener\"\u003EAnimal Hospital of West Monroe\u003C/a\u003E in West Monroe, Louisiana and the co-founder of \u003Ca class=\"\" title=\"https://protect-us.mimecast.com/s/p9jhCn5kXkU73jlnPTp6q-v?domain=howto-pets.com\" href=\"https://www.howto-pets.com/\" target=\"_blank\" rel=\"nofollow noopener\"\u003EHow To Pets\u003C/a\u003E; Rebekah James, AKC Breeder of Merit, dog trainer, and Regional East Contact for the \u003Ca href=\"http://www.swedishvallhund.com/\" target=\"_blank\" rel=\"noopener\"\u003ESwedish Vallhund Club of America\u003C/a\u003E (whose Vallhund Grayson won Best of Breed at the 2020 AKC National Championship); and Joan Hunter Mayer, MBA, CTC, CPDT-KA, CBCC-KA, CNWI, CSAT, certified professional dog trainer of \u003Ca href=\"https://inquisitivecanine.com/\" target=\"_blank\" rel=\"noopener\"\u003EThe Inquisitive Canine\u003C/a\u003E.\u003C/i\u003E\r\n\r\n\u003Cem\u003EBreed characteristic ratings provided by veterinarian Dr. Sarah J. Wooten, DVM, CVJ, a veterinarian at \u003Ca href=\"https://sheepdraw.com/\" target=\"_blank\" rel=\"noopener\"\u003ESheep Draw Veterinary Hospital\u003C/a\u003E in Greeley, Colorado; dog trainer and behavior consultant Irith Bloom, CPDT-KSA, CBCC-KA, CDBC, owner of \u003Ca href=\"https://thesophisticateddog.com/\" target=\"_blank\" rel=\"noopener\"\u003EThe Sophisticated Dog, LLC\u003C/a\u003E, in Los Angeles; and certified animal behavior consultant \u003Ca href=\"https://shojai.com/\" target=\"_blank\" rel=\"noopener\"\u003EAmy Shojai\u003C/a\u003E, CABC, in Sherman, Texas. \u003C/em\u003E\r\n\r\n\u003Cem\u003EThe health content was medically reviewed by Chewy vets.\u003C/em\u003E",
+        "facebook_social_snippet_with_cta": "\u003Cp\u003ELooking for a dog with a big personality in a small package? These jubilant little pups with a zest for life love to play and make great family dogs. See if a Swedish Vallhund puppy is your ideal match by checking out our complete guide.\u003C/p\u003E",
+        "species": "\u003Cp\u003EDog\u003C/p\u003E",
+        "h2_faqs": "\u003Ch3\u003EHow do you pronounce Swedish Vallhund?\u003C/h3\u003E\nSwedish Vallhund is pronounced s\u003Cem\u003Ewee-dish val-HUND\u003C/em\u003E. This unique name is based on the breed's Swedish background, and the word \"vallhund\" is Swedish for \"herding dog.\" The dog was previously known as the Vikingarnas Hund—which is quite the mouthful (and one of the many cool Swedish Vallhund facts). This phrase translated to \"Viking Dog.\"\n\u003Ch3\u003EAre Swedish Vallhunds Corgis?\u003C/h3\u003E\nSwedish Vallhunds are not Corgis. They have some very similar characteristics to Welsh Corgis, but they are not the same breed. The Vallhund is thought to have originally been a cross between Scandinavian spitz dogs and Welsh Corgis. Their interbreeding occurred sometime between the 8th and 11th centuries, when the Vikings raided and settled into many parts of Britain. So, Swedish Vallhunds are distant cousins to Corgis.\n\u003Ch3\u003EDo Swedish Vallhunds shed?\u003C/h3\u003E\nYes, Swedish Vallhunds do tend to shed a lot. You'll find that Swedish Vallhund shedding is at its worst twice a year (fall and spring). These dogs have a thick double coat, and when the weather changes, these dogs fully shed their fluffy undercoat and will need more frequent brushing during this time. Otherwise, expect large tufts of fur to cover your couch.\n\u003Ch3\u003EAre Swedish Vallhunds good family dogs?\u003C/h3\u003E\nYes, Swedish Vallhund dogs are good family dogs. They get along with kids and other pets, including cats, who are part of the family. But because they were bred as herding dogs, expect a bit of nipping and nudging at your heels by your pup to keep you and your family within sight (though this can be discouraged with training).\n\u003Ch3\u003EDo Swedish Vallhunds bark a lot?\u003C/h3\u003E\nYes, Swedish Vallhunds do bark a lot. This Viking herding dog may also alert you to everything from suspicious activity outside to the neighborhood cat waltzing by.\n\u003Ch3\u003EWhat are the most popular Swedish Vallhund names?\u003C/h3\u003E\nThe most popular Swedish Vallhund dog names usually allude to their Scandinavian heritage (and possibly your favorite Disney/Marvel movie), including Elsa, Anna, Astrid, Wilma, Signe, Sophie, Kristoff, Hans, Olaf, Bjorn, Thor, Odin, Loki and Axel. \u003Ca href=\"https://www.chewy.com/education/dog/general/top-dog-names\"\u003EGet more dog names\u003C/a\u003E.",
+        "faq_items": [
+          {
+            "faq_title": "How do you pronounce Swedish Vallhund?",
+            "faq_content": "Swedish Vallhund is pronounced s\u003Cem\u003Ewee-dish val-HUND\u003C/em\u003E. This unique name is based on the breed's Swedish background, and the word \"vallhund\" is Swedish for \"herding dog.\" The dog was previously known as the Vikingarnas Hund—which is quite the mouthful (and one of the many cool Swedish Vallhund facts). This phrase translated to \"Viking Dog.\""
+          },
+          {
+            "faq_title": "Are Swedish Vallhunds Corgis?",
+            "faq_content": "Swedish Vallhunds are not Corgis. They have some very similar characteristics to Welsh Corgis, but they are not the same breed. The Vallhund is thought to have originally been a cross between Scandinavian spitz dogs and Welsh Corgis. Their interbreeding occurred sometime between the 8th and 11th centuries, when the Vikings raided and settled into many parts of Britain. So, Swedish Vallhunds are distant cousins to Corgis."
+          },
+          {
+            "faq_title": "Do Swedish Vallhunds shed?",
+            "faq_content": "Yes, Swedish Vallhunds do tend to shed a lot. You'll find that Swedish Vallhund shedding is at its worst twice a year (fall and spring). These dogs have a thick double coat, and when the weather changes, these dogs fully shed their fluffy undercoat and will need more frequent brushing during this time. Otherwise, expect large tufts of fur to cover your couch."
+          },
+          {
+            "faq_title": "Are Swedish Vallhunds good family dogs?",
+            "faq_content": "Yes, Swedish Vallhund dogs are good family dogs. They get along with kids and other pets, including cats, who are part of the family. But because they were bred as herding dogs, expect a bit of nipping and nudging at your heels by your pup to keep you and your family within sight (though this can be discouraged with training)."
+          },
+          {
+            "faq_title": "Do Swedish Vallhunds bark a lot?",
+            "faq_content": "Yes, Swedish Vallhunds do bark a lot. This Viking herding dog may also alert you to everything from suspicious activity outside to the neighborhood cat waltzing by."
+          },
+          {
+            "faq_title": "What are the most popular Swedish Vallhund names?",
+            "faq_content": "The most popular Swedish Vallhund dog names usually allude to their Scandinavian heritage (and possibly your favorite Disney/Marvel movie), including Elsa, Anna, Astrid, Wilma, Signe, Sophie, Kristoff, Hans, Olaf, Bjorn, Thor, Odin, Loki and Axel. \u003Ca href=\"https://www.chewy.com/education/dog/general/top-dog-names\"\u003EGet more dog names\u003C/a\u003E."
+          }
+        ],
+        "select_related_breeds": [
+          {
+            "selected_related_breed": 866,
+            "characteristic": "breed_characteristics_friendliness"
+          },
+          {
+            "selected_related_breed": 341,
+            "characteristic": "breed_characteristics_exercise_needs"
+          },
+          {
+            "selected_related_breed": 738,
+            "characteristic": "breed_characteristics_shedding_level"
+          },
+          {
+            "selected_related_breed": 436,
+            "characteristic": "breed_characteristics_good_with_kids"
+          },
+          {
+            "selected_related_breed": 979,
+            "characteristic": "breed_characteristics_training_needs"
+          },
+          {
+            "selected_related_breed": 1098,
+            "characteristic": "breed_characteristics_good_with_cats"
+          }
+        ],
+        "enable_featured_gallery": [
+          "enable_featured_gallery"
+        ],
+        "featured_gallery_images": [867, 868, 869, 870]
+      },
+      "yoast_head": "\u003C!-- This site is optimized with the Yoast SEO plugin v23.8 - https://yoast.com/wordpress/plugins/seo/ --\u003E\n\u003Ctitle\u003ESwedish Vallhund Breed: Characteristics, Care &amp; Photos | Chewy\u003C/title\u003E\n\u003Cmeta name=\"description\" content=\"Swedish Vallhunds are fearless, loyal and brimming with personality. Get all the information about this pup in our Swedish Vallhund guide.\" /\u003E\n\u003Cmeta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" /\u003E\n\u003Clink rel=\"canonical\" href=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/swedish-vallhund/\" /\u003E\n\u003Cmeta property=\"og:locale\" content=\"en_US\" /\u003E\n\u003Cmeta property=\"og:type\" content=\"article\" /\u003E\n\u003Cmeta property=\"og:title\" content=\"Swedish Vallhund Breed: Characteristics, Care &amp; Photos | Chewy\" /\u003E\n\u003Cmeta property=\"og:description\" content=\"Swedish Vallhunds are fearless, loyal and brimming with personality. Get all the information about this pup in our Swedish Vallhund guide.\" /\u003E\n\u003Cmeta property=\"og:url\" content=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/swedish-vallhund/\" /\u003E\n\u003Cmeta property=\"og:site_name\" content=\"Chewy\" /\u003E\n\u003Cmeta property=\"article:modified_time\" content=\"2025-05-05T14:22:14+00:00\" /\u003E\n\u003Cmeta property=\"og:image\" content=\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11170256/202106Swedish-Vallhund-FeaturedImage.jpg\" /\u003E\n\t\u003Cmeta property=\"og:image:width\" content=\"1440\" /\u003E\n\t\u003Cmeta property=\"og:image:height\" content=\"865\" /\u003E\n\t\u003Cmeta property=\"og:image:type\" content=\"image/jpeg\" /\u003E\n\u003Cmeta name=\"twitter:card\" content=\"summary_large_image\" /\u003E\n\u003Cscript type=\"application/ld+json\" class=\"yoast-schema-graph\"\u003E{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/swedish-vallhund/\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/swedish-vallhund/\",\"name\":\"Swedish Vallhund Breed: Characteristics, Care & Photos | Chewy\",\"isPartOf\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/swedish-vallhund/#primaryimage\"},\"image\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/swedish-vallhund/#primaryimage\"},\"thumbnailUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11170256/202106Swedish-Vallhund-FeaturedImage.jpg\",\"datePublished\":\"2021-06-04T14:14:43+00:00\",\"dateModified\":\"2025-05-05T14:22:14+00:00\",\"description\":\"Swedish Vallhunds are fearless, loyal and brimming with personality. Get all the information about this pup in our Swedish Vallhund guide.\",\"breadcrumb\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/swedish-vallhund/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://phcms.hlth.prd.aws.chewy.cloud/breed/swedish-vallhund/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/swedish-vallhund/#primaryimage\",\"url\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11170256/202106Swedish-Vallhund-FeaturedImage.jpg\",\"contentUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11170256/202106Swedish-Vallhund-FeaturedImage.jpg\",\"width\":1440,\"height\":865},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/swedish-vallhund/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://phcms.hlth.prd.aws.chewy.cloud/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Swedish Vallhund\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/\",\"name\":\"Chewy\",\"description\":\"\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"}]}\u003C/script\u003E\n\u003C!-- / Yoast SEO plugin. --\u003E",
+      "yoast_head_json": {
+        "title": "Swedish Vallhund Breed: Characteristics, Care & Photos | Chewy",
+        "description": "Swedish Vallhunds are fearless, loyal and brimming with personality. Get all the information about this pup in our Swedish Vallhund guide.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://phcms.hlth.prd.aws.chewy.cloud/breed/swedish-vallhund/",
+        "og_locale": "en_US",
+        "og_type": "article",
+        "og_title": "Swedish Vallhund Breed: Characteristics, Care & Photos | Chewy",
+        "og_description": "Swedish Vallhunds are fearless, loyal and brimming with personality. Get all the information about this pup in our Swedish Vallhund guide.",
+        "og_url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/swedish-vallhund/",
+        "og_site_name": "Chewy",
+        "article_modified_time": "2025-05-05T14:22:14+00:00",
+        "og_image": [
+          {
+            "width": 1440,
+            "height": 865,
+            "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11170256/202106Swedish-Vallhund-FeaturedImage.jpg",
+            "type": "image/jpeg"
+          }
+        ],
+        "twitter_card": "summary_large_image",
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/swedish-vallhund/",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/swedish-vallhund/",
+              "name": "Swedish Vallhund Breed: Characteristics, Care & Photos | Chewy",
+              "isPartOf": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/swedish-vallhund/#primaryimage"
+              },
+              "image": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/swedish-vallhund/#primaryimage"
+              },
+              "thumbnailUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11170256/202106Swedish-Vallhund-FeaturedImage.jpg",
+              "datePublished": "2021-06-04T14:14:43+00:00",
+              "dateModified": "2025-05-05T14:22:14+00:00",
+              "description": "Swedish Vallhunds are fearless, loyal and brimming with personality. Get all the information about this pup in our Swedish Vallhund guide.",
+              "breadcrumb": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/swedish-vallhund/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://phcms.hlth.prd.aws.chewy.cloud/breed/swedish-vallhund/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/swedish-vallhund/#primaryimage",
+              "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11170256/202106Swedish-Vallhund-FeaturedImage.jpg",
+              "contentUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11170256/202106Swedish-Vallhund-FeaturedImage.jpg",
+              "width": 1440,
+              "height": 865
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/swedish-vallhund/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://phcms.hlth.prd.aws.chewy.cloud/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Swedish Vallhund"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/",
+              "name": "Chewy",
+              "description": "",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            }
+          ]
+        }
+      },
+      "yoast_meta": {
+        "yoast_wpseo_title": "",
+        "yoast_wpseo_metadesc": "",
+        "yoast_wpseo_canonical": ""
+      },
+      "_links": {
+        "self": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed/874",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/types/breed"
+          }
+        ],
+        "acf:attachment": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/870"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/869"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/868"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/867"
+          }
+        ],
+        "wp:featuredmedia": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/873"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media?parent=874"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "pet_type",
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/pet_type?post=874"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ]

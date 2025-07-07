@@ -1,0 +1,329 @@
+[
+    {
+      "id": 16344,
+      "date": "2025-04-18T16:24:37",
+      "date_gmt": "2025-04-18T16:24:37",
+      "guid": {
+        "rendered": "https://phcms.hlth.prd.aws.chewy.cloud/?post_type=breed&#038;p=16344"
+      },
+      "modified": "2025-05-05T14:20:12",
+      "modified_gmt": "2025-05-05T14:20:12",
+      "slug": "cockapoo",
+      "status": "publish",
+      "type": "breed",
+      "link": "https://phcms.hlth.prd.aws.chewy.cloud/breed/cockapoo/",
+      "title": {
+        "rendered": "Cockapoo"
+      },
+      "featured_media": 16347,
+      "template": "",
+      "pet_type": [],
+      "class_list": [
+        "post-16344",
+        "breed",
+        "type-breed",
+        "status-publish",
+        "has-post-thumbnail",
+        "hentry"
+      ],
+      "acf": {
+        "breed_snapshot_best_for": "\u003Cp\u003EThe Cockapoo, a cute cross between a Poodle and a Cocker Spaniel, is renowned for being gregarious and energetic. Part zoomie champion, part cuddle bug, this curly coated charmer is totally loyal to their favorite people and loves to meet new friends.\u003C/p\u003E",
+        "alt_image_text": "cockapoo dog breed",
+        "breed_intro": "\u003Cp\u003EPrepare yourself for a lifetime of wet kisses, \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/dogs-wag-tails\"\u003Etail wags\u003C/a\u003E, and unceasing affection—your Cockapoo is about to win your heart.\u003C/p\u003E\n\u003Cp\u003ECockapoos are a mix between a \u003Ca href=\"https://www.chewy.com/education/dog-breeds/cocker-spaniel\"\u003ECocker Spaniel\u003C/a\u003E and one of the three types of Poodle:\u003C/p\u003E\n\u003Cul\u003E\n\t\u003Cli\u003EA Toy Cockapoo has a \u003Ca href=\"https://www.chewy.com/education/dog-breeds/toy-poodle\"\u003EToy Poodle\u003C/a\u003E parent and often weighs under 12 pounds.\u003C/li\u003E\n\t\u003Cli\u003EA Mini Cockapoo has a \u003Ca href=\"https://www.chewy.com/education/dog-breeds/miniature-poodle\"\u003EMiniature Poodle\u003C/a\u003E parent, often weighing 12–20 pounds. This is the most common Cockapoo size.\u003C/li\u003E\n\t\u003Cli\u003EA Standard Cockapoo has a \u003Ca href=\"https://www.chewy.com/education/dog-breeds/poodle\"\u003EStandard Poodle\u003C/a\u003E parent and tips the scale at 20 pounds or more.\u003C/li\u003E\n\u003C/ul\u003E\n\u003Cp\u003ENo matter their size, Cockapoo dogs are full of personality, and will gladly greet any new companion (whether they are four-legged or two-legged) and insist they join in the fun.\u003C/p\u003E",
+        "breed_related_products_product_card_set": null,
+        "breed_snapshot_temperament": "\u003Cp\u003EFriendly, Energetic, Intelligent\u003C/p\u003E",
+        "what_does_this_breed_look_like_weight": "\u003Cp\u003E12–22 pounds\u003C/p\u003E",
+        "what_does_this_breed_look_like_height": "\u003Cp\u003E10–18 inches\u003C/p\u003E",
+        "breed_snapshot_life_expectancy": "\u003Cp\u003E14–18 years\u003C/p\u003E",
+        "breed_snapshot_maintenance_level": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_friendliness": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_snapshot_coat_color": "\u003Cp\u003EBlack, White, Buff, Cream, Apricot, Red, Chocolate, Parti-color, Phantom, Sable, Tricolor, Merle, Roan\u003C/p\u003E",
+        "breed_snapshot_shed_level": "\u003Cp\u003E2\u003C/p\u003E",
+        "in_article_video": null,
+        "breed_characteristics": "",
+        "breed_characteristics_exercise_needs": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_health_issues": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_barking_tendencies": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_grooming_needs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_shedding_level": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_training_needs": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_with_kids": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_with_cats": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_for_apartments_small_homes": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_energy_level": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_with_other_dogs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_playfulnesss": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_cold_weather": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_warm_weather": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_for_first_time_parents": "\u003Cp\u003E3\u003C/p\u003E",
+        "how_do_i_look_card_image": 16348,
+        "what_does_this_breed_look_like": "\u003Cp\u003EThe Cockapoo is a small- to medium-sized bundle of fluff with a cuddly, teddy bear–like look. Their soft wavy or curly coat; round, soulful eyes; and floppy ears make them extra adorable. Always full of energy and tail wags, these happy pups bring joy everywhere they go.\u003C/p\u003E",
+        "what_does_this_breed_look_like_ears": "\u003Cp\u003EThe long, floppy Cockapoo ears hang at the top of their head.\u003C/p\u003E",
+        "what_does_this_breed_look_like_eyes": "\u003Cp\u003ETheir round, expressive eyes are often brown, and convey the breed's kind and perceptive disposition.\u003C/p\u003E",
+        "what_does_this_breed_look_like_nose": "\u003Cp\u003ECockapoos usually have a brown or black nose, depending on the color of their coat.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_length": "\u003Cp\u003EA Cockapoo’s coat can range in length and texture, from short and curly to long and wavy, to somewhere in between.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_color": "\u003Cp\u003ECockapoos can be black, white, buff, cream, red, apricot, chocolate, and a variety of other colors. They could also be parti-colored (patches of color), roan (an even mix of white and colored hairs), merle (mottled patches of color), or phantom (black with brown markings).\u003C/p\u003E",
+        "what_does_this_breed_look_like_tail": "\u003Cp\u003ECockapoos typically have a medium-length tail. Their tail is sometimes docked like their Cocker Spaniel and Poodle parents, though this is a controversial practice that many groups, including the American Veterinary Medical Association, oppose.\u003C/p\u003E",
+        "h2_breed_temperament": "\u003Cp\u003ECockapoos are known for being happy, caring, and people-oriented, and they’re at their best when surrounded by family.\u003C/p\u003E\n\u003Cp\u003EAs social and \u003Ca href=\"https://www.chewy.com/education/dog/general/behavior-breeds-10-friendliest-dog-breeds\"\u003Efriendly dogs\u003C/a\u003E, they’re great with kids, welcoming to strangers, and usually get along well with other pets. All of these traits make Cockapoo puppies a great pick for first-time pet parents.\u003C/p\u003E\n\u003Cp\u003EThough they’re descended from working dogs (the Poodle and Cocker were both originally hunting dogs), Cockapoos are happier living the unemployed life. This way, they can focus their energy on the family they love. (That’s you!)\u003C/p\u003E\n\u003Cp\u003E\u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/walking-with-dog\"\u003ERegular strolls\u003C/a\u003E, belly rubs, and a comfortable spot on the sofa are non-negotiables for this \u003Ca href=\"https://www.chewy.com/education/dog/general/best-family-dogs\"\u003Efamily dog\u003C/a\u003E.\u003C/p\u003E",
+        "h2_how_to_care_for_a_breed": "\u003Cp\u003EAdorable, active, and people-oriented puppies, Cockapoos flourish in homes with lots of love and activity.\u003C/p\u003E\r\n\u003Cp\u003EThough they require regular grooming, exercise, and affection to remain happy and healthy, Cockapoos are often easy to train due to their smarts and eager-to-please personality.\u003C/p\u003E",
+        "grooming": "\u003Cp\u003EAs a Poodle mix, Cockapoos have been dubbed a \u003Ca href=\"https://chewy.com/education/hypoallergenic-dogs\"\u003E“hypoallergenic” dog\u003C/a\u003E (though there’s really no such thing). And while it’s true that Cockapoo dogs who take after their Poodle parent might not shed much, some with more Cocker Spaniel–like coats can still shed and trigger allergies in certain people.\u003C/p\u003E\n\u003Cp\u003ENo matter which of their parent’s coat they inherit, Cockapoos require regular grooming to be happy and healthy.&nbsp;\u003C/p\u003E\n\u003Cp\u003EHere’s a glimpse at a typical Cockapoo grooming routine:\u003C/p\u003E\n\u003Cul\u003E\n\t\u003Cli\u003E\u003Cstrong\u003EBrushing:\u003C/strong\u003E To avoid tangles and mats, it’s best to \u003Ca href=\"https://www.chewy.com/education/dog/grooming/brushing-a-dog\"\u003Ebrush your Cockapoo every day\u003C/a\u003E. Use a comb or brush that’s suitable for curly coats, like a \u003Ca href=\"https://www.chewy.com/safari-curved-coated-tips-long-hair/dp/869742\"\u003Eslicker brush\u003C/a\u003E.\u003C/li\u003E\n\t\u003Cli\u003E\u003Cstrong\u003EBathing\u003C/strong\u003E: \u003Ca href=\"https://www.chewy.com/education/dog/grooming/how-to-bathe-a-dog-step-by-step-tips-from-a-professional-groomer\"\u003EBathe your dog\u003C/a\u003E with a \u003Ca href=\"https://www.chewy.com/vetoquinol-itchy-dry-skin-aloe/dp/121099\"\u003Emild dog shampoo\u003C/a\u003E every four to six weeks.\u003C/li\u003E\n\t\u003Cli\u003E\u003Cstrong\u003EClipping\u003C/strong\u003E: To maintain their coat, most Cockapoos require a trim every six to eight weeks. For the popular \"puppy cut\" or other hairstyle, many pet parents use a professional groomer.\n\n\u003Cul\u003E\n\t\u003Cli\u003EAlong with your Cockapoo’s haircuts, a groomer can also take care of other tasks like bathing and nail trimming.\u003C/li\u003E\n\u003C/ul\u003E\n\u003C/li\u003E\n\t\u003Cli\u003E\u003Cstrong\u003EEar cleaning\u003C/strong\u003E: Use a \u003Ca href=\"https://www.petmd.com/dog/vet-verified/best-ear-cleaners-dogs\" target=\"_blank\" rel=\"noopener\"\u003Eveterinarian-approved ear cleaner\u003C/a\u003E once a week to maintain their ears, keeping them healthy and dry.\u003C/li\u003E\n\t\u003Cli\u003E\u003Cstrong\u003ENail trimming: \u003C/strong\u003ETo avoid irritation, overgrowth, or cracking, \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/guide-trimming-dogs-nails\"\u003Etrim your Cockapoo’s nails\u003C/a\u003E every two to four weeks. (When you hear their nails clacking across the floor, they need a trim.)\u003C/li\u003E\n\t\u003Cli\u003E\u003Cstrong\u003EDental care:\u003C/strong\u003E To help prevent \u003Ca href=\"https://www.chewy.com/education/cat/health-and-wellness/dental-disease-in-dogs\"\u003Edental disease\u003C/a\u003E, try to \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/basic-dental-care-tips-for-dogs\"\u003Ebrush their teeth\u003C/a\u003E \u003Cem\u003Eat least\u003C/em\u003E twice a week (but every day is best). You can also give your Cockapoo \u003Ca href=\"https://www.petmd.com/vet-verified/best-dental-chews-dogs\" target=\"_blank\" rel=\"noopener\"\u003Eveterinarian-recommended dental chews\u003C/a\u003E or oral hygiene products to keep their pearly whites healthy.\u003C/li\u003E\n\u003C/ul\u003E",
+        "training": "\u003Cp\u003EIf you’ve never trained a dog before, a Cockapoo might be a good pick. These dogs are bright and want to make their human happy—two traits that make them highly trainable.\u003C/p\u003E\n\u003Cp\u003EBut that’s not to say training will be a breeze. Like all dogs, Cockapoos need \u003Ca href=\"https://www.petmd.com/dog/behavior/how-to-train-a-dog-with-positive-reinforcement\" target=\"_blank\" rel=\"noopener\"\u003Epositive reinforcement\u003C/a\u003E, patience, and consistency to learn. Start with \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/sit-stay-and-beyond-weve-got-the-essential-guide-to-basic-dog-obedience-training\"\u003Eobedience basics\u003C/a\u003E like \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-sit\"\u003Esit\u003C/a\u003E, \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-stay\"\u003Estay\u003C/a\u003E, and \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-come\"\u003Ecome\u003C/a\u003E. From there, your Cockapoo can learn fun new tricks.\u003C/p\u003E\n\u003Cp\u003E\u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/positively-trained-puppy-socialization-dos-and-donts\"\u003EEarly, consistent socialization\u003C/a\u003E is also important for these fluffy companions; it builds their confidence and ensures they grow into well-adjusted adults who get along well with people, children, and other animals.\u003C/p\u003E\n\u003Cp\u003ERegularly exposing your Cockapoo puppy to new experiences, sounds, sights, and interactions will shape them into friendly, sociable companions. It also reduces the risk of anxiety or fearfulness later in life.\u003C/p\u003E",
+        "diet_nutrition": "\u003Cp\u003ECockapoos do best on a \u003Ca href=\"https://www.petmd.com/dog/vet-verified/best-dog-food\" target=\"_blank\" rel=\"noopener\"\u003Ehigh-quality, balanced dog food\u003C/a\u003E that’s appropriate for their age, size, and activity level. Look for a formula that’s \u003Ca href=\"https://www.petmd.com/dog/nutrition/What-Is-AAFCO-and-What-Does-It-Do\" target=\"_blank\" rel=\"noopener\"\u003EAAFCO-compliant\u003C/a\u003E to ensure it meets established nutritional standards. (Don’t worry, your vet can help you find the perfect dog food.)\u003C/p\u003E\r\n\u003Cp\u003EIt’s best to feed adult Cockapoos two measured meals a day to help maintain a healthy weight and prevent overeating. Cockapoo puppies might need to eat more frequently (maybe three or four meals every day).\u003C/p\u003E\r\n\u003Cp\u003EAlways keep fresh water available and talk to your vet about the best feeding plan for your dog.\u003C/p\u003E",
+        "exercise": "\u003Cp\u003ECockapoos are lively, playful dogs who need 30–60 minutes of exercise each day to stay happy and healthy. Without enough activity, they can get bored—and that’s when mischief happens!\u003C/p\u003E\n\u003Cp\u003EA couple of daily walks, combined with some fun playtime and training sessions, usually does the trick. Cockapoos love \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/how-to-teach-dog-to-fetch\"\u003Eplaying fetch\u003C/a\u003E and chasing toys, and they might also enjoy dog sports that tap into both their smarts and energy, like \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/dog-agility-training-tips\"\u003Eagility\u003C/a\u003E and \u003Ca href=\"https://www.petmd.com/dog/training/everything-about-dock-diving-dogs\" target=\"_blank\" rel=\"noopener\"\u003Edock diving\u003C/a\u003E.\u003C/p\u003E\n\u003Cp\u003E\u003Ca href=\"https://www.petmd.com/dog/general-health/ways-to-keep-dog-mentally-stimulated\" target=\"_blank\" rel=\"noopener\"\u003EMental stimulation\u003C/a\u003E is just as important as physical exercise, so \u003Ca href=\"https://www.chewy.com/b/puzzle-toys-games-2335\"\u003Epuzzle toys\u003C/a\u003E and \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/15-minute-games-to-play-with-dogs\"\u003Egames that challenge your dog’s brain\u003C/a\u003E are a big win. With the right mix of movement and engagement, your Cockapoo will be a happy, tail-wagging companion.\u003C/p\u003E",
+        "ideal_environment": "\u003Cp\u003ECockapoos are adaptable and can thrive almost anywhere, from small city apartments to rural homes with sprawling acreage. The type of home doesn’t matter as long as their needs for daily exercise, mental stimulation, and grooming are met. A fenced yard is a good perk, but having one isn’t necessary if you regularly take your pup outside for walks and playtime.\u003C/p\u003E\r\n\u003Cp\u003EThey're happiest with active, affectionate pet parents who involve their furry family member in everyday activities.\u003C/p\u003E",
+        "h2_breed_health": "\u003Cp\u003EThe average Cockapoo lifespan is 14–18 years, and they’re typically healthy dogs. But all dogs, Cockapoos included, can develop certain health conditions during life.\u003C/p\u003E\n\u003Cul\u003E\n\t\u003Cli\u003E\u003Cstrong\u003EEar infections\u003C/strong\u003E: A Cockapoo’s long, floppy ears are more likely to develop \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/dog-ear-infection\"\u003Eear infections\u003C/a\u003E than breeds with pricked-up ears. Chat with your vet if you notice signs of an infection (like redness, debris buildup, or odor)—they’ll give guidance on how to treat the infection and prevent the condition in the future.\u003C/li\u003E\n\t\u003Cli\u003E\u003Cstrong\u003EAllergies and skin problems:\u003C/strong\u003E If your Cockapoo gets recurring ear infections, it may be due to allergies. Allergies in dogs can also cause skin irritation, redness, and itching. Talk to your vet if you notice any of these.\u003C/li\u003E\n\t\u003Cli\u003E\u003Cstrong\u003EHip dysplasia: \u003C/strong\u003EThis hereditary disorder arises when the hip joint fails to grow normally, which may result in \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/arthritis-in-dogs\"\u003Earthritis\u003C/a\u003E and problems with movement. The risk of \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/hip-dysplasia-in-dogs\"\u003Ehip dysplasia\u003C/a\u003E may be decreased with weight management and \u003Ca href=\"https://www.petmd.com/vet-verified/best-joint-supplements-for-dogs\" target=\"_blank\" rel=\"noopener\"\u003Ejoint supplements\u003C/a\u003E, though surgery is sometimes recommended.\u003C/li\u003E\n\t\u003Cli\u003E\u003Cstrong\u003EPatellar luxation:\u003C/strong\u003E Small- to medium-sized dogs frequently experience \u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/luxating-patella-in-dogs\" target=\"_blank\" rel=\"noopener\"\u003Epatellar luxation\u003C/a\u003E, a condition in which the kneecap slides out of position. Your vet may recommend surgery for severe cases.\u003C/li\u003E\n\t\u003Cli\u003E\u003Cstrong\u003EProgressive retinal atrophy:\u003C/strong\u003E \u003Ca href=\"https://www.petmd.com/dog/condition/progressive-retinal-atrophy-in-dogs\" target=\"_blank\" rel=\"noopener\"\u003EPRA\u003C/a\u003E is a group of degenerative eye conditions that can eventually cause blindness. To lower the risk in puppies, ethical breeders frequently check for this hereditary disease.\u003C/li\u003E\n\t\u003Cli\u003E\u003Cstrong\u003ECataracts and glaucoma:\u003C/strong\u003E As Cockapoos age, they may be more susceptible to eye conditions such \u003Ca href=\"https://www.petmd.com/dog/conditions/eye/c_dg_cataract\" target=\"_blank\" rel=\"noopener\"\u003Ecataracts\u003C/a\u003E and \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/understanding-glaucoma-in-dogs\"\u003Eglaucoma\u003C/a\u003E. Keep up with regular veterinary exams for early detection.\u003C/li\u003E\n\t\u003Cli\u003E\u003Cstrong\u003EHypothyroidism:\u003C/strong\u003E This \u003Ca href=\"https://www.petmd.com/dog/conditions/endocrine/c_dg_hypothyroidism\" target=\"_blank\" rel=\"noopener\"\u003Ehormonal imbalance\u003C/a\u003E can lead to weight gain, lethargy, and skin issues. It’s typically manageable with daily medication.\u003C/li\u003E\n\u003C/ul\u003E",
+        "h2_breed_history": "\u003Cp\u003EBecause the Cockapoo is a mixed breed, the dogs’ history is a little murky. The Cocker Spaniel-Poodle cross gained popularity with many other designer breeds, like the \u003Ca href=\"https://www.chewy.com/education/dog-breeds/goldendoodle\"\u003EGoldendoodle\u003C/a\u003E and \u003Ca href=\"https://www.chewy.com/education/dog-breeds/labradoodle\"\u003ELabradoodle\u003C/a\u003E, in the 20th century. Bred to be a friendly, low-shedding companion, the Cockapoo quickly became a popular family pet.\u003C/p\u003E\r\n\u003Cp\u003EWhile not recognized by the American Kennel Club, the breed is supported by clubs like the \u003Ca href=\"https://americancockapooclub.com/\" target=\"_blank\" rel=\"noopener\"\u003EAmerican Cockapoo Club\u003C/a\u003E, which promotes responsible breeding and standards.\u003C/p\u003E",
+        "expert_attribution": "\u003Cp\u003E\u003Cem\u003EThis content was medically reviewed by Jo Cornett, DVM, Chewy veterinarian.\u003C/em\u003E\u003C/p\u003E",
+        "facebook_social_snippet_with_cta": "",
+        "species": "",
+        "h2_faqs": "",
+        "faq_items": [
+          {
+            "faq_title": "How long do Cockapoos live?",
+            "faq_content": "\u003Cp\u003EThe typical Cockapoo lifespan is 14–18 years. Dogs with Toy Poodle lineage are likely to have a longer lifespan, because \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/how-long-do-dogs-live\"\u003Esmall dogs live longer than big dogs\u003C/a\u003E.\u003C/p\u003E"
+          },
+          {
+            "faq_title": "How big do Cockapoos get?",
+            "faq_content": "\u003Cp\u003EA Cockapoo’s size depends on the size of their Poodle parent, but most Cockapoos are typically 12–22 pounds and 10–18 inches tall.\u003C/p\u003E"
+          },
+          {
+            "faq_title": "How much does a Cockapoo cost?",
+            "faq_content": "\u003Cp\u003ECockapoo puppies typically cost $800–$2,500, depending on factors like your breeder, where you live, and the dog’s lineage.\u003C/p\u003E"
+          },
+          {
+            "faq_title": "Is a Cockapoo a good family dog?",
+            "faq_content": "\u003Cp\u003EYes, Cockapoos make excellent family dogs. They’re affectionate, friendly, and gentle, making them especially well-suited for homes with children.\u003C/p\u003E"
+          },
+          {
+            "faq_title": "Cavapoo vs. Cockapoo: What’s the difference?",
+            "faq_content": "\u003Cp\u003EBoth \u003Ca href=\"http://chewy.com/education/dog-breeds/cavapoo\"\u003ECavapoos\u003C/a\u003E and Cockapoos are Poodle mixes known for their sweet personalities and low-shedding coats. The key difference lies in their other parent breed: Cavapoos are a \u003Ca href=\"https://www.chewy.com/education/dog-breeds/cavalier-king-charles-spaniel\"\u003ECavalier King Charles Spaniel\u003C/a\u003E and Poodle mix, while Cockapoos are a cross between a Cocker Spaniel and Poodle.\u003C/p\u003E"
+          }
+        ],
+        "select_related_breeds": [
+          {
+            "selected_related_breed": 1306,
+            "characteristic": "breed_characteristics_physical_appearance"
+          },
+          {
+            "selected_related_breed": 3698,
+            "characteristic": "breed_characteristics_physical_appearance"
+          },
+          {
+            "selected_related_breed": 3590,
+            "characteristic": "breed_characteristics_physical_appearance"
+          },
+          {
+            "selected_related_breed": 5083,
+            "characteristic": "breed_characteristics_physical_appearance"
+          },
+          {
+            "selected_related_breed": 4071,
+            "characteristic": "breed_characteristics_physical_appearance"
+          },
+          {
+            "selected_related_breed": 4160,
+            "characteristic": "breed_characteristics_physical_appearance"
+          }
+        ],
+        "enable_featured_gallery": [
+          "enable_featured_gallery"
+        ],
+        "featured_gallery_images": [16357, 16358, 16361, 16362, 16363, 16366]
+      },
+      "yoast_head": "\u003C!-- This site is optimized with the Yoast SEO plugin v23.8 - https://yoast.com/wordpress/plugins/seo/ --\u003E\n\u003Ctitle\u003ECockapoo Breed: Characteristics, Care &amp; Photos | Chewy\u003C/title\u003E\n\u003Cmeta name=\"description\" content=\"A Cockapoo is a friendly Cocker Spaniel-Poodle mix. Learn if a Cockapoo is the right fit for your family here.\" /\u003E\n\u003Cmeta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" /\u003E\n\u003Clink rel=\"canonical\" href=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/cockapoo/\" /\u003E\n\u003Cmeta property=\"og:locale\" content=\"en_US\" /\u003E\n\u003Cmeta property=\"og:type\" content=\"article\" /\u003E\n\u003Cmeta property=\"og:title\" content=\"Cockapoo Breed: Characteristics, Care &amp; Photos | Chewy\" /\u003E\n\u003Cmeta property=\"og:description\" content=\"A Cockapoo is a friendly Cocker Spaniel-Poodle mix. Learn if a Cockapoo is the right fit for your family here.\" /\u003E\n\u003Cmeta property=\"og:url\" content=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/cockapoo/\" /\u003E\n\u003Cmeta property=\"og:site_name\" content=\"Chewy\" /\u003E\n\u003Cmeta property=\"article:modified_time\" content=\"2025-05-05T14:20:12+00:00\" /\u003E\n\u003Cmeta property=\"og:image\" content=\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/04/18155722/1984000-2025-05-Breed-Hero-16-9-M-Cockapoo.jpg\" /\u003E\n\t\u003Cmeta property=\"og:image:width\" content=\"1835\" /\u003E\n\t\u003Cmeta property=\"og:image:height\" content=\"1032\" /\u003E\n\t\u003Cmeta property=\"og:image:type\" content=\"image/jpeg\" /\u003E\n\u003Cmeta name=\"twitter:card\" content=\"summary_large_image\" /\u003E\n\u003Cmeta name=\"twitter:label1\" content=\"Est. reading time\" /\u003E\n\t\u003Cmeta name=\"twitter:data1\" content=\"1 minute\" /\u003E\n\u003Cscript type=\"application/ld+json\" class=\"yoast-schema-graph\"\u003E{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/cockapoo/\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/cockapoo/\",\"name\":\"Cockapoo Breed: Characteristics, Care & Photos | Chewy\",\"isPartOf\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/cockapoo/#primaryimage\"},\"image\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/cockapoo/#primaryimage\"},\"thumbnailUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/04/18155722/1984000-2025-05-Breed-Hero-16-9-M-Cockapoo.jpg\",\"datePublished\":\"2025-04-18T16:24:37+00:00\",\"dateModified\":\"2025-05-05T14:20:12+00:00\",\"description\":\"A Cockapoo is a friendly Cocker Spaniel-Poodle mix. Learn if a Cockapoo is the right fit for your family here.\",\"breadcrumb\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/cockapoo/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://phcms.hlth.prd.aws.chewy.cloud/breed/cockapoo/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/cockapoo/#primaryimage\",\"url\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/04/18155722/1984000-2025-05-Breed-Hero-16-9-M-Cockapoo.jpg\",\"contentUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/04/18155722/1984000-2025-05-Breed-Hero-16-9-M-Cockapoo.jpg\",\"width\":1835,\"height\":1032,\"caption\":\"red cockapoo sitting on an isolated blue background\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/cockapoo/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://phcms.hlth.prd.aws.chewy.cloud/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Cockapoo\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/\",\"name\":\"Chewy\",\"description\":\"\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"}]}\u003C/script\u003E\n\u003C!-- / Yoast SEO plugin. --\u003E",
+      "yoast_head_json": {
+        "title": "Cockapoo Breed: Characteristics, Care & Photos | Chewy",
+        "description": "A Cockapoo is a friendly Cocker Spaniel-Poodle mix. Learn if a Cockapoo is the right fit for your family here.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://phcms.hlth.prd.aws.chewy.cloud/breed/cockapoo/",
+        "og_locale": "en_US",
+        "og_type": "article",
+        "og_title": "Cockapoo Breed: Characteristics, Care & Photos | Chewy",
+        "og_description": "A Cockapoo is a friendly Cocker Spaniel-Poodle mix. Learn if a Cockapoo is the right fit for your family here.",
+        "og_url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/cockapoo/",
+        "og_site_name": "Chewy",
+        "article_modified_time": "2025-05-05T14:20:12+00:00",
+        "og_image": [
+          {
+            "width": 1835,
+            "height": 1032,
+            "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/04/18155722/1984000-2025-05-Breed-Hero-16-9-M-Cockapoo.jpg",
+            "type": "image/jpeg"
+          }
+        ],
+        "twitter_card": "summary_large_image",
+        "twitter_misc": {
+          "Est. reading time": "1 minute"
+        },
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/cockapoo/",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/cockapoo/",
+              "name": "Cockapoo Breed: Characteristics, Care & Photos | Chewy",
+              "isPartOf": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/cockapoo/#primaryimage"
+              },
+              "image": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/cockapoo/#primaryimage"
+              },
+              "thumbnailUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/04/18155722/1984000-2025-05-Breed-Hero-16-9-M-Cockapoo.jpg",
+              "datePublished": "2025-04-18T16:24:37+00:00",
+              "dateModified": "2025-05-05T14:20:12+00:00",
+              "description": "A Cockapoo is a friendly Cocker Spaniel-Poodle mix. Learn if a Cockapoo is the right fit for your family here.",
+              "breadcrumb": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/cockapoo/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://phcms.hlth.prd.aws.chewy.cloud/breed/cockapoo/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/cockapoo/#primaryimage",
+              "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/04/18155722/1984000-2025-05-Breed-Hero-16-9-M-Cockapoo.jpg",
+              "contentUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/04/18155722/1984000-2025-05-Breed-Hero-16-9-M-Cockapoo.jpg",
+              "width": 1835,
+              "height": 1032,
+              "caption": "red cockapoo sitting on an isolated blue background"
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/cockapoo/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://phcms.hlth.prd.aws.chewy.cloud/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Cockapoo"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/",
+              "name": "Chewy",
+              "description": "",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            }
+          ]
+        }
+      },
+      "yoast_meta": {
+        "yoast_wpseo_title": "",
+        "yoast_wpseo_metadesc": "",
+        "yoast_wpseo_canonical": ""
+      },
+      "_links": {
+        "self": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed/16344",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/types/breed"
+          }
+        ],
+        "acf:attachment": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/16366"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/16363"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/16362"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/16361"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/16358"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/16357"
+          }
+        ],
+        "wp:featuredmedia": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/16347"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media?parent=16344"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "pet_type",
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/pet_type?post=16344"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ]

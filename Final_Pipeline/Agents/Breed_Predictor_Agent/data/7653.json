@@ -1,0 +1,147 @@
+{
+  "Francis": {
+    "PetName": "Francis",
+    "PetType": "cat",
+    "PetTypeScore": 0.9,
+    "Breed": "Other",
+    "BreedScore": 0.9,
+    "LifeStage": "a",
+    "LifeStageScore": 0.9,
+    "Gender": "male",
+    "GenderScore": 0.9,
+    "SizeCategory": "unknown",
+    "SizeScore": 0.9,
+    "Weight": "60-80 lbs",
+    "WeightScore": 0.6,
+    "Birthday": "unknown",
+    "BirthdayScore": 0.0,
+    "PersonalityTraits": [
+      "playful",
+      "active",
+      "adventurous"
+    ],
+    "PersonalityScores": {
+      "playful": 0.8,
+      "active": 0.9,
+      "adventurous": 0.7
+    },
+    "FavoriteProductCategories": [
+      "food",
+      "training",
+      "safety"
+    ],
+    "CategoryScores": {
+      "food": 0.8,
+      "training": 0.7,
+      "safety": 0.6
+    },
+    "BrandPreferences": [
+      "Holistic Select"
+    ],
+    "BrandScores": {
+      "Holistic Select": 0.8
+    },
+    "DietaryPreferences": [
+      "balanced diet"
+    ],
+    "DietaryScores": {
+      "balanced diet": 0.7
+    },
+    "BehavioralCues": [
+      "requires training",
+      "enjoys outdoor activities"
+    ],
+    "BehavioralScores": {
+      "requires training": 0.8,
+      "enjoys outdoor activities": 0.7
+    },
+    "HealthMentions": [
+      "healthy",
+      "active"
+    ],
+    "HealthScores": {
+      "healthy": 0.8,
+      "active": 0.9
+    },
+    "MostOrderedProducts": [
+      "PetRageous Designs Batik Bones Pet Bowl, Sand, 7\", 5.5-cups",
+      "Paw Pods Heart Shape Dog & Cat Urn",
+      "Soft Claws Nail Caps for Cats, 40 Count, Small, Red"
+    ],
+    "ConfidenceScore": 0.5,
+    "confidence_score": 0.7285714285714285
+  },
+  "Moe": {
+    "PetName": "Moe",
+    "PetType": "dog",
+    "PetTypeScore": 0.9,
+    "Breed": "Mixed / Unknown",
+    "BreedScore": 0.9,
+    "LifeStage": "a",
+    "LifeStageScore": 0.9,
+    "Gender": "fmle",
+    "GenderScore": 0.9,
+    "SizeCategory": "extra small",
+    "SizeScore": 0.9,
+    "Weight": "60-80 lbs",
+    "WeightScore": 0.6,
+    "Birthday": "unknown",
+    "BirthdayScore": 0.0,
+    "PersonalityTraits": [
+      "playful",
+      "active",
+      "adventurous"
+    ],
+    "PersonalityScores": {
+      "playful": 0.8,
+      "active": 0.9,
+      "adventurous": 0.7
+    },
+    "FavoriteProductCategories": [
+      "food",
+      "training",
+      "safety"
+    ],
+    "CategoryScores": {
+      "food": 0.8,
+      "training": 0.7,
+      "safety": 0.6
+    },
+    "BrandPreferences": [
+      "Holistic Select"
+    ],
+    "BrandScores": {
+      "Holistic Select": 0.8
+    },
+    "DietaryPreferences": [
+      "balanced diet"
+    ],
+    "DietaryScores": {
+      "balanced diet": 0.7
+    },
+    "BehavioralCues": [
+      "requires training",
+      "enjoys outdoor activities"
+    ],
+    "BehavioralScores": {
+      "requires training": 0.8,
+      "enjoys outdoor activities": 0.7
+    },
+    "HealthMentions": [
+      "healthy",
+      "active"
+    ],
+    "HealthScores": {
+      "healthy": 0.8,
+      "active": 0.9
+    },
+    "MostOrderedProducts": [
+      "PetRageous Designs Batik Bones Pet Bowl, Sand, 7\", 5.5-cups",
+      "Paw Pods Heart Shape Dog & Cat Urn",
+      "Soft Claws Nail Caps for Cats, 40 Count, Small, Red"
+    ],
+    "ConfidenceScore": 0.5,
+    "confidence_score": 0.7285714285714285
+  },
+  "cust_confidence_score": 0.7285714285714285
+}

@@ -1,0 +1,329 @@
+[
+    {
+      "id": 818,
+      "date": "2021-06-14T09:08:58",
+      "date_gmt": "2021-06-14T09:08:58",
+      "guid": {
+        "rendered": "https://haproxy.use1.lgcy.prd.aws.chewy.cloud/eks/ns/pet-health/pet-health-content-backend/breed/english-cocker-spaniel/"
+      },
+      "modified": "2025-05-05T14:22:07",
+      "modified_gmt": "2025-05-05T14:22:07",
+      "slug": "english-cocker-spaniel",
+      "status": "publish",
+      "type": "breed",
+      "link": "https://phcms.hlth.prd.aws.chewy.cloud/breed/english-cocker-spaniel/",
+      "title": {
+        "rendered": "English Cocker Spaniel"
+      },
+      "featured_media": 3399,
+      "template": "",
+      "pet_type": [],
+      "class_list": [
+        "post-818",
+        "breed",
+        "type-breed",
+        "status-publish",
+        "has-post-thumbnail",
+        "hentry"
+      ],
+      "acf": {
+        "breed_snapshot_best_for": "\u003Cp\u003EPlayful and energetic, English Cocker Spaniels thrive on mental stimulation and exercise. Their cheerful temperament makes them ideal companions for active families who can provide lots of love and regular grooming and training. \u003C/p\u003E",
+        "alt_image_text": "English Cocker Spaniel dog breed",
+        "breed_intro": "\u003Cp\u003EWith an English Cocker Spaniel, your days will be merry and bright. Joyful times await an English Cocker Spaniel pet parent, as this affectionate dog gets along well with just about everyone—two- and four-legged friends alike. They're super intelligent and eager to please, making \u003Ca href=\"https://www.chewy.com/education/dog/new-dog/basic-puppy-training\"\u003Etraining sessions\u003C/a\u003E a snap. And they're at home just about anywhere, so long as regular promenades are on the schedule. Why? All the better to show off their lustrous fur coats and long ears that swish-swish (you can almost hear it!) when they walk.\u003C/p\u003E",
+        "breed_related_products_product_card_set": null,
+        "breed_snapshot_temperament": "\u003Cp\u003EPeppy, Affectionate, Faithful\u003C/p\u003E",
+        "what_does_this_breed_look_like_weight": "\u003Cp\u003EMale: 28 to 34 pounds\u003C/p\u003E\u003Cp\u003EFemale: 26 to 32 pounds\u003C/p\u003E",
+        "what_does_this_breed_look_like_height": "\u003Cp\u003EMale: 16-17 inches\u003C/p\u003E\u003Cp\u003EFemale: 15-16 inches\u003C/p\u003E",
+        "breed_snapshot_life_expectancy": "\u003Cp\u003E12 to 14 years\u003C/p\u003E",
+        "breed_snapshot_maintenance_level": "\u003Cp\u003EHigh\u003C/p\u003E",
+        "breed_characteristics_friendliness": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_snapshot_coat_color": "\u003Cp\u003EBlack, Black and White, Blue Roan, Blue Roan and Tan, Liver Roan and Tan, Liver Roan, Orange and White, Orange Road, Red, Black and Tan, Black White and Tan, Live, Liver and Tan, Liver and White, Liver White and Tan, Red Roan, Golden, Lemon Roan\u003C/p\u003E",
+        "breed_snapshot_shed_level": "\u003Cp\u003EHigh\u003C/p\u003E",
+        "in_article_video": null,
+        "breed_characteristics": "\u003Cp\u003EThese traits are rated on a scale of 1-5 with 1 being the lowest and 5 being the highest. Remember: Dogs are individuals, and not all dogs, even those of the same breed, will exhibit all the same qualities.\u003C/p\u003E",
+        "breed_characteristics_exercise_needs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_health_issues": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_barking_tendencies": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_grooming_needs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_shedding_level": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_training_needs": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_with_kids": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_with_cats": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_for_apartments_small_homes": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_energy_level": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_with_other_dogs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_playfulnesss": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_cold_weather": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_warm_weather": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_for_first_time_parents": "\u003Cp\u003E4\u003C/p\u003E",
+        "how_do_i_look_card_image": 3400,
+        "what_does_this_breed_look_like": "\u003Cp\u003EThe English Cocker Spaniel breed is a heavenly vision in canine form with long satiny fur and swinging ears that sway to their rhythm. As a sporting dog (a dog bred to work with hunters), the English Cocker has a compact build and a swift gait. The icing on this pup-cake is a graceful neck and sweet tail that never seems to idle.\u003C/p\u003E",
+        "what_does_this_breed_look_like_ears": "\u003Cp\u003EEnglish Cocker Spaniel ears lie close to the head and are covered with long silken fur that may be straight or slightly wavy.\u003C/p\u003E",
+        "what_does_this_breed_look_like_eyes": "\u003Cp\u003EEnglish Cocker Spaniel eyes are medium in size, a bit oval in shape and dark brown or hazel.\u003C/p\u003E",
+        "what_does_this_breed_look_like_nose": "\u003Cp\u003ETheir nose is rounded and black, though it could be brown in liver or parti-colored dogs.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_length": "\u003Cp\u003EThe English Cocker's coat is medium length. It may be flat or wavy and is silky smooth to the touch.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_color": "\u003Cp\u003EEnglish Cocker Spaniel colors vary quite a bit, from solid black, liver (brown) or red shades to parti-colored pups with white, black, liver and red markings.\u003C/p\u003E",
+        "what_does_this_breed_look_like_tail": "\u003Cp\u003EThe AKC breed standard allows for the tail to be docked or undocked/calls for the tail to be docked. Docking involves cutting a portion of the dog’s tail off when they are puppies. Veterinary groups along with many U.S. states and countries have banned this procedure due to medical and behavioral reasons. If you are interested in this procedure, schedule a consultation with your veterinarian.\u003C/p\u003E",
+        "h2_breed_temperament": "\u003Cp\u003EThe English Cocker Spaniel's temperament is delightful—this little pup is eager to learn and please. With a playful personality and loads of smarts, an English Cocker pup gets along well with other dogs in the home and can even mix with cats.\u003C/p\u003E\r\n\u003Cp\u003ESweet English Cocker Spaniels are great with kids and are not huge barkers, so they're easy to have in small homes and apartments. Your neighbor won't bang on the wall to complain. Instead, she'll ask to come over and pet your pretty pooch!\u003C/p\u003E\r\n\u003Cp\u003EStill, as with all dogs, early socialization is a must. If you start early, you'll get your pup used to their new environment, which means they'll react in a friendly way in unfamiliar situations, with strangers and other canines. The English Cocker Spaniel puppy is typically easy to train since they're motivated to please and intelligent.\u003C/p\u003E\r\n\u003Cp\u003EA member of the Sporting group of dogs, the English Cocker Spaniel worked alongside bird hunters to flush game from dense underbrush. So, playing fetch in the backyard is a walk in the park for this energetic animal. First-time pet parents won't struggle much to teach and train their English Cocker Spaniel puppy—their can-do attitude makes learning a pleasure.\u003C/p\u003E",
+        "h2_how_to_care_for_a_breed": "\u003Cp\u003EThe English Cocker Spaniel breed is one high-maintenance pooch, and they're worth it. Their coat will lead you down the brush and comb aisle at the pet store in order to maintain their luscious locks. And they also need a lot of exercise. But this gives you ample time to bond with your loving and adorable pup.\u003C/p\u003E",
+        "grooming": "\u003Cp\u003EWe won't lie: English Cocker Spaniel grooming needs are more intense than those of other breeds. But if you love playing \"doggy salon,\" this pet is for you.\u003C/p\u003E\n\u003Cp\u003EAs high shedders, a thorough brushing with a&nbsp;\u003Ca href=\"https://www.chewy.com/f/dog-pin-brushes_c356_f70v83789\" target=\"_blank\" rel=\"noopener\"\u003Epin\u003C/a\u003E&nbsp;or&nbsp;\u003Ca href=\"https://www.chewy.com/f/slicker-brush-dog-brushes-combs_c356_f70v83792\" target=\"_blank\" rel=\"noopener\"\u003Eslicker brush\u003C/a\u003E, then following up with a comb at least once a week, can detangle your English Cocker's profuse coat and keep mats from forming (and keep your pup show-ring ready). Trimming your dog's fur around the face, neck, feet, ears and tail each month is also part of raising an English Cocker Spaniel, but you can leave this to your groomer if you prefer.\u003C/p\u003E\n\u003Cp\u003ECheck your pup's long ears weekly for excess wax and debris, as they may drag on the ground and get dirtier than other body parts. A&nbsp;\u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/guide-trimming-dogs-nails\" target=\"_blank\" rel=\"noopener\"\u003Emonthly nail trim\u003C/a\u003E&nbsp;and a once-a-month bath are sufficient for the English Cocker Spaniel dog, though if yours works on a farm or in a different dusty location, weekly might be necessary.\u003C/p\u003E\n\u003Cp\u003ELast up, oral health! Yup, dogs need their&nbsp;teeth brushed daily, so ask your vet for tips on how to brush a dog's teeth. (\u003Ca href=\"https://www.chewy.com/education/dog/grooming/health-wellness-how-to-brush-your-dogs-teeth-live-to-tell-the-tale\"\u003ECheck out our how-to guide here\u003C/a\u003E.) You should also schedule your English Cocker Spaniel dog for an annual professional teeth cleaning by the vet.\u003C/p\u003E",
+        "training": "\u003Cp\u003EAn English Cocker Spaniel's training isn't a struggle, as this intelligent, responsive breed is happy to learn every trick in the book. Pet parents can use the English Cocker's motivation and good nature to their advantage as long as positive reinforcement is part of the plan. (Positive reinforcement uses treats, praise and special play breaks to reward the pup for their excellent work.)\u003C/p\u003E\r\n\u003Cp\u003EKeep training treats and a calm voice handy, or you'll have trouble inspiring your spaniel. The goal: Get your little pup to love and respect you, and a rock-solid temperament and social skills will be your reward. You can also tap into your English Cocker Spaniel's nose power—they once worked as bird dogs for hours in the field. One way is to encourage training games and activities that allow your English Cocker to \u003Ca href=\"https://www.chewy.com/paw5-wooly-snuffle-dog-feeding-mat/dp/187881\" target=\"_blank\" rel=\"noopener\"\u003Esniff out their rewards\u003C/a\u003E.\u003C/p\u003E",
+        "diet_nutrition": "\u003Cp\u003EThe best English Cocker Spaniel food is a complete and balanced, \u003Ca href=\"https://www.chewy.com/education/dog/food-and-nutrition/your-complete-guide-to-the-best-high-quality-dog-food\"\u003Ehigh-quality&nbsp;commercial diet\u003C/a\u003E. Opt for a formula that matches your English Cocker's stage in life (puppy, adult, senior).\u003C/p\u003E\n\u003Cp\u003ENeed help with a feeding chart or measurements? Your veterinarian can help craft a guide to determine how much and how often to feed your dog based on their diet. You can provide English Cocker Spaniels with a home-cooked regimen if your vet okays the nutritional content.\u003C/p\u003E\n\u003Cp\u003ETreats are acceptable as a training enticement, but too many can cause obesity in this small dog breed. Make sure all those&nbsp;\u003Ca href=\"https://www.chewy.com/b/treats-335\" target=\"_blank\" rel=\"noopener\"\u003Edog treats\u003C/a\u003E you dole out during training (or just because!) are accounted for when you're working out how much to feed your pup daily. And don't be tempted to feed your pup from the dinner table. Human foods, especially bones and fatty items, aren't good for them, and&nbsp;\u003Ca href=\"https://www.chewy.com/education/dog/food-and-nutrition/toxic-foods-for-pets\" target=\"_blank\" rel=\"noopener\"\u003Esome may be dangerous\u003C/a\u003E.\u003C/p\u003E\n\u003Cp\u003EConsult your vet if you have any questions about your pup's mealtime plan. They can help you choose the proper food for your pup based on their unique needs.\u003C/p\u003E",
+        "exercise": "\u003Cp\u003EReady to run and play? Great! Because this dog requires regular exercise. An English Cocker Spaniel's love of exercise is well-known, and their energy levels are moderate, so active owners are a good match with this breed. Aim to walk your pup a couple of times a day for 30 to 45 minutes and work some games into your physical routine, totaling about an hour. Keep your pup on a leash when you're out and about so you can control their hunting instincts (a fenced yard is also great for this pup).\u003C/p\u003E\r\n\u003Cp\u003EHikes and long walks on the beach are also smart exercise options for this canine. Looking for a jogging partner? The English Cocker Spaniel has a moderate speed, so they'll do well on a few weekly jogs. You and your pup might enjoy dog sports like obedience or tracking if you're a bit competitive.\u003C/p\u003E\r\n\u003Cp\u003EEnglish Cocker Spaniel's traits include a love of nose work, which means using their sniffer to track scents and smells can be a source of entertainment and exercise. For example, you can fill a \u003Ca href=\"https://www.chewy.com/brands/classic-rubber-toys-6988\" target=\"_blank\" rel=\"noopener\"\u003EKONG toy\u003C/a\u003E with something delicious, then hide it in the yard. Or stash treats inside old Chewy delivery boxes or spritz chicken broth (one with no onions or garlic) from a spray bottle to mark an aromatic trail to a jackpot of toys.\u003C/p\u003E",
+        "ideal_environment": "\u003Cp\u003EAffectionate by nature, the English Cocker Spaniel makes a fine family pet as they're known to be good with kids, and they get along well with other dogs and even cats in the home.\u003C/p\u003E\r\n\u003Cp\u003EThe English Cocker Spaniel breed can live happily in large and small homes in rural or urban areas, provided they receive the required amount of exercise. First-time pet parents will enjoy bringing up an English Cocker, especially if they have a playful attitude. Tossing a ball in the backyard or strolling in the park to show off their most excellent coat are two activities both pet parents and their dog will enjoy.\u003C/p\u003E",
+        "h2_breed_health": "\u003Cp\u003EEnglish Cocker Spaniels have a lifespan of 12 to 14 years, but as with any breed, they're prone to some health issues. Some are genetic, and responsible breeders will perform genetic screening testing when possible.\u003C/p\u003E\r\n\u003Cul\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003EEar Infections\u003C/strong\u003E: Because the English Cocker's ears are so long and floppy, they may drag and collect dirt and debris, which could lead to an infection. Check the ears weekly and note any signs of pain, such as whining, head shaking, odor, or crustiness. Your vet may prescribe a special ear cleanser and/or topical or oral medication to treat the infection.\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/c_dg_hip_dysplasia\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cstrong\u003EHip Dysplasia\u003C/strong\u003E\u003C/a\u003E: This genetic condition is a malformation of the hip joint that occurs when the hip ball doesn't sit well in the socket. Lameness and pain may be apparent; treatment can range from medications to surgery.\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/c_multi_patellar_luxation\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cstrong\u003EPatellar Luxation\u003C/strong\u003E\u003C/a\u003E: A kneecap that slips or \"floats\" rather than sits snugly in the joint is called patellar luxation, and it may cause your pup to limp or hold the leg up when walking. A vet may prescribe medication, but some dogs may need surgery.\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003EProgressive Retinal Atrophy (\u003Ca class=\"editor-rtfLink\" href=\"https://www.petmd.com/dog/condition/progressive-retinal-atrophy-in-dogs\" target=\"_blank\" rel=\"noopener\"\u003EPRA\u003C/a\u003E\u003C/strong\u003E\u003Cstrong\u003E)\u003C/strong\u003E: This eye condition may develop in English Cocker Spaniels, leading the retina to degrade, causing blindness. While there's currently no cure, many dogs adjust well to sight loss. A genetic screening test is available, so be sure to ask your breeder.\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003EKidney Failure\u003C/strong\u003E: Also known as familial nephropathy, this congenital malformation prevents the kidneys from excreting waste, causing your dog to exhibit increased thirst, weight loss, poor appetite and vomiting. While no cure is available, genetic screening testing is available.\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003EAdult Onset Neuropathy\u003C/strong\u003E: AON, a hereditary disorder, is a type of progressive weakness and may lead your pup to have trouble walking. This condition has no cure, but genetic screening testing is available.  \u003C/li\u003E\r\n\u003C/ul\u003E",
+        "h2_breed_history": "\u003Cp\u003EAs some of the oldest dogs in the American Kennel Club's Sporting group, spaniels, along with setters, pointers, and retrievers, were bred to assist bird hunters, primarily those hunting grouse and woodcock. The English Cocker Spaniel's history originated in England and was developed hundreds of years ago from dogs with Spanish roots—hence the name \"spaniel,\" which comes from the word \"Spanish.\"\u003C/p\u003E\r\n\u003Cp\u003EEach of the various spaniel types had their own role to perform during the bird hunt, including water and land spaniels, springer spaniels, and field spaniels. English Springer Spaniels and Cocker Spaniels were originally the same dog. Springers were the larger pups of the litter and were used to spring (flush) birds from the brush. The English Cocker Spaniels were the smaller pups of the litter, and their mission was to flush out woodcock, a quail-like bird, from its hiding place in dense thickets.\u003C/p\u003E\r\n\u003Cp\u003EIn the early 20th century, American breeders decided to create their own Cocker Spaniel, albeit a smaller one with a rounded, shorter head and a more lavish coat. In 1946, the AKC recognized the American \u003Ca href=\"https://www.chewy.com/education/dog-breeds/cocker-spaniel/\" target=\"_blank\" rel=\"noopener\"\u003ECocker Spaniel\u003C/a\u003E and the English Cocker as separate breeds.\u003C/p\u003E\r\n\u003Cp\u003EToday's English Cocker has left birding behind and lives the good life as a popular family pet. The AKC lists breeder information if you'd like to purchase an English Cocker Spaniel breed. English Cocker Spaniel puppy prices typically run between $1,200 and $1,500. But for that price, you're likely getting a pup who's been screened for health and temperament issues and may come with pedigree papers. You can also contact the \u003Ca href=\"https://englishcocker.org/\" target=\"_blank\" rel=\"noopener\"\u003EEnglish Cocker Spaniel Club of America\u003C/a\u003E for information on rescuing a pup, watch for the breed at your local shelter, or search Chewy’s database of \u003Ca href=\"https://www.chewy.com/g/dog-english-cocker-spaniel_ga1\"\u003Eadoptable dogs\u003C/a\u003E in your area.\u003C/p\u003E",
+        "expert_attribution": "\u003Cp\u003E\u003Ci\u003EExpert input provided by veterinarian Stephanie Liff, DVM, of \u003Ca href=\"https://purepawshellskitchen.com/\" target=\"_blank\" rel=\"noopener\"\u003EPure Paws Veterinary Care\u003C/a\u003E in New York City and Russell Harstein, certified dog behavior consultant and trainer in Los Angeles and founder of \u003Ca href=\"https://www.funpawcare.com/\" target=\"_blank\" rel=\"noopener\"\u003EFun Paw Care\u003C/a\u003E.\u003C/i\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cem\u003EBreed characteristic ratings provided by veterinarian Dr. Sarah J. Wooten, DVM, CVJ, a veterinarian at \u003Ca href=\"https://sheepdraw.com/\" target=\"_blank\" rel=\"noopener\"\u003ESheep Draw Veterinary Hospital\u003C/a\u003E in Greeley, Colorado; dog trainer and behavior consultant Irith Bloom, CPDT-KSA, CBCC-KA, CDBC, owner of \u003Ca href=\"https://thesophisticateddog.com/\" target=\"_blank\" rel=\"noopener\"\u003EThe Sophisticated Dog, LLC\u003C/a\u003E, in Los Angeles; and certified animal behavior consultant \u003Ca href=\"https://shojai.com/\" target=\"_blank\" rel=\"noopener\"\u003EAmy Shojai\u003C/a\u003E, CABC, in Sherman, Texas.\u003C/em\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cem\u003EThe health content was medically reviewed by Chewy vets.\u003C/em\u003E\u003C/p\u003E",
+        "facebook_social_snippet_with_cta": "\u003Cp\u003EThe English Cocker Spaniel is a loving, beautiful dog with a peppy step and a happy attitude. If you're wondering whether this pup is right for your home or family, check out this bubbly breed.\u003C/p\u003E",
+        "species": "\u003Cp\u003EDog\u003C/p\u003E",
+        "h2_faqs": "\u003Ch3\u003EWhat is the difference between English and American Cocker Spaniels?\u003C/h3\u003E\r\n\u003Cp\u003EThe difference between the English Cocker Spaniel and the American Cocker Spaniel comes down to their size, head shape and the amount of fur they have. American Cockers were developed as a smaller companion to the English dog breed with a shorter head, a rounded skull and a more abundant coat. In 1946, the AKC recognized English and American Cockers as separate breeds.\u003C/p\u003E\r\n\u003Ch3\u003EHow long do English Cocker Spaniels live?\u003C/h3\u003E\r\n\u003Cp\u003EEnglish Cocker Spaniels live, on average, between 12 and 14 years, which means a puppy can grow up to become a faithful pal for your children from kindergarten through high school.\u003C/p\u003E\r\n\u003Ch3\u003EAre English Cocker Spaniels good family dogs?\u003C/h3\u003E\r\n\u003Cp\u003EYes, the English Cocker Spaniel makes a wonderful family pet, especially if they're socialized early. As an easy-to-train breed, this canine cutie is also quite friendly and gets along well with children and other animals in the home.\u003C/p\u003E\r\n\u003Ch3\u003EDo English Cocker Spaniels bark a lot?\u003C/h3\u003E\r\n\u003Cp\u003EAn English Cocker Spaniel's barking level is moderate—so this pup won't be the loudest in the dog run. Still, every animal lets out a yip or three when startled or excited, so stick to consistent training to modulate your English Cocker's barking tendency.\u003C/p\u003E\r\n\u003Ch3\u003EDo English Cocker Spaniels shed?\u003C/h3\u003E\r\n\u003Cp\u003EYes, English Cocker Spaniels shed a lot. With such a profuse coat comes a high level of shedding, so be ready to brush your English Cocker Spaniel every week or more to maintain the glossy sheen and remove knots and matted fur.\u003C/p\u003E\r\n\u003Ch3\u003EWhat are the most common English Cocker Spaniel mixes?\u003C/h3\u003E\r\n\u003Cul\u003E\r\n\t\u003Cli\u003EEnglish Cocker Spaniel-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/poodle/\" target=\"_blank\" rel=\"noopener\"\u003EPoodle\u003C/a\u003E mix\u003C/li\u003E\r\n\t\u003Cli\u003EEnglish Cocker Spaniel-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/golden-retriever/\" target=\"_blank\" rel=\"noopener\"\u003EGolden Retriever\u003C/a\u003E mix\u003C/li\u003E\r\n\t\u003Cli\u003EEnglish Cocker Spaniel-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/labrador-retriever/\" target=\"_blank\" rel=\"noopener\"\u003ELabrador\u003C/a\u003E mix\u003C/li\u003E\r\n\u003C/ul\u003E\r\n\u003Cp\u003E\u003Cem\u003ENote: These are not purebred dogs but mixed breeds.\u003C/em\u003E\u003C/p\u003E",
+        "faq_items": [
+          {
+            "faq_title": "What is the difference between English and American Cocker Spaniels?",
+            "faq_content": "\u003Cp\u003EThe difference between the English Cocker Spaniel and the American Cocker Spaniel comes down to their size, head shape and the amount of fur they have. American Cockers were developed as a smaller companion to the English dog breed with a shorter head, a rounded skull and a more abundant coat. In 1946, the AKC recognized English and American Cockers as separate breeds.\u003C/p\u003E"
+          },
+          {
+            "faq_title": "How long do English Cocker Spaniels live?",
+            "faq_content": "\u003Cp\u003EEnglish Cocker Spaniels live, on average, between 12 and 14 years, which means a puppy can grow up to become a faithful pal for your children from kindergarten through high school.\u003C/p\u003E"
+          },
+          {
+            "faq_title": "Are English Cocker Spaniels good family dogs?",
+            "faq_content": "\u003Cp\u003EYes, the English Cocker Spaniel makes a wonderful family pet, especially if they're socialized early. As an easy-to-train breed, this canine cutie is also quite friendly and gets along well with children and other animals in the home.\u003C/p\u003E"
+          },
+          {
+            "faq_title": "Do English Cocker Spaniels bark a lot?",
+            "faq_content": "\u003Cp\u003EAn English Cocker Spaniel's barking level is moderate—so this pup won't be the loudest in the dog run. Still, every animal lets out a yip or three when startled or excited, so stick to consistent training to modulate your English Cocker's barking tendency.\u003C/p\u003E"
+          },
+          {
+            "faq_title": "Do English Cocker Spaniels shed?",
+            "faq_content": "\u003Cp\u003EYes, English Cocker Spaniels shed a lot. With such a profuse coat comes a high level of shedding, so be ready to brush your English Cocker Spaniel every week or more to maintain the glossy sheen and remove knots and matted fur.\u003C/p\u003E"
+          },
+          {
+            "faq_title": "What are the most common English Cocker Spaniel mixes?",
+            "faq_content": "\u003Cul\u003E\r\n\t\u003Cli\u003EEnglish Cocker Spaniel-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/poodle/\" target=\"_blank\" rel=\"noopener\"\u003EPoodle\u003C/a\u003E mix\u003C/li\u003E\r\n\t\u003Cli\u003EEnglish Cocker Spaniel-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/golden-retriever/\" target=\"_blank\" rel=\"noopener\"\u003EGolden Retriever\u003C/a\u003E mix\u003C/li\u003E\r\n\t\u003Cli\u003EEnglish Cocker Spaniel-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/labrador-retriever/\" target=\"_blank\" rel=\"noopener\"\u003ELabrador\u003C/a\u003E mix\u003C/li\u003E\r\n\u003C/ul\u003E\r\n\u003Cp\u003E\u003Cem\u003ENote: These are not purebred dogs but mixed breeds.\u003C/em\u003E\u003C/p\u003E"
+          }
+        ],
+        "select_related_breeds": [
+          {
+            "selected_related_breed": 543,
+            "characteristic": "breed_characteristics_shedding_level"
+          },
+          {
+            "selected_related_breed": 459,
+            "characteristic": "breed_characteristics_good_for_first_time_parents"
+          },
+          {
+            "selected_related_breed": 892,
+            "characteristic": "breed_characteristics_friendliness"
+          },
+          {
+            "selected_related_breed": 399,
+            "characteristic": "breed_characteristics_good_with_kids"
+          },
+          {
+            "selected_related_breed": 1054,
+            "characteristic": "breed_characteristics_exercise_needs"
+          },
+          {
+            "selected_related_breed": 1207,
+            "characteristic": "breed_characteristics_biting_tendencies"
+          }
+        ],
+        "enable_featured_gallery": [
+          "enable_featured_gallery"
+        ],
+        "featured_gallery_images": [817, 811, 812, 813, 814]
+      },
+      "yoast_head": "\u003C!-- This site is optimized with the Yoast SEO plugin v23.8 - https://yoast.com/wordpress/plugins/seo/ --\u003E\n\u003Ctitle\u003EEnglish Cocker Spaniel Breed: Characteristics, Care &amp; Photos | Chewy\u003C/title\u003E\n\u003Cmeta name=\"description\" content=\"English Cocker Spaniels are easy-going family dogs. Learn more about this cheerful and affectionate breed and get expert advice on how best to care for them.\" /\u003E\n\u003Cmeta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" /\u003E\n\u003Clink rel=\"canonical\" href=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/english-cocker-spaniel/\" /\u003E\n\u003Cmeta property=\"og:locale\" content=\"en_US\" /\u003E\n\u003Cmeta property=\"og:type\" content=\"article\" /\u003E\n\u003Cmeta property=\"og:title\" content=\"English Cocker Spaniel Breed: Characteristics, Care &amp; Photos | Chewy\" /\u003E\n\u003Cmeta property=\"og:description\" content=\"English Cocker Spaniels are easy-going family dogs. Learn more about this cheerful and affectionate breed and get expert advice on how best to care for them.\" /\u003E\n\u003Cmeta property=\"og:url\" content=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/english-cocker-spaniel/\" /\u003E\n\u003Cmeta property=\"og:site_name\" content=\"Chewy\" /\u003E\n\u003Cmeta property=\"article:modified_time\" content=\"2025-05-05T14:22:07+00:00\" /\u003E\n\u003Cmeta property=\"og:image\" content=\"https://pet-health-content-media.chewy.com/wp-content/uploads/2021/06/12170900/Breed-Hero-English-Cocker-Spaniel.jpg\" /\u003E\n\t\u003Cmeta property=\"og:image:width\" content=\"1835\" /\u003E\n\t\u003Cmeta property=\"og:image:height\" content=\"1032\" /\u003E\n\t\u003Cmeta property=\"og:image:type\" content=\"image/jpeg\" /\u003E\n\u003Cmeta name=\"twitter:card\" content=\"summary_large_image\" /\u003E\n\u003Cmeta name=\"twitter:label1\" content=\"Est. reading time\" /\u003E\n\t\u003Cmeta name=\"twitter:data1\" content=\"1 minute\" /\u003E\n\u003Cscript type=\"application/ld+json\" class=\"yoast-schema-graph\"\u003E{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/english-cocker-spaniel/\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/english-cocker-spaniel/\",\"name\":\"English Cocker Spaniel Breed: Characteristics, Care & Photos | Chewy\",\"isPartOf\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/english-cocker-spaniel/#primaryimage\"},\"image\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/english-cocker-spaniel/#primaryimage\"},\"thumbnailUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2021/06/12170900/Breed-Hero-English-Cocker-Spaniel.jpg\",\"datePublished\":\"2021-06-14T09:08:58+00:00\",\"dateModified\":\"2025-05-05T14:22:07+00:00\",\"description\":\"English Cocker Spaniels are easy-going family dogs. Learn more about this cheerful and affectionate breed and get expert advice on how best to care for them.\",\"breadcrumb\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/english-cocker-spaniel/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://phcms.hlth.prd.aws.chewy.cloud/breed/english-cocker-spaniel/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/english-cocker-spaniel/#primaryimage\",\"url\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2021/06/12170900/Breed-Hero-English-Cocker-Spaniel.jpg\",\"contentUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2021/06/12170900/Breed-Hero-English-Cocker-Spaniel.jpg\",\"width\":1835,\"height\":1032,\"caption\":\"English Cocker Spaniel\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/english-cocker-spaniel/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://phcms.hlth.prd.aws.chewy.cloud/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"English Cocker Spaniel\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/\",\"name\":\"Chewy\",\"description\":\"\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"}]}\u003C/script\u003E\n\u003C!-- / Yoast SEO plugin. --\u003E",
+      "yoast_head_json": {
+        "title": "English Cocker Spaniel Breed: Characteristics, Care & Photos | Chewy",
+        "description": "English Cocker Spaniels are easy-going family dogs. Learn more about this cheerful and affectionate breed and get expert advice on how best to care for them.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://phcms.hlth.prd.aws.chewy.cloud/breed/english-cocker-spaniel/",
+        "og_locale": "en_US",
+        "og_type": "article",
+        "og_title": "English Cocker Spaniel Breed: Characteristics, Care & Photos | Chewy",
+        "og_description": "English Cocker Spaniels are easy-going family dogs. Learn more about this cheerful and affectionate breed and get expert advice on how best to care for them.",
+        "og_url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/english-cocker-spaniel/",
+        "og_site_name": "Chewy",
+        "article_modified_time": "2025-05-05T14:22:07+00:00",
+        "og_image": [
+          {
+            "width": 1835,
+            "height": 1032,
+            "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2021/06/12170900/Breed-Hero-English-Cocker-Spaniel.jpg",
+            "type": "image/jpeg"
+          }
+        ],
+        "twitter_card": "summary_large_image",
+        "twitter_misc": {
+          "Est. reading time": "1 minute"
+        },
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/english-cocker-spaniel/",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/english-cocker-spaniel/",
+              "name": "English Cocker Spaniel Breed: Characteristics, Care & Photos | Chewy",
+              "isPartOf": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/english-cocker-spaniel/#primaryimage"
+              },
+              "image": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/english-cocker-spaniel/#primaryimage"
+              },
+              "thumbnailUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2021/06/12170900/Breed-Hero-English-Cocker-Spaniel.jpg",
+              "datePublished": "2021-06-14T09:08:58+00:00",
+              "dateModified": "2025-05-05T14:22:07+00:00",
+              "description": "English Cocker Spaniels are easy-going family dogs. Learn more about this cheerful and affectionate breed and get expert advice on how best to care for them.",
+              "breadcrumb": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/english-cocker-spaniel/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://phcms.hlth.prd.aws.chewy.cloud/breed/english-cocker-spaniel/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/english-cocker-spaniel/#primaryimage",
+              "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2021/06/12170900/Breed-Hero-English-Cocker-Spaniel.jpg",
+              "contentUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2021/06/12170900/Breed-Hero-English-Cocker-Spaniel.jpg",
+              "width": 1835,
+              "height": 1032,
+              "caption": "English Cocker Spaniel"
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/english-cocker-spaniel/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://phcms.hlth.prd.aws.chewy.cloud/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "English Cocker Spaniel"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/",
+              "name": "Chewy",
+              "description": "",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            }
+          ]
+        }
+      },
+      "yoast_meta": {
+        "yoast_wpseo_title": "",
+        "yoast_wpseo_metadesc": "",
+        "yoast_wpseo_canonical": ""
+      },
+      "_links": {
+        "self": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed/818",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/types/breed"
+          }
+        ],
+        "acf:attachment": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/814"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/813"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/812"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/811"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/817"
+          }
+        ],
+        "wp:featuredmedia": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/3399"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media?parent=818"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "pet_type",
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/pet_type?post=818"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ]

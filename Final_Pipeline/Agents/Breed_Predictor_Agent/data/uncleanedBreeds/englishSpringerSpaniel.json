@@ -1,0 +1,325 @@
+[
+    {
+      "id": 769,
+      "date": "2021-06-14T09:20:31",
+      "date_gmt": "2021-06-14T09:20:31",
+      "guid": {
+        "rendered": "https://haproxy.use1.lgcy.prd.aws.chewy.cloud/eks/ns/pet-health/pet-health-content-backend/breed/english-springer-spaniel/"
+      },
+      "modified": "2025-05-05T14:22:03",
+      "modified_gmt": "2025-05-05T14:22:03",
+      "slug": "english-springer-spaniel",
+      "status": "publish",
+      "type": "breed",
+      "link": "https://phcms.hlth.prd.aws.chewy.cloud/breed/english-springer-spaniel/",
+      "title": {
+        "rendered": "English Springer Spaniel"
+      },
+      "featured_media": 768,
+      "template": "",
+      "pet_type": [],
+      "class_list": [
+        "post-769",
+        "breed",
+        "type-breed",
+        "status-publish",
+        "has-post-thumbnail",
+        "hentry"
+      ],
+      "acf": {
+        "breed_snapshot_best_for": "\u003Cp\u003ELoyal, energetic and playful, English Springer Spaniels are best for active pup parents who can not only provide early socialization and consistent training, but also keep up with this sporting dog's grooming needs (that gorgeous coat of theirs will often need a good brushing!).\u003C/p\u003E",
+        "alt_image_text": "\u003Cp\u003EGet all the information you need to know about the English Springer Spaniel dog to see if this pup's a good match for you.\u003C/p\u003E",
+        "breed_intro": "English Springer Spaniels are gorgeous dogs who were born to be active from sun up to sun down. These fun-loving pups have energy to spare and will love every outdoor adventure you can throw their way. \u003Ca href=\"https://www.chewy.com/education/dog/general/ready-to-hit-the-hiking-trail-with-your-dog-heres-everything-you-need-to-know\"\u003EHiking\u003C/a\u003E? Yes! Jogging? OMG, let's go! Climbing Mt. Rainer? Um... You do know they don't have opposable thumbs, right? Springers enjoy nothing more than hanging out with you, even if you're just gardening or grilling. (The FOMO is real, folks). Happy to entertain kids of all ages with games of hide-and-go-seek or fetch, this dog is the sidekick you've been looking for.",
+        "breed_related_products_product_card_set": null,
+        "breed_snapshot_temperament": "\u003Cp\u003EStar Athlete, Loyal Sidekick, People-Pleaser\u003C/p\u003E",
+        "what_does_this_breed_look_like_weight": "\u003Cp\u003EMale: 50 pounds\u003C/p\u003E\u003Cp\u003EFemale: 40 pounds\u003C/p\u003E",
+        "what_does_this_breed_look_like_height": "\u003Cp\u003EMale: 22 inches\u003C/p\u003E\u003Cp\u003EFemale: 19 inches\u003C/p\u003E",
+        "breed_snapshot_life_expectancy": "\u003Cp\u003E12 to 14 years\u003C/p\u003E",
+        "breed_snapshot_maintenance_level": "\u003Cp\u003EHigh\u003C/p\u003E",
+        "breed_characteristics_friendliness": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_snapshot_coat_color": "\u003Cp\u003EBlack and White, Black White and Tan, Liver and White, Liver White and Tan, White and Liver, White and Black\u003C/p\u003E",
+        "breed_snapshot_shed_level": "\u003Cp\u003EMedium\u003C/p\u003E",
+        "in_article_video": null,
+        "breed_characteristics": "These traits are rated on a scale of 1-5 with 1 being the lowest and 5 being the highest. Remember: Dogs are individuals, and not all dogs, even those of the same breed, will exhibit all the same qualities.",
+        "breed_characteristics_exercise_needs": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_health_issues": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_barking_tendencies": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_grooming_needs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_shedding_level": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_training_needs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_kids": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_with_cats": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_good_for_apartments_small_homes": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_energy_level": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_good_with_other_dogs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_playfulnesss": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_cold_weather": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_warm_weather": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_for_first_time_parents": "\u003Cp\u003E3\u003C/p\u003E",
+        "how_do_i_look_card_image": 767,
+        "what_does_this_breed_look_like": "The English Springer Spaniel breed is a medium sporting dog with a compact body and athletic build. (Sporting dogs were bred to work with hunters.) They have a moderately long coat with feathering on their long, flappy ears, chest and hindquarters; and their tail (either docked or left long) wags merrily to greet you.",
+        "what_does_this_breed_look_like_ears": "\u003Cp\u003ETheir ears are large drooping flaps that hang close to the side of their head, and help them collect scents while hunting.\u003C/p\u003E",
+        "what_does_this_breed_look_like_eyes": "\u003Cp\u003ETheir eyes are medium-sized and oval in shape and can be dark hazel in liver (brown) and white dogs, and black or deep brown in black and white dogs.\u003C/p\u003E",
+        "what_does_this_breed_look_like_nose": "\u003Cp\u003EDepending on their coloring, the English Springer Spaniel has a black or liver nose.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_length": "\u003Cp\u003EThickly coated, Springers have long, rich double coats with feathering on the ears, chest and legs. Their outer coat is medium length and flat or wavy; their undercoat is short, soft and dense.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_color": "\u003Cp\u003ETheir coats come in a range of colors, including black or liver with white, blue or liver roan (an even mix of white and colored hairs) and tri-color (black or liver, white and tan).\u003C/p\u003E",
+        "what_does_this_breed_look_like_tail": "\u003Cp\u003EThe AKC breed standard allows for the tail to be docked or undocked and may be trimmed or well-fringed with wavy feathering. Docking involves cutting a portion of the dog’s tail off when they are puppies. Veterinary groups along with many US states and countries have banned this procedure due to medical and behavioral reasons. If you are interested in this procedure, schedule a consultation with your veterinarian.\u003C/p\u003E",
+        "h2_breed_temperament": "The English Springer Spaniel's temperament is high-spirited and gregarious. They are very driven dogs. Bred to be out in the fields hunting with people, their philosophy is \"the more, the merrier.\" Springers love to please their people, which makes them very trainable.\n\nBecause they love their people so much, they need a home where someone will be with them for most of the day. (The \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/how-to-treat-and-prevent-puppy-separation-anxiety\"\u003Eseparation anxiety\u003C/a\u003E is real.) If you're not able to be with them, check them into doggy daycare or arrange for a neighbor or pet sitter to come by for playtime.\n\nSpeaking of playtime, Springer Spaniel dogs are very playful, making them great with older kids as long as they are properly socialized from an early age and the kids are taught how to properly interact with dogs. These pups are very active and may knock over toddlers and babies during play (so be sure to supervise play times!). Their super-friendly nature extends to other dogs, but not to cats. (They were bred to hunt and will give chase. )\n\nThese dogs are very intelligent and have an independent streak, so training needs to start early and be consistent. Their intelligence and independence make them better suited to someone who has experience with dogs, but they can be good for a new pup parent who is willing to commit to the necessary training. (Say goodbye to Saturdays off!)\n\nThese pups have a lot of energy and need both mental and physical stimulation. Always remember that a tired Springer is a well-mannered Springer. And if your pup isn't getting the exercise and attention they need, they may resort to coming up with their own entertainment, and that'll include chewing your shoes and digging in your yard.",
+        "h2_how_to_care_for_a_breed": "The English Springer Spaniel dog is a gorgeous but rather high-maintenance dog. Their double coats need to be tended to several times a week to keep them dog-show ready. And with their abundance of energy and smarts, you will need to spend lots of time every day training and exercising them. But, hey—that's just more time to bond with this loveable dog.",
+        "grooming": "Here are grooming tips to keep in mind for your English Springer Spaniel:\n\u003Cul\u003E\n \t\u003Cli\u003E\u003Cstrong\u003EBrushing:\u003C/strong\u003E The English Springer Spaniel breed has a long, double coat that's water-resistant. Plan on \u003Ca href=\"https://www.chewy.com/education/dog/grooming/brushing-a-dog\"\u003Ebrushing their coats\u003C/a\u003E at least three times every week. These pups shed moderately, and twice a year (spring and fall), they'll up their shedding game. So, plan on brushing them daily during shedding season. To brush your pup, start with a \u003Ca href=\"https://www.chewy.com/f/slicker-brush-dog-brushes-combs_c356_f70v83792\"\u003Eslicker brush\u003C/a\u003E to remove the dead hair, then follow with a \u003Ca href=\"https://www.chewy.com/f/dog-pin-brushes_c356_f70v83789\"\u003Epin brush\u003C/a\u003E to gently work out any tangles. If you think it's easier to give this pup a shave, think again. Shaving damages the coat, and it may not grow back properly. It might seem counterintuitive, but their double coat helps them regulate their body temperature in both cold and hot weather. You or a groomer can give their coats a haircut to keep their coat trimmed and looking nice. (But they don't need anything dramatic.)\u003C/li\u003E\n \t\u003Cli\u003E\u003Cstrong\u003EEar cleaning:\u003C/strong\u003E While you're brushing your pup, check their ears for signs of infection (redness, swelling). \u003Cspan class=\"TextRun SCXW13084347 BCX0\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\u003E\u003Cspan class=\"NormalTextRun SCXW13084347 BCX0\"\u003EIf you notice anything, speak to your vet. If your vet recommends at-home cleaning, follow this \u003C/span\u003E\u003C/span\u003E\u003Ca class=\"Hyperlink SCXW13084347 BCX0\" href=\"https://www.chewy.com/education/dog/health-and-wellness/how-do-you-clean-a-dogs-ears-follow-this-vet-approved-step-by-step-guide\" target=\"_blank\" rel=\"noreferrer noopener\"\u003E\u003Cspan class=\"TextRun Underlined SCXW13084347 BCX0\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\u003E\u003Cspan class=\"NormalTextRun SCXW13084347 BCX0\" data-ccp-charstyle=\"Hyperlink\"\u003Estep-by-step guide on how to clean dog ears\u003C/span\u003E\u003C/span\u003E\u003C/a\u003E\u003Cspan class=\"TextRun SCXW13084347 BCX0\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\u003E\u003Cspan class=\"NormalTextRun SCXW13084347 BCX0\"\u003E.\u003C/span\u003E\u003C/span\u003E\u003C/li\u003E\n \t\u003Cli\u003E\u003Cstrong\u003EBathing:\u003C/strong\u003E What about bathtime? You can rejoice! Springers may only need a \u003Ca href=\"https://www.chewy.com/education/dog/grooming/how-to-bathe-a-dog-step-by-step-tips-from-a-professional-groomer\"\u003Ebath\u003C/a\u003E every-other-month, depending on how much they run around outside. They may need a bath in between if they've played in the mud.\u003C/li\u003E\n \t\u003Cli\u003E\u003Cstrong\u003ENail trimming:\u003C/strong\u003E \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/guide-trimming-dogs-nails\"\u003ETrim your pup's nails\u003C/a\u003E once a month. (If they're active, you may need to trim them less often.) You'll know it's time for a trim when you hear their nails clicking on hard surfaces.\u003C/li\u003E\n \t\u003Cli\u003E\u003Cstrong\u003EDental care:\u003C/strong\u003E Lastly, it's recommended to brush your pup's teeth daily to stop plaque and tartar from building up. Periodontal disease can lead to a loss of teeth and even more serious issues like organ failure. In addition to regular daily or weekly \u003Ca href=\"https://www.chewy.com/education/dog/grooming/health-wellness-how-to-brush-your-dogs-teeth-live-to-tell-the-tale\"\u003Ebrushings at home\u003C/a\u003E, be sure to take your dog to the vet for professional dental cleanings once per year.\u003C/li\u003E\n\u003C/ul\u003E",
+        "training": "As you train your English Springer Spaniel puppy, it's important to remember that Springers love to please their people, and they really do want to make you happy. But—these pups are smart, independent and want to hunt. Consistency in \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/sit-stay-and-beyond-weve-got-the-essential-guide-to-basic-dog-obedience-training\"\u003Etraining\u003C/a\u003E (for example, not taking days off as well as sticking to the same verbal cue for things like stay and not switching it up to another word like “wait\") and patience (taking breaks before you both get frustrated) are key.\n\nOne of the most important aspects of training is early \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/positively-trained-puppy-socialization-dos-and-donts\"\u003Esocialization\u003C/a\u003E. These pups are friendly, and you want to create as many positive experiences as you can while they're puppies. Enroll your English Springer Spaniel puppy in puppy school; they'll learn how to play nicely with other puppies and get to meet new adults. (And you may pick up a few new friends for puppy playdates. Win, win!)\n\nTeach your pup basic commands like \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-sit\"\u003Esit\u003C/a\u003E, \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-stay\"\u003Estay\u003C/a\u003E and \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-come\"\u003Ecome\u003C/a\u003E and \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/leash-train-dog-2\"\u003Ehow to walk nicely on a leash\u003C/a\u003E. These commands are important for their safety. But even though your pup may know these commands and respond well in enclosed environments, like your backyard, never ever trust your pup off-leash when out in the open (unless you're hunting, obvi). These dogs were bred to hunt (especially of birds), and they'll take off in hot pursuit, regardless of how loudly you call them back. For their own safety (and quite frankly, your sanity), always keep them on a \u003Ca href=\"https://www.chewy.com/b/leashes-346\" target=\"_blank\" rel=\"noopener\"\u003Eleash\u003C/a\u003E when you're not in a fenced area.\n\nSpringers need a confident and calm trainer, which is why they often do best with an experienced pup parent. If you're a newbie who's willing to put in the time and effort (and maybe seek the help of a certified dog trainer to teach you the ropes), a Springer Spaniel may be a good pup for you.",
+        "diet_nutrition": "English Springer Spaniels thrive on \u003Ca href=\"https://www.chewy.com/b/premium-food-11728\" target=\"_blank\" rel=\"noopener\"\u003Ehigh-quality commercial dog food\u003C/a\u003E. Be sure to choose a formula that fits their age and stage in life (puppy, adult, senior) and look for the statement that says it meets the nutritional standards set by the Association of American Feed Control Officials.\r\n\r\nMaintaining the proper weight for your Spaniel is crucial to their health and well-being; even an extra pound or two can make a difference. As you're planning mealtimes, don't forget all the treats you give as part of training or just because you love your pup. Those calories count, too! If you see your pup beginning to pack on the pounds, chat with your vet. They're in the best position to help you put together a meal and exercise plan to shed the weight and still maintain your pup's nutritional needs.",
+        "exercise": "English Springer Spaniels are high-energy dogs who need at least an hour (if not more) of exercise every day. This includes activities like walks, jogs or long hikes. If you're up for a little competition, engage their brains and their bodies and get them involved in dog sports, like \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/dog-agility-training-tips\"\u003Eagility\u003C/a\u003E or \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/sit-stay-and-beyond-weve-got-the-essential-guide-to-basic-dog-obedience-training\"\u003Eobedience\u003C/a\u003E. Play to their natural hunting ability with tracking events. (You'll both love it!) When playing indoors, be sure to have lots of \u003Ca href=\"https://www.chewy.com/b/puzzle-toys-games-2335\" target=\"_blank\" rel=\"noopener\"\u003Epuzzle games\u003C/a\u003E to keep them from getting bored. A bored pup will create their own entertainment, and for the sake of your favorite pair of shoes, keep them busy!\n\nAnd remember, unless you're hunting with your pup, don't let your dog off-leash outside of a fenced yard. They'll catch sight of a bird or other animal and will give chase (these pups are built for bursts of speed), and they won't pay attention as they cross the street or hear you calling for them to come back until they've ended their chase.",
+        "ideal_environment": "English Springer Spaniels dream of a home with lots of land where they can play and explore with their family. They may do OK in small homes and apartments if you have access to enclosed outdoor spaces where you can let them play. They do well with active single people or families, but they do need you to be home with them for most of the day. If you are gone often, this may not be the best dog for you.\r\n\r\nSpringers love playing with kids, and because they're so very playful, they will need to be supervised around small kids and babies. (They may accidentally knock tiny tots over.) But these loveable pooches are excellent playmates for older kids.",
+        "h2_breed_health": "\u003Cspan data-contrast=\"none\"\u003EEnglish Springer Spaniels have a lifespan of 12-14 years, although they are prone to several health problems. Some of these health issues may be avoided by working with a reputable breeder. Armed with knowledge and the advice of your vet, you can help your pup live the longest life possible.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;335557856&quot;:16777215}\"\u003E \u003C/span\u003E\r\n\u003Cul\u003E\r\n \t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;multilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"1\" data-aria-level=\"1\"\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/c_dg_elbow_dysplasia\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EElbow\u003C/span\u003E\u003C/b\u003E\u003C/a\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003E and \u003C/span\u003E\u003C/b\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/c_dg_hip_dysplasia\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EHip Dysplasia\u003C/span\u003E\u003C/b\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E: These are developmental disorders where the elbow or hip joint is malformed. Over time, it results in wearing of the bone and \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/c_multi_arthritis_osteoarthritis\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Eosteoarthritis\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E of the joint and is painful for your pup. Depending on the severity, treatments include medications, weight control or surgery.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;335557856&quot;:16777215,&quot;335559685&quot;:1117}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n \t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;multilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"2\" data-aria-level=\"1\"\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/endocrine/c_dg_phosphofructokinase_deficiency\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003ECanine\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E \u003C/span\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EPhosphofructokinase\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E (\u003C/span\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EPFK\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E) \u003C/span\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EDeficiency\u003C/span\u003E\u003C/b\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E:\u003C/span\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003E \u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003EThis is a genetic disease that prevents the dog from transforming glucose into energy and causes exercise intolerance, muscle disease and eventually anemia. There is no cure for PFK, but it can be managed with blood transfusions as needed.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;335557856&quot;:16777215,&quot;335559685&quot;:1117}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n \t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;multilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"3\" data-aria-level=\"1\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EEar Infections: \u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003EOften caused by allergies and water trapped in the ear from swimming or bathing, ear infections cause itching and inflammation. Your vet can prescribe medicated drops to resolve the infection. To help prevent ear infections, keep your pup’s ears dry.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;335557856&quot;:16777215,&quot;335559685&quot;:1117}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n \t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;multilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"4\" data-aria-level=\"1\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003ERetinal Dysplasia\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E: Also known as \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/condition/progressive-retinal-atrophy-in-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Eprogressive retinal atrophy (PRA)\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, retinal dysplasia is a degenerative disease that affects the photoreceptors of the eye, leading to gradual blindness. There is no cure for the condition, but a dog with retinal dysplasia can adjust to vision loss and still lead a happy life. There is also a genetic screening test so ask your breeder.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;335557856&quot;:16777215,&quot;335559685&quot;:1117}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n \t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;multilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"5\" data-aria-level=\"1\"\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/neurological/epilepsy-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EEpilepsy\u003C/span\u003E\u003C/b\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E: Seizures can occur in English Springer Spaniels and be hereditary. Epilepsy often first occurs at 6 months to 5 years of age and is generally treatable with daily medications. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;335557856&quot;:16777215,&quot;335559685&quot;:1117}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\u003C/ul\u003E",
+        "h2_breed_history": "It's likely the English Springer Spaniel finds their origins in Spain, but they're mainly known as descendants of the English Spaniels of Norfolk or Shropshire in the mid-19th century. These hunting dogs accompanied hunters and flushed (or sprung) birds from the brush, earmarking them as \"Springers.\" Once upon a time, the \u003Ca href=\"https://www.chewy.com/education/dog-breeds/english-cocker-spaniel/\" rel=\"noopener\"\u003EEnglish Cocker Spaniel\u003C/a\u003E and the English Springer Spaniel were the same breed. Larger pups of a litter were used as \"springers,\" and smaller pups were used for hunting woodcocks.\r\n\r\nIn 1902, Springer Spaniels were divided into two distinct breeds, the English Springer Spaniel and the Welsh Springer Spaniel, by the English Kennel Club. The American Kennel Club recognized the English Springer Spaniel in 1910; and today, the pup ranks No. 27 on the AKC's popularity list.\r\n\r\nWant to add an English Springer Spaniel to your family? You can find a list of reputable breeders on the \u003Ca href=\"https://marketplace.akc.org/puppies/english-springer-spaniel?breed=103&amp;page=1\" target=\"_blank\" rel=\"noopener\"\u003EAKC website\u003C/a\u003E. The average price for a puppy is $800-$2,000. But for that price, you're likely getting a pup who's been screened for health and temperament issues and may come with pedigree papers. If you'd like to adopt a pup, contact an English Springer Spaniel rescue or keep an eye out for the breed at your local animal shelter. You can also search \u003Ca href=\"https://www.chewy.com/g/dog-english-springer-spaniel_ga1\" target=\"_blank\" rel=\"noopener\"\u003EChewy’s database of adoptable dogs\u003C/a\u003E in your area.",
+        "expert_attribution": "\u003Ci\u003EExpert input provided by Alex Smith, a trainer at the \u003Ca href=\"https://thepositivepuppytrainer.co.uk/\" target=\"_blank\" rel=\"noopener\"\u003EPositive Puppy Trainer\u003C/a\u003E.\u003C/i\u003E\r\n\r\n\u003Cem\u003EBreed characteristic ratings provided by veterinarian Dr. Sarah J. Wooten, DVM, CVJ, a veterinarian at \u003Ca href=\"https://sheepdraw.com/\" target=\"_blank\" rel=\"noopener\"\u003ESheep Draw Veterinary Hospital\u003C/a\u003E in Greeley, Colorado (who also provided expert input); dog trainer and behavior consultant Irith Bloom, CPDT-KSA, CBCC-KA, CDBC, owner of \u003Ca href=\"https://thesophisticateddog.com/\" target=\"_blank\" rel=\"noopener\"\u003EThe Sophisticated Dog, LLC\u003C/a\u003E, in Los Angeles; and certified animal behavior consultant \u003Ca href=\"https://shojai.com/\" target=\"_blank\" rel=\"noopener\"\u003EAmy Shojai\u003C/a\u003E, CABC, in Sherman, Texas.\u003C/em\u003E\r\n\r\n\u003Cem\u003EThe health content was medically reviewed by Chewy vets.\u003C/em\u003E",
+        "facebook_social_snippet_with_cta": "\u003Cp\u003EReady to add a sweet, rambunctious and loving dog to your crew? The English Springer Spaniel is a great match for active, outdoor pet parents. Get all the facts about this popular breed and see if they're a good match for you in our guide.\u003C/p\u003E",
+        "species": "\u003Cp\u003EDog\u003C/p\u003E",
+        "h2_faqs": "\u003Ch3\u003EWhat is the difference between a Springer Spaniel and a Cocker Spaniel?\u003C/h3\u003E\nSpringer Spaniels and \u003Ca href=\"https://www.chewy.com/education/dog-breeds/cocker-spaniel/\"\u003ECocker Spaniels\u003C/a\u003E are two different breeds—today. Centuries ago, the breeds were the same but used for different jobs. The Springers were the larger pups of the litter and used to spring (flush) birds from the brush, and the Cockers were the smaller pups and used to hunt woodcocks.\n\u003Ch3\u003EDo English Springer Spaniels shed?\u003C/h3\u003E\nYes, English Springer Spaniels shed a lot. They shed moderately throughout the year, but during the fall and spring, they kick into high gear. Be sure you've got an industrial-strength vacuum for shedding season.\n\u003Ch3\u003EAre Springer Spaniels good family dogs?\u003C/h3\u003E\nSpringer Spaniels are good family dogs! They love their people and make wonderful family pets. When raised together, kids and Springers are perfect companions for romping, running and shenanigans. Can you picture anything cuter?\n\u003Ch3\u003EWhen do Springer Spaniels stop growing?\u003C/h3\u003E\nSpringer Spaniels stop growing around 18-20 months old when they reach their maturity.\n\u003Ch3\u003EWhat are the most popular English Springer Spaniel names?\u003C/h3\u003E\nThe most popular English Springer Spaniel names include Beau, Candy, Holly, Baby, Sadie, Duchess, Ginger, Jake, Duke, Cleo, Sammy, Abby, Pepper and Mara. Get more \u003Ca href=\"https://www.chewy.com/education/dog/general/top-dog-names\"\u003Edog name inspo\u003C/a\u003E.\n\u003Ch3\u003EWhat are the most common Springer Spaniel mixes?\u003C/h3\u003E\nThe most common Springer Spaniel mixes are:\n\u003Cul\u003E\n \t\u003Cli\u003EEnglish Springer Spaniel-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/poodle/\"\u003EPoodle\u003C/a\u003E mix (Sproodle, Springerdoodle Retriever, Springerpoo, Springerpoo Retriever)\u003C/li\u003E\n \t\u003Cli\u003EEnglish Springer Spaniel–\u003Ca href=\"https://www.chewy.com/education/dog-breeds/labrador-retriever/\"\u003ELabrador\u003C/a\u003E mix (Springador)\u003C/li\u003E\n \t\u003Cli\u003EEnglish Springer Spaniel–\u003Ca href=\"https://www.chewy.com/education/dog-breeds/border-collie/\"\u003EBorder Collie\u003C/a\u003E mix (Sprollies)\u003C/li\u003E\n \t\u003Cli\u003EEnglish Springer Spaniel–\u003Ca href=\"https://www.chewy.com/education/dog-breeds/golden-retriever/\"\u003EGolden Retriever\u003C/a\u003E mix (Spangold Retriever)\u003C/li\u003E\n \t\u003Cli\u003EEnglish Springer Spaniel–\u003Ca href=\"https://www.chewy.com/education/dog-breeds/cocker-spaniel/\"\u003ECocker Spaniel\u003C/a\u003E mix(Sprocker Spaniel)\u003C/li\u003E\n\u003C/ul\u003E\nNote: These are not purebred dogs but mixed breeds.",
+        "faq_items": [
+          {
+            "faq_title": "What is the difference between a Springer Spaniel and a Cocker Spaniel?",
+            "faq_content": "Springer Spaniels and \u003Ca href=\"https://www.chewy.com/education/dog-breeds/cocker-spaniel/\"\u003ECocker Spaniels\u003C/a\u003E are two different breeds—today. Centuries ago, the breeds were the same but used for different jobs. The Springers were the larger pups of the litter and used to spring (flush) birds from the brush, and the Cockers were the smaller pups and used to hunt woodcocks."
+          },
+          {
+            "faq_title": "Do English Springer Spaniels shed?",
+            "faq_content": "Yes, English Springer Spaniels shed a lot. They shed moderately throughout the year, but during the fall and spring, they kick into high gear. Be sure you've got an industrial-strength vacuum for shedding season."
+          },
+          {
+            "faq_title": "Are Springer Spaniels good family dogs?",
+            "faq_content": "Springer Spaniels are good family dogs! They love their people and make wonderful family pets. When raised together, kids and Springers are perfect companions for romping, running and shenanigans. Can you picture anything cuter?"
+          },
+          {
+            "faq_title": "When do Springer Spaniels stop growing?",
+            "faq_content": "Springer Spaniels stop growing around 18-20 months old when they reach their maturity."
+          },
+          {
+            "faq_title": "What are the most popular English Springer Spaniel names?",
+            "faq_content": "The most popular English Springer Spaniel names include Beau, Candy, Holly, Baby, Sadie, Duchess, Ginger, Jake, Duke, Cleo, Sammy, Abby, Pepper and Mara. Get more \u003Ca href=\"https://www.chewy.com/education/dog/general/top-dog-names\"\u003Edog name inspo\u003C/a\u003E."
+          },
+          {
+            "faq_title": "What are the most common Springer Spaniel mixes?",
+            "faq_content": "The most common Springer Spaniel mixes are:\r\n\u003Cul\u003E\r\n \t\u003Cli\u003EEnglish Springer Spaniel-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/poodle/\"\u003EPoodle\u003C/a\u003E mix (Sproodle, Springerdoodle Retriever, Springerpoo, Springerpoo Retriever)\u003C/li\u003E\r\n \t\u003Cli\u003EEnglish Springer Spaniel–\u003Ca href=\"https://www.chewy.com/education/dog-breeds/labrador-retriever/\"\u003ELabrador\u003C/a\u003E mix (Springador)\u003C/li\u003E\r\n \t\u003Cli\u003EEnglish Springer Spaniel–\u003Ca href=\"https://www.chewy.com/education/dog-breeds/border-collie/\"\u003EBorder Collie\u003C/a\u003E mix (Sprollies)\u003C/li\u003E\r\n \t\u003Cli\u003EEnglish Springer Spaniel–\u003Ca href=\"https://www.chewy.com/education/dog-breeds/golden-retriever/\"\u003EGolden Retriever\u003C/a\u003E mix (Spangold Retriever)\u003C/li\u003E\r\n \t\u003Cli\u003EEnglish Springer Spaniel–\u003Ca href=\"https://www.chewy.com/education/dog-breeds/cocker-spaniel/\"\u003ECocker Spaniel\u003C/a\u003E mix(Sprocker Spaniel)\u003C/li\u003E\r\n\u003C/ul\u003E\r\nNote: These are not purebred dogs but mixed breeds."
+          }
+        ],
+        "select_related_breeds": [
+          {
+            "selected_related_breed": 673,
+            "characteristic": "breed_characteristics_playfulnesss"
+          },
+          {
+            "selected_related_breed": 450,
+            "characteristic": "breed_characteristics_training_needs"
+          },
+          {
+            "selected_related_breed": 468,
+            "characteristic": "breed_characteristics_good_with_cats"
+          },
+          {
+            "selected_related_breed": 73,
+            "characteristic": "breed_characteristics_exercise_needs"
+          },
+          {
+            "selected_related_breed": 426,
+            "characteristic": "breed_characteristics_energy_level"
+          },
+          {
+            "selected_related_breed": 95,
+            "characteristic": "breed_characteristics_good_with_other_dogs"
+          }
+        ],
+        "enable_featured_gallery": [
+          "enable_featured_gallery"
+        ],
+        "featured_gallery_images": [761, 762, 763, 764, 765]
+      },
+      "yoast_head": "\u003C!-- This site is optimized with the Yoast SEO plugin v23.8 - https://yoast.com/wordpress/plugins/seo/ --\u003E\n\u003Ctitle\u003EEnglish Springer Spaniel Breed: Characteristics, Care &amp; Photos | Chewy\u003C/title\u003E\n\u003Cmeta name=\"description\" content=\"Want to learn more about the very active English Springer Spaniel? Our complete English Springer Spaniel guide has the scoop.\" /\u003E\n\u003Cmeta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" /\u003E\n\u003Clink rel=\"canonical\" href=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/english-springer-spaniel/\" /\u003E\n\u003Cmeta property=\"og:locale\" content=\"en_US\" /\u003E\n\u003Cmeta property=\"og:type\" content=\"article\" /\u003E\n\u003Cmeta property=\"og:title\" content=\"English Springer Spaniel Breed: Characteristics, Care &amp; Photos | Chewy\" /\u003E\n\u003Cmeta property=\"og:description\" content=\"Want to learn more about the very active English Springer Spaniel? Our complete English Springer Spaniel guide has the scoop.\" /\u003E\n\u003Cmeta property=\"og:url\" content=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/english-springer-spaniel/\" /\u003E\n\u003Cmeta property=\"og:site_name\" content=\"Chewy\" /\u003E\n\u003Cmeta property=\"article:modified_time\" content=\"2025-05-05T14:22:03+00:00\" /\u003E\n\u003Cmeta property=\"og:image\" content=\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11165655/202106English-Springer-Spaniel-FeaturedImage.jpg\" /\u003E\n\t\u003Cmeta property=\"og:image:width\" content=\"1440\" /\u003E\n\t\u003Cmeta property=\"og:image:height\" content=\"865\" /\u003E\n\t\u003Cmeta property=\"og:image:type\" content=\"image/jpeg\" /\u003E\n\u003Cmeta name=\"twitter:card\" content=\"summary_large_image\" /\u003E\n\u003Cscript type=\"application/ld+json\" class=\"yoast-schema-graph\"\u003E{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/english-springer-spaniel/\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/english-springer-spaniel/\",\"name\":\"English Springer Spaniel Breed: Characteristics, Care & Photos | Chewy\",\"isPartOf\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/english-springer-spaniel/#primaryimage\"},\"image\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/english-springer-spaniel/#primaryimage\"},\"thumbnailUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11165655/202106English-Springer-Spaniel-FeaturedImage.jpg\",\"datePublished\":\"2021-06-14T09:20:31+00:00\",\"dateModified\":\"2025-05-05T14:22:03+00:00\",\"description\":\"Want to learn more about the very active English Springer Spaniel? Our complete English Springer Spaniel guide has the scoop.\",\"breadcrumb\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/english-springer-spaniel/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://phcms.hlth.prd.aws.chewy.cloud/breed/english-springer-spaniel/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/english-springer-spaniel/#primaryimage\",\"url\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11165655/202106English-Springer-Spaniel-FeaturedImage.jpg\",\"contentUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11165655/202106English-Springer-Spaniel-FeaturedImage.jpg\",\"width\":1440,\"height\":865},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/english-springer-spaniel/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://phcms.hlth.prd.aws.chewy.cloud/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"English Springer Spaniel\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/\",\"name\":\"Chewy\",\"description\":\"\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"}]}\u003C/script\u003E\n\u003C!-- / Yoast SEO plugin. --\u003E",
+      "yoast_head_json": {
+        "title": "English Springer Spaniel Breed: Characteristics, Care & Photos | Chewy",
+        "description": "Want to learn more about the very active English Springer Spaniel? Our complete English Springer Spaniel guide has the scoop.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://phcms.hlth.prd.aws.chewy.cloud/breed/english-springer-spaniel/",
+        "og_locale": "en_US",
+        "og_type": "article",
+        "og_title": "English Springer Spaniel Breed: Characteristics, Care & Photos | Chewy",
+        "og_description": "Want to learn more about the very active English Springer Spaniel? Our complete English Springer Spaniel guide has the scoop.",
+        "og_url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/english-springer-spaniel/",
+        "og_site_name": "Chewy",
+        "article_modified_time": "2025-05-05T14:22:03+00:00",
+        "og_image": [
+          {
+            "width": 1440,
+            "height": 865,
+            "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11165655/202106English-Springer-Spaniel-FeaturedImage.jpg",
+            "type": "image/jpeg"
+          }
+        ],
+        "twitter_card": "summary_large_image",
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/english-springer-spaniel/",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/english-springer-spaniel/",
+              "name": "English Springer Spaniel Breed: Characteristics, Care & Photos | Chewy",
+              "isPartOf": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/english-springer-spaniel/#primaryimage"
+              },
+              "image": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/english-springer-spaniel/#primaryimage"
+              },
+              "thumbnailUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11165655/202106English-Springer-Spaniel-FeaturedImage.jpg",
+              "datePublished": "2021-06-14T09:20:31+00:00",
+              "dateModified": "2025-05-05T14:22:03+00:00",
+              "description": "Want to learn more about the very active English Springer Spaniel? Our complete English Springer Spaniel guide has the scoop.",
+              "breadcrumb": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/english-springer-spaniel/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://phcms.hlth.prd.aws.chewy.cloud/breed/english-springer-spaniel/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/english-springer-spaniel/#primaryimage",
+              "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11165655/202106English-Springer-Spaniel-FeaturedImage.jpg",
+              "contentUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11165655/202106English-Springer-Spaniel-FeaturedImage.jpg",
+              "width": 1440,
+              "height": 865
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/english-springer-spaniel/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://phcms.hlth.prd.aws.chewy.cloud/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "English Springer Spaniel"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/",
+              "name": "Chewy",
+              "description": "",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            }
+          ]
+        }
+      },
+      "yoast_meta": {
+        "yoast_wpseo_title": "",
+        "yoast_wpseo_metadesc": "",
+        "yoast_wpseo_canonical": ""
+      },
+      "_links": {
+        "self": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed/769",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/types/breed"
+          }
+        ],
+        "acf:attachment": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/765"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/764"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/763"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/762"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/761"
+          }
+        ],
+        "wp:featuredmedia": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/768"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media?parent=769"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "pet_type",
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/pet_type?post=769"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ]

@@ -1,0 +1,325 @@
+[
+    {
+      "id": 591,
+      "date": "2021-06-21T09:26:06",
+      "date_gmt": "2021-06-21T09:26:06",
+      "guid": {
+        "rendered": "https://haproxy.use1.lgcy.prd.aws.chewy.cloud/eks/ns/pet-health/pet-health-content-backend/breed/anatolian-shepherd/"
+      },
+      "modified": "2025-06-04T19:00:14",
+      "modified_gmt": "2025-06-04T19:00:14",
+      "slug": "anatolian-shepherd",
+      "status": "publish",
+      "type": "breed",
+      "link": "https://phcms.hlth.prd.aws.chewy.cloud/breed/anatolian-shepherd/",
+      "title": {
+        "rendered": "Anatolian Shepherd"
+      },
+      "featured_media": 2807,
+      "template": "",
+      "pet_type": [],
+      "class_list": [
+        "post-591",
+        "breed",
+        "type-breed",
+        "status-publish",
+        "has-post-thumbnail",
+        "hentry"
+      ],
+      "acf": {
+        "breed_snapshot_best_for": "\u003Cp\u003EAnatolian Shepherds are large dogs who were originally bred to protect livestock. Today, they still require ample room to roam and lots of time in the great outdoors (even if it's just your backyard). They thrive with experienced pet parents who can provide firm leadership and regular exercise.\u003C/p\u003E",
+        "alt_image_text": "Anatolian Shepherd dog breed",
+        "breed_intro": "\u003Cp\u003EIf you've been searching for the strong, silent type, you've found 'em—albeit not in human form. Blue-collar and proud of it, the Anatolian Shepherd is a hard worker who was bred to roam the grounds tirelessly protecting their flock. Today's Anatolians may be large and intimidating, but they're big softies with their families, including kids, with the right training and socialization. Did we mention they'll need \u003Ci\u003Elots\u003C/i\u003E of training and early socialization? They often prefer to be patrolling your domain instead of being in the mix of a party, so you'll need to start showing them the ropes early on. But for the right family, this loyal pup will be a great addition.\u003C/p\u003E",
+        "breed_related_products_product_card_set": "",
+        "breed_snapshot_temperament": "\u003Cp\u003EIntelligent, Endlessly Patient, Loyal\u003C/p\u003E",
+        "what_does_this_breed_look_like_weight": "\u003Cp\u003EMale: 110-150 pounds\u003C/p\u003E\u003Cp\u003EFemale: 80-120 pounds\u003C/p\u003E",
+        "what_does_this_breed_look_like_height": "\u003Cp\u003EMale: 29 inches\u003C/p\u003E\u003Cp\u003EFemale: 27 inches\u003C/p\u003E",
+        "breed_snapshot_life_expectancy": "\u003Cp\u003E11 to 13 years\u003C/p\u003E",
+        "breed_snapshot_maintenance_level": "\u003Cp\u003EMedium\u003C/p\u003E",
+        "breed_characteristics_friendliness": "\u003Cp\u003E1\u003C/p\u003E",
+        "breed_snapshot_coat_color": "\u003Cp\u003EBiscuit and White, Brindle, Blue Fawn, Brindle, Fawn, Gray Fawn, Red Fawn, Liver, White\u003C/p\u003E",
+        "breed_snapshot_shed_level": "\u003Cp\u003EMedium\u003C/p\u003E",
+        "in_article_video": null,
+        "breed_characteristics": "\u003Cp\u003EThese traits are rated on a scale of 1-5 with 1 being the lowest and 5 being the highest. Remember: Dogs are individuals, and not all dogs, even those of the same breed, will exhibit all the same qualities.\u003C/p\u003E",
+        "breed_characteristics_exercise_needs": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_health_issues": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_barking_tendencies": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_grooming_needs": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_shedding_level": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_training_needs": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_good_with_kids": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_good_with_cats": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_good_for_apartments_small_homes": "\u003Cp\u003E1\u003C/p\u003E",
+        "breed_characteristics_energy_level": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_with_other_dogs": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_playfulnesss": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_cold_weather": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_warm_weather": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_for_first_time_parents": "\u003Cp\u003E1\u003C/p\u003E",
+        "how_do_i_look_card_image": 2806,
+        "what_does_this_breed_look_like": "\u003Cp\u003EThe Anatolian Shepherd is a muscular working dog who inherited their large size from mastiff ancestors. Relaxed but ready for action, Anatolians move with a dancer's grace. Their calm and intelligent expression is reassuring—one look at them, and you'll know this pup has everything under control. Their coats are on the shorter side, although some can grow to be up to 4 inches in length, and they come in a variety of colors, mostly shades of beige. The distinctive mask marking on their face is the perfect finishing touch for this superhero.\u003C/p\u003E",
+        "what_does_this_breed_look_like_ears": "\u003Cp\u003ETheir droopy ears sit on the sides of their head and are around 6 inches long.\u003C/p\u003E",
+        "what_does_this_breed_look_like_eyes": "\u003Cp\u003ETheir eyes are brown to amber in color and almond-shaped.\u003C/p\u003E",
+        "what_does_this_breed_look_like_nose": "\u003Cp\u003EThey have a solid brown or black nose on a square muzzle.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_length": "\u003Cp\u003EAnatolians can have two types of coats: short, about 1 inch, and rough, which is approximately 4 inches, both with a dense undercoat. They may have slightly longer fur around their neck.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_color": "\u003Cp\u003ETheir coats come in a range of colors, including a biscuit and white color combo, fawn (light yellowish-tan) or white. While those are the most common, brindle (subtle tiger stripes), liver (brown), and blue, red and gray shades of fawn are also desirable by breeders. They usually have a darker mask pattern on their face.\u003C/p\u003E",
+        "what_does_this_breed_look_like_tail": "\u003Cp\u003ETheir long, high-set tail is carried low with a curl at the end or in a circle over their back.\u003C/p\u003E",
+        "h2_breed_temperament": "\u003Cp\u003EThe Anatolian Shepherd has the best characteristics and traits a farmer or rancher would look for in a livestock guardian dog. (Makes sense, because they were bred for the job.) They're intelligent, competent, independent and able to decide what's best for their flock. They're also large and intimidating, incredibly graceful, and their speed is definitely something to write home about—they can run about 30 mph!\u003C/p\u003E\r\n\u003Cp\u003EThese pups sometimes aren't overly friendly with people or pets they don't know. But they are very loyal and loving to their family (other pets included!) who they may consider their flock. You'll need to \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/positively-trained-puppy-socialization-dos-and-donts\"\u003Esocialize\u003C/a\u003E your Anatolian Shepherd with other people and dogs while they're young so they learn that it's OK to have friends. And be sure to supervise all playtimes with children, ensuring that any kids in your dog's life know how to respectfully interact with dogs. With their large size, these pups may accidentally knock over smaller kids. Also, if you have a visiting child, your pup may misinterpret their playful actions as aggressive and move to defend your child. Socialization and training are key to ensuring these dogs become comfortable around kids (and other types of people outside their immediate families).\u003C/p\u003E\r\n\u003Cp\u003EIf you adopt an older Anatolian Shepherd, make sure they've already received training and have been well-socialized. If not, they might be better suited to living as the only pet in a household without children or on a farm where they can roam and have their own space.\u003C/p\u003E\r\n\u003Cp\u003EHere's the bottom line: Your pup will be loyal to a fault and their one desire will be for you to be safe.\u003C/p\u003E",
+        "h2_how_to_care_for_a_breed": "\u003Cp\u003EAn Anatolian Shepherd dog might be mostly independent in the field, but as a pet, they need more attention and care. Your furry buddy will need extensive training, regular grooming, proper veterinary care, stimulating activities and exercise. They also need adequate time with you and lots of bonding activities. That list of needs is almost as long as this breed is tall, but with the right pet parent, an Anatolian Shepherd will be a loyal, hard-working family member.\u003C/p\u003E",
+        "grooming": "\u003Cp\u003EAnatolian Shepherds can have two types of coats: short, about one inch, and rough, which is approximately four inches. But regardless of which type of coat your dog has, grooming is fairly low maintenance on Anatolians.\u003C/p\u003E\r\n\u003Cp\u003EA thorough brushing session with a good \u003Ca href=\"https://www.chewy.com/f/dog-pin-brushes_c356_f70v83789\" target=\"_blank\" rel=\"noopener\"\u003Epin brush\u003C/a\u003E once a week will keep them tangle-free and prevent the occasional hair from showing up on your clothes. Keep in mind your dog will shed their undercoat twice a year in the spring and fall, though. While this is happening, you'll need to groom them every couple of days with a brush and \u003Ca href=\"https://www.chewy.com/f/stainless-steel-dog-brushes-combs_c356_f7v17020\" target=\"_blank\" rel=\"noopener\"\u003Esteel comb\u003C/a\u003E to make sure you get all dead hairs out. A \u003Ca href=\"https://www.chewy.com/f/rake-dog-brushes-combs_c356_f70v83790\" target=\"_blank\" rel=\"noopener\"\u003Eshedding rake\u003C/a\u003E will prevent the undercoat from matting.\u003C/p\u003E\r\n\u003Cp\u003EA \u003Ca href=\"https://www.chewy.com/education/dog/grooming/how-to-bathe-a-dog-step-by-step-tips-from-a-professional-groomer\"\u003Ebath\u003C/a\u003E once a month will keep your pup smelling fresh. Want to do it at home instead of taking them to the groomer? Be sure to use a good quality \u003Ca href=\"https://www.chewy.com/b/shampoos-2445\" target=\"_blank\" rel=\"noopener\"\u003Edog shampoo\u003C/a\u003E. After bath time, use \u003Ca href=\"https://www.chewy.com/b/nail-clippers-1430\" target=\"_blank\" rel=\"noopener\"\u003Enail trimmers\u003C/a\u003E or a \u003Ca href=\"https://www.chewy.com/b/nail-grinders-accessories-2403\" target=\"_blank\" rel=\"noopener\"\u003Egrinder\u003C/a\u003E to cut their nails. Your vet can show you how short your dog's nails should be, but a trim once a month should do the trick. (Learn more about \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/guide-trimming-dogs-nails\"\u003Enail trimming here\u003C/a\u003E.)\u003C/p\u003E\r\n\u003Cp\u003EYour dog's teeth will need to be brushed daily. Brushing now (\u003Ca href=\"https://www.chewy.com/education/dog/grooming/health-wellness-how-to-brush-your-dogs-teeth-live-to-tell-the-tale\"\u003Eget the how-to here\u003C/a\u003E) can prevent painful extractions and disease later. And don't forget to schedule a yearly cleaning with your vet!\u003C/p\u003E",
+        "training": "\u003Cp\u003ERaising an Anatolian Shepherd requires significant \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/sit-stay-and-beyond-weve-got-the-essential-guide-to-basic-dog-obedience-training\"\u003Eobedience training\u003C/a\u003E. Obedience training teaches basic commands like \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-sit\"\u003Esit\u003C/a\u003E, \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-stay\"\u003Estay\u003C/a\u003E and \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-come\"\u003Ecome\u003C/a\u003E, and they learn \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/leash-train-dog-2\"\u003Ehow to walk nicely on a leash\u003C/a\u003E. The Anatolian Shepherd breed is both intelligent and independent—meaning your puppy is going to learn quickly, but will only listen if they want to. This intelligent and \"I-want-to-do-it-my-way\" attitude is why the breed is not ideal for your first dog—strong-willed streaks can be frustrating! They need a confident, calm and patient leader who understands what is needed to bring out the best in this breed.\u003C/p\u003E\r\n\u003Cp\u003EProper socialization is important; without it, the breed isn't generally friendly with outsiders and can be hesitant to interact with people they don't know. This is why it's important to start socializing your dog while they're a puppy. Socialization gets them used to experiencing new situations, people and other dogs. Puppy training school is a good place to start. If you have children or other pets in the house, socialize the puppy with them early and reward positive behavior with treats, praise or other high-value goodies. Pro Tip: You may find that \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/find-a-dog-trainer\"\u003Eenlisting the help of a certified trainer\u003C/a\u003E or pet behaviorist is beneficial. They can help you choose the best ways to help socialize your pup.\u003C/p\u003E\r\n\u003Cp\u003EIn order to keep peace in the home, you need to establish yourself as the clear leader and earn your Anatolian's respect to avoid your dog trying to take on the leadership duties themselves. What do you need to do? Be confident, calm and consistent, and make sure they get the training they need. As you train your pup, use positive reinforcement methods where you reward your dog for good behavior. If you do use a trainer or behaviorist, always be present during the training sessions so you can benefit from the extra bonding with your dog—you want your dog respecting you, not the trainer! When your dog trusts your leadership, they will be happier, better behaved and reach their full potential as a wonderful, loyal Anatolian dog—a true canine superhero!\u003C/p\u003E",
+        "diet_nutrition": "\u003Cp\u003EAnatolian Shepherds typically do well on a \u003Ca href=\"https://www.chewy.com/b/premium-food-11728\"\u003Ehigh-quality commercial dog food\u003C/a\u003E. Be sure to factor in your dog's age and choose a formula that fits their stage in life (puppy, adult, senior). Because they're a working breed, your Anatolian Shepherd may benefit from higher-protein dog food.\u003C/p\u003E\r\n\u003Cp\u003EYour veterinarian can help you choose the best food for your dog based on their individual needs. They can also help you nail down a feeding chart to guide you on how much and how often to feed your dog based on their specific diet, but feeding your Anatolian twice a day is a good place to start.\u003C/p\u003E\r\n\u003Cp\u003EIf you need a training aid for your guard dog, \u003Ca href=\"https://www.chewy.com/american-journey-salmon-recipe-grain/dp/177952\" target=\"_blank\" rel=\"noopener\"\u003EAmerican Journey's Training Bits\u003C/a\u003E are ideal. They're smaller bits of treats that reward the dog without adding too many calories. Remember that treats = calories, so you want to adjust their food quantities if larger amounts of treats are given. If you notice your pup is packing on more pounds than usual, talk with your vet. They can help you put together a mealtime and exercise plan to help your pup shed the extra weight and maintain their nutritional needs.\u003C/p\u003E",
+        "exercise": "\u003Cp\u003EThe Anatolian Shepherd is no couch potato—and as their dog parent, you shouldn't be either! They don't need countless hours of exercise, but you'll need to be prepared for a couple of 30-minute walks each day (totaling about an hour). When walking, keep your dog on a \u003Ca href=\"https://www.chewy.com/b/leashes-346\"\u003Esturdy leash\u003C/a\u003E that allows you to maintain control even if another dog startles or confronts your ginormous pup.\u003C/p\u003E\r\n\u003Cp\u003EYou should also allow your dog several hours in the yard each day. Your Anatolian will be a big, muscular dog, so you'll want to make sure your fence is tall and strong.\u003C/p\u003E\r\n\u003Cp\u003EIf you provide different types of \u003Ca href=\"https://www.chewy.com/f/tough-chewer-dog-toys_c315_f58v382923\" target=\"_blank\" rel=\"noopener\"\u003Etoys\u003C/a\u003E for your Anatolian, ensure they're size appropriate and tough enough for a dog with powerful jaws and a strong bite force.\u003C/p\u003E\r\n\u003Cp\u003ERegular exercise helps your puppy build strong bones and muscles and ensures they live their best life. Have you heard the saying that a tired dog is a good dog? Trust us, you'll be thanking us for this insight!\u003C/p\u003E",
+        "ideal_environment": "\u003Cp\u003EThe Anatolian Shepherd's ideal environment is a farm in the countryside or a larger home with a big yard—this pup needs to stretch their legs. A small apartment or home with no yard will be more challenging. These dogs require room to roam, and they take up a\u003Ci\u003E good \u003C/i\u003Edeal of space simply because they're a larger dog.\u003C/p\u003E\r\n\u003Cp\u003EThe Anatolian Shepherd breed is particularly suited to be outdoors because of their thick undercoat. But this doesn't mean you should leave your loyal doggo outside at night—they like a \u003Ca href=\"https://www.chewy.com/b/pillow-beds-1457\" target=\"_blank\" rel=\"noopener\"\u003Eplush dog bed\u003C/a\u003E, too!\u003C/p\u003E\r\n\u003Cp\u003EWant a dog who will keep your kids out of trouble while they play in the yard? With proper bonding and socialization, your Anatolian will make sure of that. They're fiercely devoted to their family, and yes, your kids and other pets will become part of their flock.\u003C/p\u003E\r\n\u003Cp\u003EHere's another thing to consider: Is your house the social hub of the neighborhood? If so, you'll need to work diligently on socialization as soon as you bring your puppy home. Enlist the help of a trainer—stat!\u003C/p\u003E",
+        "h2_breed_health": "\u003Cp\u003EThe Anatolian Shepherd has a lifespan of 11 to 13 years and doesn’t have many health issues. While they’re mostly healthy dogs, there are a few health problems to watch out for to help your pup live the longest life possible.\u003C/p\u003E\r\n\u003Cul\u003E\r\n\t\u003Cli\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/c_dg_hip_dysplasia\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cstrong\u003EHip Dysplasia\u003C/strong\u003E\u003C/a\u003E: Hip dysplasia is a loosening of the hip joints that can cause connective tissues to break down and arthritis to occur. While hip dysplasia is possible in most dog breeds, it’s less common in Anatolians. However, if your dog is showing any symptoms of hip pain, like decreased activity, lameness in the back legs or limping, a visit to your vet is in order. The symptoms can be treated with weight management, joint supplements, medications and/or surgery.\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/endocrine/c_dg_hypothyroidism\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cstrong\u003EHypothyroidism\u003C/strong\u003E\u003C/a\u003E: Hypothyroidism occurs when the dog’s thyroid isn’t producing enough of the hormone that regulates their metabolism. Common symptoms include weight gain, lethargy, hair loss and thinning of the fur. A blood test is typically all that’s needed to diagnose this disease, and it’s treatable with medication.\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/digestive/signs-and-symptoms-bloat-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cstrong\u003EBloat\u003C/strong\u003E\u003C/a\u003E: Bloat is the more common name for \u003Ca href=\"https://www.petmd.com/dog/conditions/digestive/gastric-dilatation-volvulus-gdv-syndrome\" target=\"_blank\" rel=\"noopener\"\u003Egastric dilatation-volvulus\u003C/a\u003E (GDV). This serious condition can quickly develop into a life-threatening emergency. While not common in Anatolians, they are at risk because of their larger size and broad rib cage. The classic clinical sign is retching or dry heaving with no vomit produced, but you may also see abdominal distension, restlessness, drooling, collapse or pale gums. This condition must be treated by a veterinarian immediately. They will likely perform emergency surgery.\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003ESensitivity to Anesthesia\u003C/strong\u003E: Anatolians are sometimes sensitive to anesthesia. This means it can sometimes take longer for them to recover from anesthesia, meaning it can take them longer to wake up or that they can experience lethargy for longer than expected afterwards. Discuss this possibility with your veterinarian before any procedures to make sure you’re both aware of what their process is.\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/eyes/c_multi_entropion\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cstrong\u003EEntropion\u003C/strong\u003E\u003C/a\u003E: In this condition, the eyelid is rolled inward toward the eyeball such that the eyelashes may touch the cornea and cause ulcers and scarring. Entropion may have a genetic component but unfortunately there is no genetic screening test. If severe enough, your veterinarian may recommend surgery to correct the entropion.\u003C/li\u003E\r\n\u003C/ul\u003E",
+        "h2_breed_history": "\u003Cp\u003EThe Anatolian Shepherd we know and love today comes from the Anatolian region of Turkey. Ancient artifacts show the breed's origin may date back as early as 2000 B.C.—that makes the Anatolian a truly ancient dog breed.\u003C/p\u003E\r\n\u003Cp\u003EModern Anatolians descend from the Coban Kopegi (\"shepherd's dog\") developed by herders to care for their sheep and goats. Unlike the herding dogs who moved the flock from location to location, the Coban Kopegi were bred to protect the flocks from large predators. Those ancient dogs were likely bred from Roman Mollosian war dogs and \u003Ca href=\"https://www.chewy.com/education/dog-breeds/tibetan-mastiff/\" target=\"_blank\" rel=\"noopener\"\u003ETibetan Mastiffs\u003C/a\u003E. They were known for their hardiness, independence and loyalty, traits the Anatolians and other Turkish shepherds of today still possess—like the Turkish Kangal, also known as the Kangal Shepherd Dog.\u003C/p\u003E\r\n\u003Cp\u003ETheir reputation as a guard dog led to their inclusion in the \"Sheepdog Project\" that ended with the outbreak of World War II. The program, led by the U.S. Department of Agriculture, was meant as an experiment to see which breeds would perform best as guardian dogs in the United States. They gained popularity among United States breeders when Lieutenant Robert Ballard, who was stationed in Turkey, brought a breeding pair home with him. Their popularity grew as farmers and ranchers discovered their phenomenal abilities in protecting livestock by keeping wolves and other predators away. The American Kennel Club officially recognized Anatolian Shepherds as an established breed in 1996.\u003C/p\u003E\r\n\u003Cp\u003EThanks to their amazing qualities, the Anatolian Shepherd and Kangal Shepherd have been selected by the \u003Ca href=\"https://cheetah.org/canada/about-us/what-we-support/livestock-guarding-dogs-program/\"\u003ECheetah Conservation Fund\u003C/a\u003E as guardian dogs for stock in Africa. The dogs are raised and given to farmers in an effort to scare cheetahs away rather than killing them.\u003C/p\u003E\r\n\u003Cp\u003EReady to look for your own Anatolian Shepherd puppy? You can find a list of reputable AKC breeders on the \u003Ca href=\"https://marketplace.akc.org/puppies/anatolian-shepherd-dog\"\u003EAmerican Kennel Club's website\u003C/a\u003E. Anatolian Shepherd prices range from $800 to $1,500. But that price, you're likely getting a pup who's been screened for health and temperament issues and may come with pedigree papers. Want to give a good home to an older dog or rescue an Anatolian? Contact the \u003Ca href=\"https://www.nasrn.com\"\u003ENational Anatolian Shepherd Dog Rescue Network\u003C/a\u003E for more information, or search \u003Ca href=\"https://www.chewy.com/g/dog-anatolian-shepherd_ga1\"\u003EChewy’s database of adoptable dogs\u003C/a\u003E in your area.\u003C/p\u003E",
+        "expert_attribution": "\u003Cp\u003E\u003Ci\u003EExpert input provided by veterinarian Philip Brown, DVM, \u003Ca href=\"https://www.animalcarecenterspringfield.com\"\u003EAnimal Care Center\u003C/a\u003E; Cathy Hawkins, trainer at \u003Ca href=\"https://www.smdtc.org\"\u003ESpringfield Missouri Dog Training Club\u003C/a\u003E; and Lisa Smith, Owner/Head Trainer at \u003Ca href=\"https://spotdogtraining.com\"\u003EOn The Spot Dog Training\u003C/a\u003E.\u003C/i\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cem\u003EBreed characteristic ratings provided by veterinarian Dr. Sarah J. Wooten, DVM, CVJ, a veterinarian at \u003Ca href=\"https://sheepdraw.com/\" target=\"_blank\" rel=\"noopener\"\u003ESheep Draw Veterinary Hospital\u003C/a\u003E in Greeley, Colorado; dog trainer and behavior consultant Irith Bloom, CPDT-KSA, CBCC-KA, CDBC, owner of \u003Ca href=\"https://thesophisticateddog.com/\" target=\"_blank\" rel=\"noopener\"\u003EThe Sophisticated Dog, LLC\u003C/a\u003E, in Los Angeles; and certified animal behavior consultant \u003Ca href=\"https://shojai.com/\" target=\"_blank\" rel=\"noopener\"\u003EAmy Shojai\u003C/a\u003E, CABC, in Sherman, Texas. \u003C/em\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cem\u003EThe health content was medically reviewed by Chewy vets.\u003C/em\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Ci\u003EPhoto credit for \"How do I look?\" \u003Ca href=\"https://www.pets4homes.co.uk/dog-breeds/turkish-kangal/\"\u003EPets4Homes.co.uk\u003C/a\u003E\u003C/i\u003E\u003C/p\u003E",
+        "facebook_social_snippet_with_cta": "\u003Cp\u003EThe Anatolian Shepherd would turn up their nose at an office job—no coming home and taking off the tie for this proud guardian breed. They're more likely to kick off their muddy boots and settle in at your side for a well-deserved rest. Keep reading to learn more about this pup.\u003C/p\u003E",
+        "species": "\u003Cp\u003EDog\u003C/p\u003E",
+        "h2_faqs": "\u003Ch3\u003EDo Anatolian Shepherds shed?\u003C/h3\u003E\r\n\u003Cp\u003EYes, Anatolian Shepherds shed. They're seasonal shedders, which means they shed their thick undercoat twice a year, in the spring and fall. The shedding happens for several weeks, but as their proud pup parent, we're sure you're up to the task of brushing them every couple of days to manage the excess hair!\u003C/p\u003E\r\n\u003Ch3\u003EHow big do Anatolian Shepherds get?\u003C/h3\u003E\r\n\u003Cp\u003EAnatolian Shepherds get big. Their height starts at 27 inches for females and 29 inches for males at the shoulder. They weigh between 80 and 150 pounds, so yes, they're large dogs. (They descended from war dogs and mastiffs, after all!)\u003C/p\u003E\r\n\u003Ch3\u003EAre Anatolian Shepherds good family dogs?\u003C/h3\u003E\r\n\u003Cp\u003EWhen properly socialized, Anatolian Shepherds can be good family dogs. They're dedicated to their family and are loyal, intelligent dogs.\u003C/p\u003E",
+        "faq_items": [
+          {
+            "faq_title": "Do Anatolian Shepherds shed?",
+            "faq_content": "\u003Cp\u003EYes, Anatolian Shepherds shed. They're seasonal shedders, which means they shed their thick undercoat twice a year, in the spring and fall. The shedding happens for several weeks, but as their proud pup parent, we're sure you're up to the task of brushing them every couple of days to manage the excess hair!\u003C/p\u003E"
+          },
+          {
+            "faq_title": "How big do Anatolian Shepherds get?",
+            "faq_content": "\u003Cp\u003EAnatolian Shepherds get big. Their height starts at 27 inches for females and 29 inches for males at the shoulder. They weigh between 80 and 150 pounds, so yes, they're large dogs. (They descended from war dogs and mastiffs, after all!)\u003C/p\u003E"
+          },
+          {
+            "faq_title": "Are Anatolian Shepherds good family dogs?",
+            "faq_content": "\u003Cp\u003EWhen properly socialized, Anatolian Shepherds can be good family dogs. They're dedicated to their family and are loyal, intelligent dogs.\u003C/p\u003E"
+          }
+        ],
+        "select_related_breeds": [
+          {
+            "selected_related_breed": 1393,
+            "characteristic": "breed_characteristics_training_needs"
+          },
+          {
+            "selected_related_breed": 376,
+            "characteristic": "breed_characteristics_friendliness"
+          },
+          {
+            "selected_related_breed": 620,
+            "characteristic": "breed_characteristics_playfulnesss"
+          },
+          {
+            "selected_related_breed": 84,
+            "characteristic": "breed_characteristics_good_with_other_dogs"
+          },
+          {
+            "selected_related_breed": 1117,
+            "characteristic": "breed_characteristics_sensitive_to_cold_weather"
+          },
+          {
+            "selected_related_breed": 1334,
+            "characteristic": "breed_characteristics_biting_tendencies"
+          }
+        ],
+        "enable_featured_gallery": [
+          "enable_featured_gallery"
+        ],
+        "featured_gallery_images": [590, 582, 583, 584, 585, 586, 587]
+      },
+      "yoast_head": "\u003C!-- This site is optimized with the Yoast SEO plugin v23.8 - https://yoast.com/wordpress/plugins/seo/ --\u003E\n\u003Ctitle\u003EAnatolian Shepherd Breed: Characteristics, Care &amp; Photos | Chewy\u003C/title\u003E\n\u003Cmeta name=\"description\" content=\"With an ancient history, the Anatolian Shepherd is a loyal and intelligent pup. Get all the facts in our complete Anatolian Shepherd guide.\" /\u003E\n\u003Cmeta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" /\u003E\n\u003Clink rel=\"canonical\" href=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/anatolian-shepherd/\" /\u003E\n\u003Cmeta property=\"og:locale\" content=\"en_US\" /\u003E\n\u003Cmeta property=\"og:type\" content=\"article\" /\u003E\n\u003Cmeta property=\"og:title\" content=\"Anatolian Shepherd Breed: Characteristics, Care &amp; Photos | Chewy\" /\u003E\n\u003Cmeta property=\"og:description\" content=\"With an ancient history, the Anatolian Shepherd is a loyal and intelligent pup. Get all the facts in our complete Anatolian Shepherd guide.\" /\u003E\n\u003Cmeta property=\"og:url\" content=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/anatolian-shepherd/\" /\u003E\n\u003Cmeta property=\"og:site_name\" content=\"Chewy\" /\u003E\n\u003Cmeta property=\"article:modified_time\" content=\"2025-06-04T19:00:14+00:00\" /\u003E\n\u003Cmeta property=\"og:image\" content=\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/12/13153056/202106Breed-Hero-Anatolian-Shepherd.jpg\" /\u003E\n\t\u003Cmeta property=\"og:image:width\" content=\"1835\" /\u003E\n\t\u003Cmeta property=\"og:image:height\" content=\"1032\" /\u003E\n\t\u003Cmeta property=\"og:image:type\" content=\"image/jpeg\" /\u003E\n\u003Cmeta name=\"twitter:card\" content=\"summary_large_image\" /\u003E\n\u003Cmeta name=\"twitter:label1\" content=\"Est. reading time\" /\u003E\n\t\u003Cmeta name=\"twitter:data1\" content=\"1 minute\" /\u003E\n\u003Cscript type=\"application/ld+json\" class=\"yoast-schema-graph\"\u003E{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/anatolian-shepherd/\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/anatolian-shepherd/\",\"name\":\"Anatolian Shepherd Breed: Characteristics, Care & Photos | Chewy\",\"isPartOf\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/anatolian-shepherd/#primaryimage\"},\"image\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/anatolian-shepherd/#primaryimage\"},\"thumbnailUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/12/13153056/202106Breed-Hero-Anatolian-Shepherd.jpg\",\"datePublished\":\"2021-06-21T09:26:06+00:00\",\"dateModified\":\"2025-06-04T19:00:14+00:00\",\"description\":\"With an ancient history, the Anatolian Shepherd is a loyal and intelligent pup. Get all the facts in our complete Anatolian Shepherd guide.\",\"breadcrumb\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/anatolian-shepherd/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://phcms.hlth.prd.aws.chewy.cloud/breed/anatolian-shepherd/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/anatolian-shepherd/#primaryimage\",\"url\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/12/13153056/202106Breed-Hero-Anatolian-Shepherd.jpg\",\"contentUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/12/13153056/202106Breed-Hero-Anatolian-Shepherd.jpg\",\"width\":1835,\"height\":1032,\"caption\":\"Anatolian Shepherd\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/anatolian-shepherd/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://phcms.hlth.prd.aws.chewy.cloud/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Anatolian Shepherd\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/\",\"name\":\"Chewy\",\"description\":\"\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"}]}\u003C/script\u003E\n\u003C!-- / Yoast SEO plugin. --\u003E",
+      "yoast_head_json": {
+        "title": "Anatolian Shepherd Breed: Characteristics, Care & Photos | Chewy",
+        "description": "With an ancient history, the Anatolian Shepherd is a loyal and intelligent pup. Get all the facts in our complete Anatolian Shepherd guide.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://phcms.hlth.prd.aws.chewy.cloud/breed/anatolian-shepherd/",
+        "og_locale": "en_US",
+        "og_type": "article",
+        "og_title": "Anatolian Shepherd Breed: Characteristics, Care & Photos | Chewy",
+        "og_description": "With an ancient history, the Anatolian Shepherd is a loyal and intelligent pup. Get all the facts in our complete Anatolian Shepherd guide.",
+        "og_url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/anatolian-shepherd/",
+        "og_site_name": "Chewy",
+        "article_modified_time": "2025-06-04T19:00:14+00:00",
+        "og_image": [
+          {
+            "width": 1835,
+            "height": 1032,
+            "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/12/13153056/202106Breed-Hero-Anatolian-Shepherd.jpg",
+            "type": "image/jpeg"
+          }
+        ],
+        "twitter_card": "summary_large_image",
+        "twitter_misc": {
+          "Est. reading time": "1 minute"
+        },
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/anatolian-shepherd/",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/anatolian-shepherd/",
+              "name": "Anatolian Shepherd Breed: Characteristics, Care & Photos | Chewy",
+              "isPartOf": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/anatolian-shepherd/#primaryimage"
+              },
+              "image": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/anatolian-shepherd/#primaryimage"
+              },
+              "thumbnailUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/12/13153056/202106Breed-Hero-Anatolian-Shepherd.jpg",
+              "datePublished": "2021-06-21T09:26:06+00:00",
+              "dateModified": "2025-06-04T19:00:14+00:00",
+              "description": "With an ancient history, the Anatolian Shepherd is a loyal and intelligent pup. Get all the facts in our complete Anatolian Shepherd guide.",
+              "breadcrumb": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/anatolian-shepherd/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://phcms.hlth.prd.aws.chewy.cloud/breed/anatolian-shepherd/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/anatolian-shepherd/#primaryimage",
+              "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/12/13153056/202106Breed-Hero-Anatolian-Shepherd.jpg",
+              "contentUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/12/13153056/202106Breed-Hero-Anatolian-Shepherd.jpg",
+              "width": 1835,
+              "height": 1032,
+              "caption": "Anatolian Shepherd"
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/anatolian-shepherd/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://phcms.hlth.prd.aws.chewy.cloud/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Anatolian Shepherd"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/",
+              "name": "Chewy",
+              "description": "",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            }
+          ]
+        }
+      },
+      "yoast_meta": {
+        "yoast_wpseo_title": "",
+        "yoast_wpseo_metadesc": "",
+        "yoast_wpseo_canonical": ""
+      },
+      "_links": {
+        "self": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed/591",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/types/breed"
+          }
+        ],
+        "acf:attachment": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/587"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/586"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/585"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/584"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/583"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/582"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/590"
+          }
+        ],
+        "wp:featuredmedia": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/2807"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media?parent=591"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "pet_type",
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/pet_type?post=591"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ]

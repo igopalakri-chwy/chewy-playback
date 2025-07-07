@@ -1,0 +1,329 @@
+[
+    {
+      "id": 657,
+      "date": "2021-06-16T15:40:11",
+      "date_gmt": "2021-06-16T15:40:11",
+      "guid": {
+        "rendered": "https://haproxy.use1.lgcy.prd.aws.chewy.cloud/eks/ns/pet-health/pet-health-content-backend/breed/miniature-pinscher/"
+      },
+      "modified": "2025-05-05T14:21:54",
+      "modified_gmt": "2025-05-05T14:21:54",
+      "slug": "miniature-pinscher",
+      "status": "publish",
+      "type": "breed",
+      "link": "https://phcms.hlth.prd.aws.chewy.cloud/breed/miniature-pinscher/",
+      "title": {
+        "rendered": "Miniature Pinscher"
+      },
+      "featured_media": 656,
+      "template": "",
+      "pet_type": [],
+      "class_list": [
+        "post-657",
+        "breed",
+        "type-breed",
+        "status-publish",
+        "has-post-thumbnail",
+        "hentry"
+      ],
+      "acf": {
+        "breed_snapshot_best_for": "\u003Cp\u003EThese traits are rated on a scale of 1-5 with 1 being the lowest and 5 being the highest. Remember: Dogs are individuals, and not all dogs, even those of the same breed, will exhibit all the same qualities. \u003C/p\u003E",
+        "alt_image_text": "\u003Cp\u003EGet the facts about the Miniature Pinscher dog in our complete guide.\u003C/p\u003E",
+        "breed_intro": "Tiny but mighty best describes the Miniature Pinscher. If you've ever been underestimated, you'll have a lot in common with this breed. Though small (a set of \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/how-to-train-your-dog-to-use-dog-steps\"\u003Edog steps\u003C/a\u003E might be in your future), Min Pins have the heart of a lion and they're not afraid of anything: bigger dogs, agility courses or dock diving. They take all their challenges head-on, earning them the nickname \"King of Toys.\" Their outgoing personality and tenacious spirit just may help you unleash your inner big dog.",
+        "breed_related_products_product_card_set": null,
+        "breed_snapshot_temperament": "\u003Cp\u003EClever, Cheerful, Class Clown\u003C/p\u003E",
+        "what_does_this_breed_look_like_weight": "\u003Cp\u003EMale: 8-10 pounds\u003C/p\u003E\u003Cp\u003EFemale: 8-10 pounds\u003C/p\u003E",
+        "what_does_this_breed_look_like_height": "\u003Cp\u003EMale: 10-12.5 inches\u003C/p\u003E\u003Cp\u003EFemale: 10-12.5 inches\u003C/p\u003E",
+        "breed_snapshot_life_expectancy": "\u003Cp\u003E12 to 16 years\u003C/p\u003E",
+        "breed_snapshot_maintenance_level": "\u003Cp\u003ELow\u003C/p\u003E",
+        "breed_characteristics_friendliness": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_snapshot_coat_color": "\u003Cp\u003EBlack and Rust, Black and Tan, Stag Red, Chocolate and Rust, Chocolate and Tan, Red\u003C/p\u003E",
+        "breed_snapshot_shed_level": "\u003Cp\u003ELow\u003C/p\u003E",
+        "in_article_video": null,
+        "breed_characteristics": "Here are the qualities you can expect when raising a Miniature Pinscher on a scale of 1 paw (low) to 5 paws (high). These attributes were rated by several pet experts, including a dog trainer, veterinarian and behaviorist. Remember that dogs are individuals, and not all dogs, even of the same breed, will fit the mold.",
+        "breed_characteristics_exercise_needs": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_health_issues": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_barking_tendencies": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_grooming_needs": "\u003Cp\u003E1\u003C/p\u003E",
+        "breed_characteristics_shedding_level": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_training_needs": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_with_kids": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_good_with_cats": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_good_for_apartments_small_homes": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_energy_level": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_other_dogs": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_playfulnesss": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_cold_weather": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_warm_weather": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_good_for_first_time_parents": "\u003Cp\u003E3\u003C/p\u003E",
+        "how_do_i_look_card_image": 655,
+        "what_does_this_breed_look_like": "Miniature Pinschers look like what you'd get if someone pointed a shrink ray at a \u003Ca href=\"https://www.chewy.com/education/dog-breeds/doberman-pinscher/\"\u003EDoberman Pincher\u003C/a\u003E. But don't be fooled by this pint-sized pup—they've got a big personality. Their curious, oval-shaped eyes sometimes appear to be saying, “Come on, let's play!\" With their signature hackney (high-stepping) gait, they trot around with glee, eager to show off their sleek, shiny coats. Their high-set ears often stand upright, ready to alert you to anything even slightly suspicious that they may hear.",
+        "what_does_this_breed_look_like_ears": "\u003Cp\u003EMiniature Pinscher ears are set high and naturally tend to stand straight up from the base to tip. They can be cropped or uncropped.\u003C/p\u003E",
+        "what_does_this_breed_look_like_eyes": "\u003Cp\u003EMiniature Pinschers have full, oval-shaped eyes that are very dark, sometimes even true black. \u003C/p\u003E",
+        "what_does_this_breed_look_like_nose": "\u003Cp\u003EMin Pin noses are usually black, although chocolate-colored dogs have chocolate-colored noses.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_length": "\u003Cp\u003ETheir coats are short, straight and smooth. \u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_color": "\u003Cp\u003ETheir coat colors include a range of shades from rust to black and tan to chocolate to stag red (red with black hairs intermingled).\u003C/p\u003E",
+        "what_does_this_breed_look_like_tail": "\u003Cp\u003ETheir tails are set high and docked.\u003C/p\u003E",
+        "h2_breed_temperament": "With their larger-than-life personalities, Miniature Pinschers are very playful and eager to learn—and show off—new tricks. They're motivated to explore uncharted territory, whether a hidden corner at home or a path you haven't walked yet. Extremely loyal to their families, they can be headstrong and a bit demanding if they don't get the attention they yearn for.\n\nWhen you don't have their attention, Min Pins are strong-willed and have a mind of their own. More often than not, they're comfortable being independent and prefer to play with their own breed. They do tend to be friendly and make great companions, but they can be standoffish with other breeds unless they have a closely matching personality. Watch your Min Pin carefully around younger children, who may play rough—as puppies, this dog's thin limbs can be easily injured.\n\nSince these small dogs were bred to kill small rodents in the home, it should come as no surprise that they love to work and have a penchant for chasing and capturing small critters. They're known to pinch prey aggressively when they catch them.\n\nDespite their small size, this toy breed tends to be highly protective of their pet parents, especially when other dogs are in the mix. They also try to one-up other dogs to make themselves look bigger. Without proper \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/positively-trained-puppy-socialization-dos-and-donts\"\u003Esocialization\u003C/a\u003E, Min Pins can be feisty, nippy and possessive of resources like food and toys. They may take some time to adjust to households with multiple animals, including cats. Kids shouldn't snatch food or toys away from Min Pins as your pup may interpret that as a threat. Early socialization from puppyhood is important and will help them be well-behaved members of the family.",
+        "h2_how_to_care_for_a_breed": "They may be the “King of Toys,\" but when it comes to caring for your Miniature Pinscher, there's no royal treatment needed here. With the right tools and routines in place, Min Pins are generally low-maintenance and easy to care for, making them an ideal fit for first-time pet parents and those who live in small, urban spaces.",
+        "grooming": "Miniature Pinscher dogs have a short, hard coat, so they tend to be a low-maintenance breed when it comes to grooming, especially compared to long-haired dog breeds. It's best to brush them weekly with a \u003Ca href=\"https://www.chewy.com/f/dog-bristle-brushes_c355_f70v83784\"\u003Esoft bristle brush\u003C/a\u003E or \u003Ca href=\"https://www.chewy.com/f/dog-grooming-gloves_c355_f70v83788\"\u003Ehound glove\u003C/a\u003E to keep their fur soft and shiny. When you get a Min Pin puppy, use grooming as bonding time, so they become comfortable with brushing from a young age.\n\nYou'll also need to do another type of brushing: toothbrushing. Be sure \u003Ca href=\"https://www.chewy.com/education/dog/grooming/health-wellness-how-to-brush-your-dogs-teeth-live-to-tell-the-tale\"\u003Ebrush their teeth\u003C/a\u003E daily using \u003Ca href=\"https://www.chewy.com/b/toothpastes-2598\"\u003Etoothpaste\u003C/a\u003E specifically made for dogs to keep dental disease at bay.\n\nKeep an eye on their nail length, and be sure to \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/guide-trimming-dogs-nails\"\u003Etrim them regularly\u003C/a\u003E—about twice a month, depending on how long they get. They shouldn't tap on the floor when they run or walk, which could cause discomfort and agitate your pup over time.\n\nAs for bath time, this spunky little dog will likely get into messes from time to time, so bathe as needed. It's best to bathe your Min Pin at least once every six weeks with a \u003Ca href=\"https://www.chewy.com/b/shampoos-2445\"\u003Edog shampoo\u003C/a\u003E, though they can be bathed as frequently as every week. With this smooth-coated pup, regular bathing is vital to maintain their healthy skin and coat.",
+        "training": "The Miniature Pinscher breed is highly intelligent and perceptive, making them prime candidates for \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/sit-stay-and-beyond-weve-got-the-essential-guide-to-basic-dog-obedience-training\"\u003Eobedience training\u003C/a\u003E. That entails teaching them to learn basic commands like \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-sit\"\u003Esit\u003C/a\u003E, \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-stay\"\u003Estay\u003C/a\u003E and \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-come\"\u003Ecome\u003C/a\u003E, and they learn how to \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/leash-train-dog-2\"\u003Ewalk nicely on a leash\u003C/a\u003E. Because of their independent streak, learning to focus on their pet parents (and listen to cues like \"watch me\") doesn't come naturally to a Miniature Pinscher puppy—it usually has to be taught. Patience, as always, is key!\n\nMin Pins need lots of recall work to help them learn when to come back to you when you call. One way to work on this behavior is to use a long lead like the \u003Ca href=\"https://www.chewy.com/four-paws-cotton-web-training-dog/dp/151699\"\u003EFour Paws Cotton Web Training Dog Lead\u003C/a\u003E. This allows you to safely teach recall outdoors.\n\nMin Pins also need lots of socialization, and it's best if you can start them as puppies, so they'll be used to new experiences as they get older. This means taking them out on walks and introducing them (slowly) to new people, dogs and situations. Enrolling your pup in puppy kindergarten is a great way to start this. They'll learn how to play nicely with each other, and they get to meet new people.",
+        "diet_nutrition": "The Miniature Pinscher breed usually does well on a diet of \u003Ca href=\"https://www.chewy.com/b/premium-food-11728\" target=\"_blank\" rel=\"noopener\"\u003Ehigh-quality commercial dog food\u003C/a\u003E. The No. 1 thing to remember is factoring in your dog's age and choosing a type of food that fits their stage in life (puppy, adult, senior). Your veterinarian can help you nail down a feeding chart to guide you on how much and how often to feed your dog based on their specific needs. They can also discuss in greater detail any common health issues that may be affected by diet.\r\n\r\nOne thing all pups have to watch out for? Their waistlines! Too much of a good thing is still too much, so be sure not to overfeed your pup. As you're portioning out their daily meals, don't forget to include treats. Whether given as part of training or just because you love them, those calories count. Even an extra pound on this tiny dog could lead to health problems down the road. And don't forget the water. Always leave out clean, fresh water, so they can take a drink whenever they get thirsty.",
+        "exercise": "There's no shortage of energy here! Miniature Pinschers are energetic dogs and do better with multiple exercise and training sessions throughout the day instead of one giant play session. Aim for two to three daily excursions to get them into a regular routine and plan on spending a total of 45 to 60 minutes every day.\r\n\r\nFor the most part, Min Pins aren't built for long-distance exercise like long hikes and walks on woodsy trails. While they are an active and athletic breed, they do best with short bursts of exercise to show off their skills, like games of fetch or chase. These are energetic pups, but they're not speedy. So, think of exercise with a Miniature Pinscher as a sprint, not a marathon.\r\n\r\nRemember: Some Min Pins can become destructive when bored. They need just as much mental stimulation as they do physical stimulation. So have a few \u003Ca href=\"https://www.chewy.com/b/puzzle-toys-games-2335\"\u003Epuzzle toys\u003C/a\u003E to keep their brains engaged, just like their bodies. A tired Min Pin is one who's ready for snuggle time with you on the couch.\r\n\r\nMin Pins aren't naturally fans of swimming or spending time in water since their small bodies tire easily. However, you can teach them to swim. Begin with a baby pool so the water is shallow enough that no paddling is necessary. Once your pup is comfortable with that, graduate to a shallow body of water and coax them further in with treats. Progress at their pace (don't rush it!), and keep your Min Pin in a \u003Ca href=\"https://www.chewy.com/b/life-jackets-2462\"\u003Edoggy life jacket\u003C/a\u003E to help keep them safe. Regardless of how inexperienced or experienced a swimmer your pup is, make sure they're on a leash or in their life jacket when near a pool or body of water. You do not want any accidents.",
+        "ideal_environment": "Generally, Miniature Pinschers do well in apartments and houses. If your space is on the small side, just be sure they get outside frequently enough to let out all that pent-up energy. They need as many opportunities to run and play as possible! They aren't much of a backyard dog and should be kept on a leash when outside a fenced area. Since they usually bark more than other breeds (it's part of their hunting DNA and they really want to let you know when something's up), be mindful of potentially disrupting your neighbors if you live in close proximity to them.\r\n\r\nMiniature Pinschers may be standoffish with four- and two-legged strangers, including children. If they don't know you, they're likely to be skeptical. Doggy daycare beginning in puppyhood is a good option to help socialize them and get them used to new situations, people and other animals.",
+        "h2_breed_health": "Miniature Pinschers have a lifespan of 12 to 16 years and tend to be very healthy dogs. Because of their small stature, it’s important to be mindful of too much roughhousing with other animals or humans; they can be more fragile than you (or they) think! Be sure to schedule regular visits with your veterinarian and to communicate any possible issues that you may observe over time.\r\n\u003Cul\u003E\r\n \t\u003Cli\u003E\u003Cstrong\u003E\u003Ca href=\"https://www.petmd.com/dog/condition/progressive-retinal-atrophy-in-dogs\" target=\"_blank\" rel=\"noopener\"\u003EProgressive Retinal Atrophy\u003C/a\u003E (PRA)\u003C/strong\u003E: The first sign often noticed in a Miniature Pinscher with PRA is night blindness. Affected dogs are sometimes nervous and anxious at night or can bump into objects in dim lighting. PRA is an inherited genetic disease, but genetic screening testing is available so be sure to ask your breeder. While there’s no treatment for gradual blindness, the condition isn’t painful for your Min Pin and they can still live happy lives.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/c_multi_patellar_luxation\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cstrong\u003ELuxating Patella\u003C/strong\u003E\u003C/a\u003E: This often-genetic orthopedic condition results when the kneecap slips in and out of place. It’s commonly treated with weight management and joint supplements, but severe cases may need surgery.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/c_dg_legg_calve_perthes_disease\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cstrong\u003ELegg-Calve-Perthes Disease\u003C/strong\u003E\u003C/a\u003E: This condition, also known as hip degeneration, is a degenerative condition affecting the ball of the ball and socket hip joint. One of the first signs to look out for is limping. Surgery may be required in severe cases.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/endocrine/c_dg_hypothyroidism\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cstrong\u003EHypothyroidism\u003C/strong\u003E\u003C/a\u003E: This occurs when the thyroid gland does not make enough thyroid hormone and common symptoms include weight gain, hair loss and/or lethargy. Diagnosis is typically with a blood test and treatment is most often a daily oral medication.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/neurological/epilepsy-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cstrong\u003EEpilepsy\u003C/strong\u003E\u003C/a\u003E: Some Miniature Pinschers are prone to seizures, which usually start when they’re younger. Consult with your vet for a diagnostic screening and to discuss medication to help keep seizures under control.\u003C/li\u003E\r\n\u003C/ul\u003E",
+        "h2_breed_history": "The Miniature Pinscher origin story is somewhat of a mystery. What we do know about the “King of Toys\" is that the breed is native to Germany and was also bred extensively throughout Scandinavia. Although their history isn't 100-percent certain, it's believed the breed dates back several centuries. It was likely derived from crossing the \u003Ca href=\"https://www.chewy.com/education/dog-breeds/italian-greyhound/\" target=\"_blank\" rel=\"noopener\"\u003EItalian Greyhoun\u003C/a\u003Ed with the \u003Ca href=\"https://www.chewy.com/education/dog-breeds/dachshund/\"\u003EDachshund\u003C/a\u003E. There may be some German Pinscher mixed in there, too.\r\n\r\nMiniature Pinschers were initially bred to hunt rats. In Germany, they're called Zwergpinscher (“pinscher\" refers to dogs bred as guardians or to hunt rodents, and zwerg means “dwarf\"). German breeders called Min Pins “dwarf-biters\" because of their small stature and their penchant for chasing rats.\r\n\r\nOne common misconception about Min Pins is that they're a smaller version of \u003Ca href=\"https://www.chewy.com/education/dog-breeds/doberman-pinscher/\" target=\"_blank\" rel=\"noopener\"\u003EDoberman Pinschers\u003C/a\u003E. Despite looking alike, they're two completely separate breeds. What explains the uncanny resemblance? Some breeders speculate that both the Min Pin and the Doberman descended from the German Pinscher, but the Doberman's other ancestors include dogs like the \u003Ca href=\"https://www.chewy.com/education/dog-breeds/rottweiler/\" target=\"_blank\" rel=\"noopener\"\u003ERottweiler\u003C/a\u003E, which is not in the Min Pin's ancestry. Another Min Pin misconception is that they're related to \u003Ca href=\"https://www.chewy.com/education/dog-breeds/manchester-terrier/\"\u003EManchester Terriers\u003C/a\u003E. Again, although these breeds do look alike, there is no relation.\r\n\r\nThe Miniature Pinscher remained fairly unknown outside of Germany and Scandinavia until the 1900s. In 1925, the American Kennel Club registered the first Min Pin. Ever since, the mini-but-magnificent breed has become increasingly popular for families of all shapes and sizes.\r\n\r\nSo, where's the best place to find a Miniature Pinscher puppy? You can find a list of reputable breeders on the \u003Ca href=\"https://marketplace.akc.org/puppies/miniature-pinscher\"\u003EAmerican Kennel Club's website\u003C/a\u003E. What's their average price? Depending on the breeder, expect to spend anywhere from $900 to $1,300 for a pup. But for that price, you're likely getting a dog who's been screened for health and temperament issues and may come with pedigree papers. You can also reach out to Miniature Pinscher rescue organizations to adopt a Min Pin or keep an eye out for the breed at your local animal shelter. \u003Ca href=\"https://www.chewy.com/g/dog-miniature-pinscher_ga1\"\u003ESearch Chewy’s database of adoptable dogs\u003C/a\u003E in your area.",
+        "expert_attribution": "\u003Cem\u003EExpert input provided by Dr. Amanda Williams, chief veterinarian and medical director at \u003C/em\u003E\u003Ca href=\"https://www.furryfriendsadoption.org/\"\u003E\u003Cem\u003EFurry Friends Adoption, Clinic &amp; Ranch\u003C/em\u003E\u003C/a\u003E\u003Cem\u003E, and Sparky Serka and Bethany Wilson, head trainers at \u003C/em\u003E\u003Ca href=\"https://www.thepuppyacademy.com/\"\u003E\u003Cem\u003EThe Puppy Academy\u003C/em\u003E\u003C/a\u003E\u003Cem\u003E. \u003C/em\u003E\r\n\r\n\u003Cem\u003EBreed characteristic ratings provided by veterinarian Dr. Sarah J. Wooten, DVM, CVJ, a veterinarian at \u003Ca href=\"https://sheepdraw.com/\" target=\"_blank\" rel=\"noopener\"\u003ESheep Draw Veterinary Hospital\u003C/a\u003E in Greeley, Colorado; dog trainer and behavior consultant Irith Bloom, CPDT-KSA, CBCC-KA, CDBC, owner of \u003Ca href=\"https://thesophisticateddog.com/\" target=\"_blank\" rel=\"noopener\"\u003EThe Sophisticated Dog, LLC\u003C/a\u003E, in Los Angeles; and certified animal behavior consultant \u003Ca href=\"https://shojai.com/\" target=\"_blank\" rel=\"noopener\"\u003EAmy Shojai\u003C/a\u003E, CABC, in Sherman, Texas. \u003C/em\u003E\r\n\r\n\u003Cem\u003EThe health content was medically reviewed by Chewy vets.\u003C/em\u003E",
+        "facebook_social_snippet_with_cta": "\u003Cp\u003EDo you dream of being near royalty? Look no further than the \"King of Toys,\" the Miniature Pinscher. Loving, fun and ready to play, see if this tiny pup's a good match for you. Get all the information and learn about their traits, grooming needs and a bit of their history in our guide. \u003C/p\u003E",
+        "species": "\u003Cp\u003EDog\u003C/p\u003E",
+        "h2_faqs": "\u003Ch3\u003EHow long do Miniature Pinschers live?\u003C/h3\u003E\nMiniature Pinschers live about 12 to 16 years, and with the proper care and routine vet visits, you can help your pup live a happy and long life.\n\u003Ch3\u003EAre Min Pins hypoallergenic?\u003C/h3\u003E\nNo, Miniature Pinschers are not hypoallergenic. While they have short hair and smooth coats that don't shed as much as other breeds, they do still shed occasionally.\n\u003Ch3\u003EHow big do Miniature Pinschers get?\u003C/h3\u003E\nMiniature Pinschers don't get very big. A healthy Min Pin weighs about 8 to 10 pounds and is no taller than 12.5 inches at the shoulder. While they're tiny, they don't let their size stop them from proudly taking on the title of “King of Toys.\"\n\u003Ch3\u003EDo Miniature Pinschers bark a lot?\u003C/h3\u003E\nYes, Miniature Pinchers tend to bark a lot. You could say Min Pins really like the sound of their own voice! They're hyper alert and often on the defense, so if they sense something is amiss, they're definitely going to let you know. Min Pins may get nervous easily, which also affects their barking behavior.\n\u003Ch3\u003EWhat are the most popular Miniature Pinscher names?\u003C/h3\u003E\nThe most popular Miniature Pinscher names are Coco, Milo, Bella, Max, Zoey, Mini, Minnie, Bella, Penny, Roxy, Max and Kaiser. If you're looking for more inspiration, \u003Ca href=\"https://www.chewy.com/education/dog/general/top-dog-names\"\u003Efind more dog names here\u003C/a\u003E.\n\u003Ch3\u003EWhat are the most common Miniature Pinscher mixes?\u003C/h3\u003E\nThe most common Miniature Pinscher mixes are:\n\u003Cul\u003E\n \t\u003Cli\u003EMiniature Pinscher-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/chihuahua/\"\u003EChihuahua\u003C/a\u003E mix (Chipin)\u003C/li\u003E\n \t\u003Cli\u003EMiniature Pinscher-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/dachshund/\"\u003EDachshund\u003C/a\u003E mix (Doxie-Pin)\u003C/li\u003E\n \t\u003Cli\u003EMiniature Pinscher-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/beagle/\"\u003EBeagle\u003C/a\u003E mix (Meagle)\u003C/li\u003E\n \t\u003Cli\u003EMiniature Pinscher-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/jack-russell-terrier/\"\u003EJack Russell\u003C/a\u003E mix (Minnie Jack)\u003C/li\u003E\n \t\u003Cli\u003EMiniature Pinscher-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/yorkshire-terrier/\"\u003EYorkie\u003C/a\u003E mix (Yorkie Pin)\u003C/li\u003E\n \t\u003Cli\u003EMiniature Pinscher-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/bichon-frise/\"\u003EBichon Frise\u003C/a\u003E (Min Pin Frise)\u003C/li\u003E\n \t\u003Cli\u003EMiniature Pinscher-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/boston-terrier/\"\u003EBoston Terrier\u003C/a\u003E (Bospin)\u003C/li\u003E\n \t\u003Cli\u003EMiniature Pinscher-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/cairn-terrier/\"\u003ECairn Terrier\u003C/a\u003E (Mini Cairn Pin)\u003C/li\u003E\n \t\u003Cli\u003EMiniature Pinscher-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/cavalier-king-charles-spaniel/\"\u003ECavalier King Charles Spaniel\u003C/a\u003E (King Pin)\u003C/li\u003E\n \t\u003Cli\u003EMiniature Pinscher-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/french-bulldog/\"\u003EFrench Bulldog\u003C/a\u003E (French Pin)\u003C/li\u003E\n\u003C/ul\u003E\nNote: These are not purebred dogs but mixed breeds.",
+        "faq_items": [
+          {
+            "faq_title": "How long do Miniature Pinschers live?",
+            "faq_content": "Miniature Pinschers live about 12 to 16 years, and with the proper care and routine vet visits, you can help your pup live a happy and long life."
+          },
+          {
+            "faq_title": "Are Min Pins hypoallergenic?",
+            "faq_content": "No, Miniature Pinschers are not hypoallergenic. While they have short hair and smooth coats that don't shed as much as other breeds, they do still shed occasionally."
+          },
+          {
+            "faq_title": "How big do Miniature Pinschers get?",
+            "faq_content": "Miniature Pinschers don't get very big. A healthy Min Pin weighs about 8 to 10 pounds and is no taller than 12.5 inches at the shoulder. While they're tiny, they don't let their size stop them from proudly taking on the title of “King of Toys.\""
+          },
+          {
+            "faq_title": "Do Miniature Pinschers bark a lot?",
+            "faq_content": "Yes, Miniature Pinchers tend to bark a lot. You could say Min Pins really like the sound of their own voice! They're hyper alert and often on the defense, so if they sense something is amiss, they're definitely going to let you know. Min Pins may get nervous easily, which also affects their barking behavior."
+          },
+          {
+            "faq_title": "What are the most popular Miniature Pinscher names?",
+            "faq_content": "The most popular Miniature Pinscher names are Coco, Milo, Bella, Max, Zoey, Mini, Minnie, Bella, Penny, Roxy, Max and Kaiser. If you're looking for more inspiration, \u003Ca href=\"https://www.chewy.com/education/dog/general/top-dog-names\"\u003Efind more dog names here\u003C/a\u003E."
+          },
+          {
+            "faq_title": "What are the most common Miniature Pinscher mixes?",
+            "faq_content": "The most common Miniature Pinscher mixes are:\r\n\u003Cul\u003E\r\n \t\u003Cli\u003EMiniature Pinscher-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/chihuahua/\"\u003EChihuahua\u003C/a\u003E mix (Chipin)\u003C/li\u003E\r\n \t\u003Cli\u003EMiniature Pinscher-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/dachshund/\"\u003EDachshund\u003C/a\u003E mix (Doxie-Pin)\u003C/li\u003E\r\n \t\u003Cli\u003EMiniature Pinscher-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/beagle/\"\u003EBeagle\u003C/a\u003E mix (Meagle)\u003C/li\u003E\r\n \t\u003Cli\u003EMiniature Pinscher-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/jack-russell-terrier/\"\u003EJack Russell\u003C/a\u003E mix (Minnie Jack)\u003C/li\u003E\r\n \t\u003Cli\u003EMiniature Pinscher-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/yorkshire-terrier/\"\u003EYorkie\u003C/a\u003E mix (Yorkie Pin)\u003C/li\u003E\r\n \t\u003Cli\u003EMiniature Pinscher-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/bichon-frise/\"\u003EBichon Frise\u003C/a\u003E (Min Pin Frise)\u003C/li\u003E\r\n \t\u003Cli\u003EMiniature Pinscher-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/boston-terrier/\"\u003EBoston Terrier\u003C/a\u003E (Bospin)\u003C/li\u003E\r\n \t\u003Cli\u003EMiniature Pinscher-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/cairn-terrier/\"\u003ECairn Terrier\u003C/a\u003E (Mini Cairn Pin)\u003C/li\u003E\r\n \t\u003Cli\u003EMiniature Pinscher-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/cavalier-king-charles-spaniel/\"\u003ECavalier King Charles Spaniel\u003C/a\u003E (King Pin)\u003C/li\u003E\r\n \t\u003Cli\u003EMiniature Pinscher-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/french-bulldog/\"\u003EFrench Bulldog\u003C/a\u003E (French Pin)\u003C/li\u003E\r\n\u003C/ul\u003E\r\nNote: These are not purebred dogs but mixed breeds."
+          }
+        ],
+        "select_related_breeds": [
+          {
+            "selected_related_breed": 629,
+            "characteristic": "breed_characteristics_exercise_needs"
+          },
+          {
+            "selected_related_breed": 581,
+            "characteristic": "breed_characteristics_friendliness"
+          },
+          {
+            "selected_related_breed": 729,
+            "characteristic": "breed_characteristics_good_for_apartments_small_homes"
+          },
+          {
+            "selected_related_breed": 1176,
+            "characteristic": "breed_characteristics_shedding_level"
+          },
+          {
+            "selected_related_breed": 1121,
+            "characteristic": "breed_characteristics_energy_level"
+          },
+          {
+            "selected_related_breed": 106,
+            "characteristic": "breed_characteristics_sensitive_to_cold_weather"
+          }
+        ],
+        "enable_featured_gallery": [
+          "enable_featured_gallery"
+        ],
+        "featured_gallery_images": [648, 649, 650, 651, 652, 653]
+      },
+      "yoast_head": "\u003C!-- This site is optimized with the Yoast SEO plugin v23.8 - https://yoast.com/wordpress/plugins/seo/ --\u003E\n\u003Ctitle\u003EMiniature Pinscher Breed: Characteristics, Care &amp; Photos | Chewy\u003C/title\u003E\n\u003Cmeta name=\"description\" content=\"The King of Toys is a tiny dog with a ginormous personality. Learn all about this delightful pup in our complete Miniature Pinscher guide.\" /\u003E\n\u003Cmeta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" /\u003E\n\u003Clink rel=\"canonical\" href=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/miniature-pinscher/\" /\u003E\n\u003Cmeta property=\"og:locale\" content=\"en_US\" /\u003E\n\u003Cmeta property=\"og:type\" content=\"article\" /\u003E\n\u003Cmeta property=\"og:title\" content=\"Miniature Pinscher Breed: Characteristics, Care &amp; Photos | Chewy\" /\u003E\n\u003Cmeta property=\"og:description\" content=\"The King of Toys is a tiny dog with a ginormous personality. Learn all about this delightful pup in our complete Miniature Pinscher guide.\" /\u003E\n\u003Cmeta property=\"og:url\" content=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/miniature-pinscher/\" /\u003E\n\u003Cmeta property=\"og:site_name\" content=\"Chewy\" /\u003E\n\u003Cmeta property=\"article:modified_time\" content=\"2025-05-05T14:21:54+00:00\" /\u003E\n\u003Cmeta property=\"og:image\" content=\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11165050/202106Miniature-Pinscher-FeaturedImage.jpg\" /\u003E\n\t\u003Cmeta property=\"og:image:width\" content=\"1440\" /\u003E\n\t\u003Cmeta property=\"og:image:height\" content=\"865\" /\u003E\n\t\u003Cmeta property=\"og:image:type\" content=\"image/jpeg\" /\u003E\n\u003Cmeta name=\"twitter:card\" content=\"summary_large_image\" /\u003E\n\u003Cscript type=\"application/ld+json\" class=\"yoast-schema-graph\"\u003E{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/miniature-pinscher/\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/miniature-pinscher/\",\"name\":\"Miniature Pinscher Breed: Characteristics, Care & Photos | Chewy\",\"isPartOf\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/miniature-pinscher/#primaryimage\"},\"image\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/miniature-pinscher/#primaryimage\"},\"thumbnailUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11165050/202106Miniature-Pinscher-FeaturedImage.jpg\",\"datePublished\":\"2021-06-16T15:40:11+00:00\",\"dateModified\":\"2025-05-05T14:21:54+00:00\",\"description\":\"The King of Toys is a tiny dog with a ginormous personality. Learn all about this delightful pup in our complete Miniature Pinscher guide.\",\"breadcrumb\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/miniature-pinscher/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://phcms.hlth.prd.aws.chewy.cloud/breed/miniature-pinscher/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/miniature-pinscher/#primaryimage\",\"url\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11165050/202106Miniature-Pinscher-FeaturedImage.jpg\",\"contentUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11165050/202106Miniature-Pinscher-FeaturedImage.jpg\",\"width\":1440,\"height\":865},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/miniature-pinscher/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://phcms.hlth.prd.aws.chewy.cloud/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Miniature Pinscher\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/\",\"name\":\"Chewy\",\"description\":\"\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"}]}\u003C/script\u003E\n\u003C!-- / Yoast SEO plugin. --\u003E",
+      "yoast_head_json": {
+        "title": "Miniature Pinscher Breed: Characteristics, Care & Photos | Chewy",
+        "description": "The King of Toys is a tiny dog with a ginormous personality. Learn all about this delightful pup in our complete Miniature Pinscher guide.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://phcms.hlth.prd.aws.chewy.cloud/breed/miniature-pinscher/",
+        "og_locale": "en_US",
+        "og_type": "article",
+        "og_title": "Miniature Pinscher Breed: Characteristics, Care & Photos | Chewy",
+        "og_description": "The King of Toys is a tiny dog with a ginormous personality. Learn all about this delightful pup in our complete Miniature Pinscher guide.",
+        "og_url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/miniature-pinscher/",
+        "og_site_name": "Chewy",
+        "article_modified_time": "2025-05-05T14:21:54+00:00",
+        "og_image": [
+          {
+            "width": 1440,
+            "height": 865,
+            "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11165050/202106Miniature-Pinscher-FeaturedImage.jpg",
+            "type": "image/jpeg"
+          }
+        ],
+        "twitter_card": "summary_large_image",
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/miniature-pinscher/",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/miniature-pinscher/",
+              "name": "Miniature Pinscher Breed: Characteristics, Care & Photos | Chewy",
+              "isPartOf": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/miniature-pinscher/#primaryimage"
+              },
+              "image": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/miniature-pinscher/#primaryimage"
+              },
+              "thumbnailUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11165050/202106Miniature-Pinscher-FeaturedImage.jpg",
+              "datePublished": "2021-06-16T15:40:11+00:00",
+              "dateModified": "2025-05-05T14:21:54+00:00",
+              "description": "The King of Toys is a tiny dog with a ginormous personality. Learn all about this delightful pup in our complete Miniature Pinscher guide.",
+              "breadcrumb": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/miniature-pinscher/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://phcms.hlth.prd.aws.chewy.cloud/breed/miniature-pinscher/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/miniature-pinscher/#primaryimage",
+              "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11165050/202106Miniature-Pinscher-FeaturedImage.jpg",
+              "contentUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11165050/202106Miniature-Pinscher-FeaturedImage.jpg",
+              "width": 1440,
+              "height": 865
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/miniature-pinscher/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://phcms.hlth.prd.aws.chewy.cloud/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Miniature Pinscher"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/",
+              "name": "Chewy",
+              "description": "",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            }
+          ]
+        }
+      },
+      "yoast_meta": {
+        "yoast_wpseo_title": "",
+        "yoast_wpseo_metadesc": "",
+        "yoast_wpseo_canonical": ""
+      },
+      "_links": {
+        "self": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed/657",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/types/breed"
+          }
+        ],
+        "acf:attachment": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/653"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/652"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/651"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/650"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/649"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/648"
+          }
+        ],
+        "wp:featuredmedia": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/656"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media?parent=657"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "pet_type",
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/pet_type?post=657"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ]

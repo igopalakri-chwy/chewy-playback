@@ -1,0 +1,325 @@
+[
+    {
+      "id": 601,
+      "date": "2021-06-18T08:43:35",
+      "date_gmt": "2021-06-18T08:43:35",
+      "guid": {
+        "rendered": "https://haproxy.use1.lgcy.prd.aws.chewy.cloud/eks/ns/pet-health/pet-health-content-backend/breed/manchester-terrier/"
+      },
+      "modified": "2025-05-05T14:21:48",
+      "modified_gmt": "2025-05-05T14:21:48",
+      "slug": "manchester-terrier",
+      "status": "publish",
+      "type": "breed",
+      "link": "https://phcms.hlth.prd.aws.chewy.cloud/breed/manchester-terrier/",
+      "title": {
+        "rendered": "Manchester Terrier"
+      },
+      "featured_media": 600,
+      "template": "",
+      "pet_type": [],
+      "class_list": [
+        "post-601",
+        "breed",
+        "type-breed",
+        "status-publish",
+        "has-post-thumbnail",
+        "hentry"
+      ],
+      "acf": {
+        "breed_snapshot_best_for": "\u003Cp\u003EManchester Terriers are spirited, low-maintenance pups who need consistent exercise. They thrive in active homes with experienced pet parents who are ready to include them in all their activities (and don't mind the occasional zoomies).\u003C/p\u003E",
+        "alt_image_text": "Manchester Terrier dog breed",
+        "breed_intro": "The Manchester Terrier is an energetic, bright, athletic and playful pup. They're curious about all the things, but mostly, they want to know what you're doing. Their sleek, athletic bodies are full of energy, and they will make you laugh with all their antics—they love clowning around and entertaining you with their zoomies! Manchesters are ready to join you on all your activities and will happily snuggle up with you for \u003Ca href=\"https://www.chewy.com/education/dog/general/movies-where-the-dog-doesnt-die\"\u003Emovie night\u003C/a\u003E.\n\n&nbsp;",
+        "breed_related_products_product_card_set": null,
+        "breed_snapshot_temperament": "\u003Cp\u003EPeppy, Playful, Alert\u003C/p\u003E",
+        "what_does_this_breed_look_like_weight": "\u003Cp\u003EMale: Toy: 10\u003Cstrong\u003E-\u003C/strong\u003E12 pounds\u003C/p\u003E\u003Cp\u003E Standard: 12-22 pounds \u003C/p\u003E",
+        "what_does_this_breed_look_like_height": "\u003Cp\u003EToy: 10-12 inches\u003C/p\u003E\u003Cp\u003EStandard: 15-16 inches\u003C/p\u003E",
+        "breed_snapshot_life_expectancy": "\u003Cp\u003E15 to 17 years\u003C/p\u003E",
+        "breed_snapshot_maintenance_level": "\u003Cp\u003EMedium\u003C/p\u003E",
+        "breed_characteristics_friendliness": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_snapshot_coat_color": "\u003Cp\u003EBlack and Tan\u003C/p\u003E",
+        "breed_snapshot_shed_level": "\u003Cp\u003EVery Low\u003C/p\u003E",
+        "in_article_video": null,
+        "breed_characteristics": "These traits are rated on a scale of 1-5 with 1 being the lowest and 5 being the highest. Remember: Dogs are individuals, and not all dogs, even those of the same breed, will exhibit all the same qualities.",
+        "breed_characteristics_exercise_needs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_health_issues": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_barking_tendencies": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_grooming_needs": "\u003Cp\u003E1\u003C/p\u003E",
+        "breed_characteristics_shedding_level": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_training_needs": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_with_kids": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_with_cats": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_good_for_apartments_small_homes": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_energy_level": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_other_dogs": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_playfulnesss": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_cold_weather": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_warm_weather": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_good_for_first_time_parents": "\u003Cp\u003E3\u003C/p\u003E",
+        "how_do_i_look_card_image": 599,
+        "what_does_this_breed_look_like": "The Manchester Terrier dog comes in two types, standard and toy, and the only difference between the two are their size and their ears. Both varieties have shiny, black and tan short coats with tan markings that highlight their chest and legs. They stand at attention with their back legs tilted forward, and their back and neck slightly arched, ready to pounce. Sleek and muscular, they look like the high-performance dogs they are.",
+        "what_does_this_breed_look_like_ears": "\u003Cp\u003EThe AKC breed standard for the standard Manchester Terrier allows for the ears to be cropped or natural. For toy Manchester Terriers, the ears must be natural. Cropping involves surgically cutting away part of a dog’s ears. Veterinary groups along with many U.S. states and countries have banned this procedure due to medical and behavioral reasons. If you are interested in this procedure, schedule a consultation with your veterinarian.\u003C/p\u003E",
+        "what_does_this_breed_look_like_eyes": "\u003Cp\u003ETheir almond-shaped eyes are nearly black in color and are small, bright and sparkling.\u003C/p\u003E",
+        "what_does_this_breed_look_like_nose": "\u003Cp\u003EManchester Terriers have black noses. \u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_length": "\u003Cp\u003ETheir coats are short, dense and smooth but not soft. \u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_color": "\u003Cp\u003ETheir coats are jet black with mahogany tan markings over the eyes, on the checks and throat, inside the ears and  spots on each side of the chest above the front legs (called rosettes). \u003C/p\u003E",
+        "what_does_this_breed_look_like_tail": "\u003Cp\u003ETheir tail is medium length, tapers to a point and curves slightly upward.\u003C/p\u003E",
+        "h2_breed_temperament": "Manchester Terriers are high-energy dogs who are constantly checking out their surroundings. Naturally curious by nature, these pups are known for their devotion and ability to entertain their families—they love chasing toys and zooming around when they have an audience.\n\nManchester Terriers are not generally aggressive (unless you're a rodent), and the pups aren't known to be biters. However, these highly intelligent and observant watchdogs are known to be barkers, so you'll always know what's coming down your street.\n\nManchesters do fine with kids as long as they're properly \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/positively-trained-puppy-socialization-dos-and-donts\"\u003Esocialized\u003C/a\u003E, but they may need considerable training to live with with other dogs or cats unless they've been raised with them since they were puppies. And you can forget about \"pocket\" pets like gerbils or rabbits. These pups were born for hunting rats, and they are likely to chase these types of pets.\n\nThey can be wary around strangers, but with socialization from puppyhood, they can learn to be OK when new people come around. But they will always let you know when someone's at your door!\n\nThis playful pup enjoys games and will attack squeaky toys and chase balls with abandon. But&nbsp;Manchesters also enjoy physical closeness and companionship, so they're always ready for snuggles. Therefore, they may not like being left alone all day. If you're not able to be with them for most of the day, check them into doggie daycare or arrange for a pet sitter or neighbor to come by for a play date.",
+        "h2_how_to_care_for_a_breed": "Manchester Terriers need a moderate amount of care. Thankfully, their smooth, glossy coats are a snap to maintain. This leaves you with plenty of time to bond with your pup over the many training sessions, playtimes and outings you'll be taking to manage their intelligence and their energy levels.",
+        "grooming": "Manchester Terriers have very low grooming needs. You could even consider this pup \"wash and wear\" with no frequent trips to the salon needed. The Manchester Terrier's coat almost always appears sleek, silky, smooth and pulled together.\n\nTo maintain their coat, brush it every week with a \u003Ca href=\"https://www.chewy.com/f/dog-curry-brushes_c355_f70v83786\"\u003Ecurry brush\u003C/a\u003E to remove any shedding and keep their coats shiny. They do blow their coat in the spring and fall, so you'll probably need to brush them every day during those particular seasons to keep up with all that hair. (A dog who blows their coat sheds it in chunks instead of lots of individual hairs.) While you're brushing their coat, check their ears for debris, redness or swelling. If you notice anything unusual, contact your vet, who may recommend you \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/how-do-you-clean-a-dogs-ears-follow-this-vet-approved-step-by-step-guide\"\u003Eclean their ears\u003C/a\u003E.\n\nThese pups only need an occasional bath (about every two to three months) unless your Manchester plays in the mud. Some Manchesters really enjoy bathtime—they get \u003Cem\u003Eall\u003C/em\u003E your attention. So make that a special time to lavish your love on your pup.\n\n\u003Ca href=\"https://www.chewy.com/education/dog/grooming/health-wellness-how-to-brush-your-dogs-teeth-live-to-tell-the-tale\"\u003EBrush their teeth\u003C/a\u003E daily. It's best to start when the dogs are puppies, so they'll get used to brushing early on. Clean teeth are important for all dogs to avoid a build-up of bacteria, decay or cavities. And don't forget to schedule an annual professional teeth cleaning by your vet (not your groomer).\n\nIf your Manchester Terrier gets regular exercise, they may not need \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/guide-trimming-dogs-nails\"\u003Enail trimming\u003C/a\u003E very often (maybe once a month or so), but if you hear that familiar clickety-clack on hard surfaces, it's time for a trim.",
+        "training": "Manchester Terrier dogs are smart and can be strong-willed, so it's important to start \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/sit-stay-and-beyond-weve-got-the-essential-guide-to-basic-dog-obedience-training\"\u003Eobedience training\u003C/a\u003E early and be consistent. Obedience training teaches pups basic skills like \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-sit\"\u003Esit\u003C/a\u003E, \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-stay\"\u003Estay\u003C/a\u003E and \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-come\"\u003Ecome\u003C/a\u003E and \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/leash-train-dog-2\"\u003Ehow to walk nicely on a leash\u003C/a\u003E. Like all dogs, Manchesters respond well to positive reinforcement (using praise, treats and lots of play breaks as rewards for jobs well done.) These pups are eager to learn, but they may try to outwit you at times. Manchester Terriers aren't the easiest dogs for first-time pet parents to train, but if you're willing to be consistent and patient, they may be a good fit for you.\n\nManchesters are slow to warm up to new people and other dogs and aren't as naturally friendly as \u003Ca href=\"https://www.chewy.com/education/dog-breeds/golden-retriever/\"\u003EGolden Retrievers\u003C/a\u003E. So, it's important to start socializing your dog while they're a puppy to get them used to new situations. Puppy school is great for this. They get to learn how to play with other puppies, and they get to meet new people all in one location! (Win, win!)",
+        "diet_nutrition": "The Manchester Terrier typically does well on a complete and balanced diet of high-quality dog food. Be sure to factor in your dog's age and choose a formula that fits their stage in life (puppy, adult, senior). Your veterinarian can help you figure out how much and how often to feed your dog based on their specific needs.\r\n\r\nThis breed does have a tendency to gain weight easily if they aren't getting enough exercise. So, don't forget to count the treats you give your pup. If you see your pup gaining weight, contact your vet. They are in the best position to help you choose the right mealtime and exercise plan for your dog to help shed the weight and maintain their nutritional needs.",
+        "exercise": "Energetic and curious, Manchester Terriers need a lot of exercise to satisfy their athletic tendencies so plan on providing at least an hour of activity each day.\n\nWalks are always a good way to give your pup time to explore the world, but as they also love to work up to some speed, engage them in a fast-paced game of backyard fetch. Once bred for coursing and hunting, these muscular dogs tend to be strong and somewhat fearless, making them excellent performance dogs on agility circuits and at other dog sports, like rally (similar to obedience) or even Fast CAT (where dogs chase a lure in a 100-yard dash).\n\nIt's always good to remember, especially with a Manchester, that tired dogs tend to be well-behaved dogs. If you don't deplete your pup's energy every day, they'll find ways to entertain themselves: \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/how-to-stop-dogs-from-digging\"\u003Edigging\u003C/a\u003E, barking, \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/training-tips-how-to-stop-destructive-chewing-in-dogs\"\u003Edestroying things around the home\u003C/a\u003E or looking for ways to escape! And, while you want to attend to their physical needs, be sure to engage their minds as well. Manchesters love playing with \u003Ca href=\"https://www.chewy.com/s?query=dog%20squeak%20toys&amp;nav-submit-button=\"\u003Esqueaky toys&nbsp;\u003C/a\u003Ethat engage their rodent-hunting instincts, and, deep thinkers that they are, also enjoy \u003Ca href=\"https://www.chewy.com/b/puzzle-toys-games-2335\"\u003Epuzzle toys. \u003C/a\u003E\n\nWhen taking your pup outside a fenced area, remember that the Manchester Terrier loves to chase critters. It's important your pup is well-trained, but it's equally important to remember that you can never fully train those terrier traits out of your pup. If they find something to chase, they will chase it, regardless of what's happening around them or how loudly you call. For your sanity and their safety, always keep them on a leash when you're not in a fenced area.",
+        "ideal_environment": "Manchester Terriers are high-energy pups looking for high-energy pet parents. They can do well with first-timers, as long as you're able to be consistent with your training and exercise routine throughout their life.\r\n\r\nThese pups love being with you and don't enjoy being left alone, so it may be best if someone's home with them for most of the day.\r\n\r\nThey do well with kids as long as they're properly socialized and the kids in their life are taught to interact respectfully with dogs. Manchesters may do OK with other dogs and cats if they grow up together. However, some pets, like rabbits, will likely raise the pup's instinct to chase, and that may make for a stressful home.\r\n\r\nTheir small size makes them ideal for apartment dwellers—just be sure you are able to give them the exercise they need every day.",
+        "h2_breed_health": "The Manchester Terrier has a lifespan of 15 to 17 years and has a moderate amount of health issues. It’s important to be aware of these health problems so you can help your pup live the longest life possible.\r\n\u003Cul\u003E\r\n \t\u003Cli\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/c_multi_patellar_luxation\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cstrong\u003EPatellar Luxation\u003C/strong\u003E\u003C/a\u003E: This often-hereditary skeletal condition occurs when the kneecap slips out of place. Treatment options include weight management, limited exercise, pain or anti-inflammatory medication and surgery, depending on the severity.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Cstrong\u003EJuvenile Cardiomyopathy\u003C/strong\u003E: This condition affects the heart muscle’s ability to contract normally. Signs are often first noticed at 6-8 weeks of age and include trouble breathing and fainting. There is no cure or treatment, and sudden death can occur. Genetic screening testing is now available so be sure to ask your breeder.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/cardiovascular/c_dg_von_willebrand_disease\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cstrong\u003EVon Willebrand’s Disease\u003C/strong\u003E\u003C/a\u003E: This is an inherited blood clotting disorder that can lead to excessive bleeding from injuries or surgery; however, day to day an affected dog is typically asymptomatic. Blood transfusions may be needed if the pup experiences a trauma or needs to have surgery.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Cstrong\u003E\u003Ca href=\"https://www.petmd.com/dog/condition/progressive-retinal-atrophy-in-dogs\" target=\"_blank\" rel=\"noopener\"\u003EProgressive Retinal Atrophy\u003C/a\u003E (PRA)\u003C/strong\u003E: PRA is a degenerative disease that can cause a dog to go blind. There is no treatment for it, but a dog with vision loss can still live a happy life. Genetic screening testing is available so be sure to ask your breeder.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/endocrine/c_dg_hypothyroidism\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cstrong\u003EHypothyroidism\u003C/strong\u003E\u003C/a\u003E: Hypothyroidism is a condition in which the dog’s thyroid doesn’t produce enough thyroid hormone. Diagnosis is typically with a blood test and treatment is most commonly a daily oral medication.\u003C/li\u003E\r\n\u003C/ul\u003E",
+        "h2_breed_history": "The Manchester Terrier breed origins can be traced back to the late 1570s and their ancestors, the Black and Tan Terrier. In the early 1800s, a breeder named John Hulme from Manchester, England, crossed the Black and Tan Terrier with the \u003Ca href=\"https://www.chewy.com/education/dog-breeds/whippet/\"\u003EWhippet\u003C/a\u003E to get the sleek Manchester Terrier, who were proficient rodent killers, vermin hunters and course-game dogs (dogs who chased lures around a track).\r\n\r\nThe breed's popularity soared in the Victorian era. Men in Victorian England prized this breed as a gentleman's dog for their sleek looks and ratting prowess. (Rats were a big problem at the time, so naturally, a dog who excelled at rat killing was prized.) However, Victorian women preferred a smaller dog, so the toy version of the pup was developed. The only difference between the two types (standard and toy) are their size and their ears: the standard can have naturally erect, folded or cropped ears, and the toy only has naturally erect ears.\r\n\r\nThe American Kennel Club first recognized the Toy Manchester Terrier in 1886 and the Standard Manchester Terrier in 1887. But in 1959, the two types were put together in one breed, the Manchester Terrier. (Naturally, the standard is in the Terrier group and the the toy is in the Toy group.)\r\n\r\nSo, where's the best place to find a Manchester Terrier puppy today? Find a list of reputable breeders on the \u003Ca href=\"https://marketplace.akc.org/puppies/manchester-terrier\"\u003EAmerican Kennel Club's website\u003C/a\u003E. In terms of cost, expect to spend about $600 to $1,000 for a Manchester Terrier puppy, depending on the breeder. But for that price, the pups are typically screened for health and temperament issues and may come with pedigree papers. Contact Manchester Terrier breed rescue organizations for adoption or check your local animal shelter to adopt a pup. Search \u003Ca href=\"https://www.chewy.com/g/dog-manchester-terrier_ga1\"\u003EChewy’s database of adoptable dogs\u003C/a\u003E in your area.",
+        "expert_attribution": "\u003Ci\u003EExpert input provided by Kathy Nissan, Secretary for the \u003Ca href=\"https://www.americanmanchester.org\"\u003EAmerican Manchester Terrier Club (AMTC)\u003C/a\u003E and owner of \u003Ca href=\"http://www.whirlwyndmanchesters.com/about.html\"\u003EWhirlWynd Manchesters\u003C/a\u003E, and Krissia Chanto, vet tech and co-owner of \u003Ca href=\"https://rockpawpetcare.com\"\u003ERock Paw Pet Care\u003C/a\u003E. \u003C/i\u003E\r\n\r\n\u003Cem\u003EBreed characteristic ratings provided by veterinarian Dr. Sarah J. Wooten, DVM, CVJ, a veterinarian at \u003Ca href=\"https://sheepdraw.com/\" target=\"_blank\" rel=\"noopener\"\u003ESheep Draw Veterinary Hospital\u003C/a\u003E in Greeley, Colorado; dog trainer and behavior consultant Irith Bloom, CPDT-KSA, CBCC-KA, CDBC, owner of \u003Ca href=\"https://thesophisticateddog.com/\" target=\"_blank\" rel=\"noopener\"\u003EThe Sophisticated Dog, LLC\u003C/a\u003E, in Los Angeles; and certified animal behavior consultant \u003Ca href=\"https://shojai.com/\" target=\"_blank\" rel=\"noopener\"\u003EAmy Shojai\u003C/a\u003E, CABC, in Sherman, Texas. \u003C/em\u003E\r\n\r\n\u003Cem\u003EThe health content was medically reviewed by Chewy vets.\u003C/em\u003E",
+        "facebook_social_snippet_with_cta": "\u003Cp\u003EAre you looking for a pet who's as up for anything as you are? Check out the Manchester Terrier. Get all the facts about this small dog, from their personality to grooming needs, learn a little about their history and see if this pup's a good match for you in our guide. \u003C/p\u003E",
+        "species": "\u003Cp\u003EDog\u003C/p\u003E",
+        "h2_faqs": "\u003Ch3\u003EDo Manchester Terriers shed?\u003C/h3\u003E\r\nManchester Terriers don't shed much for most of the year. However, they do blow their coats in the spring and fall when they up their shedding game. (A dog who blows their coat sheds it in clumps of fur instead of shedding a lot of tiny, individual hairs.)\r\n\u003Ch3\u003EAre Manchester Terrier good family dogs?\u003C/h3\u003E\r\nManchester Terriers can be good family dogs when they're properly socialized and their training is consistent.\r\n\u003Ch3\u003EHow big do Manchester Terriers get?\u003C/h3\u003E\r\nManchester Terriers don't get very big overall, but the standard is bigger than the toy. The standard can get up to 16 inches tall at the shoulder and weigh up to 22 pounds. The toy can get up to 12 inches tall at the shoulder and weigh up to 12 pounds.\r\n\u003Ch3\u003EDo Manchester Terriers bark a lot?\u003C/h3\u003E\r\nManchester Terriers are known to bark a lot. As an observant watchdog, Manchester Terriers will bark to let you know someone's near, and they may bark more if they're bored.\r\n\u003Ch3\u003EWhat are the most common Manchester Terrier mixes?\u003C/h3\u003E\r\n\u003Cul\u003E\r\n \t\u003Cli\u003EManchester Terrier-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/chihuahua/\"\u003EChihuahua\u003C/a\u003E mix\u003C/li\u003E\r\n \t\u003Cli\u003EManchester Terrier-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/doberman-pinscher/\"\u003EDoberman\u003C/a\u003E mix\u003C/li\u003E\r\n \t\u003Cli\u003EManchester Terrier-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/dachshund/\"\u003EDachshund\u003C/a\u003E mix\u003C/li\u003E\r\n \t\u003Cli\u003EManchester Terrier-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/beagle/\"\u003EBeagle\u003C/a\u003E mix\u003C/li\u003E\r\n \t\u003Cli\u003EManchester Terrier-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/labrador-retriever/\"\u003ELabrador\u003C/a\u003E mix\u003C/li\u003E\r\n\u003C/ul\u003E\r\nNote: These are not purebred dogs but mixed breeds.",
+        "faq_items": [
+          {
+            "faq_title": "Do Manchester Terriers shed?",
+            "faq_content": "Manchester Terriers don't shed much for most of the year. However, they do blow their coats in the spring and fall when they up their shedding game. (A dog who blows their coat sheds it in clumps of fur instead of shedding a lot of tiny, individual hairs.)"
+          },
+          {
+            "faq_title": "Are Manchester Terrier good family dogs?",
+            "faq_content": "Manchester Terriers can be good family dogs when they're properly socialized and their training is consistent."
+          },
+          {
+            "faq_title": "How big do Manchester Terriers get?",
+            "faq_content": "Manchester Terriers don't get very big overall, but the standard is bigger than the toy. The standard can get up to 16 inches tall at the shoulder and weigh up to 22 pounds. The toy can get up to 12 inches tall at the shoulder and weigh up to 12 pounds."
+          },
+          {
+            "faq_title": "Do Manchester Terriers bark a lot?",
+            "faq_content": "Manchester Terriers are known to bark a lot. As an observant watchdog, Manchester Terriers will bark to let you know someone's near, and they may bark more if they're bored."
+          },
+          {
+            "faq_title": "What are the most common Manchester Terrier mixes?",
+            "faq_content": "\u003Cul\u003E\r\n \t\u003Cli\u003EManchester Terrier-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/chihuahua/\"\u003EChihuahua\u003C/a\u003E mix\u003C/li\u003E\r\n \t\u003Cli\u003EManchester Terrier-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/doberman-pinscher/\"\u003EDoberman\u003C/a\u003E mix\u003C/li\u003E\r\n \t\u003Cli\u003EManchester Terrier-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/dachshund/\"\u003EDachshund\u003C/a\u003E mix\u003C/li\u003E\r\n \t\u003Cli\u003EManchester Terrier-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/beagle/\"\u003EBeagle\u003C/a\u003E mix\u003C/li\u003E\r\n \t\u003Cli\u003EManchester Terrier-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/labrador-retriever/\"\u003ELabrador\u003C/a\u003E mix\u003C/li\u003E\r\n\u003C/ul\u003E\r\nNote: These are not purebred dogs but mixed breeds."
+          }
+        ],
+        "select_related_breeds": [
+          {
+            "selected_related_breed": 1355,
+            "characteristic": "breed_characteristics_physical_appearance"
+          },
+          {
+            "selected_related_breed": 1365,
+            "characteristic": "breed_characteristics_exercise_needs"
+          },
+          {
+            "selected_related_breed": 836,
+            "characteristic": "breed_characteristics_shedding_level"
+          },
+          {
+            "selected_related_breed": 436,
+            "characteristic": "breed_characteristics_friendliness"
+          },
+          {
+            "selected_related_breed": 106,
+            "characteristic": "breed_characteristics_playfulnesss"
+          },
+          {
+            "selected_related_breed": 1346,
+            "characteristic": "breed_characteristics_good_with_other_dogs"
+          }
+        ],
+        "enable_featured_gallery": [
+          "enable_featured_gallery"
+        ],
+        "featured_gallery_images": [592, 593, 594, 595, 596, 597]
+      },
+      "yoast_head": "\u003C!-- This site is optimized with the Yoast SEO plugin v23.8 - https://yoast.com/wordpress/plugins/seo/ --\u003E\n\u003Ctitle\u003EManchester Terrier Breed: Characteristics, Care &amp; Photos | Chewy\u003C/title\u003E\n\u003Cmeta name=\"description\" content=\"The Manchester Terrier is an energetic, bright, athletic and playful pup. See if this dog&#039;s a good match for you in our complete Manchester Terrier guide.\" /\u003E\n\u003Cmeta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" /\u003E\n\u003Clink rel=\"canonical\" href=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/manchester-terrier/\" /\u003E\n\u003Cmeta property=\"og:locale\" content=\"en_US\" /\u003E\n\u003Cmeta property=\"og:type\" content=\"article\" /\u003E\n\u003Cmeta property=\"og:title\" content=\"Manchester Terrier Breed: Characteristics, Care &amp; Photos | Chewy\" /\u003E\n\u003Cmeta property=\"og:description\" content=\"The Manchester Terrier is an energetic, bright, athletic and playful pup. See if this dog&#039;s a good match for you in our complete Manchester Terrier guide.\" /\u003E\n\u003Cmeta property=\"og:url\" content=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/manchester-terrier/\" /\u003E\n\u003Cmeta property=\"og:site_name\" content=\"Chewy\" /\u003E\n\u003Cmeta property=\"article:modified_time\" content=\"2025-05-05T14:21:48+00:00\" /\u003E\n\u003Cmeta property=\"og:image\" content=\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11164730/202106ManchesterTerrier-FeaturedImage.jpg\" /\u003E\n\t\u003Cmeta property=\"og:image:width\" content=\"1440\" /\u003E\n\t\u003Cmeta property=\"og:image:height\" content=\"865\" /\u003E\n\t\u003Cmeta property=\"og:image:type\" content=\"image/jpeg\" /\u003E\n\u003Cmeta name=\"twitter:card\" content=\"summary_large_image\" /\u003E\n\u003Cscript type=\"application/ld+json\" class=\"yoast-schema-graph\"\u003E{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/manchester-terrier/\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/manchester-terrier/\",\"name\":\"Manchester Terrier Breed: Characteristics, Care & Photos | Chewy\",\"isPartOf\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/manchester-terrier/#primaryimage\"},\"image\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/manchester-terrier/#primaryimage\"},\"thumbnailUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11164730/202106ManchesterTerrier-FeaturedImage.jpg\",\"datePublished\":\"2021-06-18T08:43:35+00:00\",\"dateModified\":\"2025-05-05T14:21:48+00:00\",\"description\":\"The Manchester Terrier is an energetic, bright, athletic and playful pup. See if this dog's a good match for you in our complete Manchester Terrier guide.\",\"breadcrumb\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/manchester-terrier/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://phcms.hlth.prd.aws.chewy.cloud/breed/manchester-terrier/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/manchester-terrier/#primaryimage\",\"url\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11164730/202106ManchesterTerrier-FeaturedImage.jpg\",\"contentUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11164730/202106ManchesterTerrier-FeaturedImage.jpg\",\"width\":1440,\"height\":865},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/manchester-terrier/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://phcms.hlth.prd.aws.chewy.cloud/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Manchester Terrier\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/\",\"name\":\"Chewy\",\"description\":\"\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"}]}\u003C/script\u003E\n\u003C!-- / Yoast SEO plugin. --\u003E",
+      "yoast_head_json": {
+        "title": "Manchester Terrier Breed: Characteristics, Care & Photos | Chewy",
+        "description": "The Manchester Terrier is an energetic, bright, athletic and playful pup. See if this dog's a good match for you in our complete Manchester Terrier guide.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://phcms.hlth.prd.aws.chewy.cloud/breed/manchester-terrier/",
+        "og_locale": "en_US",
+        "og_type": "article",
+        "og_title": "Manchester Terrier Breed: Characteristics, Care & Photos | Chewy",
+        "og_description": "The Manchester Terrier is an energetic, bright, athletic and playful pup. See if this dog's a good match for you in our complete Manchester Terrier guide.",
+        "og_url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/manchester-terrier/",
+        "og_site_name": "Chewy",
+        "article_modified_time": "2025-05-05T14:21:48+00:00",
+        "og_image": [
+          {
+            "width": 1440,
+            "height": 865,
+            "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11164730/202106ManchesterTerrier-FeaturedImage.jpg",
+            "type": "image/jpeg"
+          }
+        ],
+        "twitter_card": "summary_large_image",
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/manchester-terrier/",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/manchester-terrier/",
+              "name": "Manchester Terrier Breed: Characteristics, Care & Photos | Chewy",
+              "isPartOf": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/manchester-terrier/#primaryimage"
+              },
+              "image": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/manchester-terrier/#primaryimage"
+              },
+              "thumbnailUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11164730/202106ManchesterTerrier-FeaturedImage.jpg",
+              "datePublished": "2021-06-18T08:43:35+00:00",
+              "dateModified": "2025-05-05T14:21:48+00:00",
+              "description": "The Manchester Terrier is an energetic, bright, athletic and playful pup. See if this dog's a good match for you in our complete Manchester Terrier guide.",
+              "breadcrumb": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/manchester-terrier/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://phcms.hlth.prd.aws.chewy.cloud/breed/manchester-terrier/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/manchester-terrier/#primaryimage",
+              "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11164730/202106ManchesterTerrier-FeaturedImage.jpg",
+              "contentUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11164730/202106ManchesterTerrier-FeaturedImage.jpg",
+              "width": 1440,
+              "height": 865
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/manchester-terrier/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://phcms.hlth.prd.aws.chewy.cloud/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Manchester Terrier"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/",
+              "name": "Chewy",
+              "description": "",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            }
+          ]
+        }
+      },
+      "yoast_meta": {
+        "yoast_wpseo_title": "",
+        "yoast_wpseo_metadesc": "",
+        "yoast_wpseo_canonical": ""
+      },
+      "_links": {
+        "self": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed/601",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/types/breed"
+          }
+        ],
+        "acf:attachment": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/597"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/596"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/595"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/594"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/593"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/592"
+          }
+        ],
+        "wp:featuredmedia": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/600"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media?parent=601"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "pet_type",
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/pet_type?post=601"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ]

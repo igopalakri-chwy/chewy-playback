@@ -1,0 +1,325 @@
+[
+    {
+      "id": 647,
+      "date": "2021-06-16T15:43:31",
+      "date_gmt": "2021-06-16T15:43:31",
+      "guid": {
+        "rendered": "https://haproxy.use1.lgcy.prd.aws.chewy.cloud/eks/ns/pet-health/pet-health-content-backend/breed/australian-cattle-dog/"
+      },
+      "modified": "2025-06-04T18:54:20",
+      "modified_gmt": "2025-06-04T18:54:20",
+      "slug": "australian-cattle-dog",
+      "status": "publish",
+      "type": "breed",
+      "link": "https://phcms.hlth.prd.aws.chewy.cloud/breed/australian-cattle-dog/",
+      "title": {
+        "rendered": "Australian Cattle Dog"
+      },
+      "featured_media": 2811,
+      "template": "",
+      "pet_type": [],
+      "class_list": [
+        "post-647",
+        "breed",
+        "type-breed",
+        "status-publish",
+        "has-post-thumbnail",
+        "hentry"
+      ],
+      "acf": {
+        "breed_snapshot_best_for": "\u003Cp\u003EAustralian Cattle Dogs are best for active, experienced pet parents and families who can provide lots and lots of exercise and mental stimulation. Also known as Blue Heelers, these energetic dogs also thrive in homes with large yards where they can run around. Oh, and they love a good, long hike!\u003C/p\u003E",
+        "alt_image_text": "\u003Cp\u003EGet all the facts about Australian Cattle Dogs (aka Blue Heelers) and see if this dog's a good match for you.\u003C/p\u003E",
+        "breed_intro": "\u003Cp\u003EAs their name implies, Australian Cattle Dogs (aka Blue Heeler or Australian Heeler) are born and raised to herd cattle. Don't have cattle for them to herd? Then you just found a new workout buddy. Like most herding breeds, these pups are high-energy, agile and ready to get to W-O-R-K. Combine those traits with their sharp wit and you've got a furry partner in crime who's always ready for action.\u003C/p\u003E",
+        "breed_related_products_product_card_set": "",
+        "breed_snapshot_temperament": "\u003Cp\u003EWhip Smart, Hard-Working, Adventurous\u003C/p\u003E",
+        "what_does_this_breed_look_like_weight": "\u003Cp\u003EMale: 35-50 pounds\u003C/p\u003E\u003Cp\u003EFemale: 35-50 pounds\u003C/p\u003E",
+        "what_does_this_breed_look_like_height": "\u003Cp\u003EMale: 18-20 inches\u003C/p\u003E\u003Cp\u003EFemale: 17-19 inches\u003C/p\u003E",
+        "breed_snapshot_life_expectancy": "\u003Cp\u003E12 to 16 years\u003C/p\u003E",
+        "breed_snapshot_maintenance_level": "\u003Cp\u003EMedium\u003C/p\u003E",
+        "breed_characteristics_friendliness": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_snapshot_coat_color": "\u003Cp\u003EBlue, Blue Mottled, Blue Speckled, Red Speckled, Red Mottled\u003C/p\u003E",
+        "breed_snapshot_shed_level": "\u003Cp\u003ELow\u003C/p\u003E",
+        "in_article_video": null,
+        "breed_characteristics": "\u003Cp\u003EThese traits are rated on a scale of 1-5 with 1 being the lowest and 5 being the highest. Remember: Dogs are individuals, and not all dogs, even those of the same breed, will exhibit all the same qualities.\u003C/p\u003E",
+        "breed_characteristics_exercise_needs": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_health_issues": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_barking_tendencies": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_grooming_needs": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_shedding_level": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_training_needs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_kids": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_with_cats": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_good_for_apartments_small_homes": "\u003Cp\u003E1\u003C/p\u003E",
+        "breed_characteristics_energy_level": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_good_with_other_dogs": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_playfulnesss": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_cold_weather": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_warm_weather": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_for_first_time_parents": "\u003Cp\u003E2\u003C/p\u003E",
+        "how_do_i_look_card_image": 2810,
+        "what_does_this_breed_look_like": "\u003Cp\u003EBlue Heelers always have a glint in their eyes as if they're ready to share in your next adventure (they are!). These people-pleasers are born with white coats and get their own bespoke looks—bluish-gray or red with speckles—as they grow up. Their pointy ears and angular faces are reminiscent of Australia's wild dingo, of which they're related. But while their wild looks and compact, muscular build say, \"I'm all business,\" their expressive faces say, \"I'm all yours.\"\u003C/p\u003E",
+        "what_does_this_breed_look_like_ears": "\u003Cp\u003EAustralian Cattle Dog ears are moderately sized, set wide on the skull, broad at the base and pricked when alert.\u003C/p\u003E",
+        "what_does_this_breed_look_like_eyes": "\u003Cp\u003EThey have dark brown eyes with an alert and intelligent expression.\u003C/p\u003E",
+        "what_does_this_breed_look_like_nose": "\u003Cp\u003EBlue Heelers typically have black noses.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_length": "\u003Cp\u003EBlue Heelers typically have a double coat with a short, dense undercoat and a longer, rain-resistant outer coat.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_color": "\u003Cp\u003EBlue Heelers come in six colors, ranging from blue, blue mottled, blue speckled to red speckled. They also can have some tan around their face, neck, chest and hindquarters.\u003C/p\u003E",
+        "what_does_this_breed_look_like_tail": "\u003Cp\u003EThe Australian Cattle Dog has a tail set moderately low. They tend to have a good brush, and at rest, they hang with a slight curve.\u003C/p\u003E",
+        "h2_breed_temperament": "\u003Cp\u003EAustralian Cattle Dogs were bred to be working dogs and are classified as members of the herding group (dogs born to herd livestock). Most of these dogs are at their happiest when working—or at least staying busy. As such, this breed thrives in active households and hates being bored.\u003C/p\u003E\r\n\u003Cp\u003EBecause they're herders, raising an Australian Cattle Dog means training and socialization are important. This is an independent breed who doesn't want to share. So, start introducing your pup to people, other dogs and situations while they're young to help them be accepting of new experiences as they grow up. When it comes to obedience training, consistency is important. Regular training sessions will help this tenacious breed be a well-behaved family member. Australian Cattle Dogs may sound like a handful, but with confident pet parents to channel their energy the right way, these dogs are unstoppable.\u003C/p\u003E",
+        "h2_how_to_care_for_a_breed": "\u003Cp\u003EThe Australian Cattle Dog breed has hard work and people-pleasing in their DNA, but that doesn't make the breed low maintenance. Daily activity and training will take more time than grooming, but they're happy to take up exercising with you as a substitute for farm life.\u003C/p\u003E",
+        "grooming": "\u003Cp\u003EWhile they blow their coats twice a year, Australian Cattle Dogs don't shed year-round. When they do shed, their undercoats typically shed in tufts and clumps (called \"coat blowing\"). Here are some grooming tips for your Australian Cattle Dog:\u003C/p\u003E\r\n\u003Cul\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003EBrushing:\u003C/strong\u003E Pet parents should \u003Ca href=\"https://www.chewy.com/education/dog/grooming/brushing-a-dog\"\u003Ebrush their dogs\u003C/a\u003E at least once a week; but when they're shedding their coats, you'll probably want to bump that up to at least two times a week, so you can brush away the dead hair. Natural \u003Ca href=\"https://www.chewy.com/f/dog-bristle-brushes_c355_f70v83784\" target=\"_blank\" rel=\"noopener\"\u003Ebristle brushes\u003C/a\u003E or \u003Ca href=\"https://www.chewy.com/f/slicker-brush-dog-brushes-combs_c356_f70v83792\" target=\"_blank\" rel=\"noopener\"\u003Eslickers\u003C/a\u003E are great for regular maintenance, and \u003Ca href=\"https://www.chewy.com/f/rake-dog-brushes-combs_c356_f70v83790\" target=\"_blank\" rel=\"noopener\"\u003Erakes\u003C/a\u003E are recommended when they blow their coats.\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003EBathing:\u003C/strong\u003E In addition to consistent brushing, you'll want to bathe them about once a month.\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003EDental care:\u003C/strong\u003E \u003Ca href=\"https://www.chewy.com/education/dog/grooming/health-wellness-how-to-brush-your-dogs-teeth-live-to-tell-the-tale\" target=\"_blank\" rel=\"noopener\"\u003EBrush your Australian Cattle Dog's teeth\u003C/a\u003E daily. The best way to make oral care easier for you and your dog is to start when they're a puppy. An early introduction to toothbrushing will get them used to the handling and the feel of the brush, making it far easier as they get older. If you're adopting an older dog, your vet can show you how to do it in a way that's easy for everyone. In addition to frequent toothbrushing, be sure to have your dog's teeth professionally cleaned by your vet at least once a year.\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003ENail trimming:\u003C/strong\u003E Fortunately, as an active dog, their nails should wear down naturally, and they won't require as much intervention to keep them in check. A good rule of thumb is if you can hear their nails clicking when they walk, it's probably \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/guide-trimming-dogs-nails\"\u003Etime for a trim\u003C/a\u003E.\u003C/li\u003E\r\n\u003C/ul\u003E",
+        "training": "\u003Cp\u003EBecause they're active, independent and smart, Blue Heelers need a confident pup parent who understands this breed's need for consistent training and patience. This \"stubborn streak\" is often frustrating for a newbie.\u003C/p\u003E\r\n\u003Cp\u003EFor a Blue Heeler, a combination of brilliance and boredom is not a good mix. They'll create their own activities—like chewing your shoes or digging a hole in a rug. Lucky for you, they're incredibly intelligent, so pet parents will find that they are easy to \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/sit-stay-and-beyond-weve-got-the-essential-guide-to-basic-dog-obedience-training\"\u003Etrain\u003C/a\u003E. Australian Cattle Dog puppies love positive reinforcement—treats, praise, scratches and playtime with toys to reward your pup for a job well done.\u003C/p\u003E\r\n\u003Cp\u003EProper \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/positively-trained-puppy-socialization-dos-and-donts\"\u003Esocialization\u003C/a\u003E early on, where you expose them to new experiences in a safe and calm manner, also is important to ensure they become well-adjusted adults. Puppy training school is a great place not only to learn how to play nicely with other dogs (and meet new people) but also learn to \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-sit\"\u003Esit\u003C/a\u003E, \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-stay\"\u003Estay\u003C/a\u003E and \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-come\"\u003Ecome\u003C/a\u003E and \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/leash-train-dog-2\"\u003Ehow to walk nicely on a leash\u003C/a\u003E.\u003C/p\u003E",
+        "diet_nutrition": "\u003Cp\u003EAustralian Cattle Dogs don't require any specific type of food or diet. Most high-quality foods that are commercially available should suffice. Remember, too, that there's no one- size-fits-all plan for dogs and their nutrition. Additionally, your dog's diet should take their age, overall health and activity levels into consideration.\u003C/p\u003E\r\n\u003Cp\u003EKibble is often recommended for dogs as the hard, crunchy texture has the added benefit of scraping or cleaning their teeth while they chew. And while kibble may be ideal for young pups, you might consider switching to soft or canned varieties to help your dog eat comfortably as they age.\u003C/p\u003E\r\n\u003Cp\u003EAustralian Cattle Dogs are highly active, so diets and foods that are high in protein are best. That said, be sure to consult with your veterinarian, as they are in the best position to guide you in picking the right food for your dog based on their individual needs.\u003C/p\u003E",
+        "exercise": "\u003Cp\u003ERemember, an exercised cattle herding dog is a happy cattle herding dog—and one who won't mess up your home because they're bored. Australian Cattle Dogs are hardwired to be working dogs, so their exercise needs and activity requirements are off the charts. They'll need more than an evening walk or a little fetch in the backyard for a few minutes. Plan to spend one to two hours a day engaging your dog in some form of exercise.\u003C/p\u003E\r\n\u003Cp\u003ESpeed and agility are the calling cards of these pups, and while speeds tend to vary from dog to dog, Blue Heelers can reach nearly 30 mph at full sprint. That's why these pups love parents with active lifestyles—daily walks or jogs (and playtime!) are important. Dog sports and \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/dog-agility-training-tips\"\u003Eagility training\u003C/a\u003E are also excellent activities for these balls of energy.\u003C/p\u003E\r\n\u003Cp\u003EGiven how smart they are, Australian Cattle Dogs will also benefit from mental exercise in the form of \u003Ca href=\"https://www.chewy.com/b/puzzle-toys-games-2335\" target=\"_blank\" rel=\"noopener\"\u003Epuzzles and games\u003C/a\u003E.\u003C/p\u003E",
+        "ideal_environment": "\u003Cp\u003EAustralian Cattle Dogs need highly active people who have the time to burn through their (almost limitless) energy reserves every day. Bonus points if you take them on longer adventures over the weekend—wide-open spaces are ideal for satisfying their puppy wanderlust. Not doable? A large yard would be the next best thing. If you have a small apartment, you'll need access to a park or other outdoor area for your pup to thrive.\u003C/p\u003E\r\n\u003Cp\u003EAustralian Cattle Dogs will likely do better in families with older kids, but if children of all ages are taught how to properly interact with dogs \u003Cem\u003Eand\u003C/em\u003E pet parents supervise all play times with small kids and babies, there shouldn't be a problem. Also note that this breed doesn't typically mix well with other pets either, and they can be suspicious of strangers.\u003C/p\u003E",
+        "h2_breed_health": "\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EWhile the Australian Cattle Dog breed is known to have a \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/general-health/healthiest-dog-breeds\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Esturdy constitution\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E and a robust life expectancy of 12-16 years, there are some health issues to look out for in the breed.\u003C/span\u003E\u003Cspan data-ccp-props=\"{}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cul\u003E\r\n\t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559684&quot;:-2,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;multilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"1\" data-aria-level=\"1\"\u003E\u003Ca href=\"https://www.petmd.com/dog/condition/progressive-retinal-atrophy-in-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EProgressive Retinal Atrophy\u003C/span\u003E\u003C/b\u003E\u003C/a\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003E (PRA)\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E: Australian Cattle Dogs are at higher risk for late/adult-onset PRA. Initially, PRA presents itself as retinal deterioration, and over time, it can lead to a total loss of vision in your dog. Common symptoms include difficulty seeing at night and widened pupils. Sometimes the development of cataracts may occur in the degeneration’s late stages. Unfortunately, there are no effective treatments for PRA. If this happens, dogs with vision loss can still live happy lives with the love of parents who help them navigate the world around them.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;335559685&quot;:1117}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559684&quot;:-2,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;multilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"2\" data-aria-level=\"1\"\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/c_dg_hip_dysplasia\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EHip Dysplasia\u003C/span\u003E\u003C/b\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E: Australian Cattle Dogs are also susceptible to hip dysplasia. This inherited condition arises when the hip joint’s ball and socket fail to fit snugly together. Common symptoms include limping, “bunny hopping” (especially when running) and trouble jumping. Pet parents may be happy to know that there are various treatments for hip dysplasia, ranging from lifestyle changes (e.g. dieting and weight loss) and medications to surgery.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;335559685&quot;:1117}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"2\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559684&quot;:-2,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;multilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"3\" data-aria-level=\"1\"\u003E\u003Ca href=\"https://www.petmd.com/dog/slideshows/6-causes-deafness-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EDeafness\u003C/span\u003E\u003C/b\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E: Deafness in heelers is typically an inherited condition. This impairment can vary widely from dog to dog. Common indications of deafness include excessive barking and a lack of reaction to normal noises. Currently, there is no treatment for deafness in dogs. Again, pet parents are encouraged to help their pups navigate the world as best they can. Australian Cattle Dogs are extremely intelligent and highly trainable, so teaching them hand signals can be very useful as they lose their hearing.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;335559685&quot;:1117}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\u003C/ul\u003E",
+        "h2_breed_history": "\u003Cp\u003EThe origin of the Australian Cattle Dog began in the 19th century when the British brought the Smithfield sheepdog to Australia. This dog, however, did not fare too well on the rough terrain and sweltering heat, so Australian settlers quickly sought to create a herding breed to thrive in that environment.\u003C/p\u003E\r\n\u003Cp\u003EInitially, Smithfields were bred with dingoes as well as the Scottish Highland Collie. The Blue Heeler we know today is a cross between a mixed dingo-Collie breed and \u003Ca href=\"https://www.chewy.com/education/dog-breeds/dalmatian/\" target=\"_blank\" rel=\"noopener\"\u003EDalmatian\u003C/a\u003E.\u003C/p\u003E\r\n\u003Cp\u003EWhile their history began in Australia, the breed first came to America in 1950. Australian Cattle Dogs were admitted to American Kennel Club in 1980, and they became a charter member of AKC Herding Group at its inception.\u003C/p\u003E\r\n\u003Cp\u003EWhen looking for information on the Australian Cattle Dog, you'll find this breed has plenty of aliases, including the Queensland Heeler (a nod to its origins) and Blue Heeler. The term heeler came to be associated with them as a clever reference to their herding style of nipping at the heels of cattle to move them along, while the term blue refers to their popular blue-gray speckled coats.\u003C/p\u003E\r\n\u003Cp\u003EIf you're looking for an Australian Cattle Dog puppy, you can find reputable breeders at the \u003Ca href=\"https://marketplace.akc.org/puppies/australian-cattle-dog\" target=\"_blank\" rel=\"noopener\"\u003EAmerican Kennel Club's website\u003C/a\u003E. You can expect puppies to cost between $600-$1,000, but they can go upwards of $2,000 for championship lines. For that price, you're likely getting a pup who's been screened for health and temperament issues and may come with pedigree papers. If you'd like to adopt a pup, reach out to Blue Heeler rescues or keep an eye out for the breed at your local animal shelter. You can also search \u003Ca href=\"https://www.chewy.com/g/dog-australian-cattle-dog_ga1\" target=\"_blank\" rel=\"noopener\"\u003EChewy’s database of adoptable dogs\u003C/a\u003E in your area.\u003C/p\u003E",
+        "expert_attribution": "\u003Cp\u003E\u003Ci\u003EExpert input provided by Rendy Schuchat, M.A., Owner/Founder and Certified Head Dog Trainer at \u003Ca href=\"https://anythingispawzible.com/\" target=\"_blank\" rel=\"noopener\"\u003EAnything Is Pawzible\u003C/a\u003E; and Matt Beisner CPDT-KA, star of \"Dog: Impossible\" on Nat Geo Wild and Disney+.\u003C/i\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cem\u003EBreed characteristic ratings provided by veterinarian Dr. Sarah J. Wooten, DVM, CVJ, a veterinarian at \u003Ca href=\"https://sheepdraw.com/\" target=\"_blank\" rel=\"noopener\"\u003ESheep Draw Veterinary Hospital\u003C/a\u003E in Greeley, Colorado; dog trainer and behavior consultant Irith Bloom, CPDT-KSA, CBCC-KA, CDBC, owner of \u003Ca href=\"https://thesophisticateddog.com/\" target=\"_blank\" rel=\"noopener\"\u003EThe Sophisticated Dog, LLC\u003C/a\u003E, in Los Angeles; and certified animal behavior consultant \u003Ca href=\"https://shojai.com/\" target=\"_blank\" rel=\"noopener\"\u003EAmy Shojai\u003C/a\u003E, CABC, in Sherman, Texas. \u003C/em\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cem\u003EThe health content was medically reviewed by Chewy vets.\u003C/em\u003E\u003C/p\u003E",
+        "facebook_social_snippet_with_cta": "\u003Cp\u003EAlso known as Blue Heelers, Australian Cattle Dogs have tons of energy, and they're always down for some hijinks. If you're thinking about adopting a Blue Heeler, here's what you can expect.\u003C/p\u003E",
+        "species": "\u003Cp\u003EDog\u003C/p\u003E",
+        "h2_faqs": "\u003Ch3\u003EHow long do Australian Cattle Dogs live?\u003C/h3\u003E\r\n\u003Cp\u003EAustralian Cattle Dogs live anywhere from 12-16 years. They are a hearty dog breed, and they have relatively few health issues in comparison to other dogs. This breed requires a great deal of exercise so that helps keep plenty of health issues at bay.\u003C/p\u003E\r\n\u003Ch3\u003EDo Australian Cattle Dogs shed?\u003C/h3\u003E\r\n\u003Cp\u003EYes, Australian Cattle Dogs do shed. These double-coated pups have a smooth top coat and a short, dense undercoat. And while they're not big shedders, they tend to blow their undercoats twice a year. These dogs require a good brushing at least once a week, but you may want to brush them more frequently when they're blowing their coats.\u003C/p\u003E\r\n\u003Ch3\u003EHow big do Australian Cattle Dogs get?\u003C/h3\u003E\r\n\u003Cp\u003EWhen fully grown, Australian Cattle Dog males get to be between 18-20 inches tall, and females stand 17-19 inches tall. They are a medium-sized breed and tend to weigh between 35-50 pounds.\u003C/p\u003E\r\n\u003Ch3\u003EWhat are the most common Australian Cattle Dog mixes?\u003C/h3\u003E\r\n\u003Cp\u003EThe most common Australian Cattle Dog mixes are:\u003C/p\u003E\r\n\u003Cul\u003E\r\n\t\u003Cli\u003EAustralian Cattle Dog-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/american-pit-bull-terrier/\"\u003EAmerican Pit Bull Terrier\u003C/a\u003E (Pit Heeler)\u003C/li\u003E\r\n\t\u003Cli\u003EAustralian Cattle Dog-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/australian-shepherd/\"\u003EAustralian Shepherd\u003C/a\u003E mix (Texas Heeler)\u003C/li\u003E\r\n\t\u003Cli\u003EAustralian Cattle Dog-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/basset-hound/\"\u003EBasset Hound\u003C/a\u003E mix (Basset Heeler)\u003C/li\u003E\r\n\t\u003Cli\u003EAustralian Cattle Dog-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/beagle/\"\u003EBeagle\u003C/a\u003E mix (Beagle Cattle Dog)\u003C/li\u003E\r\n\t\u003Cli\u003EAustralian Cattle Dog-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/border-collie/\"\u003EBorder Collie\u003C/a\u003E mix (Border Heeler)\u003C/li\u003E\r\n\t\u003Cli\u003EAustralian Cattle Dog-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/boxer/\"\u003EBoxer\u003C/a\u003E mix (Box Heeler)\u003C/li\u003E\r\n\t\u003Cli\u003EAustralian Cattle Dog-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/boston-terrier/\"\u003EBoston Terrier\u003C/a\u003E mix (Boston Cattle Dog)\u003C/li\u003E\r\n\t\u003Cli\u003EAustralian Cattle Dog-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/cocker-spaniel/\"\u003ECocker Spaniel\u003C/a\u003E mix (Blue Spaniel)\u003C/li\u003E\r\n\t\u003Cli\u003EAustralian Cattle Dog-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/border-collie/\"\u003ECollie\u003C/a\u003E mix (Cattle Collie Dog)\u003C/li\u003E\r\n\t\u003Cli\u003EAustralian Cattle Dog-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/german-shepherd/\"\u003EGerman Shepherd\u003C/a\u003E mix (Cattle Shepherd)\u003C/li\u003E\r\n\t\u003Cli\u003EAustralian Cattle Dog-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/husky/\"\u003EHusky\u003C/a\u003E mix (Ausky)\u003C/li\u003E\r\n\t\u003Cli\u003EAustralian Cattle Dog-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/labrador-retriever/\"\u003ELabrador Retriever\u003C/a\u003E mix (Labraheeler)\u003C/li\u003E\r\n\u003C/ul\u003E\r\n\u003Cp\u003ENote: These are not purebred dogs but mixed breeds.\u003C/p\u003E",
+        "faq_items": [
+          {
+            "faq_title": "How long do Australian Cattle Dogs live?",
+            "faq_content": "\u003Cp\u003EAustralian Cattle Dogs live anywhere from 12-16 years. They are a hearty dog breed, and they have relatively few health issues in comparison to other dogs. This breed requires a great deal of exercise so that helps keep plenty of health issues at bay.\u003C/p\u003E"
+          },
+          {
+            "faq_title": "Do Australian Cattle Dogs shed?",
+            "faq_content": "\u003Cp\u003EYes, Australian Cattle Dogs do shed. These double-coated pups have a smooth top coat and a short, dense undercoat. And while they're not big shedders, they tend to blow their undercoats twice a year. These dogs require a good brushing at least once a week, but you may want to brush them more frequently when they're blowing their coats.\u003C/p\u003E"
+          },
+          {
+            "faq_title": "How big do Australian Cattle Dogs get?",
+            "faq_content": "\u003Cp\u003EWhen fully grown, Australian Cattle Dog males get to be between 18-20 inches tall, and females stand 17-19 inches tall. They are a medium-sized breed and tend to weigh between 35-50 pounds.\u003C/p\u003E"
+          },
+          {
+            "faq_title": "What are the most common Australian Cattle Dog mixes?",
+            "faq_content": "\u003Cp\u003EThe most common Australian Cattle Dog mixes are:\u003C/p\u003E\r\n\u003Cul\u003E\r\n\t\u003Cli\u003EAustralian Cattle Dog-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/american-pit-bull-terrier/\"\u003EAmerican Pit Bull Terrier\u003C/a\u003E (Pit Heeler)\u003C/li\u003E\r\n\t\u003Cli\u003EAustralian Cattle Dog-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/australian-shepherd/\"\u003EAustralian Shepherd\u003C/a\u003E mix (Texas Heeler)\u003C/li\u003E\r\n\t\u003Cli\u003EAustralian Cattle Dog-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/basset-hound/\"\u003EBasset Hound\u003C/a\u003E mix (Basset Heeler)\u003C/li\u003E\r\n\t\u003Cli\u003EAustralian Cattle Dog-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/beagle/\"\u003EBeagle\u003C/a\u003E mix (Beagle Cattle Dog)\u003C/li\u003E\r\n\t\u003Cli\u003EAustralian Cattle Dog-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/border-collie/\"\u003EBorder Collie\u003C/a\u003E mix (Border Heeler)\u003C/li\u003E\r\n\t\u003Cli\u003EAustralian Cattle Dog-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/boxer/\"\u003EBoxer\u003C/a\u003E mix (Box Heeler)\u003C/li\u003E\r\n\t\u003Cli\u003EAustralian Cattle Dog-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/boston-terrier/\"\u003EBoston Terrier\u003C/a\u003E mix (Boston Cattle Dog)\u003C/li\u003E\r\n\t\u003Cli\u003EAustralian Cattle Dog-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/cocker-spaniel/\"\u003ECocker Spaniel\u003C/a\u003E mix (Blue Spaniel)\u003C/li\u003E\r\n\t\u003Cli\u003EAustralian Cattle Dog-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/border-collie/\"\u003ECollie\u003C/a\u003E mix (Cattle Collie Dog)\u003C/li\u003E\r\n\t\u003Cli\u003EAustralian Cattle Dog-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/german-shepherd/\"\u003EGerman Shepherd\u003C/a\u003E mix (Cattle Shepherd)\u003C/li\u003E\r\n\t\u003Cli\u003EAustralian Cattle Dog-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/husky/\"\u003EHusky\u003C/a\u003E mix (Ausky)\u003C/li\u003E\r\n\t\u003Cli\u003EAustralian Cattle Dog-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/labrador-retriever/\"\u003ELabrador Retriever\u003C/a\u003E mix (Labraheeler)\u003C/li\u003E\r\n\u003C/ul\u003E\r\n\u003Cp\u003ENote: These are not purebred dogs but mixed breeds.\u003C/p\u003E"
+          }
+        ],
+        "select_related_breeds": [
+          {
+            "selected_related_breed": 572,
+            "characteristic": "breed_characteristics_exercise_needs"
+          },
+          {
+            "selected_related_breed": 495,
+            "characteristic": "breed_characteristics_playfulnesss"
+          },
+          {
+            "selected_related_breed": 1074,
+            "characteristic": "breed_characteristics_training_needs"
+          },
+          {
+            "selected_related_breed": 665,
+            "characteristic": "breed_characteristics_shedding_level"
+          },
+          {
+            "selected_related_breed": 709,
+            "characteristic": "breed_characteristics_friendliness"
+          },
+          {
+            "selected_related_breed": 789,
+            "characteristic": "breed_characteristics_good_for_apartments_small_homes"
+          }
+        ],
+        "enable_featured_gallery": [
+          "enable_featured_gallery"
+        ],
+        "featured_gallery_images": [646, 639, 640, 641, 642, 643]
+      },
+      "yoast_head": "\u003C!-- This site is optimized with the Yoast SEO plugin v23.8 - https://yoast.com/wordpress/plugins/seo/ --\u003E\n\u003Ctitle\u003EAustralian Cattle Dog Breed: Characteristics, Care &amp; Photos | Chewy\u003C/title\u003E\n\u003Cmeta name=\"description\" content=\"Also known as Blue Heelers, these high-energy dogs are always up for fun. Learn more about them in our complete Australian Cattle Dog guide.\" /\u003E\n\u003Cmeta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" /\u003E\n\u003Clink rel=\"canonical\" href=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/australian-cattle-dog/\" /\u003E\n\u003Cmeta property=\"og:locale\" content=\"en_US\" /\u003E\n\u003Cmeta property=\"og:type\" content=\"article\" /\u003E\n\u003Cmeta property=\"og:title\" content=\"Australian Cattle Dog Breed: Characteristics, Care &amp; Photos | Chewy\" /\u003E\n\u003Cmeta property=\"og:description\" content=\"Also known as Blue Heelers, these high-energy dogs are always up for fun. Learn more about them in our complete Australian Cattle Dog guide.\" /\u003E\n\u003Cmeta property=\"og:url\" content=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/australian-cattle-dog/\" /\u003E\n\u003Cmeta property=\"og:site_name\" content=\"Chewy\" /\u003E\n\u003Cmeta property=\"article:modified_time\" content=\"2025-06-04T18:54:20+00:00\" /\u003E\n\u003Cmeta property=\"og:image\" content=\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/12/13153152/202106Breed-Hero-Australian-Cattle-Dog.jpg\" /\u003E\n\t\u003Cmeta property=\"og:image:width\" content=\"1835\" /\u003E\n\t\u003Cmeta property=\"og:image:height\" content=\"1032\" /\u003E\n\t\u003Cmeta property=\"og:image:type\" content=\"image/jpeg\" /\u003E\n\u003Cmeta name=\"twitter:card\" content=\"summary_large_image\" /\u003E\n\u003Cmeta name=\"twitter:label1\" content=\"Est. reading time\" /\u003E\n\t\u003Cmeta name=\"twitter:data1\" content=\"1 minute\" /\u003E\n\u003Cscript type=\"application/ld+json\" class=\"yoast-schema-graph\"\u003E{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/australian-cattle-dog/\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/australian-cattle-dog/\",\"name\":\"Australian Cattle Dog Breed: Characteristics, Care & Photos | Chewy\",\"isPartOf\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/australian-cattle-dog/#primaryimage\"},\"image\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/australian-cattle-dog/#primaryimage\"},\"thumbnailUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/12/13153152/202106Breed-Hero-Australian-Cattle-Dog.jpg\",\"datePublished\":\"2021-06-16T15:43:31+00:00\",\"dateModified\":\"2025-06-04T18:54:20+00:00\",\"description\":\"Also known as Blue Heelers, these high-energy dogs are always up for fun. Learn more about them in our complete Australian Cattle Dog guide.\",\"breadcrumb\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/australian-cattle-dog/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://phcms.hlth.prd.aws.chewy.cloud/breed/australian-cattle-dog/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/australian-cattle-dog/#primaryimage\",\"url\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/12/13153152/202106Breed-Hero-Australian-Cattle-Dog.jpg\",\"contentUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/12/13153152/202106Breed-Hero-Australian-Cattle-Dog.jpg\",\"width\":1835,\"height\":1032,\"caption\":\"Australian Cattle Dog\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/australian-cattle-dog/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://phcms.hlth.prd.aws.chewy.cloud/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Australian Cattle Dog\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/\",\"name\":\"Chewy\",\"description\":\"\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"}]}\u003C/script\u003E\n\u003C!-- / Yoast SEO plugin. --\u003E",
+      "yoast_head_json": {
+        "title": "Australian Cattle Dog Breed: Characteristics, Care & Photos | Chewy",
+        "description": "Also known as Blue Heelers, these high-energy dogs are always up for fun. Learn more about them in our complete Australian Cattle Dog guide.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://phcms.hlth.prd.aws.chewy.cloud/breed/australian-cattle-dog/",
+        "og_locale": "en_US",
+        "og_type": "article",
+        "og_title": "Australian Cattle Dog Breed: Characteristics, Care & Photos | Chewy",
+        "og_description": "Also known as Blue Heelers, these high-energy dogs are always up for fun. Learn more about them in our complete Australian Cattle Dog guide.",
+        "og_url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/australian-cattle-dog/",
+        "og_site_name": "Chewy",
+        "article_modified_time": "2025-06-04T18:54:20+00:00",
+        "og_image": [
+          {
+            "width": 1835,
+            "height": 1032,
+            "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/12/13153152/202106Breed-Hero-Australian-Cattle-Dog.jpg",
+            "type": "image/jpeg"
+          }
+        ],
+        "twitter_card": "summary_large_image",
+        "twitter_misc": {
+          "Est. reading time": "1 minute"
+        },
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/australian-cattle-dog/",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/australian-cattle-dog/",
+              "name": "Australian Cattle Dog Breed: Characteristics, Care & Photos | Chewy",
+              "isPartOf": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/australian-cattle-dog/#primaryimage"
+              },
+              "image": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/australian-cattle-dog/#primaryimage"
+              },
+              "thumbnailUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/12/13153152/202106Breed-Hero-Australian-Cattle-Dog.jpg",
+              "datePublished": "2021-06-16T15:43:31+00:00",
+              "dateModified": "2025-06-04T18:54:20+00:00",
+              "description": "Also known as Blue Heelers, these high-energy dogs are always up for fun. Learn more about them in our complete Australian Cattle Dog guide.",
+              "breadcrumb": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/australian-cattle-dog/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://phcms.hlth.prd.aws.chewy.cloud/breed/australian-cattle-dog/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/australian-cattle-dog/#primaryimage",
+              "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/12/13153152/202106Breed-Hero-Australian-Cattle-Dog.jpg",
+              "contentUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/12/13153152/202106Breed-Hero-Australian-Cattle-Dog.jpg",
+              "width": 1835,
+              "height": 1032,
+              "caption": "Australian Cattle Dog"
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/australian-cattle-dog/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://phcms.hlth.prd.aws.chewy.cloud/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Australian Cattle Dog"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/",
+              "name": "Chewy",
+              "description": "",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            }
+          ]
+        }
+      },
+      "yoast_meta": {
+        "yoast_wpseo_title": "",
+        "yoast_wpseo_metadesc": "",
+        "yoast_wpseo_canonical": ""
+      },
+      "_links": {
+        "self": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed/647",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/types/breed"
+          }
+        ],
+        "acf:attachment": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/643"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/642"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/641"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/640"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/639"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/646"
+          }
+        ],
+        "wp:featuredmedia": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/2811"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media?parent=647"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "pet_type",
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/pet_type?post=647"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ]

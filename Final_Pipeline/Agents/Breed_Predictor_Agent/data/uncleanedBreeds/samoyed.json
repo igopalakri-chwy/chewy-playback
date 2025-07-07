@@ -1,0 +1,349 @@
+[
+    {
+      "id": 1031,
+      "date": "2025-03-07T09:20:54",
+      "date_gmt": "2025-03-07T09:20:54",
+      "guid": {
+        "rendered": "https://haproxy.use1.lgcy.prd.aws.chewy.cloud/eks/ns/pet-health/pet-health-content-backend/breed/samoyed/"
+      },
+      "modified": "2025-06-04T18:59:32",
+      "modified_gmt": "2025-06-04T18:59:32",
+      "slug": "samoyed",
+      "status": "publish",
+      "type": "breed",
+      "link": "https://phcms.hlth.prd.aws.chewy.cloud/breed/samoyed/",
+      "title": {
+        "rendered": "Samoyed"
+      },
+      "featured_media": 4134,
+      "template": "",
+      "pet_type": [],
+      "class_list": [
+        "post-1031",
+        "breed",
+        "type-breed",
+        "status-publish",
+        "has-post-thumbnail",
+        "hentry"
+      ],
+      "acf": {
+        "breed_snapshot_best_for": "\u003Cp\u003ESamoyeds are majestic, fluffy Arctic dogs with a sporty streak; they love games that are physically and mentally challenging. They adore adventures as much as they love snuggles with their favorite person (that’s you). Just make sure to keep their white coat clean and tangle-free.\u003C/p\u003E",
+        "alt_image_text": "\u003Cp\u003EGet all the information you need to determine if the Samoyed is the right dog for you in our complete guide. \u003C/p\u003E",
+        "breed_intro": "\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EIf you’ve ever wondered if a tried-and-true mood booster can come in the form of a big, white puff of fluff, cue the Samoyed. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EThese happy-go-lucky pups seem to have a permanent smile, and even their nickname—they’re known as Sammies—has a cheerful glee. If you happen to live in a winter wonderland, this snow-loving adventure dog will adore it. But the easygoing, social Samoyed (pronounced \u003C/span\u003E\u003Cspan data-contrast=\"auto\"\u003ESAH-ma-yed)\u003C/span\u003E\u003Cspan data-contrast=\"none\"\u003E can adapt in lots of places as long as they have an adoring pet parent. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E",
+        "breed_related_products_product_card_set": "",
+        "breed_snapshot_temperament": "\u003Cp\u003EActive, Cheery, Outgoing\u003C/p\u003E",
+        "what_does_this_breed_look_like_weight": "\u003Cp\u003E35–65 pounds\u003C/p\u003E",
+        "what_does_this_breed_look_like_height": "\u003Cp\u003E19–23.5 inches\u003C/p\u003E",
+        "breed_snapshot_life_expectancy": "\u003Cp\u003E12–14 years\u003C/p\u003E",
+        "breed_snapshot_maintenance_level": "\u003Cp\u003EHigh\u003C/p\u003E",
+        "breed_characteristics_friendliness": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_snapshot_coat_color": "\u003Cp\u003EWhite, Cream, Biscuit, White and Biscuit\u003C/p\u003E",
+        "breed_snapshot_shed_level": "\u003Cp\u003EVery High\u003C/p\u003E",
+        "in_article_video": null,
+        "breed_characteristics": "\u003Cp\u003EThese traits are rated on a scale of 1-5 with 1 being the lowest and 5 being the highest. Remember: Dogs are individuals, and not all dogs, even those of the same breed, will exhibit all the same qualities.\u003C/p\u003E",
+        "breed_characteristics_exercise_needs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_health_issues": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_barking_tendencies": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_grooming_needs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_shedding_level": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_training_needs": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_with_kids": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_cats": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_for_apartments_small_homes": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_energy_level": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_other_dogs": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_playfulnesss": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_cold_weather": "\u003Cp\u003E1\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_warm_weather": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_for_first_time_parents": "\u003Cp\u003E3\u003C/p\u003E",
+        "how_do_i_look_card_image": 4133,
+        "what_does_this_breed_look_like": "\u003Cp\u003E\u003Cspan class=\"TextRun SCXW21249769 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"\u003E\u003Cspan class=\"NormalTextRun SCXW21249769 BCX4\"\u003EThis ball of white fluff \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW21249769 BCX4\"\u003Eknows how to turn heads.\u003C/span\u003E \u003Cspan class=\"NormalTextRun SCXW21249769 BCX4\"\u003ESamoyeds are\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW21249769 BCX4\"\u003E elegant, medium-sized dogs who carry themselves with equal parts grace and determination. Their dark eyes sparkle\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW21249769 BCX4\"\u003E, and they \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW21249769 BCX4\"\u003Ealways seem to wear\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW21249769 BCX4\"\u003E a smile\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW21249769 BCX4\"\u003E. \u003C/span\u003E\u003C/span\u003E\u003Cspan class=\"EOP SCXW21249769 BCX4\" data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E",
+        "what_does_this_breed_look_like_ears": "\u003Cp\u003ESamoyeds have strong, thick, and triangular ears that are slightly rounded at the tips.\u003C/p\u003E",
+        "what_does_this_breed_look_like_eyes": "\u003Cp\u003ETheir deep and dark eyes are placed well apart. They’re almond-shaped and are dark-rimmed.\u003C/p\u003E",
+        "what_does_this_breed_look_like_nose": "\u003Cp\u003EThey usually have a black nose, but it’s sometimes dark brown. Nose color may change with age and weather.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_length": "\u003Cp\u003ESamoyeds have a thick double coat (meaning they have longer, harsher hairs on top of soft wool undercoats).\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_color": "\u003Cp\u003ESamoyeds are most commonly white, but they can come in a range of shades, including white and biscuit, cream, or all biscuit (a darker cream with shades of light brown—think of the color of toasted coconut).\u003C/p\u003E",
+        "what_does_this_breed_look_like_tail": "\u003Cp\u003ETheir tail is moderately long and covered with thick hair. It moves freely over their back.\u003C/p\u003E",
+        "h2_breed_temperament": "\u003Cp\u003E\u003Cspan data-contrast=\"auto\"\u003EWith a smile ready to greet you at a moment’s notice, the Samoyed is an instant pick-me-up. If you’re looking to make friends, your Sammy will make sure you meet everyone on the block. They’re so friendly that they’d invite a complete stranger in for tea and give them a tour of the house; they really do seem to love everyone. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"auto\"\u003EAlso known as Siberian Samoyeds, these pups are whip-smart and crave attention. They’re not the kind of dog you can leave alone for long periods of time—they’ll simply miss you too much and won’t be able to bear the loneliness (yes, it’s a little dramatic, but that’s how your Sammy sees it). \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EIn other words, there’s no need for an electric blanket on cold winter nights—you’re going to have quite the cuddler on your hands.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"auto\"\u003EThese dogs form deep bonds with their humans and are always up for a fun adventure. They do have a mind of their own, though, so \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/sit-stay-and-beyond-weve-got-the-essential-guide-to-basic-dog-obedience-training\"\u003E\u003Cspan data-contrast=\"none\"\u003Eobedience training\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E can go a long way toward getting them to come around to your way of thinking. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"auto\"\u003EThey’re \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/why-do-dogs-bark\"\u003E\u003Cspan data-contrast=\"none\"\u003Enot afraid to bark\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E, but this can also be worked on with a certified trainer who uses \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/behavior/how-to-train-a-dog-with-positive-reinforcement\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Epositive reinforcement\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E. Samoyed dogs can also be mouthy when they play (it’s instinctual and how they would pal around with other pups), which is something that’s important to \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/new-dog/stop-puppy-biting\"\u003E\u003Cspan data-contrast=\"none\"\u003Enip in the bud at a young age\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E so that no one inadvertently gets hurt, especially kids (who your Samoyed will likely adore). \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E",
+        "h2_how_to_care_for_a_breed": "\u003Cp\u003E\u003Cspan class=\"TextRun SCXW17337103 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\u003E\u003Cspan class=\"NormalTextRun SCXW17337103 BCX4\"\u003ESamoyeds are high-energy dogs with high-maintenance needs\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW17337103 BCX4\"\u003E—but \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW17337103 BCX4\"\u003Ethey’re\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW17337103 BCX4\"\u003E 100% worth it\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW17337103 BCX4\"\u003E. \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW17337103 BCX4\"\u003EYou’ll\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW17337103 BCX4\"\u003E need to pay a lot of attention to their puffy \u003C/span\u003E\u003Cspan class=\"NormalTextRun ContextualSpellingAndGrammarErrorV2Themed SCXW17337103 BCX4\"\u003Ecoat\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW17337103 BCX4\"\u003E, and \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW17337103 BCX4\"\u003Etheir independent streak \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW17337103 BCX4\"\u003Ecalls for\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW17337103 BCX4\"\u003E consistent training and lots of exercise time. \u003C/span\u003E\u003C/span\u003E\u003Cspan class=\"EOP SCXW17337103 BCX4\" data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E",
+        "grooming": "\u003Cul\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EBathing:\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E Samoyeds don’t need super frequent baths—a about \u003C/span\u003E\u003Cspan data-contrast=\"auto\"\u003Eleast twice a year is OK\u003C/span\u003E\u003Cspan data-contrast=\"none\"\u003E, though more frequent bathing may be needed if you’ve got an especially muddy pup. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\r\n\u003Cul\u003E\r\n\t\u003Cli\u003E\u003Cspan data-contrast=\"none\"\u003EThe best time to \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/grooming/how-to-bathe-a-dog-step-by-step-tips-from-a-professional-groomer\"\u003E\u003Cspan data-contrast=\"none\"\u003Ebathe your dog\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E is right after you’ve brushed out their wooly undercoat. Always thoroughly dry their coat using a high-velocity, \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/b/dryers-2467\"\u003E\u003Cspan data-contrast=\"none\"\u003Edog-safe blow dryer\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cspan data-contrast=\"none\"\u003EIn between baths, keep the coat clean by toweling off your dog when they come inside. If your Samoyed gets frequent \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/treating-dog-tears-stains-dogs-coat\"\u003E\u003Cspan data-contrast=\"none\"\u003Etear stains\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, you can use \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/vet-verified/best-dog-tear-stain-removers\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Especial wipes\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\u003C/ul\u003E\r\n\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EBrushing:\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E Because of their \u003C/span\u003E\u003Cspan data-contrast=\"auto\"\u003Edouble coat\u003C/span\u003E\u003Cspan data-contrast=\"none\"\u003E, Samoyeds look like white balls of fluff. They also shed a ton, especially in the fall and spring. \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/grooming/brushing-a-dog\"\u003E\u003Cspan data-contrast=\"none\"\u003E Brush their coat\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E at least two to three times a week year-round; daily is even better. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\r\n\u003Cul\u003E\r\n\t\u003Cli\u003E\u003Cspan data-contrast=\"none\"\u003ETry a long hair de-shedding tool like \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/furminator-long-hair-dog-deshedding/dp/269737\"\u003E\u003Cspan data-contrast=\"none\"\u003Ethis one from FURminator\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E and a \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/frisco-metal-dog-comb/dp/233482\"\u003E\u003Cspan data-contrast=\"none\"\u003Emetal dog comb \u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003Efor removing and preventing mats. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cspan data-contrast=\"none\"\u003ENever shave your Samoyed. Their double coat is weather-resistant, protects them from both the heat and cold, and helps them regulate their body temperature. Plus, the fur may not grow back correctly, and a shaved Sammy is susceptible to \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/can-dogs-get-sunburn\"\u003E\u003Cspan data-contrast=\"none\"\u003Esunburns\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E and \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/how-to-cool-down-a-dog-overheating\"\u003E\u003Cspan data-contrast=\"none\"\u003Eoverheating\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\u003C/ul\u003E\r\n\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EDental care:\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E Start \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/grooming/health-wellness-how-to-brush-your-dogs-teeth-live-to-tell-the-tale\"\u003E\u003Cspan data-contrast=\"none\"\u003Ebrushing your Samoyed’s teeth\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E at an early age, working your way up to daily brushing with a \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/virbac-cet-enzymatic-beef-flavor-dog/dp/41653\"\u003E\u003Cspan data-contrast=\"none\"\u003Edog toothpaste\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E. Get a pro cleaning at your vet once a year. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003ENail care:\u003C/span\u003E\u003C/b\u003E \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/guide-trimming-dogs-nails\"\u003E\u003Cspan data-contrast=\"none\"\u003ETrim their nails\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E every three to four weeks. You’ll know it’s time when you hear them clacking on your tile floors. Also trim the fur between their toes.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\u003C/ul\u003E",
+        "training": "\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EBecause your brilliant Samoyed is independent-minded and a bit mischievous, start their training as early as possible. T\u003C/span\u003E\u003Cspan data-contrast=\"auto\"\u003Eeach them cues like \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-sit\"\u003E\u003Cspan data-contrast=\"none\"\u003Esit\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E, \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-stay\"\u003E\u003Cspan data-contrast=\"none\"\u003Estay\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E, and \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-come\"\u003E\u003Cspan data-contrast=\"none\"\u003Ecome\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E, as well as \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/leash-train-dog-2\"\u003E\u003Cspan data-contrast=\"none\"\u003Ehow to walk nicely on a leash\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E. These will all help them become a well-behaved member of the family. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EWhen you train them, \u003C/span\u003E\u003Cspan data-contrast=\"auto\"\u003Euse positive reinforcement\u003C/span\u003E\u003Cspan data-contrast=\"none\"\u003E—that is, \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/b/treats-335\"\u003E\u003Cspan data-contrast=\"none\"\u003Etreats\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/b/toys-315\"\u003E\u003Cspan data-contrast=\"none\"\u003Etoys\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, and praise. Also invest time in \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/positively-trained-puppy-socialization-dos-and-donts\"\u003E\u003Cspan data-contrast=\"none\"\u003Eproper socialization\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, which involves exposing your Samoyed puppy to new people, places, and situations in a positive manner. If you’d like some help, a \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/find-a-dog-trainer\"\u003E\u003Cspan data-contrast=\"none\"\u003Ecertified trainer who uses positive reinforcement\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E can work with you and your pup.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003ETraining activities for your Sammy will involve their minds and their noses. Some Samoyeds will enjoy learning tricks or participating in \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/dog-agility-training-tips\"\u003E\u003Cspan data-contrast=\"none\"\u003Eagility training\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E. For extra mental stimulation, they may enjoy \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/nose-work-training\"\u003E\u003Cspan data-contrast=\"none\"\u003Escent work\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E",
+        "diet_nutrition": "\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EThere’s no one-size-fits-all nutrition plan for your Samoyed, but every pup needs a complete and balanced diet that \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/nutrition/What-Is-AAFCO-and-What-Does-It-Do\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Emeets AAFCO standards\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E. Also choose a formula that’s made for your dog’s life stage (\u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/vet-verified/best-puppy-food\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Epuppy\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/vet-verified/best-dog-food\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Eadult\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, or \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/vet-verified/best-senior-dog-food\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Esenior\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E). \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EYour veterinarian can help determine the best diet and feeding times for your Sammy. This high-energy dog might benefit from a high-protein “sport” formula, like \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/purina-pro-plan-sport-performance-all/dp/114055\"\u003E\u003Cspan data-contrast=\"none\"\u003Ethis food from Purina Pro Plan\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EDon’t forget to calculate treats into your pup’s daily meal plan—their calories count, too, and should never be more than 10% of your dog’s daily intake. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E",
+        "exercise": "\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003ESamoyeds are highly active dogs who want to keep up with you. In truth, you’ll probably be the one trying to keep up with \u003C/span\u003E\u003Ci\u003E\u003Cspan data-contrast=\"none\"\u003Ethem\u003C/span\u003E\u003C/i\u003E\u003Cspan data-contrast=\"none\"\u003E. They need about two hours of exercise a day.  \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EThis is easier for them to accomplish in cooler climates—they can \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/how-to-run-with-dog\"\u003E\u003Cspan data-contrast=\"none\"\u003Erun for miles\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/general/ready-to-hit-the-hiking-trail-with-your-dog-heres-everything-you-need-to-know\"\u003E\u003Cspan data-contrast=\"none\"\u003Eenjoy hikes\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, and go all day at games of fetch (try the \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/chuckit-classic-launcher-dog-toy/dp/38347\"\u003E\u003Cspan data-contrast=\"none\"\u003EChuckit! Launcher\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E toy). \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EIf it’s warmer out, make sure they have lots of water, shade, and an AC when they get back inside, and choose to go out only earlier and later in the day when it’s cooler. These fluffy \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/general-health/dog-breeds-that-cant-tolerate-summer-heat\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Epups don’t handle the heat well\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003ESammies love playing with their family in a fenced yard or \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/walking-with-dog\"\u003E\u003Cspan data-contrast=\"none\"\u003Egoing on long walks\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, too. Their instinct is to run off and explore, so if you’re not in a fenced yard or park, \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/b/leashes-346\"\u003E\u003Cspan data-contrast=\"none\"\u003Emake sure they’re on a leash\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003ESamoyeds make good running partners—they can reach speeds of over 30 mph on their own, but they’ll go at a more leisurely pace at your side. They’re just happy to be invited along for the ride. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E",
+        "ideal_environment": "\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EWhile they might be OK in smaller homes or apartments, Samoyeds love the outdoors, so a home with a fenced yard is a dream for these sporty pups.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EThese \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/general/behavior-breeds-10-friendliest-dog-breeds\"\u003E\u003Cspan data-contrast=\"none\"\u003Efriendly dogs\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E are super social and adventurous, and they’d love it if you are, too. Samoyeds will charm guests as much as they’ll delight their own family every single day. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003ESamoyeds may do well with other dogs in the home, especially when they’re a similar size. They may not do as well with smaller animals like cats, since \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/behavior/prey-drive-dog\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Einstinct might tell them to chase kitties\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E. However, if you socialize your Samoyed puppy with cats and \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/general/is-this-normal-my-cat-is-afraid-of-my-new-dog\"\u003E\u003Cspan data-contrast=\"none\"\u003Emake introductions correctly\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, they’ll be more accepting of feline friends.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EYounger children and babies might be challenging, since Sammies are so joyful and active that they want \u003C/span\u003E\u003Ci\u003E\u003Cspan data-contrast=\"none\"\u003Eeveryone\u003C/span\u003E\u003C/i\u003E\u003Cspan data-contrast=\"none\"\u003E to play as much as they do—something that might overwhelm tiny humans. However, Samoyeds are great with older kids. As with all dogs, \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/general-health/how-to-teach-kids-to-interact-with-pets\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Eteach any children how to gently and respectfully play with pups\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EIf you tend to be out of the house a lot, have a plan for your pup. Samoyeds adore attention and they don’t like to be alone for long. Even if you’re around and leave them in the yard alone for too long, \u003C/span\u003E\u003Cspan data-contrast=\"auto\"\u003Ethey’ll let you know they’re not happy with nuisance behaviors, like \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/why-do-dogs-dig\"\u003E\u003Cspan data-contrast=\"none\"\u003Edigging\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E. \u003C/span\u003E\u003Cspan data-contrast=\"none\"\u003ESammies want to play with their favorite person in the world—not by themselves. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E",
+        "h2_breed_health": "\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EThe Samoyed lifespan is 12–14 years. Here are some health issues to be aware of.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cul\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"auto\"\u003ECataracts\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E: \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/eye/c_dg_cataract\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003ECataracts\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E aren’t usually painful\u003C/span\u003E\u003Cspan data-contrast=\"none\"\u003E, but they do cause vision loss. Surgery is the go-to treatment. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EElbow and hip dysplasia: \u003C/span\u003E\u003C/b\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/elbow-dysplasia-in-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003EElbow\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E and \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/hip-dysplasia-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Ehip dysplasia\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E are genetic conditions that develop during puppyhood when the joints don’t align correctly and become loose. Treatment might involve weight loss, reduced activity, \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/vet-verified/best-joint-supplements-for-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Ejoint supplements\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, physical therapy, pain meds, or (in severe cases) surgery.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EHeart issues\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E: Samoyeds can inherit a condition called \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/cardiovascular/pulmonic-stenosis-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Epulmonic stenosis\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, making it harder for blood to flow from the heart to the lungs. The heart must work overtime to pump enough blood, so your Samoyed could faint or run out of energy in the middle of an activity. An echocardiogram (or ultrasound of the heart) can diagnosis it, and treatment includes medications or surgery.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EHypothyroidism:\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E Common in Samoyeds, \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/endocrine/c_dg_hypothyroidism\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Ehypothyroidism\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E includes symptoms\u003C/span\u003E\u003Cspan data-contrast=\"none\"\u003E like \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/symptoms/lethargy-in-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Elethargy\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, hair loss, skin and \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/dog-ear-infection\"\u003E\u003Cspan data-contrast=\"none\"\u003Eear infections\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, and weight gain. A blood test can diagnosis it, and treatment is daily oral medication.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EProgressive retinal atrophy (PRA):\u003C/span\u003E\u003C/b\u003E \u003Ca href=\"https://www.petmd.com/dog/condition/progressive-retinal-atrophy-in-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003EPRA leads to blindness in dogs\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E. While there is no cure, pups who lose their eyesight can still live full, happy lives and tend to adapt well. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003ESamoyed hereditary glomerulopathy\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E: This \u003C/span\u003E\u003Ca href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC1888463/\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Egenetic disorder\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E leads to \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/urinary/kidney-failure-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Ekidney failure\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E. There is no cure, and it affects male dogs more than females.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"auto\"\u003EUveodermatologic syndrome\u003C/span\u003E\u003C/b\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003E:\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E Symptoms of this \u003C/span\u003E\u003Ca href=\"https://avmajournals.avma.org/view/journals/javma/252/10/javma.252.10.1263.xml\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Eautoimmune disorder\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E include inflammation of the eye and loss of skin pigmentation on the skin. Treatment may include immunosuppressant medications and steroids.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\u003C/ul\u003E",
+        "h2_breed_history": "\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EWith their fluffy, thick coat, it makes sense that Samoyeds have a history tied to cold climates. Their name originates from the Samoyedic, a seminomadic people from Siberia, where temperatures can drop to minus 60 degrees Fahrenheit. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003ENot many can endure such harsh conditions, but Samoyeds were originally bred to prosper in this environment—their coat kept them warm and protected them no matter how frigid or windy it might have gotten. The ancestors of today’s Samoyed pulled sleds across the Arctic tundra and served as guardian dogs, as well as hunters and herders at times. (They were reindeer herders at one point.) \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EOn very cold nights, these dogs and their people would huddle together to keep warm with their body heat, forming a close bond. This behavior explains why Samoyeds today tend to be especially connected to their pet parents.  \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EThen, in the late 18th century, Arctic explorers took the Samoyed back to Great Britain, where dog-lovers fell for this clever breed. A royal endorsement was a turning point in the Samoyed’s history: Alexandra of Denmark was enamored with the breed and took one as a companion and show dog. The American Kennel Club registered the first Samoyed in 1906.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003ESamoyed puppies cost between $1,200–$3,000. If you choose this route, \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/how-to-find-ethical-reputable-responsible-breeder\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Epick a responsible breeder\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EYou can also consider Samoyed adoption, as there are many waiting for forever homes. Look for a \u003C/span\u003E\u003Ca href=\"https://www.samoyedclubofamerica.org/the-samoyed/choosing-a-dog/rescue-groups/\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003ESamoyed rescue group near you\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, keep an eye out for the breed at your local animal shelter, or search \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/g/dog-samoyed_ga1\"\u003E\u003Cspan data-contrast=\"none\"\u003EChewy’s database of adoptable dogs\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E in your area.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E",
+        "expert_attribution": "\u003Cp\u003E\u003Cem\u003ET\u003Cspan class=\"NormalTextRun SCXW245662364 BCX4\"\u003Ehis content was medically reviewed by \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW245662364 BCX4\"\u003EBarri Morrison\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW245662364 BCX4\"\u003E, DVM, Chewy veterinarian.\u003C/span\u003E\u003C/em\u003E\u003C/p\u003E",
+        "facebook_social_snippet_with_cta": "\u003Cp\u003ESamoyeds are beautiful white pups with wooly, thick coats. These pups are up for as many adventures as you are (and maybe a few more). Is the Samoyed the right pup for you? Learn more about this eternally happy breed in our complete guide. \u003C/p\u003E",
+        "species": "\u003Cp\u003EDog\u003C/p\u003E",
+        "h2_faqs": "",
+        "faq_items": [
+          {
+            "faq_title": "How is Samoyed pronounced? ",
+            "faq_content": "\u003Cp\u003E\u003Cspan class=\"TextRun SCXW75958663 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"\u003E\u003Cspan class=\"NormalTextRun SCXW75958663 BCX4\"\u003ESamoyed \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW75958663 BCX4\"\u003Epronunciation is tricky—and \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW75958663 BCX4\"\u003Eit’s\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW75958663 BCX4\"\u003E often said wrong\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW75958663 BCX4\"\u003E. \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW75958663 BCX4\"\u003ESome people\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW75958663 BCX4\"\u003E pronounce it \u003C/span\u003E\u003Cspan class=\"NormalTextRun SpellingErrorV2Themed SCXW75958663 BCX4\"\u003Esah\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW75958663 BCX4\"\u003E-MOY-ed\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW75958663 BCX4\"\u003E,\u003C/span\u003E \u003Cspan class=\"NormalTextRun SCXW75958663 BCX4\"\u003Eb\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW75958663 BCX4\"\u003Eut \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW75958663 BCX4\"\u003Ethat’s\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW75958663 BCX4\"\u003E not correct\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW75958663 BCX4\"\u003E.\u003C/span\u003E \u003Cspan class=\"NormalTextRun SCXW75958663 BCX4\"\u003EIt’s\u003C/span\u003E \u003Cspan class=\"NormalTextRun SCXW75958663 BCX4\"\u003ESAH-ma-\u003C/span\u003E\u003Cspan class=\"NormalTextRun SpellingErrorV2Themed SpellingErrorHighlight SCXW75958663 BCX4\"\u003Eyed\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW75958663 BCX4\"\u003E, according to \u003C/span\u003E\u003C/span\u003E\u003Ca class=\"Hyperlink SCXW75958663 BCX4\" href=\"https://www.merriam-webster.com/dictionary/Samoyed\" target=\"_blank\" rel=\"noreferrer noopener\"\u003E\u003Cspan class=\"TextRun Underlined SCXW75958663 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\u003E\u003Cspan class=\"NormalTextRun SCXW75958663 BCX4\" data-ccp-charstyle=\"Hyperlink\"\u003EMerriam-Webster’s\u003C/span\u003E\u003C/span\u003E\u003C/a\u003E\u003Cspan class=\"TextRun SCXW75958663 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"\u003E\u003Cspan class=\"NormalTextRun SCXW75958663 BCX4\"\u003E.\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW75958663 BCX4\"\u003E \u003C/span\u003E\u003C/span\u003E\u003Cspan class=\"EOP SCXW75958663 BCX4\" data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E"
+          },
+          {
+            "faq_title": "What does Samoyed mean? ",
+            "faq_content": "\u003Cp\u003E\u003Cspan class=\"TextRun SCXW265800755 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"\u003E\u003Cspan class=\"NormalTextRun SCXW265800755 BCX4\"\u003EThe name Samoyed pays tribute to where the breed originally comes from—specifically, the Samoyedic\u003C/span\u003E \u003Cspan class=\"NormalTextRun SCXW265800755 BCX4\"\u003Epeople from northeastern Asia.\u003C/span\u003E\u003C/span\u003E\u003Cspan class=\"EOP SCXW265800755 BCX4\" data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E"
+          },
+          {
+            "faq_title": "Are Samoyeds hypoallergenic? ",
+            "faq_content": "\u003Cp\u003E\u003Cspan class=\"TextRun SCXW126753027 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"\u003E\u003Cspan class=\"NormalTextRun SCXW126753027 BCX4\"\u003ENo, Samoyeds are not hypoallergenic\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW126753027 BCX4\"\u003E (\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW126753027 BCX4\"\u003Ealthough\u003C/span\u003E \u003C/span\u003E\u003Ca class=\"Hyperlink SCXW126753027 BCX4\" href=\"https://www.chewy.com/education/dog/general/4-hypoallergenic-dog-breeds\" rel=\"noreferrer noopener\"\u003E\u003Cspan class=\"TextRun Underlined SCXW126753027 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\u003E\u003Cspan class=\"NormalTextRun SCXW126753027 BCX4\" data-ccp-charstyle=\"Hyperlink\"\u003Eno dog is 100% hypoallergenic\u003C/span\u003E\u003C/span\u003E\u003C/a\u003E\u003Cspan class=\"TextRun SCXW126753027 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"\u003E\u003Cspan class=\"NormalTextRun SCXW126753027 BCX4\"\u003E)\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW126753027 BCX4\"\u003E. Samoyed\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW126753027 BCX4\"\u003Es\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW126753027 BCX4\"\u003E shed a lot\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW126753027 BCX4\"\u003E.\u003C/span\u003E\u003C/span\u003E\u003Cspan class=\"EOP SCXW126753027 BCX4\" data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E"
+          },
+          {
+            "faq_title": "Are Samoyeds good family dogs? ",
+            "faq_content": "\u003Cp\u003E\u003Cspan class=\"TextRun SCXW213014044 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"\u003E\u003Cspan class=\"NormalTextRun SCXW213014044 BCX4\"\u003EYes, Samoyeds are \u003C/span\u003E\u003C/span\u003E\u003Ca class=\"Hyperlink SCXW213014044 BCX4\" href=\"https://www.chewy.com/education/dog/general/best-family-dogs\" rel=\"noreferrer noopener\"\u003E\u003Cspan class=\"TextRun Underlined SCXW213014044 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\u003E\u003Cspan class=\"NormalTextRun SCXW213014044 BCX4\" data-ccp-charstyle=\"Hyperlink\"\u003Egood family dogs\u003C/span\u003E\u003C/span\u003E\u003C/a\u003E\u003Cspan class=\"TextRun SCXW213014044 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"\u003E\u003Cspan class=\"NormalTextRun SCXW213014044 BCX4\"\u003E. They love people\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW213014044 BCX4\"\u003E and need attention\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW213014044 BCX4\"\u003E, so \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW213014044 BCX4\"\u003Eit’s\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW213014044 BCX4\"\u003E important to include your Sammy in your daily routine and activities.\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW213014044 BCX4\"\u003E Always supervise pups and kids together to make sure \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW213014044 BCX4\"\u003Eeveryone’s\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW213014044 BCX4\"\u003E playing respectfully. \u003C/span\u003E\u003C/span\u003E\u003Cspan class=\"EOP SCXW213014044 BCX4\" data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E"
+          },
+          {
+            "faq_title": "Can Samoyeds live in hot weather? ",
+            "faq_content": "\u003Cp\u003E\u003Cspan class=\"TextRun SCXW201087333 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"\u003E\u003Cspan class=\"NormalTextRun SCXW201087333 BCX4\"\u003EYes, Samoyeds can live in warm\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW201087333 BCX4\"\u003Eer\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW201087333 BCX4\"\u003E temperatures. If you live in \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW201087333 BCX4\"\u003Ea hot\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW201087333 BCX4\"\u003E climate, \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW201087333 BCX4\"\u003Ejust \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW201087333 BCX4\"\u003Elimit\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW201087333 BCX4\"\u003E your outdoor activities to cooler parts of the day\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW201087333 BCX4\"\u003E and \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW201087333 BCX4\"\u003Egive your pup access to shade and lots of water to keep them cool.\u003C/span\u003E\u003C/span\u003E\u003Cspan class=\"EOP SCXW201087333 BCX4\" data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E"
+          },
+          {
+            "faq_title": "Is there such a thing as a black Samoyed?  ",
+            "faq_content": "\u003Cp\u003E\u003Cspan class=\"TextRun SCXW28906886 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\u003E\u003Cspan class=\"NormalTextRun SCXW28906886 BCX4\"\u003ENo,\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW28906886 BCX4\"\u003E there is only a white\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW28906886 BCX4\"\u003E Samoyed. If you see a black Samoyed\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW28906886 BCX4\"\u003E dog\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW28906886 BCX4\"\u003E, \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW28906886 BCX4\"\u003Eyou’ve\u003C/span\u003E \u003Cspan class=\"NormalTextRun SCXW28906886 BCX4\"\u003Elikely stumbled\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW28906886 BCX4\"\u003E across \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW28906886 BCX4\"\u003Ea Samoyed mix or a\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW28906886 BCX4\"\u003E different breed altogether, like \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW28906886 BCX4\"\u003Ea \u003C/span\u003E\u003C/span\u003E\u003Ca class=\"Hyperlink SCXW28906886 BCX4\" href=\"https://www.chewy.com/education/dog-breeds/schipperke\" rel=\"noreferrer noopener\"\u003E\u003Cspan class=\"TextRun Underlined SCXW28906886 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\u003E\u003Cspan class=\"NormalTextRun SCXW28906886 BCX4\" data-ccp-charstyle=\"Hyperlink\"\u003ESchipperke\u003C/span\u003E\u003C/span\u003E\u003C/a\u003E\u003Cspan class=\"TextRun SCXW28906886 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\u003E\u003Cspan class=\"NormalTextRun SCXW28906886 BCX4\"\u003E. \u003C/span\u003E\u003C/span\u003E\u003Cspan class=\"EOP SCXW28906886 BCX4\" data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E"
+          },
+          {
+            "faq_title": "What’s the Samoyed size and Samoyed weight?  ",
+            "faq_content": "\u003Cp\u003E\u003Cspan class=\"TextRun SCXW159258286 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\u003E\u003Cspan class=\"NormalTextRun SCXW159258286 BCX4\"\u003ESamoyed dog size depends on gender: \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW159258286 BCX4\"\u003EFemale Samoyeds tend to be between 19–21 inches tall and 35–50 pounds, while male Sammies are usually 21–23.5 inches tall and 45–65 pounds. \u003C/span\u003E\u003C/span\u003E\u003Cspan class=\"EOP SCXW159258286 BCX4\" data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E"
+          }
+        ],
+        "select_related_breeds": [
+          {
+            "selected_related_breed": 57,
+            "characteristic": "breed_characteristics_sensitive_to_cold_weather"
+          },
+          {
+            "selected_related_breed": 426,
+            "characteristic": "breed_characteristics_exercise_needs"
+          },
+          {
+            "selected_related_breed": 468,
+            "characteristic": "breed_characteristics_shedding_level"
+          },
+          {
+            "selected_related_breed": 95,
+            "characteristic": "breed_characteristics_playfulnesss"
+          },
+          {
+            "selected_related_breed": 1429,
+            "characteristic": "breed_characteristics_training_needs"
+          },
+          {
+            "selected_related_breed": 73,
+            "characteristic": "breed_characteristics_biting_tendencies"
+          }
+        ],
+        "enable_featured_gallery": [
+          "enable_featured_gallery"
+        ],
+        "featured_gallery_images": [1030, 1020, 1021, 1022, 1023, 1024, 1025, 1026, 1027]
+      },
+      "yoast_head": "\u003C!-- This site is optimized with the Yoast SEO plugin v23.8 - https://yoast.com/wordpress/plugins/seo/ --\u003E\n\u003Ctitle\u003ESamoyed Breed: Characteristics, Care &amp; Photos | Chewy\u003C/title\u003E\n\u003Cmeta name=\"description\" content=\"Learn all the facts about the Samoyed, from their intelligence, speed and health issues to their history, in our complete Samoyed guide.\" /\u003E\n\u003Cmeta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" /\u003E\n\u003Clink rel=\"canonical\" href=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/samoyed/\" /\u003E\n\u003Cmeta property=\"og:locale\" content=\"en_US\" /\u003E\n\u003Cmeta property=\"og:type\" content=\"article\" /\u003E\n\u003Cmeta property=\"og:title\" content=\"Samoyed Breed: Characteristics, Care &amp; Photos | Chewy\" /\u003E\n\u003Cmeta property=\"og:description\" content=\"Learn all the facts about the Samoyed, from their intelligence, speed and health issues to their history, in our complete Samoyed guide.\" /\u003E\n\u003Cmeta property=\"og:url\" content=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/samoyed/\" /\u003E\n\u003Cmeta property=\"og:site_name\" content=\"Chewy\" /\u003E\n\u003Cmeta property=\"article:modified_time\" content=\"2025-06-04T18:59:32+00:00\" /\u003E\n\u003Cmeta property=\"og:image\" content=\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/03/21153533/Breed-Hero-Samoyed.jpg\" /\u003E\n\t\u003Cmeta property=\"og:image:width\" content=\"1835\" /\u003E\n\t\u003Cmeta property=\"og:image:height\" content=\"1032\" /\u003E\n\t\u003Cmeta property=\"og:image:type\" content=\"image/jpeg\" /\u003E\n\u003Cmeta name=\"twitter:card\" content=\"summary_large_image\" /\u003E\n\u003Cmeta name=\"twitter:label1\" content=\"Est. reading time\" /\u003E\n\t\u003Cmeta name=\"twitter:data1\" content=\"1 minute\" /\u003E\n\u003Cscript type=\"application/ld+json\" class=\"yoast-schema-graph\"\u003E{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/samoyed/\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/samoyed/\",\"name\":\"Samoyed Breed: Characteristics, Care & Photos | Chewy\",\"isPartOf\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/samoyed/#primaryimage\"},\"image\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/samoyed/#primaryimage\"},\"thumbnailUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/03/21153533/Breed-Hero-Samoyed.jpg\",\"datePublished\":\"2025-03-07T09:20:54+00:00\",\"dateModified\":\"2025-06-04T18:59:32+00:00\",\"description\":\"Learn all the facts about the Samoyed, from their intelligence, speed and health issues to their history, in our complete Samoyed guide.\",\"breadcrumb\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/samoyed/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://phcms.hlth.prd.aws.chewy.cloud/breed/samoyed/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/samoyed/#primaryimage\",\"url\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/03/21153533/Breed-Hero-Samoyed.jpg\",\"contentUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/03/21153533/Breed-Hero-Samoyed.jpg\",\"width\":1835,\"height\":1032,\"caption\":\"white samoyed dog sitting on an isolated blue background\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/samoyed/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://phcms.hlth.prd.aws.chewy.cloud/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Samoyed\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/\",\"name\":\"Chewy\",\"description\":\"\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"}]}\u003C/script\u003E\n\u003C!-- / Yoast SEO plugin. --\u003E",
+      "yoast_head_json": {
+        "title": "Samoyed Breed: Characteristics, Care & Photos | Chewy",
+        "description": "Learn all the facts about the Samoyed, from their intelligence, speed and health issues to their history, in our complete Samoyed guide.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://phcms.hlth.prd.aws.chewy.cloud/breed/samoyed/",
+        "og_locale": "en_US",
+        "og_type": "article",
+        "og_title": "Samoyed Breed: Characteristics, Care & Photos | Chewy",
+        "og_description": "Learn all the facts about the Samoyed, from their intelligence, speed and health issues to their history, in our complete Samoyed guide.",
+        "og_url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/samoyed/",
+        "og_site_name": "Chewy",
+        "article_modified_time": "2025-06-04T18:59:32+00:00",
+        "og_image": [
+          {
+            "width": 1835,
+            "height": 1032,
+            "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/03/21153533/Breed-Hero-Samoyed.jpg",
+            "type": "image/jpeg"
+          }
+        ],
+        "twitter_card": "summary_large_image",
+        "twitter_misc": {
+          "Est. reading time": "1 minute"
+        },
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/samoyed/",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/samoyed/",
+              "name": "Samoyed Breed: Characteristics, Care & Photos | Chewy",
+              "isPartOf": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/samoyed/#primaryimage"
+              },
+              "image": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/samoyed/#primaryimage"
+              },
+              "thumbnailUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/03/21153533/Breed-Hero-Samoyed.jpg",
+              "datePublished": "2025-03-07T09:20:54+00:00",
+              "dateModified": "2025-06-04T18:59:32+00:00",
+              "description": "Learn all the facts about the Samoyed, from their intelligence, speed and health issues to their history, in our complete Samoyed guide.",
+              "breadcrumb": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/samoyed/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://phcms.hlth.prd.aws.chewy.cloud/breed/samoyed/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/samoyed/#primaryimage",
+              "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/03/21153533/Breed-Hero-Samoyed.jpg",
+              "contentUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/03/21153533/Breed-Hero-Samoyed.jpg",
+              "width": 1835,
+              "height": 1032,
+              "caption": "white samoyed dog sitting on an isolated blue background"
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/samoyed/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://phcms.hlth.prd.aws.chewy.cloud/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Samoyed"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/",
+              "name": "Chewy",
+              "description": "",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            }
+          ]
+        }
+      },
+      "yoast_meta": {
+        "yoast_wpseo_title": "",
+        "yoast_wpseo_metadesc": "",
+        "yoast_wpseo_canonical": ""
+      },
+      "_links": {
+        "self": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed/1031",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/types/breed"
+          }
+        ],
+        "acf:attachment": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/1027"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/1026"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/1025"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/1024"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/1023"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/1022"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/1021"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/1020"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/1030"
+          }
+        ],
+        "wp:featuredmedia": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/4134"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media?parent=1031"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "pet_type",
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/pet_type?post=1031"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ]

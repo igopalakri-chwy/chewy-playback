@@ -1,0 +1,318 @@
+[
+    {
+      "id": 681,
+      "date": "2021-06-15T15:14:08",
+      "date_gmt": "2021-06-15T15:14:08",
+      "guid": {
+        "rendered": "https://haproxy.use1.lgcy.prd.aws.chewy.cloud/eks/ns/pet-health/pet-health-content-backend/breed/bluetick-coonhound/"
+      },
+      "modified": "2025-05-05T14:21:57",
+      "modified_gmt": "2025-05-05T14:21:57",
+      "slug": "bluetick-coonhound",
+      "status": "publish",
+      "type": "breed",
+      "link": "https://phcms.hlth.prd.aws.chewy.cloud/breed/bluetick-coonhound/",
+      "title": {
+        "rendered": "Bluetick Coonhound"
+      },
+      "featured_media": 3183,
+      "template": "",
+      "pet_type": [],
+      "class_list": [
+        "post-681",
+        "breed",
+        "type-breed",
+        "status-publish",
+        "has-post-thumbnail",
+        "hentry"
+      ],
+      "acf": {
+        "breed_snapshot_best_for": "\u003Cp\u003EThe Bluetick Coonhound is a striking large-sized breed known for their distinctive blue mottled coats. Bred for hunting, they possess a keen sense of smell and strong prey drive. Despite their hunting instincts, they are affectionate, loyal companions who thrive in active households.\u003C/p\u003E",
+        "alt_image_text": "Bluetick Coonhound dog breed",
+        "breed_intro": "\u003Cspan data-preserver-spaces=\"true\"\u003EIs \"Adventure\" is your middle name? If you've never met a tent you didn't want to sleep in, a trail you didn't want to run, or a \u003C/span\u003E\u003Ca class=\"editor-rtfLink\" href=\"https://www.chewy.com/education/road-trips-with-a-dog\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-preserver-spaces=\"true\"\u003Eroad trip\u003C/span\u003E\u003C/a\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E you didn't want to drive, then the up-for-anything Bluetick Coonhound might be your canine soulmate. \u003C/span\u003E\u003Cspan data-preserver-spaces=\"true\"\u003EThe rough-and-tumble outdoorsman of the dog world is ready for adventure, whether in the city or country. Bred for hunting, Bluetick Coonhounds are high-energy, hard-working dogs and want a job to do. But it's not all work and no play. These sweet-natured pups make devoted family pets.&nbsp;\u003C/span\u003E",
+        "breed_related_products_product_card_set": null,
+        "breed_snapshot_temperament": "\u003Cp\u003EAthletic, Loyal, Energetic\u003C/p\u003E",
+        "what_does_this_breed_look_like_weight": "\u003Cp\u003EMale: 55-80 pounds\u003C/p\u003E\u003Cp\u003EFemale: 45-65 pounds\u003C/p\u003E",
+        "what_does_this_breed_look_like_height": "\u003Cp\u003EMale: 22-27 inches\u003C/p\u003E\u003Cp\u003EFemale: 21-25 inches\u003C/p\u003E",
+        "breed_snapshot_life_expectancy": "\u003Cp\u003E11 to 12 years\u003C/p\u003E",
+        "breed_snapshot_maintenance_level": "\u003Cp\u003EMedium\u003C/p\u003E",
+        "breed_characteristics_friendliness": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_snapshot_coat_color": "\u003Cp\u003EBlue Ticked, Blue Ticked and Tan\u003C/p\u003E",
+        "breed_snapshot_shed_level": "\u003Cp\u003ELow\u003C/p\u003E",
+        "in_article_video": null,
+        "breed_characteristics": "\u003Cspan style=\"font-weight: 400;\"\u003EThese traits are rated on a scale of 1-5 with 1 being the lowest and 5 being the highest. Remember: Dogs are individuals, and not all dogs, even those of the same breed, will exhibit all the same qualities.\u003C/span\u003E",
+        "breed_characteristics_exercise_needs": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_health_issues": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_barking_tendencies": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_grooming_needs": "\u003Cp\u003E1\u003C/p\u003E",
+        "breed_characteristics_shedding_level": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_training_needs": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_with_kids": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_good_with_cats": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_for_apartments_small_homes": "\u003Cp\u003E1\u003C/p\u003E",
+        "breed_characteristics_energy_level": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_good_with_other_dogs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_playfulnesss": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_cold_weather": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_warm_weather": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_for_first_time_parents": "\u003Cp\u003E2\u003C/p\u003E",
+        "how_do_i_look_card_image": 3182,
+        "what_does_this_breed_look_like": "Athletic, sleek and strong, the Bluetick Coonhound breed has distinctive colors that give the illusion of navy blue. That color impression results from black ticking on a white background covering most of their bodies, including their perky tail. Their pleading eyes and delightfully droopy ears create a charming face that is sweet and searching for love and companionship.",
+        "what_does_this_breed_look_like_ears": "\u003Cp\u003ETheir long, droopy ears flap when running and playing.\u003C/p\u003E",
+        "what_does_this_breed_look_like_eyes": "\u003Cp\u003EThey have soulful, round eyes that are typically brown.\u003C/p\u003E",
+        "what_does_this_breed_look_like_nose": "\u003Cp\u003EBluetick Coonhounds have large, black noses with well-opened nostrils.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_length": "\u003Cp\u003ETheir coats are weather-resistant, short and slightly coarse to the touch.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_color": "\u003Cp\u003EBluetick Coonhound is named for its blue ticked coat, which is when there is dark ticking against a white coat so that it appears dark blue to the naked eye. This is complemented by various black spots throughout. They may also have tan markings, which would be known as blue ticked and tan.\u003C/p\u003E",
+        "what_does_this_breed_look_like_tail": "\u003Cp\u003ETheir tails are long and tapered and carried well up while in motion\u003C/p\u003E",
+        "h2_breed_temperament": "\u003Cspan data-preserver-spaces=\"true\"\u003EBluetick Coonhounds are full of personality and are intelligent, loving goofballs. The Bluetick temperament is sweet-natured and personable, and they have lots and lots of energy. They thrive with pet families who lead active lifestyles. While they're good with kids but better with older children than super young ones—Blueticks can be rambunctious.\u003C/span\u003E\r\n\r\n\u003Cspan data-preserver-spaces=\"true\"\u003EThese hunting dogs are scent hounds, meaning they hunt by smell. They have a strong prey drive, which tends to kick into high gear around smaller animals, such as squirrels and other backyard creatures. So training is essential. Although, you'll never completely train out their desire to chase. But, since Bluetick Coonhounds also have intelligence to spare and are determined canines often described as \"craving a job\" (they'll love to grab your slippers or the morning paper), they enjoy the work. \u003C/span\u003E\r\n\r\n\u003Cspan data-preserver-spaces=\"true\"\u003EBecause they're so bright and a bit independent (those hunting instincts at play), they may be more challenging to train than, say, an \u003C/span\u003E\u003Ca class=\"editor-rtfLink\" href=\"https://www.chewy.com/education/dog-breeds/australian-shepherd/\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-preserver-spaces=\"true\"\u003EAustralian Shepherd\u003C/span\u003E\u003C/a\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E. They need a confident and patient leader who understands the unique needs of this hunting dog and can bring out the best in this pup.\u003C/span\u003E",
+        "h2_how_to_care_for_a_breed": "While the Bluetick Coonhound breed doesn't require nearly as much grooming as other breeds, you'll need to devote time to training and exercising this pup. Your Bluetick Coonhound will reward you with lots (and lots and lots) of affection. A happy, tired pup will gladly sleep at your feet.",
+        "grooming": "\u003Cspan data-preserver-spaces=\"true\"\u003EGrooming a Bluetick Coonhound is manageable because they're moderate shedders. Brushing daily with a&nbsp;\u003C/span\u003E\u003Ca class=\"editor-rtfLink\" href=\"https://www.chewy.com/f/bristle-brush-dog-brushes-combs_c356_f70v83784\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-preserver-spaces=\"true\"\u003Emedium-bristle brush\u003C/span\u003E\u003C/a\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E, a&nbsp;\u003C/span\u003E\u003Ca class=\"editor-rtfLink\" href=\"https://www.chewy.com/f/dog-grooming-gloves_c355_f70v83788\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-preserver-spaces=\"true\"\u003Erubber grooming mitt\u003C/span\u003E\u003C/a\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E, or a&nbsp;\u003C/span\u003E\u003Ca class=\"editor-rtfLink\" href=\"https://www.chewy.com/f/dog-grooming-gloves_c355_f70v83788\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-preserver-spaces=\"true\"\u003Ehound glove\u003C/span\u003E\u003C/a\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E will keep them looking their best. And unless your canine compatriot gets into something particularly muddy or messy, your Bluetick dog will only need a bath about every other month. Regularly check those adorable ears for redness after your outside romps—be sure to keep them free of debris and dry to help prevent bacterial or yeast infections.\u003C/span\u003E\n\n\u003Cspan data-preserver-spaces=\"true\"\u003EAs with all dogs, you should&nbsp;\u003C/span\u003E\u003Ca class=\"editor-rtfLink\" href=\"https://www.chewy.com/education/dog/health-and-wellness/guide-trimming-dogs-nails\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-preserver-spaces=\"true\"\u003Etrim the Bluetick breed's nails\u003C/span\u003E\u003C/a\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E regularly to avoid pain while walking or running. You'll know they're getting on the long side when you hear that \"clack, clack, clack\" on the floor, usually every few weeks.\u003C/span\u003E\n\n\u003Cspan data-preserver-spaces=\"true\"\u003EYour Bluetick dog may have more problems with their teeth than other breeds because they drool quite a bit. The drool holds bacteria, which attaches to the teeth and gums, causing more dental disease over time. This breed should receive annual dental cleanings by your vet under anesthesia and non-anesthetic dental cleanings every three months to avoid periodontal disease or tooth loss over time. At home, \u003C/span\u003E\u003Ca class=\"editor-rtfLink\" href=\"https://www.chewy.com/education/dog/grooming/health-wellness-how-to-brush-your-dogs-teeth-live-to-tell-the-tale\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-preserver-spaces=\"true\"\u003Ebrushing your Bluetick Coonhound's teeth\u003C/span\u003E\u003C/a\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E daily with a \u003Ca href=\"https://www.chewy.com/b/toothpastes-2598\" target=\"_blank\" rel=\"noopener\"\u003Edog toothpaste\u003C/a\u003E and \u003Ca href=\"https://www.chewy.com/b/toothbrushes-2597\" target=\"_blank\" rel=\"noopener\"\u003Etoothbrush\u003C/a\u003E.\u003C/span\u003E",
+        "training": "\u003Cspan data-preserver-spaces=\"true\"\u003EBe consistent and conduct training sessions in controlled situations (i.e., a fenced yard) where your buddy can't go off on a solo adventure. If you do this, you'll find that your pup does well and quickly learns basic obedience. A long \u003C/span\u003E\u003Ca class=\"editor-rtfLink\" href=\"https://www.chewy.com/four-paws-cotton-web-training-dog/dp/151699\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-preserver-spaces=\"true\"\u003Etraining lead\u003C/span\u003E\u003C/a\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E can be helpful when training your pup, even in an enclosed area. These long leads give your dog ample room to move around (especially when learning to come when called), but you can still gently guide and direct them when needed.\u003C/span\u003E\r\n\r\n\u003Cspan data-preserver-spaces=\"true\"\u003ENow, training your Bluetick Coonhound not to bark is another story. While it may be possible to train them to bark only at certain times, no matter how much you teach them and how much exercise these dogs get, they may still bawl or howl. It's just who they are.\u003C/span\u003E\r\n\r\n\u003Cspan data-preserver-spaces=\"true\"\u003ESocialization is also important to help bring out this pup's natural friendly disposition. Take your puppy on walks and let them safely meet new people and other dogs. Consider taking your dog to puppy school to learn how to play nicely with other puppies and meet new adults in one place.\u003C/span\u003E\r\n\r\n\u003Cspan data-preserver-spaces=\"true\"\u003EThis pup needs a calm and confident pet parent who understands the need for patience and consistency. These pups are best for people with previous experience with dogs. And, because who doesn't want another Pro tip, here you go: Blueticks (like all breeds) respond to positive training methods that reward them for the things they've done right (treats, praise and fun play breaks) and redirect them when they've done something you don't want them to do.\u003C/span\u003E",
+        "diet_nutrition": "Bluetick Coonhounds typically do well on \u003Ca href=\"https://www.chewy.com/education/dog/food-and-nutrition/your-complete-guide-to-the-best-high-quality-dog-food\"\u003Ehigh-quality commercial dog food\u003C/a\u003E. Be sure to look for a statement on the food's packaging that says it meets the nutritional standards the Association of American Feed Control Officials set. It's also important to factor in your dog's age and choose a formula that fits their stage in life (puppy, adult, senior).\n\nThe Bluetick breed is prone to obesity, so offer treats sparingly and avoid people food entirely. Even an extra pound or two can create health problems for your pup, like heart disease. So, mix up rewards with massages or play breaks with a special toy. Chat with your vet if your pup has some extra pounds. They can help you create a mealtime + snack + exercise plan to help shed the excess weight and maintain your pup's nutritional needs.\n\nRemember: Your veterinarian is always the best source for developing appropriate nutrition and feeding guidelines for your buddy.",
+        "exercise": "\u003Cspan data-preserver-spaces=\"true\"\u003EBlueticks are born athletes and need copious amounts of activity—they excel at dog sports like agility and \u003C/span\u003E\u003Ca class=\"editor-rtfLink\" href=\"https://www.akc.org/sports/tracking/\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-preserver-spaces=\"true\"\u003Etracking\u003C/span\u003E\u003C/a\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E and love to swim. Long walks, hiking and jogging, at least twice a day, are a must to burn their energy—about 60 to 90 minutes daily will probably do it. Be aware that exercising your Bluetick off-leash can be a dangerous proposition. If they catch an exciting smell, they will NOT come back when called—no matter how well-trained you thought they were. And because the Bluetick Coonhound's speed is a force to be reckoned with, don't expect to go catching them if they run off, either. For their safety (and your sanity), always have them on a leash when out for those walks, hikes and jogs. Pro tip: A \u003C/span\u003E\u003Ca class=\"editor-rtfLink\" href=\"https://www.chewy.com/b/gps-activity-1899\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-preserver-spaces=\"true\"\u003EGPS tracker\u003C/span\u003E\u003C/a\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E attached to their collar may be your best friend (don't tell your Bluetick… don't want them to get jealous).\u003C/span\u003E\r\n\r\n\u003Cspan data-preserver-spaces=\"true\"\u003EThey can also become distracted easily while on walks, so make sure they know what you expect of them and teach them to refocus their attention. However, since they're scent hounds, taking them on walks that let them follow their nose (on leash) is an excellent mental exercise for them, too. In addition, training, nose work games and problem-solving through work-to-eat and \u003C/span\u003E\u003Ca class=\"editor-rtfLink\" href=\"https://www.chewy.com/b/puzzle-toys-games-2335\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-preserver-spaces=\"true\"\u003Edog puzzles\u003C/span\u003E\u003C/a\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E are great ways to engage your Bluetick's body and brain.\u003C/span\u003E\r\n\r\n\u003Cspan data-preserver-spaces=\"true\"\u003EBluetick Coonhounds like having a purpose, and they aim to please. Teach your pup to fetch slippers or the morning paper—it's a win-win for everyone!\u003C/span\u003E",
+        "ideal_environment": "Bluetick Coonhounds are the ideal companions for experienced pet parents who embrace these dogs for their wiggles, high-energy hunting and searching skills and talkative nature.\r\n\r\nBred for the hunt, Blueticks thrive most in a home with a large fenced yard or acreage. Their barking and howling don't pair well with apartment or condo living. Blueticks tend to \"follow their nose,\" given their hunting instinct, so keep your buddy leashed in unconfined areas.\r\n\r\nGood with other dogs and older children, Blueticks are natural-born playmates and flourish with affectionate companionship. Yes, they LOVE a good romp outside and a marathon (or two). But they equally crave cuddle time inside on your soft furniture, if you'll indulge them, or blanketing your feet. They'll welcome routine visits from familiar friends and family but will alert you to unknown and unexpected visitors with their barking and baying. And, believe it or not, Bluetick Coonhounds can socialize with a trusted family cat despite their prey drive. Why? Well, with the proper training, they'll follow suit and love them right back once they realize who you love.",
+        "h2_breed_health": "\u003Cspan data-preserver-spaces=\"true\"\u003EBluetick Coonhounds tend to have a lifespan of 11 to 12 years. While they are a generally healthy breed, there can be a few health issues to watch. Be sure to purchase your puppy from a reputable breeder, who routinely screens them for health and temperament problems. If you're adopting your pup, get a copy of the vet's wellness exam.\u003C/span\u003E\r\n\u003Cul\u003E\r\n \t\u003Cli\u003E\u003Ca class=\"editor-rtfLink\" href=\"https://www.petmd.com/dog/conditions/endocrine/c_dg_hypothyroidism\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cstrong\u003E\u003Cspan data-preserver-spaces=\"true\"\u003EHypothyroidism\u003C/span\u003E\u003C/strong\u003E\u003C/a\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E: Blueticks are prone to hypothyroidism, a condition in which the body doesn't produce enough thyroid hormones. Signs can include dry skin and coat, hair loss, weight gain or behavioral changes. Treatment is typically daily oral medication.\u003C/span\u003E\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Ca class=\"editor-rtfLink\" href=\"https://www.petmd.com/dog/conditions/musculoskeletal/c_dg_hip_dysplasia\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cstrong\u003E\u003Cspan data-preserver-spaces=\"true\"\u003EHip\u003C/span\u003E\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E and \u003C/span\u003E\u003C/strong\u003E\u003Ca class=\"editor-rtfLink\" href=\"https://www.petmd.com/dog/conditions/musculoskeletal/c_dg_elbow_dysplasia\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cstrong\u003E\u003Cspan data-preserver-spaces=\"true\"\u003EElbow\u003C/span\u003E\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E Dysplasia\u003C/span\u003E\u003C/strong\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E: Dysplasia refers to joints that don't form properly, resulting in looseness that can cause lameness, pain, and arthritis. While potentially inherited, there is currently no genetic screening test for hip and elbow dysplasia, but dogs with either condition should not be bred. Treatment typically includes joint supplements, weight management, pain medication, and, in severe cases, surgery.\u003C/span\u003E\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Ca class=\"editor-rtfLink\" href=\"https://www.petmd.com/dog/conditions/digestive/signs-and-symptoms-bloat-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cstrong\u003E\u003Cspan data-preserver-spaces=\"true\"\u003EBloat\u003C/span\u003E\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E or Gastric Dilatation-Volvulus (\u003C/span\u003E\u003C/strong\u003E\u003Ca class=\"editor-rtfLink\" href=\"https://www.petmd.com/dog/conditions/digestive/gastric-dilatation-volvulus-gdv-syndrome\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cstrong\u003E\u003Cspan data-preserver-spaces=\"true\"\u003EGDV\u003C/span\u003E\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E)\u003C/span\u003E\u003C/strong\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E: Your Bluetick's deep, narrow chest places them at higher risk for GDV or bloat. When a dog bloats, the stomach twists on itself and fills with gas. Left untreated, the disease can be quickly fatal. If your dog retches or dry-heaves (with no actual vomit produced), acts restless, has an enlarged abdomen, or lies in a prayer position (front feet down, rear end up), take your pet to an emergency hospital immediately! Treatment for this condition is surgery to pin the stomach to the side of the body to prevent future instances. You can help prevent bloat by feeding your pup smaller meals more frequently throughout the day with a \u003C/span\u003E\u003Ca class=\"editor-rtfLink\" href=\"https://www.chewy.com/b/slow-feeders-1424\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-preserver-spaces=\"true\"\u003Eslow feeder\u003C/span\u003E\u003C/a\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E and waiting an hour before and after meals before strenuous exercise.\u003C/span\u003E\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Ca class=\"editor-rtfLink\" href=\"https://www.petmd.com/dog/conditions/eye/c_dg_cataract\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cstrong\u003E\u003Cspan data-preserver-spaces=\"true\"\u003ECataracts\u003C/span\u003E\u003C/strong\u003E\u003C/a\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E: Older Blueticks often develop cataracts, which give their eyes a cloudy, opaque appearance. While many dogs adjust to eyesight loss well later in life, surgery can also be an option. Your vet will examine your companion's eyes at routine appointments.\u003C/span\u003E\u003C/li\u003E\r\n\u003C/ul\u003E",
+        "h2_breed_history": "\u003Cspan data-preserver-spaces=\"true\"\u003EThe Bluetick Coonhound's history is as American as a breed gets, and the story behind them is as colorful as their coats.\u003C/span\u003E\r\n\r\n\u003Cspan data-preserver-spaces=\"true\"\u003EBefore becoming a breed, the Bluetick Coonhound was considered a color variety of the English Coonhound. The Bluetick's distinct origins go back to Louisiana. They arose from years of crossbreeding by those looking for the perfect hunting companion. Legend has it that the Marquis de Lafayette gave French staghounds to George Washington during the early days of the American Revolution. The French staghounds were then crossbred with English foxhounds to create the elite hunting breed we know today: One with incredible endurance and an acute cold nose—a dog capable of picking up scents that are hours, or even many days, old.\u003C/span\u003E\r\n\r\n\u003Cspan data-preserver-spaces=\"true\"\u003EEarly Southern settlers liked Blueticks for their athletic build, stamina and determination, so they used them for hunting raccoons, as well as in packs of them to track down larger quarries such as wild boar, lynx, bear, and cougar. Blueticks remain highly sought-after companions for pet parents who enjoy the high energy of these wonderfully loyal working dogs.\u003C/span\u003E\r\n\r\n\u003Cspan data-preserver-spaces=\"true\"\u003EToday, Blueticks are iconic companions in old westerns, movies, television shows and cartoons. On the college circuit, the Bluetick Coonhound is the proud mascot of the University of Tennessee. The breed became eligible for American Kennel Club registration in 2009 and has been competing in the Hound group since 2010.\u003C/span\u003E\r\n\r\n\u003Cspan data-preserver-spaces=\"true\"\u003EYou can find a list of reputable Bluetick Coonhound breeders on the \u003C/span\u003E\u003Ca class=\"editor-rtfLink\" href=\"https://marketplace.akc.org/puppies/bluetick-coonhound?breed=44&amp;page=1\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-preserver-spaces=\"true\"\u003EAmerican Kennel Club's website\u003C/span\u003E\u003C/a\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E. The cost of Bluetick Coonhound puppies ranges from about $500 to $1,200 per puppy and increases in price depending on their markings and pedigree. You can also contact Bluetick Coonhound rescue organizations to adopt a Bluetick, watch for the breed at your local animal shelter, or \u003Cspan style=\"font-weight: 400;\"\u003Ekeep an eye out for the breed at your local animal shelter, or search \u003Ca href=\"https://www.chewy.com/g/dog-bluetick-coonhound_ga1\"\u003EChewy’s database of adoptable dogs\u003C/a\u003E in your area.\u003C/span\u003E\u003C/span\u003E",
+        "expert_attribution": "\u003Ci\u003EExpert input provided by veterinarian Dr. Christina Haney of the \u003Ca href=\"https://www.aliciapacvet.com/\"\u003EAlicia Pacific Vet Center of Laguna Niguel, CA\u003C/a\u003E, and certified dog trainer, Sylvia Borghardt at \u003Ca href=\"http://sylviaborghardtdogtraining.com/\" target=\"_blank\" rel=\"noopener\" data-cke-saved-href=\"http://sylviaborghardtdogtraining.com/\"\u003Esylviaborghardtdogtraining.com\u003C/a\u003E.\u003C/i\u003E\r\n\r\n\u003Ci\u003EPhoto credit for \"\u003C/i\u003E\u003Ci\u003EHow do I l\u003C/i\u003E\u003Ci\u003Eook?\" \u003Ca href=\"https://www.akc.org/dog-breeds/bluetick-coonhound/\"\u003EAmerican Kennel Club\u003C/a\u003E.\u003C/i\u003E\u003Ci\u003E\u003C/i\u003E\r\n\r\n\u003Cem\u003EBreed characteristic ratings provided by veterinarian Dr. Sarah J. Wooten, DVM, CVJ, a veterinarian at \u003Ca href=\"https://sheepdraw.com/\" target=\"_blank\" rel=\"noopener\"\u003ESheep Draw Veterinary Hospital\u003C/a\u003E in Greeley, Colorado; dog trainer and behavior consultant Irith Bloom, CPDT-KSA, CBCC-KA, CDBC, owner of \u003Ca href=\"https://thesophisticateddog.com/\" target=\"_blank\" rel=\"noopener\"\u003EThe Sophisticated Dog, LLC\u003C/a\u003E, in Los Angeles; and certified animal behavior consultant \u003Ca href=\"https://shojai.com/\" target=\"_blank\" rel=\"noopener\"\u003EAmy Shojai\u003C/a\u003E, CABC, in Sherman, Texas. \u003C/em\u003E\r\n\r\n\u003Cem\u003EThe health content was medically reviewed by Chewy vets.\u003C/em\u003E",
+        "facebook_social_snippet_with_cta": "\u003Cp\u003ESmart, warmhearted and devoted, the Bluetick Coonhound is more than just a super athlete. (But they're that, too.) Get all the information you need on this most American breed's history, health, temperament and more in our complete guide.\u003C/p\u003E",
+        "species": "\u003Cp\u003EDog\u003C/p\u003E",
+        "h2_faqs": "\u003Ch3\u003EDo Bluetick Coonhounds shed?\u003C/h3\u003E\r\nBluetick Coonhounds shed moderately, thanks to their short, coarse coats. Brushing their coat at least twice a week can help minimize any shedding.\r\n\u003Ch3\u003EAre Bluetick Coonhounds good family dogs?\u003C/h3\u003E\r\nBluetick Coonhounds are best suited for active families with older children who have the energy to meet their furry friend's exercise needs or a home where they can have a job such as hunting or retrieving something.\r\n\u003Ch3\u003EDo Bluetick Coonhounds like to swim?\u003C/h3\u003E\r\nYes, Bluetick Coonhounds like to swim. While Blueticks are associated with more land-based activities, swimming is another outlet to channel their boundless energy—they adore it.\r\n\u003Ch3\u003EWhat are the most common Bluetick Coonhound mixes?\u003C/h3\u003E\r\n\u003Cul\u003E\r\n \t\u003Cli\u003EBluetick Coonhound-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/labrador-retriever/\"\u003ELab\u003C/a\u003E mix, (Bluetick Lab)\u003C/li\u003E\r\n \t\u003Cli\u003EBluetick Coonhound-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/beagle/\"\u003EBeagle\u003C/a\u003E mix, (Bluetick Beagle)\u003C/li\u003E\r\n \t\u003Cli\u003EBluetick Coonhound-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/american-pit-bull-terrier/\"\u003EPitbull\u003C/a\u003E mix, (Bluetick Pitbull)\u003C/li\u003E\r\n \t\u003Cli\u003EBluetick Coonhound-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/german-shepherd/\"\u003EGerman Shepherd\u003C/a\u003E mix, (Bluetick Shepherd)\u003C/li\u003E\r\n \t\u003Cli\u003EBluetick Coonhound-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/australian-cattle-dog/\"\u003EBlue Heeler\u003C/a\u003E mix (Bluetick Heeler)\u003C/li\u003E\r\n\u003C/ul\u003E\r\n\u003Cem\u003E\u003Cspan style=\"font-weight: 400;\"\u003ENote: These are not purebred dogs but mixed breeds. \u003C/span\u003E\u003C/em\u003E",
+        "faq_items": [
+          {
+            "faq_title": "Do Bluetick Coonhounds shed?",
+            "faq_content": "Bluetick Coonhounds shed moderately, thanks to their short, coarse coats. Brushing their coat at least twice a week can help minimize any shedding."
+          },
+          {
+            "faq_title": "Are Bluetick Coonhounds good family dogs?",
+            "faq_content": "Bluetick Coonhounds are best suited for active families with older children who have the energy to meet their furry friend's exercise needs or a home where they can have a job such as hunting or retrieving something."
+          },
+          {
+            "faq_title": "Do Bluetick Coonhounds like to swim?",
+            "faq_content": "Yes, Bluetick Coonhounds like to swim. While Blueticks are associated with more land-based activities, swimming is another outlet to channel their boundless energy—they adore it."
+          },
+          {
+            "faq_title": "What are the most common Bluetick Coonhound mixes?",
+            "faq_content": "\u003Cul\u003E\r\n \t\u003Cli\u003EBluetick Coonhound-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/labrador-retriever/\"\u003ELab\u003C/a\u003E mix, (Bluetick Lab)\u003C/li\u003E\r\n \t\u003Cli\u003EBluetick Coonhound-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/beagle/\"\u003EBeagle\u003C/a\u003E mix, (Bluetick Beagle)\u003C/li\u003E\r\n \t\u003Cli\u003EBluetick Coonhound-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/american-pit-bull-terrier/\"\u003EPitbull\u003C/a\u003E mix, (Bluetick Pitbull)\u003C/li\u003E\r\n \t\u003Cli\u003EBluetick Coonhound-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/german-shepherd/\"\u003EGerman Shepherd\u003C/a\u003E mix, (Bluetick Shepherd)\u003C/li\u003E\r\n \t\u003Cli\u003EBluetick Coonhound-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/australian-cattle-dog/\"\u003EBlue Heeler\u003C/a\u003E mix (Bluetick Heeler)\u003C/li\u003E\r\n\u003C/ul\u003E\r\n\u003Cem\u003E\u003Cspan style=\"font-weight: 400;\"\u003ENote: These are not purebred dogs but mixed breeds. \u003C/span\u003E\u003C/em\u003E"
+          }
+        ],
+        "select_related_breeds": [
+          {
+            "selected_related_breed": 486,
+            "characteristic": "breed_characteristics_exercise_needs"
+          },
+          {
+            "selected_related_breed": 1402,
+            "characteristic": "breed_characteristics_good_with_kids"
+          },
+          {
+            "selected_related_breed": 563,
+            "characteristic": "breed_characteristics_good_with_other_dogs"
+          },
+          {
+            "selected_related_breed": 514,
+            "characteristic": "breed_characteristics_playfulnesss"
+          },
+          {
+            "selected_related_breed": 1264,
+            "characteristic": "breed_characteristics_friendliness"
+          },
+          {
+            "selected_related_breed": 750,
+            "characteristic": "breed_characteristics_good_for_first_time_parents"
+          }
+        ],
+        "enable_featured_gallery": [
+          "enable_featured_gallery"
+        ],
+        "featured_gallery_images": [680, 674, 675, 676, 677]
+      },
+      "yoast_head": "\u003C!-- This site is optimized with the Yoast SEO plugin v23.8 - https://yoast.com/wordpress/plugins/seo/ --\u003E\n\u003Ctitle\u003EBluetick Coonhound Breed: Characteristics, Care &amp; Photos | Chewy\u003C/title\u003E\n\u003Cmeta name=\"description\" content=\"The Bluetick Coonhound is the ultimate outdoorsy dog. Learn more about this high-energy breed and get expert advice on how best to care for them.\" /\u003E\n\u003Cmeta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" /\u003E\n\u003Clink rel=\"canonical\" href=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/bluetick-coonhound/\" /\u003E\n\u003Cmeta property=\"og:locale\" content=\"en_US\" /\u003E\n\u003Cmeta property=\"og:type\" content=\"article\" /\u003E\n\u003Cmeta property=\"og:title\" content=\"Bluetick Coonhound Breed: Characteristics, Care &amp; Photos | Chewy\" /\u003E\n\u003Cmeta property=\"og:description\" content=\"The Bluetick Coonhound is the ultimate outdoorsy dog. Learn more about this high-energy breed and get expert advice on how best to care for them.\" /\u003E\n\u003Cmeta property=\"og:url\" content=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/bluetick-coonhound/\" /\u003E\n\u003Cmeta property=\"og:site_name\" content=\"Chewy\" /\u003E\n\u003Cmeta property=\"article:modified_time\" content=\"2025-05-05T14:21:57+00:00\" /\u003E\n\u003Cmeta property=\"og:image\" content=\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07145036/202106Breed-Hero-Bluetick-Coonhound.jpg\" /\u003E\n\t\u003Cmeta property=\"og:image:width\" content=\"1835\" /\u003E\n\t\u003Cmeta property=\"og:image:height\" content=\"1032\" /\u003E\n\t\u003Cmeta property=\"og:image:type\" content=\"image/jpeg\" /\u003E\n\u003Cmeta name=\"twitter:card\" content=\"summary_large_image\" /\u003E\n\u003Cscript type=\"application/ld+json\" class=\"yoast-schema-graph\"\u003E{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/bluetick-coonhound/\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/bluetick-coonhound/\",\"name\":\"Bluetick Coonhound Breed: Characteristics, Care & Photos | Chewy\",\"isPartOf\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/bluetick-coonhound/#primaryimage\"},\"image\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/bluetick-coonhound/#primaryimage\"},\"thumbnailUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07145036/202106Breed-Hero-Bluetick-Coonhound.jpg\",\"datePublished\":\"2021-06-15T15:14:08+00:00\",\"dateModified\":\"2025-05-05T14:21:57+00:00\",\"description\":\"The Bluetick Coonhound is the ultimate outdoorsy dog. Learn more about this high-energy breed and get expert advice on how best to care for them.\",\"breadcrumb\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/bluetick-coonhound/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://phcms.hlth.prd.aws.chewy.cloud/breed/bluetick-coonhound/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/bluetick-coonhound/#primaryimage\",\"url\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07145036/202106Breed-Hero-Bluetick-Coonhound.jpg\",\"contentUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07145036/202106Breed-Hero-Bluetick-Coonhound.jpg\",\"width\":1835,\"height\":1032,\"caption\":\"Bluetick Coonhound\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/bluetick-coonhound/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://phcms.hlth.prd.aws.chewy.cloud/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Bluetick Coonhound\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/\",\"name\":\"Chewy\",\"description\":\"\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"}]}\u003C/script\u003E\n\u003C!-- / Yoast SEO plugin. --\u003E",
+      "yoast_head_json": {
+        "title": "Bluetick Coonhound Breed: Characteristics, Care & Photos | Chewy",
+        "description": "The Bluetick Coonhound is the ultimate outdoorsy dog. Learn more about this high-energy breed and get expert advice on how best to care for them.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://phcms.hlth.prd.aws.chewy.cloud/breed/bluetick-coonhound/",
+        "og_locale": "en_US",
+        "og_type": "article",
+        "og_title": "Bluetick Coonhound Breed: Characteristics, Care & Photos | Chewy",
+        "og_description": "The Bluetick Coonhound is the ultimate outdoorsy dog. Learn more about this high-energy breed and get expert advice on how best to care for them.",
+        "og_url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/bluetick-coonhound/",
+        "og_site_name": "Chewy",
+        "article_modified_time": "2025-05-05T14:21:57+00:00",
+        "og_image": [
+          {
+            "width": 1835,
+            "height": 1032,
+            "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07145036/202106Breed-Hero-Bluetick-Coonhound.jpg",
+            "type": "image/jpeg"
+          }
+        ],
+        "twitter_card": "summary_large_image",
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/bluetick-coonhound/",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/bluetick-coonhound/",
+              "name": "Bluetick Coonhound Breed: Characteristics, Care & Photos | Chewy",
+              "isPartOf": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/bluetick-coonhound/#primaryimage"
+              },
+              "image": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/bluetick-coonhound/#primaryimage"
+              },
+              "thumbnailUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07145036/202106Breed-Hero-Bluetick-Coonhound.jpg",
+              "datePublished": "2021-06-15T15:14:08+00:00",
+              "dateModified": "2025-05-05T14:21:57+00:00",
+              "description": "The Bluetick Coonhound is the ultimate outdoorsy dog. Learn more about this high-energy breed and get expert advice on how best to care for them.",
+              "breadcrumb": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/bluetick-coonhound/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://phcms.hlth.prd.aws.chewy.cloud/breed/bluetick-coonhound/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/bluetick-coonhound/#primaryimage",
+              "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07145036/202106Breed-Hero-Bluetick-Coonhound.jpg",
+              "contentUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07145036/202106Breed-Hero-Bluetick-Coonhound.jpg",
+              "width": 1835,
+              "height": 1032,
+              "caption": "Bluetick Coonhound"
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/bluetick-coonhound/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://phcms.hlth.prd.aws.chewy.cloud/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Bluetick Coonhound"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/",
+              "name": "Chewy",
+              "description": "",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            }
+          ]
+        }
+      },
+      "yoast_meta": {
+        "yoast_wpseo_title": "",
+        "yoast_wpseo_metadesc": "",
+        "yoast_wpseo_canonical": ""
+      },
+      "_links": {
+        "self": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed/681",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/types/breed"
+          }
+        ],
+        "acf:attachment": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/677"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/676"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/675"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/674"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/680"
+          }
+        ],
+        "wp:featuredmedia": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/3183"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media?parent=681"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "pet_type",
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/pet_type?post=681"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ]

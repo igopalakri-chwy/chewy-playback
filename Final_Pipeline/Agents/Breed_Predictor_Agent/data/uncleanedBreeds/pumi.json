@@ -1,0 +1,297 @@
+[
+    {
+      "id": 142,
+      "date": "2021-07-16T07:46:48",
+      "date_gmt": "2021-07-16T07:46:48",
+      "guid": {
+        "rendered": "https://haproxy.use1.lgcy.prd.aws.chewy.cloud/eks/ns/pet-health/pet-health-content-backend/breed/pumi/"
+      },
+      "modified": "2025-05-05T14:21:03",
+      "modified_gmt": "2025-05-05T14:21:03",
+      "slug": "pumi",
+      "status": "publish",
+      "type": "breed",
+      "link": "https://phcms.hlth.prd.aws.chewy.cloud/breed/pumi/",
+      "title": {
+        "rendered": "Pumi"
+      },
+      "featured_media": 141,
+      "template": "",
+      "pet_type": [],
+      "class_list": [
+        "post-142",
+        "breed",
+        "type-breed",
+        "status-publish",
+        "has-post-thumbnail",
+        "hentry"
+      ],
+      "acf": {
+        "breed_snapshot_best_for": "\u003Cp\u003EPumi dogs are intelligent and loyal pups who require minimal grooming but lots of exercise. They thrive with active pet parents and families with kids, especially if they have access to plenty of outdoor space.\u003C/p\u003E",
+        "alt_image_text": "Pumi dog breed",
+        "breed_intro": "Don't be fooled by the Pumi's adorable corkscrew curls and toy-like exterior—this active, fun-loving pup comes from a long line of working dogs. Their favorite \"job,\" however, is \u003Ca href=\"https://www.chewy.com/education/dog/general/the-best-dog-toys-for-every-playful-pup\"\u003Eplaytime\u003C/a\u003E with you. This curly cutie loves nothing more than to run around and explore, so if you're partial to spending your free time in the Great Outdoors, you've met your match; the Pumi is as high-energy as you are. And if you ever feel a gentle nipping at your ankles, take it as a compliment—you're part of this herding dog's flock, after all!",
+        "breed_related_products_product_card_set": null,
+        "breed_snapshot_temperament": "\u003Cp\u003EFaithful Friend, Smart Cookie, Bundle of Energy\u003C/p\u003E",
+        "what_does_this_breed_look_like_weight": "\u003Cp\u003EMale: 27-29 pounds\u003C/p\u003E\u003Cp\u003EFemale: 22-24 pounds\u003C/p\u003E",
+        "what_does_this_breed_look_like_height": "\u003Cp\u003EMale: 16-19 inches\u003C/p\u003E\u003Cp\u003EFemale: 15-18 inches\u003C/p\u003E",
+        "breed_snapshot_life_expectancy": "\u003Cp\u003E12 to 13 years\u003C/p\u003E",
+        "breed_snapshot_maintenance_level": "\u003Cp\u003EMedium\u003C/p\u003E",
+        "breed_characteristics_friendliness": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_snapshot_coat_color": "\u003Cp\u003EWhite, Silver Gray, Gray, Black, Fawn, Born Gray, Born Brown\u003C/p\u003E",
+        "breed_snapshot_shed_level": "\u003Cp\u003EVery Low\u003C/p\u003E",
+        "in_article_video": null,
+        "breed_characteristics": "These traits are rated on a scale of 1-5 with 1 being the lowest and 5 being the highest. Remember: Dogs are individuals, and not all dogs, even those of the same breed, will exhibit all the same qualities.",
+        "breed_characteristics_exercise_needs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_health_issues": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_barking_tendencies": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_grooming_needs": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_shedding_level": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_training_needs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_kids": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_cats": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_for_apartments_small_homes": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_energy_level": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_other_dogs": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_playfulnesss": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_cold_weather": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_warm_weather": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_for_first_time_parents": "\u003Cp\u003E3\u003C/p\u003E",
+        "how_do_i_look_card_image": 140,
+        "what_does_this_breed_look_like": "Pumi dogs are known for their curved bushy tails and fuzzy double coats of corkscrew curls, which come in a range of colors such as black, fawn, white and gray. While their whimsical-looking eyes and adorable teddy bear looks reveal their playful nature, this dog also boasts a sturdy, muscular frame that hints at their hardworking herding dog past.",
+        "what_does_this_breed_look_like_ears": "\u003Cp\u003EPumi ears are one of the breeds' most distinctive features. Set high on their heads, they're semi-erect, with just the top tip pointing slightly down and to the sides.\u003C/p\u003E",
+        "what_does_this_breed_look_like_eyes": "\u003Cp\u003ETheir eyes are dark and medium-sized with a playful expression.\u003C/p\u003E",
+        "what_does_this_breed_look_like_nose": "\u003Cp\u003EThe Pumi dog nose is black with a straight bridge.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_length": "\u003Cp\u003ETheir outer coat is medium length with harsh hair and corkscrew (wavy and curly hair) curls. The undercoat has a softer feel. \u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_color": "\u003Cp\u003EPumi colors vary; they can be black, fawn, gray, silver gray or white, or variants of these colors.\u003C/p\u003E",
+        "what_does_this_breed_look_like_tail": "\u003Cp\u003ETheir bushy tail is set high and arches in a circle over the croup (rump). \u003C/p\u003E",
+        "h2_breed_temperament": "\u003Cspan data-preserver-spaces=\"true\"\u003EWith their alert, playful temperament, the Pumi is always ready for action—especially when it includes their families, toward whom they're incredibly loyal and affectionate. They instinctually take their protection detail very seriously, noisily alerting their pet parents (and likely the whole neighborhood) to anything and everything in the immediate vicinity. But take heart: With good socialization practices and professional Pumi training, you can reduce excessive barking and overreactions to new situations.\u003C/span\u003E\r\n\r\n\u003Cspan data-preserver-spaces=\"true\"\u003ENot exactly social butterflies, Pumik (yes, that's the plural of Pumi) are reserved when it comes to outsiders. All the more reason why these pups must get plenty of socialization, aka positive exposure to all sorts of people and places, starting when they are young dogs. Though they're still likely to be aloof with strangers, they'll be more willing to expand that circle of trust beyond their pet parents and immediate family—great news for your best friend and the local mailman.\u003C/span\u003E\r\n\r\n\u003Cspan data-preserver-spaces=\"true\"\u003EPumik are great with kids, particularly if introduced at a young age, and will match your toddler's energy. Although they're great playmates, watch out for their tendency to herd (nip at kids' heels to round them up). That \u003C/span\u003E\u003Cem\u003E\u003Cspan data-preserver-spaces=\"true\"\u003Eis\u003C/span\u003E\u003C/em\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E what they were initially bred for, after all. The medium-sized Pumi is strong and built to work hard despite looking like a stuffed toy. While having your pet round up the whole brood for dinner may sound appealing, you should train your Pumi using positive reinforcement such as treats, toys and praise to keep undesired instincts at bay. \u003C/span\u003E\r\n\r\n\u003Cspan data-preserver-spaces=\"true\"\u003EAnd speaking of family—that also includes the furry kind. A Pumi is happy to fit in with dogs and even cats, provided they were all raised together from a young age. Introducing a Pumi puppy to existing pets is more manageable than adding an adult Pumi to the mix.\u003C/span\u003E\r\n\r\n\u003Cspan data-preserver-spaces=\"true\"\u003EThey are happiest when keeping active with their family. One of Pumik's strongest traits is their very vocal bark. They will let you know \u003C/span\u003E\u003Cem\u003E\u003Cspan data-preserver-spaces=\"true\"\u003Eexactly\u003C/span\u003E\u003C/em\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E when they're ready for attention, which, let's face it, is practically all the time for these people-loving pets. Parents can keep their dog thriving by engaging their Pumi in vigorous activity, indoors or out. Prepare to play fetch for hours on end with your tireless pet. You can also keep them from barking too much with an assortment of \u003C/span\u003E\u003Ca class=\"editor-rtfLink\" href=\"https://www.chewy.com/b/chew-toys-316\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-preserver-spaces=\"true\"\u003Echew toys\u003C/span\u003E\u003C/a\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E at their disposal.\u003C/span\u003E",
+        "h2_how_to_care_for_a_breed": "A Pumi pup is relatively easy to maintain in terms of nutritional needs and grooming, with surprisingly minimal attention needed to keep their distinctive curls in excellent condition. However, they need plenty of mental and physical stimulation, so plan to spend lots of time playing and exercising to create a happy life with your Pumi.",
+        "grooming": "\u003Cspan data-preserver-spaces=\"true\"\u003EWith their splendid coat of curls, you might assume Pumik need intensive grooming. Here's a pleasant surprise: They actually have average grooming needs. Their double coat doesn't mat easily but does need brushing with a&nbsp;\u003C/span\u003E\u003Ca class=\"editor-rtfLink\" href=\"https://www.chewy.com/f/dog-pin-brushes_c356_f70v83789\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-preserver-spaces=\"true\"\u003Epin brush\u003C/span\u003E\u003C/a\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E, which is excellent for removing dirt and debris every one to two weeks. To keep those signature corkscrew curls in top condition, wet the coat after every brush and let it dry naturally. If you blow-dry them, you risk turning those sleek curls into fluff.\u003C/span\u003E\n\n\u003Cspan data-preserver-spaces=\"true\"\u003EPumi shedding is minimal, so congratulations: Your soft furnishings are relatively safe. You can bathe Pumik every three to four weeks, but waiting longer is OK. Washing too frequently risks stripping the coat of its natural oils.\u003C/span\u003E\n\n\u003Cspan data-preserver-spaces=\"true\"\u003EThose furry ears are adorable, but the excess hair growing there can cause trouble. If it grows inside their ears, it can lead to infection. Trim the ears and check them weekly for debris and any redness or swelling. If you notice anything, speak to your vet. If your vet recommends at-home cleaning, follow \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/how-do-you-clean-a-dogs-ears-follow-this-vet-approved-step-by-step-guide\"\u003Ethis step-by-step guide on how to clean dog ears\u003C/a\u003E.&nbsp;\u003C/span\u003E\n\n\u003Cspan data-preserver-spaces=\"true\"\u003ETo keep their gums and teeth healthy, brush them daily using \u003C/span\u003E\u003Ca class=\"editor-rtfLink\" href=\"https://www.chewy.com/b/toothpastes-2598\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-preserver-spaces=\"true\"\u003Edog toothpaste\u003C/span\u003E\u003C/a\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E. Your vet can teach you how to do this to keep both dog and pet parents happy, and they'll also need annual professional teeth cleanings to keep their teeth in top condition. When their nails start clattering across hardwood floors and sidewalks, you'll know it's&nbsp;\u003C/span\u003E\u003Ca class=\"editor-rtfLink\" href=\"https://www.chewy.com/education/dog/health-and-wellness/guide-trimming-dogs-nails\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-preserver-spaces=\"true\"\u003Etime for a trim\u003C/span\u003E\u003C/a\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E.\u003C/span\u003E",
+        "training": "\u003Cspan data-preserver-spaces=\"true\"\u003EThe Pumi dog breed is eager to please and tends to learn quickly, making these clever pups dream students. They do best with pet parents who have experience training dogs using consistent positive reinforcement (\u003C/span\u003E\u003Ca class=\"editor-rtfLink\" href=\"https://www.chewy.com/b/treats-335\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-preserver-spaces=\"true\"\u003Etreats\u003C/span\u003E\u003C/a\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E, \u003C/span\u003E\u003Ca class=\"editor-rtfLink\" href=\"https://www.chewy.com/b/toys-315\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-preserver-spaces=\"true\"\u003Etoys\u003C/span\u003E\u003C/a\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E and praise). Prior experience with herding breeds is also helpful. All is not lost for first-time pup parents, however. With a bit of patience and the help of a qualified trainer or behaviorist, your Pumi will become a well-trained companion for pet parents with the stamina to keep up.\u003C/span\u003E\r\n\r\n\u003Cspan data-preserver-spaces=\"true\"\u003EThe Pumi's intelligence and enthusiastic nature mean they want to understand \u003C/span\u003E\u003Cem\u003E\u003Cspan data-preserver-spaces=\"true\"\u003Ewhy\u003C/span\u003E\u003C/em\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E they're doing what's asked of them. They can reason out problems, so don't be afraid of challenging them with more advanced training methods, including dog sports such as flyball or \u003C/span\u003E\u003Ca class=\"editor-rtfLink\" href=\"https://www.chewy.com/b/puzzle-toys-games-2335\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-preserver-spaces=\"true\"\u003Epuzzle-solving games\u003C/span\u003E\u003C/a\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E, to give them the mental stimulation they need and avoid boredom.\u003C/span\u003E\r\n\r\n\u003Cspan data-preserver-spaces=\"true\"\u003EDespite their cute exterior, the Pumi is a loving but tough working dog, with specific herding behaviors that should shape their training. You should train your Pumi in a way that channels their energy through activities that engage the dog physically and mentally, like agility training. Socialization from an early age is essential to help soften their natural reservedness around strangers and curb excessive barking and ankle-nipping herding tendencies.\u003C/span\u003E\r\n\r\n\u003Cspan data-preserver-spaces=\"true\"\u003EMake sure your Pumi puppy is well-socialized by taking them around town to meet all walks of life and enrolling them in puppy preschool, where their playful nature will have them on their best behavior in no time.\u003C/span\u003E",
+        "diet_nutrition": "\u003Cspan data-preserver-spaces=\"true\"\u003EPumi dogs thrive on a nutritionally balanced, complete, high-quality\u003C/span\u003E\u003Ca class=\"editor-rtfLink\" href=\"https://www.chewy.com/b/premium-food-11728\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E commercial dog food\u003C/span\u003E\u003C/a\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E diet. Before buying, consider your dog's age and choose a formula befitting their particular stage in life, whether puppy, adult or senior.\u003C/span\u003E\r\n\r\n\u003Cspan data-preserver-spaces=\"true\"\u003EWhile they don't have particular dietary needs, it's essential to consult your veterinarian if at any point you think the food you're feeding your Pumi is causing an issue or reaction, or if you're concerned about their weight. Being such an active breed, Pumik aren't generally prone to weight issues. Still, it's important to keep an eye on anything that might impact their health and longevity.\u003C/span\u003E\r\n\r\n\u003Cspan data-preserver-spaces=\"true\"\u003EIf you need to figure out how often and how much to feed your Pumi, your veterinarian can help work out a feeding chart based on your dog's needs and activity levels.\u003C/span\u003E",
+        "exercise": "As a working breed with a ton of energy, Pumik need to keep active. Walks alone aren't enough—they need plenty of mental and physical exercise, at least one or two hours daily. They are at their best when they get a chance to run at full speed on the daily. Heading out to the park, chasing tennis balls and swimming are all great ways to exercise your Pumi and help them work off that energy.\r\n\r\nDue to their intelligence, Pumik adore mentally stimulating games such as hide-and-seek. Frequent family adventures are also a great way to keep these energetic dogs content. They love to be with you on a long walk or run out in nature.",
+        "ideal_environment": "Pumik are a great fit for active singles, pet parents or families with kids. They like to stick close to their own family and are protective of everyone in their \"flock,\" two- and four-legged alike, particularly if they have been around the kids and other animals since puppyhood.\r\n\r\nA setting where the Pumi has room to run and explore is best. Homes with a large, fenced backyard or families with access to outdoor spaces are ideal. Apartment living can be tricky—this is a vocal breed that may annoy close neighbors—so if a Pumi pup has already stolen your heart, be sure to enroll them in obedience training from the start to curb the noise.\r\n\r\nPumik also tend to thrive in quiet, relaxed settings, thanks to their reserved nature. They prefer shorter periods away from their family, so if you work long hours or travel extensively, they may not be the breed for you. (Remember, boredom means that your shoes could become chew toys.) Pumik thrive with pet parents who have a flexible schedule and can spend time with them.",
+        "h2_breed_health": "With a life expectancy of 12 to 13 years, the Pumi is a relatively healthy breed, but there are a few common health issues to watch out for. Luckily, most problems are increasingly rare thanks to sound breeding practices. It’s wise to educate yourself about any potential health problems so you can keep your pet going strong.\r\n\u003Cul\u003E\r\n \t\u003Cli\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/c_dg_hip_dysplasia\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cstrong\u003EHip Dysplasia\u003C/strong\u003E\u003C/a\u003E: Hip dysplasia is an often-genetic orthopedic condition in which the joints do not fit together properly, resulting in laxity and rubbing. Signs of this condition can vary but can include limping, decreased activity and difficulty running or jumping. Treatment plans range from supplements to weight reduction to surgery in severe cases.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/c_multi_patellar_luxation\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cstrong\u003EPatellar Luxation\u003C/strong\u003E\u003C/a\u003E: When a dog’s kneecap (patella) slips out of its joint, it can cause further problems in the joints, hips and legs. Excess weight can factor into luxating patellas, so Pumi weight management is one treatment option. There is also the option of surgery if the problem is more severe.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/degenerative-myelopathy-dogs\"\u003E\u003Cstrong\u003EDegenerative Myelopathy (DM)\u003C/strong\u003E\u003C/a\u003E: A disease that affects the spinal cord, DM causes a dog’s hind limbs to become weaker, eventually leading to paralysis. It is mainly a condition that occurs in older dogs, and while there’s currently no effective treatment for DM, there are actions that can help prolong the quality of a dog’s life, such as physical therapy and weight management. A genetic screening test is available so be sure to ask your breeder.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/eyes/c_dg_lens_luxation\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cstrong\u003EPrimary Lens Luxation (PLL)\u003C/strong\u003E\u003C/a\u003E: PLL is a rare and inherited condition consisting of the lens migrating within the eye, leading to pain, inflammation and potentially blindness. Thankfully, several PLL treatment options exist, including surgery and topical or oral medications if inflammation is present. There is a genetic screening test so be sure to ask your breeder.\u003C/li\u003E\r\n\u003C/ul\u003E",
+        "h2_breed_history": "\u003Cspan data-preserver-spaces=\"true\"\u003EThe Pumi breed originated in Hungary in the 18th century when the oldest Hungarian herding dog breed, the \u003C/span\u003E\u003Ca class=\"editor-rtfLink\" href=\"https://www.chewy.com/education/dog-breeds/puli/\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-preserver-spaces=\"true\"\u003EPuli\u003C/span\u003E\u003C/a\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E, was crossbred with other Western European herding dogs and terriers to produce what we now know as the Pumi. The interbreeding resulted in intelligent and driven dogs who worked well at herding livestock and being watchdogs and guard dogs.\u003C/span\u003E\r\n\r\n\u003Cspan data-preserver-spaces=\"true\"\u003EAlthough considered a variety of Puli for many years, at the beginning of the 20th century, a Hungarian breeder decided that a distinction between the two was needed and thus began a program to standardize both the Puli and the Pumi. In 1921, the breeding program succeeded, and the Pumi was finally considered a separate breed from the Puli.\u003C/span\u003E\r\n\r\n\u003Cspan data-preserver-spaces=\"true\"\u003EDespite being a popular breed in their native Hungary and in several other European countries, the Pumi did not become established in the US until the 21st century. The \u003C/span\u003E\u003Ca class=\"editor-rtfLink\" href=\"https://pumiclub.org/\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-preserver-spaces=\"true\"\u003EHungarian Pumi Club of America\u003C/span\u003E\u003C/a\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E (HPCA) was founded in 2005, with the breed becoming fully recognized by the American Kennel Club (AKC) in 2016.\u003C/span\u003E\r\n\r\n\u003Cspan data-preserver-spaces=\"true\"\u003EIf you're looking to start your journey as a Pumi pet parent and are wondering about the Pumi price, you can find reputable Pumi breeders at the \u003C/span\u003E\u003Ca class=\"editor-rtfLink\" href=\"https://marketplace.akc.org/puppies/pumi?breed=208&amp;page=1\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-preserver-spaces=\"true\"\u003EAKC's website\u003C/span\u003E\u003C/a\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E, where you can expect to pay around $2,000 to $2,500 for a purebred puppy. For that price, you're likely getting a pup who's been screened for health and temperament issues and may come with pedigree papers. As a relatively new breed, finding Pumik at rescue organizations might be a challenge. You can learn more about rescuing or fostering Pumik at the HPCA.\u003C/span\u003E",
+        "expert_attribution": "\u003Ci\u003EExpert input provided by veterinarin Dr. Jackie Sehn, (DVM, CVH, VetMFHom) of \u003Ca href=\"https://www.mercyvet.com/\"\u003EMercyVet\u003C/a\u003E on Mercer Island, Wash., Karen Beattie Massey CPDT - KA, professional dog trainer at \u003Ca href=\"https://karenbeattiemassey.com/\" target=\"_blank\" rel=\"noopener\"\u003EMayaLu Training\u003C/a\u003E, \u003Ca href=\"https://www.argusranch.com/\" target=\"_blank\" rel=\"noopener\"\u003EArgus Ranch\u003C/a\u003E, and \u003Ca href=\"https://www.kinshipdogs.com/\" target=\"_blank\" rel=\"noopener\"\u003EKinship dog training\u003C/a\u003E, and Chris Levy, Secretary of the \u003Ca href=\"https://pumiclub.org/\"\u003EHungarian Pumi Club of America\u003C/a\u003E and owner of Abiqua Pumik.\u003C/i\u003E\r\n\r\n\u003Cem\u003EBreed characteristic ratings provided by Dr. Sarah J. Wooten, DVM, CVJ, a veterinarian at \u003Ca href=\"https://sheepdraw.com/\" target=\"_blank\" rel=\"noopener\"\u003ESheep Draw Veterinary Hospital\u003C/a\u003E in Greeley, Colorado; dog trainer and behavior consultant Irith Bloom, CPDT-KSA, CBCC-KA, CDBC, owner of \u003Ca href=\"https://thesophisticateddog.com/\" target=\"_blank\" rel=\"noopener\"\u003EThe Sophisticated Dog, LLC\u003C/a\u003E, in Los Angeles; and certified animal behavior consultant \u003Ca href=\"https://shojai.com/\" target=\"_blank\" rel=\"noopener\"\u003EAmy Shojai\u003C/a\u003E, CABC, in Sherman, Texas.\u003C/em\u003E\r\n\r\n\u003Cem\u003EThe health content was medically reviewed by Chewy vets.\u003C/em\u003E",
+        "facebook_social_snippet_with_cta": "\u003Cp\u003EPumi dogs are alert, playful and incredibly smart—and have you \u003Ci\u003Eseen \u003C/i\u003Ethose corkscrew curls? Find out more information about the Pumi breed, their traits, types and what your life would be like if one joined your family, by reading our Pumi complete guide. \u003C/p\u003E",
+        "species": "\u003Cp\u003EDog\u003C/p\u003E",
+        "h2_faqs": "\u003Ch3\u003EDo Pumi dogs shed?\u003C/h3\u003E\r\nThankfully, Pumi dogs don't shed much. (Can you hear your furniture and floors rejoicing?)\r\n\u003Ch3\u003EAre Pumik good family dogs?\u003C/h3\u003E\r\nYes, Pumik are good family dogs. They're an incredibly loyal breed, which makes them excellent family dogs—they love spending time with their family, and they're known for building strong bonds. They're good with children, especially if the dog and the kids have grown up together. Similarly, they're good with other dogs and cats if they're adequately socialized and trained.\r\n\u003Ch3\u003EDo Pumik bark a lot?\u003C/h3\u003E\r\nYes, Pumik do bark a lot. Barking is one of the Pumi breed's most well-known characteristics. Instinctually, they are always on the lookout and will be very vocal in alerting their pet parents. However, you can curb excessive barking with proper training.\r\n\u003Ch3\u003EAre Pumik aggressive?\u003C/h3\u003E\r\nNo, Pumik are not aggressive dogs.They were bred to herd and guard, not to attack. They would often accompany a shepherd during the day, which is one of the reasons they love to be with their people above everything else.\r\n\u003Ch3\u003EHow big do Pumi dogs get?\u003C/h3\u003E\r\n\u003Cul\u003E\r\n \t\u003Cli\u003EPumi dogs are medium-sized pups with an average height of 16 inches to 18.5 inches at the shoulder for a male dog and an average height of 15 inches to 17.5 inches at the shoulder for a female dog. Also, their thick coat of corkscrew curls makes them look bigger than they actually are!\u003C/li\u003E\r\n\u003C/ul\u003E",
+        "faq_items": [
+          {
+            "faq_title": "Do Pumi dogs shed?",
+            "faq_content": "Thankfully, Pumi dogs don't shed much. (Can you hear your furniture and floors rejoicing?)"
+          },
+          {
+            "faq_title": "Are Pumik good family dogs?",
+            "faq_content": "Yes, Pumik are good family dogs. They're an incredibly loyal breed, which makes them excellent family dogs—they love spending time with their family, and they're known for building strong bonds. They're good with children, especially if the dog and the kids have grown up together. Similarly, they're good with other dogs and cats if they're adequately socialized and trained."
+          },
+          {
+            "faq_title": "Do Pumik bark a lot?",
+            "faq_content": "Yes, Pumik do bark a lot. Barking is one of the Pumi breed's most well-known characteristics. Instinctually, they are always on the lookout and will be very vocal in alerting their pet parents. However, you can curb excessive barking with proper training."
+          },
+          {
+            "faq_title": "Are Pumik aggressive?",
+            "faq_content": "No, Pumik are not aggressive dogs.They were bred to herd and guard, not to attack. They would often accompany a shepherd during the day, which is one of the reasons they love to be with their people above everything else."
+          },
+          {
+            "faq_title": "How big do Pumi dogs get?",
+            "faq_content": "\u003Cul\u003E\r\n \t\u003Cli\u003EPumi dogs are medium-sized pups with an average height of 16 inches to 18.5 inches at the shoulder for a male dog and an average height of 15 inches to 17.5 inches at the shoulder for a female dog. Also, their thick coat of corkscrew curls makes them look bigger than they actually are!\u003C/li\u003E\r\n\u003C/ul\u003E"
+          }
+        ],
+        "select_related_breeds": [
+          {
+            "selected_related_breed": 386,
+            "characteristic": "breed_characteristics_physical_appearance"
+          },
+          {
+            "selected_related_breed": 1380,
+            "characteristic": "breed_characteristics_playfulnesss"
+          },
+          {
+            "selected_related_breed": 34,
+            "characteristic": "breed_characteristics_shedding_level"
+          },
+          {
+            "selected_related_breed": 1074,
+            "characteristic": "breed_characteristics_good_with_kids"
+          },
+          {
+            "selected_related_breed": 16,
+            "characteristic": "breed_characteristics_energy_level"
+          },
+          {
+            "selected_related_breed": 1009,
+            "characteristic": "breed_characteristics_good_for_apartments_small_homes"
+          }
+        ],
+        "enable_featured_gallery": "",
+        "featured_gallery_images": null
+      },
+      "yoast_head": "\u003C!-- This site is optimized with the Yoast SEO plugin v23.8 - https://yoast.com/wordpress/plugins/seo/ --\u003E\n\u003Ctitle\u003EPumi Breed: Characteristics, Care &amp; Photos | Chewy\u003C/title\u003E\n\u003Cmeta name=\"description\" content=\"Lively, intelligent and intensely loyal, the Pumi is a wonderful addition to a family home. Find out more in our complete Pumi guide.\" /\u003E\n\u003Cmeta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" /\u003E\n\u003Clink rel=\"canonical\" href=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/pumi/\" /\u003E\n\u003Cmeta property=\"og:locale\" content=\"en_US\" /\u003E\n\u003Cmeta property=\"og:type\" content=\"article\" /\u003E\n\u003Cmeta property=\"og:title\" content=\"Pumi Breed: Characteristics, Care &amp; Photos | Chewy\" /\u003E\n\u003Cmeta property=\"og:description\" content=\"Lively, intelligent and intensely loyal, the Pumi is a wonderful addition to a family home. Find out more in our complete Pumi guide.\" /\u003E\n\u003Cmeta property=\"og:url\" content=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/pumi/\" /\u003E\n\u003Cmeta property=\"og:site_name\" content=\"Chewy\" /\u003E\n\u003Cmeta property=\"article:modified_time\" content=\"2025-05-05T14:21:03+00:00\" /\u003E\n\u003Cmeta property=\"og:image\" content=\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11162149/202107Pumi-FeaturedImage.jpg\" /\u003E\n\t\u003Cmeta property=\"og:image:width\" content=\"1440\" /\u003E\n\t\u003Cmeta property=\"og:image:height\" content=\"865\" /\u003E\n\t\u003Cmeta property=\"og:image:type\" content=\"image/jpeg\" /\u003E\n\u003Cmeta name=\"twitter:card\" content=\"summary_large_image\" /\u003E\n\u003Cscript type=\"application/ld+json\" class=\"yoast-schema-graph\"\u003E{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/pumi/\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/pumi/\",\"name\":\"Pumi Breed: Characteristics, Care & Photos | Chewy\",\"isPartOf\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/pumi/#primaryimage\"},\"image\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/pumi/#primaryimage\"},\"thumbnailUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11162149/202107Pumi-FeaturedImage.jpg\",\"datePublished\":\"2021-07-16T07:46:48+00:00\",\"dateModified\":\"2025-05-05T14:21:03+00:00\",\"description\":\"Lively, intelligent and intensely loyal, the Pumi is a wonderful addition to a family home. Find out more in our complete Pumi guide.\",\"breadcrumb\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/pumi/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://phcms.hlth.prd.aws.chewy.cloud/breed/pumi/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/pumi/#primaryimage\",\"url\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11162149/202107Pumi-FeaturedImage.jpg\",\"contentUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11162149/202107Pumi-FeaturedImage.jpg\",\"width\":1440,\"height\":865},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/pumi/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://phcms.hlth.prd.aws.chewy.cloud/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Pumi\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/\",\"name\":\"Chewy\",\"description\":\"\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"}]}\u003C/script\u003E\n\u003C!-- / Yoast SEO plugin. --\u003E",
+      "yoast_head_json": {
+        "title": "Pumi Breed: Characteristics, Care & Photos | Chewy",
+        "description": "Lively, intelligent and intensely loyal, the Pumi is a wonderful addition to a family home. Find out more in our complete Pumi guide.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://phcms.hlth.prd.aws.chewy.cloud/breed/pumi/",
+        "og_locale": "en_US",
+        "og_type": "article",
+        "og_title": "Pumi Breed: Characteristics, Care & Photos | Chewy",
+        "og_description": "Lively, intelligent and intensely loyal, the Pumi is a wonderful addition to a family home. Find out more in our complete Pumi guide.",
+        "og_url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/pumi/",
+        "og_site_name": "Chewy",
+        "article_modified_time": "2025-05-05T14:21:03+00:00",
+        "og_image": [
+          {
+            "width": 1440,
+            "height": 865,
+            "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11162149/202107Pumi-FeaturedImage.jpg",
+            "type": "image/jpeg"
+          }
+        ],
+        "twitter_card": "summary_large_image",
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/pumi/",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/pumi/",
+              "name": "Pumi Breed: Characteristics, Care & Photos | Chewy",
+              "isPartOf": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/pumi/#primaryimage"
+              },
+              "image": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/pumi/#primaryimage"
+              },
+              "thumbnailUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11162149/202107Pumi-FeaturedImage.jpg",
+              "datePublished": "2021-07-16T07:46:48+00:00",
+              "dateModified": "2025-05-05T14:21:03+00:00",
+              "description": "Lively, intelligent and intensely loyal, the Pumi is a wonderful addition to a family home. Find out more in our complete Pumi guide.",
+              "breadcrumb": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/pumi/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://phcms.hlth.prd.aws.chewy.cloud/breed/pumi/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/pumi/#primaryimage",
+              "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11162149/202107Pumi-FeaturedImage.jpg",
+              "contentUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11162149/202107Pumi-FeaturedImage.jpg",
+              "width": 1440,
+              "height": 865
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/pumi/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://phcms.hlth.prd.aws.chewy.cloud/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Pumi"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/",
+              "name": "Chewy",
+              "description": "",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            }
+          ]
+        }
+      },
+      "yoast_meta": {
+        "yoast_wpseo_title": "",
+        "yoast_wpseo_metadesc": "",
+        "yoast_wpseo_canonical": ""
+      },
+      "_links": {
+        "self": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed/142",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/types/breed"
+          }
+        ],
+        "wp:featuredmedia": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/141"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media?parent=142"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "pet_type",
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/pet_type?post=142"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ]

@@ -1,0 +1,329 @@
+[
+    {
+      "id": 1083,
+      "date": "2025-03-13T09:52:33",
+      "date_gmt": "2025-03-13T09:52:33",
+      "guid": {
+        "rendered": "https://haproxy.use1.lgcy.prd.aws.chewy.cloud/eks/ns/pet-health/pet-health-content-backend/breed/dogo-argentino/"
+      },
+      "modified": "2025-06-04T17:13:14",
+      "modified_gmt": "2025-06-04T17:13:14",
+      "slug": "dogo-argentino",
+      "status": "publish",
+      "type": "breed",
+      "link": "https://phcms.hlth.prd.aws.chewy.cloud/breed/dogo-argentino/",
+      "title": {
+        "rendered": "Dogo Argentino"
+      },
+      "featured_media": 3221,
+      "template": "",
+      "pet_type": [],
+      "class_list": [
+        "post-1083",
+        "breed",
+        "type-breed",
+        "status-publish",
+        "has-post-thumbnail",
+        "hentry"
+      ],
+      "acf": {
+        "breed_snapshot_best_for": "\u003Cp\u003EIf you’re looking for a reason to get out and about more, the Dogo Argentino might be your perfect pup. This bright, loyal dog needs an experienced pet parent who can embrace adventure and allow them to show off their big, energetic spirit.\u003C/p\u003E",
+        "alt_image_text": "\u003Cp\u003EThe Dogo Argentino dog is new to the AKC. Separate the facts from fiction with this loyal, fearless companion in our guide. \u003C/p\u003E",
+        "breed_intro": "\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EEver seen one of those short-haired white dogs with the beautiful black patch over their eye? If they were nearly as big as their person, it was probably a Dogo Argentino. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EThese energetic pups can be all white, too (just like a \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog-breeds/maltese\"\u003E\u003Cspan data-contrast=\"none\"\u003EMaltese\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E), but they’re the opposite of a lap dog. First off, at 90 pounds or more, they’re too delightfully large. But more importantly, they have no time for dillydallying when there’s so much to see (and do!) in the world. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EThese agile dogs need a lot of exercise and play, and if you offer them fun activities with lots of surprises thrown in (a fun trip to the lake, maybe?), they’ll return the love and loyalty in spades. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E",
+        "breed_related_products_product_card_set": "",
+        "breed_snapshot_temperament": "\u003Cp\u003EAdventurous, Athletic, Loyal\u003C/p\u003E",
+        "what_does_this_breed_look_like_weight": "\u003Cp\u003E88–100 pounds \u003C/p\u003E",
+        "what_does_this_breed_look_like_height": "\u003Cp\u003E24–26.5 inches\u003C/p\u003E",
+        "breed_snapshot_life_expectancy": "\u003Cp\u003E9–15 years\u003C/p\u003E",
+        "breed_snapshot_maintenance_level": "\u003Cp\u003EMedium\u003C/p\u003E",
+        "breed_characteristics_friendliness": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_snapshot_coat_color": "\u003Cp\u003EWhite\u003C/p\u003E",
+        "breed_snapshot_shed_level": "\u003Cp\u003EMedium\u003C/p\u003E",
+        "in_article_video": null,
+        "breed_characteristics": "\u003Cp\u003EThese traits are rated on a scale of 1-5 with 1 being the lowest and 5 being the highest. Remember: Dogs are individuals, and not all dogs, even those of the same breed, will exhibit all the same qualities.\u003C/p\u003E",
+        "breed_characteristics_exercise_needs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_health_issues": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_barking_tendencies": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_grooming_needs": "\u003Cp\u003E1\u003C/p\u003E",
+        "breed_characteristics_shedding_level": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_training_needs": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_good_with_kids": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_with_cats": "\u003Cp\u003E1\u003C/p\u003E",
+        "breed_characteristics_good_for_apartments_small_homes": "\u003Cp\u003E1\u003C/p\u003E",
+        "breed_characteristics_energy_level": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_other_dogs": "\u003Cp\u003E1\u003C/p\u003E",
+        "breed_characteristics_playfulnesss": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_cold_weather": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_warm_weather": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_good_for_first_time_parents": "\u003Cp\u003E1\u003C/p\u003E",
+        "how_do_i_look_card_image": 3220,
+        "what_does_this_breed_look_like": "\u003Cp\u003E\u003Cspan data-contrast=\"auto\"\u003EIf the Dogo Argentino looks a bit serious at first, it’s probably just because they’re alert and planning their next adventure. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"auto\"\u003EThese short-coated pups sometimes have a large black patch around one eye, and the Dogo Argentino size, along with their agility, is their greatest feature. They can be over 100 pounds, after all. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E",
+        "what_does_this_breed_look_like_ears": "\u003Cp\u003EWhile it was once common to crop ears, nowadays it’s better to leave them as nature intended: floppy. Many groups, including the American Veterinary Medical Association, oppose ear cropping, and many countries as well as U.S. states have banned the practice.\u003C/p\u003E",
+        "what_does_this_breed_look_like_eyes": "\u003Cp\u003EThe Dogo Argentino's eyes are dark or hazelnut, and they’re almond-shaped.\u003C/p\u003E",
+        "what_does_this_breed_look_like_nose": "\u003Cp\u003ETheir noses are black.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_length": "\u003Cp\u003EThe Dogo Argentino is a short-coated dog with smooth fur.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_color": "\u003Cp\u003ETheir coats are all white, though some may sport a black spot over one eye or flecked spots on their ears.\u003C/p\u003E",
+        "what_does_this_breed_look_like_tail": "\u003Cp\u003EThe tail is medium-length and tapered, and it hangs down naturally at rest.\u003C/p\u003E",
+        "h2_breed_temperament": "\u003Cp\u003E\u003Cspan data-contrast=\"auto\"\u003EThe Dogo Argentino breed is athletic and has an energy level to match. These dogs were built for speed, and their love of activity and exercise is one of their most admirable qualities. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"auto\"\u003EBut so is their love for their favorite person—that’s you. Dogo Argentinos are loyal to a fault, and they’d do anything to keep you out of harm’s way. But don’t fall for the tough guy (or gal) exterior—these pups have a mushy side, too. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"auto\"\u003EThey’re fun, energetic, and fearless, which is why they need a dedicated pet parent to properly train and socialize them so that they can live their best life. It’s not unusual to see them getting along famously with guests or \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/15-minute-games-to-play-with-dogs\"\u003E\u003Cspan data-contrast=\"none\"\u003Eenjoying a fun game of hide-and-seek\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E with their family.  \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"auto\"\u003EDogo Argentinos do have a mind of their own, and instinct might take over if they see a squirrel they’d love to chase up a tree. That’s why these active, determined dogs need a skilled pet parent who can show them that it’s OK to chill sometimes (as long as the day’s energy has been expended). \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E",
+        "h2_how_to_care_for_a_breed": "\u003Cp\u003E\u003Cspan class=\"TextRun SCXW15623362 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\u003E\u003Cspan class=\"NormalTextRun SpellingErrorV2Themed SCXW15623362 BCX4\"\u003EDogo\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW15623362 BCX4\"\u003E Argentinos \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW15623362 BCX4\"\u003Edon’t\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW15623362 BCX4\"\u003E need a ton of time in front of a mirror fussing over their appearance, but they do need a dedicated pet parent who can show them the ropes when it comes to \u003C/span\u003E\u003C/span\u003E\u003Ca class=\"Hyperlink SCXW15623362 BCX4\" href=\"https://www.chewy.com/education/dog/training-and-behavior/sit-stay-and-beyond-weve-got-the-essential-guide-to-basic-dog-obedience-training\" target=\"_blank\" rel=\"noreferrer noopener\"\u003E\u003Cspan class=\"TextRun Underlined SCXW15623362 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\u003E\u003Cspan class=\"NormalTextRun SCXW15623362 BCX4\" data-ccp-charstyle=\"Hyperlink\"\u003Eobedience training\u003C/span\u003E\u003C/span\u003E\u003C/a\u003E\u003Cspan class=\"TextRun SCXW15623362 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\u003E\u003Cspan class=\"NormalTextRun SCXW15623362 BCX4\"\u003E, socialization, and exercise. \u003C/span\u003E\u003C/span\u003E\u003Cspan class=\"EOP SCXW15623362 BCX4\" data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E",
+        "grooming": "\u003Cul\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EBathing: \u003C/span\u003E\u003C/b\u003E\u003Ca href=\"https://www.chewy.com/education/dog/grooming/how-to-bathe-a-dog-step-by-step-tips-from-a-professional-groomer\"\u003E\u003Cspan data-contrast=\"none\"\u003EGive your pup a \u003C/span\u003E\u003Cspan data-contrast=\"none\"\u003Ebath\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E every couple of months (but you can make an exception if they take a really dirty romp outside). \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EBrushing:\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E Once a week, \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/grooming/brushing-a-dog\"\u003E\u003Cspan data-contrast=\"none\"\u003Ebrush your Dogo\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E with a \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/f/dog-curry-brushes_c355_f70v83786\"\u003E\u003Cspan data-contrast=\"none\"\u003Ecurry brush\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E. Your pup may experience heavier shedding as the seasons change (in the fall and spring), and they might need brushing several times a week then. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EDental care:\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E Help keep your pup’s teeth in shape by \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/grooming/health-wellness-how-to-brush-your-dogs-teeth-live-to-tell-the-tale\"\u003E\u003Cspan data-contrast=\"none\"\u003Ebrushing them daily\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E with a \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/petsmile-professional-rotisserie/dp/229516\"\u003E\u003Cspan data-contrast=\"none\"\u003Edog toothpaste\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E. It’s a good idea to start when they’re a puppy, so they get used to the experience. Get a \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/care/how-much-does-dog-teeth-cleaning-cost\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Epro cleaning at your vet\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E once a year.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EEar care:\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E Check your Dogo’s ears when brushing their fur, as moisture and debris can build up and \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/dog-ear-infection\"\u003E\u003Cspan data-contrast=\"none\"\u003Ecause an infection\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E. Signs to look out for include redness, swelling, debris, or a bad odor. If you notice any of these symptoms, contact your vet, who may advise you to regularly \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/how-do-you-clean-a-dogs-ears-follow-this-vet-approved-step-by-step-guide\"\u003E\u003Cspan data-contrast=\"none\"\u003Eclean your dog’s ears\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003ENail care: \u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003EMake sure you pay attention to your dog’s nails—if you hear them clacking on hard surfaces, it’s \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/guide-trimming-dogs-nails\"\u003E\u003Cspan data-contrast=\"none\"\u003Etime for a trim\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\u003C/ul\u003E",
+        "training": "\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EWhen you’re training a Dogo Argentino, you can’t just wing it—these strong, intelligent dogs need a confident pet parent who can show them the ropes, and it requires a consistent commitment.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EStart \u003C/span\u003E\u003Cspan data-contrast=\"auto\"\u003E training\u003C/span\u003E\u003Cspan data-contrast=\"none\"\u003E and \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/positively-trained-puppy-socialization-dos-and-donts\"\u003E\u003Cspan data-contrast=\"none\"\u003Esocializing your pup\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E as soon as possible (if you bring home a Dogo Argentino puppy, that’s great, but if you adopt them when they’re older, you can still do it then). Always use \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/behavior/how-to-train-a-dog-with-positive-reinforcement\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Epositive reinforcement\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E—praise, \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/b/treats-335\"\u003E\u003Cspan data-contrast=\"none\"\u003Especial treats\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, and toys—to teach your pup how to be on their very best behavior.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EAs you socialize your dog, calmly introduce them to the great big world—try car rides and \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/walking-with-dog\"\u003E\u003Cspan data-contrast=\"none\"\u003Eneighborhood walks\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E that safely expose them to new sounds and smells. They’ll love the exciting adventure of it all, and it’ll teach them that the world can be a lovely place. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EA Dogo Argentino might not always be up for a crowded party or lots of guests, and who can blame them? Focus on creating calming, positive moments with people, and don’t rush the process. It’s OK (and expected) if it takes time for your dog to warm up to everyone. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/leash-train-dog-2\"\u003E\u003Cspan data-contrast=\"none\"\u003ELeash training\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E and \u003C/span\u003E\u003Cspan data-contrast=\"none\"\u003Ecoming when called\u003C/span\u003E\u003Cspan data-contrast=\"none\"\u003E are important skills to learn early on, especially if you live in a city with a lot of stimulation and distractions, like squirrels and sirens—these can be sensory overload for an excited Dogo. If your 90-pound pup decides to chase a squirrel, it’s important that you have a good grasp and know how to corral them back to their calm self. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EA \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/find-a-dog-trainer\"\u003E\u003Cspan data-contrast=\"none\"\u003Ecertified dog trainer\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E is never a bad idea, provided that they use positive reinforcement—your pup will probably enjoy their special training sessions. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003EIf you need assistance in any aspect of training, seek out a certified professional dog trainer in your area who specializes in positive reinforcement methods.\u003C/p\u003E",
+        "diet_nutrition": "\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EThere’s no one-size-fits-all optimal nutrition plan for your Dogo Argentino, but every pup needs a complete and balanced diet that \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/nutrition/What-Is-AAFCO-and-What-Does-It-Do\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Emeets AAFCO standards\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EAlso choose a formula that’s made for your dog’s life stage (\u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/vet-verified/best-food-large-breed-puppies\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Epuppy\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/vet-verified/best-dog-food\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Eadult\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, or \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/vet-verified/best-senior-dog-food\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Esenior\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E), and consider a \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/nutrition/best-puppy-food-large-breeds\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Elarge-breed diet, especially for Dogo Argentino puppies\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E. You may also want to feed them a high-protein diet—your vet can help you decide. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EDogos can sometimes develop \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/food-and-nutrition/dog-food-allergies-symptoms-and-treatment\"\u003E\u003Cspan data-contrast=\"none\"\u003Efood allergies\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E,\u003C/span\u003E\u003Cspan data-contrast=\"none\"\u003E which can manifest in red or itchy skin and/or ears, so keep an eye out for scratching or signs of discomfort. If your dog has an allergy, you vet can advise you on how to change their diet to a \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/nutrition/limited-ingredient-dog-food-it-right-your-dog\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Enovel protein\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E or a \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/vet-verified/best-dog-food-for-dogs-with-allergies\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Ehypoallergenic formula\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EDon’t forget to calculate treats into your pup’s daily meal plan—you’ll be using them a lot for training. Treats should never be more than 10% of your dog’s daily calories.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E",
+        "exercise": "\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EThis active pup has stamina, agility, and speed for days, so a slow 15-minute walk will never be enough. For that matter, \u003C/span\u003E\u003Ci\u003E\u003Cspan data-contrast=\"none\"\u003Ethree\u003C/span\u003E\u003C/i\u003E\u003Cspan data-contrast=\"none\"\u003E slow walks aren’t enough—these sporty dogs need at least an hour of intense exercise and activity every day. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Ca href=\"https://www.chewy.com/education/dog/general/ready-to-hit-the-hiking-trail-with-your-dog-heres-everything-you-need-to-know\"\u003E\u003Cspan data-contrast=\"none\"\u003EHiking\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/how-to-run-with-dog\"\u003E\u003Cspan data-contrast=\"none\"\u003Erunning\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, or \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/how-to-teach-dog-to-fetch\"\u003E\u003Cspan data-contrast=\"none\"\u003Elong games of fetch\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E with a \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/b/balls-2329\"\u003E\u003Cspan data-contrast=\"none\"\u003Eball\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E or \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/b/discs-2330\"\u003E\u003Cspan data-contrast=\"none\"\u003Eflying disc\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E are great options. They’ll love it if you surprise them with fun bonus activities every week, like a \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/dog-swimming-101\"\u003E\u003Cspan data-contrast=\"none\"\u003Esurprise swim at the lake\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EDon’t forget about the mental stimulation, too. A bored Dogo is a grumpy Dogo who could compensate in ways that you (and \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/training-tips-how-to-stop-destructive-chewing-in-dogs\"\u003E\u003Cspan data-contrast=\"none\"\u003Eyour shoes\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E) won’t appreciate. Using \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/b/interactive-toys-319\"\u003E\u003Cspan data-contrast=\"none\"\u003Einteractive feeding toys\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E or teaching your Dogo to find treats you’ve hidden around your home is a good way to keep them busy and engaged.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EDogo Argentinos also love dog sports like \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/dog-agility-training-tips\"\u003E\u003Cspan data-contrast=\"none\"\u003Eagility trials\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E, and you can also get them involved with \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/nose-work-training\"\u003E\u003Cspan data-contrast=\"none\"\u003Escent work\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E",
+        "ideal_environment": "\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EThis dog needs a large home with a big fenced-in yard and space to roam. They’re not homebodies, and they’ll expect you to go out and about with them.  \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EBut that doesn’t mean they’re not \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/general/best-family-dogs\"\u003E\u003Cspan data-contrast=\"none\"\u003Efamily dogs\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E—they are, and they’ll love spending time with you indoors, too. They just really need to stretch their legs and expend lots of energy each and every day. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EThese loyal, \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/dog-breeds/smartest-dog-breeds\"\u003E\u003Cspan data-contrast=\"none\"\u003Esmart dogs\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E are kid-friendly when properly socialized and trained. Just make sure your \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/general-health/how-to-teach-kids-to-interact-with-pets\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Ekids know how to respectfully play with a Dogo\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, too. And because of their size, your pup should always be supervised around small kids and babies.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E",
+        "h2_breed_health": "\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EThe typical Dogo Argentino lifespan is 9–15 years. Here are a few health issues to be aware of.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cul\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003ECongenital deafness\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E: Dogo Argentinos may have \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/ears/deafness-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Econgenital deafness\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E in one or both ears. \u003C/span\u003E\u003Ca href=\"https://pubmed.ncbi.nlm.nih.gov/33870537/\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003EOne study\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E found that partial or total deafness affected as many as 25% of Dogos. This condition was often more prevalent in blue-eyed dogs and those who were all white, without a color patch. Take heart, though, as most deaf dogs acclimate well and lead a full, happy life.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"auto\"\u003EHip dysplasia\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"auto\"\u003E: \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/hip-dysplasia-in-dogs\"\u003E\u003Cspan data-contrast=\"none\"\u003EHip dysplasia\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E is when the ball and socket of the hip and thigh bones doesn’t properly fit. It’s an inherited condition that can be made worse if a pup is overweight, and it eventually leads to \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/arthritis-in-dogs\"\u003E\u003Cspan data-contrast=\"none\"\u003Earthritis\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E and pain. More severe cases may require surgery, but the condition is often treated with medications, \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/vet-verified/best-joint-supplements-for-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Ejoint supplements\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E, special diets, weight management, and/or physical therapy.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:240}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EHypothyroidism:\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E Common in Dogo Argentinos, \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/endocrine/c_dg_hypothyroidism\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Ehypothyroidism\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E includes symptoms\u003C/span\u003E\u003Cspan data-contrast=\"none\"\u003E like lethargy, hair loss, skin and ear infections, and weight gain. A \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/procedure/blood-work-for-dogs-and-cats\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Eblood test\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E can diagnosis it, and treatment is a daily oral medication.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003ESkin issues and allergies\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E: The Dogo Argentino’s short white coat makes them \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/can-dogs-get-sunburn\"\u003E\u003Cspan data-contrast=\"none\"\u003Emore sensitive to sunburn\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E. The breed can also experience skin sensitivities from allergies (both food and seasonal) or underlying health conditions. Get any excessive itching or redness and rashes checked by a vet. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\u003C/ul\u003E",
+        "h2_breed_history": "\u003Cp\u003E\u003Cspan data-contrast=\"auto\"\u003EThe Dogo Argentino’s origins are relatively recent—they were first bred in 1928 in Argentina. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"auto\"\u003EThey descend from a bunch of breeds, including the \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog-breeds/great-dane\"\u003E\u003Cspan data-contrast=\"none\"\u003EGreat Dane\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E, \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog-breeds/pointer\"\u003E\u003Cspan data-contrast=\"none\"\u003EPointer\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E, \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog-breeds/bull-terrier\"\u003E\u003Cspan data-contrast=\"none\"\u003EBull Terrier\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E, \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog-breeds/boxer\"\u003E\u003Cspan data-contrast=\"none\"\u003EBoxer\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E, \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog-breeds/bulldog\"\u003E\u003Cspan data-contrast=\"none\"\u003EEnglish Bulldog\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E, \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/breeds/pyrenean-mastiff\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003EPyrenean Mastiff\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E, \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog-breeds/irish-wolfhound\"\u003E\u003Cspan data-contrast=\"none\"\u003EIrish Wolfhound\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E, \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/breeds/spanish-mastiff\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003ESpanish Mastiff\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E, and a local dog native to the Córdoba province. Initially used as hunting dogs, most Dogo Argentinos now lives as pampered pets who expend their energy in the great outdoors and in dog sports.  \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"auto\"\u003EThe \u003C/span\u003E\u003Ca href=\"https://dogousa.org/\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003EDogo Argentino Club of America\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E formed in 1985, and the Dogo joined the ranks of the American Kennel Club in 2020.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"auto\"\u003EDogo Argentino breeders charge upwards of $1,000 for a puppy. \u003C/span\u003E\u003Cspan data-contrast=\"none\"\u003EIf you choose this route, \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/how-to-find-ethical-reputable-responsible-breeder\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Epick a responsible breeder\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"auto\"\u003EYou can also adopt a Dogo Argentino through a rescue like \u003C/span\u003E\u003Ca href=\"https://dcdogos.org/\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003EDC Dogos\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E, as there are many patiently waiting for their forever homes. You can also keep an eye out at your local animal shelter or search \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/g/dog-dogo-argentino_ga1\"\u003E\u003Cspan data-contrast=\"none\"\u003EChewy’s database of adoptable dogs\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E in your area.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E",
+        "expert_attribution": "\u003Cp\u003E\u003Cem\u003E\u003Cspan class=\"NormalTextRun SCXW33598769 BCX4\"\u003EThis content was medically reviewed by \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW33598769 BCX4\"\u003EBarri Morrison\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW33598769 BCX4\"\u003E, DVM, Chewy veterinarian.\u003C/span\u003E\u003C/em\u003E\u003C/p\u003E",
+        "facebook_social_snippet_with_cta": "\u003Cp\u003ELooking for a dog who stands out from all the Goldendoodles in the neighborhood? The Dogo Argentino is as striking as they are strong. Learn more about this fierce and fun breed with our complete Dogo Argentino guide. \u003C/p\u003E",
+        "species": "\u003Cp\u003EDog\u003C/p\u003E",
+        "h2_faqs": "",
+        "faq_items": [
+          {
+            "faq_title": "Are Dogo Argentinos hypoallergenic?  ",
+            "faq_content": "\u003Cp\u003E\u003Cspan class=\"TextRun SCXW27041701 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"\u003E\u003Cspan class=\"NormalTextRun SCXW27041701 BCX4\"\u003ENo, \u003C/span\u003E\u003Cspan class=\"NormalTextRun SpellingErrorV2Themed SCXW27041701 BCX4\"\u003EDogo\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW27041701 BCX4\"\u003E Argentinos\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW27041701 BCX4\"\u003E are not \u003C/span\u003E\u003C/span\u003E\u003Ca class=\"Hyperlink SCXW27041701 BCX4\" href=\"https://www.chewy.com/education/dog/general/4-hypoallergenic-dog-breeds\" rel=\"noreferrer noopener\"\u003E\u003Cspan class=\"TextRun Underlined SCXW27041701 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\u003E\u003Cspan class=\"NormalTextRun SCXW27041701 BCX4\" data-ccp-charstyle=\"Hyperlink\"\u003Ehypoallergenic\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW27041701 BCX4\" data-ccp-charstyle=\"Hyperlink\"\u003E dogs\u003C/span\u003E\u003C/span\u003E\u003C/a\u003E\u003Cspan class=\"TextRun SCXW27041701 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"\u003E\u003Cspan class=\"NormalTextRun SCXW27041701 BCX4\"\u003E, though no dog is 100% hypoallergenic.\u003C/span\u003E\u003C/span\u003E\u003Cspan class=\"EOP SCXW27041701 BCX4\" data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E"
+          },
+          {
+            "faq_title": "Are Dogo Argentinos good family dogs? ",
+            "faq_content": "\u003Cp\u003E\u003Cspan class=\"TextRun SCXW181650501 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"\u003E\u003Cspan class=\"NormalTextRun SCXW181650501 BCX4\"\u003EYes, \u003C/span\u003E\u003Cspan class=\"NormalTextRun SpellingErrorV2Themed SCXW181650501 BCX4\"\u003EDogo\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW181650501 BCX4\"\u003E Argentinos can be \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW181650501 BCX4\"\u003Egreat\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW181650501 BCX4\"\u003E family dogs. A well-trained and socialized \u003C/span\u003E\u003Cspan class=\"NormalTextRun SpellingErrorV2Themed SCXW181650501 BCX4\"\u003EDogo\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW181650501 BCX4\"\u003E can be a \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW181650501 BCX4\"\u003Edoting\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW181650501 BCX4\"\u003E sibling \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW181650501 BCX4\"\u003Efor\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW181650501 BCX4\"\u003E kids who have been taught to respectfully interact with dogs.\u003C/span\u003E\u003C/span\u003E\u003Cspan class=\"EOP SCXW181650501 BCX4\" data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E"
+          },
+          {
+            "faq_title": "What are the most popular Dogo Argentino names? ",
+            "faq_content": "\u003Cp\u003E\u003Cspan class=\"TextRun SCXW116984007 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"\u003E\u003Cspan class=\"NormalTextRun SCXW116984007 BCX4\"\u003EThe most popular \u003C/span\u003E\u003Cspan class=\"NormalTextRun SpellingErrorV2Themed SCXW116984007 BCX4\"\u003EDogo\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW116984007 BCX4\"\u003E Argentino \u003C/span\u003E\u003C/span\u003E\u003Ca class=\"Hyperlink SCXW116984007 BCX4\" href=\"https://www.chewy.com/education/dog/general/top-dog-names\" rel=\"noreferrer noopener\"\u003E\u003Cspan class=\"TextRun Underlined SCXW116984007 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\u003E\u003Cspan class=\"NormalTextRun SCXW116984007 BCX4\" data-ccp-charstyle=\"Hyperlink\"\u003Edog \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW116984007 BCX4\" data-ccp-charstyle=\"Hyperlink\"\u003En\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW116984007 BCX4\" data-ccp-charstyle=\"Hyperlink\"\u003Eames\u003C/span\u003E\u003C/span\u003E\u003C/a\u003E\u003Cspan class=\"TextRun SCXW116984007 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"\u003E\u003Cspan class=\"NormalTextRun SCXW116984007 BCX4\"\u003E include Max, Rocky, Ghost, Jack, Milo, Paco, Oscar, Leo, Zeus, Molly, Bella, Coco, Neva, Luna, Freya, Rosie, Mia, Layla\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW116984007 BCX4\"\u003E,\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW116984007 BCX4\"\u003E and Lulu. \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW116984007 BCX4\"\u003E \u003C/span\u003E\u003C/span\u003E\u003Cspan class=\"EOP SCXW116984007 BCX4\" data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E"
+          },
+          {
+            "faq_title": "Cane Corso vs. Dogo Argentino: What’s the difference?  ",
+            "faq_content": "\u003Cp\u003E\u003Cspan class=\"TextRun SCXW260732193 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"\u003E\u003Cspan class=\"NormalTextRun SCXW260732193 BCX4\"\u003EBoth\u003C/span\u003E \u003Cspan class=\"NormalTextRun SpellingErrorV2Themed SCXW260732193 BCX4\"\u003EDogo\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW260732193 BCX4\"\u003E Argentino and \u003C/span\u003E\u003C/span\u003E\u003Ca class=\"Hyperlink SCXW260732193 BCX4\" href=\"https://www.chewy.com/education/dog-breeds/cane-corso\" rel=\"noreferrer noopener\"\u003E\u003Cspan class=\"TextRun Underlined SCXW260732193 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\u003E\u003Cspan class=\"NormalTextRun SCXW260732193 BCX4\" data-ccp-charstyle=\"Hyperlink\"\u003ECane Corso\u003C/span\u003E\u003C/span\u003E\u003C/a\u003E\u003Cspan class=\"TextRun SCXW260732193 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"\u003E\u003Cspan class=\"NormalTextRun SCXW260732193 BCX4\"\u003E dogs \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW260732193 BCX4\"\u003Eare \u003C/span\u003E\u003Cspan class=\"NormalTextRun ContextualSpellingAndGrammarErrorV2Themed SCXW260732193 BCX4\"\u003Elow-maintenance\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW260732193 BCX4\"\u003E when it comes to grooming, and \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW260732193 BCX4\"\u003Ethey’re\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW260732193 BCX4\"\u003E both smart, affectionate, and loyal.\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW260732193 BCX4\"\u003E The biggest difference between the breeds is appearance. A \u003C/span\u003E\u003Cspan class=\"NormalTextRun SpellingErrorV2Themed SCXW260732193 BCX4\"\u003EDogo\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW260732193 BCX4\"\u003E Argentino is always white, while a Cane Corso can be black, brindle, fawn, or even red. \u003C/span\u003E\u003C/span\u003E\u003Cspan class=\"EOP SCXW260732193 BCX4\" data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E"
+          },
+          {
+            "faq_title": "What are some Dogo Argentino personality traits?  ",
+            "faq_content": "\u003Cp\u003E\u003Cspan class=\"TextRun SCXW170863540 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\u003E\u003Cspan class=\"NormalTextRun SCXW170863540 BCX4\"\u003EAn active pup, \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW170863540 BCX4\"\u003Ethese loyal dogs are\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW170863540 BCX4\"\u003E always on the lookout for adventure.\u003C/span\u003E \u003C/span\u003E\u003Cspan class=\"TextRun SCXW170863540 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"\u003E\u003Cspan class=\"NormalTextRun SpellingErrorV2Themed SCXW170863540 BCX4\"\u003EDogos\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW170863540 BCX4\"\u003E are\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW170863540 BCX4\"\u003E fun, energetic, and fearless, and their mushy side comes out with their favorite person. \u003C/span\u003E\u003C/span\u003E\u003Cspan class=\"EOP SCXW170863540 BCX4\" data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E"
+          }
+        ],
+        "select_related_breeds": [
+          {
+            "selected_related_breed": 84,
+            "characteristic": "breed_characteristics_training_needs"
+          },
+          {
+            "selected_related_breed": 1041,
+            "characteristic": "breed_characteristics_shedding_level"
+          },
+          {
+            "selected_related_breed": 929,
+            "characteristic": "breed_characteristics_exercise_needs"
+          },
+          {
+            "selected_related_breed": 1195,
+            "characteristic": "breed_characteristics_playfulnesss"
+          },
+          {
+            "selected_related_breed": 1152,
+            "characteristic": "breed_characteristics_friendliness"
+          },
+          {
+            "selected_related_breed": 1111,
+            "characteristic": "breed_characteristics_good_with_other_dogs"
+          }
+        ],
+        "enable_featured_gallery": [
+          "enable_featured_gallery"
+        ],
+        "featured_gallery_images": [1082, 1075, 1076, 1077, 1078, 1079]
+      },
+      "yoast_head": "\u003C!-- This site is optimized with the Yoast SEO plugin v23.8 - https://yoast.com/wordpress/plugins/seo/ --\u003E\n\u003Ctitle\u003EDogo Argentino Characteristics, Care &amp; Photos | Chewy\u003C/title\u003E\n\u003Cmeta name=\"description\" content=\"Get helpful Dogo Argentino information with this Dogo Argentino guide covering aspects from their traits to their temperament and beyond.\" /\u003E\n\u003Cmeta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" /\u003E\n\u003Clink rel=\"canonical\" href=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/dogo-argentino/\" /\u003E\n\u003Cmeta property=\"og:locale\" content=\"en_US\" /\u003E\n\u003Cmeta property=\"og:type\" content=\"article\" /\u003E\n\u003Cmeta property=\"og:title\" content=\"Dogo Argentino Characteristics, Care &amp; Photos | Chewy\" /\u003E\n\u003Cmeta property=\"og:description\" content=\"Get helpful Dogo Argentino information with this Dogo Argentino guide covering aspects from their traits to their temperament and beyond.\" /\u003E\n\u003Cmeta property=\"og:url\" content=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/dogo-argentino/\" /\u003E\n\u003Cmeta property=\"og:site_name\" content=\"Chewy\" /\u003E\n\u003Cmeta property=\"article:modified_time\" content=\"2025-06-04T17:13:14+00:00\" /\u003E\n\u003Cmeta property=\"og:image\" content=\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07150049/202105Breed-Hero-Dogo-Argentino.jpg\" /\u003E\n\t\u003Cmeta property=\"og:image:width\" content=\"1835\" /\u003E\n\t\u003Cmeta property=\"og:image:height\" content=\"1032\" /\u003E\n\t\u003Cmeta property=\"og:image:type\" content=\"image/jpeg\" /\u003E\n\u003Cmeta name=\"twitter:card\" content=\"summary_large_image\" /\u003E\n\u003Cmeta name=\"twitter:label1\" content=\"Est. reading time\" /\u003E\n\t\u003Cmeta name=\"twitter:data1\" content=\"1 minute\" /\u003E\n\u003Cscript type=\"application/ld+json\" class=\"yoast-schema-graph\"\u003E{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/dogo-argentino/\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/dogo-argentino/\",\"name\":\"Dogo Argentino Characteristics, Care & Photos | Chewy\",\"isPartOf\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/dogo-argentino/#primaryimage\"},\"image\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/dogo-argentino/#primaryimage\"},\"thumbnailUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07150049/202105Breed-Hero-Dogo-Argentino.jpg\",\"datePublished\":\"2025-03-13T09:52:33+00:00\",\"dateModified\":\"2025-06-04T17:13:14+00:00\",\"description\":\"Get helpful Dogo Argentino information with this Dogo Argentino guide covering aspects from their traits to their temperament and beyond.\",\"breadcrumb\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/dogo-argentino/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://phcms.hlth.prd.aws.chewy.cloud/breed/dogo-argentino/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/dogo-argentino/#primaryimage\",\"url\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07150049/202105Breed-Hero-Dogo-Argentino.jpg\",\"contentUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07150049/202105Breed-Hero-Dogo-Argentino.jpg\",\"width\":1835,\"height\":1032,\"caption\":\"Dogo Argentino\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/dogo-argentino/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://phcms.hlth.prd.aws.chewy.cloud/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Dogo Argentino\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/\",\"name\":\"Chewy\",\"description\":\"\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"}]}\u003C/script\u003E\n\u003C!-- / Yoast SEO plugin. --\u003E",
+      "yoast_head_json": {
+        "title": "Dogo Argentino Characteristics, Care & Photos | Chewy",
+        "description": "Get helpful Dogo Argentino information with this Dogo Argentino guide covering aspects from their traits to their temperament and beyond.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://phcms.hlth.prd.aws.chewy.cloud/breed/dogo-argentino/",
+        "og_locale": "en_US",
+        "og_type": "article",
+        "og_title": "Dogo Argentino Characteristics, Care & Photos | Chewy",
+        "og_description": "Get helpful Dogo Argentino information with this Dogo Argentino guide covering aspects from their traits to their temperament and beyond.",
+        "og_url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/dogo-argentino/",
+        "og_site_name": "Chewy",
+        "article_modified_time": "2025-06-04T17:13:14+00:00",
+        "og_image": [
+          {
+            "width": 1835,
+            "height": 1032,
+            "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07150049/202105Breed-Hero-Dogo-Argentino.jpg",
+            "type": "image/jpeg"
+          }
+        ],
+        "twitter_card": "summary_large_image",
+        "twitter_misc": {
+          "Est. reading time": "1 minute"
+        },
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/dogo-argentino/",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/dogo-argentino/",
+              "name": "Dogo Argentino Characteristics, Care & Photos | Chewy",
+              "isPartOf": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/dogo-argentino/#primaryimage"
+              },
+              "image": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/dogo-argentino/#primaryimage"
+              },
+              "thumbnailUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07150049/202105Breed-Hero-Dogo-Argentino.jpg",
+              "datePublished": "2025-03-13T09:52:33+00:00",
+              "dateModified": "2025-06-04T17:13:14+00:00",
+              "description": "Get helpful Dogo Argentino information with this Dogo Argentino guide covering aspects from their traits to their temperament and beyond.",
+              "breadcrumb": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/dogo-argentino/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://phcms.hlth.prd.aws.chewy.cloud/breed/dogo-argentino/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/dogo-argentino/#primaryimage",
+              "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07150049/202105Breed-Hero-Dogo-Argentino.jpg",
+              "contentUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07150049/202105Breed-Hero-Dogo-Argentino.jpg",
+              "width": 1835,
+              "height": 1032,
+              "caption": "Dogo Argentino"
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/dogo-argentino/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://phcms.hlth.prd.aws.chewy.cloud/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Dogo Argentino"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/",
+              "name": "Chewy",
+              "description": "",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            }
+          ]
+        }
+      },
+      "yoast_meta": {
+        "yoast_wpseo_title": "",
+        "yoast_wpseo_metadesc": "",
+        "yoast_wpseo_canonical": ""
+      },
+      "_links": {
+        "self": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed/1083",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/types/breed"
+          }
+        ],
+        "acf:attachment": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/1079"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/1078"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/1077"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/1076"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/1075"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/1082"
+          }
+        ],
+        "wp:featuredmedia": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/3221"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media?parent=1083"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "pet_type",
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/pet_type?post=1083"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ]

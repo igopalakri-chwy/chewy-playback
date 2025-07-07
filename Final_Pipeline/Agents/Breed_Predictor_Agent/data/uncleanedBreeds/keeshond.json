@@ -1,0 +1,328 @@
+[
+    {
+      "id": 125,
+      "date": "2021-07-16T07:49:57",
+      "date_gmt": "2021-07-16T07:49:57",
+      "guid": {
+        "rendered": "https://haproxy.use1.lgcy.prd.aws.chewy.cloud/eks/ns/pet-health/pet-health-content-backend/breed/keeshond/"
+      },
+      "modified": "2025-05-05T14:21:00",
+      "modified_gmt": "2025-05-05T14:21:00",
+      "slug": "keeshond",
+      "status": "publish",
+      "type": "breed",
+      "link": "https://phcms.hlth.prd.aws.chewy.cloud/breed/keeshond/",
+      "title": {
+        "rendered": "Keeshond"
+      },
+      "featured_media": 124,
+      "template": "",
+      "pet_type": [],
+      "class_list": [
+        "post-125",
+        "breed",
+        "type-breed",
+        "status-publish",
+        "has-post-thumbnail",
+        "hentry"
+      ],
+      "acf": {
+        "breed_snapshot_best_for": "\u003Cp\u003EKeeshonden are friendly and intelligent dogs who require regular grooming and moderate exercise. They thrive in loving homes with pet parents who appreciate their playful nature.\u003C/p\u003E",
+        "alt_image_text": "Keeshond dog breed",
+        "breed_intro": "\u003Cspan data-preserver-spaces=\"true\"\u003EBrains and beauty—the Keeshond (pronounced kayz-hawnd) has them both in spades. These&nbsp;\u003C/span\u003E\u003Cspan data-preserver-spaces=\"true\"\u003Eintelligent dogs\u003C/span\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E were originally bred to be watchdogs for barges traveling the waterways of Holland. These days, however, they're more of a \u003Ca href=\"https://www.chewy.com/education/gifts-for-cats-and-cat-lovers\"\u003Ecouch potato\u003C/a\u003E, although they still retain their watchdog smarts (and barking tendencies). Fabulously fluffy with large manes, Keeshonden (plural for Keeshond) are quite the attention getters—and seekers. This dog breed loves to make friends of all ages and species. Ever the social butterfly, your Keeshond will likely be the most popular pup on the block, but you'll always be their No. 1.\u003C/span\u003E",
+        "breed_related_products_product_card_set": null,
+        "breed_snapshot_temperament": "\u003Cp\u003E Devoted, Sociable, Intelligent\u003C/p\u003E",
+        "what_does_this_breed_look_like_weight": "\u003Cp\u003EMale: 36-40 pounds\u003C/p\u003E\u003Cp\u003EFemale: 36-40 pounds\u003C/p\u003E",
+        "what_does_this_breed_look_like_height": "\u003Cp\u003EMale: 18 inches\u003C/p\u003E\u003Cp\u003EFemale: 17 inches\u003C/p\u003E",
+        "breed_snapshot_life_expectancy": "\u003Cp\u003E12 to 15 years\u003C/p\u003E",
+        "breed_snapshot_maintenance_level": "\u003Cp\u003EMedium\u003C/p\u003E",
+        "breed_characteristics_friendliness": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_snapshot_coat_color": "\u003Cp\u003EBlack and Silver, Gray and Black, Gray Cream and Black, Gray Silver and Black, Silver and Black, Wolfgray and Black \u003C/p\u003E",
+        "breed_snapshot_shed_level": "\u003Cp\u003EVery High\u003C/p\u003E",
+        "in_article_video": null,
+        "breed_characteristics": "These traits are rated on a scale of 1-5 with 1 being the lowest and 5 being the highest. Remember: Dogs are individuals, and not all dogs, even those of the same breed, will exhibit all the same qualities.",
+        "breed_characteristics_exercise_needs": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_health_issues": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_barking_tendencies": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_grooming_needs": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_shedding_level": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_training_needs": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_with_kids": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_good_with_cats": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_for_apartments_small_homes": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_energy_level": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_with_other_dogs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_playfulnesss": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_cold_weather": "\u003Cp\u003E1\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_warm_weather": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_for_first_time_parents": "\u003Cp\u003E3\u003C/p\u003E",
+        "how_do_i_look_card_image": 123,
+        "what_does_this_breed_look_like": "Keeshonden are medium-sized dogs with a wooly undercoat and longer overcoat. Their coat colors come in black, gray, silver, and gray cream combinations. Male Keeshonden have thick, full manes, whereas the female's mane is slightly less lush. They have fox-like faces with pointy ears and spectacle-rimmed eyes, and their plumed tails curve up and over their back.",
+        "what_does_this_breed_look_like_ears": "\u003Cp\u003EKeeshonden ears are small, pointy, erect, and set high on their heads.\u003C/p\u003E",
+        "what_does_this_breed_look_like_eyes": "\u003Cp\u003EA Keeshond's eyes are almond-shaped, dark and rimmed in black\u003C/p\u003E",
+        "what_does_this_breed_look_like_nose": "\u003Cp\u003EKeeshonden have a wedge-shaped muzzle with a dark black nose.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_length": "\u003Cp\u003EKeeshonden have long, thick, rich coats with large manes and trousers on the hindquarters.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_color": "\u003Cp\u003EKeeshonden coat colors include gray, cream, black, wolfgray and silver.\u003C/p\u003E",
+        "what_does_this_breed_look_like_tail": "\u003Cp\u003EA Keeshond's tail is plume-like and furry, held high and curves over the back.\u003C/p\u003E",
+        "h2_breed_temperament": "\u003Cspan data-preserver-spaces=\"true\"\u003EIf your Keeshond dog had a Facebook page, their friends list would be a mile long. This delightful Northern European breed is friendly, outgoing and loving. They make lovely pets for families with children and get along well with almost everyone they meet, two- or four-legged alike.\u003C/span\u003E\r\n\r\n\u003Cspan data-preserver-spaces=\"true\"\u003ETheir deep love for people and attention can sometimes be a detriment. They hate being alone, and some&nbsp;\u003C/span\u003E\u003Ca class=\"editor-rtfLink\" href=\"https://www.chewy.com/education/dog/health-and-wellness/reducing-separation-anxiety-dog\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-preserver-spaces=\"true\"\u003Esuffer from separation anxiety\u003C/span\u003E\u003C/a\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E&nbsp;if given too much time by themselves. But for all their clinginess, they'll reward you kindly with their loyalty.\u003C/span\u003E\r\n\r\n\u003Cspan data-preserver-spaces=\"true\"\u003EOnce bred to watch over the barges on the waterways of Holland, Keeshonden are highly intelligent and easy to train. However, this intelligence means they can have a mind of their own, and they will find creative solutions if you try to block them from something they want, like their favorite sofa. Positive reinforcement training, which rewards good behavior, is necessary for their gentle, sensitive personality.\u003C/span\u003E\r\n\r\n\u003Cspan data-preserver-spaces=\"true\"\u003EThanks to their history as a watchdog, your Keeshond will likely bark—loudly—but more as an alert or a welcome when someone visits. (Woohoo! Guests are here!) They aren't exactly guard dogs and might end up covering an intruder with kisses.\u003C/span\u003E",
+        "h2_how_to_care_for_a_breed": "Keeshonden are medium-maintenance pups. While you will spend oodles of time caring for that luscious double coat (consisting of a thick, downy undercoat and heavier topcoat), they only need a little time spent in exercise or training. Read on for more Keeshond 101.",
+        "grooming": "\u003Cspan data-preserver-spaces=\"true\"\u003EBeing as stylish as a Keeshond takes some work and time to maintain that glorious double coat. They need to be brushed with a broad&nbsp;\u003C/span\u003E\u003Ca class=\"editor-rtfLink\" href=\"https://www.chewy.com/f/dog-pin-brushes_c356_f70v83789\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-preserver-spaces=\"true\"\u003Epin head brush\u003C/span\u003E\u003C/a\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E&nbsp;every few days to keep their fur from matting and regular baths every four to six weeks. If you'd instead treat your Keeshond to a spa day (and maybe book one for yourself while you're at it), take them for monthly grooming, which includes a bath, an all-over light scissor trim and a blow dry.\u003C/span\u003E\r\n\r\n\u003Cspan data-preserver-spaces=\"true\"\u003EBut that's it. Keeshond fur shouldn't be cut short, buzzed with a razor or shaved, as their double coat serves as insulation, protecting them from the elements. It keeps Keeshonden warm in winter, and surprisingly, it also keeps them cool in summer.\u003C/span\u003E\r\n\r\n\u003Cspan data-preserver-spaces=\"true\"\u003ELike all breeds, they'll need monthly&nbsp;\u003C/span\u003E\u003Ca class=\"editor-rtfLink\" href=\"https://www.chewy.com/education/dog/health-and-wellness/guide-trimming-dogs-nails\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-preserver-spaces=\"true\"\u003Enail clipping\u003C/span\u003E\u003C/a\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E, \u003C/span\u003E\u003Ca class=\"editor-rtfLink\" href=\"https://www.chewy.com/education/dog/grooming/health-wellness-how-to-brush-your-dogs-teeth-live-to-tell-the-tale\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-preserver-spaces=\"true\"\u003Edaily teeth brushing\u003C/span\u003E\u003C/a\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E and daily coat brushing. They should have a professional dental cleaning with their vet at least once yearly. It's also important to check their ears for debris and any redness or swelling. If you notice anything, speak to your vet. If your vet recommends at-home cleaning, follow \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/how-do-you-clean-a-dogs-ears-follow-this-vet-approved-step-by-step-guide\"\u003Ethis step-by-step guide on how to clean dog ears\u003C/a\u003E.&nbsp;\u003C/span\u003E",
+        "training": "\u003Cspan data-preserver-spaces=\"true\"\u003EYou might think that a dog as floofy as a Keeshond would be all about their looks, but you'd be wrong—Keeshonden are as smart as they are gorgeous. Their intelligence, along with their curiosity and sensitive nature, makes for a breed that is relatively easy to train. While these dogs are medium-sized, remember that their smaller stature is not a reason to shortcut training. You'll need to work on basic commands (e.g., sit and stay), proper&nbsp;\u003C/span\u003E\u003Ca class=\"editor-rtfLink\" href=\"https://www.chewy.com/education/dog/training-and-behavior/leash-train-dog-2\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-preserver-spaces=\"true\"\u003Eleash walking manners\u003C/span\u003E\u003C/a\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E, and other skills specific to your home or family, such as behaving with small children or getting along with the cat.\u003C/span\u003E\r\n\r\n\u003Cspan data-preserver-spaces=\"true\"\u003EAs with all dogs, early socialization and training is important. When they're a puppy, introduce your dog to many new people and situations to help them understand this is a normal part of life. Take them on walks and let them meet and sniff other dogs and people. Consider enrolling them in puppy school, where they'll learn to play nicely with other puppies and meet other pup parents all in one location.\u003C/span\u003E\r\n\r\n\u003Cspan data-preserver-spaces=\"true\"\u003EIt's also important to remember that Keeshonds often struggle with separation anxiety. So, setting them up for dealing with this is critical. Work on alone time for Keeshonden by doing it slowly, leaving for short periods frequently and praising them when they're quiet and well-behaved in your absence.\u003C/span\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E&nbsp;You must get this right, as an agitated Keeshond will bark frequently and fairly loudly, which is no fun for you, your family, or the neighbors.\u003C/span\u003E",
+        "diet_nutrition": "\u003Cspan data-preserver-spaces=\"true\"\u003EYour Keeshond will do well with good \u003C/span\u003E\u003Ca class=\"editor-rtfLink\" href=\"https://www.chewy.com/b/premium-food-11728\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-preserver-spaces=\"true\"\u003Equality dog food\u003C/span\u003E\u003C/a\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E designed for their age—senior, adult or puppy. Your veterinarian can help you nail down the exact type and amount of food your Keeshond needs. How much each individual dog eats will depend on their metabolism, age and energy levels. Like any dog, Keeshonden can be prone to weight gain if not fed properly.\u003C/span\u003E\r\n\r\n\u003Cspan data-preserver-spaces=\"true\"\u003EAnd don't forget about treats! Account for any yummy \u003C/span\u003E\u003Ca class=\"editor-rtfLink\" href=\"https://www.chewy.com/b/treats-335\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-preserver-spaces=\"true\"\u003Edog treats\u003C/span\u003E\u003C/a\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E your Keeshond gets during training sessions (or just because they're adorable)—those count toward their daily caloric intake as well.\u003C/span\u003E\r\n\r\n\u003Cspan data-preserver-spaces=\"true\"\u003EIf you have a Keeshond with allergies or coat problems, you may need to feed a special diet. Again, your vet is the best source of information on choosing the right diet and trying to eliminate any allergen or irritant that may be bothering your dog.\u003C/span\u003E",
+        "exercise": "\u003Cspan data-preserver-spaces=\"true\"\u003ESome days, you are all about the gym. Other days, \u003C/span\u003E\u003Cem\u003E\u003Cspan data-preserver-spaces=\"true\"\u003Ewellll\u003C/span\u003E\u003C/em\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E... not so much. And your Keeshond can relate. Some will love nothing more than playing outside with the kids and running constantly, while others are satisfied with a brief, speedy, daily walk. Whichever your Keeshond's preference for exercise, getting even the most dedicated couch potato Keeshond up and moving at least 30 minutes a day is best for their health and well-being and is vital to keep their weight in check.\u003C/span\u003E\r\n\r\n\u003Cspan data-preserver-spaces=\"true\"\u003EThis breed will adapt well to your exercise levels and preferences. Though most Keeshonden love a run, they aren't best suited to accompany marathon training. They can, however, hold their own at the dog park or on a hike most days.\u003C/span\u003E",
+        "ideal_environment": "Keeshonden make great apartment dwellers and excellent small-space dogs, provided their exercise needs are met. Though medium-sized, their predilection to snuggle with their humans makes them perfect for smaller homes. But remember, they're devoted family members and tend to struggle on their own, so they'll do best with pet parents who will be around often. If you'll be gone for long, take your pup to doggy daycare or arrange for a pet sitter or neighbor to come by and play with your pup.\r\n\r\nKeeshonden are ideal family pets and get along well with dog siblings and human children, as long as you teach little ones how to pet and handle them. You can successfully raise them with cats—if trained well, they'll respect a cat's boundaries.",
+        "h2_breed_health": "The Keeshond lifespan is 12 to 15 years. They are a generally healthy breed, although they do have a few health problems for pet parents to be aware of. These include:\r\n\u003Cul\u003E\r\n \t\u003Cli\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/c_dg_hip_dysplasia\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cstrong\u003EHip Dysplasia\u003C/strong\u003E\u003C/a\u003E: Hip dysplasia is a degenerative condition of the hip joint that typically gradually worsens and plagues many breeds, including the Keeshond. It can cause lameness, pain, and arthritis. Various treatments include weight management, joint supplements, laser therapy, acupuncture, pain medication, and, in severe cases, surgery.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/c_dg_elbow_dysplasia\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cstrong\u003EElbow Dysplasia\u003C/strong\u003E\u003C/a\u003E: Elbow dysplasia, similar to hip dysplasia, occurs when the elbow joint doesn’t form properly and rubs, causing the dog pain. A pup with elbow dysplasia may limp or seem to be in pain. Surgery is often recommended for elbow dysplasia.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/c_multi_patellar_luxation\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cstrong\u003EPatellar Luxation\u003C/strong\u003E\u003C/a\u003E: This is when a dog’s kneecap slips out of its patellar groove. Dogs will often skip for a couple of steps when walking, bunny hop, limp, or show other signs of being in pain. Depending on the severity, treatment options range from joint supplements and pain medications to surgery.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/cardiovascular/c_dg_tetralogy_of_fallot\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cstrong\u003ETetralogy of Fallot\u003C/strong\u003E\u003C/a\u003E: This is a congenital heart defect with symptoms that often include murmur, weakness, fainting, shortness of breath and blue gums or skin. If your vet detects a heart murmur, they will likely refer you to a veterinary cardiologist for an echocardiogram (ultrasound of the heart) to determine the underlying cause.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/endocrine/c_dg_hypothyroidism\"\u003E\u003Cstrong\u003EHypothyroidism\u003C/strong\u003E\u003C/a\u003E: This occurs when the thyroid doesn’t produce enough hormone. Symptoms include dry skin, hair loss and weight gain. Treatment is typically daily oral medication.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Cstrong\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/endocrine/c_dg_excess_parathyroid_hormone\" target=\"_blank\" rel=\"noopener\"\u003EHyperparathyroidism\u003C/a\u003E (PHPT)\u003C/strong\u003E: PHPT is an inherited disorder of the parathyroid glands that causes them to secrete excessive amounts of parathyroid hormones. This can lead to too much calcium in a dog’s bloodstream, which can damage the dog’s kidneys. In most cases, this occurs due to a tumor on the parathyroid glands, so treatment is surgery to remove the glands. There is a genetic screening test available so be sure to ask your breeder.\u003C/li\u003E\r\n\u003C/ul\u003E",
+        "h2_breed_history": "\u003Cspan data-preserver-spaces=\"true\"\u003EWorking-class villagers in the 18th century originally bred Keeshonden to be watchdogs for the barges that sailed along Holland's canals and rivers, earning them the name of Dutch Barge dogs. They developed this breed from the lineages of other Spitz breeds. Keeshonden were also known as Wolfspitzes in Germany.\u003C/span\u003E\r\n\r\n\u003Cspan data-preserver-spaces=\"true\"\u003ENamed after the 18th-century Dutch patriot Cornelis (Kees) de Gyselaer, leader of the Patriots Party and a rebellion against the ruling House of Orange, the breed became a symbol of that rebellion and of the patriots. Many owners abandoned the breed when the uprising failed to avoid being recognized as rebels. If it hadn't been for the peasants and farmers who kept their dogs, the breed may not have made it to America in the 1920s. The American Kennel Club recognized Keeshonden in 1930—the 85th recognized breed. Today, they are Holland's national dog.\u003C/span\u003E\r\n\r\n\u003Cspan data-preserver-spaces=\"true\"\u003ESo, where is the best place to find a Keeshond puppy? You can find a list of reputable Keeshond breeders on the \u003C/span\u003E\u003Ca class=\"editor-rtfLink\" href=\"https://marketplace.akc.org/puppies/keeshond?\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-preserver-spaces=\"true\"\u003EAmerican Kennel Club's website\u003C/span\u003E\u003C/a\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E. Depending on the breeder, the average cost of a Keeshond puppy is between $2,000 to $2,500, and for that, you usually get a dog screened for health and temperament issues that might even come with pedigree papers. You can also reach out to a Keeshond rescue organization, keep an eye out for the breed at your local animal shelter, or \u003Ca href=\"https://www.chewy.com/g/dog-keeshond_ga1\" target=\"_blank\" rel=\"noopener\"\u003Esearch Chewy’s database of adoptable dogs\u003C/a\u003E in your area. \u003C/span\u003E",
+        "expert_attribution": "\u003Ci\u003EExpert input provided by Sarah Wooten, DVM, CVJ at \u003Ca href=\"https://www.pumpkin.care/\"\u003EPumpkinCare\u003C/a\u003E and Alex Smith, a trainer at the \u003Ca href=\"https://thepositivepuppytrainer.co.uk/\"\u003EPositive Puppy Trainer\u003C/a\u003E.\u003C/i\u003E\r\n\r\n\u003Cem\u003EBreed characteristic ratings provided by Dr. Sarah J. Wooten, DVM, CVJ, a veterinarian at \u003Ca href=\"https://sheepdraw.com/\" target=\"_blank\" rel=\"noopener\"\u003ESheep Draw Veterinary Hospital\u003C/a\u003E in Greeley, Colorado; dog trainer and behavior consultant Irith Bloom, CPDT-KSA, CBCC-KA, CDBC, owner of \u003Ca href=\"https://thesophisticateddog.com/\" target=\"_blank\" rel=\"noopener\"\u003EThe Sophisticated Dog, LLC\u003C/a\u003E, in Los Angeles; and certified animal behavior consultant \u003Ca href=\"https://shojai.com/\" target=\"_blank\" rel=\"noopener\"\u003EAmy Shojai\u003C/a\u003E, CABC, in Sherman, Texas.\u003C/em\u003E\r\n\r\n\u003Cem\u003EThe health content was medically reviewed by Chewy vets.\u003C/em\u003E",
+        "facebook_social_snippet_with_cta": "\u003Cp\u003ELooking to welcome a Keeshond to your home? Pronounced kayz-hawnd, these pups once watched the barges on the waterways of Holland and were called Dutch Barge Dogs. Today, these easy-to-train, intelligent and sensitive people-pleasers make them excellent family pets. Find out more here.\u003C/p\u003E",
+        "species": "\u003Cp\u003EDog\u003C/p\u003E",
+        "h2_faqs": "\u003Ch3\u003EAre Keeshonden hypoallergenic?\u003C/h3\u003E\r\nNo, Keeshonden aren't hypoallergenic. The breed sheds heavily (blows their coats) twice annually in the spring and fall. People allergic to dogs would likely be allergic to them, especially when they shed.\r\n\u003Ch3\u003EDo Keeshonden bark a lot\u003C/h3\u003E\r\nWhat is a lot? Keeshonden can bark loudly and have a high-pitched bark, but with good training, they needn't be frequent barkers. Their reputation for not loving alone time and developing separation anxiety, where dogs may bark out of fear and anxiousness, has given them a rep for barkiness. It's important to remember that while you can train your pup to know when it's OK to bark, you'll never train the instinct entirely out of the breed.\r\n\u003Ch3\u003EAre Keeshonden rare or extinct?\u003C/h3\u003E\r\nNo, Keeshonden aren't extinct. They're not a common breed, and many people have never heard of them; however, despite previous threats to their existence, they have survived and thrived.\r\n\u003Ch3\u003EAre Keeshonden good family dogs?\u003C/h3\u003E\r\nYes. Keeshonden make wonderful family dogs. They are a smart, loyal and playful breed that tends to do well with children and other dogs.\r\n\u003Ch3\u003EAre Keeshonden aggressive?\u003C/h3\u003E\r\nNo. Keeshonden aren't aggressive. This breed is mild-mannered, typically well-behaved, sensitive and gentle. They are welcoming to visitors and usually have very low aggressive tendencies.\r\n\u003Ch3\u003EWhat are the most common Keeshond mixes?\u003C/h3\u003E\r\n\u003Cul\u003E\r\n \t\u003Cli\u003E\u003Cspan data-preserver-spaces=\"true\"\u003EKeeshond-Husky mix\u003C/span\u003E\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Cspan data-preserver-spaces=\"true\"\u003EKeeshond-Pomeranian mix\u003C/span\u003E\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Cspan data-preserver-spaces=\"true\"\u003EKeeshond-Poodle mix\u003C/span\u003E\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Cspan data-preserver-spaces=\"true\"\u003EKeeshond-Collie mix\u003C/span\u003E\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Cspan data-preserver-spaces=\"true\"\u003EKeeshond-German Shepherd mix\u003C/span\u003E\u003C/li\u003E\r\n\u003C/ul\u003E",
+        "faq_items": [
+          {
+            "faq_title": "Are Keeshonden hypoallergenic?",
+            "faq_content": "No, Keeshonden aren't hypoallergenic. The breed sheds heavily (blows their coats) twice annually in the spring and fall. People allergic to dogs would likely be allergic to them, especially when they shed."
+          },
+          {
+            "faq_title": "Do Keeshonden bark a lot",
+            "faq_content": "What is a lot? Keeshonden can bark loudly and have a high-pitched bark, but with good training, they needn't be frequent barkers. Their reputation for not loving alone time and developing separation anxiety, where dogs may bark out of fear and anxiousness, has given them a rep for barkiness. It's important to remember that while you can train your pup to know when it's OK to bark, you'll never train the instinct entirely out of the breed."
+          },
+          {
+            "faq_title": "Are Keeshonden rare or extinct?",
+            "faq_content": "No, Keeshonden aren't extinct. They're not a common breed, and many people have never heard of them; however, despite previous threats to their existence, they have survived and thrived."
+          },
+          {
+            "faq_title": "Are Keeshonden good family dogs?",
+            "faq_content": "Yes. Keeshonden make wonderful family dogs. They are a smart, loyal and playful breed that tends to do well with children and other dogs."
+          },
+          {
+            "faq_title": "Are Keeshonden aggressive?",
+            "faq_content": "No. Keeshonden aren't aggressive. This breed is mild-mannered, typically well-behaved, sensitive and gentle. They are welcoming to visitors and usually have very low aggressive tendencies."
+          },
+          {
+            "faq_title": "What are the most common Keeshond mixes?",
+            "faq_content": "\u003Cul\u003E\r\n \t\u003Cli\u003E\u003Cspan data-preserver-spaces=\"true\"\u003EKeeshond-Husky mix\u003C/span\u003E\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Cspan data-preserver-spaces=\"true\"\u003EKeeshond-Pomeranian mix\u003C/span\u003E\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Cspan data-preserver-spaces=\"true\"\u003EKeeshond-Poodle mix\u003C/span\u003E\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Cspan data-preserver-spaces=\"true\"\u003EKeeshond-Collie mix\u003C/span\u003E\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Cspan data-preserver-spaces=\"true\"\u003EKeeshond-German Shepherd mix\u003C/span\u003E\u003C/li\u003E\r\n\u003C/ul\u003E"
+          }
+        ],
+        "select_related_breeds": [
+          {
+            "selected_related_breed": 1315,
+            "characteristic": "breed_characteristics_physical_appearance"
+          },
+          {
+            "selected_related_breed": 34,
+            "characteristic": "breed_characteristics_good_with_kids"
+          },
+          {
+            "selected_related_breed": 1315,
+            "characteristic": "breed_characteristics_shedding_level"
+          },
+          {
+            "selected_related_breed": 209,
+            "characteristic": "breed_characteristics_exercise_needs"
+          },
+          {
+            "selected_related_breed": 218,
+            "characteristic": "breed_characteristics_good_with_other_dogs"
+          },
+          {
+            "selected_related_breed": 57,
+            "characteristic": "breed_characteristics_sensitive_to_cold_weather"
+          }
+        ],
+        "enable_featured_gallery": [
+          "enable_featured_gallery"
+        ],
+        "featured_gallery_images": [117, 118, 119, 120, 121]
+      },
+      "yoast_head": "\u003C!-- This site is optimized with the Yoast SEO plugin v23.8 - https://yoast.com/wordpress/plugins/seo/ --\u003E\n\u003Ctitle\u003EKeeshond Breed: Characteristics, Care &amp; Photos | Chewy\u003C/title\u003E\n\u003Cmeta name=\"description\" content=\"The Keeshond is a smart, sensitive breed with a lion&#039;s mane and the penchant for cuddling. Find out more in our breed guide.\" /\u003E\n\u003Cmeta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" /\u003E\n\u003Clink rel=\"canonical\" href=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/keeshond/\" /\u003E\n\u003Cmeta property=\"og:locale\" content=\"en_US\" /\u003E\n\u003Cmeta property=\"og:type\" content=\"article\" /\u003E\n\u003Cmeta property=\"og:title\" content=\"Keeshond Breed: Characteristics, Care &amp; Photos | Chewy\" /\u003E\n\u003Cmeta property=\"og:description\" content=\"The Keeshond is a smart, sensitive breed with a lion&#039;s mane and the penchant for cuddling. Find out more in our breed guide.\" /\u003E\n\u003Cmeta property=\"og:url\" content=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/keeshond/\" /\u003E\n\u003Cmeta property=\"og:site_name\" content=\"Chewy\" /\u003E\n\u003Cmeta property=\"article:modified_time\" content=\"2025-05-05T14:21:00+00:00\" /\u003E\n\u003Cmeta property=\"og:image\" content=\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11162108/202107Keeshond-FeaturedImage.jpg\" /\u003E\n\t\u003Cmeta property=\"og:image:width\" content=\"1440\" /\u003E\n\t\u003Cmeta property=\"og:image:height\" content=\"865\" /\u003E\n\t\u003Cmeta property=\"og:image:type\" content=\"image/jpeg\" /\u003E\n\u003Cmeta name=\"twitter:card\" content=\"summary_large_image\" /\u003E\n\u003Cmeta name=\"twitter:label1\" content=\"Est. reading time\" /\u003E\n\t\u003Cmeta name=\"twitter:data1\" content=\"1 minute\" /\u003E\n\u003Cscript type=\"application/ld+json\" class=\"yoast-schema-graph\"\u003E{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/keeshond/\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/keeshond/\",\"name\":\"Keeshond Breed: Characteristics, Care & Photos | Chewy\",\"isPartOf\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/keeshond/#primaryimage\"},\"image\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/keeshond/#primaryimage\"},\"thumbnailUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11162108/202107Keeshond-FeaturedImage.jpg\",\"datePublished\":\"2021-07-16T07:49:57+00:00\",\"dateModified\":\"2025-05-05T14:21:00+00:00\",\"description\":\"The Keeshond is a smart, sensitive breed with a lion's mane and the penchant for cuddling. Find out more in our breed guide.\",\"breadcrumb\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/keeshond/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://phcms.hlth.prd.aws.chewy.cloud/breed/keeshond/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/keeshond/#primaryimage\",\"url\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11162108/202107Keeshond-FeaturedImage.jpg\",\"contentUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11162108/202107Keeshond-FeaturedImage.jpg\",\"width\":1440,\"height\":865},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/keeshond/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://phcms.hlth.prd.aws.chewy.cloud/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Keeshond\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/\",\"name\":\"Chewy\",\"description\":\"\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"}]}\u003C/script\u003E\n\u003C!-- / Yoast SEO plugin. --\u003E",
+      "yoast_head_json": {
+        "title": "Keeshond Breed: Characteristics, Care & Photos | Chewy",
+        "description": "The Keeshond is a smart, sensitive breed with a lion's mane and the penchant for cuddling. Find out more in our breed guide.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://phcms.hlth.prd.aws.chewy.cloud/breed/keeshond/",
+        "og_locale": "en_US",
+        "og_type": "article",
+        "og_title": "Keeshond Breed: Characteristics, Care & Photos | Chewy",
+        "og_description": "The Keeshond is a smart, sensitive breed with a lion's mane and the penchant for cuddling. Find out more in our breed guide.",
+        "og_url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/keeshond/",
+        "og_site_name": "Chewy",
+        "article_modified_time": "2025-05-05T14:21:00+00:00",
+        "og_image": [
+          {
+            "width": 1440,
+            "height": 865,
+            "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11162108/202107Keeshond-FeaturedImage.jpg",
+            "type": "image/jpeg"
+          }
+        ],
+        "twitter_card": "summary_large_image",
+        "twitter_misc": {
+          "Est. reading time": "1 minute"
+        },
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/keeshond/",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/keeshond/",
+              "name": "Keeshond Breed: Characteristics, Care & Photos | Chewy",
+              "isPartOf": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/keeshond/#primaryimage"
+              },
+              "image": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/keeshond/#primaryimage"
+              },
+              "thumbnailUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11162108/202107Keeshond-FeaturedImage.jpg",
+              "datePublished": "2021-07-16T07:49:57+00:00",
+              "dateModified": "2025-05-05T14:21:00+00:00",
+              "description": "The Keeshond is a smart, sensitive breed with a lion's mane and the penchant for cuddling. Find out more in our breed guide.",
+              "breadcrumb": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/keeshond/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://phcms.hlth.prd.aws.chewy.cloud/breed/keeshond/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/keeshond/#primaryimage",
+              "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11162108/202107Keeshond-FeaturedImage.jpg",
+              "contentUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11162108/202107Keeshond-FeaturedImage.jpg",
+              "width": 1440,
+              "height": 865
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/keeshond/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://phcms.hlth.prd.aws.chewy.cloud/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Keeshond"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/",
+              "name": "Chewy",
+              "description": "",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            }
+          ]
+        }
+      },
+      "yoast_meta": {
+        "yoast_wpseo_title": "",
+        "yoast_wpseo_metadesc": "",
+        "yoast_wpseo_canonical": ""
+      },
+      "_links": {
+        "self": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed/125",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/types/breed"
+          }
+        ],
+        "acf:attachment": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/121"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/120"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/119"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/118"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/117"
+          }
+        ],
+        "wp:featuredmedia": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/124"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media?parent=125"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "pet_type",
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/pet_type?post=125"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ]

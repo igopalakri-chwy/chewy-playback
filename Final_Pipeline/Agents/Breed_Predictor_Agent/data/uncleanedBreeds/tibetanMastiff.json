@@ -1,0 +1,337 @@
+[
+    {
+      "id": 1111,
+      "date": "2025-03-21T09:03:38",
+      "date_gmt": "2025-03-21T09:03:38",
+      "guid": {
+        "rendered": "https://haproxy.use1.lgcy.prd.aws.chewy.cloud/eks/ns/pet-health/pet-health-content-backend/breed/tibetan-mastiff/"
+      },
+      "modified": "2025-06-04T18:57:10",
+      "modified_gmt": "2025-06-04T18:57:10",
+      "slug": "tibetan-mastiff",
+      "status": "publish",
+      "type": "breed",
+      "link": "https://phcms.hlth.prd.aws.chewy.cloud/breed/tibetan-mastiff/",
+      "title": {
+        "rendered": "Tibetan Mastiff"
+      },
+      "featured_media": 4120,
+      "template": "",
+      "pet_type": [],
+      "class_list": [
+        "post-1111",
+        "breed",
+        "type-breed",
+        "status-publish",
+        "has-post-thumbnail",
+        "hentry"
+      ],
+      "acf": {
+        "breed_snapshot_best_for": "\u003Cp\u003EMajestic and aloof from afar, the giant Tibetan Mastiff will show you what a loving, loyal pup they can be once you earn their trust. These gentle souls are devoted companions who need room to roam and do best with experienced pet parents.\u003C/p\u003E",
+        "alt_image_text": "\u003Cp\u003ELearn about Tibetan Mastiff breed's history, characteristics, nutrition and more in our guide.\u003C/p\u003E",
+        "breed_intro": "\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EWe’re not saying that if you ran into a Tibetan Mastiff in the woods that you’d definitely mistake them for a four-legged Sasquatch, but it’s possible. At their largest, they can be 150 pounds or more, and they have floofy, shaggy mane that would make a lion jealous. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EBut they also have a loyalty that’s as heartwarming as they are massive. If you give them lots of outdoor space and \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/general-health/ways-to-keep-dog-mentally-stimulated\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Ementally stimulating tasks\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, they’ll be a true-blue friend.  \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E",
+        "breed_related_products_product_card_set": "",
+        "breed_snapshot_temperament": "\u003Cp\u003EBrainy, Introverted, Loyal\u003C/p\u003E",
+        "what_does_this_breed_look_like_weight": "\u003Cp\u003E70–150 pounds\u003C/p\u003E",
+        "what_does_this_breed_look_like_height": "\u003Cp\u003E24–28 inches\u003C/p\u003E",
+        "breed_snapshot_life_expectancy": "\u003Cp\u003E10–12 years\u003C/p\u003E",
+        "breed_snapshot_maintenance_level": "\u003Cp\u003EMedium\u003C/p\u003E",
+        "breed_characteristics_friendliness": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_snapshot_coat_color": "\u003Cp\u003EBlue Gray, Brown and Tan, Red Gold Sable, Blue Gray and Tan, Black, Black and Tan, Brown, Red Gold\u003C/p\u003E",
+        "breed_snapshot_shed_level": "\u003Cp\u003EMedium\u003C/p\u003E",
+        "in_article_video": null,
+        "breed_characteristics": "\u003Cp\u003EThese traits are rated on a scale of 1-5 with 1 being the lowest and 5 being the highest. Remember: Dogs are individuals, and not all dogs, even those of the same breed, will exhibit all the same qualities.\u003C/p\u003E",
+        "breed_characteristics_exercise_needs": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_health_issues": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_barking_tendencies": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_grooming_needs": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_shedding_level": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_training_needs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_kids": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_with_cats": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_good_for_apartments_small_homes": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_energy_level": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_with_other_dogs": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_playfulnesss": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_cold_weather": "\u003Cp\u003E1\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_warm_weather": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_for_first_time_parents": "\u003Cp\u003E1\u003C/p\u003E",
+        "how_do_i_look_card_image": 4122,
+        "what_does_this_breed_look_like": "\u003Cp\u003E\u003Cspan class=\"TextRun SCXW151045791 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"\u003E\u003Cspan class=\"NormalTextRun SCXW151045791 BCX4\"\u003EA Tibetan Mastiff’s\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW151045791 BCX4\"\u003E fluffy fur gives them a \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW151045791 BCX4\"\u003Ebearlike appearance\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW151045791 BCX4\"\u003E, and their thick mane lends a lion-\u003C/span\u003E\u003Cspan class=\"NormalTextRun SpellingErrorV2Themed SpellingErrorHighlight SCXW151045791 BCX4\"\u003Eesque\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW151045791 BCX4\"\u003E air to their noble nature. Their expressive eyes are wise and alert. \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW151045791 BCX4\"\u003EHovering around 28 inches\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW151045791 BCX4\"\u003E tall\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW151045791 BCX4\"\u003E, even the Tibetan Mastiff\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW151045791 BCX4\"\u003E’s\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW151045791 BCX4\"\u003E height is impressive. \u003C/span\u003E\u003C/span\u003E\u003Cspan class=\"EOP SCXW151045791 BCX4\" data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E",
+        "what_does_this_breed_look_like_ears": "\u003Cp\u003ETibetan Mastiff ears are medium-sized, V-shaped, and high on the head. They droop forward when relaxed and stand at attention when your pup is alert.\u003C/p\u003E",
+        "what_does_this_breed_look_like_eyes": "\u003Cp\u003ETibetan Mastiffs have watchful brown eyes, rimmed in black or dark gray. They’re almond-shaped and deep-set.\u003C/p\u003E",
+        "what_does_this_breed_look_like_nose": "\u003Cp\u003ETheir nose is broad and can be black, dark gray, or dark brown, depending on the coloring of the coat.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_length": "\u003Cp\u003ETibetan Mastiffs are double-coated with a thick topcoat of long, coarse, and straight hair. The hair is thicker on the neck and shoulders, especially on males, giving them a lovely mane.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_color": "\u003Cp\u003ETibetan Mastiff colors include black, brown, blue gray, tan, and red gold.\u003C/p\u003E",
+        "what_does_this_breed_look_like_tail": "\u003Cp\u003EThe Tibetan Mastiff tail is covered with a thick plume of feathered hair. It's usually carried high and curves over the back.\u003C/p\u003E",
+        "h2_breed_temperament": "\u003Cp\u003E\u003Cspan data-contrast=\"auto\"\u003ETibetan Mastiffs are introverts. They’re exceptionally loyal and adoring of their person (or family), but they tend to be wary of (or just completely ignore) strangers. They’ll probably think of you as their equal instead of as their pet parent, but they’re so smart and independent, they’re not exactly \u003C/span\u003E\u003Ci\u003E\u003Cspan data-contrast=\"auto\"\u003Ewrong\u003C/span\u003E\u003C/i\u003E\u003Cspan data-contrast=\"auto\"\u003E. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"auto\"\u003ELike all dogs, Tibetan Mastiffs require \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/positively-trained-puppy-socialization-dos-and-donts\"\u003E\u003Cspan data-contrast=\"none\"\u003Eproper socialization\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E from the time they’re a puppy (or as early as possible, if you adopt them when they’re older). With safe and supervised exposure to different people, pets, and situations, they’ll be more adaptable.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"auto\"\u003ETibetan Mastiff puppies can be taught to get along well with children and other pets when raised with them. But as adults, they may be less accepting of new dogs or other people’s children, even with socialization. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"auto\"\u003EBecause their sheer size, it’s a good idea to supervise all Tibetans around young children, cats, or small dogs. Teach all children how to \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/general-health/how-to-teach-kids-to-interact-with-pets\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Einteract gently and respectfully with dogs\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"auto\"\u003EThese dogs typically won’t love \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/dog-agility-training-tips\"\u003E\u003Cspan data-contrast=\"none\"\u003Eagility trials\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E or anything else where speed comes into play. They’re happiest when they have their own little world to look after—give them a yard with room to roam and their own little paradise to “supervise,” and they’ll be thrilled. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E",
+        "h2_how_to_care_for_a_breed": "\u003Cp\u003E\u003Cspan class=\"TextRun SCXW190582707 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\u003E\u003Cspan class=\"NormalTextRun SCXW190582707 BCX4\"\u003EDespite all their fur, the\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW190582707 BCX4\"\u003E Tibetan Mastiff is not as \u003C/span\u003E\u003Cspan class=\"NormalTextRun ContextualSpellingAndGrammarErrorV2Themed SCXW190582707 BCX4\"\u003Ehigh\u003C/span\u003E\u003Cspan class=\"NormalTextRun ContextualSpellingAndGrammarErrorV2Themed SCXW190582707 BCX4\"\u003E-\u003C/span\u003E\u003Cspan class=\"NormalTextRun ContextualSpellingAndGrammarErrorV2Themed SCXW190582707 BCX4\"\u003Emaintenance\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW190582707 BCX4\"\u003E as you might think. They \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW190582707 BCX4\"\u003Edon’t\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW190582707 BCX4\"\u003E need a lot of grooming or exercise, \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW190582707 BCX4\"\u003Ebut\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW190582707 BCX4\"\u003E they do need work \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW190582707 BCX4\"\u003Eto keep\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW190582707 BCX4\"\u003E them well-socialized\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW190582707 BCX4\"\u003E and \u003C/span\u003E\u003Cspan class=\"NormalTextRun ContextualSpellingAndGrammarErrorV2Themed SCXW190582707 BCX4\"\u003Egood\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW190582707 BCX4\"\u003E-mannered\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW190582707 BCX4\"\u003E.\u003C/span\u003E\u003C/span\u003E\u003Cspan class=\"EOP SCXW190582707 BCX4\" data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E",
+        "grooming": "\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EThe Tibetan Mastiff is a no-fuss pup.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cul\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EBathing:\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E Their coats are good at repelling dirt, so they don’t \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/grooming/how-to-bathe-a-dog-step-by-step-tips-from-a-professional-groomer\"\u003E\u003Cspan data-contrast=\"none\"\u003Eneed a bath\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E more than once a month. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EBrushing:\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E Every spring, Tibetan Mastiffs blow their undercoats (where they shed chunks of hair, instead of individual strands) and will need to be worked over with an \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/f/rake-dog-brushes-combs_c356_f70v83790\"\u003E\u003Cspan data-contrast=\"none\"\u003Eundercoat rake\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E. The rest of the year, weekly brushing with a \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/f/dog-pin-brushes_c356_f70v83789\"\u003E\u003Cspan data-contrast=\"none\"\u003Epin brush\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E or \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/f/slicker-brush-dog-brushes-combs_c356_f70v83792\"\u003E\u003Cspan data-contrast=\"none\"\u003Eslicker brush\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E is enough to keep their moderate shedding under control and keep their fur from matting. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EDental care: \u003C/span\u003E\u003C/b\u003E\u003Ca href=\"https://www.chewy.com/education/dog/grooming/health-wellness-how-to-brush-your-dogs-teeth-live-to-tell-the-tale\"\u003E\u003Cspan data-contrast=\"none\"\u003EBrush your Tibetan Mastiff’s teeth\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E daily. Start when they’re a puppy, if possible, so they get used to the routine. \u003C/span\u003E\u003Cspan data-contrast=\"auto\"\u003ERegular brushing, \u003C/span\u003E\u003Cspan data-contrast=\"none\"\u003Ecombined with \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/b/dental-treats-1539\"\u003E\u003Cspan data-contrast=\"none\"\u003Edental treats\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/vetradent-dog-cat-dental-water/dp/1180350\"\u003E\u003Cspan data-contrast=\"none\"\u003Ewater additives\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, and other \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/vet-verified/best-dog-toothbrushes-and-dental-tools\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Edental health tools\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, can help prevent \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/cat/health-and-wellness/dental-disease-in-dogs\"\u003E\u003Cspan data-contrast=\"none\"\u003Etooth and gum disease\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E. See your vet once a year for a \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/care/how-much-does-dog-teeth-cleaning-cost\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Epro teeth cleaning\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EEar care:\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E Once a month, check for debris in the ear canal, and examine the ears for \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/dog-ear-infection\"\u003E\u003Cspan data-contrast=\"none\"\u003Esigns of infection\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, such as redness, swelling, or any bad smell. Call your vet if you notice anything.\u003C/span\u003E\r\n\u003Cul\u003E\r\n\t\u003Cli\u003E\u003Cspan data-contrast=\"none\"\u003EYour vet may recommend \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/how-do-you-clean-a-dogs-ears-follow-this-vet-approved-step-by-step-guide\"\u003E\u003Cspan data-contrast=\"none\"\u003Eat-home ear cleaning\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E. You can wipe the inside and outside of the ears with a damp cloth or \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/b/wipes-2437\"\u003E\u003Cspan data-contrast=\"none\"\u003Eear wipes\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, taking care to avoid the ear canal.\u003C/span\u003E\u003C/li\u003E\r\n\u003C/ul\u003E\r\n\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003ENail care:\u003C/span\u003E\u003C/b\u003E \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/guide-trimming-dogs-nails\"\u003E\u003Cspan data-contrast=\"none\"\u003ENails need trimming\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E once or twice a month. You’ll know it’s time for a trim when you hear them tapping on hard surfaces as your dog walks by.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\u003C/ul\u003E",
+        "training": "\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EThe Tibetan Mastiff is one smart cookie, but they also think very independently and tend to follow their own instincts when it comes to training, so you’ll have to earn their trust. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EThis pup needs a leader who’s patient and consistent; use \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/behavior/how-to-train-a-dog-with-positive-reinforcement\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Epositive reinforcement training\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E to \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/b/toys-315\"\u003E\u003Cspan data-contrast=\"none\"\u003Ereward your dog with toys\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/b/training-treats-1550\"\u003E\u003Cspan data-contrast=\"none\"\u003Etreats\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, and praise for good behavior. You may need to experiment to find a reward that will get them excited enough to pay attention to you. (As much as they love you, they have their own minds and opinions about the world.)\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003ESocialize your Tibetan Mastiff puppy from the time you bring them home (or as early as possible if you adopt), safely exposing them to as many new people, children, animals, and environments as you can. You’ll want to continue socializing their whole life to keep them engaged with the world, as these loyal souls tend to be naturally introverted. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003ETibetan Mastiffs do best with experienced pet parents who can instill these dogs with good manners. Enlisting the help of a \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/find-a-dog-trainer\"\u003E\u003Cspan data-contrast=\"none\"\u003Ecertified dog trainer\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E may be a good idea, too.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E",
+        "diet_nutrition": "\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EThe Tibetan Mastiff typically does well on a high-quality commercial dog food that’s complete and balanced. \u003C/span\u003E\u003Cspan data-contrast=\"auto\"\u003EChoose a diet that’s \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/nutrition/What-Is-AAFCO-and-What-Does-It-Do\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003EAAFCO-compliant\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E for your dog’s life stage (\u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/vet-verified/best-food-large-breed-puppies\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Epuppy\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E, \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/vet-verified/best-dog-food\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Eadult\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E, or \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/vet-verified/best-senior-dog-food\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Esenior\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E). Pick a large-breed formula, which supports the bones and joints of dogs the Tibetan Mastiff’s size. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"auto\"\u003EBecause Tibetan Mastiffs can develop a life-threatening health issue called GDV (more on that later), take these precautions during mealtimes: \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cul\u003E\r\n\t\u003Cli\u003E\u003Cspan data-contrast=\"auto\"\u003EFeed your dog multiple daily meals—\u003C/span\u003E\u003Cb\u003E\u003Cspan data-contrast=\"auto\"\u003Enot\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"auto\"\u003E one big daily meal.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cspan data-contrast=\"auto\"\u003EDon’t let your dog exercise for an hour before or after eating.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cspan data-contrast=\"auto\"\u003EOffer your Tibetan Mastiff food in \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/b/slow-feeders-1424\"\u003E\u003Cspan data-contrast=\"none\"\u003Eslow feeder bowls\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E, \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/frisco-pizza-snuffle-mat-yellow/dp/393326\"\u003E\u003Cspan data-contrast=\"none\"\u003Esnuffle mats\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E, or \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/nina-ottosson-by-outward-hound-brick/dp/961006\"\u003E\u003Cspan data-contrast=\"none\"\u003Epuzzle toys\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E. This slows down how quickly they scarf. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cspan data-contrast=\"auto\"\u003EAvoid using raised food bowls, which may increase the risk of GDV. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\u003C/ul\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003ESupplements or treats containing \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/b/hip-joint-1568\"\u003E\u003Cspan data-contrast=\"none\"\u003Eglucosamine, chondroitin, and fish oils\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E can also help protect your dog’s joint health as they age. Ask your veterinarian if your Tibetan Mastiff would benefit from these supplements. Your vet can also help you determine the best food and diet, including \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/food-and-nutrition/how-much-food-to-feed-my-dog\"\u003E\u003Cspan data-contrast=\"none\"\u003Eserving size and feeding schedule\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, based on your dog’s age, weight, and activity level.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EAs with any dog, make sure your Tibetan Mastiff doesn’t gain extra weight, as obesity can have a negative effect on their body and joints. Only give a moderate amount of extra goodies; treats shouldn’t make up more than 10% of your dog’s daily calories. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E",
+        "exercise": "\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003ETibetan Mastiffs have a moderate energy level and need 20–30 minutes of daily exercise. Ideally, they’ll get this out in the yard, sniffing around the area in the morning and early evening, when they’re most active.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EIf you don’t have a lot of land, you’ll need to \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/walking-with-dog\"\u003E\u003Cspan data-contrast=\"none\"\u003Etake them on walks\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E during these times of day. Allow them to rest in the middle of the day, especially during the warmer months, where \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/how-to-cool-down-a-dog-overheating\"\u003E\u003Cspan data-contrast=\"none\"\u003Eoverheating\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E is a serious risk.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EThese strong-minded pups won’t always come when you call and (given their introverted personalities) they might not be a natural bestie for other canines, so taking them to a dog park or allowing them to go off-leash aren’t good ideas. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EThese unique pups also might not be into structured games as much as other dogs. Don’t be surprised if they’re not fascinated by fetch—they’re already busy surveying the land. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E",
+        "ideal_environment": "\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EThe ideal home for a Tibetan Mastiff has lots of acres to wander. At minimum, they need a large fenced yard. They do great in colder climates and higher altitudes and may be less active in warmer climates, especially during the hottest parts of the day.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003ETibetan Mastiffs aren’t a great fit for first-time pet parents. In fact, these dogs need an experienced person who has the time and energy for daily \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/sit-stay-and-beyond-weve-got-the-essential-guide-to-basic-dog-obedience-training\"\u003E\u003Cspan data-contrast=\"none\"\u003Eobedience training\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E and socialization—both are consistently necessary to help your pup live their best life.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EWith proper socialization, Tibetan Mastiffs can get along well with kids and other pets, especially if they’re raised with them. But due to their sheer size and strength, they should always be supervised when meeting and playing with others. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003ENote that these reserved souls appreciate a calm environment. Children who are loud and rambunctious may startle your dog and won’t be the best companions. Tibetan Mastiffs are also generally not a great fit for homes with cats or tiny dogs. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EA properly socialized Tibetan Mastiff will tolerate the presence of people and dogs whom they don’t know well, but they tend to be aloof toward (and sometimes wary of) strangers. That just means more time to enjoy with their favorite person—you. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E",
+        "h2_breed_health": "\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EThe typical Tibetan Mastiff lifespan is 10–12 years, and they don’t tend to have a lot of health issues. Here are some that may pop up: \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cul\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"auto\"\u003EBloat and gastric dilatation-volvulus (GDV):\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"auto\"\u003E Tibetan Mastiffs, like many large breeds, are prone to a \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/bloat-in-dogs\"\u003E\u003Cspan data-contrast=\"none\"\u003Elife-threatening condition called bloat\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E  that occurs when the stomach becomes distended with air and/or food. Sometimes, the stomach twists and cuts off blood to organs in the abdomen—this is called \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/digestive/gastric-dilatation-volvulus-gdv-syndrome\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Egastric dilatation-volvulus\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E. \u003C/span\u003E\u003Cb\u003E\u003Cspan data-contrast=\"auto\"\u003EGo to the emergency vet immediately if you notice signs of bloat or GDV: a distended abdomen, dry heaving, pacing and restlessness, and excessive drooling.\u003C/span\u003E\u003C/b\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:240}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EEye issues: \u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003ETibetan Mastiffs are prone to both \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/eyes/c_multi_entropion\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Eentropion\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, in which the eyelid folds inward, and ectropion,\u003C/span\u003E\u003Cspan data-contrast=\"auto\"\u003E which causes the lower lid to fold outward. \u003C/span\u003E\u003Cspan data-contrast=\"none\"\u003EThese conditions don’t usually affect vision, but they can cause irritation, discomfort, and (in severe cases) cornea damage. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:240}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"auto\"\u003EHip and elbow dysplasia:\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"auto\"\u003E Common in large breeds, dysplasia is where the joints don’t fit together properly, whether it’s the \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/hip-dysplasia-in-dogs\"\u003E\u003Cspan data-contrast=\"none\"\u003Ehip\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E or \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/elbow-dysplasia-in-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Eelbow\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E. Treatment may include weight management, \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/vet-verified/best-joint-supplements-for-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Ejoint supplements\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E, pain medication, \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/cat/health-and-wellness/animal-physical-therapy-for-your-pet\"\u003E\u003Cspan data-contrast=\"none\"\u003Ephysical therapy\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E, or surgery.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:240}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"auto\"\u003EHypothyroidism\u003C/span\u003E\u003C/b\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003E:\u003C/span\u003E\u003C/b\u003E \u003Ca href=\"https://www.petmd.com/dog/conditions/endocrine/c_dg_hypothyroidism\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003EHypothyroidism\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E is an endocrine disorder\u003C/span\u003E\u003Cspan data-contrast=\"none\"\u003E where the thyroid gland does not produce enough thyroid hormone. Symptoms include weight gain, \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/symptoms/lethargy-in-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Elethargy\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, and chronic ear and skin infections. Low thyroid is typically easily managed with daily lifelong medication.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\u003C/ul\u003E",
+        "h2_breed_history": "\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003ETibetan Mastiffs are an ancient breed from the mountains of Central Asia. But despite their ancient origins (records of large guardian dogs date back to 1100 B.C.E. China), very little is known about their history, according to the \u003C/span\u003E\u003Ca href=\"https://www.tibetanmastiff.org/brief-history.html\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003EAmerican Tibetan Mastiff Association\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EWhat is known is that in 1800, an English ship captain’s travel memoirs mentioned “huge” guardian dogs at the monasteries in Tibet. The first such dog was brought to England in 1847 and presented to Queen Victoria as a gift. A few decades later, in 1873, the breed officially entered England’s new Kennel Club as the Tibetan Mastiff. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EThe following year, the Prince of Wales brought two more of them to England, where they were eventually a part of the Alexandra Palace Show.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EThe American Kennel Club didn’t recognize this breed until 2007. But nowadays, you’d be much likelier to find one of these pups in the U.S. than you would in Tibet.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003ETibetan Mastiffs cost anywhere from $2,500 to $3,500. \u003C/span\u003E\u003Cspan data-contrast=\"auto\"\u003EIf you choose this route, \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/how-to-find-ethical-reputable-responsible-breeder\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Epick a responsible breeder\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EYou can also consider Tibetan Mastiff adoption. Look into a organizations like \u003C/span\u003E\u003Ca href=\"https://www.tibetanmastiffrescueinc.org/how_to_adopt_tibetan_mastiff_rescue.html\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003ETibetan Mastiff Rescue\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, keep an eye out at your local shelter or rescue, or \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/g/dog-tibetan-mastiff_ga1\"\u003E\u003Cspan data-contrast=\"none\"\u003Esearch Chewy’s database of adoptable dogs\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E in your area.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E",
+        "expert_attribution": "\u003Cp\u003E\u003Cem\u003E\u003Cspan class=\"TextRun SCXW229241818 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\u003E\u003Cspan class=\"NormalTextRun SCXW229241818 BCX4\"\u003EThis content was medically reviewed by Barri Morrison, DVM, Chewy veterinarian.\u003C/span\u003E\u003C/span\u003E\u003C/em\u003E\u003C/p\u003E",
+        "facebook_social_snippet_with_cta": "\u003Cp\u003ELooking for a fierce and intelligent guard dog to ward off predators but is happy to take breaks for occasional cuddles? Look no further than the Tibetan Mastiff. Learn all about these loyal guardians and whether this is the best breed for you.\u003C/p\u003E",
+        "species": "\u003Cp\u003EDog\u003C/p\u003E",
+        "h2_faqs": "",
+        "faq_items": [
+          {
+            "faq_title": "Do Tibetan Mastiffs shed? ",
+            "faq_content": "\u003Cp\u003E\u003Cspan class=\"TextRun SCXW217030951 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"\u003E\u003Cspan class=\"NormalTextRun SCXW217030951 BCX4\"\u003EYes, Tibetan Mastiffs shed. They are moderate shedders throughout most of the year, but \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW217030951 BCX4\"\u003Eevery spring they blow their coat heavily. \u003C/span\u003E\u003C/span\u003E\u003Cspan class=\"EOP SCXW217030951 BCX4\" data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E"
+          },
+          {
+            "faq_title": "Are Tibetan Mastiffs good family dogs? ",
+            "faq_content": "\u003Cp\u003E\u003Cspan class=\"TextRun SCXW124411997 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"\u003E\u003Cspan class=\"NormalTextRun SCXW124411997 BCX4\"\u003ETibetan Mastiffs can be \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW124411997 BCX4\"\u003Egreat \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW124411997 BCX4\"\u003Efor the right family. With enough socialization, these dogs \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW124411997 BCX4\"\u003Ewill\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW124411997 BCX4\"\u003E fit in well \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW124411997 BCX4\"\u003Ewith \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW124411997 BCX4\"\u003Ea calm family\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW124411997 BCX4\"\u003E with older children. \u003C/span\u003E\u003C/span\u003E\u003Cspan class=\"EOP SCXW124411997 BCX4\" data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E"
+          },
+          {
+            "faq_title": "How much is a Tibetan Mastiff? ",
+            "faq_content": "\u003Cp\u003E\u003Cspan class=\"TextRun SCXW228257237 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"\u003E\u003Cspan class=\"NormalTextRun SCXW228257237 BCX4\"\u003EThe average Tibetan Mastiff dog price ranges from \u003C/span\u003E\u003C/span\u003E\u003Cspan class=\"TextRun SCXW228257237 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\u003E\u003Cspan class=\"NormalTextRun SCXW228257237 BCX4\"\u003E$2,500 to $3,500\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW228257237 BCX4\"\u003E, depending on several factors. \u003C/span\u003E\u003C/span\u003E\u003Cspan class=\"EOP SCXW228257237 BCX4\" data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E"
+          }
+        ],
+        "select_related_breeds": [
+          {
+            "selected_related_breed": 376,
+            "characteristic": "breed_characteristics_training_needs"
+          },
+          {
+            "selected_related_breed": 620,
+            "characteristic": "breed_characteristics_friendliness"
+          },
+          {
+            "selected_related_breed": 1165,
+            "characteristic": "breed_characteristics_sensitive_to_cold_weather"
+          },
+          {
+            "selected_related_breed": 1195,
+            "characteristic": "breed_characteristics_good_with_other_dogs"
+          },
+          {
+            "selected_related_breed": 1217,
+            "characteristic": "breed_characteristics_exercise_needs"
+          },
+          {
+            "selected_related_breed": 1393,
+            "characteristic": "breed_characteristics_good_for_first_time_parents"
+          }
+        ],
+        "enable_featured_gallery": [
+          "enable_featured_gallery"
+        ],
+        "featured_gallery_images": [1110, 1099, 1100, 1101, 1102, 1103, 1104, 1105, 1106, 1107]
+      },
+      "yoast_head": "\u003C!-- This site is optimized with the Yoast SEO plugin v23.8 - https://yoast.com/wordpress/plugins/seo/ --\u003E\n\u003Ctitle\u003ETibetan Mastiff Breed: Characteristics, Care &amp; Photos | Chewy\u003C/title\u003E\n\u003Cmeta name=\"description\" content=\"Learn the Tibetan Mastiff dog breed facts and information and discover the traits that make this breed unique in our complete Tibetan Mastiff guide.\" /\u003E\n\u003Cmeta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" /\u003E\n\u003Clink rel=\"canonical\" href=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/tibetan-mastiff/\" /\u003E\n\u003Cmeta property=\"og:locale\" content=\"en_US\" /\u003E\n\u003Cmeta property=\"og:type\" content=\"article\" /\u003E\n\u003Cmeta property=\"og:title\" content=\"Tibetan Mastiff Breed: Characteristics, Care &amp; Photos | Chewy\" /\u003E\n\u003Cmeta property=\"og:description\" content=\"Learn the Tibetan Mastiff dog breed facts and information and discover the traits that make this breed unique in our complete Tibetan Mastiff guide.\" /\u003E\n\u003Cmeta property=\"og:url\" content=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/tibetan-mastiff/\" /\u003E\n\u003Cmeta property=\"og:site_name\" content=\"Chewy\" /\u003E\n\u003Cmeta property=\"article:modified_time\" content=\"2025-06-04T18:57:10+00:00\" /\u003E\n\u003Cmeta property=\"og:image\" content=\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/03/21150648/Breed-Hero-Tibetan-Mastiff.jpg\" /\u003E\n\t\u003Cmeta property=\"og:image:width\" content=\"1835\" /\u003E\n\t\u003Cmeta property=\"og:image:height\" content=\"1032\" /\u003E\n\t\u003Cmeta property=\"og:image:type\" content=\"image/jpeg\" /\u003E\n\u003Cmeta name=\"twitter:card\" content=\"summary_large_image\" /\u003E\n\u003Cmeta name=\"twitter:label1\" content=\"Est. reading time\" /\u003E\n\t\u003Cmeta name=\"twitter:data1\" content=\"1 minute\" /\u003E\n\u003Cscript type=\"application/ld+json\" class=\"yoast-schema-graph\"\u003E{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/tibetan-mastiff/\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/tibetan-mastiff/\",\"name\":\"Tibetan Mastiff Breed: Characteristics, Care & Photos | Chewy\",\"isPartOf\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/tibetan-mastiff/#primaryimage\"},\"image\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/tibetan-mastiff/#primaryimage\"},\"thumbnailUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/03/21150648/Breed-Hero-Tibetan-Mastiff.jpg\",\"datePublished\":\"2025-03-21T09:03:38+00:00\",\"dateModified\":\"2025-06-04T18:57:10+00:00\",\"description\":\"Learn the Tibetan Mastiff dog breed facts and information and discover the traits that make this breed unique in our complete Tibetan Mastiff guide.\",\"breadcrumb\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/tibetan-mastiff/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://phcms.hlth.prd.aws.chewy.cloud/breed/tibetan-mastiff/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/tibetan-mastiff/#primaryimage\",\"url\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/03/21150648/Breed-Hero-Tibetan-Mastiff.jpg\",\"contentUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/03/21150648/Breed-Hero-Tibetan-Mastiff.jpg\",\"width\":1835,\"height\":1032,\"caption\":\"tricolor tibetan mastiff on an isolated blue background\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/tibetan-mastiff/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://phcms.hlth.prd.aws.chewy.cloud/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Tibetan Mastiff\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/\",\"name\":\"Chewy\",\"description\":\"\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"}]}\u003C/script\u003E\n\u003C!-- / Yoast SEO plugin. --\u003E",
+      "yoast_head_json": {
+        "title": "Tibetan Mastiff Breed: Characteristics, Care & Photos | Chewy",
+        "description": "Learn the Tibetan Mastiff dog breed facts and information and discover the traits that make this breed unique in our complete Tibetan Mastiff guide.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://phcms.hlth.prd.aws.chewy.cloud/breed/tibetan-mastiff/",
+        "og_locale": "en_US",
+        "og_type": "article",
+        "og_title": "Tibetan Mastiff Breed: Characteristics, Care & Photos | Chewy",
+        "og_description": "Learn the Tibetan Mastiff dog breed facts and information and discover the traits that make this breed unique in our complete Tibetan Mastiff guide.",
+        "og_url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/tibetan-mastiff/",
+        "og_site_name": "Chewy",
+        "article_modified_time": "2025-06-04T18:57:10+00:00",
+        "og_image": [
+          {
+            "width": 1835,
+            "height": 1032,
+            "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/03/21150648/Breed-Hero-Tibetan-Mastiff.jpg",
+            "type": "image/jpeg"
+          }
+        ],
+        "twitter_card": "summary_large_image",
+        "twitter_misc": {
+          "Est. reading time": "1 minute"
+        },
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/tibetan-mastiff/",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/tibetan-mastiff/",
+              "name": "Tibetan Mastiff Breed: Characteristics, Care & Photos | Chewy",
+              "isPartOf": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/tibetan-mastiff/#primaryimage"
+              },
+              "image": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/tibetan-mastiff/#primaryimage"
+              },
+              "thumbnailUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/03/21150648/Breed-Hero-Tibetan-Mastiff.jpg",
+              "datePublished": "2025-03-21T09:03:38+00:00",
+              "dateModified": "2025-06-04T18:57:10+00:00",
+              "description": "Learn the Tibetan Mastiff dog breed facts and information and discover the traits that make this breed unique in our complete Tibetan Mastiff guide.",
+              "breadcrumb": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/tibetan-mastiff/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://phcms.hlth.prd.aws.chewy.cloud/breed/tibetan-mastiff/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/tibetan-mastiff/#primaryimage",
+              "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/03/21150648/Breed-Hero-Tibetan-Mastiff.jpg",
+              "contentUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/03/21150648/Breed-Hero-Tibetan-Mastiff.jpg",
+              "width": 1835,
+              "height": 1032,
+              "caption": "tricolor tibetan mastiff on an isolated blue background"
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/tibetan-mastiff/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://phcms.hlth.prd.aws.chewy.cloud/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Tibetan Mastiff"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/",
+              "name": "Chewy",
+              "description": "",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            }
+          ]
+        }
+      },
+      "yoast_meta": {
+        "yoast_wpseo_title": "",
+        "yoast_wpseo_metadesc": "",
+        "yoast_wpseo_canonical": ""
+      },
+      "_links": {
+        "self": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed/1111",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/types/breed"
+          }
+        ],
+        "acf:attachment": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/1107"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/1106"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/1105"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/1104"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/1103"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/1102"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/1101"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/1100"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/1099"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/1110"
+          }
+        ],
+        "wp:featuredmedia": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/4120"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media?parent=1111"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "pet_type",
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/pet_type?post=1111"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ]

@@ -1,0 +1,317 @@
+[
+    {
+      "id": 25749,
+      "date": "2025-07-02T17:02:01",
+      "date_gmt": "2025-07-02T17:02:01",
+      "guid": {
+        "rendered": "https://phcms.hlth.prd.aws.chewy.cloud/?post_type=breed&#038;p=25749"
+      },
+      "modified": "2025-07-02T17:02:01",
+      "modified_gmt": "2025-07-02T17:02:01",
+      "slug": "sheepadoodle",
+      "status": "publish",
+      "type": "breed",
+      "link": "https://phcms.hlth.prd.aws.chewy.cloud/breed/sheepadoodle/",
+      "title": {
+        "rendered": "Sheepadoodle"
+      },
+      "featured_media": 25750,
+      "template": "",
+      "pet_type": [188],
+      "class_list": [
+        "post-25749",
+        "breed",
+        "type-breed",
+        "status-publish",
+        "has-post-thumbnail",
+        "hentry",
+        "pet_type-dog"
+      ],
+      "acf": {
+        "breed_snapshot_best_for": "\u003Cp\u003EThe Sheepadoodle—a mix of an Old English Sheepdog and a Poodle—doesn’t just bring together two of the most striking coats in the canine kingdom; the cross also combines two of the most beloved personalities. The result? An irresistibly furry and fun family dog with high play and grooming needs.\u003C/p\u003E",
+        "alt_image_text": "Portrait of a Sheepadoodle, an Old English Sheepdog and Poodle mix, on a blue background.",
+        "breed_intro": "\u003Cp\u003EIf you’ve ever wondered what it would be like to share your home with a living, breathing teddy bear, look no further than the Sheepadoodle, a fluffy \u003Ca href=\"https://www.chewy.com/education/dog-breeds/old-english-sheepdog\"\u003EOld English Sheepdog\u003C/a\u003E-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/poodle\"\u003EPoodle\u003C/a\u003E mix.\u003C/p\u003E\r\n\u003Cp\u003EThe Sheepadoodle’s long, wavy locks are easy on the eyes but not on the grooming routine, so expect to spend quality time \u003Ca href=\"https://be.chewy.com/brushing-a-dog/\"\u003Ebrushing your pup every day\u003C/a\u003E. If you’d like less coat to care for, you might prefer a Mini Sheepadoodle, which is a cross between an Old English Sheepdog and a \u003Ca href=\"https://www.chewy.com/education/dog-breeds/miniature-poodle\"\u003EMiniature Poodle\u003C/a\u003E. They offer all the perks of their standard-sized counterparts in a more compact companion.\u003C/p\u003E\r\n\u003Cp\u003EIn addition to sporting the cuddliest coat, Sheepadoodles have a mind and body built for play. You’ll need to schedule time for exercise, training, and \u003Ca href=\"https://www.petmd.com/dog/general-health/ways-to-keep-dog-mentally-stimulated\" target=\"_blank\" rel=\"noopener\"\u003Emental stimulation\u003C/a\u003E, too.\u003C/p\u003E",
+        "breed_related_products_product_card_set": "",
+        "breed_snapshot_temperament": "\u003Cp\u003EBrainy, Affectionate, Playful\u003C/p\u003E",
+        "what_does_this_breed_look_like_weight": "\u003Cp\u003EStandard: 65–85 pounds\u003C/p\u003E\u003Cp\u003EMiniature: 25–45 pounds\u003C/p\u003E",
+        "what_does_this_breed_look_like_height": "\u003Cp\u003EStandard: 16–22 inches\u003C/p\u003E\u003Cp\u003EMiniature: 15–20 inches\u003C/p\u003E",
+        "breed_snapshot_life_expectancy": "\u003Cp\u003E12–15 years\u003C/p\u003E",
+        "breed_snapshot_maintenance_level": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_friendliness": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_snapshot_coat_color": "\u003Cp\u003EBlack, Blue, Cream, Gray, White\u003C/p\u003E",
+        "breed_snapshot_shed_level": "\u003Cp\u003E3\u003C/p\u003E",
+        "in_article_video": null,
+        "breed_characteristics": "",
+        "breed_characteristics_exercise_needs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_health_issues": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_barking_tendencies": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_grooming_needs": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_shedding_level": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_training_needs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_kids": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_with_cats": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_for_apartments_small_homes": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_energy_level": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_other_dogs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_playfulnesss": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_cold_weather": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_warm_weather": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_for_first_time_parents": "\u003Cp\u003E2\u003C/p\u003E",
+        "how_do_i_look_card_image": 25751,
+        "what_does_this_breed_look_like": "\u003Cp\u003EBecause Sheepadoodles don’t have a breed standard, their appearance is less predictable than other established dog breeds. But they typically have long, thick, wavy fur with a black-and-white pattern, like an Old English Sheepdog with a perm.\u003C/p\u003E\r\n\u003Cp\u003EThis fur tends to extend to a Sheepadoodle’s endearingly floppy ears and often obscures their dark, friendly eyes. But regular grooming visits (and using hair ties) can help improve their vision!\u003C/p\u003E",
+        "what_does_this_breed_look_like_ears": "\u003Cp\u003ESheepadoodle ears hang long and loose.\u003C/p\u003E",
+        "what_does_this_breed_look_like_eyes": "\u003Cp\u003ESheepadoodles have warm, dark eyes that exude friendliness—that is, if you can see them behind all that fur!\u003C/p\u003E",
+        "what_does_this_breed_look_like_nose": "\u003Cp\u003EThe Sheepadoodle’s large black nose provides plenty of boopable real estate.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_length": "\u003Cp\u003ETheir long, thick coat typically sheds less than that of an Old English Sheepdog, which can be better for people with allergies. (But some Sheepadoodles do shed!)\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_color": "\u003Cp\u003ESheepadoodles typically sport a black and white coat, like their Old English Sheepdog parent, but other coat colors like gray, blue, and cream are possible.\u003C/p\u003E",
+        "what_does_this_breed_look_like_tail": "\u003Cp\u003EThey may inherit a natural bobtail from their Old English Sheepdog parent or have a long tail.\u003C/p\u003E",
+        "h2_breed_temperament": "\u003Cp\u003EThe Sheepadoodle’s parent breeds were both bred to work, and their offspring have the wits, athleticism, energy, and training aptitude to prove it. However, that doesn’t mean they can’t excel as family pets, too—just be sure to give them a daily “job” (like \u003Ca href=\"https://be.chewy.com/how-much-exercise-does-my-dog-need/\"\u003Eexercise\u003C/a\u003E) and plenty of attention. \u003C/p\u003E\r\n\u003Cp\u003EEvery dog is different, but properly socialized and trained Sheepadoodles are every bit as fun and loving as they look. They’re quick to make friends with people of all ages, though very small children may not be ready for a dog of their size and zest. Sheepadoodles can even pal around with other pets—cats included. \u003C/p\u003E\r\n\u003Cp\u003EOnce your Sheepadoodle dog is good and worn out, you can expect a ready and willing cuddle partner who’s equipped with the perfect coat for maximum coziness.\u003C/p\u003E",
+        "h2_how_to_care_for_a_breed": "\u003Cp\u003ESheepadoodles are dogs with big hearts and big appetites for exercise. Both their body and their brain need a daily workout.\u003C/p\u003E\r\n\u003Cp\u003EThe Sheepadoodle’s thick, wavy coat is a work of art—emphasis on \u003Cem\u003Ework\u003C/em\u003E. But on the plus side, you couldn’t ask for a more lovable dog to groom. Your daily upkeep sessions will be one-on-one time well spent.\u003C/p\u003E",
+        "grooming": "\u003Cp\u003EWhile doodle mixes like the Sheepadoodle are often recommended to people with dog allergies as a \u003Ca href=\"https://www.chewy.com/education/dog/general/hypoallergenic-dogs\"\u003Ehypoallergenic pet\u003C/a\u003E, \u003Cstrong\u003Eno dog can truly claim that label\u003C/strong\u003E. And though Poodles shed very little, Old English Sheepdogs lose a lot of fur. So, there’s no guarantee that your Sheepadoodle won’t shed or make you sneeze.\u003C/p\u003E\r\n\u003Cp\u003EWhen considering a Sheepadoodle puppy, know that your grooming to-do list will include:\u003C/p\u003E\r\n\u003Cul\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003EBrushing: \u003C/strong\u003EOdds are high that your Sheepadoodle’s coat will be prone to matting, so prepare to provide daily brushing with a \u003Ca href=\"https://www.chewy.com/we-love-doodles-dog-slicker-brush/dp/1462350\"\u003Eslicker brush\u003C/a\u003E or \u003Ca href=\"https://www.chewy.com/frisco-cat-dog-pin-brush/dp/233461\"\u003Epin brush\u003C/a\u003E. However, regular visits to the groomer for shorter cuts can reduce the time you spend on hair care. \u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003EBathing: \u003C/strong\u003EHow often you \u003Ca href=\"https://www.chewy.com/education/dog/grooming/how-to-bathe-a-dog-step-by-step-tips-from-a-professional-groomer\"\u003Ebathe your dog\u003C/a\u003E depends on how they get their exercise (for example, brisk jogs on the sidewalk versus \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/dog-swimming-101\"\u003Eswimming in ponds\u003C/a\u003E), but keep in mind that overbathing can strip their skin of healthy oils. \u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003EEye care: \u003C/strong\u003EUse brushing and bathing sessions to check on your Sheepadoodle’s eyes. Reach out to your vet if you have any concerns.\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003ENail care: \u003C/strong\u003E\u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/guide-trimming-dogs-nails\"\u003ETrim your dog’s nails\u003C/a\u003E every month or so. If you can hear their claws clack as they walk, it’s time for maintenance.\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003EDental care: \u003C/strong\u003E\u003Ca href=\"https://www.chewy.com/education/dog/grooming/health-wellness-how-to-brush-your-dogs-teeth-live-to-tell-the-tale\"\u003EBrush your dog’s teeth\u003C/a\u003E every day using a \u003Ca href=\"https://www.chewy.com/virbac-cet-dual-ended-dog-cat/dp/42658\"\u003Edog-safe toothpaste and toothbrush\u003C/a\u003E. This is the best way to prevent \u003Ca href=\"https://be.chewy.com/dental-disease-in-dogs/\"\u003Edental disease\u003C/a\u003E.\u003C/li\u003E\r\n\u003C/ul\u003E\r\n\u003Cp\u003EStart a grooming routine when your Sheepadoodle is a puppy so that by the time they’re older—and tougher to wrangle—spa days are no big deal. \u003C/p\u003E",
+        "training": "\u003Cp\u003EIt’s important to start safely exposing your Sheepadoodle puppy to new experiences—including animals, people, environments, activities, and objects—as soon as you bring them home.\u003C/p\u003E\r\n\u003Cp\u003EThis socialization process can help your dog feel comfortable in a wide variety of settings and lets their friendly, outgoing personality shine. Talk to your veterinary team about \u003Ca href=\"https://be.chewy.com/positively-trained-puppy-socialization-dos-and-donts/\"\u003Eage-appropriate socialization for your dog\u003C/a\u003E. \u003C/p\u003E\r\n\u003Cp\u003EBoth of the Sheepadoodle’s parent breeds are whip-smart and eager to learn. These attributes served them well as working dogs.\u003C/p\u003E\r\n\u003Cp\u003EHowever, if your dog favors their Old English Sheepdog parent, you may encounter a bit of willfulness during the training process. Don’t take it personally. Old English Sheepdogs were bred to work independently in the field, so they might need more encouragement. \u003C/p\u003E\r\n\u003Cp\u003ESpeaking of which, like all dogs, Sheepadoodles respond best to \u003Ca href=\"https://www.petmd.com/dog/behavior/how-to-train-a-dog-with-positive-reinforcement\" target=\"_blank\" rel=\"noopener\"\u003Econsistent rewards-based training\u003C/a\u003E. And because both their intelligence and energy are so high, it’s best to keep training as engaging and active as possible—like a game.\u003C/p\u003E\r\n\u003Cp\u003EIf you aren’t up for the task, consider signing your Sheepadoodle puppy up for a training class, or enlisting the \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/find-a-dog-trainer\"\u003Eone-on-one help of a professional trainer\u003C/a\u003E at any age and stage of your dog’s life. \u003C/p\u003E",
+        "diet_nutrition": "\u003Cp\u003ENutrition is complex, so it’s helpful to partner with your veterinarian in determining your Sheepadoodle’s diet. They can help you find a food that meets \u003Ca href=\"https://www.petmd.com/dog/nutrition/What-Is-AAFCO-and-What-Does-It-Do\" target=\"_blank\" rel=\"noopener\"\u003EAssociation of American Feed Control Officials (AAFCO)\u003C/a\u003E standards and is nutritionally complete for your dog’s life stage (\u003Ca href=\"https://www.petmd.com/dog/vet-verified/best-puppy-food\" target=\"_blank\" rel=\"noopener\"\u003Epuppy\u003C/a\u003E, \u003Ca href=\"https://www.petmd.com/dog/vet-verified/best-dog-food\" target=\"_blank\" rel=\"noopener\"\u003Eadult\u003C/a\u003E, or \u003Ca href=\"https://www.petmd.com/dog/vet-verified/best-senior-dog-food\" target=\"_blank\" rel=\"noopener\"\u003Esenior\u003C/a\u003E), size, lifestyle, and health.\u003C/p\u003E\r\n\u003Cp\u003EMost adult Sheepadoodles should eat twice a day. Because these dogs are prone to \u003Ca href=\"https://www.petmd.com/dog/conditions/digestive/gastric-dilatation-volvulus-gdv-syndrome\" target=\"_blank\" rel=\"noopener\"\u003Ebloat and gastric dilatation volvulus (GDV)\u003C/a\u003E, consider following these mealtime tips to help reduce their risk:\u003C/p\u003E\r\n\u003Cul\u003E\r\n\t\u003Cli\u003EUse a \u003Ca href=\"https://www.chewy.com/b/slow-feeders-1424\"\u003Eslow-feeder bowl\u003C/a\u003E to prevent your dog from eating too quickly.\u003C/li\u003E\r\n\t\u003Cli\u003ERestrict exercise for at least an hour before or after your dog eats.\u003C/li\u003E\r\n\t\u003Cli\u003EAvoid raised food bowls. \u003C/li\u003E\r\n\t\u003Cli\u003EProvide smaller meals throughout the day.\u003C/li\u003E\r\n\u003C/ul\u003E\r\n\u003Cp\u003E\u003Ca href=\"https://www.chewy.com/b/treats-335\"\u003EDog treats\u003C/a\u003E can be a great training tool, but only in moderation. They should never make up more than 10% of your dog’s daily calories.\u003C/p\u003E",
+        "exercise": "\u003Cp\u003EThe Sheepadoodle’s appetite for action won’t be satisfied by a quick trot down the block twice a day. And if your dog is bored with energy to spare, they’ll be more likely to engage in unwanted behaviors like \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/why-do-dogs-bark\"\u003Ebarking\u003C/a\u003E and \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/training-tips-how-to-stop-destructive-chewing-in-dogs\"\u003Echewing\u003C/a\u003E. \u003C/p\u003E\r\n\u003Cp\u003EYour Sheepadoodle will need about an hour of exercise every day. Here’s a list of dog-approved activities to get you started: \u003C/p\u003E\r\n\u003Cul\u003E\r\n\t\u003Cli\u003E\u003Ca href=\"https://www.chewy.com/education/dog/general/ready-to-hit-the-hiking-trail-with-your-dog-heres-everything-you-need-to-know\"\u003EHiking\u003C/a\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Ca href=\"http://be.chewy.com/walking-with-dog/\"\u003ELong walks\u003C/a\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/how-to-run-with-dog\"\u003EJogging\u003C/a\u003E (in cool weather)\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Ca href=\"https://www.chewy.com/education/dog/general/water-dogs-that-love-swimming\"\u003ESwimming\u003C/a\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/how-to-teach-dog-to-fetch\"\u003EFetch\u003C/a\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Ca href=\"http://be.chewy.com/sit-stay-and-beyond-weve-got-the-essential-guide-to-basic-dog-obedience-training/\"\u003EObedience training\u003C/a\u003E\u003C/li\u003E\r\n\t\u003Cli\u003ESkills training\u003C/li\u003E\r\n\u003C/ul\u003E\r\n\u003Cp\u003ERegardless of which activity you and your pup pick, be sure it takes place either on a leash or within a securely fenced area. Sheepadoodles can follow their hunting and herding instincts into danger!\u003C/p\u003E\r\n\u003Cp\u003EAnd once your Sheepadoodle is adequately exercised, you’ll be rewarded with the sweetest, softest cuddle partner you could ask for. \u003C/p\u003E",
+        "ideal_environment": "\u003Cp\u003EStandard Sheepadoodles are big dogs, so a home with lots of space, and room to romp and roam (like a fenced backyard), can make life easier. However, both Standard and Mini Sheepadoodles can do well in apartments, as long as you offer them enough exercise and attention. \u003C/p\u003E\r\n\u003Cp\u003EAs you may have guessed, the Sheepadoodle coat is excellent in cooler climates, but it can make for a very hot dog in warm weather. When dealing with the latter, shorter haircuts and shorter amounts of outdoor exercise can help. \u003C/p\u003E\r\n\u003Cp\u003EWhen properly socialized and exercised, Sheepadoodles are gentle and friendly with people of all ages. However, due to their size and energy, all interactions with very small children should be closely monitored so no one gets accidentally knocked over during play. \u003C/p\u003E\r\n\u003Cp\u003ESheepadoodles can also get along with other pets in the home, though it’s best if they’re able to grow up alongside their furry family members. Otherwise, they may see fellow pets as creatures to herd or chase.\u003C/p\u003E",
+        "h2_breed_health": "\u003Cp\u003EThe average Sheepadoodle lifespan is 12–15 years. They’re considered a generally healthy crossbreed, but like all breeds, they’re predisposed to certain health conditions.\u003C/p\u003E\r\n\u003Cp\u003EPartnering with your veterinary team to monitor your pet for signs of common problems is an important part of caring for your Sheepadoodle pup. \u003C/p\u003E\r\n\u003Cul\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003EBloat:\u003C/strong\u003E \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/bloat-in-dogs\"\u003EBloat in dogs\u003C/a\u003E occurs when gas and/or food cause the stomach to expand. Sometimes, bloat progresses into a condition called gastric dilatation-volvulus (GDV), in which the dog’s stomach twists and cuts off blood flow to and from the stomach and the spleen.\r\n\r\n\u003Cul\u003E\r\n\t\u003Cli\u003EGDV is painful and a life-threatening emergency, and the signs include retching or dry heaving without vomiting, swollen abdomen, sudden anxiety, pacing, panting, drooling, and collapse. \u003Cstrong\u003EIf you notice any of these signs, get immediate veterinary care.\u003C/strong\u003E\u003C/li\u003E\r\n\u003C/ul\u003E\r\n\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003EHip dysplasia:\u003C/strong\u003E \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/hip-dysplasia-in-dogs\"\u003EHip dysplasia\u003C/a\u003E is a condition in which the hip joint doesn’t develop properly, and it’s characterized by a looseness that leads to \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/arthritis-in-dogs\"\u003Earthritis\u003C/a\u003E if left untreated. Mild cases are treated with interventions like \u003Ca href=\"https://www.petmd.com/dog/general-health/dog-physical-therapy\" target=\"_blank\" rel=\"noopener\"\u003Ephysical therapy\u003C/a\u003E and \u003Ca href=\"https://www.petmd.com/vet-verified/best-joint-supplements-for-dogs\" target=\"_blank\" rel=\"noopener\"\u003Ejoint supplements\u003C/a\u003E, while severe cases may require surgery.\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003EProgressive retinal atrophy:\u003C/strong\u003E \u003Ca href=\"https://www.petmd.com/dog/condition/progressive-retinal-atrophy-in-dogs\" target=\"_blank\" rel=\"noopener\"\u003EProgressive retinal atrophy (PRA)\u003C/a\u003E is when the rods and cones of the retina deteriorate. Signs of disease include a reluctance to enter dark spaces, clumsiness, and cataracts. There’s no cure for PRA, and the condition eventually leads to \u003Ca href=\"https://www.petmd.com/dog/conditions/eyes/blindness-dogs\" target=\"_blank\" rel=\"noopener\"\u003Eblindness\u003C/a\u003E.\u003C/li\u003E\r\n\u003C/ul\u003E",
+        "h2_breed_history": "\u003Cp\u003EWhile the Sheepadoodle crossbreed is a relatively new creation—likely originating around the 1990s—the parent breeds’ origin stories go back hundreds of years.\u003C/p\u003E\r\n\u003Cp\u003EOld English Sheepdogs have a misleading moniker. First developed in the 18th century, they aren’t an ancient breed. Nor are they fully English, as they likely have some Scotch, European, and Russian ancestors. And finally, they aren’t even sheepdogs; they were mainly used to move cattle from fields to markets.\u003C/p\u003E\r\n\u003Cp\u003EPoodles have their own muddled history, because while they may be the national dog of France, the breed was developed in Germany. And though their elegant appearance eventually made them a popular choice for wealthy French households, Poodles were originally bred to be duck retrievers.\u003C/p\u003E",
+        "expert_attribution": "\u003Cp\u003E\u003Cem\u003EThis content was medically reviewed by Barri Morrison, DVM, Chewy veterinarian.\u003C/em\u003E\u003C/p\u003E",
+        "facebook_social_snippet_with_cta": "",
+        "species": "",
+        "h2_faqs": "",
+        "faq_items": [
+          {
+            "faq_title": "Do Sheepadoodles bark a lot?",
+            "faq_content": "\u003Cp\u003ESheepadoodles \u003Cem\u003Ecan\u003C/em\u003E bark more than other breeds—a holdover from their herding and hunting instincts. However, providing early, positive training and plenty of daily exercise and attention can \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/how-to-train-dog-not-to-bark\"\u003Ehelp reduce barking\u003C/a\u003E.\u003C/p\u003E"
+          },
+          {
+            "faq_title": "Why are Sheepadoodles so expensive?",
+            "faq_content": "\u003Cp\u003EResponsible breeding that prioritizes health over profits involves time, resources, genetic testing, and regular veterinary care. These costs are reflected in the Sheepadoodle’s price, which can be $1,000 or more.\u003C/p\u003E"
+          },
+          {
+            "faq_title": "How big does a Sheepadoodle get?",
+            "faq_content": "\u003Cp\u003EFull-grown Standard Sheepadoodles, which are a cross between an Old English Sheepdog and a Standard Poodle, can grow to be 65–85 pounds and 16–22 inches tall. Full-grown Miniature Sheepadoodles, which substitute a Miniature Poodle for the Standard, can grow to be 25–45 pounds and 15–20 inches in height.\u003C/p\u003E"
+          },
+          {
+            "faq_title": "Which is better, a Sheepadoodle or a Goldendoodle?",
+            "faq_content": "\u003Cp\u003EBoth Sheepadoodles and \u003Ca href=\"https://www.chewy.com/education/dog-breeds/goldendoodle\"\u003EGoldendoodles\u003C/a\u003E are wonderful dogs. A better question to ask is, “Which dog is better for my particular family?” The breeds have similar energy levels and are both exceedingly smart and friendly, but the Sheepadoodle’s coat may require a bit more effort and be less forgiving in hot climates.\u003C/p\u003E"
+          }
+        ],
+        "select_related_breeds": [
+          {
+            "selected_related_breed": 4071,
+            "characteristic": "breed_characteristics_physical_appearance"
+          },
+          {
+            "selected_related_breed": 4160,
+            "characteristic": "breed_characteristics_physical_appearance"
+          },
+          {
+            "selected_related_breed": 95,
+            "characteristic": "breed_characteristics_physical_appearance"
+          },
+          {
+            "selected_related_breed": 3580,
+            "characteristic": "breed_characteristics_physical_appearance"
+          },
+          {
+            "selected_related_breed": 5143,
+            "characteristic": "breed_characteristics_physical_appearance"
+          }
+        ],
+        "enable_featured_gallery": [
+          "enable_featured_gallery"
+        ],
+        "featured_gallery_images": [25760, 25758, 25757, 25759, 25761]
+      },
+      "yoast_head": "\u003C!-- This site is optimized with the Yoast SEO plugin v23.8 - https://yoast.com/wordpress/plugins/seo/ --\u003E\n\u003Ctitle\u003ESheepadoodle Breed: Characteristics, Care &amp; Photos | Chewy\u003C/title\u003E\n\u003Cmeta name=\"description\" content=\"Sheepadoodles are an Old English Sheepdog-Poodle mix. Learn whether this is the right mixed dog breed for you.\" /\u003E\n\u003Cmeta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" /\u003E\n\u003Clink rel=\"canonical\" href=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/sheepadoodle/\" /\u003E\n\u003Cmeta property=\"og:locale\" content=\"en_US\" /\u003E\n\u003Cmeta property=\"og:type\" content=\"article\" /\u003E\n\u003Cmeta property=\"og:title\" content=\"Sheepadoodle Breed: Characteristics, Care &amp; Photos | Chewy\" /\u003E\n\u003Cmeta property=\"og:description\" content=\"Sheepadoodles are an Old English Sheepdog-Poodle mix. Learn whether this is the right mixed dog breed for you.\" /\u003E\n\u003Cmeta property=\"og:url\" content=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/sheepadoodle/\" /\u003E\n\u003Cmeta property=\"og:site_name\" content=\"Chewy\" /\u003E\n\u003Cmeta property=\"og:image\" content=\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/06/30190225/sheepadoodle-dog-breed.jpg\" /\u003E\n\t\u003Cmeta property=\"og:image:width\" content=\"1835\" /\u003E\n\t\u003Cmeta property=\"og:image:height\" content=\"1032\" /\u003E\n\t\u003Cmeta property=\"og:image:type\" content=\"image/jpeg\" /\u003E\n\u003Cmeta name=\"twitter:card\" content=\"summary_large_image\" /\u003E\n\u003Cmeta name=\"twitter:label1\" content=\"Est. reading time\" /\u003E\n\t\u003Cmeta name=\"twitter:data1\" content=\"1 minute\" /\u003E\n\u003Cscript type=\"application/ld+json\" class=\"yoast-schema-graph\"\u003E{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/sheepadoodle/\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/sheepadoodle/\",\"name\":\"Sheepadoodle Breed: Characteristics, Care & Photos | Chewy\",\"isPartOf\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/sheepadoodle/#primaryimage\"},\"image\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/sheepadoodle/#primaryimage\"},\"thumbnailUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/06/30190225/sheepadoodle-dog-breed.jpg\",\"datePublished\":\"2025-07-02T17:02:01+00:00\",\"dateModified\":\"2025-07-02T17:02:01+00:00\",\"description\":\"Sheepadoodles are an Old English Sheepdog-Poodle mix. Learn whether this is the right mixed dog breed for you.\",\"breadcrumb\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/sheepadoodle/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://phcms.hlth.prd.aws.chewy.cloud/breed/sheepadoodle/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/sheepadoodle/#primaryimage\",\"url\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/06/30190225/sheepadoodle-dog-breed.jpg\",\"contentUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/06/30190225/sheepadoodle-dog-breed.jpg\",\"width\":1835,\"height\":1032,\"caption\":\"Portrait of a Sheepadoodle, an Old English Sheepdog and Poodle mix, on a blue background.\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/sheepadoodle/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://phcms.hlth.prd.aws.chewy.cloud/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Sheepadoodle\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/\",\"name\":\"Chewy\",\"description\":\"\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"}]}\u003C/script\u003E\n\u003C!-- / Yoast SEO plugin. --\u003E",
+      "yoast_head_json": {
+        "title": "Sheepadoodle Breed: Characteristics, Care & Photos | Chewy",
+        "description": "Sheepadoodles are an Old English Sheepdog-Poodle mix. Learn whether this is the right mixed dog breed for you.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://phcms.hlth.prd.aws.chewy.cloud/breed/sheepadoodle/",
+        "og_locale": "en_US",
+        "og_type": "article",
+        "og_title": "Sheepadoodle Breed: Characteristics, Care & Photos | Chewy",
+        "og_description": "Sheepadoodles are an Old English Sheepdog-Poodle mix. Learn whether this is the right mixed dog breed for you.",
+        "og_url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/sheepadoodle/",
+        "og_site_name": "Chewy",
+        "og_image": [
+          {
+            "width": 1835,
+            "height": 1032,
+            "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/06/30190225/sheepadoodle-dog-breed.jpg",
+            "type": "image/jpeg"
+          }
+        ],
+        "twitter_card": "summary_large_image",
+        "twitter_misc": {
+          "Est. reading time": "1 minute"
+        },
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/sheepadoodle/",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/sheepadoodle/",
+              "name": "Sheepadoodle Breed: Characteristics, Care & Photos | Chewy",
+              "isPartOf": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/sheepadoodle/#primaryimage"
+              },
+              "image": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/sheepadoodle/#primaryimage"
+              },
+              "thumbnailUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/06/30190225/sheepadoodle-dog-breed.jpg",
+              "datePublished": "2025-07-02T17:02:01+00:00",
+              "dateModified": "2025-07-02T17:02:01+00:00",
+              "description": "Sheepadoodles are an Old English Sheepdog-Poodle mix. Learn whether this is the right mixed dog breed for you.",
+              "breadcrumb": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/sheepadoodle/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://phcms.hlth.prd.aws.chewy.cloud/breed/sheepadoodle/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/sheepadoodle/#primaryimage",
+              "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/06/30190225/sheepadoodle-dog-breed.jpg",
+              "contentUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/06/30190225/sheepadoodle-dog-breed.jpg",
+              "width": 1835,
+              "height": 1032,
+              "caption": "Portrait of a Sheepadoodle, an Old English Sheepdog and Poodle mix, on a blue background."
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/sheepadoodle/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://phcms.hlth.prd.aws.chewy.cloud/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Sheepadoodle"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/",
+              "name": "Chewy",
+              "description": "",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            }
+          ]
+        }
+      },
+      "yoast_meta": {
+        "yoast_wpseo_title": "",
+        "yoast_wpseo_metadesc": "",
+        "yoast_wpseo_canonical": ""
+      },
+      "_links": {
+        "self": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed/25749",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/types/breed"
+          }
+        ],
+        "acf:attachment": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/25761"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/25759"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/25757"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/25758"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/25760"
+          }
+        ],
+        "wp:featuredmedia": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/25750"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media?parent=25749"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "pet_type",
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/pet_type?post=25749"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ]

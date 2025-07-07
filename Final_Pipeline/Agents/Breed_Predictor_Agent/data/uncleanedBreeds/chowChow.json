@@ -1,0 +1,321 @@
+[
+    {
+      "id": 1315,
+      "date": "2025-03-05T18:05:45",
+      "date_gmt": "2025-03-05T18:05:45",
+      "guid": {
+        "rendered": "https://haproxy.use1.lgcy.prd.aws.chewy.cloud/eks/ns/pet-health/pet-health-content-backend/breed/chow-chow/"
+      },
+      "modified": "2025-06-04T17:33:43",
+      "modified_gmt": "2025-06-04T17:33:43",
+      "slug": "chow-chow",
+      "status": "publish",
+      "type": "breed",
+      "link": "https://phcms.hlth.prd.aws.chewy.cloud/breed/chow-chow/",
+      "title": {
+        "rendered": "Chow Chow"
+      },
+      "featured_media": 3243,
+      "template": "",
+      "pet_type": [],
+      "class_list": [
+        "post-1315",
+        "breed",
+        "type-breed",
+        "status-publish",
+        "has-post-thumbnail",
+        "hentry"
+      ],
+      "acf": {
+        "breed_snapshot_best_for": "\u003Cp\u003EIndependent and loyal, Chow Chows are quiet dogs with an impressively lush coat. They thrive in calm homes with experienced, confident pet parents who understand that these dogs are not all about cuddling 24/7—can still give them the affection and love they need.\u003C/p\u003E",
+        "alt_image_text": "Chow Chow dog breed",
+        "breed_intro": "\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EIndependent and sometimes aloof, Chow Chows don’t accept just anyone into their inner circle, but that’s OK. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EIf you’re looking for a pup to live the A-list lifestyle with you, you’ve found them. The regal and fluffy Chow Chow looks the part of a celebrity, with their shaggy hair and eye-catching appearance. \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EJust like you, they enjoy mornings lounging in bed. They’ll also probably want the AC permanently on high—don’t even think about touching it—but with all that fur, you can hardly blame them. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E",
+        "breed_related_products_product_card_set": "",
+        "breed_snapshot_temperament": "\u003Cp\u003EBright, loyal, stoic\u003C/p\u003E",
+        "what_does_this_breed_look_like_weight": "\u003Cp\u003E45–70 pounds\u003C/p\u003E",
+        "what_does_this_breed_look_like_height": "\u003Cp\u003E17–20 inches\u003C/p\u003E",
+        "breed_snapshot_life_expectancy": "\u003Cp\u003E8–12 years\u003C/p\u003E",
+        "breed_snapshot_maintenance_level": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_friendliness": "\u003Cp\u003E1\u003C/p\u003E",
+        "breed_snapshot_coat_color": "\u003Cp\u003EBlack, Blue, Cinnamon, Cream, Red\u003C/p\u003E",
+        "breed_snapshot_shed_level": "\u003Cp\u003EVery high\u003C/p\u003E",
+        "in_article_video": null,
+        "breed_characteristics": "\u003Cp\u003EThese traits are rated on a scale of 1-5 with 1 being the lowest and 5 being the highest. Remember: Dogs are individuals, and not all dogs, even those of the same breed, will exhibit all the same qualities.\u003C/p\u003E",
+        "breed_characteristics_exercise_needs": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_health_issues": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_barking_tendencies": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_grooming_needs": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_shedding_level": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_training_needs": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_good_with_kids": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_good_with_cats": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_good_for_apartments_small_homes": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_energy_level": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_with_other_dogs": "\u003Cp\u003E1\u003C/p\u003E",
+        "breed_characteristics_playfulnesss": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_cold_weather": "\u003Cp\u003E1\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_warm_weather": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_for_first_time_parents": "\u003Cp\u003E1\u003C/p\u003E",
+        "how_do_i_look_card_image": 3242,
+        "what_does_this_breed_look_like": "\u003Cp\u003E\u003Cspan class=\"TextRun SCXW73622493 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"\u003E\u003Cspan class=\"NormalTextRun SCXW73622493 BCX4\"\u003EWith \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW73622493 BCX4\"\u003Ea\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW73622493 BCX4\"\u003E regal, lion-like appearance, these medium-sized dogs \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW73622493 BCX4\"\u003Emight be\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW73622493 BCX4\"\u003E red, black, blue, cinnamon\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW73622493 BCX4\"\u003E,\u003C/span\u003E \u003Cspan class=\"NormalTextRun SCXW73622493 BCX4\"\u003Eor\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW73622493 BCX4\"\u003E cream. You might \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW73622493 BCX4\"\u003Ealso \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW73622493 BCX4\"\u003Efind them in white, lilac\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW73622493 BCX4\"\u003E,\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW73622493 BCX4\"\u003E or merle\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW73622493 BCX4\"\u003E.\u003C/span\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan class=\"TextRun SCXW73622493 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"\u003E\u003Cspan class=\"NormalTextRun SCXW73622493 BCX4\"\u003ETheir coat can be either a smooth or rough type\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW73622493 BCX4\"\u003E, and their defining feature is \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW73622493 BCX4\"\u003Etheir\u003C/span\u003E \u003Cspan class=\"NormalTextRun SCXW73622493 BCX4\"\u003EChow \u003C/span\u003E\u003Cspan class=\"NormalTextRun SpellingErrorV2Themed SCXW73622493 BCX4\"\u003EChow\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW73622493 BCX4\"\u003E tongue\u003C/span\u003E \u003Cspan class=\"NormalTextRun SCXW73622493 BCX4\"\u003Ethat’s\u003C/span\u003E \u003Cspan class=\"NormalTextRun SCXW73622493 BCX4\"\u003Ea lovely gray-blue color.\u003C/span\u003E\u003C/span\u003E\u003Cspan class=\"EOP SCXW73622493 BCX4\" data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E",
+        "what_does_this_breed_look_like_ears": "\u003Cp\u003EThe Chow Chow ears are small and triangular, slightly rounded at the point.\u003C/p\u003E",
+        "what_does_this_breed_look_like_eyes": "\u003Cp\u003ETheir eyes are dark brown and almond-shaped.\u003C/p\u003E",
+        "what_does_this_breed_look_like_nose": "\u003Cp\u003EA Chow's nose is large, wide, and black with large nostrils.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_length": "\u003Cp\u003EThe Chow Chow has a double coat (meaning they have longer guard hairs on top of soft a undercoat) that’s either rough or smooth with a lion's ruff surrounding the head.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_color": "\u003Cp\u003ETheir coat might be red, black, blue, cinnamon, or cream. You might also find them in white, lilac, or merle.\u003C/p\u003E",
+        "what_does_this_breed_look_like_tail": "\u003Cp\u003EThe Chow Chow tail is fluffy, feathery, and curled over their back.\u003C/p\u003E",
+        "h2_breed_temperament": "\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EIf you’re looking for a dog who’s a big snuggler, the Chow Chow might not be your pup. They aren’t overly affectionate, and while you’ll always be their one and only, they’re usually not people pleasers either. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EBut that’s actually OK because Chow Chows tend to be so well-behaved on their own: They’re clean, fairly quiet, and \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/new-dog/how-to-potty-train-your-dog-in-7-days\"\u003E\u003Cspan data-contrast=\"none\"\u003Eeasy to housetrain\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E. They’re also low maintenance when it comes to exercise, but take note: You’re going to need to spend extra on grooming. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EChow Chows take time to warm up to strangers. You’ll need to \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/positively-trained-puppy-socialization-dos-and-donts\"\u003E\u003Cspan data-contrast=\"none\"\u003Esocialize your Chow Chow puppy\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E early (or as early as possible if you adopt them as an adult) so they learn that new visitors are nothing to fear—and perhaps someone to be embraced.  \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EWhen properly socialized, these pups can make \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/general/best-family-dogs\"\u003E\u003Cspan data-contrast=\"none\"\u003Egreat family dogs\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E and can even get along with canine friends at home. Unfortunately, Chow Chows probably won’t tolerate a feline in their home thanks to their history as hunting and herding dogs. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EThey also will do best with older children who understand that they’re not into all that mushy love and cuddling stuff. But if you teach younger children how to interact with these unique dogs, it could work out. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E",
+        "h2_how_to_care_for_a_breed": "\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EFacts are facts, and Chow Chows require lots of grooming. They aren’t high-energy dogs who need a lot of exercise (a daily walk or two is great), so you can use that extra bonding time for extra brushing. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EWhile Chow dogs may not be overly showy with their affection, they’re super smart and quick learners when it comes to training.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E",
+        "grooming": "\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EIt’s important to get into a good \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/grooming/home-pet-grooming-cheat-sheet\"\u003E\u003Cspan data-contrast=\"none\"\u003Egrooming routine\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E with your pup. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cul\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EBathing:\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E Plan on \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/grooming/how-to-bathe-a-dog-step-by-step-tips-from-a-professional-groomer\"\u003E\u003Cspan data-contrast=\"none\"\u003Ebathing your dog\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E every two to four weeks. Thoroughly rinse out the shampoo, as any remaining residue can cause dryness, flakiness, and irritation to the skin. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EBrushing:\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E Some breeds need an occasional brushing with just one tool, but your Chow Chow will need brushing sessions with a grooming toolkit twice a week. Remember that shaving your Chow Chow is not an option (they need their double coat to protect them from the heat and cold equally). For brushing, you’ll need the following tools: \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\r\n\u003Cul\u003E\r\n\t\u003Cli\u003E\u003Ca href=\"https://www.chewy.com/safari-coarse-comb-dogs/dp/46232\"\u003E\u003Cspan data-contrast=\"none\"\u003ECourse comb\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E (to help remove the fluffy undercoat)\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Ca href=\"https://www.chewy.com/b/grooming-sprays-detanglers-2460\"\u003E\u003Cspan data-contrast=\"none\"\u003EHair detangler\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E (to get out any matting) \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Ca href=\"https://www.chewy.com/frisco-cat-dog-pin-bristle-brush/dp/233456\"\u003E\u003Cspan data-contrast=\"none\"\u003EPin brush\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E (to groom the longer, coarser guard hairs)\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Ca href=\"https://www.chewy.com/f/slicker-brush-dog-brushes-combs_c356_f70v83792\"\u003E\u003Cspan data-contrast=\"none\"\u003ESlicker brush\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E (to remove mats and tangles)\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\u003C/ul\u003E\r\n\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EDental care:\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E Start \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/grooming/health-wellness-how-to-brush-your-dogs-teeth-live-to-tell-the-tale\"\u003E\u003Cspan data-contrast=\"none\"\u003Ebrushing your dog's teeth\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E a couple times a week to get them used to it, then work up to doing it daily. Once a year, get a \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/care/how-much-does-dog-teeth-cleaning-cost\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Epro cleaning at your vet\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EEar care:\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E Pat your Chow Chow’s outer ears after bath time with a dry cotton ball, as excess moisture can lead to \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/dog-ear-infection\"\u003E\u003Cspan data-contrast=\"none\"\u003Eear infections\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E. Always check both ears for signs of irritation, debris, or a bad smell, which could signal an infection. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003ENail care:\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E Using \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/safari-professional-nail-trimmer-dogs/dp/46208\"\u003E\u003Cspan data-contrast=\"none\"\u003Epet nail trimmers\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, keep your \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/guide-trimming-dogs-nails\"\u003E\u003Cspan data-contrast=\"none\"\u003Edog’s nails clipped\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E. Once a month is usually enough, but you’ll know it’s time when you hear clacking on hard surfaces. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\u003C/ul\u003E",
+        "training": "\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EKnown for their smarts, the Chow Chow is ready and willing to learn if you \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/sit-stay-and-beyond-weve-got-the-essential-guide-to-basic-dog-obedience-training\"\u003E\u003Cspan data-contrast=\"none\"\u003Emake training a priority\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E. They’ll probably ace basic cues, like \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-sit\"\u003E\u003Cspan data-contrast=\"none\"\u003Esit\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E and \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-come\"\u003E\u003Cspan data-contrast=\"none\"\u003Ecome\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, as young as 8 weeks old. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EIf you adopt your dog when they’re older, chat with your vet about when to train and how to socialize \u003C/span\u003E\u003Cspan data-contrast=\"auto\"\u003Eyour\u003C/span\u003E\u003Cspan data-contrast=\"none\"\u003E Chow Chow. Finding a \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/find-a-dog-trainer\"\u003E\u003Cspan data-contrast=\"none\"\u003Ecertified dog trainer\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E can help with this breed, too.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EA Chow Chow’s temperament makes them naturally reserved around strangers, so they might be aloof around new people. Exposing them to different people, other pets, and new places when they’re young can help them grow into confident adults.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E",
+        "diet_nutrition": "\u003Cp\u003E\u003Cspan data-contrast=\"auto\"\u003EThere’s no one-size-fits-all nutrition plan for your Chow Chow, but every dog needs a complete and balanced diet that \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/nutrition/What-Is-AAFCO-and-What-Does-It-Do\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Emeets AAFCO standards\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E. You should also choose a diet for your dog’s life stage (\u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/vet-verified/best-puppy-food\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Epuppy\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E, \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/vet-verified/best-dog-food\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Eadult\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E, or \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/vet-verified/best-senior-dog-food\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Esenior\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E). \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:240}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"auto\"\u003ETreats can be an important part of training, but don’t overdo it. \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/vet-verified/best-dog-treats\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003EDog treats\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E should never be more than 10% of a dog’s daily calories.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:240}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"auto\"\u003EThe Chow Chow’s size and deep chest makes them susceptible to \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/digestive/gastric-dilatation-volvulus-gdv-syndrome\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Egastric dilatation-volvulus (GDV)\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E, a medical emergency where the stomach expands and twists, cutting off blood flow.  Pet parents can take steps during mealtimes to reduce the risk of bloat by:\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:240}\"\u003E \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:240}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cul\u003E\r\n\t\u003Cli\u003E\u003Cspan data-contrast=\"auto\"\u003EUsing a \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/b/slow-feeders-1424\"\u003E\u003Cspan data-contrast=\"none\"\u003Eslow feeder bowl\u003C/span\u003E\u003C/a\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:240}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cspan data-contrast=\"auto\"\u003EAvoiding elevated food and water bowls\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:240}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cspan data-contrast=\"auto\"\u003ELimiting exercise for an hour before and after your Chow Chow eats\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:240}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\u003C/ul\u003E",
+        "exercise": "\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EChow Chows are active, alert dogs who are going to fully enjoy their daily walks and regular playtime. But if you suggest a 10K, they might have other ideas.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EThere’s no need for any high-impact exercises with this calm breed. They’re not known for their speed, anyway, but they will enjoy \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/b/toys-315\"\u003E\u003Cspan data-contrast=\"none\"\u003Eplaying with their favorite toys\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E and leisurely strolls (a couple of 20-minute walks every day is enough to keep a Chow Chow happy). \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003ERemember that their body isn’t built for extreme heat or humidity, so plan your outdoor activities accordingly. Indoors, be prepared to keep the AC on high if necessary. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E",
+        "ideal_environment": "\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EChow Chows prefer cooler climates, but that doesn’t mean you have to move to the Arctic Circle to make this dog a member of the family.  \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EThey don’t need a ton of space to be happy, either—as long as you stick to their very basic exercise routine of daily walks. They don’t bark a lot, so an apartment isn’t out of the question if you have a park or somewhere else nearby where your Chow Chow can take a leisurely stroll. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EChow Chow dogs can do well with families with older kids who understand that these pups need their space and don’t like to be climbed on or hugged tight. Chow Chows may also need an experienced pet parent who can confidently and kindly train and socialize them. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E",
+        "h2_breed_health": "\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EThe Chow Chow lifespan is 8–12 years, but there are a few health issues pet parents should be aware of. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cul\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EAllergies\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E: Allergies may manifest as itchy skin around your pet’s feet, stomach, skin folds, or ears. Chow Chows may have \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/what-can-i-give-my-dog-for-allergies\"\u003E\u003Cspan data-contrast=\"none\"\u003Eseasonal allergies\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E or \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/food-and-nutrition/dog-food-allergies-symptoms-and-treatment\"\u003E\u003Cspan data-contrast=\"none\"\u003Efood allergies\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, and your vet may recommend testing with a veterinary dermatologist. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"auto\"\u003EBloat and gastric dilatation-volvulus (GDV):\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"auto\"\u003E Chow Chows may be at risk of a \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/bloat-in-dogs\"\u003E\u003Cspan data-contrast=\"none\"\u003Elife-threatening condition called bloat\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E. It occurs when the stomach gets distended with air and/or food. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:240}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cspan data-contrast=\"auto\"\u003EA serious complication of bloat is GDV, when the stomach twists on itself, cutting off blood supply. Symptoms include abdominal distension, restlessness, and dry heaving. \u003C/span\u003E\u003Cb\u003E\u003Cspan data-contrast=\"auto\"\u003EIf you notice these signs, go to the vet immediately.\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"auto\"\u003E \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:240}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003ECancer:\u003C/span\u003E\u003C/b\u003E \u003Ca href=\"https://www.petmd.com/dog/conditions/cancer/cancer-dogs-symptoms-types-and-treatment\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003EStomach cancer\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E is rare in most dogs, but unfortunately \u003C/span\u003E\u003Ca href=\"https://chowhealth.org/mambo/home/chow-health-documents/16-stomach-cancer-flyer-all-breeds-2013/file\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003EChow Chows have 10–20 times the risk\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E of other pups. They may also be prone to \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/general-health/evr_dg_melanoma_tumor_in_a_dog\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Emelanoma\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E, or skin cancer\u003C/span\u003E\u003Cspan data-contrast=\"none\"\u003E.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"auto\"\u003EElbow and hip dysplasia:\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"auto\"\u003E With \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/elbow-dysplasia-in-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Eelbow dysplasia\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E and \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/hip-dysplasia-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Ehip dysplasia\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E, the joint doesn’t fit properly. Treatment can involve \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/vet-verified/best-joint-supplements-for-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Ejoint supplements\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E, \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/blogs/fullyvetted/2013/jan/physical_therapy_for_pets-29676\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Ephysical therapy\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E, \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/general-health/pain-meds-for-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Epain meds\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E, or, in severe cases, surgery.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:240}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EEndocrine conditions\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E: Chow Chows can develop \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/endocrine/c_dg_hypothyroidism\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Ehypothyroidism\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E and \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/endocrine/diabetes-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Ediabetes mellitus\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E. Both are diagnosed through a blood test and can be managed with lifelong daily medication. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"auto\"\u003EAlopecia X:\u003C/span\u003E\u003C/b\u003E \u003Ca href=\"https://veterinarypartner.vin.com/default.aspx?pid=19239&amp;catId=254091&amp;id=4951938\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003EAlopecia X\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E is hair loss that often affects dogs with thick undercoats. There are a variety of treatments, from melatonin to medications, depending on the severity. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EEye issues\u003C/span\u003E\u003C/b\u003E\u003Cb\u003E\u003Cspan data-contrast=\"auto\"\u003E:\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"auto\"\u003E Chow Chows are prone to several eye problems, including:\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\r\n\u003Cul\u003E\r\n\t\u003Cli\u003E\u003Cspan data-contrast=\"none\"\u003EEctropion\u003C/span\u003E\u003Cspan data-contrast=\"none\"\u003E, which causes the lower eyelid to fold outward \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/eyes/c_multi_entropion\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003EEntropion\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, where the eyelid folds inward\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/eyes/c_dg_glaucoma\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003EGlaucoma\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E, a medical emergency that c\u003C/span\u003E\u003Cspan data-contrast=\"auto\"\u003Eauses pain, pressure, and blindness\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/eye/c_dg_cataract\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003ECataracts\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E that hinder vision  \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\u003C/ul\u003E\r\n\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"auto\"\u003ELuxating patella: \u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"auto\"\u003EChow Chows can develop a \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/luxating-patella-in-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Eluxating patella\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E, where the kneecap slips out of place. A little bunny hop or skip while walking could be a symptom. It may be treated with supplements and meds, if mild, though surgery may be necessary. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:240}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\u003C/ul\u003E",
+        "h2_breed_history": "\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EOne of the world’s most ancient breeds, the Chow Chow’s origins go as far back as 206 BCE, and maybe even earlier. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EIn their earliest years, these dogs were used for hunting, herding livestock, and even pulling sleds. Over time, they rose through the ranks to become faithful companions to Chinese nobility. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EIn the 1800s, Queen Victoria was said to \u003C/span\u003E\u003Ca href=\"https://www.chowchowclubnsw.com/history-of-the-breed\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Ehave her own Chow Chow\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, and the American Kennel Club officially recognized the breed in 1903. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EThe average Chow Chow price tends to be between $1,800–$3,000. \u003C/span\u003E\u003Cspan data-contrast=\"auto\"\u003EIf you choose this route, \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/how-to-find-ethical-reputable-responsible-breeder\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Epick a responsible breeder\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EYou can also consider Chow Chow adoption, as there are many waiting for their forever homes. Reach out to a \u003C/span\u003E\u003Ca href=\"https://chowclub.org/ccci/rescue-directory/chow-rescue-organizations?highlight=WyJyZXNjdWUiXQ==\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Elocal Chow rescue organization\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, keep an eye out for the breed at your local animal shelter, or search \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/g/dog-chow-chow_ga1\"\u003E\u003Cspan data-contrast=\"none\"\u003EChewy’s database of adoptable dogs\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E in your area.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E",
+        "expert_attribution": "\u003Cp\u003E\u003Cem\u003E\u003Cspan class=\"NormalTextRun SCXW113513631 BCX4\"\u003EThis content was medically reviewed by \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW113513631 BCX4\"\u003EBarri Morrison\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW113513631 BCX4\"\u003E, DVM, Chewy veterinarian.\u003C/span\u003E\u003C/em\u003E\u003C/p\u003E",
+        "facebook_social_snippet_with_cta": "\u003Cp\u003EWith their lion-like haircut and blue-black tongue, the Chow Chow is instantly recognizable. But is this aloof dog, often called the \"cat of the dog world,\" right for you? Learn all the facts and information about this independent dog in our complete Chow Chow guide.\u003C/p\u003E",
+        "species": "\u003Cp\u003EDog\u003C/p\u003E",
+        "h2_faqs": "",
+        "faq_items": [
+          {
+            "faq_title": "Are Chow Chows hypoallergenic? ",
+            "faq_content": "\u003Cp\u003E\u003Cspan class=\"TextRun SCXW209403459 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"\u003E\u003Cspan class=\"NormalTextRun SCXW209403459 BCX4\"\u003ENo, Chow Chows are not a \u003C/span\u003E\u003C/span\u003E\u003Ca class=\"Hyperlink SCXW209403459 BCX4\" href=\"https://www.chewy.com/education/dog/general/4-hypoallergenic-dog-breeds\" rel=\"noreferrer noopener\"\u003E\u003Cspan class=\"TextRun Underlined SCXW209403459 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\u003E\u003Cspan class=\"NormalTextRun SCXW209403459 BCX4\" data-ccp-charstyle=\"Hyperlink\"\u003Ehypoallergenic \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW209403459 BCX4\" data-ccp-charstyle=\"Hyperlink\"\u003Edog \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW209403459 BCX4\" data-ccp-charstyle=\"Hyperlink\"\u003Ebreed\u003C/span\u003E\u003C/span\u003E\u003C/a\u003E\u003Cspan class=\"TextRun SCXW209403459 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"\u003E\u003Cspan class=\"NormalTextRun SCXW209403459 BCX4\"\u003E. \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW209403459 BCX4\"\u003EIf\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW209403459 BCX4\"\u003E you \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW209403459 BCX4\"\u003Ehave\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW209403459 BCX4\"\u003E allergies to pet dander or fur, \u003C/span\u003E\u003Cspan class=\"NormalTextRun ContextualSpellingAndGrammarErrorV2Themed SCXW209403459 BCX4\"\u003Ethe \u003C/span\u003E\u003Cspan class=\"NormalTextRun ContextualSpellingAndGrammarErrorV2Themed SCXW209403459 BCX4\"\u003EChow\u003C/span\u003E \u003Cspan class=\"NormalTextRun SCXW209403459 BCX4\"\u003EChow’s propensity to shed \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW209403459 BCX4\"\u003Ewill unfortunately mean you need to choose a different best friend.\u003C/span\u003E\u003C/span\u003E\u003C/p\u003E"
+          },
+          {
+            "faq_title": "Why are Chow Chows' tongues blue? ",
+            "faq_content": "\u003Cp\u003E\u003Cspan class=\"TextRun SCXW32144196 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"\u003E\u003Cspan class=\"NormalTextRun SCXW32144196 BCX4\"\u003EChow Chows have black-blue tongues due to the presence of pigmented cells—the same ones that give humans \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW32144196 BCX4\"\u003Edifferent\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW32144196 BCX4\"\u003E skin colors. Chow\u003C/span\u003E \u003Cspan class=\"NormalTextRun SpellingErrorV2Themed SCXW32144196 BCX4\"\u003EChow\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW32144196 BCX4\"\u003E puppies \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW32144196 BCX4\"\u003Earen’t\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW32144196 BCX4\"\u003E born with blue tongues; they start to turn blue \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW32144196 BCX4\"\u003Eas they grow\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW32144196 BCX4\"\u003E. \u003C/span\u003E\u003C/span\u003E\u003C/p\u003E"
+          },
+          {
+            "faq_title": "How big is a Chow Chow full-grown?  ",
+            "faq_content": "\u003Cp\u003E\u003Cspan class=\"TextRun SCXW177306511 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"\u003E\u003Cspan class=\"NormalTextRun SCXW177306511 BCX4\"\u003EWondering about the Chow \u003C/span\u003E\u003Cspan class=\"NormalTextRun SpellingErrorV2Themed SpellingErrorHighlight SCXW177306511 BCX4\"\u003EChow\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW177306511 BCX4\"\u003E size? \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW177306511 BCX4\"\u003EThey’re\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW177306511 BCX4\"\u003E a medium-sized dog \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW177306511 BCX4\"\u003Ewho’s\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW177306511 BCX4\"\u003E about 17–20 inches tall. Both male and female Chow Chows tend to weigh 45–70 pounds\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW177306511 BCX4\"\u003E,\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW177306511 BCX4\"\u003E full grown. \u003C/span\u003E\u003C/span\u003E\u003Cspan class=\"EOP SCXW177306511 BCX4\" data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E"
+          }
+        ],
+        "select_related_breeds": [
+          {
+            "selected_related_breed": 1031,
+            "characteristic": "breed_characteristics_sensitive_to_cold_weather"
+          },
+          {
+            "selected_related_breed": 1009,
+            "characteristic": "breed_characteristics_playfulnesss"
+          },
+          {
+            "selected_related_breed": 1380,
+            "characteristic": "breed_characteristics_training_needs"
+          },
+          {
+            "selected_related_breed": 125,
+            "characteristic": "breed_characteristics_shedding_level"
+          },
+          {
+            "selected_related_breed": 1045,
+            "characteristic": "breed_characteristics_good_with_other_dogs"
+          },
+          {
+            "selected_related_breed": 1009,
+            "characteristic": "breed_characteristics_biting_tendencies"
+          }
+        ],
+        "enable_featured_gallery": [
+          "enable_featured_gallery"
+        ],
+        "featured_gallery_images": [1314, 1307, 1308, 1309, 1310, 1311]
+      },
+      "yoast_head": "\u003C!-- This site is optimized with the Yoast SEO plugin v23.8 - https://yoast.com/wordpress/plugins/seo/ --\u003E\n\u003Ctitle\u003EChow Chow Characteristics, Care &amp; Photos | Chewy\u003C/title\u003E\n\u003Cmeta name=\"description\" content=\"Our complete Chow Chow guide has it all, from exercise needs and temperament to energy level and coat types. Learn all about this loyal breed.\" /\u003E\n\u003Cmeta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" /\u003E\n\u003Clink rel=\"canonical\" href=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/chow-chow/\" /\u003E\n\u003Cmeta property=\"og:locale\" content=\"en_US\" /\u003E\n\u003Cmeta property=\"og:type\" content=\"article\" /\u003E\n\u003Cmeta property=\"og:title\" content=\"Chow Chow Characteristics, Care &amp; Photos | Chewy\" /\u003E\n\u003Cmeta property=\"og:description\" content=\"Our complete Chow Chow guide has it all, from exercise needs and temperament to energy level and coat types. Learn all about this loyal breed.\" /\u003E\n\u003Cmeta property=\"og:url\" content=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/chow-chow/\" /\u003E\n\u003Cmeta property=\"og:site_name\" content=\"Chewy\" /\u003E\n\u003Cmeta property=\"article:modified_time\" content=\"2025-06-04T17:33:43+00:00\" /\u003E\n\u003Cmeta property=\"og:image\" content=\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07150620/202105Breed-Hero-Chow-Chow.jpg\" /\u003E\n\t\u003Cmeta property=\"og:image:width\" content=\"1835\" /\u003E\n\t\u003Cmeta property=\"og:image:height\" content=\"1032\" /\u003E\n\t\u003Cmeta property=\"og:image:type\" content=\"image/jpeg\" /\u003E\n\u003Cmeta name=\"twitter:card\" content=\"summary_large_image\" /\u003E\n\u003Cmeta name=\"twitter:label1\" content=\"Est. reading time\" /\u003E\n\t\u003Cmeta name=\"twitter:data1\" content=\"1 minute\" /\u003E\n\u003Cscript type=\"application/ld+json\" class=\"yoast-schema-graph\"\u003E{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/chow-chow/\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/chow-chow/\",\"name\":\"Chow Chow Characteristics, Care & Photos | Chewy\",\"isPartOf\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/chow-chow/#primaryimage\"},\"image\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/chow-chow/#primaryimage\"},\"thumbnailUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07150620/202105Breed-Hero-Chow-Chow.jpg\",\"datePublished\":\"2025-03-05T18:05:45+00:00\",\"dateModified\":\"2025-06-04T17:33:43+00:00\",\"description\":\"Our complete Chow Chow guide has it all, from exercise needs and temperament to energy level and coat types. Learn all about this loyal breed.\",\"breadcrumb\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/chow-chow/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://phcms.hlth.prd.aws.chewy.cloud/breed/chow-chow/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/chow-chow/#primaryimage\",\"url\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07150620/202105Breed-Hero-Chow-Chow.jpg\",\"contentUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07150620/202105Breed-Hero-Chow-Chow.jpg\",\"width\":1835,\"height\":1032,\"caption\":\"Chow Chow\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/chow-chow/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://phcms.hlth.prd.aws.chewy.cloud/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Chow Chow\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/\",\"name\":\"Chewy\",\"description\":\"\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"}]}\u003C/script\u003E\n\u003C!-- / Yoast SEO plugin. --\u003E",
+      "yoast_head_json": {
+        "title": "Chow Chow Characteristics, Care & Photos | Chewy",
+        "description": "Our complete Chow Chow guide has it all, from exercise needs and temperament to energy level and coat types. Learn all about this loyal breed.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://phcms.hlth.prd.aws.chewy.cloud/breed/chow-chow/",
+        "og_locale": "en_US",
+        "og_type": "article",
+        "og_title": "Chow Chow Characteristics, Care & Photos | Chewy",
+        "og_description": "Our complete Chow Chow guide has it all, from exercise needs and temperament to energy level and coat types. Learn all about this loyal breed.",
+        "og_url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/chow-chow/",
+        "og_site_name": "Chewy",
+        "article_modified_time": "2025-06-04T17:33:43+00:00",
+        "og_image": [
+          {
+            "width": 1835,
+            "height": 1032,
+            "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07150620/202105Breed-Hero-Chow-Chow.jpg",
+            "type": "image/jpeg"
+          }
+        ],
+        "twitter_card": "summary_large_image",
+        "twitter_misc": {
+          "Est. reading time": "1 minute"
+        },
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/chow-chow/",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/chow-chow/",
+              "name": "Chow Chow Characteristics, Care & Photos | Chewy",
+              "isPartOf": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/chow-chow/#primaryimage"
+              },
+              "image": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/chow-chow/#primaryimage"
+              },
+              "thumbnailUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07150620/202105Breed-Hero-Chow-Chow.jpg",
+              "datePublished": "2025-03-05T18:05:45+00:00",
+              "dateModified": "2025-06-04T17:33:43+00:00",
+              "description": "Our complete Chow Chow guide has it all, from exercise needs and temperament to energy level and coat types. Learn all about this loyal breed.",
+              "breadcrumb": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/chow-chow/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://phcms.hlth.prd.aws.chewy.cloud/breed/chow-chow/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/chow-chow/#primaryimage",
+              "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07150620/202105Breed-Hero-Chow-Chow.jpg",
+              "contentUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07150620/202105Breed-Hero-Chow-Chow.jpg",
+              "width": 1835,
+              "height": 1032,
+              "caption": "Chow Chow"
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/chow-chow/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://phcms.hlth.prd.aws.chewy.cloud/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Chow Chow"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/",
+              "name": "Chewy",
+              "description": "",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            }
+          ]
+        }
+      },
+      "yoast_meta": {
+        "yoast_wpseo_title": "",
+        "yoast_wpseo_metadesc": "",
+        "yoast_wpseo_canonical": ""
+      },
+      "_links": {
+        "self": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed/1315",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/types/breed"
+          }
+        ],
+        "acf:attachment": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/1311"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/1310"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/1309"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/1308"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/1307"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/1314"
+          }
+        ],
+        "wp:featuredmedia": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/3243"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media?parent=1315"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "pet_type",
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/pet_type?post=1315"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ]

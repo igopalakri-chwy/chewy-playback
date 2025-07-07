@@ -1,0 +1,301 @@
+[
+    {
+      "id": 1121,
+      "date": "2021-05-25T09:20:12",
+      "date_gmt": "2021-05-25T09:20:12",
+      "guid": {
+        "rendered": "https://haproxy.use1.lgcy.prd.aws.chewy.cloud/eks/ns/pet-health/pet-health-content-backend/breed/papillon/"
+      },
+      "modified": "2025-05-05T14:22:35",
+      "modified_gmt": "2025-05-05T14:22:35",
+      "slug": "papillon",
+      "status": "publish",
+      "type": "breed",
+      "link": "https://phcms.hlth.prd.aws.chewy.cloud/breed/papillon/",
+      "title": {
+        "rendered": "Papillon"
+      },
+      "featured_media": 1120,
+      "template": "",
+      "pet_type": [],
+      "class_list": [
+        "post-1121",
+        "breed",
+        "type-breed",
+        "status-publish",
+        "has-post-thumbnail",
+        "hentry"
+      ],
+      "acf": {
+        "breed_snapshot_best_for": "\u003Cp\u003EIntelligent and full of energy, Papillons thrive with active pup parents who can provide physical exercise, mental stimulation, companionship and regular grooming (just look at that long, silky coat!). Because they're so small and adaptable, Papillons are well-suited for homes large and small.\u003C/p\u003E",
+        "alt_image_text": "\u003Cp\u003ELearn all about the Papillon, the fabulous social butterfly, in our complete guide.\u003C/p\u003E",
+        "breed_intro": "Papillons were born to be the life of the party\u003Cspan class=\"s1\"\u003E—\u003C/span\u003Eand bonus points if the party's outside. This outgoing breed has lots of energy to burn, so get your kicks ready—you'll be spending your days \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/leash-train-dog-2\"\u003Egoing for walks\u003C/a\u003E around the neighborhood. Cheerful and confident, Paps are guaranteed to charm your neighbors as they make their rounds. Be prepared to make a lot of new friends with this adorable social butterfly by your side. Pap parents, we see a block party in your future, with you and your spunky pup at the top of the guest list.",
+        "breed_related_products_product_card_set": null,
+        "breed_snapshot_temperament": "\u003Cp\u003EJoyful, Lively, Social Butterfly\u003C/p\u003E",
+        "what_does_this_breed_look_like_weight": "\u003Cp\u003EMale: 5-10 pounds\u003C/p\u003E\u003Cp\u003EFemale: 5-10 pounds\u003C/p\u003E",
+        "what_does_this_breed_look_like_height": "\u003Cp\u003EMale: 8-11 inches\u003C/p\u003E\u003Cp\u003EFemale: 8-11 inches\u003C/p\u003E",
+        "breed_snapshot_life_expectancy": "\u003Cp\u003E14 to 16 years\u003C/p\u003E",
+        "breed_snapshot_maintenance_level": "\u003Cp\u003EMedium\u003C/p\u003E",
+        "breed_characteristics_friendliness": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_snapshot_coat_color": "\u003Cp\u003EWhite and Black, White and Lemon, White and Red, White and Sable, White Black and Tan\u003C/p\u003E",
+        "breed_snapshot_shed_level": "\u003Cp\u003ELow\u003C/p\u003E",
+        "in_article_video": null,
+        "breed_characteristics": "These traits are rated on a scale of 1-5 with 1 being the lowest and 5 being the highest. Remember: Dogs are individuals, and not all dogs, even those of the same breed, will exhibit all the same qualities.",
+        "breed_characteristics_exercise_needs": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_health_issues": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_barking_tendencies": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_grooming_needs": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_shedding_level": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_training_needs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_kids": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_good_with_cats": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_for_apartments_small_homes": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_energy_level": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_other_dogs": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_playfulnesss": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_cold_weather": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_warm_weather": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_for_first_time_parents": "\u003Cp\u003E3\u003C/p\u003E",
+        "how_do_i_look_card_image": 1119,
+        "what_does_this_breed_look_like": "The Papillon dog (French for \"butterfly\") isn't named for their highly social character trait but for their large, silky ears that resemble butterfly wings. Their mostly white, fluffy coat is long on the back, chest and top of the legs. Their face and the bottom half of their legs sport naturally shorter hair. Their plume-like tails are carried over their backs as they quickly trot to you for an afternoon pet.",
+        "what_does_this_breed_look_like_ears": "\u003Cp\u003EPapillon ears are this breed's stand-out feature. Set high on the head, sticking out prominently on each side and fringed with long, silky hair, they look and move like butterfly wings. There is a second type of Papillon, called the Phalene. Phalenes are born in the same litters as Papillons but have ears that drop down and fold forward. This pup's name is derived from the French word for \"moth.\"\u003C/p\u003E",
+        "what_does_this_breed_look_like_eyes": "\u003Cp\u003EThe sweet, brown Papillon eyes resemble shiny buttons. Small and round, they convey the alert expression of a pup who's always on the lookout for adventure.\u003C/p\u003E",
+        "what_does_this_breed_look_like_nose": "\u003Cp\u003EThe nose is a small, black oval perched at the end of a delicate muzzle that tapers slightly from skull to tip.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_length": "\u003Cp\u003EThe single coat is usually long, silky and abundant—although you can find a few naturally short-haired Papillon dogs. Typically, the hair grows shorter on the head and face, as well as on the front of the forelegs and feet, while hanging long and straight on the rest of the body. From behind, the fluffy hair covering the hind legs looks like a pair of culottes, and a similar patch of fluff covers the chest.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_color": "\u003Cp\u003EThe Papillon coat is either parti-colored (white base with irregular patches of color) or tri-colored, with white as the main color and contrasting color on the ears as well as the face and other parts of the body. Contrasting Papillon colors can include any color in the dog family. Standard color combos include: white and black; white and lemon; white and red; white and sable; and white, black and tan.\u003C/p\u003E",
+        "what_does_this_breed_look_like_tail": "\u003Cp\u003EThe tail is a long, silky plume of flowing hair that is carried high and lays along the back. When properly groomed, the hair from the plumed tail hangs long and blends in with the long hair covering the sides.\u003C/p\u003E",
+        "h2_breed_temperament": "Papillons are energetic little dogs who love adventure. They are confident, outgoing and generally get along well with everyone when they're properly socialized and trained. Without plenty of socialization, these tiny pups can grow up to be overly dependent on their pet parents, so it's important when raising a Papillon puppy to introduce them to a wide variety of people, pets and situations to build their confidence. But once that confidence kicks in, watch out—Papillons don't know their own size, and their spunky, fearless attitudes can get them into trouble with larger dogs who won't put up with their tiny 'tude.\r\n\r\nThis cheerful little breed loves to be the life of the party and does well with older children and cats. Their small size and fragility, combined with their overabundant confidence, makes them not so great with small, rambunctious children or larger dogs (even sweet and tolerant large-breed dogs could accidentally injure a tiny Papillon while playing). So, in addition to socializing and training your Papillon, teach your kiddos how to properly interact with pups.",
+        "h2_how_to_care_for_a_breed": "Surprise! Papillons may look high-maintenance, but their needs are a little more moderate than you might expect (especially when it comes to their grooming and daily exercise needs). They're a breeze to train and happily light on grooming needs despite their long hair, and their happy attitudes make them a joy to care for no matter how much time and effort are involved.",
+        "grooming": "Compared to other long-haired breeds, Papillons are relatively low maintenance in the grooming department (great looks, easy effort—what a fabulous trait!). They don't have an undercoat, and their hair doesn't shed much. Besides a monthly trip to the groomers for a wash, trim and blowout, they can get by with a \u003Cstrong\u003Eweekly \u003Ca href=\"https://www.chewy.com/education/dog/grooming/brushing-a-dog\"\u003Ebrushing\u003C/a\u003E\u003C/strong\u003E with a \u003Ca href=\"https://www.chewy.com/f/slicker-brush-dog-brushes-combs_c356_f70v83792\" target=\"_blank\" rel=\"noopener\"\u003Eslicker brush\u003C/a\u003E to control mats and remove debris and loose hair. Otherwise, they only need to be \u003Ca href=\"https://www.chewy.com/education/dog/grooming/how-to-bathe-a-dog-step-by-step-tips-from-a-professional-groomer\"\u003Ebathed\u003C/a\u003E if they get muddy or roll in something stinky. \u003Ca href=\"https://www.chewy.com/s?query=lick%20mats&amp;nav-submit-button=\" target=\"_blank\" rel=\"noopener\"\u003ELick mats\u003C/a\u003E can help make bath time at home a fun event.\n\n\u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/guide-trimming-dogs-nails\"\u003E\u003Cstrong\u003ENails should be trimmed\u003C/strong\u003E\u003C/a\u003E as soon as you hear them tapping on the tile, about every two weeks or so. Dewclaws especially need to be trimmed regularly, so they don't curl inward and cause injury or become easily caught on clothing or furniture.\n\nLike most toy breeds, Papillons are prone to dental problems and periodontal disease, impacting their overall health. In addition to annual dental checkups and cleanings by a veterinarian, their \u003Ca href=\"https://www.chewy.com/education/dog/grooming/health-wellness-how-to-brush-your-dogs-teeth-live-to-tell-the-tale\"\u003E\u003Cstrong\u003Eteeth should be brushed daily\u003C/strong\u003E\u003C/a\u003E. Start them out as puppies to get them used to their mouths being handled. Your vet can show you the proper way to brush their teeth if you need help. Between brushings, dental treats, like \u003Ca href=\"https://www.chewy.com/brands/original-10504\" target=\"_blank\" rel=\"noopener\"\u003EGreenies\u003C/a\u003E, can also help reduce tartar and keep teeth clean and breath smelling sweet.",
+        "training": "Papillons are smart as a whip. Their intelligence, combined with their cheerfulness and their natural enjoyment of activities, make them a joy to train with positive reinforcement methods that focus on rewarding desired behaviors with treats, fun toys and praise. It's important to teach this breed the basic safety commands such as \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-come\"\u003Ecome\u003C/a\u003E, \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/how-to-teach-a-dog-to-heel\"\u003Eheel\u003C/a\u003E&nbsp;and \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/how-to-train-your-dog-to-drop-it-in-6-steps\"\u003Edrop it\u003C/a\u003E, so that their overconfidence and adventurous spirit doesn't lead them nose-first into danger. But they also do great at advanced training, and teaching your dog to do tricks, like \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/dog-commands-shake-a-paw\"\u003Ehow to shake their paw\u003C/a\u003E, is one of the greatest joys of being a Papillon parent.\n\nTraining should begin when they're puppies and include \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/positively-trained-puppy-socialization-dos-and-donts\"\u003Eproper socialization\u003C/a\u003E, which involves safely exposing them to new people, places and experiences. Start as young as possible, and also get your pup used to being touched and handled to help make things like toothbrushing and nail trimming—not to mention veterinary exams and trips to the groomers—go a lot more smoothly as they get older.",
+        "diet_nutrition": "Papillons typically do well on a high-quality commercial dog food that's formulated for their current stage in life, whether puppy, adult or senior. Food that's made \u003Ca href=\"https://www.chewy.com/f/extra-small-toy-breeds-dry-dog-food_c294_f6v13789\" target=\"_blank\" rel=\"noopener\"\u003Eespecially for small dogs or toy breeds\u003C/a\u003E can help provide any special nutritional needs for dogs this size.\r\n\r\nWhile there's no standard feeding chart for Papillons, your vet can guide you on the type of food and diet appropriate for your dog. When giving treats, whether during training or just because, remember to deduct those calories from their overall daily diet. Again, consult with your veterinarian, as they're in the best position to help you pick the best food for your dog based on their individual needs.",
+        "exercise": "While Papillons need a good bit of exercise for a dog their size, the fact that they're tiny means you won't need to become a marathon runner to keep up with them. But it will help if you enjoy going on leisurely walks around the neighborhood while they poke around and explore.\r\n\r\nThey need 30-45 minutes of exercise each day to deplete their energy levels, which can be met by vigorous playtime in the backyard or in a long hallway or large living room, in addition to one or two short walks throughout the day.\r\n\r\nJust don't expect them to entertain themselves. These bright dogs need interaction and mental stimulation on top of physical exercise to keep them calm and happy. And even if you let them get their zoomies out in a fenced-in yard, you'll still need to hang out and supervise them to be sure they stay out of trouble. (They're rather speedy. With quick sprints, they can top out at 18 MPH!)",
+        "ideal_environment": "The Papillon breed is not a good match for couch potatoes who shun the outdoors. Papillons do love to cuddle and can make good lap dogs—after they're tired out from exercise and activity. The ideal home will have enough space to run and play, whether a house with a fenced yard or a roomy apartment. A walkable neighborhood with good sidewalks or walking paths is a bonus.\r\n\r\nThis is a good breed for energetic singles, couples or active families with older children and small pet siblings (even cats!). Papillons are adventurous and can get along well with anyone, but because of their tiny size, it's best to supervise any and all play with small children or large dogs.\r\n\r\nAs social \u003Ci\u003Epapillons\u003C/i\u003E, they'll also fit well into a home that plays host to parties or has a lot of company over. But they need to be with a human who can be home most of the time or who can take them to work. This is not a breed who can be left home alone a good portion of the day.",
+        "h2_breed_health": "\u003Cspan data-contrast=\"none\"\u003EPapillons have a fairly long life expectancy of 14-16 years, but they are prone to some health issues. It’s good to know what those potential health problems are in advance, so you can keep your pup healthy for longer.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;201341983&quot;:0,&quot;335559738&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\r\n\u003Cul\u003E\r\n \t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559684&quot;:-2,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"1\" data-aria-level=\"1\"\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/c_multi_patellar_luxation\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EPatellar Luxation\u003C/span\u003E\u003C/b\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E: This is a common hereditary condition in which the kneecap pops in and out of place. Often, this is mild and can be managed with weight management and joint supplements; but in severe cases, surgery may be needed.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;201341983&quot;:0,&quot;335559738&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n \t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559684&quot;:-2,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"2\" data-aria-level=\"1\"\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/systemic/hypoglycemia-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EHypoglycemia\u003C/span\u003E\u003C/b\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E: Low blood sugar is a common problem with toy breeds. Symptoms can include lack of energy, lack of appetite and, in severe cases, seizures. Feeding smaller, more frequent meals throughout the day can help avoid episodes of hypoglycemia.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;201341983&quot;:0,&quot;335559738&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n \t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559684&quot;:-2,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"3\" data-aria-level=\"1\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EDental Diseases\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E: Dental diseases are another problem common in small breeds, thanks to smaller mouths that tend to crowd their teeth. Prevention is key! Frequent tooth brushing and annual dental cleanings can help keep their teeth healthy.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;201341983&quot;:0,&quot;335559738&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n \t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559684&quot;:-2,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"4\" data-aria-level=\"1\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EOpen Fontanel\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E: Papillons are born with a soft spot in the top of the skull, which usually closes\u003C/span\u003E\u003Cspan data-contrast=\"none\"\u003E—\u003C/span\u003E\u003Cspan data-contrast=\"none\"\u003Emuch like in a newborn human baby. Usually, this closes within the first 9-12 weeks of age, but sometimes it remains open. There is typically no impact on everyday life, but it can be an issue if the pup has a head trauma. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;201341983&quot;:0,&quot;335551550&quot;:1,&quot;335551620&quot;:1,&quot;335559685&quot;:720,&quot;335559737&quot;:0,&quot;335559738&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259,&quot;335559991&quot;:360}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n \t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559684&quot;:-2,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"5\" data-aria-level=\"1\"\u003E\u003Ca href=\"https://www.petmd.com/dog/condition/progressive-retinal-atrophy-in-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EProgressive Retinal Atrophy\u003C/span\u003E\u003C/b\u003E\u003C/a\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003E (PRA)\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E: PRA is a hereditary condition that can cause blindness in dogs over time. While there is no cure, a genetic screening test is available\u003C/span\u003E\u003Cspan data-contrast=\"none\"\u003E—\u003C/span\u003E\u003Cspan data-contrast=\"none\"\u003Eso be sure to ask your breeder.\u003C/span\u003E\u003C/li\u003E\r\n\u003C/ul\u003E",
+        "h2_breed_history": "The Papillon breed traces its origin to the time of the Renaissance when it became trendy among the nobility class to breed miniaturized versions of popular breeds. Spaniels were bred with toy breeds to produce these “dwarf spaniels,\" which quickly became favorite lap buddies of royals and nobles throughout Europe. Walk into an art museum today, and you're likely to see these dogs looking out at you from paintings of princesses and noblewomen by famous artists such as Rembrandt and Goya.\r\n\r\nIt wasn't until the 17th century when a breeder in French King Louis XIV's court developed a version of this breed with erect ears and gave it the name \"Papillon.\" These little dogs with the butterfly ears quickly became all the rage in France, where they were favorites of Madame de Pompadour and Marie Antoinette. They were further refined and popularized by breeders in Italy and Spain.\r\n\r\nWhile not all varieties of this breed have erect ears, the perky-eared Papillon grew so popular that the entire breed eventually became known by that name and was registered as such by the American Kennel Club in 1915.\r\n\r\nWondering where you can get a Papillon today? You can find information about reputable breeders on the \u003Ca href=\"https://marketplace.akc.org/puppies/papillon\" target=\"_blank\" rel=\"noopener\"\u003EAmerican Kennel Club\u003C/a\u003E website. Papillon puppy prices range from about $500-$2,000. But for that, you'll likely get a pup who's been vaccinated and screened for temperament and health issues and may come with pedigree papers. You can also find Paps in need of good fur-ever homes at a Papillon rescue or at your local animal shelter. Or, search \u003Ca href=\"https://www.chewy.com/g/dog-papillon_ga1\" target=\"_blank\" rel=\"noopener\"\u003EChewy’s database of adoptable dogs\u003C/a\u003E in your area.",
+        "expert_attribution": "\u003Ci\u003EExpert input provided by Dr. Sara Ochoa, DVM, veterinary consultant for \u003Ca href=\"http://doglab.com/\" target=\"_blank\" rel=\"noopener\"\u003EDogLab\u003C/a\u003E; and certified canine behavior consultant and fearful dogs expert Rain Jordan, owner of \u003Ca href=\"https://www.expertcanine.com/\" target=\"_blank\" rel=\"noopener\"\u003EExpert Canine\u003C/a\u003E and founder of \u003Ca href=\"https://www.fearfuldogsproject.org/\" target=\"_blank\" rel=\"noopener\"\u003EThe Fearful Dogs Project\u003C/a\u003E.\u003C/i\u003E\r\n\r\n\u003Cem\u003EBreed characteristic ratings provided by veterinarian Dr. Sarah J. Wooten, DVM, CVJ, a veterinarian at \u003Ca href=\"https://sheepdraw.com/\" target=\"_blank\" rel=\"noopener\"\u003ESheep Draw Veterinary Hospital\u003C/a\u003E in Greeley, Colorado; dog trainer and behavior consultant Irith Bloom, CPDT-KSA, CBCC-KA, CDBC, owner of \u003Ca href=\"https://thesophisticateddog.com/\" target=\"_blank\" rel=\"noopener\"\u003EThe Sophisticated Dog, LLC\u003C/a\u003E, in Los Angeles; and certified animal behavior consultant \u003Ca href=\"https://shojai.com/\" target=\"_blank\" rel=\"noopener\"\u003EAmy Shojai\u003C/a\u003E, CABC, in Sherman, Texas. \u003C/em\u003E\r\n\r\n\u003Cem\u003EThe health content was medically reviewed by Chewy vets.\u003C/em\u003E",
+        "facebook_social_snippet_with_cta": "\u003Cp\u003EWhat makes a Papillon a Papillon? Hint: it's more than those big, butterfly-shaped ears. Discover what makes the Papillon dog breed tick and whether these cute dogs will click with your personality.\u003C/p\u003E",
+        "species": "\u003Cp\u003EDog\u003C/p\u003E",
+        "h2_faqs": "\u003Ch3\u003EAre Papillons hypoallergenic?\u003C/h3\u003E\nNo, Papillons are not hypoallergenic. Even though their shedding is low, it's still enough to aggravate the symptoms of those with allergies.\n\u003Ch3\u003EWhat are the most popular Papillon names?\u003C/h3\u003E\nThe most popular Papillon names are Abercrombie, Adele, Angel, Armani, Ash, Bandit, Beauty, Belle, Brie, Camille, Chanel, Coco, Charlotte, Chloe, Clay, Comet, Copper, Dove, Elle, Eagle, Emperor, Falcon, Felix, Finch, Gypsy, Holly, Jade, Jordan, Juicy, Kimono, Kiwi, Lady, Lark, Layka, Louis, Lucky, Luna, Milly, Monarch, Noel, Orchid, Oriole, Paris, Pearl, Pippa, Posh, Queen, Raven, Ralph, Robin, Skipper, Sophie, Starling, Stella, Sugar, Tiffany, Versace, Willow and Wren. \u003Ca href=\"https://www.chewy.com/education/dog/general/top-dog-names\"\u003EGet more dog names\u003C/a\u003E.\n\u003Ch3\u003EHow do you pronounce Papillon?\u003C/h3\u003E\nBring out the baguettes and cheese! Papillon is a French word (meaning \"butterfly\") that's pronounced with the emphasis on the first and third syllables, and the double L makes a Y sound: pah-pee-yon.\n\u003Ch3\u003EDo Papillons bark a lot?\u003C/h3\u003E\nYes, Papillons bark a lot. They make good alarm systems and will be sure to let you know when someone's at the door. But they don't generally sit around barking for no good reason.\n\u003Ch3\u003EAre Papillons cuddly?\u003C/h3\u003E\nPapillons are really cuddly when they're all worn out. But if they're not tired yet, they'll be more interested in playing and exploring than in pets and cuddles.\n\u003Ch3\u003EWhat are the most common Papillon mixes?\u003C/h3\u003E\nThe most common Papillon mixes are:\n\u003Cul\u003E\n \t\u003Cli\u003EPapillon-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/chihuahua/\"\u003EChihuahua\u003C/a\u003E mix (Chion)\u003C/li\u003E\n \t\u003Cli\u003EPapillon-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/pomeranian/\"\u003EPomeranian\u003C/a\u003E mix (Paperanian)\u003C/li\u003E\n \t\u003Cli\u003EPapillon-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/poodle/\"\u003EPoodle\u003C/a\u003E mix (Papidoodle)\u003C/li\u003E\n \t\u003Cli\u003EPapillon-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/maltese/\"\u003EMaltese\u003C/a\u003E mix (Papitese)\u003C/li\u003E\n \t\u003Cli\u003EPapillon-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/pembroke-welsh-corgi/\"\u003ECorgi\u003C/a\u003E mix (Corillon)\u003C/li\u003E\n \t\u003Cli\u003EPapillon-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/dachshund/\"\u003EDachshund\u003C/a\u003E mix (Papshund)\u003C/li\u003E\n\u003C/ul\u003E\nNote: These are not purebred dogs but mixed breeds.",
+        "faq_items": [
+          {
+            "faq_title": "Are Papillons hypoallergenic?",
+            "faq_content": "No, Papillons are not hypoallergenic. Even though their shedding is low, it's still enough to aggravate the symptoms of those with allergies."
+          },
+          {
+            "faq_title": "What are the most popular Papillon names?",
+            "faq_content": "The most popular Papillon names are Abercrombie, Adele, Angel, Armani, Ash, Bandit, Beauty, Belle, Brie, Camille, Chanel, Coco, Charlotte, Chloe, Clay, Comet, Copper, Dove, Elle, Eagle, Emperor, Falcon, Felix, Finch, Gypsy, Holly, Jade, Jordan, Juicy, Kimono, Kiwi, Lady, Lark, Layka, Louis, Lucky, Luna, Milly, Monarch, Noel, Orchid, Oriole, Paris, Pearl, Pippa, Posh, Queen, Raven, Ralph, Robin, Skipper, Sophie, Starling, Stella, Sugar, Tiffany, Versace, Willow and Wren. \u003Ca href=\"https://www.chewy.com/education/dog/general/top-dog-names\"\u003EGet more dog names\u003C/a\u003E."
+          },
+          {
+            "faq_title": "How do you pronounce Papillon?",
+            "faq_content": "Bring out the baguettes and cheese! Papillon is a French word (meaning \"butterfly\") that's pronounced with the emphasis on the first and third syllables, and the double L makes a Y sound: pah-pee-yon."
+          },
+          {
+            "faq_title": "Do Papillons bark a lot?",
+            "faq_content": "Yes, Papillons bark a lot. They make good alarm systems and will be sure to let you know when someone's at the door. But they don't generally sit around barking for no good reason."
+          },
+          {
+            "faq_title": "Are Papillons cuddly?",
+            "faq_content": "Papillons are really cuddly when they're all worn out. But if they're not tired yet, they'll be more interested in playing and exploring than in pets and cuddles."
+          },
+          {
+            "faq_title": "What are the most common Papillon mixes?",
+            "faq_content": "The most common Papillon mixes are:\r\n\u003Cul\u003E\r\n \t\u003Cli\u003EPapillon-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/chihuahua/\"\u003EChihuahua\u003C/a\u003E mix (Chion)\u003C/li\u003E\r\n \t\u003Cli\u003EPapillon-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/pomeranian/\"\u003EPomeranian\u003C/a\u003E mix (Paperanian)\u003C/li\u003E\r\n \t\u003Cli\u003EPapillon-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/poodle/\"\u003EPoodle\u003C/a\u003E mix (Papidoodle)\u003C/li\u003E\r\n \t\u003Cli\u003EPapillon-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/maltese/\"\u003EMaltese\u003C/a\u003E mix (Papitese)\u003C/li\u003E\r\n \t\u003Cli\u003EPapillon-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/pembroke-welsh-corgi/\"\u003ECorgi\u003C/a\u003E mix (Corillon)\u003C/li\u003E\r\n \t\u003Cli\u003EPapillon-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/dachshund/\"\u003EDachshund\u003C/a\u003E mix (Papshund)\u003C/li\u003E\r\n\u003C/ul\u003E\r\nNote: These are not purebred dogs but mixed breeds."
+          }
+        ],
+        "select_related_breeds": [
+          {
+            "selected_related_breed": 948,
+            "characteristic": "breed_characteristics_exercise_needs"
+          },
+          {
+            "selected_related_breed": 43,
+            "characteristic": "breed_characteristics_good_with_cats"
+          },
+          {
+            "selected_related_breed": 1346,
+            "characteristic": "breed_characteristics_training_needs"
+          },
+          {
+            "selected_related_breed": 1207,
+            "characteristic": "breed_characteristics_playfulnesss"
+          },
+          {
+            "selected_related_breed": 1134,
+            "characteristic": "breed_characteristics_shedding_level"
+          },
+          {
+            "selected_related_breed": 738,
+            "characteristic": "breed_characteristics_good_for_apartments_small_homes"
+          }
+        ],
+        "enable_featured_gallery": "",
+        "featured_gallery_images": null
+      },
+      "yoast_head": "\u003C!-- This site is optimized with the Yoast SEO plugin v23.8 - https://yoast.com/wordpress/plugins/seo/ --\u003E\n\u003Ctitle\u003EPapillon Breed: Characteristics, Care &amp; Photos | Chewy\u003C/title\u003E\n\u003Cmeta name=\"description\" content=\"Meet the bright, cheerful, energetic and adorable Papillon dog breed and learn if this pup is right for you in our complete Papillon guide.\" /\u003E\n\u003Cmeta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" /\u003E\n\u003Clink rel=\"canonical\" href=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/papillon/\" /\u003E\n\u003Cmeta property=\"og:locale\" content=\"en_US\" /\u003E\n\u003Cmeta property=\"og:type\" content=\"article\" /\u003E\n\u003Cmeta property=\"og:title\" content=\"Papillon Breed: Characteristics, Care &amp; Photos | Chewy\" /\u003E\n\u003Cmeta property=\"og:description\" content=\"Meet the bright, cheerful, energetic and adorable Papillon dog breed and learn if this pup is right for you in our complete Papillon guide.\" /\u003E\n\u003Cmeta property=\"og:url\" content=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/papillon/\" /\u003E\n\u003Cmeta property=\"og:site_name\" content=\"Chewy\" /\u003E\n\u003Cmeta property=\"article:modified_time\" content=\"2025-05-05T14:22:35+00:00\" /\u003E\n\u003Cmeta property=\"og:image\" content=\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11175726/202105Papillon_FeaturedImage.jpg\" /\u003E\n\t\u003Cmeta property=\"og:image:width\" content=\"1440\" /\u003E\n\t\u003Cmeta property=\"og:image:height\" content=\"865\" /\u003E\n\t\u003Cmeta property=\"og:image:type\" content=\"image/jpeg\" /\u003E\n\u003Cmeta name=\"twitter:card\" content=\"summary_large_image\" /\u003E\n\u003Cscript type=\"application/ld+json\" class=\"yoast-schema-graph\"\u003E{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/papillon/\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/papillon/\",\"name\":\"Papillon Breed: Characteristics, Care & Photos | Chewy\",\"isPartOf\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/papillon/#primaryimage\"},\"image\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/papillon/#primaryimage\"},\"thumbnailUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11175726/202105Papillon_FeaturedImage.jpg\",\"datePublished\":\"2021-05-25T09:20:12+00:00\",\"dateModified\":\"2025-05-05T14:22:35+00:00\",\"description\":\"Meet the bright, cheerful, energetic and adorable Papillon dog breed and learn if this pup is right for you in our complete Papillon guide.\",\"breadcrumb\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/papillon/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://phcms.hlth.prd.aws.chewy.cloud/breed/papillon/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/papillon/#primaryimage\",\"url\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11175726/202105Papillon_FeaturedImage.jpg\",\"contentUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11175726/202105Papillon_FeaturedImage.jpg\",\"width\":1440,\"height\":865},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/papillon/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://phcms.hlth.prd.aws.chewy.cloud/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Papillon\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/\",\"name\":\"Chewy\",\"description\":\"\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"}]}\u003C/script\u003E\n\u003C!-- / Yoast SEO plugin. --\u003E",
+      "yoast_head_json": {
+        "title": "Papillon Breed: Characteristics, Care & Photos | Chewy",
+        "description": "Meet the bright, cheerful, energetic and adorable Papillon dog breed and learn if this pup is right for you in our complete Papillon guide.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://phcms.hlth.prd.aws.chewy.cloud/breed/papillon/",
+        "og_locale": "en_US",
+        "og_type": "article",
+        "og_title": "Papillon Breed: Characteristics, Care & Photos | Chewy",
+        "og_description": "Meet the bright, cheerful, energetic and adorable Papillon dog breed and learn if this pup is right for you in our complete Papillon guide.",
+        "og_url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/papillon/",
+        "og_site_name": "Chewy",
+        "article_modified_time": "2025-05-05T14:22:35+00:00",
+        "og_image": [
+          {
+            "width": 1440,
+            "height": 865,
+            "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11175726/202105Papillon_FeaturedImage.jpg",
+            "type": "image/jpeg"
+          }
+        ],
+        "twitter_card": "summary_large_image",
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/papillon/",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/papillon/",
+              "name": "Papillon Breed: Characteristics, Care & Photos | Chewy",
+              "isPartOf": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/papillon/#primaryimage"
+              },
+              "image": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/papillon/#primaryimage"
+              },
+              "thumbnailUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11175726/202105Papillon_FeaturedImage.jpg",
+              "datePublished": "2021-05-25T09:20:12+00:00",
+              "dateModified": "2025-05-05T14:22:35+00:00",
+              "description": "Meet the bright, cheerful, energetic and adorable Papillon dog breed and learn if this pup is right for you in our complete Papillon guide.",
+              "breadcrumb": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/papillon/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://phcms.hlth.prd.aws.chewy.cloud/breed/papillon/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/papillon/#primaryimage",
+              "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11175726/202105Papillon_FeaturedImage.jpg",
+              "contentUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11175726/202105Papillon_FeaturedImage.jpg",
+              "width": 1440,
+              "height": 865
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/papillon/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://phcms.hlth.prd.aws.chewy.cloud/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Papillon"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/",
+              "name": "Chewy",
+              "description": "",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            }
+          ]
+        }
+      },
+      "yoast_meta": {
+        "yoast_wpseo_title": "",
+        "yoast_wpseo_metadesc": "",
+        "yoast_wpseo_canonical": ""
+      },
+      "_links": {
+        "self": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed/1121",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/types/breed"
+          }
+        ],
+        "wp:featuredmedia": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/1120"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media?parent=1121"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "pet_type",
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/pet_type?post=1121"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ]

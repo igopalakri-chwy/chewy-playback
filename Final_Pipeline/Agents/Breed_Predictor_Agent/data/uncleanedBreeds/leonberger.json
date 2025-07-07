@@ -1,0 +1,325 @@
+[
+    {
+      "id": 331,
+      "date": "2021-07-06T12:48:42",
+      "date_gmt": "2021-07-06T12:48:42",
+      "guid": {
+        "rendered": "https://haproxy.use1.lgcy.prd.aws.chewy.cloud/eks/ns/pet-health/pet-health-content-backend/breed/leonberger/"
+      },
+      "modified": "2025-05-05T14:21:22",
+      "modified_gmt": "2025-05-05T14:21:22",
+      "slug": "leonberger",
+      "status": "publish",
+      "type": "breed",
+      "link": "https://phcms.hlth.prd.aws.chewy.cloud/breed/leonberger/",
+      "title": {
+        "rendered": "Leonberger"
+      },
+      "featured_media": 330,
+      "template": "",
+      "pet_type": [],
+      "class_list": [
+        "post-331",
+        "breed",
+        "type-breed",
+        "status-publish",
+        "has-post-thumbnail",
+        "hentry"
+      ],
+      "acf": {
+        "breed_snapshot_best_for": "\u003Cp\u003ELeonberger dogs are gentle giants, known for their adventurous spirit and friendly demeanor. They thrive in homes with pet parents who can provide ample space for them to roam, and who enjoy their loyal and affectionate nature.\u003C/p\u003E",
+        "alt_image_text": "\u003Cp\u003EGet information about the Leonberger breed's personality, intelligence and more in our guide.\u003C/p\u003E",
+        "breed_intro": "Looking for a high-energy bestie who's eager to play all day with you? Meet the Leonberger. Tell them it's time for an \u003Ca href=\"https://www.chewy.com/education/dog/general/the-best-dog-hiking-gear-for-hitting-the-trails-with-your-pup\"\u003Eadventure\u003C/a\u003E, and these regal dogs will be wagging their tails in the backseat of your car before you've even checked the weather app for rain. Speaking of which, rain-schmain—with that water-resistant coat, a little wet weather won't dampen their day. While you're out and about, be sure to snap some pics for your IG feed. That glorious coat and happily wagging tail will make picture-perfect memories to cherish for a lifetime.",
+        "breed_related_products_product_card_set": null,
+        "breed_snapshot_temperament": "\u003Cp\u003EAffectionate, Gentle, Playful\u003C/p\u003E",
+        "what_does_this_breed_look_like_weight": "\u003Cp\u003EMale: 110-170 pounds\u003C/p\u003E\u003Cp\u003EFemale: 90-140 pounds\u003C/p\u003E",
+        "what_does_this_breed_look_like_height": "\u003Cp\u003EMale: 28-32 inches\u003C/p\u003E\u003Cp\u003EFemale: 26-30 inches\u003C/p\u003E",
+        "breed_snapshot_life_expectancy": "\u003Cp\u003E7 years\u003C/p\u003E",
+        "breed_snapshot_maintenance_level": "\u003Cp\u003EVery High\u003C/p\u003E",
+        "breed_characteristics_friendliness": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_snapshot_coat_color": "\u003Cp\u003EYellow, Sandy, Reddish Brown, Red\u003C/p\u003E",
+        "breed_snapshot_shed_level": "\u003Cp\u003EVery High\u003C/p\u003E",
+        "in_article_video": null,
+        "breed_characteristics": "These traits are rated on a scale of 1-5 with 1 being the lowest and 5 being the highest. Remember: Dogs are individuals, and not all dogs, even those of the same breed, will exhibit all the same qualities.",
+        "breed_characteristics_exercise_needs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_health_issues": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_barking_tendencies": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_grooming_needs": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_shedding_level": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_training_needs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_kids": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_good_with_cats": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_for_apartments_small_homes": "\u003Cp\u003E1\u003C/p\u003E",
+        "breed_characteristics_energy_level": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_other_dogs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_playfulnesss": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_cold_weather": "\u003Cp\u003E1\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_warm_weather": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_for_first_time_parents": "\u003Cp\u003E2\u003C/p\u003E",
+        "how_do_i_look_card_image": 329,
+        "what_does_this_breed_look_like": "With their thick, richly colored coat and regal bearing, the Leonberger may remind you of a king—of the jungle. Often called a \"gentle lion,\" these dogs are distinctive. Their face and head are marked with a black mask, and their sturdy chest gives them a powerful appearance. Their brown eyes shine with warmth and affection for their loved ones. Be sure you're steady on your feet when their furry tail starts wagging—you might just get knocked over.",
+        "what_does_this_breed_look_like_ears": "\u003Cp\u003EThe Leonberger's ears are medium in size and triangular. They hang flat against the sides of the head and come forward slightly when the dog perks up.\u003C/p\u003E",
+        "what_does_this_breed_look_like_eyes": "\u003Cp\u003ELeonberger eyes are medium in size and oval to almond in shape, ranging from light brown to a warm, dark brown. Dark brown is preferred if your dog is entering the show ring.\u003C/p\u003E",
+        "what_does_this_breed_look_like_nose": "\u003Cp\u003EThe Leonberger's nose is large and always black.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_length": "\u003Cp\u003EThe Leonberger dog has a medium to long double coat. It's waterproof, with a soft, dense undercoat and medium-soft to coarse outer coat. \u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_color": "\u003Cp\u003EThe Leonberger coat sports a warm yellow, red, sandy or reddish brown color, with black tips on the outer coat. If the outer coat is dark, the undercoat will be a lighter color. All Leonbergers have a black \"mask\" of fur across their face that continues to the back of the head.\u003C/p\u003E",
+        "what_does_this_breed_look_like_tail": "\u003Cp\u003EThe Leonberger has a furry tail that hangs straight down when relaxed, rising no higher than the dog's spine when alert. \u003C/p\u003E",
+        "h2_breed_temperament": "The Leonberger is known as the \"gentle lion\" for good reason. These pups are playful, tender and affectionate. They are not independent dogs, preferring to be included in all your fun. Leos are very loyal and sensitive to your mood; if you need a hug, they'll likely want one, too. Their gentleness and sensitive nature make them excellent therapy dogs, as they're willing to share their love and gentleness with everyone, not just their family.\n\nLeos aren't known to be aggressive or biters, but they need \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/positively-trained-puppy-socialization-dos-and-donts\"\u003Esocialization\u003C/a\u003E starting when they're puppies to bring out their naturally friendly nature. If they're not socialized as puppies, these dogs may become wary around new people and situations.\n\nLeos love kids and are great playmates, but you'll need to supervise them around small kids and babies. This giant-sized dog weighs well over 100 pounds, and they have a strong tail. One happy wag in the wrong direction could topple a tiny tot.",
+        "h2_how_to_care_for_a_breed": "The Leonberger breed is a very large dog with very large care needs. With their thick, double coat, it should come as no surprise that they're heavy shedders, and their fur will need a lot of care to prevent matting, too. These pups have a lot of energy and need a lot of training, as well. So, you'll be spending a lot of time with your pup every day—and that's just how you both prefer it.",
+        "grooming": "The Leonberger has a thick double coat and is a super-shedder, so they require daily brushing using a \u003Ca href=\"https://www.chewy.com/f/dog-pin-brushes_c356_f70v83789\" target=\"_blank\" rel=\"noopener\"\u003Epin brush\u003C/a\u003E to get down to the undercoat to remove all the mats. You may want to add an additional brushing where you dedicate serious time (30 to 60 minutes) to really brush through the fur and make sure your pup's coat is tangle-free. Many dog parents find it helpful to brush the coat backwards first to get next to the skin, then follow with a brush in the direction of the hair growth. In the spring and fall, when the Leo sheds their coat, use a \u003Ca href=\"https://www.chewy.com/f/stainless-steel-dog-brushes-combs_c356_f7v17020#\" target=\"_blank\" rel=\"noopener\"\u003Emetal comb\u003C/a\u003E and an undercoat \u003Ca href=\"https://www.chewy.com/f/rake-dog-brushes-combs_c356_f70v83790\" target=\"_blank\" rel=\"noopener\"\u003Erake\u003C/a\u003E in addition to the pin brush to deal with all the fur that will be flying.\n\nYour Leo will need a \u003Ca href=\"https://www.chewy.com/education/dog/grooming/how-to-bathe-a-dog-step-by-step-tips-from-a-professional-groomer\"\u003Ebath\u003C/a\u003E about every four to six weeks, unless they've been trekking through the mud. In between baths, you should be able to maintain their water-resistant coats with regular brushing.\n\nTheir \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/guide-trimming-dogs-nails\" target=\"_blank\" rel=\"noopener\"\u003Enails will need to be trimmed\u003C/a\u003E about every two to three weeks, if not worn down naturally by all your outdoor fun. You'll know they're ready for a trim when you can hear your dog click-clacking on your kitchen floors.\n\nLeo's need their \u003Ca href=\"https://www.chewy.com/education/dog/grooming/health-wellness-how-to-brush-your-dogs-teeth-live-to-tell-the-tale\" target=\"_blank\" rel=\"noopener\"\u003Eteeth brushed\u003C/a\u003E daily. Start when your Leonberger's a puppy, so they'll get used to it faster. Regular brushing will help keep tartar and plaque at bay and prevent other health issues, like heart disease, as they age. Your pup will need an annual cleaning by your vet, too.",
+        "training": "The Leonberger dog is super-smart and eager to learn, which can make them enjoyable to train. However, when they hit their adolescence, they can sometimes think they're smarter than you and become a bit willful during training. This, coupled with the dog's massive size and energy levels, make them better suited to someone who's trained a dog before. These traits can be super frustrating to someone working with their very first dog.\n\nStart your Leonberger puppy with the basic obedience commands, like \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-sit\" target=\"_blank\" rel=\"noopener\"\u003Esit\u003C/a\u003E, \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-stay\" target=\"_blank\" rel=\"noopener\"\u003Estay\u003C/a\u003E and \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-come\" target=\"_blank\" rel=\"noopener\"\u003Ecome\u003C/a\u003E. Learning how to \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/leash-train-dog-2\" target=\"_blank\" rel=\"noopener\"\u003Ewalk nicely on a leash\u003C/a\u003E is important for your Leo to learn, too. These dogs were used to pull carts, so they're strong. If your adult pup takes off while on a walk, you may risk injuring your shoulder. So, teach them proper leash etiquette while they're a puppy—your dog and your arm will thank you. The \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-off\" target=\"_blank\" rel=\"noopener\"\u003Eoff\u003C/a\u003E command may also be beneficial to help keep your 170-pound dog off your furniture or bed.\n\nSocialization is important, even for friendly pups like the Leonberger. Get them used to meeting new people, pups and situations to help them realize this is a perfectly normal part of life as they grow up. Take your puppy on walks and let them meet and sniff the people and dogs you meet. Enroll in puppy school, where they'll learn to play nicely with other puppies and meet new adults all under one roof.",
+        "diet_nutrition": "Leonbergers usually do well with a \u003Ca href=\"https://www.chewy.com/b/premium-food-11728\" target=\"_blank\" rel=\"noopener\"\u003Ehigh-quality commercial dog food\u003C/a\u003E for large-breed dogs. Be sure to choose a formula for your dog's age and stage in life (puppy, adult, senior). Look for the statement on the packaging that says it meets the nutritional standards set by the Association of American Feed Control Officials.\r\n\r\nEven though the Leonberger dog is very active, be careful not to overfeed your pup. Extra weight adds extra stress to their bones, and obesity can lead to other health concerns like arthritis or heart disease down the road. As you plan mealtimes, don't forget to include all the treats you'll give during training and just because you love your dog—those calories count, too.\r\n\r\nLeonbergers are at risk of bloat, which can be life-threatening. To protect your pup, consider feeding your dog smaller portions throughout the day using a \u003Ca href=\"https://www.chewy.com/b/slow-feeders-1424\" target=\"_blank\" rel=\"noopener\"\u003Eslow feeder bowl\u003C/a\u003E, and avoid strenuous exercise for an hour before and after mealtimes.\r\n\r\nIf you have any questions about your dog's diet or feeding schedule, chat with your vet. They're in the best position to help you choose the right food for your pup based on their unique situation.",
+        "exercise": "The Leonberger is an extra-large dog with extra-large exercise needs. This high-energy pup needs at least two hours of exercise spread throughout the day. A happy Leo is a tired Leo, and if your pup doesn't get the energy-releasing activity they crave, they'll come up with their own entertainment—such as destroying your favorite pair of running shoes (among other things).\n\nWhile long walks are good, be sure to mix it up so your pup doesn't get bored. Your Leo will love joining you for a morning jog, a weekend hike (so many things to smell and discover!) and games of Frisbee or fetch in the backyard. They're good swimmers and will enjoy splash time in a lake, pond or pool; in fact, they're well-suited to jobs as water rescue dogs. Be sure to reserve those more strenuous exercises, like jogging, until they're fully grown (around 2 years old). Their growing bones and joints need TLC, and that type of exercise may be too much for a puppy. Check with your vet before starting up a new activity.\n\nIf you've got a competitive streak, your Leo would love to join you in dog sports. They're great at agility courses and drafting, where they use their strong bodies to pull a cart competitively. (They were used to pull ammunition carts during both World Wars.) You two will have fun bonding over these fun sports, and who knows? You may come home with some fancy winning ribbons.\n\nDon't forget to exercise your pup's mind, too. After you've mastered the basics of obedience, teach your dog fun tricks, like play dead and \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/dog-commands-shake-a-paw\"\u003Eshake\u003C/a\u003E (instant party pleasers!). And leave a few \u003Ca href=\"https://www.chewy.com/b/puzzle-toys-games-2335\" target=\"_blank\" rel=\"noopener\"\u003Epuzzle toys\u003C/a\u003E around the house for them to solve.",
+        "ideal_environment": "The Leonberger is a giant breed who needs lots of room to speed around. They were bred to work on farms, so they're most at home in wide, expansive spaces. If you don't have oodles of acres for this pup to roam around, a fenced backyard will do nicely. With their giant size and really high energy levels, apartment living may be more challenging for these pups. Apartment-dwellers committed to spending lots of time outdoors every day may be able to make it work, though.\r\n\r\nBecause of their size and energy levels, these dogs are better suited for experienced pet parents who've trained a dog before. First-timers may find this pup a lot to handle and may get frustrated.\r\n\r\nThese gentle lions are family dogs and aren't meant for independent living. They need to be included in all the family fun. They thrive with an active family who's busy outdoors and wants a furry companion to bring with them on all their adventures.\r\n\r\nLeos are great with kids, but you'll want to supervise them around smaller children. With their large size and tail that's bound to be wagging, they may accidentally knock over a toddler. They do well with other dogs in the home, but watch out for smaller pups—they may accidentally injure them, too. Leos can do well with cats, as long as they're raised with them from puppyhood.",
+        "h2_breed_health": "The Leonberger can live a healthy and happy life for such a large dog, with a life expectancy of 7 years. But, like all dog breeds, the Leonberger can be prone to certain diseases. Being aware of these conditions can help you give your pup a long and healthy life.\r\n\u003Cul\u003E\r\n \t\u003Cli\u003E\u003Cstrong\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/digestive/signs-and-symptoms-bloat-dogs\" target=\"_blank\" rel=\"noopener\"\u003EBloat\u003C/a\u003E or \u003Ca href=\"https://www.petmd.com/dog/conditions/digestive/gastric-dilatation-volvulus-gdv-syndrome\" target=\"_blank\" rel=\"noopener\"\u003EGastric Dilatation-Volvulus\u003C/a\u003E (GDV)\u003C/strong\u003E: This condition often affects large, deep chested dog breeds like the Leonberger. When it occurs, your dog’s stomach may twist and trap gas inside. Symptoms include a distended stomach, unsuccessful attempts at vomiting and restlessness. Bloat can be a life-threatening condition, so get to your vet immediately if you think your pup has symptoms. As a preventative measure, your vet can perform surgery to stitch the stomach to the side of the body (prophylactic gastropexy). You can also potentially help prevent bloat by avoiding exercising your dog immediately after eating and giving smaller meals throughout the day with a \u003Ca href=\"https://www.chewy.com/b/slow-feeders-1424\" target=\"_blank\" rel=\"noopener\"\u003Eslow feeding bowl\u003C/a\u003E.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Cstrong\u003EDysplasia\u003C/strong\u003E: As large dogs, Leonbergers are prone to \u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/c_dg_hip_dysplasia\" target=\"_blank\" rel=\"noopener\"\u003Ehip\u003C/a\u003E and \u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/c_dg_elbow_dysplasia\" target=\"_blank\" rel=\"noopener\"\u003Eelbow dysplasia\u003C/a\u003E. Dysplasia is a hereditary condition in which the joint is malformed, causing the dog pain. Symptoms of dysplasia include limping, pain and arthritis. Treatments include weight and exercise management, physical therapy or surgery.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Cstrong\u003EEye Disease\u003C/strong\u003E: Leonbergers are prone to a few eye diseases. \u003Ca href=\"https://www.petmd.com/dog/conditions/eye/c_dg_cataract\" target=\"_blank\" rel=\"noopener\"\u003ECataracts\u003C/a\u003E and \u003Ca href=\"https://www.petmd.com/dog/condition/progressive-retinal-atrophy-in-dogs\" target=\"_blank\" rel=\"noopener\"\u003Eprogressive retinal atrophy\u003C/a\u003E (PRA) both lead to blindness. Cataracts can often be corrected with surgery, but PRA does not have a cure or treatment. \u003Ca href=\"https://www.petmd.com/dog/conditions/eyes/c_multi_entropion\" target=\"_blank\" rel=\"noopener\"\u003EEntropion\u003C/a\u003E, in which the eyelid rolls inward and rubs, can lead to corneal ulcers and is treated with surgery. \u003Ca href=\"https://www.petmd.com/dog/conditions/eyes/c_dg_ectropion\" target=\"_blank\" rel=\"noopener\"\u003EEctropion\u003C/a\u003E, in which the eyelid rolls outwards, is often treated with medicated eye drops.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/neurological/c_multi_peripheral_neuropathies\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cstrong\u003EPolyneuropathy\u003C/strong\u003E\u003C/a\u003E: This is a progressive neurological disease that affects the nerves of your dog. Signs can appear from 1 year old. This can cause your dog to tire easily, be unsteady on their paws and have noisy or labored breathing. Unfortunately, there is no treatment to cure the disease, but medication can be given to manage the symptoms.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Cstrong\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/cardiovascular/enlarged-heart-dilated-cardiomyopathy-dogs\" target=\"_blank\" rel=\"noopener\"\u003EDilated Cardiomyopathy\u003C/a\u003E (DCM)\u003C/strong\u003E: This often-inherited heart condition results in an enlarged heart, causing thin and weakened heart muscle. This can lead to heart failure. Treatment is typically daily medication.\u003C/li\u003E\r\n\u003C/ul\u003E",
+        "h2_breed_history": "Unlike most other working dogs, which are typically bred for physical labor, the Leonberger was bred to be a companion for European royalty. The breed was founded by Heinrich Essig, a 19th century politician and entrepreneur of Leonberg, Germany. He crossed large working breeds such as \u003Ca href=\"https://www.chewy.com/education/dog-breeds/saint-bernard/\" target=\"_blank\" rel=\"noopener\"\u003ESaint Bernards\u003C/a\u003E and \u003Ca href=\"https://www.chewy.com/education/dog-breeds/newfoundland/\" target=\"_blank\" rel=\"noopener\"\u003ENewfoundlands\u003C/a\u003E, and their offspring served rulers such as Napoleon III, Tsar Alexander II of Russia and the Prince of Wales (later King Edward VII of the United Kingdom).\r\n\r\nThe Leonberger has also graced households of elites, including composers Richard Wagner and Sergei Rachmaninoff and the Italian patriot Giuseppe Garibaldi. Over time, Leonbergers became working-class dogs who served on farms and other less aristocratic households. The breed was recognized by the American Kennel Club in 2010 and is the club's 167th breed.\r\n\r\nSo where's the best place to find a Leonberger puppy? You can find a list of reputable breeders on the \u003Ca href=\"https://marketplace.akc.org/puppies/leonberger\" target=\"_blank\" rel=\"noopener\"\u003EAmerican Kennel Club's website\u003C/a\u003E. The cost of a Leo is between $2,000 and $4,000 which is on the higher end of the scale for the price of a puppy, but oh so worth it! For this price, they'll typically come screened for potential health and behavioral issues and may even come with papers. But you'll need to be patient as these puppies are pretty rare. If you'd like to adopt a Leo, reach out to the \u003Ca href=\"https://leonbergerclubofamerica.com/\" target=\"_blank\" rel=\"noopener\"\u003ELeonberger Club of America\u003C/a\u003E or search \u003Ca href=\"https://www.chewy.com/g/dog-leonberger_ga1\"\u003EChewy’s database of adoptable dogs\u003C/a\u003E in your area.",
+        "expert_attribution": "\u003Ci\u003EAmber Walker, KPA-CTP, zoologist and owner of Animal Intuitions. \u003Ca href=\"http://www.aitrainers.com\" target=\"_blank\" rel=\"noopener\"\u003EAitrainers.com\u003C/a\u003E, and \u003C/i\u003E\u003Ci\u003EDr. Sara Ochoa, DVM and veterinary consultant for \u003Ca href=\"https://doglab.com/\" target=\"_blank\" rel=\"noopener\"\u003EDogLab.com\u003C/a\u003E.\u003C/i\u003E\r\n\r\n\u003Cem\u003EBreed characteristic ratings provided by veterinarian Dr. Sarah J. Wooten, DVM, CVJ, a veterinarian at \u003Ca href=\"https://sheepdraw.com/\" target=\"_blank\" rel=\"noopener\"\u003ESheep Draw Veterinary Hospital\u003C/a\u003E in Greeley, Colorado; dog trainer and behavior consultant Irith Bloom, CPDT-KSA, CBCC-KA, CDBC, owner of \u003Ca href=\"https://thesophisticateddog.com/\" target=\"_blank\" rel=\"noopener\"\u003EThe Sophisticated Dog, LLC\u003C/a\u003E, in Los Angeles; and certified animal behavior consultant \u003Ca href=\"https://shojai.com/\" target=\"_blank\" rel=\"noopener\"\u003EAmy Shojai\u003C/a\u003E, CABC, in Sherman, Texas.\u003C/em\u003E\r\n\r\n\u003Cem\u003EThe health content was medically reviewed by Chewy vets.\u003C/em\u003E",
+        "facebook_social_snippet_with_cta": "\u003Cp\u003EDogs don't get much larger or more fun than the Leonberger. This big shedder has a big heart to match and is super-affectionate, so you'll need time for grooming, exercising and cuddling this gentle giant. This king of the jungle may well steal your heart in our complete Leonberger guide.\u003C/p\u003E",
+        "species": "\u003Cp\u003EDog\u003C/p\u003E",
+        "h2_faqs": "\u003Ch3\u003EDo Leonbergers shed?\u003C/h3\u003E\nYes! Leonbergers shed quite heavily, especially in summer or when the weather gets hot as the undercoat starts thinning. You will have to brush your Leonberger daily throughout the year, with a thorough brushing once a week.\n\u003Ch3\u003EDo Leonbergers drool?\u003C/h3\u003E\n\u003Cb\u003E\u003C/b\u003ENo, Leonbergers don't drool habitually, but they are known to be sloppy drinkers and can shake off a wet mess when they're done.\n\u003Ch3\u003EWhat were Leonbergers bred for?\u003C/h3\u003E\nThe Leonberger was originally bred to be a companion to European royalty. They were later used for working on farms and doing other physical labor.\n\u003Ch3\u003EWhat are the most popular Leonberger names?\u003C/h3\u003E\nThe most popular Leonberger names include Max, Juno, Sparky, Princess, Abby, Duke, Persis, Gus, Vulcan, Wolf, Brandy, Molly, Ginger, Lola and Shadow. \u003Ca href=\"https://www.chewy.com/education/dog/general/top-dog-names\" target=\"_blank\" rel=\"noopener\"\u003EGet more dog names here\u003C/a\u003E.\n\u003Ch3\u003EWhat are the most common Leonberger mixes?\u003C/h3\u003E\nThe most common Leonberger mixes are:\n\u003Cul\u003E\n \t\u003Cli\u003ELeonberger-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/german-shepherd/\"\u003EGerman Shepherd\u003C/a\u003E mix\u003C/li\u003E\n \t\u003Cli\u003ELeonberger-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/golden-retriever/\"\u003EGolden Retriever\u003C/a\u003E mix\u003C/li\u003E\n \t\u003Cli\u003ELeonberger-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/poodle/\"\u003EPoodle\u003C/a\u003E mix\u003C/li\u003E\n \t\u003Cli\u003ELeonberger-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/newfoundland/\"\u003ENewfoundland\u003C/a\u003E mix\u003C/li\u003E\n \t\u003Cli\u003ELeonberger-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/husky/\"\u003EHusky\u003C/a\u003E mix\u003C/li\u003E\n \t\u003Cli\u003ELeonberger-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/labrador-retriever/\"\u003ELabrador\u003C/a\u003E mix\u003C/li\u003E\n\u003C/ul\u003E\nNote: These are not purebred dogs but mixed breeds.",
+        "faq_items": [
+          {
+            "faq_title": "Do Leonbergers shed?",
+            "faq_content": "Yes! Leonbergers shed quite heavily, especially in summer or when the weather gets hot as the undercoat starts thinning. You will have to brush your Leonberger daily throughout the year, with a thorough brushing once a week."
+          },
+          {
+            "faq_title": "Do Leonbergers drool?",
+            "faq_content": "\u003Cb\u003E\u003C/b\u003ENo, Leonbergers don't drool habitually, but they are known to be sloppy drinkers and can shake off a wet mess when they're done."
+          },
+          {
+            "faq_title": "What were Leonbergers bred for?",
+            "faq_content": "The Leonberger was originally bred to be a companion to European royalty. They were later used for working on farms and doing other physical labor."
+          },
+          {
+            "faq_title": "What are the most popular Leonberger names?",
+            "faq_content": "The most popular Leonberger names include Max, Juno, Sparky, Princess, Abby, Duke, Persis, Gus, Vulcan, Wolf, Brandy, Molly, Ginger, Lola and Shadow. \u003Ca href=\"https://www.chewy.com/education/dog/general/top-dog-names\" target=\"_blank\" rel=\"noopener\"\u003EGet more dog names here\u003C/a\u003E."
+          },
+          {
+            "faq_title": "What are the most common Leonberger mixes?",
+            "faq_content": "The most common Leonberger mixes are:\r\n\u003Cul\u003E\r\n \t\u003Cli\u003ELeonberger-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/german-shepherd/\"\u003EGerman Shepherd\u003C/a\u003E mix\u003C/li\u003E\r\n \t\u003Cli\u003ELeonberger-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/golden-retriever/\"\u003EGolden Retriever\u003C/a\u003E mix\u003C/li\u003E\r\n \t\u003Cli\u003ELeonberger-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/poodle/\"\u003EPoodle\u003C/a\u003E mix\u003C/li\u003E\r\n \t\u003Cli\u003ELeonberger-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/newfoundland/\"\u003ENewfoundland\u003C/a\u003E mix\u003C/li\u003E\r\n \t\u003Cli\u003ELeonberger-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/husky/\"\u003EHusky\u003C/a\u003E mix\u003C/li\u003E\r\n \t\u003Cli\u003ELeonberger-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/labrador-retriever/\"\u003ELabrador\u003C/a\u003E mix\u003C/li\u003E\r\n\u003C/ul\u003E\r\nNote: These are not purebred dogs but mixed breeds."
+          }
+        ],
+        "select_related_breeds": [
+          {
+            "selected_related_breed": 134,
+            "characteristic": "breed_characteristics_good_with_kids"
+          },
+          {
+            "selected_related_breed": 1165,
+            "characteristic": "breed_characteristics_shedding_level"
+          },
+          {
+            "selected_related_breed": 25,
+            "characteristic": "breed_characteristics_energy_level"
+          },
+          {
+            "selected_related_breed": 969,
+            "characteristic": "breed_characteristics_sensitive_to_cold_weather"
+          },
+          {
+            "selected_related_breed": 1402,
+            "characteristic": "breed_characteristics_playfulnesss"
+          },
+          {
+            "selected_related_breed": 1217,
+            "characteristic": "breed_characteristics_training_needs"
+          }
+        ],
+        "enable_featured_gallery": [
+          "enable_featured_gallery"
+        ],
+        "featured_gallery_images": [322, 323, 324, 325, 326, 327]
+      },
+      "yoast_head": "\u003C!-- This site is optimized with the Yoast SEO plugin v23.8 - https://yoast.com/wordpress/plugins/seo/ --\u003E\n\u003Ctitle\u003ELeonberger Breed: Characteristics, Care &amp; Photos | Chewy\u003C/title\u003E\n\u003Cmeta name=\"description\" content=\"Big, happy-go-lucky and playful, Leonberger dogs are lots of fun but need a fair amount of attention. Find out if you&#039;re a match.\" /\u003E\n\u003Cmeta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" /\u003E\n\u003Clink rel=\"canonical\" href=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/leonberger/\" /\u003E\n\u003Cmeta property=\"og:locale\" content=\"en_US\" /\u003E\n\u003Cmeta property=\"og:type\" content=\"article\" /\u003E\n\u003Cmeta property=\"og:title\" content=\"Leonberger Breed: Characteristics, Care &amp; Photos | Chewy\" /\u003E\n\u003Cmeta property=\"og:description\" content=\"Big, happy-go-lucky and playful, Leonberger dogs are lots of fun but need a fair amount of attention. Find out if you&#039;re a match.\" /\u003E\n\u003Cmeta property=\"og:url\" content=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/leonberger/\" /\u003E\n\u003Cmeta property=\"og:site_name\" content=\"Chewy\" /\u003E\n\u003Cmeta property=\"article:modified_time\" content=\"2025-05-05T14:21:22+00:00\" /\u003E\n\u003Cmeta property=\"og:image\" content=\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11163153/202107Leonberger-FeaturedImage.jpg\" /\u003E\n\t\u003Cmeta property=\"og:image:width\" content=\"1440\" /\u003E\n\t\u003Cmeta property=\"og:image:height\" content=\"865\" /\u003E\n\t\u003Cmeta property=\"og:image:type\" content=\"image/jpeg\" /\u003E\n\u003Cmeta name=\"twitter:card\" content=\"summary_large_image\" /\u003E\n\u003Cscript type=\"application/ld+json\" class=\"yoast-schema-graph\"\u003E{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/leonberger/\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/leonberger/\",\"name\":\"Leonberger Breed: Characteristics, Care & Photos | Chewy\",\"isPartOf\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/leonberger/#primaryimage\"},\"image\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/leonberger/#primaryimage\"},\"thumbnailUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11163153/202107Leonberger-FeaturedImage.jpg\",\"datePublished\":\"2021-07-06T12:48:42+00:00\",\"dateModified\":\"2025-05-05T14:21:22+00:00\",\"description\":\"Big, happy-go-lucky and playful, Leonberger dogs are lots of fun but need a fair amount of attention. Find out if you're a match.\",\"breadcrumb\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/leonberger/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://phcms.hlth.prd.aws.chewy.cloud/breed/leonberger/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/leonberger/#primaryimage\",\"url\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11163153/202107Leonberger-FeaturedImage.jpg\",\"contentUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11163153/202107Leonberger-FeaturedImage.jpg\",\"width\":1440,\"height\":865},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/leonberger/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://phcms.hlth.prd.aws.chewy.cloud/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Leonberger\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/\",\"name\":\"Chewy\",\"description\":\"\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"}]}\u003C/script\u003E\n\u003C!-- / Yoast SEO plugin. --\u003E",
+      "yoast_head_json": {
+        "title": "Leonberger Breed: Characteristics, Care & Photos | Chewy",
+        "description": "Big, happy-go-lucky and playful, Leonberger dogs are lots of fun but need a fair amount of attention. Find out if you're a match.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://phcms.hlth.prd.aws.chewy.cloud/breed/leonberger/",
+        "og_locale": "en_US",
+        "og_type": "article",
+        "og_title": "Leonberger Breed: Characteristics, Care & Photos | Chewy",
+        "og_description": "Big, happy-go-lucky and playful, Leonberger dogs are lots of fun but need a fair amount of attention. Find out if you're a match.",
+        "og_url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/leonberger/",
+        "og_site_name": "Chewy",
+        "article_modified_time": "2025-05-05T14:21:22+00:00",
+        "og_image": [
+          {
+            "width": 1440,
+            "height": 865,
+            "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11163153/202107Leonberger-FeaturedImage.jpg",
+            "type": "image/jpeg"
+          }
+        ],
+        "twitter_card": "summary_large_image",
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/leonberger/",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/leonberger/",
+              "name": "Leonberger Breed: Characteristics, Care & Photos | Chewy",
+              "isPartOf": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/leonberger/#primaryimage"
+              },
+              "image": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/leonberger/#primaryimage"
+              },
+              "thumbnailUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11163153/202107Leonberger-FeaturedImage.jpg",
+              "datePublished": "2021-07-06T12:48:42+00:00",
+              "dateModified": "2025-05-05T14:21:22+00:00",
+              "description": "Big, happy-go-lucky and playful, Leonberger dogs are lots of fun but need a fair amount of attention. Find out if you're a match.",
+              "breadcrumb": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/leonberger/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://phcms.hlth.prd.aws.chewy.cloud/breed/leonberger/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/leonberger/#primaryimage",
+              "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11163153/202107Leonberger-FeaturedImage.jpg",
+              "contentUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11163153/202107Leonberger-FeaturedImage.jpg",
+              "width": 1440,
+              "height": 865
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/leonberger/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://phcms.hlth.prd.aws.chewy.cloud/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Leonberger"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/",
+              "name": "Chewy",
+              "description": "",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            }
+          ]
+        }
+      },
+      "yoast_meta": {
+        "yoast_wpseo_title": "",
+        "yoast_wpseo_metadesc": "",
+        "yoast_wpseo_canonical": ""
+      },
+      "_links": {
+        "self": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed/331",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/types/breed"
+          }
+        ],
+        "acf:attachment": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/327"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/326"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/325"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/324"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/323"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/322"
+          }
+        ],
+        "wp:featuredmedia": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/330"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media?parent=331"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "pet_type",
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/pet_type?post=331"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ]

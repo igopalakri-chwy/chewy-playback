@@ -1,0 +1,333 @@
+[
+    {
+      "id": 34,
+      "date": "2025-03-07T09:44:39",
+      "date_gmt": "2025-03-07T09:44:39",
+      "guid": {
+        "rendered": "https://haproxy.use1.lgcy.prd.aws.chewy.cloud/eks/ns/pet-health/pet-health-content-backend/breed/bulldog/"
+      },
+      "modified": "2025-06-04T17:09:40",
+      "modified_gmt": "2025-06-04T17:09:40",
+      "slug": "bulldog",
+      "status": "publish",
+      "type": "breed",
+      "link": "https://phcms.hlth.prd.aws.chewy.cloud/breed/bulldog/",
+      "title": {
+        "rendered": "Bulldog (English Bulldog)"
+      },
+      "featured_media": 3160,
+      "template": "",
+      "pet_type": [],
+      "class_list": [
+        "post-34",
+        "breed",
+        "type-breed",
+        "status-publish",
+        "has-post-thumbnail",
+        "hentry"
+      ],
+      "acf": {
+        "breed_snapshot_best_for": "\u003Cp\u003EWith their short stacks and smooshed faces, Bulldogs are some of the cutest dogs around, and they’ll give you snuggles and make you laugh in equal measure. Often called English Bulldogs, they make great family pets and are likely to charm every single person they meet.\u003C/p\u003E",
+        "alt_image_text": "Bulldog breed",
+        "breed_intro": "\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EReady for lots of sloppy kisses and a wrinkly little shadow following you everywhere you go? Affectionate, easygoing, and adorable, the English Bulldog is the definition of “best friend.” \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003ENot only do English Bulldogs live to make you happy, but they’d also like to befriend every single person (or dog, or cat) they meet. But don’t take it too personally—after all, you’re the one they’ll be cuddled up with at the end of the day.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EThese cuties aren’t star athletes like some other breeds, but they’ll happily shuffle next to you on \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/walking-with-dog\"\u003E\u003Cspan data-contrast=\"none\"\u003Eshort walks\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E and \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/pet-parenting/dog-park-etiquette\"\u003E\u003Cspan data-contrast=\"none\"\u003Etrips to the dog park\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E. Snuggles on your lap? They’re down for that, too. Don’t tell them they’re a bit bigger than the average lap dog—just let them enjoy.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E",
+        "breed_related_products_product_card_set": "",
+        "breed_snapshot_temperament": "\u003Cp\u003ECharming, Cuddly, Silly\u003C/p\u003E",
+        "what_does_this_breed_look_like_weight": "\u003Cp\u003E40–50 pounds\u003C/p\u003E",
+        "what_does_this_breed_look_like_height": "\u003Cp\u003E14–15 inches\u003C/p\u003E",
+        "breed_snapshot_life_expectancy": "\u003Cp\u003E8–10 years\u003C/p\u003E",
+        "breed_snapshot_maintenance_level": "\u003Cp\u003EMedium\u003C/p\u003E",
+        "breed_characteristics_friendliness": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_snapshot_coat_color": "\u003Cp\u003EFawn, Fawn and White, Fawn Brindle and White, Red, Red and White, Red Brindle, Red Brindle and White, White, Fawn and Brindle, Fallow\u003C/p\u003E",
+        "breed_snapshot_shed_level": "\u003Cp\u003ELow\u003C/p\u003E",
+        "in_article_video": null,
+        "breed_characteristics": "\u003Cp\u003EHere are the qualities you can expect from raising an English Bulldog on a scale of 1 paw (low) to 5 paws (high). Just remember that dogs are individuals, and not all dogs, even of the same breed, will fit the mold.\u003C/p\u003E",
+        "breed_characteristics_exercise_needs": "\u003Cp\u003E1\u003C/p\u003E",
+        "breed_characteristics_health_issues": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_barking_tendencies": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_grooming_needs": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_shedding_level": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_training_needs": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_with_kids": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_good_with_cats": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_for_apartments_small_homes": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_energy_level": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_good_with_other_dogs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_playfulnesss": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_cold_weather": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_warm_weather": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_good_for_first_time_parents": "\u003Cp\u003E3\u003C/p\u003E",
+        "how_do_i_look_card_image": 3159,
+        "what_does_this_breed_look_like": "\u003Cp\u003E\u003Cspan data-contrast=\"auto\"\u003EThe English Bulldog has a stout frame and velvety skin that makes them positively squeezable. They have a prominent underbite, a short snout (they’re what’s known as a \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/general-health/flat-faced-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Ebrachycephalic breed\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E), and \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/general/8-wrinkly-dog-breeds-that-will-melt-your-heart\"\u003E\u003Cspan data-contrast=\"none\"\u003Every cute wrinkles\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E that are silly and dignified at the same time. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"auto\"\u003EBulldogs carry most of their weight in the front half of their body, leaving their trimmer backside and tiny tail free to waggle happily.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E",
+        "what_does_this_breed_look_like_ears": "\u003Cp\u003EEnglish Bulldogs have short, thin ears that fold down at the top.\u003C/p\u003E",
+        "what_does_this_breed_look_like_eyes": "\u003Cp\u003ETheir round, wide-set eyes are dark and soulful.\u003C/p\u003E",
+        "what_does_this_breed_look_like_nose": "\u003Cp\u003EThe English Bulldog's flat, broad nose is almost always black.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_length": "\u003Cp\u003EThe English Bulldog coat is short, glossy, and close to the body.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_color": "\u003Cp\u003EEnglish Bulldog colors include fawn, white, red, brindle, bronze, fallow (light cream or pale brown), or some combination of these.\u003C/p\u003E",
+        "what_does_this_breed_look_like_tail": "\u003Cp\u003EThe English Bulldog tail is typically short. Some bulldogs have “screwed” tails, which means the tail curls in on itself, forming a neat little bun.\u003C/p\u003E",
+        "h2_breed_temperament": "\u003Cp\u003E\u003Cspan data-contrast=\"auto\"\u003EEnglish Bulldogs are known for their loyalty, affectionate nature, and outgoing personality, making them great companions and \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/general/best-family-dogs\"\u003E\u003Cspan data-contrast=\"none\"\u003Efamily dogs\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E. These friendly pups long for a bestie and will bond with almost anyone who cares for them. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"auto\"\u003EYour English Bulldog is likely to get lots of attention on walks, and they’ll be happy to put on a show, charming everyone from visitors, kids, delivery people, and anyone else you meet. Bulldogs are truly social creatures, but their favorite social interaction of all is curling up next to you on the couch. In fact, you’ll find that \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/why-do-dogs-sleep-so-much\"\u003E\u003Cspan data-contrast=\"none\"\u003Esnoozing in a comfy spot\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E is their go-to activity.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"auto\"\u003EWhen they’re not cuddling, Bulldogs will get your attention with their—perhaps unintentional—sense of humor. Some pet parents have experienced the “relocation” of belongings like slippers, books, and hats. They might pout and sulk if they feel rebuffed, making some hilarious faces in the process. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"auto\"\u003EOnce you give them the attention they crave (and who couldn’t?), Bulldogs immediately paw at your for more and win you over with their silly nature. Essentially, if you’re looking for a bestie who also makes you laugh, this is your soul pup. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"auto\"\u003EBut these smart dogs also have their own thoughts and opinions—and they might be hesitant to change their mind. When it comes to training, \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/best/treats-for-english-bulldogs_s143190\"\u003E\u003Cspan data-contrast=\"none\"\u003Ehigh-value treats\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E will help you teach them cues like \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-sit\"\u003E\u003Cspan data-contrast=\"none\"\u003Esit\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E, \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-stay\"\u003E\u003Cspan data-contrast=\"none\"\u003Estay\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E, and \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-come\"\u003E\u003Cspan data-contrast=\"none\"\u003Ecome\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E. English Bulldogs usually don’t have a problem with the last cue, though, because they simply love their human so much.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E",
+        "h2_how_to_care_for_a_breed": "\u003Cp\u003E\u003Cspan class=\"TextRun SCXW224421444 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\u003E\u003Cspan class=\"NormalTextRun SCXW224421444 BCX4\"\u003EEnglish Bulldog\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW224421444 BCX4\"\u003Es\u003C/span\u003E \u003Cspan class=\"NormalTextRun SCXW224421444 BCX4\"\u003Eare easygoing and only need\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW224421444 BCX4\"\u003E moderate exercise, \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW224421444 BCX4\"\u003Ebut \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW224421444 BCX4\"\u003Ethey’re\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW224421444 BCX4\"\u003E not necessarily \u003C/span\u003E\u003Cspan class=\"NormalTextRun ContextualSpellingAndGrammarErrorV2Themed GrammarErrorHighlight SCXW224421444 BCX4\"\u003Elow\u003C/span\u003E\u003Cspan class=\"NormalTextRun ContextualSpellingAndGrammarErrorV2Themed GrammarErrorHighlight SCXW224421444 BCX4\"\u003E-\u003C/span\u003E\u003Cspan class=\"NormalTextRun ContextualSpellingAndGrammarErrorV2Themed GrammarErrorHighlight SCXW224421444 BCX4\"\u003Emaintenance\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW224421444 BCX4\"\u003E.\u003C/span\u003E \u003Cspan class=\"NormalTextRun SCXW224421444 BCX4\"\u003EYou’ll\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW224421444 BCX4\"\u003E need to take extra care of their cute wrinkles and \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW224421444 BCX4\"\u003Efeed them\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW224421444 BCX4\"\u003E a diet that keeps the\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW224421444 BCX4\"\u003Em lean\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW224421444 BCX4\"\u003E. \u003C/span\u003E\u003C/span\u003E\u003Cspan class=\"EOP SCXW224421444 BCX4\" data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E",
+        "grooming": "\u003Cul\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EBathing:\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E Most English Bulldogs shouldn’t need a bath more than once a month. If they have skin issues, talk to your vet about \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/grooming/how-to-bathe-a-dog-step-by-step-tips-from-a-professional-groomer\"\u003E\u003Cspan data-contrast=\"none\"\u003Ebathing more frequently\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EBrushing:\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E An English Bulldog’s short coat is usually simple to maintain with a once-weekly brushing using a \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/f/slicker-brush-dog-brushes-combs_c356_f70v83792\"\u003E\u003Cspan data-contrast=\"none\"\u003Eslicker brush\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EDental care:\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/grooming/health-wellness-how-to-brush-your-dogs-teeth-live-to-tell-the-tale\"\u003E\u003Cspan data-contrast=\"none\"\u003EBrush their teeth\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E every day with a specially formulated \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/b/toothpastes-2598\"\u003E\u003Cspan data-contrast=\"none\"\u003Edog toothpaste\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E and \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/b/toothbrushes-2597\"\u003E\u003Cspan data-contrast=\"none\"\u003Edog toothbrush\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E. Get a professional cleaning at your vet’s once a year. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003ENail care:\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/guide-trimming-dogs-nails\"\u003E\u003Cspan data-contrast=\"none\"\u003ETrim your English Bulldog’s nails\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E once a month. You’ll know it’s time when you hear them clacking as they walk across hard surfaces.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003ESkin care:\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E English Bulldogs’ characteristic wrinkles need to be wiped down every day to avoid dirt and moisture getting trapped inside the folds and causing infections. Use a \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/malacetic-wet-wipes-dogs-cats/dp/111408\"\u003E\u003Cspan data-contrast=\"none\"\u003Emedicated and drying wipe\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E to clean underneath all that skin, especially the wrinkles around the nose and tail. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\r\n\u003Cul\u003E\r\n\t\u003Cli\u003E\u003Cspan data-contrast=\"none\"\u003EMake sure to dry all the areas you’ve wiped, as moisture can cause infection. If you notice any redness or irritation, your vet may recommend using a medicated shampoo or mousse for a few days. Don’t forget to clean between the toes, too, as their paws are prone to infection.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\u003C/ul\u003E\r\n\u003C/li\u003E\r\n\u003C/ul\u003E",
+        "training": "\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EThe key to training an English Bulldog? Patience—and lots of \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/behavior/how-to-train-a-dog-with-positive-reinforcement\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Epositive reinforcement\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, of course.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EEnglish Bulldogs are independent thinkers, so if you’re looking for a dog who will jump through hoops on command, look elsewhere. These smart cookies know what they like and don’t like—so if they take a bit longer to learn something, it’s not for lack of intelligence. It’s just because they’re not feeling it at this \u003C/span\u003E\u003Ci\u003E\u003Cspan data-contrast=\"none\"\u003Eexact\u003C/span\u003E\u003C/i\u003E\u003Cspan data-contrast=\"none\"\u003E moment. The promise of a treat, \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/best/toys-for-english-bulldogs_s142974\"\u003E\u003Cspan data-contrast=\"none\"\u003Ea fun toy\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, or praise can often help them along. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EWith proper motivation, your English Bulldog will probably ace all the important cues eventually. Keep going with that positive reinforcement and don’t give up. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EAs with all breeds, \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/positively-trained-puppy-socialization-dos-and-donts\"\u003E\u003Cspan data-contrast=\"none\"\u003Eearly socialization\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E is key for English Bulldog puppies to grow up to be well-adjusted adults, so start introducing them to new people and places as soon as you can. If your dog’s a puppy, your vet can help you decide how soon to make introductions (usually once they’re \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/dog-vaccinations-a-complete-guide\"\u003E\u003Cspan data-contrast=\"none\"\u003Efully vaccinated\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E). \u003C/span\u003E\u003Cspan data-contrast=\"none\"\u003EIf you adopt an older English Bulldog, your vet can also offer guidance to help them to become the happiest, most confident dog. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E",
+        "diet_nutrition": "\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EThe best food for English Bulldogs is a high-quality formula that’s \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/nutrition/What-Is-AAFCO-and-What-Does-It-Do\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003EAAFCO-compliant\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E for your dog’s life stage (puppy, adult, or senior).\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EEnglish Bulldogs are a \u003C/span\u003E\u003Cspan data-contrast=\"auto\"\u003Ebrachycephalic breed\u003C/span\u003E\u003Cspan data-contrast=\"none\"\u003E, meaning they have shortened snouts and skulls, which gives them their adorable smooshed faces. Unfortunately, though, this condition can also trigger \u003C/span\u003E\u003Cspan data-contrast=\"auto\"\u003Etrouble breathing\u003C/span\u003E\u003Cspan data-contrast=\"none\"\u003E and digestive issues, including vomiting and gagging. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003ETo complicate matters, these dogs are speedy eaters who will gulp down whatever is in front of them in seconds. So, you may want to feed your Bulldog smaller meals more often (your vet can tell you exactly how much food and how many times a day) or use a \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/outward-hound-fun-feeder-interactive/dp/56309\"\u003E\u003Cspan data-contrast=\"none\"\u003Especial slow feeder bowl\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EBulldogs are prone to obesity, which will exacerbate medical issues, so \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/food-and-nutrition/how-much-food-to-feed-my-dog\"\u003E\u003Cspan data-contrast=\"none\"\u003Emake sure you’re not overfeeding them\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E. Remember that treats count, too; treats should never make up more than 10% of a dog’s daily calories. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E",
+        "exercise": "\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EIf you’re not into intense exercise all that much, the English Bulldog totally gets it. This breed’s flattened snout makes lots of vigorous activity a no-go. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EEven though they may not be super sporty, these silly \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/behavior-pet-facts-why-do-dogs-get-the-zoomies\"\u003E\u003Cspan data-contrast=\"none\"\u003Epups still get the zoomies\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E when the mood strikes. The rest of the time, they’re pretty low-key and enjoy walks where they can stop to smell the flowers. Two or three slow 15-minute walks a day, mixed in with a few trips to the dog park or doggy playdates a few times a week, is perfect. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EOverexertion—especially in hot or cold weather—is very dangerous for the English Bulldog. Schedule outdoor time for the cooler parts of the day and avoid extreme heat and freezing temperatures.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EDon’t forget to entertain your pup’s mind, too. Have some \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/b/puzzle-toys-games-2335\"\u003E\u003Cspan data-contrast=\"none\"\u003Edog puzzles\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E around the house and regularly \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/15-minute-games-to-play-with-dogs\"\u003E\u003Cspan data-contrast=\"none\"\u003Einitiate casual games\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, like tug-of-war or \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/how-to-teach-dog-to-fetch\"\u003E\u003Cspan data-contrast=\"none\"\u003Efetch\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E",
+        "ideal_environment": "\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EEnglish Bulldogs don’t need fancy digs or a big backyard to be happy. When it comes to the safest, most comfortable environment for this breed, it comes down to one thing: air-conditioning. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EIt’s very \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/how-to-cool-down-a-dog-overheating\"\u003E\u003Cspan data-contrast=\"none\"\u003Eeasy for them to overheat\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, so they don’t like to be in the sun or left home alone without the air on in warmer months. Bulldogs do best in temperate climates where it doesn’t get too hot or too cold. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EOther than that, they’re adaptable and social pups who would love to be in a home with lots of people—kids and other animals included—to give them attention. If you’re a single pet parent, that’s great too, as long as you have plenty of love to give this deserving pup. Offer them lots of affection, snuggles, and praise, and an English Bulldog will be your bestie forever. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E",
+        "h2_breed_health": "\u003Cp\u003E\u003Cspan data-contrast=\"auto\"\u003EThe English Bulldog lifespan is 8–10 years. The breed can develop a number of health issues over their life, so you might want to \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/general-health/pet-insurance-worth-it\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Econsider pet insurance\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E to offset the costs of vet care. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cul\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EBrachycephalic obstructive airway syndrome:\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E Also \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/respiratory/brachycephalic-airway-syndrome-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Eknown as BOAS\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E, this condition is caused by the English Bulldog’s smooshed-face anatomy. It makes breathing difficult for these pups, especially during exercise and in extreme temperatures. Talk to your vet about how to best manage BOAS (keeping your Bulldog at a \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/care/how-calculate-your-dogs-healthy-weight\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Ehealthy weight\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E helps a lot!).\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"auto\"\u003EEye issues:\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"auto\"\u003E Bulldogs tend to experience two eye issues: \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/eyes/c_multi_prolapsed_gland\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003ECherry eye\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E (when the pink, fleshy part of the eye’s corner becomes swollen and bulges out of its pocket) and \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/eyes/c_multi_entropion\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Eentropion\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E (in which the eyelid rolls inward and causes irritation). Both conditions are treated with surgery. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"auto\"\u003EHip dysplasia:\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"auto\"\u003E \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/hip-dysplasia-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003EHip dysplasia\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E occurs when the ball and socket of the hip and thigh bones doesn’t properly fit. It can be an inherited condition and often results in pain, limping, and \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/osteoarthritis-in-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Earthritis\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E. Treatment options include weight management, physical therapy, \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/vet-verified/best-joint-supplements-for-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Ejoint supplements\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E, pain medication, and, in severe cases, surgery. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:240}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003ESkin infections:\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E Those charming face wrinkles can trap bits of food and moisture—it’s OK, no one’s perfect. But bacteria and yeast can multiply there, leading to \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/skin/skin-infections-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Eskin infections\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E. Keep them at bay by cleaning your English Bulldog’s folds every day, and monitor for signs of infection, like itchiness, bumps, scabs, irritation, redness, or swollen skin.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\u003C/ul\u003E",
+        "h2_breed_history": "\u003Cp\u003E\u003Cspan data-contrast=\"auto\"\u003EWere you once a college athlete who now gets winded bringing the laundry upstairs? That’s the 800-year history of the English Bulldog in a nutshell.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"auto\"\u003EBulldogs most likely originated in England and may have descended from ancient \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/education/dog-breeds/mastiff\"\u003E\u003Cspan data-contrast=\"none\"\u003EMastiff\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E-like breeds. Sometime between the 13th and 16th centuries, the dogs were noted for their muscular builds and athleticism. They were originally bred to fight with bulls, a terrible practice that was thankfully outlawed in 1835. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"auto\"\u003EBy then, these affable pups had won the hearts of everyone with their cute, smooshed faces, so people continued to breed them just for their looks. They were brought to the U.S. shortly after, where the American Kennel Club recognized them as an official breed in 1886. The \u003C/span\u003E\u003Ca href=\"https://bulldogclubofamerica.org/\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003EBulldog Club of America\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E was formed in 1898.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"auto\"\u003EThese days, English Bulldogs are definitely not athletic like their ancestors. They’re known for their friendliness, and their adorable faces continue to be popular symbols of pluck and determination: They’re mascots for many high schools and universities (including Yale and the University of Georgia), as well as the United States Marine Corps. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EIf you’re thinking about bringing home your own English Bulldog puppy, \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/how-to-find-ethical-reputable-responsible-breeder\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Ework with a reputable breeder\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E. And know that, because of their anatomy, English Bulldog health issues can be numerous, even with good breeding practice.   \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EYou can also seek out English Bulldogs for adoption at breed-specific rescues like \u003C/span\u003E\u003Ca href=\"http://www.adoptabull.org/\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003EAdopt a Bull\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E, keep an eye out at your local shelter, or search \u003C/span\u003E\u003Ca href=\"https://www.chewy.com/g/dog-bulldog_ga1\"\u003E\u003Cspan data-contrast=\"none\"\u003EChewy’s database of adoptable dogs\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"auto\"\u003E in your area.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E",
+        "expert_attribution": "\u003Cp\u003E\u003Cem\u003E\u003Cspan class=\"NormalTextRun SCXW7901282 BCX4\"\u003EThis content was medically reviewed by \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW7901282 BCX4\"\u003EBarri Morrison\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW7901282 BCX4\"\u003E, DVM, Chewy veterinarian.\u003C/span\u003E\u003C/em\u003E\u003C/p\u003E",
+        "facebook_social_snippet_with_cta": "\u003Cp\u003EEnglish Bulldogs are smart, stubborn and loved by everyone they meet. They're in the top 5 most popular breeds in the US! Is this couch-potato-tank of a dog a good family pet? Our guide fills you in on all the information, from personality to exercise needs, and learn a bit of their history.\u003C/p\u003E",
+        "species": "\u003Cp\u003EDog\u003C/p\u003E",
+        "h2_faqs": "",
+        "faq_items": [
+          {
+            "faq_title": "Are English Bulldogs hypoallergenic? ",
+            "faq_content": "\u003Cp\u003E\u003Cspan class=\"TextRun SCXW105147882 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"\u003E\u003Cspan class=\"NormalTextRun SCXW105147882 BCX4\"\u003ENo, \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW105147882 BCX4\"\u003EEnglish \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW105147882 BCX4\"\u003EBulldogs are not \u003C/span\u003E\u003C/span\u003E\u003Ca class=\"Hyperlink SCXW105147882 BCX4\" href=\"https://www.chewy.com/education/dog/general/4-hypoallergenic-dog-breeds\" rel=\"noreferrer noopener\"\u003E\u003Cspan class=\"TextRun Underlined SCXW105147882 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\u003E\u003Cspan class=\"NormalTextRun SCXW105147882 BCX4\" data-ccp-charstyle=\"Hyperlink\"\u003Ehypoallergenic\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW105147882 BCX4\" data-ccp-charstyle=\"Hyperlink\"\u003E dogs\u003C/span\u003E\u003C/span\u003E\u003C/a\u003E\u003Cspan class=\"TextRun SCXW105147882 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"\u003E\u003Cspan class=\"NormalTextRun SCXW105147882 BCX4\"\u003E. While they \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW105147882 BCX4\"\u003Earen’t\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW105147882 BCX4\"\u003E heavy shedders, \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW105147882 BCX4\"\u003Ethey\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW105147882 BCX4\"\u003E tend to drool a lot\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW105147882 BCX4\"\u003E,\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW105147882 BCX4\"\u003E and that factors into the allergy-inducing equation.\u003C/span\u003E\u003C/span\u003E\u003Cspan class=\"EOP SCXW105147882 BCX4\" data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E"
+          },
+          {
+            "faq_title": "How long do English Bulldogs live? ",
+            "faq_content": "\u003Cp\u003E\u003Cspan class=\"TextRun SCXW119442009 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\u003E\u003Cspan class=\"NormalTextRun SCXW119442009 BCX4\"\u003EThe English Bulldog lifespan tends to be between 8–10 years. \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW119442009 BCX4\"\u003EKeep up with a good diet, regular exercise, and routine vet care to help them live their best \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW119442009 BCX4\"\u003Elife\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW119442009 BCX4\"\u003E. \u003C/span\u003E\u003C/span\u003E\u003Cspan class=\"EOP SCXW119442009 BCX4\" data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E"
+          },
+          {
+            "faq_title": "Can English Bulldogs swim? ",
+            "faq_content": "\u003Cp\u003E\u003Cspan class=\"TextRun SCXW247811019 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"\u003E\u003Cspan class=\"NormalTextRun SCXW247811019 BCX4\"\u003ET\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW247811019 BCX4\"\u003Eechnically,\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW247811019 BCX4\"\u003E most\u003C/span\u003E \u003Cspan class=\"NormalTextRun SCXW247811019 BCX4\"\u003EEnglish \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW247811019 BCX4\"\u003EBulldogs \u003C/span\u003E\u003C/span\u003E\u003Cspan class=\"TextRun SCXW247811019 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"\u003E\u003Cspan class=\"NormalTextRun SCXW247811019 BCX4\"\u003Ecould\u003C/span\u003E\u003C/span\u003E\u003Cspan class=\"TextRun SCXW247811019 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"\u003E\u003Cspan class=\"NormalTextRun SCXW247811019 BCX4\"\u003E swim\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW247811019 BCX4\"\u003E if they had to, but \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW247811019 BCX4\"\u003Eit’s\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW247811019 BCX4\"\u003E not wise to put them in the water. Their short legs, short snout, and big head make it tricky for them to stay above water. Put them in \u003C/span\u003E\u003Cspan class=\"NormalTextRun ContextualSpellingAndGrammarErrorV2Themed GrammarErrorHighlight SCXW247811019 BCX4\"\u003Ea\u003C/span\u003E \u003C/span\u003E\u003Ca class=\"Hyperlink SCXW247811019 BCX4\" href=\"https://www.chewy.com/kong-sport-aquapro-dog-flotation-vest/dp/116499\" rel=\"noreferrer noopener\"\u003E\u003Cspan class=\"TextRun Underlined SCXW247811019 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\u003E\u003Cspan class=\"NormalTextRun SCXW247811019 BCX4\" data-ccp-charstyle=\"Hyperlink\"\u003Egood lifeja\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW247811019 BCX4\" data-ccp-charstyle=\"Hyperlink\"\u003Ec\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW247811019 BCX4\" data-ccp-charstyle=\"Hyperlink\"\u003Eket\u003C/span\u003E\u003C/span\u003E\u003C/a\u003E\u003Cspan class=\"TextRun SCXW247811019 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"\u003E\u003Cspan class=\"NormalTextRun SCXW247811019 BCX4\"\u003E if \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW247811019 BCX4\"\u003Eyou’re\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW247811019 BCX4\"\u003E near water or on a boat. \u003C/span\u003E\u003C/span\u003E\u003Cspan class=\"EOP SCXW247811019 BCX4\" data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E"
+          },
+          {
+            "faq_title": "Do I need a special English Bulldog harness? ",
+            "faq_content": "\u003Cp\u003E\u003Cspan class=\"TextRun SCXW201488144 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\u003E\u003Cspan class=\"NormalTextRun SCXW201488144 BCX4\"\u003EIt’s\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW201488144 BCX4\"\u003E OK to put a collar on your English Bulldog to accessorize, but when it comes to walks and attaching a leash, you should \u003C/span\u003E\u003C/span\u003E\u003Ca class=\"Hyperlink SCXW201488144 BCX4\" href=\"https://www.chewy.com/best/dog-harnesses-for-french-bulldogs_s140198\" rel=\"noreferrer noopener\"\u003E\u003Cspan class=\"TextRun Underlined SCXW201488144 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\u003E\u003Cspan class=\"NormalTextRun SCXW201488144 BCX4\" data-ccp-charstyle=\"Hyperlink\"\u003Echoose a ha\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW201488144 BCX4\" data-ccp-charstyle=\"Hyperlink\"\u003Er\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW201488144 BCX4\" data-ccp-charstyle=\"Hyperlink\"\u003Eness\u003C/span\u003E\u003C/span\u003E\u003C/a\u003E\u003Cspan class=\"TextRun SCXW201488144 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\u003E\u003Cspan class=\"NormalTextRun SCXW201488144 BCX4\"\u003E. Harnesses help flat-faced dogs breathe better by \u003C/span\u003E\u003C/span\u003E\u003Cspan class=\"TextRun SCXW201488144 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"\u003E\u003Cspan class=\"NormalTextRun SCXW201488144 BCX4\"\u003Etaking pressure off t\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW201488144 BCX4\"\u003Eh\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW201488144 BCX4\"\u003Ee windpipe\u003C/span\u003E\u003C/span\u003E\u003Cspan class=\"TextRun SCXW201488144 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\u003E\u003Cspan class=\"NormalTextRun SCXW201488144 BCX4\"\u003E. \u003C/span\u003E\u003C/span\u003E\u003Cspan class=\"EOP SCXW201488144 BCX4\" data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E"
+          },
+          {
+            "faq_title": "American vs. English Bulldog: What’s the difference? ",
+            "faq_content": "\u003Cp\u003E\u003Ca class=\"Hyperlink SCXW177697417 BCX4\" href=\"https://www.chewy.com/education/dog-breeds/american-bulldog\" rel=\"noreferrer noopener\"\u003E\u003Cspan class=\"TextRun Underlined SCXW177697417 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\u003E\u003Cspan class=\"NormalTextRun SCXW177697417 BCX4\" data-ccp-charstyle=\"Hyperlink\"\u003EAmerican Bulldogs\u003C/span\u003E\u003C/span\u003E\u003C/a\u003E\u003Cspan class=\"TextRun SCXW177697417 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\u003E \u003Cspan class=\"NormalTextRun SCXW177697417 BCX4\"\u003Eare bigger than English Bulldogs—an American Bulldog can weigh from 60–100 pounds while English Bulldogs tend to top off at 50 pounds (for a male) or 40 pounds (for a female). \u003C/span\u003E\u003C/span\u003E\u003Cspan class=\"EOP SCXW177697417 BCX4\" data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan class=\"TextRun SCXW21246790 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\u003E\u003Cspan class=\"NormalTextRun SCXW21246790 BCX4\"\u003ESome key differences are that English Bulldogs are\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW21246790 BCX4\"\u003E more\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW21246790 BCX4\"\u003E likely to \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW21246790 BCX4\"\u003Eget along\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW21246790 BCX4\"\u003E with cats, while American Bulldogs \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW21246790 BCX4\"\u003Ewould prefer a feline-free home\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW21246790 BCX4\"\u003E; English Bulldogs tend to need less space; and English Bulldogs look like \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW21246790 BCX4\"\u003Ecouch potatoes\u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW21246790 BCX4\"\u003E next to their \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW21246790 BCX4\"\u003Esportier \u003C/span\u003E\u003Cspan class=\"NormalTextRun SCXW21246790 BCX4\"\u003EAmerican cousins. \u003C/span\u003E\u003C/span\u003E\u003Cspan class=\"EOP SCXW21246790 BCX4\" data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E"
+          },
+          {
+            "faq_title": "French Bulldog vs. English Bulldog: What’s the difference?  ",
+            "faq_content": "\u003Cp\u003E\u003Ca href=\"https://www.chewy.com/education/dog-breeds/french-bulldog\"\u003E\u003Cspan data-contrast=\"none\"\u003EFrench Bulldogs\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E and English Bulldogs have a lot in common. They’re both looking for a devoted bestie who can give them all the attention they deserve. They’re also both very social and love to meet people when they’re out and about. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003EThey’re both brachycephalic dog breeds, but English Bulldogs will need more attention to their keeping their skin folds clean and dry when it comes to their health. Frenchies also tend to be smaller (weighing less than 30 pounds), while English Bulldogs are usually 40–50 pounds.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}\"\u003E \u003C/span\u003E\u003C/p\u003E"
+          }
+        ],
+        "select_related_breeds": [
+          {
+            "selected_related_breed": 1380,
+            "characteristic": "breed_characteristics_good_with_cats"
+          },
+          {
+            "selected_related_breed": 1273,
+            "characteristic": "breed_characteristics_energy_level"
+          },
+          {
+            "selected_related_breed": 989,
+            "characteristic": "breed_characteristics_good_for_apartments_small_homes"
+          },
+          {
+            "selected_related_breed": 810,
+            "characteristic": "breed_characteristics_good_with_kids"
+          },
+          {
+            "selected_related_breed": 125,
+            "characteristic": "breed_characteristics_good_with_other_dogs"
+          },
+          {
+            "selected_related_breed": 1315,
+            "characteristic": "breed_characteristics_exercise_needs"
+          }
+        ],
+        "enable_featured_gallery": [
+          "enable_featured_gallery"
+        ],
+        "featured_gallery_images": [3158, 26, 27, 28, 29, 30]
+      },
+      "yoast_head": "\u003C!-- This site is optimized with the Yoast SEO plugin v23.8 - https://yoast.com/wordpress/plugins/seo/ --\u003E\n\u003Ctitle\u003EBulldog (English Bulldog) Characteristics, Care &amp; Photos | Chewy\u003C/title\u003E\n\u003Cmeta name=\"description\" content=\"If easygoing, loyal and tons of fun are the characteristics you look for in a dog, then a Bulldog would be perfect as a pet for you.\" /\u003E\n\u003Cmeta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" /\u003E\n\u003Clink rel=\"canonical\" href=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/bulldog/\" /\u003E\n\u003Cmeta property=\"og:locale\" content=\"en_US\" /\u003E\n\u003Cmeta property=\"og:type\" content=\"article\" /\u003E\n\u003Cmeta property=\"og:title\" content=\"Bulldog (English Bulldog) Characteristics, Care &amp; Photos | Chewy\" /\u003E\n\u003Cmeta property=\"og:description\" content=\"If easygoing, loyal and tons of fun are the characteristics you look for in a dog, then a Bulldog would be perfect as a pet for you.\" /\u003E\n\u003Cmeta property=\"og:url\" content=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/bulldog/\" /\u003E\n\u003Cmeta property=\"og:site_name\" content=\"Chewy\" /\u003E\n\u003Cmeta property=\"article:modified_time\" content=\"2025-06-04T17:09:40+00:00\" /\u003E\n\u003Cmeta property=\"og:image\" content=\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07143441/202402Breed-Hero-Bulldog.jpg\" /\u003E\n\t\u003Cmeta property=\"og:image:width\" content=\"1835\" /\u003E\n\t\u003Cmeta property=\"og:image:height\" content=\"1032\" /\u003E\n\t\u003Cmeta property=\"og:image:type\" content=\"image/jpeg\" /\u003E\n\u003Cmeta name=\"twitter:card\" content=\"summary_large_image\" /\u003E\n\u003Cmeta name=\"twitter:label1\" content=\"Est. reading time\" /\u003E\n\t\u003Cmeta name=\"twitter:data1\" content=\"1 minute\" /\u003E\n\u003Cscript type=\"application/ld+json\" class=\"yoast-schema-graph\"\u003E{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/bulldog/\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/bulldog/\",\"name\":\"Bulldog (English Bulldog) Characteristics, Care & Photos | Chewy\",\"isPartOf\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/bulldog/#primaryimage\"},\"image\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/bulldog/#primaryimage\"},\"thumbnailUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07143441/202402Breed-Hero-Bulldog.jpg\",\"datePublished\":\"2025-03-07T09:44:39+00:00\",\"dateModified\":\"2025-06-04T17:09:40+00:00\",\"description\":\"If easygoing, loyal and tons of fun are the characteristics you look for in a dog, then a Bulldog would be perfect as a pet for you.\",\"breadcrumb\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/bulldog/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://phcms.hlth.prd.aws.chewy.cloud/breed/bulldog/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/bulldog/#primaryimage\",\"url\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07143441/202402Breed-Hero-Bulldog.jpg\",\"contentUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07143441/202402Breed-Hero-Bulldog.jpg\",\"width\":1835,\"height\":1032,\"caption\":\"Bulldog\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/bulldog/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://phcms.hlth.prd.aws.chewy.cloud/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Bulldog (English Bulldog)\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/\",\"name\":\"Chewy\",\"description\":\"\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"}]}\u003C/script\u003E\n\u003C!-- / Yoast SEO plugin. --\u003E",
+      "yoast_head_json": {
+        "title": "Bulldog (English Bulldog) Characteristics, Care & Photos | Chewy",
+        "description": "If easygoing, loyal and tons of fun are the characteristics you look for in a dog, then a Bulldog would be perfect as a pet for you.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://phcms.hlth.prd.aws.chewy.cloud/breed/bulldog/",
+        "og_locale": "en_US",
+        "og_type": "article",
+        "og_title": "Bulldog (English Bulldog) Characteristics, Care & Photos | Chewy",
+        "og_description": "If easygoing, loyal and tons of fun are the characteristics you look for in a dog, then a Bulldog would be perfect as a pet for you.",
+        "og_url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/bulldog/",
+        "og_site_name": "Chewy",
+        "article_modified_time": "2025-06-04T17:09:40+00:00",
+        "og_image": [
+          {
+            "width": 1835,
+            "height": 1032,
+            "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07143441/202402Breed-Hero-Bulldog.jpg",
+            "type": "image/jpeg"
+          }
+        ],
+        "twitter_card": "summary_large_image",
+        "twitter_misc": {
+          "Est. reading time": "1 minute"
+        },
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/bulldog/",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/bulldog/",
+              "name": "Bulldog (English Bulldog) Characteristics, Care & Photos | Chewy",
+              "isPartOf": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/bulldog/#primaryimage"
+              },
+              "image": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/bulldog/#primaryimage"
+              },
+              "thumbnailUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07143441/202402Breed-Hero-Bulldog.jpg",
+              "datePublished": "2025-03-07T09:44:39+00:00",
+              "dateModified": "2025-06-04T17:09:40+00:00",
+              "description": "If easygoing, loyal and tons of fun are the characteristics you look for in a dog, then a Bulldog would be perfect as a pet for you.",
+              "breadcrumb": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/bulldog/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://phcms.hlth.prd.aws.chewy.cloud/breed/bulldog/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/bulldog/#primaryimage",
+              "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07143441/202402Breed-Hero-Bulldog.jpg",
+              "contentUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/01/07143441/202402Breed-Hero-Bulldog.jpg",
+              "width": 1835,
+              "height": 1032,
+              "caption": "Bulldog"
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/bulldog/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://phcms.hlth.prd.aws.chewy.cloud/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Bulldog (English Bulldog)"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/",
+              "name": "Chewy",
+              "description": "",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            }
+          ]
+        }
+      },
+      "yoast_meta": {
+        "yoast_wpseo_title": "",
+        "yoast_wpseo_metadesc": "",
+        "yoast_wpseo_canonical": ""
+      },
+      "_links": {
+        "self": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed/34",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/types/breed"
+          }
+        ],
+        "acf:attachment": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/30"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/29"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/28"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/27"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/26"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/3158"
+          }
+        ],
+        "wp:featuredmedia": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/3160"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media?parent=34"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "pet_type",
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/pet_type?post=34"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ]

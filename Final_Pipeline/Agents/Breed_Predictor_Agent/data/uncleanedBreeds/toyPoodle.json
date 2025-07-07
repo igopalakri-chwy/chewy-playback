@@ -1,0 +1,321 @@
+[
+    {
+      "id": 3590,
+      "date": "2025-03-04T18:10:07",
+      "date_gmt": "2025-03-04T18:10:07",
+      "guid": {
+        "rendered": "https://phcms.hlth.prd.aws.chewy.cloud/?post_type=breed&#038;p=3590"
+      },
+      "modified": "2025-06-04T18:55:45",
+      "modified_gmt": "2025-06-04T18:55:45",
+      "slug": "toy-poodle",
+      "status": "publish",
+      "type": "breed",
+      "link": "https://phcms.hlth.prd.aws.chewy.cloud/breed/toy-poodle/",
+      "title": {
+        "rendered": "Toy Poodle"
+      },
+      "featured_media": 3591,
+      "template": "",
+      "pet_type": [],
+      "class_list": [
+        "post-3590",
+        "breed",
+        "type-breed",
+        "status-publish",
+        "has-post-thumbnail",
+        "hentry"
+      ],
+      "acf": {
+        "breed_snapshot_best_for": "\u003Cp\u003ETiny but with a big personality, the Toy Poodle is a super smart companion. Their characteristic curls require daily upkeep, but pet parents dedicated to daily grooming will be rewarded with an eager-to-please (and easy to train!) best friend.\u003C/p\u003E",
+        "alt_image_text": "a photo of a gray toy poodle",
+        "breed_intro": "\u003Cp\u003EGather ’round, because the Toy Poodle loves being the star of the show, especially when their audience rewards their entertaining antics with \u003Ca href=\"https://www.petmd.com/dog/vet-verified/best-dog-treats\" target=\"_blank\" rel=\"noopener\"\u003Etreats\u003C/a\u003E. As long as they’re showered in attention, this pint-size pup is happy.\u003C/p\u003E\r\n\u003Cp\u003EToy Poodles are curly-coated dogs with a bright and cheery disposition. These characteristics, along with their impeccable intelligence, mean Toy Poodles easily learn new cues, routines, and tricks. So easily, in fact, that the breed often \u003Ca href=\"https://www.akc.org/expert-advice/dog-breeds/poodle-history/\" target=\"_blank\" rel=\"noopener\"\u003Eworked as circus performers in the 18th century\u003C/a\u003E.\u003C/p\u003E\r\n\u003Cp\u003EWhile the dogs do need daily grooming care, they are \u003Cem\u003Eso, so small\u003C/em\u003E that brushing and other maintenance take very little time out of your schedule. (A Toy Poodle, full grown, weighs less than 10 pounds.)\u003C/p\u003E",
+        "breed_related_products_product_card_set": "",
+        "breed_snapshot_temperament": "\u003Cp\u003ESocial Butterfly, Intuitive, Eager\u003C/p\u003E",
+        "what_does_this_breed_look_like_weight": "\u003Cp\u003E4–6 pounds\u003C/p\u003E",
+        "what_does_this_breed_look_like_height": "\u003Cp\u003EUnder 10 inches\u003C/p\u003E",
+        "breed_snapshot_life_expectancy": "\u003Cp\u003E10–18 years\u003C/p\u003E",
+        "breed_snapshot_maintenance_level": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_friendliness": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_snapshot_coat_color": "\u003Cp\u003EApricot, Black, Blue, Brown, Cream, Red, Silver, Silver Beige, White, Cafe au Lait, Gray\u003C/p\u003E",
+        "breed_snapshot_shed_level": "\u003Cp\u003E1\u003C/p\u003E",
+        "in_article_video": null,
+        "breed_characteristics": "\u003Cdiv class=\"Section_description__Yr0Qq\"\u003E\u003Cem\u003ERemember: Dogs are individuals and not all dogs, even those of the same breed, will exhibit all the same qualities.\u003C/em\u003E\u003C/div\u003E",
+        "breed_characteristics_exercise_needs": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_health_issues": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_barking_tendencies": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_grooming_needs": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_shedding_level": "\u003Cp\u003E1\u003C/p\u003E",
+        "breed_characteristics_training_needs": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_good_with_kids": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_cats": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_for_apartments_small_homes": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_energy_level": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_with_other_dogs": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_playfulnesss": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_cold_weather": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_warm_weather": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_for_first_time_parents": "\u003Cp\u003E3\u003C/p\u003E",
+        "how_do_i_look_card_image": 3592,
+        "what_does_this_breed_look_like": "\u003Cp\u003EThe Toy Poodle has a petite but polished appearance. Although they are the smallest variety of the Poodle breeds (the others being the \u003Ca href=\"https://www.chewy.com/education/dog-breeds/poodle\"\u003EStandard Poodle\u003C/a\u003E and the Miniature Poodle), Toys are no less distinguished in their appearance. In fact, the only difference among the three Poodles’ breed standards is size.\u003C/p\u003E",
+        "what_does_this_breed_look_like_ears": "\u003Cp\u003EToy Poodles have long, feathered ears that hang down to eye level.\u003C/p\u003E",
+        "what_does_this_breed_look_like_eyes": "\u003Cp\u003EA Toy Poodle’s eyes are dark, oval, and set far apart.\u003C/p\u003E",
+        "what_does_this_breed_look_like_nose": "\u003Cp\u003EAt the end of their long muzzle, their nose is black or brown.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_length": "\u003Cp\u003EToy Poodles have a curly coat that can grow quite long. Regular trips to the groomer (or pet parents who know how to wield clippers on their own) are a must.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_color": "\u003Cp\u003EToy Poodle colors are wide-ranging, including apricot, black, blue, brown, cream, red, brown, silver, white, and gray.\u003C/p\u003E",
+        "what_does_this_breed_look_like_tail": "\u003Cp\u003EThe tail is high-set and carried so it stands up, accentuating this perky pup. It’s often clipped to have a fluffy plume on the end.\u003C/p\u003E",
+        "h2_breed_temperament": "\u003Cp\u003EA Toy Poodle is a big personality in an itty-bitty package. Although these dogs are less than 10 inches tall, their small frame contains a surprising amount of energy. They’re very smart and need regular exercise and playtime.  \u003C/p\u003E\r\n\u003Cp\u003EBecause of this, they make \u003Ca href=\"https://www.chewy.com/education/dog/general/best-family-dogs\"\u003Egood family dogs\u003C/a\u003E—but extra caution \u003Cem\u003Emust\u003C/em\u003E be taken. While Toy Poodles are generally kid-friendly, always supervise interactions with children. Due to the small size of Toy Poodle dogs and puppies, they can be more susceptible to injury than larger dogs.\u003C/p\u003E\r\n\u003Cp\u003E“One drop or trip can result in a broken leg or worse,” says Carol Dean, an experienced Toy Poodle breeder—and the toy and variety representative for the \u003Ca href=\"https://poodleclubofamerica.org/\" target=\"_blank\" rel=\"noopener\"\u003EPoodle Club of America\u003C/a\u003E (PCA).\u003C/p\u003E\r\n\u003Cp\u003EThis applies when your Toy Poodle plays with bigger dogs, too. (And when you’re only 4–6 pounds, almost every dog is bigger!). Keep a close eye on your pet to make sure the play doesn’t become too rough.\u003C/p\u003E\r\n\u003Cp\u003EOverall, Toy Poodles are affectionate attention-seekers who love to spend time with family members. They aren’t likely to let you ignore them for long!\u003C/p\u003E",
+        "h2_how_to_care_for_a_breed": "\u003Cp\u003EThe bouncy and affectionate nature of a Toy Poodle means these dogs are ready for just about any activity—as long as it involves you. To properly care for these companion pups, you’ll need to plan on spending regular time each day on exercise, training, and grooming.\u003C/p\u003E",
+        "grooming": "\u003Cp\u003E“Poodles are one of the few breeds that have what is considered hair rather than fur,” says Carolyn Holmes, president of the \u003Ca href=\"http://www.orlandopoodleclub.org/\" target=\"_blank\" rel=\"noopener\"\u003EOrlando Poodle Club\u003C/a\u003E and breeder at \u003Ca href=\"https://carminepoodles.com/\" target=\"_blank\" rel=\"noopener\"\u003ECarmine Poodles\u003C/a\u003E. “That is to say, it grows continuously, like human hair.”\u003C/p\u003E\r\n\u003Cp\u003ETo keep a Toy Poodle’s coat in tip-top shape, you’ll need to plan on frequent brushing and regular trips to the groomer for a haircut.\u003C/p\u003E\r\n\u003Cp\u003E“All poodles should be groomed on a four- to six-week schedule,” Dean says. Think of a trip to the groomer as a trip to the doggy salon—they’ll be bathed, brushed, and get a haircut.\u003C/p\u003E\r\n\u003Cp\u003EDon’t overlook your dog’s ears, eyes, teeth, and nails—they need upkeep, too.\u003C/p\u003E\r\n\u003Cul\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003EBathing: \u003C/strong\u003E\u003Ca href=\"https://www.chewy.com/education/dog/grooming/how-to-bathe-a-dog-step-by-step-tips-from-a-professional-groomer\"\u003EBathe your Toy Poodle\u003C/a\u003E once a month using a \u003Ca href=\"https://www.petmd.com/dog/vet-verified/best-dog-shampoos\" target=\"_blank\" rel=\"noopener\"\u003Edog-friendly shampoo\u003C/a\u003E and conditioner.\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003EBrushing: \u003C/strong\u003E\u003Ca href=\"https://www.chewy.com/education/dog/grooming/brushing-a-dog\"\u003EBrush your dog’s hair\u003C/a\u003E regularly; whether you need to do this weekly or daily depends on your Toy Poodle’s haircut. (“The shorter the haircut, the less brushing it will need,” Holmes says.) Use a \u003Ca href=\"https://www.chewy.com/safari-self-cleaning-slicker-brush/dp/46211\"\u003Eslicker brush\u003C/a\u003E to remove loose hair and a \u003Ca href=\"https://www.chewy.com/frisco-cat-dog-pin-brush-one-size/dp/233461\"\u003Epin brush\u003C/a\u003E to gently work through tangles.\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003EClipping: \u003C/strong\u003EPopular Toy Poodle haircuts range from a traditional look (with a shaved face, feet, and base of tail accented by a blanket of hair on the body and ears), to a more natural look with no shaving at all, with many choices of styles in between.\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003EDental care: \u003C/strong\u003EIt’s important to \u003Ca href=\"https://www.chewy.com/education/dog/grooming/health-wellness-how-to-brush-your-dogs-teeth-live-to-tell-the-tale\"\u003Ebrush your dog’s teeth\u003C/a\u003E every day. Toy Poodles are highly prone to \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/dental-disease-in-dogs\"\u003Edental disease\u003C/a\u003E, and brushing is the best way to prevent the painful condition.\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003EEar care: \u003C/strong\u003EStay alert for \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/dog-ear-infection\"\u003Esigns your dog has an ear infection\u003C/a\u003E, and ask your vet if \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/how-do-you-clean-a-dogs-ears-follow-this-vet-approved-step-by-step-guide\"\u003Eear-cleaning\u003C/a\u003E should be part of your grooming regimen.\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003EEye care: \u003C/strong\u003EToy Poodles, especially those with lighter coats, can develop \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/treating-dog-tears-stains-dogs-coat\"\u003Etear stains\u003C/a\u003E. Gently clean the areas around the eyes with a \u003Ca href=\"https://www.petmd.com/vet-verified/best-dog-tear-stain-removers\" target=\"_blank\" rel=\"noopener\"\u003Etear stain remover\u003C/a\u003E.\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003ENail care: \u003C/strong\u003E\u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/guide-trimming-dogs-nails\"\u003ETrim your dog’s nails\u003C/a\u003E every few weeks. If you can hear them clicking on the floor, they’re too long.\u003C/li\u003E\r\n\u003C/ul\u003E",
+        "training": "\u003Cp\u003EToy Poodles, along with their Standard and Mini Poodle relatives, are known for being one of the \u003Ca href=\"https://www.chewy.com/education/dog/dog-breeds/smartest-dog-breeds\"\u003Esmartest dog breeds\u003C/a\u003E.\u003C/p\u003E\r\n\u003Cp\u003ETheir smarts, along with their eagerness to please, streamline the training process and make it fun to work with your Toy Poodle on \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/sit-stay-and-beyond-weve-got-the-essential-guide-to-basic-dog-obedience-training\"\u003Eessential obedience cues\u003C/a\u003E (like \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-sit\"\u003Esit\u003C/a\u003E, \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-stay\"\u003Estay\u003C/a\u003E, and \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-come\"\u003Ecome\u003C/a\u003E) and entertaining tricks. Toy Poodles are also people-pleasers, Dean says, so they can be a good fit for first-time pet parents who might have trouble training a more independent dog breed. \u003C/p\u003E\r\n\u003Cp\u003EDespite their trainability, sometimes Toy Poodles are a challenge to \u003Ca href=\"https://www.chewy.com/education/dog/new-dog/how-to-potty-train-your-dog-in-7-days\"\u003Epotty train\u003C/a\u003E because of their small bladder. But consistent effort—and patience—will make housetraining successful.\u003C/p\u003E\r\n\u003Cp\u003E\u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/positively-trained-puppy-socialization-dos-and-donts\"\u003ESocializing your Toy Poodle puppy\u003C/a\u003E is important, too. While the breed has a reputation for being social, all dogs are individuals with unique personalities. Socialization helps your pup grow confident and reach their full, friendly potential.\u003C/p\u003E",
+        "diet_nutrition": "\u003Cp\u003EFull-grown Toy Poodles benefit from two measured meals a day. But Toy Poodle puppies, because they are \u003Cem\u003Ejust\u003C/em\u003E \u003Cem\u003Eso small\u003C/em\u003E, often need to eat more frequently to avoid \u003Ca href=\"https://www.petmd.com/dog/conditions/systemic/hypoglycemia-dogs\" target=\"_blank\" rel=\"noopener\"\u003Elow blood sugar (hypoglycemia)\u003C/a\u003E, Dean says. Until your pup is 1 year old, make sure they eat three to four meals every day.\u003C/p\u003E\r\n\u003Cp\u003ETalk to your vet to find the best dog food for your Toy Poodle. The food must be \u003Ca href=\"https://www.petmd.com/dog/nutrition/What-Is-AAFCO-and-What-Does-It-Do\" target=\"_blank\" rel=\"noopener\"\u003EAAFCO-compliant\u003C/a\u003E, suitable for little mouths, and formulated for your pup’s age (\u003Ca href=\"https://www.petmd.com/dog/vet-verified/best-puppy-food\" target=\"_blank\" rel=\"noopener\"\u003Epuppy\u003C/a\u003E, \u003Ca href=\"https://www.petmd.com/dog/vet-verified/best-dog-food\" target=\"_blank\" rel=\"noopener\"\u003Eadult\u003C/a\u003E, or \u003Ca href=\"https://www.petmd.com/dog/vet-verified/best-senior-dog-food\" target=\"_blank\" rel=\"noopener\"\u003Esenior\u003C/a\u003E). Some brands, like Royal Canin, even make \u003Ca href=\"https://www.chewy.com/royal-canin-breed-health-nutrition/dp/33885\"\u003Edog food just for Poodles\u003C/a\u003E.\u003C/p\u003E\r\n\u003Cp\u003EUsing \u003Ca href=\"https://www.chewy.com/nina-ottosson-by-outward-hound-brick/dp/961006\"\u003Epuzzle feeders\u003C/a\u003E, \u003Ca href=\"https://www.chewy.com/outward-hound-non-skid-plastic-slow/dp/56306\"\u003Eslow feeders\u003C/a\u003E, or \u003Ca href=\"https://www.chewy.com/frisco-pizza-snuffle-mat-yellow/dp/393326\"\u003Esnuffle mats\u003C/a\u003E can make mealtime more fun for your Toy Poodle.\u003C/p\u003E",
+        "exercise": "\u003Cp\u003EMost Toy Poodles need about an hour of exercise every day. This might be surprising given the breed’s small stature, but it’s important to remember that Toy Poodles are still dogs—not teddy bears or accessories—and have an impressive amount of energy.\u003C/p\u003E\r\n\u003Cp\u003EBut instead of \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/how-to-run-with-dog\"\u003Erunning marathons\u003C/a\u003E or \u003Ca href=\"https://www.chewy.com/education/dog/general/ready-to-hit-the-hiking-trail-with-your-dog-heres-everything-you-need-to-know\"\u003Ehiking in the mountains\u003C/a\u003E, a Toy Poodle’s exercise needs can be easily met from home. Walks around the block, \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/how-to-teach-dog-to-fetch\"\u003Egames of fetch\u003C/a\u003E (in a backyard or even in the living room), and trick training are some favorite pastimes. Your Toy Poodle might also be a standout in \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/dog-agility-training-tips\"\u003Edog sports like agility\u003C/a\u003E.\u003C/p\u003E\r\n\u003Cp\u003EIt’s important to exercise this brainy pup’s mind, too. Toy Poodles will have fun playing with puzzle games or \u003Ca href=\"https://www.chewy.com/b/interactive-toys-319\"\u003Einteractive toys\u003C/a\u003E, especially when you’re busy or away from home.\u003C/p\u003E",
+        "ideal_environment": "\u003Cp\u003EA Toy Poodle’s small size, low-shedding coat, and eager-to-please attitude make these pups ideal apartment or condo companions. But they also thrive in suburban houses or life in the country.\u003C/p\u003E\r\n\u003Cp\u003EThe most important thing to remember is that a tiny Toy Poodle can be vulnerable.\u003C/p\u003E\r\n\u003Cp\u003E“As with all toy dogs, they must be protected from predators such as owls, eagles, and raccoons when outdoors, especially in country settings,” Holmes says. “So keep in mind that while the Miniature and Standard Poodles love duck-retrieving in ponds and tracking work in the woods, the Toy Poodle is definitely a house pet.”\u003C/p\u003E\r\n\u003Cp\u003EThis breed thrives on connection and companionship; they may \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/reducing-separation-anxiety-dog\"\u003Edevelop separation anxiety\u003C/a\u003E if left alone for long amounts of time. Homebodies—or people looking to take their dog everywhere with them—make the best Toy Poodle parents.\u003C/p\u003E\r\n\u003Cp\u003E“They need people around all the time,” Dean says. “They truly are a person in a fuzzy suit.”\u003C/p\u003E",
+        "h2_breed_health": "\u003Cp\u003EAs a healthy dog, the typical Toy Poodle lifespan is 10–18 years. But like all dogs, they can develop certain health conditions over their long life.\u003C/p\u003E\r\n\u003Cul\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003EProgressive retinal atrophy (PRA):\u003C/strong\u003E \u003Ca href=\"https://www.petmd.com/dog/condition/progressive-retinal-atrophy-in-dogs\" target=\"_blank\" rel=\"noopener\"\u003EPRA in dogs\u003C/a\u003E causes the rod and cone cells on the retina to break down. An early sign of PRA is difficulty seeing at night, but the condition gradually progresses to total blindness. There is no cure for PRA.\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003EPatellar luxation: \u003C/strong\u003EThe patella is the kneecap, and when it slips out of place, this is called \u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/luxating-patella-in-dogs\" target=\"_blank\" rel=\"noopener\"\u003Epatellar luxation\u003C/a\u003E. You might see your Toy Poodle limping or walking with a bunny-hop gait—these are common symptoms. The condition often corrects itself on its own, but severe cases might need surgery.\u003C/li\u003E\r\n\t\u003Cli\u003E\u003Cstrong\u003EDental disease: \u003C/strong\u003ESmall breeds like the Toy Poodle often develop dental issues because their tiny mouths cause tooth overcrowding and tartar buildup. Preventive care—like brushing your dog’s teeth, offering \u003Ca href=\"https://www.chewy.com/virbac-cet-enzymatic-dental-chews-x/dp/230027\"\u003Edental chews\u003C/a\u003E, and using \u003Ca href=\"https://www.chewy.com/vetradent-dog-cat-dental-water/dp/1180350\"\u003Ewater additives\u003C/a\u003E to protect their teeth—is important. Your vet will recommend \u003Ca href=\"https://www.petmd.com/dog/care/how-much-does-dog-teeth-cleaning-cost\" target=\"_blank\" rel=\"noopener\"\u003Eprofessional dental cleanings\u003C/a\u003E as needed.\u003C/li\u003E\r\n\u003C/ul\u003E\r\n\u003Cp\u003EWith routine veterinary care, a healthy diet, and enough exercise, Toy Poodles are one of the \u003Ca href=\"https://www.chewy.com/education/dog/general/behavior-breeds-10-longest-living-dog-breeds\"\u003Elongest-living dog breeds\u003C/a\u003E.\u003C/p\u003E",
+        "h2_breed_history": "\u003Cp\u003EThe history of the Toy Poodle begins with the Standard Poodle. These dogs are much larger (up to 70 pounds!) and worked as water retrievers for duck hunters, according to the \u003Ca href=\"https://poodleclubofamerica.org/sizes-of-poodles/\" target=\"_blank\" rel=\"noopener\"\u003EPoodle Club of America\u003C/a\u003E.\u003C/p\u003E\r\n\u003Cp\u003EThe striking appearance of the Poodle created a desire for a smaller companion dog that would retain the same intelligence and attributes. This led to the Miniature Poodle, which was developed in France and became a favorite of nobility and traveling performers alike.\u003C/p\u003E\r\n\u003Cp\u003EIn the 1900s, the even more diminutive Toy Poodle was developed in the United States. But all three Poodle sizes share similar personality traits and a nearly identical appearance—despite the major size difference.\u003C/p\u003E",
+        "expert_attribution": "\u003Cp\u003E\u003Cem\u003EThis content was medically reviewed by Kelly Gold, DVM, Chewy veterinarian. \u003C/em\u003E\u003C/p\u003E",
+        "facebook_social_snippet_with_cta": "",
+        "species": "",
+        "h2_faqs": "",
+        "faq_items": [
+          {
+            "faq_title": "Why is a Toy Poodle a great dog?",
+            "faq_content": "\u003Cp\u003EToy Poodles can make great dogs for many pet parents thanks to their smarts, social nature, and low-shedding hair.\u003C/p\u003E"
+          },
+          {
+            "faq_title": "How long do Toy Poodles live?",
+            "faq_content": "\u003Cp\u003EThe Toy Poodle life expectancy is 10–18 years; they’re one of the dog breeds with the longest lifespans.\u003C/p\u003E"
+          },
+          {
+            "faq_title": "How much does a Toy Poodle cost?",
+            "faq_content": "\u003Cp\u003EThe cost of a Toy Poodle varies significantly based on the breeder, the coat color, where you live, and other factors. You can expect a Toy Poodle to cost $1,000–$3,000 or more.\u003C/p\u003E\r\n\u003Cp\u003EYou can also find Toy Poodles for adoption at breed-specific rescues (like the \u003Ca href=\"http://www.poodleclubofamericarescuefoundationinc.org/\" target=\"_blank\" rel=\"noopener\"\u003EPoodle Club of America Rescue Foundation\u003C/a\u003E) or by searching \u003Ca href=\"https://www.chewy.com/g/dog-poodle_ga1\"\u003EChewy’s database of adoptable dogs\u003C/a\u003E.\u003C/p\u003E"
+          },
+          {
+            "faq_title": "How big do Toy Poodles get?",
+            "faq_content": "\u003Cp\u003EToy Poodles weigh 4–6 pounds and stand no more than 10 inches tall.\u003C/p\u003E"
+          },
+          {
+            "faq_title": "Should I buy a Teacup Poodle?",
+            "faq_content": "\u003Cp\u003ENo. \u003Ca href=\"https://www.petmd.com/dog/general-health/teacup-dogs-puppies\" target=\"_blank\" rel=\"noopener\"\u003EDogs marketed as “teacup”\u003C/a\u003E Poodles have been bred to be as small as possible, often at the expense of the dog’s health. Do not work with a breeder who advertises teacup Poodles. Toy Poodles are already very tiny!\u003C/p\u003E"
+          }
+        ],
+        "select_related_breeds": [
+          {
+            "selected_related_breed": 95,
+            "characteristic": "breed_characteristics_physical_appearance"
+          },
+          {
+            "selected_related_breed": 43,
+            "characteristic": "breed_characteristics_physical_appearance"
+          },
+          {
+            "selected_related_breed": 3572,
+            "characteristic": "breed_characteristics_physical_appearance"
+          },
+          {
+            "selected_related_breed": 3580,
+            "characteristic": "breed_characteristics_physical_appearance"
+          }
+        ],
+        "enable_featured_gallery": [
+          "enable_featured_gallery"
+        ],
+        "featured_gallery_images": [3593, 3594, 3595, 3596, 3597, 3598]
+      },
+      "yoast_head": "\u003C!-- This site is optimized with the Yoast SEO plugin v23.8 - https://yoast.com/wordpress/plugins/seo/ --\u003E\n\u003Ctitle\u003EToy Poodle Breed: Characteristics, Care &amp; Photos | Chewy\u003C/title\u003E\n\u003Cmeta name=\"description\" content=\"Learn to care for Toy Poodle puppies and dogs, the smallest type of Poodle breed.\" /\u003E\n\u003Cmeta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" /\u003E\n\u003Clink rel=\"canonical\" href=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/toy-poodle/\" /\u003E\n\u003Cmeta property=\"og:locale\" content=\"en_US\" /\u003E\n\u003Cmeta property=\"og:type\" content=\"article\" /\u003E\n\u003Cmeta property=\"og:title\" content=\"Toy Poodle Breed: Characteristics, Care &amp; Photos | Chewy\" /\u003E\n\u003Cmeta property=\"og:description\" content=\"Learn to care for Toy Poodle puppies and dogs, the smallest type of Poodle breed.\" /\u003E\n\u003Cmeta property=\"og:url\" content=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/toy-poodle/\" /\u003E\n\u003Cmeta property=\"og:site_name\" content=\"Chewy\" /\u003E\n\u003Cmeta property=\"article:modified_time\" content=\"2025-06-04T18:55:45+00:00\" /\u003E\n\u003Cmeta property=\"og:image\" content=\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/03/04174355/Breed-Hero-Toy-Poodle.jpg\" /\u003E\n\t\u003Cmeta property=\"og:image:width\" content=\"1835\" /\u003E\n\t\u003Cmeta property=\"og:image:height\" content=\"1032\" /\u003E\n\t\u003Cmeta property=\"og:image:type\" content=\"image/jpeg\" /\u003E\n\u003Cmeta name=\"twitter:card\" content=\"summary_large_image\" /\u003E\n\u003Cmeta name=\"twitter:label1\" content=\"Est. reading time\" /\u003E\n\t\u003Cmeta name=\"twitter:data1\" content=\"1 minute\" /\u003E\n\u003Cscript type=\"application/ld+json\" class=\"yoast-schema-graph\"\u003E{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/toy-poodle/\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/toy-poodle/\",\"name\":\"Toy Poodle Breed: Characteristics, Care & Photos | Chewy\",\"isPartOf\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/toy-poodle/#primaryimage\"},\"image\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/toy-poodle/#primaryimage\"},\"thumbnailUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/03/04174355/Breed-Hero-Toy-Poodle.jpg\",\"datePublished\":\"2025-03-04T18:10:07+00:00\",\"dateModified\":\"2025-06-04T18:55:45+00:00\",\"description\":\"Learn to care for Toy Poodle puppies and dogs, the smallest type of Poodle breed.\",\"breadcrumb\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/toy-poodle/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://phcms.hlth.prd.aws.chewy.cloud/breed/toy-poodle/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/toy-poodle/#primaryimage\",\"url\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/03/04174355/Breed-Hero-Toy-Poodle.jpg\",\"contentUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2025/03/04174355/Breed-Hero-Toy-Poodle.jpg\",\"width\":1835,\"height\":1032,\"caption\":\"gray toy poodle sitting on an isolated blue background\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/toy-poodle/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://phcms.hlth.prd.aws.chewy.cloud/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Toy Poodle\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/\",\"name\":\"Chewy\",\"description\":\"\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"}]}\u003C/script\u003E\n\u003C!-- / Yoast SEO plugin. --\u003E",
+      "yoast_head_json": {
+        "title": "Toy Poodle Breed: Characteristics, Care & Photos | Chewy",
+        "description": "Learn to care for Toy Poodle puppies and dogs, the smallest type of Poodle breed.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://phcms.hlth.prd.aws.chewy.cloud/breed/toy-poodle/",
+        "og_locale": "en_US",
+        "og_type": "article",
+        "og_title": "Toy Poodle Breed: Characteristics, Care & Photos | Chewy",
+        "og_description": "Learn to care for Toy Poodle puppies and dogs, the smallest type of Poodle breed.",
+        "og_url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/toy-poodle/",
+        "og_site_name": "Chewy",
+        "article_modified_time": "2025-06-04T18:55:45+00:00",
+        "og_image": [
+          {
+            "width": 1835,
+            "height": 1032,
+            "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/03/04174355/Breed-Hero-Toy-Poodle.jpg",
+            "type": "image/jpeg"
+          }
+        ],
+        "twitter_card": "summary_large_image",
+        "twitter_misc": {
+          "Est. reading time": "1 minute"
+        },
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/toy-poodle/",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/toy-poodle/",
+              "name": "Toy Poodle Breed: Characteristics, Care & Photos | Chewy",
+              "isPartOf": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/toy-poodle/#primaryimage"
+              },
+              "image": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/toy-poodle/#primaryimage"
+              },
+              "thumbnailUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/03/04174355/Breed-Hero-Toy-Poodle.jpg",
+              "datePublished": "2025-03-04T18:10:07+00:00",
+              "dateModified": "2025-06-04T18:55:45+00:00",
+              "description": "Learn to care for Toy Poodle puppies and dogs, the smallest type of Poodle breed.",
+              "breadcrumb": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/toy-poodle/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://phcms.hlth.prd.aws.chewy.cloud/breed/toy-poodle/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/toy-poodle/#primaryimage",
+              "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/03/04174355/Breed-Hero-Toy-Poodle.jpg",
+              "contentUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/03/04174355/Breed-Hero-Toy-Poodle.jpg",
+              "width": 1835,
+              "height": 1032,
+              "caption": "gray toy poodle sitting on an isolated blue background"
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/toy-poodle/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://phcms.hlth.prd.aws.chewy.cloud/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Toy Poodle"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/",
+              "name": "Chewy",
+              "description": "",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            }
+          ]
+        }
+      },
+      "yoast_meta": {
+        "yoast_wpseo_title": "",
+        "yoast_wpseo_metadesc": "",
+        "yoast_wpseo_canonical": ""
+      },
+      "_links": {
+        "self": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed/3590",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/types/breed"
+          }
+        ],
+        "acf:attachment": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/3598"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/3597"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/3596"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/3595"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/3594"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/3593"
+          }
+        ],
+        "wp:featuredmedia": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/3591"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media?parent=3590"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "pet_type",
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/pet_type?post=3590"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ]

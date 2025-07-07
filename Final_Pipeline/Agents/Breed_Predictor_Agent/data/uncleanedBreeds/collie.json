@@ -1,0 +1,320 @@
+[
+    {
+      "id": 856,
+      "date": "2021-06-07T13:40:32",
+      "date_gmt": "2021-06-07T13:40:32",
+      "guid": {
+        "rendered": "https://haproxy.use1.lgcy.prd.aws.chewy.cloud/eks/ns/pet-health/pet-health-content-backend/breed/collie/"
+      },
+      "modified": "2025-05-05T14:22:12",
+      "modified_gmt": "2025-05-05T14:22:12",
+      "slug": "collie",
+      "status": "publish",
+      "type": "breed",
+      "link": "https://phcms.hlth.prd.aws.chewy.cloud/breed/collie/",
+      "title": {
+        "rendered": "Collie"
+      },
+      "featured_media": 3215,
+      "template": "",
+      "pet_type": [],
+      "class_list": [
+        "post-856",
+        "breed",
+        "type-breed",
+        "status-publish",
+        "has-post-thumbnail",
+        "hentry"
+      ],
+      "acf": {
+        "breed_snapshot_best_for": "\u003Cp\u003EHighly trainable, extroverted and family friendly, Collies are best for active singles or families with children and homes where they'll have a fenced-in yard to roam. Pet parents searching for an intelligent and sensitive dog will love bringing a Collie into their lives.\u003C/p\u003E",
+        "alt_image_text": "\u003Cp\u003EThinking about raising a Collie? These family dogs love people and routines. Find out if a Collie is a good match for you.\u003C/p\u003E",
+        "breed_intro": "\u003Cp\u003EIf Collie dogs were Hollywood stars, they'd be… wait, they \u003Ci\u003Eare\u003C/i\u003E movie stars! Remember Lassie, Timmy's beloved protector and companion in the classic films and TV series? Well, she was a Collie. And when you get to know this breed, you'll quickly understand why. Few dogs better embody the notions of loyalty and friendship. Smart, easy-to-train and affectionate, Collies are among the most popular family dogs, keeping children entertained and busy with their endlessly energetic, live-in play date. Just like children, your Collie will quickly let you know when they're \u003Ca href=\"https://www.chewy.com/education/dog/general/dog-boredom-busters\"\u003Ebored\u003C/a\u003E. They'll talk, and you'll listen because their bark is no joke. But you'll quickly forgive the chatter once you're out for your long daily walks—these pups do need a lot of exercise—and your celebrity status around the neighborhood starts to rise alongside your elegantly furry friend. Did you know the Collie is one of only four dogs to have a star on the Hollywood Walk of Fame? It's the company you keep, after all.\u003C/p\u003E",
+        "breed_related_products_product_card_set": null,
+        "breed_snapshot_temperament": "\u003Cp\u003EFamily first, Super-trainable, Friend to all\u003C/p\u003E",
+        "what_does_this_breed_look_like_weight": "\u003Cp\u003EMale: 60-75 pounds\u003C/p\u003E\u003Cp\u003EFemale: 50-65 pounds\u003C/p\u003E",
+        "what_does_this_breed_look_like_height": "\u003Cp\u003EMale: 24-26 inches\u003C/p\u003E\u003Cp\u003EFemale: 22-24 inches\u003C/p\u003E",
+        "breed_snapshot_life_expectancy": "\u003Cp\u003E12 to 14 years\u003C/p\u003E",
+        "breed_snapshot_maintenance_level": "\u003Cp\u003EHigh\u003C/p\u003E",
+        "breed_characteristics_friendliness": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_snapshot_coat_color": "\u003Cp\u003EBlack White and Tan, Blue Merle, Blue Merle and White, Blue Merle and White and Tan, Sable, Sable and White, Sable Merle, Sable Merle and White, White, White Merle\u003C/p\u003E",
+        "breed_snapshot_shed_level": "\u003Cp\u003EVery High\u003C/p\u003E",
+        "in_article_video": null,
+        "breed_characteristics": "\u003Cp\u003EThese traits are rated on a scale of 1-5 with 1 being the lowest and 5 being the highest. Remember: Dogs are individuals, and not all dogs, even those of the same breed, will exhibit all the same qualities.\u003C/p\u003E",
+        "breed_characteristics_exercise_needs": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_health_issues": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_barking_tendencies": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_grooming_needs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_shedding_level": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_training_needs": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_with_kids": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_good_with_cats": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_for_apartments_small_homes": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_energy_level": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_other_dogs": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_playfulnesss": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_cold_weather": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_warm_weather": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_for_first_time_parents": "\u003Cp\u003E4\u003C/p\u003E",
+        "how_do_i_look_card_image": 3204,
+        "what_does_this_breed_look_like": "\u003Cp\u003EThe Collie dog breed possesses a natural elegance and spirit that gives them a proud, graceful appearance. Whether it's the longer-coated Rough Collie or the shorter-coated Smooth, Collies are delightful medium-sized dogs with a distinctive mixed color coat and that unmistakably pointed and friendly “Collie\" face.\u003C/p\u003E",
+        "what_does_this_breed_look_like_ears": "\u003Cp\u003ECollie ears are upright but fold over slightly at the tops, even when alert. Their ears are in proportion to the size of the head.\u003C/p\u003E",
+        "what_does_this_breed_look_like_eyes": "\u003Cp\u003ETheir eyes are almond-shaped and usually dark-colored. Dogs with merle coats (having patches of color) are the exception—their eyes can be blue or merle, too. \u003C/p\u003E",
+        "what_does_this_breed_look_like_nose": "\u003Cp\u003EThe breed's nose is black, and the overall muzzle shape is tapering and somewhat long.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_length": "\u003Cp\u003EThe Rough Collie has a double coat with the outer layer long and thick—so much fur! (A dog with a double coat has two layers of coats: The undercoat is typically dense and more \"wooly\" and regulates body temperature. The top coat is typically longer and repels dirt and water.) The Smooth Collie also has a double coat, but the outer layer, in this case, is only an inch or two long.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_color": "\u003Cp\u003ECollies come in 10 standard colors, including black, white and tan; blue merle (mottled patterns); blue merle and white; blue merle, white and tan; sable (lighter at the base, darker at the tip); sable and white; sable merle; sable merle and white; white merle; and white. (Solid-color Collies are usually white and aren't common.)\u003C/p\u003E",
+        "what_does_this_breed_look_like_tail": "\u003Cp\u003ECollie tails are long and quite fluffy.\u003C/p\u003E",
+        "h2_breed_temperament": "\u003Cp\u003ECollies are the quintessential extroverts. They are gregarious animals who seek companionship, love their families and are great with kids and babies. But jealous types, beware. While their love for you will be unwavering, they'll happily spread that love to just about anyone they meet, be that strangers or other pets. Naturally, they don't have high biting tendencies and aren't known to be a particularly aggressive breed. Collies are also big fans of play, and many love nothing better than to speed around the yard chasing a ball or \u003Ca href=\"https://www.chewy.com/b/discs-2330\" target=\"_blank\" rel=\"noopener\"\u003EFrisbee\u003C/a\u003E. Yes, they are the ultimate teammate you've always dreamed about.\u003C/p\u003E\r\n\u003Cp\u003EFans of fun though they may be, Collies are not classified in the American Kennel Club's Sporting Group but are instead members of the Herding Group (they were used for centuries to herd sheep on working farms). So, if you own livestock, or simply want to channel your inner sheep farmer, then a Collie might be just the dog breed for you. You might even find yourself competing in a herding event or two.\u003C/p\u003E\r\n\u003Cp\u003EBecause these dogs were born to have a job to do, they'll get noisy when they're lonely or bored. A tired Collie is a quiet Collie. If your pup is barking a lot (and there are no strangers lurking), it's a sign your Collie may need more exercise and time with you. Take them on extra walks and play games with them to help release that extra energy.\u003C/p\u003E\r\n\u003Cp\u003EHerding behaviors like heel nipping or bossiness can also be intimidating to children. Of course, every dog is an individual and not all Collies display these traits. But for many parents, these concerns are outweighed by the breed's other kid-friendly traits. After all, Collies are great family dogs. It's literally how they became so famous. Of course, it's not only important to socialize and train all dogs, but pet parents should also teach children how to properly interact with dogs.\u003C/p\u003E\r\n\u003Cp\u003ECollies have a low prey drive and are not typically used as hunting dogs, but they do perform a variety of other jobs. They're popular as service dogs, partly because of their versatility, partly because they retain training so well and also because of their ability to adapt to a variety of living situations and the energy levels of their families. Collies are also used as therapy dogs. They really are a well-rounded dog.\u003C/p\u003E",
+        "h2_how_to_care_for_a_breed": "\u003Cp\u003EWhile it's true that Collies are high-energy dogs who shed a lot and like (read: love) to bark, they can be a surprisingly good choice for first-time pet parents. Collies usually get along well with other pets and children, are easy to train and are adaptable to many different lifestyles. Plus, they want to take care of you as much as you care for them.\u003C/p\u003E",
+        "grooming": "\u003Cp\u003EWhen it comes to their coats, the Smooth Collie and the Rough Collie have different brushing needs because of their uniquely characteristic coats, but their overall routine is basically the same.\u003C/p\u003E\n\u003Cul\u003E\n\t\u003Cli\u003E\u003Cstrong\u003ERough Collies\u003C/strong\u003E—especially adult males—have long hair and coat. While beautiful to behold, it does come with a lot of extra grooming work. Using a \u003Ca href=\"https://www.chewy.com/b/brushes-combs-356\" target=\"_blank\" rel=\"noopener\"\u003Eslicker brush, pin brush and comb\u003C/a\u003E, you should \u003Ca href=\"https://www.chewy.com/education/dog/grooming/brushing-a-dog\"\u003Ebrush your Collie\u003C/a\u003E a few times a week to make sure the occasional tangle doesn't turn into a matted mess. First, brush against the fur growth with the slicker brush to remove the dead hair, then brush in the direction of hair growth with the pin brush to smooth it out. Follow up with a comb to ensure you've removed all the tangles. Pay particular attention to problem areas: behind the ears and the front legs, under the belly, and the back of the rear legs. Rough Collies will blow their coat in the spring and fall as the seasons change. (A dog who blows their coat will shed their coat in chunks instead of a lot of hairs at once.)\u003C/li\u003E\n\t\u003Cli\u003E\u003Cstrong\u003ESmooth Collies\u003C/strong\u003E, on the other hand, have a coat that's low-maintenance and elegant. If you're looking for an easy-to-groom dog who won't require a lot of work, then you'd probably be happiest with the smooth-coated Collie. Brush a Smooth Collie with a \u003Ca href=\"https://www.chewy.com/f/dog-curry-brushes_c355_f70v83786\" target=\"_blank\" rel=\"noopener\"\u003Erubber curry brush\u003C/a\u003E or a slicker brush about once a week.\u003C/li\u003E\n\u003C/ul\u003E\n\u003Cp\u003EHere are more grooming tips, for either type of Collie:\u003C/p\u003E\n\u003Cul\u003E\n\t\u003Cli\u003E\u003Cstrong\u003EShaving:\u003C/strong\u003E Buzz cuts are out of the question. Never, ever shave your Collie. If you do, you could irreparably change the way the hairs grow back and damage the way the inner coat insulates and protects your furry friend from the sun. And that would make your best buddy so sad.\u003C/li\u003E\n\t\u003Cli\u003E\u003Cstrong\u003EBathing:\u003C/strong\u003E You should, however, \u003Ca href=\"https://www.chewy.com/education/dog/grooming/how-to-bathe-a-dog-step-by-step-tips-from-a-professional-groomer\"\u003Ebathe your pup\u003C/a\u003E approximately every three months, but not more. Overdoing it can damage the natural oils in their coats.\u003C/li\u003E\n\t\u003Cli\u003E\u003Cstrong\u003ENail trimming:\u003C/strong\u003E Other important parts of grooming include giving your Collie a good \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/guide-trimming-dogs-nails\" target=\"_blank\" rel=\"noopener\"\u003Enail trimming\u003C/a\u003E about once a month or whenever necessary to avoid the “clickety-clack\" noises on the kitchen tile\u003C/li\u003E\n\t\u003Cli\u003E\u003Cstrong\u003EDental care:\u003C/strong\u003E \u003Ca href=\"https://www.chewy.com/education/dog/grooming/health-wellness-how-to-brush-your-dogs-teeth-live-to-tell-the-tale\"\u003EBrush your Collie's teeth\u003C/a\u003E daily, and schedule yearly professional dental cleanings.\u003C/li\u003E\n\t\u003Cli\u003E\u003Cstrong\u003EEar cleaning:\u003C/strong\u003E To help prevent ear infections, c\u003Cspan class=\"TextRun SCXW168514574 BCX0\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\u003E\u003Cspan class=\"NormalTextRun SCXW168514574 BCX0\"\u003Eheck your Collie's ears for debris and any redness or swelling. If you notice anything, speak to your vet. If your vet recommends at-home cleaning, follow this \u003C/span\u003E\u003C/span\u003E\u003Ca class=\"Hyperlink SCXW168514574 BCX0\" href=\"https://www.chewy.com/education/dog/health-and-wellness/how-do-you-clean-a-dogs-ears-follow-this-vet-approved-step-by-step-guide\" target=\"_blank\" rel=\"noreferrer noopener\"\u003E\u003Cspan class=\"TextRun Underlined SCXW168514574 BCX0\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\u003E\u003Cspan class=\"NormalTextRun SCXW168514574 BCX0\" data-ccp-charstyle=\"Hyperlink\"\u003Estep-by-step guide on how to clean dog ears\u003C/span\u003E\u003C/span\u003E\u003C/a\u003E\u003Cspan class=\"TextRun SCXW168514574 BCX0\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\u003E\u003Cspan class=\"NormalTextRun SCXW168514574 BCX0\"\u003E.\u003C/span\u003E\u003C/span\u003E\u003C/li\u003E\n\u003C/ul\u003E",
+        "training": "\u003Cp\u003ECollies are herding dogs, and while their herding instincts are perhaps not as strong as those found in \u003Ca href=\"https://www.chewy.com/education/dog-breeds/border-collie/\"\u003EBorder Collies\u003C/a\u003E, \u003Ca href=\"https://www.chewy.com/education/dog-breeds/australian-shepherd/\"\u003EAustralian Shepherds\u003C/a\u003E and \u003Ca href=\"https://www.chewy.com/education/dog-breeds/australian-cattle-dog/\"\u003EAustralian Cattle Dogs\u003C/a\u003E, it's something to keep in mind while you go about \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/sit-stay-and-beyond-weve-got-the-essential-guide-to-basic-dog-obedience-training\"\u003Ebasic obedience training\u003C/a\u003E. Why? Because those instincts have made Collies fast learners who need training that will challenge their impressive brains.\u003C/p\u003E\n\u003Cp\u003EAnother factor to remember is that Collies tend to be fairly sensitive dogs. So, while they are famously easy to train and love to learn, it's essential to introduce new training concepts and experiences in an upbeat, encouraging way and to reward calm, relaxed interactions. Your Collie puppy will respond well to toys, treats and praise for a job well done. Positive reinforcement (aka rewarding their good behaviors) is also a great way to bond with your pup, help build your Collie's new skills and keep them comfortable in a variety of situations.\u003C/p\u003E\n\u003Cp\u003EIf the Collie has any behavior problems at all (other than barking), it's timidity. Hard to believe, but hey, lots of celebs are actually pretty shy in real life. That just makes \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/positively-trained-puppy-socialization-dos-and-donts\"\u003Esocialization\u003C/a\u003E extra important with Collie puppies. Aim to introduce them to experiences in a positive way and to environments they will encounter on a regular basis throughout life, like pet supply stores, the vet's office and the park. Early encounters like these are critical to helping puppies become successful and versatile pets later in life.\u003C/p\u003E\n\u003Cp\u003EEven so, \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/how-to-train-dog-not-to-bark\"\u003Ebarking\u003C/a\u003E can always be an issue with the Collie dog breed. If that's a deal-breaker for you, you could choose a different breed (boo!) or adopt an adult rescue Collie who's been fostered and you know is quiet (yeah!).\u003C/p\u003E\n\u003Cp\u003EOne more pro-tip: When you're getting together all the gear you need for training, you may want to opt for a \u003Ca href=\"https://www.chewy.com/b/martingale-11541\" target=\"_blank\" rel=\"noopener\"\u003Emartingale collar\u003C/a\u003E rather than a standard buckle collar. Due to the shape of their head and neck, Collies are at risk of accidentally slipping out of standard collars. Martingale collars, on the other hand, have a two-loop design that adjusts to the size of the dog's neck wherever it sits, making it more difficult for your pup to pull a Houdini and escape when they're on-leash.\u003C/p\u003E",
+        "diet_nutrition": "\u003Cp\u003ECollies typically do well on a high-quality commercial dog food. Be sure to look for a statement on the food's packaging that says it meets the nutritional standards set by the \u003Ca href=\"https://www.aafco.org/\" target=\"_blank\" rel=\"noopener\"\u003EAssociation of American Feed Control Officials\u003C/a\u003E (AAFCO) and that you choose a formula that fits their stage in life (puppy, adult, senior). You can ask your veterinarian for advice on choosing the appropriate formula for your Collie.\u003C/p\u003E\n\u003Cp\u003ECollies are susceptible to a condition called \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/bloat-in-dogs\"\u003Ebloat\u003C/a\u003E, which can be life-threatening. To help reduce the risk for bloat, feed your pup smaller meals more frequently during the day and use a \u003Ca href=\"https://www.chewy.com/b/slow-feeders-1424\" target=\"_blank\" rel=\"noopener\"\u003Eslow feeder\u003C/a\u003E.\u003C/p\u003E\n\u003Cp\u003EIt's important to keep your dog at a healthy weight; even an extra pound or two can make a big impact on their overall health. So, be sure to include the treats you give (for training or just because) in their daily caloric count. Opt for a lower-calorie treat or mix up rewards with extra playtime or a massage. If you notice your pup is gaining a little chub, contact your vet. They're in the best position to help you set a meal and exercise plan to help your pup shed the extra weight.\u003C/p\u003E",
+        "exercise": "\u003Cp\u003ECollies have high energy levels and exercise needs—but you don't need to be a marathon runner to keep up with them. Their needs are generally manageable for most families. While many Collies are athletic enough to keep up with a jogger, most are content with daily walks, playing ball in the backyard and mental activities such as training, sports or jobs around the house. (Collies are great at putting away their toys and \"go get\" or \"find\" things to bring to you, like a purse or pair of shoes.) Collies party hard, but they'll also happily snuggle in for a Netflix binge with you when playtime is over. Ever attuned to their humans, they know you need to recharge before the next adventure!\u003C/p\u003E\n\u003Cp\u003ECollies need at least an hour of exercise per day, and, ideally, it is active exercise that you participate in, rather than just turning them loose and alone in a fenced-in yard. Some Collies enjoy dog sports, like \u003Ca href=\"https://www.chewy.com/education/dog/training-and-behavior/dog-agility-training-tips\"\u003Eagility\u003C/a\u003E and lure coursing (where dogs chase a mechanical lure around a track), and some ambitious pet parents may even try taking their Collie to a dog show or herding events.\u003C/p\u003E",
+        "ideal_environment": "\u003Cp\u003ECollies typically adore children, and they're also a super companion breed to all family members. They're even good with cats and other pets in the household. They're also well-mannered around guests and are open to meeting new people. Essentially, Collies are just friendly dogs.\u003C/p\u003E\r\n\u003Cp\u003EHowever, because Collies tend to bark, they may not be the best option for apartment/condo life or for dense neighborhoods. In those scenarios, even Mr. Rogers might not want to be their neighbor.\u003C/p\u003E\r\n\u003Cp\u003EHowever, Collies make excellent farm dogs, as they typically exhibit a low prey drive and can generally live safely with livestock or poultry. The Collie's herding instincts are lower than some other herding dogs, so if you're hoping to have your Collie help you herd livestock on the farm, be sure to choose individual breeding lines that are known for having intense working drives.\u003C/p\u003E\r\n\u003Cp\u003EWhether on the farm or in your home, one thing is certain: Collies are indoor pets. While they may enjoy cold weather, they cannot live outside in it, and they don't love especially hot weather, either. Besides, this breed wants to be where you are, and for most people, most of the time, that's inside.\u003C/p\u003E",
+        "h2_breed_health": "\u003Cp\u003E\u003Cspan data-contrast=\"none\"\u003ECollies have a life expectancy of 12-14 years, which is a fairly typical lifespan of medium-sized dogs, but Collies do have a few health problems to look out for. Be sure to purchase your puppy from a reputable breeder; they screen their dogs for health and temperament issues. Knowing the health problems associated with your breed can help you ensure your pet lives their happiest, longest life.\u003C/span\u003E\u003Cspan data-ccp-props=\"{}\"\u003E \u003C/span\u003E\u003C/p\u003E\r\n\u003Cul\u003E\r\n\t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559684&quot;:-2,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;multilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"1\" data-aria-level=\"1\"\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/eyes/collie-eye-anomaly\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003ECollie Eye Anomaly\u003C/span\u003E\u003C/b\u003E\u003C/a\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003E:\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E Collie eye anomaly is an inherited ocular disease in Collies and similar breeds that can result in blindness. It’s caused by a genetic mutation that creates a deformity in the eye’s blood vessels during development. A board-certified veterinary ophthalmologist may be able to diagnose this condition when a Collie puppy is as young as 6-8 weeks old. There is also a genetic test for the disease. There is no cure for Collie eye anomaly, but some treatments can help reduce the symptoms. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;335559685&quot;:1117}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559684&quot;:-2,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;multilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"2\" data-aria-level=\"1\"\u003E\u003Ca href=\"https://www.petmd.com/dog/condition/progressive-retinal-atrophy-in-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EProgressive Retinal Atrophy\u003C/span\u003E\u003C/b\u003E\u003C/a\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003E (PRA):\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E PRA affects the photoreceptors of the retina, causing them to lose their function. This condition has both early-onset and late-onset forms. Unfortunately, there is no treatment for this disease. Because it is caused by a genetic mutation, testing is available to screen for the condition.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;335559685&quot;:1117}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559684&quot;:-2,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;multilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"3\" data-aria-level=\"1\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003ESkin Problems:\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E Collies also have the potential to develop several severe immune-mediated skin diseases, including \u003C/span\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/c_dg_polymyositis_dermatomyositis\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-contrast=\"none\"\u003Edermatomyositis\u003C/span\u003E\u003C/a\u003E\u003Cspan data-contrast=\"none\"\u003E and pemphigus foliaceus. Dermatomyositis is an inflammatory condition that is inherited. Medication can be used to treat the symptoms, but there is no cure. Pemphigus foliaceus typically occurs in middle-age and causes hair loss and crusty skin, most often on the top of the nose or inside the ear flaps. There is no cure, but it can be treated with corticosteroids or other immunosuppressants. \u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;335559685&quot;:1117}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559684&quot;:-2,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;multilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"4\" data-aria-level=\"1\"\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/c_dg_hip_dysplasia\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EHip Dysplasia\u003C/span\u003E\u003C/b\u003E\u003C/a\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003E: \u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003ESome Collies may be at risk for developing hip dysplasia, a condition in which the hip joint isn’t formed properly. The condition results in looseness of the joint, leading to pain (sometimes severe) and lameness. Fortunately, hip dysplasia occurs in less than 3 percent of the Collie population, and treatments are available to those dogs who do experience it. Although the severity can vary, treatments such as pain relievers, physical therapy or surgery are often prescribed.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;335559685&quot;:1117}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\t\u003Cli data-leveltext=\"\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559684&quot;:-2,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;multilevel&quot;}\" aria-setsize=\"-1\" data-aria-posinset=\"5\" data-aria-level=\"1\"\u003E\u003Ca href=\"https://www.petmd.com/dog/general-health/mdr1-gene-in-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003EMDR1\u003C/span\u003E\u003C/b\u003E\u003C/a\u003E\u003Cb\u003E\u003Cspan data-contrast=\"none\"\u003E:\u003C/span\u003E\u003C/b\u003E\u003Cspan data-contrast=\"none\"\u003E Some Collies have a sensitivity to certain drugs, so be sure your pup has been tested for “multidrug sensitivity” (MDR1). This genetic mutation can cause Collies to have problems processing certain medications, making them more sensitive to the drugs and more likely to experience toxic side effects. This mutation is inherited, and testing is readily available to identify if your dog is affected.\u003C/span\u003E\u003Cspan data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;335559685&quot;:1117}\"\u003E \u003C/span\u003E\u003C/li\u003E\r\n\u003C/ul\u003E",
+        "h2_breed_history": "\u003Cp\u003ECollies originally came from Scotland, where they were used for centuries to herd sheep on working farms. Their kind personalities, herding skills and devotion to family were highly valued. But after Queen Victoria took notice of the breed in the 1860s, it achieved more widespread recognition, and the dogs quickly went from working stiffs to highly prized escorts of the rich and famous.\u003C/p\u003E\r\n\u003Cp\u003ENot long after that, in the 1870s, the first Collies came to the United States, and the American Kennel Club recognized the breed in 1885. The \u003Ca href=\"https://www.collieclubofamerica.org/\" target=\"_blank\" rel=\"noopener\"\u003ECollie Club of America\u003C/a\u003E was then established in 1886 to help protect and promote the Collie dog breed.\u003C/p\u003E\r\n\u003Cp\u003EWhile the Collie breed's initial burst of popularity had royal roots, it was the 20th-century writings of Albert Payson Terhune (author of \"Lad, a Dog,\" and other books about Collies) and Eric Knight (author of \"Lassie Come Home\") that gave the breed broader recognition as a beloved family companion. The \"Lassie\"\u003Ci\u003E \u003C/i\u003Emovies and television series that followed between the 1940s and 1970s introduced the Collie to an even wider audience. Today, the Collie ranks No. 38 out of 197 on the AKC's list of most popular dog breeds.\u003C/p\u003E\r\n\u003Cp\u003ECollies are often confused with the Border Collie, another herding breed, but the two dogs are distinct. Each originated in a different region of the United Kingdom and was bred with an emphasis on working ability. Today's Border Collies are extremely intelligent and intense; modern Collies are more laid-back and easy-going.\u003C/p\u003E\r\n\u003Cp\u003ESo, where is the best place to find Collie puppies? You can find a list of reputable breeders on the \u003Ca href=\"https://marketplace.akc.org/puppies/collie\" target=\"_blank\" rel=\"noopener\"\u003EAmerican Kennel Club's website\u003C/a\u003E. The average Collie price will depend on the breeder, but you can expect to spend $1,000-$3,000 for a pup. But for that cost, you usually get a dog who's been screened for health and temperament issues. They might even come with pedigree papers. You can also reach out to \u003Ca href=\"https://collieclubofamerica.org/23/collie-club-of-america-rescue-organizations.pdf\" target=\"_blank\" rel=\"noopener\"\u003ECollie rescue organizations\u003C/a\u003E to adopt a Collie or keep an eye out for the breed at your local animal shelter. You can also search \u003Ca href=\"https://www.chewy.com/g/dog-collie_ga1\" target=\"_blank\" rel=\"noopener\"\u003EChewy’s database of adoptable dogs\u003C/a\u003E in your area.\u003C/p\u003E",
+        "expert_attribution": "\u003Cp\u003E\u003Ci\u003EExpert input provided by veterinarian Dr. Lou Avant, DVM, of \u003Ca href=\"https://lassiteranimalhospital.com/\" target=\"_blank\" rel=\"noopener\"\u003ELassiter Animal Hospital\u003C/a\u003E in Marietta, Georgia; and certified dog trainer Steven Tallas, CDTK, of \u003Ca href=\"https://www.venturedogtraining.com/\" target=\"_blank\" rel=\"noopener\"\u003EVenture Dog Training\u003C/a\u003E. in Houston and Austin, Texas.\u003C/i\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cem\u003EBreed characteristic ratings provided by veterinarian Dr. Sarah J. Wooten, DVM, CVJ, a veterinarian at \u003Ca href=\"https://sheepdraw.com/\" target=\"_blank\" rel=\"noopener\"\u003ESheep Draw Veterinary Hospital\u003C/a\u003E in Greeley, Colorado; dog trainer and behavior consultant Irith Bloom, CPDT-KSA, CBCC-KA, CDBC, owner of \u003Ca href=\"https://thesophisticateddog.com/\" target=\"_blank\" rel=\"noopener\"\u003EThe Sophisticated Dog, LLC\u003C/a\u003E, in Los Angeles; and certified animal behavior consultant \u003Ca href=\"https://shojai.com/\" target=\"_blank\" rel=\"noopener\"\u003EAmy Shojai\u003C/a\u003E, CABC, in Sherman, Texas. \u003C/em\u003E\u003C/p\u003E\r\n\u003Cp\u003E\u003Cem\u003EThe health content was medically reviewed by Chewy vets.\u003C/em\u003E\u003C/p\u003E",
+        "facebook_social_snippet_with_cta": "\u003Cp\u003ELoyalty, intelligence and a little bit of Hollywood charm make the Collie a delightful family dog. Find out if the Collie is a good match for you and check out all the facts, information and a bit of the breed's history in our complete guide.\u003C/p\u003E",
+        "species": "\u003Cp\u003EDog\u003C/p\u003E",
+        "h2_faqs": "\u003Ch3\u003EDo Collies shed?\u003C/h3\u003E\n\u003Cp\u003EYes, Collies do shed—and not a little bit, either. Rough Collies shed heavily twice a year (in the spring and fall). Smooth Collies, on the other hand, shed more regularly throughout the year.\u003C/p\u003E\n\u003Ch3\u003EHow long do Collie dogs live?\u003C/h3\u003E\n\u003Cp\u003EThe average life expectancy for a Collie is 12-14 years.\u003C/p\u003E\n\u003Ch3\u003EWhere do Collies come from?\u003C/h3\u003E\n\u003Cp\u003ECollies originally come from Scotland, where they were traditionally used as sheepdogs on working farms.\u003C/p\u003E\n\u003Ch3\u003EAre Collie dogs good pets?\u003C/h3\u003E\n\u003Cp\u003ECollies are great pets! Collies love their families and tend to do well around other pets. Their love of people and their loyalty make them excellent four-legged pals.\u003C/p\u003E\n\u003Ch3\u003EWhat are some common Collie names?\u003C/h3\u003E\n\u003Cp\u003ESome of the most popular Collie names include Luna, Bella, Lucy, Max, Charlie, Sadie, Finn and Bear. \u003Ca href=\"https://www.chewy.com/education/dog/general/top-dog-names\"\u003EGet more dog names\u003C/a\u003E.\u003C/p\u003E\n\u003Ch3\u003EWhat are the most common Collie mixes?\u003C/h3\u003E\n\u003Cul\u003E\n\t\u003Cli\u003ECollie-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/german-shepherd/\"\u003EGerman Shepherd\u003C/a\u003E mix (Shollie)\u003C/li\u003E\n\t\u003Cli\u003ECollie-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/labrador-retriever/\"\u003ELabrador Retriever\u003C/a\u003E mix (Labollie)\u003C/li\u003E\n\t\u003Cli\u003ECollie-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/husky/\"\u003ESiberian Husky\u003C/a\u003E mix (Collie Siberian Husky)\u003C/li\u003E\n\t\u003Cli\u003ECollie-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/australian-shepherd/\"\u003EAustralian Shepherd\u003C/a\u003E mix (Aussie Collie)\u003C/li\u003E\n\t\u003Cli\u003ECollie-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/golden-retriever/\"\u003EGolden Retriever\u003C/a\u003E mix (Gollie)\u003C/li\u003E\n\t\u003Cli\u003ECollie-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/pembroke-welsh-corgi/\"\u003EWelsh Corgi\u003C/a\u003E mix (Collie Welsh Corgi)\u003C/li\u003E\n\u003C/ul\u003E\n\u003Cp\u003ENote: These are not purebred dogs but mixed breeds.\u003C/p\u003E",
+        "faq_items": [
+          {
+            "faq_title": "Do Collies shed?",
+            "faq_content": "\u003Cp\u003EYes, Collies do shed—and not a little bit, either. Rough Collies shed heavily twice a year (in the spring and fall). Smooth Collies, on the other hand, shed more regularly throughout the year.\u003C/p\u003E"
+          },
+          {
+            "faq_title": "How long do Collie dogs live?",
+            "faq_content": "\u003Cp\u003EThe average life expectancy for a Collie is 12-14 years.\u003C/p\u003E"
+          },
+          {
+            "faq_title": "Where do Collies come from?",
+            "faq_content": "\u003Cp\u003ECollies originally come from Scotland, where they were traditionally used as sheepdogs on working farms.\u003C/p\u003E"
+          },
+          {
+            "faq_title": "Are Collie dogs good pets?",
+            "faq_content": "\u003Cp\u003ECollies are great pets! Collies love their families and tend to do well around other pets. Their love of people and their loyalty make them excellent four-legged pals.\u003C/p\u003E"
+          },
+          {
+            "faq_title": "What are some common Collie names?",
+            "faq_content": "\u003Cp\u003ESome of the most popular Collie names include Luna, Bella, Lucy, Max, Charlie, Sadie, Finn and Bear. \u003Ca href=\"https://www.chewy.com/education/dog/general/top-dog-names\"\u003EGet more dog names\u003C/a\u003E.\u003C/p\u003E"
+          },
+          {
+            "faq_title": "What are the most common Collie mixes?",
+            "faq_content": "\u003Cul\u003E\r\n\t\u003Cli\u003ECollie-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/german-shepherd/\"\u003EGerman Shepherd\u003C/a\u003E mix (Shollie)\u003C/li\u003E\r\n\t\u003Cli\u003ECollie-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/labrador-retriever/\"\u003ELabrador Retriever\u003C/a\u003E mix (Labollie)\u003C/li\u003E\r\n\t\u003Cli\u003ECollie-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/husky/\"\u003ESiberian Husky\u003C/a\u003E mix (Collie Siberian Husky)\u003C/li\u003E\r\n\t\u003Cli\u003ECollie-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/australian-shepherd/\"\u003EAustralian Shepherd\u003C/a\u003E mix (Aussie Collie)\u003C/li\u003E\r\n\t\u003Cli\u003ECollie-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/golden-retriever/\"\u003EGolden Retriever\u003C/a\u003E mix (Gollie)\u003C/li\u003E\r\n\t\u003Cli\u003ECollie-\u003Ca href=\"https://www.chewy.com/education/dog-breeds/pembroke-welsh-corgi/\"\u003EWelsh Corgi\u003C/a\u003E mix (Collie Welsh Corgi)\u003C/li\u003E\r\n\u003C/ul\u003E\r\n\u003Cp\u003ENote: These are not purebred dogs but mixed breeds.\u003C/p\u003E"
+          }
+        ],
+        "select_related_breeds": [
+          {
+            "selected_related_breed": 73,
+            "characteristic": "breed_characteristics_exercise_needs"
+          },
+          {
+            "selected_related_breed": 95,
+            "characteristic": "breed_characteristics_good_for_first_time_parents"
+          },
+          {
+            "selected_related_breed": 673,
+            "characteristic": "breed_characteristics_good_with_other_dogs"
+          },
+          {
+            "selected_related_breed": 57,
+            "characteristic": "breed_characteristics_shedding_level"
+          },
+          {
+            "selected_related_breed": 1429,
+            "characteristic": "breed_characteristics_good_with_kids"
+          },
+          {
+            "selected_related_breed": 801,
+            "characteristic": "breed_characteristics_good_as_a_service_dog"
+          }
+        ],
+        "enable_featured_gallery": [
+          "enable_featured_gallery"
+        ],
+        "featured_gallery_images": [3198, 3199, 3200, 3201, 3202]
+      },
+      "yoast_head": "\u003C!-- This site is optimized with the Yoast SEO plugin v23.8 - https://yoast.com/wordpress/plugins/seo/ --\u003E\n\u003Ctitle\u003ECollie Breed: Characteristics, Care &amp; Photos | Chewy\u003C/title\u003E\n\u003Cmeta name=\"description\" content=\"Looking for Collie facts and breed information? These kind, intelligent dogs train easily. Check out our Collie breed guide to learn more.\" /\u003E\n\u003Cmeta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" /\u003E\n\u003Clink rel=\"canonical\" href=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/collie/\" /\u003E\n\u003Cmeta property=\"og:locale\" content=\"en_US\" /\u003E\n\u003Cmeta property=\"og:type\" content=\"article\" /\u003E\n\u003Cmeta property=\"og:title\" content=\"Collie Breed: Characteristics, Care &amp; Photos | Chewy\" /\u003E\n\u003Cmeta property=\"og:description\" content=\"Looking for Collie facts and breed information? These kind, intelligent dogs train easily. Check out our Collie breed guide to learn more.\" /\u003E\n\u003Cmeta property=\"og:url\" content=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/collie/\" /\u003E\n\u003Cmeta property=\"og:site_name\" content=\"Chewy\" /\u003E\n\u003Cmeta property=\"article:modified_time\" content=\"2025-05-05T14:22:12+00:00\" /\u003E\n\u003Cmeta name=\"twitter:card\" content=\"summary_large_image\" /\u003E\n\u003Cmeta name=\"twitter:label1\" content=\"Est. reading time\" /\u003E\n\t\u003Cmeta name=\"twitter:data1\" content=\"1 minute\" /\u003E\n\u003Cscript type=\"application/ld+json\" class=\"yoast-schema-graph\"\u003E{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/collie/\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/collie/\",\"name\":\"Collie Breed: Characteristics, Care & Photos | Chewy\",\"isPartOf\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/collie/#primaryimage\"},\"image\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/collie/#primaryimage\"},\"thumbnailUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2021/06/07145905/Collie-FeaturedImage.avif\",\"datePublished\":\"2021-06-07T13:40:32+00:00\",\"dateModified\":\"2025-05-05T14:22:12+00:00\",\"description\":\"Looking for Collie facts and breed information? These kind, intelligent dogs train easily. Check out our Collie breed guide to learn more.\",\"breadcrumb\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/collie/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://phcms.hlth.prd.aws.chewy.cloud/breed/collie/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/collie/#primaryimage\",\"url\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2021/06/07145905/Collie-FeaturedImage.avif\",\"contentUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2021/06/07145905/Collie-FeaturedImage.avif\",\"width\":1440,\"height\":865},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/collie/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://phcms.hlth.prd.aws.chewy.cloud/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Collie\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/\",\"name\":\"Chewy\",\"description\":\"\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"}]}\u003C/script\u003E\n\u003C!-- / Yoast SEO plugin. --\u003E",
+      "yoast_head_json": {
+        "title": "Collie Breed: Characteristics, Care & Photos | Chewy",
+        "description": "Looking for Collie facts and breed information? These kind, intelligent dogs train easily. Check out our Collie breed guide to learn more.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://phcms.hlth.prd.aws.chewy.cloud/breed/collie/",
+        "og_locale": "en_US",
+        "og_type": "article",
+        "og_title": "Collie Breed: Characteristics, Care & Photos | Chewy",
+        "og_description": "Looking for Collie facts and breed information? These kind, intelligent dogs train easily. Check out our Collie breed guide to learn more.",
+        "og_url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/collie/",
+        "og_site_name": "Chewy",
+        "article_modified_time": "2025-05-05T14:22:12+00:00",
+        "twitter_card": "summary_large_image",
+        "twitter_misc": {
+          "Est. reading time": "1 minute"
+        },
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/collie/",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/collie/",
+              "name": "Collie Breed: Characteristics, Care & Photos | Chewy",
+              "isPartOf": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/collie/#primaryimage"
+              },
+              "image": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/collie/#primaryimage"
+              },
+              "thumbnailUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2021/06/07145905/Collie-FeaturedImage.avif",
+              "datePublished": "2021-06-07T13:40:32+00:00",
+              "dateModified": "2025-05-05T14:22:12+00:00",
+              "description": "Looking for Collie facts and breed information? These kind, intelligent dogs train easily. Check out our Collie breed guide to learn more.",
+              "breadcrumb": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/collie/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://phcms.hlth.prd.aws.chewy.cloud/breed/collie/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/collie/#primaryimage",
+              "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2021/06/07145905/Collie-FeaturedImage.avif",
+              "contentUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2021/06/07145905/Collie-FeaturedImage.avif",
+              "width": 1440,
+              "height": 865
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/collie/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://phcms.hlth.prd.aws.chewy.cloud/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Collie"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/",
+              "name": "Chewy",
+              "description": "",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            }
+          ]
+        }
+      },
+      "yoast_meta": {
+        "yoast_wpseo_title": "",
+        "yoast_wpseo_metadesc": "",
+        "yoast_wpseo_canonical": ""
+      },
+      "_links": {
+        "self": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed/856",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/types/breed"
+          }
+        ],
+        "acf:attachment": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/3202"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/3201"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/3200"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/3199"
+          },
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/3198"
+          }
+        ],
+        "wp:featuredmedia": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/3215"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media?parent=856"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "pet_type",
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/pet_type?post=856"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ]

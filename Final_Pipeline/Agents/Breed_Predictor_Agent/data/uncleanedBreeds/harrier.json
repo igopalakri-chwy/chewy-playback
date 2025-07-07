@@ -1,0 +1,297 @@
+[
+    {
+      "id": 173,
+      "date": "2021-07-12T09:59:27",
+      "date_gmt": "2021-07-12T09:59:27",
+      "guid": {
+        "rendered": "https://haproxy.use1.lgcy.prd.aws.chewy.cloud/eks/ns/pet-health/pet-health-content-backend/breed/harrier/"
+      },
+      "modified": "2025-05-05T14:21:06",
+      "modified_gmt": "2025-05-05T14:21:06",
+      "slug": "harrier",
+      "status": "publish",
+      "type": "breed",
+      "link": "https://phcms.hlth.prd.aws.chewy.cloud/breed/harrier/",
+      "title": {
+        "rendered": "Harrier"
+      },
+      "featured_media": 172,
+      "template": "",
+      "pet_type": [],
+      "class_list": [
+        "post-173",
+        "breed",
+        "type-breed",
+        "status-publish",
+        "has-post-thumbnail",
+        "hentry"
+      ],
+      "acf": {
+        "breed_snapshot_best_for": "\u003Cp\u003EHarriers, friendly and energetic, need regular exercise and minimal grooming. They thrive in active homes with experienced pet parents who enjoy outdoor activities and can provide consistent training.\u003C/p\u003E",
+        "alt_image_text": "Harrier dog breed",
+        "breed_intro": "\u003Cspan data-preserver-spaces=\"true\"\u003EHarriers love only one thing more than the outdoors: their people. From hiking to jogging to playing in the backyard, a Harrier pup loves an adventure. And if it's a group adventure, even better. These dogs were born to work in teams, and they get very lonely all by themselves. But if your energy levels match theirs, you'll find plenty of ways to keep them engaged and entertained. Harriers live for a challenge, whether it's tracking down that treat stash you hid in the backyard or winning a local agility trial. Larger than a \u003C/span\u003E\u003Ca class=\"editor-rtfLink\" href=\"https://www.chewy.com/education/dog-breeds/beagle/\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-preserver-spaces=\"true\"\u003EBeagle\u003C/span\u003E\u003C/a\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E and smaller than an \u003C/span\u003E\u003Ca class=\"editor-rtfLink\" href=\"https://www.chewy.com/education/dog-breeds/american-foxhound/\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-preserver-spaces=\"true\"\u003EAmerican Fox Hound\u003C/span\u003E\u003C/a\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E, the Harrier could be just right for you—if you can keep up.\u003C/span\u003E",
+        "breed_related_products_product_card_set": null,
+        "breed_snapshot_temperament": "\u003Cp\u003EAthletic, Outgoing, Humorous\u003C/p\u003E",
+        "what_does_this_breed_look_like_weight": "\u003Cp\u003EMale: 45-60 pounds\u003C/p\u003E\u003Cp\u003EFemale: 45-60 pounds\u003C/p\u003E",
+        "what_does_this_breed_look_like_height": "\u003Cp\u003EMale: 19-21 inches \u003C/p\u003E\u003Cp\u003EFemale: 19-21 inches\u003C/p\u003E",
+        "breed_snapshot_life_expectancy": "\u003Cp\u003E12 to 15 years\u003C/p\u003E",
+        "breed_snapshot_maintenance_level": "\u003Cp\u003EMedium\u003C/p\u003E",
+        "breed_characteristics_friendliness": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_snapshot_coat_color": "\u003Cp\u003EBlack White and Tan, Lemon and White, Red and White\u003C/p\u003E",
+        "breed_snapshot_shed_level": "\u003Cp\u003ELow\u003C/p\u003E",
+        "in_article_video": null,
+        "breed_characteristics": "These traits are rated on a scale of 1-5 with 1 being the lowest and 5 being the highest. Remember: Dogs are individuals, and not all dogs, even those of the same breed, will exhibit all the same qualities.",
+        "breed_characteristics_exercise_needs": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_health_issues": "\u003Cp\u003E1\u003C/p\u003E",
+        "breed_characteristics_barking_tendencies": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_grooming_needs": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_shedding_level": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_training_needs": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_with_kids": "\u003Cp\u003E4\u003C/p\u003E",
+        "breed_characteristics_good_with_cats": "\u003Cp\u003E2\u003C/p\u003E",
+        "breed_characteristics_good_for_apartments_small_homes": "\u003Cp\u003E1\u003C/p\u003E",
+        "breed_characteristics_energy_level": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_good_with_other_dogs": "\u003Cp\u003E5\u003C/p\u003E",
+        "breed_characteristics_playfulnesss": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_cold_weather": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_sensitive_to_warm_weather": "\u003Cp\u003E3\u003C/p\u003E",
+        "breed_characteristics_good_for_first_time_parents": "\u003Cp\u003E2\u003C/p\u003E",
+        "how_do_i_look_card_image": 171,
+        "what_does_this_breed_look_like": "The Harrier might appear serious and stately, but don't let them fool you—this is a fun, adventurous breed. They're always sniffing out the next activity with their nose to the ground and their tail in the air. Their coats come in several color combos, but tri-color (black, white and tan) is most common. Their expressions look earnest and deceptively languid.",
+        "what_does_this_breed_look_like_ears": "\u003Cp\u003EHarrier ears are broad, low and flat with a rounded end that lies close to the cheek.\u003C/p\u003E",
+        "what_does_this_breed_look_like_eyes": "\u003Cp\u003EThe Harrier has medium-sized eyes, which are brown or hazel in darker-colored dogs and lighter hazel to yellow in lighter-colored dogs.\u003C/p\u003E",
+        "what_does_this_breed_look_like_nose": "\u003Cp\u003ETheir nose is wide, black and square, with well-opened nostrils made for sniffing out the next adventure. \u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_length": "\u003Cp\u003EThe Harrier dog's coat is short, firm and glossy.\u003C/p\u003E",
+        "what_does_this_breed_look_like_coat_color": "\u003Cp\u003EThe color of the Harrier's coat can come in a variety of shades, including tri-color (black, white and tan), lemon and white, or red and white.\u003C/p\u003E",
+        "what_does_this_breed_look_like_tail": "\u003Cp\u003EThe Harrier's tail is long and tapers off with a brush of hair.\u003C/p\u003E",
+        "h2_breed_temperament": "\u003Cspan data-preserver-spaces=\"true\"\u003ELace up your sneakers because you've just met your new running buddy. This dog is ready to mix and mingle like it's a 26.2-mile race day every day. And make sure you keep up the pace because the Harrier can get a bit stir-crazy and destructive if they don't exercise enough.\u003C/span\u003E\r\n\r\n\u003Cspan data-preserver-spaces=\"true\"\u003EThis hunting breed loves family life, and entertaining at home is their favorite. While the Harrier is friendly and totally welcomes a crowd— adults, dogs, older kids—they may be a little stand-offish with strangers. You'll want to supervise playtimes with very young kids because Harriers may knock small kids over in their rambunctious play, and be sure to teach any little ones around your pet how to respectfully interact with dogs. Start socialization while your pup is young to help them get used to being around new people. Watch out for any creature that could be mistaken for prey, including bunnies, cats and hamsters—the Harrier's next chase is never too far away.\u003C/span\u003E\r\n\r\n\u003Cspan data-preserver-spaces=\"true\"\u003EHarriers aren't particularly clingy, but they're pack dogs, which means they're bred to work as a team and not by themselves. It's best to be with them most of the day or have another dog at home for them to play with. Give them plenty to keep them occupied, or they might bark, dig, chew things and attempt a jailbreak to alleviate their boredom. Try gifting them \u003C/span\u003E\u003Ca class=\"editor-rtfLink\" href=\"https://www.chewy.com/b/chew-toys-316\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-preserver-spaces=\"true\"\u003Echew toys\u003C/span\u003E\u003C/a\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E, \u003C/span\u003E\u003Ca class=\"editor-rtfLink\" href=\"https://www.chewy.com/b/fetch-toys-317\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-preserver-spaces=\"true\"\u003Efetch toys\u003C/span\u003E\u003C/a\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E, \u003C/span\u003E\u003Ca class=\"editor-rtfLink\" href=\"https://www.chewy.com/b/puzzle-toys-games-2335?nav-submit-button=&amp;ref=searchRedirect&amp;ref-query=dog%20puzzles\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-preserver-spaces=\"true\"\u003Ebrain games\u003C/span\u003E\u003C/a\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E and maybe even a \u003C/span\u003E\u003Ca class=\"editor-rtfLink\" href=\"https://www.chewy.com/jolly-pets-14-push-n-play-dog-toy/dp/116172?utm_source=google-product&amp;utm_medium=cpc&amp;utm_campaign=hg&amp;utm_content=Jolly%20Pets&amp;utm_term=&amp;gclid=Cj0KCQjwna2FBhDPARIsACAEc_UHt8FnD3AlFbsuwcQcInr1ZfbQPv-NwsUWFzparsrANbJSYmSELJMaAofpEALw_wcB\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-preserver-spaces=\"true\"\u003EJolly Pet ball\u003C/span\u003E\u003C/a\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E (they're great for herding types, but some Harriers love 'em, too).\u003C/span\u003E\r\n\r\n\u003Cspan data-preserver-spaces=\"true\"\u003ESince they love to roam (or escape, given half the chance), keep your dog safe by using a leash when not in enclosed spaces and ensuring off-leash areas are \u003C/span\u003E\u003Cem\u003E\u003Cspan data-preserver-spaces=\"true\"\u003Ereally\u003C/span\u003E\u003C/em\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E enclosed.\u003C/span\u003E\r\n\r\n\u003Cspan data-preserver-spaces=\"true\"\u003EAs part of the Hound group, the Harrier was originally bred to hunt hares, so they love a heady mix of physical activity, mental stimulation, tracking and running with a pack. This dog is always up for a workout session at the park to find new friends.\u003C/span\u003E",
+        "h2_how_to_care_for_a_breed": "Overall, the Harrier's maintenance is in the medium range—not too little, not too much. Their grooming needs are low, so a little weekly care goes a long way. Plan to spend extra time on exercise and adventures because this breed needs plenty of physical and mental stimulation.",
+        "grooming": "\u003Cspan data-preserver-spaces=\"true\"\u003ECompared to many other dog breeds, grooming your Harrier is pretty straightforward. Their shedding is a seasonal affair (in the spring), but a weekly brushing goes a long way to keep the dead hairs to a minimum and their coat shiny and healthy. Pro tip: Take your pooch to the porch once a week to brush your dog and minimize those flyaway dog hairs in your home. Simply brush off dead hair with a natural bristle brush\u003C/span\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E, a\u003C/span\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E&nbsp;rubber curry comb\u003C/span\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E, or a hound mitt like the&nbsp;\u003C/span\u003E\u003Ca class=\"editor-rtfLink\" href=\"https://www.chewy.com/handson-all-in-one-pet-bathing/dp/274817?utm_source=google-product&amp;utm_medium=cpc&amp;utm_campaign=hg&amp;utm_content=HandsOn&amp;utm_term=&amp;gclid=Cj0KCQjwwLKFBhDPARIsAPzPi-LwLpi_ZmVLmMWK7clecrV6mO9dIkNPstm_DbQWcl8rM6S_R_LayLEaApbaEALw_wcB\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-preserver-spaces=\"true\"\u003EHandson Grooming Gloves\u003C/span\u003E\u003C/a\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E.\u003C/span\u003E\n\n\u003Cspan data-preserver-spaces=\"true\"\u003EHarriers only need a few baths, perhaps one every three months (unless they've rolled in something unmentionable).\u003C/span\u003E\n\n\u003Cspan data-preserver-spaces=\"true\"\u003EVets can help teach pet parents how to brush their dog's teeth (\u003C/span\u003E\u003Ca class=\"editor-rtfLink\" href=\"https://www.chewy.com/education/dog/grooming/health-wellness-how-to-brush-your-dogs-teeth-live-to-tell-the-tale\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-preserver-spaces=\"true\"\u003Egood dental hygiene\u003C/span\u003E\u003C/a\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E is important for any dog). Start brushing their teeth when they're a puppy, and they'll get used to it faster. The typical Harrier's tooth tartar isn't too bad, but it's something to keep an eye on. So brush daily, and make sure you get annual professional teeth cleanings by your vet (not your groomer).\u003C/span\u003E\n\n\u003Cspan data-preserver-spaces=\"true\"\u003ETrim&nbsp;\u003C/span\u003E\u003Ca class=\"editor-rtfLink\" href=\"https://www.chewy.com/education/dog/health-and-wellness/guide-trimming-dogs-nails\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-preserver-spaces=\"true\"\u003Elong toenails\u003C/span\u003E\u003C/a\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E&nbsp;if they look long, or you can hear them tapping on hard surfaces. Outdoor activities may wear them down naturally, but check them about once a month anyway.\u003C/span\u003E\n\n\u003Cspan data-preserver-spaces=\"true\"\u003EHarriers have drop ears (lowered and tight to the side of the head), putting them at risk for ear infections and yeast buildup.&nbsp;\u003C/span\u003E\u003Cspan data-preserver-spaces=\"true\"\u003ECheck your Harrier's ears\u003C/span\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E monthly for redness and swelling, and recheck them whenever you spot your pup rubbing an ear. Consult your vet if you notice anything unusual; they may advise you to \u003Ca href=\"https://www.chewy.com/education/dog/health-and-wellness/how-do-you-clean-a-dogs-ears-follow-this-vet-approved-step-by-step-guide\"\u003Eclean your dog's ears\u003C/a\u003E.\u003C/span\u003E",
+        "training": "\u003Cspan data-preserver-spaces=\"true\"\u003EYour Harrier needs moderate training to be a well-behaved family member. Like all dogs, they thrive on friendly, calm, positive reinforcement techniques. Use a lot of praise, treats and playtimes with special toys to reward them when they do a good job.\u003C/span\u003E\n\n\u003Cspan data-preserver-spaces=\"true\"\u003ETeach them the basics, like&nbsp;\u003C/span\u003E\u003Ca class=\"editor-rtfLink\" href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-sit\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-preserver-spaces=\"true\"\u003Esit\u003C/span\u003E\u003C/a\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E,&nbsp;\u003C/span\u003E\u003Ca class=\"editor-rtfLink\" href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-stay\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-preserver-spaces=\"true\"\u003Estay\u003C/span\u003E\u003C/a\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E&nbsp;and&nbsp;\u003C/span\u003E\u003Ca class=\"editor-rtfLink\" href=\"https://www.chewy.com/education/dog/training-and-behavior/basic-dog-training-commands-come\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-preserver-spaces=\"true\"\u003Ecome\u003C/span\u003E\u003C/a\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E, and&nbsp;\u003C/span\u003E\u003Cspan data-preserver-spaces=\"true\"\u003Ehow to walk nicely on a leash\u003C/span\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E. Harriers are hunters and have great instincts; their nose leads them. You may work on the same command for longer than expected because they get distracted. That's OK. Be patient, and you'll be rewarded. Keep training sessions short, and remember to take breaks before either of you get frustrated. Harriers are intelligent, and they will eventually pick it up. Remember, while you won't be able to train their instincts to bark and chase completely away, you can help curb those behaviors.\u003C/span\u003E\n\n\u003Cspan data-preserver-spaces=\"true\"\u003ESocialize your dog starting when they're a puppy. Even though these dogs are very friendly, getting them used to meeting new people and other dogs while they're young is vital to help bring out their outgoing personalities. Take them on lots of leashed walks and let them meet and sniff new friends, both two- and four-legged. Enroll them in puppy school, where they learn to play nicely with other puppies and meet new people in one location.\u003C/span\u003E",
+        "diet_nutrition": "Harriers do well on \u003Ca href=\"https://www.chewy.com/b/premium-food-11728\" target=\"_blank\" rel=\"noopener\"\u003Ehigh-quality commercial dog food\u003C/a\u003E. Be sure to choose a formula that fits their stage in life (puppy, adult, senior), and look for the statement on the package that says it meets the nutritional standards set by the Association of American Feed Control Officials.\r\n\r\nHarriers will eat an entire bowl of any dog food in five minutes and want more, which can lead to obesity and health problems like heart disease and diabetes that come with it. It's essential to have food bowls out only at mealtimes and not allow them to graze all day. Your veterinarian can help you determine how much and how often to feed your Harrier.\r\n\r\nAvoid feeding them table scraps, cooked bones and high-fat foods, as these can lead to obesity and other health problems. Harriers might enjoy \u003Ca href=\"https://www.chewy.com/f/medium-dog-chew-toys_c316_f6v13791\" target=\"_blank\" rel=\"noopener\"\u003Echew toys\u003C/a\u003E to gnaw on between meals instead. Watch the number of treats you give—those calories count, too! Again, consult with your veterinarian; they are in the best position to help you pick the right food for your dog based on their needs.",
+        "exercise": "Hey, did we mention the Harrier are active dogs who love exercise? Harriers are hard-working hound dogs, and they're so much fun. But the exercise commitment is quite a bit more extensive than, say, the commitment of a \u003Ca href=\"https://www.chewy.com/education/dog-breeds/beagle/\" target=\"_blank\" rel=\"noopener\"\u003EBeagle\u003C/a\u003E. This breed has high exercise needs—plan for 60 to 90 minutes daily. Afterward, though, these dogs do settle down well for a little Netflix binge on the couch.\r\n\r\nIn addition to the nonstop marathon training, Harriers make great hiking companions and will enjoy long walks where they can explore with their noses (this is a great way to exercise their minds, too). They also like retrieving games, like throwing the ball and letting your dog hunt for it. Mental as well as physical workouts create happy, healthy and well-behaved Harriers.\r\n\r\nDo you like a bit of competition? Your Harrier will, too. These pups excel at dog sports, like agility, tracking and coursing (where they chase a lure around a track). Your pup gets their wiggles out, and you may come home with some snazzy first-place ribbons!\r\n\r\nHarriers have many positive traits, but boredom is definitely something you want to avoid. Harriers will plot mischief or an escape route if they don't get enough mental exercise, so load up on \u003Ca href=\"https://www.chewy.com/b/fetch-toys-317\" target=\"_blank\" rel=\"noopener\"\u003Efetch toys\u003C/a\u003E or \u003Ca href=\"https://www.chewy.com/b/puzzle-toys-games-2335\" target=\"_blank\" rel=\"noopener\"\u003Epuzzle toys\u003C/a\u003E to keep them challenged.\r\n\r\nRemember that Harriers are hunters led by their noses. Your yard must be securely fenced; otherwise, they'll put their nose down and disappear! They can be quite the Houdini when on a scent, so keeping them on a leash when out and about is essential. If they catch a scent, these speedy dogs are off on the chase—and all your training will feel like it's gone out the window. So, for your sanity and their safety, always keep them on a leash when you're out and about.",
+        "ideal_environment": "Harriers love to have company, and they're good with families. Because working in teams is in their genes, they do better when they're not alone. So, if it's just you and your Harrier, you may want to add another dog to the home. While they love a social scene, watching Harriers around small children is always a good idea. Be especially careful with small pets that your Harrier might mistake for critters that need chasing, like cats and rodents.\r\n\r\nHarriers thrive in active homes and can really make the most of an expansive, securely fenced-in yard. They may be less suited for apartment living, but if you have regular access to a dog-friendly outdoor area where they can exercise, it can be done. In addition to needing lots of company and room to roam, Harriers can be vocal (and some love to howl). They make great neighbors in suburban homes, and they love the country.",
+        "h2_breed_health": "Harriers have a life expectancy of 12 to 15 years and fewer health issues than other, more common breeds. Nevertheless, it’s good to know potential health problems so you can take the best care of your furry friend and help them live a long and happy life.\r\n\u003Cul\u003E\r\n \t\u003Cli\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/musculoskeletal/c_dg_hip_dysplasia\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cstrong\u003EHip Dysplasia\u003C/strong\u003E\u003C/a\u003E: Hip dysplasia happens when the hip joint is malformed and rubs, causing the dog pain. Treatment options include weight management, physical therapy and, in severe cases, surgery.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/eye/c_dg_cataract\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cstrong\u003ECataracts\u003C/strong\u003E\u003C/a\u003E: Cataracts, a clouding of the eye that can impair a dog’s vision, are often inherited. Fortunately, surgery is typically an option to correct vision issues caused by cataracts.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/digestive/perianal-fistula-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cstrong\u003EPerianal Fistula\u003C/strong\u003E\u003C/a\u003E: This condition causes painful tracts in the skin around the bum. Allergies and hypothyroidism are two of the potential causes of the disease. While not common in Harriers, treatment options might include a change in diet, antibiotics or medication.\u003C/li\u003E\r\n \t\u003Cli\u003E\u003Ca href=\"https://www.petmd.com/dog/conditions/neurological/epilepsy-dogs\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cstrong\u003EEpilepsy\u003C/strong\u003E\u003C/a\u003E: Epilepsy can have a hereditary component and seizures usually first occur at 6 months to 5 years of age. Treatment is typically daily medication.\u003C/li\u003E\r\n\u003C/ul\u003E",
+        "h2_breed_history": "\u003Cspan data-preserver-spaces=\"true\"\u003EWhile there are many unconfirmed tales about the history of this breed, there are a few Harrier dog facts we know for sure. Harriers were initially bred for hunting hares—get it, \"Harrier\"? The first packs appear to have originated in medieval England sometime in the 1200s. Sir Elias de Midhope, a resident of Yorkshire, England, is believed to have developed the first Harrier. His Harrier packs were originally called Penistone Harriers or the Penistone Pack. Detailed records of individual Harrier packs have been recorded in England from 1260 to today.\u003C/span\u003E\r\n\r\n\u003Cspan data-preserver-spaces=\"true\"\u003EHarriers have been in America since colonial times. Some say Virginians, perhaps even George Washington, used Harriers to develop American hounds. They appealed to literary types too, and in 1735, English poet William Somervile published a poem called \"The Chase\" that described a Harrier dog.\u003C/span\u003E\r\n\r\n\u003Cspan data-preserver-spaces=\"true\"\u003EThe American Kennel Club recognized the Harrier breed in 1885. One of the AKC's rarest breeds, the Harrier is considered rarer than the panda, with only about 949 Harriers registered with the AKC from 1884 to 1994. The good news is that their rareness may promote healthy genetics, which means the Harrier may have fewer health complications than other breeds.\u003C/span\u003E\r\n\r\n\u003Cspan data-preserver-spaces=\"true\"\u003ESo, where is the best place to find a Harrier puppy today? You can find a list of reputable Harrier breeders on the \u003C/span\u003E\u003Ca class=\"editor-rtfLink\" href=\"https://marketplace.akc.org/puppies/harrier\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan data-preserver-spaces=\"true\"\u003EAmerican Kennel Club's website\u003C/span\u003E\u003C/a\u003E\u003Cspan data-preserver-spaces=\"true\"\u003E. Depending on the breeder, expect the cost of your Harrier puppy to be anywhere from $1,500 to $2,000. You usually get a Harrier screened for health and temperament issues for that price, and they might even come with pedigree papers. You can also reach out to Harrier rescue organizations to adopt a Harrier.\u003C/span\u003E",
+        "expert_attribution": "\u003Ci\u003EDonna Smiley, Western Director, Harrier Club of America, and author of \"\u003Ca href=\"https://www.goodreads.com/book/show/26090539-harrier\"\u003EHarrier: a Complete and Reliable Guide\u003C/a\u003E,\" Krissia Chanto, vet tech and co-owner of \u003Ca href=\"https://rockpawpetcare.com\"\u003ERock Paw Pet Care\u003C/a\u003E, and Erick Arceneaux, Harrier pet parent and breeder.\u003C/i\u003E\r\n\r\n\u003Cem\u003EBreed characteristic ratings provided by Dr. Sarah J. Wooten, DVM, CVJ, a veterinarian at \u003Ca href=\"https://sheepdraw.com/\" target=\"_blank\" rel=\"noopener\"\u003ESheep Draw Veterinary Hospital\u003C/a\u003E in Greeley, Colorado; dog trainer and behavior consultant Irith Bloom, CPDT-KSA, CBCC-KA, CDBC, owner of \u003Ca href=\"https://thesophisticateddog.com/\" target=\"_blank\" rel=\"noopener\"\u003EThe Sophisticated Dog, LLC\u003C/a\u003E, in Los Angeles; and certified animal behavior consultant \u003Ca href=\"https://shojai.com/\" target=\"_blank\" rel=\"noopener\"\u003EAmy Shojai\u003C/a\u003E, CABC, in Sherman, Texas.\u003C/em\u003E\r\n\r\n\u003Cem\u003EThe health content was medically reviewed by Chewy vets.\u003C/em\u003E",
+        "facebook_social_snippet_with_cta": "\u003Cp\u003EThe Harrier dog breed could well be the hidden gem of the dog world. Learn about the traits that make the Harrier a Harrier including extraordinary endurance, social personality and more.  Find out if you two could be bosom besties in our Harrier guide.\u003C/p\u003E",
+        "species": "\u003Cp\u003EDog\u003C/p\u003E",
+        "h2_faqs": "\u003Ch3\u003EDo Harrier dogs shed?\u003C/h3\u003E\r\nYes, Harriers do shed, but only minimally. Regular brushing will ensure your Harrier's fur is maintained and loose hair captured.\r\n\u003Ch3\u003EAre Harriers good family dogs?\u003C/h3\u003E\r\nHarriers are excellent family dogs. They're bred to work in teams, making them ideal for families that are always on the go, happy to take their dog for regular walks and provide mental stimulation with plenty of games and activities.\r\n\u003Ch3\u003EAre Harriers aggressive dogs?\u003C/h3\u003E\r\nNo, Harriers aren't aggressive with people. They're delightfully friendly with people and other dogs alike.\r\n\u003Ch3\u003EWhat is the difference between a Harrier and a Beagle?\u003C/h3\u003E\r\nThe Harrier and the Beagle are two different dogs, even though they look alike. The Harrier is larger, more active and has a longer attention span than the Beagle.\r\n\u003Ch3\u003EWhat are the most common Harrier mixes?\u003C/h3\u003E\r\n\u003Cul\u003E\r\n \t\u003Cli\u003EHarrier-Beagle mix\u003C/li\u003E\r\n \t\u003Cli\u003EHarrier-Bluetick Coonhound mix\u003C/li\u003E\r\n \t\u003Cli\u003EHarrier-Bichon Frise mix\u003C/li\u003E\r\n \t\u003Cli\u003EHarrier-Foxhound mix\u003C/li\u003E\r\n\u003C/ul\u003E",
+        "faq_items": [
+          {
+            "faq_title": "Do Harrier dogs shed?",
+            "faq_content": "Yes, Harriers do shed, but only minimally. Regular brushing will ensure your Harrier's fur is maintained and loose hair captured."
+          },
+          {
+            "faq_title": "Are Harriers good family dogs?",
+            "faq_content": "Harriers are excellent family dogs. They're bred to work in teams, making them ideal for families that are always on the go, happy to take their dog for regular walks and provide mental stimulation with plenty of games and activities."
+          },
+          {
+            "faq_title": "Are Harriers aggressive dogs?",
+            "faq_content": "No, Harriers aren't aggressive with people. They're delightfully friendly with people and other dogs alike."
+          },
+          {
+            "faq_title": "What is the difference between a Harrier and a Beagle?",
+            "faq_content": "The Harrier and the Beagle are two different dogs, even though they look alike. The Harrier is larger, more active and has a longer attention span than the Beagle."
+          },
+          {
+            "faq_title": "What are the most common Harrier mixes?",
+            "faq_content": "\u003Cul\u003E\r\n \t\u003Cli\u003EHarrier-Beagle mix\u003C/li\u003E\r\n \t\u003Cli\u003EHarrier-Bluetick Coonhound mix\u003C/li\u003E\r\n \t\u003Cli\u003EHarrier-Bichon Frise mix\u003C/li\u003E\r\n \t\u003Cli\u003EHarrier-Foxhound mix\u003C/li\u003E\r\n\u003C/ul\u003E"
+          }
+        ],
+        "select_related_breeds": [
+          {
+            "selected_related_breed": 1365,
+            "characteristic": "breed_characteristics_physical_appearance"
+          },
+          {
+            "selected_related_breed": 827,
+            "characteristic": "breed_characteristics_good_with_other_dogs"
+          },
+          {
+            "selected_related_breed": 1074,
+            "characteristic": "breed_characteristics_exercise_needs"
+          },
+          {
+            "selected_related_breed": 142,
+            "characteristic": "breed_characteristics_shedding_level"
+          },
+          {
+            "selected_related_breed": 169,
+            "characteristic": "breed_characteristics_good_with_kids"
+          },
+          {
+            "selected_related_breed": 1045,
+            "characteristic": "breed_characteristics_friendliness"
+          }
+        ],
+        "enable_featured_gallery": "",
+        "featured_gallery_images": null
+      },
+      "yoast_head": "\u003C!-- This site is optimized with the Yoast SEO plugin v23.8 - https://yoast.com/wordpress/plugins/seo/ --\u003E\n\u003Ctitle\u003EHarrier Breed: Characteristics, Care &amp; Photos | Chewy\u003C/title\u003E\n\u003Cmeta name=\"description\" content=\"The Harrier is a highly active scent hound who loves to track. Check out what makes this thrill-seeker tick in our complete Harrier guide.\" /\u003E\n\u003Cmeta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" /\u003E\n\u003Clink rel=\"canonical\" href=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/harrier/\" /\u003E\n\u003Cmeta property=\"og:locale\" content=\"en_US\" /\u003E\n\u003Cmeta property=\"og:type\" content=\"article\" /\u003E\n\u003Cmeta property=\"og:title\" content=\"Harrier Breed: Characteristics, Care &amp; Photos | Chewy\" /\u003E\n\u003Cmeta property=\"og:description\" content=\"The Harrier is a highly active scent hound who loves to track. Check out what makes this thrill-seeker tick in our complete Harrier guide.\" /\u003E\n\u003Cmeta property=\"og:url\" content=\"https://phcms.hlth.prd.aws.chewy.cloud/breed/harrier/\" /\u003E\n\u003Cmeta property=\"og:site_name\" content=\"Chewy\" /\u003E\n\u003Cmeta property=\"article:modified_time\" content=\"2025-05-05T14:21:06+00:00\" /\u003E\n\u003Cmeta property=\"og:image\" content=\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11162314/202107Harrier-FeaturedImage.jpg\" /\u003E\n\t\u003Cmeta property=\"og:image:width\" content=\"1440\" /\u003E\n\t\u003Cmeta property=\"og:image:height\" content=\"865\" /\u003E\n\t\u003Cmeta property=\"og:image:type\" content=\"image/jpeg\" /\u003E\n\u003Cmeta name=\"twitter:card\" content=\"summary_large_image\" /\u003E\n\u003Cscript type=\"application/ld+json\" class=\"yoast-schema-graph\"\u003E{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/harrier/\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/harrier/\",\"name\":\"Harrier Breed: Characteristics, Care & Photos | Chewy\",\"isPartOf\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/harrier/#primaryimage\"},\"image\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/harrier/#primaryimage\"},\"thumbnailUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11162314/202107Harrier-FeaturedImage.jpg\",\"datePublished\":\"2021-07-12T09:59:27+00:00\",\"dateModified\":\"2025-05-05T14:21:06+00:00\",\"description\":\"The Harrier is a highly active scent hound who loves to track. Check out what makes this thrill-seeker tick in our complete Harrier guide.\",\"breadcrumb\":{\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/harrier/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://phcms.hlth.prd.aws.chewy.cloud/breed/harrier/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/harrier/#primaryimage\",\"url\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11162314/202107Harrier-FeaturedImage.jpg\",\"contentUrl\":\"https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11162314/202107Harrier-FeaturedImage.jpg\",\"width\":1440,\"height\":865},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/breed/harrier/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://phcms.hlth.prd.aws.chewy.cloud/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Harrier\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://phcms.hlth.prd.aws.chewy.cloud/#website\",\"url\":\"https://phcms.hlth.prd.aws.chewy.cloud/\",\"name\":\"Chewy\",\"description\":\"\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"}]}\u003C/script\u003E\n\u003C!-- / Yoast SEO plugin. --\u003E",
+      "yoast_head_json": {
+        "title": "Harrier Breed: Characteristics, Care & Photos | Chewy",
+        "description": "The Harrier is a highly active scent hound who loves to track. Check out what makes this thrill-seeker tick in our complete Harrier guide.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://phcms.hlth.prd.aws.chewy.cloud/breed/harrier/",
+        "og_locale": "en_US",
+        "og_type": "article",
+        "og_title": "Harrier Breed: Characteristics, Care & Photos | Chewy",
+        "og_description": "The Harrier is a highly active scent hound who loves to track. Check out what makes this thrill-seeker tick in our complete Harrier guide.",
+        "og_url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/harrier/",
+        "og_site_name": "Chewy",
+        "article_modified_time": "2025-05-05T14:21:06+00:00",
+        "og_image": [
+          {
+            "width": 1440,
+            "height": 865,
+            "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11162314/202107Harrier-FeaturedImage.jpg",
+            "type": "image/jpeg"
+          }
+        ],
+        "twitter_card": "summary_large_image",
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/harrier/",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/breed/harrier/",
+              "name": "Harrier Breed: Characteristics, Care & Photos | Chewy",
+              "isPartOf": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/harrier/#primaryimage"
+              },
+              "image": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/harrier/#primaryimage"
+              },
+              "thumbnailUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11162314/202107Harrier-FeaturedImage.jpg",
+              "datePublished": "2021-07-12T09:59:27+00:00",
+              "dateModified": "2025-05-05T14:21:06+00:00",
+              "description": "The Harrier is a highly active scent hound who loves to track. Check out what makes this thrill-seeker tick in our complete Harrier guide.",
+              "breadcrumb": {
+                "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/harrier/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://phcms.hlth.prd.aws.chewy.cloud/breed/harrier/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/harrier/#primaryimage",
+              "url": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11162314/202107Harrier-FeaturedImage.jpg",
+              "contentUrl": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11162314/202107Harrier-FeaturedImage.jpg",
+              "width": 1440,
+              "height": 865
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/breed/harrier/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://phcms.hlth.prd.aws.chewy.cloud/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Harrier"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://phcms.hlth.prd.aws.chewy.cloud/#website",
+              "url": "https://phcms.hlth.prd.aws.chewy.cloud/",
+              "name": "Chewy",
+              "description": "",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://phcms.hlth.prd.aws.chewy.cloud/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            }
+          ]
+        }
+      },
+      "yoast_meta": {
+        "yoast_wpseo_title": "",
+        "yoast_wpseo_metadesc": "",
+        "yoast_wpseo_canonical": ""
+      },
+      "_links": {
+        "self": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed/173",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/breed"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/types/breed"
+          }
+        ],
+        "wp:featuredmedia": [
+          {
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media/172"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/media?parent=173"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "pet_type",
+            "embeddable": true,
+            "href": "https://phcms.hlth.prd.aws.chewy.cloud/wp-json/wp/v2/pet_type?post=173"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ]

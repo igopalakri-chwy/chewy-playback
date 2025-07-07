@@ -23,12 +23,16 @@ The Final Pipeline automatically generates personalized pet content for Chewy cu
 
 ```
 Final_Pipeline/
-├── chewy_playback_pipeline.py          # Main pipeline
+├── chewy_playback_pipeline.py          # Main unified pipeline
 ├── run_pipeline_for_customer.py        # Run for a single customer
 ├── run_pipeline_for_multiple_customers.py  # Run for multiple customers
 ├── requirements.txt                    # Dependencies
 ├── README.md                           # This file
 ├── Agents/                             # Agent modules
+│   ├── Review_and_Order_Intelligence_Agent/  # For customers with reviews
+│   ├── Narrative_Generation_Agent/           # Letter & badge generation
+│   ├── Image_Generation_Agent/               # DALL-E image generation
+│   └── Breed_Predictor_Agent/                # Dog breed prediction
 ├── Data/                               # Input data (order_history.csv, qualifying_reviews.csv)
 └── Output/                             # Results for each customer
 ```
@@ -68,6 +72,7 @@ For each customer, the pipeline generates:
 - `personality_badge.json` — Assigned badge and description
 - `[badge image].png` — Badge icon
 - `images/collective_pet_portrait.png` — AI-generated image
+- `predicted_breed.json` — Dog breed predictions (for unknown/mixed breeds only)
 
 ## Requirements
 - Python 3.8+
