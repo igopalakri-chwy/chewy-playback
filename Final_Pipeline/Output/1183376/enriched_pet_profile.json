@@ -79,9 +79,7 @@
       "Go! Solutions SENSITIVITIES Limited Ingredient Pollock Grain-Free Dry Cat Food, 8-lb bag",
       "Purina Beyond Grain-Free Icelandic Arctic Char & Lentil Recipe Dry Cat Food"
     ],
-    "ConfidenceScore": 0.0,
-    "confidence_score": 0.16666666666666666,
-    "name": "UNK"
+    "confidence_score": 0.16666666666666666
   },
   "Elwood": {
     "PetName": "Elwood",
@@ -267,9 +265,7 @@
       "Go! Solutions SENSITIVITIES Limited Ingredient Pollock Grain-Free Dry Cat Food",
       "Purina Beyond Grain-Free Icelandic Arctic Char & Lentil Recipe Dry Cat Food"
     ],
-    "ConfidenceScore": 0.0,
-    "confidence_score": 0.6666666666666666,
-    "name": "Turbo"
+    "confidence_score": 0.6666666666666666
   },
   "cust_confidence_score": 0.5
 }

@@ -1,10 +1,10 @@
 {
   "badge": "The Explorer",
   "compatible_with": [
+    "The Cuddler",
     "The Trickster",
-    "The Athlete",
     "The Scholar"
   ],
   "icon_png": "the_explorer.png",
-  "description": "This household is a playground for Francis and Moe, who are always on a quest for the next adventure or curiosity to pursue."
+  "description": "This household is a vibrant mix of curiosity and playfulness, always ready for a new adventure or a fun play session."
 }

@@ -2,7 +2,7 @@
   "Moe": {
     "customer_id": "7653",
     "pet_name": "Moe",
-    "prediction_timestamp": "2025-07-03T11:58:00.961773",
+    "prediction_timestamp": "2025-07-07T16:36:26.506501",
     "breed_distribution": {
       "goldenRetriever": 20.0,
       "labradorRetriever": 20.0,
@@ -27,8 +27,9 @@
       "gender": "fmle",
       "order_count": 39,
       "health_indicators": [
+        "playful",
         "curious",
-        "active",
+        "affectionate",
         "requires training",
         "safety-conscious"
       ]
