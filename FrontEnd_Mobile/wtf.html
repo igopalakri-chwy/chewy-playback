@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chewy Playback 2025 | Your Pet's Year in Review</title>
+    <!-- GSAP for animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Open Sans', sans-serif;
+            background: linear-gradient(135deg, #1E88E5, #0D47A1); /* Blue gradient */
+            height: 100vh;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            position: relative;
+        }
+
+        .container {
+            text-align: center;
+            opacity: 0;
+            z-index: 2;
+            padding: 2rem;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        }
+
+        .chewy-logo {
+            width: 120px;
+            margin-bottom: 1.5rem;
+            opacity: 0;
+        }
+
+        .title {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 3.5rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            background: linear-gradient(to right, #FFFFFF, #E3F2FD);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            font-weight: 400;
+            opacity: 0.9;
+        }
+
+        .pet-emoji {
+            position: absolute;
+            font-size: 2.5rem;
+            opacity: 0;
+            filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+            z-index: 1;
+            pointer-events: none;
+        }
+
+        .lets-go-btn {
+            padding: 1rem 3rem;
+            font-size: 1.25rem;
+            font-weight: 600;
+            background-color: white;
+            color: #1E88E5;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            opacity: 0;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .lets-go-btn:hover {
+            transform: scale(1.05);
+            background-color: #E3F2FD;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .transition-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #0D47A1;
+            z-index: 1000;
+            transform: scaleY(0);
+            transform-origin: bottom;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3rem;
+        }
+
+        .transition-emoji {
+            opacity: 0;
+            transform: scale(0);
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div id="petEmojis"></div>
+    <div class="container">
+        <img src="https://www.chewy.com/assets/chewy-logo-white.svg" alt="Chewy Logo" class="chewy-logo">
+        <h1 class="title">Chewy Playback 2025</h1>
+        <p class="subtitle">Discover your pet's year in review 🐾</p>
+        <button class="lets-go-btn" id="letsGoBtn">Let's Go</button>
+    </div>
+    <div class="transition-overlay" id="transitionOverlay">
+        <span class="transition-emoji">🐕</span>
+    </div>
+
+    <script>
+        const petEmojis = ['🐕', '🐩', '🐕‍🦺', '🐶', '🦮', '🐕‍🦺', '🐾', '🦴'];
+        
+        // Create floating pet emojis
+        function createPetEmojis() {
+            const container = document.getElementById('petEmojis');
+            const emojiCount = 12;
+            
+            for (let i = 0; i < emojiCount; i++) {
+                const emoji = document.createElement('div');
+                emoji.className = 'pet-emoji';
+                emoji.textContent = petEmojis[Math.floor(Math.random() * petEmojis.length)];
+                emoji.style.left = `${Math.random() * 100}%`;
+                emoji.style.top = `${Math.random() * 100}%`;
+                emoji.style.transform = `rotate(${Math.random() * 360}deg) scale(${0.8 + Math.random() * 0.4})`;
+                container.appendChild(emoji);
+            }
+        }
+
+        // Initialize animations
+        function initAnimations() {
+            createPetEmojis();
+
+            const tl = gsap.timeline();
+
+            // Animate logo
+            tl.from('.chewy-logo', {
+                y: -30,
+                opacity: 0,
+                duration: 1,
+                ease: 'power2.out'
+            })
+            // Animate container
+            .to('.container', {
+                opacity: 1,
+                duration: 1,
+                ease: 'power2.out'
+            }, '-=0.5')
+            // Animate title
+            .from('.title', {
+                y: 30,
+                scale: 0.9,
+                duration: 1.2,
+                ease: 'elastic.out(1, 0.5)'
+            }, '-=0.5')
+            // Animate subtitle
+            .from('.subtitle', {
+                y: 20,
+                opacity: 0,
+                duration: 0.8,
+                ease: 'power2.out'
+            }, '-=0.8')
+            // Animate pet emojis
+            .to('.pet-emoji', {
+                opacity: 0.6,
+                duration: 1,
+                stagger: {
+                    amount: 1,
+                    from: 'random'
+                },
+                ease: 'power2.out'
+            }, '-=0.8')
+            // Animate button
+            .to('.lets-go-btn', {
+                opacity: 1,
+                y: 0,
+                duration: 0.8,
+                ease: 'back.out(1.7)'
+            }, '-=0.5');
+
+            // Add floating animation to pet emojis
+            gsap.to('.pet-emoji', {
+                y: '+=20',
+                duration: 2,
+                repeat: -1,
+                yoyo: true,
+                ease: 'sine.inOut',
+                stagger: {
+                    amount: 2,
+                    from: 'random'
+                }
+            });
+
+            // Add spinning animation to some emojis
+            gsap.to('.pet-emoji:nth-child(odd)', {
+                rotation: 360,
+                duration: 4,
+                repeat: -1,
+                ease: 'none'
+            });
+        }
+
+        // Transition animation before navigation
+        function handleTransition() {
+            const overlay = document.getElementById('transitionOverlay');
+            const emoji = overlay.querySelector('.transition-emoji');
+            
+            const tl = gsap.timeline({
+                onComplete: () => {
+                    window.location.href = 'hello.html';
+                }
+            });
+
+            tl.to(overlay, {
+                scaleY: 1,
+                duration: 0.5,
+                ease: 'power2.inOut'
+            })
+            .to(emoji, {
+                opacity: 1,
+                scale: 1.5,
+                duration: 0.5,
+                ease: 'back.out(1.7)'
+            }, '-=0.3')
+            .to(emoji, {
+                scale: 2,
+                duration: 0.3,
+                ease: 'power2.in'
+            })
+            .to(overlay, {
+                backgroundColor: '#FFFFFF',
+                duration: 0.3
+            }, '-=0.3');
+        }
+
+        // Add click event listener to button
+        document.getElementById('letsGoBtn').addEventListener('click', handleTransition);
+
+        // Start animations when page loads
+        window.addEventListener('load', initAnimations);
+    </script>
+</body>
+</html>

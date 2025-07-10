@@ -1,0 +1,1487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bella's Chewy Wrapped 2025 - Card View</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --chewy-light-blue: #74b9ff;
+            --chewy-blue: #3498db;
+            --chewy-dark-blue: #2980b9;
+            --chewy-deep-blue: #1e3799;
+            --chewy-midnight: #000047;
+            --chewy-text-light: #f9f9f9;
+            --chewy-text-medium: rgba(255, 255, 255, 0.9);
+            --chewy-text-soft: rgba(255, 255, 255, 0.7);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, var(--chewy-light-blue) 0%, var(--chewy-deep-blue) 100%);
+            min-height: 100vh;
+            color: var(--chewy-text-light);
+            overflow-x: hidden;
+        }
+
+        Fixed Top Navbar
+        .top-navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            background: linear-gradient(135deg, var(--chewy-deep-blue), var(--chewy-midnight));
+            backdrop-filter: blur(15px);
+            border-bottom: 2px solid var(--chewy-light-blue);
+            padding: 12px 0;
+            box-shadow: 0 4px 20px rgba(30, 55, 153, 0.3);
+        }
+
+        .insights-tabs {
+            display: flex;
+            overflow-x: auto;
+            gap: 12px;
+            padding: 0 20px;
+            scrollbar-width: none;
+            -ms-overflow-style: none;
+        }
+
+        .insights-tabs::-webkit-scrollbar {
+            display: none;
+        }
+
+        .insight-tab {
+            background: linear-gradient(135deg, var(--chewy-light-blue), var(--chewy-blue));
+            border: 2px solid var(--chewy-dark-blue);
+            border-radius: 25px;
+            padding: 10px 18px;
+            white-space: nowrap;
+            font-size: 12px;
+            font-weight: 600;
+            color: var(--chewy-text-light);
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+            box-shadow: 0 4px 15px rgba(116, 185, 255, 0.2);
+            min-width: fit-content;
+        }
+
+        .insight-tab:hover {
+            transform: translateY(-3px) scale(1.08);
+            background: linear-gradient(135deg, var(--chewy-blue), var(--chewy-dark-blue));
+            box-shadow: 0 8px 25px rgba(116, 185, 255, 0.4);
+            border-color: var(--chewy-light-blue);
+        }
+
+        .insight-tab.top-product { 
+            background: linear-gradient(135deg, var(--chewy-light-blue), var(--chewy-blue));
+            border-color: var(--chewy-dark-blue);
+        }
+        .insight-tab.chat { 
+            background: linear-gradient(135deg, var(--chewy-blue), var(--chewy-dark-blue));
+            border-color: var(--chewy-light-blue);
+        }
+        .insight-tab.orders { 
+            background: linear-gradient(135deg, var(--chewy-dark-blue), var(--chewy-deep-blue));
+            border-color: var(--chewy-light-blue);
+        }
+        .insight-tab.preferences { 
+            background: linear-gradient(135deg, var(--chewy-light-blue), var(--chewy-blue));
+            border-color: var(--chewy-midnight);
+        }
+        .insight-tab.qa { 
+            background: linear-gradient(135deg, var(--chewy-blue), var(--chewy-deep-blue));
+            border-color: var(--chewy-light-blue);
+        }
+        .insight-tab.rating { 
+            background: linear-gradient(135deg, var(--chewy-deep-blue), var(--chewy-midnight));
+            border-color: var(--chewy-light-blue);
+        }
+
+        /* Header */
+        .header {
+            text-align: center;
+            padding: 120px 20px 40px;
+            background: linear-gradient(135deg, rgba(30, 55, 153, 0.7), rgba(0, 0, 71, 0.5));
+            backdrop-filter: blur(15px);
+            margin-top: 0;
+            border-bottom: 2px solid var(--chewy-light-blue);
+        }
+
+        .header h1 {
+            font-size: clamp(2.5rem, 6vw, 4rem);
+            font-weight: 800;
+            margin-bottom: 10px;
+            color: var(--chewy-text-light);
+            text-shadow: 2px 2px 6px rgba(0,0,71,0.6);
+        }
+
+        .header .subtitle {
+            font-size: clamp(1rem, 3vw, 1.5rem);
+            color: var(--chewy-text-medium);
+            font-weight: 300;
+        }
+
+        .header .pet-intro {
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .header .pet-avatar {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid var(--chewy-light-blue);
+            box-shadow: 0 10px 25px rgba(116, 185, 255, 0.3);
+        }
+
+        .header .pet-info h2 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 5px;
+            color: var(--chewy-text-light);
+        }
+
+        .header .pet-info p {
+            color: var(--chewy-text-soft);
+            font-size: 1rem;
+        }
+
+        /* Slides Container */
+        .slides-container {
+            position: relative;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .slide {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 80px 20px 20px;
+            transform: translateX(100%);
+            opacity: 0;
+            transition: all 0.6s ease;
+        }
+
+        .slide.active {
+            transform: translateX(0);
+            opacity: 1;
+        }
+
+        .slide.prev {
+            transform: translateX(-100%);
+            opacity: 0;
+        }
+
+        /* Slide Navigation */
+        .slide-nav {
+            position: fixed;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 15px;
+            z-index: 1000;
+        }
+
+        .nav-btn {
+            background: linear-gradient(135deg, var(--chewy-blue), var(--chewy-dark-blue));
+            border: 2px solid var(--chewy-light-blue);
+            border-radius: 50%;
+            width: 55px;
+            height: 55px;
+            color: var(--chewy-text-light);
+            font-size: 20px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            backdrop-filter: blur(15px);
+            box-shadow: 0 4px 15px rgba(116, 185, 255, 0.3);
+        }
+
+        .nav-btn:hover {
+            background: linear-gradient(135deg, var(--chewy-light-blue), var(--chewy-blue));
+            transform: scale(1.15);
+            box-shadow: 0 6px 20px rgba(116, 185, 255, 0.5);
+        }
+
+        .slide-indicators {
+            position: fixed;
+            bottom: 105px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 12px;
+            z-index: 1000;
+        }
+
+        .indicator {
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            background: rgba(116, 185, 255, 0.4);
+            border: 2px solid var(--chewy-light-blue);
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .indicator.active {
+            background: var(--chewy-light-blue);
+            transform: scale(1.3);
+            box-shadow: 0 0 15px rgba(116, 185, 255, 0.6);
+        }
+
+        /* Card Styles - Now for individual slides */
+        .stat-card {
+            background: linear-gradient(135deg, rgba(116, 185, 255, 0.15), rgba(52, 152, 219, 0.1));
+            backdrop-filter: blur(20px);
+            border-radius: 30px;
+            border: 3px solid var(--chewy-light-blue);
+            box-shadow: 0 25px 50px rgba(30, 55, 153, 0.3);
+            transition: all 0.4s ease;
+            cursor: pointer;
+            overflow: hidden;
+            position: relative;
+            max-width: 500px;
+            width: 100%;
+            min-height: 600px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 40px;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-5px) scale(1.02);
+            border-color: var(--chewy-blue);
+            box-shadow: 0 30px 60px rgba(30, 55, 153, 0.4);
+            background: linear-gradient(135deg, rgba(116, 185, 255, 0.2), rgba(52, 152, 219, 0.15));
+        }
+
+        .stat-card.expanded {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) scale(1.1);
+            z-index: 1000;
+            max-width: 500px;
+            min-height: 500px;
+            max-height: 80vh;
+            overflow-y: auto;
+        }
+
+        /* Card Content */
+        .card-image {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+            border: 5px solid var(--chewy-light-blue);
+            box-shadow: 0 20px 40px rgba(116, 185, 255, 0.3);
+            transition: transform 0.3s ease;
+        }
+
+        .card-image:hover {
+            transform: scale(1.08);
+            box-shadow: 0 25px 50px rgba(116, 185, 255, 0.5);
+        }
+
+        .card-title {
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-bottom: 15px;
+            color: var(--chewy-text-light);
+            text-shadow: 2px 2px 4px rgba(0,0,71,0.4);
+        }
+
+        .card-stat {
+            font-size: 3rem;
+            font-weight: 800;
+            color: var(--chewy-light-blue);
+            text-shadow: 0 0 25px rgba(116, 185, 255, 0.8);
+            margin-bottom: 10px;
+        }
+
+        .card-description {
+            font-size: 1.1rem;
+            color: var(--chewy-text-medium);
+            line-height: 1.4;
+            max-width: 280px;
+        }
+
+        /* Specific Card Themes - Alternating Chewy Blue Gradients */
+        .card-treats {
+            background: linear-gradient(135deg, rgba(116, 185, 255, 0.2), rgba(52, 152, 219, 0.15));
+            border-color: var(--chewy-light-blue);
+        }
+
+        .card-toy {
+            background: linear-gradient(135deg, rgba(52, 152, 219, 0.2), rgba(41, 128, 185, 0.15));
+            border-color: var(--chewy-blue);
+        }
+
+        .card-birthday {
+            background: linear-gradient(135deg, rgba(41, 128, 185, 0.2), rgba(30, 55, 153, 0.15));
+            border-color: var(--chewy-dark-blue);
+        }
+
+        .card-product {
+            background: linear-gradient(135deg, rgba(30, 55, 153, 0.2), rgba(0, 0, 71, 0.15));
+            border-color: var(--chewy-deep-blue);
+        }
+
+        .card-cuddles {
+            background: linear-gradient(135deg, rgba(116, 185, 255, 0.25), rgba(52, 152, 219, 0.2));
+            border-color: var(--chewy-light-blue);
+        }
+
+        .card-badge {
+            background: linear-gradient(135deg, rgba(52, 152, 219, 0.25), rgba(41, 128, 185, 0.2));
+            border-color: var(--chewy-blue);
+        }
+
+        .card-share {
+            background: linear-gradient(135deg, rgba(41, 128, 185, 0.25), rgba(30, 55, 153, 0.2));
+            border-color: var(--chewy-dark-blue);
+        }
+
+        /* Badge Special Styling */
+        .badge {
+            width: 150px;
+            height: 150px;
+            background: linear-gradient(45deg, var(--chewy-light-blue), var(--chewy-blue));
+            border-radius: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 20px auto;
+            border: 5px solid var(--chewy-text-light);
+            box-shadow: 0 0 40px rgba(116, 185, 255, 0.8);
+            position: relative;
+        }
+
+        .badge::before {
+            content: '🏆';
+            font-size: 2rem;
+            margin-bottom: 5px;
+        }
+
+        .badge-text {
+            font-size: 0.9rem;
+            font-weight: 700;
+            text-align: center;
+            line-height: 1.1;
+            color: var(--chewy-text-light);
+            text-shadow: 1px 1px 2px rgba(0,0,71,0.4);
+        }
+
+        /* Share Buttons */
+        .share-buttons {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+            max-width: 400px;
+        }
+
+        .share-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            background: linear-gradient(45deg, var(--chewy-blue), var(--chewy-dark-blue));
+            color: var(--chewy-text-light);
+            border: 2px solid var(--chewy-light-blue);
+            padding: 12px 16px;
+            border-radius: 25px;
+            font-size: 13px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(30, 55, 153, 0.3);
+        }
+
+        .share-btn:hover {
+            transform: translateY(-3px) scale(1.05);
+            background: linear-gradient(45deg, var(--chewy-light-blue), var(--chewy-blue));
+            box-shadow: 0 8px 25px rgba(116, 185, 255, 0.5);
+        }
+
+                 .share-btn.linkedin { 
+             background: linear-gradient(45deg, var(--chewy-deep-blue), var(--chewy-midnight)); 
+             border-color: var(--chewy-blue);
+         }
+         .share-btn.instagram { 
+             background: linear-gradient(45deg, var(--chewy-light-blue), var(--chewy-blue)); 
+             border-color: var(--chewy-dark-blue);
+         }
+         .share-btn.email { 
+             background: linear-gradient(45deg, var(--chewy-dark-blue), var(--chewy-deep-blue)); 
+             border-color: var(--chewy-light-blue);
+         }
+         .share-btn.text-message { 
+             background: linear-gradient(45deg, var(--chewy-blue), var(--chewy-dark-blue)); 
+             border-color: var(--chewy-light-blue);
+         }
+         .share-btn.whatsapp { 
+             background: linear-gradient(45deg, var(--chewy-light-blue), var(--chewy-blue)); 
+             border-color: var(--chewy-deep-blue);
+         }
+         .share-btn.phone { 
+             background: linear-gradient(45deg, var(--chewy-blue), var(--chewy-dark-blue)); 
+             border-color: var(--chewy-light-blue);
+         }
+         .share-btn.group-email { 
+             background: linear-gradient(45deg, var(--chewy-dark-blue), var(--chewy-deep-blue)); 
+             border-color: var(--chewy-light-blue);
+         }
+         .share-btn.recommendations { 
+             background: linear-gradient(45deg, var(--chewy-light-blue), var(--chewy-blue)); 
+             border-color: var(--chewy-midnight);
+         }
+         .share-btn.family { 
+             background: linear-gradient(45deg, var(--chewy-deep-blue), var(--chewy-midnight)); 
+             border-color: var(--chewy-light-blue);
+         }
+
+        /* Overlay for expanded cards */
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, rgba(0, 0, 71, 0.8), rgba(30, 55, 153, 0.6));
+            backdrop-filter: blur(10px);
+            z-index: 999;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .overlay.active {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        /* Close button */
+        .close-btn {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background: var(--chewy-blue);
+            border: 2px solid var(--chewy-light-blue);
+            border-radius: 50%;
+            width: 45px;
+            height: 45px;
+            color: var(--chewy-text-light);
+            font-size: 22px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(116, 185, 255, 0.3);
+        }
+
+        .close-btn:hover {
+            background: var(--chewy-light-blue);
+            transform: scale(1.15);
+            box-shadow: 0 6px 20px rgba(116, 185, 255, 0.5);
+        }
+
+        /* Floating elements */
+        .floating-elements {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            overflow: hidden;
+        }
+
+        .floating-emoji {
+            position: absolute;
+            font-size: 1.5rem;
+            opacity: 0.3;
+            animation: float 6s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-20px) rotate(10deg); }
+        }
+
+        /* Remove old insights bar - now using fixed top navbar */
+
+        /* Mobile responsiveness */
+        @media (max-width: 768px) {
+            .top-navbar {
+                padding: 8px 0;
+            }
+
+            .insights-tabs {
+                padding: 0 15px;
+                gap: 8px;
+            }
+
+            .insight-tab {
+                padding: 6px 12px;
+                font-size: 11px;
+            }
+
+            .header {
+                padding: 100px 15px 30px;
+            }
+
+            .header h1 {
+                font-size: 2.5rem;
+            }
+
+            .header .pet-intro {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .stat-card {
+                min-height: 500px;
+                max-width: 90%;
+                padding: 30px 25px;
+            }
+
+            .card-image {
+                width: 150px;
+                height: 150px;
+            }
+
+            .card-stat {
+                font-size: 2.5rem;
+            }
+
+            .share-buttons {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 10px;
+            }
+
+            .slide-nav {
+                bottom: 20px;
+                gap: 10px;
+            }
+
+            .nav-btn {
+                width: 45px;
+                height: 45px;
+                font-size: 16px;
+            }
+
+            .slide-indicators {
+                bottom: 80px;
+            }
+
+            .stat-card.expanded {
+                max-width: 95vw;
+                max-height: 90vh;
+                padding: 20px;
+            }
+        }
+
+        /* Loading animation */
+        .loading {
+            opacity: 0.7;
+            transform: scale(0.95);
+        }
+
+        .loaded {
+            opacity: 1;
+            transform: scale(1);
+        }
+
+        /* Add new card theme for savings */
+        .card-savings {
+            background: linear-gradient(135deg, rgba(52, 152, 219, 0.25), rgba(41, 128, 185, 0.2));
+            border-color: var(--chewy-blue);
+        }
+    </style>
+</head>
+<body>
+    <!-- Fixed Top Navbar -->
+    <div class="top-navbar">
+        <div class="insights-tabs">
+            <div class="insight-tab top-product">🏆 Top Product: Turkey Jerky</div>
+            <div class="insight-tab chat">💬 Chat: 127 messages</div>
+            <div class="insight-tab orders">📦 Orders: 42 this year</div>
+            <div class="insight-tab preferences">🎛️ Preferences: Grain-free</div>
+            <div class="insight-tab qa">❓ Q&As: 15 answered</div>
+            <div class="insight-tab rating">⭐ Rating: 4.9/5 avg</div>
+            <div class="insight-tab">🔁 Subscriptions: 3 active</div>
+            <div class="insight-tab">🎁 Gift Cards: $125 used</div>
+            <div class="insight-tab">🐶 Pet Profile: Updated</div>
+            <div class="insight-tab">📝 Reviews: 8 written</div>
+            <div class="insight-tab">👀 Browsing: 234 sessions</div>
+            <div class="insight-tab">🛍️ Order History: 2 years</div>
+            <div class="insight-tab">📞 Support: 5 chats</div>
+            <div class="insight-tab">👩‍⚕️ Vet Chat: 3 sessions</div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <div class="header">
+        <h1>🐾 CHEWY WRAPPED 2025</h1>
+        <p class="subtitle">A year of tail wags and treats</p>
+        <div class="pet-intro">
+            <img src="https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2021/09/22102506/Golden-Retriever-head-portrait-outdoors.jpg" alt="Bella" class="pet-avatar">
+            <div class="pet-info">
+                <h2>Bella's Year in Review</h2>
+                <p>Golden Retriever • 1 year old • Professional treat enthusiast</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slides Container -->
+    <div class="slides-container">
+        <!-- Slide 1: Treats -->
+        <div class="slide active" data-slide="0">
+            <div class="stat-card card-treats" data-card="treats">
+                <div class="floating-elements">
+                    <div class="floating-emoji" style="top: 10%; left: 10%; animation-delay: 0s;">🦴</div>
+                    <div class="floating-emoji" style="top: 20%; right: 15%; animation-delay: -1s;">🦴</div>
+                    <div class="floating-emoji" style="bottom: 20%; left: 20%; animation-delay: -2s;">🦴</div>
+                </div>
+                <h3 class="card-title">Favorite Treats</h3>
+                <div class="card-stat">22</div>
+                <img src="https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2016/02/24151204/Golden-Retriever-chewing-on-a-treat-laying-down-in-the-yard.jpeg" alt="Bella enjoying treats" class="card-image">
+                <p class="card-description">treats delivered to your door<br><strong>You're such a generous, loving pet parent! Bella says thanks for spoiling her just right! 🦴</strong></p>
+            </div>
+        </div>
+
+        <!-- Slide 2: Toy -->
+        <div class="slide" data-slide="1">
+            <div class="stat-card card-toy" data-card="toy">
+                <div class="floating-elements">
+                    <div class="floating-emoji" style="top: 15%; right: 10%; animation-delay: -0.5s;">🎾</div>
+                    <div class="floating-emoji" style="bottom: 10%; left: 10%; animation-delay: -1.5s;">🧸</div>
+                    <div class="floating-emoji" style="top: 50%; left: 5%; animation-delay: -2.5s;">⚽</div>
+                </div>
+                <h3 class="card-title">Top Toy Champion</h3>
+                <div class="card-stat">🐙</div>
+                <img src="https://www.rover.com/blog/wp-content/uploads/dog-playing-tug.jpg" alt="Bella playing with toys" class="card-image">
+                <p class="card-description">Squeaky Octopus<br><strong>Destroyed in 3.4 seconds - some records are meant to be broken! 🎾</strong></p>
+            </div>
+        </div>
+
+        <!-- Slide 3: Birthday -->
+        <div class="slide" data-slide="2">
+            <div class="stat-card card-birthday" data-card="birthday">
+                <div class="floating-elements">
+                    <div class="floating-emoji" style="top: 10%; left: 15%; animation-delay: 0s;">🎂</div>
+                    <div class="floating-emoji" style="top: 30%; right: 10%; animation-delay: -1s;">🎉</div>
+                    <div class="floating-emoji" style="bottom: 15%; right: 20%; animation-delay: -2s;">🎈</div>
+                </div>
+                <!-- <h3 class="card-title">🎂 First Birthday Bash</h3>
+                <div class="card-stat">1</div>
+                <img src="https://images.unsplash.com/photo-1600077106724-946750de282b?w=400&h=400&fit=crop&crop=face" alt="Bella's birthday celebration" class="card-image">
+                <p class="card-description">year of pure joy<br><strong>Bark party complete with cake, chaos, and countless memories! 🎉</strong></p>
+                 -->
+
+
+                <h3 class="card-title">🎂 First Birthday Bash</h3>
+                <div class="card-stat">1</div>
+                <img src="https://s.yimg.com/ny/api/res/1.2/GxcLl4DZIDaGCDPJatRy6g--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyNDI7aD04Mjg-/https://media.zenfs.com/en/parade_pets_articles_328/21b915e3a60e35eda38485453893d30a" alt="Bella's birthday celebration" class="card-image">
+                <p class="card-description">year of pure joy<br><strong>Bark party complete with cake, chaos, and countless memories! 🎉</strong></p>
+            
+            
+            
+            
+            </div>
+        </div>
+
+        <!-- Slide 4: Product -->
+        <div class="slide" data-slide="3">
+            <div class="stat-card card-product" data-card="product">
+                <div class="floating-elements">
+                    <div class="floating-emoji" style="top: 20%; left: 10%; animation-delay: -0.5s;">🥩</div>
+                    <div class="floating-emoji" style="bottom: 10%; right: 15%; animation-delay: -1.5s;">🥩</div>
+                </div>
+                <h3 class="card-title">Most Reordered</h3>
+                <div class="card-stat">17x</div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfoVfe7HsjL34hmp8MDHG_DAGWNaBipJF-Yg&s" alt="Bella with her favorite food" class="card-image">
+                <p class="card-description">Turkey Jerky Bites<br><strong>You have amazing taste! A loyal shopper, a devoted parent — Bella is so lucky to have you! 🥩</strong></p>
+            </div>
+        </div>
+
+        <!-- Slide 5: Cuddles -->
+        <div class="slide" data-slide="4">
+            <div class="stat-card card-cuddles" data-card="cuddles">
+                <div class="floating-elements">
+                    <div class="floating-emoji" style="top: 10%; right: 10%; animation-delay: 0s;">💕</div>
+                    <div class="floating-emoji" style="bottom: 20%; left: 15%; animation-delay: -1s;">❤️</div>
+                    <div class="floating-emoji" style="top: 40%; left: 10%; animation-delay: -2s;">💙</div>
+                </div>
+                <h3 class="card-title">Cuddliest Month</h3>
+                <div class="card-stat">December</div>
+                <img src="https://www.onegreenplanet.org/wp-content/uploads/2023/12/shutterstock-2362693541-e1702350736134.jpg" alt="Bella in cozy moment" class="card-image">
+                <p class="card-description">cuddles in February<br><strong>You created the perfect cozy atmosphere! 42 orders in December - your love made December magical! 🛋️</strong></p>
+            </div>
+        </div>
+
+        <!-- Slide 6: Badge -->
+        <div class="slide" data-slide="5">
+            <div class="stat-card card-badge" data-card="badge">
+                <h3 class="card-title">Bella Earned Her Badge</h3>
+                <div class="badge">
+                    <div class="badge-text">TOY<br>DESTROYER<br>2025</div>
+                </div>
+                <img src="https://i.redd.it/how-do-you-manage-your-golden-retrievers-energy-levels-v0-hyguohxu0y7e1.jpg?width=1536&format=pjpg&auto=webp&s=12c25cc89b9ffcee0b96d84a49034ddb56205c3c" alt="Bella with her badge" class="card-image" style="width: 120px; height: 120px;">
+                <p class="card-description"><strong>Based on destruction frequency and joy level analysis! 🏆</strong></p>
+            </div>
+        </div>
+
+        <!-- Slide 7: Autoship Savings -->
+        <div class="slide" data-slide="6">
+            <div class="stat-card card-savings" data-card="savings">
+                <div class="floating-elements">
+                    <div class="floating-emoji" style="top: 15%; left: 10%; animation-delay: 0s;">💰</div>
+                    <div class="floating-emoji" style="top: 30%; right: 15%; animation-delay: -1s;">💵</div>
+                    <div class="floating-emoji" style="bottom: 20%; left: 20%; animation-delay: -2s;">💎</div>
+                </div>
+                <h3 class="card-title">Smart Savings Champion!</h3>
+                <div class="card-stat">$247</div>
+                <img src="https://www.dogsforgood.org/wp-content/uploads/2019/06/Georgie-web.jpg" alt="Bella with savings" class="card-image">
+                <p class="card-description">saved through Autoship<br><strong>You're a savvy shopper! Your smart Autoship choices saved enough for 3 extra treat boxes! 🎁</strong></p>
+            </div>
+        </div>
+
+        <!-- Slide 8: Share -->
+        <div class="slide" data-slide="7">
+            <div class="stat-card card-share" data-card="share">
+                <h3 class="card-title">You're an Amazing Pet Parent! 💖</h3>
+                <img src="https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2021/09/22102506/Golden-Retriever-head-portrait-outdoors.jpg" alt="Bella sharing her year" class="card-image" style="width: 150px; height: 150px;">
+                <p class="card-description" style="margin-bottom: 15px;"><strong>Your love and care made Bella's year absolutely magical!</strong><br>Share her incredible journey with family and friends.</p>
+                <div class="share-buttons">
+                    <button class="share-btn phone" onclick="shareViaPhone()">📞 Call</button>
+                    <button class="share-btn text-message" onclick="shareViaText()">💬 Text</button>
+                    <button class="share-btn email" onclick="shareToEmail()">📧 Email</button>
+                    <button class="share-btn group-email" onclick="shareToEmailGroup()">👥 Group Email</button>
+                    <button class="share-btn recommendations" onclick="shareRecommendations()">⭐ Recommendations</button>
+                    <button class="share-btn family" onclick="shareToFamily()">👨‍👩‍👧‍👦 Family</button>
+                    <button class="share-btn whatsapp" onclick="shareToWhatsApp()">📱 WhatsApp</button>
+                    <button class="share-btn instagram" onclick="shareToInstagram()">📸 Instagram</button>
+                    <button class="share-btn linkedin" onclick="shareToLinkedIn()">💼 LinkedIn</button>
+                </div>
+                <p style="font-size: 0.9rem; opacity: 0.8; margin-top: 15px;"><strong>💝 Thank you for being such a devoted, caring pet parent!</strong></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide Navigation -->
+    <div class="slide-nav">
+        <button class="nav-btn" id="prevBtn" onclick="previousSlide()">‹</button>
+        <button class="nav-btn" id="nextBtn" onclick="nextSlide()">›</button>
+    </div>
+
+    <!-- Slide Indicators -->
+    <div class="slide-indicators">
+        <div class="indicator active" onclick="goToSlide(0)"></div>
+        <div class="indicator" onclick="goToSlide(1)"></div>
+        <div class="indicator" onclick="goToSlide(2)"></div>
+        <div class="indicator" onclick="goToSlide(3)"></div>
+        <div class="indicator" onclick="goToSlide(4)"></div>
+        <div class="indicator" onclick="goToSlide(5)"></div>
+        <div class="indicator" onclick="goToSlide(6)"></div>
+        <div class="indicator" onclick="goToSlide(7)"></div>
+    </div>
+
+    <!-- Overlay for expanded cards -->
+    <div class="overlay" id="overlay"></div>
+
+    <script>
+        // GSAP Registration
+        gsap.registerPlugin(ScrollTrigger);
+
+        // Slide management
+        let currentSlide = 0;
+        const totalSlides = 8;
+        let isAnimating = false;
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', function() {
+            initializeSlides();
+            setupEventListeners();
+            setupImageLoadHandlers();
+            setupTouchEvents();
+            setupKeyboardEvents();
+        });
+
+        function initializeSlides() {
+            // Set initial states
+            gsap.set(".header", { y: -30, opacity: 0 });
+            gsap.set(".top-navbar", { y: -100, opacity: 0 });
+            gsap.set(".slide:not(.active)", { x: "100%", opacity: 0 });
+            gsap.set(".slide.active", { x: 0, opacity: 1 });
+
+            // Animate navbar first
+            gsap.to(".top-navbar", { y: 0, opacity: 1, duration: 0.8, ease: "power3.out" });
+            
+            // Animate header
+            gsap.to(".header", { y: 0, opacity: 1, duration: 1, delay: 0.2, ease: "power3.out" });
+
+            // Animate first slide content
+            animateSlideIn(0);
+
+            // Setup insight tabs animation
+            gsap.from(".insight-tab", {
+                scale: 0.8,
+                opacity: 0,
+                duration: 0.4,
+                stagger: 0.05,
+                delay: 0.5,
+                ease: "back.out(1.2)"
+            });
+        }
+
+        // Slide animation functions
+        function animateSlideIn(slideIndex) {
+            const slide = document.querySelector(`[data-slide="${slideIndex}"]`);
+            const card = slide.querySelector('.stat-card');
+            const title = card.querySelector('.card-title');
+            const stat = card.querySelector('.card-stat');
+            const image = card.querySelector('.card-image');
+            const description = card.querySelector('.card-description');
+
+            // Set initial states
+            gsap.set([title, stat, image, description], { y: 30, opacity: 0 });
+
+            // Animate elements in sequence
+            const tl = gsap.timeline();
+            tl.to(title, { y: 0, opacity: 1, duration: 0.6, ease: "power3.out" })
+              .to(stat, { y: 0, opacity: 1, duration: 0.6, ease: "power3.out" }, "-=0.3")
+              .to(image, { y: 0, opacity: 1, duration: 0.6, ease: "power3.out" }, "-=0.3")
+              .to(description, { y: 0, opacity: 1, duration: 0.6, ease: "power3.out" }, "-=0.3");
+
+            // Add special effects
+            const cardType = card.dataset.card;
+            if (cardType) {
+                setTimeout(() => addCardEffects(card, cardType), 800);
+            }
+        }
+
+        function nextSlide() {
+            if (isAnimating || currentSlide >= totalSlides - 1) return;
+            changeSlide(currentSlide + 1);
+        }
+
+        function previousSlide() {
+            if (isAnimating || currentSlide <= 0) return;
+            changeSlide(currentSlide - 1);
+        }
+
+        function goToSlide(slideIndex) {
+            if (isAnimating || slideIndex === currentSlide) return;
+            changeSlide(slideIndex);
+        }
+
+        function changeSlide(newSlide) {
+            if (isAnimating) return;
+            
+            isAnimating = true;
+            const currentSlideEl = document.querySelector(`[data-slide="${currentSlide}"]`);
+            const newSlideEl = document.querySelector(`[data-slide="${newSlide}"]`);
+            
+            // Update indicators
+            document.querySelectorAll('.indicator').forEach((indicator, index) => {
+                indicator.classList.toggle('active', index === newSlide);
+            });
+
+            // Animation timeline
+            const tl = gsap.timeline({
+                onComplete: () => {
+                    isAnimating = false;
+                    currentSlide = newSlide;
+                }
+            });
+
+            // Slide out current
+            tl.to(currentSlideEl, {
+                x: newSlide > currentSlide ? "-100%" : "100%",
+                opacity: 0,
+                duration: 0.6,
+                ease: "power3.inOut"
+            });
+
+            // Slide in new
+            gsap.set(newSlideEl, { 
+                x: newSlide > currentSlide ? "100%" : "-100%", 
+                opacity: 0 
+            });
+            
+            tl.to(newSlideEl, {
+                x: "0%",
+                opacity: 1,
+                duration: 0.6,
+                ease: "power3.inOut",
+                onComplete: () => animateSlideIn(newSlide)
+            }, "-=0.3");
+
+            // Update classes
+            currentSlideEl.classList.remove('active');
+            newSlideEl.classList.add('active');
+        }
+
+        function setupEventListeners() {
+            const cards = document.querySelectorAll('.stat-card');
+            const overlay = document.getElementById('overlay');
+
+            // Card click handlers
+            cards.forEach(card => {
+                card.addEventListener('click', (e) => {
+                    // Don't expand if clicking on share buttons
+                    if (e.target.classList.contains('share-btn') || e.target.closest('.share-btn')) {
+                        return;
+                    }
+                    expandCard(card);
+                });
+
+                // Card hover effects
+                card.addEventListener('mouseenter', () => {
+                    gsap.to(card, { 
+                        scale: 1.02,
+                        duration: 0.3,
+                        ease: "power2.out"
+                    });
+                });
+
+                card.addEventListener('mouseleave', () => {
+                    if (!card.classList.contains('expanded')) {
+                        gsap.to(card, { 
+                            scale: 1,
+                            duration: 0.3,
+                            ease: "power2.out"
+                        });
+                    }
+                });
+            });
+
+            // Overlay click to close
+            overlay.addEventListener('click', closeExpandedCard);
+
+            // Insight tabs hover effect
+            document.querySelectorAll('.insight-tab').forEach(tab => {
+                tab.addEventListener('mouseenter', () => {
+                    gsap.to(tab, { scale: 1.05, y: -2, duration: 0.2 });
+                });
+                tab.addEventListener('mouseleave', () => {
+                    gsap.to(tab, { scale: 1, y: 0, duration: 0.2 });
+                });
+            });
+        }
+
+        function setupTouchEvents() {
+            let startX = 0;
+            let startY = 0;
+            const threshold = 50;
+
+            document.addEventListener('touchstart', (e) => {
+                startX = e.touches[0].clientX;
+                startY = e.touches[0].clientY;
+            });
+
+            document.addEventListener('touchend', (e) => {
+                if (isAnimating) return;
+                
+                const endX = e.changedTouches[0].clientX;
+                const endY = e.changedTouches[0].clientY;
+                const deltaX = startX - endX;
+                const deltaY = Math.abs(startY - endY);
+
+                // Only trigger if horizontal swipe is dominant
+                if (Math.abs(deltaX) > threshold && deltaX > deltaY) {
+                    if (deltaX > 0) {
+                        nextSlide();
+                    } else {
+                        previousSlide();
+                    }
+                }
+            });
+        }
+
+        function setupKeyboardEvents() {
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'Escape') {
+                    closeExpandedCard();
+                } else if (e.key === 'ArrowLeft') {
+                    previousSlide();
+                } else if (e.key === 'ArrowRight') {
+                    nextSlide();
+                }
+            });
+        }
+
+        function expandCard(card) {
+            const overlay = document.getElementById('overlay');
+            
+            // Prevent body scroll
+            document.body.style.overflow = 'hidden';
+            
+            // Show overlay
+            overlay.classList.add('active');
+            
+            // Add close button
+            const closeBtn = document.createElement('button');
+            closeBtn.className = 'close-btn';
+            closeBtn.innerHTML = '×';
+            closeBtn.onclick = closeExpandedCard;
+            card.appendChild(closeBtn);
+            
+            // Expand card
+            card.classList.add('expanded');
+            
+            // Add special effects based on card type
+            const cardType = card.dataset.card;
+            addCardEffects(card, cardType);
+            
+            // Animation
+            gsap.fromTo(card, 
+                { scale: 1 },
+                { 
+                    scale: 1.1,
+                    duration: 0.4,
+                    ease: "back.out(1.2)"
+                }
+            );
+        }
+
+        function closeExpandedCard() {
+            const expandedCard = document.querySelector('.stat-card.expanded');
+            const overlay = document.getElementById('overlay');
+            
+            if (expandedCard) {
+                // Remove close button
+                const closeBtn = expandedCard.querySelector('.close-btn');
+                if (closeBtn) closeBtn.remove();
+                
+                // Animate back
+                gsap.to(expandedCard, {
+                    scale: 1,
+                    duration: 0.3,
+                    ease: "power2.out",
+                    onComplete: () => {
+                        expandedCard.classList.remove('expanded');
+                        document.body.style.overflow = '';
+                    }
+                });
+                
+                // Hide overlay
+                overlay.classList.remove('active');
+                
+                // Remove special effects
+                removeCardEffects(expandedCard);
+            }
+        }
+
+        function addCardEffects(card, cardType) {
+            const effects = {
+                birthday: () => createConfetti(card),
+                badge: () => createCelebration(card),
+                toy: () => createToyParticles(card),
+                treats: () => createTreatParticles(card),
+                cuddles: () => createHeartParticles(card)
+            };
+
+            if (effects[cardType]) {
+                setTimeout(effects[cardType], 200);
+            }
+        }
+
+        function removeCardEffects(card) {
+            // Remove any dynamically created effect elements
+            const effects = card.querySelectorAll('.effect-particle');
+            effects.forEach(effect => effect.remove());
+        }
+
+        function createConfetti(container) {
+            const colors = ['#FFD93D', '#FF6B6B', '#74b9ff', '#ffffff'];
+            for (let i = 0; i < 30; i++) {
+                const confetti = document.createElement('div');
+                confetti.className = 'effect-particle';
+                confetti.style.cssText = `
+                    position: absolute;
+                    width: 8px;
+                    height: 8px;
+                    background: ${colors[Math.floor(Math.random() * colors.length)]};
+                    left: ${Math.random() * 100}%;
+                    top: ${Math.random() * 100}%;
+                    border-radius: 2px;
+                    pointer-events: none;
+                `;
+                container.appendChild(confetti);
+
+                gsap.to(confetti, {
+                    y: Math.random() * 200 - 100,
+                    x: Math.random() * 200 - 100,
+                    rotation: Math.random() * 360,
+                    opacity: 0,
+                    duration: 2,
+                    ease: "power2.out",
+                    onComplete: () => confetti.remove()
+                });
+            }
+        }
+
+        function createCelebration(container) {
+            createConfetti(container);
+            const badge = container.querySelector('.badge');
+            if (badge) {
+                gsap.to(badge, {
+                    rotation: 360,
+                    scale: 1.1,
+                    duration: 1,
+                    ease: "back.out(1.2)",
+                    yoyo: true,
+                    repeat: 1
+                });
+            }
+        }
+
+        function createToyParticles(container) {
+            const toys = ['🎾', '🧸', '⚽'];
+            for (let i = 0; i < 6; i++) {
+                const particle = document.createElement('div');
+                particle.className = 'effect-particle';
+                particle.innerHTML = toys[Math.floor(Math.random() * toys.length)];
+                particle.style.cssText = `
+                    position: absolute;
+                    font-size: 20px;
+                    left: ${Math.random() * 100}%;
+                    top: ${Math.random() * 100}%;
+                    pointer-events: none;
+                `;
+                container.appendChild(particle);
+
+                gsap.to(particle, {
+                    y: -100,
+                    rotation: 360,
+                    opacity: 0,
+                    duration: 2,
+                    ease: "power2.out",
+                    delay: Math.random() * 0.5,
+                    onComplete: () => particle.remove()
+                });
+            }
+        }
+
+        function createTreatParticles(container) {
+            for (let i = 0; i < 8; i++) {
+                const particle = document.createElement('div');
+                particle.className = 'effect-particle';
+                particle.innerHTML = '🦴';
+                particle.style.cssText = `
+                    position: absolute;
+                    font-size: 18px;
+                    left: ${Math.random() * 100}%;
+                    top: ${Math.random() * 100}%;
+                    pointer-events: none;
+                `;
+                container.appendChild(particle);
+
+                gsap.to(particle, {
+                    y: Math.random() * 100 - 50,
+                    x: Math.random() * 100 - 50,
+                    rotation: Math.random() * 360,
+                    opacity: 0,
+                    duration: 1.5,
+                    ease: "power2.out",
+                    delay: Math.random() * 0.3,
+                    onComplete: () => particle.remove()
+                });
+            }
+        }
+
+        function createHeartParticles(container) {
+            const hearts = ['💕', '❤️', '💙'];
+            for (let i = 0; i < 10; i++) {
+                const particle = document.createElement('div');
+                particle.className = 'effect-particle';
+                particle.innerHTML = hearts[Math.floor(Math.random() * hearts.length)];
+                particle.style.cssText = `
+                    position: absolute;
+                    font-size: 16px;
+                    left: ${Math.random() * 100}%;
+                    top: ${Math.random() * 100}%;
+                    pointer-events: none;
+                `;
+                container.appendChild(particle);
+
+                gsap.to(particle, {
+                    y: -80,
+                    scale: 1.5,
+                    opacity: 0,
+                    duration: 2,
+                    ease: "power1.out",
+                    delay: Math.random() * 0.5,
+                    onComplete: () => particle.remove()
+                });
+            }
+        }
+
+                 // Enhanced Sharing Functions with Inclusivity & Ego Boosting
+         function shareViaPhone() {
+             const phoneNumbers = prompt("💖 You're such a caring pet parent! 💖\n\nEnter phone numbers to call (separated by commas):");
+             if (phoneNumbers) {
+                 const numbers = phoneNumbers.split(',');
+                 const message = "Hi! I wanted to share something special - my dog Bella's amazing year with Chewy! You won't believe how much joy we've had. Would love to tell you about it!";
+                 
+                 numbers.forEach((number, index) => {
+                     setTimeout(() => {
+                         window.open(`tel:${number.trim()}`);
+                     }, index * 1000);
+                 });
+                 
+                 alert(`📞 Calling ${numbers.length} number(s)! You're amazing for wanting to share Bella's joy with everyone!`);
+             }
+         }
+
+         function shareViaText() {
+             const text = encodeURIComponent(`🐾 You have to see this! My dog Bella had an INCREDIBLE 2025 with Chewy! 
+
+✨ 12,394 treats delivered (I'm such a good pet parent!)
+🎾 Destroyed a toy in 3.4 seconds (new record!)
+🎂 Celebrated her 1st birthday in style
+🥩 Found her favorite treat (Turkey Jerky Bites)
+💕 February: 198 cuddles (coziest month ever!)
+
+See her full year: ${window.location.href}
+
+I'm so proud of the year we had together! 💖`);
+             
+             window.open(`sms:?body=${text}`);
+         }
+
+         function shareToEmail() {
+             const subject = encodeURIComponent("🐾 You'll LOVE Bella's Amazing Year! (I'm so proud!)");
+             const body = encodeURIComponent(`Hi there!
+
+I'm bursting with pride and had to share something special with you! 💖
+
+My beautiful Golden Retriever Bella just had the most incredible year with Chewy, and I feel like the luckiest pet parent in the world. Here's what made this year so magical:
+
+🦴 12,394 treats delivered - I made sure Bella got the best!
+🎾 Top toy: Squeaky Octopus (destroyed in 3.4 seconds - she's efficient!)
+🎂 Celebrated her very first birthday with a proper party
+🥩 Turkey Jerky Bites became her absolute favorite (reordered 17 times!)
+💕 February was our coziest month: 42 orders and 198 cuddles recorded
+
+I feel so grateful to be Bella's human. She brings so much joy to my life, and I love being able to give her everything she needs to be happy and healthy.
+
+See her full Wrapped experience here: ${window.location.href}
+
+Thank you for being someone I can share this joy with! 💝
+
+With love and tail wags,
+Bella's very proud pet parent 🐾`);
+             
+             window.open(`mailto:?subject=${subject}&body=${body}`);
+         }
+
+         function shareToEmailGroup() {
+             const emails = prompt("💝 You're such a thoughtful person! 💝\n\nEnter email addresses for group sharing (separated by commas):");
+             if (emails) {
+                 const subject = encodeURIComponent("🐾 GROUP SHARE: Bella's Amazing Year! (You're all going to love this!)");
+                 const body = encodeURIComponent(`Dear wonderful friends and family,
+
+I hope this email finds you all well! I'm reaching out because I'm absolutely bursting with pride and joy, and I couldn't wait to share something special with all of you.
+
+My Golden Retriever Bella just completed her most amazing year yet with Chewy, and as her devoted pet parent, I feel incredibly blessed. Here's what made 2025 so extraordinary:
+
+🏆 THE STATS THAT MAKE ME PROUD:
+• 12,394 treats delivered (yes, I spoil her - and she deserves every one!)
+• Squeaky Octopus: destroyed in record time (3.4 seconds!)
+• First birthday celebration complete with cake and chaos
+• Turkey Jerky Bites: reordered 17 times (when you know, you know!)
+• February: our coziest month with 198 cuddles and 42 orders
+
+💖 WHY I'M SHARING THIS WITH YOU:
+Because you all know how much Bella means to me, and seeing her this happy makes me feel like I'm doing something right as a pet parent. Your support and love for both of us throughout this year has meant the world.
+
+🎁 BELLA'S PRODUCT RECOMMENDATIONS:
+Since you're all such amazing people, I thought you might enjoy seeing what products brought Bella the most joy this year. Who knows? Maybe your furry friends would love them too!
+
+See Bella's full year in this beautiful experience: ${window.location.href}
+
+Thank you all for being part of our pack! 🐾
+
+With so much love and gratitude,
+Bella's incredibly happy pet parent
+
+P.S. - I feel so lucky to have friends and family like you who celebrate the little (and big!) joys in life with me! 💝`);
+                 
+                 window.open(`mailto:${emails}?subject=${subject}&body=${body}`);
+             }
+         }
+
+         function shareRecommendations() {
+             const recommendations = `🌟 BELLA'S TOP PRODUCT RECOMMENDATIONS FROM 2025! 🌟
+
+Hi! As someone who clearly knows how to take amazing care of pets (just look at Bella's year!), I thought you'd appreciate these tried-and-tested favorites:
+
+🥇 BELLA'S HALL OF FAME:
+🦴 Turkey Jerky Bites - Reordered 17 times! (Bella's absolute favorite)
+🐙 Squeaky Octopus Toy - Destruction guaranteed in under 4 seconds
+🎂 Dog Birthday Cake Mix - Made her 1st birthday unforgettable  
+💕 Cozy Cuddle Blanket - Perfect for those 198 February cuddles
+🏃‍♀️ Interactive Puzzle Toys - Keeps smart dogs like Bella entertained
+
+💡 WHY THESE PRODUCTS ARE AMAZING:
+✅ Vet-recommended and safe
+✅ Bella-tested and approved
+✅ Made by a pet parent who only wants the best
+✅ Brought us countless moments of joy
+
+Your pets deserve the same love and quality that Bella gets! 
+
+Get Bella's favorites at Chewy: ${window.location.href}
+
+Happy shopping from one amazing pet parent to another! 🐾💖
+
+- Bella's very satisfied human`;
+
+             if (navigator.share) {
+                 navigator.share({
+                     title: "Bella's Product Recommendations - From One Great Pet Parent to Another!",
+                     text: recommendations
+                 });
+             } else if (navigator.clipboard) {
+                 navigator.clipboard.writeText(recommendations).then(() => {
+                     alert("🌟 Bella's recommendations copied! You're going to make so many pets happy by sharing these! 💖");
+                 });
+             } else {
+                 alert("🌟 Share Bella's amazing product recommendations with fellow pet parents! 🐾");
+             }
+         }
+
+         function shareToFamily() {
+             const familyMessage = `👨‍👩‍👧‍👦 FAMILY UPDATE: Bella's Amazing Year! 👨‍👩‍👧‍👦
+
+Hey family!
+
+I had to share this with you all because you know how much Bella means to our family! 💕
+
+This year has been absolutely incredible for our furry family member:
+
+🏠 FAMILY HIGHLIGHTS:
+• 12,394 treats shared (family snack time included!)
+• Toy destruction record: 3.4 seconds (we've got a champion!)
+• First birthday party (you were all missed!)
+• 198 cuddles in February (winter family bonding time)
+• Found her signature treat: Turkey Jerky Bites
+
+You all have been so supportive of me being the best pet parent I can be, and it really shows in how happy and healthy Bella is. Thank you for loving her like family!
+
+See her full year: ${window.location.href}
+
+Can't wait for you all to meet her (again) and see how much she's grown! 
+
+Love from your proud pet parent family member (and Bella sends tail wags!) 🐾💖`;
+
+             if (navigator.share) {
+                 navigator.share({
+                     title: "Family Update: Bella's Amazing Year!",
+                     text: familyMessage
+                 });
+             } else if (navigator.clipboard) {
+                 navigator.clipboard.writeText(familyMessage).then(() => {
+                     alert("👨‍👩‍👧‍👦 Family message copied! They're going to love hearing about Bella's year! 💖");
+                 });
+             } else {
+                 alert("👨‍👩‍👧‍👦 Share Bella's year with your family! They'll love hearing about her adventures! 🐾");
+             }
+         }
+
+         function shareToWhatsApp() {
+             const text = encodeURIComponent(`🐾 I'm so proud and had to share this! 🐾
+
+My dog Bella just had the most AMAZING year with Chewy! As her human, I feel like I'm winning at this whole pet parent thing! 💖
+
+✨ THIS YEAR'S HIGHLIGHTS:
+• 12,394 treats delivered (I spoil her, and she deserves it!)
+• Squeaky Octopus toy destroyed in 3.4 seconds (new record!)
+• First birthday party was perfect 🎂
+• Turkey Jerky Bites = her new obsession (17 reorders!)
+• February: 198 cuddles (coziest month ever!)
+
+See her beautiful year: ${window.location.href}
+
+Being Bella's human is the best job in the world! 🐾💕`);
+             
+             window.open(`https://wa.me/?text=${text}`, '_blank');
+         }
+
+         function shareToInstagram() {
+             const text = "🐾 BELLA'S WRAPPED 2025! ✨ I'm the proudest pet parent right now! My Golden Retriever had the most incredible year and I can't stop smiling about it! 💖 #ChewWrapped2025 #ProudPetParent #BellasBestYear #GoldenRetriever #PetParentWin";
+             
+             if (navigator.clipboard) {
+                 navigator.clipboard.writeText(text).then(() => {
+                     alert("📸 Caption copied! You're going to get so many likes - everyone loves a devoted pet parent! 💖");
+                 });
+             } else {
+                 alert("📸 Share Bella's amazing year on Instagram! You'll inspire other pet parents! 🐾");
+             }
+         }
+
+         function shareToLinkedIn() {
+             const url = encodeURIComponent(window.location.href);
+             const text = encodeURIComponent("Reflecting on 2025: Being Bella's pet parent has been one of my greatest joys this year. 12,394 treats, countless cuddles, and endless love. Sometimes the best ROI is measured in tail wags and unconditional love. Here's to responsible pet ownership and the companies like Chewy that help us be our best for our furry family members! 🐾💼");
+             window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${url}&summary=${text}`, '_blank');
+         }
+
+        // Setup image loading handlers
+        function setupImageLoadHandlers() {
+            const allImages = document.querySelectorAll('.card-image, .pet-avatar');
+            
+            allImages.forEach(img => {
+                img.classList.add('loading');
+                
+                img.addEventListener('load', function() {
+                    this.classList.remove('loading');
+                    this.classList.add('loaded');
+                });
+                
+                img.addEventListener('error', function() {
+                    console.warn(`Failed to load image: ${this.src}`);
+                    this.src = 'https://images.unsplash.com/photo-1552053831-71594a27632d?w=400&h=400&fit=crop&crop=face';
+                    this.alt = 'Bella the Golden Retriever (fallback image)';
+                });
+                
+                if (img.complete && img.naturalHeight !== 0) {
+                    img.classList.remove('loading');
+                    img.classList.add('loaded');
+                }
+            });
+        }
+    </script>
+</body>
+</html>
