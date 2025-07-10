@@ -1,0 +1,701 @@
+{
+  "total_customers": 13,
+  "customers_with_unknowns": 11,
+  "total_unknowns": 190,
+  "customer_analyses": {
+    "4760852": {
+      "customer_id": "4760852",
+      "unknown_attributes": {
+        "Chompie": {
+          "pet_name": "Chompie",
+          "unknown_fields": [
+            "Weight"
+          ],
+          "unknown_scores": [
+            "WeightScore",
+            "ConfidenceScore"
+          ],
+          "unknown_lists": [],
+          "unknown_dicts": []
+        },
+        "NALA": {
+          "pet_name": "NALA",
+          "unknown_fields": [
+            "Breed",
+            "LifeStage",
+            "Gender",
+            "SizeCategory",
+            "Weight"
+          ],
+          "unknown_scores": [
+            "BreedScore",
+            "LifeStageScore",
+            "GenderScore",
+            "SizeScore",
+            "WeightScore",
+            "ConfidenceScore"
+          ],
+          "unknown_lists": [],
+          "unknown_dicts": []
+        }
+      },
+      "total_unknowns": 10,
+      "pets_with_unknowns": 2,
+      "customer_confidence_score": 0.0
+    },
+    "4093877": {
+      "customer_id": "4093877",
+      "unknown_attributes": {
+        "Tuxedo": {
+          "pet_name": "Tuxedo",
+          "unknown_fields": [
+            "LifeStage",
+            "SizeCategory",
+            "Weight"
+          ],
+          "unknown_scores": [
+            "LifeStageScore",
+            "SizeScore",
+            "WeightScore",
+            "ConfidenceScore"
+          ],
+          "unknown_lists": [],
+          "unknown_dicts": []
+        },
+        "Shaomaomi (Loving Kitty)": {
+          "pet_name": "Shaomaomi (Loving Kitty)",
+          "unknown_fields": [
+            "LifeStage",
+            "Gender",
+            "SizeCategory",
+            "Weight"
+          ],
+          "unknown_scores": [
+            "LifeStageScore",
+            "GenderScore",
+            "SizeScore",
+            "WeightScore",
+            "ConfidenceScore"
+          ],
+          "unknown_lists": [],
+          "unknown_dicts": []
+        }
+      },
+      "total_unknowns": 10,
+      "pets_with_unknowns": 2,
+      "customer_confidence_score": 0.0
+    },
+    "6084516": {
+      "customer_id": "6084516",
+      "unknown_attributes": {
+        "Buddy": {
+          "pet_name": "Buddy",
+          "unknown_fields": [
+            "SizeCategory",
+            "Weight"
+          ],
+          "unknown_scores": [
+            "SizeScore",
+            "WeightScore",
+            "ConfidenceScore"
+          ],
+          "unknown_lists": [],
+          "unknown_dicts": []
+        },
+        "Sam": {
+          "pet_name": "Sam",
+          "unknown_fields": [
+            "SizeCategory",
+            "Weight"
+          ],
+          "unknown_scores": [
+            "SizeScore",
+            "WeightScore",
+            "ConfidenceScore"
+          ],
+          "unknown_lists": [],
+          "unknown_dicts": []
+        }
+      },
+      "total_unknowns": 10,
+      "pets_with_unknowns": 2,
+      "customer_confidence_score": 0.0
+    },
+    "1154095": {
+      "customer_id": "1154095",
+      "unknown_attributes": {
+        "sue ling": {
+          "pet_name": "sue ling",
+          "unknown_fields": [
+            "SizeCategory",
+            "Weight"
+          ],
+          "unknown_scores": [
+            "SizeScore",
+            "WeightScore",
+            "ConfidenceScore"
+          ],
+          "unknown_lists": [],
+          "unknown_dicts": []
+        },
+        "sugar": {
+          "pet_name": "sugar",
+          "unknown_fields": [
+            "Gender",
+            "SizeCategory",
+            "Weight"
+          ],
+          "unknown_scores": [
+            "GenderScore",
+            "SizeScore",
+            "WeightScore",
+            "ConfidenceScore"
+          ],
+          "unknown_lists": [],
+          "unknown_dicts": []
+        }
+      },
+      "total_unknowns": 10,
+      "pets_with_unknowns": 2,
+      "customer_confidence_score": 0.0
+    },
+    "4886040": {
+      "customer_id": "4886040",
+      "unknown_attributes": {
+        "Two": {
+          "pet_name": "Two",
+          "unknown_fields": [
+            "SizeCategory",
+            "Weight"
+          ],
+          "unknown_scores": [
+            "SizeScore",
+            "WeightScore",
+            "ConfidenceScore"
+          ],
+          "unknown_lists": [],
+          "unknown_dicts": []
+        },
+        "Acd": {
+          "pet_name": "Acd",
+          "unknown_fields": [
+            "SizeCategory",
+            "Weight"
+          ],
+          "unknown_scores": [
+            "SizeScore",
+            "WeightScore",
+            "ConfidenceScore"
+          ],
+          "unknown_lists": [],
+          "unknown_dicts": []
+        },
+        "Sophie": {
+          "pet_name": "Sophie",
+          "unknown_fields": [
+            "Weight"
+          ],
+          "unknown_scores": [
+            "WeightScore",
+            "ConfidenceScore"
+          ],
+          "unknown_lists": [],
+          "unknown_dicts": []
+        },
+        "Dewbert": {
+          "pet_name": "Dewbert",
+          "unknown_fields": [
+            "SizeCategory",
+            "Weight"
+          ],
+          "unknown_scores": [
+            "SizeScore",
+            "WeightScore",
+            "ConfidenceScore"
+          ],
+          "unknown_lists": [],
+          "unknown_dicts": []
+        }
+      },
+      "total_unknowns": 20,
+      "pets_with_unknowns": 4,
+      "customer_confidence_score": 0.0
+    },
+    "6205413": {
+      "customer_id": "6205413",
+      "unknown_attributes": {
+        "Luna": {
+          "pet_name": "Luna",
+          "unknown_fields": [
+            "SizeCategory",
+            "Weight"
+          ],
+          "unknown_scores": [
+            "SizeScore",
+            "WeightScore",
+            "ConfidenceScore"
+          ],
+          "unknown_lists": [],
+          "unknown_dicts": []
+        },
+        "Primal": {
+          "pet_name": "Primal",
+          "unknown_fields": [
+            "SizeCategory",
+            "Weight"
+          ],
+          "unknown_scores": [
+            "SizeScore",
+            "WeightScore",
+            "ConfidenceScore"
+          ],
+          "unknown_lists": [],
+          "unknown_dicts": []
+        },
+        "Fancy": {
+          "pet_name": "Fancy",
+          "unknown_fields": [
+            "SizeCategory",
+            "Weight"
+          ],
+          "unknown_scores": [
+            "SizeScore",
+            "WeightScore",
+            "ConfidenceScore"
+          ],
+          "unknown_lists": [],
+          "unknown_dicts": []
+        },
+        "Cocoabean": {
+          "pet_name": "Cocoabean",
+          "unknown_fields": [
+            "SizeCategory",
+            "Weight"
+          ],
+          "unknown_scores": [
+            "SizeScore",
+            "WeightScore",
+            "ConfidenceScore"
+          ],
+          "unknown_lists": [],
+          "unknown_dicts": []
+        },
+        "Savory": {
+          "pet_name": "Savory",
+          "unknown_fields": [
+            "SizeCategory",
+            "Weight"
+          ],
+          "unknown_scores": [
+            "SizeScore",
+            "WeightScore",
+            "ConfidenceScore"
+          ],
+          "unknown_lists": [],
+          "unknown_dicts": []
+        },
+        "Beyond": {
+          "pet_name": "Beyond",
+          "unknown_fields": [
+            "SizeCategory",
+            "Weight"
+          ],
+          "unknown_scores": [
+            "SizeScore",
+            "WeightScore",
+            "ConfidenceScore"
+          ],
+          "unknown_lists": [],
+          "unknown_dicts": []
+        },
+        "Purrfect": {
+          "pet_name": "Purrfect",
+          "unknown_fields": [
+            "SizeCategory",
+            "Weight"
+          ],
+          "unknown_scores": [
+            "SizeScore",
+            "WeightScore",
+            "ConfidenceScore"
+          ],
+          "unknown_lists": [],
+          "unknown_dicts": []
+        }
+      },
+      "total_unknowns": 35,
+      "pets_with_unknowns": 7,
+      "customer_confidence_score": 0.0
+    },
+    "5812": {
+      "customer_id": "5812",
+      "unknown_attributes": {
+        "Denali": {
+          "pet_name": "Denali",
+          "unknown_fields": [],
+          "unknown_scores": [],
+          "unknown_lists": [
+            "DietaryPreferences"
+          ],
+          "unknown_dicts": [
+            "DietaryScores"
+          ]
+        },
+        "Gunner": {
+          "pet_name": "Gunner",
+          "unknown_fields": [],
+          "unknown_scores": [],
+          "unknown_lists": [
+            "DietaryPreferences"
+          ],
+          "unknown_dicts": [
+            "DietaryScores"
+          ]
+        }
+      },
+      "total_unknowns": 10,
+      "pets_with_unknowns": 2,
+      "customer_confidence_score": 0.0
+    },
+    "1183376": {
+      "customer_id": "1183376",
+      "unknown_attributes": {
+        "UNK": {
+          "pet_name": "UNK",
+          "unknown_fields": [
+            "PetName",
+            "Breed",
+            "LifeStage",
+            "Gender",
+            "SizeCategory",
+            "Weight"
+          ],
+          "unknown_scores": [
+            "BreedScore",
+            "LifeStageScore",
+            "GenderScore",
+            "SizeScore",
+            "WeightScore"
+          ],
+          "unknown_lists": [],
+          "unknown_dicts": []
+        },
+        "Elwood": {
+          "pet_name": "Elwood",
+          "unknown_fields": [
+            "SizeCategory",
+            "Weight"
+          ],
+          "unknown_scores": [
+            "SizeScore",
+            "WeightScore",
+            "ConfidenceScore"
+          ],
+          "unknown_lists": [],
+          "unknown_dicts": []
+        },
+        "Turbo": {
+          "pet_name": "Turbo",
+          "unknown_fields": [
+            "SizeCategory",
+            "Weight"
+          ],
+          "unknown_scores": [
+            "SizeScore",
+            "WeightScore"
+          ],
+          "unknown_lists": [],
+          "unknown_dicts": []
+        }
+      },
+      "total_unknowns": 15,
+      "pets_with_unknowns": 3,
+      "customer_confidence_score": 0.0
+    },
+    "1317924": {
+      "customer_id": "1317924",
+      "unknown_attributes": {
+        "Beatrix Kiddo": {
+          "pet_name": "Beatrix Kiddo",
+          "unknown_fields": [
+            "SizeCategory",
+            "Weight"
+          ],
+          "unknown_scores": [
+            "SizeScore",
+            "WeightScore",
+            "ConfidenceScore"
+          ],
+          "unknown_lists": [],
+          "unknown_dicts": []
+        },
+        "Bff": {
+          "pet_name": "Bff",
+          "unknown_fields": [
+            "SizeCategory",
+            "Weight"
+          ],
+          "unknown_scores": [
+            "SizeScore",
+            "WeightScore",
+            "ConfidenceScore"
+          ],
+          "unknown_lists": [],
+          "unknown_dicts": []
+        },
+        "Wet": {
+          "pet_name": "Wet",
+          "unknown_fields": [
+            "SizeCategory",
+            "Weight"
+          ],
+          "unknown_scores": [
+            "SizeScore",
+            "WeightScore",
+            "ConfidenceScore"
+          ],
+          "unknown_lists": [],
+          "unknown_dicts": []
+        },
+        "Sindel": {
+          "pet_name": "Sindel",
+          "unknown_fields": [
+            "Weight"
+          ],
+          "unknown_scores": [
+            "WeightScore",
+            "ConfidenceScore"
+          ],
+          "unknown_lists": [],
+          "unknown_dicts": []
+        },
+        "German": {
+          "pet_name": "German",
+          "unknown_fields": [
+            "SizeCategory",
+            "Weight"
+          ],
+          "unknown_scores": [
+            "SizeScore",
+            "WeightScore",
+            "ConfidenceScore"
+          ],
+          "unknown_lists": [],
+          "unknown_dicts": []
+        },
+        "Gsd": {
+          "pet_name": "Gsd",
+          "unknown_fields": [
+            "SizeCategory",
+            "Weight"
+          ],
+          "unknown_scores": [
+            "SizeScore",
+            "WeightScore",
+            "ConfidenceScore"
+          ],
+          "unknown_lists": [],
+          "unknown_dicts": []
+        }
+      },
+      "total_unknowns": 30,
+      "pets_with_unknowns": 6,
+      "customer_confidence_score": 0.0
+    },
+    "2209529": {
+      "customer_id": "2209529",
+      "unknown_attributes": {
+        "Bella": {
+          "pet_name": "Bella",
+          "unknown_fields": [
+            "SizeCategory",
+            "Weight"
+          ],
+          "unknown_scores": [
+            "SizeScore",
+            "WeightScore",
+            "ConfidenceScore"
+          ],
+          "unknown_lists": [],
+          "unknown_dicts": []
+        },
+        "Oat": {
+          "pet_name": "Oat",
+          "unknown_fields": [
+            "SizeCategory",
+            "Weight"
+          ],
+          "unknown_scores": [
+            "SizeScore",
+            "WeightScore",
+            "ConfidenceScore"
+          ],
+          "unknown_lists": [],
+          "unknown_dicts": []
+        },
+        "Marco": {
+          "pet_name": "Marco",
+          "unknown_fields": [
+            "SizeCategory",
+            "Weight"
+          ],
+          "unknown_scores": [
+            "SizeScore",
+            "WeightScore",
+            "ConfidenceScore"
+          ],
+          "unknown_lists": [],
+          "unknown_dicts": []
+        },
+        "UNK": {
+          "pet_name": "UNK",
+          "unknown_fields": [
+            "PetName",
+            "Breed",
+            "LifeStage",
+            "Gender",
+            "SizeCategory",
+            "Weight"
+          ],
+          "unknown_scores": [
+            "BreedScore",
+            "LifeStageScore",
+            "GenderScore",
+            "SizeScore",
+            "WeightScore",
+            "ConfidenceScore"
+          ],
+          "unknown_lists": [],
+          "unknown_dicts": []
+        }
+      },
+      "total_unknowns": 20,
+      "pets_with_unknowns": 4,
+      "customer_confidence_score": 0.0
+    },
+    "5025337": {
+      "customer_id": "5025337",
+      "unknown_attributes": {
+        "Turkey": {
+          "pet_name": "Turkey",
+          "unknown_fields": [
+            "Weight"
+          ],
+          "unknown_scores": [
+            "WeightScore",
+            "ConfidenceScore"
+          ],
+          "unknown_lists": [],
+          "unknown_dicts": []
+        },
+        "The Princess Monaco": {
+          "pet_name": "The Princess Monaco",
+          "unknown_fields": [
+            "Weight"
+          ],
+          "unknown_scores": [
+            "WeightScore",
+            "ConfidenceScore"
+          ],
+          "unknown_lists": [],
+          "unknown_dicts": []
+        },
+        "Venison": {
+          "pet_name": "Venison",
+          "unknown_fields": [
+            "Weight"
+          ],
+          "unknown_scores": [
+            "WeightScore",
+            "ConfidenceScore"
+          ],
+          "unknown_lists": [],
+          "unknown_dicts": []
+        },
+        "Harley (James) Davidson": {
+          "pet_name": "Harley (James) Davidson",
+          "unknown_fields": [
+            "Weight"
+          ],
+          "unknown_scores": [
+            "WeightScore",
+            "ConfidenceScore"
+          ],
+          "unknown_lists": [],
+          "unknown_dicts": []
+        }
+      },
+      "total_unknowns": 20,
+      "pets_with_unknowns": 4,
+      "customer_confidence_score": 0.0
+    }
+  },
+  "summary": {
+    "most_common_unknowns": {
+      "fields": {
+        "Weight": 36,
+        "SizeCategory": 29,
+        "LifeStage": 5,
+        "Gender": 5,
+        "Breed": 3,
+        "PetName": 2
+      },
+      "scores": {
+        "WeightScore": 36,
+        "ConfidenceScore": 34,
+        "SizeScore": 29,
+        "LifeStageScore": 5,
+        "GenderScore": 5,
+        "BreedScore": 3
+      },
+      "lists": {
+        "DietaryPreferences": 2
+      },
+      "dicts": {
+        "DietaryScores": 2
+      }
+    },
+    "customers_with_most_unknowns": [
+      [
+        "6205413",
+        35
+      ],
+      [
+        "1317924",
+        30
+      ],
+      [
+        "4886040",
+        20
+      ],
+      [
+        "2209529",
+        20
+      ],
+      [
+        "5025337",
+        20
+      ],
+      [
+        "1183376",
+        15
+      ],
+      [
+        "4760852",
+        10
+      ],
+      [
+        "4093877",
+        10
+      ],
+      [
+        "6084516",
+        10
+      ],
+      [
+        "1154095",
+        10
+      ]
+    ]
+  }
+}

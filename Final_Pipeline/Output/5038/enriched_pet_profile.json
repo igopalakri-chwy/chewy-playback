@@ -12,7 +12,7 @@
     "SizeCategory": "unknown",
     "SizeScore": 0.9,
     "Weight": "50-90 lbs",
-    "WeightScore": 0.7,
+    "WeightScore": 0.6,
     "PersonalityTraits": [
       "playful",
       "curious",
@@ -29,9 +29,9 @@
       "food"
     ],
     "CategoryScores": {
-      "toys": 0.9,
-      "food": 0.8,
-      "treats": 0.7
+      "treats": 0.9,
+      "toys": 0.8,
+      "food": 0.7
     },
     "BrandPreferences": [
       "Dr. Lyon's",
@@ -69,7 +69,7 @@
       "PetSafe Busy Buddy Fun Durables Treat Dispenser Dog Toy, Hippo, Medium/Large"
     ],
     "ConfidenceScore": 0.5,
-    "confidence_score": 0.8666666666666667,
+    "confidence_score": 0.85,
     "name": "Mike"
   },
   "Myles": {
@@ -85,7 +85,7 @@
     "SizeCategory": "medium",
     "SizeScore": 0.9,
     "Weight": "50-90 lbs",
-    "WeightScore": 0.7,
+    "WeightScore": 0.6,
     "PersonalityTraits": [
       "playful",
       "curious",
@@ -102,9 +102,9 @@
       "food"
     ],
     "CategoryScores": {
-      "toys": 0.9,
-      "food": 0.8,
-      "treats": 0.7
+      "treats": 0.9,
+      "toys": 0.8,
+      "food": 0.7
     },
     "BrandPreferences": [
       "Dr. Lyon's",
@@ -142,8 +142,8 @@
       "PetSafe Busy Buddy Fun Durables Treat Dispenser Dog Toy, Hippo, Medium/Large"
     ],
     "ConfidenceScore": 0.5,
-    "confidence_score": 0.8666666666666667,
+    "confidence_score": 0.85,
     "name": "Myles"
   },
-  "cust_confidence_score": 0.8666666666666667
+  "cust_confidence_score": 0.85
 }

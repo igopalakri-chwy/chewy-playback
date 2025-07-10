@@ -1,0 +1,42 @@
+{
+  "Myles": {
+    "customer_id": "5038",
+    "pet_name": "Myles",
+    "prediction_timestamp": "2025-07-10T11:28:00.120353",
+    "breed_distribution": {
+      "goldenRetriever": 20.0,
+      "labradorRetriever": 20.0,
+      "germanShepherd": 20.0,
+      "boxer": 20.0,
+      "beagle": 20.0
+    },
+    "confidence": {
+      "score": 20,
+      "level": "Low",
+      "reliability_flags": [
+        "LLM prediction failed"
+      ],
+      "recommendations": [
+        "Consider manual breed assessment"
+      ]
+    },
+    "explanations": {},
+    "pet_profile_used": {
+      "age": "a",
+      "size": "medium",
+      "gender": "male",
+      "order_count": 28,
+      "health_indicators": [
+        "playful",
+        "curious",
+        "affectionate",
+        "loves toys",
+        "enjoys treats"
+      ]
+    },
+    "top_predicted_breed": {
+      "breed": "goldenRetriever",
+      "percentage": 20.0
+    }
+  }
+}

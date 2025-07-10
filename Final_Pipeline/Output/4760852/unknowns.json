@@ -1,0 +1,40 @@
+{
+  "customer_id": "4760852",
+  "unknown_attributes": {
+    "NALA": {
+      "pet_name": "NALA",
+      "unknown_fields": [
+        "Breed",
+        "LifeStage",
+        "Gender",
+        "SizeCategory",
+        "Weight"
+      ],
+      "unknown_scores": [
+        "BreedScore",
+        "LifeStageScore",
+        "GenderScore",
+        "SizeScore",
+        "WeightScore",
+        "ConfidenceScore"
+      ],
+      "unknown_lists": [],
+      "unknown_dicts": []
+    },
+    "Chompie": {
+      "pet_name": "Chompie",
+      "unknown_fields": [
+        "Weight"
+      ],
+      "unknown_scores": [
+        "WeightScore",
+        "ConfidenceScore"
+      ],
+      "unknown_lists": [],
+      "unknown_dicts": []
+    }
+  },
+  "total_unknowns": 14,
+  "pets_with_unknowns": 2,
+  "customer_confidence_score": 0.0
+}

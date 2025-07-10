@@ -26,6 +26,7 @@ from review_order_intelligence_agent import ReviewOrderIntelligenceAgent
 from pet_letter_llm_system import PetLetterLLMSystem
 from add_confidence_score import ConfidenceScoreCalculator
 from breed_predictor_agent import BreedPredictorAgent
+from unknowns_analyzer import UnknownsAnalyzer
 import openai
 from dotenv import load_dotenv
 
@@ -1069,6 +1070,64 @@ class ChewyPlaybackPipeline:
             
             print(f"  ✅ Saved outputs for customer {customer_id}")
     
+    def run_unknowns_analyzer(self, customer_ids: List[str] = None):
+        """Run the Unknowns Analyzer to identify unknown attributes in enriched profiles."""
+        print("\n🔍 Running Unknowns Analyzer...")
+        try:
+            analyzer = UnknownsAnalyzer()
+            
+            # If no specific customers provided, analyze all processed customers
+            if not customer_ids:
+                # Get all customer directories that have enriched profiles
+                customer_ids = []
+                for customer_dir in self.output_dir.iterdir():
+                    if customer_dir.is_dir() and customer_dir.name.isdigit():
+                        profile_path = customer_dir / "enriched_pet_profile.json"
+                        if profile_path.exists():
+                            customer_ids.append(customer_dir.name)
+            
+            total_unknowns = 0
+            customers_with_unknowns = 0
+            
+            for customer_id in customer_ids:
+                analysis_results = analyzer.analyze_single_customer(customer_id, self.output_dir)
+                if analysis_results and analysis_results['total_unknowns'] > 0:
+                    # Save unknowns.json in the customer's directory
+                    customer_dir = self.output_dir / customer_id
+                    unknowns_path = customer_dir / "unknowns.json"
+                    success = analyzer.save_unknowns_json(analysis_results, unknowns_path)
+                    
+                    if success:
+                        total_unknowns += analysis_results['total_unknowns']
+                        customers_with_unknowns += 1
+                        print(f"  ✅ Customer {customer_id}: {analysis_results['total_unknowns']} unknowns")
+                        
+                        # Print details for each pet with unknowns
+                        for pet_name, pet_unknowns in analysis_results['unknown_attributes'].items():
+                            print(f"    🐾 {pet_name}:")
+                            if pet_unknowns['unknown_fields']:
+                                print(f"      Unknown fields: {', '.join(pet_unknowns['unknown_fields'])}")
+                            if pet_unknowns['unknown_scores']:
+                                print(f"      Unknown scores: {', '.join(pet_unknowns['unknown_scores'])}")
+                            if pet_unknowns['unknown_lists']:
+                                print(f"      Empty lists: {', '.join(pet_unknowns['unknown_lists'])}")
+                            if pet_unknowns['unknown_dicts']:
+                                print(f"      Empty dicts: {', '.join(pet_unknowns['unknown_dicts'])}")
+                    else:
+                        print(f"  ❌ Failed to save unknowns analysis for customer {customer_id}")
+                else:
+                    print(f"  ✅ Customer {customer_id}: No unknown attributes found")
+            
+            if customers_with_unknowns > 0:
+                print(f"\n📊 Unknowns Analysis Summary:")
+                print(f"   Customers with unknowns: {customers_with_unknowns}")
+                print(f"   Total unknown attributes: {total_unknowns}")
+            else:
+                print(f"\n✅ No unknown attributes found in any customer profiles")
+                
+        except Exception as e:
+            print(f"❌ Error running unknowns analyzer: {e}")
+
     def run_pipeline(self, customer_ids: List[str] = None):
         """Run the complete pipeline for specified customers or all customers."""
         print("🚀 Starting Chewy Playback Pipeline (Unified)")
@@ -1092,7 +1151,8 @@ class ChewyPlaybackPipeline:
             
             # Step 6: Save all outputs
             self.save_outputs(enriched_profiles, narrative_results, image_results, breed_predictions)
-            
+            # Run unknowns analyzer after saving outputs
+            self.run_unknowns_analyzer(customer_ids)
             print("\n🎉 Pipeline completed successfully!")
             print(f"📁 Check the 'Output' directory for results")
             

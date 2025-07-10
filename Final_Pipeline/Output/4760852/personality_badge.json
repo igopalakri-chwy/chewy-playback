@@ -1,0 +1,10 @@
+{
+  "badge": "The Cuddler",
+  "compatible_with": [
+    "The Nurturer",
+    "The Daydreamer",
+    "The Guardian"
+  ],
+  "icon_png": "the_cuddler.png",
+  "description": "This household is a snuggle haven, filled with pets who are as finicky as they are affectionate, and always ready for a cozy cuddle."
+}

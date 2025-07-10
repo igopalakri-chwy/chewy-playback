@@ -1,76 +1,4 @@
 {
-  "Chompie": {
-    "PetName": "Chompie",
-    "PetType": "Dog",
-    "PetTypeScore": 1.0,
-    "Breed": "Cockapoo",
-    "BreedScore": 1.0,
-    "LifeStage": "A",
-    "LifeStageScore": 1.0,
-    "Gender": "MALE",
-    "GenderScore": 1.0,
-    "SizeCategory": "SM",
-    "SizeScore": 1.0,
-    "Weight": "UNK",
-    "WeightScore": 0.0,
-    "PersonalityTraits": [
-      "Excitable",
-      "Finicky"
-    ],
-    "PersonalityScores": {
-      "Excitable": 0.7,
-      "Finicky": 0.7
-    },
-    "FavoriteProductCategories": [
-      "Dog Food",
-      "Dog Treats",
-      "Dog Nail Caps"
-    ],
-    "CategoryScores": {
-      "Dog Food": 0.8,
-      "Dog Treats": 0.7,
-      "Dog Nail Caps": 0.7
-    },
-    "BrandPreferences": [
-      "Purrdy Paws",
-      "Merrick",
-      "Nutro Ultra"
-    ],
-    "BrandScores": {
-      "Purrdy Paws": 0.8,
-      "Merrick": 0.7,
-      "Nutro Ultra": 0.7
-    },
-    "DietaryPreferences": [
-      "Chicken, Split Pea & Carrot Recipe"
-    ],
-    "DietaryScores": {
-      "Chicken, Split Pea & Carrot Recipe": 0.7
-    },
-    "BehavioralCues": [
-      "Eats most of the food",
-      "Likes to chew bones"
-    ],
-    "BehavioralScores": {
-      "Eats most of the food": 0.7,
-      "Likes to chew bones": 0.7
-    },
-    "HealthMentions": [
-      "Good joint health"
-    ],
-    "HealthScores": {
-      "Good joint health": 0.7
-    },
-    "MostOrderedProducts": [
-      "Equilite Herbals RelaxHer Blend Calming Powder Horse Supplement, 2-lb tub",
-      "Nature's Miracle Dog Enzymatic Stain Remover & Odor Eliminator, Melon Burst Scent, 1-gal bottle",
-      "Purrdy Paws Soft Dog Nail Caps, Sky Blue, X-Small, 40 count",
-      "Merrick Fresh Kisses Double-Brush Mint Breath Strip Infused X-Small Dental Dog Treats",
-      "Nutro Ultra Grain-Free Chicken, Split Pea & Carrot Recipe Dry Dog Food"
-    ],
-    "ConfidenceScore": 0.0,
-    "confidence_score": 0.8333333333333334
-  },
   "NALA": {
     "PetName": "NALA",
     "PetType": "Cat",
@@ -90,7 +18,7 @@
       "Happy"
     ],
     "PersonalityScores": {
-      "Finicky": 0.6,
+      "Finicky": 0.7,
       "Happy": 0.8
     },
     "FavoriteProductCategories": [
@@ -98,8 +26,8 @@
       "Cat Toys"
     ],
     "CategoryScores": {
-      "Cat Food": 0.8,
-      "Cat Toys": 0.7
+      "Cat Food": 0.9,
+      "Cat Toys": 0.8
     },
     "BrandPreferences": [
       "Blue Buffalo",
@@ -107,19 +35,19 @@
       "BFF"
     ],
     "BrandScores": {
-      "Blue Buffalo": 0.8,
-      "SmartyKat": 0.7,
-      "BFF": 0.6
+      "Blue Buffalo": 0.9,
+      "SmartyKat": 0.8,
+      "BFF": 0.7
     },
     "DietaryPreferences": [
-      "Pate",
+      "Pate Style",
       "High-Protein",
       "Grain-Free"
     ],
     "DietaryScores": {
-      "Pate": 0.8,
-      "High-Protein": 0.7,
-      "Grain-Free": 0.7
+      "Pate Style": 0.9,
+      "High-Protein": 0.8,
+      "Grain-Free": 0.8
     },
     "BehavioralCues": [
       "Eats from hand",
@@ -127,23 +55,93 @@
     ],
     "BehavioralScores": {
       "Eats from hand": 0.7,
-      "Likes variety": 0.6
+      "Likes variety": 0.8
     },
     "HealthMentions": [
       "Good joint health"
     ],
     "HealthScores": {
-      "Good joint health": 0.7
+      "Good joint health": 0.8
     },
     "MostOrderedProducts": [
       "SmartyKat Felty Fun Balls Cat Toys",
       "Blue Buffalo Wilderness Chicken High-Protein Grain-Free Pate Adult Wet Cat Food",
-      "Nature's Miracle Cat Enzymatic Stain Remover & Odor Eliminator Refill",
-      "TRIXIE Playground Wall Mounted Cat Shelves",
       "BFF Play Pate Lovers Beef & Tuna Ta Da Wet Cat Food"
     ],
     "ConfidenceScore": 0.0,
-    "confidence_score": 0.16666666666666666
+    "confidence_score": 0.16666666666666666,
+    "name": "NALA"
+  },
+  "Chompie": {
+    "PetName": "Chompie",
+    "PetType": "Dog",
+    "PetTypeScore": 1.0,
+    "Breed": "Cockapoo",
+    "BreedScore": 1.0,
+    "LifeStage": "A",
+    "LifeStageScore": 1.0,
+    "Gender": "MALE",
+    "GenderScore": 1.0,
+    "SizeCategory": "SM",
+    "SizeScore": 1.0,
+    "Weight": "UNK",
+    "WeightScore": 0.0,
+    "PersonalityTraits": [
+      "Finicky",
+      "Excited about eating"
+    ],
+    "PersonalityScores": {
+      "Finicky": 0.7,
+      "Excited about eating": 0.8
+    },
+    "FavoriteProductCategories": [
+      "Dog Food",
+      "Dog Treats",
+      "Dog Nail Caps"
+    ],
+    "CategoryScores": {
+      "Dog Food": 0.8,
+      "Dog Treats": 0.7,
+      "Dog Nail Caps": 0.6
+    },
+    "BrandPreferences": [
+      "Purrdy Paws",
+      "Merrick",
+      "Nutro Ultra"
+    ],
+    "BrandScores": {
+      "Purrdy Paws": 0.8,
+      "Merrick": 0.7,
+      "Nutro Ultra": 0.6
+    },
+    "DietaryPreferences": [
+      "Chicken, Split Pea & Carrot Recipe"
+    ],
+    "DietaryScores": {
+      "Chicken, Split Pea & Carrot Recipe": 0.7
+    },
+    "BehavioralCues": [
+      "Readily takes food from hand"
+    ],
+    "BehavioralScores": {
+      "Readily takes food from hand": 0.7
+    },
+    "HealthMentions": [
+      "Good joint health"
+    ],
+    "HealthScores": {
+      "Good joint health": 0.8
+    },
+    "MostOrderedProducts": [
+      "Equilite Herbals RelaxHer Blend Calming Powder Horse Supplement, 2-lb tub",
+      "Nature's Miracle Dog Enzymatic Stain Remover & Odor Eliminator, Melon Burst Scent, 1-gal bottle",
+      "Purrdy Paws Soft Dog Nail Caps, Sky Blue, X-Small, 40 count",
+      "Merrick Fresh Kisses Double-Brush Mint Breath Strip Infused X-Small Dental Dog Treats",
+      "Nutro Ultra Grain-Free Chicken, Split Pea & Carrot Recipe Dry Dog Food"
+    ],
+    "ConfidenceScore": 0.0,
+    "confidence_score": 0.8333333333333334,
+    "name": "Chompie"
   },
   "cust_confidence_score": 0.5
 }
