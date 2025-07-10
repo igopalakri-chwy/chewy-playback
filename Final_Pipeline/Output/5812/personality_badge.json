@@ -1,10 +1,10 @@
 {
   "badge": "The Explorer",
   "compatible_with": [
+    "The Cuddler",
     "The Athlete",
-    "The Trickster",
-    "The Cuddler"
+    "The Trickster"
   ],
   "icon_png": "the_explorer.png",
-  "description": "This playful duo embraces each day as a new adventure, constantly curious and always ready for their next playful pursuit."
+  "description": "This household is filled with playful energy, curious spirit and a zest for exploration, perfectly embodied by Denali and Gunner, the playful Boxer duo."
 }

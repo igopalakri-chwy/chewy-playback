@@ -1,0 +1,42 @@
+{
+  "Sindel": {
+    "customer_id": "1317924",
+    "pet_name": "Sindel",
+    "prediction_timestamp": "2025-07-10T14:05:22.904406",
+    "breed_distribution": {
+      "goldenRetriever": 20.0,
+      "labradorRetriever": 20.0,
+      "germanShepherd": 20.0,
+      "boxer": 20.0,
+      "beagle": 20.0
+    },
+    "confidence": {
+      "score": 20,
+      "level": "Low",
+      "reliability_flags": [
+        "LLM prediction failed"
+      ],
+      "recommendations": [
+        "Consider manual breed assessment"
+      ]
+    },
+    "explanations": {},
+    "pet_profile_used": {
+      "age": "S",
+      "size": "L",
+      "gender": "FMLE",
+      "order_count": 65,
+      "health_indicators": [
+        "Likes wet food",
+        "Likes treats",
+        "Plays with treats before eating",
+        "Eats when left alone",
+        "Plays with food"
+      ]
+    },
+    "top_predicted_breed": {
+      "breed": "goldenRetriever",
+      "percentage": 20.0
+    }
+  }
+}

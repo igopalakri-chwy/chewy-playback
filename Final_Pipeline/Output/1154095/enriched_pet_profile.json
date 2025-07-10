@@ -10,32 +10,36 @@
     "Gender": "FMLE",
     "GenderScore": 1.0,
     "SizeCategory": "UNK",
-    "SizeScore": 0,
+    "SizeScore": 0.0,
     "Weight": "UNK",
-    "WeightScore": 0,
+    "WeightScore": 0.0,
     "PersonalityTraits": [
       "Picky eater",
       "Older"
     ],
     "PersonalityScores": {
-      "Picky eater": 0.9,
+      "Picky eater": 0.8,
       "Older": 1.0
     },
     "FavoriteProductCategories": [
+      "Cat Food",
       "Cat Bed & Mat",
-      "Cat Food"
+      "Cat Toy"
     ],
     "CategoryScores": {
-      "Cat Bed & Mat": 0.9,
-      "Cat Food": 1.0
+      "Cat Food": 1.0,
+      "Cat Bed & Mat": 0.8,
+      "Cat Toy": 0.7
     },
     "BrandPreferences": [
       "Nature's Recipe",
-      "As Seen on TV"
+      "As Seen on TV",
+      "Derby Originals"
     ],
     "BrandScores": {
       "Nature's Recipe": 0.9,
-      "As Seen on TV": 0.8
+      "As Seen on TV": 0.8,
+      "Derby Originals": 0.7
     },
     "DietaryPreferences": [
       "Chicken flavor"
@@ -44,12 +48,12 @@
       "Chicken flavor": 0.9
     },
     "BehavioralCues": [
-      "Likes to sleep on bed",
-      "Likes to eat"
+      "Likes to scratch",
+      "Likes to sleep on warm surfaces"
     ],
     "BehavioralScores": {
-      "Likes to sleep on bed": 0.9,
-      "Likes to eat": 1.0
+      "Likes to scratch": 0.8,
+      "Likes to sleep on warm surfaces": 0.9
     },
     "HealthMentions": [
       "Dental problems",
@@ -61,10 +65,12 @@
     },
     "MostOrderedProducts": [
       "Nature's Recipe Culinary Favorites Stew Recipe with Real White Meat Chicken & Garden Vegetables in Gravy Wet Cat Food, 2.75-oz, case of 24",
-      "As Seen on TV Kitty Shack 2 in 1 Cat Bed & Mat"
+      "As Seen on TV Kitty Shack 2 in 1 Cat Bed & Mat",
+      "Derby Originals Reflective Horse Fly Mask"
     ],
     "ConfidenceScore": 0.0,
-    "confidence_score": 0.6666666666666666
+    "confidence_score": 0.6666666666666666,
+    "name": "sue ling"
   },
   "sugar": {
     "PetName": "sugar",
@@ -75,11 +81,11 @@
     "LifeStage": "Older",
     "LifeStageScore": 0.9,
     "Gender": "UNK",
-    "GenderScore": 0.0,
+    "GenderScore": 0,
     "SizeCategory": "UNK",
-    "SizeScore": 0.0,
+    "SizeScore": 0,
     "Weight": "UNK",
-    "WeightScore": 0.0,
+    "WeightScore": 0,
     "PersonalityTraits": [
       "Picky eater"
     ],
@@ -89,20 +95,22 @@
     "FavoriteProductCategories": [
       "Cat Food",
       "Cat Bed & Mat",
-      "Cat Litter Box"
+      "Cat House"
     ],
     "CategoryScores": {
       "Cat Food": 0.9,
       "Cat Bed & Mat": 0.8,
-      "Cat Litter Box": 0.7
+      "Cat House": 0.7
     },
     "BrandPreferences": [
       "Nature's Recipe",
-      "As Seen on TV"
+      "As Seen on TV",
+      "Derby Originals"
     ],
     "BrandScores": {
       "Nature's Recipe": 0.9,
-      "As Seen on TV": 0.8
+      "As Seen on TV": 0.8,
+      "Derby Originals": 0.7
     },
     "DietaryPreferences": [
       "Chicken flavor"
@@ -111,28 +119,29 @@
       "Chicken flavor": 0.9
     },
     "BehavioralCues": [
-      "Scratching walls",
-      "Eating problems"
+      "Likes to sleep on warm spots",
+      "Likes to scratch on wall corners"
     ],
     "BehavioralScores": {
-      "Scratching walls": 0.8,
-      "Eating problems": 0.9
+      "Likes to sleep on warm spots": 0.8,
+      "Likes to scratch on wall corners": 0.7
     },
     "HealthMentions": [
-      "Dental problems"
+      "Dental problems",
+      "Eating problems"
     ],
     "HealthScores": {
-      "Dental problems": 0.9
+      "Dental problems": 0.9,
+      "Eating problems": 0.9
     },
     "MostOrderedProducts": [
-      "Derby Originals Reflective Horse Fly Mask",
-      "GloFish Dragon Aquarium Ornament",
       "Nature's Recipe Culinary Favorites Stew Recipe with Real White Meat Chicken & Garden Vegetables in Gravy Wet Cat Food, 2.75-oz, case of 24",
       "As Seen on TV Kitty Shack 2 in 1 Cat Bed & Mat",
-      "Soos Pets Waterless Pet Bath Mousse"
+      "Derby Originals Reflective Horse Fly Mask"
     ],
     "ConfidenceScore": 0.0,
-    "confidence_score": 0.48333333333333334
+    "confidence_score": 0.48333333333333334,
+    "name": "sugar"
   },
   "cust_confidence_score": 0.575
 }

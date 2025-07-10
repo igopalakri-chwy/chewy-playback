@@ -1,0 +1,153 @@
+{
+  "Harley (James) Davidson": {
+    "customer_id": "5025337",
+    "pet_name": "Harley (James) Davidson",
+    "prediction_timestamp": "2025-07-10T14:05:36.359855",
+    "breed_distribution": {
+      "goldenRetriever": 20.0,
+      "labradorRetriever": 20.0,
+      "germanShepherd": 20.0,
+      "boxer": 20.0,
+      "beagle": 20.0
+    },
+    "confidence": {
+      "score": 20,
+      "level": "Low",
+      "reliability_flags": [
+        "LLM prediction failed"
+      ],
+      "recommendations": [
+        "Consider manual breed assessment"
+      ]
+    },
+    "explanations": {},
+    "pet_profile_used": {
+      "age": "A",
+      "size": "XS",
+      "gender": "MALE",
+      "order_count": 36,
+      "health_indicators": [
+        "Loves food",
+        "Has food allergies",
+        "Enjoys variety in flavors",
+        "Prefers soft food"
+      ]
+    },
+    "top_predicted_breed": {
+      "breed": "goldenRetriever",
+      "percentage": 20.0
+    }
+  },
+  "The Princess Monaco": {
+    "customer_id": "5025337",
+    "pet_name": "The Princess Monaco",
+    "prediction_timestamp": "2025-07-10T14:05:40.240746",
+    "breed_distribution": {
+      "goldenRetriever": 20.0,
+      "labradorRetriever": 20.0,
+      "germanShepherd": 20.0,
+      "boxer": 20.0,
+      "beagle": 20.0
+    },
+    "confidence": {
+      "score": 20,
+      "level": "Low",
+      "reliability_flags": [
+        "LLM prediction failed"
+      ],
+      "recommendations": [
+        "Consider manual breed assessment"
+      ]
+    },
+    "explanations": {},
+    "pet_profile_used": {
+      "age": "S",
+      "size": "XS",
+      "gender": "FMLE",
+      "order_count": 36,
+      "health_indicators": [
+        "Loves Food",
+        "Sensitive to Certain Foods",
+        "Uses Wee-Wee Pads"
+      ]
+    },
+    "top_predicted_breed": {
+      "breed": "goldenRetriever",
+      "percentage": 20.0
+    }
+  },
+  "Venison": {
+    "customer_id": "5025337",
+    "pet_name": "Venison",
+    "prediction_timestamp": "2025-07-10T14:05:43.822304",
+    "breed_distribution": {
+      "goldenRetriever": 20.0,
+      "labradorRetriever": 20.0,
+      "germanShepherd": 20.0,
+      "boxer": 20.0,
+      "beagle": 20.0
+    },
+    "confidence": {
+      "score": 20,
+      "level": "Low",
+      "reliability_flags": [
+        "LLM prediction failed"
+      ],
+      "recommendations": [
+        "Consider manual breed assessment"
+      ]
+    },
+    "explanations": {},
+    "pet_profile_used": {
+      "age": "A",
+      "size": "XS",
+      "gender": "MALE",
+      "order_count": 36,
+      "health_indicators": [
+        "Food Lover",
+        "Likes Variety in Food"
+      ]
+    },
+    "top_predicted_breed": {
+      "breed": "goldenRetriever",
+      "percentage": 20.0
+    }
+  },
+  "Turkey": {
+    "customer_id": "5025337",
+    "pet_name": "Turkey",
+    "prediction_timestamp": "2025-07-10T14:05:47.702760",
+    "breed_distribution": {
+      "goldenRetriever": 20.0,
+      "labradorRetriever": 20.0,
+      "germanShepherd": 20.0,
+      "boxer": 20.0,
+      "beagle": 20.0
+    },
+    "confidence": {
+      "score": 20,
+      "level": "Low",
+      "reliability_flags": [
+        "LLM prediction failed"
+      ],
+      "recommendations": [
+        "Consider manual breed assessment"
+      ]
+    },
+    "explanations": {},
+    "pet_profile_used": {
+      "age": "A",
+      "size": "XS",
+      "gender": "MALE",
+      "order_count": 36,
+      "health_indicators": [
+        "UNK",
+        "UNK"
+      ]
+    },
+    "top_predicted_breed": {
+      "breed": "goldenRetriever",
+      "percentage": 20.0
+    }
+  }
+}

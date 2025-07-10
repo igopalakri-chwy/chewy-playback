@@ -17,10 +17,11 @@ from typing import Dict, List, Any, Optional
 import pandas as pd
 
 # Add agent directories to path
-sys.path.append('Agents/Review_and_Order_Intelligence_Agent')
-sys.path.append('Agents/Narrative_Generation_Agent')
-sys.path.append('Agents/Image_Generation_Agent')
-sys.path.append('Agents/Breed_Predictor_Agent')
+current_dir = Path(__file__).parent
+sys.path.append(str(current_dir / 'Agents/Review_and_Order_Intelligence_Agent'))
+sys.path.append(str(current_dir / 'Agents/Narrative_Generation_Agent'))
+sys.path.append(str(current_dir / 'Agents/Image_Generation_Agent'))
+sys.path.append(str(current_dir / 'Agents/Breed_Predictor_Agent'))
 
 from review_order_intelligence_agent import ReviewOrderIntelligenceAgent
 from pet_letter_llm_system import PetLetterLLMSystem
@@ -550,28 +551,32 @@ class ChewyPlaybackPipeline:
         """Preprocess the raw CSV data for the agents."""
         print("🔄 Preprocessing data...")
         
-        # Check if preprocessed files exist
-        preprocessed_order_path = "Agents/Review_and_Order_Intelligence_Agent/processed_orderhistory.csv"
-        preprocessed_review_path = "Agents/Review_and_Order_Intelligence_Agent/processed_qualifyingreviews.csv"
+        # Get the current directory (Final_Pipeline)
+        current_dir = Path(__file__).parent
         
-        if not (os.path.exists(preprocessed_order_path) and os.path.exists(preprocessed_review_path)):
+        # Check if preprocessed files exist
+        preprocessed_order_path = current_dir / "Agents/Review_and_Order_Intelligence_Agent/processed_orderhistory.csv"
+        preprocessed_review_path = current_dir / "Agents/Review_and_Order_Intelligence_Agent/processed_qualifyingreviews.csv"
+        
+        if not (preprocessed_order_path.exists() and preprocessed_review_path.exists()):
             print("📊 Running data preprocessing...")
             import subprocess
             
             # Run the preprocessing script from the agent directory
-            agent_dir = "Agents/Review_and_Order_Intelligence_Agent"
+            agent_dir = current_dir / "Agents/Review_and_Order_Intelligence_Agent"
             subprocess.run([
                 sys.executable, 
                 "preprocess_data.py"
-            ], cwd=agent_dir, check=True)
+            ], cwd=str(agent_dir), check=True)
         else:
             print("✅ Preprocessed data already exists")
     
     def _check_customer_has_reviews(self, customer_id: str) -> bool:
         """Check if a customer has any reviews."""
         try:
-            reviews_path = "Agents/Review_and_Order_Intelligence_Agent/processed_qualifyingreviews.csv"
-            if not os.path.exists(reviews_path):
+            current_dir = Path(__file__).parent
+            reviews_path = current_dir / "Agents/Review_and_Order_Intelligence_Agent/processed_qualifyingreviews.csv"
+            if not reviews_path.exists():
                 return False
             
             reviews_df = pd.read_csv(reviews_path)
@@ -658,9 +663,10 @@ class ChewyPlaybackPipeline:
     def _run_review_agent_for_customer(self, customer_id: str) -> Dict[str, Any]:
         """Run the Review and Order Intelligence Agent for a specific customer."""
         # Load preprocessed data
+        current_dir = Path(__file__).parent
         success = self.review_agent.load_data(
-            order_history_path="Agents/Review_and_Order_Intelligence_Agent/processed_orderhistory.csv",
-            qualifying_reviews_path="Agents/Review_and_Order_Intelligence_Agent/processed_qualifyingreviews.csv"
+            order_history_path=str(current_dir / "Agents/Review_and_Order_Intelligence_Agent/processed_orderhistory.csv"),
+            qualifying_reviews_path=str(current_dir / "Agents/Review_and_Order_Intelligence_Agent/processed_qualifyingreviews.csv")
         )
         
         if not success:
@@ -720,7 +726,8 @@ class ChewyPlaybackPipeline:
         """Run the Order Intelligence Agent for a specific customer."""
         # First try zero_reviews.csv as it has the most detailed pet information
         print(f"    🔍 Trying zero_reviews.csv first for detailed pet information...")
-        success = self.order_agent.load_data("Data/zero_reviews.csv")
+        current_dir = Path(__file__).parent
+        success = self.order_agent.load_data(str(current_dir / "Data/zero_reviews.csv"))
         
         if success:
             # Process the customer from zero_reviews.csv
@@ -732,7 +739,7 @@ class ChewyPlaybackPipeline:
         
         # If customer not found in zero_reviews.csv, try Data directory's processed_orderhistory.csv
         print(f"    🔍 Customer {customer_id} not found in zero_reviews.csv, trying Data/processed_orderhistory.csv...")
-        success = self.order_agent.load_data("Data/processed_orderhistory.csv")
+        success = self.order_agent.load_data(str(current_dir / "Data/processed_orderhistory.csv"))
         
         if not success:
             print(f"    ❌ Failed to load Data/processed_orderhistory.csv data")
@@ -747,7 +754,7 @@ class ChewyPlaybackPipeline:
         
         # If customer not found in either file, try main order history (Agents directory)
         print(f"    🔍 Customer {customer_id} not found in Data files, trying main order history...")
-        success = self.order_agent.load_data("Agents/Review_and_Order_Intelligence_Agent/processed_orderhistory.csv")
+        success = self.order_agent.load_data(str(current_dir / "Agents/Review_and_Order_Intelligence_Agent/processed_orderhistory.csv"))
         
         if not success:
             print(f"    ❌ Failed to load main order history data")
@@ -867,8 +874,9 @@ class ChewyPlaybackPipeline:
         """Get review data for a specific customer."""
         try:
             import pandas as pd
-            reviews_path = "Agents/Review_and_Order_Intelligence_Agent/processed_qualifyingreviews.csv"
-            if not os.path.exists(reviews_path):
+            current_dir = Path(__file__).parent
+            reviews_path = current_dir / "Agents/Review_and_Order_Intelligence_Agent/processed_qualifyingreviews.csv"
+            if not reviews_path.exists():
                 return []
             
             reviews_df = pd.read_csv(reviews_path)
@@ -903,10 +911,11 @@ class ChewyPlaybackPipeline:
             import pandas as pd
             
             # Try different order history files
+            current_dir = Path(__file__).parent
             order_files = [
-                "Data/zero_reviews.csv",
-                "Data/processed_orderhistory.csv",
-                "Agents/Review_and_Order_Intelligence_Agent/processed_orderhistory.csv"
+                str(current_dir / "Data/zero_reviews.csv"),
+                str(current_dir / "Data/processed_orderhistory.csv"),
+                str(current_dir / "Agents/Review_and_Order_Intelligence_Agent/processed_orderhistory.csv")
             ]
             
             for order_file in order_files:

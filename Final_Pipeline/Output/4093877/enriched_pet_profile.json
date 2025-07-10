@@ -1,4 +1,90 @@
 {
+  "Shaomaomi (Loving Kitty)": {
+    "PetName": "Shaomaomi (Loving Kitty)",
+    "PetType": "Cat",
+    "PetTypeScore": 1.0,
+    "Breed": "Other",
+    "BreedScore": 1.0,
+    "LifeStage": "UNK",
+    "LifeStageScore": 0.0,
+    "Gender": "UNK",
+    "GenderScore": 0.0,
+    "SizeCategory": "UNK",
+    "SizeScore": 0.0,
+    "Weight": "UNK",
+    "WeightScore": 0.0,
+    "PersonalityTraits": [
+      "Finicky Eater",
+      "Smart",
+      "Sensitive Stomach"
+    ],
+    "PersonalityScores": {
+      "Finicky Eater": 0.9,
+      "Smart": 0.7,
+      "Sensitive Stomach": 0.7
+    },
+    "FavoriteProductCategories": [
+      "Cat Food",
+      "Cat Toys"
+    ],
+    "CategoryScores": {
+      "Cat Food": 1.0,
+      "Cat Toys": 0.8
+    },
+    "BrandPreferences": [
+      "Blue Buffalo",
+      "Nulo FreeStyle",
+      "Halo Holistic"
+    ],
+    "BrandScores": {
+      "Blue Buffalo": 0.9,
+      "Nulo FreeStyle": 0.8,
+      "Halo Holistic": 0.7
+    },
+    "DietaryPreferences": [
+      "Fish & Potato Recipe Grain-Free Dry Cat Food",
+      "Chicken in Broth Cat Food Topper",
+      "Holistic Grain-Free Wild-Caught Salmon & Whitefish Recipe Complete Digestive Health Dry Kitten Food"
+    ],
+    "DietaryScores": {
+      "Fish & Potato Recipe Grain-Free Dry Cat Food": 0.9,
+      "Chicken in Broth Cat Food Topper": 0.8,
+      "Holistic Grain-Free Wild-Caught Salmon & Whitefish Recipe Complete Digestive Health Dry Kitten Food": 0.7
+    },
+    "BehavioralCues": [
+      "Hides when approached",
+      "Cleans plate at meals",
+      "Prefers food in pate form"
+    ],
+    "BehavioralScores": {
+      "Hides when approached": 0.7,
+      "Cleans plate at meals": 0.9,
+      "Prefers food in pate form": 0.8
+    },
+    "HealthMentions": [
+      "No UTI problems",
+      "Sensitive Stomach",
+      "Diabetic"
+    ],
+    "HealthScores": {
+      "No UTI problems": 0.9,
+      "Sensitive Stomach": 0.9,
+      "Diabetic": 0.7
+    },
+    "MostOrderedProducts": [
+      "K&H Pet Products EZ Mount Window Track n' Roll Interactive Cat Toy",
+      "Microbe-Lift Soy-Based Birdbath & Statuary Cleaner",
+      "Blue Buffalo Basics Fish & Potato Recipe Grain-Free Dry Cat Food, 11-lb bag",
+      "Kaytee Small Animal Potty Litter",
+      "X - Necoichi Chirimen Hanabi Fireworks Cat Collar",
+      "Nulo FreeStyle Chicken in Broth Cat Food Topper",
+      "Signature Housewares Animal Prints Cat Bowl, Tiger, Extra Small Bowl",
+      "Halo Holistic Grain-Free Wild-Caught Salmon & Whitefish Recipe Complete Digestive Health Dry Kitten Food, 3-lb bag"
+    ],
+    "ConfidenceScore": 0.0,
+    "confidence_score": 0.3333333333333333,
+    "name": "Shaomaomi (Loving Kitty)"
+  },
   "Tuxedo": {
     "PetName": "Tuxedo",
     "PetType": "Cat",
@@ -14,11 +100,11 @@
     "Weight": "UNK",
     "WeightScore": 0.0,
     "PersonalityTraits": [
-      "Finicky Eater",
+      "Finicky",
       "Smart"
     ],
     "PersonalityScores": {
-      "Finicky Eater": 1.0,
+      "Finicky": 1.0,
       "Smart": 0.7
     },
     "FavoriteProductCategories": [
@@ -49,11 +135,11 @@
     },
     "BehavioralCues": [
       "Hides when approached",
-      "Cleans plate after meals"
+      "Eats only when food is to their liking"
     ],
     "BehavioralScores": {
-      "Hides when approached": 0.7,
-      "Cleans plate after meals": 1.0
+      "Hides when approached": 0.8,
+      "Eats only when food is to their liking": 1.0
     },
     "HealthMentions": [
       "Sensitive Stomach",
@@ -74,88 +160,8 @@
       "Halo Holistic Grain-Free Wild-Caught Salmon & Whitefish Recipe Complete Digestive Health Dry Kitten Food, 3-lb bag"
     ],
     "ConfidenceScore": 0.0,
-    "confidence_score": 0.5
-  },
-  "Shaomaomi (Loving Kitty)": {
-    "PetName": "Shaomaomi (Loving Kitty)",
-    "PetType": "Cat",
-    "PetTypeScore": 1.0,
-    "Breed": "Other",
-    "BreedScore": 1.0,
-    "LifeStage": "UNK",
-    "LifeStageScore": 0.0,
-    "Gender": "UNK",
-    "GenderScore": 0.0,
-    "SizeCategory": "UNK",
-    "SizeScore": 0.0,
-    "Weight": "UNK",
-    "WeightScore": 0.0,
-    "PersonalityTraits": [
-      "Finicky Eater",
-      "Smart",
-      "Likes Soft Food"
-    ],
-    "PersonalityScores": {
-      "Finicky Eater": 1.0,
-      "Smart": 0.7,
-      "Likes Soft Food": 0.9
-    },
-    "FavoriteProductCategories": [
-      "Cat Food",
-      "Cat Toys"
-    ],
-    "CategoryScores": {
-      "Cat Food": 1.0,
-      "Cat Toys": 0.8
-    },
-    "BrandPreferences": [
-      "Blue Buffalo",
-      "Nulo FreeStyle"
-    ],
-    "BrandScores": {
-      "Blue Buffalo": 1.0,
-      "Nulo FreeStyle": 0.8
-    },
-    "DietaryPreferences": [
-      "Fish & Potato Recipe Grain-Free Dry Cat Food",
-      "Chicken in Broth Cat Food Topper",
-      "Soft Chews"
-    ],
-    "DietaryScores": {
-      "Fish & Potato Recipe Grain-Free Dry Cat Food": 1.0,
-      "Chicken in Broth Cat Food Topper": 0.8,
-      "Soft Chews": 0.7
-    },
-    "BehavioralCues": [
-      "Hides when approached",
-      "Cleans plate at meals"
-    ],
-    "BehavioralScores": {
-      "Hides when approached": 0.8,
-      "Cleans plate at meals": 1.0
-    },
-    "HealthMentions": [
-      "Sensitive Stomach",
-      "Diabetic",
-      "Damaged Teeth"
-    ],
-    "HealthScores": {
-      "Sensitive Stomach": 0.8,
-      "Diabetic": 0.7,
-      "Damaged Teeth": 0.9
-    },
-    "MostOrderedProducts": [
-      "K&H Pet Products EZ Mount Window Track n' Roll Interactive Cat Toy",
-      "Microbe-Lift Soy-Based Birdbath & Statuary Cleaner",
-      "Blue Buffalo Basics Fish & Potato Recipe Grain-Free Dry Cat Food, 11-lb bag",
-      "Kaytee Small Animal Potty Litter",
-      "X - Necoichi Chirimen Hanabi Fireworks Cat Collar",
-      "Nulo FreeStyle Chicken in Broth Cat Food Topper",
-      "Signature Housewares Animal Prints Cat Bowl, Tiger, Extra Small Bowl",
-      "Halo Holistic Grain-Free Wild-Caught Salmon & Whitefish Recipe Complete Digestive Health Dry Kitten Food, 3-lb bag"
-    ],
-    "ConfidenceScore": 0.0,
-    "confidence_score": 0.3333333333333333
+    "confidence_score": 0.5,
+    "name": "Tuxedo"
   },
   "cust_confidence_score": 0.41666666666666663
 }

@@ -14,12 +14,10 @@
     "Weight": "UNK",
     "WeightScore": 0.0,
     "PersonalityTraits": [
-      "Finicky",
-      "Happy"
+      "Finicky"
     ],
     "PersonalityScores": {
-      "Finicky": 0.7,
-      "Happy": 0.8
+      "Finicky": 0.7
     },
     "FavoriteProductCategories": [
       "Cat Food",
@@ -31,41 +29,41 @@
     },
     "BrandPreferences": [
       "Blue Buffalo",
-      "SmartyKat",
-      "BFF"
+      "BFF",
+      "SmartyKat"
     ],
     "BrandScores": {
-      "Blue Buffalo": 0.9,
-      "SmartyKat": 0.8,
-      "BFF": 0.7
+      "Blue Buffalo": 0.8,
+      "BFF": 0.7,
+      "SmartyKat": 0.9
     },
     "DietaryPreferences": [
       "Pate Style",
-      "High-Protein",
-      "Grain-Free"
+      "Low Phosphate"
     ],
     "DietaryScores": {
-      "Pate Style": 0.9,
-      "High-Protein": 0.8,
-      "Grain-Free": 0.8
+      "Pate Style": 0.8,
+      "Low Phosphate": 0.7
     },
     "BehavioralCues": [
       "Eats from hand",
-      "Likes variety"
+      "Happy to eat"
     ],
     "BehavioralScores": {
-      "Eats from hand": 0.7,
-      "Likes variety": 0.8
+      "Eats from hand": 0.8,
+      "Happy to eat": 0.9
     },
     "HealthMentions": [
-      "Good joint health"
+      "Good Joint Health"
     ],
     "HealthScores": {
-      "Good joint health": 0.8
+      "Good Joint Health": 0.8
     },
     "MostOrderedProducts": [
       "SmartyKat Felty Fun Balls Cat Toys",
       "Blue Buffalo Wilderness Chicken High-Protein Grain-Free Pate Adult Wet Cat Food",
+      "Nature's Miracle Cat Enzymatic Stain Remover & Odor Eliminator Refill",
+      "TRIXIE Playground Wall Mounted Cat Shelves",
       "BFF Play Pate Lovers Beef & Tuna Ta Da Wet Cat Food"
     ],
     "ConfidenceScore": 0.0,
@@ -88,11 +86,13 @@
     "WeightScore": 0.0,
     "PersonalityTraits": [
       "Finicky",
-      "Excited about eating"
+      "Excited about eating",
+      "Likes to chew bones"
     ],
     "PersonalityScores": {
-      "Finicky": 0.7,
-      "Excited about eating": 0.8
+      "Finicky": 0.8,
+      "Excited about eating": 0.9,
+      "Likes to chew bones": 0.7
     },
     "FavoriteProductCategories": [
       "Dog Food",
@@ -100,37 +100,53 @@
       "Dog Nail Caps"
     ],
     "CategoryScores": {
-      "Dog Food": 0.8,
-      "Dog Treats": 0.7,
-      "Dog Nail Caps": 0.6
+      "Dog Food": 0.9,
+      "Dog Treats": 0.8,
+      "Dog Nail Caps": 0.7
     },
     "BrandPreferences": [
+      "Equilite Herbals",
+      "Nature's Miracle",
       "Purrdy Paws",
       "Merrick",
-      "Nutro Ultra"
+      "Nutro Ultra",
+      "Found My Animal",
+      "Pure Water Pebbles",
+      "Bil Jac"
     ],
     "BrandScores": {
-      "Purrdy Paws": 0.8,
-      "Merrick": 0.7,
-      "Nutro Ultra": 0.6
+      "Equilite Herbals": 0.9,
+      "Nature's Miracle": 0.8,
+      "Purrdy Paws": 0.7,
+      "Merrick": 0.6,
+      "Nutro Ultra": 0.5,
+      "Found My Animal": 0.4,
+      "Pure Water Pebbles": 0.3,
+      "Bil Jac": 0.2
     },
     "DietaryPreferences": [
-      "Chicken, Split Pea & Carrot Recipe"
+      "Chicken, Split Pea & Carrot Recipe Dry Dog Food",
+      "Mint Breath Strip Infused X-Small Dental Dog Treats"
     ],
     "DietaryScores": {
-      "Chicken, Split Pea & Carrot Recipe": 0.7
+      "Chicken, Split Pea & Carrot Recipe Dry Dog Food": 0.9,
+      "Mint Breath Strip Infused X-Small Dental Dog Treats": 0.8
     },
     "BehavioralCues": [
-      "Readily takes food from hand"
+      "Readily takes food from hand",
+      "No problems walking or moving quickly"
     ],
     "BehavioralScores": {
-      "Readily takes food from hand": 0.7
+      "Readily takes food from hand": 0.9,
+      "No problems walking or moving quickly": 0.8
     },
     "HealthMentions": [
-      "Good joint health"
+      "Helps his joints",
+      "No indigestion"
     ],
     "HealthScores": {
-      "Good joint health": 0.8
+      "Helps his joints": 0.9,
+      "No indigestion": 0.8
     },
     "MostOrderedProducts": [
       "Equilite Herbals RelaxHer Blend Calming Powder Horse Supplement, 2-lb tub",

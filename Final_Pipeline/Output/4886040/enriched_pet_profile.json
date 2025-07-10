@@ -1,4 +1,102 @@
 {
+  "Sophie": {
+    "PetName": "Sophie",
+    "PetType": "Dog",
+    "PetTypeScore": 1.0,
+    "Breed": "German Shepherd",
+    "BreedScore": 1.0,
+    "LifeStage": "A",
+    "LifeStageScore": 1.0,
+    "Gender": "FMLE",
+    "GenderScore": 1.0,
+    "SizeCategory": "L",
+    "SizeScore": 1.0,
+    "Weight": "UNK",
+    "WeightScore": 0.0,
+    "PersonalityTraits": [
+      "Playful",
+      "Teething",
+      "Learning"
+    ],
+    "PersonalityScores": {
+      "Playful": 0.9,
+      "Teething": 0.7,
+      "Learning": 0.8
+    },
+    "FavoriteProductCategories": [
+      "Dog Treats",
+      "Dog Bed",
+      "Dog Training Pads",
+      "Dog Collar",
+      "Dog Leash",
+      "Dog Food"
+    ],
+    "CategoryScores": {
+      "Dog Treats": 0.9,
+      "Dog Bed": 0.7,
+      "Dog Training Pads": 0.7,
+      "Dog Collar": 0.7,
+      "Dog Leash": 0.7,
+      "Dog Food": 0.8
+    },
+    "BrandPreferences": [
+      "BIXBI",
+      "Frisco",
+      "Four Paws",
+      "Sassy Dog Wear",
+      "Perri's",
+      "ZIWI",
+      "Doggie Stylz",
+      "FitPAWS"
+    ],
+    "BrandScores": {
+      "BIXBI": 0.9,
+      "Frisco": 0.7,
+      "Four Paws": 0.7,
+      "Sassy Dog Wear": 0.7,
+      "Perri's": 0.7,
+      "ZIWI": 0.8,
+      "Doggie Stylz": 0.6,
+      "FitPAWS": 0.6
+    },
+    "DietaryPreferences": [
+      "Beef Liver Recipe",
+      "Canned Dog Food"
+    ],
+    "DietaryScores": {
+      "Beef Liver Recipe": 0.9,
+      "Canned Dog Food": 0.8
+    },
+    "BehavioralCues": [
+      "Pulling on lead",
+      "Teething",
+      "Learning tricks"
+    ],
+    "BehavioralScores": {
+      "Pulling on lead": 0.8,
+      "Teething": 0.7,
+      "Learning tricks": 0.8
+    },
+    "HealthMentions": [
+      "Hip & Joint"
+    ],
+    "HealthScores": {
+      "Hip & Joint": 0.9
+    },
+    "MostOrderedProducts": [
+      "BIXBI Liberty Hip & Joint Beef Liver Recipe Jerky Dog Treats",
+      "Frisco Replacement Cover for Steel-Framed Elevated Dog Bed, Green, S:  28.3-in L x 22.4-in W, 1 count",
+      "Four Paws Wee-Wee Odor Control Dog Training Pads with Febreze Freshness, 22 x 23-in, 10 count",
+      "Sassy Dog Wear Multi Stripe Dog Collar, Pink, Medium",
+      "Perri's Havana Padded Leather Dog Leash, Snakeskin, Small",
+      "ZIWI Peak Beef Recipe Canned Dog Food, 13.75-oz can, case of 12",
+      "Doggie Stylz Service Dog Harness, Red, X-Small",
+      "FitPAWS Circular Product Holder, Grey"
+    ],
+    "ConfidenceScore": 0.0,
+    "confidence_score": 0.8333333333333334,
+    "name": "Sophie"
+  },
   "Two": {
     "PetName": "Two",
     "PetType": "Cat",
@@ -71,170 +169,8 @@
       "IRIS Scratch 'N Roll Cat Scratcher Toy with Catnip"
     ],
     "ConfidenceScore": 0.0,
-    "confidence_score": 0.6666666666666666
-  },
-  "Acd": {
-    "PetName": "Acd",
-    "PetType": "Cat",
-    "PetTypeScore": 1.0,
-    "Breed": "Other",
-    "BreedScore": 1.0,
-    "LifeStage": "A",
-    "LifeStageScore": 1.0,
-    "Gender": "FMLE",
-    "GenderScore": 1.0,
-    "SizeCategory": "UNK",
-    "SizeScore": 0,
-    "Weight": "UNK",
-    "WeightScore": 0,
-    "PersonalityTraits": [
-      "Likes Quality Snacks",
-      "Likes to Play"
-    ],
-    "PersonalityScores": {
-      "Likes Quality Snacks": 0.9,
-      "Likes to Play": 0.8
-    },
-    "FavoriteProductCategories": [
-      "Cat Food",
-      "Cat Toys"
-    ],
-    "CategoryScores": {
-      "Cat Food": 0.9,
-      "Cat Toys": 0.8
-    },
-    "BrandPreferences": [
-      "Wellness",
-      "Friskies",
-      "Nature's Variety"
-    ],
-    "BrandScores": {
-      "Wellness": 0.9,
-      "Friskies": 0.8,
-      "Nature's Variety": 0.8
-    },
-    "DietaryPreferences": [
-      "Quality Snacks",
-      "Beef & Liver Stew",
-      "Indoor Variety Pack"
-    ],
-    "DietaryScores": {
-      "Quality Snacks": 0.9,
-      "Beef & Liver Stew": 0.8,
-      "Indoor Variety Pack": 0.8
-    },
-    "BehavioralCues": [
-      "Likes to be Spoiled",
-      "Likes to Play with Toys"
-    ],
-    "BehavioralScores": {
-      "Likes to be Spoiled": 0.9,
-      "Likes to Play with Toys": 0.8
-    },
-    "HealthMentions": [
-      "UNK"
-    ],
-    "HealthScores": {
-      "UNK": 0
-    },
-    "MostOrderedProducts": [
-      "The Best Card Company Cat Assorted Thank You Cards",
-      "Innova Kitten Dry Cat Food",
-      "Nature's Variety Homestyle Prairie Beef & Liver Stew Canned Cat Food",
-      "Friskies Indoor Variety Pack Canned Cat Food",
-      "IRIS Scratch 'N Roll Cat Scratcher Toy with Catnip"
-    ],
-    "ConfidenceScore": 0.0,
-    "confidence_score": 0.6666666666666666
-  },
-  "Sophie": {
-    "PetName": "Sophie",
-    "PetType": "Dog",
-    "PetTypeScore": 1.0,
-    "Breed": "German Shepherd",
-    "BreedScore": 1.0,
-    "LifeStage": "A",
-    "LifeStageScore": 1.0,
-    "Gender": "Female",
-    "GenderScore": 0.9,
-    "SizeCategory": "L",
-    "SizeScore": 1.0,
-    "Weight": "UNK",
-    "WeightScore": 0.0,
-    "PersonalityTraits": [
-      "Playful",
-      "Teething",
-      "Learning"
-    ],
-    "PersonalityScores": {
-      "Playful": 0.9,
-      "Teething": 0.8,
-      "Learning": 0.8
-    },
-    "FavoriteProductCategories": [
-      "Dog Treats",
-      "Dog Bed",
-      "Dog Training Pads",
-      "Dog Collar",
-      "Dog Leash",
-      "Dog Food"
-    ],
-    "CategoryScores": {
-      "Dog Treats": 0.9,
-      "Dog Bed": 0.8,
-      "Dog Training Pads": 0.8,
-      "Dog Collar": 0.8,
-      "Dog Leash": 0.8,
-      "Dog Food": 0.9
-    },
-    "BrandPreferences": [
-      "BIXBI",
-      "Frisco",
-      "Four Paws",
-      "Sassy Dog Wear",
-      "Perri's",
-      "ZIWI Peak"
-    ],
-    "BrandScores": {
-      "BIXBI": 0.9,
-      "Frisco": 0.8,
-      "Four Paws": 0.8,
-      "Sassy Dog Wear": 0.8,
-      "Perri's": 0.8,
-      "ZIWI Peak": 0.9
-    },
-    "DietaryPreferences": [
-      "Beef Liver Recipe",
-      "Canned Food"
-    ],
-    "DietaryScores": {
-      "Beef Liver Recipe": 0.9,
-      "Canned Food": 0.8
-    },
-    "BehavioralCues": [
-      "Pulling on lead",
-      "Responds to behavior control"
-    ],
-    "BehavioralScores": {
-      "Pulling on lead": 0.8,
-      "Responds to behavior control": 0.9
-    },
-    "HealthMentions": [
-      "Teething"
-    ],
-    "HealthScores": {
-      "Teething": 0.8
-    },
-    "MostOrderedProducts": [
-      "BIXBI Liberty Hip & Joint Beef Liver Recipe Jerky Dog Treats",
-      "Frisco Replacement Cover for Steel-Framed Elevated Dog Bed",
-      "Four Paws Wee-Wee Odor Control Dog Training Pads with Febreze Freshness",
-      "Sassy Dog Wear Multi Stripe Dog Collar",
-      "Perri's Havana Padded Leather Dog Leash",
-      "ZIWI Peak Beef Recipe Canned Dog Food"
-    ],
-    "ConfidenceScore": 0.0,
-    "confidence_score": 0.8166666666666668
+    "confidence_score": 0.6666666666666666,
+    "name": "Two"
   },
   "Dewbert": {
     "PetName": "Dewbert",
@@ -247,9 +183,9 @@
     "Gender": "FMLE",
     "GenderScore": 1.0,
     "SizeCategory": "UNK",
-    "SizeScore": 0.0,
+    "SizeScore": 0,
     "Weight": "UNK",
-    "WeightScore": 0.0,
+    "WeightScore": 0,
     "PersonalityTraits": [
       "Playful",
       "Spoiled"
@@ -266,29 +202,27 @@
     "CategoryScores": {
       "Cat Food": 0.9,
       "Cat Toys": 0.8,
-      "Bird Toys": 0.6
+      "Bird Toys": 0.7
     },
     "BrandPreferences": [
+      "Wellness",
       "Innova",
-      "TropiClean",
-      "Nature's Variety",
       "Friskies"
     ],
     "BrandScores": {
+      "Wellness": 0.9,
       "Innova": 0.8,
-      "TropiClean": 0.7,
-      "Nature's Variety": 0.7,
-      "Friskies": 0.6
+      "Friskies": 0.7
     },
     "DietaryPreferences": [
-      "Quality Snacks",
+      "Quality Snack",
       "Beef & Liver Stew",
       "Indoor Variety Pack"
     ],
     "DietaryScores": {
-      "Quality Snacks": 0.8,
-      "Beef & Liver Stew": 0.7,
-      "Indoor Variety Pack": 0.6
+      "Quality Snack": 0.9,
+      "Beef & Liver Stew": 0.8,
+      "Indoor Variety Pack": 0.7
     },
     "BehavioralCues": [
       "Teething",
@@ -296,13 +230,13 @@
     ],
     "BehavioralScores": {
       "Teething": 0.7,
-      "Behavior Control": 0.8
+      "Behavior Control": 0.9
     },
     "HealthMentions": [
       "UNK"
     ],
     "HealthScores": {
-      "UNK": 0.0
+      "UNK": 0
     },
     "MostOrderedProducts": [
       "The Best Card Company Cat Assorted Thank You Cards",
@@ -317,7 +251,77 @@
       "IRIS Scratch 'N Roll Cat Scratcher Toy with Catnip"
     ],
     "ConfidenceScore": 0.0,
-    "confidence_score": 0.6666666666666666
+    "confidence_score": 0.6666666666666666,
+    "name": "Dewbert"
   },
-  "cust_confidence_score": 0.7041666666666666
+  "Acd": {
+    "PetName": "Acd",
+    "PetType": "Cat",
+    "PetTypeScore": 1.0,
+    "Breed": "Other",
+    "BreedScore": 1.0,
+    "LifeStage": "A",
+    "LifeStageScore": 1.0,
+    "Gender": "FMLE",
+    "GenderScore": 1.0,
+    "SizeCategory": "UNK",
+    "SizeScore": 0,
+    "Weight": "UNK",
+    "WeightScore": 0,
+    "PersonalityTraits": [
+      "Spoiled",
+      "Entertained"
+    ],
+    "PersonalityScores": {
+      "Spoiled": 0.8,
+      "Entertained": 0.8
+    },
+    "FavoriteProductCategories": [
+      "Cat Food",
+      "Cat Toys"
+    ],
+    "CategoryScores": {
+      "Cat Food": 0.9,
+      "Cat Toys": 0.8
+    },
+    "BrandPreferences": [
+      "Wellness",
+      "Innova",
+      "Friskies"
+    ],
+    "BrandScores": {
+      "Wellness": 0.8,
+      "Innova": 0.7,
+      "Friskies": 0.7
+    },
+    "DietaryPreferences": [
+      "Quality Snack",
+      "Beef & Liver Stew",
+      "Indoor Variety Pack"
+    ],
+    "DietaryScores": {
+      "Quality Snack": 0.8,
+      "Beef & Liver Stew": 0.7,
+      "Indoor Variety Pack": 0.7
+    },
+    "BehavioralCues": [
+      "Teething"
+    ],
+    "BehavioralScores": {
+      "Teething": 0.7
+    },
+    "HealthMentions": [],
+    "HealthScores": {},
+    "MostOrderedProducts": [
+      "The Best Card Company Cat Assorted Thank You Cards",
+      "Innova Kitten Dry Cat Food",
+      "Nature's Variety Homestyle Prairie Beef & Liver Stew Canned Cat Food",
+      "Friskies Indoor Variety Pack Canned Cat Food",
+      "IRIS Scratch 'N Roll Cat Scratcher Toy with Catnip"
+    ],
+    "ConfidenceScore": 0.0,
+    "confidence_score": 0.6666666666666666,
+    "name": "Acd"
+  },
+  "cust_confidence_score": 0.7083333333333333
 }

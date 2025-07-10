@@ -85,22 +85,49 @@ class UnknownsAnalyzer:
             'unknown_dicts': []
         }
         
+        # Fields to exclude from unknown analysis
+        excluded_fields = {
+            'MostOrderedProducts', 'DietaryPreferences', 'HealthMentions', 
+            'BrandPreferences', 'PersonalityTraits', 'FavoriteProductCategories',
+            'BehavioralCues'
+        }
+        
+        # Score fields to exclude from unknown analysis
+        excluded_score_fields = {
+            'PersonalityScores', 'CategoryScores', 'BrandScores', 
+            'DietaryScores', 'BehavioralScores', 'HealthScores'
+        }
+        
         for field_name, field_value in pet_data.items():
-            # Check for "UNK" values
+            # Skip excluded fields
+            if field_name in excluded_fields:
+                continue
+                
+            # Check for "UNK" values (but include Breed even if it's Mixed/Unknown or Other)
             if field_value == "UNK":
-                pet_unknowns['unknown_fields'].append(field_name)
+                # Special handling for Breed - include it even if it's Mixed/Unknown or Other
+                if field_name == "Breed":
+                    pet_unknowns['unknown_fields'].append(field_name)
+                else:
+                    pet_unknowns['unknown_fields'].append(field_name)
             
             # Check for score fields that are 0.0 (indicating unknown)
             elif field_name.endswith('Score') and isinstance(field_value, (int, float)) and field_value == 0.0:
-                pet_unknowns['unknown_scores'].append(field_name)
+                # Skip excluded score fields
+                if field_name not in excluded_score_fields:
+                    pet_unknowns['unknown_scores'].append(field_name)
             
             # Check for empty lists (might indicate unknown preferences)
             elif isinstance(field_value, list) and len(field_value) == 0:
-                pet_unknowns['unknown_lists'].append(field_name)
+                # Skip excluded list fields
+                if field_name not in excluded_fields:
+                    pet_unknowns['unknown_lists'].append(field_name)
             
             # Check for empty dictionaries (might indicate unknown preferences)
             elif isinstance(field_value, dict) and len(field_value) == 0:
-                pet_unknowns['unknown_dicts'].append(field_name)
+                # Skip excluded dict fields
+                if field_name not in excluded_score_fields:
+                    pet_unknowns['unknown_dicts'].append(field_name)
         
         # Only return if there are unknowns
         if (pet_unknowns['unknown_fields'] or pet_unknowns['unknown_scores'] or 

@@ -11,7 +11,7 @@
     "GenderScore": 0.9,
     "SizeCategory": "unknown",
     "SizeScore": 0.9,
-    "Weight": "60-80 lbs",
+    "Weight": "50-70 lbs",
     "WeightScore": 0.6,
     "PersonalityTraits": [
       "playful",
@@ -21,7 +21,7 @@
     "PersonalityScores": {
       "playful": 0.7,
       "curious": 0.6,
-      "affectionate": 0.7
+      "affectionate": 0.8
     },
     "FavoriteProductCategories": [
       "food",
@@ -42,11 +42,9 @@
       "Educator By E-Collar Technologies": 0.7
     },
     "DietaryPreferences": [
-      "chicken-based",
       "balanced diet"
     ],
     "DietaryScores": {
-      "chicken-based": 0.8,
       "balanced diet": 0.7
     },
     "BehavioralCues": [
@@ -84,7 +82,7 @@
     "GenderScore": 0.9,
     "SizeCategory": "extra small",
     "SizeScore": 0.9,
-    "Weight": "60-80 lbs",
+    "Weight": "50-70 lbs",
     "WeightScore": 0.6,
     "PersonalityTraits": [
       "playful",
@@ -94,7 +92,7 @@
     "PersonalityScores": {
       "playful": 0.7,
       "curious": 0.6,
-      "affectionate": 0.7
+      "affectionate": 0.8
     },
     "FavoriteProductCategories": [
       "food",
@@ -115,11 +113,9 @@
       "Educator By E-Collar Technologies": 0.7
     },
     "DietaryPreferences": [
-      "chicken-based",
       "balanced diet"
     ],
     "DietaryScores": {
-      "chicken-based": 0.8,
       "balanced diet": 0.7
     },
     "BehavioralCues": [

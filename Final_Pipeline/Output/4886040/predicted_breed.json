@@ -1,0 +1,43 @@
+{
+  "Sophie": {
+    "customer_id": "4886040",
+    "pet_name": "Sophie",
+    "prediction_timestamp": "2025-07-10T14:05:31.029045",
+    "breed_distribution": {
+      "goldenRetriever": 20.0,
+      "labradorRetriever": 20.0,
+      "germanShepherd": 20.0,
+      "boxer": 20.0,
+      "beagle": 20.0
+    },
+    "confidence": {
+      "score": 20,
+      "level": "Low",
+      "reliability_flags": [
+        "LLM prediction failed"
+      ],
+      "recommendations": [
+        "Consider manual breed assessment"
+      ]
+    },
+    "explanations": {},
+    "pet_profile_used": {
+      "age": "A",
+      "size": "L",
+      "gender": "FMLE",
+      "order_count": 78,
+      "health_indicators": [
+        "Playful",
+        "Teething",
+        "Learning",
+        "Pulling on lead",
+        "Teething",
+        "Learning tricks"
+      ]
+    },
+    "top_predicted_breed": {
+      "breed": "goldenRetriever",
+      "percentage": 20.0
+    }
+  }
+}

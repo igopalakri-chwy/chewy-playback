@@ -10,8 +10,8 @@ import os
 import pandas as pd
 from pathlib import Path
 
-# Add the current directory to the path so we can import the pipeline
-sys.path.append(str(Path(__file__).parent))
+# Add the Final_Pipeline directory to the path so we can import the pipeline
+sys.path.append(str(Path(__file__).parent / "Final_Pipeline"))
 
 from chewy_playback_pipeline import ChewyPlaybackPipeline
 
@@ -20,9 +20,9 @@ def get_first_10_customers():
     """Get the first 10 customer IDs from the order history data."""
     try:
         # Load order history data
-        order_data_path = Path("Data/order_history.csv")
+        order_data_path = Path("Final_Pipeline/Data/order_history.csv")
         if not order_data_path.exists():
-            print("❌ Order history file not found. Please ensure Data/order_history.csv exists.")
+            print("❌ Order history file not found. Please ensure Final_Pipeline/Data/order_history.csv exists.")
             return []
         
         df = pd.read_csv(order_data_path)
@@ -68,14 +68,14 @@ def main():
         
         print(f"\n✅ Pipeline completed for {len(customer_ids)} customers")
         print("🎯 Confidence scores were automatically calculated as part of the pipeline")
-        print(f"\n📁 Check the 'Output' directory for results")
+        print(f"\n📁 Check the 'Final_Pipeline/Output' directory for results")
         
         # Print results summary
         print("\n📊 Results Summary:")
         for customer_id in customer_ids:
-            output_dir = Path("Output") / customer_id
+            output_dir = Path("Final_Pipeline/Output") / customer_id
             if output_dir.exists():
-                print(f"  ✅ {customer_id}: Results saved to Output/{customer_id}/")
+                print(f"  ✅ {customer_id}: Results saved to Final_Pipeline/Output/{customer_id}/")
             else:
                 print(f"  ❌ {customer_id}: No results generated")
         

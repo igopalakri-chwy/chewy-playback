@@ -2,7 +2,7 @@
   "Chompie": {
     "customer_id": "4760852",
     "pet_name": "Chompie",
-    "prediction_timestamp": "2025-07-10T11:29:31.462173",
+    "prediction_timestamp": "2025-07-10T14:05:26.932914",
     "breed_distribution": {
       "goldenRetriever": 20.0,
       "labradorRetriever": 20.0,
@@ -29,7 +29,9 @@
       "health_indicators": [
         "Finicky",
         "Excited about eating",
-        "Readily takes food from hand"
+        "Likes to chew bones",
+        "Readily takes food from hand",
+        "No problems walking or moving quickly"
       ]
     },
     "top_predicted_breed": {

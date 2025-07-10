@@ -1,0 +1,62 @@
+{
+  "customer_id": "4886040",
+  "unknown_attributes": {
+    "Sophie": {
+      "pet_name": "Sophie",
+      "unknown_fields": [
+        "Weight"
+      ],
+      "unknown_scores": [
+        "WeightScore",
+        "ConfidenceScore"
+      ],
+      "unknown_lists": [],
+      "unknown_dicts": []
+    },
+    "Two": {
+      "pet_name": "Two",
+      "unknown_fields": [
+        "SizeCategory",
+        "Weight"
+      ],
+      "unknown_scores": [
+        "SizeScore",
+        "WeightScore",
+        "ConfidenceScore"
+      ],
+      "unknown_lists": [],
+      "unknown_dicts": []
+    },
+    "Dewbert": {
+      "pet_name": "Dewbert",
+      "unknown_fields": [
+        "SizeCategory",
+        "Weight"
+      ],
+      "unknown_scores": [
+        "SizeScore",
+        "WeightScore",
+        "ConfidenceScore"
+      ],
+      "unknown_lists": [],
+      "unknown_dicts": []
+    },
+    "Acd": {
+      "pet_name": "Acd",
+      "unknown_fields": [
+        "SizeCategory",
+        "Weight"
+      ],
+      "unknown_scores": [
+        "SizeScore",
+        "WeightScore",
+        "ConfidenceScore"
+      ],
+      "unknown_lists": [],
+      "unknown_dicts": []
+    }
+  },
+  "total_unknowns": 18,
+  "pets_with_unknowns": 4,
+  "customer_confidence_score": 0.0
+}

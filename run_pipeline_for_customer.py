@@ -9,8 +9,8 @@ import sys
 import os
 from pathlib import Path
 
-# Add the current directory to the path so we can import the pipeline
-sys.path.append(str(Path(__file__).parent))
+# Add the Final_Pipeline directory to the path so we can import the pipeline
+sys.path.append(str(Path(__file__).parent / "Final_Pipeline"))
 
 from chewy_playback_pipeline import ChewyPlaybackPipeline
 
@@ -36,7 +36,7 @@ def main():
         
         print(f"\n✅ Pipeline completed for customer {customer_id}")
         print("🎯 Confidence scores were automatically calculated as part of the pipeline")
-        print(f"\n📁 Check the 'Output/{customer_id}' directory for results")
+        print(f"\n📁 Check the 'Final_Pipeline/Output/{customer_id}' directory for results")
         
     except Exception as e:
         print(f"\n❌ Pipeline failed: {e}")

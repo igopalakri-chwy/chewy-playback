@@ -1,10 +1,10 @@
 {
   "badge": "The Explorer",
   "compatible_with": [
-    "The Cuddler",
+    "The Athlete",
     "The Trickster",
-    "The Scholar"
+    "The Cuddler"
   ],
   "icon_png": "the_explorer.png",
-  "description": "This household is a vibrant mix of curiosity and playfulness, always ready for a new adventure or a fun play session."
+  "description": "This household is full of playful energy and curiosity, always up for new adventures and explorations, yet never missing out on a good snuggle."
 }

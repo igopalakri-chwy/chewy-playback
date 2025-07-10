@@ -11,30 +11,34 @@ The Final Pipeline automatically generates personalized pet content for Chewy cu
 - Creating DALL-E 3-optimized visual prompts
 - Assigning a household personality badge (with icon)
 - Generating collective pet portraits using AI
+- **NEW**: Unknowns analyzer that identifies missing pet attributes
 
 ## Key Features
 - **Automatic agent selection**: Uses review data if available, otherwise falls back to order-only analysis
 - **Unified narrative generation**: Short, collective letters and visual prompts for all pets
 - **Personality badge assignment**: Household badge with compatible types and icon
 - **Confidence scoring**: For each pet and customer
+- **Unknowns analysis**: Identifies missing pet attributes and creates customer-specific reports
 - **Robust error handling**: Graceful fallbacks and detailed logging
 
 ## Directory Structure
 
 ```
-Final_Pipeline/
-├── chewy_playback_pipeline.py          # Main unified pipeline
-├── run_pipeline_for_customer.py        # Run for a single customer
-├── run_pipeline_for_multiple_customers.py  # Run for multiple customers
-├── requirements.txt                    # Dependencies
-├── README.md                           # This file
-├── Agents/                             # Agent modules
-│   ├── Review_and_Order_Intelligence_Agent/  # For customers with reviews
-│   ├── Narrative_Generation_Agent/           # Letter & badge generation
-│   ├── Image_Generation_Agent/               # DALL-E image generation
-│   └── Breed_Predictor_Agent/                # Dog breed prediction
-├── Data/                               # Input data (order_history.csv, qualifying_reviews.csv)
-└── Output/                             # Results for each customer
+chewy-playback/
+├── run_pipeline_for_customer.py        # Run for a single customer (ROOT)
+├── run_pipeline_for_multiple_customers.py  # Run for multiple customers (ROOT)
+├── Final_Pipeline/                     # Main pipeline directory
+│   ├── chewy_playback_pipeline.py      # Main unified pipeline
+│   ├── requirements.txt                # Dependencies
+│   ├── README.md                       # Pipeline documentation
+│   ├── Agents/                         # Agent modules
+│   │   ├── Review_and_Order_Intelligence_Agent/  # For customers with reviews
+│   │   ├── Narrative_Generation_Agent/           # Letter & badge generation
+│   │   ├── Image_Generation_Agent/               # DALL-E image generation
+│   │   └── Breed_Predictor_Agent/                # Dog breed prediction
+│   ├── Data/                           # Input data (order_history.csv, qualifying_reviews.csv)
+│   └── Output/                         # Results for each customer
+└── README.md                           # This file
 ```
 
 ## Quick Start
@@ -54,7 +58,7 @@ export OPENAI_API_KEY="your-api-key-here"
 - `order_history.csv`
 - `qualifying_reviews.csv`
 
-4. **Run the pipeline:**
+4. **Run the pipeline from the root directory:**
 - For a single customer:
   ```bash
   python run_pipeline_for_customer.py 1183376
@@ -73,11 +77,20 @@ For each customer, the pipeline generates:
 - `[badge image].png` — Badge icon
 - `images/collective_pet_portrait.png` — AI-generated image
 - `predicted_breed.json` — Dog breed predictions (for unknown/mixed breeds only)
+- `unknowns.json` — Analysis of missing pet attributes (if any)
+
+## Unknowns Analysis
+The pipeline now includes an unknowns analyzer that:
+- Scans each customer's enriched profile for missing attributes
+- Creates a customer-specific `unknowns.json` file
+- Identifies missing core pet attributes (Breed, LifeStage, Gender, SizeCategory, Weight)
+- Excludes preference-based fields that may legitimately be empty
+- Provides detailed breakdowns by pet and attribute type
 
 ## Requirements
 - Python 3.8+
 - OpenAI API key
-- See `requirements.txt`
+- See `Final_Pipeline/requirements.txt`
 
 ## Support
 For issues or questions, please open an issue on the repository.

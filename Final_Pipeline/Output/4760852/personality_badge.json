@@ -1,10 +1,10 @@
 {
   "badge": "The Cuddler",
   "compatible_with": [
-    "The Nurturer",
+    "The Scholar",
     "The Daydreamer",
-    "The Guardian"
+    "The Nurturer"
   ],
   "icon_png": "the_cuddler.png",
-  "description": "This household is a snuggle haven, filled with pets who are as finicky as they are affectionate, and always ready for a cozy cuddle."
+  "description": "This is a household where love and companionship reign, marked by finicky food preferences and a shared love for treats."
 }

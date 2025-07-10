@@ -1,10 +1,10 @@
 {
-  "badge": "The Diva",
+  "badge": "The Cuddler",
   "compatible_with": [
-    "The Cuddler",
     "The Trickster",
-    "The Nurturer"
+    "The Guardian",
+    "The Daydreamer"
   ],
-  "icon_png": "the_diva.png",
-  "description": "This household is a feline fiesta of fashion-forward kitties who have a taste for the finer things in life, from gourmet meals to stylish sweaters."
+  "icon_png": "the_cuddler.png",
+  "description": "A household of affectionate, food-loving felines who enjoy their comfort but aren't afraid to have a bit of fun."
 }
