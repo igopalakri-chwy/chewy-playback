@@ -835,7 +835,7 @@ class ChewyPlaybackPipeline:
                     'personality_badge': {
                         'badge': 'The Cuddler',
                         'compatible_with': ['The Nurturer', 'The Daydreamer', 'The Scholar'],
-                        'icon_png': 'badge_cuddler.png',
+                        'icon_png': 'FrontEnd_Mobile/badge_cuddler.png',
                         'description': 'A loving household of pets who enjoy comfort and companionship.'
                     },
                     'cust_confidence_score': customer_confidence_score

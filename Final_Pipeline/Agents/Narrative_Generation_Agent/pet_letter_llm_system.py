@@ -312,18 +312,18 @@ Generate the JSON object:"""
     def badge_icon_png(self, badge_name: str) -> str:
         """Return the PNG filename for a given badge name."""
         badge_mapping = {
-            "The Daydreamer": "badge_daydreamer.png",
-            "The Guardian": "badge_guardian.png",
-            "The Nurturer": "badge_nurturer.png",
-            "The Explorer": "badge_explorer.png",
-            "The Trickster": "badge_trickster.png",
-            "The Scholar": "badge_scholar.png",
-            "The Athlete": "badge_athlete.png",
-            "The Cuddler": "badge_cuddler.png",
-            "The Shadow": "badge_shadow.png",
-            "The Diva": "badge_diva.png"
+            "The Daydreamer": "FrontEnd_Mobile/badge_daydreamer.png",
+            "The Guardian": "FrontEnd_Mobile/badge_guardian.png",
+            "The Nurturer": "FrontEnd_Mobile/badge_nurturer.png",
+            "The Explorer": "FrontEnd_Mobile/badge_explorer.png",
+            "The Trickster": "FrontEnd_Mobile/badge_trickster.png",
+            "The Scholar": "FrontEnd_Mobile/badge_scholar.png",
+            "The Athlete": "FrontEnd_Mobile/badge_athlete.png",
+            "The Cuddler": "FrontEnd_Mobile/badge_cuddler.png",
+            "The Shadow": "FrontEnd_Mobile/badge_shadow.png",
+            "The Diva": "FrontEnd_Mobile/badge_diva.png"
         }
-        return badge_mapping.get(badge_name, "badge_explorer.png")
+        return badge_mapping.get(badge_name, "FrontEnd_Mobile/badge_explorer.png")
 
     def summarize_purchase_history(self, purchases: list) -> str:
         """Summarize a pet's purchase history for LLM context."""

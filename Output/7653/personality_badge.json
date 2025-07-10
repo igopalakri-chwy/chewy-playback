@@ -1,0 +1,10 @@
+{
+  "badge": "The Explorer",
+  "compatible_with": [
+    "The Trickster",
+    "The Athlete",
+    "The Scholar"
+  ],
+  "icon_png": "the_explorer.png",
+  "description": "This household is filled with playful, curious, and adventurous pets who love to explore new flavors and experiences."
+}

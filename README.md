@@ -27,9 +27,9 @@ The Final Pipeline automatically generates personalized pet content for Chewy cu
 chewy-playback/
 ├── run_pipeline_for_customer.py        # Run for a single customer (ROOT)
 ├── run_pipeline_for_multiple_customers.py  # Run for multiple customers (ROOT)
+├── requirements.txt                    # Dependencies (ROOT)
 ├── Final_Pipeline/                     # Main pipeline directory
 │   ├── chewy_playback_pipeline.py      # Main unified pipeline
-│   ├── requirements.txt                # Dependencies
 │   ├── README.md                       # Pipeline documentation
 │   ├── Agents/                         # Agent modules
 │   │   ├── Review_and_Order_Intelligence_Agent/  # For customers with reviews
@@ -38,6 +38,7 @@ chewy-playback/
 │   │   └── Breed_Predictor_Agent/                # Dog breed prediction
 │   ├── Data/                           # Input data (order_history.csv, qualifying_reviews.csv)
 │   └── Output/                         # Results for each customer
+├── FrontEnd_Mobile/                    # Badge images and frontend assets
 └── README.md                           # This file
 ```
 
@@ -45,7 +46,6 @@ chewy-playback/
 
 1. **Install dependencies:**
 ```bash
-cd Final_Pipeline
 pip install -r requirements.txt
 ```
 
@@ -74,7 +74,7 @@ For each customer, the pipeline generates:
 - `pet_letters.txt` — Collective letter from all pets
 - `visual_prompt.txt` — DALL-E 3 prompt
 - `personality_badge.json` — Assigned badge and description
-- `[badge image].png` — Badge icon
+- `[badge image].png` — Badge icon (from FrontEnd_Mobile/)
 - `images/collective_pet_portrait.png` — AI-generated image
 - `predicted_breed.json` — Dog breed predictions (for unknown/mixed breeds only)
 - `unknowns.json` — Analysis of missing pet attributes (if any)
@@ -90,7 +90,7 @@ The pipeline now includes an unknowns analyzer that:
 ## Requirements
 - Python 3.8+
 - OpenAI API key
-- See `Final_Pipeline/requirements.txt`
+- See `requirements.txt`
 
 ## Support
 For issues or questions, please open an issue on the repository.
