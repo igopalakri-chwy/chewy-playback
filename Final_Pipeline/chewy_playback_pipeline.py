@@ -966,10 +966,10 @@ class ChewyPlaybackPipeline:
             if collective_visual_prompt:
                 try:
                     # Art style prompt to ensure consistency
-                    art_style = "Soft, blended brushstrokes that mimic traditional oil or gouache painting. Warm, glowing lighting with gentle ambient highlights and diffuse shadows. Vivid yet harmonious color palette, featuring saturated pastels and rich warm tones. Subtle texture that gives a hand-painted, storybook feel. Sparkle accents and light flares to add magical charm. Smooth gradients and soft edges, avoiding harsh lines or stark contrast. A dreamy, nostalgic tone evocative of classic children's book illustrations. "
+                    default_art_style = "Soft, blended brushstrokes that mimic traditional oil or gouache painting. Warm, glowing lighting with gentle ambient highlights and diffuse shadows. Vivid yet harmonious color palette, featuring saturated pastels and rich warm tones. Subtle texture that gives a hand-painted, storybook feel. Sparkle accents and light flares to add magical charm. Smooth gradients and soft edges, avoiding harsh lines or stark contrast. A dreamy, nostalgic tone evocative of classic children's book illustrations. "
                     
                     # Combine art style with visual prompt
-                    prompt = art_style + collective_visual_prompt
+                    prompt = default_art_style + collective_visual_prompt
                     
                     # Truncate prompt to fit OpenAI's 1000 character limit
                     if len(prompt) > 1000:
