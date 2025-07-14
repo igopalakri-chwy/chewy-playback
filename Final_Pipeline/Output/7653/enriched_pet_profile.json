@@ -11,59 +11,55 @@
     "GenderScore": 0.9,
     "SizeCategory": "unknown",
     "SizeScore": 0.9,
-    "Weight": "50-70 lbs",
+    "Weight": "60-80 lbs",
     "WeightScore": 0.6,
     "PersonalityTraits": [
       "playful",
       "curious",
-      "affectionate"
+      "adventurous"
     ],
     "PersonalityScores": {
-      "playful": 0.7,
-      "curious": 0.6,
-      "affectionate": 0.8
+      "playful": 0.8,
+      "curious": 0.7,
+      "adventurous": 0.9
     },
     "FavoriteProductCategories": [
-      "food",
+      "bowls",
       "training",
       "safety"
     ],
     "CategoryScores": {
-      "food": 0.8,
-      "training": 0.7,
-      "safety": 0.6
+      "bowls": 0.9,
+      "training": 0.8,
+      "safety": 0.7
     },
     "BrandPreferences": [
-      "Holistic Select",
+      "PetRageous Designs",
       "Educator By E-Collar Technologies"
     ],
     "BrandScores": {
-      "Holistic Select": 0.8,
-      "Educator By E-Collar Technologies": 0.7
+      "PetRageous Designs": 0.9,
+      "Educator By E-Collar Technologies": 0.8
     },
     "DietaryPreferences": [
-      "chicken-based",
-      "balanced diet"
+      "holistic"
     ],
     "DietaryScores": {
-      "chicken-based": 0.8,
-      "balanced diet": 0.7
+      "holistic": 0.7
     },
     "BehavioralCues": [
       "requires training",
-      "safety-conscious"
+      "enjoys water activities"
     ],
     "BehavioralScores": {
       "requires training": 0.8,
-      "safety-conscious": 0.7
+      "enjoys water activities": 0.9
     },
     "HealthMentions": [
-      "healthy",
-      "active"
+      "healthy"
     ],
     "HealthScores": {
-      "healthy": 0.8,
-      "active": 0.7
+      "healthy": 0.8
     },
     "MostOrderedProducts": [
       "PetRageous Designs Batik Bones Pet Bowl, Sand, 7\", 5.5-cups",
@@ -86,59 +82,55 @@
     "GenderScore": 0.9,
     "SizeCategory": "extra small",
     "SizeScore": 0.9,
-    "Weight": "50-70 lbs",
+    "Weight": "60-80 lbs",
     "WeightScore": 0.6,
     "PersonalityTraits": [
       "playful",
       "curious",
-      "affectionate"
+      "adventurous"
     ],
     "PersonalityScores": {
-      "playful": 0.7,
-      "curious": 0.6,
-      "affectionate": 0.8
+      "playful": 0.8,
+      "curious": 0.7,
+      "adventurous": 0.9
     },
     "FavoriteProductCategories": [
-      "food",
+      "bowls",
       "training",
       "safety"
     ],
     "CategoryScores": {
-      "food": 0.8,
-      "training": 0.7,
-      "safety": 0.6
+      "bowls": 0.9,
+      "training": 0.8,
+      "safety": 0.7
     },
     "BrandPreferences": [
-      "Holistic Select",
+      "PetRageous Designs",
       "Educator By E-Collar Technologies"
     ],
     "BrandScores": {
-      "Holistic Select": 0.8,
-      "Educator By E-Collar Technologies": 0.7
+      "PetRageous Designs": 0.9,
+      "Educator By E-Collar Technologies": 0.8
     },
     "DietaryPreferences": [
-      "chicken-based",
-      "balanced diet"
+      "holistic"
     ],
     "DietaryScores": {
-      "chicken-based": 0.8,
-      "balanced diet": 0.7
+      "holistic": 0.7
     },
     "BehavioralCues": [
       "requires training",
-      "safety-conscious"
+      "enjoys water activities"
     ],
     "BehavioralScores": {
       "requires training": 0.8,
-      "safety-conscious": 0.7
+      "enjoys water activities": 0.9
     },
     "HealthMentions": [
-      "healthy",
-      "active"
+      "healthy"
     ],
     "HealthScores": {
-      "healthy": 0.8,
-      "active": 0.7
+      "healthy": 0.8
     },
     "MostOrderedProducts": [
       "PetRageous Designs Batik Bones Pet Bowl, Sand, 7\", 5.5-cups",

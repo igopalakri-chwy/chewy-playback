@@ -1,4 +1,81 @@
 {
+  "Chompie": {
+    "PetName": "Chompie",
+    "PetType": "Dog",
+    "PetTypeScore": 1.0,
+    "Breed": "Cockapoo",
+    "BreedScore": 1.0,
+    "LifeStage": "A",
+    "LifeStageScore": 1.0,
+    "Gender": "MALE",
+    "GenderScore": 1.0,
+    "SizeCategory": "SM",
+    "SizeScore": 1.0,
+    "Weight": "UNK",
+    "WeightScore": 0.0,
+    "PersonalityTraits": [
+      "Finicky",
+      "Excited about eating"
+    ],
+    "PersonalityScores": {
+      "Finicky": 0.7,
+      "Excited about eating": 0.8
+    },
+    "FavoriteProductCategories": [
+      "Dog Food",
+      "Dog Treats",
+      "Dog Nail Caps"
+    ],
+    "CategoryScores": {
+      "Dog Food": 0.8,
+      "Dog Treats": 0.7,
+      "Dog Nail Caps": 0.7
+    },
+    "BrandPreferences": [
+      "Purrdy Paws",
+      "Merrick",
+      "Nutro Ultra"
+    ],
+    "BrandScores": {
+      "Purrdy Paws": 0.8,
+      "Merrick": 0.7,
+      "Nutro Ultra": 0.7
+    },
+    "DietaryPreferences": [
+      "Grain-Free",
+      "Chicken, Split Pea & Carrot Recipe"
+    ],
+    "DietaryScores": {
+      "Grain-Free": 0.7,
+      "Chicken, Split Pea & Carrot Recipe": 0.7
+    },
+    "BehavioralCues": [
+      "Readily takes food from hand",
+      "No problems walking or moving quickly"
+    ],
+    "BehavioralScores": {
+      "Readily takes food from hand": 0.8,
+      "No problems walking or moving quickly": 0.8
+    },
+    "HealthMentions": [
+      "Helps his joints",
+      "No indigestion"
+    ],
+    "HealthScores": {
+      "Helps his joints": 0.8,
+      "No indigestion": 0.8
+    },
+    "MostOrderedProducts": [
+      "Equilite Herbals RelaxHer Blend Calming Powder Horse Supplement, 2-lb tub",
+      "Nature's Miracle Dog Enzymatic Stain Remover & Odor Eliminator, Melon Burst Scent, 1-gal bottle",
+      "Purrdy Paws Soft Dog Nail Caps, Sky Blue, X-Small, 40 count",
+      "Merrick Fresh Kisses Double-Brush Mint Breath Strip Infused X-Small Dental Dog Treats",
+      "Nutro Ultra Grain-Free Chicken, Split Pea & Carrot Recipe Dry Dog Food"
+    ],
+    "ConfidenceScore": 0.0,
+    "confidence_score": 0.8333333333333334,
+    "name": "Chompie"
+  },
   "NALA": {
     "PetName": "NALA",
     "PetType": "Cat",
@@ -14,10 +91,12 @@
     "Weight": "UNK",
     "WeightScore": 0.0,
     "PersonalityTraits": [
-      "Finicky"
+      "Finicky",
+      "Happy"
     ],
     "PersonalityScores": {
-      "Finicky": 0.7
+      "Finicky": 0.7,
+      "Happy": 0.8
     },
     "FavoriteProductCategories": [
       "Cat Food",
@@ -39,25 +118,27 @@
     },
     "DietaryPreferences": [
       "Pate Style",
-      "Low Phosphate"
+      "High-Protein",
+      "Grain-Free"
     ],
     "DietaryScores": {
       "Pate Style": 0.8,
-      "Low Phosphate": 0.7
+      "High-Protein": 0.7,
+      "Grain-Free": 0.7
     },
     "BehavioralCues": [
       "Eats from hand",
-      "Happy to eat"
+      "Likes variety"
     ],
     "BehavioralScores": {
-      "Eats from hand": 0.8,
-      "Happy to eat": 0.9
+      "Eats from hand": 0.7,
+      "Likes variety": 0.8
     },
     "HealthMentions": [
-      "Good Joint Health"
+      "Good joint health"
     ],
     "HealthScores": {
-      "Good Joint Health": 0.8
+      "Good joint health": 0.7
     },
     "MostOrderedProducts": [
       "SmartyKat Felty Fun Balls Cat Toys",
@@ -69,95 +150,6 @@
     "ConfidenceScore": 0.0,
     "confidence_score": 0.16666666666666666,
     "name": "NALA"
-  },
-  "Chompie": {
-    "PetName": "Chompie",
-    "PetType": "Dog",
-    "PetTypeScore": 1.0,
-    "Breed": "Cockapoo",
-    "BreedScore": 1.0,
-    "LifeStage": "A",
-    "LifeStageScore": 1.0,
-    "Gender": "MALE",
-    "GenderScore": 1.0,
-    "SizeCategory": "SM",
-    "SizeScore": 1.0,
-    "Weight": "UNK",
-    "WeightScore": 0.0,
-    "PersonalityTraits": [
-      "Finicky",
-      "Excited about eating",
-      "Likes to chew bones"
-    ],
-    "PersonalityScores": {
-      "Finicky": 0.8,
-      "Excited about eating": 0.9,
-      "Likes to chew bones": 0.7
-    },
-    "FavoriteProductCategories": [
-      "Dog Food",
-      "Dog Treats",
-      "Dog Nail Caps"
-    ],
-    "CategoryScores": {
-      "Dog Food": 0.9,
-      "Dog Treats": 0.8,
-      "Dog Nail Caps": 0.7
-    },
-    "BrandPreferences": [
-      "Equilite Herbals",
-      "Nature's Miracle",
-      "Purrdy Paws",
-      "Merrick",
-      "Nutro Ultra",
-      "Found My Animal",
-      "Pure Water Pebbles",
-      "Bil Jac"
-    ],
-    "BrandScores": {
-      "Equilite Herbals": 0.9,
-      "Nature's Miracle": 0.8,
-      "Purrdy Paws": 0.7,
-      "Merrick": 0.6,
-      "Nutro Ultra": 0.5,
-      "Found My Animal": 0.4,
-      "Pure Water Pebbles": 0.3,
-      "Bil Jac": 0.2
-    },
-    "DietaryPreferences": [
-      "Chicken, Split Pea & Carrot Recipe Dry Dog Food",
-      "Mint Breath Strip Infused X-Small Dental Dog Treats"
-    ],
-    "DietaryScores": {
-      "Chicken, Split Pea & Carrot Recipe Dry Dog Food": 0.9,
-      "Mint Breath Strip Infused X-Small Dental Dog Treats": 0.8
-    },
-    "BehavioralCues": [
-      "Readily takes food from hand",
-      "No problems walking or moving quickly"
-    ],
-    "BehavioralScores": {
-      "Readily takes food from hand": 0.9,
-      "No problems walking or moving quickly": 0.8
-    },
-    "HealthMentions": [
-      "Helps his joints",
-      "No indigestion"
-    ],
-    "HealthScores": {
-      "Helps his joints": 0.9,
-      "No indigestion": 0.8
-    },
-    "MostOrderedProducts": [
-      "Equilite Herbals RelaxHer Blend Calming Powder Horse Supplement, 2-lb tub",
-      "Nature's Miracle Dog Enzymatic Stain Remover & Odor Eliminator, Melon Burst Scent, 1-gal bottle",
-      "Purrdy Paws Soft Dog Nail Caps, Sky Blue, X-Small, 40 count",
-      "Merrick Fresh Kisses Double-Brush Mint Breath Strip Infused X-Small Dental Dog Treats",
-      "Nutro Ultra Grain-Free Chicken, Split Pea & Carrot Recipe Dry Dog Food"
-    ],
-    "ConfidenceScore": 0.0,
-    "confidence_score": 0.8333333333333334,
-    "name": "Chompie"
   },
   "cust_confidence_score": 0.5
 }

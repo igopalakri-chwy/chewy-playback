@@ -1,207 +1,4 @@
 {
-  "Bff": {
-    "PetName": "Bff",
-    "PetType": "Cat",
-    "PetTypeScore": 1.0,
-    "Breed": "Domestic",
-    "BreedScore": 1.0,
-    "LifeStage": "A",
-    "LifeStageScore": 1.0,
-    "Gender": "FMLE",
-    "GenderScore": 1.0,
-    "SizeCategory": "UNK",
-    "SizeScore": 0.0,
-    "Weight": "UNK",
-    "WeightScore": 0.0,
-    "PersonalityTraits": [
-      "Likes wet food",
-      "Likes chunks of meat in food"
-    ],
-    "PersonalityScores": {
-      "Likes wet food": 1.0,
-      "Likes chunks of meat in food": 1.0
-    },
-    "FavoriteProductCategories": [
-      "Cat Food",
-      "Cat Toys",
-      "Cat Furniture"
-    ],
-    "CategoryScores": {
-      "Cat Food": 1.0,
-      "Cat Toys": 0.7,
-      "Cat Furniture": 0.7
-    },
-    "BrandPreferences": [
-      "Tiki Cat",
-      "Frisco"
-    ],
-    "BrandScores": {
-      "Tiki Cat": 1.0,
-      "Frisco": 0.7
-    },
-    "DietaryPreferences": [
-      "Grain-Free",
-      "Meat chunks"
-    ],
-    "DietaryScores": {
-      "Grain-Free": 1.0,
-      "Meat chunks": 1.0
-    },
-    "BehavioralCues": [
-      "Eats all food",
-      "Likes variety"
-    ],
-    "BehavioralScores": {
-      "Eats all food": 1.0,
-      "Likes variety": 0.7
-    },
-    "HealthMentions": [
-      "UNK"
-    ],
-    "HealthScores": {
-      "UNK": 0.0
-    },
-    "MostOrderedProducts": [
-      "Tiki Cat Luau Variety Pack Grain-Free Canned Cat Food",
-      "Frisco 28.5-in Modern Cat Tree & Condo",
-      "Stink Free Solid Absorber Cat Deodorizer"
-    ],
-    "ConfidenceScore": 0.0,
-    "confidence_score": 0.6666666666666666,
-    "name": "Bff"
-  },
-  "Wet": {
-    "PetName": "Wet",
-    "PetType": "Cat",
-    "PetTypeScore": 1.0,
-    "Breed": "Domestic",
-    "BreedScore": 1.0,
-    "LifeStage": "A",
-    "LifeStageScore": 1.0,
-    "Gender": "FMLE",
-    "GenderScore": 1.0,
-    "SizeCategory": "UNK",
-    "SizeScore": 0,
-    "Weight": "UNK",
-    "WeightScore": 0,
-    "PersonalityTraits": [
-      "Likes wet food"
-    ],
-    "PersonalityScores": {
-      "Likes wet food": 1.0
-    },
-    "FavoriteProductCategories": [
-      "Cat Food",
-      "Cat Tree & Condo",
-      "Cat Deodorizer"
-    ],
-    "CategoryScores": {
-      "Cat Food": 1.0,
-      "Cat Tree & Condo": 0.9,
-      "Cat Deodorizer": 0.9
-    },
-    "BrandPreferences": [
-      "Tiki Cat"
-    ],
-    "BrandScores": {
-      "Tiki Cat": 1.0
-    },
-    "DietaryPreferences": [
-      "Grain-Free",
-      "Meat chunks"
-    ],
-    "DietaryScores": {
-      "Grain-Free": 1.0,
-      "Meat chunks": 1.0
-    },
-    "BehavioralCues": [
-      "Eats all food"
-    ],
-    "BehavioralScores": {
-      "Eats all food": 1.0
-    },
-    "HealthMentions": [],
-    "HealthScores": {},
-    "MostOrderedProducts": [
-      "Tiki Cat Luau Variety Pack Grain-Free Canned Cat Food, 2.8-oz, case of 12",
-      "Frisco 28.5-in Modern Cat Tree & Condo, Gray",
-      "Stink Free Solid Absorber Cat Deodorizer, 15-fl oz jar"
-    ],
-    "ConfidenceScore": 0.0,
-    "confidence_score": 0.6666666666666666,
-    "name": "Wet"
-  },
-  "Beatrix Kiddo": {
-    "PetName": "Beatrix Kiddo",
-    "PetType": "Cat",
-    "PetTypeScore": 1.0,
-    "Breed": "Domestic",
-    "BreedScore": 1.0,
-    "LifeStage": "A",
-    "LifeStageScore": 1.0,
-    "Gender": "FMLE",
-    "GenderScore": 1.0,
-    "SizeCategory": "UNK",
-    "SizeScore": 0.0,
-    "Weight": "UNK",
-    "WeightScore": 0.0,
-    "PersonalityTraits": [
-      "Picky eater"
-    ],
-    "PersonalityScores": {
-      "Picky eater": 0.7
-    },
-    "FavoriteProductCategories": [
-      "Cat Food",
-      "Cat Toys",
-      "Cat Litter"
-    ],
-    "CategoryScores": {
-      "Cat Food": 0.9,
-      "Cat Toys": 0.7,
-      "Cat Litter": 0.8
-    },
-    "BrandPreferences": [
-      "Tiki Cat",
-      "Frisco"
-    ],
-    "BrandScores": {
-      "Tiki Cat": 0.8,
-      "Frisco": 0.8
-    },
-    "DietaryPreferences": [
-      "Grain-Free",
-      "Meat Chunks",
-      "No Chicken"
-    ],
-    "DietaryScores": {
-      "Grain-Free": 0.8,
-      "Meat Chunks": 0.8,
-      "No Chicken": 0.9
-    },
-    "BehavioralCues": [
-      "Likes variety",
-      "Likes to play"
-    ],
-    "BehavioralScores": {
-      "Likes variety": 0.7,
-      "Likes to play": 0.7
-    },
-    "HealthMentions": [
-      "No known health issues"
-    ],
-    "HealthScores": {
-      "No known health issues": 1.0
-    },
-    "MostOrderedProducts": [
-      "Tiki Cat Luau Variety Pack Grain-Free Canned Cat Food, 2.8-oz, case of 12",
-      "Frisco 28.5-in Modern Cat Tree & Condo, Gray",
-      "Stink Free Solid Absorber Cat Deodorizer, 15-fl oz jar"
-    ],
-    "ConfidenceScore": 0.0,
-    "confidence_score": 0.6666666666666666,
-    "name": "Beatrix Kiddo"
-  },
   "German": {
     "PetName": "German",
     "PetType": "Cat",
@@ -249,12 +46,10 @@
       "Wet Food": 1.0
     },
     "BehavioralCues": [
-      "Likes Wet Food",
-      "Likes Grain-Free Food"
+      "UNK"
     ],
     "BehavioralScores": {
-      "Likes Wet Food": 1.0,
-      "Likes Grain-Free Food": 1.0
+      "UNK": 0.0
     },
     "HealthMentions": [
       "UNK"
@@ -265,16 +60,14 @@
     "MostOrderedProducts": [
       "Tiki Cat Luau Variety Pack Grain-Free Canned Cat Food, 2.8-oz, case of 12",
       "Frisco 28.5-in Modern Cat Tree & Condo, Gray",
-      "GloFish Plastic Aquarium Plant, Green/White, Medium",
-      "PetChatz PawCall Interactive Accessory",
       "Stink Free Solid Absorber Cat Deodorizer, 15-fl oz jar"
     ],
     "ConfidenceScore": 0.0,
     "confidence_score": 0.6666666666666666,
     "name": "German"
   },
-  "Gsd": {
-    "PetName": "Gsd",
+  "Beatrix Kiddo": {
+    "PetName": "Beatrix Kiddo",
     "PetType": "Cat",
     "PetTypeScore": 1.0,
     "Breed": "Domestic",
@@ -284,58 +77,54 @@
     "Gender": "FMLE",
     "GenderScore": 1.0,
     "SizeCategory": "UNK",
-    "SizeScore": 0,
+    "SizeScore": 0.0,
     "Weight": "UNK",
-    "WeightScore": 0,
+    "WeightScore": 0.0,
     "PersonalityTraits": [
-      "Likes wet food",
-      "Likes chunks of meat",
-      "Likes Wet Noses treats"
+      "UNK"
     ],
     "PersonalityScores": {
-      "Likes wet food": 1.0,
-      "Likes chunks of meat": 1.0,
-      "Likes Wet Noses treats": 1.0
+      "UNK": 0.0
     },
     "FavoriteProductCategories": [
       "Cat Food",
-      "Cat Treats"
+      "Cat Litter",
+      "Cat Tree & Condo"
     ],
     "CategoryScores": {
       "Cat Food": 1.0,
-      "Cat Treats": 1.0
+      "Cat Litter": 1.0,
+      "Cat Tree & Condo": 1.0
     },
     "BrandPreferences": [
-      "Wet Noses",
-      "Tiki Cat"
+      "Tiki Cat",
+      "Frisco"
     ],
     "BrandScores": {
-      "Wet Noses": 1.0,
-      "Tiki Cat": 1.0
+      "Tiki Cat": 1.0,
+      "Frisco": 1.0
     },
     "DietaryPreferences": [
-      "Wet food",
-      "Meat chunks",
-      "No chicken"
+      "Grain-Free",
+      "Meat Chunks",
+      "No Chicken"
     ],
     "DietaryScores": {
-      "Wet food": 1.0,
-      "Meat chunks": 1.0,
-      "No chicken": 1.0
+      "Grain-Free": 1.0,
+      "Meat Chunks": 1.0,
+      "No Chicken": 1.0
     },
     "BehavioralCues": [
-      "Eats all food",
-      "Likes variety"
+      "UNK"
     ],
     "BehavioralScores": {
-      "Eats all food": 1.0,
-      "Likes variety": 1.0
+      "UNK": 0.0
     },
     "HealthMentions": [
       "UNK"
     ],
     "HealthScores": {
-      "UNK": 0
+      "UNK": 0.0
     },
     "MostOrderedProducts": [
       "TuffRider Ladies Ventilated Technical Long Sleeve Sport Shirt, Aqua, XXX-Large",
@@ -351,7 +140,7 @@
     ],
     "ConfidenceScore": 0.0,
     "confidence_score": 0.6666666666666666,
-    "name": "Gsd"
+    "name": "Beatrix Kiddo"
   },
   "Sindel": {
     "PetName": "Sindel",
@@ -374,8 +163,8 @@
     ],
     "PersonalityScores": {
       "Likes wet food": 0.8,
-      "Likes treats": 1.0,
-      "Plays with treats before eating": 0.9
+      "Likes treats": 0.9,
+      "Plays with treats before eating": 0.7
     },
     "FavoriteProductCategories": [
       "Dog Leash & Key Holder",
@@ -411,21 +200,21 @@
     "DietaryScores": {
       "Pate form food": 0.7,
       "Meat and veggie chunks": 0.8,
-      "No chicken": 1.0
+      "No chicken": 0.9
     },
     "BehavioralCues": [
       "Eats when left alone",
-      "Plays with food"
+      "Plays with treats before eating"
     ],
     "BehavioralScores": {
-      "Eats when left alone": 0.9,
-      "Plays with food": 0.9
+      "Eats when left alone": 0.7,
+      "Plays with treats before eating": 0.9
     },
     "HealthMentions": [
       "Itchy when consumes chicken"
     ],
     "HealthScores": {
-      "Itchy when consumes chicken": 1.0
+      "Itchy when consumes chicken": 0.9
     },
     "MostOrderedProducts": [
       "SportHooks Boston Terrier Dog Leash & Key Holder",
@@ -437,6 +226,209 @@
     "ConfidenceScore": 0.0,
     "confidence_score": 0.8333333333333334,
     "name": "Sindel"
+  },
+  "Bff": {
+    "PetName": "Bff",
+    "PetType": "Cat",
+    "PetTypeScore": 1.0,
+    "Breed": "Domestic",
+    "BreedScore": 1.0,
+    "LifeStage": "A",
+    "LifeStageScore": 1.0,
+    "Gender": "FMLE",
+    "GenderScore": 1.0,
+    "SizeCategory": "UNK",
+    "SizeScore": 0.0,
+    "Weight": "UNK",
+    "WeightScore": 0.0,
+    "PersonalityTraits": [
+      "Likes wet food"
+    ],
+    "PersonalityScores": {
+      "Likes wet food": 1.0
+    },
+    "FavoriteProductCategories": [
+      "Cat Food",
+      "Cat Toys"
+    ],
+    "CategoryScores": {
+      "Cat Food": 1.0,
+      "Cat Toys": 0.8
+    },
+    "BrandPreferences": [
+      "Tiki Cat"
+    ],
+    "BrandScores": {
+      "Tiki Cat": 1.0
+    },
+    "DietaryPreferences": [
+      "Grain-Free",
+      "Meat Chunks"
+    ],
+    "DietaryScores": {
+      "Grain-Free": 1.0,
+      "Meat Chunks": 1.0
+    },
+    "BehavioralCues": [
+      "Does not leave food in the bowl"
+    ],
+    "BehavioralScores": {
+      "Does not leave food in the bowl": 1.0
+    },
+    "HealthMentions": [
+      "UNK"
+    ],
+    "HealthScores": {
+      "UNK": 0.0
+    },
+    "MostOrderedProducts": [
+      "TuffRider Ladies Ventilated Technical Long Sleeve Sport Shirt, Aqua, XXX-Large",
+      "GloFish Plastic Aquarium Plant, Green/White, Medium",
+      "PetChatz PawCall Interactive Accessory",
+      "Companion Gear Paw Print Ornament Keepsake",
+      "Coralife Super Luft SL-38 Air Aquarium Pump",
+      "Frisco 28.5-in Modern Cat Tree & Condo, Gray",
+      "Microbe-Lift Soy-Based Birdbath & Statuary Cleaner",
+      "MidWest Nation Ferret Cage Shelf Cover",
+      "Stink Free Solid Absorber Cat Deodorizer, 15-fl oz jar",
+      "Tiki Cat Luau Variety Pack Grain-Free Canned Cat Food, 2.8-oz, case of 12"
+    ],
+    "ConfidenceScore": 0.0,
+    "confidence_score": 0.6666666666666666,
+    "name": "Bff"
+  },
+  "Wet": {
+    "PetName": "Wet",
+    "PetType": "Cat",
+    "PetTypeScore": 1.0,
+    "Breed": "Domestic",
+    "BreedScore": 1.0,
+    "LifeStage": "A",
+    "LifeStageScore": 1.0,
+    "Gender": "FMLE",
+    "GenderScore": 1.0,
+    "SizeCategory": "UNK",
+    "SizeScore": 0.0,
+    "Weight": "UNK",
+    "WeightScore": 0.0,
+    "PersonalityTraits": [
+      "Likes wet food"
+    ],
+    "PersonalityScores": {
+      "Likes wet food": 1.0
+    },
+    "FavoriteProductCategories": [
+      "Cat Food",
+      "Cat Toys",
+      "Cat Furniture"
+    ],
+    "CategoryScores": {
+      "Cat Food": 1.0,
+      "Cat Toys": 0.7,
+      "Cat Furniture": 0.7
+    },
+    "BrandPreferences": [
+      "Tiki Cat",
+      "Frisco"
+    ],
+    "BrandScores": {
+      "Tiki Cat": 1.0,
+      "Frisco": 0.7
+    },
+    "DietaryPreferences": [
+      "Grain-Free",
+      "Meat Chunks"
+    ],
+    "DietaryScores": {
+      "Grain-Free": 1.0,
+      "Meat Chunks": 1.0
+    },
+    "BehavioralCues": [
+      "Eats all food"
+    ],
+    "BehavioralScores": {
+      "Eats all food": 1.0
+    },
+    "HealthMentions": [],
+    "HealthScores": {},
+    "MostOrderedProducts": [
+      "Tiki Cat Luau Variety Pack Grain-Free Canned Cat Food, 2.8-oz, case of 12",
+      "Frisco 28.5-in Modern Cat Tree & Condo, Gray"
+    ],
+    "ConfidenceScore": 0.0,
+    "confidence_score": 0.6666666666666666,
+    "name": "Wet"
+  },
+  "Gsd": {
+    "PetName": "Gsd",
+    "PetType": "Cat",
+    "PetTypeScore": 1.0,
+    "Breed": "Domestic",
+    "BreedScore": 1.0,
+    "LifeStage": "A",
+    "LifeStageScore": 1.0,
+    "Gender": "FMLE",
+    "GenderScore": 1.0,
+    "SizeCategory": "UNK",
+    "SizeScore": 0.0,
+    "Weight": "UNK",
+    "WeightScore": 0.0,
+    "PersonalityTraits": [
+      "Likes wet food",
+      "Likes treats"
+    ],
+    "PersonalityScores": {
+      "Likes wet food": 1.0,
+      "Likes treats": 1.0
+    },
+    "FavoriteProductCategories": [
+      "Cat Food",
+      "Cat Treats"
+    ],
+    "CategoryScores": {
+      "Cat Food": 1.0,
+      "Cat Treats": 1.0
+    },
+    "BrandPreferences": [
+      "Wet Noses",
+      "Tiki Cat"
+    ],
+    "BrandScores": {
+      "Wet Noses": 1.0,
+      "Tiki Cat": 1.0
+    },
+    "DietaryPreferences": [
+      "Grain-Free",
+      "Meat chunks",
+      "No chicken"
+    ],
+    "DietaryScores": {
+      "Grain-Free": 1.0,
+      "Meat chunks": 1.0,
+      "No chicken": 1.0
+    },
+    "BehavioralCues": [
+      "Eats all food",
+      "Likes variety"
+    ],
+    "BehavioralScores": {
+      "Eats all food": 1.0,
+      "Likes variety": 1.0
+    },
+    "HealthMentions": [
+      "No known health issues"
+    ],
+    "HealthScores": {
+      "No known health issues": 1.0
+    },
+    "MostOrderedProducts": [
+      "Tiki Cat Luau Variety Pack Grain-Free Canned Cat Food, 2.8-oz, case of 12",
+      "Frisco 28.5-in Modern Cat Tree & Condo, Gray",
+      "Stink Free Solid Absorber Cat Deodorizer, 15-fl oz jar"
+    ],
+    "ConfidenceScore": 0.0,
+    "confidence_score": 0.6666666666666666,
+    "name": "Gsd"
   },
   "cust_confidence_score": 0.6944444444444443
 }

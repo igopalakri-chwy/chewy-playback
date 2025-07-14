@@ -15,38 +15,7 @@
       "unknown_scores": [
         "BreedScore",
         "LifeStageScore",
-        "GenderScore",
-        "SizeScore",
-        "WeightScore",
-        "ConfidenceScore"
-      ],
-      "unknown_lists": [],
-      "unknown_dicts": []
-    },
-    "Bella": {
-      "pet_name": "Bella",
-      "unknown_fields": [
-        "SizeCategory",
-        "Weight"
-      ],
-      "unknown_scores": [
-        "SizeScore",
-        "WeightScore",
-        "ConfidenceScore"
-      ],
-      "unknown_lists": [],
-      "unknown_dicts": []
-    },
-    "Oat": {
-      "pet_name": "Oat",
-      "unknown_fields": [
-        "SizeCategory",
-        "Weight"
-      ],
-      "unknown_scores": [
-        "SizeScore",
-        "WeightScore",
-        "ConfidenceScore"
+        "GenderScore"
       ],
       "unknown_lists": [],
       "unknown_dicts": []
@@ -57,16 +26,32 @@
         "SizeCategory",
         "Weight"
       ],
-      "unknown_scores": [
-        "SizeScore",
-        "WeightScore",
-        "ConfidenceScore"
+      "unknown_scores": [],
+      "unknown_lists": [],
+      "unknown_dicts": []
+    },
+    "Bella": {
+      "pet_name": "Bella",
+      "unknown_fields": [
+        "SizeCategory",
+        "Weight"
       ],
+      "unknown_scores": [],
+      "unknown_lists": [],
+      "unknown_dicts": []
+    },
+    "Oat": {
+      "pet_name": "Oat",
+      "unknown_fields": [
+        "SizeCategory",
+        "Weight"
+      ],
+      "unknown_scores": [],
       "unknown_lists": [],
       "unknown_dicts": []
     }
   },
-  "total_unknowns": 28,
+  "total_unknowns": 16,
   "pets_with_unknowns": 4,
   "customer_confidence_score": 0.0
 }

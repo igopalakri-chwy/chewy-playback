@@ -1,10 +1,10 @@
 {
   "badge": "The Scholar",
   "compatible_with": [
-    "The Daydreamer",
     "The Cuddler",
-    "The Explorer"
+    "The Diva",
+    "The Trickster"
   ],
   "icon_png": "the_scholar.png",
-  "description": "This household is filled with smart and finicky feline scholars, always ready to outwit their human and enjoy their gourmet meals."
+  "description": "This household is filled with intelligent cats who enjoy the finer things in life, always one step ahead of their human."
 }

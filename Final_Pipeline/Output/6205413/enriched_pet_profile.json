@@ -1,86 +1,4 @@
 {
-  "Beyond": {
-    "PetName": "Beyond",
-    "PetType": "Cat",
-    "PetTypeScore": 1.0,
-    "Breed": "Domestic",
-    "BreedScore": 1.0,
-    "LifeStage": "S",
-    "LifeStageScore": 1.0,
-    "Gender": "FMLE",
-    "GenderScore": 1.0,
-    "SizeCategory": "UNK",
-    "SizeScore": 0,
-    "Weight": "UNK",
-    "WeightScore": 0,
-    "PersonalityTraits": [
-      "Cooperative",
-      "Dislikes being restricted"
-    ],
-    "PersonalityScores": {
-      "Cooperative": 0.9,
-      "Dislikes being restricted": 0.9
-    },
-    "FavoriteProductCategories": [
-      "Cat Food",
-      "Cat Toys"
-    ],
-    "CategoryScores": {
-      "Cat Food": 0.9,
-      "Cat Toys": 0.8
-    },
-    "BrandPreferences": [
-      "Fancy Feast",
-      "Whole Earth Farms",
-      "The Honest Kitchen"
-    ],
-    "BrandScores": {
-      "Fancy Feast": 0.9,
-      "Whole Earth Farms": 0.8,
-      "The Honest Kitchen": 0.8
-    },
-    "DietaryPreferences": [
-      "Human grade white meat chicken, salmon and tuna",
-      "Grain-Free Real Beef & Turkey Pate",
-      "Grain-Free Chicken Recipe"
-    ],
-    "DietaryScores": {
-      "Human grade white meat chicken, salmon and tuna": 0.9,
-      "Grain-Free Real Beef & Turkey Pate": 0.8,
-      "Grain-Free Chicken Recipe": 0.8
-    },
-    "BehavioralCues": [
-      "Responds to reward system",
-      "Has trouble with certain physical activities"
-    ],
-    "BehavioralScores": {
-      "Responds to reward system": 0.9,
-      "Has trouble with certain physical activities": 0.8
-    },
-    "HealthMentions": [
-      "Had surgery on paw",
-      "Requires eye drops"
-    ],
-    "HealthScores": {
-      "Had surgery on paw": 0.9,
-      "Requires eye drops": 0.9
-    },
-    "MostOrderedProducts": [
-      "Whole Earth Farms Grain-Free Real Beef & Turkey Pate Recipe Canned Cat Food, 2.75-oz, case of 24",
-      "Exo Terra Reptile Cave, Large",
-      "MidWest Guinea Habitat Divider Panel",
-      "Exo Terra Clarity & Odor Control Moss Ball for Turtles",
-      "Catstages Fold Away Cat Tunnel Toy",
-      "The Honest Kitchen Grain-Free Chicken Recipe Dehydrated Cat Food",
-      "Neo-Poly Gramicidin Ophthalmic Solution",
-      "Pet House Furever Loved Memorial Natural Plant-Based Wax Candle",
-      "Purina Fancy Feast Grilled Feast & Medleys Seafood Collection Wet Cat Food Variety Pack, 3-oz, case of 45",
-      "Conversation Concepts Pug Figurine"
-    ],
-    "ConfidenceScore": 0.0,
-    "confidence_score": 0.6666666666666666,
-    "name": "Beyond"
-  },
   "Primal": {
     "PetName": "Primal",
     "PetType": "Cat",
@@ -106,12 +24,12 @@
     "FavoriteProductCategories": [
       "Cat Food",
       "Cat Toys",
-      "Health Products"
+      "Healthcare"
     ],
     "CategoryScores": {
       "Cat Food": 0.9,
-      "Cat Toys": 0.7,
-      "Health Products": 0.8
+      "Cat Toys": 0.8,
+      "Healthcare": 0.7
     },
     "BrandPreferences": [
       "Fancy Feast",
@@ -124,28 +42,30 @@
       "The Honest Kitchen": 0.7
     },
     "DietaryPreferences": [
-      "Human grade white meat chicken",
-      "Salmon",
-      "Tuna"
+      "Grain-Free",
+      "Real Beef & Turkey",
+      "Chicken Recipe"
     ],
     "DietaryScores": {
-      "Human grade white meat chicken": 0.9,
-      "Salmon": 0.9,
-      "Tuna": 0.9
+      "Grain-Free": 0.9,
+      "Real Beef & Turkey": 0.8,
+      "Chicken Recipe": 0.7
     },
     "BehavioralCues": [
-      "Responds to reward-based training"
+      "Responds to reward-based training",
+      "Has difficulty with large cat climbers"
     ],
     "BehavioralScores": {
-      "Responds to reward-based training": 0.9
+      "Responds to reward-based training": 0.9,
+      "Has difficulty with large cat climbers": 0.8
     },
     "HealthMentions": [
-      "Had surgery on paw",
-      "Received eye drops"
+      "Had paw surgery",
+      "Requires eye drops"
     ],
     "HealthScores": {
-      "Had surgery on paw": 0.9,
-      "Received eye drops": 0.9
+      "Had paw surgery": 0.9,
+      "Requires eye drops": 0.8
     },
     "MostOrderedProducts": [
       "Whole Earth Farms Grain-Free Real Beef & Turkey Pate Recipe Canned Cat Food",
@@ -163,8 +83,94 @@
     "confidence_score": 0.6666666666666666,
     "name": "Primal"
   },
-  "Purrfect": {
-    "PetName": "Purrfect",
+  "Cocoabean": {
+    "PetName": "Cocoabean",
+    "PetType": "Cat",
+    "PetTypeScore": 1.0,
+    "Breed": "Domestic",
+    "BreedScore": 1.0,
+    "LifeStage": "S",
+    "LifeStageScore": 1.0,
+    "Gender": "FMLE",
+    "GenderScore": 1.0,
+    "SizeCategory": "UNK",
+    "SizeScore": 0,
+    "Weight": "UNK",
+    "WeightScore": 0,
+    "PersonalityTraits": [
+      "Picky eater",
+      "Cooperative",
+      "Dislikes being restricted"
+    ],
+    "PersonalityScores": {
+      "Picky eater": 0.9,
+      "Cooperative": 0.8,
+      "Dislikes being restricted": 0.7
+    },
+    "FavoriteProductCategories": [
+      "Cat Food",
+      "Cat Toys"
+    ],
+    "CategoryScores": {
+      "Cat Food": 0.9,
+      "Cat Toys": 0.7
+    },
+    "BrandPreferences": [
+      "Fancy Feast",
+      "Purrfect Bistro",
+      "Primal Nuggets"
+    ],
+    "BrandScores": {
+      "Fancy Feast": 0.9,
+      "Purrfect Bistro": 0.8,
+      "Primal Nuggets": 0.7
+    },
+    "DietaryPreferences": [
+      "Pate",
+      "Soft food",
+      "Raw food"
+    ],
+    "DietaryScores": {
+      "Pate": 0.9,
+      "Soft food": 0.8,
+      "Raw food": 0.7
+    },
+    "BehavioralCues": [
+      "Likes to climb",
+      "Likes to play with toys"
+    ],
+    "BehavioralScores": {
+      "Likes to climb": 0.7,
+      "Likes to play with toys": 0.8
+    },
+    "HealthMentions": [
+      "Had surgery on paw",
+      "Missing many teeth",
+      "Requires eye drops"
+    ],
+    "HealthScores": {
+      "Had surgery on paw": 0.9,
+      "Missing many teeth": 0.9,
+      "Requires eye drops": 0.8
+    },
+    "MostOrderedProducts": [
+      "Whole Earth Farms Grain-Free Real Beef & Turkey Pate Recipe Canned Cat Food",
+      "Exo Terra Reptile Cave",
+      "MidWest Guinea Habitat Divider Panel",
+      "Exo Terra Clarity & Odor Control Moss Ball for Turtles",
+      "Catstages Fold Away Cat Tunnel Toy",
+      "The Honest Kitchen Grain-Free Chicken Recipe Dehydrated Cat Food",
+      "Neo-Poly Gramicidin Ophthalmic Solution",
+      "Pet House Furever Loved Memorial Natural Plant-Based Wax Candle",
+      "Purina Fancy Feast Grilled Feast & Medleys Seafood Collection Wet Cat Food Variety Pack",
+      "Conversation Concepts Pug Figurine"
+    ],
+    "ConfidenceScore": 0.0,
+    "confidence_score": 0.6666666666666666,
+    "name": "Cocoabean"
+  },
+  "Fancy": {
+    "PetName": "Fancy",
     "PetType": "Cat",
     "PetTypeScore": 1.0,
     "Breed": "Domestic",
@@ -204,20 +210,104 @@
       "The Honest Kitchen": 0.6
     },
     "DietaryPreferences": [
+      "Grain-Free",
+      "Real Beef & Turkey",
+      "Chicken Recipe"
+    ],
+    "DietaryScores": {
+      "Grain-Free": 0.8,
+      "Real Beef & Turkey": 0.7,
+      "Chicken Recipe": 0.6
+    },
+    "BehavioralCues": [
+      "Responds to rewards",
+      "Adapts to medical needs"
+    ],
+    "BehavioralScores": {
+      "Responds to rewards": 0.9,
+      "Adapts to medical needs": 0.9
+    },
+    "HealthMentions": [
+      "Had surgery on paw",
+      "Requires eye drops"
+    ],
+    "HealthScores": {
+      "Had surgery on paw": 0.9,
+      "Requires eye drops": 0.8
+    },
+    "MostOrderedProducts": [
+      "Whole Earth Farms Grain-Free Real Beef & Turkey Pate Recipe Canned Cat Food",
+      "Exo Terra Reptile Cave",
+      "MidWest Guinea Habitat Divider Panel",
+      "Exo Terra Clarity & Odor Control Moss Ball for Turtles",
+      "Catstages Fold Away Cat Tunnel Toy",
+      "The Honest Kitchen Grain-Free Chicken Recipe Dehydrated Cat Food",
+      "Neo-Poly Gramicidin Ophthalmic Solution",
+      "Pet House Furever Loved Memorial Natural Plant-Based Wax Candle",
+      "Purina Fancy Feast Grilled Feast & Medleys Seafood Collection Wet Cat Food Variety Pack",
+      "Conversation Concepts Pug Figurine"
+    ],
+    "ConfidenceScore": 0.0,
+    "confidence_score": 0.6666666666666666,
+    "name": "Fancy"
+  },
+  "Savory": {
+    "PetName": "Savory",
+    "PetType": "Cat",
+    "PetTypeScore": 1.0,
+    "Breed": "Domestic",
+    "BreedScore": 1.0,
+    "LifeStage": "S",
+    "LifeStageScore": 1.0,
+    "Gender": "FMLE",
+    "GenderScore": 1.0,
+    "SizeCategory": "UNK",
+    "SizeScore": 0,
+    "Weight": "UNK",
+    "WeightScore": 0,
+    "PersonalityTraits": [
+      "Cooperative",
+      "Dislikes being restricted"
+    ],
+    "PersonalityScores": {
+      "Cooperative": 0.9,
+      "Dislikes being restricted": 0.9
+    },
+    "FavoriteProductCategories": [
+      "Cat Food",
+      "Cat Toys"
+    ],
+    "CategoryScores": {
+      "Cat Food": 0.9,
+      "Cat Toys": 0.8
+    },
+    "BrandPreferences": [
+      "Fancy Feast",
+      "Whole Earth Farms",
+      "The Honest Kitchen"
+    ],
+    "BrandScores": {
+      "Fancy Feast": 0.9,
+      "Whole Earth Farms": 0.8,
+      "The Honest Kitchen": 0.7
+    },
+    "DietaryPreferences": [
       "Human grade white meat chicken, salmon and tuna",
-      "Grain-Free Real Beef & Turkey Pate"
+      "Grain-Free Real Beef & Turkey Pate",
+      "Grain-Free Chicken Recipe"
     ],
     "DietaryScores": {
       "Human grade white meat chicken, salmon and tuna": 0.9,
-      "Grain-Free Real Beef & Turkey Pate": 0.7
+      "Grain-Free Real Beef & Turkey Pate": 0.8,
+      "Grain-Free Chicken Recipe": 0.7
     },
     "BehavioralCues": [
-      "Likes treats after medication",
-      "Likes to play with tunnel toy"
+      "Likes to climb",
+      "Long haired"
     ],
     "BehavioralScores": {
-      "Likes treats after medication": 0.9,
-      "Likes to play with tunnel toy": 0.7
+      "Likes to climb": 0.8,
+      "Long haired": 0.9
     },
     "HealthMentions": [
       "Had surgery on paw",
@@ -236,14 +326,101 @@
       "The Honest Kitchen Grain-Free Chicken Recipe Dehydrated Cat Food",
       "Neo-Poly Gramicidin Ophthalmic Solution",
       "Pet House Furever Loved Memorial Natural Plant-Based Wax Candle",
-      "Purina Fancy Feast Grilled Feast & Medleys Seafood Collection Wet Cat Food Variety Pack, 3-oz, case of 45"
+      "Purina Fancy Feast Grilled Feast & Medleys Seafood Collection Wet Cat Food Variety Pack, 3-oz, case of 45",
+      "Conversation Concepts Pug Figurine"
     ],
     "ConfidenceScore": 0.0,
     "confidence_score": 0.6666666666666666,
-    "name": "Purrfect"
+    "name": "Savory"
   },
-  "Savory": {
-    "PetName": "Savory",
+  "Luna": {
+    "PetName": "Luna",
+    "PetType": "Cat",
+    "PetTypeScore": 1.0,
+    "Breed": "Maine Coon",
+    "BreedScore": 1.0,
+    "LifeStage": "A",
+    "LifeStageScore": 1.0,
+    "Gender": "FMLE",
+    "GenderScore": 1.0,
+    "SizeCategory": "UNK",
+    "SizeScore": 0,
+    "Weight": "UNK",
+    "WeightScore": 0,
+    "PersonalityTraits": [
+      "cooperative",
+      "picky eater"
+    ],
+    "PersonalityScores": {
+      "cooperative": 0.8,
+      "picky eater": 0.9
+    },
+    "FavoriteProductCategories": [
+      "cat food",
+      "cat toys"
+    ],
+    "CategoryScores": {
+      "cat food": 0.9,
+      "cat toys": 0.7
+    },
+    "BrandPreferences": [
+      "Fancy Feast",
+      "Beyond Quail",
+      "Purrfect Bistro Salmon"
+    ],
+    "BrandScores": {
+      "Fancy Feast": 0.9,
+      "Beyond Quail": 0.7,
+      "Purrfect Bistro Salmon": 0.7
+    },
+    "DietaryPreferences": [
+      "pate",
+      "human grade white meat chicken",
+      "salmon",
+      "tuna",
+      "raw food"
+    ],
+    "DietaryScores": {
+      "pate": 0.9,
+      "human grade white meat chicken": 0.8,
+      "salmon": 0.8,
+      "tuna": 0.8,
+      "raw food": 0.7
+    },
+    "BehavioralCues": [
+      "dislikes being restricted",
+      "enjoys playing with toys"
+    ],
+    "BehavioralScores": {
+      "dislikes being restricted": 0.8,
+      "enjoys playing with toys": 0.7
+    },
+    "HealthMentions": [
+      "had surgery on paw",
+      "missing many teeth"
+    ],
+    "HealthScores": {
+      "had surgery on paw": 0.9,
+      "missing many teeth": 0.9
+    },
+    "MostOrderedProducts": [
+      "Whole Earth Farms Grain-Free Real Beef & Turkey Pate Recipe Canned Cat Food, 2.75-oz, case of 24",
+      "Exo Terra Reptile Cave, Large",
+      "MidWest Guinea Habitat Divider Panel",
+      "Exo Terra Clarity & Odor Control Moss Ball for Turtles",
+      "Catstages Fold Away Cat Tunnel Toy",
+      "The Honest Kitchen Grain-Free Chicken Recipe Dehydrated Cat Food",
+      "Neo-Poly Gramicidin Ophthalmic Solution",
+      "Pet House Furever Loved Memorial Natural Plant-Based Wax Candle",
+      "Purina Fancy Feast Grilled Feast & Medleys Seafood Collection Wet Cat Food Variety Pack, 3-oz, case of 45",
+      "Conversation Concepts Pug Figurine"
+    ],
+    "ConfidenceScore": 0.0,
+    "confidence_score": 0.6666666666666666,
+    "name": "Luna"
+  },
+  "Beyond": {
+    "PetName": "Beyond",
     "PetType": "Cat",
     "PetTypeScore": 1.0,
     "Breed": "Domestic",
@@ -293,20 +470,20 @@
       "Grain-Free Chicken Recipe": 0.6
     },
     "BehavioralCues": [
-      "Responds to reward-based training",
-      "Has difficulty with certain physical activities"
+      "Responds to medication with treat",
+      "Had surgery on paw"
     ],
     "BehavioralScores": {
-      "Responds to reward-based training": 0.9,
-      "Has difficulty with certain physical activities": 0.7
+      "Responds to medication with treat": 0.9,
+      "Had surgery on paw": 0.9
     },
     "HealthMentions": [
-      "Had surgery on paw",
-      "Requires eye drops"
+      "Had eye drops",
+      "Had paw surgery"
     ],
     "HealthScores": {
-      "Had surgery on paw": 0.9,
-      "Requires eye drops": 0.8
+      "Had eye drops": 0.9,
+      "Had paw surgery": 0.9
     },
     "MostOrderedProducts": [
       "Whole Earth Farms Grain-Free Real Beef & Turkey Pate Recipe Canned Cat Food, 2.75-oz, case of 24",
@@ -322,10 +499,10 @@
     ],
     "ConfidenceScore": 0.0,
     "confidence_score": 0.6666666666666666,
-    "name": "Savory"
+    "name": "Beyond"
   },
-  "Fancy": {
-    "PetName": "Fancy",
+  "Purrfect": {
+    "PetName": "Purrfect",
     "PetType": "Cat",
     "PetTypeScore": 1.0,
     "Breed": "Domestic",
@@ -365,201 +542,32 @@
       "The Honest Kitchen": 0.6
     },
     "DietaryPreferences": [
-      "Human grade white meat chicken",
-      "Salmon",
-      "Tuna"
+      "Human grade white meat chicken, salmon and tuna",
+      "Grain-Free Real Beef & Turkey Pate",
+      "Grain-Free Chicken Recipe"
     ],
     "DietaryScores": {
-      "Human grade white meat chicken": 0.9,
-      "Salmon": 0.9,
-      "Tuna": 0.9
-    },
-    "BehavioralCues": [
-      "Responds to reward system",
-      "Has difficulty with large cat climbers"
-    ],
-    "BehavioralScores": {
-      "Responds to reward system": 0.9,
-      "Has difficulty with large cat climbers": 0.7
-    },
-    "HealthMentions": [
-      "Had surgery on paw",
-      "Requires eye drops"
-    ],
-    "HealthScores": {
-      "Had surgery on paw": 0.9,
-      "Requires eye drops": 0.9
-    },
-    "MostOrderedProducts": [
-      "Whole Earth Farms Grain-Free Real Beef & Turkey Pate Recipe Canned Cat Food",
-      "Exo Terra Reptile Cave",
-      "MidWest Guinea Habitat Divider Panel",
-      "Exo Terra Clarity & Odor Control Moss Ball for Turtles",
-      "Catstages Fold Away Cat Tunnel Toy",
-      "The Honest Kitchen Grain-Free Chicken Recipe Dehydrated Cat Food",
-      "Neo-Poly Gramicidin Ophthalmic Solution",
-      "Pet House Furever Loved Memorial Natural Plant-Based Wax Candle",
-      "Purina Fancy Feast Grilled Feast & Medleys Seafood Collection Wet Cat Food Variety Pack",
-      "Conversation Concepts Pug Figurine"
-    ],
-    "ConfidenceScore": 0.0,
-    "confidence_score": 0.6666666666666666,
-    "name": "Fancy"
-  },
-  "Luna": {
-    "PetName": "Luna",
-    "PetType": "Cat",
-    "PetTypeScore": 1.0,
-    "Breed": "Maine Coon",
-    "BreedScore": 1.0,
-    "LifeStage": "A",
-    "LifeStageScore": 1.0,
-    "Gender": "FMLE",
-    "GenderScore": 1.0,
-    "SizeCategory": "UNK",
-    "SizeScore": 0,
-    "Weight": "UNK",
-    "WeightScore": 0,
-    "PersonalityTraits": [
-      "Cooperative",
-      "Picky Eater"
-    ],
-    "PersonalityScores": {
-      "Cooperative": 0.8,
-      "Picky Eater": 0.9
-    },
-    "FavoriteProductCategories": [
-      "Cat Food",
-      "Cat Toys"
-    ],
-    "CategoryScores": {
-      "Cat Food": 0.9,
-      "Cat Toys": 0.7
-    },
-    "BrandPreferences": [
-      "Fancy Feast",
-      "Purrfect Bistro",
-      "Primal Nuggets"
-    ],
-    "BrandScores": {
-      "Fancy Feast": 0.9,
-      "Purrfect Bistro": 0.8,
-      "Primal Nuggets": 0.7
-    },
-    "DietaryPreferences": [
-      "Human Grade White Meat",
-      "Pate",
-      "Raw Food"
-    ],
-    "DietaryScores": {
-      "Human Grade White Meat": 0.9,
-      "Pate": 0.8,
-      "Raw Food": 0.7
-    },
-    "BehavioralCues": [
-      "Likes to Climb",
-      "Dislikes Being Restricted"
-    ],
-    "BehavioralScores": {
-      "Likes to Climb": 0.7,
-      "Dislikes Being Restricted": 0.8
-    },
-    "HealthMentions": [
-      "Had Eye Drops",
-      "Had Paw Surgery",
-      "Missing Many Teeth"
-    ],
-    "HealthScores": {
-      "Had Eye Drops": 0.9,
-      "Had Paw Surgery": 0.9,
-      "Missing Many Teeth": 0.9
-    },
-    "MostOrderedProducts": [
-      "Whole Earth Farms Grain-Free Real Beef & Turkey Pate Recipe Canned Cat Food",
-      "Exo Terra Reptile Cave",
-      "MidWest Guinea Habitat Divider Panel",
-      "Exo Terra Clarity & Odor Control Moss Ball for Turtles",
-      "Catstages Fold Away Cat Tunnel Toy",
-      "The Honest Kitchen Grain-Free Chicken Recipe Dehydrated Cat Food",
-      "Neo-Poly Gramicidin Ophthalmic Solution",
-      "Pet House Furever Loved Memorial Natural Plant-Based Wax Candle",
-      "Purina Fancy Feast Grilled Feast & Medleys Seafood Collection Wet Cat Food Variety Pack"
-    ],
-    "ConfidenceScore": 0.0,
-    "confidence_score": 0.6666666666666666,
-    "name": "Luna"
-  },
-  "Cocoabean": {
-    "PetName": "Cocoabean",
-    "PetType": "Cat",
-    "PetTypeScore": 1.0,
-    "Breed": "Domestic",
-    "BreedScore": 1.0,
-    "LifeStage": "S",
-    "LifeStageScore": 1.0,
-    "Gender": "FMLE",
-    "GenderScore": 1.0,
-    "SizeCategory": "UNK",
-    "SizeScore": 0,
-    "Weight": "UNK",
-    "WeightScore": 0,
-    "PersonalityTraits": [
-      "Picky eater",
-      "Cooperative",
-      "Dislikes being restricted"
-    ],
-    "PersonalityScores": {
-      "Picky eater": 0.9,
-      "Cooperative": 0.8,
-      "Dislikes being restricted": 0.7
-    },
-    "FavoriteProductCategories": [
-      "Cat Food",
-      "Cat Toys"
-    ],
-    "CategoryScores": {
-      "Cat Food": 0.9,
-      "Cat Toys": 0.7
-    },
-    "BrandPreferences": [
-      "Fancy Feast",
-      "Purrfect Bistro",
-      "Beyond Quail",
-      "Primal Nuggets"
-    ],
-    "BrandScores": {
-      "Fancy Feast": 0.9,
-      "Purrfect Bistro": 0.8,
-      "Beyond Quail": 0.7,
-      "Primal Nuggets": 0.7
-    },
-    "DietaryPreferences": [
-      "Pate",
-      "Soft food"
-    ],
-    "DietaryScores": {
-      "Pate": 0.9,
-      "Soft food": 0.8
+      "Human grade white meat chicken, salmon and tuna": 0.9,
+      "Grain-Free Real Beef & Turkey Pate": 0.7,
+      "Grain-Free Chicken Recipe": 0.6
     },
     "BehavioralCues": [
       "Likes to climb",
-      "Plays with toys",
-      "Likes to sleep"
+      "Long haired"
     ],
     "BehavioralScores": {
       "Likes to climb": 0.7,
-      "Plays with toys": 0.8,
-      "Likes to sleep": 0.7
+      "Long haired": 0.7
     },
     "HealthMentions": [
-      "Had surgery",
-      "Missing teeth",
-      "Long haired"
+      "Had surgery on paw",
+      "Takes eye drops",
+      "Older cat with few teeth"
     ],
     "HealthScores": {
-      "Had surgery": 0.9,
-      "Missing teeth": 0.9,
-      "Long haired": 0.7
+      "Had surgery on paw": 0.9,
+      "Takes eye drops": 0.9,
+      "Older cat with few teeth": 0.9
     },
     "MostOrderedProducts": [
       "Whole Earth Farms Grain-Free Real Beef & Turkey Pate Recipe Canned Cat Food, 2.75-oz, case of 24",
@@ -575,7 +583,7 @@
     ],
     "ConfidenceScore": 0.0,
     "confidence_score": 0.6666666666666666,
-    "name": "Cocoabean"
+    "name": "Purrfect"
   },
   "cust_confidence_score": 0.6666666666666666
 }

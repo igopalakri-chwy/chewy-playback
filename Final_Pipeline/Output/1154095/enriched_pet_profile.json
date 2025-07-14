@@ -24,12 +24,12 @@
     "FavoriteProductCategories": [
       "Cat Food",
       "Cat Bed & Mat",
-      "Cat Toy"
+      "Cat Toys"
     ],
     "CategoryScores": {
-      "Cat Food": 1.0,
+      "Cat Food": 0.9,
       "Cat Bed & Mat": 0.8,
-      "Cat Toy": 0.7
+      "Cat Toys": 0.7
     },
     "BrandPreferences": [
       "Nature's Recipe",
@@ -49,11 +49,11 @@
     },
     "BehavioralCues": [
       "Likes to scratch",
-      "Likes to sleep on warm surfaces"
+      "Likes to sleep on warm spots"
     ],
     "BehavioralScores": {
       "Likes to scratch": 0.8,
-      "Likes to sleep on warm surfaces": 0.9
+      "Likes to sleep on warm spots": 0.9
     },
     "HealthMentions": [
       "Dental problems",
@@ -119,12 +119,12 @@
       "Chicken flavor": 0.9
     },
     "BehavioralCues": [
-      "Likes to sleep on warm spots",
-      "Likes to scratch on wall corners"
+      "Likes to scratch",
+      "Likes to sleep on warm surfaces"
     ],
     "BehavioralScores": {
-      "Likes to sleep on warm spots": 0.8,
-      "Likes to scratch on wall corners": 0.7
+      "Likes to scratch": 0.8,
+      "Likes to sleep on warm surfaces": 0.8
     },
     "HealthMentions": [
       "Dental problems",

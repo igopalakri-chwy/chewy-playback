@@ -1,10 +1,10 @@
 {
-  "badge": "The Cuddler",
+  "badge": "The Nurturer",
   "compatible_with": [
-    "The Scholar",
-    "The Daydreamer",
-    "The Nurturer"
+    "The Cuddler",
+    "The Athlete",
+    "The Explorer"
   ],
-  "icon_png": "the_cuddler.png",
-  "description": "This is a household where love and companionship reign, marked by finicky food preferences and a shared love for treats."
+  "icon_png": "the_nurturer.png",
+  "description": "This household is a nurturing haven of love and care, where pets are treated like family and their needs are always met with great attention."
 }

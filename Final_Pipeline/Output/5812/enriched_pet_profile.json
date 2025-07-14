@@ -24,12 +24,10 @@
       "affectionate": 0.8
     },
     "FavoriteProductCategories": [
-      "toys",
-      "apparel"
+      "toys"
     ],
     "CategoryScores": {
-      "toys": 0.95,
-      "apparel": 0.6
+      "toys": 0.95
     },
     "BrandPreferences": [
       "GoDog",
@@ -37,17 +35,15 @@
     ],
     "BrandScores": {
       "GoDog": 0.9,
-      "Outward Hound": 0.7
+      "Outward Hound": 0.8
     },
     "DietaryPreferences": [],
     "DietaryScores": {},
     "BehavioralCues": [
-      "loves toys",
-      "enjoys playing"
+      "loves toys"
     ],
     "BehavioralScores": {
-      "loves toys": 0.95,
-      "enjoys playing": 0.85
+      "loves toys": 0.95
     },
     "HealthMentions": [
       "active"
@@ -89,12 +85,10 @@
       "affectionate": 0.8
     },
     "FavoriteProductCategories": [
-      "toys",
-      "apparel"
+      "toys"
     ],
     "CategoryScores": {
-      "toys": 0.95,
-      "apparel": 0.6
+      "toys": 0.95
     },
     "BrandPreferences": [
       "GoDog",
@@ -102,17 +96,15 @@
     ],
     "BrandScores": {
       "GoDog": 0.9,
-      "Outward Hound": 0.7
+      "Outward Hound": 0.8
     },
     "DietaryPreferences": [],
     "DietaryScores": {},
     "BehavioralCues": [
-      "loves toys",
-      "enjoys playing"
+      "loves toys"
     ],
     "BehavioralScores": {
-      "loves toys": 0.95,
-      "enjoys playing": 0.85
+      "loves toys": 0.95
     },
     "HealthMentions": [
       "active"

@@ -14,20 +14,18 @@
     "Weight": "UNK",
     "WeightScore": 0.0,
     "PersonalityTraits": [
-      "Finicky eater"
+      "Finicky"
     ],
     "PersonalityScores": {
-      "Finicky eater": 0.8
+      "Finicky": 0.7
     },
     "FavoriteProductCategories": [
       "Cat Food",
-      "Cat Toys",
-      "Cat Harness"
+      "Cat Toys"
     ],
     "CategoryScores": {
       "Cat Food": 1.0,
-      "Cat Toys": 0.6,
-      "Cat Harness": 0.6
+      "Cat Toys": 0.7
     },
     "BrandPreferences": [
       "Purina",
@@ -45,21 +43,21 @@
     ],
     "DietaryScores": {
       "Grain-Free": 0.8,
-      "High Fiber": 0.8,
+      "High Fiber": 0.7,
       "Dry Food": 1.0,
-      "Moist Food": 1.0
+      "Moist Food": 0.8
     },
     "BehavioralCues": [
-      "Likes to crunch on kibble"
+      "Likes to Crunch Kibble"
     ],
     "BehavioralScores": {
-      "Likes to crunch on kibble": 1.0
+      "Likes to Crunch Kibble": 1.0
     },
     "HealthMentions": [
       "Hairballs"
     ],
     "HealthScores": {
-      "Hairballs": 0.6
+      "Hairballs": 0.7
     },
     "MostOrderedProducts": [
       "Farnam Ivercare Ivermectin 1.87% Paste Horse Dewormer, Apple Flavor, .26-oz syringe, 1 count",
@@ -77,20 +75,20 @@
     "confidence_score": 0.16666666666666666,
     "name": "UNK"
   },
-  "Bella": {
-    "PetName": "Bella",
+  "Marco": {
+    "PetName": "Marco",
     "PetType": "Cat",
     "PetTypeScore": 1.0,
-    "Breed": "American- Shorthair",
+    "Breed": "Maine Coon",
     "BreedScore": 1.0,
     "LifeStage": "A",
     "LifeStageScore": 1.0,
-    "Gender": "FMLE",
+    "Gender": "MALE",
     "GenderScore": 1.0,
     "SizeCategory": "UNK",
-    "SizeScore": 0.0,
+    "SizeScore": 0,
     "Weight": "UNK",
-    "WeightScore": 0.0,
+    "WeightScore": 0,
     "PersonalityTraits": [
       "Finicky eater"
     ],
@@ -99,11 +97,13 @@
     },
     "FavoriteProductCategories": [
       "Cat Food",
-      "Cat Toys"
+      "Cat Toys",
+      "Cat Harness"
     ],
     "CategoryScores": {
       "Cat Food": 0.9,
-      "Cat Toys": 0.7
+      "Cat Toys": 0.7,
+      "Cat Harness": 0.6
     },
     "BrandPreferences": [
       "Beyond",
@@ -129,7 +129,7 @@
       "Likes to crunch on kibble"
     ],
     "BehavioralScores": {
-      "Likes to crunch on kibble": 0.9
+      "Likes to crunch on kibble": 0.8
     },
     "HealthMentions": [
       "Hair shedding",
@@ -143,7 +143,7 @@
     },
     "MostOrderedProducts": [
       "Farnam Ivercare Ivermectin 1.87% Paste Horse Dewormer, Apple Flavor, .26-oz syringe, 1 count",
-      "Frisco Personalized Center 'Pawsitive Vibes' Picture Frame",
+      "Frisco Personalized Center \"Pawsitive Vibes\" Picture Frame",
       "Troxel Spirit Riding Helmet, Navy, Small",
       "Tribe Socks Personalized Pet Face Socks, Cat Paw",
       "Kitty Holster Cat Harness, Blazin Red Bandana, X-Small",
@@ -155,10 +155,10 @@
     ],
     "ConfidenceScore": 0.0,
     "confidence_score": 0.6666666666666666,
-    "name": "Bella"
+    "name": "Marco"
   },
-  "Oat": {
-    "PetName": "Oat",
+  "Bella": {
+    "PetName": "Bella",
     "PetType": "Cat",
     "PetTypeScore": 1.0,
     "Breed": "American- Shorthair",
@@ -166,80 +166,6 @@
     "LifeStage": "A",
     "LifeStageScore": 1.0,
     "Gender": "FMLE",
-    "GenderScore": 1.0,
-    "SizeCategory": "UNK",
-    "SizeScore": 0.0,
-    "Weight": "UNK",
-    "WeightScore": 0.0,
-    "PersonalityTraits": [
-      "Finicky"
-    ],
-    "PersonalityScores": {
-      "Finicky": 0.7
-    },
-    "FavoriteProductCategories": [
-      "Cat Food",
-      "Cat Toys",
-      "Cat Harness"
-    ],
-    "CategoryScores": {
-      "Cat Food": 0.9,
-      "Cat Toys": 0.7,
-      "Cat Harness": 0.6
-    },
-    "BrandPreferences": [
-      "Beyond Grain Free",
-      "Halo"
-    ],
-    "BrandScores": {
-      "Beyond Grain Free": 0.7,
-      "Halo": 0.8
-    },
-    "DietaryPreferences": [
-      "Grain Free",
-      "High Fiber"
-    ],
-    "DietaryScores": {
-      "Grain Free": 0.9,
-      "High Fiber": 0.7
-    },
-    "BehavioralCues": [
-      "Likes to Crunch"
-    ],
-    "BehavioralScores": {
-      "Likes to Crunch": 0.8
-    },
-    "HealthMentions": [
-      "No Hair Shedding",
-      "No Throwing Up"
-    ],
-    "HealthScores": {
-      "No Hair Shedding": 0.8,
-      "No Throwing Up": 0.8
-    },
-    "MostOrderedProducts": [
-      "Farnam Ivercare Ivermectin 1.87% Paste Horse Dewormer, Apple Flavor, .26-oz syringe, 1 count",
-      "Frisco Personalized Center \"Pawsitive Vibes\" Picture Frame",
-      "Troxel Spirit Riding Helmet, Navy, Small",
-      "Tribe Socks Personalized Pet Face Socks, Cat Paw",
-      "Kitty Holster Cat Harness, Blazin Red Bandana, X-Small",
-      "The Honest Kitchen Grain-Free Chicken Recipe Dehydrated Cat Food",
-      "Catstages Fold Away Cat Tunnel Toy",
-      "Kitty Holster Cat Harness, Blazin Red Bandana"
-    ],
-    "ConfidenceScore": 0.0,
-    "confidence_score": 0.6666666666666666,
-    "name": "Oat"
-  },
-  "Marco": {
-    "PetName": "Marco",
-    "PetType": "Cat",
-    "PetTypeScore": 1.0,
-    "Breed": "Maine Coon",
-    "BreedScore": 1.0,
-    "LifeStage": "A",
-    "LifeStageScore": 1.0,
-    "Gender": "MALE",
     "GenderScore": 1.0,
     "SizeCategory": "UNK",
     "SizeScore": 0,
@@ -282,24 +208,98 @@
       "No Chicken": 0.6
     },
     "BehavioralCues": [
-      "Likes to Crunch Kibble"
+      "Likes to Crunch Kibble",
+      "Sensitive to Food Changes"
     ],
     "BehavioralScores": {
-      "Likes to Crunch Kibble": 0.8
+      "Likes to Crunch Kibble": 0.8,
+      "Sensitive to Food Changes": 0.7
     },
     "HealthMentions": [
       "Hair Shedding",
-      "Throwing Up",
-      "Food Sensitivities"
+      "Throwing Up"
     ],
     "HealthScores": {
-      "Hair Shedding": 0.7,
-      "Throwing Up": 0.7,
-      "Food Sensitivities": 0.8
+      "Hair Shedding": 0.6,
+      "Throwing Up": 0.7
     },
     "MostOrderedProducts": [
       "Farnam Ivercare Ivermectin 1.87% Paste Horse Dewormer, Apple Flavor, .26-oz syringe, 1 count",
-      "Frisco Personalized Center 'Pawsitive Vibes' Picture Frame",
+      "Frisco Personalized Center \"Pawsitive Vibes\" Picture Frame",
+      "Troxel Spirit Riding Helmet, Navy, Small",
+      "Tribe Socks Personalized Pet Face Socks, Cat Paw",
+      "Kitty Holster Cat Harness, Blazin Red Bandana, X-Small",
+      "The Honest Kitchen Grain-Free Chicken Recipe Dehydrated Cat Food",
+      "Catstages Fold Away Cat Tunnel Toy",
+      "Kitty Holster Cat Harness, Blazin Red Bandana"
+    ],
+    "ConfidenceScore": 0.0,
+    "confidence_score": 0.6666666666666666,
+    "name": "Bella"
+  },
+  "Oat": {
+    "PetName": "Oat",
+    "PetType": "Cat",
+    "PetTypeScore": 1.0,
+    "Breed": "American- Shorthair",
+    "BreedScore": 1.0,
+    "LifeStage": "A",
+    "LifeStageScore": 1.0,
+    "Gender": "FMLE",
+    "GenderScore": 1.0,
+    "SizeCategory": "UNK",
+    "SizeScore": 0,
+    "Weight": "UNK",
+    "WeightScore": 0,
+    "PersonalityTraits": [
+      "Finicky"
+    ],
+    "PersonalityScores": {
+      "Finicky": 0.7
+    },
+    "FavoriteProductCategories": [
+      "Cat Food",
+      "Cat Toys"
+    ],
+    "CategoryScores": {
+      "Cat Food": 0.9,
+      "Cat Toys": 0.7
+    },
+    "BrandPreferences": [
+      "Beyond Grain Free",
+      "Halo"
+    ],
+    "BrandScores": {
+      "Beyond Grain Free": 0.7,
+      "Halo": 0.8
+    },
+    "DietaryPreferences": [
+      "Grain Free",
+      "Dry Food",
+      "Moist Food"
+    ],
+    "DietaryScores": {
+      "Grain Free": 0.8,
+      "Dry Food": 0.7,
+      "Moist Food": 0.7
+    },
+    "BehavioralCues": [
+      "Likes to Crunch"
+    ],
+    "BehavioralScores": {
+      "Likes to Crunch": 0.8
+    },
+    "HealthMentions": [
+      "Hair Shedding",
+      "Throwing Up"
+    ],
+    "HealthScores": {
+      "Hair Shedding": 0.7,
+      "Throwing Up": 0.7
+    },
+    "MostOrderedProducts": [
+      "Farnam Ivercare Ivermectin 1.87% Paste Horse Dewormer, Apple Flavor, .26-oz syringe, 1 count",
+      "Frisco Personalized Center \"Pawsitive Vibes\" Picture Frame",
       "Troxel Spirit Riding Helmet, Navy, Small",
       "Tribe Socks Personalized Pet Face Socks, Cat Paw",
       "Kitty Holster Cat Harness, Blazin Red Bandana, X-Small",
@@ -311,7 +311,7 @@
     ],
     "ConfidenceScore": 0.0,
     "confidence_score": 0.6666666666666666,
-    "name": "Marco"
+    "name": "Oat"
   },
   "cust_confidence_score": 0.5416666666666666
 }

@@ -95,7 +95,8 @@ class UnknownsAnalyzer:
         # Score fields to exclude from unknown analysis
         excluded_score_fields = {
             'PersonalityScores', 'CategoryScores', 'BrandScores', 
-            'DietaryScores', 'BehavioralScores', 'HealthScores'
+            'DietaryScores', 'BehavioralScores', 'HealthScores',
+            'SizeScore', 'WeightScore', 'ConfidenceScore'
         }
         
         for field_name, field_value in pet_data.items():

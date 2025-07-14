@@ -16,12 +16,14 @@
     "PersonalityTraits": [
       "Playful",
       "Teething",
-      "Learning"
+      "Learning",
+      "Content"
     ],
     "PersonalityScores": {
       "Playful": 0.9,
-      "Teething": 0.7,
-      "Learning": 0.8
+      "Teething": 0.9,
+      "Learning": 0.9,
+      "Content": 0.9
     },
     "FavoriteProductCategories": [
       "Dog Treats",
@@ -33,11 +35,11 @@
     ],
     "CategoryScores": {
       "Dog Treats": 0.9,
-      "Dog Bed": 0.7,
-      "Dog Training Pads": 0.7,
-      "Dog Collar": 0.7,
-      "Dog Leash": 0.7,
-      "Dog Food": 0.8
+      "Dog Bed": 0.9,
+      "Dog Training Pads": 0.9,
+      "Dog Collar": 0.9,
+      "Dog Leash": 0.9,
+      "Dog Food": 0.9
     },
     "BrandPreferences": [
       "BIXBI",
@@ -45,19 +47,15 @@
       "Four Paws",
       "Sassy Dog Wear",
       "Perri's",
-      "ZIWI",
-      "Doggie Stylz",
-      "FitPAWS"
+      "ZIWI Peak"
     ],
     "BrandScores": {
       "BIXBI": 0.9,
-      "Frisco": 0.7,
-      "Four Paws": 0.7,
-      "Sassy Dog Wear": 0.7,
-      "Perri's": 0.7,
-      "ZIWI": 0.8,
-      "Doggie Stylz": 0.6,
-      "FitPAWS": 0.6
+      "Frisco": 0.9,
+      "Four Paws": 0.9,
+      "Sassy Dog Wear": 0.9,
+      "Perri's": 0.9,
+      "ZIWI Peak": 0.9
     },
     "DietaryPreferences": [
       "Beef Liver Recipe",
@@ -65,47 +63,43 @@
     ],
     "DietaryScores": {
       "Beef Liver Recipe": 0.9,
-      "Canned Dog Food": 0.8
+      "Canned Dog Food": 0.9
     },
     "BehavioralCues": [
       "Pulling on lead",
-      "Teething",
-      "Learning tricks"
+      "Responds to behavior control"
     ],
     "BehavioralScores": {
-      "Pulling on lead": 0.8,
-      "Teething": 0.7,
-      "Learning tricks": 0.8
+      "Pulling on lead": 0.9,
+      "Responds to behavior control": 0.9
     },
     "HealthMentions": [
-      "Hip & Joint"
+      "Teething"
     ],
     "HealthScores": {
-      "Hip & Joint": 0.9
+      "Teething": 0.9
     },
     "MostOrderedProducts": [
       "BIXBI Liberty Hip & Joint Beef Liver Recipe Jerky Dog Treats",
-      "Frisco Replacement Cover for Steel-Framed Elevated Dog Bed, Green, S:  28.3-in L x 22.4-in W, 1 count",
-      "Four Paws Wee-Wee Odor Control Dog Training Pads with Febreze Freshness, 22 x 23-in, 10 count",
-      "Sassy Dog Wear Multi Stripe Dog Collar, Pink, Medium",
-      "Perri's Havana Padded Leather Dog Leash, Snakeskin, Small",
-      "ZIWI Peak Beef Recipe Canned Dog Food, 13.75-oz can, case of 12",
-      "Doggie Stylz Service Dog Harness, Red, X-Small",
-      "FitPAWS Circular Product Holder, Grey"
+      "Frisco Replacement Cover for Steel-Framed Elevated Dog Bed",
+      "Four Paws Wee-Wee Odor Control Dog Training Pads with Febreze Freshness",
+      "Sassy Dog Wear Multi Stripe Dog Collar",
+      "Perri's Havana Padded Leather Dog Leash",
+      "ZIWI Peak Beef Recipe Canned Dog Food"
     ],
     "ConfidenceScore": 0.0,
     "confidence_score": 0.8333333333333334,
     "name": "Sophie"
   },
-  "Two": {
-    "PetName": "Two",
+  "Acd": {
+    "PetName": "Acd",
     "PetType": "Cat",
     "PetTypeScore": 1.0,
     "Breed": "Other",
     "BreedScore": 1.0,
     "LifeStage": "A",
     "LifeStageScore": 1.0,
-    "Gender": "FMLE",
+    "Gender": "Female",
     "GenderScore": 1.0,
     "SizeCategory": "UNK",
     "SizeScore": 0.0,
@@ -116,8 +110,8 @@
       "Entertained"
     ],
     "PersonalityScores": {
-      "Spoiled": 0.8,
-      "Entertained": 0.8
+      "Spoiled": 0.7,
+      "Entertained": 0.7
     },
     "FavoriteProductCategories": [
       "Cat Food",
@@ -138,28 +132,26 @@
       "Friskies": 0.7
     },
     "DietaryPreferences": [
-      "Quality Snack",
+      "Quality Snacks",
       "Beef & Liver Stew",
       "Indoor Variety Pack"
     ],
     "DietaryScores": {
-      "Quality Snack": 0.8,
+      "Quality Snacks": 0.8,
       "Beef & Liver Stew": 0.7,
       "Indoor Variety Pack": 0.7
     },
     "BehavioralCues": [
-      "Likes to play with shoe lace",
-      "Likes to be spoiled with treats"
-    ],
-    "BehavioralScores": {
-      "Likes to play with shoe lace": 0.8,
-      "Likes to be spoiled with treats": 0.8
-    },
-    "HealthMentions": [
       "Teething"
     ],
+    "BehavioralScores": {
+      "Teething": 0.7
+    },
+    "HealthMentions": [
+      "UNK"
+    ],
     "HealthScores": {
-      "Teething": 0.8
+      "UNK": 0.0
     },
     "MostOrderedProducts": [
       "The Best Card Company Cat Assorted Thank You Cards",
@@ -170,7 +162,7 @@
     ],
     "ConfidenceScore": 0.0,
     "confidence_score": 0.6666666666666666,
-    "name": "Two"
+    "name": "Acd"
   },
   "Dewbert": {
     "PetName": "Dewbert",
@@ -210,18 +202,18 @@
       "Friskies"
     ],
     "BrandScores": {
-      "Wellness": 0.9,
-      "Innova": 0.8,
+      "Wellness": 0.8,
+      "Innova": 0.7,
       "Friskies": 0.7
     },
     "DietaryPreferences": [
-      "Quality Snack",
+      "Quality Snacks",
       "Beef & Liver Stew",
       "Indoor Variety Pack"
     ],
     "DietaryScores": {
-      "Quality Snack": 0.9,
-      "Beef & Liver Stew": 0.8,
+      "Quality Snacks": 0.8,
+      "Beef & Liver Stew": 0.7,
       "Indoor Variety Pack": 0.7
     },
     "BehavioralCues": [
@@ -230,7 +222,7 @@
     ],
     "BehavioralScores": {
       "Teething": 0.7,
-      "Behavior Control": 0.9
+      "Behavior Control": 0.8
     },
     "HealthMentions": [
       "UNK"
@@ -254,8 +246,8 @@
     "confidence_score": 0.6666666666666666,
     "name": "Dewbert"
   },
-  "Acd": {
-    "PetName": "Acd",
+  "Two": {
+    "PetName": "Two",
     "PetType": "Cat",
     "PetTypeScore": 1.0,
     "Breed": "Other",
@@ -265,16 +257,16 @@
     "Gender": "FMLE",
     "GenderScore": 1.0,
     "SizeCategory": "UNK",
-    "SizeScore": 0,
+    "SizeScore": 0.0,
     "Weight": "UNK",
-    "WeightScore": 0,
+    "WeightScore": 0.0,
     "PersonalityTraits": [
       "Spoiled",
       "Entertained"
     ],
     "PersonalityScores": {
-      "Spoiled": 0.8,
-      "Entertained": 0.8
+      "Spoiled": 0.7,
+      "Entertained": 0.7
     },
     "FavoriteProductCategories": [
       "Cat Food",
@@ -305,13 +297,19 @@
       "Indoor Variety Pack": 0.7
     },
     "BehavioralCues": [
-      "Teething"
+      "Likes to play with shoe lace",
+      "Likes to be spoiled with treats"
     ],
     "BehavioralScores": {
+      "Likes to play with shoe lace": 0.7,
+      "Likes to be spoiled with treats": 0.8
+    },
+    "HealthMentions": [
+      "Teething"
+    ],
+    "HealthScores": {
       "Teething": 0.7
     },
-    "HealthMentions": [],
-    "HealthScores": {},
     "MostOrderedProducts": [
       "The Best Card Company Cat Assorted Thank You Cards",
       "Innova Kitten Dry Cat Food",
@@ -321,7 +319,7 @@
     ],
     "ConfidenceScore": 0.0,
     "confidence_score": 0.6666666666666666,
-    "name": "Acd"
+    "name": "Two"
   },
   "cust_confidence_score": 0.7083333333333333
 }

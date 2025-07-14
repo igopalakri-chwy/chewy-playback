@@ -1,10 +1,10 @@
 {
-  "badge": "The Trickster",
+  "badge": "The Athlete",
   "compatible_with": [
-    "The Cuddler",
-    "The Scholar",
-    "The Athlete"
+    "The Trickster",
+    "The Explorer",
+    "The Nurturer"
   ],
-  "icon_png": "the_trickster.png",
-  "description": "This household is full of playful antics and lively energy, where there's always something new to discover or a new trick to learn."
+  "icon_png": "the_athlete.png",
+  "description": "This household is full of playful and energetic pets, always ready for a game and quick to learn new tricks."
 }
