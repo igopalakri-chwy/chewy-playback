@@ -42,9 +42,11 @@
       "Educator By E-Collar Technologies": 0.7
     },
     "DietaryPreferences": [
+      "chicken-based",
       "balanced diet"
     ],
     "DietaryScores": {
+      "chicken-based": 0.8,
       "balanced diet": 0.7
     },
     "BehavioralCues": [
@@ -56,10 +58,12 @@
       "safety-conscious": 0.7
     },
     "HealthMentions": [
-      "healthy"
+      "healthy",
+      "active"
     ],
     "HealthScores": {
-      "healthy": 0.8
+      "healthy": 0.8,
+      "active": 0.7
     },
     "MostOrderedProducts": [
       "PetRageous Designs Batik Bones Pet Bowl, Sand, 7\", 5.5-cups",
@@ -113,9 +117,11 @@
       "Educator By E-Collar Technologies": 0.7
     },
     "DietaryPreferences": [
+      "chicken-based",
       "balanced diet"
     ],
     "DietaryScores": {
+      "chicken-based": 0.8,
       "balanced diet": 0.7
     },
     "BehavioralCues": [
@@ -127,10 +133,12 @@
       "safety-conscious": 0.7
     },
     "HealthMentions": [
-      "healthy"
+      "healthy",
+      "active"
     ],
     "HealthScores": {
-      "healthy": 0.8
+      "healthy": 0.8,
+      "active": 0.7
     },
     "MostOrderedProducts": [
       "PetRageous Designs Batik Bones Pet Bowl, Sand, 7\", 5.5-cups",

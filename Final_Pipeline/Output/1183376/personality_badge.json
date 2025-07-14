@@ -1,10 +1,10 @@
 {
-  "badge": "The Cuddler",
+  "badge": "The Trickster",
   "compatible_with": [
-    "The Trickster",
-    "The Guardian",
-    "The Daydreamer"
+    "The Explorer",
+    "The Athlete",
+    "The Cuddler"
   ],
-  "icon_png": "the_cuddler.png",
-  "description": "A household of affectionate, food-loving felines who enjoy their comfort but aren't afraid to have a bit of fun."
+  "icon_png": "the_trickster.png",
+  "description": "This household is filled with playful and mischievous felines who love their toys and treats, adding a fun and energetic vibe to their home."
 }

@@ -1,6 +1,20 @@
 {
   "customer_id": "1183376",
   "unknown_attributes": {
+    "Turbo": {
+      "pet_name": "Turbo",
+      "unknown_fields": [
+        "SizeCategory",
+        "Weight"
+      ],
+      "unknown_scores": [
+        "SizeScore",
+        "WeightScore",
+        "ConfidenceScore"
+      ],
+      "unknown_lists": [],
+      "unknown_dicts": []
+    },
     "Elwood": {
       "pet_name": "Elwood",
       "unknown_fields": [
@@ -30,20 +44,6 @@
         "BreedScore",
         "LifeStageScore",
         "GenderScore",
-        "SizeScore",
-        "WeightScore",
-        "ConfidenceScore"
-      ],
-      "unknown_lists": [],
-      "unknown_dicts": []
-    },
-    "Turbo": {
-      "pet_name": "Turbo",
-      "unknown_fields": [
-        "SizeCategory",
-        "Weight"
-      ],
-      "unknown_scores": [
         "SizeScore",
         "WeightScore",
         "ConfidenceScore"

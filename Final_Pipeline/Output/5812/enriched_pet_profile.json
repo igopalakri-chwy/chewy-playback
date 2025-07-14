@@ -25,29 +25,29 @@
     },
     "FavoriteProductCategories": [
       "toys",
-      "clothing"
+      "apparel"
     ],
     "CategoryScores": {
       "toys": 0.95,
-      "clothing": 0.7
+      "apparel": 0.6
     },
     "BrandPreferences": [
       "GoDog",
-      "Fetch For Pets"
+      "Outward Hound"
     ],
     "BrandScores": {
       "GoDog": 0.9,
-      "Fetch For Pets": 0.8
+      "Outward Hound": 0.7
     },
     "DietaryPreferences": [],
     "DietaryScores": {},
     "BehavioralCues": [
       "loves toys",
-      "enjoys plush toys"
+      "enjoys playing"
     ],
     "BehavioralScores": {
       "loves toys": 0.95,
-      "enjoys plush toys": 0.9
+      "enjoys playing": 0.85
     },
     "HealthMentions": [
       "active"
@@ -90,29 +90,29 @@
     },
     "FavoriteProductCategories": [
       "toys",
-      "clothing"
+      "apparel"
     ],
     "CategoryScores": {
       "toys": 0.95,
-      "clothing": 0.7
+      "apparel": 0.6
     },
     "BrandPreferences": [
       "GoDog",
-      "Fetch For Pets"
+      "Outward Hound"
     ],
     "BrandScores": {
       "GoDog": 0.9,
-      "Fetch For Pets": 0.8
+      "Outward Hound": 0.7
     },
     "DietaryPreferences": [],
     "DietaryScores": {},
     "BehavioralCues": [
       "loves toys",
-      "enjoys plush toys"
+      "enjoys playing"
     ],
     "BehavioralScores": {
       "loves toys": 0.95,
-      "enjoys plush toys": 0.9
+      "enjoys playing": 0.85
     },
     "HealthMentions": [
       "active"

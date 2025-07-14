@@ -1,10 +1,10 @@
 {
-  "badge": "The Trickster",
+  "badge": "The Explorer",
   "compatible_with": [
-    "The Cuddler",
-    "The Explorer",
-    "The Athlete"
+    "The Athlete",
+    "The Trickster",
+    "The Cuddler"
   ],
-  "icon_png": "the_trickster.png",
-  "description": "Mike and Myles are an energetic duo who love to play tricks and have a fun time, always keeping their human on their toes."
+  "icon_png": "the_explorer.png",
+  "description": "This household is filled with curious and playful pets who love to discover new toys and treats."
 }

@@ -34,18 +34,20 @@
       "food": 0.7
     },
     "BrandPreferences": [
-      "Wellness CORE",
-      "Dr. Lyon's"
+      "Wellness",
+      "PetSafe"
     ],
     "BrandScores": {
-      "Wellness CORE": 0.9,
-      "Dr. Lyon's": 0.8
+      "Wellness": 0.9,
+      "PetSafe": 0.8
     },
     "DietaryPreferences": [
-      "grain-free"
+      "grain-free",
+      "high-protein"
     ],
     "DietaryScores": {
-      "grain-free": 0.8
+      "grain-free": 0.8,
+      "high-protein": 0.7
     },
     "BehavioralCues": [
       "loves toys",
@@ -107,18 +109,20 @@
       "food": 0.7
     },
     "BrandPreferences": [
-      "Wellness CORE",
-      "Dr. Lyon's"
+      "Wellness",
+      "PetSafe"
     ],
     "BrandScores": {
-      "Wellness CORE": 0.9,
-      "Dr. Lyon's": 0.8
+      "Wellness": 0.9,
+      "PetSafe": 0.8
     },
     "DietaryPreferences": [
-      "grain-free"
+      "grain-free",
+      "high-protein"
     ],
     "DietaryScores": {
-      "grain-free": 0.8
+      "grain-free": 0.8,
+      "high-protein": 0.7
     },
     "BehavioralCues": [
       "loves toys",

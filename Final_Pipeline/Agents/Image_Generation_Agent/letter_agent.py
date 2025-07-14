@@ -9,17 +9,31 @@ from dotenv import load_dotenv
 
 
 def generate_image_from_prompt(visual_prompt: str, api_key: str, output_path: str = None) -> str:
-    """Generate an image from a visual prompt using OpenAI DALL-E."""
+    """Generate an image from a visual prompt using OpenAI gpt-image-1."""
     
     # Initialize OpenAI client
     client = openai.OpenAI(api_key=api_key)
     
     try:
+        # Art style prompt to ensure consistency
+        art_style = "Soft, blended brushstrokes that mimic traditional oil or gouache painting. Warm, glowing lighting with gentle ambient highlights and diffuse shadows. Vivid yet harmonious color palette, featuring saturated pastels and rich warm tones. Subtle texture that gives a hand-painted, storybook feel. Sparkle accents and light flares to add magical charm. Smooth gradients and soft edges, avoiding harsh lines or stark contrast. A dreamy, nostalgic tone evocative of classic children's book illustrations. "
+        
+        # Combine art style with visual prompt
+        prompt = art_style + visual_prompt
+        
+        # Truncate prompt to fit OpenAI's 1000 character limit
+        if len(prompt) > 1000:
+            prompt = prompt[:997] + "..."
+        
+        # Add timestamp to ensure unique generation
+        import time
+        timestamp = int(time.time())
+        unique_prompt = f"{prompt} [Generated at {timestamp}]"
+        
         response = client.images.generate(
-            model="dall-e-3",
-            prompt=visual_prompt,
+            model="gpt-image-1",
+            prompt=unique_prompt,
             size="1024x1024",
-            quality="standard",
             n=1,
         )
         

@@ -538,7 +538,7 @@ class ChewyPlaybackPipeline:
         
         # Setup directories
         self.data_dir = Path("Data")
-        self.output_dir = Path("Output")
+        self.output_dir = Path("Final_Pipeline/Output")
         self.output_dir.mkdir(exist_ok=True)
         
         # Initialize agents
@@ -965,18 +965,43 @@ class ChewyPlaybackPipeline:
             
             if collective_visual_prompt:
                 try:
-                    # Generate collective image using OpenAI DALL-E
+                    # Art style prompt to ensure consistency
+                    art_style = "Soft, blended brushstrokes that mimic traditional oil or gouache painting. Warm, glowing lighting with gentle ambient highlights and diffuse shadows. Vivid yet harmonious color palette, featuring saturated pastels and rich warm tones. Subtle texture that gives a hand-painted, storybook feel. Sparkle accents and light flares to add magical charm. Smooth gradients and soft edges, avoiding harsh lines or stark contrast. A dreamy, nostalgic tone evocative of classic children's book illustrations. "
+                    
+                    # Combine art style with visual prompt
+                    prompt = art_style + collective_visual_prompt
+                    
+                    # Truncate prompt to fit OpenAI's 1000 character limit
+                    if len(prompt) > 1000:
+                        prompt = prompt[:997] + "..."
+                    
+                    # Add timestamp to ensure unique generation
+                    import time
+                    timestamp = int(time.time())
+                    unique_prompt = f"{prompt} [Generated at {timestamp}]"
+                    
+                    # Generate collective image using OpenAI gpt-image-1
                     response = self.openai_client.images.generate(
-                        model="dall-e-3",
-                        prompt=collective_visual_prompt,
+                        model="gpt-image-1",
+                        prompt=unique_prompt,
                         size="1024x1024",
-                        quality="standard",
                         n=1,
                     )
                     
-                    # Get image URL
-                    image_url = response.data[0].url
-                    image_results[customer_id] = image_url
+                    # Handle both URL and base64 responses
+                    image_data = response.data[0]
+                    if hasattr(image_data, 'url') and image_data.url:
+                        # URL response
+                        image_url = image_data.url
+                        image_results[customer_id] = image_url
+                    elif hasattr(image_data, 'b64_json') and image_data.b64_json:
+                        # Base64 response - save directly
+                        import base64
+                        image_bytes = base64.b64decode(image_data.b64_json)
+                        image_results[customer_id] = image_bytes
+                    else:
+                        print(f"    ❌ No image data found in response for customer {customer_id}")
+                        image_results[customer_id] = None
                     
                     print(f"    ✅ Generated collective image for all pets")
                     
@@ -1050,7 +1075,6 @@ class ChewyPlaybackPipeline:
                     source_badge_path = Path("Agents/Narrative_Generation_Agent") / badge_icon
                     if source_badge_path.exists():
                         dest_badge_path = customer_dir / badge_icon
-                        import shutil
                         shutil.copy2(source_badge_path, dest_badge_path)
                         print(f"    🏆 Saved personality badge: {badge_info.get('badge', 'Unknown')}")
             
@@ -1061,19 +1085,30 @@ class ChewyPlaybackPipeline:
                     json.dump(breed_predictions[customer_id], f, indent=2)
                 print(f"    🐕 Saved breed predictions for {len(breed_predictions[customer_id])} pets")
             
-            # Save collective image (download and save)
+            # Save collective image (handle both URL and base64 data)
             if customer_id in image_results and image_results[customer_id]:
                 images_dir = customer_dir / "images"
                 images_dir.mkdir(exist_ok=True)
                 
                 try:
-                    import requests
-                    response = requests.get(image_results[customer_id])
-                    if response.status_code == 200:
-                        image_path = images_dir / "collective_pet_portrait.png"
+                    image_path = images_dir / "collective_pet_portrait.png"
+                    
+                    if isinstance(image_results[customer_id], str):
+                        # URL response - download the image
+                        response = requests.get(image_results[customer_id])
+                        if response.status_code == 200:
+                            with open(image_path, 'wb') as f:
+                                f.write(response.content)
+                            print(f"    💾 Saved collective image for all pets")
+                        else:
+                            print(f"    ❌ Failed to download image for customer {customer_id} (Status: {response.status_code})")
+                    elif isinstance(image_results[customer_id], bytes):
+                        # Base64 response - save directly
                         with open(image_path, 'wb') as f:
-                            f.write(response.content)
+                            f.write(image_results[customer_id])
                         print(f"    💾 Saved collective image for all pets")
+                    else:
+                        print(f"    ❌ Unknown image data type for customer {customer_id}")
                 except Exception as e:
                     print(f"    ❌ Error saving collective image: {e}")
             
