@@ -1,6 +1,15 @@
 {
   "customer_id": "1317924",
   "unknown_attributes": {
+    "Sindel": {
+      "pet_name": "Sindel",
+      "unknown_fields": [
+        "Weight"
+      ],
+      "unknown_scores": [],
+      "unknown_lists": [],
+      "unknown_dicts": []
+    },
     "German": {
       "pet_name": "German",
       "unknown_fields": [
@@ -11,27 +20,8 @@
       "unknown_lists": [],
       "unknown_dicts": []
     },
-    "Beatrix Kiddo": {
-      "pet_name": "Beatrix Kiddo",
-      "unknown_fields": [
-        "SizeCategory",
-        "Weight"
-      ],
-      "unknown_scores": [],
-      "unknown_lists": [],
-      "unknown_dicts": []
-    },
-    "Sindel": {
-      "pet_name": "Sindel",
-      "unknown_fields": [
-        "Weight"
-      ],
-      "unknown_scores": [],
-      "unknown_lists": [],
-      "unknown_dicts": []
-    },
-    "Bff": {
-      "pet_name": "Bff",
+    "Gsd": {
+      "pet_name": "Gsd",
       "unknown_fields": [
         "SizeCategory",
         "Weight"
@@ -50,8 +40,18 @@
       "unknown_lists": [],
       "unknown_dicts": []
     },
-    "Gsd": {
-      "pet_name": "Gsd",
+    "Beatrix Kiddo": {
+      "pet_name": "Beatrix Kiddo",
+      "unknown_fields": [
+        "SizeCategory",
+        "Weight"
+      ],
+      "unknown_scores": [],
+      "unknown_lists": [],
+      "unknown_dicts": []
+    },
+    "Bff": {
+      "pet_name": "Bff",
       "unknown_fields": [
         "SizeCategory",
         "Weight"

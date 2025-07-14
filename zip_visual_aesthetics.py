@@ -32,15 +32,16 @@ class ZIPVisualAestheticsGenerator:
             zip_code: U.S. ZIP code as a string
             
         Returns:
-            Dictionary with visual_style, color_texture, and art_style
+            Dictionary with visual_style, color_texture, art_style, and tone_style
         """
         try:
             # Create the prompt
             prompt = f"""Given the ZIP code {zip_code}, provide the following:
-visual_style (3–5 words), color_texture (3–5 words), and art_style (3–5 words). Output only in this format:
+visual_style (3–5 words), color_texture (3–5 words), art_style (3–5 words), and tone_style (3–5 words describing the type of language that will resonate with people in this area). Output only in this format:
 visual_style = "..."
 color_texture = "..."
 art_style = "..."
+tone_style = "..."
 """
             
             # Call OpenAI API
@@ -49,14 +50,14 @@ art_style = "..."
                 messages=[
                     {
                         "role": "system",
-                        "content": "You are an expert in visual aesthetics and regional design. Analyze ZIP codes to determine the visual characteristics of the area."
+                        "content": "You are an expert in visual aesthetics and regional design. Analyze ZIP codes to determine the visual characteristics and communication tone of the area."
                     },
                     {
                         "role": "user",
                         "content": prompt
                     }
                 ],
-                max_tokens=100,
+                max_tokens=150,
                 temperature=0.7
             )
             
@@ -70,6 +71,7 @@ art_style = "..."
             print(f'visual_style = "{aesthetics["visual_style"]}"')
             print(f'color_texture = "{aesthetics["color_texture"]}"')
             print(f'art_style = "{aesthetics["art_style"]}"')
+            print(f'tone_style = "{aesthetics["tone_style"]}"')
             
             return aesthetics
             
@@ -81,7 +83,7 @@ art_style = "..."
             return self._get_fallback_aesthetics()
     
     def _parse_response(self, response: str) -> Dict[str, str]:
-        """Parse the OpenAI response to extract the three aesthetics components."""
+        """Parse the OpenAI response to extract the four aesthetics components."""
         try:
             lines = response.strip().split('\n')
             aesthetics = {}
@@ -94,9 +96,11 @@ art_style = "..."
                     aesthetics['color_texture'] = self._extract_quoted_value(line)
                 elif line.startswith('art_style = '):
                     aesthetics['art_style'] = self._extract_quoted_value(line)
+                elif line.startswith('tone_style = '):
+                    aesthetics['tone_style'] = self._extract_quoted_value(line)
             
             # Ensure all required fields are present
-            required_fields = ['visual_style', 'color_texture', 'art_style']
+            required_fields = ['visual_style', 'color_texture', 'art_style', 'tone_style']
             for field in required_fields:
                 if field not in aesthetics or not aesthetics[field]:
                     aesthetics[field] = self._get_fallback_aesthetics()[field]
@@ -130,7 +134,8 @@ art_style = "..."
         return {
             "visual_style": "modern clean",
             "color_texture": "smooth neutral",
-            "art_style": "contemporary minimal"
+            "art_style": "contemporary minimal",
+            "tone_style": "casual friendly"
         }
 
 

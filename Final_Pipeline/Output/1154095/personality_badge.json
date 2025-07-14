@@ -1,10 +1,10 @@
 {
-  "badge": "The Cuddler",
+  "badge": "The Diva",
   "compatible_with": [
-    "The Scholar",
+    "The Cuddler",
     "The Daydreamer",
     "The Nurturer"
   ],
-  "icon_png": "the_cuddler.png",
-  "description": "This household is full of affectionate and content felines who enjoy their creature comforts and appreciate the simple joys of life."
+  "icon_png": "the_diva.png",
+  "description": "These picky eaters have a taste for the finer things in life, enjoying comfort and style in all they do."
 }

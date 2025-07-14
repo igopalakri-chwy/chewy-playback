@@ -9,6 +9,12 @@ import argparse
 from typing import Dict, List, Any, Optional
 import openai
 import os
+import sys
+from pathlib import Path
+
+# Add the parent directory to path to import the ZIP aesthetics generator
+sys.path.append(str(Path(__file__).parent.parent.parent.parent))
+from zip_visual_aesthetics import ZIPVisualAestheticsGenerator
 
 
 class PetLetterLLMSystem:
@@ -69,6 +75,83 @@ class PetLetterLLMSystem:
         
         return sample_pet_data, sample_review_data, sample_order_data, data_type
     
+    def extract_zip_code_from_orders(self, sample_order_data: List[Dict[str, Any]]) -> Optional[str]:
+        """Extract ZIP code from order data."""
+        if not sample_order_data:
+            print(f"    🔍 No order data provided for ZIP extraction")
+            return None
+        
+        print(f"    🔍 Checking {len(sample_order_data)} orders for ZIP code...")
+        
+        # Look for ZIP code in the order data
+        for i, order in enumerate(sample_order_data):
+            # Check different possible field names for ZIP code
+            zip_code = order.get('zip_code') or order.get('ZIP_CODE') or order.get('zip') or order.get('ZIP')
+            if zip_code:
+                print(f"    🗺️ Found ZIP code in order {i}: {zip_code}")
+                # Clean the ZIP code (remove any extra info like "-3415")
+                clean_zip = str(zip_code).split('-')[0].strip()
+                if len(clean_zip) == 5 and clean_zip.isdigit():
+                    print(f"    ✅ Valid ZIP code extracted: {clean_zip}")
+                    return clean_zip
+                else:
+                    print(f"    ⚠️ Invalid ZIP code format: {clean_zip}")
+            else:
+                print(f"    🔍 Order {i} keys: {list(order.keys())}")
+        
+        print(f"    ❌ No valid ZIP code found in any orders")
+        return None
+    
+    def get_zip_aesthetics(self, zip_code: str) -> Dict[str, str]:
+        """Get visual aesthetics for a ZIP code using the ZIP aesthetics generator."""
+        try:
+            generator = ZIPVisualAestheticsGenerator()
+            aesthetics = generator.generate_aesthetics(zip_code)
+            
+            # Add a 'tones' field based on the aesthetics
+            tones = self._derive_tones_from_aesthetics(aesthetics)
+            aesthetics['tones'] = tones
+            
+            return aesthetics
+        except Exception as e:
+            print(f"Warning: Could not get ZIP aesthetics for {zip_code}: {e}")
+            return self._get_default_aesthetics()
+    
+    def _derive_tones_from_aesthetics(self, aesthetics: Dict[str, str]) -> str:
+        """Derive appealing tones from the visual aesthetics."""
+        visual_style = aesthetics.get('visual_style', '').lower()
+        color_texture = aesthetics.get('color_texture', '').lower()
+        art_style = aesthetics.get('art_style', '').lower()
+        
+        tones = []
+        
+        # Analyze visual style for tones
+        if 'urban' in visual_style or 'modern' in visual_style:
+            tones.append('sophisticated')
+        if 'tropical' in visual_style or 'vibrant' in color_texture:
+            tones.append('energetic')
+        if 'luxury' in visual_style or 'elegant' in art_style:
+            tones.append('premium')
+        if 'rustic' in visual_style or 'earthy' in color_texture:
+            tones.append('authentic')
+        if 'minimal' in art_style or 'clean' in visual_style:
+            tones.append('refined')
+        
+        # Default tones if none derived
+        if not tones:
+            tones = ['warm', 'friendly']
+        
+        return ', '.join(tones)
+    
+    def _get_default_aesthetics(self) -> Dict[str, str]:
+        """Return default aesthetics when ZIP analysis fails."""
+        return {
+            'visual_style': 'modern clean',
+            'color_texture': 'smooth neutral',
+            'art_style': 'contemporary minimal',
+            'tones': 'warm, friendly'
+        }
+    
     def generate_output(self, pet_data: Dict[str, Any], secondary_data: Dict[str, Any]) -> Dict[str, str]:
         """
         Generate a JSON object containing a playful letter and visual prompt.
@@ -77,16 +160,27 @@ class PetLetterLLMSystem:
         # Extract data
         sample_pet_data, sample_review_data, sample_order_data, data_type = self.extract_data(pet_data, secondary_data)
         
+        # Get ZIP code and aesthetics
+        zip_code = self.extract_zip_code_from_orders(sample_order_data)
+        zip_aesthetics = None
+        if zip_code:
+            print(f"  🗺️ Found ZIP code: {zip_code}")
+            zip_aesthetics = self.get_zip_aesthetics(zip_code)
+            print(f"  🎨 ZIP aesthetics: {zip_aesthetics['visual_style']}, {zip_aesthetics['color_texture']}, {zip_aesthetics['art_style']}")
+        else:
+            print(f"  ⚠️ No ZIP code found, using default aesthetics")
+            zip_aesthetics = self._get_default_aesthetics()
+        
         # Prepare context for LLM based on data type
         if data_type == "reviews":
-            context = self._prepare_context_reviews(sample_pet_data, sample_review_data)
+            context = self._prepare_context_reviews(sample_pet_data, sample_review_data, zip_aesthetics)
         elif data_type == "orders":
-            context = self._prepare_context_orders(sample_pet_data, sample_order_data)
+            context = self._prepare_context_orders(sample_pet_data, sample_order_data, zip_aesthetics)
         else:
             # Fallback: try both
-            context = self._prepare_context_reviews(sample_pet_data, sample_review_data)
+            context = self._prepare_context_reviews(sample_pet_data, sample_review_data, zip_aesthetics)
             if not sample_review_data:
-                context = self._prepare_context_orders(sample_pet_data, sample_order_data)
+                context = self._prepare_context_orders(sample_pet_data, sample_order_data, zip_aesthetics)
         
         prompt = f"""You are an LLM that writes a JSON object containing:
 
@@ -113,6 +207,12 @@ You are given:
   - `quantity`
   - optional `pet_name`
 
+- `zip_aesthetics` (if available): Regional visual aesthetics including:
+  - `visual_style`: Regional visual characteristics
+  - `color_texture`: Regional color and texture preferences
+  - `art_style`: Regional art style preferences
+  - `tones`: Appealing tones for the region
+
 ==== INSTRUCTIONS ====
 
 STEP 1 — INTERPRET DATA AND PET PROFILES:
@@ -135,10 +235,15 @@ STEP 2 — GENERATE THE LETTER:
   - Express joy and personality using pet-like expressions (e.g., "zoomies of joy!", "snuggle squad reporting in!").
   - Avoid assigning products to specific pets unless the data clearly names a pet.
   - Reflect personality if traits are available.
+  - **Incorporate regional tones and style** from `zip_aesthetics` if available (e.g., sophisticated, energetic, premium, authentic, refined).
   - Avoid marketing language or sounding like an ad.
 
 STEP 3 — GENERATE THE VISUAL PROMPT:
 - Describe a warm, playful, Chewy-branded scene featuring the pets.
+- **Incorporate the regional visual aesthetics** from `zip_aesthetics` if available:
+  - Use the `visual_style` to guide the overall scene composition
+  - Apply the `color_texture` to influence the color palette and textures
+  - Follow the `art_style` for the artistic direction
 - Include the positively reviewed products (if review data available) or frequently ordered products (if order data available), described naturally.
 - If any pet is `"unknown"`:
   - Include a **generic** version of its `type` (e.g., "a generic domestic cat").
@@ -214,6 +319,8 @@ Generate the JSON object:"""
             # Try to parse as JSON
             try:
                 result = json.loads(content)
+                # Add ZIP aesthetics to the result
+                result['zip_aesthetics'] = zip_aesthetics
                 return result
             except json.JSONDecodeError:
                 # If JSON parsing fails, try to extract JSON from the response
@@ -221,18 +328,23 @@ Generate the JSON object:"""
                 json_match = re.search(r'\{.*\}', content, re.DOTALL)
                 if json_match:
                     try:
-                        return json.loads(json_match.group())
+                        result = json.loads(json_match.group())
+                        # Add ZIP aesthetics to the result
+                        result['zip_aesthetics'] = zip_aesthetics
+                        return result
                     except json.JSONDecodeError:
                         pass
                 
                 # Fallback to hardcoded response
-                return self._generate_fallback_output(sample_pet_data, sample_review_data, sample_order_data, data_type)
+                fallback_result = self._generate_fallback_output(sample_pet_data, sample_review_data, sample_order_data, data_type)
+                fallback_result['zip_aesthetics'] = zip_aesthetics
+                return fallback_result
             
         except Exception as e:
             print(f"LLM generation failed: {e}")
             return self._generate_fallback_output(sample_pet_data, sample_review_data, sample_order_data, data_type)
     
-    def _prepare_context_reviews(self, sample_pet_data: List[Dict[str, Any]], sample_review_data: List[Dict[str, Any]]) -> str:
+    def _prepare_context_reviews(self, sample_pet_data: List[Dict[str, Any]], sample_review_data: List[Dict[str, Any]], zip_aesthetics: Optional[Dict[str, str]] = None) -> str:
         """Prepare context for LLM generation with review data."""
         context_parts = []
         
@@ -262,9 +374,17 @@ Generate the JSON object:"""
             if review.get('pet_name'):
                 context_parts.append(f"  pet_name: {review.get('pet_name')}")
         
+        # Add ZIP aesthetics to context if available
+        if zip_aesthetics:
+            context_parts.append("\nZIP_AESTHETICS:")
+            context_parts.append(f"- visual_style: {zip_aesthetics['visual_style']}")
+            context_parts.append(f"- color_texture: {zip_aesthetics['color_texture']}")
+            context_parts.append(f"- art_style: {zip_aesthetics['art_style']}")
+            context_parts.append(f"- tones: {zip_aesthetics['tones']}")
+        
         return '\n'.join(context_parts)
 
-    def _prepare_context_orders(self, sample_pet_data: List[Dict[str, Any]], sample_order_data: List[Dict[str, Any]]) -> str:
+    def _prepare_context_orders(self, sample_pet_data: List[Dict[str, Any]], sample_order_data: List[Dict[str, Any]], zip_aesthetics: Optional[Dict[str, str]] = None) -> str:
         """Prepare context for LLM generation with order data."""
         context_parts = []
         
@@ -293,6 +413,14 @@ Generate the JSON object:"""
             context_parts.append(f"  quantity: {order.get('quantity', 1)}")
             if order.get('pet_name'):
                 context_parts.append(f"  pet_name: {order.get('pet_name')}")
+        
+        # Add ZIP aesthetics to context if available
+        if zip_aesthetics:
+            context_parts.append("\nZIP_AESTHETICS:")
+            context_parts.append(f"- visual_style: {zip_aesthetics['visual_style']}")
+            context_parts.append(f"- color_texture: {zip_aesthetics['color_texture']}")
+            context_parts.append(f"- art_style: {zip_aesthetics['art_style']}")
+            context_parts.append(f"- tones: {zip_aesthetics['tones']}")
         
         return '\n'.join(context_parts)
     

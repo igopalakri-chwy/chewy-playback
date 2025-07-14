@@ -538,7 +538,7 @@ class ChewyPlaybackPipeline:
         
         # Setup directories
         self.data_dir = Path("Data")
-        self.output_dir = Path("Final_Pipeline/Output")
+        self.output_dir = Path("Output")
         self.output_dir.mkdir(exist_ok=True)
         
         # Initialize agents
@@ -792,9 +792,8 @@ class ChewyPlaybackPipeline:
                 # Prepare data for the new narrative agent
                 pet_data = {customer_id: pets_data}
                 
-                # For customers with reviews, we need to get review data
-                # For customers without reviews, we'll use order data
-                secondary_data = {}
+                # Always get order data for ZIP code extraction
+                orders = self._get_customer_orders_for_narrative(customer_id)
                 
                 # Check if customer has reviews
                 has_reviews = self._check_customer_has_reviews(customer_id)
@@ -802,14 +801,16 @@ class ChewyPlaybackPipeline:
                 if has_reviews:
                     # Get review data for this customer
                     reviews = self._get_customer_reviews(customer_id)
-                    secondary_data = {"reviews": reviews}
+                    secondary_data = {"reviews": reviews, "order_history": orders}
                 else:
-                    # Get order data for this customer
-                    orders = self._get_customer_orders_for_narrative(customer_id)
+                    # Use order data for narrative generation
                     secondary_data = {"order_history": orders}
                 
                 # Generate narrative using the new agent
                 narrative_output = self.narrative_agent.generate_output(pet_data, secondary_data)
+                
+                # Extract ZIP aesthetics from the narrative agent
+                zip_aesthetics = narrative_output.get('zip_aesthetics', {})
                 
                 customer_narratives = {
                     'customer_id': customer_id,
@@ -817,6 +818,7 @@ class ChewyPlaybackPipeline:
                     'collective_letter': narrative_output.get('letter', ''),
                     'collective_visual_prompt': narrative_output.get('visual_prompt', ''),
                     'personality_badge': narrative_output.get('personality_badge', {}),
+                    'zip_aesthetics': zip_aesthetics,
                     'cust_confidence_score': customer_confidence_score
                 }
                 
@@ -913,26 +915,34 @@ class ChewyPlaybackPipeline:
             # Try different order history files
             current_dir = Path(__file__).parent
             order_files = [
+                str(current_dir / "Data/order_history.csv"),  # Original file with ZIP codes
                 str(current_dir / "Data/zero_reviews.csv"),
                 str(current_dir / "Data/processed_orderhistory.csv"),
                 str(current_dir / "Agents/Review_and_Order_Intelligence_Agent/processed_orderhistory.csv")
             ]
             
             for order_file in order_files:
+                print(f"    🔍 Checking order file: {order_file}")
                 if os.path.exists(order_file):
+                    print(f"    ✅ File exists")
                     orders_df = pd.read_csv(order_file)
+                    print(f"    📊 File has {len(orders_df)} rows")
+                    print(f"    📋 Columns: {list(orders_df.columns)}")
                     
                     # Check for customer ID in different column formats
                     customer_col = None
                     for col in ['CustomerID', 'CUSTOMER_ID', 'customer_id']:
                         if col in orders_df.columns:
                             customer_col = col
+                            print(f"    ✅ Found customer column: {customer_col}")
                             break
                     
                     if customer_col:
                         customer_orders = orders_df[orders_df[customer_col].astype(str) == str(customer_id)]
+                        print(f"    🔍 Found {len(customer_orders)} orders for customer {customer_id}")
                         
                         if not customer_orders.empty:
+                            print(f"    ✅ Customer {customer_id} found in {order_file}")
                             # Convert to list of dictionaries
                             orders_list = []
                             for _, row in customer_orders.iterrows():
@@ -941,12 +951,21 @@ class ChewyPlaybackPipeline:
                                     'item_type': 'unknown',  # We'll need to infer this
                                     'brand': 'Chewy',  # Default brand
                                     'quantity': 1,
-                                    'pet_name': row.get('PetName1', row.get('pet_name_1', ''))
+                                    'pet_name': row.get('PetName1', row.get('pet_name_1', '')),
+                                    'zip_code': row.get('ZIP_CODE', row.get('zip_code', ''))
                                 }
                                 orders_list.append(order)
                             
+                            print(f"    📦 Created {len(orders_list)} order dictionaries")
                             return orders_list
+                        else:
+                            print(f"    ❌ Customer {customer_id} not found in {order_file}")
+                    else:
+                        print(f"    ❌ No customer ID column found in {order_file}")
+                else:
+                    print(f"    ❌ File does not exist: {order_file}")
             
+            print(f"    ❌ Customer {customer_id} not found in any order files")
             return []
         except Exception as e:
             print(f"Error getting orders for customer {customer_id}: {e}")
@@ -962,14 +981,21 @@ class ChewyPlaybackPipeline:
             print(f"  🖼️ Generating collective image for customer {customer_id}...")
             
             collective_visual_prompt = customer_data.get('collective_visual_prompt', '')
+            zip_aesthetics = customer_data.get('zip_aesthetics', {})
             
             if collective_visual_prompt:
                 try:
                     # Art style prompt to ensure consistency
                     default_art_style = "Soft, blended brushstrokes that mimic traditional oil or gouache painting. Warm, glowing lighting with gentle ambient highlights and diffuse shadows. Vivid yet harmonious color palette, featuring saturated pastels and rich warm tones. Subtle texture that gives a hand-painted, storybook feel. Sparkle accents and light flares to add magical charm. Smooth gradients and soft edges, avoiding harsh lines or stark contrast. A dreamy, nostalgic tone evocative of classic children's book illustrations. "
                     
+                    # Use ZIP aesthetics if available, otherwise fall back to default
+                    if zip_aesthetics and zip_aesthetics.get('visual_style'):
+                        art_style_prompt = f"{zip_aesthetics.get('visual_style', '')}. {zip_aesthetics.get('color_texture', '')}. {zip_aesthetics.get('art_style', '')}. {zip_aesthetics.get('tones', '')}. "
+                    else:
+                        art_style_prompt = default_art_style
+                    
                     # Combine art style with visual prompt
-                    prompt = default_art_style + collective_visual_prompt
+                    prompt = art_style_prompt + " " + collective_visual_prompt
                     
                     # Truncate prompt to fit OpenAI's 1000 character limit
                     if len(prompt) > 1000:
@@ -1077,6 +1103,14 @@ class ChewyPlaybackPipeline:
                         dest_badge_path = customer_dir / badge_icon
                         shutil.copy2(source_badge_path, dest_badge_path)
                         print(f"    🏆 Saved personality badge: {badge_info.get('badge', 'Unknown')}")
+            
+            # Save ZIP aesthetics information
+            zip_aesthetics = narrative_results[customer_id].get('zip_aesthetics', {})
+            if zip_aesthetics:
+                zip_aesthetics_path = customer_dir / "zip_aesthetics.json"
+                with open(zip_aesthetics_path, 'w') as f:
+                    json.dump(zip_aesthetics, f, indent=2)
+                print(f"    🗺️ Saved ZIP aesthetics: {zip_aesthetics.get('visual_style', 'Unknown')}, {zip_aesthetics.get('color_texture', 'Unknown')}, {zip_aesthetics.get('art_style', 'Unknown')}")
             
             # Save breed predictions if available
             if breed_predictions and customer_id in breed_predictions:
