@@ -17,7 +17,7 @@
       "Finicky"
     ],
     "PersonalityScores": {
-      "Finicky": 0.7
+      "Finicky": 0.8
     },
     "FavoriteProductCategories": [
       "Cat Food",
@@ -27,7 +27,7 @@
     "CategoryScores": {
       "Cat Food": 0.9,
       "Cat Toys": 0.7,
-      "Cat Harness": 0.6
+      "Cat Harness": 0.7
     },
     "BrandPreferences": [
       "Beyond Grain",
@@ -35,31 +35,35 @@
       "The Honest Kitchen"
     ],
     "BrandScores": {
-      "Beyond Grain": 0.8,
+      "Beyond Grain": 0.7,
       "Halo": 0.8,
       "The Honest Kitchen": 0.6
     },
     "DietaryPreferences": [
       "Grain-Free",
-      "High Fiber"
+      "High Fiber",
+      "Moist Food",
+      "Large Kibble"
     ],
     "DietaryScores": {
       "Grain-Free": 0.9,
-      "High Fiber": 0.7
+      "High Fiber": 0.7,
+      "Moist Food": 0.8,
+      "Large Kibble": 0.8
     },
     "BehavioralCues": [
-      "Likes to Crunch Kibble"
+      "Likes to Crunch on Kibble"
     ],
     "BehavioralScores": {
-      "Likes to Crunch Kibble": 0.8
+      "Likes to Crunch on Kibble": 0.8
     },
     "HealthMentions": [
-      "No More Hair Shedding",
-      "No More Throwing Up"
+      "No Hair Shedding",
+      "No Throwing Up"
     ],
     "HealthScores": {
-      "No More Hair Shedding": 0.8,
-      "No More Throwing Up": 0.8
+      "No Hair Shedding": 0.8,
+      "No Throwing Up": 0.8
     },
     "MostOrderedProducts": [
       "Farnam Ivercare Ivermectin 1.87% Paste Horse Dewormer, Apple Flavor, .26-oz syringe, 1 count",
@@ -92,20 +96,18 @@
     "Weight": "UNK",
     "WeightScore": 0,
     "PersonalityTraits": [
-      "Finicky eater"
+      "Finicky"
     ],
     "PersonalityScores": {
-      "Finicky eater": 0.8
+      "Finicky": 0.7
     },
     "FavoriteProductCategories": [
       "Cat Food",
-      "Cat Toys",
-      "Cat Harness"
+      "Cat Toys"
     ],
     "CategoryScores": {
       "Cat Food": 0.9,
-      "Cat Toys": 0.7,
-      "Cat Harness": 0.7
+      "Cat Toys": 0.7
     },
     "BrandPreferences": [
       "Beyond",
@@ -114,8 +116,8 @@
     ],
     "BrandScores": {
       "Beyond": 0.8,
-      "Halo": 0.8,
-      "Whole Earth Farms": 0.7
+      "Halo": 0.7,
+      "Whole Earth Farms": 0.6
     },
     "DietaryPreferences": [
       "Grain-Free",
@@ -123,25 +125,25 @@
       "No Chicken"
     ],
     "DietaryScores": {
-      "Grain-Free": 0.9,
+      "Grain-Free": 0.8,
       "High Fiber": 0.7,
-      "No Chicken": 0.7
+      "No Chicken": 0.6
     },
     "BehavioralCues": [
-      "Likes to crunch on kibble"
+      "Likes to crunch on kibble",
+      "Sensitive to food changes"
     ],
     "BehavioralScores": {
-      "Likes to crunch on kibble": 0.9
+      "Likes to crunch on kibble": 0.8,
+      "Sensitive to food changes": 0.7
     },
     "HealthMentions": [
       "Hair shedding",
-      "Throwing up",
-      "Sensitivity to chicken"
+      "Throwing up"
     ],
     "HealthScores": {
       "Hair shedding": 0.7,
-      "Throwing up": 0.7,
-      "Sensitivity to chicken": 0.7
+      "Throwing up": 0.7
     },
     "MostOrderedProducts": [
       "Farnam Ivercare Ivermectin 1.87% Paste Horse Dewormer, Apple Flavor, .26-oz syringe, 1 count",
@@ -177,7 +179,7 @@
       "Finicky eater"
     ],
     "PersonalityScores": {
-      "Finicky eater": 0.8
+      "Finicky eater": 0.7
     },
     "FavoriteProductCategories": [
       "Cat Food",
@@ -187,7 +189,7 @@
     "CategoryScores": {
       "Cat Food": 0.9,
       "Cat Toys": 0.7,
-      "Cat Harness": 0.6
+      "Cat Harness": 0.7
     },
     "BrandPreferences": [
       "Beyond",
@@ -196,8 +198,8 @@
     ],
     "BrandScores": {
       "Beyond": 0.8,
-      "Halo": 0.7,
-      "Whole Earth Farms": 0.6
+      "Halo": 0.8,
+      "Whole Earth Farms": 0.7
     },
     "DietaryPreferences": [
       "Grain-Free",
@@ -205,15 +207,15 @@
       "No Chicken"
     ],
     "DietaryScores": {
-      "Grain-Free": 0.9,
+      "Grain-Free": 0.8,
       "High Fiber": 0.7,
-      "No Chicken": 0.8
+      "No Chicken": 0.7
     },
     "BehavioralCues": [
       "Likes to crunch on kibble"
     ],
     "BehavioralScores": {
-      "Likes to crunch on kibble": 0.9
+      "Likes to crunch on kibble": 0.8
     },
     "HealthMentions": [
       "Hair shedding",
@@ -223,7 +225,7 @@
     "HealthScores": {
       "Hair shedding": 0.7,
       "Throwing up": 0.7,
-      "Sensitivity to chicken": 0.8
+      "Sensitivity to chicken": 0.7
     },
     "MostOrderedProducts": [
       "Farnam Ivercare Ivermectin 1.87% Paste Horse Dewormer, Apple Flavor, .26-oz syringe, 1 count",
@@ -267,7 +269,7 @@
     ],
     "CategoryScores": {
       "Cat Food": 1.0,
-      "Cat Toys": 0.7
+      "Cat Toys": 0.6
     },
     "BrandPreferences": [
       "Purina",
@@ -283,7 +285,7 @@
       "Large Kibble"
     ],
     "DietaryScores": {
-      "Grain-Free": 0.8,
+      "Grain-Free": 0.9,
       "High Fiber": 0.7,
       "Large Kibble": 1.0
     },
@@ -301,7 +303,7 @@
     },
     "MostOrderedProducts": [
       "Farnam Ivercare Ivermectin 1.87% Paste Horse Dewormer, Apple Flavor, .26-oz syringe, 1 count",
-      "Frisco Personalized Center \"Pawsitive Vibes\" Picture Frame",
+      "Frisco Personalized Center 'Pawsitive Vibes' Picture Frame",
       "Troxel Spirit Riding Helmet, Navy, Small",
       "Tribe Socks Personalized Pet Face Socks, Cat Paw",
       "Kitty Holster Cat Harness, Blazin Red Bandana, X-Small",

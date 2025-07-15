@@ -10,18 +10,8 @@
       "unknown_lists": [],
       "unknown_dicts": []
     },
-    "Bff": {
-      "pet_name": "Bff",
-      "unknown_fields": [
-        "SizeCategory",
-        "Weight"
-      ],
-      "unknown_scores": [],
-      "unknown_lists": [],
-      "unknown_dicts": []
-    },
-    "Gsd": {
-      "pet_name": "Gsd",
+    "Beatrix Kiddo": {
+      "pet_name": "Beatrix Kiddo",
       "unknown_fields": [
         "SizeCategory",
         "Weight"
@@ -50,8 +40,18 @@
       "unknown_lists": [],
       "unknown_dicts": []
     },
-    "Beatrix Kiddo": {
-      "pet_name": "Beatrix Kiddo",
+    "Gsd": {
+      "pet_name": "Gsd",
+      "unknown_fields": [
+        "SizeCategory",
+        "Weight"
+      ],
+      "unknown_scores": [],
+      "unknown_lists": [],
+      "unknown_dicts": []
+    },
+    "Bff": {
+      "pet_name": "Bff",
       "unknown_fields": [
         "SizeCategory",
         "Weight"
