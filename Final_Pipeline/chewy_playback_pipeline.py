@@ -922,50 +922,58 @@ class ChewyPlaybackPipeline:
             ]
             
             for order_file in order_files:
-                print(f"    🔍 Checking order file: {order_file}")
                 if os.path.exists(order_file):
-                    print(f"    ✅ File exists")
                     orders_df = pd.read_csv(order_file)
-                    print(f"    📊 File has {len(orders_df)} rows")
-                    print(f"    📋 Columns: {list(orders_df.columns)}")
                     
                     # Check for customer ID in different column formats
                     customer_col = None
                     for col in ['CustomerID', 'CUSTOMER_ID', 'customer_id']:
                         if col in orders_df.columns:
                             customer_col = col
-                            print(f"    ✅ Found customer column: {customer_col}")
                             break
                     
                     if customer_col:
                         customer_orders = orders_df[orders_df[customer_col].astype(str) == str(customer_id)]
-                        print(f"    🔍 Found {len(customer_orders)} orders for customer {customer_id}")
                         
                         if not customer_orders.empty:
-                            print(f"    ✅ Customer {customer_id} found in {order_file}")
                             # Convert to list of dictionaries
                             orders_list = []
                             for _, row in customer_orders.iterrows():
+                                # Handle different column names for product name
+                                product_name = 'Unknown'
+                                if 'ITEM_NAME' in row:
+                                    product_name = row['ITEM_NAME']
+                                elif 'ProductName' in row:
+                                    product_name = row['ProductName']
+                                elif 'item_name' in row:
+                                    product_name = row['item_name']
+                                
+                                # Handle different column names for ZIP code
+                                zip_code = ''
+                                if 'ZIP_CODE' in row:
+                                    zip_code = str(row['ZIP_CODE'])
+                                elif 'zip_code' in row:
+                                    zip_code = str(row['zip_code'])
+                                
+                                # Handle different column names for pet name
+                                pet_name = ''
+                                if 'PetName1' in row:
+                                    pet_name = str(row['PetName1'])
+                                elif 'pet_name_1' in row:
+                                    pet_name = str(row['pet_name_1'])
+                                
                                 order = {
-                                    'product_name': row.get('ProductName', row.get('item_name', row.get('ITEM_NAME', 'Unknown'))),
+                                    'product_name': product_name,
                                     'item_type': 'unknown',  # We'll need to infer this
                                     'brand': 'Chewy',  # Default brand
                                     'quantity': 1,
-                                    'pet_name': row.get('PetName1', row.get('pet_name_1', '')),
-                                    'zip_code': row.get('ZIP_CODE', row.get('zip_code', ''))
+                                    'pet_name': pet_name,
+                                    'zip_code': zip_code
                                 }
                                 orders_list.append(order)
                             
-                            print(f"    📦 Created {len(orders_list)} order dictionaries")
                             return orders_list
-                        else:
-                            print(f"    ❌ Customer {customer_id} not found in {order_file}")
-                    else:
-                        print(f"    ❌ No customer ID column found in {order_file}")
-                else:
-                    print(f"    ❌ File does not exist: {order_file}")
             
-            print(f"    ❌ Customer {customer_id} not found in any order files")
             return []
         except Exception as e:
             print(f"Error getting orders for customer {customer_id}: {e}")

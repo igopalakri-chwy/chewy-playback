@@ -35,7 +35,7 @@
     ],
     "BrandScores": {
       "GoDog": 0.9,
-      "Outward Hound": 0.8
+      "Outward Hound": 0.7
     },
     "DietaryPreferences": [],
     "DietaryScores": {},
@@ -49,7 +49,7 @@
       "active"
     ],
     "HealthScores": {
-      "active": 0.7
+      "active": 0.8
     },
     "MostOrderedProducts": [
       "GoDog Bugs Chew Guard Fly Dog Toy, Purple, Small",
@@ -96,7 +96,7 @@
     ],
     "BrandScores": {
       "GoDog": 0.9,
-      "Outward Hound": 0.8
+      "Outward Hound": 0.7
     },
     "DietaryPreferences": [],
     "DietaryScores": {},
@@ -110,7 +110,7 @@
       "active"
     ],
     "HealthScores": {
-      "active": 0.7
+      "active": 0.8
     },
     "MostOrderedProducts": [
       "GoDog Bugs Chew Guard Fly Dog Toy, Purple, Small",

@@ -10,26 +10,96 @@
     "Gender": "FMLE",
     "GenderScore": 1.0,
     "SizeCategory": "UNK",
-    "SizeScore": 0,
+    "SizeScore": 0.0,
     "Weight": "UNK",
-    "WeightScore": 0,
+    "WeightScore": 0.0,
     "PersonalityTraits": [
       "Picky eater",
       "Older cat"
     ],
     "PersonalityScores": {
       "Picky eater": 0.8,
-      "Older cat": 0.9
+      "Older cat": 1.0
     },
     "FavoriteProductCategories": [
-      "Cat food",
-      "Cat bed & mat",
-      "Cat toys"
+      "Cat Bed & Mat",
+      "Cat Food"
     ],
     "CategoryScores": {
-      "Cat food": 0.9,
-      "Cat bed & mat": 0.8,
-      "Cat toys": 0.7
+      "Cat Bed & Mat": 0.9,
+      "Cat Food": 1.0
+    },
+    "BrandPreferences": [
+      "Nature's Recipe",
+      "As Seen on TV"
+    ],
+    "BrandScores": {
+      "Nature's Recipe": 0.9,
+      "As Seen on TV": 0.8
+    },
+    "DietaryPreferences": [
+      "Chicken flavor"
+    ],
+    "DietaryScores": {
+      "Chicken flavor": 0.9
+    },
+    "BehavioralCues": [
+      "Likes to scratch",
+      "Likes to sleep on warm surfaces"
+    ],
+    "BehavioralScores": {
+      "Likes to scratch": 0.8,
+      "Likes to sleep on warm surfaces": 0.9
+    },
+    "HealthMentions": [
+      "Dental problems",
+      "Eating problems"
+    ],
+    "HealthScores": {
+      "Dental problems": 0.9,
+      "Eating problems": 0.9
+    },
+    "MostOrderedProducts": [
+      "Nature's Recipe Culinary Favorites Stew Recipe with Real White Meat Chicken & Garden Vegetables in Gravy Wet Cat Food, 2.75-oz, case of 24",
+      "As Seen on TV Kitty Shack 2 in 1 Cat Bed & Mat"
+    ],
+    "ConfidenceScore": 0.0,
+    "confidence_score": 0.6666666666666666,
+    "name": "sue ling"
+  },
+  "sugar": {
+    "PetName": "sugar",
+    "PetType": "Cat",
+    "PetTypeScore": 1.0,
+    "Breed": "Other",
+    "BreedScore": 1.0,
+    "LifeStage": "Senior",
+    "LifeStageScore": 0.8,
+    "Gender": "UNK",
+    "GenderScore": 0.0,
+    "SizeCategory": "UNK",
+    "SizeScore": 0.0,
+    "Weight": "UNK",
+    "WeightScore": 0.0,
+    "PersonalityTraits": [
+      "Picky eater",
+      "Likes to scratch",
+      "Likes to sleep"
+    ],
+    "PersonalityScores": {
+      "Picky eater": 0.7,
+      "Likes to scratch": 0.6,
+      "Likes to sleep": 0.6
+    },
+    "FavoriteProductCategories": [
+      "Cat Food",
+      "Cat Bed & Mat",
+      "Cat Litter Box"
+    ],
+    "CategoryScores": {
+      "Cat Food": 0.9,
+      "Cat Bed & Mat": 0.8,
+      "Cat Litter Box": 0.7
     },
     "BrandPreferences": [
       "Nature's Recipe",
@@ -45,84 +115,17 @@
       "Chicken flavor"
     ],
     "DietaryScores": {
-      "Chicken flavor": 0.9
-    },
-    "BehavioralCues": [
-      "Likes to scratch",
-      "Likes to sleep on warm spots"
-    ],
-    "BehavioralScores": {
-      "Likes to scratch": 0.8,
-      "Likes to sleep on warm spots": 0.9
-    },
-    "HealthMentions": [
-      "Dental problems",
-      "Eating problems"
-    ],
-    "HealthScores": {
-      "Dental problems": 0.9,
-      "Eating problems": 0.9
-    },
-    "MostOrderedProducts": [
-      "Nature's Recipe Culinary Favorites Stew Recipe with Real White Meat Chicken & Garden Vegetables in Gravy Wet Cat Food, 2.75-oz, case of 24",
-      "As Seen on TV Kitty Shack 2 in 1 Cat Bed & Mat",
-      "Derby Originals Reflective Horse Fly Mask"
-    ],
-    "ConfidenceScore": 0.0,
-    "confidence_score": 0.6666666666666666,
-    "name": "sue ling"
-  },
-  "sugar": {
-    "PetName": "sugar",
-    "PetType": "Cat",
-    "PetTypeScore": 1.0,
-    "Breed": "Other",
-    "BreedScore": 1.0,
-    "LifeStage": "Senior",
-    "LifeStageScore": 0.8,
-    "Gender": "UNK",
-    "GenderScore": 0,
-    "SizeCategory": "UNK",
-    "SizeScore": 0,
-    "Weight": "UNK",
-    "WeightScore": 0,
-    "PersonalityTraits": [
-      "Picky eater"
-    ],
-    "PersonalityScores": {
-      "Picky eater": 0.7
-    },
-    "FavoriteProductCategories": [
-      "Cat Food",
-      "Cat Bed & Mat",
-      "Cat Litter Box"
-    ],
-    "CategoryScores": {
-      "Cat Food": 0.9,
-      "Cat Bed & Mat": 0.8,
-      "Cat Litter Box": 0.7
-    },
-    "BrandPreferences": [
-      "Nature's Recipe",
-      "As Seen on TV"
-    ],
-    "BrandScores": {
-      "Nature's Recipe": 0.9,
-      "As Seen on TV": 0.8
-    },
-    "DietaryPreferences": [
-      "Chicken flavor"
-    ],
-    "DietaryScores": {
       "Chicken flavor": 0.8
     },
     "BehavioralCues": [
-      "Scratching",
-      "Eating"
+      "Eats more when comfortable",
+      "Uses scratching post",
+      "Likes warm spots"
     ],
     "BehavioralScores": {
-      "Scratching": 0.7,
-      "Eating": 0.9
+      "Eats more when comfortable": 0.7,
+      "Uses scratching post": 0.6,
+      "Likes warm spots": 0.6
     },
     "HealthMentions": [
       "Dental problems",
@@ -130,11 +133,12 @@
     ],
     "HealthScores": {
       "Dental problems": 0.8,
-      "Eating problems": 0.9
+      "Eating problems": 0.8
     },
     "MostOrderedProducts": [
       "Nature's Recipe Culinary Favorites Stew Recipe with Real White Meat Chicken & Garden Vegetables in Gravy Wet Cat Food, 2.75-oz, case of 24",
-      "As Seen on TV Kitty Shack 2 in 1 Cat Bed & Mat"
+      "As Seen on TV Kitty Shack 2 in 1 Cat Bed & Mat",
+      "Derby Originals Reflective Horse Fly Mask"
     ],
     "ConfidenceScore": 0.0,
     "confidence_score": 0.4666666666666666,

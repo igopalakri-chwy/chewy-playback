@@ -1,10 +1,10 @@
 {
-  "badge": "The Diva",
+  "badge": "The Cuddler",
   "compatible_with": [
-    "The Cuddler",
-    "The Daydreamer",
-    "The Nurturer"
+    "The Nurturer",
+    "The Diva",
+    "The Daydreamer"
   ],
-  "icon_png": "the_diva.png",
-  "description": "These picky eaters have a taste for the finer things in life, enjoying comfort and style in all they do."
+  "icon_png": "the_cuddler.png",
+  "description": "A peaceful pair of senior cats who value comfort and simplicity, with a sophisticated taste for the finer things in life."
 }

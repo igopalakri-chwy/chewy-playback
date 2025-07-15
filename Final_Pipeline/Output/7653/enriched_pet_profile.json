@@ -11,49 +11,47 @@
     "GenderScore": 0.9,
     "SizeCategory": "unknown",
     "SizeScore": 0.9,
-    "Weight": "60-80 lbs",
+    "Weight": "50-70 lbs",
     "WeightScore": 0.6,
     "PersonalityTraits": [
       "playful",
       "curious",
-      "adventurous"
+      "affectionate"
     ],
     "PersonalityScores": {
       "playful": 0.8,
       "curious": 0.7,
-      "adventurous": 0.9
+      "affectionate": 0.9
     },
     "FavoriteProductCategories": [
-      "bowls",
+      "food",
       "training",
       "safety"
     ],
     "CategoryScores": {
-      "bowls": 0.9,
-      "training": 0.8,
-      "safety": 0.7
+      "food": 0.8,
+      "training": 0.7,
+      "safety": 0.6
     },
     "BrandPreferences": [
-      "PetRageous Designs",
-      "Educator By E-Collar Technologies"
+      "Holistic Select"
     ],
     "BrandScores": {
-      "PetRageous Designs": 0.9,
-      "Educator By E-Collar Technologies": 0.8
+      "Holistic Select": 0.8
     },
     "DietaryPreferences": [
-      "holistic"
+      "chicken-based"
     ],
     "DietaryScores": {
-      "holistic": 0.7
+      "chicken-based": 0.7
     },
     "BehavioralCues": [
       "requires training",
-      "enjoys water activities"
+      "safety-conscious"
     ],
     "BehavioralScores": {
       "requires training": 0.8,
-      "enjoys water activities": 0.9
+      "safety-conscious": 0.7
     },
     "HealthMentions": [
       "healthy"
@@ -82,49 +80,47 @@
     "GenderScore": 0.9,
     "SizeCategory": "extra small",
     "SizeScore": 0.9,
-    "Weight": "60-80 lbs",
+    "Weight": "50-70 lbs",
     "WeightScore": 0.6,
     "PersonalityTraits": [
       "playful",
       "curious",
-      "adventurous"
+      "affectionate"
     ],
     "PersonalityScores": {
       "playful": 0.8,
       "curious": 0.7,
-      "adventurous": 0.9
+      "affectionate": 0.9
     },
     "FavoriteProductCategories": [
-      "bowls",
+      "food",
       "training",
       "safety"
     ],
     "CategoryScores": {
-      "bowls": 0.9,
-      "training": 0.8,
-      "safety": 0.7
+      "food": 0.8,
+      "training": 0.7,
+      "safety": 0.6
     },
     "BrandPreferences": [
-      "PetRageous Designs",
-      "Educator By E-Collar Technologies"
+      "Holistic Select"
     ],
     "BrandScores": {
-      "PetRageous Designs": 0.9,
-      "Educator By E-Collar Technologies": 0.8
+      "Holistic Select": 0.8
     },
     "DietaryPreferences": [
-      "holistic"
+      "chicken-based"
     ],
     "DietaryScores": {
-      "holistic": 0.7
+      "chicken-based": 0.7
     },
     "BehavioralCues": [
       "requires training",
-      "enjoys water activities"
+      "safety-conscious"
     ],
     "BehavioralScores": {
       "requires training": 0.8,
-      "enjoys water activities": 0.9
+      "safety-conscious": 0.7
     },
     "HealthMentions": [
       "healthy"

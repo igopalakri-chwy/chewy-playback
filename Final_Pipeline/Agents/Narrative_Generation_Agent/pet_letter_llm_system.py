@@ -56,12 +56,16 @@ class PetLetterLLMSystem:
         sample_order_data = []
         
         if isinstance(secondary_data, dict):
-            if 'reviews' in secondary_data:
-                data_type = "reviews"
-                sample_review_data = secondary_data['reviews']
-            elif 'order_history' in secondary_data:
-                data_type = "orders"
+            # Always extract order data if available (for ZIP code extraction)
+            if 'order_history' in secondary_data:
                 sample_order_data = secondary_data['order_history']
+            
+            # Extract review data if available
+            if 'reviews' in secondary_data:
+                sample_review_data = secondary_data['reviews']
+                data_type = "reviews"
+            elif sample_order_data:
+                data_type = "orders"
         elif isinstance(secondary_data, list):
             # Try to determine type based on first item structure
             if secondary_data and len(secondary_data) > 0:
@@ -78,28 +82,18 @@ class PetLetterLLMSystem:
     def extract_zip_code_from_orders(self, sample_order_data: List[Dict[str, Any]]) -> Optional[str]:
         """Extract ZIP code from order data."""
         if not sample_order_data:
-            print(f"    🔍 No order data provided for ZIP extraction")
             return None
         
-        print(f"    🔍 Checking {len(sample_order_data)} orders for ZIP code...")
-        
         # Look for ZIP code in the order data
-        for i, order in enumerate(sample_order_data):
+        for order in sample_order_data:
             # Check different possible field names for ZIP code
             zip_code = order.get('zip_code') or order.get('ZIP_CODE') or order.get('zip') or order.get('ZIP')
             if zip_code:
-                print(f"    🗺️ Found ZIP code in order {i}: {zip_code}")
                 # Clean the ZIP code (remove any extra info like "-3415")
                 clean_zip = str(zip_code).split('-')[0].strip()
                 if len(clean_zip) == 5 and clean_zip.isdigit():
-                    print(f"    ✅ Valid ZIP code extracted: {clean_zip}")
                     return clean_zip
-                else:
-                    print(f"    ⚠️ Invalid ZIP code format: {clean_zip}")
-            else:
-                print(f"    🔍 Order {i} keys: {list(order.keys())}")
         
-        print(f"    ❌ No valid ZIP code found in any orders")
         return None
     
     def get_zip_aesthetics(self, zip_code: str) -> Dict[str, str]:

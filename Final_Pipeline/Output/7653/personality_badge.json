@@ -1,10 +1,10 @@
 {
   "badge": "The Explorer",
   "compatible_with": [
+    "The Cuddler",
     "The Trickster",
-    "The Athlete",
-    "The Daydreamer"
+    "The Athlete"
   ],
   "icon_png": "the_explorer.png",
-  "description": "This household is full of playful curiosity and spirited adventure, always ready to explore new toys and experiences."
+  "description": "This household is full of curiosity and adventure, always eager to explore new toys and experiences."
 }
