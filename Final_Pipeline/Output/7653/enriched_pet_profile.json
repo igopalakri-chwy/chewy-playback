@@ -11,17 +11,15 @@
     "GenderScore": 0.9,
     "SizeCategory": "unknown",
     "SizeScore": 0.9,
-    "Weight": "50-70 lbs",
+    "Weight": "60-90 lbs",
     "WeightScore": 0.6,
     "PersonalityTraits": [
-      "playful",
-      "curious",
-      "affectionate"
+      "active",
+      "playful"
     ],
     "PersonalityScores": {
-      "playful": 0.7,
-      "curious": 0.6,
-      "affectionate": 0.6
+      "active": 0.8,
+      "playful": 0.7
     },
     "FavoriteProductCategories": [
       "food",
@@ -34,10 +32,12 @@
       "safety": 0.6
     },
     "BrandPreferences": [
-      "Holistic Select"
+      "PetRageous Designs",
+      "Educator By E-Collar Technologies"
     ],
     "BrandScores": {
-      "Holistic Select": 0.8
+      "PetRageous Designs": 0.9,
+      "Educator By E-Collar Technologies": 0.8
     },
     "DietaryPreferences": [
       "balanced diet"
@@ -47,22 +47,24 @@
     },
     "BehavioralCues": [
       "requires training",
-      "active"
+      "enjoys outdoor activities"
     ],
     "BehavioralScores": {
       "requires training": 0.8,
-      "active": 0.7
+      "enjoys outdoor activities": 0.7
     },
     "HealthMentions": [
-      "healthy"
+      "healthy",
+      "active"
     ],
     "HealthScores": {
-      "healthy": 0.8
+      "healthy": 0.8,
+      "active": 0.7
     },
     "MostOrderedProducts": [
       "PetRageous Designs Batik Bones Pet Bowl, Sand, 7\", 5.5-cups",
       "Paw Pods Heart Shape Dog & Cat Urn",
-      "Soft Claws Nail Caps for Cats, 40 Count, Small, Red"
+      "Educator By E-Collar Technologies Educator Dog Training Collar Dual Charger"
     ],
     "ConfidenceScore": 0.5,
     "confidence_score": 0.85,
@@ -80,17 +82,15 @@
     "GenderScore": 0.9,
     "SizeCategory": "extra small",
     "SizeScore": 0.9,
-    "Weight": "50-70 lbs",
+    "Weight": "60-90 lbs",
     "WeightScore": 0.6,
     "PersonalityTraits": [
-      "playful",
-      "curious",
-      "affectionate"
+      "active",
+      "playful"
     ],
     "PersonalityScores": {
-      "playful": 0.7,
-      "curious": 0.6,
-      "affectionate": 0.6
+      "active": 0.8,
+      "playful": 0.7
     },
     "FavoriteProductCategories": [
       "food",
@@ -103,10 +103,12 @@
       "safety": 0.6
     },
     "BrandPreferences": [
-      "Holistic Select"
+      "PetRageous Designs",
+      "Educator By E-Collar Technologies"
     ],
     "BrandScores": {
-      "Holistic Select": 0.8
+      "PetRageous Designs": 0.9,
+      "Educator By E-Collar Technologies": 0.8
     },
     "DietaryPreferences": [
       "balanced diet"
@@ -116,22 +118,24 @@
     },
     "BehavioralCues": [
       "requires training",
-      "active"
+      "enjoys outdoor activities"
     ],
     "BehavioralScores": {
       "requires training": 0.8,
-      "active": 0.7
+      "enjoys outdoor activities": 0.7
     },
     "HealthMentions": [
-      "healthy"
+      "healthy",
+      "active"
     ],
     "HealthScores": {
-      "healthy": 0.8
+      "healthy": 0.8,
+      "active": 0.7
     },
     "MostOrderedProducts": [
       "PetRageous Designs Batik Bones Pet Bowl, Sand, 7\", 5.5-cups",
       "Paw Pods Heart Shape Dog & Cat Urn",
-      "Soft Claws Nail Caps for Cats, 40 Count, Small, Red"
+      "Educator By E-Collar Technologies Educator Dog Training Collar Dual Charger"
     ],
     "ConfidenceScore": 0.5,
     "confidence_score": 0.85,

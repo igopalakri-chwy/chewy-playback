@@ -993,8 +993,8 @@ class ChewyPlaybackPipeline:
             
             if collective_visual_prompt:
                 try:
-                    # Base artistic portrait style - always artistic, not realistic
-                    base_artistic_style = "Artistic pet portrait, wholesome and warm, vibrant colors, expressive style, pets as the main focus, inviting atmosphere, storybook quality, NOT photorealistic, artistic interpretation"
+                    # Base sophisticated artistic portrait style - wholesome, joyous, and refined
+                    base_artistic_style = "Sophisticated artistic pet portrait, wholesome and warm, joyous energy, refined illustration style, pets as the main focus, inviting atmosphere, elegant colors, cozy and cheerful mood, NOT cartoonish, artistic interpretation"
                     
                     # Use ZIP aesthetics for background and overall style influence
                     if zip_aesthetics and zip_aesthetics.get('visual_style'):

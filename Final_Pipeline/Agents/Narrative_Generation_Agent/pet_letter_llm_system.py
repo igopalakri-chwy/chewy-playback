@@ -233,12 +233,12 @@ STEP 2 — GENERATE THE LETTER:
   - Avoid marketing language or sounding like an ad.
 
 STEP 3 — GENERATE THE VISUAL PROMPT:
-- Describe a wholesome, artistic pet portrait scene featuring the pets as the main subjects.
-- **Pets should be the clear focus** - describe their appearance, poses, and expressions prominently.
+- Describe a sophisticated artistic pet portrait scene featuring the pets as the main subjects.
+- **Pets should be the clear focus** - describe their appearance, poses, and expressions prominently with joyful energy.
 - **ZIP aesthetics influence the background and style**, not the main pet focus:
   - Use the `visual_style` to describe background elements and setting
   - Apply the `color_texture` to influence the overall color palette
-  - Follow the `art_style` for artistic direction in the background
+  - Follow the `art_style` for style direction in the background
   - The pets remain the primary subjects regardless of ZIP aesthetics
 - Include the positively reviewed products (if review data available) or frequently ordered products (if order data available), described naturally as props or accessories.
 - If any pet is `"unknown"`:
@@ -247,7 +247,7 @@ STEP 3 — GENERATE THE VISUAL PROMPT:
   - Include those in the visual description.
 - Do NOT make up any physical characteristics that are not explicitly given.
 - Include **Chewy branding subtly** — e.g., on a toy bin, food bowl, scarf label, or poster in the background.
-- The scene should be wholesome, warm, and inviting, suitable for a pet portrait that customers would love to receive.
+- The scene should be sophisticated, artistic, wholesome, warm, and inviting with joyous energy, suitable for a refined artistic pet portrait that customers would love to receive.
 
 STEP 4 — ASSIGN HOUSEHOLD PERSONALITY BADGE:
 Analyze the collective personality of all pets in the household based on:
