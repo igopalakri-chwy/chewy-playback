@@ -32,8 +32,6 @@ chewy-playback/
 │   ├── Agents/                        # Agent modules
 │   ├── Data/                          # Input data (order_history.csv, qualifying_reviews.csv)
 │   └── Output/                        # Results for each customer
-├── zip_visual_aesthetics.py           # Standalone ZIP aesthetics generator
-├── ZIP_AESTHETICS_README.md           # ZIP aesthetics documentation
 ├── requirements.txt                   # Dependencies
 ├── README.md                          # This file
 ├── .gitignore
