@@ -12,9 +12,54 @@ import os
 import sys
 from pathlib import Path
 
-# Add the parent directory to path to import the ZIP aesthetics generator
-sys.path.append(str(Path(__file__).parent.parent.parent.parent))
-from zip_visual_aesthetics import ZIPVisualAestheticsGenerator
+
+class ZIPVisualAestheticsGenerator:
+    """Generate visual aesthetics based on ZIP codes."""
+    
+    def __init__(self):
+        self.openai_client = openai.OpenAI()
+    
+    def generate_aesthetics(self, zip_code: str) -> Dict[str, str]:
+        """Generate visual aesthetics for a given ZIP code."""
+        try:
+            response = self.openai_client.chat.completions.create(
+                model="gpt-4",
+                messages=[
+                    {
+                        "role": "system",
+                        "content": "You are an expert at analyzing ZIP codes to determine regional visual aesthetics. Return only a JSON object with visual_style, color_texture, art_style, and tone_style fields."
+                    },
+                    {
+                        "role": "user",
+                        "content": f"Analyze ZIP code {zip_code} and provide regional visual aesthetics in JSON format with these fields: visual_style, color_texture, art_style, tone_style"
+                    }
+                ],
+                max_tokens=200,
+                temperature=0.7
+            )
+            
+            content = response.choices[0].message.content.strip()
+            
+            # Try to parse JSON from response
+            try:
+                result = json.loads(content)
+                return result
+            except json.JSONDecodeError:
+                # Fallback to default aesthetics
+                return self._get_default_aesthetics()
+                
+        except Exception as e:
+            print(f"Error generating aesthetics for {zip_code}: {e}")
+            return self._get_default_aesthetics()
+    
+    def _get_default_aesthetics(self) -> Dict[str, str]:
+        """Return default aesthetics when analysis fails."""
+        return {
+            'visual_style': 'modern clean',
+            'color_texture': 'smooth neutral',
+            'art_style': 'contemporary minimal',
+            'tone_style': 'friendly, warm'
+        }
 
 
 class PetLetterLLMSystem:

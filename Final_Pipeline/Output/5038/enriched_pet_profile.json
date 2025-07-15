@@ -16,12 +16,12 @@
     "PersonalityTraits": [
       "playful",
       "curious",
-      "affectionate"
+      "food-motivated"
     ],
     "PersonalityScores": {
       "playful": 0.8,
       "curious": 0.7,
-      "affectionate": 0.9
+      "food-motivated": 0.9
     },
     "FavoriteProductCategories": [
       "treats",
@@ -42,12 +42,10 @@
       "PetSafe": 0.8
     },
     "DietaryPreferences": [
-      "grain-free",
-      "high-protein"
+      "grain-free"
     ],
     "DietaryScores": {
-      "grain-free": 0.8,
-      "high-protein": 0.7
+      "grain-free": 0.8
     },
     "BehavioralCues": [
       "loves toys",
@@ -91,12 +89,12 @@
     "PersonalityTraits": [
       "playful",
       "curious",
-      "affectionate"
+      "food-motivated"
     ],
     "PersonalityScores": {
       "playful": 0.8,
       "curious": 0.7,
-      "affectionate": 0.9
+      "food-motivated": 0.9
     },
     "FavoriteProductCategories": [
       "treats",
@@ -117,12 +115,10 @@
       "PetSafe": 0.8
     },
     "DietaryPreferences": [
-      "grain-free",
-      "high-protein"
+      "grain-free"
     ],
     "DietaryScores": {
-      "grain-free": 0.8,
-      "high-protein": 0.7
+      "grain-free": 0.8
     },
     "BehavioralCues": [
       "loves toys",

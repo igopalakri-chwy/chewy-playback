@@ -1,10 +1,10 @@
 {
   "badge": "The Explorer",
   "compatible_with": [
-    "The Athlete",
     "The Trickster",
-    "The Guardian"
+    "The Athlete",
+    "The Daydreamer"
   ],
   "icon_png": "the_explorer.png",
-  "description": "Mike and Myles are a playful duo full of curiosity and affection, always ready for the next adventure in their modern, bustling home."
+  "description": "This household is full of curious adventurers who love to play, explore, and enjoy their tasty treats."
 }
