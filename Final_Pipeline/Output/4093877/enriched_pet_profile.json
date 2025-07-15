@@ -1,4 +1,84 @@
 {
+  "Shaomaomi (Loving Kitty)": {
+    "PetName": "Shaomaomi (Loving Kitty)",
+    "PetType": "Cat",
+    "PetTypeScore": 1.0,
+    "Breed": "Other",
+    "BreedScore": 1.0,
+    "LifeStage": "UNK",
+    "LifeStageScore": 0,
+    "Gender": "UNK",
+    "GenderScore": 0,
+    "SizeCategory": "UNK",
+    "SizeScore": 0,
+    "Weight": "UNK",
+    "WeightScore": 0,
+    "PersonalityTraits": [
+      "Finicky Eater"
+    ],
+    "PersonalityScores": {
+      "Finicky Eater": 1.0
+    },
+    "FavoriteProductCategories": [
+      "Cat Food",
+      "Cat Toys"
+    ],
+    "CategoryScores": {
+      "Cat Food": 1.0,
+      "Cat Toys": 0.9
+    },
+    "BrandPreferences": [
+      "Blue Buffalo",
+      "Nulo FreeStyle",
+      "Halo Holistic"
+    ],
+    "BrandScores": {
+      "Blue Buffalo": 1.0,
+      "Nulo FreeStyle": 0.9,
+      "Halo Holistic": 0.9
+    },
+    "DietaryPreferences": [
+      "Grain-Free",
+      "Fish & Potato",
+      "Chicken in Broth",
+      "Wild-Caught Salmon & Whitefish"
+    ],
+    "DietaryScores": {
+      "Grain-Free": 1.0,
+      "Fish & Potato": 1.0,
+      "Chicken in Broth": 1.0,
+      "Wild-Caught Salmon & Whitefish": 1.0
+    },
+    "BehavioralCues": [
+      "Hides when approached",
+      "Likes soft food"
+    ],
+    "BehavioralScores": {
+      "Hides when approached": 1.0,
+      "Likes soft food": 1.0
+    },
+    "HealthMentions": [
+      "Sensitive Stomach",
+      "Diabetic"
+    ],
+    "HealthScores": {
+      "Sensitive Stomach": 1.0,
+      "Diabetic": 1.0
+    },
+    "MostOrderedProducts": [
+      "K&H Pet Products EZ Mount Window Track n' Roll Interactive Cat Toy",
+      "Microbe-Lift Soy-Based Birdbath & Statuary Cleaner",
+      "Blue Buffalo Basics Fish & Potato Recipe Grain-Free Dry Cat Food, 11-lb bag",
+      "Kaytee Small Animal Potty Litter",
+      "X - Necoichi Chirimen Hanabi Fireworks Cat Collar",
+      "Nulo FreeStyle Chicken in Broth Cat Food Topper",
+      "Signature Housewares Animal Prints Cat Bowl, Tiger, Extra Small Bowl",
+      "Halo Holistic Grain-Free Wild-Caught Salmon & Whitefish Recipe Complete Digestive Health Dry Kitten Food, 3-lb bag"
+    ],
+    "ConfidenceScore": 0.0,
+    "confidence_score": 0.3333333333333333,
+    "name": "Shaomaomi (Loving Kitty)"
+  },
   "Tuxedo": {
     "PetName": "Tuxedo",
     "PetType": "Cat",
@@ -44,7 +124,7 @@
     ],
     "DietaryScores": {
       "Grain-Free": 1.0,
-      "Fish & Potato Recipe": 0.9,
+      "Fish & Potato Recipe": 0.8,
       "Chicken in Broth": 0.8
     },
     "BehavioralCues": [
@@ -52,7 +132,7 @@
       "Likes variety in food"
     ],
     "BehavioralScores": {
-      "Hides when approached": 0.8,
+      "Hides when approached": 0.7,
       "Likes variety in food": 1.0
     },
     "HealthMentions": [
@@ -61,7 +141,7 @@
     ],
     "HealthScores": {
       "Sensitive Stomach": 0.8,
-      "Diabetic": 0.7
+      "Diabetic": 0.8
     },
     "MostOrderedProducts": [
       "K&H Pet Products EZ Mount Window Track n' Roll Interactive Cat Toy",
@@ -76,88 +156,6 @@
     "ConfidenceScore": 0.0,
     "confidence_score": 0.5,
     "name": "Tuxedo"
-  },
-  "Shaomaomi (Loving Kitty)": {
-    "PetName": "Shaomaomi (Loving Kitty)",
-    "PetType": "Cat",
-    "PetTypeScore": 1.0,
-    "Breed": "Other",
-    "BreedScore": 1.0,
-    "LifeStage": "UNK",
-    "LifeStageScore": 0,
-    "Gender": "UNK",
-    "GenderScore": 0,
-    "SizeCategory": "UNK",
-    "SizeScore": 0,
-    "Weight": "UNK",
-    "WeightScore": 0,
-    "PersonalityTraits": [
-      "Finicky Eater",
-      "Smart"
-    ],
-    "PersonalityScores": {
-      "Finicky Eater": 1.0,
-      "Smart": 0.7
-    },
-    "FavoriteProductCategories": [
-      "Cat Food",
-      "Cat Toys"
-    ],
-    "CategoryScores": {
-      "Cat Food": 1.0,
-      "Cat Toys": 0.8
-    },
-    "BrandPreferences": [
-      "Blue Buffalo",
-      "Nulo FreeStyle"
-    ],
-    "BrandScores": {
-      "Blue Buffalo": 1.0,
-      "Nulo FreeStyle": 0.8
-    },
-    "DietaryPreferences": [
-      "Grain-Free",
-      "Fish & Potato Recipe",
-      "Chicken in Broth"
-    ],
-    "DietaryScores": {
-      "Grain-Free": 1.0,
-      "Fish & Potato Recipe": 1.0,
-      "Chicken in Broth": 0.8
-    },
-    "BehavioralCues": [
-      "Hides when approached",
-      "Likes variety in food"
-    ],
-    "BehavioralScores": {
-      "Hides when approached": 0.8,
-      "Likes variety in food": 1.0
-    },
-    "HealthMentions": [
-      "Sensitive Stomach",
-      "Diabetic",
-      "No UTI problems",
-      "No skin issues"
-    ],
-    "HealthScores": {
-      "Sensitive Stomach": 0.8,
-      "Diabetic": 0.8,
-      "No UTI problems": 1.0,
-      "No skin issues": 1.0
-    },
-    "MostOrderedProducts": [
-      "K&H Pet Products EZ Mount Window Track n' Roll Interactive Cat Toy",
-      "Microbe-Lift Soy-Based Birdbath & Statuary Cleaner",
-      "Blue Buffalo Basics Fish & Potato Recipe Grain-Free Dry Cat Food, 11-lb bag",
-      "Kaytee Small Animal Potty Litter",
-      "X - Necoichi Chirimen Hanabi Fireworks Cat Collar",
-      "Nulo FreeStyle Chicken in Broth Cat Food Topper",
-      "Signature Housewares Animal Prints Cat Bowl, Tiger, Extra Small Bowl",
-      "Halo Holistic Grain-Free Wild-Caught Salmon & Whitefish Recipe Complete Digestive Health Dry Kitten Food, 3-lb bag"
-    ],
-    "ConfidenceScore": 0.0,
-    "confidence_score": 0.3333333333333333,
-    "name": "Shaomaomi (Loving Kitty)"
   },
   "cust_confidence_score": 0.41666666666666663
 }

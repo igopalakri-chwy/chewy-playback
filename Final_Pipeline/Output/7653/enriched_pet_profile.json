@@ -19,9 +19,9 @@
       "affectionate"
     ],
     "PersonalityScores": {
-      "playful": 0.8,
-      "curious": 0.7,
-      "affectionate": 0.9
+      "playful": 0.7,
+      "curious": 0.6,
+      "affectionate": 0.6
     },
     "FavoriteProductCategories": [
       "food",
@@ -40,18 +40,18 @@
       "Holistic Select": 0.8
     },
     "DietaryPreferences": [
-      "chicken-based"
+      "balanced diet"
     ],
     "DietaryScores": {
-      "chicken-based": 0.7
+      "balanced diet": 0.7
     },
     "BehavioralCues": [
       "requires training",
-      "safety-conscious"
+      "active"
     ],
     "BehavioralScores": {
       "requires training": 0.8,
-      "safety-conscious": 0.7
+      "active": 0.7
     },
     "HealthMentions": [
       "healthy"
@@ -88,9 +88,9 @@
       "affectionate"
     ],
     "PersonalityScores": {
-      "playful": 0.8,
-      "curious": 0.7,
-      "affectionate": 0.9
+      "playful": 0.7,
+      "curious": 0.6,
+      "affectionate": 0.6
     },
     "FavoriteProductCategories": [
       "food",
@@ -109,18 +109,18 @@
       "Holistic Select": 0.8
     },
     "DietaryPreferences": [
-      "chicken-based"
+      "balanced diet"
     ],
     "DietaryScores": {
-      "chicken-based": 0.7
+      "balanced diet": 0.7
     },
     "BehavioralCues": [
       "requires training",
-      "safety-conscious"
+      "active"
     ],
     "BehavioralScores": {
       "requires training": 0.8,
-      "safety-conscious": 0.7
+      "active": 0.7
     },
     "HealthMentions": [
       "healthy"

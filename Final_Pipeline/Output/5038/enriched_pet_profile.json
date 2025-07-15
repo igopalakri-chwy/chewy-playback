@@ -19,9 +19,9 @@
       "affectionate"
     ],
     "PersonalityScores": {
-      "playful": 0.8,
+      "playful": 0.9,
       "curious": 0.7,
-      "affectionate": 0.9
+      "affectionate": 0.8
     },
     "FavoriteProductCategories": [
       "treats",
@@ -34,12 +34,12 @@
       "food": 0.7
     },
     "BrandPreferences": [
-      "Dr. Lyon's",
-      "Wellness CORE"
+      "Wellness",
+      "PetSafe"
     ],
     "BrandScores": {
-      "Dr. Lyon's": 0.9,
-      "Wellness CORE": 0.8
+      "Wellness": 0.9,
+      "PetSafe": 0.8
     },
     "DietaryPreferences": [
       "grain-free"
@@ -92,9 +92,9 @@
       "affectionate"
     ],
     "PersonalityScores": {
-      "playful": 0.8,
+      "playful": 0.9,
       "curious": 0.7,
-      "affectionate": 0.9
+      "affectionate": 0.8
     },
     "FavoriteProductCategories": [
       "treats",
@@ -107,12 +107,12 @@
       "food": 0.7
     },
     "BrandPreferences": [
-      "Dr. Lyon's",
-      "Wellness CORE"
+      "Wellness",
+      "PetSafe"
     ],
     "BrandScores": {
-      "Dr. Lyon's": 0.9,
-      "Wellness CORE": 0.8
+      "Wellness": 0.9,
+      "PetSafe": 0.8
     },
     "DietaryPreferences": [
       "grain-free"

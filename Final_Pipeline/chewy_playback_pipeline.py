@@ -993,17 +993,19 @@ class ChewyPlaybackPipeline:
             
             if collective_visual_prompt:
                 try:
-                    # Art style prompt to ensure consistency
-                    default_art_style = "Soft, blended brushstrokes that mimic traditional oil or gouache painting. Warm, glowing lighting with gentle ambient highlights and diffuse shadows. Vivid yet harmonious color palette, featuring saturated pastels and rich warm tones. Subtle texture that gives a hand-painted, storybook feel. Sparkle accents and light flares to add magical charm. Smooth gradients and soft edges, avoiding harsh lines or stark contrast. A dreamy, nostalgic tone evocative of classic children's book illustrations. "
+                    # Base artistic portrait style - always artistic, not realistic
+                    base_artistic_style = "Artistic pet portrait, wholesome and warm, vibrant colors, expressive style, pets as the main focus, inviting atmosphere, storybook quality, NOT photorealistic, artistic interpretation"
                     
-                    # Use ZIP aesthetics if available, otherwise fall back to default
+                    # Use ZIP aesthetics for background and overall style influence
                     if zip_aesthetics and zip_aesthetics.get('visual_style'):
-                        art_style_prompt = f"{zip_aesthetics.get('visual_style', '')}. {zip_aesthetics.get('color_texture', '')}. {zip_aesthetics.get('art_style', '')}. {zip_aesthetics.get('tones', '')}. "
+                        # ZIP aesthetics influence background and color palette, not the main pet focus
+                        background_style = f"Background influenced by {zip_aesthetics.get('visual_style', '')} with {zip_aesthetics.get('color_texture', '')} tones. {zip_aesthetics.get('art_style', '')} artistic elements in the setting."
+                        art_style_prompt = f"{base_artistic_style}. {background_style}. {zip_aesthetics.get('tones', '')} overall mood."
                     else:
-                        art_style_prompt = default_art_style
+                        art_style_prompt = base_artistic_style
                     
-                    # Combine art style with visual prompt
-                    prompt = art_style_prompt + " " + collective_visual_prompt
+                    # Combine art style with visual prompt, ensuring pets are the main focus
+                    prompt = f"{art_style_prompt}. {collective_visual_prompt}. The pets should be the clear main subjects, with artistic interpretation and vibrant colors."
                     
                     # Truncate prompt to fit OpenAI's 1000 character limit
                     if len(prompt) > 1000:

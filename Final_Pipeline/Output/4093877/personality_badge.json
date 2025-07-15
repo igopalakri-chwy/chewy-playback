@@ -1,10 +1,10 @@
 {
-  "badge": "The Scholar",
+  "badge": "The Trickster",
   "compatible_with": [
-    "The Cuddler",
+    "The Scholar",
     "The Diva",
-    "The Trickster"
+    "The Explorer"
   ],
-  "icon_png": "the_scholar.png",
-  "description": "This household is filled with intelligent cats who enjoy the finer things in life, always one step ahead of their human."
+  "icon_png": "the_trickster.png",
+  "description": "These finicky eaters are too smart for their own good, turning every meal and toothbrushing time into a playful game of hide and seek."
 }
