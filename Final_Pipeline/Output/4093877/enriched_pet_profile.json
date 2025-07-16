@@ -6,18 +6,20 @@
     "Breed": "Other",
     "BreedScore": 1.0,
     "LifeStage": "UNK",
-    "LifeStageScore": 0,
+    "LifeStageScore": 0.0,
     "Gender": "UNK",
-    "GenderScore": 0,
+    "GenderScore": 0.0,
     "SizeCategory": "UNK",
-    "SizeScore": 0,
+    "SizeScore": 0.0,
     "Weight": "UNK",
-    "WeightScore": 0,
+    "WeightScore": 0.0,
     "PersonalityTraits": [
-      "Finicky Eater"
+      "Finicky Eater",
+      "Smart"
     ],
     "PersonalityScores": {
-      "Finicky Eater": 1.0
+      "Finicky Eater": 1.0,
+      "Smart": 0.7
     },
     "FavoriteProductCategories": [
       "Cat Food",
@@ -25,45 +27,41 @@
     ],
     "CategoryScores": {
       "Cat Food": 1.0,
-      "Cat Toys": 0.9
+      "Cat Toys": 0.8
     },
     "BrandPreferences": [
       "Blue Buffalo",
-      "Nulo FreeStyle",
-      "Halo Holistic"
+      "Nulo FreeStyle"
     ],
     "BrandScores": {
       "Blue Buffalo": 1.0,
-      "Nulo FreeStyle": 0.9,
-      "Halo Holistic": 0.9
+      "Nulo FreeStyle": 0.8
     },
     "DietaryPreferences": [
       "Grain-Free",
-      "Fish & Potato",
-      "Chicken in Broth",
-      "Wild-Caught Salmon & Whitefish"
+      "Fish & Potato Recipe",
+      "Chicken in Broth"
     ],
     "DietaryScores": {
       "Grain-Free": 1.0,
-      "Fish & Potato": 1.0,
-      "Chicken in Broth": 1.0,
-      "Wild-Caught Salmon & Whitefish": 1.0
+      "Fish & Potato Recipe": 0.8,
+      "Chicken in Broth": 0.8
     },
     "BehavioralCues": [
       "Hides when approached",
-      "Likes soft food"
+      "Cleans plate after meals"
     ],
     "BehavioralScores": {
-      "Hides when approached": 1.0,
-      "Likes soft food": 1.0
+      "Hides when approached": 0.8,
+      "Cleans plate after meals": 1.0
     },
     "HealthMentions": [
       "Sensitive Stomach",
       "Diabetic"
     ],
     "HealthScores": {
-      "Sensitive Stomach": 1.0,
-      "Diabetic": 1.0
+      "Sensitive Stomach": 0.8,
+      "Diabetic": 0.8
     },
     "MostOrderedProducts": [
       "K&H Pet Products EZ Mount Window Track n' Roll Interactive Cat Toy",
@@ -124,24 +122,24 @@
     ],
     "DietaryScores": {
       "Grain-Free": 1.0,
-      "Fish & Potato Recipe": 0.8,
+      "Fish & Potato Recipe": 0.9,
       "Chicken in Broth": 0.8
     },
     "BehavioralCues": [
-      "Hides when approached",
-      "Likes variety in food"
+      "Hides when approached"
     ],
     "BehavioralScores": {
-      "Hides when approached": 0.7,
-      "Likes variety in food": 1.0
+      "Hides when approached": 0.8
     },
     "HealthMentions": [
       "Sensitive Stomach",
-      "Diabetic"
+      "Diabetic",
+      "No UTI problems"
     ],
     "HealthScores": {
-      "Sensitive Stomach": 0.8,
-      "Diabetic": 0.8
+      "Sensitive Stomach": 0.9,
+      "Diabetic": 0.8,
+      "No UTI problems": 1.0
     },
     "MostOrderedProducts": [
       "K&H Pet Products EZ Mount Window Track n' Roll Interactive Cat Toy",

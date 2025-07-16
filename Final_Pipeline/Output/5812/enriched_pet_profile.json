@@ -20,14 +20,16 @@
     ],
     "PersonalityScores": {
       "playful": 0.9,
-      "curious": 0.7,
-      "affectionate": 0.8
+      "curious": 0.8,
+      "affectionate": 0.7
     },
     "FavoriteProductCategories": [
-      "toys"
+      "toys",
+      "apparel"
     ],
     "CategoryScores": {
-      "toys": 0.95
+      "toys": 0.95,
+      "apparel": 0.7
     },
     "BrandPreferences": [
       "GoDog",
@@ -35,21 +37,25 @@
     ],
     "BrandScores": {
       "GoDog": 0.9,
-      "Outward Hound": 0.7
+      "Outward Hound": 0.8
     },
     "DietaryPreferences": [],
     "DietaryScores": {},
     "BehavioralCues": [
-      "loves toys"
+      "loves toys",
+      "enjoys dressing up"
     ],
     "BehavioralScores": {
-      "loves toys": 0.95
+      "loves toys": 0.95,
+      "enjoys dressing up": 0.7
     },
     "HealthMentions": [
+      "healthy",
       "active"
     ],
     "HealthScores": {
-      "active": 0.8
+      "healthy": 0.8,
+      "active": 0.7
     },
     "MostOrderedProducts": [
       "GoDog Bugs Chew Guard Fly Dog Toy, Purple, Small",
@@ -81,14 +87,16 @@
     ],
     "PersonalityScores": {
       "playful": 0.9,
-      "curious": 0.7,
-      "affectionate": 0.8
+      "curious": 0.8,
+      "affectionate": 0.7
     },
     "FavoriteProductCategories": [
-      "toys"
+      "toys",
+      "apparel"
     ],
     "CategoryScores": {
-      "toys": 0.95
+      "toys": 0.95,
+      "apparel": 0.7
     },
     "BrandPreferences": [
       "GoDog",
@@ -96,21 +104,25 @@
     ],
     "BrandScores": {
       "GoDog": 0.9,
-      "Outward Hound": 0.7
+      "Outward Hound": 0.8
     },
     "DietaryPreferences": [],
     "DietaryScores": {},
     "BehavioralCues": [
-      "loves toys"
+      "loves toys",
+      "enjoys dressing up"
     ],
     "BehavioralScores": {
-      "loves toys": 0.95
+      "loves toys": 0.95,
+      "enjoys dressing up": 0.7
     },
     "HealthMentions": [
+      "healthy",
       "active"
     ],
     "HealthScores": {
-      "active": 0.8
+      "healthy": 0.8,
+      "active": 0.7
     },
     "MostOrderedProducts": [
       "GoDog Bugs Chew Guard Fly Dog Toy, Purple, Small",

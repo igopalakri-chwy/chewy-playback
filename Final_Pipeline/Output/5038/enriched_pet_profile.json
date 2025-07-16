@@ -16,12 +16,12 @@
     "PersonalityTraits": [
       "playful",
       "curious",
-      "food-motivated"
+      "affectionate"
     ],
     "PersonalityScores": {
       "playful": 0.8,
       "curious": 0.7,
-      "food-motivated": 0.9
+      "affectionate": 0.9
     },
     "FavoriteProductCategories": [
       "treats",
@@ -89,12 +89,12 @@
     "PersonalityTraits": [
       "playful",
       "curious",
-      "food-motivated"
+      "affectionate"
     ],
     "PersonalityScores": {
       "playful": 0.8,
       "curious": 0.7,
-      "food-motivated": 0.9
+      "affectionate": 0.9
     },
     "FavoriteProductCategories": [
       "treats",

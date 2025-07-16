@@ -1,10 +1,10 @@
 {
   "badge": "The Cuddler",
   "compatible_with": [
-    "The Daydreamer",
     "The Nurturer",
+    "The Diva",
     "The Shadow"
   ],
   "icon_png": "the_cuddler.png",
-  "description": "This is a household of cooperative cats who love their comfort and are not fans of restrictions, embodying the warm, snuggly spirit of The Cuddler."
+  "description": "This household is a harmonious blend of feline affection, gentle grooming sessions, and picky eaters who love their tasty treats."
 }

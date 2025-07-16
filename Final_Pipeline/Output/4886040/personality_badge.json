@@ -1,10 +1,10 @@
 {
-  "badge": "The Athlete",
+  "badge": "The Trickster",
   "compatible_with": [
-    "The Trickster",
     "The Explorer",
-    "The Nurturer"
+    "The Athlete",
+    "The Cuddler"
   ],
-  "icon_png": "the_athlete.png",
-  "description": "This household is full of playful and energetic pets, always ready for a game and quick to learn new tricks."
+  "icon_png": "the_trickster.png",
+  "description": "This furry gang is full of playful and energetic tricksters who love their toys and treats, while living in their sophisticated suburban home."
 }

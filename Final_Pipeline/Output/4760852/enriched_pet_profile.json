@@ -29,41 +29,53 @@
     "CategoryScores": {
       "Dog Food": 0.8,
       "Dog Treats": 0.7,
-      "Dog Nail Caps": 0.7
+      "Dog Nail Caps": 0.6
     },
     "BrandPreferences": [
+      "Equilite Herbals",
+      "Nature's Miracle",
       "Purrdy Paws",
       "Merrick",
-      "Nutro Ultra"
+      "Nutro Ultra",
+      "Found My Animal",
+      "Pure Water Pebbles",
+      "Bil Jac"
     ],
     "BrandScores": {
-      "Purrdy Paws": 0.8,
-      "Merrick": 0.7,
-      "Nutro Ultra": 0.7
+      "Equilite Herbals": 0.8,
+      "Nature's Miracle": 0.7,
+      "Purrdy Paws": 0.9,
+      "Merrick": 0.6,
+      "Nutro Ultra": 0.7,
+      "Found My Animal": 0.6,
+      "Pure Water Pebbles": 0.5,
+      "Bil Jac": 0.6
     },
     "DietaryPreferences": [
       "Grain-Free",
-      "Chicken, Split Pea & Carrot Recipe"
+      "Chicken",
+      "Split Pea",
+      "Carrot"
     ],
     "DietaryScores": {
-      "Grain-Free": 0.7,
-      "Chicken, Split Pea & Carrot Recipe": 0.7
+      "Grain-Free": 0.8,
+      "Chicken": 0.7,
+      "Split Pea": 0.7,
+      "Carrot": 0.7
     },
     "BehavioralCues": [
-      "Readily takes food from hand",
+      "Takes food from hand",
       "No problems walking or moving quickly"
     ],
     "BehavioralScores": {
-      "Readily takes food from hand": 0.8,
-      "No problems walking or moving quickly": 0.8
+      "Takes food from hand": 0.8,
+      "No problems walking or moving quickly": 0.9
     },
     "HealthMentions": [
-      "Helps his joints",
-      "No indigestion"
+      "Good joint health"
     ],
     "HealthScores": {
-      "Helps his joints": 0.8,
-      "No indigestion": 0.8
+      "Good joint health": 0.8
     },
     "MostOrderedProducts": [
       "Equilite Herbals RelaxHer Blend Calming Powder Horse Supplement, 2-lb tub",
@@ -91,48 +103,46 @@
     "Weight": "UNK",
     "WeightScore": 0.0,
     "PersonalityTraits": [
-      "Finicky",
-      "Happy"
+      "Finicky"
     ],
     "PersonalityScores": {
-      "Finicky": 0.7,
-      "Happy": 0.8
+      "Finicky": 0.7
     },
     "FavoriteProductCategories": [
       "Cat Food",
       "Cat Toys"
     ],
     "CategoryScores": {
-      "Cat Food": 0.9,
-      "Cat Toys": 0.8
+      "Cat Food": 0.8,
+      "Cat Toys": 0.7
     },
     "BrandPreferences": [
       "Blue Buffalo",
-      "BFF",
+      "BFF Play",
       "SmartyKat"
     ],
     "BrandScores": {
       "Blue Buffalo": 0.8,
-      "BFF": 0.7,
+      "BFF Play": 0.7,
       "SmartyKat": 0.9
     },
     "DietaryPreferences": [
-      "Pate Style",
       "High-Protein",
-      "Grain-Free"
+      "Grain-Free",
+      "Pate"
     ],
     "DietaryScores": {
-      "Pate Style": 0.8,
-      "High-Protein": 0.7,
-      "Grain-Free": 0.7
+      "High-Protein": 0.8,
+      "Grain-Free": 0.8,
+      "Pate": 0.7
     },
     "BehavioralCues": [
       "Eats from hand",
-      "Likes variety"
+      "Happy to eat"
     ],
     "BehavioralScores": {
       "Eats from hand": 0.7,
-      "Likes variety": 0.8
+      "Happy to eat": 0.8
     },
     "HealthMentions": [
       "Good joint health"

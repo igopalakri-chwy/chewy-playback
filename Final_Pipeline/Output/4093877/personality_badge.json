@@ -1,10 +1,10 @@
 {
-  "badge": "The Trickster",
+  "badge": "The Scholar",
   "compatible_with": [
-    "The Scholar",
-    "The Diva",
-    "The Explorer"
+    "The Explorer",
+    "The Trickster",
+    "The Guardian"
   ],
-  "icon_png": "the_trickster.png",
-  "description": "These finicky eaters are too smart for their own good, turning every meal and toothbrushing time into a playful game of hide and seek."
+  "icon_png": "the_scholar.png",
+  "description": "This household is filled with intellectual curiosity and playful wit, led by two smart cats who love to learn and outwit their human."
 }

@@ -1,10 +1,10 @@
 {
   "badge": "The Cuddler",
   "compatible_with": [
-    "The Explorer",
-    "The Guardian",
-    "The Daydreamer"
+    "The Scholar",
+    "The Daydreamer",
+    "The Nurturer"
   ],
   "icon_png": "the_cuddler.png",
-  "description": "This household is a snuggle squad with a love for comfort, play, and culinary adventures, consistently creating a soothing, heartwarming environment."
+  "description": "This household is a snuggle-haven filled with affectionate and gentle felines who love their comfort toys and festive clothes."
 }

@@ -1,49 +1,36 @@
 {
-  "customer_id": "2209529",
+  "customer_id": "5025337",
   "unknown_attributes": {
-    "Marco": {
-      "pet_name": "Marco",
+    "The Princess Monaco": {
+      "pet_name": "The Princess Monaco",
       "unknown_fields": [
-        "SizeCategory",
         "Weight"
       ],
       "unknown_scores": [],
       "unknown_lists": [],
       "unknown_dicts": []
     },
-    "UNK": {
-      "pet_name": "UNK",
+    "Harley (James) Davidson": {
+      "pet_name": "Harley (James) Davidson",
       "unknown_fields": [
-        "PetName",
-        "Breed",
-        "LifeStage",
-        "Gender",
-        "SizeCategory",
-        "Weight",
-        "name"
-      ],
-      "unknown_scores": [
-        "BreedScore",
-        "LifeStageScore",
-        "GenderScore"
-      ],
-      "unknown_lists": [],
-      "unknown_dicts": []
-    },
-    "Bella": {
-      "pet_name": "Bella",
-      "unknown_fields": [
-        "SizeCategory",
         "Weight"
       ],
       "unknown_scores": [],
       "unknown_lists": [],
       "unknown_dicts": []
     },
-    "Oat": {
-      "pet_name": "Oat",
+    "Venison": {
+      "pet_name": "Venison",
       "unknown_fields": [
-        "SizeCategory",
+        "Weight"
+      ],
+      "unknown_scores": [],
+      "unknown_lists": [],
+      "unknown_dicts": []
+    },
+    "Turkey": {
+      "pet_name": "Turkey",
+      "unknown_fields": [
         "Weight"
       ],
       "unknown_scores": [],
@@ -51,7 +38,7 @@
       "unknown_dicts": []
     }
   },
-  "total_unknowns": 16,
+  "total_unknowns": 4,
   "pets_with_unknowns": 4,
   "customer_confidence_score": 0.0
 }

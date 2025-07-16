@@ -1,36 +1,23 @@
 {
-  "customer_id": "1183376",
+  "customer_id": "4760852",
   "unknown_attributes": {
-    "Turbo": {
-      "pet_name": "Turbo",
+    "Chompie": {
+      "pet_name": "Chompie",
       "unknown_fields": [
-        "SizeCategory",
         "Weight"
       ],
       "unknown_scores": [],
       "unknown_lists": [],
       "unknown_dicts": []
     },
-    "Elwood": {
-      "pet_name": "Elwood",
+    "NALA": {
+      "pet_name": "NALA",
       "unknown_fields": [
-        "SizeCategory",
-        "Weight"
-      ],
-      "unknown_scores": [],
-      "unknown_lists": [],
-      "unknown_dicts": []
-    },
-    "UNK": {
-      "pet_name": "UNK",
-      "unknown_fields": [
-        "PetName",
         "Breed",
         "LifeStage",
         "Gender",
         "SizeCategory",
-        "Weight",
-        "name"
+        "Weight"
       ],
       "unknown_scores": [
         "BreedScore",
@@ -41,7 +28,7 @@
       "unknown_dicts": []
     }
   },
-  "total_unknowns": 14,
-  "pets_with_unknowns": 3,
+  "total_unknowns": 9,
+  "pets_with_unknowns": 2,
   "customer_confidence_score": 0.0
 }

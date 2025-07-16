@@ -11,15 +11,17 @@
     "GenderScore": 0.9,
     "SizeCategory": "unknown",
     "SizeScore": 0.9,
-    "Weight": "60-90 lbs",
-    "WeightScore": 0.6,
+    "Weight": "60-80 lbs",
+    "WeightScore": 0.7,
     "PersonalityTraits": [
+      "playful",
       "active",
-      "playful"
+      "curious"
     ],
     "PersonalityScores": {
+      "playful": 0.7,
       "active": 0.8,
-      "playful": 0.7
+      "curious": 0.6
     },
     "FavoriteProductCategories": [
       "food",
@@ -32,18 +34,20 @@
       "safety": 0.6
     },
     "BrandPreferences": [
-      "PetRageous Designs",
+      "Holistic Select",
       "Educator By E-Collar Technologies"
     ],
     "BrandScores": {
-      "PetRageous Designs": 0.9,
-      "Educator By E-Collar Technologies": 0.8
+      "Holistic Select": 0.8,
+      "Educator By E-Collar Technologies": 0.7
     },
     "DietaryPreferences": [
-      "balanced diet"
+      "balanced",
+      "chicken-based"
     ],
     "DietaryScores": {
-      "balanced diet": 0.7
+      "balanced": 0.8,
+      "chicken-based": 0.7
     },
     "BehavioralCues": [
       "requires training",
@@ -67,7 +71,7 @@
       "Educator By E-Collar Technologies Educator Dog Training Collar Dual Charger"
     ],
     "ConfidenceScore": 0.5,
-    "confidence_score": 0.85,
+    "confidence_score": 0.8666666666666667,
     "name": "Francis"
   },
   "Moe": {
@@ -82,15 +86,17 @@
     "GenderScore": 0.9,
     "SizeCategory": "extra small",
     "SizeScore": 0.9,
-    "Weight": "60-90 lbs",
-    "WeightScore": 0.6,
+    "Weight": "60-80 lbs",
+    "WeightScore": 0.7,
     "PersonalityTraits": [
+      "playful",
       "active",
-      "playful"
+      "curious"
     ],
     "PersonalityScores": {
+      "playful": 0.7,
       "active": 0.8,
-      "playful": 0.7
+      "curious": 0.6
     },
     "FavoriteProductCategories": [
       "food",
@@ -103,18 +109,20 @@
       "safety": 0.6
     },
     "BrandPreferences": [
-      "PetRageous Designs",
+      "Holistic Select",
       "Educator By E-Collar Technologies"
     ],
     "BrandScores": {
-      "PetRageous Designs": 0.9,
-      "Educator By E-Collar Technologies": 0.8
+      "Holistic Select": 0.8,
+      "Educator By E-Collar Technologies": 0.7
     },
     "DietaryPreferences": [
-      "balanced diet"
+      "balanced",
+      "chicken-based"
     ],
     "DietaryScores": {
-      "balanced diet": 0.7
+      "balanced": 0.8,
+      "chicken-based": 0.7
     },
     "BehavioralCues": [
       "requires training",
@@ -138,8 +146,8 @@
       "Educator By E-Collar Technologies Educator Dog Training Collar Dual Charger"
     ],
     "ConfidenceScore": 0.5,
-    "confidence_score": 0.85,
+    "confidence_score": 0.8666666666666667,
     "name": "Moe"
   },
-  "cust_confidence_score": 0.85
+  "cust_confidence_score": 0.8666666666666667
 }
