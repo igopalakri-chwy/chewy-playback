@@ -1,10 +1,10 @@
 {
   "badge": "The Cuddler",
   "compatible_with": [
-    "The Nurturer",
-    "The Daydreamer",
-    "The Scholar"
+    "The Explorer",
+    "The Guardian",
+    "The Nurturer"
   ],
   "icon_png": "the_cuddler.png",
-  "description": "This household is full of affectionate, food-loving pups who adore their meal times and enjoy a good snuggle."
+  "description": "This is a household of affectionate, food-loving pups who enjoy the comfort of their home and the familiarity of their favorite treats."
 }

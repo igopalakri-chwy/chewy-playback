@@ -20,14 +20,16 @@
     ],
     "PersonalityScores": {
       "playful": 0.9,
-      "curious": 0.7,
-      "affectionate": 0.8
+      "curious": 0.8,
+      "affectionate": 0.7
     },
     "FavoriteProductCategories": [
-      "toys"
+      "toys",
+      "apparel"
     ],
     "CategoryScores": {
-      "toys": 0.95
+      "toys": 0.95,
+      "apparel": 0.7
     },
     "BrandPreferences": [
       "GoDog",
@@ -40,15 +42,19 @@
     "DietaryPreferences": [],
     "DietaryScores": {},
     "BehavioralCues": [
-      "loves toys"
+      "loves toys",
+      "enjoys dressing up"
     ],
     "BehavioralScores": {
-      "loves toys": 0.95
+      "loves toys": 0.95,
+      "enjoys dressing up": 0.7
     },
     "HealthMentions": [
+      "healthy",
       "active"
     ],
     "HealthScores": {
+      "healthy": 0.8,
       "active": 0.7
     },
     "MostOrderedProducts": [
@@ -81,14 +87,16 @@
     ],
     "PersonalityScores": {
       "playful": 0.9,
-      "curious": 0.7,
-      "affectionate": 0.8
+      "curious": 0.8,
+      "affectionate": 0.7
     },
     "FavoriteProductCategories": [
-      "toys"
+      "toys",
+      "apparel"
     ],
     "CategoryScores": {
-      "toys": 0.95
+      "toys": 0.95,
+      "apparel": 0.7
     },
     "BrandPreferences": [
       "GoDog",
@@ -101,15 +109,19 @@
     "DietaryPreferences": [],
     "DietaryScores": {},
     "BehavioralCues": [
-      "loves toys"
+      "loves toys",
+      "enjoys dressing up"
     ],
     "BehavioralScores": {
-      "loves toys": 0.95
+      "loves toys": 0.95,
+      "enjoys dressing up": 0.7
     },
     "HealthMentions": [
+      "healthy",
       "active"
     ],
     "HealthScores": {
+      "healthy": 0.8,
       "active": 0.7
     },
     "MostOrderedProducts": [

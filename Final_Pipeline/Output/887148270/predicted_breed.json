@@ -1,0 +1,76 @@
+{
+  "Gigi": {
+    "customer_id": "887148270",
+    "pet_name": "Gigi",
+    "prediction_timestamp": "2025-07-17T11:23:18.364865",
+    "breed_distribution": {
+      "goldenRetriever": 20.0,
+      "labradorRetriever": 20.0,
+      "germanShepherd": 20.0,
+      "boxer": 20.0,
+      "beagle": 20.0
+    },
+    "confidence": {
+      "score": 20,
+      "level": "Low",
+      "reliability_flags": [
+        "LLM prediction failed"
+      ],
+      "recommendations": [
+        "Consider manual breed assessment"
+      ]
+    },
+    "explanations": {},
+    "pet_profile_used": {
+      "age": "5",
+      "size": "UNK",
+      "gender": "FMLE",
+      "order_count": 76,
+      "health_indicators": [
+        "UNK",
+        "UNK"
+      ]
+    },
+    "top_predicted_breed": {
+      "breed": "goldenRetriever",
+      "percentage": 20.0
+    }
+  },
+  "Daniel": {
+    "customer_id": "887148270",
+    "pet_name": "Daniel",
+    "prediction_timestamp": "2025-07-17T11:23:20.879343",
+    "breed_distribution": {
+      "goldenRetriever": 20.0,
+      "labradorRetriever": 20.0,
+      "germanShepherd": 20.0,
+      "boxer": 20.0,
+      "beagle": 20.0
+    },
+    "confidence": {
+      "score": 20,
+      "level": "Low",
+      "reliability_flags": [
+        "LLM prediction failed"
+      ],
+      "recommendations": [
+        "Consider manual breed assessment"
+      ]
+    },
+    "explanations": {},
+    "pet_profile_used": {
+      "age": "12",
+      "size": "UNK",
+      "gender": "MALE",
+      "order_count": 76,
+      "health_indicators": [
+        "UNK",
+        "UNK"
+      ]
+    },
+    "top_predicted_breed": {
+      "breed": "goldenRetriever",
+      "percentage": 20.0
+    }
+  }
+}

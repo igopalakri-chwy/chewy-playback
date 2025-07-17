@@ -1,10 +1,10 @@
 {
-  "badge": "The Nurturer",
+  "badge": "The Explorer",
   "compatible_with": [
     "The Cuddler",
-    "The Athlete",
-    "The Explorer"
+    "The Scholar",
+    "The Athlete"
   ],
-  "icon_png": "the_nurturer.png",
-  "description": "This household is a nurturing haven of love and care, where pets are treated like family and their needs are always met with great attention."
+  "icon_png": "the_explorer.png",
+  "description": "A dynamic duo of curiosity and play, exploring the world of tastes and textures with vivacious energy."
 }

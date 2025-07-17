@@ -1,10 +1,10 @@
 {
   "badge": "The Scholar",
   "compatible_with": [
-    "The Cuddler",
-    "The Diva",
-    "The Trickster"
+    "The Explorer",
+    "The Trickster",
+    "The Guardian"
   ],
   "icon_png": "the_scholar.png",
-  "description": "This household is filled with intelligent cats who enjoy the finer things in life, always one step ahead of their human."
+  "description": "This household is filled with intellectual curiosity and playful wit, led by two smart cats who love to learn and outwit their human."
 }

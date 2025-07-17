@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Chewy Playback Pipeline (Unified Version)
-Orchestrates the flow of data through all agents, handling both customers with and without reviews:
+Chewy Playback Pipeline (Unified Version with Snowflake Integration)
+Orchestrates the flow of data through all agents, pulling data directly from Snowflake:
 1. Review and Order Intelligence Agent (when reviews available)
 2. Order Intelligence Agent (when no reviews available)
 3. Narrative Generation Agent  
@@ -12,6 +12,7 @@ import os
 import sys
 import json
 import shutil
+import requests
 from pathlib import Path
 from typing import Dict, List, Any, Optional
 import pandas as pd
@@ -28,6 +29,7 @@ from pet_letter_llm_system import PetLetterLLMSystem
 from add_confidence_score import ConfidenceScoreCalculator
 from breed_predictor_agent import BreedPredictorAgent
 from unknowns_analyzer import UnknownsAnalyzer
+from snowflake_data_connector import SnowflakeDataConnector
 import openai
 from dotenv import load_dotenv
 
@@ -524,70 +526,118 @@ Provide realistic scores (0.0-1.0) based on confidence in the inference."""
 
 
 class ChewyPlaybackPipeline:
-    """Main pipeline class that orchestrates all agents, handling both review and no-review scenarios."""
+    """
+    Unified pipeline that orchestrates all agents and pulls data directly from Snowflake.
+    """
     
     def __init__(self, openai_api_key: str = None):
-        """Initialize the pipeline with OpenAI API key."""
+        """Initialize the pipeline with all agents and Snowflake connector."""
+        # Load environment variables
         load_dotenv()
-        self.openai_api_key = openai_api_key or os.getenv('OPENAI_API_KEY')
-        if not self.openai_api_key:
-            raise ValueError("OpenAI API key is required. Set OPENAI_API_KEY environment variable or pass it to the constructor.")
+        
+        # Get OpenAI API key
+        if openai_api_key:
+            self.openai_api_key = openai_api_key
+        else:
+            self.openai_api_key = os.getenv('OPENAI_API_KEY')
+            if not self.openai_api_key:
+                raise ValueError("OpenAI API key is required. Set OPENAI_API_KEY environment variable or pass it as a parameter.")
         
         # Initialize OpenAI client
         self.openai_client = openai.OpenAI(api_key=self.openai_api_key)
         
-        # Setup directories
-        self.data_dir = Path("Data")
+        # Initialize Snowflake connector
+        self.snowflake_connector = SnowflakeDataConnector()
+        
+        # Initialize agents
+        self.review_agent = ReviewOrderIntelligenceAgent(self.openai_api_key)
+        self.order_agent = OrderIntelligenceAgent(self.openai_api_key)
+        self.narrative_agent = PetLetterLLMSystem(self.openai_api_key)
+        self.breed_predictor_agent = BreedPredictorAgent()
+        
+        # Set up output directory
         self.output_dir = Path("Output")
         self.output_dir.mkdir(exist_ok=True)
         
-        # Initialize agents
-        self.review_agent = ReviewOrderIntelligenceAgent(openai_api_key=self.openai_api_key)
-        self.order_agent = OrderIntelligenceAgent(openai_api_key=self.openai_api_key)
-        self.narrative_agent = PetLetterLLMSystem(openai_api_key=self.openai_api_key)
-        self.breed_predictor_agent = BreedPredictorAgent(openai_api_key=self.openai_api_key)
+        # Data caching to avoid running the same Snowflake queries multiple times
+        self._customer_data_cache = {}
         
-    def preprocess_data(self):
-        """Preprocess the raw CSV data for the agents."""
-        print("🔄 Preprocessing data...")
-        
-        # Get the current directory (Final_Pipeline)
-        current_dir = Path(__file__).parent
-        
-        # Check if preprocessed files exist
-        preprocessed_order_path = current_dir / "Agents/Review_and_Order_Intelligence_Agent/processed_orderhistory.csv"
-        preprocessed_review_path = current_dir / "Agents/Review_and_Order_Intelligence_Agent/processed_qualifyingreviews.csv"
-        
-        if not (preprocessed_order_path.exists() and preprocessed_review_path.exists()):
-            print("📊 Running data preprocessing...")
-            import subprocess
-            
-            # Run the preprocessing script from the agent directory
-            agent_dir = current_dir / "Agents/Review_and_Order_Intelligence_Agent"
-            subprocess.run([
-                sys.executable, 
-                "preprocess_data.py"
-            ], cwd=str(agent_dir), check=True)
+        print("✅ Pipeline initialized with all agents and Snowflake connector")
+    
+    def _get_cached_customer_data(self, customer_id: str) -> Dict[str, Any]:
+        """
+        Get customer data from cache or fetch from Snowflake if not cached.
+        This prevents running the same queries multiple times for the same customer.
+        """
+        if customer_id not in self._customer_data_cache:
+            print(f"    🔍 Fetching data from Snowflake for customer {customer_id}...")
+            customer_data = self.snowflake_connector.get_customer_data(customer_id)
+            self._customer_data_cache[customer_id] = customer_data
+            print(f"    ✅ Cached data for customer {customer_id}")
         else:
-            print("✅ Preprocessed data already exists")
+            print(f"    📋 Using cached data for customer {customer_id}")
+        
+        return self._customer_data_cache[customer_id]
+    
+    def _get_cached_customer_orders_dataframe(self, customer_id: str) -> pd.DataFrame:
+        """Get customer orders dataframe from cached data."""
+        customer_data = self._get_cached_customer_data(customer_id)
+        formatted_data = self.snowflake_connector.format_data_for_pipeline(customer_id, customer_data)
+        if formatted_data['order_data']:
+            return pd.DataFrame(formatted_data['order_data'])
+        else:
+            return pd.DataFrame()
+    
+    def _get_cached_customer_reviews_dataframe(self, customer_id: str) -> pd.DataFrame:
+        """Get customer reviews dataframe from cached data."""
+        customer_data = self._get_cached_customer_data(customer_id)
+        formatted_data = self.snowflake_connector.format_data_for_pipeline(customer_id, customer_data)
+        if formatted_data['review_data']:
+            return pd.DataFrame(formatted_data['review_data'])
+        else:
+            return pd.DataFrame()
+    
+    def _get_cached_customer_pets_dataframe(self, customer_id: str) -> pd.DataFrame:
+        """Get customer pets dataframe from cached data."""
+        customer_data = self._get_cached_customer_data(customer_id)
+        formatted_data = self.snowflake_connector.format_data_for_pipeline(customer_id, customer_data)
+        if formatted_data['pet_data']:
+            return pd.DataFrame(formatted_data['pet_data'])
+        else:
+            return pd.DataFrame()
+    
+    def _get_cached_customer_address(self, customer_id: str) -> Dict[str, str]:
+        """Get customer address from cached data."""
+        customer_data = self._get_cached_customer_data(customer_id)
+        address_data = customer_data.get('query_4', [])
+        if address_data:
+            return {
+                'zip_code': str(address_data[0].get('CUSTOMER_ADDRESS_ZIP', '')),
+                'city': str(address_data[0].get('CUSTOMER_ADDRESS_CITY', ''))
+            }
+        return {'zip_code': '', 'city': ''}
+    
+    def clear_cache(self):
+        """Clear the customer data cache."""
+        self._customer_data_cache.clear()
+        print("✅ Customer data cache cleared")
+    
+    def get_cache_stats(self) -> Dict[str, int]:
+        """Get cache statistics."""
+        return {
+            'cached_customers': len(self._customer_data_cache),
+            'total_queries_saved': len(self._customer_data_cache) * 4  # 4 queries per customer
+        }
+    
+    def preprocess_data(self):
+        """Data preprocessing is no longer needed - data comes directly from Snowflake."""
+        print("✅ Data preprocessing skipped - using Snowflake data connector")
     
     def _check_customer_has_reviews(self, customer_id: str) -> bool:
-        """Check if a customer has any reviews."""
+        """Check if a customer has any reviews using cached data."""
         try:
-            current_dir = Path(__file__).parent
-            reviews_path = current_dir / "Agents/Review_and_Order_Intelligence_Agent/processed_qualifyingreviews.csv"
-            if not reviews_path.exists():
-                return False
-            
-            reviews_df = pd.read_csv(reviews_path)
-            # Check for the correct column name
-            if 'CustomerID' in reviews_df.columns:
-                customer_reviews = reviews_df[reviews_df['CustomerID'].astype(str) == str(customer_id)]
-            elif 'CUSTOMER_ID' in reviews_df.columns:
-                customer_reviews = reviews_df[reviews_df['CUSTOMER_ID'].astype(str) == str(customer_id)]
-            else:
-                return False
-            return len(customer_reviews) > 0
+            reviews_df = self._get_cached_customer_reviews_dataframe(customer_id)
+            return not reviews_df.empty
         except Exception as e:
             print(f"Error checking reviews for customer {customer_id}: {e}")
             return False
@@ -661,47 +711,135 @@ class ChewyPlaybackPipeline:
         return results
     
     def _run_review_agent_for_customer(self, customer_id: str) -> Dict[str, Any]:
-        """Run the Review and Order Intelligence Agent for a specific customer."""
-        # Load preprocessed data
-        current_dir = Path(__file__).parent
-        success = self.review_agent.load_data(
-            order_history_path=str(current_dir / "Agents/Review_and_Order_Intelligence_Agent/processed_orderhistory.csv"),
-            qualifying_reviews_path=str(current_dir / "Agents/Review_and_Order_Intelligence_Agent/processed_qualifyingreviews.csv")
-        )
+        """Run the Review and Order Intelligence Agent for a specific customer using cached data, always using structured Snowflake pet profile fields as primary source."""
+        print(f"    📋 Using cached data for customer {customer_id}...")
         
-        if not success:
-            raise RuntimeError("Failed to load data for Review and Order Intelligence Agent")
-        
-        # Get customer pets
-        customer_pets = self.review_agent._get_customer_pets(customer_id)
-        if not customer_pets:
+        # Get customer pets from cached data
+        pets_df = self._get_cached_customer_pets_dataframe(customer_id)
+        if pets_df.empty:
             print(f"    ⚠️ No pets found for customer {customer_id}")
             return None
         
-        # Get customer orders
-        customer_orders = self.review_agent._get_customer_orders(customer_id)
+        customer_pets = pets_df['PetName'].unique().tolist()
+        
+        # Get customer orders from cached data
+        orders_df = self._get_cached_customer_orders_dataframe(customer_id)
+        
+        # Get customer reviews from cached data
+        reviews_df = self._get_cached_customer_reviews_dataframe(customer_id)
         
         # Process each pet
         customer_results = {}
         for pet_name in customer_pets:
             print(f"    🐾 Analyzing pet {pet_name} for customer {customer_id}...")
-            pet_reviews = self.review_agent._get_pet_reviews(customer_id, pet_name)
-            insights = self.review_agent._analyze_pet_attributes_with_llm(pet_reviews, customer_orders, pet_name)
             
-            # Format the insights
+            # Get structured pet profile row for this pet
+            pet_profile_row = pets_df[pets_df['PetName'] == pet_name].iloc[0] if not pets_df[pets_df['PetName'] == pet_name].empty else None
+            
+            # Filter reviews for this pet (if any)
+            pet_reviews = reviews_df[reviews_df['ReviewText'].str.contains(pet_name, case=False, na=False)]
+            
+            # Prepare structured fields from Snowflake
+            structured_pet_type = pet_profile_row['PetType'] if pet_profile_row is not None and pd.notna(pet_profile_row['PetType']) else 'UNK'
+            structured_breed = pet_profile_row['PetBreed'] if pet_profile_row is not None and pd.notna(pet_profile_row['PetBreed']) else 'UNK'
+            structured_gender = pet_profile_row['Gender'] if pet_profile_row is not None and pd.notna(pet_profile_row['Gender']) else 'UNK'
+            structured_lifestage = pet_profile_row['PetAge'] if pet_profile_row is not None and pd.notna(pet_profile_row['PetAge']) else 'UNK'
+            structured_weight = pet_profile_row['Weight'] if pet_profile_row is not None and pd.notna(pet_profile_row['Weight']) else 'UNK'
+            
+            # Prepare structured pet data dictionary
+            structured_pet_data = {}
+            if pet_profile_row is not None:
+                structured_pet_data = {
+                    'PetType': pet_profile_row.get('PetType', 'UNK'),
+                    'PetBreed': pet_profile_row.get('PetBreed', 'UNK'),
+                    'Gender': pet_profile_row.get('Gender', 'UNK'),
+                    'PetAge': pet_profile_row.get('PetAge', 'UNK'),
+                    'Weight': pet_profile_row.get('Weight', 'UNK'),
+                    'SizeCategory': 'UNK'  # Not available in current Snowflake data
+                }
+            
+            # Use LLM only for additional insights or if fields are missing
+            insights = self.review_agent._analyze_pet_attributes_with_llm(
+                pet_reviews if not pet_reviews.empty else pd.DataFrame(),
+                orders_df if not orders_df.empty else pd.DataFrame(),
+                pet_name,
+                structured_pet_data
+            )
+            
+            # Patch insights with structured data as primary source
             pet_insight = {
                 "PetName": pet_name,
-                "PetType": insights.get("PetType", "UNK"),
-                "PetTypeScore": insights.get("PetTypeScore", 0.0),
-                "Breed": insights.get("Breed", "UNK"),
-                "BreedScore": insights.get("BreedScore", 0.0),
-                "LifeStage": insights.get("LifeStage", "UNK"),
-                "LifeStageScore": insights.get("LifeStageScore", 0.0),
-                "Gender": insights.get("Gender", "UNK"),
-                "GenderScore": insights.get("GenderScore", 0.0),
+                "PetType": structured_pet_type if structured_pet_type != 'UNK' else insights.get("PetType", "UNK"),
+                "PetTypeScore": 1.0 if structured_pet_type != 'UNK' else insights.get("PetTypeScore", 0.0),
+                "Breed": structured_breed if structured_breed != 'UNK' else insights.get("Breed", "UNK"),
+                "BreedScore": 1.0 if structured_breed != 'UNK' else insights.get("BreedScore", 0.0),
+                "LifeStage": structured_lifestage if structured_lifestage != 'UNK' else insights.get("LifeStage", "UNK"),
+                "LifeStageScore": 1.0 if structured_lifestage != 'UNK' else insights.get("LifeStageScore", 0.0),
+                "Gender": structured_gender if structured_gender != 'UNK' else insights.get("Gender", "UNK"),
+                "GenderScore": 1.0 if structured_gender != 'UNK' else insights.get("GenderScore", 0.0),
                 "SizeCategory": insights.get("SizeCategory", "UNK"),
                 "SizeScore": insights.get("SizeScore", 0.0),
-                "Weight": insights.get("Weight", "UNK"),
+                "Weight": structured_weight if structured_weight != 'UNK' else insights.get("Weight", "UNK"),
+                "WeightScore": 1.0 if structured_weight != 'UNK' else insights.get("WeightScore", 0.0),
+                "PersonalityTraits": insights.get("PersonalityTraits", []),
+                "PersonalityScores": insights.get("PersonalityScores", {}),
+                "FavoriteProductCategories": insights.get("FavoriteProductCategories", []),
+                "CategoryScores": insights.get("CategoryScores", {}),
+                "BrandPreferences": insights.get("BrandPreferences", []),
+                "BrandScores": insights.get("BrandScores", {}),
+                "DietaryPreferences": insights.get("DietaryPreferences", []),
+                "DietaryScores": insights.get("DietaryScores", {}),
+                "BehavioralCues": insights.get("BehavioralCues", []),
+                "BehavioralScores": insights.get("BehavioralScores", {}),
+                "HealthMentions": insights.get("HealthMentions", []),
+                "HealthScores": insights.get("HealthScores", {}),
+                "MostOrderedProducts": insights.get("MostOrderedProducts", [])
+            }
+            customer_results[pet_name] = pet_insight
+        return customer_results
+    
+    def _run_order_agent_for_customer(self, customer_id: str) -> Dict[str, Any]:
+        """Run the Order Intelligence Agent for a specific customer using cached data."""
+        print(f"    📋 Using cached data for customer {customer_id}...")
+        
+        # Get customer orders from cached data
+        orders_df = self._get_cached_customer_orders_dataframe(customer_id)
+        
+        if orders_df.empty:
+            print(f"    ⚠️ No orders found for customer {customer_id}")
+            return None
+        
+        # Get customer pets from cached data
+        pets_df = self._get_cached_customer_pets_dataframe(customer_id)
+        
+        # Use the order agent's LLM analysis method
+        customer_orders = orders_df.to_dict('records')
+        insights = self.order_agent._analyze_customer_orders_with_llm(customer_orders, customer_id)
+        
+        # Extract pet information from the insights
+        try:
+            pet_info = self.order_agent._extract_pet_info(orders_df)
+        except Exception as e:
+            print(f"    ⚠️ Error extracting pet info: {e}")
+            pet_info = []
+        
+        # Format the results
+        customer_results = {}
+        for pet_data in pet_info:
+            pet_name = pet_data.get('PetName', 'Unknown Pet')
+            customer_results[pet_name] = {
+                "PetName": pet_name,
+                "PetType": pet_data.get("PetType", "UNK"),
+                "PetTypeScore": insights.get("PetTypeScore", 0.0),
+                "Breed": pet_data.get("Breed", "UNK"),
+                "BreedScore": insights.get("BreedScore", 0.0),
+                "LifeStage": pet_data.get("LifeStage", "UNK"),
+                "LifeStageScore": insights.get("LifeStageScore", 0.0),
+                "Gender": pet_data.get("Gender", "UNK"),
+                "GenderScore": insights.get("GenderScore", 0.0),
+                "SizeCategory": pet_data.get("SizeCategory", "UNK"),
+                "SizeScore": insights.get("SizeScore", 0.0),
+                "Weight": pet_data.get("Weight", "UNK"),
                 "WeightScore": insights.get("WeightScore", 0.0),
                 "PersonalityTraits": insights.get("PersonalityTraits", []),
                 "PersonalityScores": insights.get("PersonalityScores", {}),
@@ -718,57 +856,8 @@ class ChewyPlaybackPipeline:
                 "MostOrderedProducts": insights.get("MostOrderedProducts", []),
                 "ConfidenceScore": insights.get("ConfidenceScore", 0.0)
             }
-            customer_results[pet_name] = pet_insight
         
         return customer_results
-    
-    def _run_order_agent_for_customer(self, customer_id: str) -> Dict[str, Any]:
-        """Run the Order Intelligence Agent for a specific customer."""
-        # First try zero_reviews.csv as it has the most detailed pet information
-        print(f"    🔍 Trying zero_reviews.csv first for detailed pet information...")
-        current_dir = Path(__file__).parent
-        success = self.order_agent.load_data(str(current_dir / "Data/zero_reviews.csv"))
-        
-        if success:
-            # Process the customer from zero_reviews.csv
-            customer_results = self.order_agent.process_customer_data([customer_id])
-            
-            if customer_id in customer_results:
-                print(f"    ✅ Found customer {customer_id} in zero_reviews.csv with detailed pet info")
-                return customer_results[customer_id]
-        
-        # If customer not found in zero_reviews.csv, try Data directory's processed_orderhistory.csv
-        print(f"    🔍 Customer {customer_id} not found in zero_reviews.csv, trying Data/processed_orderhistory.csv...")
-        success = self.order_agent.load_data(str(current_dir / "Data/processed_orderhistory.csv"))
-        
-        if not success:
-            print(f"    ❌ Failed to load Data/processed_orderhistory.csv data")
-            return None
-        
-        # Process the customer from Data directory's processed_orderhistory.csv
-        customer_results = self.order_agent.process_customer_data([customer_id])
-        
-        if customer_id in customer_results:
-            print(f"    ✅ Found customer {customer_id} in Data/processed_orderhistory.csv")
-            return customer_results[customer_id]
-        
-        # If customer not found in either file, try main order history (Agents directory)
-        print(f"    🔍 Customer {customer_id} not found in Data files, trying main order history...")
-        success = self.order_agent.load_data(str(current_dir / "Agents/Review_and_Order_Intelligence_Agent/processed_orderhistory.csv"))
-        
-        if not success:
-            print(f"    ❌ Failed to load main order history data")
-            return None
-        
-        # Process the customer from main order history
-        customer_results = self.order_agent.process_customer_data([customer_id])
-        
-        if customer_id in customer_results:
-            print(f"    ✅ Found customer {customer_id} in main order history")
-            return customer_results[customer_id]
-        else:
-            print(f"    ❌ Customer {customer_id} not found in any order history file")
-            return None
     
     def run_narrative_generation_agent(self, enriched_profiles: Dict[str, Any]) -> Dict[str, Any]:
         """Run the Narrative Generation Agent to create letters, image prompts, and personality badges."""
@@ -861,9 +950,25 @@ class ChewyPlaybackPipeline:
             else:
                 pets_data = customer_data
             
-            # Run breed prediction for this customer's pets
-            customer_predictions = self.breed_predictor_agent.process_customer_pets(
-                customer_id, pets_data
+            # Get customer orders from Snowflake for breed prediction
+            orders_df = self._get_cached_customer_orders_dataframe(customer_id)
+            customer_orders = []
+            
+            if not orders_df.empty:
+                # Convert to list of dictionaries for breed predictor
+                for _, row in orders_df.iterrows():
+                    order = {
+                        'item_name': row.get('ProductName', 'Unknown'),
+                        'category': 'Unknown',
+                        'order_date': '',
+                        'quantity': row.get('Quantity', 1),
+                        'brand': 'Chewy'
+                    }
+                    customer_orders.append(order)
+            
+            # Run breed prediction for this customer's pets with order data
+            customer_predictions = self.breed_predictor_agent.process_customer_pets_with_orders(
+                customer_id, pets_data, customer_orders
             )
             
             if customer_predictions:
@@ -873,32 +978,18 @@ class ChewyPlaybackPipeline:
         return breed_predictions
     
     def _get_customer_reviews(self, customer_id: str) -> List[Dict[str, Any]]:
-        """Get review data for a specific customer."""
+        """Get review data for a specific customer from cached data."""
         try:
-            import pandas as pd
-            current_dir = Path(__file__).parent
-            reviews_path = current_dir / "Agents/Review_and_Order_Intelligence_Agent/processed_qualifyingreviews.csv"
-            if not reviews_path.exists():
-                return []
-            
-            reviews_df = pd.read_csv(reviews_path)
-            
-            # Check for the correct column name
-            if 'CustomerID' in reviews_df.columns:
-                customer_reviews = reviews_df[reviews_df['CustomerID'].astype(str) == str(customer_id)]
-            elif 'CUSTOMER_ID' in reviews_df.columns:
-                customer_reviews = reviews_df[reviews_df['CUSTOMER_ID'].astype(str) == str(customer_id)]
-            else:
-                return []
+            reviews_df = self._get_cached_customer_reviews_dataframe(customer_id)
             
             # Convert to list of dictionaries
             reviews_list = []
-            for _, row in customer_reviews.iterrows():
+            for _, row in reviews_df.iterrows():
                 review = {
-                    'product_name': row.get('ProductName', row.get('product', 'Unknown')),
-                    'review_text': row.get('ReviewText', row.get('review_text', '')),
-                    'rating': row.get('Rating', row.get('rating', 0)),
-                    'pet_name': row.get('PetName', row.get('pet_name', ''))
+                    'product_name': 'Unknown',  # Not available in current query
+                    'review_text': row.get('ReviewText', ''),
+                    'rating': 0,  # Not available in current query
+                    'pet_name': ''  # Not available in current query
                 }
                 reviews_list.append(review)
             
@@ -908,65 +999,25 @@ class ChewyPlaybackPipeline:
             return []
     
     def _get_customer_orders_for_narrative(self, customer_id: str) -> List[Dict[str, Any]]:
-        """Get order data for a specific customer for narrative generation."""
+        """Get order data for a specific customer for narrative generation from cached data."""
         try:
-            import pandas as pd
+            # Get customer orders from cached data
+            orders_df = self._get_cached_customer_orders_dataframe(customer_id)
             
-            # Try different order history files
-            current_dir = Path(__file__).parent
-            order_files = [
-                str(current_dir / "Data/order_history.csv"),  # Original file with ZIP codes
-                str(current_dir / "Data/zero_reviews.csv"),
-                str(current_dir / "Data/processed_orderhistory.csv"),
-                str(current_dir / "Agents/Review_and_Order_Intelligence_Agent/processed_orderhistory.csv")
-            ]
+            # Get customer address from cached data
+            address_data = self._get_cached_customer_address(customer_id)
             
-            for order_file in order_files:
-                print(f"    🔍 Checking order file: {order_file}")
-                if os.path.exists(order_file):
-                    print(f"    ✅ File exists")
-                    orders_df = pd.read_csv(order_file)
-                    print(f"    📊 File has {len(orders_df)} rows")
-                    print(f"    📋 Columns: {list(orders_df.columns)}")
-                    
-                    # Check for customer ID in different column formats
-                    customer_col = None
-                    for col in ['CustomerID', 'CUSTOMER_ID', 'customer_id']:
-                        if col in orders_df.columns:
-                            customer_col = col
-                            print(f"    ✅ Found customer column: {customer_col}")
-                            break
-                    
-                    if customer_col:
-                        customer_orders = orders_df[orders_df[customer_col].astype(str) == str(customer_id)]
-                        print(f"    🔍 Found {len(customer_orders)} orders for customer {customer_id}")
-                        
-                        if not customer_orders.empty:
-                            print(f"    ✅ Customer {customer_id} found in {order_file}")
-                            # Convert to list of dictionaries
-                            orders_list = []
-                            for _, row in customer_orders.iterrows():
-                                order = {
-                                    'product_name': row.get('ProductName', row.get('item_name', row.get('ITEM_NAME', 'Unknown'))),
-                                    'item_type': 'unknown',  # We'll need to infer this
-                                    'brand': 'Chewy',  # Default brand
-                                    'quantity': 1,
-                                    'pet_name': row.get('PetName1', row.get('pet_name_1', '')),
-                                    'zip_code': row.get('ZIP_CODE', row.get('zip_code', ''))
-                                }
-                                orders_list.append(order)
-                            
-                            print(f"    📦 Created {len(orders_list)} order dictionaries")
-                            return orders_list
-                        else:
-                            print(f"    ❌ Customer {customer_id} not found in {order_file}")
-                    else:
-                        print(f"    ❌ No customer ID column found in {order_file}")
-                else:
-                    print(f"    ❌ File does not exist: {order_file}")
+            # Convert to list of dictionaries
+            orders_list = []
+            for _, row in orders_df.iterrows():
+                order = {
+                    'product_name': row.get('ProductName', 'Unknown'),
+                    'zip_code': address_data.get('zip_code', ''),
+                    'pet_name': ''  # Not available in current query structure
+                }
+                orders_list.append(order)
             
-            print(f"    ❌ Customer {customer_id} not found in any order files")
-            return []
+            return orders_list
         except Exception as e:
             print(f"Error getting orders for customer {customer_id}: {e}")
             return []
@@ -985,17 +1036,19 @@ class ChewyPlaybackPipeline:
             
             if collective_visual_prompt:
                 try:
-                    # Art style prompt to ensure consistency
-                    default_art_style = "Soft, blended brushstrokes that mimic traditional oil or gouache painting. Warm, glowing lighting with gentle ambient highlights and diffuse shadows. Vivid yet harmonious color palette, featuring saturated pastels and rich warm tones. Subtle texture that gives a hand-painted, storybook feel. Sparkle accents and light flares to add magical charm. Smooth gradients and soft edges, avoiding harsh lines or stark contrast. A dreamy, nostalgic tone evocative of classic children's book illustrations. "
+                    # Base sophisticated artistic portrait style - wholesome, joyous, and refined
+                    base_artistic_style = "Sophisticated artistic pet portrait, wholesome and warm, joyous energy, refined illustration style, pets as the main focus, inviting atmosphere, elegant colors, cozy and cheerful mood, NOT cartoonish, artistic interpretation"
                     
-                    # Use ZIP aesthetics if available, otherwise fall back to default
+                    # Use ZIP aesthetics for background and overall style influence
                     if zip_aesthetics and zip_aesthetics.get('visual_style'):
-                        art_style_prompt = f"{zip_aesthetics.get('visual_style', '')}. {zip_aesthetics.get('color_texture', '')}. {zip_aesthetics.get('art_style', '')}. {zip_aesthetics.get('tones', '')}. "
+                        # ZIP aesthetics influence background and color palette, not the main pet focus
+                        background_style = f"Background influenced by {zip_aesthetics.get('visual_style', '')} with {zip_aesthetics.get('color_texture', '')} tones. {zip_aesthetics.get('art_style', '')} artistic elements in the setting."
+                        art_style_prompt = f"{base_artistic_style}. {background_style}. {zip_aesthetics.get('tones', '')} overall mood."
                     else:
-                        art_style_prompt = default_art_style
+                        art_style_prompt = base_artistic_style
                     
-                    # Combine art style with visual prompt
-                    prompt = art_style_prompt + " " + collective_visual_prompt
+                    # Combine art style with visual prompt, ensuring pets are the main focus
+                    prompt = f"{art_style_prompt}. {collective_visual_prompt}. The pets should be the clear main subjects, with artistic interpretation and vibrant colors."
                     
                     # Truncate prompt to fit OpenAI's 1000 character limit
                     if len(prompt) > 1000:
@@ -1212,6 +1265,9 @@ class ChewyPlaybackPipeline:
         print("=" * 50)
         
         try:
+            # Clear cache to ensure fresh data
+            self.clear_cache()
+            
             # Step 1: Preprocess data
             self.preprocess_data()
             
@@ -1231,6 +1287,13 @@ class ChewyPlaybackPipeline:
             self.save_outputs(enriched_profiles, narrative_results, image_results, breed_predictions)
             # Run unknowns analyzer after saving outputs
             self.run_unknowns_analyzer(customer_ids)
+            
+            # Show cache statistics
+            cache_stats = self.get_cache_stats()
+            print(f"\n📊 Cache Statistics:")
+            print(f"   Customers cached: {cache_stats['cached_customers']}")
+            print(f"   Queries saved: {cache_stats['total_queries_saved']}")
+            
             print("\n🎉 Pipeline completed successfully!")
             print(f"📁 Check the 'Output' directory for results")
             

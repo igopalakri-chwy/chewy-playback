@@ -148,23 +148,46 @@ class ReviewOrderIntelligenceAgent:
         selected = priority_reviews[:max_priority] + other_reviews[:max_other]
         return selected
     
-    def _prepare_llm_context(self, pet_reviews: pd.DataFrame, customer_orders: pd.DataFrame, pet_name: str) -> str:
+    def _prepare_llm_context(self, pet_reviews: pd.DataFrame, customer_orders: pd.DataFrame, pet_name: str, structured_pet_data: Dict[str, Any] = None) -> str:
         """Prepare context data for LLM analysis."""
         context_parts = []
         
         # Add structured pet data that's already available
-        if not pet_reviews.empty and pet_name != 'UNK':
-            # Get the first row with pet data (all rows should have the same pet info)
-            pet_data = pet_reviews.iloc[0]
+        if structured_pet_data and pet_name != 'UNK':
+            # Use the structured pet data passed from the pipeline
             context_parts.append(f"Pet Profile Data for {pet_name}:")
-            context_parts.append(f"- Pet Type: {pet_data.get('PetType', 'UNK')}")
-            context_parts.append(f"- Breed: {pet_data.get('Breed', 'UNK')}")
-            context_parts.append(f"- Gender: {pet_data.get('Gender', 'UNK')}")
-            context_parts.append(f"- Life Stage: {pet_data.get('LifeStage', 'UNK')}")
-            context_parts.append(f"- Size Category: {pet_data.get('SizeCategory', 'UNK')}")
-            context_parts.append(f"- Weight: {pet_data.get('Weight', 'UNK')}")
-            context_parts.append(f"- Birthday: {pet_data.get('Birthday', 'UNK')}")
+            context_parts.append(f"- Pet Type: {structured_pet_data.get('PetType', 'UNK')}")
+            context_parts.append(f"- Breed: {structured_pet_data.get('PetBreed', structured_pet_data.get('Breed', 'UNK'))}")
+            context_parts.append(f"- Gender: {structured_pet_data.get('Gender', 'UNK')}")
+            context_parts.append(f"- Life Stage: {structured_pet_data.get('PetAge', structured_pet_data.get('LifeStage', 'UNK'))}")
+            context_parts.append(f"- Size Category: {structured_pet_data.get('SizeCategory', 'UNK')}")
+            context_parts.append(f"- Weight: {structured_pet_data.get('Weight', 'UNK')}")
+            context_parts.append(f"- Birthday: {structured_pet_data.get('Birthday', 'UNK')}")
             context_parts.append("")
+        elif not pet_reviews.empty and pet_name != 'UNK':
+            # Fallback: try to get pet data from reviews (old method)
+            try:
+                pet_data = pet_reviews.iloc[0]
+                context_parts.append(f"Pet Profile Data for {pet_name}:")
+                context_parts.append(f"- Pet Type: {pet_data.get('PetType', 'UNK')}")
+                context_parts.append(f"- Breed: {pet_data.get('Breed', 'UNK')}")
+                context_parts.append(f"- Gender: {pet_data.get('Gender', 'UNK')}")
+                context_parts.append(f"- Life Stage: {pet_data.get('LifeStage', 'UNK')}")
+                context_parts.append(f"- Size Category: {pet_data.get('SizeCategory', 'UNK')}")
+                context_parts.append(f"- Weight: {pet_data.get('Weight', 'UNK')}")
+                context_parts.append(f"- Birthday: {pet_data.get('Birthday', 'UNK')}")
+                context_parts.append("")
+            except Exception as e:
+                logger.warning(f"Could not extract pet data from reviews for {pet_name}: {e}")
+                context_parts.append(f"Pet Profile Data for {pet_name}:")
+                context_parts.append("- Pet Type: UNK")
+                context_parts.append("- Breed: UNK")
+                context_parts.append("- Gender: UNK")
+                context_parts.append("- Life Stage: UNK")
+                context_parts.append("- Size Category: UNK")
+                context_parts.append("- Weight: UNK")
+                context_parts.append("- Birthday: UNK")
+                context_parts.append("")
         elif pet_name == 'UNK':
             context_parts.append(f"Pet Profile Data for {pet_name}:")
             context_parts.append("- Pet Type: UNK")
@@ -176,6 +199,19 @@ class ReviewOrderIntelligenceAgent:
             context_parts.append("- Birthday: UNK")
             context_parts.append("")
             context_parts.append("NOTE: This pet is mentioned in reviews but has no registered profile data.")
+            context_parts.append("")
+        else:
+            # No structured data available
+            context_parts.append(f"Pet Profile Data for {pet_name}:")
+            context_parts.append("- Pet Type: UNK")
+            context_parts.append("- Breed: UNK")
+            context_parts.append("- Gender: UNK")
+            context_parts.append("- Life Stage: UNK")
+            context_parts.append("- Size Category: UNK")
+            context_parts.append("- Weight: UNK")
+            context_parts.append("- Birthday: UNK")
+            context_parts.append("")
+            context_parts.append("NOTE: No structured profile data available for this pet.")
             context_parts.append("")
         
         # Add pet reviews context - prioritize reviews with gender/weight information
@@ -223,8 +259,13 @@ class ReviewOrderIntelligenceAgent:
             
             # Determine pet type for filtering
             pet_type = "UNK"
-            if not pet_reviews.empty and pet_name != 'UNK':
-                pet_type = pet_reviews.iloc[0].get('PetType', 'UNK')
+            if structured_pet_data and structured_pet_data.get('PetType') and structured_pet_data.get('PetType') != 'UNK':
+                pet_type = structured_pet_data.get('PetType')
+            elif not pet_reviews.empty and pet_name != 'UNK':
+                try:
+                    pet_type = pet_reviews.iloc[0].get('PetType', 'UNK')
+                except Exception:
+                    pet_type = "UNK"
             elif pet_name == 'UNK':
                 # For UNK pets, infer from context (reviews mention "three cats")
                 pet_type = "Cat"
@@ -235,12 +276,12 @@ class ReviewOrderIntelligenceAgent:
                 # For cats, exclude dog-specific products
                 cat_orders = customer_orders[~customer_orders['ProductName'].str.contains('Dog|dog', case=False, na=False)]
                 filtered_orders = cat_orders
-                context_parts.append("(Filtered to cat-appropriate products only)")
+                context_parts.append("(Filtered to cat-appropriate products only - excluding dog products)")
             elif pet_type == "Dog":
                 # For dogs, exclude cat-specific products
                 dog_orders = customer_orders[~customer_orders['ProductName'].str.contains('Cat|cat', case=False, na=False)]
                 filtered_orders = dog_orders
-                context_parts.append("(Filtered to dog-appropriate products only)")
+                context_parts.append("(Filtered to dog-appropriate products only - excluding cat products)")
             else:
                 # For unknown pet types, include all products
                 context_parts.append("(All products included - pet type unknown)")
@@ -249,6 +290,7 @@ class ReviewOrderIntelligenceAgent:
             if not filtered_orders.empty:
                 product_counts = filtered_orders.groupby('ProductName')['Quantity'].sum().sort_values(ascending=False)
                 
+                context_parts.append(f"Total products in filtered list: {len(filtered_orders)}")
                 for i, (product, quantity) in enumerate(product_counts.head(10).items()):
                     context_parts.append(f"Product {i+1}: {product} (Quantity: {quantity})")
             else:
@@ -283,7 +325,12 @@ IMPORTANT EXTRACTION GUIDELINES:
 - BREED: Use the structured data if provided (e.g., "Birman", "Himalayan"), OR look for breed mentions in review text
 - SIZE: Infer from weight and breed information (e.g., "large breed", "125 lbs" = "Large")
 - PET TYPE: Use the structured data if provided, otherwise infer from context
-- MOST ORDERED PRODUCTS: ONLY include products that are appropriate for the pet type (e.g., cat food/toys for cats, dog food/toys for dogs). DO NOT include dog food for cats or cat food for dogs.
+- MOST ORDERED PRODUCTS: ONLY include products that are appropriate for the pet type. The order history has been pre-filtered to show only pet-appropriate products:
+  * For CATS: Only include cat food, cat litter, cat toys, cat treats, cat flea treatment, etc.
+  * For DOGS: Only include dog food, dog treats, dog toys, dog dental chews, dog flea treatment, etc.
+  * DO NOT include dog products for cats or cat products for dogs
+  * DO NOT include generic products that could be for either pet type unless clearly specified
+  * CRITICAL: Only categorize products that are actually listed in the "Customer Order History" section above
 
 Please analyze and return a JSON object with the following structure:
 {{
@@ -325,7 +372,12 @@ IMPORTANT: If structured data is provided (e.g., Breed: Birman, Gender: MALE), u
             json_match = re.search(r'\{.*\}', response, re.DOTALL)
             if json_match:
                 json_str = json_match.group()
-                return json.loads(json_str)
+                parsed_response = json.loads(json_str)
+                
+                # Post-process to fix product categorization issues
+                parsed_response = self._fix_product_categorization(parsed_response)
+                
+                return parsed_response
             else:
                 logger.warning("No JSON found in LLM response")
                 return self._get_default_insights()
@@ -333,19 +385,65 @@ IMPORTANT: If structured data is provided (e.g., Breed: Birman, Gender: MALE), u
             logger.error(f"Error parsing LLM response: {e}")
             return self._get_default_insights()
     
-    def _analyze_pet_attributes_with_llm(self, pet_reviews: pd.DataFrame, customer_orders: pd.DataFrame, pet_name: str) -> Dict[str, Any]:
+    def _fix_product_categorization(self, parsed_response: Dict[str, Any]) -> Dict[str, Any]:
+        """Fix product categorization to ensure pets only get appropriate products."""
+        pet_type = parsed_response.get('PetType', '').lower()
+        
+        if pet_type == 'dog':
+            # For dogs, remove cat-specific categories
+            favorite_categories = parsed_response.get('FavoriteProductCategories', [])
+            category_scores = parsed_response.get('CategoryScores', {})
+            
+            # Remove cat-specific categories
+            cat_keywords = ['cat', 'litter', 'hairball']
+            filtered_categories = []
+            filtered_scores = {}
+            
+            for category in favorite_categories:
+                category_lower = category.lower()
+                if not any(keyword in category_lower for keyword in cat_keywords):
+                    filtered_categories.append(category)
+                    if category in category_scores:
+                        filtered_scores[category] = category_scores[category]
+            
+            parsed_response['FavoriteProductCategories'] = filtered_categories
+            parsed_response['CategoryScores'] = filtered_scores
+            
+        elif pet_type == 'cat':
+            # For cats, remove dog-specific categories
+            favorite_categories = parsed_response.get('FavoriteProductCategories', [])
+            category_scores = parsed_response.get('CategoryScores', {})
+            
+            # Remove dog-specific categories
+            dog_keywords = ['dog', 'poop']
+            filtered_categories = []
+            filtered_scores = {}
+            
+            for category in favorite_categories:
+                category_lower = category.lower()
+                if not any(keyword in category_lower for keyword in dog_keywords):
+                    filtered_categories.append(category)
+                    if category in category_scores:
+                        filtered_scores[category] = category_scores[category]
+            
+            parsed_response['FavoriteProductCategories'] = filtered_categories
+            parsed_response['CategoryScores'] = filtered_scores
+        
+        return parsed_response
+    
+    def _analyze_pet_attributes_with_llm(self, pet_reviews: pd.DataFrame, customer_orders: pd.DataFrame, pet_name: str, structured_pet_data: Dict[str, Any] = None) -> Dict[str, Any]:
         """Use LLM to analyze pet attributes from reviews and orders."""
         if not self.openai_api_key:
             logger.warning("No OpenAI API key provided, using fallback analysis")
             return self._fallback_analysis(pet_reviews, customer_orders, pet_name)
         try:
-            context = self._prepare_llm_context(pet_reviews, customer_orders, pet_name)
+            context = self._prepare_llm_context(pet_reviews, customer_orders, pet_name, structured_pet_data)
             prompt = self._create_analysis_prompt(context, pet_name)
             client = openai.OpenAI(api_key=self.openai_api_key)
             response = client.chat.completions.create(
                 model="gpt-4",
                 messages=[
-                    {"role": "system", "content": "You are an expert pet behavior analyst. Analyze the provided data to extract pet insights. IMPORTANT: If structured pet data is provided (like Breed, Gender, Pet Type), use those exact values with high confidence scores (0.9-1.0). Only extract additional information from review text when structured data is not available. Look for clues like 'girl', 'boy', '125 lbs', 'large breed', etc. in review text for additional insights. Only use information present in the data. If information is not available, use 'UNK' and score 0."},
+                    {"role": "system", "content": "You are an expert pet behavior analyst. Analyze the provided data to extract pet insights. IMPORTANT: If structured pet data is provided (like Breed, Gender, Pet Type), use those exact values with high confidence scores (0.9-1.0). Only extract additional information from review text when structured data is not available. Look for clues like 'girl', 'boy', '125 lbs', 'large breed', etc. in review text for additional insights. Only use information present in the data. If information is not available, use 'UNK' and score 0. CRITICAL: When categorizing products, ONLY assign products that are appropriate for the pet type. Dogs should only have dog products, cats should only have cat products."},
                     {"role": "user", "content": prompt}
                 ],
                 temperature=0.1,

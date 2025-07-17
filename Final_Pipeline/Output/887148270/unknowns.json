@@ -1,0 +1,35 @@
+{
+  "customer_id": "887148270",
+  "unknown_attributes": {
+    "Gigi": {
+      "pet_name": "Gigi",
+      "unknown_fields": [
+        "SizeCategory"
+      ],
+      "unknown_scores": [],
+      "unknown_lists": [],
+      "unknown_dicts": []
+    },
+    "Anyanka": {
+      "pet_name": "Anyanka",
+      "unknown_fields": [
+        "SizeCategory"
+      ],
+      "unknown_scores": [],
+      "unknown_lists": [],
+      "unknown_dicts": []
+    },
+    "Daniel": {
+      "pet_name": "Daniel",
+      "unknown_fields": [
+        "SizeCategory"
+      ],
+      "unknown_scores": [],
+      "unknown_lists": [],
+      "unknown_dicts": []
+    }
+  },
+  "total_unknowns": 3,
+  "pets_with_unknowns": 3,
+  "customer_confidence_score": 0.0
+}
