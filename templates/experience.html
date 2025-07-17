@@ -1,0 +1,274 @@
+{% extends "base.html" %}
+
+{% block title %}Pet Experience - Customer {{ customer_id }}{% endblock %}
+
+{% block content %}
+<div class="experience-container">
+    <!-- Chewy Logo Header -->
+    <div class="chewy-logo-header">
+        <div class="chewy-logo">
+            <span class="chewy-text">Chewy</span>
+            <i class="fas fa-paw chewy-paw"></i>
+        </div>
+    </div>
+    
+    <!-- Navigation -->
+    <div class="slide-nav">
+        <div class="nav-dots">
+            <div class="nav-dot active" data-slide="0"></div>
+            <div class="nav-dot" data-slide="1"></div>
+            <div class="nav-dot" data-slide="2"></div>
+            <div class="nav-dot" data-slide="3"></div>
+        </div>
+    </div>
+    
+    <!-- Slides Container -->
+    <div class="slides-container">
+        <!-- Slide 0: Welcome -->
+        <div class="slide active" id="slide-0">
+            <div class="slide-content welcome-slide">
+                <!-- Floating pet elements for welcome slide -->
+                <div class="slide-pet-elements">
+                    <div class="slide-paw sp-1"><i class="fas fa-paw"></i></div>
+                    <div class="slide-paw sp-2"><i class="fas fa-heart"></i></div>
+                    <div class="slide-paw sp-3"><i class="fas fa-star"></i></div>
+                </div>
+                
+                <div class="welcome-header">
+                    <i class="fas fa-heart welcome-icon"></i>
+                    <h1 class="welcome-title">Your Pet's Story</h1>
+                    <p class="welcome-subtitle">Customer #{{ customer_id }}</p>
+                </div>
+                
+                <div class="pet-info">
+                    {% if customer_data.profile %}
+                        {% set pets = customer_data.profile.keys() | list %}
+                        {% if pets and pets[0] != 'cust_confidence_score' %}
+                            <div class="pet-avatars">
+                                {% for pet_name in pets[:3] %}
+                                    {% if pet_name != 'cust_confidence_score' %}
+                                        <div class="pet-avatar">
+                                            <i class="fas fa-paw"></i>
+                                            <span>{{ pet_name.title() }}</span>
+                                        </div>
+                                    {% endif %}
+                                {% endfor %}
+                            </div>
+                        {% endif %}
+                    {% endif %}
+                </div>
+                
+                <div class="welcome-actions">
+                    <button class="start-btn" onclick="nextSlide()">
+                        <span>Start Journey</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Slide 1: Pet Letter -->
+        <div class="slide" id="slide-1">
+            <div class="slide-content letter-slide">
+                <div class="slide-header">
+                    <h2 class="slide-title">
+                        <i class="fas fa-heart"></i>
+                        A Letter from Your Cuties
+                    </h2>
+                </div>
+                
+                <div class="letter-container">
+                    {% if customer_data.letter %}
+                        <div class="letter-content">
+                            <div class="letter-text">
+                                {{ customer_data.letter | striptags | replace('Collective Letter from All Pets for Customer ' + customer_id, '') | replace('============================================================', '') | replace('=', '') | replace('\n\n\n', '\n\n') | replace('\n\n', '\n') | replace('\n', '\n\n') | trim | safe }}
+                            </div>
+                        </div>
+                    {% else %}
+                        <div class="no-data">
+                            <i class="fas fa-envelope-open"></i>
+                            <p>No letter available for this customer.</p>
+                        </div>
+                    {% endif %}
+                </div>
+                
+                <div class="slide-actions">
+                    <button class="nav-btn prev-btn" onclick="prevSlide()">
+                        <i class="fas fa-arrow-left"></i>
+                    </button>
+                    <button class="nav-btn next-btn" onclick="nextSlide()">
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Slide 2: Personality Badge -->
+        <div class="slide" id="slide-2">
+            <div class="slide-content badge-slide">
+                <div class="slide-header">
+                    <h2 class="slide-title">
+                        <i class="fas fa-star"></i>
+                        Their Personality
+                    </h2>
+                </div>
+                
+                <div class="badge-container">
+                    {% if customer_data.badge %}
+                        <div class="badge-display">
+                            <div class="badge-image-container">
+                                <img 
+                                    src="{{ url_for('badge_image', filename=customer_data.badge.icon_png.replace('the_', 'badge_').replace('.png', ' copy.png')) }}" 
+                                    alt="{{ customer_data.badge.badge }}"
+                                    class="badge-image"
+                                    onerror="this.src='/static/badges/badge_athlete copy.png'"
+                                >
+                            </div>
+                            <div class="badge-info">
+                                <h3 class="badge-title">{{ customer_data.badge.badge }}</h3>
+                                <p class="badge-description">{{ customer_data.badge.description }}</p>
+                            </div>
+                        </div>
+                    {% else %}
+                        <div class="no-data">
+                            <i class="fas fa-medal"></i>
+                            <p>No personality badge available.</p>
+                        </div>
+                    {% endif %}
+                </div>
+                
+                <div class="slide-actions">
+                    <button class="nav-btn prev-btn" onclick="prevSlide()">
+                        <i class="fas fa-arrow-left"></i>
+                    </button>
+                    <button class="nav-btn next-btn" onclick="nextSlide()">
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Slide 3: Pet Portrait -->
+        <div class="slide" id="slide-3">
+            <div class="slide-content portrait-slide">
+                <div class="slide-header">
+                    <h2 class="slide-title">
+                        <i class="fas fa-camera"></i>
+                        Their Beautiful Portrait
+                    </h2>
+                </div>
+                
+                <div class="portrait-container">
+                    {% if customer_data.portrait %}
+                        <div class="portrait-display">
+                            <img 
+                                src="{{ customer_data.portrait }}" 
+                                alt="AI Generated Pet Portrait"
+                                class="portrait-image"
+                            >
+                        </div>
+                    {% else %}
+                        <div class="no-data">
+                            <i class="fas fa-image"></i>
+                            <p>No portrait available for this customer.</p>
+                        </div>
+                    {% endif %}
+                </div>
+                
+                <div class="slide-actions">
+                    <button class="nav-btn prev-btn" onclick="prevSlide()">
+                        <i class="fas fa-arrow-left"></i>
+                    </button>
+                    <button class="nav-btn home-btn" onclick="goHome()">
+                        <i class="fas fa-home"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+let currentSlide = 0;
+const totalSlides = 4;
+
+function showSlide(slideIndex) {
+    // Hide all slides
+    document.querySelectorAll('.slide').forEach(slide => {
+        slide.classList.remove('active');
+    });
+    
+    // Show current slide
+    document.getElementById(`slide-${slideIndex}`).classList.add('active');
+    
+    // Update navigation dots
+    document.querySelectorAll('.nav-dot').forEach((dot, index) => {
+        dot.classList.toggle('active', index === slideIndex);
+    });
+    
+    currentSlide = slideIndex;
+}
+
+function nextSlide() {
+    if (currentSlide < totalSlides - 1) {
+        showSlide(currentSlide + 1);
+    }
+}
+
+function prevSlide() {
+    if (currentSlide > 0) {
+        showSlide(currentSlide - 1);
+    }
+}
+
+function goHome() {
+    window.location.href = '/';
+}
+
+// Navigation dot clicks
+document.querySelectorAll('.nav-dot').forEach((dot, index) => {
+    dot.addEventListener('click', () => {
+        showSlide(index);
+    });
+});
+
+// Keyboard navigation
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'ArrowRight') {
+        nextSlide();
+    } else if (e.key === 'ArrowLeft') {
+        prevSlide();
+    }
+});
+
+// Touch/swipe support
+let touchStartX = 0;
+let touchEndX = 0;
+
+document.addEventListener('touchstart', (e) => {
+    touchStartX = e.changedTouches[0].screenX;
+});
+
+document.addEventListener('touchend', (e) => {
+    touchEndX = e.changedTouches[0].screenX;
+    handleSwipe();
+});
+
+function handleSwipe() {
+    const swipeThreshold = 50;
+    const diff = touchStartX - touchEndX;
+    
+    if (Math.abs(diff) > swipeThreshold) {
+        if (diff > 0) {
+            // Swipe left - next slide
+            nextSlide();
+        } else {
+            // Swipe right - previous slide
+            prevSlide();
+        }
+    }
+}
+</script>
+{% endblock %} 
