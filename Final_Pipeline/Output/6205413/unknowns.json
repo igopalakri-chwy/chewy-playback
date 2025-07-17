@@ -1,0 +1,26 @@
+{
+  "customer_id": "6205413",
+  "unknown_attributes": {
+    "Luna": {
+      "pet_name": "Luna",
+      "unknown_fields": [
+        "SizeCategory"
+      ],
+      "unknown_scores": [],
+      "unknown_lists": [],
+      "unknown_dicts": []
+    },
+    "Cocoabean": {
+      "pet_name": "Cocoabean",
+      "unknown_fields": [
+        "SizeCategory"
+      ],
+      "unknown_scores": [],
+      "unknown_lists": [],
+      "unknown_dicts": []
+    }
+  },
+  "total_unknowns": 2,
+  "pets_with_unknowns": 2,
+  "customer_confidence_score": 0.0
+}

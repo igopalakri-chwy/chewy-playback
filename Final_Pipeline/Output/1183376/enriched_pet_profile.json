@@ -16,22 +16,22 @@
     "PersonalityTraits": [
       "Likes wearing clothes",
       "Likes toys",
-      "Likes certain foods"
+      "Likes certain food"
     ],
     "PersonalityScores": {
       "Likes wearing clothes": 0.8,
       "Likes toys": 0.7,
-      "Likes certain foods": 0.9
+      "Likes certain food": 0.9
     },
     "FavoriteProductCategories": [
-      "Toys",
-      "Food",
-      "Clothing"
+      "Cat Toys",
+      "Cat Food",
+      "Cat Clothes"
     ],
     "CategoryScores": {
-      "Toys": 0.9,
-      "Food": 0.9,
-      "Clothing": 0.8
+      "Cat Toys": 0.8,
+      "Cat Food": 0.9,
+      "Cat Clothes": 0.8
     },
     "BrandPreferences": [
       "OurPets",
@@ -40,7 +40,7 @@
       "Purina Beyond"
     ],
     "BrandScores": {
-      "OurPets": 0.9,
+      "OurPets": 0.8,
       "VeRUS": 0.7,
       "Go! Solutions": 0.7,
       "Purina Beyond": 0.7
@@ -51,42 +51,36 @@
       "Beef",
       "Apple",
       "Vegetable",
-      "Green Lipped Mussel",
-      "Pollock",
-      "Icelandic Arctic Char",
-      "Lentil"
+      "Green Lipped Mussel"
     ],
     "DietaryScores": {
-      "Grain-Free": 0.8,
+      "Grain-Free": 0.7,
       "Fish": 0.7,
       "Beef": 0.7,
       "Apple": 0.7,
       "Vegetable": 0.7,
-      "Green Lipped Mussel": 0.7,
-      "Pollock": 0.7,
-      "Icelandic Arctic Char": 0.7,
-      "Lentil": 0.7
+      "Green Lipped Mussel": 0.7
     },
     "BehavioralCues": [
       "Accepts medication",
-      "Interacts with multiple cats"
+      "Interacts with toys"
     ],
     "BehavioralScores": {
       "Accepts medication": 0.8,
-      "Interacts with multiple cats": 0.9
+      "Interacts with toys": 0.8
     },
     "HealthMentions": [
-      "Dental health",
-      "Urinary tract health"
+      "Healthy urinary tract",
+      "Dental health"
     ],
     "HealthScores": {
-      "Dental health": 0.7,
-      "Urinary tract health": 0.7
+      "Healthy urinary tract": 0.7,
+      "Dental health": 0.7
     },
     "MostOrderedProducts": [
-      "OurPets Fish Teaser Wand Cat Toy, Color/Character Varies",
+      "OurPets Fish Teaser Wand Cat Toy",
       "VeRUS Beef, Apple, Vegetable & Green Lipped Mussel Canned Cat Food",
-      "Go! Solutions SENSITIVITIES Limited Ingredient Pollock Grain-Free Dry Cat Food, 8-lb bag",
+      "Go! Solutions SENSITIVITIES Limited Ingredient Pollock Grain-Free Dry Cat Food",
       "Purina Beyond Grain-Free Icelandic Arctic Char & Lentil Recipe Dry Cat Food"
     ],
     "ConfidenceScore": 0.0,
@@ -109,23 +103,23 @@
     "WeightScore": 0,
     "PersonalityTraits": [
       "Likes wearing clothes",
-      "Likes playing with toys",
-      "Likes certain foods"
+      "Likes toys",
+      "Likes food"
     ],
     "PersonalityScores": {
-      "Likes wearing clothes": 0.9,
-      "Likes playing with toys": 0.9,
-      "Likes certain foods": 0.9
+      "Likes wearing clothes": 0.8,
+      "Likes toys": 0.7,
+      "Likes food": 1.0
     },
     "FavoriteProductCategories": [
       "Toys",
-      "Clothes",
-      "Food"
+      "Food",
+      "Clothing"
     ],
     "CategoryScores": {
-      "Toys": 0.9,
-      "Clothes": 0.9,
-      "Food": 0.9
+      "Toys": 0.7,
+      "Food": 1.0,
+      "Clothing": 0.8
     },
     "BrandPreferences": [
       "OurPets",
@@ -135,40 +129,52 @@
     ],
     "BrandScores": {
       "OurPets": 0.9,
-      "VeRUS": 0.9,
-      "Go! Solutions": 0.9,
-      "Purina Beyond": 0.9
+      "VeRUS": 0.7,
+      "Go! Solutions": 0.7,
+      "Purina Beyond": 0.7
     },
     "DietaryPreferences": [
       "Fish",
-      "Beef, Apple, Vegetable & Green Lipped Mussel",
-      "Pollock Grain-Free",
-      "Icelandic Arctic Char & Lentil"
+      "Beef",
+      "Apple",
+      "Vegetable",
+      "Green Lipped Mussel",
+      "Pollock",
+      "Grain-Free",
+      "Icelandic Arctic Char",
+      "Lentil"
     ],
     "DietaryScores": {
       "Fish": 0.9,
-      "Beef, Apple, Vegetable & Green Lipped Mussel": 0.9,
-      "Pollock Grain-Free": 0.9,
-      "Icelandic Arctic Char & Lentil": 0.9
+      "Beef": 0.7,
+      "Apple": 0.7,
+      "Vegetable": 0.7,
+      "Green Lipped Mussel": 0.7,
+      "Pollock": 0.7,
+      "Grain-Free": 0.7,
+      "Icelandic Arctic Char": 0.7,
+      "Lentil": 0.7
     },
     "BehavioralCues": [
-      "Accepts medication easily"
+      "Accepts medication",
+      "Wears clothes"
     ],
     "BehavioralScores": {
-      "Accepts medication easily": 0.9
+      "Accepts medication": 0.8,
+      "Wears clothes": 0.8
     },
     "HealthMentions": [
       "Healthy urinary tract",
       "Dental health"
     ],
     "HealthScores": {
-      "Healthy urinary tract": 0.9,
-      "Dental health": 0.9
+      "Healthy urinary tract": 0.7,
+      "Dental health": 0.7
     },
     "MostOrderedProducts": [
-      "OurPets Fish Teaser Wand Cat Toy, Color/Character Varies",
+      "OurPets Fish Teaser Wand Cat Toy",
       "VeRUS Beef, Apple, Vegetable & Green Lipped Mussel Canned Cat Food",
-      "Go! Solutions SENSITIVITIES Limited Ingredient Pollock Grain-Free Dry Cat Food, 8-lb bag",
+      "Go! Solutions SENSITIVITIES Limited Ingredient Pollock Grain-Free Dry Cat Food",
       "Purina Beyond Grain-Free Icelandic Arctic Char & Lentil Recipe Dry Cat Food"
     ],
     "ConfidenceScore": 0.0,
@@ -190,10 +196,10 @@
     "Weight": "UNK",
     "WeightScore": 0.0,
     "PersonalityTraits": [
-      "Likes sturdy toys"
+      "UNK"
     ],
     "PersonalityScores": {
-      "Likes sturdy toys": 1.0
+      "UNK": 0.0
     },
     "FavoriteProductCategories": [
       "Cat Toys",
@@ -216,26 +222,10 @@
       "Purina Beyond": 0.5
     },
     "DietaryPreferences": [
-      "Grain-Free",
-      "Fish",
-      "Beef",
-      "Apple",
-      "Vegetable",
-      "Green Lipped Mussel",
-      "Pollock",
-      "Icelandic Arctic Char",
-      "Lentil"
+      "Grain-Free"
     ],
     "DietaryScores": {
-      "Grain-Free": 1.0,
-      "Fish": 1.0,
-      "Beef": 0.5,
-      "Apple": 0.5,
-      "Vegetable": 0.5,
-      "Green Lipped Mussel": 0.5,
-      "Pollock": 0.5,
-      "Icelandic Arctic Char": 0.5,
-      "Lentil": 0.5
+      "Grain-Free": 1.0
     },
     "BehavioralCues": [
       "UNK"
@@ -250,16 +240,16 @@
       "UNK": 0.0
     },
     "MostOrderedProducts": [
-      "OurPets Fish Teaser Wand Cat Toy",
-      "X - Weaver Equine Original Adjustable Nylon Horse Halter",
+      "OurPets Fish Teaser Wand Cat Toy, Color/Character Varies",
+      "X - Weaver Equine Original Adjustable Nylon Horse Halter, Yearling, Hunter Green",
       "K&H Pet Products Universal Waterer Deicer",
       "Conversation Concepts Chihuahua Figurine",
       "VeRUS Beef, Apple, Vegetable & Green Lipped Mussel Canned Cat Food",
-      "Go! Solutions SENSITIVITIES Limited Ingredient Pollock Grain-Free Dry Cat Food",
+      "Go! Solutions SENSITIVITIES Limited Ingredient Pollock Grain-Free Dry Cat Food, 8-lb bag",
       "Kaytee Comfort Small Animal Exercise Wheel",
-      "Necoichi Kiku Ribbon Bow Tie Cotton Breakaway Cat Collar with Bell",
+      "Necoichi Kiku Ribbon Bow Tie Cotton Breakaway Cat Collar with Bell, Red, 8.2 to 13.7-in neck, 2/5-in wide",
       "Purina Beyond Grain-Free Icelandic Arctic Char & Lentil Recipe Dry Cat Food",
-      "Silver Lining Herbs Hemp Seed-Coconut Oil Heart Care Liquid Horse Supplement"
+      "Silver Lining Herbs Hemp Seed-Coconut Oil Heart Care Liquid Horse Supplement, 1-gal"
     ],
     "ConfidenceScore": 0.0,
     "confidence_score": 0.16666666666666666,

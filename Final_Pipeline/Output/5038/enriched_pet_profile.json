@@ -16,12 +16,12 @@
     "PersonalityTraits": [
       "playful",
       "curious",
-      "food-motivated"
+      "affectionate"
     ],
     "PersonalityScores": {
       "playful": 0.8,
       "curious": 0.7,
-      "food-motivated": 0.9
+      "affectionate": 0.9
     },
     "FavoriteProductCategories": [
       "treats",
@@ -35,11 +35,11 @@
     },
     "BrandPreferences": [
       "Wellness",
-      "Dr. Lyon's"
+      "PetSafe"
     ],
     "BrandScores": {
       "Wellness": 0.9,
-      "Dr. Lyon's": 0.8
+      "PetSafe": 0.8
     },
     "DietaryPreferences": [
       "grain-free"
@@ -48,20 +48,20 @@
       "grain-free": 0.8
     },
     "BehavioralCues": [
-      "enjoys treats",
-      "loves interactive play"
+      "loves toys",
+      "enjoys treats"
     ],
     "BehavioralScores": {
-      "enjoys treats": 0.9,
-      "loves interactive play": 0.8
+      "loves toys": 0.9,
+      "enjoys treats": 0.8
     },
     "HealthMentions": [
       "healthy",
-      "growing"
+      "active"
     ],
     "HealthScores": {
       "healthy": 0.8,
-      "growing": 0.7
+      "active": 0.7
     },
     "MostOrderedProducts": [
       "Dr. Lyon's Pill Pouches Peanut Butter Flavor Dog Treats, 60 count",
@@ -89,12 +89,12 @@
     "PersonalityTraits": [
       "playful",
       "curious",
-      "food-motivated"
+      "affectionate"
     ],
     "PersonalityScores": {
       "playful": 0.8,
       "curious": 0.7,
-      "food-motivated": 0.9
+      "affectionate": 0.9
     },
     "FavoriteProductCategories": [
       "treats",
@@ -108,11 +108,11 @@
     },
     "BrandPreferences": [
       "Wellness",
-      "Dr. Lyon's"
+      "PetSafe"
     ],
     "BrandScores": {
       "Wellness": 0.9,
-      "Dr. Lyon's": 0.8
+      "PetSafe": 0.8
     },
     "DietaryPreferences": [
       "grain-free"
@@ -121,20 +121,20 @@
       "grain-free": 0.8
     },
     "BehavioralCues": [
-      "enjoys treats",
-      "loves interactive play"
+      "loves toys",
+      "enjoys treats"
     ],
     "BehavioralScores": {
-      "enjoys treats": 0.9,
-      "loves interactive play": 0.8
+      "loves toys": 0.9,
+      "enjoys treats": 0.8
     },
     "HealthMentions": [
       "healthy",
-      "growing"
+      "active"
     ],
     "HealthScores": {
       "healthy": 0.8,
-      "growing": 0.7
+      "active": 0.7
     },
     "MostOrderedProducts": [
       "Dr. Lyon's Pill Pouches Peanut Butter Flavor Dog Treats, 60 count",

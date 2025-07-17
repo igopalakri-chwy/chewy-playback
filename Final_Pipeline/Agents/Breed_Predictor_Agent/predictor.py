@@ -44,8 +44,14 @@ class BreedPredictor:
     def _load_breed_definitions(self) -> Dict:
         """Load all breed definition files."""
         breed_definitions = {}
-        breeds_dir = os.path.join(os.path.dirname(__file__), 'data', 'breeds')
         
+        # Try the new dog_breed_data directory first
+        breeds_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), 'dog_breed_data')
+        
+        if not os.path.exists(breeds_dir):
+            # Fallback to old location
+            breeds_dir = os.path.join(os.path.dirname(__file__), 'data', 'breeds')
+            
         if not os.path.exists(breeds_dir):
             raise FileNotFoundError(f"Breeds directory not found: {breeds_dir}")
             

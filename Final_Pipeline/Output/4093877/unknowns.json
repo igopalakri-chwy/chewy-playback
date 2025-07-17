@@ -1,0 +1,36 @@
+{
+  "customer_id": "4093877",
+  "unknown_attributes": {
+    "Shaomaomi (Loving Kitty)": {
+      "pet_name": "Shaomaomi (Loving Kitty)",
+      "unknown_fields": [
+        "LifeStage",
+        "Gender",
+        "SizeCategory",
+        "Weight"
+      ],
+      "unknown_scores": [
+        "LifeStageScore",
+        "GenderScore"
+      ],
+      "unknown_lists": [],
+      "unknown_dicts": []
+    },
+    "Tuxedo": {
+      "pet_name": "Tuxedo",
+      "unknown_fields": [
+        "LifeStage",
+        "SizeCategory",
+        "Weight"
+      ],
+      "unknown_scores": [
+        "LifeStageScore"
+      ],
+      "unknown_lists": [],
+      "unknown_dicts": []
+    }
+  },
+  "total_unknowns": 10,
+  "pets_with_unknowns": 2,
+  "customer_confidence_score": 0.0
+}

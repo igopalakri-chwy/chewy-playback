@@ -12,62 +12,66 @@
     "SizeCategory": "unknown",
     "SizeScore": 0.9,
     "Weight": "60-80 lbs",
-    "WeightScore": 0.6,
+    "WeightScore": 0.7,
     "PersonalityTraits": [
       "playful",
-      "curious",
-      "adventurous"
+      "active",
+      "curious"
     ],
     "PersonalityScores": {
-      "playful": 0.8,
-      "curious": 0.7,
-      "adventurous": 0.9
+      "playful": 0.7,
+      "active": 0.8,
+      "curious": 0.6
     },
     "FavoriteProductCategories": [
-      "bowls",
+      "food",
       "training",
       "safety"
     ],
     "CategoryScores": {
-      "bowls": 0.9,
-      "training": 0.8,
-      "safety": 0.7
+      "food": 0.8,
+      "training": 0.7,
+      "safety": 0.6
     },
     "BrandPreferences": [
-      "PetRageous Designs",
+      "Holistic Select",
       "Educator By E-Collar Technologies"
     ],
     "BrandScores": {
-      "PetRageous Designs": 0.9,
-      "Educator By E-Collar Technologies": 0.8
+      "Holistic Select": 0.8,
+      "Educator By E-Collar Technologies": 0.7
     },
     "DietaryPreferences": [
-      "holistic"
+      "balanced",
+      "chicken-based"
     ],
     "DietaryScores": {
-      "holistic": 0.7
+      "balanced": 0.8,
+      "chicken-based": 0.7
     },
     "BehavioralCues": [
       "requires training",
-      "enjoys water activities"
+      "enjoys outdoor activities"
     ],
     "BehavioralScores": {
       "requires training": 0.8,
-      "enjoys water activities": 0.9
+      "enjoys outdoor activities": 0.7
     },
     "HealthMentions": [
-      "healthy"
+      "healthy",
+      "active"
     ],
     "HealthScores": {
-      "healthy": 0.8
+      "healthy": 0.8,
+      "active": 0.7
     },
     "MostOrderedProducts": [
       "PetRageous Designs Batik Bones Pet Bowl, Sand, 7\", 5.5-cups",
       "Paw Pods Heart Shape Dog & Cat Urn",
-      "Soft Claws Nail Caps for Cats, 40 Count, Small, Red"
+      "Educator By E-Collar Technologies Educator Dog Training Collar Dual Charger"
     ],
     "ConfidenceScore": 0.5,
-    "confidence_score": 0.85,
+    "confidence_score": 0.8666666666666667,
     "name": "Francis"
   },
   "Moe": {
@@ -83,63 +87,67 @@
     "SizeCategory": "extra small",
     "SizeScore": 0.9,
     "Weight": "60-80 lbs",
-    "WeightScore": 0.6,
+    "WeightScore": 0.7,
     "PersonalityTraits": [
       "playful",
-      "curious",
-      "adventurous"
+      "active",
+      "curious"
     ],
     "PersonalityScores": {
-      "playful": 0.8,
-      "curious": 0.7,
-      "adventurous": 0.9
+      "playful": 0.7,
+      "active": 0.8,
+      "curious": 0.6
     },
     "FavoriteProductCategories": [
-      "bowls",
+      "food",
       "training",
       "safety"
     ],
     "CategoryScores": {
-      "bowls": 0.9,
-      "training": 0.8,
-      "safety": 0.7
+      "food": 0.8,
+      "training": 0.7,
+      "safety": 0.6
     },
     "BrandPreferences": [
-      "PetRageous Designs",
+      "Holistic Select",
       "Educator By E-Collar Technologies"
     ],
     "BrandScores": {
-      "PetRageous Designs": 0.9,
-      "Educator By E-Collar Technologies": 0.8
+      "Holistic Select": 0.8,
+      "Educator By E-Collar Technologies": 0.7
     },
     "DietaryPreferences": [
-      "holistic"
+      "balanced",
+      "chicken-based"
     ],
     "DietaryScores": {
-      "holistic": 0.7
+      "balanced": 0.8,
+      "chicken-based": 0.7
     },
     "BehavioralCues": [
       "requires training",
-      "enjoys water activities"
+      "enjoys outdoor activities"
     ],
     "BehavioralScores": {
       "requires training": 0.8,
-      "enjoys water activities": 0.9
+      "enjoys outdoor activities": 0.7
     },
     "HealthMentions": [
-      "healthy"
+      "healthy",
+      "active"
     ],
     "HealthScores": {
-      "healthy": 0.8
+      "healthy": 0.8,
+      "active": 0.7
     },
     "MostOrderedProducts": [
       "PetRageous Designs Batik Bones Pet Bowl, Sand, 7\", 5.5-cups",
       "Paw Pods Heart Shape Dog & Cat Urn",
-      "Soft Claws Nail Caps for Cats, 40 Count, Small, Red"
+      "Educator By E-Collar Technologies Educator Dog Training Collar Dual Charger"
     ],
     "ConfidenceScore": 0.5,
-    "confidence_score": 0.85,
+    "confidence_score": 0.8666666666666667,
     "name": "Moe"
   },
-  "cust_confidence_score": 0.85
+  "cust_confidence_score": 0.8666666666666667
 }

@@ -1,10 +1,10 @@
 {
   "badge": "The Explorer",
   "compatible_with": [
-    "The Athlete",
     "The Trickster",
+    "The Athlete",
     "The Cuddler"
   ],
   "icon_png": "the_explorer.png",
-  "description": "This household is a lively mix of curiosity and playfulness, with two Boxer dogs always ready for their next adventure."
+  "description": "This household is full of playful curiosity and joyful exploration, led by two energetic Boxers, Denali and Gunner."
 }
