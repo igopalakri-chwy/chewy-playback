@@ -275,14 +275,192 @@ document.addEventListener('DOMContentLoaded', function() {
             50% { transform: translateY(-10px); }
         }
 
-        .pet-avatar {
+                .pet-avatar {
             animation: avatarBounce 2s ease-in-out infinite;
             animation-delay: calc(var(--avatar-index, 0) * 0.2s);
         }
-
+        
         @keyframes avatarBounce {
-            0%, 100% { transform: translateY(0px); }
-            50% { transform: translateY(-5px); }
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            25% { transform: translateY(-8px) rotate(2deg); }
+            50% { transform: translateY(-12px) rotate(0deg); }
+            75% { transform: translateY(-8px) rotate(-2deg); }
+        }
+
+        .pet-avatar i {
+            animation: pawWiggle 3s ease-in-out infinite;
+            animation-delay: calc(var(--avatar-index, 0) * 0.3s);
+        }
+
+        @keyframes pawWiggle {
+            0%, 100% { transform: rotate(0deg) scale(1); }
+            25% { transform: rotate(5deg) scale(1.1); }
+            50% { transform: rotate(0deg) scale(1.05); }
+            75% { transform: rotate(-5deg) scale(1.1); }
+        }
+
+        .logo-icon {
+            animation: pawBounce 4s ease-in-out infinite;
+        }
+
+        @keyframes pawBounce {
+            0%, 100% { transform: scale(1) rotate(0deg); }
+            25% { transform: scale(1.1) rotate(5deg); }
+            50% { transform: scale(1.05) rotate(0deg); }
+            75% { transform: scale(1.1) rotate(-5deg); }
+        }
+
+        .floating-paw {
+            animation: pawFloat 8s ease-in-out infinite;
+        }
+
+        @keyframes pawFloat {
+            0%, 100% { 
+                transform: translateY(0px) rotate(0deg) scale(1); 
+                opacity: 0.3;
+            }
+            25% { 
+                transform: translateY(-20px) rotate(10deg) scale(1.2); 
+                opacity: 0.6;
+            }
+            50% { 
+                transform: translateY(-30px) rotate(0deg) scale(1.1); 
+                opacity: 0.4;
+            }
+            75% { 
+                transform: translateY(-20px) rotate(-10deg) scale(1.2); 
+                opacity: 0.6;
+            }
+        }
+
+        .slide-title i {
+            animation: iconSparkle 2s ease-in-out infinite;
+        }
+
+        @keyframes iconSparkle {
+            0%, 100% { 
+                transform: scale(1) rotate(0deg); 
+                filter: drop-shadow(0 2px 4px rgba(255, 107, 157, 0.3));
+            }
+            50% { 
+                transform: scale(1.2) rotate(10deg); 
+                filter: drop-shadow(0 4px 8px rgba(255, 107, 157, 0.5));
+            }
+        }
+
+        .badge-title {
+            animation: titleGlow 3s ease-in-out infinite;
+        }
+
+        @keyframes titleGlow {
+            0%, 100% { 
+                background: linear-gradient(135deg, #1e3c72, #4a90e2);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+            50% { 
+                background: linear-gradient(135deg, #4a90e2, #ff6b9d);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+        }
+
+        .letter-text {
+            animation: letterReveal 1.2s ease-out;
+        }
+
+        @keyframes letterReveal {
+            from {
+                opacity: 0;
+                transform: translateY(30px) scale(0.95);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0) scale(1);
+            }
+        }
+
+        .letter-text::before {
+            animation: paperLines 10s ease-in-out infinite;
+        }
+
+        @keyframes paperLines {
+            0%, 100% { opacity: 0.3; }
+            50% { opacity: 0.6; }
+        }
+
+        .portrait-image {
+            animation: portraitGlow 4s ease-in-out infinite;
+        }
+
+        @keyframes portraitGlow {
+            0%, 100% { 
+                box-shadow: 
+                    0 10px 25px rgba(0, 0, 0, 0.15),
+                    0 0 0 2px rgba(255, 255, 255, 0.1);
+            }
+            50% { 
+                box-shadow: 
+                    0 15px 35px rgba(74, 144, 226, 0.3),
+                    0 0 0 4px rgba(255, 255, 255, 0.2);
+            }
+        }
+
+        .nav-dot {
+            animation: dotPulse 2s ease-in-out infinite;
+            animation-delay: calc(var(--dot-index, 0) * 0.3s);
+        }
+
+        @keyframes dotPulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+
+        .submit-btn, .start-btn {
+            animation: buttonGlow 3s ease-in-out infinite;
+        }
+
+        @keyframes buttonGlow {
+            0%, 100% { 
+                box-shadow: 
+                    0 8px 25px rgba(74, 144, 226, 0.4),
+                    0 0 0 1px rgba(255, 255, 255, 0.1);
+            }
+            50% { 
+                box-shadow: 
+                    0 12px 35px rgba(74, 144, 226, 0.6),
+                    0 0 0 2px rgba(255, 255, 255, 0.2);
+            }
+        }
+
+        .badge-display {
+            animation: badgeReveal 1.2s ease-out;
+        }
+
+        @keyframes badgeReveal {
+            from {
+                opacity: 0;
+                transform: scale(0.8) rotate(-10deg);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1) rotate(0deg);
+            }
+        }
+
+        .portrait-display {
+            animation: portraitReveal 1.5s ease-out;
+        }
+
+        @keyframes portraitReveal {
+            from {
+                opacity: 0;
+                transform: scale(0.9) translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1) translateY(0);
+            }
         }
 
         .badge-image-container {

@@ -19,6 +19,13 @@
         <!-- Slide 0: Welcome -->
         <div class="slide active" id="slide-0">
             <div class="slide-content welcome-slide">
+                <!-- Floating pet elements for welcome slide -->
+                <div class="slide-pet-elements">
+                    <div class="slide-paw sp-1"><i class="fas fa-paw"></i></div>
+                    <div class="slide-paw sp-2"><i class="fas fa-heart"></i></div>
+                    <div class="slide-paw sp-3"><i class="fas fa-star"></i></div>
+                </div>
+                
                 <div class="welcome-header">
                     <i class="fas fa-heart welcome-icon"></i>
                     <h1 class="welcome-title">Your Pet's Story</h1>
@@ -66,7 +73,7 @@
                     {% if customer_data.letter %}
                         <div class="letter-content">
                             <div class="letter-text">
-                                {{ customer_data.letter | striptags | replace('\n\n', '\n') | replace('\n', '\n\n') | safe }}
+                                {{ customer_data.letter | striptags | replace('Collective Letter from All Pets for Customer ' + customer_id, '') | replace('============================================================', '') | replace('=', '') | replace('\n\n\n', '\n\n') | replace('\n\n', '\n') | replace('\n', '\n\n') | trim | safe }}
                             </div>
                         </div>
                     {% else %}

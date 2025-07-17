@@ -26,7 +26,7 @@ body::before {
     height: 100%;
     background: 
         radial-gradient(circle at 20% 80%, rgba(120, 119, 198, 0.3) 0%, transparent 50%),
-        radial-gradient(circle at 80% 20%, rgba(255, 119, 198, 0.3) 0%, transparent 50%),
+        radial-gradient(circle at 80% 20%, rgba(74, 144, 226, 0.3) 0%, transparent 50%),
         radial-gradient(circle at 40% 40%, rgba(120, 219, 255, 0.2) 0%, transparent 50%);
     animation: backgroundShift 20s ease-in-out infinite;
     z-index: -1;
@@ -238,13 +238,18 @@ body::before {
 }
 
 .input-title {
-    font-size: 26px;
+    font-size: 28px;
     font-weight: 700;
     color: #1e3c72;
     text-align: center;
     margin-bottom: 8px;
     position: relative;
     z-index: 1;
+    padding: 10px 15px;
+    border-radius: 15px;
+    background: rgba(74, 144, 226, 0.1);
+    border: 1px solid rgba(74, 144, 226, 0.2);
+    box-shadow: 0 4px 12px rgba(74, 144, 226, 0.1);
 }
 
 .input-description {
@@ -427,6 +432,30 @@ body::before {
     color: rgba(255, 255, 255, 0.15);
 }
 
+.paw-4 {
+    top: 40%;
+    right: 25%;
+    animation-delay: 1s;
+    color: rgba(255, 107, 157, 0.2);
+    font-size: 20px;
+}
+
+.paw-5 {
+    bottom: 40%;
+    right: 10%;
+    animation-delay: 4s;
+    color: rgba(255, 215, 0, 0.2);
+    font-size: 18px;
+}
+
+.paw-6 {
+    top: 70%;
+    left: 5%;
+    animation-delay: 7s;
+    color: rgba(255, 255, 255, 0.1);
+    font-size: 22px;
+}
+
 @keyframes float {
     0%, 100% { transform: translateY(0px) rotate(0deg) scale(1); }
     25% { transform: translateY(-15px) rotate(5deg) scale(1.1); }
@@ -520,6 +549,63 @@ body::before {
     background: linear-gradient(135deg, #4a90e2 0%, #357abd 25%, #2a5298 50%, #1e3c72 100%);
 }
 
+.slide-pet-elements {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.slide-paw {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.2);
+    font-size: 20px;
+    animation: slidePawFloat 6s ease-in-out infinite;
+}
+
+.sp-1 {
+    top: 20%;
+    left: 15%;
+    animation-delay: 0s;
+    color: rgba(255, 255, 255, 0.25);
+}
+
+.sp-2 {
+    top: 60%;
+    right: 20%;
+    animation-delay: 2s;
+    color: rgba(255, 107, 157, 0.3);
+}
+
+.sp-3 {
+    bottom: 30%;
+    left: 25%;
+    animation-delay: 4s;
+    color: rgba(255, 215, 0, 0.25);
+}
+
+@keyframes slidePawFloat {
+    0%, 100% { 
+        transform: translateY(0px) rotate(0deg) scale(1); 
+        opacity: 0.3;
+    }
+    25% { 
+        transform: translateY(-15px) rotate(8deg) scale(1.1); 
+        opacity: 0.6;
+    }
+    50% { 
+        transform: translateY(-25px) rotate(0deg) scale(1.05); 
+        opacity: 0.4;
+    }
+    75% { 
+        transform: translateY(-15px) rotate(-8deg) scale(1.1); 
+        opacity: 0.6;
+    }
+}
+
 .welcome-slide::before {
     content: '';
     position: absolute;
@@ -541,10 +627,10 @@ body::before {
 
 .welcome-icon {
     font-size: 56px;
-    color: #ff6b9d;
+    color: #4a90e2;
     margin-bottom: 20px;
     animation: heartBeat 2s ease-in-out infinite;
-    filter: drop-shadow(0 4px 8px rgba(255, 107, 157, 0.3));
+    filter: drop-shadow(0 4px 8px rgba(74, 144, 226, 0.3));
 }
 
 @keyframes heartBeat {
@@ -556,15 +642,19 @@ body::before {
 
 .welcome-title {
     font-family: 'Fredoka', sans-serif;
-    font-size: 32px;
+    font-size: 36px;
     font-weight: 700;
     color: white;
     margin-bottom: 8px;
+    text-align: center;
     text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
-    background: linear-gradient(135deg, #ffffff, #e3f2fd);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    position: relative;
+    padding: 15px 25px;
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
 }
 
 .welcome-subtitle {
@@ -677,24 +767,28 @@ body::before {
 }
 
 .slide-title {
-    font-size: 28px;
+    font-size: 32px;
     font-weight: 700;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 15px;
+    text-align: center;
     text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
-    background: linear-gradient(135deg, #ffffff, #e3f2fd);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    position: relative;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
 
 .slide-title i {
-    color: #ff6b9d;
+    color: #4a90e2;
     font-size: 32px;
-    filter: drop-shadow(0 2px 4px rgba(255, 107, 157, 0.3));
+    filter: drop-shadow(0 2px 4px rgba(74, 144, 226, 0.3));
 }
 
 .letter-container {
@@ -1084,9 +1178,9 @@ body::before {
 
 .error-icon {
     font-size: 72px;
-    color: #ff6b9d;
+    color: #4a90e2;
     margin-bottom: 20px;
-    filter: drop-shadow(0 4px 8px rgba(255, 107, 157, 0.3));
+    filter: drop-shadow(0 4px 8px rgba(74, 144, 226, 0.3));
 }
 
 .error-title {
