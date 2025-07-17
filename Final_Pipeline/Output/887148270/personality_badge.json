@@ -1,10 +1,10 @@
 {
-  "badge": "The Guardian",
+  "badge": "The Cuddler",
   "compatible_with": [
-    "The Cuddler",
+    "The Explorer",
     "The Daydreamer",
-    "The Explorer"
+    "The Guardian"
   ],
-  "icon_png": "the_guardian.png",
-  "description": "This fur-family is protective and loyal, always keeping a watchful eye on their loved ones and their favorite toys."
+  "icon_png": "the_cuddler.png",
+  "description": "A loving household of furry companions, who enjoy playful games and cozy naps in their peaceful home."
 }

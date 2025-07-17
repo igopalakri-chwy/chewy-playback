@@ -29,7 +29,7 @@
       "Dog Food": 0.9,
       "Dog Treats": 0.8,
       "Dog Toys": 0.7,
-      "Dog Hygiene": 0.7
+      "Dog Hygiene": 0.6
     },
     "BrandPreferences": [
       "Blue Buffalo",
@@ -42,12 +42,12 @@
     ],
     "BrandScores": {
       "Blue Buffalo": 0.9,
-      "Farmland Traditions": 0.7,
+      "Farmland Traditions": 0.8,
       "Chuckit!": 0.7,
-      "OraVet": 0.7,
-      "LESOTC": 0.6,
-      "Frisco": 0.6,
-      "Natural Dog Company": 0.6
+      "OraVet": 0.6,
+      "LESOTC": 0.5,
+      "Frisco": 0.4,
+      "Natural Dog Company": 0.3
     },
     "DietaryPreferences": [
       "Chicken",
@@ -64,10 +64,10 @@
       "UNK": 0.0
     },
     "HealthMentions": [
-      "Dental Hygiene"
+      "UNK"
     ],
     "HealthScores": {
-      "Dental Hygiene": 0.7
+      "UNK": 0.0
     },
     "MostOrderedProducts": [
       "Blue Buffalo Life Protection Formula Adult Chicken & Brown Rice Recipe Dry Dog Food, 34-lb bag",
@@ -106,10 +106,10 @@
       "Dog Hygiene"
     ],
     "CategoryScores": {
-      "Dog Food": 0.9,
-      "Dog Treats": 0.8,
-      "Dog Toys": 0.7,
-      "Dog Hygiene": 0.7
+      "Dog Food": 1.0,
+      "Dog Treats": 1.0,
+      "Dog Toys": 0.9,
+      "Dog Hygiene": 0.8
     },
     "BrandPreferences": [
       "Blue Buffalo",
@@ -121,21 +121,21 @@
       "Natural Dog Company"
     ],
     "BrandScores": {
-      "Blue Buffalo": 0.9,
-      "Farmland Traditions": 0.8,
-      "Chuckit!": 0.7,
-      "OraVet": 0.7,
-      "LESOTC": 0.6,
-      "Frisco": 0.6,
-      "Natural Dog Company": 0.6
+      "Blue Buffalo": 1.0,
+      "Farmland Traditions": 0.9,
+      "Chuckit!": 0.9,
+      "OraVet": 0.8,
+      "LESOTC": 0.8,
+      "Frisco": 0.8,
+      "Natural Dog Company": 0.7
     },
     "DietaryPreferences": [
       "Chicken",
       "Grain-Free"
     ],
     "DietaryScores": {
-      "Chicken": 0.9,
-      "Grain-Free": 0.8
+      "Chicken": 1.0,
+      "Grain-Free": 1.0
     },
     "BehavioralCues": [
       "UNK"
@@ -152,7 +152,9 @@
     "MostOrderedProducts": [
       "Blue Buffalo Life Protection Formula Adult Chicken & Brown Rice Recipe Dry Dog Food, 34-lb bag",
       "Blue Buffalo Wilderness Trail Treats Chicken Wild Bits Grain-Free Training Dog Treats, 10-oz bag",
-      "Farmland Traditions USA Dogs Love Chicken Grain-Free Jerky Strips Dog Treats, 3-lb bag"
+      "Farmland Traditions USA Dogs Love Chicken Grain-Free Jerky Strips Dog Treats, 3-lb bag",
+      "Blue Buffalo Life Protection Formula Adult Chicken & Brown Rice Recipe Dry Dog Food, 5-lb bag",
+      "Chuckit! Ultra Rubber Ball Tough Dog Toy, Medium, 2 pack"
     ],
     "confidence_score": 0.9833333333333334,
     "name": "Theo"
@@ -187,7 +189,7 @@
       "Dog Food": 0.9,
       "Dog Treats": 0.8,
       "Dog Toys": 0.7,
-      "Dog Hygiene": 0.7
+      "Dog Hygiene": 0.6
     },
     "BrandPreferences": [
       "Blue Buffalo",
@@ -200,12 +202,12 @@
     ],
     "BrandScores": {
       "Blue Buffalo": 0.9,
-      "Farmland Traditions": 0.7,
+      "Farmland Traditions": 0.8,
       "Chuckit!": 0.7,
-      "OraVet": 0.7,
-      "LESOTC": 0.6,
-      "Frisco": 0.6,
-      "Natural Dog Company": 0.6
+      "OraVet": 0.6,
+      "LESOTC": 0.5,
+      "Frisco": 0.5,
+      "Natural Dog Company": 0.5
     },
     "DietaryPreferences": [
       "Chicken",
@@ -264,10 +266,10 @@
       "Cat Treats"
     ],
     "CategoryScores": {
-      "Cat Litter": 0.9,
-      "Cat Food": 0.8,
-      "Flea Treatment": 0.7,
-      "Cat Treats": 0.6
+      "Cat Litter": 1.0,
+      "Cat Food": 0.9,
+      "Flea Treatment": 0.8,
+      "Cat Treats": 0.7
     },
     "BrandPreferences": [
       "Scoop Away",
@@ -276,18 +278,18 @@
       "Hartz"
     ],
     "BrandScores": {
-      "Scoop Away": 0.9,
-      "Iams": 0.8,
-      "Advantage II": 0.7,
-      "Hartz": 0.6
+      "Scoop Away": 1.0,
+      "Iams": 0.9,
+      "Advantage II": 0.8,
+      "Hartz": 0.7
     },
     "DietaryPreferences": [
       "Chicken & Salmon Dry Cat Food",
       "Lickable Cat Treats"
     ],
     "DietaryScores": {
-      "Chicken & Salmon Dry Cat Food": 0.8,
-      "Lickable Cat Treats": 0.6
+      "Chicken & Salmon Dry Cat Food": 0.9,
+      "Lickable Cat Treats": 0.7
     },
     "BehavioralCues": [
       "UNK"
@@ -300,8 +302,8 @@
       "Flea Treatment"
     ],
     "HealthScores": {
-      "Hairball Care": 0.8,
-      "Flea Treatment": 0.7
+      "Hairball Care": 0.9,
+      "Flea Treatment": 0.8
     },
     "MostOrderedProducts": [
       "Scoop Away Complete Performance Fresh Scented Clumping Clay Cat Litter",
