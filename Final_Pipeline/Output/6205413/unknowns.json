@@ -1,78 +1,26 @@
 {
   "customer_id": "6205413",
   "unknown_attributes": {
-    "Cocoabean": {
-      "pet_name": "Cocoabean",
-      "unknown_fields": [
-        "SizeCategory",
-        "Weight"
-      ],
-      "unknown_scores": [],
-      "unknown_lists": [],
-      "unknown_dicts": []
-    },
-    "Primal": {
-      "pet_name": "Primal",
-      "unknown_fields": [
-        "SizeCategory",
-        "Weight"
-      ],
-      "unknown_scores": [],
-      "unknown_lists": [],
-      "unknown_dicts": []
-    },
-    "Savory": {
-      "pet_name": "Savory",
-      "unknown_fields": [
-        "SizeCategory",
-        "Weight"
-      ],
-      "unknown_scores": [],
-      "unknown_lists": [],
-      "unknown_dicts": []
-    },
-    "Fancy": {
-      "pet_name": "Fancy",
-      "unknown_fields": [
-        "SizeCategory",
-        "Weight"
-      ],
-      "unknown_scores": [],
-      "unknown_lists": [],
-      "unknown_dicts": []
-    },
     "Luna": {
       "pet_name": "Luna",
       "unknown_fields": [
-        "SizeCategory",
-        "Weight"
+        "SizeCategory"
       ],
       "unknown_scores": [],
       "unknown_lists": [],
       "unknown_dicts": []
     },
-    "Purrfect": {
-      "pet_name": "Purrfect",
+    "Cocoabean": {
+      "pet_name": "Cocoabean",
       "unknown_fields": [
-        "SizeCategory",
-        "Weight"
-      ],
-      "unknown_scores": [],
-      "unknown_lists": [],
-      "unknown_dicts": []
-    },
-    "Beyond": {
-      "pet_name": "Beyond",
-      "unknown_fields": [
-        "SizeCategory",
-        "Weight"
+        "SizeCategory"
       ],
       "unknown_scores": [],
       "unknown_lists": [],
       "unknown_dicts": []
     }
   },
-  "total_unknowns": 14,
-  "pets_with_unknowns": 7,
+  "total_unknowns": 2,
+  "pets_with_unknowns": 2,
   "customer_confidence_score": 0.0
 }

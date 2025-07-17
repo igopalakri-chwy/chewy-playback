@@ -195,6 +195,7 @@ class PetLetterLLMSystem:
         """
         Generate a JSON object containing a playful letter and visual prompt.
         Uses LLM reasoning to interpret either review data or order history and pet profiles.
+        ZIP aesthetics are only used to influence the style, background, and tone, but are never directly mentioned in the letter text.
         """
         # Extract data
         sample_pet_data, sample_review_data, sample_order_data, data_type = self.extract_data(pet_data, secondary_data)
@@ -224,14 +225,14 @@ class PetLetterLLMSystem:
         prompt = f"""You are an LLM that writes a JSON object containing:
 
 1. A playful, personality-rich letter from the customer's pets.
-2. A visual prompt describing an AI-generated, Chewy-branded artwork.
+2. A visual prompt describing an AI-generated, Chewy-branded artwork with EXACTLY the number of pets specified.
 3. Individual personality analysis for each pet including badges and descriptive words.
 
 You are given:
 - `sample_pet_data`: A list of pet dictionaries. Each has:
   - `name`: e.g., "Turbo", "unknown"
   - `type`: e.g., "cat", "dog"
-  - optional `breed`, `traits`, `age`, `size`, or color-based traits
+  - optional `breed`, `traits`, `age`, `size`, `weight`, or color-based traits
 
 - `sample_review_data` (if available): A list of product reviews. Each includes:
   - `product_name`
@@ -267,18 +268,21 @@ STEP 1 — INTERPRET DATA AND PET PROFILES:
 
 STEP 2 — GENERATE THE LETTER:
 - Write a single letter from the perspective of the pets.
-- If any pet is named `"unknown"`, sign the letter as: `"From: The {{number}} pets"`.
-- - Otherwise, sign off with the actual pet names from `sample_pet_data` (comma-separated with "and").
+- If any pet is named `"unknown"`, sign the letter as: `"From: The pets"`.
+- Otherwise, sign off with the actual pet names from `sample_pet_data` (comma-separated with "and").
 - The letter should:
   - Mention the **positively reviewed** products (if review data available) or **frequently ordered** products (if order data available) using the LLM-generated natural description.
   - Express joy and personality using pet-like expressions (e.g., "zoomies of joy!", "snuggle squad reporting in!").
   - Avoid assigning products to specific pets unless the data clearly names a pet.
   - Reflect personality if traits are available.
-  - **Incorporate regional tones and style** from `zip_aesthetics` if available (e.g., sophisticated, energetic, premium, authentic, refined).
+  - **Incorporate only the tones and style cues** from `zip_aesthetics` to influence the mood and feel of the letter, but **do NOT directly mention any region, ZIP code, city, or style name** in the letter text.
   - Avoid marketing language or sounding like an ad.
 
 STEP 3 — GENERATE THE VISUAL PROMPT:
+- **FIRST: Count the exact number of pets in sample_pet_data. The image must contain exactly this number of pets, no more, no less.**
 - Describe a sophisticated artistic pet portrait scene featuring the pets as the main subjects.
+- **CRITICAL: The number of pets in the image MUST EXACTLY MATCH the number of pets in sample_pet_data. Do NOT add random pets or change the pet count.**
+- **ABSOLUTELY NO EXTRA PETS: The image must contain exactly and only the pets listed in sample_pet_data. Do not add any additional pets, background pets, or implied pets.**
 - **Pets should be the clear focus** - describe their appearance, poses, and expressions prominently with joyful energy.
 - **ZIP aesthetics influence the background and style**, not the main pet focus:
   - Use the `visual_style` to describe background elements and setting
@@ -288,8 +292,11 @@ STEP 3 — GENERATE THE VISUAL PROMPT:
 - Include the positively reviewed products (if review data available) or frequently ordered products (if order data available), described naturally as props or accessories.
 - If any pet is `"unknown"`:
   - Include a **generic** version of its `type` (e.g., "a generic domestic cat").
-- If a pet has known physical traits (breed, size, age, color):
-  - Include those in the visual description.
+- If a pet has known physical traits (breed, size, age, weight, color):
+  - Include those in the visual description to provide more context and personality.
+  - For weight: Use terms like "small", "medium", "large", "chunky", "slim" based on the weight value.
+  - For age/life stage: Use terms like "puppy", "kitten", "young", "adult", "senior" based on the age value.
+  - Handle NULL/UNK values gracefully - only mention traits that have actual values.
 - Do NOT make up any physical characteristics that are not explicitly given.
 - Include **Chewy branding subtly** — e.g., on a toy bin, food bowl, scarf label, or poster in the background.
 - The scene should be sophisticated, artistic, wholesome, warm, and inviting with joyous energy, suitable for a refined artistic pet portrait that customers would love to receive.
@@ -338,6 +345,7 @@ CRITICAL REQUIREMENTS:
 3. Assign ONE badge for the entire household based on collective personality
 4. Use lowercase badge names for icon_png (e.g., "the_explorer.png", "the_diva.png")
 5. Ensure all JSON syntax is valid (proper quotes, commas, brackets)
+6. **Do NOT mention any region, ZIP code, city, or style name directly in the letter. Only use the tones and style cues to influence the mood and feel.**
 
 === INPUT DATA ===
 {context}
@@ -390,7 +398,7 @@ Generate the JSON object:"""
         """Prepare context for LLM generation with review data."""
         context_parts = []
         
-        # Pet data
+        # Pet data with enhanced information
         context_parts.append("SAMPLE_PET_DATA:")
         for pet in sample_pet_data:
             context_parts.append(f"- name: {pet.get('name', 'Unknown')}")
@@ -403,6 +411,8 @@ Generate the JSON object:"""
                 context_parts.append(f"  size: {pet.get('size', pet.get('SizeCategory'))}")
             if pet.get('age', pet.get('LifeStage')):
                 context_parts.append(f"  age: {pet.get('age', pet.get('LifeStage'))}")
+            if pet.get('weight', pet.get('Weight')):
+                context_parts.append(f"  weight: {pet.get('weight', pet.get('Weight'))}")
             if pet.get('color', pet.get('Color')):
                 context_parts.append(f"  color: {pet.get('color', pet.get('Color'))}")
         
@@ -430,7 +440,7 @@ Generate the JSON object:"""
         """Prepare context for LLM generation with order data."""
         context_parts = []
         
-        # Pet data
+        # Pet data with enhanced information
         context_parts.append("SAMPLE_PET_DATA:")
         for pet in sample_pet_data:
             context_parts.append(f"- name: {pet.get('name', 'Unknown')}")
@@ -443,6 +453,8 @@ Generate the JSON object:"""
                 context_parts.append(f"  size: {pet.get('size', pet.get('SizeCategory'))}")
             if pet.get('age', pet.get('LifeStage')):
                 context_parts.append(f"  age: {pet.get('age', pet.get('LifeStage'))}")
+            if pet.get('weight', pet.get('Weight')):
+                context_parts.append(f"  weight: {pet.get('weight', pet.get('Weight'))}")
             if pet.get('color', pet.get('Color')):
                 context_parts.append(f"  color: {pet.get('color', pet.get('Color'))}")
         
@@ -698,22 +710,60 @@ With all our love and zoomies,
 
 P.S. Can we have an extra treat for being such good pets? Pretty please with a paw on top!"""
         
-        # Generate visual prompt
+        # Generate visual prompt with enhanced pet information
         pet_descriptions = []
         for pet in sample_pet_data:
             name = pet.get('name', 'Unknown')
             pet_type = pet.get('type', pet.get('PetType', 'Unknown')).lower()
             
+            # Build enhanced description with available traits
+            description_parts = []
+            
             if name.lower() == 'unknown':
-                pet_descriptions.append(f"a generic domestic {pet_type}")
+                description_parts.append(f"a generic domestic {pet_type}")
             else:
+                # Add breed if available and not unknown
                 breed = pet.get('breed', pet.get('Breed'))
                 if breed and breed.lower() not in ['unknown', 'unk']:
-                    pet_descriptions.append(f"a {breed} {pet_type}")
+                    description_parts.append(f"a {breed} {pet_type}")
                 else:
-                    pet_descriptions.append(f"a domestic {pet_type}")
+                    description_parts.append(f"a domestic {pet_type}")
+                
+                # Add size if available and not unknown
+                size = pet.get('size', pet.get('SizeCategory'))
+                if size and size.lower() not in ['unknown', 'unk']:
+                    description_parts.append(f"{size.lower()}")
+                
+                # Add age/life stage if available and not unknown
+                age = pet.get('age', pet.get('LifeStage'))
+                if age and age.lower() not in ['unknown', 'unk']:
+                    if age.lower() in ['p', 'puppy', 'kitten']:
+                        description_parts.append("young")
+                    elif age.lower() in ['s', 'senior']:
+                        description_parts.append("senior")
+                    elif age.lower() in ['a', 'adult']:
+                        description_parts.append("adult")
+                
+                # Add weight if available and not unknown
+                weight = pet.get('weight', pet.get('Weight'))
+                if weight and weight.lower() not in ['unknown', 'unk']:
+                    try:
+                        weight_num = float(weight)
+                        if weight_num < 10:
+                            description_parts.append("small")
+                        elif weight_num < 50:
+                            description_parts.append("medium-sized")
+                        else:
+                            description_parts.append("large")
+                    except (ValueError, TypeError):
+                        pass
+            
+            # Join all parts to create the description
+            pet_descriptions.append(' '.join(description_parts))
         
-        visual_prompt = f"""In a cozy, whimsical living room, {', '.join(pet_descriptions)} are enjoying their time together. The scene is filled with warm lighting and comfortable furniture. Chewy branding is subtly visible on a toy bin in the corner and a food bowl on the floor. The pets are surrounded by various beloved pet items including toys, food, and cozy accessories, creating a joyful and content atmosphere. The overall style is warm, colorful, and full of pet-loving charm."""
+        # Ensure we have exactly the right number of pets
+        pet_count = len(sample_pet_data)
+        visual_prompt = f"""In a cozy, whimsical living room, {', '.join(pet_descriptions)} are enjoying their time together. The scene features EXACTLY {pet_count} pets as the main focus - no more, no less. The scene is filled with warm lighting and comfortable furniture. Chewy branding is subtly visible on a toy bin in the corner and a food bowl on the floor. The pets are surrounded by various beloved pet items including toys, food, and cozy accessories, creating a joyful and content atmosphere. The overall style is warm, colorful, and full of pet-loving charm."""
         
         # Per-pet badge assignment using LLM
         pets_output = []

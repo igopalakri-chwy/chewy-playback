@@ -1,10 +1,10 @@
 {
-  "badge": "The Explorer",
+  "badge": "The Nurturer",
   "compatible_with": [
     "The Cuddler",
-    "The Scholar",
-    "The Guardian"
+    "The Guardian",
+    "The Diva"
   ],
-  "icon_png": "the_explorer.png",
-  "description": "A household of curious and adventurous pets, always ready to explore and try out new treats and toys."
+  "icon_png": "the_nurturer.png",
+  "description": "This household is full of caring and comforting vibes, with pets who show love and care for each other and their hooman."
 }
