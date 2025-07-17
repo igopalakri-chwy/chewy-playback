@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 
-{% block title %}Welcome - Chewy Pet Experience{% endblock %}
+{% block title %}Welcome - Chewy Playback{% endblock %}
 
 {% block content %}
 <div class="landing-container">
@@ -10,7 +10,7 @@
             <div class="logo-container">
                 <i class="fas fa-paw logo-icon"></i>
             </div>
-            <h1 class="brand-title">Chewy Wrapped</h1>
+            <h1 class="brand-title">Chewy Playback</h1>
             <p class="brand-subtitle">Your Pet's Year in Review</p>
         </div>
         
@@ -43,19 +43,25 @@
                 </form>
                 
                 <div class="demo-note">
-                    <p><i class="fas fa-info-circle"></i> Try customer ID: 1154095</p>
+                    <p><a href="/customers" class="view-all-link"><i class="fas fa-list"></i> View All Customers</a></p>
                 </div>
             </div>
         </div>
         
+
+        
         <!-- Decorative Elements -->
         <div class="decorative-elements">
             <div class="floating-paw paw-1"><i class="fas fa-paw"></i></div>
-            <div class="floating-paw paw-2"><i class="fas fa-paw"></i></div>
-            <div class="floating-paw paw-3"><i class="fas fa-paw"></i></div>
-            <div class="floating-paw paw-4"><i class="fas fa-heart"></i></div>
-            <div class="floating-paw paw-5"><i class="fas fa-star"></i></div>
-            <div class="floating-paw paw-6"><i class="fas fa-paw"></i></div>
+            <div class="floating-paw paw-2"><i class="fas fa-heart"></i></div>
+            <div class="floating-paw paw-3"><i class="fas fa-star"></i></div>
+            <div class="floating-paw paw-4"><i class="fas fa-paw"></i></div>
+            <div class="floating-paw paw-5"><i class="fas fa-heart"></i></div>
+            <div class="floating-paw paw-6"><i class="fas fa-star"></i></div>
+            <div class="floating-paw paw-7"><i class="fas fa-paw"></i></div>
+            <div class="floating-paw paw-8"><i class="fas fa-heart"></i></div>
+            <div class="floating-paw paw-9"><i class="fas fa-star"></i></div>
+            <div class="floating-paw paw-10"><i class="fas fa-paw"></i></div>
         </div>
     </div>
 </div>
@@ -83,5 +89,19 @@ document.getElementById('customerForm').addEventListener('submit', function(e) {
         }, 1000);
     }
 });
+
+function goToCustomer(customerId) {
+    // Add loading state to the clicked item
+    const customerItem = event.currentTarget;
+    const originalContent = customerItem.innerHTML;
+    
+    customerItem.innerHTML = '<i class="fas fa-spinner fa-spin"></i>';
+    customerItem.style.pointerEvents = 'none';
+    
+    // Redirect to experience
+    setTimeout(() => {
+        window.location.href = `/experience/${customerId}`;
+    }, 500);
+}
 </script>
 {% endblock %} 
