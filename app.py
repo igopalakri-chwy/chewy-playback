@@ -9,6 +9,19 @@ app = Flask(__name__)
 OUTPUT_DIR = "Final_Pipeline/Output"
 PERSONALITY_BADGES_DIR = "personalityzipped"
 
+def get_all_customer_ids():
+    """Get all customer IDs from the Output directory"""
+    if not os.path.exists(OUTPUT_DIR):
+        return []
+    
+    customer_ids = []
+    for item in os.listdir(OUTPUT_DIR):
+        item_path = os.path.join(OUTPUT_DIR, item)
+        if os.path.isdir(item_path):
+            customer_ids.append(item)
+    
+    return sorted(customer_ids, key=lambda x: int(x) if x.isdigit() else 0)
+
 def get_customer_data(customer_id):
     """Retrieve all data for a given customer ID"""
     customer_dir = os.path.join(OUTPUT_DIR, str(customer_id))
@@ -63,8 +76,15 @@ def get_badge_image_path(badge_name):
 
 @app.route('/')
 def index():
-    """Landing page with customer ID input"""
-    return render_template('index.html')
+    """Landing page with customer ID input and list of all customers"""
+    customer_ids = get_all_customer_ids()
+    return render_template('index.html', customer_ids=customer_ids)
+
+@app.route('/customers')
+def customers():
+    """Page showing all available customers"""
+    customer_ids = get_all_customer_ids()
+    return render_template('customers.html', customer_ids=customer_ids)
 
 @app.route('/experience/<customer_id>')
 def experience(customer_id):
@@ -103,4 +123,4 @@ def badge_image(filename):
     return send_from_directory(PERSONALITY_BADGES_DIR, filename)
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=5000) 
+    app.run(debug=True, host='0.0.0.0', port=5001) 

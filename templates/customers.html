@@ -1,0 +1,141 @@
+{% extends "base.html" %}
+
+{% block title %}All Customers - Chewy Playback{% endblock %}
+
+{% block content %}
+<div class="customers-page-container">
+    <!-- Header -->
+    <div class="customers-header">
+        <div class="header-content">
+            <div class="header-logo">
+                <i class="fas fa-paw"></i>
+                <h1>Chewy Playback</h1>
+            </div>
+            <p class="header-subtitle">All Available Customer Experiences</p>
+        </div>
+    </div>
+    
+    <!-- Stats Bar -->
+    <div class="stats-bar">
+        <div class="stat-item">
+            <i class="fas fa-users"></i>
+            <span>{{ customer_ids|length }} Customers</span>
+        </div>
+        <div class="stat-item">
+            <i class="fas fa-heart"></i>
+            <span>Pet Stories</span>
+        </div>
+        <div class="stat-item">
+            <i class="fas fa-star"></i>
+            <span>Personality Badges</span>
+        </div>
+    </div>
+    
+    <!-- Search and Filter -->
+    <div class="search-section">
+        <div class="search-container">
+            <i class="fas fa-search search-icon"></i>
+            <input 
+                type="text" 
+                id="customerSearch" 
+                placeholder="Search customer IDs..."
+                class="search-input"
+            >
+        </div>
+    </div>
+    
+    <!-- Customers Grid -->
+    <div class="customers-grid-container">
+        <div class="customers-grid" id="customersGrid">
+            {% for customer_id in customer_ids %}
+            <div class="customer-card" data-customer-id="{{ customer_id }}" onclick="goToCustomer('{{ customer_id }}')">
+                <div class="customer-card-header">
+                    <div class="customer-avatar">
+                        <i class="fas fa-paw"></i>
+                    </div>
+                    <div class="customer-info">
+                        <h3 class="customer-id">{{ customer_id }}</h3>
+                        <p class="customer-label">Customer ID</p>
+                    </div>
+                </div>
+                <div class="customer-card-body">
+                    <div class="customer-features">
+                        <div class="feature-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>Pet Letter</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-medal"></i>
+                            <span>Personality Badge</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-image"></i>
+                            <span>AI Portrait</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="customer-card-footer">
+                    <button class="view-btn">
+                        <span>View Experience</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    
+    <!-- Back to Home -->
+    <div class="back-home">
+        <a href="/" class="home-link">
+            <i class="fas fa-home"></i>
+            <span>Back to Home</span>
+        </a>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+// Search functionality
+document.getElementById('customerSearch').addEventListener('input', function(e) {
+    const searchTerm = e.target.value.toLowerCase();
+    const customerCards = document.querySelectorAll('.customer-card');
+    
+    customerCards.forEach(card => {
+        const customerId = card.getAttribute('data-customer-id');
+        if (customerId.toLowerCase().includes(searchTerm)) {
+            card.style.display = 'block';
+        } else {
+            card.style.display = 'none';
+        }
+    });
+});
+
+function goToCustomer(customerId) {
+    // Add loading state
+    const card = event.currentTarget;
+    const viewBtn = card.querySelector('.view-btn');
+    const originalContent = viewBtn.innerHTML;
+    
+    viewBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i>';
+    viewBtn.disabled = true;
+    
+    // Redirect to experience
+    setTimeout(() => {
+        window.location.href = `/experience/${customerId}`;
+    }, 500);
+}
+
+// Add hover effects
+document.querySelectorAll('.customer-card').forEach(card => {
+    card.addEventListener('mouseenter', function() {
+        this.style.transform = 'translateY(-5px)';
+    });
+    
+    card.addEventListener('mouseleave', function() {
+        this.style.transform = 'translateY(0)';
+    });
+});
+</script>
+{% endblock %} 
