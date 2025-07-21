@@ -280,10 +280,13 @@ STEP 2 — GENERATE THE LETTER:
   - **Use proper letter formatting**: Include a space after the salutation (e.g., "Dear Human,\n\n"), a space before the ending (e.g., "\n\nWith all our love and zoomies,"), and keep the body text flowing naturally without excessive line breaks.
 
 STEP 3 — GENERATE THE VISUAL PROMPT:
-- **FIRST: Count the exact number of pets in sample_pet_data. The image must contain exactly this number of pets, no more, no less.**
+- **CRITICAL PET COUNT RULE: You MUST count the pets in sample_pet_data and ensure the image contains EXACTLY that number of pets.**
+- **PET COUNT VERIFICATION: Before writing the visual prompt, count the pets in sample_pet_data. The image must show exactly this number of pets - no more, no less.**
+- **ABSOLUTELY NO EXTRA PETS: Do not add any additional pets, background pets, implied pets, or random pets. Only include the pets listed in sample_pet_data.**
+- **EXACT PET MATCH: The number of pets in the visual description must exactly match the number of pets in sample_pet_data.**
+- **PET TYPE ACCURACY: You MUST specify the exact pet type (dog/cat) for each pet based on the data. Do not change or guess pet types.**
+- **EXPLICIT PET TYPES: Start the visual prompt by explicitly stating the pet count and types (e.g., "four dogs and one cat" or "three cats and two dogs").**
 - Describe a sophisticated artistic pet portrait scene featuring the pets as the main subjects.
-- **CRITICAL: The number of pets in the image MUST EXACTLY MATCH the number of pets in sample_pet_data. Do NOT add random pets or change the pet count.**
-- **ABSOLUTELY NO EXTRA PETS: The image must contain exactly and only the pets listed in sample_pet_data. Do not add any additional pets, background pets, or implied pets.**
 - **Pets should be the clear focus** - describe their appearance, poses, and expressions prominently with joyful energy.
 - **ZIP aesthetics influence the background and style**, not the main pet focus:
   - Use the `visual_style` to describe background elements and setting
@@ -348,6 +351,7 @@ CRITICAL REQUIREMENTS:
 4. Use lowercase badge names for icon_png (e.g., "the_explorer.png", "the_diva.png")
 5. Ensure all JSON syntax is valid (proper quotes, commas, brackets)
 6. **Do NOT mention any region, ZIP code, city, or style name directly in the letter. Only use the tones and style cues to influence the mood and feel.**
+7. **FINAL PET COUNT CHECK: The visual_prompt must describe exactly the number of pets in sample_pet_data. Count them carefully and ensure no extra pets are added.**
 
 === INPUT DATA ===
 {context}
@@ -763,7 +767,22 @@ P.S. Can we have an extra treat for being such good pets? Pretty please with a p
         
         # Ensure we have exactly the right number of pets
         pet_count = len(sample_pet_data)
-        visual_prompt = f"""In a bright, sunny, and cozy living room, {', '.join(pet_descriptions)} are enjoying their time together. The scene features EXACTLY {pet_count} pets as the main focus - no more, no less. The scene is filled with bright, warm lighting that illuminates everything clearly, with comfortable furniture. Chewy branding is subtly visible on a toy bin in the corner and a food bowl on the floor. The pets are surrounded by various beloved pet items including toys, food, and cozy accessories, creating a joyful and content atmosphere. The overall style is bright, warm, colorful, and full of pet-loving charm with vibrant, cheerful lighting."""
+        
+        # Count pet types for explicit description
+        dog_count = sum(1 for pet in sample_pet_data if pet.get('type', pet.get('PetType', '')).lower() == 'dog')
+        cat_count = sum(1 for pet in sample_pet_data if pet.get('type', pet.get('PetType', '')).lower() == 'cat')
+        
+        # Create explicit pet type description
+        if dog_count > 0 and cat_count > 0:
+            pet_type_description = f"{dog_count} dog{'s' if dog_count > 1 else ''} and {cat_count} cat{'s' if cat_count > 1 else ''}"
+        elif dog_count > 0:
+            pet_type_description = f"{dog_count} dog{'s' if dog_count > 1 else ''}"
+        elif cat_count > 0:
+            pet_type_description = f"{cat_count} cat{'s' if cat_count > 1 else ''}"
+        else:
+            pet_type_description = f"{pet_count} pet{'s' if pet_count > 1 else ''}"
+        
+        visual_prompt = f"""In a bright, sunny, and cozy living room, {pet_type_description} ({', '.join(pet_descriptions)}) are enjoying their time together. The scene features EXACTLY {pet_count} pets as the main focus - no more, no less. The scene is filled with bright, warm lighting that illuminates everything clearly, with comfortable furniture. Chewy branding is subtly visible on a toy bin in the corner and a food bowl on the floor. The pets are surrounded by various beloved pet items including toys, food, and cozy accessories, creating a joyful and content atmosphere. The overall style is bright, warm, colorful, and full of pet-loving charm with vibrant, cheerful lighting."""
         
         # Per-pet badge assignment using LLM
         pets_output = []

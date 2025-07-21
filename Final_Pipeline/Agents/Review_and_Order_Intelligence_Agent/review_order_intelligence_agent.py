@@ -167,16 +167,16 @@ class ReviewOrderIntelligenceAgent:
         elif not pet_reviews.empty and pet_name != 'UNK':
             # Fallback: try to get pet data from reviews (old method)
             try:
-            pet_data = pet_reviews.iloc[0]
-            context_parts.append(f"Pet Profile Data for {pet_name}:")
-            context_parts.append(f"- Pet Type: {pet_data.get('PetType', 'UNK')}")
-            context_parts.append(f"- Breed: {pet_data.get('Breed', 'UNK')}")
-            context_parts.append(f"- Gender: {pet_data.get('Gender', 'UNK')}")
-            context_parts.append(f"- Life Stage: {pet_data.get('LifeStage', 'UNK')}")
-            context_parts.append(f"- Size Category: {pet_data.get('SizeCategory', 'UNK')}")
-            context_parts.append(f"- Weight: {pet_data.get('Weight', 'UNK')}")
-            context_parts.append(f"- Birthday: {pet_data.get('Birthday', 'UNK')}")
-            context_parts.append("")
+                pet_data = pet_reviews.iloc[0]
+                context_parts.append(f"Pet Profile Data for {pet_name}:")
+                context_parts.append(f"- Pet Type: {pet_data.get('PetType', 'UNK')}")
+                context_parts.append(f"- Breed: {pet_data.get('Breed', 'UNK')}")
+                context_parts.append(f"- Gender: {pet_data.get('Gender', 'UNK')}")
+                context_parts.append(f"- Life Stage: {pet_data.get('LifeStage', 'UNK')}")
+                context_parts.append(f"- Size Category: {pet_data.get('SizeCategory', 'UNK')}")
+                context_parts.append(f"- Weight: {pet_data.get('Weight', 'UNK')}")
+                context_parts.append(f"- Birthday: {pet_data.get('Birthday', 'UNK')}")
+                context_parts.append("")
             except Exception as e:
                 logger.warning(f"Could not extract pet data from reviews for {pet_name}: {e}")
                 context_parts.append(f"Pet Profile Data for {pet_name}:")
@@ -263,7 +263,7 @@ class ReviewOrderIntelligenceAgent:
                 pet_type = structured_pet_data.get('PetType')
             elif not pet_reviews.empty and pet_name != 'UNK':
                 try:
-                pet_type = pet_reviews.iloc[0].get('PetType', 'UNK')
+                    pet_type = pet_reviews.iloc[0].get('PetType', 'UNK')
                 except Exception:
                     pet_type = "UNK"
             elif pet_name == 'UNK':
