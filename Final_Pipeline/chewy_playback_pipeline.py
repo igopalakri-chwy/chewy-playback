@@ -967,12 +967,12 @@ class ChewyPlaybackPipeline:
                     customer_orders.append(order)
             
             # Run breed prediction for this customer's pets with order data
-            customer_predictions = self.breed_predictor_agent.process_customer_pets_with_orders(
+            customer_prediction = self.breed_predictor_agent.process_customer_pets_with_orders(
                 customer_id, pets_data, customer_orders
             )
             
-            if customer_predictions:
-                breed_predictions[customer_id] = customer_predictions
+            if customer_prediction:
+                breed_predictions[customer_id] = customer_prediction
         
         print(f"✅ Breed predictions completed for {len(breed_predictions)} customers")
         return breed_predictions
@@ -1169,7 +1169,17 @@ class ChewyPlaybackPipeline:
                 breed_path = customer_dir / "predicted_breed.json"
                 with open(breed_path, 'w') as f:
                     json.dump(breed_predictions[customer_id], f, indent=2)
-                print(f"    🐕 Saved breed predictions for {len(breed_predictions[customer_id])} pets")
+                
+                # Handle new simplified format
+                if isinstance(breed_predictions[customer_id], dict) and 'pet_name' in breed_predictions[customer_id]:
+                    # New simplified format - single prediction
+                    pet_name = breed_predictions[customer_id]['pet_name']
+                    predicted_breed = breed_predictions[customer_id]['predicted_breed']
+                    confidence = breed_predictions[customer_id]['confidence']
+                    print(f"    🐕 Saved breed prediction for {pet_name}: {predicted_breed} (confidence: {confidence})")
+                else:
+                    # Old format - multiple predictions
+                    print(f"    🐕 Saved breed predictions for {len(breed_predictions[customer_id])} pets")
             
             # Save collective image (handle both URL and base64 data)
             if customer_id in image_results and image_results[customer_id]:

@@ -1,10 +1,10 @@
 {
-  "badge": "The Explorer",
+  "badge": "The Daydreamer",
   "compatible_with": [
-    "The Athlete",
-    "The Trickster",
+    "The Cuddler",
+    "The Explorer",
     "The Nurturer"
   ],
-  "icon_png": "the_explorer.png",
-  "description": "This lively household is always ready for the next adventure, filled with curiosity and boundless energy."
+  "icon_png": "the_daydreamer.png",
+  "description": "This household is a realm of gentle play and cozy snuggles, where pets enjoy the simple pleasures of life in their own dreamy way."
 }

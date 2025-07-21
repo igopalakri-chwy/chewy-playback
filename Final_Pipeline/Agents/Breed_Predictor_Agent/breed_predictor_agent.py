@@ -439,14 +439,16 @@ class BreedPredictorAgent:
                                         enriched_profiles: Dict[str, Any],
                                         customer_orders: List[Dict[str, Any]]) -> Dict[str, Any]:
         """
-        Process all pets for a customer and predict breeds where needed, using provided order data.
+        Process pets for a customer and predict breed for the most suitable pet.
+        New logic:
+        - If no pets have unknown/mixed breeds, skip prediction
+        - If one pet has unknown/mixed breed, predict for that pet
+        - If multiple pets have unknown/mixed breeds, choose the one with highest confidence score
         """
         if not self.available:
             return {}
         
         print(f"  🐕 Running Breed Predictor Agent for customer {customer_id}...")
-        
-        predictions = {}
         
         # Handle different data structures
         if isinstance(enriched_profiles, dict) and 'pets' in enriched_profiles:
@@ -454,18 +456,135 @@ class BreedPredictorAgent:
         else:
             pets_data = enriched_profiles
         
-        # Process each pet
+        # Find pets that need breed prediction
+        pets_needing_prediction = []
+        
         for pet_name, pet_data in pets_data.items():
-            prediction = self.predict_breed_for_pet_with_orders(customer_id, pet_name, pet_data, customer_orders)
-            if prediction:
-                predictions[pet_name] = prediction
+            if self.should_predict_breed(pet_data):
+                # Calculate confidence score for this pet
+                confidence_score = self._calculate_pet_confidence_score(pet_data, customer_orders)
+                pets_needing_prediction.append({
+                    'pet_name': pet_name,
+                    'pet_data': pet_data,
+                    'confidence_score': confidence_score
+                })
         
-        if predictions:
-            print(f"    ✅ Breed predictions completed for {len(predictions)} pets")
+        # Apply new logic
+        if not pets_needing_prediction:
+            print(f"    ℹ️ No breed prediction needed for customer {customer_id} (no unknown/mixed breeds)")
+            return {}
+        
+        elif len(pets_needing_prediction) == 1:
+            # Only one pet needs prediction
+            selected_pet = pets_needing_prediction[0]
+            print(f"    🐕 Predicting breed for {selected_pet['pet_name']} (only pet with unknown breed)")
+            
         else:
-            print(f"    ℹ️ No breed predictions needed for customer {customer_id}")
+            # Multiple pets need prediction - choose the one with highest confidence
+            selected_pet = max(pets_needing_prediction, key=lambda x: x['confidence_score'])
+            print(f"    🐕 Predicting breed for {selected_pet['pet_name']} (highest confidence: {selected_pet['confidence_score']:.1f})")
+            print(f"    ℹ️ Skipping {len(pets_needing_prediction) - 1} other pets with unknown breeds")
         
-        return predictions
+        # Predict breed for the selected pet
+        prediction = self.predict_breed_for_pet_with_orders(
+            customer_id, 
+            selected_pet['pet_name'], 
+            selected_pet['pet_data'], 
+            customer_orders
+        )
+        
+        if prediction:
+            # Convert to simplified format
+            simplified_prediction = self._convert_to_simplified_format(
+                customer_id, 
+                selected_pet['pet_name'], 
+                prediction
+            )
+            print(f"    ✅ Breed prediction completed for {selected_pet['pet_name']}")
+            return simplified_prediction
+        else:
+            print(f"    ❌ Failed to predict breed for {selected_pet['pet_name']}")
+            return {}
+    
+    def _calculate_pet_confidence_score(self, pet_data: Dict[str, Any], customer_orders: List[Dict[str, Any]]) -> float:
+        """
+        Calculate a confidence score for breed prediction based on available data.
+        Higher scores indicate more reliable predictions.
+        """
+        score = 0.0
+        
+        # Base score for having order data
+        if customer_orders:
+            score += 20.0
+        
+        # Score for order count (more orders = more data)
+        order_count = len(customer_orders)
+        if order_count >= 50:
+            score += 30.0
+        elif order_count >= 20:
+            score += 20.0
+        elif order_count >= 10:
+            score += 10.0
+        
+        # Score for having pet age
+        pet_age = pet_data.get('PetAge', pet_data.get('age', ''))
+        if pet_age and str(pet_age).isdigit():
+            score += 15.0
+        
+        # Score for having pet size
+        pet_size = pet_data.get('Size', pet_data.get('size', ''))
+        if pet_size and pet_size != 'UNK':
+            score += 10.0
+        
+        # Score for having gender
+        pet_gender = pet_data.get('Gender', pet_data.get('gender', ''))
+        if pet_gender:
+            score += 5.0
+        
+        # Score for having weight
+        pet_weight = pet_data.get('Weight', pet_data.get('weight', ''))
+        if pet_weight and str(pet_weight).isdigit():
+            score += 10.0
+        
+        # Score for diverse order categories (more categories = better data)
+        categories = set()
+        for order in customer_orders:
+            category = order.get('category', 'Unknown')
+            if category != 'Unknown':
+                categories.add(category)
+        
+        if len(categories) >= 5:
+            score += 10.0
+        elif len(categories) >= 3:
+            score += 5.0
+        
+        return min(score, 100.0)  # Cap at 100
+    
+    def _convert_to_simplified_format(self, customer_id: str, pet_name: str, prediction: Dict[str, Any]) -> Dict[str, Any]:
+        """
+        Convert the detailed prediction format to the simplified format requested.
+        """
+        # Get the top predicted breed
+        breed_distribution = prediction.get('breed_distribution', {})
+        if not breed_distribution:
+            return {}
+        
+        # Find the breed with highest percentage
+        top_breed = max(breed_distribution.items(), key=lambda x: x[1])
+        
+        # Get confidence score
+        confidence_data = prediction.get('confidence', {})
+        confidence_score = confidence_data.get('score', 0)
+        
+        # Convert breed name to readable format
+        breed_name = top_breed[0].replace('_', ' ').title()
+        
+        return {
+            "customer_id": customer_id,
+            "pet_name": pet_name,
+            "predicted_breed": breed_name,
+            "confidence": confidence_score
+        }
 
 
 def main():
