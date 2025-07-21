@@ -64,6 +64,7 @@
                     </h2>
                 </div>
                 
+<<<<<<< Updated upstream
                 <div class="funfact-container">
                     <div class="funfact-icon">
                         <i class="fas fa-lightbulb"></i>
@@ -81,6 +82,51 @@
                         <i class="fas fa-arrow-left"></i>
                     </button>
                     <button class="nav-btn next-btn" onclick="nextSlide()">
+=======
+                <div class="welcome-header">
+                    <i class="fas fa-heart welcome-icon"></i>
+                    <h1 class="welcome-title">Your Pets</h1>
+                    <p class="welcome-subtitle">Customer #{{ customer_id }}</p>
+                </div>
+                
+                <div class="pet-info">
+                    {% if customer_data.profile %}
+                        {% set pets = customer_data.profile.keys() | list %}
+                        {% if pets and pets[0] != 'cust_confidence_score' %}
+                            {% set pet_names = [] %}
+                            {% for pet_name in pets %}
+                                {% if pet_name != 'cust_confidence_score' %}
+                                    {% set _ = pet_names.append(pet_name) %}
+                                {% endif %}
+                            {% endfor %}
+                            
+                            <div class="pet-avatars">
+                                {% for pet_name in pet_names[:3] %}
+                                    <div class="pet-avatar">
+                                        <i class="fas fa-paw"></i>
+                                        <span>{{ pet_name.title() }}</span>
+                                    </div>
+                                {% endfor %}
+                            </div>
+                            
+                            {% if pet_names|length > 3 %}
+                            <div class="pet-avatars second-row">
+                                {% for pet_name in pet_names[3:] %}
+                                    <div class="pet-avatar">
+                                        <i class="fas fa-paw"></i>
+                                        <span>{{ pet_name.title() }}</span>
+                                    </div>
+                                {% endfor %}
+                            </div>
+                            {% endif %}
+                        {% endif %}
+                    {% endif %}
+                </div>
+                
+                <div class="welcome-actions">
+                    <button class="start-btn" onclick="nextSlide()">
+                        <span>Start Journey</span>
+>>>>>>> Stashed changes
                         <i class="fas fa-arrow-right"></i>
                     </button>
                 </div>
@@ -129,7 +175,12 @@
             <div class="slide-content letter-slide">
                 <div class="slide-header">
                     <h2 class="slide-title">
+<<<<<<< Updated upstream
                         Letter to my Human
+=======
+                        <i class="fas fa-envelope-open"></i>
+                        A Message from Your Pets
+>>>>>>> Stashed changes
                     </h2>
                 </div>
                 
@@ -164,7 +215,12 @@
             <div class="slide-content badge-slide">
                 <div class="slide-header">
                     <h2 class="slide-title">
+<<<<<<< Updated upstream
                         Your Pet's Unique Personality
+=======
+                        <i class="fas fa-medal"></i>
+                        Your Pet's Personality
+>>>>>>> Stashed changes
                     </h2>
                 </div>
                 
@@ -230,7 +286,12 @@
             <div class="slide-content portrait-slide">
                 <div class="slide-header">
                     <h2 class="slide-title">
+<<<<<<< Updated upstream
                         Your Pet's Beautiful Portrait
+=======
+                        <i class="fas fa-palette"></i>
+                        Your Pet's Portrait
+>>>>>>> Stashed changes
                     </h2>
                 </div>
                 

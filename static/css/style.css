@@ -6,7 +6,11 @@
 }
 
 body {
+<<<<<<< Updated upstream
     font-family: 'Poppins', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+=======
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+>>>>>>> Stashed changes
     background: linear-gradient(135deg, #0d2b5e 0%, #1e3c72 25%, #2a5298 50%, #4a90e2 75%, #5ba0f2 100%);
     min-height: 100vh;
     display: flex;
@@ -188,6 +192,7 @@ body::before {
 }
 
 .brand-title {
+<<<<<<< Updated upstream
     font-family: 'Poppins', 'Inter', sans-serif;
     font-size: 32px;
     font-weight: 700;
@@ -197,6 +202,13 @@ body::before {
     -webkit-text-fill-color: transparent;
     background-clip: text;
     filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+=======
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 8px;
+>>>>>>> Stashed changes
 }
 
 .brand-subtitle {
@@ -237,9 +249,16 @@ body::before {
 }
 
 .input-title {
+<<<<<<< Updated upstream
     font-family: 'Poppins', 'Inter', sans-serif;
     font-size: 24px;
     font-weight: 700;
+=======
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #2E5C8A;
+>>>>>>> Stashed changes
     text-align: center;
     margin-bottom: 8px;
     position: relative;
@@ -249,11 +268,14 @@ body::before {
     background: rgba(255, 255, 255, 0.95);
     border: 1px solid rgba(255, 255, 255, 0.3);
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+<<<<<<< Updated upstream
     background: linear-gradient(135deg, #60a5fa 0%, #3b82f6 50%, #1d4ed8 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.1));
+=======
+>>>>>>> Stashed changes
 }
 
 .input-description {
@@ -440,20 +462,29 @@ body::before {
 }
 
 .customers-title {
+<<<<<<< Updated upstream
     font-family: 'Poppins', 'Inter', sans-serif;
     font-size: 20px;
     font-weight: 700;
+=======
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+>>>>>>> Stashed changes
     margin-bottom: 8px;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
+<<<<<<< Updated upstream
     background: linear-gradient(135deg, #60a5fa 0%, #3b82f6 50%, #1d4ed8 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.1));
+=======
+>>>>>>> Stashed changes
 }
 
 .customers-title i {
@@ -1179,6 +1210,7 @@ body::before {
 }
 
 .welcome-title {
+<<<<<<< Updated upstream
     font-family: 'Poppins', 'Inter', sans-serif;
     font-size: 32px;
     font-weight: 700;
@@ -1190,6 +1222,15 @@ body::before {
     -webkit-text-fill-color: transparent;
     background-clip: text;
     filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+=======
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 8px;
+    text-align: center;
+    position: relative;
+>>>>>>> Stashed changes
 }
 
 .welcome-subtitle {
@@ -1580,6 +1621,7 @@ body::before {
     font-family: 'Poppins', 'Inter', sans-serif;
     font-size: 28px;
     font-weight: 700;
+<<<<<<< Updated upstream
     text-align: center;
     position: relative;
     margin-bottom: 15px;
@@ -1594,6 +1636,30 @@ body::before {
 }
 
 
+=======
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    text-align: left;
+    position: relative;
+    margin-bottom: 20px;
+    width: 100%;
+    padding-left: 20px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    letter-spacing: -0.5px;
+}
+
+.slide-title i {
+    color: #4a90e2;
+    font-size: 34px;
+    opacity: 1;
+    filter: none;
+    text-shadow: 0 2px 4px rgba(74, 144, 226, 0.3);
+    margin-right: 5px;
+}
+>>>>>>> Stashed changes
 
 .letter-container {
     flex: 1;
@@ -1682,6 +1748,7 @@ body::before {
 /* Badge Slide */
 .badge-slide {
     background: linear-gradient(135deg, #0d2b5e 0%, #1e3c72 25%, #2a5298 50%, #4a90e2 75%, #5ba0f2 100%);
+<<<<<<< Updated upstream
     overflow-y: auto;
     align-items: flex-start;
     justify-content: flex-start;
@@ -1703,6 +1770,8 @@ body::before {
 .badge-slide .slide-actions .nav-btn {
     margin: 0;
     flex-shrink: 0;
+=======
+>>>>>>> Stashed changes
 }
 
 .badge-slide::before {
@@ -1822,6 +1891,7 @@ body::before {
 }
 
 .badge-title {
+<<<<<<< Updated upstream
     font-family: 'Poppins', 'Inter', sans-serif;
     font-size: 20px;
     font-weight: 700;
@@ -1831,6 +1901,13 @@ body::before {
     -webkit-text-fill-color: transparent;
     background-clip: text;
     filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.1));
+=======
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #2E5C8A;
+    margin-bottom: 10px;
+>>>>>>> Stashed changes
 }
 
 .badge-description {
@@ -2101,6 +2178,7 @@ body::before {
 /* Portrait Slide */
 .portrait-slide {
     background: linear-gradient(135deg, #0d2b5e 0%, #1e3c72 25%, #2a5298 50%, #4a90e2 75%, #5ba0f2 100%);
+<<<<<<< Updated upstream
 }
 
 /* Share Slide */
@@ -2124,6 +2202,8 @@ body::before {
 @keyframes shareGlow {
     0%, 100% { opacity: 0.5; transform: scale(1); }
     50% { opacity: 0.8; transform: scale(1.02); }
+=======
+>>>>>>> Stashed changes
 }
 
 .portrait-slide::before {
