@@ -540,7 +540,7 @@ class ChewyPlaybackPipeline:
             self.openai_api_key = openai_api_key
         else:
             self.openai_api_key = os.getenv('OPENAI_API_KEY')
-            if not self.openai_api_key:
+        if not self.openai_api_key:
                 raise ValueError("OpenAI API key is required. Set OPENAI_API_KEY environment variable or pass it as a parameter.")
         
         # Initialize OpenAI client
@@ -583,7 +583,7 @@ class ChewyPlaybackPipeline:
         """Get customer orders dataframe from cached data."""
         customer_data = self._get_cached_customer_data(customer_id)
         formatted_data = self.snowflake_connector.format_data_for_pipeline(customer_id, customer_data)
-        if formatted_data['order_data']:
+        if formatted_data['order_data'] and len(formatted_data['order_data']) > 0:
             return pd.DataFrame(formatted_data['order_data'])
         else:
             return pd.DataFrame()
@@ -592,7 +592,7 @@ class ChewyPlaybackPipeline:
         """Get customer reviews dataframe from cached data."""
         customer_data = self._get_cached_customer_data(customer_id)
         formatted_data = self.snowflake_connector.format_data_for_pipeline(customer_id, customer_data)
-        if formatted_data['review_data']:
+        if formatted_data['review_data'] and len(formatted_data['review_data']) > 0:
             return pd.DataFrame(formatted_data['review_data'])
         else:
             return pd.DataFrame()
@@ -601,7 +601,7 @@ class ChewyPlaybackPipeline:
         """Get customer pets dataframe from cached data."""
         customer_data = self._get_cached_customer_data(customer_id)
         formatted_data = self.snowflake_connector.format_data_for_pipeline(customer_id, customer_data)
-        if formatted_data['pet_data']:
+        if formatted_data['pet_data'] and len(formatted_data['pet_data']) > 0:
             return pd.DataFrame(formatted_data['pet_data'])
         else:
             return pd.DataFrame()
@@ -814,48 +814,109 @@ class ChewyPlaybackPipeline:
         
         # Use the order agent's LLM analysis method
         customer_orders = orders_df.to_dict('records')
-        insights = self.order_agent._analyze_customer_orders_with_llm(customer_orders, customer_id)
+        insights = self.order_agent._analyze_customer_orders_with_llm(orders_df, customer_id)
         
-        # Extract pet information from the insights
-        try:
-            pet_info = self.order_agent._extract_pet_info(orders_df)
-        except Exception as e:
-            print(f"    ⚠️ Error extracting pet info: {e}")
-            pet_info = []
-        
-        # Format the results
+        # Use pet profile data from Snowflake instead of extracting from order data
         customer_results = {}
-        for pet_data in pet_info:
-            pet_name = pet_data.get('PetName', 'Unknown Pet')
-            customer_results[pet_name] = {
-                "PetName": pet_name,
-                "PetType": pet_data.get("PetType", "UNK"),
-                "PetTypeScore": insights.get("PetTypeScore", 0.0),
-                "Breed": pet_data.get("Breed", "UNK"),
-                "BreedScore": insights.get("BreedScore", 0.0),
-                "LifeStage": pet_data.get("LifeStage", "UNK"),
-                "LifeStageScore": insights.get("LifeStageScore", 0.0),
-                "Gender": pet_data.get("Gender", "UNK"),
-                "GenderScore": insights.get("GenderScore", 0.0),
-                "SizeCategory": pet_data.get("SizeCategory", "UNK"),
-                "SizeScore": insights.get("SizeScore", 0.0),
-                "Weight": pet_data.get("Weight", "UNK"),
-                "WeightScore": insights.get("WeightScore", 0.0),
-                "PersonalityTraits": insights.get("PersonalityTraits", []),
-                "PersonalityScores": insights.get("PersonalityScores", {}),
-                "FavoriteProductCategories": insights.get("FavoriteProductCategories", []),
-                "CategoryScores": insights.get("CategoryScores", {}),
-                "BrandPreferences": insights.get("BrandPreferences", []),
-                "BrandScores": insights.get("BrandScores", {}),
-                "DietaryPreferences": insights.get("DietaryPreferences", []),
-                "DietaryScores": insights.get("DietaryScores", {}),
-                "BehavioralCues": insights.get("BehavioralCues", []),
-                "BehavioralScores": insights.get("BehavioralScores", {}),
-                "HealthMentions": insights.get("HealthMentions", []),
-                "HealthScores": insights.get("HealthScores", {}),
-                "MostOrderedProducts": insights.get("MostOrderedProducts", []),
-                "ConfidenceScore": insights.get("ConfidenceScore", 0.0)
-            }
+        if not pets_df.empty:
+            for _, pet_row in pets_df.iterrows():
+                pet_name = pet_row.get('PetName', 'Unknown Pet')
+                customer_results[pet_name] = {
+                    "PetName": pet_name,
+                    "PetType": pet_row.get("PetType", "UNK"),
+                    "PetTypeScore": 1.0 if pet_row.get("PetType") != "UNK" else 0.0,
+                    "Breed": pet_row.get("PetBreed", "UNK"),
+                    "BreedScore": 1.0 if pet_row.get("PetBreed") != "UNK" else 0.0,
+                    "LifeStage": pet_row.get("PetAge", "UNK"),
+                    "LifeStageScore": 1.0 if pet_row.get("PetAge") != "UNK" else 0.0,
+                    "Gender": pet_row.get("Gender", "UNK"),
+                    "GenderScore": 1.0 if pet_row.get("Gender") != "UNK" else 0.0,
+                    "SizeCategory": "UNK",  # Not available in current Snowflake data
+                    "SizeScore": 0.0,
+                    "Weight": pet_row.get("Weight", "UNK"),
+                    "WeightScore": 1.0 if pet_row.get("Weight") != "UNK" else 0.0,
+                    "PersonalityTraits": insights.get("PersonalityTraits", []),
+                    "PersonalityScores": insights.get("PersonalityScores", {}),
+                    "FavoriteProductCategories": insights.get("FavoriteProductCategories", []),
+                    "CategoryScores": insights.get("CategoryScores", {}),
+                    "BrandPreferences": insights.get("BrandPreferences", []),
+                    "BrandScores": insights.get("BrandScores", {}),
+                    "DietaryPreferences": insights.get("DietaryPreferences", []),
+                    "DietaryScores": insights.get("DietaryScores", {}),
+                    "BehavioralCues": insights.get("BehavioralCues", []),
+                    "BehavioralScores": insights.get("BehavioralScores", {}),
+                    "HealthMentions": insights.get("HealthMentions", []),
+                    "HealthScores": insights.get("HealthScores", {}),
+                    "MostOrderedProducts": insights.get("MostOrderedProducts", []),
+                    "ConfidenceScore": insights.get("ConfidenceScore", 0.0)
+                }
+        else:
+            # Fallback to extracting from order data if no pet profile data available
+            try:
+                pet_info = self.order_agent._extract_pet_info(orders_df)
+                for pet_data in pet_info:
+                    pet_name = pet_data.get('name', 'Unknown Pet')
+                    customer_results[pet_name] = {
+                        "PetName": pet_name,
+                        "PetType": pet_data.get("type", "UNK"),
+                        "PetTypeScore": insights.get("PetTypeScore", 0.0),
+                        "Breed": pet_data.get("breed", "UNK"),
+                        "BreedScore": insights.get("BreedScore", 0.0),
+                        "LifeStage": pet_data.get("life_stage", "UNK"),
+                        "LifeStageScore": insights.get("LifeStageScore", 0.0),
+                        "Gender": pet_data.get("gender", "UNK"),
+                        "GenderScore": insights.get("GenderScore", 0.0),
+                        "SizeCategory": pet_data.get("size", "UNK"),
+                        "SizeScore": insights.get("SizeScore", 0.0),
+                        "Weight": "UNK",
+                        "WeightScore": insights.get("WeightScore", 0.0),
+                        "PersonalityTraits": insights.get("PersonalityTraits", []),
+                        "PersonalityScores": insights.get("PersonalityScores", {}),
+                        "FavoriteProductCategories": insights.get("FavoriteProductCategories", []),
+                        "CategoryScores": insights.get("CategoryScores", {}),
+                        "BrandPreferences": insights.get("BrandPreferences", []),
+                        "BrandScores": insights.get("BrandScores", {}),
+                        "DietaryPreferences": insights.get("DietaryPreferences", []),
+                        "DietaryScores": insights.get("DietaryScores", {}),
+                        "BehavioralCues": insights.get("BehavioralCues", []),
+                        "BehavioralScores": insights.get("BehavioralScores", {}),
+                        "HealthMentions": insights.get("HealthMentions", []),
+                        "HealthScores": insights.get("HealthScores", {}),
+                        "MostOrderedProducts": insights.get("MostOrderedProducts", []),
+                        "ConfidenceScore": insights.get("ConfidenceScore", 0.0)
+                    }
+            except Exception as e:
+                print(f"    ⚠️ Error extracting pet info: {e}")
+                # Create a default "Unknown Pet" entry
+                customer_results["Unknown Pet"] = {
+                    "PetName": "Unknown Pet",
+                    "PetType": "UNK",
+                    "PetTypeScore": insights.get("PetTypeScore", 0.0),
+                    "Breed": "UNK",
+                    "BreedScore": insights.get("BreedScore", 0.0),
+                    "LifeStage": "UNK",
+                    "LifeStageScore": insights.get("LifeStageScore", 0.0),
+                    "Gender": "UNK",
+                    "GenderScore": insights.get("GenderScore", 0.0),
+                    "SizeCategory": "UNK",
+                    "SizeScore": insights.get("SizeScore", 0.0),
+                    "Weight": "UNK",
+                    "WeightScore": insights.get("WeightScore", 0.0),
+                    "PersonalityTraits": insights.get("PersonalityTraits", []),
+                    "PersonalityScores": insights.get("PersonalityScores", {}),
+                    "FavoriteProductCategories": insights.get("FavoriteProductCategories", []),
+                    "CategoryScores": insights.get("CategoryScores", {}),
+                    "BrandPreferences": insights.get("BrandPreferences", []),
+                    "BrandScores": insights.get("BrandScores", {}),
+                    "DietaryPreferences": insights.get("DietaryPreferences", []),
+                    "DietaryScores": insights.get("DietaryScores", {}),
+                    "BehavioralCues": insights.get("BehavioralCues", []),
+                    "BehavioralScores": insights.get("BehavioralScores", {}),
+                    "HealthMentions": insights.get("HealthMentions", []),
+                    "HealthScores": insights.get("HealthScores", {}),
+                    "MostOrderedProducts": insights.get("MostOrderedProducts", []),
+                    "ConfidenceScore": insights.get("ConfidenceScore", 0.0)
+                }
         
         return customer_results
     
@@ -966,13 +1027,28 @@ class ChewyPlaybackPipeline:
                     }
                     customer_orders.append(order)
             
+            # Get raw pet data from Snowflake for breed prediction
+            raw_pets_df = self._get_cached_customer_pets_dataframe(customer_id)
+            raw_pets_data = {}
+            if not raw_pets_df.empty:
+                for _, row in raw_pets_df.iterrows():
+                    pet_name = row.get('PetName', 'Unknown')
+                    raw_pets_data[pet_name] = {
+                        'PetType': row.get('PetType', 'UNK'),
+                        'Breed': row.get('PetBreed', 'UNK'),
+                        'Gender': row.get('Gender', 'UNK'),
+                        'PetAge': row.get('PetAge', 'UNK'),
+                        'Weight': row.get('Weight', 'UNK'),
+                        'Medication': row.get('Medication', 'UNK')
+                    }
+            
             # Run breed prediction for this customer's pets with order data
-            customer_predictions = self.breed_predictor_agent.process_customer_pets_with_orders(
-                customer_id, pets_data, customer_orders
+            customer_prediction = self.breed_predictor_agent.process_customer_pets_with_orders(
+                customer_id, raw_pets_data, customer_orders
             )
             
-            if customer_predictions:
-                breed_predictions[customer_id] = customer_predictions
+            if customer_prediction:
+                breed_predictions[customer_id] = customer_prediction
         
         print(f"✅ Breed predictions completed for {len(breed_predictions)} customers")
         return breed_predictions
@@ -999,9 +1075,8 @@ class ChewyPlaybackPipeline:
             return []
     
     def _get_customer_orders_for_narrative(self, customer_id: str) -> List[Dict[str, Any]]:
-        """Get order data for a specific customer for narrative generation from cached data."""
+        """Get customer orders for narrative generation."""
         try:
-            # Get customer orders from cached data
             orders_df = self._get_cached_customer_orders_dataframe(customer_id)
             
             # Get customer address from cached data
@@ -1037,7 +1112,7 @@ class ChewyPlaybackPipeline:
             if collective_visual_prompt:
                 try:
                     # Base sophisticated artistic portrait style - wholesome, joyous, and refined
-                    base_artistic_style = "Sophisticated artistic pet portrait, wholesome and warm, joyous energy, refined illustration style, pets as the main focus, inviting atmosphere, elegant colors, cozy and cheerful mood, NOT cartoonish, artistic interpretation"
+                    base_artistic_style = "Sophisticated artistic pet portrait, wholesome and warm, joyous energy, refined illustration style, pets as the main focus, inviting atmosphere, elegant colors, cozy and cheerful mood, bright and well-lit with vibrant lighting, NOT cartoonish, artistic interpretation"
                     
                     # Use ZIP aesthetics for background and overall style influence
                     if zip_aesthetics and zip_aesthetics.get('visual_style'):
@@ -1170,7 +1245,17 @@ class ChewyPlaybackPipeline:
                 breed_path = customer_dir / "predicted_breed.json"
                 with open(breed_path, 'w') as f:
                     json.dump(breed_predictions[customer_id], f, indent=2)
-                print(f"    🐕 Saved breed predictions for {len(breed_predictions[customer_id])} pets")
+                
+                # Handle new simplified format
+                if isinstance(breed_predictions[customer_id], dict) and 'pet_name' in breed_predictions[customer_id]:
+                    # New simplified format - single prediction
+                    pet_name = breed_predictions[customer_id]['pet_name']
+                    predicted_breed = breed_predictions[customer_id]['predicted_breed']
+                    confidence = breed_predictions[customer_id]['confidence']
+                    print(f"    🐕 Saved breed prediction for {pet_name}: {predicted_breed} (confidence: {confidence})")
+                else:
+                    # Old format - multiple predictions
+                    print(f"    🐕 Saved breed predictions for {len(breed_predictions[customer_id])} pets")
             
             # Save collective image (handle both URL and base64 data)
             if customer_id in image_results and image_results[customer_id]:
@@ -1202,10 +1287,10 @@ class ChewyPlaybackPipeline:
             print(f"  ✅ Saved outputs for customer {customer_id}")
     
     def run_unknowns_analyzer(self, customer_ids: List[str] = None):
-        """Run the Unknowns Analyzer to identify unknown attributes in enriched profiles."""
+        """Run the Unknowns Analyzer to identify unknown attributes in pet profile data."""
         print("\n🔍 Running Unknowns Analyzer...")
         try:
-            analyzer = UnknownsAnalyzer()
+            analyzer = UnknownsAnalyzer(self.snowflake_connector)
             
             # If no specific customers provided, analyze all processed customers
             if not customer_ids:
@@ -1238,12 +1323,6 @@ class ChewyPlaybackPipeline:
                             print(f"    🐾 {pet_name}:")
                             if pet_unknowns['unknown_fields']:
                                 print(f"      Unknown fields: {', '.join(pet_unknowns['unknown_fields'])}")
-                            if pet_unknowns['unknown_scores']:
-                                print(f"      Unknown scores: {', '.join(pet_unknowns['unknown_scores'])}")
-                            if pet_unknowns['unknown_lists']:
-                                print(f"      Empty lists: {', '.join(pet_unknowns['unknown_lists'])}")
-                            if pet_unknowns['unknown_dicts']:
-                                print(f"      Empty dicts: {', '.join(pet_unknowns['unknown_dicts'])}")
                     else:
                         print(f"  ❌ Failed to save unknowns analysis for customer {customer_id}")
                 else:
@@ -1258,6 +1337,67 @@ class ChewyPlaybackPipeline:
                 
         except Exception as e:
             print(f"❌ Error running unknowns analyzer: {e}")
+
+    def run_food_consumption_analyzer(self, customer_ids: List[str] = None):
+        """Run the Food Consumption Analyzer to generate fun facts about food consumption."""
+        print("\n🍽️ Running Food Consumption Analyzer...")
+        
+        try:
+            # Import the food consumption analyzer
+            from Agents.Review_and_Order_Intelligence_Agent.food_consumption_analyzer import generate_food_fun_fact_json
+            
+            # If no specific customers provided, analyze all processed customers
+            if not customer_ids:
+                # Get all customer directories that have enriched profiles
+                customer_ids = []
+                for customer_dir in self.output_dir.iterdir():
+                    if customer_dir.is_dir() and customer_dir.name.isdigit():
+                        profile_path = customer_dir / "enriched_pet_profile.json"
+                        if profile_path.exists():
+                            customer_ids.append(customer_dir.name)
+            
+            customers_analyzed = 0
+            
+            for customer_id in customer_ids:
+                try:
+                    print(f"  🍖 Analyzing food consumption for customer {customer_id}...")
+                    
+                    # Get food consumption data from Snowflake
+                    food_data = self.snowflake_connector.get_customer_food_consumption(customer_id)
+                    
+                    if food_data:
+                        # Generate food fun facts
+                        food_fun_fact_json = generate_food_fun_fact_json(food_data)
+                        
+                        # Save to customer directory
+                        customer_dir = self.output_dir / customer_id
+                        food_fun_fact_path = customer_dir / "food_fun_fact.json"
+                        
+                        with open(food_fun_fact_path, 'w') as f:
+                            f.write(food_fun_fact_json)
+                        
+                        # Parse the JSON to get the message for display
+                        import json
+                        analysis_data = json.loads(food_fun_fact_json)
+                        total_lbs = analysis_data.get('total_food_lbs', 0)
+                        
+                        print(f"    ✅ Generated food fun facts: {total_lbs} lbs consumed")
+                        customers_analyzed += 1
+                    else:
+                        print(f"    ⚠️ No food consumption data found for customer {customer_id}")
+                        
+                except Exception as e:
+                    print(f"    ❌ Error analyzing food consumption for customer {customer_id}: {e}")
+            
+            if customers_analyzed > 0:
+                print(f"\n🍽️ Food Consumption Analysis Summary:")
+                print(f"   Customers analyzed: {customers_analyzed}")
+                print(f"   Food fun facts generated and saved to food_fun_fact.json files")
+            else:
+                print(f"\n⚠️ No food consumption data found for any customers")
+                
+        except Exception as e:
+            print(f"❌ Error running food consumption analyzer: {e}")
 
     def run_pipeline(self, customer_ids: List[str] = None):
         """Run the complete pipeline for specified customers or all customers."""
@@ -1287,6 +1427,8 @@ class ChewyPlaybackPipeline:
             self.save_outputs(enriched_profiles, narrative_results, image_results, breed_predictions)
             # Run unknowns analyzer after saving outputs
             self.run_unknowns_analyzer(customer_ids)
+            # Run food consumption analyzer after unknowns analyzer
+            self.run_food_consumption_analyzer(customer_ids)
             
             # Show cache statistics
             cache_stats = self.get_cache_stats()

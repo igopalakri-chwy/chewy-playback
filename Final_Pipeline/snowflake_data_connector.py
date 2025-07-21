@@ -231,6 +231,10 @@ class SnowflakeDataConnector:
                 'city': str(address_row.get('CUSTOMER_ADDRESS_CITY', ''))
             }
         
+        # Process query_5 (food consumption data)
+        if 'query_5' in customer_data:
+            formatted_data['food_consumption_data'] = customer_data['query_5']
+        
         return formatted_data
     
     def get_customer_orders_dataframe(self, customer_id: str) -> pd.DataFrame:
@@ -246,7 +250,7 @@ class SnowflakeDataConnector:
         customer_data = self.get_customer_data(customer_id)
         formatted_data = self.format_data_for_pipeline(customer_id, customer_data)
         
-        if formatted_data['order_data']:
+        if formatted_data['order_data'] and len(formatted_data['order_data']) > 0:
             return pd.DataFrame(formatted_data['order_data'])
         else:
             return pd.DataFrame()
@@ -264,7 +268,7 @@ class SnowflakeDataConnector:
         customer_data = self.get_customer_data(customer_id)
         formatted_data = self.format_data_for_pipeline(customer_id, customer_data)
         
-        if formatted_data['review_data']:
+        if formatted_data['review_data'] and len(formatted_data['review_data']) > 0:
             return pd.DataFrame(formatted_data['review_data'])
         else:
             return pd.DataFrame()
@@ -282,7 +286,7 @@ class SnowflakeDataConnector:
         customer_data = self.get_customer_data(customer_id)
         formatted_data = self.format_data_for_pipeline(customer_id, customer_data)
         
-        if formatted_data['pet_data']:
+        if formatted_data['pet_data'] and len(formatted_data['pet_data']) > 0:
             return pd.DataFrame(formatted_data['pet_data'])
         else:
             return pd.DataFrame()
@@ -301,6 +305,21 @@ class SnowflakeDataConnector:
         formatted_data = self.format_data_for_pipeline(customer_id, customer_data)
         
         return formatted_data['address_data']
+    
+    def get_customer_food_consumption(self, customer_id: str) -> List[Dict[str, Any]]:
+        """
+        Get customer's food consumption data from query_5.
+        
+        Args:
+            customer_id (str): Customer ID
+            
+        Returns:
+            List[Dict[str, Any]]: Food consumption data
+        """
+        customer_data = self.get_customer_data(customer_id)
+        formatted_data = self.format_data_for_pipeline(customer_id, customer_data)
+        
+        return formatted_data.get('food_consumption_data', [])
     
     def customer_has_reviews(self, customer_id: str) -> bool:
         """Check if a customer has any reviews."""

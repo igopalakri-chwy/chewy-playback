@@ -1,18 +1,91 @@
 {
+  "Monty": {
+    "PetName": "Monty",
+    "PetType": "Dog",
+    "PetTypeScore": 1.0,
+    "Breed": "Australian Shepherd",
+    "BreedScore": 1.0,
+    "LifeStage": "0",
+    "LifeStageScore": 1.0,
+    "Gender": "MALE",
+    "GenderScore": 1.0,
+    "SizeCategory": "UNK",
+    "SizeScore": 0.0,
+    "Weight": "5",
+    "WeightScore": 1.0,
+    "PersonalityTraits": [
+      "playful",
+      "curious",
+      "affectionate"
+    ],
+    "PersonalityScores": {
+      "playful": 0.8,
+      "curious": 0.7,
+      "affectionate": 0.9
+    },
+    "FavoriteProductCategories": [
+      "food",
+      "treats",
+      "health"
+    ],
+    "CategoryScores": {
+      "food": 0.9,
+      "treats": 0.8,
+      "health": 0.7
+    },
+    "BrandPreferences": [
+      "Rachael Ray",
+      "Friskies"
+    ],
+    "BrandScores": {
+      "Rachael Ray": 0.9,
+      "Friskies": 0.8
+    },
+    "DietaryPreferences": [
+      "grain-free"
+    ],
+    "DietaryScores": {
+      "grain-free": 0.8
+    },
+    "BehavioralCues": [
+      "enjoys treats",
+      "requires health monitoring"
+    ],
+    "BehavioralScores": {
+      "enjoys treats": 0.8,
+      "requires health monitoring": 0.7
+    },
+    "HealthMentions": [
+      "healthy",
+      "active"
+    ],
+    "HealthScores": {
+      "healthy": 0.8,
+      "active": 0.7
+    },
+    "MostOrderedProducts": [
+      "PrettyLitter Health Monitoring Cat Litter, 8-lb bag",
+      "Nutrish Grain-Free Salmon & Sweet Potato Recipe Dry Dog Food, 23-lb bag (Rachael Ray)",
+      "Friskies Surfin' & Turfin' Favorites Muscle & Immune Support Crunchy Dry Cat Food, 22-lb bag"
+    ],
+    "ConfidenceScore": 0.0,
+    "confidence_score": 0.8333333333333334,
+    "name": "Monty"
+  },
   "Mike": {
     "PetName": "Mike",
-    "PetType": "cat",
-    "PetTypeScore": 0.9,
+    "PetType": "Cat",
+    "PetTypeScore": 1.0,
     "Breed": "Domestic",
-    "BreedScore": 0.9,
-    "LifeStage": "a",
-    "LifeStageScore": 0.9,
-    "Gender": "male",
-    "GenderScore": 0.9,
-    "SizeCategory": "unknown",
-    "SizeScore": 0.9,
-    "Weight": "50-90 lbs",
-    "WeightScore": 0.7,
+    "BreedScore": 1.0,
+    "LifeStage": "5",
+    "LifeStageScore": 1.0,
+    "Gender": "MALE",
+    "GenderScore": 1.0,
+    "SizeCategory": "UNK",
+    "SizeScore": 0.0,
+    "Weight": "10",
+    "WeightScore": 1.0,
     "PersonalityTraits": [
       "playful",
       "curious",
@@ -24,22 +97,22 @@
       "affectionate": 0.9
     },
     "FavoriteProductCategories": [
+      "food",
       "treats",
-      "toys",
-      "food"
+      "health"
     ],
     "CategoryScores": {
-      "treats": 0.9,
-      "toys": 0.8,
-      "food": 0.7
+      "food": 0.9,
+      "treats": 0.8,
+      "health": 0.7
     },
     "BrandPreferences": [
-      "Wellness",
-      "PetSafe"
+      "Rachael Ray",
+      "Friskies"
     ],
     "BrandScores": {
-      "Wellness": 0.9,
-      "PetSafe": 0.8
+      "Rachael Ray": 0.9,
+      "Friskies": 0.8
     },
     "DietaryPreferences": [
       "grain-free"
@@ -48,12 +121,12 @@
       "grain-free": 0.8
     },
     "BehavioralCues": [
-      "loves toys",
-      "enjoys treats"
+      "enjoys treats",
+      "requires health monitoring"
     ],
     "BehavioralScores": {
-      "loves toys": 0.9,
-      "enjoys treats": 0.8
+      "enjoys treats": 0.8,
+      "requires health monitoring": 0.7
     },
     "HealthMentions": [
       "healthy",
@@ -64,86 +137,13 @@
       "active": 0.7
     },
     "MostOrderedProducts": [
-      "Dr. Lyon's Pill Pouches Peanut Butter Flavor Dog Treats, 60 count",
-      "Wellness CORE Pure Rewards Turkey Grain-Free Jerky Bites Dog Treats, 4-oz bag",
-      "PetSafe Busy Buddy Fun Durables Treat Dispenser Dog Toy, Hippo, Medium/Large"
+      "PrettyLitter Health Monitoring Cat Litter, 8-lb bag",
+      "Nutrish Grain-Free Salmon & Sweet Potato Recipe Dry Dog Food, 23-lb bag (Rachael Ray)",
+      "Friskies Surfin' & Turfin' Favorites Muscle & Immune Support Crunchy Dry Cat Food, 22-lb bag"
     ],
-    "ConfidenceScore": 0.5,
-    "confidence_score": 0.8666666666666667,
+    "ConfidenceScore": 0.0,
+    "confidence_score": 0.8333333333333334,
     "name": "Mike"
   },
-  "Myles": {
-    "PetName": "Myles",
-    "PetType": "dog",
-    "PetTypeScore": 0.9,
-    "Breed": "Australian Shepherd",
-    "BreedScore": 0.9,
-    "LifeStage": "a",
-    "LifeStageScore": 0.9,
-    "Gender": "male",
-    "GenderScore": 0.9,
-    "SizeCategory": "medium",
-    "SizeScore": 0.9,
-    "Weight": "50-90 lbs",
-    "WeightScore": 0.7,
-    "PersonalityTraits": [
-      "playful",
-      "curious",
-      "affectionate"
-    ],
-    "PersonalityScores": {
-      "playful": 0.8,
-      "curious": 0.7,
-      "affectionate": 0.9
-    },
-    "FavoriteProductCategories": [
-      "treats",
-      "toys",
-      "food"
-    ],
-    "CategoryScores": {
-      "treats": 0.9,
-      "toys": 0.8,
-      "food": 0.7
-    },
-    "BrandPreferences": [
-      "Wellness",
-      "PetSafe"
-    ],
-    "BrandScores": {
-      "Wellness": 0.9,
-      "PetSafe": 0.8
-    },
-    "DietaryPreferences": [
-      "grain-free"
-    ],
-    "DietaryScores": {
-      "grain-free": 0.8
-    },
-    "BehavioralCues": [
-      "loves toys",
-      "enjoys treats"
-    ],
-    "BehavioralScores": {
-      "loves toys": 0.9,
-      "enjoys treats": 0.8
-    },
-    "HealthMentions": [
-      "healthy",
-      "active"
-    ],
-    "HealthScores": {
-      "healthy": 0.8,
-      "active": 0.7
-    },
-    "MostOrderedProducts": [
-      "Dr. Lyon's Pill Pouches Peanut Butter Flavor Dog Treats, 60 count",
-      "Wellness CORE Pure Rewards Turkey Grain-Free Jerky Bites Dog Treats, 4-oz bag",
-      "PetSafe Busy Buddy Fun Durables Treat Dispenser Dog Toy, Hippo, Medium/Large"
-    ],
-    "ConfidenceScore": 0.5,
-    "confidence_score": 0.8666666666666667,
-    "name": "Myles"
-  },
-  "cust_confidence_score": 0.8666666666666667
+  "cust_confidence_score": 0.8333333333333334
 }

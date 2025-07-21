@@ -1,153 +1,149 @@
 {
   "Francis": {
     "PetName": "Francis",
-    "PetType": "cat",
-    "PetTypeScore": 0.9,
+    "PetType": "Cat",
+    "PetTypeScore": 1.0,
     "Breed": "Other",
-    "BreedScore": 0.9,
-    "LifeStage": "a",
-    "LifeStageScore": 0.9,
-    "Gender": "male",
-    "GenderScore": 0.9,
-    "SizeCategory": "unknown",
-    "SizeScore": 0.9,
-    "Weight": "60-80 lbs",
-    "WeightScore": 0.7,
+    "BreedScore": 1.0,
+    "LifeStage": "11",
+    "LifeStageScore": 1.0,
+    "Gender": "MALE",
+    "GenderScore": 1.0,
+    "SizeCategory": "UNK",
+    "SizeScore": 0.0,
+    "Weight": "10",
+    "WeightScore": 1.0,
     "PersonalityTraits": [
       "playful",
-      "active",
-      "curious"
+      "curious",
+      "affectionate"
     ],
     "PersonalityScores": {
-      "playful": 0.7,
-      "active": 0.8,
-      "curious": 0.6
+      "playful": 0.8,
+      "curious": 0.7,
+      "affectionate": 0.9
     },
     "FavoriteProductCategories": [
       "food",
-      "training",
-      "safety"
+      "treats",
+      "litter"
     ],
     "CategoryScores": {
-      "food": 0.8,
-      "training": 0.7,
-      "safety": 0.6
+      "food": 0.9,
+      "treats": 0.8,
+      "litter": 0.7
     },
     "BrandPreferences": [
-      "Holistic Select",
-      "Educator By E-Collar Technologies"
+      "Temptations",
+      "Fresh Step",
+      "Friskies"
     ],
     "BrandScores": {
-      "Holistic Select": 0.8,
-      "Educator By E-Collar Technologies": 0.7
+      "Temptations": 0.9,
+      "Fresh Step": 0.8,
+      "Friskies": 0.7
     },
     "DietaryPreferences": [
-      "balanced",
-      "chicken-based"
+      "grain-free"
     ],
     "DietaryScores": {
-      "balanced": 0.8,
-      "chicken-based": 0.7
+      "grain-free": 0.6
     },
     "BehavioralCues": [
-      "requires training",
-      "enjoys outdoor activities"
+      "enjoys treats",
+      "loves comfort"
     ],
     "BehavioralScores": {
-      "requires training": 0.8,
-      "enjoys outdoor activities": 0.7
+      "enjoys treats": 0.9,
+      "loves comfort": 0.8
     },
     "HealthMentions": [
-      "healthy",
-      "active"
+      "healthy"
     ],
     "HealthScores": {
-      "healthy": 0.8,
-      "active": 0.7
+      "healthy": 0.8
     },
     "MostOrderedProducts": [
-      "PetRageous Designs Batik Bones Pet Bowl, Sand, 7\", 5.5-cups",
-      "Paw Pods Heart Shape Dog & Cat Urn",
-      "Educator By E-Collar Technologies Educator Dog Training Collar Dual Charger"
+      "Temptations Classic Tasty Chicken Flavor Soft & Crunchy Cat Treats, 48-oz bag",
+      "Fresh Step Outstretch Long Lasting Febreze Freshness Scented Clumping Clay Cat Litter, 26-lb box",
+      "Friskies Classic Pate Liver & Chicken Dinner Canned Cat Food, 5.5-oz, case of 24"
     ],
-    "ConfidenceScore": 0.5,
-    "confidence_score": 0.8666666666666667,
+    "ConfidenceScore": 0.0,
+    "confidence_score": 0.8333333333333334,
     "name": "Francis"
   },
   "Moe": {
     "PetName": "Moe",
-    "PetType": "dog",
-    "PetTypeScore": 0.9,
+    "PetType": "Dog",
+    "PetTypeScore": 1.0,
     "Breed": "Mixed / Unknown",
-    "BreedScore": 0.9,
-    "LifeStage": "a",
-    "LifeStageScore": 0.9,
-    "Gender": "fmle",
-    "GenderScore": 0.9,
-    "SizeCategory": "extra small",
-    "SizeScore": 0.9,
-    "Weight": "60-80 lbs",
-    "WeightScore": 0.7,
+    "BreedScore": 1.0,
+    "LifeStage": "8",
+    "LifeStageScore": 1.0,
+    "Gender": "FMLE",
+    "GenderScore": 1.0,
+    "SizeCategory": "UNK",
+    "SizeScore": 0.0,
+    "Weight": "11",
+    "WeightScore": 1.0,
     "PersonalityTraits": [
       "playful",
-      "active",
-      "curious"
+      "curious",
+      "affectionate"
     ],
     "PersonalityScores": {
-      "playful": 0.7,
-      "active": 0.8,
-      "curious": 0.6
+      "playful": 0.8,
+      "curious": 0.7,
+      "affectionate": 0.9
     },
     "FavoriteProductCategories": [
       "food",
-      "training",
-      "safety"
+      "treats",
+      "litter"
     ],
     "CategoryScores": {
-      "food": 0.8,
-      "training": 0.7,
-      "safety": 0.6
+      "food": 0.9,
+      "treats": 0.8,
+      "litter": 0.7
     },
     "BrandPreferences": [
-      "Holistic Select",
-      "Educator By E-Collar Technologies"
+      "Temptations",
+      "Fresh Step",
+      "Friskies"
     ],
     "BrandScores": {
-      "Holistic Select": 0.8,
-      "Educator By E-Collar Technologies": 0.7
+      "Temptations": 0.9,
+      "Fresh Step": 0.8,
+      "Friskies": 0.7
     },
     "DietaryPreferences": [
-      "balanced",
-      "chicken-based"
+      "grain-free"
     ],
     "DietaryScores": {
-      "balanced": 0.8,
-      "chicken-based": 0.7
+      "grain-free": 0.6
     },
     "BehavioralCues": [
-      "requires training",
-      "enjoys outdoor activities"
+      "enjoys treats",
+      "loves comfort"
     ],
     "BehavioralScores": {
-      "requires training": 0.8,
-      "enjoys outdoor activities": 0.7
+      "enjoys treats": 0.9,
+      "loves comfort": 0.8
     },
     "HealthMentions": [
-      "healthy",
-      "active"
+      "healthy"
     ],
     "HealthScores": {
-      "healthy": 0.8,
-      "active": 0.7
+      "healthy": 0.8
     },
     "MostOrderedProducts": [
-      "PetRageous Designs Batik Bones Pet Bowl, Sand, 7\", 5.5-cups",
-      "Paw Pods Heart Shape Dog & Cat Urn",
-      "Educator By E-Collar Technologies Educator Dog Training Collar Dual Charger"
+      "Temptations Classic Tasty Chicken Flavor Soft & Crunchy Cat Treats, 48-oz bag",
+      "Fresh Step Outstretch Long Lasting Febreze Freshness Scented Clumping Clay Cat Litter, 26-lb box",
+      "Friskies Classic Pate Liver & Chicken Dinner Canned Cat Food, 5.5-oz, case of 24"
     ],
-    "ConfidenceScore": 0.5,
-    "confidence_score": 0.8666666666666667,
+    "ConfidenceScore": 0.0,
+    "confidence_score": 0.8333333333333334,
     "name": "Moe"
   },
-  "cust_confidence_score": 0.8666666666666667
+  "cust_confidence_score": 0.8333333333333334
 }

@@ -1,0 +1,19 @@
+{
+  "customer_id": "5812",
+  "unknown_attributes": {
+    "Abby": {
+      "pet_name": "Abby",
+      "unknown_fields": [
+        "MEDICATION"
+      ]
+    },
+    "Finnley (Finn)": {
+      "pet_name": "Finnley (Finn)",
+      "unknown_fields": [
+        "MEDICATION"
+      ]
+    }
+  },
+  "total_unknowns": 2,
+  "pets_with_unknowns": 2
+}

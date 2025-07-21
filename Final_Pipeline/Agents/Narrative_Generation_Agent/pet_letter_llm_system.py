@@ -300,6 +300,7 @@ STEP 3 — GENERATE THE VISUAL PROMPT:
   - Handle NULL/UNK values gracefully - only mention traits that have actual values.
 - Do NOT make up any physical characteristics that are not explicitly given.
 - Include **Chewy branding subtly** — e.g., on a toy bin, food bowl, scarf label, or poster in the background.
+- **LIGHTING AND BRIGHTNESS: The scene should be bright and well-lit with vibrant, cheerful lighting. Use bright, warm lighting that illuminates the pets clearly. Avoid dark shadows or dim lighting. The overall atmosphere should be bright, sunny, and uplifting.**
 - The scene should be sophisticated, artistic, wholesome, warm, and inviting with joyous energy, suitable for a refined artistic pet portrait that customers would love to receive.
 
 STEP 4 — ASSIGN HOUSEHOLD PERSONALITY BADGE:
@@ -762,7 +763,7 @@ P.S. Can we have an extra treat for being such good pets? Pretty please with a p
         
         # Ensure we have exactly the right number of pets
         pet_count = len(sample_pet_data)
-        visual_prompt = f"""In a cozy, whimsical living room, {', '.join(pet_descriptions)} are enjoying their time together. The scene features EXACTLY {pet_count} pets as the main focus - no more, no less. The scene is filled with warm lighting and comfortable furniture. Chewy branding is subtly visible on a toy bin in the corner and a food bowl on the floor. The pets are surrounded by various beloved pet items including toys, food, and cozy accessories, creating a joyful and content atmosphere. The overall style is warm, colorful, and full of pet-loving charm."""
+        visual_prompt = f"""In a bright, sunny, and cozy living room, {', '.join(pet_descriptions)} are enjoying their time together. The scene features EXACTLY {pet_count} pets as the main focus - no more, no less. The scene is filled with bright, warm lighting that illuminates everything clearly, with comfortable furniture. Chewy branding is subtly visible on a toy bin in the corner and a food bowl on the floor. The pets are surrounded by various beloved pet items including toys, food, and cozy accessories, creating a joyful and content atmosphere. The overall style is bright, warm, colorful, and full of pet-loving charm with vibrant, cheerful lighting."""
         
         # Per-pet badge assignment using LLM
         pets_output = []

@@ -16,7 +16,7 @@ def generate_image_from_prompt(visual_prompt: str, api_key: str, output_path: st
     
     try:
         # Art style prompt to ensure consistency
-        default_art_style = "Soft, blended brushstrokes that mimic traditional oil or gouache painting. Warm, glowing lighting with gentle ambient highlights and diffuse shadows. Vivid yet harmonious color palette, featuring saturated pastels and rich warm tones. Subtle texture that gives a hand-painted, storybook feel. Sparkle accents and light flares to add magical charm. Smooth gradients and soft edges, avoiding harsh lines or stark contrast. A dreamy, nostalgic tone evocative of classic children's book illustrations. "
+        default_art_style = "Soft, blended brushstrokes that mimic traditional oil or gouache painting. Bright, warm lighting with vibrant illumination and gentle ambient highlights. Vivid yet harmonious color palette, featuring saturated pastels and rich warm tones. Subtle texture that gives a hand-painted, storybook feel. Sparkle accents and light flares to add magical charm. Smooth gradients and soft edges, avoiding harsh lines or stark contrast. Bright, cheerful atmosphere with clear, well-lit subjects. A dreamy, nostalgic tone evocative of classic children's book illustrations. "
         
         # Combine art style with visual prompt
         prompt = default_art_style + visual_prompt
