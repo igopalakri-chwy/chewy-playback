@@ -1,42 +1,6 @@
 {
-  "Moe": {
-    "customer_id": "7653",
-    "pet_name": "Moe",
-    "prediction_timestamp": "2025-07-10T14:06:06.648803",
-    "breed_distribution": {
-      "goldenRetriever": 20.0,
-      "labradorRetriever": 20.0,
-      "germanShepherd": 20.0,
-      "boxer": 20.0,
-      "beagle": 20.0
-    },
-    "confidence": {
-      "score": 20,
-      "level": "Low",
-      "reliability_flags": [
-        "LLM prediction failed"
-      ],
-      "recommendations": [
-        "Consider manual breed assessment"
-      ]
-    },
-    "explanations": {},
-    "pet_profile_used": {
-      "age": "a",
-      "size": "extra small",
-      "gender": "fmle",
-      "order_count": 39,
-      "health_indicators": [
-        "playful",
-        "curious",
-        "affectionate",
-        "requires training",
-        "safety-conscious"
-      ]
-    },
-    "top_predicted_breed": {
-      "breed": "goldenRetriever",
-      "percentage": 20.0
-    }
-  }
+  "customer_id": "7653",
+  "pet_name": "Moe",
+  "predicted_breed": "Unknown Breed",
+  "confidence": 27.0
 }

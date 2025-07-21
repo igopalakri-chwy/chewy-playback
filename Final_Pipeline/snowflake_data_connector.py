@@ -250,7 +250,7 @@ class SnowflakeDataConnector:
         customer_data = self.get_customer_data(customer_id)
         formatted_data = self.format_data_for_pipeline(customer_id, customer_data)
         
-        if formatted_data['order_data']:
+        if formatted_data['order_data'] and len(formatted_data['order_data']) > 0:
             return pd.DataFrame(formatted_data['order_data'])
         else:
             return pd.DataFrame()
@@ -268,7 +268,7 @@ class SnowflakeDataConnector:
         customer_data = self.get_customer_data(customer_id)
         formatted_data = self.format_data_for_pipeline(customer_id, customer_data)
         
-        if formatted_data['review_data']:
+        if formatted_data['review_data'] and len(formatted_data['review_data']) > 0:
             return pd.DataFrame(formatted_data['review_data'])
         else:
             return pd.DataFrame()
@@ -286,7 +286,7 @@ class SnowflakeDataConnector:
         customer_data = self.get_customer_data(customer_id)
         formatted_data = self.format_data_for_pipeline(customer_id, customer_data)
         
-        if formatted_data['pet_data']:
+        if formatted_data['pet_data'] and len(formatted_data['pet_data']) > 0:
             return pd.DataFrame(formatted_data['pet_data'])
         else:
             return pd.DataFrame()

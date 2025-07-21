@@ -566,15 +566,22 @@ class BreedPredictorAgent:
         """
         # Get the top predicted breed
         breed_distribution = prediction.get('breed_distribution', {})
-        if not breed_distribution:
-            return {}
-        
-        # Find the breed with highest percentage
-        top_breed = max(breed_distribution.items(), key=lambda x: x[1])
         
         # Get confidence score
         confidence_data = prediction.get('confidence', {})
         confidence_score = confidence_data.get('score', 0)
+        
+        if not breed_distribution:
+            # If no breed distribution, return a fallback with "Unknown Breed"
+            return {
+                "customer_id": customer_id,
+                "pet_name": pet_name,
+                "predicted_breed": "Unknown Breed",
+                "confidence": confidence_score
+            }
+        
+        # Find the breed with highest percentage
+        top_breed = max(breed_distribution.items(), key=lambda x: x[1])
         
         # Convert breed name to readable format
         breed_name = top_breed[0].replace('_', ' ').title()
