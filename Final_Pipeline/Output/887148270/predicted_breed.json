@@ -2,25 +2,34 @@
   "Gigi": {
     "customer_id": "887148270",
     "pet_name": "Gigi",
-    "prediction_timestamp": "2025-07-21T11:43:06.711827",
+    "prediction_timestamp": "2025-07-21T13:17:10.687600",
     "breed_distribution": {
-      "goldenRetriever": 20.0,
-      "labradorRetriever": 20.0,
-      "germanShepherd": 20.0,
-      "boxer": 20.0,
-      "beagle": 20.0
+      "beagle": 30.0,
+      "bostonTerrier": 30.0,
+      "miniaturePinscher": 20.0,
+      "shihTzu": 20.0
     },
     "confidence": {
-      "score": 20,
+      "score": 36.5,
       "level": "Low",
       "reliability_flags": [
-        "LLM prediction failed"
+        "LIMITED_CATEGORIES",
+        "SHORT_TIME_SPAN",
+        "SINGLE_CATEGORY_DOMINANT"
       ],
       "recommendations": [
-        "Consider manual breed assessment"
+        "Encourage purchases across different categories (toys, grooming, accessories)",
+        "Extend observation period to capture seasonal purchase patterns",
+        "Ensure detailed product descriptions and categorization",
+        "Consider purchases in: grooming products, toys/enrichment items, accessories (collars, leashes)"
       ]
     },
-    "explanations": {},
+    "explanations": {
+      "beagle": "This breed matches because it has health profile matches as Beagles commonly experience joint problems like hip dysplasia, dental care needs match Beagles' tendency toward dental problems, and 2 other compatible characteristics.",
+      "bostonTerrier": "This breed matches because it has excellent apartment living compatibility (score: 5/5) and low-maintenance grooming needs (score: 1/5) align with minimal grooming product purchases.",
+      "miniaturePinscher": "This breed matches because it has health profile matches as Miniature Pinschers commonly experience joint problems like hip dysplasia, health profile matches as Miniature Pinschers commonly experience joint problems like hip dysplasia, and 2 other compatible characteristics.",
+      "shihTzu": "This breed matches because it has health profile matches as Shih Tzus commonly experience joint problems like hip dysplasia, health profile matches as Shih Tzus commonly experience joint problems like hip dysplasia, and 1 other compatible characteristics."
+    },
     "pet_profile_used": {
       "age": "5",
       "size": "UNK",
@@ -32,32 +41,41 @@
       ]
     },
     "top_predicted_breed": {
-      "breed": "goldenRetriever",
-      "percentage": 20.0
+      "breed": "beagle",
+      "percentage": 30.0
     }
   },
   "Daniel": {
     "customer_id": "887148270",
     "pet_name": "Daniel",
-    "prediction_timestamp": "2025-07-21T11:43:10.397316",
+    "prediction_timestamp": "2025-07-21T13:17:13.880968",
     "breed_distribution": {
+      "beagle": 40.0,
+      "labradorRetriever": 30.0,
       "goldenRetriever": 20.0,
-      "labradorRetriever": 20.0,
-      "germanShepherd": 20.0,
-      "boxer": 20.0,
-      "beagle": 20.0
+      "bostonTerrier": 10.0
     },
     "confidence": {
-      "score": 20,
+      "score": 38.5,
       "level": "Low",
       "reliability_flags": [
-        "LLM prediction failed"
+        "LIMITED_CATEGORIES",
+        "SHORT_TIME_SPAN",
+        "SINGLE_CATEGORY_DOMINANT"
       ],
       "recommendations": [
-        "Consider manual breed assessment"
+        "Encourage purchases across different categories (toys, grooming, accessories)",
+        "Extend observation period to capture seasonal purchase patterns",
+        "Ensure detailed product descriptions and categorization",
+        "Consider purchases in: grooming products, toys/enrichment items, accessories (collars, leashes)"
       ]
     },
-    "explanations": {},
+    "explanations": {
+      "beagle": "This breed matches because it has good lifespan compatibility with Beagles living 10 to 15 years, health profile matches as Beagles commonly experience joint problems like hip dysplasia, and 3 other compatible characteristics.",
+      "labradorRetriever": "This breed matches because it has good lifespan compatibility with Labrador Retrievers living 11 to 13 years, health profile matches as Labrador Retrievers commonly experience joint problems like hip dysplasia, and 3 other compatible characteristics.",
+      "goldenRetriever": "This breed matches because it has good lifespan compatibility with Golden Retrievers living 10 to 12 years, health indicators align with Golden Retrievers' predisposition to skin conditions and allergies, and 5 other compatible characteristics.",
+      "bostonTerrier": "This breed matches because it has good lifespan compatibility with Boston Terriers living 11\u201313 years, excellent apartment living compatibility (score: 5/5), and 1 other compatible characteristics."
+    },
     "pet_profile_used": {
       "age": "12",
       "size": "UNK",
@@ -69,8 +87,8 @@
       ]
     },
     "top_predicted_breed": {
-      "breed": "goldenRetriever",
-      "percentage": 20.0
+      "breed": "beagle",
+      "percentage": 40.0
     }
   }
 }

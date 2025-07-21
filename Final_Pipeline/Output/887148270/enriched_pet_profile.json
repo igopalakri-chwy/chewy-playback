@@ -10,88 +10,8 @@
     "Gender": "FMLE",
     "GenderScore": 1.0,
     "SizeCategory": "Small",
-    "SizeScore": 0.8,
-    "Weight": "16",
-    "WeightScore": 1.0,
-    "PersonalityTraits": [
-      "UNK"
-    ],
-    "PersonalityScores": {
-      "UNK": 0.0
-    },
-    "FavoriteProductCategories": [
-      "Dog Food",
-      "Dog Treats",
-      "Dog Toys",
-      "Dog Hygiene"
-    ],
-    "CategoryScores": {
-      "Dog Food": 0.9,
-      "Dog Treats": 0.8,
-      "Dog Toys": 0.7,
-      "Dog Hygiene": 0.7
-    },
-    "BrandPreferences": [
-      "Blue Buffalo",
-      "Farmland Traditions",
-      "Chuckit!",
-      "OraVet",
-      "LESOTC",
-      "Frisco",
-      "Natural Dog Company"
-    ],
-    "BrandScores": {
-      "Blue Buffalo": 0.9,
-      "Farmland Traditions": 0.7,
-      "Chuckit!": 0.7,
-      "OraVet": 0.7,
-      "LESOTC": 0.6,
-      "Frisco": 0.6,
-      "Natural Dog Company": 0.6
-    },
-    "DietaryPreferences": [
-      "Chicken",
-      "Grain-Free"
-    ],
-    "DietaryScores": {
-      "Chicken": 0.9,
-      "Grain-Free": 0.8
-    },
-    "BehavioralCues": [
-      "UNK"
-    ],
-    "BehavioralScores": {
-      "UNK": 0.0
-    },
-    "HealthMentions": [
-      "UNK"
-    ],
-    "HealthScores": {
-      "UNK": 0.0
-    },
-    "MostOrderedProducts": [
-      "Blue Buffalo Life Protection Formula Adult Chicken & Brown Rice Recipe Dry Dog Food, 34-lb bag",
-      "Blue Buffalo Wilderness Trail Treats Chicken Wild Bits Grain-Free Training Dog Treats, 10-oz bag",
-      "Farmland Traditions USA Dogs Love Chicken Grain-Free Jerky Strips Dog Treats, 3-lb bag",
-      "Blue Buffalo Life Protection Formula Adult Chicken & Brown Rice Recipe Dry Dog Food, 5-lb bag",
-      "Chuckit! Ultra Rubber Ball Tough Dog Toy, Medium, 2 pack"
-    ],
-    "confidence_score": 0.9666666666666667,
-    "name": "Maxine"
-  },
-  "Theo": {
-    "PetName": "Theo",
-    "PetType": "Dog",
-    "PetTypeScore": 1.0,
-    "Breed": "Shih Tzu",
-    "BreedScore": 1.0,
-    "LifeStage": "3",
-    "LifeStageScore": 1.0,
-    "Gender": "MALE",
-    "GenderScore": 1.0,
-    "SizeCategory": "Small",
     "SizeScore": 0.9,
-    "Weight": "10",
+    "Weight": "16",
     "WeightScore": 1.0,
     "PersonalityTraits": [
       "UNK"
@@ -131,11 +51,13 @@
     },
     "DietaryPreferences": [
       "Chicken",
+      "Brown Rice",
       "Grain-Free"
     ],
     "DietaryScores": {
       "Chicken": 0.9,
-      "Grain-Free": 0.8
+      "Brown Rice": 0.8,
+      "Grain-Free": 0.7
     },
     "BehavioralCues": [
       "UNK"
@@ -144,10 +66,90 @@
       "UNK": 0.0
     },
     "HealthMentions": [
-      "UNK"
+      "Dental Hygiene"
     ],
     "HealthScores": {
+      "Dental Hygiene": 0.6
+    },
+    "MostOrderedProducts": [
+      "Blue Buffalo Life Protection Formula Adult Chicken & Brown Rice Recipe Dry Dog Food, 34-lb bag",
+      "Blue Buffalo Wilderness Trail Treats Chicken Wild Bits Grain-Free Training Dog Treats, 10-oz bag",
+      "Farmland Traditions USA Dogs Love Chicken Grain-Free Jerky Strips Dog Treats, 3-lb bag",
+      "Blue Buffalo Life Protection Formula Adult Chicken & Brown Rice Recipe Dry Dog Food, 5-lb bag",
+      "Chuckit! Ultra Rubber Ball Tough Dog Toy, Medium, 2 pack"
+    ],
+    "confidence_score": 0.9833333333333334,
+    "name": "Maxine"
+  },
+  "Theo": {
+    "PetName": "Theo",
+    "PetType": "Dog",
+    "PetTypeScore": 1.0,
+    "Breed": "Shih Tzu",
+    "BreedScore": 1.0,
+    "LifeStage": "3",
+    "LifeStageScore": 1.0,
+    "Gender": "MALE",
+    "GenderScore": 1.0,
+    "SizeCategory": "Small",
+    "SizeScore": 0.9,
+    "Weight": "10",
+    "WeightScore": 1.0,
+    "PersonalityTraits": [
+      "UNK"
+    ],
+    "PersonalityScores": {
       "UNK": 0.0
+    },
+    "FavoriteProductCategories": [
+      "Dog Food",
+      "Dog Treats",
+      "Dog Toys",
+      "Dog Hygiene"
+    ],
+    "CategoryScores": {
+      "Dog Food": 1.0,
+      "Dog Treats": 0.9,
+      "Dog Toys": 0.8,
+      "Dog Hygiene": 0.7
+    },
+    "BrandPreferences": [
+      "Blue Buffalo",
+      "Farmland Traditions",
+      "Chuckit!",
+      "OraVet",
+      "LESOTC",
+      "Frisco",
+      "Natural Dog Company"
+    ],
+    "BrandScores": {
+      "Blue Buffalo": 1.0,
+      "Farmland Traditions": 0.9,
+      "Chuckit!": 0.8,
+      "OraVet": 0.7,
+      "LESOTC": 0.6,
+      "Frisco": 0.5,
+      "Natural Dog Company": 0.4
+    },
+    "DietaryPreferences": [
+      "Chicken",
+      "Grain-Free"
+    ],
+    "DietaryScores": {
+      "Chicken": 1.0,
+      "Grain-Free": 0.9
+    },
+    "BehavioralCues": [
+      "UNK"
+    ],
+    "BehavioralScores": {
+      "UNK": 0.0
+    },
+    "HealthMentions": [
+      "Dental Hygiene"
+    ],
+    "HealthScores": {
+      "Dental Hygiene": 0.7
     },
     "MostOrderedProducts": [
       "Blue Buffalo Life Protection Formula Adult Chicken & Brown Rice Recipe Dry Dog Food, 34-lb bag",
@@ -184,10 +186,10 @@
       "Dog Hygiene"
     ],
     "CategoryScores": {
-      "Dog Food": 0.9,
-      "Dog Treats": 0.8,
-      "Dog Toys": 0.7,
-      "Dog Hygiene": 0.6
+      "Dog Food": 1.0,
+      "Dog Treats": 0.9,
+      "Dog Toys": 0.8,
+      "Dog Hygiene": 0.7
     },
     "BrandPreferences": [
       "Blue Buffalo",
@@ -199,20 +201,22 @@
       "Natural Dog Company"
     ],
     "BrandScores": {
-      "Blue Buffalo": 0.9,
-      "Farmland Traditions": 0.8,
-      "Chuckit!": 0.7,
-      "OraVet": 0.6,
-      "LESOTC": 0.5,
-      "Frisco": 0.4,
-      "Natural Dog Company": 0.3
+      "Blue Buffalo": 1.0,
+      "Farmland Traditions": 0.9,
+      "Chuckit!": 0.8,
+      "OraVet": 0.7,
+      "LESOTC": 0.6,
+      "Frisco": 0.5,
+      "Natural Dog Company": 0.4
     },
     "DietaryPreferences": [
       "Chicken",
+      "Brown Rice",
       "Grain-Free"
     ],
     "DietaryScores": {
-      "Chicken": 0.9,
+      "Chicken": 1.0,
+      "Brown Rice": 0.9,
       "Grain-Free": 0.8
     },
     "BehavioralCues": [
@@ -222,10 +226,10 @@
       "UNK": 0.0
     },
     "HealthMentions": [
-      "Dental Hygiene"
+      "UNK"
     ],
     "HealthScores": {
-      "Dental Hygiene": 0.6
+      "UNK": 0.0
     },
     "MostOrderedProducts": [
       "Blue Buffalo Life Protection Formula Adult Chicken & Brown Rice Recipe Dry Dog Food, 34-lb bag",
@@ -339,10 +343,10 @@
       "Dog Hygiene"
     ],
     "CategoryScores": {
-      "Dog Food": 0.9,
-      "Dog Treats": 0.9,
-      "Dog Toys": 0.7,
-      "Dog Hygiene": 0.7
+      "Dog Food": 1.0,
+      "Dog Treats": 1.0,
+      "Dog Toys": 1.0,
+      "Dog Hygiene": 1.0
     },
     "BrandPreferences": [
       "Blue Buffalo",
@@ -354,23 +358,21 @@
       "Natural Dog Company"
     ],
     "BrandScores": {
-      "Blue Buffalo": 0.9,
-      "Farmland Traditions": 0.7,
-      "Chuckit!": 0.7,
-      "OraVet": 0.7,
-      "LESOTC": 0.6,
-      "Frisco": 0.6,
-      "Natural Dog Company": 0.6
+      "Blue Buffalo": 1.0,
+      "Farmland Traditions": 1.0,
+      "Chuckit!": 1.0,
+      "OraVet": 1.0,
+      "LESOTC": 1.0,
+      "Frisco": 1.0,
+      "Natural Dog Company": 1.0
     },
     "DietaryPreferences": [
       "Chicken",
-      "Brown Rice",
       "Grain-Free"
     ],
     "DietaryScores": {
-      "Chicken": 0.9,
-      "Brown Rice": 0.7,
-      "Grain-Free": 0.7
+      "Chicken": 1.0,
+      "Grain-Free": 1.0
     },
     "BehavioralCues": [
       "UNK"
@@ -389,10 +391,15 @@
       "Blue Buffalo Wilderness Trail Treats Chicken Wild Bits Grain-Free Training Dog Treats, 10-oz bag",
       "Farmland Traditions USA Dogs Love Chicken Grain-Free Jerky Strips Dog Treats, 3-lb bag",
       "Blue Buffalo Life Protection Formula Adult Chicken & Brown Rice Recipe Dry Dog Food, 5-lb bag",
-      "Chuckit! Ultra Rubber Ball Tough Dog Toy, Medium, 2 pack"
+      "Chuckit! Ultra Rubber Ball Tough Dog Toy, Medium, 2 pack",
+      "OraVet Hygiene Dental Chews for Small Dogs, 10-24 lbs., 30 count",
+      "LESOTC Outdoor Dog Water Bottle Dispenser, Light Blue",
+      "Frisco Refill Dog Poop Bags, Unscented, 900 count",
+      "Frisco Nail Trimmer for Dogs, Small",
+      "Natural Dog Company Sensitive Skin Dog Shampoo, 12-fl oz bottle"
     ],
     "confidence_score": 0.8333333333333334,
     "name": "Daniel"
   },
-  "cust_confidence_score": 0.89
+  "cust_confidence_score": 0.8933333333333333
 }

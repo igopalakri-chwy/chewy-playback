@@ -414,8 +414,15 @@ Your analysis:"""
         elif pet_size == 'M':
             explanation_parts.append(f"size fits the medium breed category")
         
-        # Age and lifespan matching
-        pet_age = pet_data.get('age')
+        # Age and lifespan matching - convert pet_age to int safely
+        pet_age_raw = pet_data.get('age')
+        pet_age = None
+        if pet_age_raw is not None:
+            try:
+                pet_age = int(pet_age_raw)
+            except (ValueError, TypeError):
+                pet_age = None
+                
         life_expectancy = breed_info.get('life_expectancy', '')
         if pet_age and life_expectancy:
             if pet_age >= 8 and '10 to 18' in life_expectancy:
