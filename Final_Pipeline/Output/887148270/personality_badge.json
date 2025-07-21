@@ -1,0 +1,10 @@
+{
+  "badge": "The Explorer",
+  "compatible_with": [
+    "The Athlete",
+    "The Daydreamer",
+    "The Cuddler"
+  ],
+  "icon_png": "the_explorer.png",
+  "description": "This household is full of energy and curiosity, always ready for the next play session or adventure."
+}
