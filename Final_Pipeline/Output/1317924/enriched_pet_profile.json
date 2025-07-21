@@ -100,11 +100,11 @@
       "Canned Cat Food"
     ],
     "CategoryScores": {
-      "Cat Litter": 1.0,
-      "Cat Multivitamin": 1.0,
-      "Cat Flea Treatment": 1.0,
-      "Dry Cat Food": 1.0,
-      "Canned Cat Food": 1.0
+      "Cat Litter": 0.9,
+      "Cat Multivitamin": 0.9,
+      "Cat Flea Treatment": 0.9,
+      "Dry Cat Food": 0.9,
+      "Canned Cat Food": 0.9
     },
     "BrandPreferences": [
       "Frisco",
@@ -114,17 +114,17 @@
       "Purina"
     ],
     "BrandScores": {
-      "Frisco": 1.0,
-      "VetriScience": 1.0,
-      "Advantage": 1.0,
-      "Farmina": 1.0,
-      "Purina": 1.0
+      "Frisco": 0.9,
+      "VetriScience": 0.9,
+      "Advantage": 0.9,
+      "Farmina": 0.9,
+      "Purina": 0.9
     },
     "DietaryPreferences": [
       "Grain-Free"
     ],
     "DietaryScores": {
-      "Grain-Free": 1.0
+      "Grain-Free": 0.9
     },
     "BehavioralCues": [
       "UNK"

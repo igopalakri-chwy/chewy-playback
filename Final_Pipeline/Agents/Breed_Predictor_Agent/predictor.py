@@ -51,7 +51,7 @@ class BreedPredictor:
         if not os.path.exists(breeds_dir):
             # Fallback to old location
             breeds_dir = os.path.join(os.path.dirname(__file__), 'data', 'breeds')
-            
+        
         if not os.path.exists(breeds_dir):
             raise FileNotFoundError(f"Breeds directory not found: {breeds_dir}")
             

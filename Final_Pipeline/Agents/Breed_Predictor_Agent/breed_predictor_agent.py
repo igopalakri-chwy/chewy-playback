@@ -103,44 +103,44 @@ class BreedPredictorAgent:
             print(f"    ⚠️ Could not get Snowflake data for customer {customer_id}: {e}")
             
             # Fallback to CSV files if Snowflake fails
-            order_files = [
-                "Data/zero_reviews.csv",
-                "Data/processed_orderhistory.csv", 
-                "Agents/Review_and_Order_Intelligence_Agent/processed_orderhistory.csv"
-            ]
-            
-            for order_file in order_files:
-                if os.path.exists(order_file):
-                    try:
-                        df = pd.read_csv(order_file)
+        order_files = [
+            "Data/zero_reviews.csv",
+            "Data/processed_orderhistory.csv", 
+            "Agents/Review_and_Order_Intelligence_Agent/processed_orderhistory.csv"
+        ]
+        
+        for order_file in order_files:
+            if os.path.exists(order_file):
+                try:
+                    df = pd.read_csv(order_file)
+                    
+                    # Check for customer ID in different column formats
+                    customer_col = None
+                    for col in ['CustomerID', 'CUSTOMER_ID', 'customer_id']:
+                        if col in df.columns:
+                            customer_col = col
+                            break
+                    
+                    if customer_col:
+                        customer_orders = df[df[customer_col].astype(str) == str(customer_id)]
                         
-                        # Check for customer ID in different column formats
-                        customer_col = None
-                        for col in ['CustomerID', 'CUSTOMER_ID', 'customer_id']:
-                            if col in df.columns:
-                                customer_col = col
-                                break
-                        
-                        if customer_col:
-                            customer_orders = df[df[customer_col].astype(str) == str(customer_id)]
+                        if not customer_orders.empty:
+                            # Convert to list of dictionaries
+                            for _, row in customer_orders.iterrows():
+                                order = {
+                                    'item_name': row.get('ProductName', row.get('item_name', row.get('ITEM_NAME', 'Unknown'))),
+                                    'category': 'Unknown',
+                                    'order_date': row.get('OrderDate', row.get('order_date', row.get('ORDER_DATE', ''))),
+                                    'quantity': row.get('Quantity', row.get('quantity', 1)),
+                                    'brand': row.get('Brand', row.get('brand', 'Chewy'))
+                                }
+                                order_data.append(order)
                             
-                            if not customer_orders.empty:
-                                # Convert to list of dictionaries
-                                for _, row in customer_orders.iterrows():
-                                    order = {
-                                        'item_name': row.get('ProductName', row.get('item_name', row.get('ITEM_NAME', 'Unknown'))),
-                                        'category': 'Unknown',
-                                        'order_date': row.get('OrderDate', row.get('order_date', row.get('ORDER_DATE', ''))),
-                                        'quantity': row.get('Quantity', row.get('quantity', 1)),
-                                        'brand': row.get('Brand', row.get('brand', 'Chewy'))
-                                    }
-                                    order_data.append(order)
-                                
-                                break  # Use first file that has data
-                                
-                    except Exception as e:
-                        print(f"Error reading {order_file}: {e}")
-                        continue
+                            break  # Use first file that has data
+                            
+                except Exception as e:
+                    print(f"Error reading {order_file}: {e}")
+                    continue
         
         return order_data
     

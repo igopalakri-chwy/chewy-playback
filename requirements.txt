@@ -12,7 +12,7 @@ pathlib2>=2.3.0
 # Breed Predictor Agent dependencies
 scikit-learn>=1.0.0
 matplotlib>=3.5.0
-seaborn>=0.11.0
+seaborn>=0.11.0 
 
 # Snowflake connectivity (Connector - compatible with Python 3.13)
 snowflake-connector-python>=3.0.0 

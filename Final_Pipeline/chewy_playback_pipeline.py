@@ -540,7 +540,7 @@ class ChewyPlaybackPipeline:
             self.openai_api_key = openai_api_key
         else:
             self.openai_api_key = os.getenv('OPENAI_API_KEY')
-            if not self.openai_api_key:
+        if not self.openai_api_key:
                 raise ValueError("OpenAI API key is required. Set OPENAI_API_KEY environment variable or pass it as a parameter.")
         
         # Initialize OpenAI client
@@ -999,9 +999,8 @@ class ChewyPlaybackPipeline:
             return []
     
     def _get_customer_orders_for_narrative(self, customer_id: str) -> List[Dict[str, Any]]:
-        """Get order data for a specific customer for narrative generation from cached data."""
+        """Get customer orders for narrative generation."""
         try:
-            # Get customer orders from cached data
             orders_df = self._get_cached_customer_orders_dataframe(customer_id)
             
             # Get customer address from cached data
@@ -1037,7 +1036,7 @@ class ChewyPlaybackPipeline:
             if collective_visual_prompt:
                 try:
                     # Base sophisticated artistic portrait style - wholesome, joyous, and refined
-                    base_artistic_style = "Sophisticated artistic pet portrait, wholesome and warm, joyous energy, refined illustration style, pets as the main focus, inviting atmosphere, elegant colors, cozy and cheerful mood, NOT cartoonish, artistic interpretation"
+                    base_artistic_style = "Sophisticated artistic pet portrait, wholesome and warm, joyous energy, refined illustration style, pets as the main focus, inviting atmosphere, elegant colors, cozy and cheerful mood, bright and well-lit with vibrant lighting, NOT cartoonish, artistic interpretation"
                     
                     # Use ZIP aesthetics for background and overall style influence
                     if zip_aesthetics and zip_aesthetics.get('visual_style'):
@@ -1259,6 +1258,67 @@ class ChewyPlaybackPipeline:
         except Exception as e:
             print(f"❌ Error running unknowns analyzer: {e}")
 
+    def run_food_consumption_analyzer(self, customer_ids: List[str] = None):
+        """Run the Food Consumption Analyzer to generate fun facts about food consumption."""
+        print("\n🍽️ Running Food Consumption Analyzer...")
+        
+        try:
+            # Import the food consumption analyzer
+            from Agents.Review_and_Order_Intelligence_Agent.food_consumption_analyzer import generate_food_fun_fact_json
+            
+            # If no specific customers provided, analyze all processed customers
+            if not customer_ids:
+                # Get all customer directories that have enriched profiles
+                customer_ids = []
+                for customer_dir in self.output_dir.iterdir():
+                    if customer_dir.is_dir() and customer_dir.name.isdigit():
+                        profile_path = customer_dir / "enriched_pet_profile.json"
+                        if profile_path.exists():
+                            customer_ids.append(customer_dir.name)
+            
+            customers_analyzed = 0
+            
+            for customer_id in customer_ids:
+                try:
+                    print(f"  🍖 Analyzing food consumption for customer {customer_id}...")
+                    
+                    # Get food consumption data from Snowflake
+                    food_data = self.snowflake_connector.get_customer_food_consumption(customer_id)
+                    
+                    if food_data:
+                        # Generate food fun facts
+                        food_fun_fact_json = generate_food_fun_fact_json(food_data)
+                        
+                        # Save to customer directory
+                        customer_dir = self.output_dir / customer_id
+                        food_fun_fact_path = customer_dir / "food_fun_fact.json"
+                        
+                        with open(food_fun_fact_path, 'w') as f:
+                            f.write(food_fun_fact_json)
+                        
+                        # Parse the JSON to get the message for display
+                        import json
+                        analysis_data = json.loads(food_fun_fact_json)
+                        total_lbs = analysis_data.get('total_food_lbs', 0)
+                        
+                        print(f"    ✅ Generated food fun facts: {total_lbs} lbs consumed")
+                        customers_analyzed += 1
+                    else:
+                        print(f"    ⚠️ No food consumption data found for customer {customer_id}")
+                        
+                except Exception as e:
+                    print(f"    ❌ Error analyzing food consumption for customer {customer_id}: {e}")
+            
+            if customers_analyzed > 0:
+                print(f"\n🍽️ Food Consumption Analysis Summary:")
+                print(f"   Customers analyzed: {customers_analyzed}")
+                print(f"   Food fun facts generated and saved to food_fun_fact.json files")
+            else:
+                print(f"\n⚠️ No food consumption data found for any customers")
+                
+        except Exception as e:
+            print(f"❌ Error running food consumption analyzer: {e}")
+
     def run_pipeline(self, customer_ids: List[str] = None):
         """Run the complete pipeline for specified customers or all customers."""
         print("🚀 Starting Chewy Playback Pipeline (Unified)")
@@ -1287,6 +1347,8 @@ class ChewyPlaybackPipeline:
             self.save_outputs(enriched_profiles, narrative_results, image_results, breed_predictions)
             # Run unknowns analyzer after saving outputs
             self.run_unknowns_analyzer(customer_ids)
+            # Run food consumption analyzer after unknowns analyzer
+            self.run_food_consumption_analyzer(customer_ids)
             
             # Show cache statistics
             cache_stats = self.get_cache_stats()

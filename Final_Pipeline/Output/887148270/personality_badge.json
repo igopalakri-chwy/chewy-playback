@@ -1,10 +1,10 @@
 {
-  "badge": "The Guardian",
+  "badge": "The Explorer",
   "compatible_with": [
-    "The Cuddler",
-    "The Daydreamer",
-    "The Explorer"
+    "The Athlete",
+    "The Trickster",
+    "The Daydreamer"
   ],
-  "icon_png": "the_guardian.png",
-  "description": "This fur-family is protective and loyal, always keeping a watchful eye on their loved ones and their favorite toys."
+  "icon_png": "the_explorer.png",
+  "description": "This household is full of curious adventurers, always ready to discover new joys, be it a durable rubber ball or a sunny spot in the modern suburban setting."
 }
