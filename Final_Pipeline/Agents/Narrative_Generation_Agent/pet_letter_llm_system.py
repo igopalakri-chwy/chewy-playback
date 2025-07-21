@@ -277,6 +277,7 @@ STEP 2 — GENERATE THE LETTER:
   - Reflect personality if traits are available.
   - **Incorporate only the tones and style cues** from `zip_aesthetics` to influence the mood and feel of the letter, but **do NOT directly mention any region, ZIP code, city, or style name** in the letter text.
   - Avoid marketing language or sounding like an ad.
+  - **Use proper letter formatting**: Include a space after the salutation (e.g., "Dear Human,\n\n"), a space before the ending (e.g., "\n\nWith all our love and zoomies,"), and keep the body text flowing naturally without excessive line breaks.
 
 STEP 3 — GENERATE THE VISUAL PROMPT:
 - **FIRST: Count the exact number of pets in sample_pet_data. The image must contain exactly this number of pets, no more, no less.**
@@ -655,9 +656,7 @@ Generate the JSON object:"""
         # Generate letter content based on data type
         letter = f"""Dear Human,
 
-We hope this letter finds you well and ready for some serious cuddle time! We've been having the most amazing zoomies of joy with all the incredible things you've brought into our lives, and we just had to write to tell you how much we love everything!
-
-"""
+We hope this letter finds you well and ready for some serious cuddle time! We've been having the most amazing zoomies of joy with all the incredible things you've brought into our lives, and we just had to write to tell you how much we love everything!"""
         
         # Add specific mentions based on data type
         if data_type == "reviews":
@@ -698,7 +697,7 @@ We hope this letter finds you well and ready for some serious cuddle time! We've
                 if type_mentions:
                     letter += f"We absolutely adore the {', '.join(type_mentions)} you've spoiled us with! "
         
-        letter += """It's like you've brought the thrill of the hunt right into our cozy home, and our tails haven't stopped wagging (or swishing, depending on who you ask)!
+        letter += f""" It's like you've brought the thrill of the hunt right into our cozy home, and our tails haven't stopped wagging (or swishing, depending on who you ask)!
 
 Every meal is like a gourmet feast, and we can't help but do our happy dance when you reach for the treat jar. The cozy things you've given us - whether it's soft beds, warm sweaters, or comfy spots - have made our home the most snuggle-approved place ever.
 
