@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Unknowns Analyzer
-Scans enriched_pet_profile.json files for "UNK" values and creates an unknowns.json file
+Scans query_2 pet profile data for null or "UNKN" values and creates an unknowns.json file
 with all unknown attributes for each customer and pet.
 """
 
@@ -17,19 +17,20 @@ logger = logging.getLogger(__name__)
 
 class UnknownsAnalyzer:
     """
-    Analyzes enriched pet profiles to identify and document unknown attributes.
+    Analyzes query_2 pet profile data to identify and document unknown attributes.
     """
     
-    def __init__(self):
+    def __init__(self, snowflake_connector=None):
         """Initialize the Unknowns Analyzer."""
         self.unknown_attributes = {}
+        self.snowflake_connector = snowflake_connector
     
-    def scan_profile_for_unknowns(self, profile_data: Dict[str, Any], customer_id: str) -> Dict[str, Any]:
+    def scan_pet_profile_data_for_unknowns(self, pet_profile_data: List[Dict[str, Any]], customer_id: str) -> Dict[str, Any]:
         """
-        Scan a single enriched pet profile for unknown attributes.
+        Scan query_2 pet profile data for null or "UNKN" values.
         
         Args:
-            profile_data: The enriched pet profile data
+            pet_profile_data: The raw pet profile data from query_2
             customer_id: The customer ID
             
         Returns:
@@ -42,36 +43,27 @@ class UnknownsAnalyzer:
             'pets_with_unknowns': 0
         }
         
-        # Handle different profile structures
-        if isinstance(profile_data, dict):
-            # Check if this is the new structure with nested pets
-            if 'pets' in profile_data:
-                pets_data = profile_data['pets']
-                customer_confidence = profile_data.get('cust_confidence_score', 0.0)
-            else:
-                # Old structure - treat the whole dict as pets data
-                pets_data = profile_data
-                customer_confidence = 0.0
-            
-            unknowns['customer_confidence_score'] = customer_confidence
-            
-            # Scan each pet's data
-            for pet_name, pet_data in pets_data.items():
-                if isinstance(pet_data, dict):
-                    pet_unknowns = self._scan_pet_data(pet_data, pet_name)
-                    if pet_unknowns:
-                        unknowns['unknown_attributes'][pet_name] = pet_unknowns
-                        unknowns['pets_with_unknowns'] += 1
-                        unknowns['total_unknowns'] += len(pet_unknowns['unknown_fields']) + len(pet_unknowns['unknown_scores']) + len(pet_unknowns['unknown_lists']) + len(pet_unknowns['unknown_dicts'])
+        if not pet_profile_data:
+            return unknowns
+        
+        # Scan each pet's profile data
+        for pet_record in pet_profile_data:
+            if isinstance(pet_record, dict):
+                pet_name = pet_record.get('PET_NAME', 'Unknown Pet')
+                pet_unknowns = self._scan_pet_profile_record(pet_record, pet_name)
+                if pet_unknowns:
+                    unknowns['unknown_attributes'][pet_name] = pet_unknowns
+                    unknowns['pets_with_unknowns'] += 1
+                    unknowns['total_unknowns'] += len(pet_unknowns['unknown_fields'])
         
         return unknowns
     
-    def _scan_pet_data(self, pet_data: Dict[str, Any], pet_name: str) -> Dict[str, Any]:
+    def _scan_pet_profile_record(self, pet_record: Dict[str, Any], pet_name: str) -> Dict[str, Any]:
         """
-        Scan a single pet's data for unknown attributes.
+        Scan a single pet's profile record for null or "UNKN" values.
         
         Args:
-            pet_data: The pet's profile data
+            pet_record: The pet's profile record from query_2
             pet_name: The pet's name
             
         Returns:
@@ -79,106 +71,72 @@ class UnknownsAnalyzer:
         """
         pet_unknowns = {
             'pet_name': pet_name,
-            'unknown_fields': [],
-            'unknown_scores': [],
-            'unknown_lists': [],
-            'unknown_dicts': []
+            'unknown_fields': []
         }
         
-        # Fields to exclude from unknown analysis
-        excluded_fields = {
-            'MostOrderedProducts', 'DietaryPreferences', 'HealthMentions', 
-            'BrandPreferences', 'PersonalityTraits', 'FavoriteProductCategories',
-            'BehavioralCues'
-        }
+        # Fields to check for null or "UNKN" values
+        fields_to_check = [
+            'PET_TYPE', 'PET_BREED', 'WEIGHT', 'GENDER', 'PET_AGE', 'MEDICATION'
+        ]
         
-        # Score fields to exclude from unknown analysis
-        excluded_score_fields = {
-            'PersonalityScores', 'CategoryScores', 'BrandScores', 
-            'DietaryScores', 'BehavioralScores', 'HealthScores',
-            'SizeScore', 'WeightScore', 'ConfidenceScore'
-        }
+        # Values that indicate unknown information
+        unknown_values = [None, "UNKN", "", "Mixed / Unknown", "Other", "None"]
         
-        for field_name, field_value in pet_data.items():
-            # Skip excluded fields
-            if field_name in excluded_fields:
-                continue
-                
-            # Check for "UNK" values (but include Breed even if it's Mixed/Unknown or Other)
-            if field_value == "UNK":
-                # Special handling for Breed - include it even if it's Mixed/Unknown or Other
-                if field_name == "Breed":
-                    pet_unknowns['unknown_fields'].append(field_name)
-                else:
-                    pet_unknowns['unknown_fields'].append(field_name)
+        for field_name in fields_to_check:
+            field_value = pet_record.get(field_name)
             
-            # Check for score fields that are 0.0 (indicating unknown)
-            elif field_name.endswith('Score') and isinstance(field_value, (int, float)) and field_value == 0.0:
-                # Skip excluded score fields
-                if field_name not in excluded_score_fields:
-                    pet_unknowns['unknown_scores'].append(field_name)
-            
-            # Check for empty lists (might indicate unknown preferences)
-            elif isinstance(field_value, list) and len(field_value) == 0:
-                # Skip excluded list fields
-                if field_name not in excluded_fields:
-                    pet_unknowns['unknown_lists'].append(field_name)
-            
-            # Check for empty dictionaries (might indicate unknown preferences)
-            elif isinstance(field_value, dict) and len(field_value) == 0:
-                # Skip excluded dict fields
-                if field_name not in excluded_score_fields:
-                    pet_unknowns['unknown_dicts'].append(field_name)
+            # Check for null or unknown values
+            if field_value in unknown_values:
+                pet_unknowns['unknown_fields'].append(field_name)
         
         # Only return if there are unknowns
-        if (pet_unknowns['unknown_fields'] or pet_unknowns['unknown_scores'] or 
-            pet_unknowns['unknown_lists'] or pet_unknowns['unknown_dicts']):
+        if pet_unknowns['unknown_fields']:
             return pet_unknowns
         else:
             return None
     
-    def analyze_customer_directory(self, customer_dir: Path) -> Dict[str, Any]:
+    def analyze_customer_pet_profiles(self, customer_id: str) -> Dict[str, Any]:
         """
-        Analyze a customer's output directory for unknown attributes.
+        Analyze a customer's pet profile data from query_2 for unknown attributes.
         
         Args:
-            customer_dir: Path to the customer's output directory
+            customer_id: The customer ID to analyze
             
         Returns:
             Dictionary containing analysis results
         """
-        profile_path = customer_dir / "enriched_pet_profile.json"
-        
-        if not profile_path.exists():
-            logger.warning(f"Profile not found: {profile_path}")
+        if not self.snowflake_connector:
+            logger.error("Snowflake connector not available")
             return None
         
         try:
-            with open(profile_path, 'r') as f:
-                profile_data = json.load(f)
+            # Get pet profile data from query_2
+            customer_data = self.snowflake_connector.get_customer_data(customer_id)
+            if not customer_data or 'query_2' not in customer_data:
+                logger.warning(f"No query_2 data found for customer {customer_id}")
+                return None
             
-            customer_id = customer_dir.name
-            unknowns = self.scan_profile_for_unknowns(profile_data, customer_id)
+            pet_profile_data = customer_data['query_2']
+            unknowns = self.scan_pet_profile_data_for_unknowns(pet_profile_data, customer_id)
             
             return unknowns
             
         except Exception as e:
-            logger.error(f"Error analyzing {profile_path}: {e}")
+            logger.error(f"Error analyzing pet profiles for customer {customer_id}: {e}")
             return None
     
     def analyze_single_customer(self, customer_id: str, output_dir: Path) -> Dict[str, Any]:
         """
-        Analyze a single customer's enriched profile for unknown attributes.
+        Analyze a single customer's pet profile data for unknown attributes.
         
         Args:
             customer_id: The customer ID to analyze
-            output_dir: Path to the output directory
+            output_dir: Path to the output directory (not used in this version)
             
         Returns:
             Dictionary containing analysis results for this customer
         """
-        customer_dir = output_dir / customer_id
-        return self.analyze_customer_directory(customer_dir)
+        return self.analyze_customer_pet_profiles(customer_id)
     
     def save_unknowns_json(self, analysis_results: Dict[str, Any], output_path: Path) -> bool:
         """
@@ -201,7 +159,7 @@ class UnknownsAnalyzer:
             return True
             
         except Exception as e:
-            logger.error(f"Error saving unknowns analysis: {e}")
+            logger.error(f"Error saving unknowns analysis to {output_path}: {e}")
             return False
 
 
@@ -243,12 +201,6 @@ def main():
                     print(f"\n🐾 {pet_name}:")
                     if pet_unknowns['unknown_fields']:
                         print(f"   Unknown fields: {', '.join(pet_unknowns['unknown_fields'])}")
-                    if pet_unknowns['unknown_scores']:
-                        print(f"   Unknown scores: {', '.join(pet_unknowns['unknown_scores'])}")
-                    if pet_unknowns['unknown_lists']:
-                        print(f"   Empty lists: {', '.join(pet_unknowns['unknown_lists'])}")
-                    if pet_unknowns['unknown_dicts']:
-                        print(f"   Empty dicts: {', '.join(pet_unknowns['unknown_dicts'])}")
             else:
                 print("❌ Failed to save unknowns analysis")
         else:

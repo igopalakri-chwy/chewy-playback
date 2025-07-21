@@ -1201,10 +1201,10 @@ class ChewyPlaybackPipeline:
             print(f"  ✅ Saved outputs for customer {customer_id}")
     
     def run_unknowns_analyzer(self, customer_ids: List[str] = None):
-        """Run the Unknowns Analyzer to identify unknown attributes in enriched profiles."""
+        """Run the Unknowns Analyzer to identify unknown attributes in pet profile data."""
         print("\n🔍 Running Unknowns Analyzer...")
         try:
-            analyzer = UnknownsAnalyzer()
+            analyzer = UnknownsAnalyzer(self.snowflake_connector)
             
             # If no specific customers provided, analyze all processed customers
             if not customer_ids:
@@ -1237,12 +1237,6 @@ class ChewyPlaybackPipeline:
                             print(f"    🐾 {pet_name}:")
                             if pet_unknowns['unknown_fields']:
                                 print(f"      Unknown fields: {', '.join(pet_unknowns['unknown_fields'])}")
-                            if pet_unknowns['unknown_scores']:
-                                print(f"      Unknown scores: {', '.join(pet_unknowns['unknown_scores'])}")
-                            if pet_unknowns['unknown_lists']:
-                                print(f"      Empty lists: {', '.join(pet_unknowns['unknown_lists'])}")
-                            if pet_unknowns['unknown_dicts']:
-                                print(f"      Empty dicts: {', '.join(pet_unknowns['unknown_dicts'])}")
                     else:
                         print(f"  ❌ Failed to save unknowns analysis for customer {customer_id}")
                 else:
