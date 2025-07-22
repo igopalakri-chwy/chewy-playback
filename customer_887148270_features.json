@@ -1,0 +1,33 @@
+{
+  "total_food_lbs": [
+    {
+      "TOTAL_LBS_CONSUMED": 0.0
+    }
+  ],
+  "donations": [],
+  "milestone_years": [
+    {
+      "MONTHS_WITH_CHEWY": 38
+    }
+  ],
+  "most_reordered": [
+    {
+      "PRODUCT_ID": 173045,
+      "NAME": "Apoquel (oclacitinib) Tablets for Dogs, 3.6-mg, 1 tablet",
+      "FULL_IMAGE": "//image.chewy.com/catalog/general/images/moe/06822510-2ffb-75ce-8000-8de870067df2,1",
+      "TOTAL_QUANTITY_ORDERED": 240
+    }
+  ],
+  "cuddliest_month": [
+    {
+      "MONTH": "Feb",
+      "TOTAL_ORDERS": 12
+    }
+  ],
+  "autoship_savings": [
+    {
+      "CUSTOMER_ID": "887148270",
+      "LIFETIME_SAVINGS": 1684.28
+    }
+  ]
+}
