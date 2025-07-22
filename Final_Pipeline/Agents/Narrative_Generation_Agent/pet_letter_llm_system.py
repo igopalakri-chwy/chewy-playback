@@ -732,7 +732,7 @@ P.S. Can we have an extra treat for being such good pets? Pretty please with a p
                     description_parts.append(f"a {breed} {pet_type}")
                 else:
                     description_parts.append(f"a domestic {pet_type}")
-                
+        
                 # Add size if available and not unknown
                 size = pet.get('size', pet.get('SizeCategory'))
                 if size and size.lower() not in ['unknown', 'unk']:

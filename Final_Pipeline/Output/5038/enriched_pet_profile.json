@@ -14,31 +14,29 @@
     "Weight": "5",
     "WeightScore": 1.0,
     "PersonalityTraits": [
-      "playful",
       "curious",
       "affectionate"
     ],
     "PersonalityScores": {
-      "playful": 0.8,
-      "curious": 0.7,
+      "curious": 0.8,
       "affectionate": 0.9
     },
     "FavoriteProductCategories": [
+      "litter",
       "food",
-      "treats",
-      "health"
+      "treats"
     ],
     "CategoryScores": {
-      "food": 0.9,
-      "treats": 0.8,
-      "health": 0.7
+      "litter": 0.9,
+      "food": 0.8,
+      "treats": 0.7
     },
     "BrandPreferences": [
-      "Rachael Ray",
+      "PrettyLitter",
       "Friskies"
     ],
     "BrandScores": {
-      "Rachael Ray": 0.9,
+      "PrettyLitter": 0.9,
       "Friskies": 0.8
     },
     "DietaryPreferences": [
@@ -49,19 +47,17 @@
     },
     "BehavioralCues": [
       "enjoys treats",
-      "requires health monitoring"
+      "health-conscious"
     ],
     "BehavioralScores": {
       "enjoys treats": 0.8,
-      "requires health monitoring": 0.7
+      "health-conscious": 0.7
     },
     "HealthMentions": [
-      "healthy",
-      "active"
+      "healthy"
     ],
     "HealthScores": {
-      "healthy": 0.8,
-      "active": 0.7
+      "healthy": 0.8
     },
     "MostOrderedProducts": [
       "PrettyLitter Health Monitoring Cat Litter, 8-lb bag",
@@ -87,31 +83,29 @@
     "Weight": "10",
     "WeightScore": 1.0,
     "PersonalityTraits": [
-      "playful",
       "curious",
       "affectionate"
     ],
     "PersonalityScores": {
-      "playful": 0.8,
-      "curious": 0.7,
+      "curious": 0.8,
       "affectionate": 0.9
     },
     "FavoriteProductCategories": [
+      "litter",
       "food",
-      "treats",
-      "health"
+      "treats"
     ],
     "CategoryScores": {
-      "food": 0.9,
-      "treats": 0.8,
-      "health": 0.7
+      "litter": 0.9,
+      "food": 0.8,
+      "treats": 0.7
     },
     "BrandPreferences": [
-      "Rachael Ray",
+      "PrettyLitter",
       "Friskies"
     ],
     "BrandScores": {
-      "Rachael Ray": 0.9,
+      "PrettyLitter": 0.9,
       "Friskies": 0.8
     },
     "DietaryPreferences": [
@@ -122,19 +116,17 @@
     },
     "BehavioralCues": [
       "enjoys treats",
-      "requires health monitoring"
+      "health-conscious"
     ],
     "BehavioralScores": {
       "enjoys treats": 0.8,
-      "requires health monitoring": 0.7
+      "health-conscious": 0.7
     },
     "HealthMentions": [
-      "healthy",
-      "active"
+      "healthy"
     ],
     "HealthScores": {
-      "healthy": 0.8,
-      "active": 0.7
+      "healthy": 0.8
     },
     "MostOrderedProducts": [
       "PrettyLitter Health Monitoring Cat Litter, 8-lb bag",
@@ -145,5 +137,7 @@
     "confidence_score": 0.8333333333333334,
     "name": "Mike"
   },
-  "cust_confidence_score": 0.8333333333333334
+  "cust_confidence_score": 0.8333333333333334,
+  "gets_playback": true,
+  "gets_personalized": true
 }

@@ -556,7 +556,7 @@ class ChewyPlaybackPipeline:
         self.breed_predictor_agent = BreedPredictorAgent()
         
         # Set up output directory
-        self.output_dir = Path("Output")
+        self.output_dir = Path(__file__).parent / "Output"
         self.output_dir.mkdir(exist_ok=True)
         
         # Data caching to avoid running the same Snowflake queries multiple times
@@ -701,11 +701,27 @@ class ChewyPlaybackPipeline:
             # Calculate customer confidence score
             if pet_confidence_scores:
                 customer_confidence_score = sum(pet_confidence_scores) / len(pet_confidence_scores)
-                results[customer_id] = {
-                    'pets': pets_data,
-                    'cust_confidence_score': customer_confidence_score
-                }
-                print(f"  🏠 {customer_id}: customer_confidence_score = {customer_confidence_score:.3f}")
+            else:
+                customer_confidence_score = 0.0
+
+            # Set gets_playback and gets_personalized flags
+            if customer_confidence_score > 0.6:
+                gets_playback = True
+                gets_personalized = True
+            elif customer_confidence_score > 0.3:
+                gets_playback = True
+                gets_personalized = False
+            else:
+                gets_playback = False
+                gets_personalized = False
+
+            results[customer_id] = {
+                'pets': pets_data,
+                'cust_confidence_score': customer_confidence_score,
+                'gets_playback': gets_playback,
+                'gets_personalized': gets_personalized
+            }
+            print(f"  🏠 {customer_id}: customer_confidence_score = {customer_confidence_score:.3f}, gets_playback = {gets_playback}, gets_personalized = {gets_personalized}")
         
         print("✅ Confidence scores added to all profiles")
         return results
@@ -1078,10 +1094,9 @@ class ChewyPlaybackPipeline:
         """Get customer orders for narrative generation."""
         try:
             orders_df = self._get_cached_customer_orders_dataframe(customer_id)
-            
             # Get customer address from cached data
             address_data = self._get_cached_customer_address(customer_id)
-            
+
             # Convert to list of dictionaries
             orders_list = []
             for _, row in orders_df.iterrows():
@@ -1091,7 +1106,7 @@ class ChewyPlaybackPipeline:
                     'pet_name': ''  # Not available in current query structure
                 }
                 orders_list.append(order)
-            
+
             return orders_list
         except Exception as e:
             print(f"Error getting orders for customer {customer_id}: {e}")
@@ -1191,10 +1206,12 @@ class ChewyPlaybackPipeline:
                 pets_data = customer_data
                 customer_confidence_score = 0.0
             
-            # Save enriched pet profile JSON (include customer confidence score)
+            # Save enriched pet profile JSON (include customer confidence score and flags)
             profile_data = {
                 **pets_data,
-                'cust_confidence_score': customer_confidence_score
+                'cust_confidence_score': customer_confidence_score,
+                'gets_playback': customer_data.get('gets_playback', False),
+                'gets_personalized': customer_data.get('gets_personalized', False)
             }
             profile_path = customer_dir / "enriched_pet_profile.json"
             with open(profile_path, 'w') as f:
@@ -1283,6 +1300,27 @@ class ChewyPlaybackPipeline:
                         print(f"    ❌ Unknown image data type for customer {customer_id}")
                 except Exception as e:
                     print(f"    ❌ Error saving collective image: {e}")
+            
+            # Run donation query and save output
+            if customer_id in enriched_profiles and enriched_profiles[customer_id].get('gets_playback', False) and not enriched_profiles[customer_id].get('gets_personalized', False):
+                print(f"  💰 Running donation query for customer {customer_id}...")
+                try:
+                    donation_results = self.snowflake_connector.get_customer_donations(customer_id)
+                    amt_donated = 0.0
+                    if donation_results and isinstance(donation_results, list):
+                        try:
+                            amt = donation_results[0].get('AMT_DONATED')
+                            if amt is not None:
+                                amt_donated = float(amt)
+                        except Exception:
+                            amt_donated = 0.0
+                    # Save to customer_donations.json
+                    donation_path = customer_dir / "customer_donations.json"
+                    with open(donation_path, 'w') as f:
+                        json.dump({"amt_donated": amt_donated}, f, indent=2)
+                    print(f"    ✅ Saved donation results for customer {customer_id}: {amt_donated} USD")
+                except Exception as e:
+                    print(f"    ❌ Error running donation query for customer {customer_id}: {e}")
             
             print(f"  ✅ Saved outputs for customer {customer_id}")
     
@@ -1403,42 +1441,66 @@ class ChewyPlaybackPipeline:
         """Run the complete pipeline for specified customers or all customers."""
         print("🚀 Starting Chewy Playback Pipeline (Unified)")
         print("=" * 50)
-        
         try:
             # Clear cache to ensure fresh data
             self.clear_cache()
-            
             # Step 1: Preprocess data
             self.preprocess_data()
-            
             # Step 2: Run Intelligence Agent (Review-based or Order-based)
             enriched_profiles = self.run_intelligence_agent(customer_ids)
-            
-            # Step 3: Run Narrative Generation Agent
-            narrative_results = self.run_narrative_generation_agent(enriched_profiles)
-            
-            # Step 4: Run Breed Predictor Agent
-            breed_predictions = self.run_breed_predictor_agent(enriched_profiles)
-            
-            # Step 5: Run Image Generation Agent
-            image_results = self.run_image_generation_agent(narrative_results)
-            
+
+            # Prepare per-customer outputs
+            narrative_results = {}
+            image_results = {}
+            breed_predictions = {}
+            eligible_for_narrative = []
+            for customer_id, profile in enriched_profiles.items():
+                gets_playback = profile.get('gets_playback', False)
+                gets_personalized = profile.get('gets_personalized', False)
+                # Always run breed predictor for gets_playback
+                breed_pred = self.run_breed_predictor_agent({customer_id: profile})
+                breed_predictions[customer_id] = breed_pred.get(customer_id, {})
+                if gets_playback and gets_personalized:
+                    # Run narrative and image generation
+                    narrative = self.run_narrative_generation_agent({customer_id: profile})
+                    narrative_results[customer_id] = narrative.get(customer_id, {})
+                    image = self.run_image_generation_agent({customer_id: narrative_results[customer_id]})
+                    image_results[customer_id] = image.get(customer_id, None)
+                    eligible_for_narrative.append(customer_id)
+                else:
+                    # No narrative/image/badge for this customer
+                    narrative_results[customer_id] = {}
+                    image_results[customer_id] = None
+                    # Run donation query and save output
+                    customer_data = self._get_cached_customer_data(customer_id)
+                    donation_results = customer_data.get('query_6', [])
+                    amt_donated = 0.0
+                    if donation_results and isinstance(donation_results, list):
+                        try:
+                            amt = donation_results[0].get('AMT_DONATED')
+                            if amt is not None:
+                                amt_donated = float(amt)
+                        except Exception:
+                            amt_donated = 0.0
+                    # Save to customer_donations.json
+                    customer_dir = self.output_dir / str(customer_id)
+                    customer_dir.mkdir(exist_ok=True)
+                    donation_path = customer_dir / "customer_donations.json"
+                    with open(donation_path, 'w') as f:
+                        json.dump({"amt_donated": amt_donated}, f, indent=2)
             # Step 6: Save all outputs
             self.save_outputs(enriched_profiles, narrative_results, image_results, breed_predictions)
             # Run unknowns analyzer after saving outputs
             self.run_unknowns_analyzer(customer_ids)
             # Run food consumption analyzer after unknowns analyzer
             self.run_food_consumption_analyzer(customer_ids)
-            
             # Show cache statistics
             cache_stats = self.get_cache_stats()
             print(f"\n📊 Cache Statistics:")
             print(f"   Customers cached: {cache_stats['cached_customers']}")
             print(f"   Queries saved: {cache_stats['total_queries_saved']}")
-            
             print("\n🎉 Pipeline completed successfully!")
             print(f"📁 Check the 'Output' directory for results")
-            
         except Exception as e:
             print(f"\n❌ Pipeline failed: {e}")
             raise

@@ -1,10 +1,10 @@
 {
   "badge": "The Explorer",
   "compatible_with": [
+    "The Cuddler",
     "The Trickster",
-    "The Athlete",
-    "The Daydreamer"
+    "The Scholar"
   ],
   "icon_png": "the_explorer.png",
-  "description": "This household is full of playful curiosity, boundless energy, and a spirit for adventure, making every day a new discovery."
+  "description": "The curious and affectionate duo, Monty and Mike, bring a lively, exploratory energy to the household with their playful antics and zest for life."
 }

@@ -24,38 +24,38 @@
       "affectionate": 0.9
     },
     "FavoriteProductCategories": [
-      "food toppers",
       "treats",
+      "food toppers",
       "toys"
     ],
     "CategoryScores": {
-      "food toppers": 0.9,
-      "treats": 0.8,
+      "treats": 0.9,
+      "food toppers": 0.8,
       "toys": 0.7
     },
     "BrandPreferences": [
       "Brutus Broth",
-      "Greenies"
+      "KONG"
     ],
     "BrandScores": {
       "Brutus Broth": 0.9,
-      "Greenies": 0.8
+      "KONG": 0.8
     },
     "DietaryPreferences": [
       "joint support",
-      "protein-rich"
+      "high-protein"
     ],
     "DietaryScores": {
       "joint support": 0.9,
-      "protein-rich": 0.7
+      "high-protein": 0.7
     },
     "BehavioralCues": [
-      "enjoys variety in diet",
-      "loves chew toys"
+      "enjoys treats",
+      "loves toys"
     ],
     "BehavioralScores": {
-      "enjoys variety in diet": 0.8,
-      "loves chew toys": 0.9
+      "enjoys treats": 0.9,
+      "loves toys": 0.8
     },
     "HealthMentions": [
       "joint health",
@@ -99,38 +99,38 @@
       "affectionate": 0.9
     },
     "FavoriteProductCategories": [
-      "food toppers",
       "treats",
+      "food toppers",
       "toys"
     ],
     "CategoryScores": {
-      "food toppers": 0.9,
-      "treats": 0.8,
+      "treats": 0.9,
+      "food toppers": 0.8,
       "toys": 0.7
     },
     "BrandPreferences": [
       "Brutus Broth",
-      "Greenies"
+      "KONG"
     ],
     "BrandScores": {
       "Brutus Broth": 0.9,
-      "Greenies": 0.8
+      "KONG": 0.8
     },
     "DietaryPreferences": [
       "joint support",
-      "protein-rich"
+      "high-protein"
     ],
     "DietaryScores": {
       "joint support": 0.9,
-      "protein-rich": 0.7
+      "high-protein": 0.7
     },
     "BehavioralCues": [
-      "enjoys variety in diet",
-      "loves chew toys"
+      "enjoys treats",
+      "loves toys"
     ],
     "BehavioralScores": {
-      "enjoys variety in diet": 0.8,
-      "loves chew toys": 0.9
+      "enjoys treats": 0.9,
+      "loves toys": 0.8
     },
     "HealthMentions": [
       "joint health",
@@ -174,38 +174,38 @@
       "affectionate": 0.9
     },
     "FavoriteProductCategories": [
-      "food toppers",
       "treats",
+      "food toppers",
       "toys"
     ],
     "CategoryScores": {
-      "food toppers": 0.9,
-      "treats": 0.8,
+      "treats": 0.9,
+      "food toppers": 0.8,
       "toys": 0.7
     },
     "BrandPreferences": [
       "Brutus Broth",
-      "Greenies"
+      "KONG"
     ],
     "BrandScores": {
       "Brutus Broth": 0.9,
-      "Greenies": 0.8
+      "KONG": 0.8
     },
     "DietaryPreferences": [
       "joint support",
-      "protein-rich"
+      "high-protein"
     ],
     "DietaryScores": {
       "joint support": 0.9,
-      "protein-rich": 0.7
+      "high-protein": 0.7
     },
     "BehavioralCues": [
-      "enjoys variety in diet",
-      "loves chew toys"
+      "enjoys treats",
+      "loves toys"
     ],
     "BehavioralScores": {
-      "enjoys variety in diet": 0.8,
-      "loves chew toys": 0.9
+      "enjoys treats": 0.9,
+      "loves toys": 0.8
     },
     "HealthMentions": [
       "joint health",
@@ -224,5 +224,7 @@
     "confidence_score": 0.8333333333333334,
     "name": "Laddoo"
   },
-  "cust_confidence_score": 0.8333333333333334
+  "cust_confidence_score": 0.8333333333333334,
+  "gets_playback": true,
+  "gets_personalized": true
 }
