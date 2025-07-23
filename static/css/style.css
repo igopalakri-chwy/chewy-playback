@@ -1645,14 +1645,57 @@ body::before {
     font-family: 'Poppins', 'Inter', sans-serif;
     font-size: 28px;
     font-weight: 700;
-    color: #ffffff;
+    color: #ffffff !important;
     text-align: center;
     position: relative;
     margin-bottom: 15px;
     width: 100%;
     padding: 0 20px;
     letter-spacing: -0.5px;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.3));
+}
+
+/* Force white color for all slide titles */
+.slide-title,
+.slide-title *,
+.slide-title span:not(.emoji),
+.slide-title h2,
+.slide-title h3,
+.slide-title p {
+    color: #ffffff !important;
+}
+
+/* Emoji colors for slide titles */
+.slide-title .emoji {
+    display: inline-block;
+    animation: emojiBounce 2s ease-in-out infinite;
+}
+
+/* Specific emoji colors */
+.slide-title .emoji.celebration {
+    color: #FFD700; /* Gold for celebration emojis */
+    text-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+}
+
+.slide-title .emoji.dog {
+    color: #8B4513; /* Brown for dog emojis */
+    text-shadow: 0 0 10px rgba(139, 69, 19, 0.5);
+}
+
+.slide-title .emoji.search {
+    color: #FF6B6B; /* Red for search emojis */
+    text-shadow: 0 0 10px rgba(255, 107, 107, 0.5);
+}
+
+.slide-title .emoji.paw {
+    color: #FF69B4; /* Pink for paw emojis */
+    text-shadow: 0 0 10px rgba(255, 105, 180, 0.5);
+}
+
+@keyframes emojiBounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-3px); }
 }
 
 .letter-container {
@@ -2755,6 +2798,11 @@ body::before {
     .slide-title {
         font-size: 24px;
         margin-bottom: 10px;
+        color: #ffffff !important;
+    }
+    
+    .slide-title .emoji {
+        font-size: 22px;
     }
     
     .letter-container {
