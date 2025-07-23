@@ -15,23 +15,21 @@
     "WeightScore": 1.0,
     "PersonalityTraits": [
       "sensitive",
-      "curious",
       "affectionate"
     ],
     "PersonalityScores": {
       "sensitive": 0.9,
-      "curious": 0.7,
       "affectionate": 0.8
     },
     "FavoriteProductCategories": [
       "food",
       "litter",
-      "treats"
+      "toppings"
     ],
     "CategoryScores": {
       "food": 0.9,
       "litter": 0.8,
-      "treats": 0.7
+      "toppings": 0.7
     },
     "BrandPreferences": [
       "Purina",
@@ -42,28 +40,28 @@
       "Inaba": 0.8
     },
     "DietaryPreferences": [
-      "sensitive stomach",
-      "natural"
+      "sensitive skin",
+      "digestive health"
     ],
     "DietaryScores": {
-      "sensitive stomach": 0.9,
-      "natural": 0.8
+      "sensitive skin": 0.9,
+      "digestive health": 0.9
     },
     "BehavioralCues": [
-      "sensitive digestion",
-      "enjoys variety"
+      "enjoys variety in diet",
+      "requires special care"
     ],
     "BehavioralScores": {
-      "sensitive digestion": 0.9,
-      "enjoys variety": 0.8
+      "enjoys variety in diet": 0.8,
+      "requires special care": 0.9
     },
     "HealthMentions": [
       "sensitive skin",
-      "healthy"
+      "sensitive stomach"
     ],
     "HealthScores": {
       "sensitive skin": 0.9,
-      "healthy": 0.8
+      "sensitive stomach": 0.9
     },
     "MostOrderedProducts": [
       "Purina ONE +Plus Sensitive Skin & Stomach Adult Natural Digestive Dry Cat Food, 16-lb bag",
@@ -90,23 +88,21 @@
     "WeightScore": 1.0,
     "PersonalityTraits": [
       "sensitive",
-      "curious",
       "affectionate"
     ],
     "PersonalityScores": {
       "sensitive": 0.9,
-      "curious": 0.7,
       "affectionate": 0.8
     },
     "FavoriteProductCategories": [
       "food",
       "litter",
-      "treats"
+      "toppings"
     ],
     "CategoryScores": {
       "food": 0.9,
       "litter": 0.8,
-      "treats": 0.7
+      "toppings": 0.7
     },
     "BrandPreferences": [
       "Purina",
@@ -117,28 +113,28 @@
       "Inaba": 0.8
     },
     "DietaryPreferences": [
-      "sensitive stomach",
-      "natural"
+      "sensitive skin",
+      "digestive health"
     ],
     "DietaryScores": {
-      "sensitive stomach": 0.9,
-      "natural": 0.8
+      "sensitive skin": 0.9,
+      "digestive health": 0.9
     },
     "BehavioralCues": [
-      "sensitive digestion",
-      "enjoys variety"
+      "enjoys variety in diet",
+      "requires special care"
     ],
     "BehavioralScores": {
-      "sensitive digestion": 0.9,
-      "enjoys variety": 0.8
+      "enjoys variety in diet": 0.8,
+      "requires special care": 0.9
     },
     "HealthMentions": [
       "sensitive skin",
-      "healthy"
+      "sensitive stomach"
     ],
     "HealthScores": {
       "sensitive skin": 0.9,
-      "healthy": 0.8
+      "sensitive stomach": 0.9
     },
     "MostOrderedProducts": [
       "Purina ONE +Plus Sensitive Skin & Stomach Adult Natural Digestive Dry Cat Food, 16-lb bag",

@@ -1,10 +1,10 @@
 {
-  "total_food_lbs": 0.0,
-  "weight_range": 0,
+  "total_food_lbs": 965.5,
+  "weight_range": 900,
   "fun_facts": [
-    "Your pets are just getting started on their food journey!",
-    "Every great feast begins with a single kibble!",
-    "The best is yet to come for your furry friends!"
+    "That's about the weight of a small thoroughbred horse!",
+    "That's equivalent to roughly 3,600 slices of pizza!",
+    "That's about as much as a large hot tub (empty)!"
   ],
-  "message": "No food consumption data available yet."
+  "message": "Your pets have consumed 965.50 pounds of food!"
 }

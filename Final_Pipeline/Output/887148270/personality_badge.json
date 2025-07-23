@@ -1,10 +1,10 @@
 {
-  "badge": "The Cuddler",
+  "badge": "The Nurturer",
   "compatible_with": [
-    "The Explorer",
+    "The Cuddler",
     "The Daydreamer",
     "The Guardian"
   ],
-  "icon_png": "the_cuddler.png",
-  "description": "This household is full of affectionate and gentle pets who love to snuggle up after a long day of play."
+  "icon_png": "the_nurturer.png",
+  "description": "A harmonious blend of nurturing spirits, always ready for a cuddle or a fun time."
 }

@@ -10,7 +10,7 @@
     "Gender": "FMLE",
     "GenderScore": 1.0,
     "SizeCategory": "Small",
-    "SizeScore": 0.8,
+    "SizeScore": 0.9,
     "Weight": "16",
     "WeightScore": 1.0,
     "PersonalityTraits": [
@@ -26,10 +26,10 @@
       "Dog Hygiene"
     ],
     "CategoryScores": {
-      "Dog Food": 1.0,
-      "Dog Treats": 0.9,
-      "Dog Toys": 0.8,
-      "Dog Hygiene": 0.7
+      "Dog Food": 0.9,
+      "Dog Treats": 0.8,
+      "Dog Toys": 0.7,
+      "Dog Hygiene": 0.6
     },
     "BrandPreferences": [
       "Blue Buffalo",
@@ -41,21 +41,21 @@
       "Natural Dog Company"
     ],
     "BrandScores": {
-      "Blue Buffalo": 1.0,
-      "Farmland Traditions": 0.9,
-      "Chuckit!": 0.8,
-      "OraVet": 0.7,
-      "LESOTC": 0.6,
-      "Frisco": 0.5,
-      "Natural Dog Company": 0.4
+      "Blue Buffalo": 0.9,
+      "Farmland Traditions": 0.8,
+      "Chuckit!": 0.7,
+      "OraVet": 0.6,
+      "LESOTC": 0.5,
+      "Frisco": 0.4,
+      "Natural Dog Company": 0.3
     },
     "DietaryPreferences": [
       "Chicken",
       "Grain-Free"
     ],
     "DietaryScores": {
-      "Chicken": 1.0,
-      "Grain-Free": 0.9
+      "Chicken": 0.9,
+      "Grain-Free": 0.8
     },
     "BehavioralCues": [
       "UNK"
@@ -64,17 +64,19 @@
       "UNK": 0.0
     },
     "HealthMentions": [
-      "Dental Health"
+      "UNK"
     ],
     "HealthScores": {
-      "Dental Health": 0.7
+      "UNK": 0.0
     },
     "MostOrderedProducts": [
       "Blue Buffalo Life Protection Formula Adult Chicken & Brown Rice Recipe Dry Dog Food, 34-lb bag",
       "Blue Buffalo Wilderness Trail Treats Chicken Wild Bits Grain-Free Training Dog Treats, 10-oz bag",
-      "Farmland Traditions USA Dogs Love Chicken Grain-Free Jerky Strips Dog Treats, 3-lb bag"
+      "Farmland Traditions USA Dogs Love Chicken Grain-Free Jerky Strips Dog Treats, 3-lb bag",
+      "Blue Buffalo Life Protection Formula Adult Chicken & Brown Rice Recipe Dry Dog Food, 5-lb bag",
+      "Chuckit! Ultra Rubber Ball Tough Dog Toy, Medium, 2 pack"
     ],
-    "confidence_score": 0.9666666666666667,
+    "confidence_score": 0.9833333333333334,
     "name": "Maxine"
   },
   "Theo": {
@@ -104,10 +106,10 @@
       "Dog Hygiene"
     ],
     "CategoryScores": {
-      "Dog Food": 0.9,
-      "Dog Treats": 0.8,
-      "Dog Toys": 0.7,
-      "Dog Hygiene": 0.7
+      "Dog Food": 1.0,
+      "Dog Treats": 1.0,
+      "Dog Toys": 0.9,
+      "Dog Hygiene": 0.8
     },
     "BrandPreferences": [
       "Blue Buffalo",
@@ -119,21 +121,21 @@
       "Natural Dog Company"
     ],
     "BrandScores": {
-      "Blue Buffalo": 0.9,
-      "Farmland Traditions": 0.7,
-      "Chuckit!": 0.7,
-      "OraVet": 0.7,
-      "LESOTC": 0.6,
-      "Frisco": 0.6,
-      "Natural Dog Company": 0.6
+      "Blue Buffalo": 1.0,
+      "Farmland Traditions": 0.9,
+      "Chuckit!": 0.9,
+      "OraVet": 0.8,
+      "LESOTC": 0.8,
+      "Frisco": 0.8,
+      "Natural Dog Company": 0.7
     },
     "DietaryPreferences": [
       "Chicken",
       "Grain-Free"
     ],
     "DietaryScores": {
-      "Chicken": 0.9,
-      "Grain-Free": 0.8
+      "Chicken": 1.0,
+      "Grain-Free": 1.0
     },
     "BehavioralCues": [
       "UNK"
@@ -150,9 +152,7 @@
     "MostOrderedProducts": [
       "Blue Buffalo Life Protection Formula Adult Chicken & Brown Rice Recipe Dry Dog Food, 34-lb bag",
       "Blue Buffalo Wilderness Trail Treats Chicken Wild Bits Grain-Free Training Dog Treats, 10-oz bag",
-      "Farmland Traditions USA Dogs Love Chicken Grain-Free Jerky Strips Dog Treats, 3-lb bag",
-      "Blue Buffalo Life Protection Formula Adult Chicken & Brown Rice Recipe Dry Dog Food, 5-lb bag",
-      "Chuckit! Ultra Rubber Ball Tough Dog Toy, Medium, 2 pack"
+      "Farmland Traditions USA Dogs Love Chicken Grain-Free Jerky Strips Dog Treats, 3-lb bag"
     ],
     "confidence_score": 0.9833333333333334,
     "name": "Theo"
@@ -286,8 +286,8 @@
       "Grain-Free Lickable Cat Treats"
     ],
     "DietaryScores": {
-      "Chicken & Salmon Dry Cat Food": 1.0,
-      "Grain-Free Lickable Cat Treats": 0.9
+      "Chicken & Salmon Dry Cat Food": 0.9,
+      "Grain-Free Lickable Cat Treats": 0.7
     },
     "BehavioralCues": [
       "UNK"
@@ -300,8 +300,8 @@
       "Flea Treatment"
     ],
     "HealthScores": {
-      "Hairball Care": 1.0,
-      "Flea Treatment": 0.9
+      "Hairball Care": 0.9,
+      "Flea Treatment": 0.8
     },
     "MostOrderedProducts": [
       "Scoop Away Complete Performance Fresh Scented Clumping Clay Cat Litter",
@@ -336,14 +336,12 @@
       "Dog Food",
       "Dog Treats",
       "Dog Toys",
-      "Dog Dental Chews",
       "Dog Hygiene"
     ],
     "CategoryScores": {
       "Dog Food": 0.9,
       "Dog Treats": 0.8,
       "Dog Toys": 0.7,
-      "Dog Dental Chews": 0.7,
       "Dog Hygiene": 0.6
     },
     "BrandPreferences": [
@@ -359,10 +357,10 @@
       "Blue Buffalo": 0.9,
       "Farmland Traditions": 0.8,
       "Chuckit!": 0.7,
-      "OraVet": 0.7,
-      "LESOTC": 0.6,
-      "Frisco": 0.6,
-      "Natural Dog Company": 0.6
+      "OraVet": 0.6,
+      "LESOTC": 0.5,
+      "Frisco": 0.4,
+      "Natural Dog Company": 0.3
     },
     "DietaryPreferences": [
       "Chicken",
@@ -372,7 +370,7 @@
     "DietaryScores": {
       "Chicken": 0.9,
       "Brown Rice": 0.8,
-      "Grain-Free": 0.8
+      "Grain-Free": 0.7
     },
     "BehavioralCues": [
       "UNK"
@@ -396,7 +394,7 @@
     "confidence_score": 0.8333333333333334,
     "name": "Daniel"
   },
-  "cust_confidence_score": 0.89,
+  "cust_confidence_score": 0.8933333333333333,
   "gets_playback": true,
   "gets_personalized": true
 }
