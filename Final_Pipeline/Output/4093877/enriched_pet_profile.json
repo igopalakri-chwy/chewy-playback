@@ -5,155 +5,89 @@
     "PetTypeScore": 1.0,
     "Breed": "Other",
     "BreedScore": 1.0,
-    "LifeStage": "UNK",
-    "LifeStageScore": 0.0,
-    "Gender": "UNK",
-    "GenderScore": 0.0,
-    "SizeCategory": "UNK",
-    "SizeScore": 0.0,
-    "Weight": "UNK",
-    "WeightScore": 0.0,
-    "PersonalityTraits": [
-      "Finicky Eater",
-      "Smart"
-    ],
-    "PersonalityScores": {
-      "Finicky Eater": 1.0,
-      "Smart": 0.7
-    },
-    "FavoriteProductCategories": [
-      "Cat Food",
-      "Cat Toys"
-    ],
-    "CategoryScores": {
-      "Cat Food": 1.0,
-      "Cat Toys": 0.8
-    },
-    "BrandPreferences": [
-      "Blue Buffalo",
-      "Nulo FreeStyle"
-    ],
-    "BrandScores": {
-      "Blue Buffalo": 1.0,
-      "Nulo FreeStyle": 0.8
-    },
-    "DietaryPreferences": [
-      "Grain-Free",
-      "Fish & Potato Recipe",
-      "Chicken in Broth"
-    ],
-    "DietaryScores": {
-      "Grain-Free": 1.0,
-      "Fish & Potato Recipe": 0.8,
-      "Chicken in Broth": 0.8
-    },
-    "BehavioralCues": [
-      "Hides when approached",
-      "Cleans plate after meals"
-    ],
-    "BehavioralScores": {
-      "Hides when approached": 0.8,
-      "Cleans plate after meals": 1.0
-    },
-    "HealthMentions": [
-      "Sensitive Stomach",
-      "Diabetic"
-    ],
-    "HealthScores": {
-      "Sensitive Stomach": 0.8,
-      "Diabetic": 0.8
-    },
-    "MostOrderedProducts": [
-      "K&H Pet Products EZ Mount Window Track n' Roll Interactive Cat Toy",
-      "Microbe-Lift Soy-Based Birdbath & Statuary Cleaner",
-      "Blue Buffalo Basics Fish & Potato Recipe Grain-Free Dry Cat Food, 11-lb bag",
-      "Kaytee Small Animal Potty Litter",
-      "X - Necoichi Chirimen Hanabi Fireworks Cat Collar",
-      "Nulo FreeStyle Chicken in Broth Cat Food Topper",
-      "Signature Housewares Animal Prints Cat Bowl, Tiger, Extra Small Bowl",
-      "Halo Holistic Grain-Free Wild-Caught Salmon & Whitefish Recipe Complete Digestive Health Dry Kitten Food, 3-lb bag"
-    ],
-    "ConfidenceScore": 0.0,
-    "confidence_score": 0.3333333333333333,
-    "name": "Shaomaomi (Loving Kitty)"
-  },
-  "Tuxedo": {
-    "PetName": "Tuxedo",
-    "PetType": "Cat",
-    "PetTypeScore": 1.0,
-    "Breed": "Other",
-    "BreedScore": 1.0,
-    "LifeStage": "UNK",
-    "LifeStageScore": 0.0,
-    "Gender": "MALE",
+    "LifeStage": "None",
+    "LifeStageScore": 1.0,
+    "Gender": "UNKN",
     "GenderScore": 1.0,
     "SizeCategory": "UNK",
     "SizeScore": 0.0,
-    "Weight": "UNK",
-    "WeightScore": 0.0,
+    "Weight": "7",
+    "WeightScore": 1.0,
     "PersonalityTraits": [
-      "Finicky Eater",
-      "Smart"
+      "UNK"
     ],
     "PersonalityScores": {
-      "Finicky Eater": 1.0,
-      "Smart": 0.7
+      "UNK": 0.0
     },
     "FavoriteProductCategories": [
-      "Cat Food",
-      "Cat Toys"
+      "Cat Litter",
+      "Wet Cat Food",
+      "Hairball Remedy"
     ],
     "CategoryScores": {
-      "Cat Food": 1.0,
-      "Cat Toys": 0.8
+      "Cat Litter": 0.9,
+      "Wet Cat Food": 0.9,
+      "Hairball Remedy": 0.7
     },
     "BrandPreferences": [
-      "Blue Buffalo",
-      "Nulo FreeStyle"
+      "Fresh Step",
+      "Tidy Cats",
+      "Sheba",
+      "Friskies",
+      "Rachael Ray Nutrish",
+      "Pro-Sense",
+      "Tender & True",
+      "Temptations",
+      "Hartz"
     ],
     "BrandScores": {
-      "Blue Buffalo": 1.0,
-      "Nulo FreeStyle": 0.8
+      "Fresh Step": 0.9,
+      "Tidy Cats": 0.8,
+      "Sheba": 0.8,
+      "Friskies": 0.8,
+      "Rachael Ray Nutrish": 0.8,
+      "Pro-Sense": 0.7,
+      "Tender & True": 0.7,
+      "Temptations": 0.7,
+      "Hartz": 0.7
     },
     "DietaryPreferences": [
-      "Grain-Free",
-      "Fish & Potato Recipe",
-      "Chicken in Broth"
+      "Poultry",
+      "Fish",
+      "Grain-Free"
     ],
     "DietaryScores": {
-      "Grain-Free": 1.0,
-      "Fish & Potato Recipe": 0.9,
-      "Chicken in Broth": 0.8
+      "Poultry": 0.8,
+      "Fish": 0.8,
+      "Grain-Free": 0.8
     },
     "BehavioralCues": [
-      "Hides when approached"
+      "UNK"
     ],
     "BehavioralScores": {
-      "Hides when approached": 0.8
+      "UNK": 0.0
     },
     "HealthMentions": [
-      "Sensitive Stomach",
-      "Diabetic",
-      "No UTI problems"
+      "Hairball"
     ],
     "HealthScores": {
-      "Sensitive Stomach": 0.9,
-      "Diabetic": 0.8,
-      "No UTI problems": 1.0
+      "Hairball": 0.7
     },
     "MostOrderedProducts": [
-      "K&H Pet Products EZ Mount Window Track n' Roll Interactive Cat Toy",
-      "Microbe-Lift Soy-Based Birdbath & Statuary Cleaner",
-      "Blue Buffalo Basics Fish & Potato Recipe Grain-Free Dry Cat Food, 11-lb bag",
-      "Kaytee Small Animal Potty Litter",
-      "X - Necoichi Chirimen Hanabi Fireworks Cat Collar",
-      "Nulo FreeStyle Chicken in Broth Cat Food Topper",
-      "Signature Housewares Animal Prints Cat Bowl, Tiger, Extra Small Bowl",
-      "Halo Holistic Grain-Free Wild-Caught Salmon & Whitefish Recipe Complete Digestive Health Dry Kitten Food, 3-lb bag"
+      "Fresh Step Premium Scented Non-Clumping Cat Litter, 35-lb bag",
+      "Tidy Cats 24/7 Performance Scented Non-Clumping Cat Litter, 40-lb bag",
+      "Sheba Perfect Portions Poultry Entrees Pate Variety Pack Adult Wet Cat Food Trays, 2.6-oz, case of 12",
+      "Friskies Farm Favorites Chicken & Carrots & Salmon & Spinach Pate Wet Cat Food Variety Pack, 5.5-oz can, case of 24",
+      "Rachael Ray Nutrish Chicken Lovers Variety Pack Grain-Free Wet Cat Food, 2.8-oz, case of 12",
+      "Pro-Sense Sugar Free Cat Hairball Remedy, 2.5-oz tube",
+      "Tender & True Turkey & Brown Rice Recipe Canned Cat Food, 5.5-oz, case of 24",
+      "Temptations Pate in Gravy Flavor Variety Wet Cat Food, 3.5-oz tray, case of 12",
+      "Hartz Hairball Remedy Plus Salmon Flavor Paste for Cats & Kittens, 2.5-oz tube"
     ],
-    "ConfidenceScore": 0.0,
-    "confidence_score": 0.5,
-    "name": "Tuxedo"
+    "confidence_score": 0.8333333333333334,
+    "name": "Shaomaomi (Loving Kitty)"
   },
-  "cust_confidence_score": 0.41666666666666663
+  "cust_confidence_score": 0.8333333333333334,
+  "gets_playback": true,
+  "gets_personalized": true
 }

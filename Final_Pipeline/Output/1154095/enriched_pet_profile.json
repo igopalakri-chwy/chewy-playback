@@ -1,142 +1,155 @@
 {
-  "sue ling": {
-    "PetName": "sue ling",
-    "PetType": "Cat",
-    "PetTypeScore": 1.0,
-    "Breed": "American- Shorthair",
-    "BreedScore": 1.0,
-    "LifeStage": "A",
-    "LifeStageScore": 1.0,
-    "Gender": "FMLE",
-    "GenderScore": 1.0,
-    "SizeCategory": "UNK",
-    "SizeScore": 0.0,
-    "Weight": "UNK",
-    "WeightScore": 0.0,
-    "PersonalityTraits": [
-      "Picky eater",
-      "Older cat"
-    ],
-    "PersonalityScores": {
-      "Picky eater": 0.8,
-      "Older cat": 1.0
-    },
-    "FavoriteProductCategories": [
-      "Cat Bed & Mat",
-      "Cat Food"
-    ],
-    "CategoryScores": {
-      "Cat Bed & Mat": 0.9,
-      "Cat Food": 1.0
-    },
-    "BrandPreferences": [
-      "Nature's Recipe",
-      "As Seen on TV"
-    ],
-    "BrandScores": {
-      "Nature's Recipe": 0.9,
-      "As Seen on TV": 0.8
-    },
-    "DietaryPreferences": [
-      "Chicken flavor"
-    ],
-    "DietaryScores": {
-      "Chicken flavor": 0.9
-    },
-    "BehavioralCues": [
-      "Likes to scratch",
-      "Likes to sleep on warm spots"
-    ],
-    "BehavioralScores": {
-      "Likes to scratch": 0.8,
-      "Likes to sleep on warm spots": 0.9
-    },
-    "HealthMentions": [
-      "Dental problems",
-      "Eating problems"
-    ],
-    "HealthScores": {
-      "Dental problems": 0.9,
-      "Eating problems": 0.9
-    },
-    "MostOrderedProducts": [
-      "Nature's Recipe Culinary Favorites Stew Recipe with Real White Meat Chicken & Garden Vegetables in Gravy Wet Cat Food, 2.75-oz, case of 24",
-      "As Seen on TV Kitty Shack 2 in 1 Cat Bed & Mat"
-    ],
-    "ConfidenceScore": 0.0,
-    "confidence_score": 0.6666666666666666,
-    "name": "sue ling"
-  },
   "sugar": {
     "PetName": "sugar",
     "PetType": "Cat",
     "PetTypeScore": 1.0,
     "Breed": "Other",
     "BreedScore": 1.0,
-    "LifeStage": "Older",
-    "LifeStageScore": 0.9,
-    "Gender": "UNK",
-    "GenderScore": 0,
+    "LifeStage": "None",
+    "LifeStageScore": 1.0,
+    "Gender": "UNKN",
+    "GenderScore": 1.0,
     "SizeCategory": "UNK",
-    "SizeScore": 0,
-    "Weight": "UNK",
-    "WeightScore": 0,
+    "SizeScore": 0.0,
+    "Weight": "None",
+    "WeightScore": 1.0,
     "PersonalityTraits": [
-      "Picky eater"
+      "sensitive",
+      "curious",
+      "affectionate"
     ],
     "PersonalityScores": {
-      "Picky eater": 0.8
+      "sensitive": 0.9,
+      "curious": 0.7,
+      "affectionate": 0.8
     },
     "FavoriteProductCategories": [
-      "Cat Food",
-      "Cat Bed & Mat",
-      "Cat House"
+      "food",
+      "litter",
+      "treats"
     ],
     "CategoryScores": {
-      "Cat Food": 0.9,
-      "Cat Bed & Mat": 0.8,
-      "Cat House": 0.7
+      "food": 0.9,
+      "litter": 0.8,
+      "treats": 0.7
     },
     "BrandPreferences": [
-      "Nature's Recipe",
-      "As Seen on TV",
-      "Derby Originals"
+      "Purina",
+      "Inaba"
     ],
     "BrandScores": {
-      "Nature's Recipe": 0.9,
-      "As Seen on TV": 0.8,
-      "Derby Originals": 0.7
+      "Purina": 0.9,
+      "Inaba": 0.8
     },
     "DietaryPreferences": [
-      "Chicken flavor"
+      "sensitive stomach",
+      "natural"
     ],
     "DietaryScores": {
-      "Chicken flavor": 0.9
+      "sensitive stomach": 0.9,
+      "natural": 0.8
     },
     "BehavioralCues": [
-      "Likes to sleep in cool places",
-      "Uses scratching post"
+      "sensitive digestion",
+      "enjoys variety"
     ],
     "BehavioralScores": {
-      "Likes to sleep in cool places": 0.8,
-      "Uses scratching post": 0.7
+      "sensitive digestion": 0.9,
+      "enjoys variety": 0.8
     },
     "HealthMentions": [
-      "Dental problems",
-      "Eating problems"
+      "sensitive skin",
+      "healthy"
     ],
     "HealthScores": {
-      "Dental problems": 0.9,
-      "Eating problems": 0.9
+      "sensitive skin": 0.9,
+      "healthy": 0.8
     },
     "MostOrderedProducts": [
-      "Nature's Recipe Culinary Favorites Stew Recipe with Real White Meat Chicken & Garden Vegetables in Gravy Wet Cat Food, 2.75-oz, case of 24",
-      "As Seen on TV Kitty Shack 2 in 1 Cat Bed & Mat",
-      "Derby Originals Reflective Horse Fly Mask"
+      "Purina ONE +Plus Sensitive Skin & Stomach Adult Natural Digestive Dry Cat Food, 16-lb bag",
+      "Arm & Hammer Litter Platinum Hardball Garden Bloom Lightweight Easy No-Mess Scooping Clumping Cat Litter, 16.5-lb bag",
+      "Inaba Dashi Delights Chicken with Tuna & Scallop Flavored Bits in Broth Cat Food Topping, 2.5-oz cup, pack of 6"
     ],
     "ConfidenceScore": 0.0,
-    "confidence_score": 0.48333333333333334,
+    "confidence_score": 0.8333333333333334,
     "name": "sugar"
   },
-  "cust_confidence_score": 0.575
+  "sue ling": {
+    "PetName": "sue ling",
+    "PetType": "Cat",
+    "PetTypeScore": 1.0,
+    "Breed": "American- Shorthair",
+    "BreedScore": 1.0,
+    "LifeStage": "9",
+    "LifeStageScore": 1.0,
+    "Gender": "FMLE",
+    "GenderScore": 1.0,
+    "SizeCategory": "UNK",
+    "SizeScore": 0.0,
+    "Weight": "13",
+    "WeightScore": 1.0,
+    "PersonalityTraits": [
+      "sensitive",
+      "curious",
+      "affectionate"
+    ],
+    "PersonalityScores": {
+      "sensitive": 0.9,
+      "curious": 0.7,
+      "affectionate": 0.8
+    },
+    "FavoriteProductCategories": [
+      "food",
+      "litter",
+      "treats"
+    ],
+    "CategoryScores": {
+      "food": 0.9,
+      "litter": 0.8,
+      "treats": 0.7
+    },
+    "BrandPreferences": [
+      "Purina",
+      "Inaba"
+    ],
+    "BrandScores": {
+      "Purina": 0.9,
+      "Inaba": 0.8
+    },
+    "DietaryPreferences": [
+      "sensitive stomach",
+      "natural"
+    ],
+    "DietaryScores": {
+      "sensitive stomach": 0.9,
+      "natural": 0.8
+    },
+    "BehavioralCues": [
+      "sensitive digestion",
+      "enjoys variety"
+    ],
+    "BehavioralScores": {
+      "sensitive digestion": 0.9,
+      "enjoys variety": 0.8
+    },
+    "HealthMentions": [
+      "sensitive skin",
+      "healthy"
+    ],
+    "HealthScores": {
+      "sensitive skin": 0.9,
+      "healthy": 0.8
+    },
+    "MostOrderedProducts": [
+      "Purina ONE +Plus Sensitive Skin & Stomach Adult Natural Digestive Dry Cat Food, 16-lb bag",
+      "Arm & Hammer Litter Platinum Hardball Garden Bloom Lightweight Easy No-Mess Scooping Clumping Cat Litter, 16.5-lb bag",
+      "Inaba Dashi Delights Chicken with Tuna & Scallop Flavored Bits in Broth Cat Food Topping, 2.5-oz cup, pack of 6"
+    ],
+    "ConfidenceScore": 0.0,
+    "confidence_score": 0.8333333333333334,
+    "name": "sue ling"
+  },
+  "cust_confidence_score": 0.8333333333333334,
+  "gets_playback": true,
+  "gets_personalized": true
 }

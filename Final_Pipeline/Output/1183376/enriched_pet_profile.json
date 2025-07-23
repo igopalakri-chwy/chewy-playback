@@ -1,259 +1,155 @@
 {
-  "Turbo": {
-    "PetName": "Turbo",
-    "PetType": "Cat",
-    "PetTypeScore": 1.0,
-    "Breed": "Himalayan",
-    "BreedScore": 1.0,
-    "LifeStage": "A",
-    "LifeStageScore": 1.0,
-    "Gender": "MALE",
-    "GenderScore": 1.0,
-    "SizeCategory": "UNK",
-    "SizeScore": 0.0,
-    "Weight": "UNK",
-    "WeightScore": 0.0,
-    "PersonalityTraits": [
-      "Likes wearing clothes",
-      "Likes toys",
-      "Likes certain food"
-    ],
-    "PersonalityScores": {
-      "Likes wearing clothes": 0.8,
-      "Likes toys": 0.7,
-      "Likes certain food": 0.9
-    },
-    "FavoriteProductCategories": [
-      "Cat Toys",
-      "Cat Food",
-      "Cat Clothes"
-    ],
-    "CategoryScores": {
-      "Cat Toys": 0.8,
-      "Cat Food": 0.9,
-      "Cat Clothes": 0.8
-    },
-    "BrandPreferences": [
-      "OurPets",
-      "VeRUS",
-      "Go! Solutions",
-      "Purina Beyond"
-    ],
-    "BrandScores": {
-      "OurPets": 0.8,
-      "VeRUS": 0.7,
-      "Go! Solutions": 0.7,
-      "Purina Beyond": 0.7
-    },
-    "DietaryPreferences": [
-      "Grain-Free",
-      "Fish",
-      "Beef",
-      "Apple",
-      "Vegetable",
-      "Green Lipped Mussel"
-    ],
-    "DietaryScores": {
-      "Grain-Free": 0.7,
-      "Fish": 0.7,
-      "Beef": 0.7,
-      "Apple": 0.7,
-      "Vegetable": 0.7,
-      "Green Lipped Mussel": 0.7
-    },
-    "BehavioralCues": [
-      "Accepts medication",
-      "Interacts with toys"
-    ],
-    "BehavioralScores": {
-      "Accepts medication": 0.8,
-      "Interacts with toys": 0.8
-    },
-    "HealthMentions": [
-      "Healthy urinary tract",
-      "Dental health"
-    ],
-    "HealthScores": {
-      "Healthy urinary tract": 0.7,
-      "Dental health": 0.7
-    },
-    "MostOrderedProducts": [
-      "OurPets Fish Teaser Wand Cat Toy",
-      "VeRUS Beef, Apple, Vegetable & Green Lipped Mussel Canned Cat Food",
-      "Go! Solutions SENSITIVITIES Limited Ingredient Pollock Grain-Free Dry Cat Food",
-      "Purina Beyond Grain-Free Icelandic Arctic Char & Lentil Recipe Dry Cat Food"
-    ],
-    "ConfidenceScore": 0.0,
-    "confidence_score": 0.6666666666666666,
-    "name": "Turbo"
-  },
   "Elwood": {
     "PetName": "Elwood",
     "PetType": "Cat",
     "PetTypeScore": 1.0,
     "Breed": "Birman",
     "BreedScore": 1.0,
-    "LifeStage": "A",
+    "LifeStage": "12",
     "LifeStageScore": 1.0,
     "Gender": "MALE",
     "GenderScore": 1.0,
     "SizeCategory": "UNK",
-    "SizeScore": 0,
-    "Weight": "UNK",
-    "WeightScore": 0,
+    "SizeScore": 0.0,
+    "Weight": "10",
+    "WeightScore": 1.0,
     "PersonalityTraits": [
-      "Likes wearing clothes",
-      "Likes toys",
-      "Likes food"
+      "curious",
+      "affectionate",
+      "health-conscious"
     ],
     "PersonalityScores": {
-      "Likes wearing clothes": 0.8,
-      "Likes toys": 0.7,
-      "Likes food": 1.0
+      "curious": 0.7,
+      "affectionate": 0.9,
+      "health-conscious": 0.8
     },
     "FavoriteProductCategories": [
-      "Toys",
-      "Food",
-      "Clothing"
+      "food",
+      "treats",
+      "health supplements"
     ],
     "CategoryScores": {
-      "Toys": 0.7,
-      "Food": 1.0,
-      "Clothing": 0.8
+      "food": 0.9,
+      "treats": 0.8,
+      "health supplements": 0.85
     },
     "BrandPreferences": [
-      "OurPets",
-      "VeRUS",
-      "Go! Solutions",
-      "Purina Beyond"
+      "Purina Pro Plan",
+      "Feline Natural"
     ],
     "BrandScores": {
-      "OurPets": 0.9,
-      "VeRUS": 0.7,
-      "Go! Solutions": 0.7,
-      "Purina Beyond": 0.7
+      "Purina Pro Plan": 0.9,
+      "Feline Natural": 0.8
     },
     "DietaryPreferences": [
-      "Fish",
-      "Beef",
-      "Apple",
-      "Vegetable",
-      "Green Lipped Mussel",
-      "Pollock",
-      "Grain-Free",
-      "Icelandic Arctic Char",
-      "Lentil"
+      "grain-free",
+      "urinary health"
     ],
     "DietaryScores": {
-      "Fish": 0.9,
-      "Beef": 0.7,
-      "Apple": 0.7,
-      "Vegetable": 0.7,
-      "Green Lipped Mussel": 0.7,
-      "Pollock": 0.7,
-      "Grain-Free": 0.7,
-      "Icelandic Arctic Char": 0.7,
-      "Lentil": 0.7
+      "grain-free": 0.8,
+      "urinary health": 0.9
     },
     "BehavioralCues": [
-      "Accepts medication",
-      "Wears clothes"
+      "enjoys treats",
+      "requires health management"
     ],
     "BehavioralScores": {
-      "Accepts medication": 0.8,
-      "Wears clothes": 0.8
+      "enjoys treats": 0.8,
+      "requires health management": 0.85
     },
     "HealthMentions": [
-      "Healthy urinary tract",
-      "Dental health"
+      "urinary health",
+      "hairball control"
     ],
     "HealthScores": {
-      "Healthy urinary tract": 0.7,
-      "Dental health": 0.7
+      "urinary health": 0.9,
+      "hairball control": 0.85
     },
     "MostOrderedProducts": [
-      "OurPets Fish Teaser Wand Cat Toy",
-      "VeRUS Beef, Apple, Vegetable & Green Lipped Mussel Canned Cat Food",
-      "Go! Solutions SENSITIVITIES Limited Ingredient Pollock Grain-Free Dry Cat Food",
-      "Purina Beyond Grain-Free Icelandic Arctic Char & Lentil Recipe Dry Cat Food"
+      "Tomlyn Laxatone Tuna Flavored Gel Hairball Control Supplement for Cats, 4.25-oz",
+      "Purina Pro Plan Hairball Control Turkey Entree Pate Wet Cat Food, 3-oz can, case of 24",
+      "Feline Natural Chicken Healthy Bites Grain-Free Freeze-Dried Cat Treats, 1.76-oz bag"
     ],
     "ConfidenceScore": 0.0,
-    "confidence_score": 0.6666666666666666,
+    "confidence_score": 0.8333333333333334,
     "name": "Elwood"
   },
-  "UNK": {
-    "PetName": "UNK",
+  "Roscoe": {
+    "PetName": "Roscoe",
     "PetType": "Cat",
     "PetTypeScore": 1.0,
-    "Breed": "UNK",
-    "BreedScore": 0.0,
-    "LifeStage": "UNK",
-    "LifeStageScore": 0.0,
-    "Gender": "UNK",
-    "GenderScore": 0.0,
+    "Breed": "Birman",
+    "BreedScore": 1.0,
+    "LifeStage": "3",
+    "LifeStageScore": 1.0,
+    "Gender": "MALE",
+    "GenderScore": 1.0,
     "SizeCategory": "UNK",
     "SizeScore": 0.0,
-    "Weight": "UNK",
-    "WeightScore": 0.0,
+    "Weight": "4",
+    "WeightScore": 1.0,
     "PersonalityTraits": [
-      "UNK"
+      "curious",
+      "affectionate",
+      "health-conscious"
     ],
     "PersonalityScores": {
-      "UNK": 0.0
+      "curious": 0.7,
+      "affectionate": 0.9,
+      "health-conscious": 0.8
     },
     "FavoriteProductCategories": [
-      "Cat Toys",
-      "Cat Food"
+      "food",
+      "treats",
+      "health supplements"
     ],
     "CategoryScores": {
-      "Cat Toys": 1.0,
-      "Cat Food": 1.0
+      "food": 0.9,
+      "treats": 0.8,
+      "health supplements": 0.85
     },
     "BrandPreferences": [
-      "OurPets",
-      "VeRUS",
-      "Go! Solutions",
-      "Purina Beyond"
+      "Purina Pro Plan",
+      "Feline Natural"
     ],
     "BrandScores": {
-      "OurPets": 1.0,
-      "VeRUS": 0.5,
-      "Go! Solutions": 0.5,
-      "Purina Beyond": 0.5
+      "Purina Pro Plan": 0.9,
+      "Feline Natural": 0.8
     },
     "DietaryPreferences": [
-      "Grain-Free"
+      "grain-free",
+      "urinary health"
     ],
     "DietaryScores": {
-      "Grain-Free": 1.0
+      "grain-free": 0.8,
+      "urinary health": 0.9
     },
     "BehavioralCues": [
-      "UNK"
+      "enjoys treats",
+      "requires health management"
     ],
     "BehavioralScores": {
-      "UNK": 0.0
+      "enjoys treats": 0.8,
+      "requires health management": 0.85
     },
     "HealthMentions": [
-      "UNK"
+      "urinary health",
+      "hairball control"
     ],
     "HealthScores": {
-      "UNK": 0.0
+      "urinary health": 0.9,
+      "hairball control": 0.85
     },
     "MostOrderedProducts": [
-      "OurPets Fish Teaser Wand Cat Toy, Color/Character Varies",
-      "X - Weaver Equine Original Adjustable Nylon Horse Halter, Yearling, Hunter Green",
-      "K&H Pet Products Universal Waterer Deicer",
-      "Conversation Concepts Chihuahua Figurine",
-      "VeRUS Beef, Apple, Vegetable & Green Lipped Mussel Canned Cat Food",
-      "Go! Solutions SENSITIVITIES Limited Ingredient Pollock Grain-Free Dry Cat Food, 8-lb bag",
-      "Kaytee Comfort Small Animal Exercise Wheel",
-      "Necoichi Kiku Ribbon Bow Tie Cotton Breakaway Cat Collar with Bell, Red, 8.2 to 13.7-in neck, 2/5-in wide",
-      "Purina Beyond Grain-Free Icelandic Arctic Char & Lentil Recipe Dry Cat Food",
-      "Silver Lining Herbs Hemp Seed-Coconut Oil Heart Care Liquid Horse Supplement, 1-gal"
+      "Tomlyn Laxatone Tuna Flavored Gel Hairball Control Supplement for Cats, 4.25-oz",
+      "Purina Pro Plan Hairball Control Turkey Entree Pate Wet Cat Food, 3-oz can, case of 24",
+      "Feline Natural Chicken Healthy Bites Grain-Free Freeze-Dried Cat Treats, 1.76-oz bag"
     ],
     "ConfidenceScore": 0.0,
-    "confidence_score": 0.16666666666666666,
-    "name": "UNK"
+    "confidence_score": 0.8333333333333334,
+    "name": "Roscoe"
   },
-  "cust_confidence_score": 0.5
+  "cust_confidence_score": 0.8333333333333334,
+  "gets_playback": true,
+  "gets_personalized": true
 }

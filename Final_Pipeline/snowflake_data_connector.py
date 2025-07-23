@@ -120,12 +120,13 @@ class SnowflakeDataConnector:
             self.connection.close()
             print("✅ Disconnected from Snowflake")
     
-    def get_customer_data(self, customer_id: str) -> Dict[str, Any]:
+    def get_customer_data(self, customer_id: str, query_keys: list = None) -> Dict[str, Any]:
         """
         Get all data for a specific customer from Snowflake.
         
         Args:
             customer_id (str): Customer ID to query for
+            query_keys (list, optional): List of query keys to run. If None, run all.
             
         Returns:
             Dict[str, Any]: Dictionary containing all customer data
@@ -137,29 +138,20 @@ class SnowflakeDataConnector:
         customer_data = {}
         
         try:
-            for query_name, query_template in self.customer_queries.items():
-                # Format query with customer_id
+            queries_to_run = self.customer_queries.items() if query_keys is None else [(k, self.customer_queries[k]) for k in query_keys if k in self.customer_queries]
+            for query_name, query_template in queries_to_run:
                 formatted_query = query_template.format(customer_id=customer_id)
-                
-                # Execute the query
                 cursor = self.connection.cursor()
                 cursor.execute(formatted_query)
-                
-                # Get column names
                 columns = [desc[0] for desc in cursor.description]
-                
-                # Fetch all rows and convert to list of dictionaries
                 rows = cursor.fetchall()
                 results = []
-                
                 for row in rows:
                     row_dict = dict(zip(columns, row))
                     results.append(row_dict)
-                
                 cursor.close()
                 customer_data[query_name] = results
                 print(f"✅ Query '{query_name}' executed successfully - {len(results)} rows returned")
-                
         except Exception as e:
             print(f"❌ Error executing queries for customer {customer_id}: {e}")
             raise
@@ -186,8 +178,8 @@ class SnowflakeDataConnector:
         }
         
         # Process query_1 (order data - now returns top products by quantity)
-        if 'query_1' in customer_data:
-            for row in customer_data['query_1']:
+        if 'get_cust_orders' in customer_data:
+            for row in customer_data['get_cust_orders']:
                 order_record = {
                     'CustomerID': str(customer_id),
                     'ProductID': str(row.get('PRODUCT_ID', '')),
@@ -197,8 +189,8 @@ class SnowflakeDataConnector:
                 formatted_data['order_data'].append(order_record)
         
         # Process query_2 (pet data)
-        if 'query_2' in customer_data:
-            for row in customer_data['query_2']:
+        if 'get_pet_profiles' in customer_data:
+            for row in customer_data['get_pet_profiles']:
                 pet_record = {
                     'CustomerID': str(row.get('CUSTOMER_ID', customer_id)),
                     'PetName': str(row.get('PET_NAME', '')),
@@ -212,8 +204,8 @@ class SnowflakeDataConnector:
                 formatted_data['pet_data'].append(pet_record)
         
         # Process query_3 (review data)
-        if 'query_3' in customer_data:
-            for row in customer_data['query_3']:
+        if 'get_cust_reviews' in customer_data:
+            for row in customer_data['get_cust_reviews']:
                 review_record = {
                     'CustomerID': str(row.get('CUSTOMER_ID', customer_id)),
                     'ReviewID': str(row.get('REVIEW_ID', '')),
@@ -223,8 +215,8 @@ class SnowflakeDataConnector:
                 formatted_data['review_data'].append(review_record)
         
         # Process query_4 (address data)
-        if 'query_4' in customer_data and customer_data['query_4']:
-            address_row = customer_data['query_4'][0]
+        if 'get_cust_zipcode' in customer_data and customer_data['get_cust_zipcode']:
+            address_row = customer_data['get_cust_zipcode'][0]
             formatted_data['address_data'] = {
                 'customer_id': str(address_row.get('CUSTOMER_ID', customer_id)),
                 'zip_code': str(address_row.get('CUSTOMER_ADDRESS_ZIP', '')),
@@ -232,8 +224,8 @@ class SnowflakeDataConnector:
             }
         
         # Process query_5 (food consumption data)
-        if 'query_5' in customer_data:
-            formatted_data['food_consumption_data'] = customer_data['query_5']
+        if 'get_yearly_food_count' in customer_data:
+            formatted_data['food_consumption_data'] = customer_data['get_yearly_food_count']
         
         return formatted_data
     

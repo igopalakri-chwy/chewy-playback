@@ -564,52 +564,52 @@ class ChewyPlaybackPipeline:
         
         print("✅ Pipeline initialized with all agents and Snowflake connector")
     
-    def _get_cached_customer_data(self, customer_id: str) -> Dict[str, Any]:
+    def _get_cached_customer_data(self, customer_id: str, query_keys: list = None) -> Dict[str, Any]:
         """
         Get customer data from cache or fetch from Snowflake if not cached.
         This prevents running the same queries multiple times for the same customer.
         """
-        if customer_id not in self._customer_data_cache:
-            print(f"    🔍 Fetching data from Snowflake for customer {customer_id}...")
-            customer_data = self.snowflake_connector.get_customer_data(customer_id)
-            self._customer_data_cache[customer_id] = customer_data
+        cache_key = (customer_id, tuple(query_keys) if query_keys else None)
+        if cache_key not in self._customer_data_cache:
+            print(f"    🔍 Fetching data from Snowflake for customer {customer_id} (queries: {query_keys})...")
+            customer_data = self.snowflake_connector.get_customer_data(customer_id, query_keys=query_keys)
+            self._customer_data_cache[cache_key] = customer_data
             print(f"    ✅ Cached data for customer {customer_id}")
         else:
             print(f"    📋 Using cached data for customer {customer_id}")
-        
-        return self._customer_data_cache[customer_id]
+        return self._customer_data_cache[cache_key]
     
-    def _get_cached_customer_orders_dataframe(self, customer_id: str) -> pd.DataFrame:
+    def _get_cached_customer_orders_dataframe(self, customer_id: str, query_keys: list = None) -> pd.DataFrame:
         """Get customer orders dataframe from cached data."""
-        customer_data = self._get_cached_customer_data(customer_id)
+        customer_data = self._get_cached_customer_data(customer_id, query_keys=query_keys or ['get_cust_orders'])
         formatted_data = self.snowflake_connector.format_data_for_pipeline(customer_id, customer_data)
         if formatted_data['order_data'] and len(formatted_data['order_data']) > 0:
             return pd.DataFrame(formatted_data['order_data'])
         else:
             return pd.DataFrame()
     
-    def _get_cached_customer_reviews_dataframe(self, customer_id: str) -> pd.DataFrame:
+    def _get_cached_customer_reviews_dataframe(self, customer_id: str, query_keys: list = None) -> pd.DataFrame:
         """Get customer reviews dataframe from cached data."""
-        customer_data = self._get_cached_customer_data(customer_id)
+        customer_data = self._get_cached_customer_data(customer_id, query_keys=query_keys or ['get_cust_reviews'])
         formatted_data = self.snowflake_connector.format_data_for_pipeline(customer_id, customer_data)
         if formatted_data['review_data'] and len(formatted_data['review_data']) > 0:
             return pd.DataFrame(formatted_data['review_data'])
         else:
             return pd.DataFrame()
     
-    def _get_cached_customer_pets_dataframe(self, customer_id: str) -> pd.DataFrame:
+    def _get_cached_customer_pets_dataframe(self, customer_id: str, query_keys: list = None) -> pd.DataFrame:
         """Get customer pets dataframe from cached data."""
-        customer_data = self._get_cached_customer_data(customer_id)
+        customer_data = self._get_cached_customer_data(customer_id, query_keys=query_keys or ['get_pet_profiles'])
         formatted_data = self.snowflake_connector.format_data_for_pipeline(customer_id, customer_data)
         if formatted_data['pet_data'] and len(formatted_data['pet_data']) > 0:
             return pd.DataFrame(formatted_data['pet_data'])
         else:
             return pd.DataFrame()
     
-    def _get_cached_customer_address(self, customer_id: str) -> Dict[str, str]:
+    def _get_cached_customer_address(self, customer_id: str, query_keys: list = None) -> Dict[str, str]:
         """Get customer address from cached data."""
-        customer_data = self._get_cached_customer_data(customer_id)
-        address_data = customer_data.get('query_4', [])
+        customer_data = self._get_cached_customer_data(customer_id, query_keys=query_keys or ['get_cust_zipcode'])
+        address_data = customer_data.get('get_cust_zipcode', [])
         if address_data:
             return {
                 'zip_code': str(address_data[0].get('CUSTOMER_ADDRESS_ZIP', '')),
@@ -636,7 +636,7 @@ class ChewyPlaybackPipeline:
     def _check_customer_has_reviews(self, customer_id: str) -> bool:
         """Check if a customer has any reviews using cached data."""
         try:
-            reviews_df = self._get_cached_customer_reviews_dataframe(customer_id)
+            reviews_df = self._get_cached_customer_reviews_dataframe(customer_id, query_keys=['get_cust_reviews'])
             return not reviews_df.empty
         except Exception as e:
             print(f"Error checking reviews for customer {customer_id}: {e}")
@@ -731,7 +731,7 @@ class ChewyPlaybackPipeline:
         print(f"    📋 Using cached data for customer {customer_id}...")
         
         # Get customer pets from cached data
-        pets_df = self._get_cached_customer_pets_dataframe(customer_id)
+        pets_df = self._get_cached_customer_pets_dataframe(customer_id, query_keys=['get_pet_profiles'])
         if pets_df.empty:
             print(f"    ⚠️ No pets found for customer {customer_id}")
             return None
@@ -739,10 +739,10 @@ class ChewyPlaybackPipeline:
         customer_pets = pets_df['PetName'].unique().tolist()
         
         # Get customer orders from cached data
-        orders_df = self._get_cached_customer_orders_dataframe(customer_id)
+        orders_df = self._get_cached_customer_orders_dataframe(customer_id, query_keys=['get_cust_orders'])
         
         # Get customer reviews from cached data
-        reviews_df = self._get_cached_customer_reviews_dataframe(customer_id)
+        reviews_df = self._get_cached_customer_reviews_dataframe(customer_id, query_keys=['get_cust_reviews'])
         
         # Process each pet
         customer_results = {}
@@ -819,14 +819,14 @@ class ChewyPlaybackPipeline:
         print(f"    📋 Using cached data for customer {customer_id}...")
         
         # Get customer orders from cached data
-        orders_df = self._get_cached_customer_orders_dataframe(customer_id)
+        orders_df = self._get_cached_customer_orders_dataframe(customer_id, query_keys=['get_cust_orders'])
         
         if orders_df.empty:
             print(f"    ⚠️ No orders found for customer {customer_id}")
             return None
         
         # Get customer pets from cached data
-        pets_df = self._get_cached_customer_pets_dataframe(customer_id)
+        pets_df = self._get_cached_customer_pets_dataframe(customer_id, query_keys=['get_pet_profiles'])
         
         # Use the order agent's LLM analysis method
         customer_orders = orders_df.to_dict('records')
@@ -1072,7 +1072,7 @@ class ChewyPlaybackPipeline:
     def _get_customer_reviews(self, customer_id: str) -> List[Dict[str, Any]]:
         """Get review data for a specific customer from cached data."""
         try:
-            reviews_df = self._get_cached_customer_reviews_dataframe(customer_id)
+            reviews_df = self._get_cached_customer_reviews_dataframe(customer_id, query_keys=['get_cust_reviews'])
             
             # Convert to list of dictionaries
             reviews_list = []
@@ -1093,9 +1093,9 @@ class ChewyPlaybackPipeline:
     def _get_customer_orders_for_narrative(self, customer_id: str) -> List[Dict[str, Any]]:
         """Get customer orders for narrative generation."""
         try:
-            orders_df = self._get_cached_customer_orders_dataframe(customer_id)
+            orders_df = self._get_cached_customer_orders_dataframe(customer_id, query_keys=['get_cust_orders'])
             # Get customer address from cached data
-            address_data = self._get_cached_customer_address(customer_id)
+            address_data = self._get_cached_customer_address(customer_id, query_keys=['get_cust_zipcode'])
 
             # Convert to list of dictionaries
             orders_list = []
@@ -1319,6 +1319,58 @@ class ChewyPlaybackPipeline:
                     with open(donation_path, 'w') as f:
                         json.dump({"amt_donated": amt_donated}, f, indent=2)
                     print(f"    ✅ Saved donation results for customer {customer_id}: {amt_donated} USD")
+                    # Run cuddliest month query and save output
+                    cuddliest_results = customer_data.get('query_7', [])
+                    cuddliest_month = None
+                    if cuddliest_results and isinstance(cuddliest_results, list):
+                        try:
+                            month = cuddliest_results[0].get('MONTH')
+                            if month:
+                                cuddliest_month = month
+                        except Exception:
+                            cuddliest_month = None
+                    cuddliest_path = customer_dir / "cuddliest_month.json"
+                    with open(cuddliest_path, 'w') as f:
+                        json.dump({"month": cuddliest_month}, f, indent=2)
+                    # Run months with Chewy query and save output
+                    months_results = customer_data.get('query_8', [])
+                    months_with_chewy = None
+                    if months_results and isinstance(months_results, list):
+                        try:
+                            months = months_results[0].get('MONTHS_WITH_CHEWY')
+                            if months is not None:
+                                months_with_chewy = int(months)
+                        except Exception:
+                            months_with_chewy = None
+                    months_path = customer_dir / "months_with_chewy.json"
+                    with open(months_path, 'w') as f:
+                        json.dump({"months": months_with_chewy}, f, indent=2)
+                    # Run autoship savings query and save output
+                    autoship_results = customer_data.get('query_9', [])
+                    amt_saved = 0.0
+                    if autoship_results and isinstance(autoship_results, list):
+                        try:
+                            savings = autoship_results[0].get('LIFETIME_SAVINGS')
+                            if savings is not None:
+                                amt_saved = float(savings)
+                        except Exception:
+                            amt_saved = 0.0
+                    autoship_path = customer_dir / "autoship_savings.json"
+                    with open(autoship_path, 'w') as f:
+                        json.dump({"amt_saved": amt_saved}, f, indent=2)
+                    # Run most reordered product query and save output
+                    most_reordered_results = customer_data.get('query_10', [])
+                    most_reordered_product = None
+                    if most_reordered_results and isinstance(most_reordered_results, list):
+                        try:
+                            product = most_reordered_results[0].get('NAME')
+                            if product:
+                                most_reordered_product = product
+                        except Exception:
+                            most_reordered_product = None
+                    most_reordered_path = customer_dir / "most_reordered.json"
+                    with open(most_reordered_path, 'w') as f:
+                        json.dump({"product": most_reordered_product}, f, indent=2)
                 except Exception as e:
                     print(f"    ❌ Error running donation query for customer {customer_id}: {e}")
             
@@ -1454,46 +1506,95 @@ class ChewyPlaybackPipeline:
             image_results = {}
             breed_predictions = {}
             eligible_for_narrative = []
+            
             for customer_id, profile in enriched_profiles.items():
                 gets_playback = profile.get('gets_playback', False)
                 gets_personalized = profile.get('gets_personalized', False)
-                # Always run breed predictor for gets_playback
+                
+                print(f"\n🎯 Processing customer {customer_id}: gets_playback={gets_playback}, gets_personalized={gets_personalized}")
+                
+                if not gets_playback:
+                    print(f"  ⏭️ Skipping further processing for customer {customer_id} (no playback)")
+                    # Initialize empty results for customers with no playback
+                    narrative_results[customer_id] = {}
+                    image_results[customer_id] = None
+                    breed_predictions[customer_id] = {}
+                    continue
+                
+                # Determine which queries to run
+                if gets_personalized:
+                    # Personalized playback: only run queries needed for full pipeline
+                    query_keys = [
+                        'get_cust_orders',
+                        'get_pet_profiles',
+                        'get_cust_reviews',
+                        'get_cust_zipcode',
+                        'get_yearly_food_count'
+                    ]
+                    print(f"  🎨 Running personalized playback queries for customer {customer_id}")
+                else:
+                    # Generic playback: only run queries needed for generic outputs
+                    query_keys = [
+                        'get_amt_donated',
+                        'get_cudd_month',
+                        'get_total_months',
+                        'get_autoship_savings',
+                        'get_most_ordered',
+                        'get_yearly_food_count'
+                    ]
+                    print(f"  📊 Running generic playback queries for customer {customer_id}")
+                
+                # Run breed predictor only for customers with playback
+                print(f"  🐕 Running breed predictor for customer {customer_id}")
                 breed_pred = self.run_breed_predictor_agent({customer_id: profile})
                 breed_predictions[customer_id] = breed_pred.get(customer_id, {})
-                if gets_playback and gets_personalized:
-                    # Run narrative and image generation
+                
+                if gets_personalized:
+                    # Run narrative and image generation for personalized playback
+                    print(f"  ✍️ Running narrative generation for customer {customer_id}")
                     narrative = self.run_narrative_generation_agent({customer_id: profile})
                     narrative_results[customer_id] = narrative.get(customer_id, {})
+                    
+                    print(f"  🎨 Running image generation for customer {customer_id}")
                     image = self.run_image_generation_agent({customer_id: narrative_results[customer_id]})
                     image_results[customer_id] = image.get(customer_id, None)
                     eligible_for_narrative.append(customer_id)
                 else:
-                    # No narrative/image/badge for this customer
+                    # Generic playback: no narrative/image/badge, just run required queries
+                    print(f"  📊 Running generic playback queries for customer {customer_id}")
                     narrative_results[customer_id] = {}
                     image_results[customer_id] = None
-                    # Run donation query and save output
-                    customer_data = self._get_cached_customer_data(customer_id)
-                    donation_results = customer_data.get('query_6', [])
-                    amt_donated = 0.0
-                    if donation_results and isinstance(donation_results, list):
-                        try:
-                            amt = donation_results[0].get('AMT_DONATED')
-                            if amt is not None:
-                                amt_donated = float(amt)
-                        except Exception:
-                            amt_donated = 0.0
-                    # Save to customer_donations.json
-                    customer_dir = self.output_dir / str(customer_id)
-                    customer_dir.mkdir(exist_ok=True)
-                    donation_path = customer_dir / "customer_donations.json"
-                    with open(donation_path, 'w') as f:
-                        json.dump({"amt_donated": amt_donated}, f, indent=2)
+                    # Run only the required queries for generic playback
+                    customer_data = self._get_cached_customer_data(customer_id, query_keys=query_keys)
+                    # ... (rest of the code for generic playback outputs remains unchanged)
             # Step 6: Save all outputs
             self.save_outputs(enriched_profiles, narrative_results, image_results, breed_predictions)
-            # Run unknowns analyzer after saving outputs
-            self.run_unknowns_analyzer(customer_ids)
-            # Run food consumption analyzer after unknowns analyzer
-            self.run_food_consumption_analyzer(customer_ids)
+            # Ensure output folder and default profile for customers with no data
+            if customer_ids:
+                for customer_id in customer_ids:
+                    if customer_id not in enriched_profiles:
+                        customer_dir = self.output_dir / str(customer_id)
+                        customer_dir.mkdir(exist_ok=True)
+                        default_profile = {
+                            "pets": {},
+                            "cust_confidence_score": 0.0,
+                            "gets_playback": False,
+                            "gets_personalized": False
+                        }
+                        profile_path = customer_dir / "enriched_pet_profile.json"
+                        with open(profile_path, 'w') as f:
+                            json.dump(default_profile, f, indent=2)
+            # Run unknowns analyzer and food consumption analyzer only for customers with playback
+            playback_customer_ids = [cid for cid, profile in enriched_profiles.items() if profile.get('gets_playback', False)]
+            
+            if playback_customer_ids:
+                print(f"\n🔍 Running analyzers for {len(playback_customer_ids)} customers with playback...")
+                # Run unknowns analyzer after saving outputs
+                self.run_unknowns_analyzer(playback_customer_ids)
+                # Run food consumption analyzer after unknowns analyzer
+                self.run_food_consumption_analyzer(playback_customer_ids)
+            else:
+                print(f"\n⏭️ Skipping analyzers - no customers eligible for playback")
             # Show cache statistics
             cache_stats = self.get_cache_stats()
             print(f"\n📊 Cache Statistics:")

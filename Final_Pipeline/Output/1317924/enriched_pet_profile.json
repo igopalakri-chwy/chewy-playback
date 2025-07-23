@@ -148,5 +148,7 @@
     "confidence_score": 0.8333333333333334,
     "name": "Beatrix Kiddo"
   },
-  "cust_confidence_score": 0.9
+  "cust_confidence_score": 0.9,
+  "gets_playback": true,
+  "gets_personalized": true
 }

@@ -1,17 +1,19 @@
 {
   "customer_id": "1317924",
   "unknown_attributes": {
+    "Sindel": {
+      "pet_name": "Sindel",
+      "unknown_fields": [
+        "MEDICATION"
+      ]
+    },
     "Beatrix Kiddo": {
       "pet_name": "Beatrix Kiddo",
       "unknown_fields": [
-        "SizeCategory"
-      ],
-      "unknown_scores": [],
-      "unknown_lists": [],
-      "unknown_dicts": []
+        "MEDICATION"
+      ]
     }
   },
-  "total_unknowns": 1,
-  "pets_with_unknowns": 1,
-  "customer_confidence_score": 0.0
+  "total_unknowns": 2,
+  "pets_with_unknowns": 2
 }

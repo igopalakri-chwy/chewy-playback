@@ -1,373 +1,147 @@
 {
-  "The Princess Monaco": {
-    "PetName": "The Princess Monaco",
-    "PetType": "Dog",
-    "PetTypeScore": 1.0,
-    "Breed": "Biewer Terrier",
-    "BreedScore": 1.0,
-    "LifeStage": "S",
-    "LifeStageScore": 1.0,
-    "Gender": "FMLE",
-    "GenderScore": 1.0,
-    "SizeCategory": "XS",
-    "SizeScore": 1.0,
-    "Weight": "UNK",
-    "WeightScore": 0.0,
-    "PersonalityTraits": [
-      "Loves food",
-      "Sensitive to certain foods"
-    ],
-    "PersonalityScores": {
-      "Loves food": 1.0,
-      "Sensitive to certain foods": 1.0
-    },
-    "FavoriteProductCategories": [
-      "Dog Food",
-      "Dog Leash",
-      "Dog Toy"
-    ],
-    "CategoryScores": {
-      "Dog Food": 1.0,
-      "Dog Leash": 0.8,
-      "Dog Toy": 0.6
-    },
-    "BrandPreferences": [
-      "Primal",
-      "Natural Balance",
-      "K9 Natural",
-      "Mendota Products",
-      "Trademark Fine Art",
-      "American Journey",
-      "Pets First",
-      "Blueberry Pet",
-      "Go! Solutions",
-      "Grriggles"
-    ],
-    "BrandScores": {
-      "Primal": 1.0,
-      "Natural Balance": 0.9,
-      "K9 Natural": 0.8,
-      "Mendota Products": 0.7,
-      "Trademark Fine Art": 0.6,
-      "American Journey": 0.5,
-      "Pets First": 0.4,
-      "Blueberry Pet": 0.3,
-      "Go! Solutions": 0.2,
-      "Grriggles": 0.1
-    },
-    "DietaryPreferences": [
-      "Grain-free",
-      "Organic veggies and fruits",
-      "Venison",
-      "Duck",
-      "No chicken",
-      "No beef",
-      "No pork"
-    ],
-    "DietaryScores": {
-      "Grain-free": 1.0,
-      "Organic veggies and fruits": 0.9,
-      "Venison": 0.8,
-      "Duck": 0.7,
-      "No chicken": 0.6,
-      "No beef": 0.5,
-      "No pork": 0.4
-    },
-    "BehavioralCues": [
-      "Uses wee-wee pads",
-      "Likes to chew"
-    ],
-    "BehavioralScores": {
-      "Uses wee-wee pads": 1.0,
-      "Likes to chew": 0.9
-    },
-    "HealthMentions": [
-      "Possible allergy"
-    ],
-    "HealthScores": {
-      "Possible allergy": 1.0
-    },
-    "MostOrderedProducts": [
-      "Natural Balance Limited Ingredient Reserve Sweet Potato & Venison Recipe Wet Dog Food",
-      "K9 Natural Lamb & King Salmon Grain-Free Freeze-Dried Dog Food, 4-lb bag",
-      "Mendota Products Small Slip Solid Rope Dog Leash, Hunter Green, 6-ft long, 3/8-in wide",
-      "Trademark Fine Art \"Buddy\" by Pat Saunders Canvas Wall Art, 24 x 24 inches",
-      "American Journey Halloween Peanut Butter Recipe Grain-Free Oven Baked Crunchy, 8-oz bag",
-      "Natural Balance L.I.D. Limited Ingredient Diets Duck & Potato Formula Grain-Free Canned Dog Food",
-      "Pets First NCAA Dog T-Shirt, Purdue, X-Small",
-      "Blueberry Pet Classic Solid Nylon Step In Back Clip Dog Harness, Dark Orchid, Small: 16.5 to 21.5-in chest",
-      "Go! Solutions Grain-Free Freshwater Trout Formula Canned Dog Food, 13.2-oz, case of 12, Original",
-      "Grriggles Rope Bones Dog Toy, Blue, 8-inch"
-    ],
-    "ConfidenceScore": 0.0,
-    "confidence_score": 0.8333333333333334,
-    "name": "The Princess Monaco"
-  },
   "Harley (James) Davidson": {
     "PetName": "Harley (James) Davidson",
     "PetType": "Dog",
     "PetTypeScore": 1.0,
     "Breed": "Biewer Terrier",
     "BreedScore": 1.0,
-    "LifeStage": "A",
+    "LifeStage": "10",
     "LifeStageScore": 1.0,
     "Gender": "MALE",
     "GenderScore": 1.0,
-    "SizeCategory": "XS",
-    "SizeScore": 1.0,
-    "Weight": "UNK",
-    "WeightScore": 0.0,
+    "SizeCategory": "UNK",
+    "SizeScore": 0.0,
+    "Weight": "11",
+    "WeightScore": 1.0,
     "PersonalityTraits": [
-      "Loves food",
-      "Sensitive to certain foods"
+      "adventurous",
+      "curious",
+      "affectionate"
     ],
     "PersonalityScores": {
-      "Loves food": 0.9,
-      "Sensitive to certain foods": 0.8
+      "adventurous": 0.8,
+      "curious": 0.7,
+      "affectionate": 0.9
     },
     "FavoriteProductCategories": [
-      "Dog Food",
-      "Dog Leash",
-      "Dog Harness",
-      "Dog Toy"
+      "food",
+      "health care"
     ],
     "CategoryScores": {
-      "Dog Food": 0.9,
-      "Dog Leash": 0.7,
-      "Dog Harness": 0.7,
-      "Dog Toy": 0.7
+      "food": 0.9,
+      "health care": 0.8
     },
     "BrandPreferences": [
       "Primal",
-      "Natural Balance",
-      "K9 Natural",
-      "Mendota Products",
-      "Trademark Fine Art",
-      "American Journey",
-      "Pets First",
-      "Blueberry Pet",
-      "Go! Solutions",
-      "Grriggles"
+      "Stella & Chewy's"
     ],
     "BrandScores": {
       "Primal": 0.9,
-      "Natural Balance": 0.8,
-      "K9 Natural": 0.8,
-      "Mendota Products": 0.7,
-      "Trademark Fine Art": 0.7,
-      "American Journey": 0.7,
-      "Pets First": 0.7,
-      "Blueberry Pet": 0.7,
-      "Go! Solutions": 0.7,
-      "Grriggles": 0.7
+      "Stella & Chewy's": 0.85
     },
     "DietaryPreferences": [
-      "Grain-Free",
-      "Organic",
-      "Limited Ingredient",
-      "Freeze-Dried",
-      "Venison",
-      "Duck",
-      "Turkey and Sardine",
-      "No Chicken",
-      "No Beef",
-      "No Pork"
+      "grain-free",
+      "raw"
     ],
     "DietaryScores": {
-      "Grain-Free": 0.9,
-      "Organic": 0.8,
-      "Limited Ingredient": 0.8,
-      "Freeze-Dried": 0.8,
-      "Venison": 0.9,
-      "Duck": 0.9,
-      "Turkey and Sardine": 0.8,
-      "No Chicken": 0.8,
-      "No Beef": 0.8,
-      "No Pork": 0.8
+      "grain-free": 0.9,
+      "raw": 0.85
     },
     "BehavioralCues": [
-      "Uses wee-wee pads"
+      "enjoys variety in diet",
+      "requires eye care"
     ],
     "BehavioralScores": {
-      "Uses wee-wee pads": 0.8
+      "enjoys variety in diet": 0.9,
+      "requires eye care": 0.8
     },
     "HealthMentions": [
-      "Possible food allergy"
+      "requires eye care"
     ],
     "HealthScores": {
-      "Possible food allergy": 0.8
+      "requires eye care": 0.9
     },
     "MostOrderedProducts": [
-      "Natural Balance Limited Ingredient Reserve Sweet Potato & Venison Recipe Wet Dog Food",
-      "K9 Natural Lamb & King Salmon Grain-Free Freeze-Dried Dog Food, 4-lb bag",
-      "Mendota Products Small Slip Solid Rope Dog Leash, Hunter Green, 6-ft long, 3/8-in wide",
-      "Trademark Fine Art 'Buddy' by Pat Saunders Canvas Wall Art, 24 x 24 inches",
-      "American Journey Halloween Peanut Butter Recipe Grain-Free Oven Baked Crunchy, 8-oz bag",
-      "Natural Balance L.I.D. Limited Ingredient Diets Duck & Potato Formula Grain-Free Canned Dog Food",
-      "Pets First NCAA Dog T-Shirt, Purdue, X-Small",
-      "Blueberry Pet Classic Solid Nylon Step In Back Clip Dog Harness, Dark Orchid, Small: 16.5 to 21.5-in chest",
-      "Go! Solutions Grain-Free Freshwater Trout Formula Canned Dog Food, 13.2-oz, case of 12, Original",
-      "Grriggles Rope Bones Dog Toy, Blue, 8-inch"
+      "Primal Turkey & Sardine Formula Nuggets Grain-Free Raw Freeze-Dried Dog Food, 14-oz bag",
+      "Primal Lamb Formula Nuggets Grain-Free Raw Freeze-Dried Dog Food, 14-oz bag",
+      "Stella & Chewy's Remarkable Red Meat Recipe Dinner Patties Freeze-Dried Raw Dog Food, 14-oz bag"
     ],
     "ConfidenceScore": 0.0,
     "confidence_score": 0.8333333333333334,
     "name": "Harley (James) Davidson"
   },
-  "Venison": {
-    "PetName": "Venison",
+  "The Princess Monaco": {
+    "PetName": "The Princess Monaco",
     "PetType": "Dog",
     "PetTypeScore": 1.0,
     "Breed": "Biewer Terrier",
     "BreedScore": 1.0,
-    "LifeStage": "A",
+    "LifeStage": "12",
     "LifeStageScore": 1.0,
-    "Gender": "MALE",
+    "Gender": "FMLE",
     "GenderScore": 1.0,
-    "SizeCategory": "XS",
-    "SizeScore": 1.0,
-    "Weight": "UNK",
-    "WeightScore": 0.0,
+    "SizeCategory": "UNK",
+    "SizeScore": 0.0,
+    "Weight": "6",
+    "WeightScore": 1.0,
     "PersonalityTraits": [
-      "Food Lover"
+      "adventurous",
+      "curious",
+      "affectionate"
     ],
     "PersonalityScores": {
-      "Food Lover": 0.9
+      "adventurous": 0.8,
+      "curious": 0.7,
+      "affectionate": 0.9
     },
     "FavoriteProductCategories": [
-      "Dog Food",
-      "Dog Leash",
-      "Dog Toy"
+      "food",
+      "health care"
     ],
     "CategoryScores": {
-      "Dog Food": 0.9,
-      "Dog Leash": 0.7,
-      "Dog Toy": 0.7
+      "food": 0.9,
+      "health care": 0.8
     },
     "BrandPreferences": [
       "Primal",
-      "Natural Balance",
-      "K9 Natural"
+      "Stella & Chewy's"
     ],
     "BrandScores": {
       "Primal": 0.9,
-      "Natural Balance": 0.8,
-      "K9 Natural": 0.7
+      "Stella & Chewy's": 0.85
     },
     "DietaryPreferences": [
-      "Grain-Free",
-      "Organic Veggies and Fruits",
-      "Venison",
-      "Duck",
-      "Rabbit"
+      "grain-free",
+      "raw"
     ],
     "DietaryScores": {
-      "Grain-Free": 0.9,
-      "Organic Veggies and Fruits": 0.8,
-      "Venison": 1.0,
-      "Duck": 0.8,
-      "Rabbit": 0.8
+      "grain-free": 0.9,
+      "raw": 0.85
     },
     "BehavioralCues": [
-      "Enjoys Variety in Food"
+      "enjoys variety in diet",
+      "requires eye care"
     ],
     "BehavioralScores": {
-      "Enjoys Variety in Food": 0.8
+      "enjoys variety in diet": 0.9,
+      "requires eye care": 0.8
     },
     "HealthMentions": [
-      "Possible Allergy"
+      "requires eye care"
     ],
     "HealthScores": {
-      "Possible Allergy": 0.7
+      "requires eye care": 0.9
     },
     "MostOrderedProducts": [
-      "Natural Balance Limited Ingredient Reserve Sweet Potato & Venison Recipe Wet Dog Food",
-      "K9 Natural Lamb & King Salmon Grain-Free Freeze-Dried Dog Food, 4-lb bag",
-      "Mendota Products Small Slip Solid Rope Dog Leash, Hunter Green, 6-ft long, 3/8-in wide"
+      "Primal Turkey & Sardine Formula Nuggets Grain-Free Raw Freeze-Dried Dog Food, 14-oz bag",
+      "Primal Lamb Formula Nuggets Grain-Free Raw Freeze-Dried Dog Food, 14-oz bag",
+      "Stella & Chewy's Remarkable Red Meat Recipe Dinner Patties Freeze-Dried Raw Dog Food, 14-oz bag"
     ],
     "ConfidenceScore": 0.0,
     "confidence_score": 0.8333333333333334,
-    "name": "Venison"
+    "name": "The Princess Monaco"
   },
-  "Turkey": {
-    "PetName": "Turkey",
-    "PetType": "Dog",
-    "PetTypeScore": 1.0,
-    "Breed": "Biewer Terrier",
-    "BreedScore": 1.0,
-    "LifeStage": "A",
-    "LifeStageScore": 1.0,
-    "Gender": "MALE",
-    "GenderScore": 1.0,
-    "SizeCategory": "XS",
-    "SizeScore": 1.0,
-    "Weight": "UNK",
-    "WeightScore": 0.0,
-    "PersonalityTraits": [
-      "UNK"
-    ],
-    "PersonalityScores": {
-      "UNK": 0.0
-    },
-    "FavoriteProductCategories": [
-      "Dog Food",
-      "Dog Leash",
-      "Dog Toy"
-    ],
-    "CategoryScores": {
-      "Dog Food": 0.9,
-      "Dog Leash": 0.7,
-      "Dog Toy": 0.7
-    },
-    "BrandPreferences": [
-      "Primal",
-      "Natural Balance",
-      "K9 Natural"
-    ],
-    "BrandScores": {
-      "Primal": 0.9,
-      "Natural Balance": 0.8,
-      "K9 Natural": 0.7
-    },
-    "DietaryPreferences": [
-      "Grain-Free",
-      "Organic Veggies and Fruits",
-      "Venison",
-      "Duck",
-      "Rabbit",
-      "No Chicken",
-      "No Beef",
-      "No Pork"
-    ],
-    "DietaryScores": {
-      "Grain-Free": 0.9,
-      "Organic Veggies and Fruits": 0.8,
-      "Venison": 0.9,
-      "Duck": 0.8,
-      "Rabbit": 0.8,
-      "No Chicken": 0.7,
-      "No Beef": 0.7,
-      "No Pork": 0.7
-    },
-    "BehavioralCues": [
-      "UNK"
-    ],
-    "BehavioralScores": {
-      "UNK": 0.0
-    },
-    "HealthMentions": [
-      "Possible Allergy"
-    ],
-    "HealthScores": {
-      "Possible Allergy": 0.8
-    },
-    "MostOrderedProducts": [
-      "Natural Balance Limited Ingredient Reserve Sweet Potato & Venison Recipe Wet Dog Food",
-      "K9 Natural Lamb & King Salmon Grain-Free Freeze-Dried Dog Food, 4-lb bag",
-      "Mendota Products Small Slip Solid Rope Dog Leash, Hunter Green, 6-ft long, 3/8-in wide"
-    ],
-    "ConfidenceScore": 0.0,
-    "confidence_score": 0.8333333333333334,
-    "name": "Turkey"
-  },
-  "cust_confidence_score": 0.8333333333333334
+  "cust_confidence_score": 0.8333333333333334,
+  "gets_playback": true,
+  "gets_personalized": true
 }
