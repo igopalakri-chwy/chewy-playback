@@ -1,31 +1,23 @@
 {
   "customer_id": "1154095",
   "unknown_attributes": {
-    "sue ling": {
-      "pet_name": "sue ling",
-      "unknown_fields": [
-        "SizeCategory",
-        "Weight"
-      ],
-      "unknown_scores": [],
-      "unknown_lists": [],
-      "unknown_dicts": []
-    },
     "sugar": {
       "pet_name": "sugar",
       "unknown_fields": [
-        "Gender",
-        "SizeCategory",
-        "Weight"
-      ],
-      "unknown_scores": [
-        "GenderScore"
-      ],
-      "unknown_lists": [],
-      "unknown_dicts": []
+        "PET_BREED",
+        "WEIGHT",
+        "GENDER",
+        "PET_AGE",
+        "MEDICATION"
+      ]
+    },
+    "sue ling": {
+      "pet_name": "sue ling",
+      "unknown_fields": [
+        "MEDICATION"
+      ]
     }
   },
   "total_unknowns": 6,
-  "pets_with_unknowns": 2,
-  "customer_confidence_score": 0.0
+  "pets_with_unknowns": 2
 }

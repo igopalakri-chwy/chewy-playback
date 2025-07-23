@@ -35,27 +35,25 @@
     },
     "BrandPreferences": [
       "Temptations",
-      "Fresh Step",
-      "Friskies"
+      "Fresh Step"
     ],
     "BrandScores": {
       "Temptations": 0.9,
-      "Fresh Step": 0.8,
-      "Friskies": 0.7
+      "Fresh Step": 0.8
     },
     "DietaryPreferences": [
       "grain-free"
     ],
     "DietaryScores": {
-      "grain-free": 0.6
+      "grain-free": 0.8
     },
     "BehavioralCues": [
       "enjoys treats",
-      "loves comfort"
+      "uses litter box regularly"
     ],
     "BehavioralScores": {
       "enjoys treats": 0.9,
-      "loves comfort": 0.8
+      "uses litter box regularly": 0.8
     },
     "HealthMentions": [
       "healthy"
@@ -108,27 +106,25 @@
     },
     "BrandPreferences": [
       "Temptations",
-      "Fresh Step",
-      "Friskies"
+      "Fresh Step"
     ],
     "BrandScores": {
       "Temptations": 0.9,
-      "Fresh Step": 0.8,
-      "Friskies": 0.7
+      "Fresh Step": 0.8
     },
     "DietaryPreferences": [
       "grain-free"
     ],
     "DietaryScores": {
-      "grain-free": 0.6
+      "grain-free": 0.8
     },
     "BehavioralCues": [
       "enjoys treats",
-      "loves comfort"
+      "uses litter box regularly"
     ],
     "BehavioralScores": {
       "enjoys treats": 0.9,
-      "loves comfort": 0.8
+      "uses litter box regularly": 0.8
     },
     "HealthMentions": [
       "healthy"
@@ -145,5 +141,7 @@
     "confidence_score": 0.8333333333333334,
     "name": "Moe"
   },
-  "cust_confidence_score": 0.8333333333333334
+  "cust_confidence_score": 0.8333333333333334,
+  "gets_playback": true,
+  "gets_personalized": true
 }

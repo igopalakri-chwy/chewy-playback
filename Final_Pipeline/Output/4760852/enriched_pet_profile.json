@@ -5,84 +5,64 @@
     "PetTypeScore": 1.0,
     "Breed": "Cockapoo",
     "BreedScore": 1.0,
-    "LifeStage": "A",
+    "LifeStage": "13",
     "LifeStageScore": 1.0,
     "Gender": "MALE",
     "GenderScore": 1.0,
-    "SizeCategory": "SM",
-    "SizeScore": 1.0,
-    "Weight": "UNK",
-    "WeightScore": 0.0,
+    "SizeCategory": "UNK",
+    "SizeScore": 0.0,
+    "Weight": "19",
+    "WeightScore": 1.0,
     "PersonalityTraits": [
-      "Finicky",
-      "Excited about eating"
+      "curious",
+      "affectionate"
     ],
     "PersonalityScores": {
-      "Finicky": 0.7,
-      "Excited about eating": 0.8
+      "curious": 0.7,
+      "affectionate": 0.8
     },
     "FavoriteProductCategories": [
-      "Dog Food",
-      "Dog Treats",
-      "Dog Nail Caps"
+      "food",
+      "treats"
     ],
     "CategoryScores": {
-      "Dog Food": 0.8,
-      "Dog Treats": 0.7,
-      "Dog Nail Caps": 0.6
+      "food": 0.9,
+      "treats": 0.8
     },
     "BrandPreferences": [
-      "Equilite Herbals",
-      "Nature's Miracle",
-      "Purrdy Paws",
-      "Merrick",
-      "Nutro Ultra",
-      "Found My Animal",
-      "Pure Water Pebbles",
-      "Bil Jac"
+      "Iams",
+      "Royal Canin"
     ],
     "BrandScores": {
-      "Equilite Herbals": 0.8,
-      "Nature's Miracle": 0.7,
-      "Purrdy Paws": 0.9,
-      "Merrick": 0.6,
-      "Nutro Ultra": 0.7,
-      "Found My Animal": 0.6,
-      "Pure Water Pebbles": 0.5,
-      "Bil Jac": 0.6
+      "Iams": 0.9,
+      "Royal Canin": 0.8
     },
     "DietaryPreferences": [
-      "Grain-Free",
-      "Chicken",
-      "Split Pea",
-      "Carrot"
+      "sensitive digestion",
+      "vegetarian"
     ],
     "DietaryScores": {
-      "Grain-Free": 0.8,
-      "Chicken": 0.7,
-      "Split Pea": 0.7,
-      "Carrot": 0.7
+      "sensitive digestion": 0.8,
+      "vegetarian": 0.7
     },
     "BehavioralCues": [
-      "Takes food from hand",
-      "No problems walking or moving quickly"
+      "enjoys treats"
     ],
     "BehavioralScores": {
-      "Takes food from hand": 0.8,
-      "No problems walking or moving quickly": 0.9
+      "enjoys treats": 0.8
     },
     "HealthMentions": [
-      "Good joint health"
+      "healthy skin",
+      "sensitive digestion"
     ],
     "HealthScores": {
-      "Good joint health": 0.8
+      "healthy skin": 0.8,
+      "sensitive digestion": 0.7
     },
     "MostOrderedProducts": [
-      "Equilite Herbals RelaxHer Blend Calming Powder Horse Supplement, 2-lb tub",
-      "Nature's Miracle Dog Enzymatic Stain Remover & Odor Eliminator, Melon Burst Scent, 1-gal bottle",
-      "Purrdy Paws Soft Dog Nail Caps, Sky Blue, X-Small, 40 count",
-      "Merrick Fresh Kisses Double-Brush Mint Breath Strip Infused X-Small Dental Dog Treats",
-      "Nutro Ultra Grain-Free Chicken, Split Pea & Carrot Recipe Dry Dog Food"
+      "Greenies Feline SmartBites Healthy Skin & Fur Natural Chicken Flavor Soft & Crunchy Adult Cat Treats, 4.6-oz bag",
+      "Evanger's Classic Recipes Chicken & Rice Canned Dog Food, 12.5-oz, case of 12",
+      "Iams Proactive Health Sensitive Digestion & Skin Turkey Dry Cat Food, 13-lb bag"
     ],
     "ConfidenceScore": 0.0,
     "confidence_score": 0.8333333333333334,
@@ -92,74 +72,72 @@
     "PetName": "NALA",
     "PetType": "Cat",
     "PetTypeScore": 1.0,
-    "Breed": "UNK",
-    "BreedScore": 0.0,
-    "LifeStage": "UNK",
-    "LifeStageScore": 0.0,
-    "Gender": "UNK",
-    "GenderScore": 0.0,
+    "Breed": "UNKNOWN",
+    "BreedScore": 1.0,
+    "LifeStage": "None",
+    "LifeStageScore": 1.0,
+    "Gender": "UNKN",
+    "GenderScore": 1.0,
     "SizeCategory": "UNK",
     "SizeScore": 0.0,
-    "Weight": "UNK",
-    "WeightScore": 0.0,
+    "Weight": "0",
+    "WeightScore": 1.0,
     "PersonalityTraits": [
-      "Finicky"
+      "curious",
+      "affectionate"
     ],
     "PersonalityScores": {
-      "Finicky": 0.7
+      "curious": 0.7,
+      "affectionate": 0.8
     },
     "FavoriteProductCategories": [
-      "Cat Food",
-      "Cat Toys"
+      "food",
+      "treats"
     ],
     "CategoryScores": {
-      "Cat Food": 0.8,
-      "Cat Toys": 0.7
+      "food": 0.9,
+      "treats": 0.8
     },
     "BrandPreferences": [
-      "Blue Buffalo",
-      "BFF Play",
-      "SmartyKat"
+      "Iams",
+      "Royal Canin"
     ],
     "BrandScores": {
-      "Blue Buffalo": 0.8,
-      "BFF Play": 0.7,
-      "SmartyKat": 0.9
+      "Iams": 0.9,
+      "Royal Canin": 0.8
     },
     "DietaryPreferences": [
-      "High-Protein",
-      "Grain-Free",
-      "Pate"
+      "sensitive digestion",
+      "vegetarian"
     ],
     "DietaryScores": {
-      "High-Protein": 0.8,
-      "Grain-Free": 0.8,
-      "Pate": 0.7
+      "sensitive digestion": 0.8,
+      "vegetarian": 0.7
     },
     "BehavioralCues": [
-      "Eats from hand",
-      "Happy to eat"
+      "enjoys treats"
     ],
     "BehavioralScores": {
-      "Eats from hand": 0.7,
-      "Happy to eat": 0.8
+      "enjoys treats": 0.8
     },
     "HealthMentions": [
-      "Good joint health"
+      "healthy skin",
+      "sensitive digestion"
     ],
     "HealthScores": {
-      "Good joint health": 0.7
+      "healthy skin": 0.8,
+      "sensitive digestion": 0.7
     },
     "MostOrderedProducts": [
-      "SmartyKat Felty Fun Balls Cat Toys",
-      "Blue Buffalo Wilderness Chicken High-Protein Grain-Free Pate Adult Wet Cat Food",
-      "Nature's Miracle Cat Enzymatic Stain Remover & Odor Eliminator Refill",
-      "TRIXIE Playground Wall Mounted Cat Shelves",
-      "BFF Play Pate Lovers Beef & Tuna Ta Da Wet Cat Food"
+      "Greenies Feline SmartBites Healthy Skin & Fur Natural Chicken Flavor Soft & Crunchy Adult Cat Treats, 4.6-oz bag",
+      "Evanger's Classic Recipes Chicken & Rice Canned Dog Food, 12.5-oz, case of 12",
+      "Iams Proactive Health Sensitive Digestion & Skin Turkey Dry Cat Food, 13-lb bag"
     ],
     "ConfidenceScore": 0.0,
-    "confidence_score": 0.16666666666666666,
+    "confidence_score": 0.8333333333333334,
     "name": "NALA"
   },
-  "cust_confidence_score": 0.5
+  "cust_confidence_score": 0.8333333333333334,
+  "gets_playback": true,
+  "gets_personalized": true
 }

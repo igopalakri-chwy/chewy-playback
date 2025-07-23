@@ -1,10 +1,10 @@
 {
-  "badge": "The Explorer",
+  "badge": "The Nurturer",
   "compatible_with": [
-    "The Athlete",
+    "The Cuddler",
     "The Daydreamer",
-    "The Cuddler"
+    "The Guardian"
   ],
-  "icon_png": "the_explorer.png",
-  "description": "This household is full of energy and curiosity, always ready for the next play session or adventure."
+  "icon_png": "the_nurturer.png",
+  "description": "A harmonious blend of nurturing spirits, always ready for a cuddle or a fun time."
 }

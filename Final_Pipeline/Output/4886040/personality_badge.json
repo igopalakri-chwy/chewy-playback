@@ -1,10 +1,10 @@
 {
-  "badge": "The Trickster",
+  "badge": "The Explorer",
   "compatible_with": [
-    "The Explorer",
-    "The Athlete",
-    "The Cuddler"
+    "The Cuddler",
+    "The Trickster",
+    "The Athlete"
   ],
-  "icon_png": "the_trickster.png",
-  "description": "This furry gang is full of playful and energetic tricksters who love their toys and treats, while living in their sophisticated suburban home."
+  "icon_png": "the_explorer.png",
+  "description": "Sophie and Dewbert are a dynamic duo who love exploring their home, whether that's through energetic zoomies or leisurely lounging."
 }

@@ -10,7 +10,7 @@
     "Gender": "FMLE",
     "GenderScore": 1.0,
     "SizeCategory": "Small",
-    "SizeScore": 0.8,
+    "SizeScore": 0.9,
     "Weight": "16",
     "WeightScore": 1.0,
     "PersonalityTraits": [
@@ -29,7 +29,7 @@
       "Dog Food": 0.9,
       "Dog Treats": 0.8,
       "Dog Toys": 0.7,
-      "Dog Hygiene": 0.7
+      "Dog Hygiene": 0.6
     },
     "BrandPreferences": [
       "Blue Buffalo",
@@ -42,12 +42,12 @@
     ],
     "BrandScores": {
       "Blue Buffalo": 0.9,
-      "Farmland Traditions": 0.7,
+      "Farmland Traditions": 0.8,
       "Chuckit!": 0.7,
-      "OraVet": 0.7,
-      "LESOTC": 0.6,
-      "Frisco": 0.6,
-      "Natural Dog Company": 0.6
+      "OraVet": 0.6,
+      "LESOTC": 0.5,
+      "Frisco": 0.4,
+      "Natural Dog Company": 0.3
     },
     "DietaryPreferences": [
       "Chicken",
@@ -76,7 +76,7 @@
       "Blue Buffalo Life Protection Formula Adult Chicken & Brown Rice Recipe Dry Dog Food, 5-lb bag",
       "Chuckit! Ultra Rubber Ball Tough Dog Toy, Medium, 2 pack"
     ],
-    "confidence_score": 0.9666666666666667,
+    "confidence_score": 0.9833333333333334,
     "name": "Maxine"
   },
   "Theo": {
@@ -103,15 +103,13 @@
       "Dog Food",
       "Dog Treats",
       "Dog Toys",
-      "Dog Dental Chews",
       "Dog Hygiene"
     ],
     "CategoryScores": {
-      "Dog Food": 0.9,
-      "Dog Treats": 0.8,
-      "Dog Toys": 0.7,
-      "Dog Dental Chews": 0.7,
-      "Dog Hygiene": 0.7
+      "Dog Food": 1.0,
+      "Dog Treats": 1.0,
+      "Dog Toys": 0.9,
+      "Dog Hygiene": 0.8
     },
     "BrandPreferences": [
       "Blue Buffalo",
@@ -123,12 +121,12 @@
       "Natural Dog Company"
     ],
     "BrandScores": {
-      "Blue Buffalo": 0.9,
-      "Farmland Traditions": 0.8,
-      "Chuckit!": 0.8,
-      "OraVet": 0.7,
-      "LESOTC": 0.7,
-      "Frisco": 0.7,
+      "Blue Buffalo": 1.0,
+      "Farmland Traditions": 0.9,
+      "Chuckit!": 0.9,
+      "OraVet": 0.8,
+      "LESOTC": 0.8,
+      "Frisco": 0.8,
       "Natural Dog Company": 0.7
     },
     "DietaryPreferences": [
@@ -136,8 +134,8 @@
       "Grain-Free"
     ],
     "DietaryScores": {
-      "Chicken": 0.9,
-      "Grain-Free": 0.8
+      "Chicken": 1.0,
+      "Grain-Free": 1.0
     },
     "BehavioralCues": [
       "UNK"
@@ -154,9 +152,7 @@
     "MostOrderedProducts": [
       "Blue Buffalo Life Protection Formula Adult Chicken & Brown Rice Recipe Dry Dog Food, 34-lb bag",
       "Blue Buffalo Wilderness Trail Treats Chicken Wild Bits Grain-Free Training Dog Treats, 10-oz bag",
-      "Farmland Traditions USA Dogs Love Chicken Grain-Free Jerky Strips Dog Treats, 3-lb bag",
-      "Blue Buffalo Life Protection Formula Adult Chicken & Brown Rice Recipe Dry Dog Food, 5-lb bag",
-      "Chuckit! Ultra Rubber Ball Tough Dog Toy, Medium, 2 pack"
+      "Farmland Traditions USA Dogs Love Chicken Grain-Free Jerky Strips Dog Treats, 3-lb bag"
     ],
     "confidence_score": 0.9833333333333334,
     "name": "Theo"
@@ -188,10 +184,10 @@
       "Dog Hygiene"
     ],
     "CategoryScores": {
-      "Dog Food": 1.0,
-      "Dog Treats": 1.0,
-      "Dog Toys": 1.0,
-      "Dog Hygiene": 1.0
+      "Dog Food": 0.9,
+      "Dog Treats": 0.8,
+      "Dog Toys": 0.7,
+      "Dog Hygiene": 0.6
     },
     "BrandPreferences": [
       "Blue Buffalo",
@@ -203,21 +199,21 @@
       "Natural Dog Company"
     ],
     "BrandScores": {
-      "Blue Buffalo": 1.0,
-      "Farmland Traditions": 1.0,
-      "Chuckit!": 1.0,
-      "OraVet": 1.0,
-      "LESOTC": 1.0,
-      "Frisco": 1.0,
-      "Natural Dog Company": 1.0
+      "Blue Buffalo": 0.9,
+      "Farmland Traditions": 0.8,
+      "Chuckit!": 0.7,
+      "OraVet": 0.6,
+      "LESOTC": 0.5,
+      "Frisco": 0.4,
+      "Natural Dog Company": 0.3
     },
     "DietaryPreferences": [
       "Chicken",
       "Grain-Free"
     ],
     "DietaryScores": {
-      "Chicken": 1.0,
-      "Grain-Free": 1.0
+      "Chicken": 0.9,
+      "Grain-Free": 0.8
     },
     "BehavioralCues": [
       "UNK"
@@ -269,9 +265,9 @@
     ],
     "CategoryScores": {
       "Cat Litter": 1.0,
-      "Cat Food": 1.0,
-      "Flea Treatment": 1.0,
-      "Cat Treats": 1.0
+      "Cat Food": 0.9,
+      "Flea Treatment": 0.8,
+      "Cat Treats": 0.7
     },
     "BrandPreferences": [
       "Scoop Away",
@@ -281,17 +277,17 @@
     ],
     "BrandScores": {
       "Scoop Away": 1.0,
-      "Iams": 1.0,
-      "Advantage II": 1.0,
-      "Hartz": 1.0
+      "Iams": 0.9,
+      "Advantage II": 0.8,
+      "Hartz": 0.7
     },
     "DietaryPreferences": [
-      "Dry Cat Food",
-      "Grain-Free Treats"
+      "Chicken & Salmon Dry Cat Food",
+      "Grain-Free Lickable Cat Treats"
     ],
     "DietaryScores": {
-      "Dry Cat Food": 1.0,
-      "Grain-Free Treats": 1.0
+      "Chicken & Salmon Dry Cat Food": 0.9,
+      "Grain-Free Lickable Cat Treats": 0.7
     },
     "BehavioralCues": [
       "UNK"
@@ -304,14 +300,14 @@
       "Flea Treatment"
     ],
     "HealthScores": {
-      "Hairball Care": 1.0,
-      "Flea Treatment": 1.0
+      "Hairball Care": 0.9,
+      "Flea Treatment": 0.8
     },
     "MostOrderedProducts": [
-      "Scoop Away Complete Performance Fresh Scented Clumping Clay Cat Litter, 10.5-lb bag, pack of 4",
-      "Iams ProActive Health Adult Hairball Care with Chicken & Salmon Dry Cat Food, 3.5-lb bag",
-      "Advantage II Flea Spot Treatment for Cats, over 9 lbs, 6 Doses (6-mos. supply)",
-      "Hartz Delectables Squeeze Up Variety Pack Grain-Free Lickable Cat Treats, 0.5-oz tube, 10 count"
+      "Scoop Away Complete Performance Fresh Scented Clumping Clay Cat Litter",
+      "Iams ProActive Health Adult Hairball Care with Chicken & Salmon Dry Cat Food",
+      "Advantage II Flea Spot Treatment for Cats",
+      "Hartz Delectables Squeeze Up Variety Pack Grain-Free Lickable Cat Treats"
     ],
     "confidence_score": 0.8333333333333334,
     "name": "Anyanka"
@@ -398,5 +394,7 @@
     "confidence_score": 0.8333333333333334,
     "name": "Daniel"
   },
-  "cust_confidence_score": 0.89
+  "cust_confidence_score": 0.8933333333333333,
+  "gets_playback": true,
+  "gets_personalized": true
 }

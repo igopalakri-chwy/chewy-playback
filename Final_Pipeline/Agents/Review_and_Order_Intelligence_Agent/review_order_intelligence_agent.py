@@ -187,7 +187,7 @@ class ReviewOrderIntelligenceAgent:
                 context_parts.append("- Size Category: UNK")
                 context_parts.append("- Weight: UNK")
                 context_parts.append("- Birthday: UNK")
-                context_parts.append("")
+            context_parts.append("")
         elif pet_name == 'UNK':
             context_parts.append(f"Pet Profile Data for {pet_name}:")
             context_parts.append("- Pet Type: UNK")
