@@ -1,73 +1,4 @@
 {
-  "Monty": {
-    "PetName": "Monty",
-    "PetType": "Dog",
-    "PetTypeScore": 1.0,
-    "Breed": "Australian Shepherd",
-    "BreedScore": 1.0,
-    "LifeStage": "0",
-    "LifeStageScore": 1.0,
-    "Gender": "MALE",
-    "GenderScore": 1.0,
-    "SizeCategory": "UNK",
-    "SizeScore": 0.0,
-    "Weight": "5",
-    "WeightScore": 1.0,
-    "PersonalityTraits": [
-      "curious",
-      "affectionate"
-    ],
-    "PersonalityScores": {
-      "curious": 0.8,
-      "affectionate": 0.9
-    },
-    "FavoriteProductCategories": [
-      "litter",
-      "food",
-      "treats"
-    ],
-    "CategoryScores": {
-      "litter": 0.9,
-      "food": 0.8,
-      "treats": 0.7
-    },
-    "BrandPreferences": [
-      "PrettyLitter",
-      "Friskies"
-    ],
-    "BrandScores": {
-      "PrettyLitter": 0.9,
-      "Friskies": 0.8
-    },
-    "DietaryPreferences": [
-      "grain-free"
-    ],
-    "DietaryScores": {
-      "grain-free": 0.8
-    },
-    "BehavioralCues": [
-      "enjoys treats",
-      "health-conscious"
-    ],
-    "BehavioralScores": {
-      "enjoys treats": 0.8,
-      "health-conscious": 0.7
-    },
-    "HealthMentions": [
-      "healthy"
-    ],
-    "HealthScores": {
-      "healthy": 0.8
-    },
-    "MostOrderedProducts": [
-      "PrettyLitter Health Monitoring Cat Litter, 8-lb bag",
-      "Nutrish Grain-Free Salmon & Sweet Potato Recipe Dry Dog Food, 23-lb bag (Rachael Ray)",
-      "Friskies Surfin' & Turfin' Favorites Muscle & Immune Support Crunchy Dry Cat Food, 22-lb bag"
-    ],
-    "ConfidenceScore": 0.0,
-    "confidence_score": 0.8333333333333334,
-    "name": "Monty"
-  },
   "Mike": {
     "PetName": "Mike",
     "PetType": "Cat",
@@ -87,7 +18,7 @@
       "affectionate"
     ],
     "PersonalityScores": {
-      "curious": 0.8,
+      "curious": 0.7,
       "affectionate": 0.9
     },
     "FavoriteProductCategories": [
@@ -109,10 +40,10 @@
       "Friskies": 0.8
     },
     "DietaryPreferences": [
-      "grain-free"
+      "high-protein"
     ],
     "DietaryScores": {
-      "grain-free": 0.8
+      "high-protein": 0.7
     },
     "BehavioralCues": [
       "enjoys treats",
@@ -130,12 +61,81 @@
     },
     "MostOrderedProducts": [
       "PrettyLitter Health Monitoring Cat Litter, 8-lb bag",
-      "Nutrish Grain-Free Salmon & Sweet Potato Recipe Dry Dog Food, 23-lb bag (Rachael Ray)",
-      "Friskies Surfin' & Turfin' Favorites Muscle & Immune Support Crunchy Dry Cat Food, 22-lb bag"
+      "Frisco Male Dog Wraps, Medium: 17 to 22-in waist, 50 count",
+      "Temptations Classic Tasty Chicken Flavor Soft & Crunchy Cat Treats, 16-oz tub"
     ],
     "ConfidenceScore": 0.0,
     "confidence_score": 0.8333333333333334,
     "name": "Mike"
+  },
+  "Monty": {
+    "PetName": "Monty",
+    "PetType": "Dog",
+    "PetTypeScore": 1.0,
+    "Breed": "Mixed / Unknown",
+    "BreedScore": 1.0,
+    "LifeStage": "None",
+    "LifeStageScore": 1.0,
+    "Gender": "UNKN",
+    "GenderScore": 1.0,
+    "SizeCategory": "UNK",
+    "SizeScore": 0.0,
+    "Weight": "3",
+    "WeightScore": 1.0,
+    "PersonalityTraits": [
+      "curious",
+      "affectionate"
+    ],
+    "PersonalityScores": {
+      "curious": 0.7,
+      "affectionate": 0.9
+    },
+    "FavoriteProductCategories": [
+      "litter",
+      "food",
+      "treats"
+    ],
+    "CategoryScores": {
+      "litter": 0.9,
+      "food": 0.8,
+      "treats": 0.7
+    },
+    "BrandPreferences": [
+      "PrettyLitter",
+      "Friskies"
+    ],
+    "BrandScores": {
+      "PrettyLitter": 0.9,
+      "Friskies": 0.8
+    },
+    "DietaryPreferences": [
+      "high-protein"
+    ],
+    "DietaryScores": {
+      "high-protein": 0.7
+    },
+    "BehavioralCues": [
+      "enjoys treats",
+      "health-conscious"
+    ],
+    "BehavioralScores": {
+      "enjoys treats": 0.8,
+      "health-conscious": 0.7
+    },
+    "HealthMentions": [
+      "healthy"
+    ],
+    "HealthScores": {
+      "healthy": 0.8
+    },
+    "MostOrderedProducts": [
+      "PrettyLitter Health Monitoring Cat Litter, 8-lb bag",
+      "Frisco Male Dog Wraps, Medium: 17 to 22-in waist, 50 count",
+      "Temptations Classic Tasty Chicken Flavor Soft & Crunchy Cat Treats, 16-oz tub"
+    ],
+    "ConfidenceScore": 0.0,
+    "confidence_score": 0.8333333333333334,
+    "name": "Monty"
   },
   "cust_confidence_score": 0.8333333333333334,
   "gets_playback": true,

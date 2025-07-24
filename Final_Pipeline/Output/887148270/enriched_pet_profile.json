@@ -9,74 +9,69 @@
     "LifeStageScore": 1.0,
     "Gender": "FMLE",
     "GenderScore": 1.0,
-    "SizeCategory": "Small",
-    "SizeScore": 0.9,
+    "SizeCategory": "UNK",
+    "SizeScore": 0.0,
     "Weight": "16",
     "WeightScore": 1.0,
     "PersonalityTraits": [
-      "UNK"
+      "playful",
+      "curious",
+      "affectionate"
     ],
     "PersonalityScores": {
-      "UNK": 0.0
+      "playful": 0.8,
+      "curious": 0.7,
+      "affectionate": 0.9
     },
     "FavoriteProductCategories": [
-      "Dog Food",
-      "Dog Treats",
-      "Dog Toys",
-      "Dog Hygiene"
+      "food",
+      "toys",
+      "treats"
     ],
     "CategoryScores": {
-      "Dog Food": 0.9,
-      "Dog Treats": 0.8,
-      "Dog Toys": 0.7,
-      "Dog Hygiene": 0.6
+      "food": 0.9,
+      "toys": 0.8,
+      "treats": 0.7
     },
     "BrandPreferences": [
       "Blue Buffalo",
-      "Farmland Traditions",
-      "Chuckit!",
-      "OraVet",
-      "LESOTC",
-      "Frisco",
-      "Natural Dog Company"
+      "Iams"
     ],
     "BrandScores": {
       "Blue Buffalo": 0.9,
-      "Farmland Traditions": 0.8,
-      "Chuckit!": 0.7,
-      "OraVet": 0.6,
-      "LESOTC": 0.5,
-      "Frisco": 0.4,
-      "Natural Dog Company": 0.3
+      "Iams": 0.8
     },
     "DietaryPreferences": [
-      "Chicken",
-      "Grain-Free"
+      "grain-free",
+      "hairball care"
     ],
     "DietaryScores": {
-      "Chicken": 0.9,
-      "Grain-Free": 0.8
+      "grain-free": 0.8,
+      "hairball care": 0.7
     },
     "BehavioralCues": [
-      "UNK"
+      "loves toys",
+      "enjoys treats"
     ],
     "BehavioralScores": {
-      "UNK": 0.0
+      "loves toys": 0.9,
+      "enjoys treats": 0.8
     },
     "HealthMentions": [
-      "UNK"
+      "healthy",
+      "active"
     ],
     "HealthScores": {
-      "UNK": 0.0
+      "healthy": 0.8,
+      "active": 0.7
     },
     "MostOrderedProducts": [
-      "Blue Buffalo Life Protection Formula Adult Chicken & Brown Rice Recipe Dry Dog Food, 34-lb bag",
       "Blue Buffalo Wilderness Trail Treats Chicken Wild Bits Grain-Free Training Dog Treats, 10-oz bag",
-      "Farmland Traditions USA Dogs Love Chicken Grain-Free Jerky Strips Dog Treats, 3-lb bag",
-      "Blue Buffalo Life Protection Formula Adult Chicken & Brown Rice Recipe Dry Dog Food, 5-lb bag",
-      "Chuckit! Ultra Rubber Ball Tough Dog Toy, Medium, 2 pack"
+      "Blue Buffalo Life Protection Formula Adult Chicken & Brown Rice Recipe Dry Dog Food, 34-lb bag",
+      "Iams ProActive Health Adult Hairball Care with Chicken & Salmon Dry Cat Food, 3.5-lb bag"
     ],
-    "confidence_score": 0.9833333333333334,
+    "ConfidenceScore": 0.0,
+    "confidence_score": 0.8333333333333334,
     "name": "Maxine"
   },
   "Theo": {
@@ -89,72 +84,69 @@
     "LifeStageScore": 1.0,
     "Gender": "MALE",
     "GenderScore": 1.0,
-    "SizeCategory": "Small",
-    "SizeScore": 0.9,
+    "SizeCategory": "UNK",
+    "SizeScore": 0.0,
     "Weight": "10",
     "WeightScore": 1.0,
     "PersonalityTraits": [
-      "UNK"
+      "playful",
+      "curious",
+      "affectionate"
     ],
     "PersonalityScores": {
-      "UNK": 0.0
+      "playful": 0.8,
+      "curious": 0.7,
+      "affectionate": 0.9
     },
     "FavoriteProductCategories": [
-      "Dog Food",
-      "Dog Treats",
-      "Dog Toys",
-      "Dog Hygiene"
+      "food",
+      "toys",
+      "treats"
     ],
     "CategoryScores": {
-      "Dog Food": 1.0,
-      "Dog Treats": 1.0,
-      "Dog Toys": 0.9,
-      "Dog Hygiene": 0.8
+      "food": 0.9,
+      "toys": 0.8,
+      "treats": 0.7
     },
     "BrandPreferences": [
       "Blue Buffalo",
-      "Farmland Traditions",
-      "Chuckit!",
-      "OraVet",
-      "LESOTC",
-      "Frisco",
-      "Natural Dog Company"
+      "Iams"
     ],
     "BrandScores": {
-      "Blue Buffalo": 1.0,
-      "Farmland Traditions": 0.9,
-      "Chuckit!": 0.9,
-      "OraVet": 0.8,
-      "LESOTC": 0.8,
-      "Frisco": 0.8,
-      "Natural Dog Company": 0.7
+      "Blue Buffalo": 0.9,
+      "Iams": 0.8
     },
     "DietaryPreferences": [
-      "Chicken",
-      "Grain-Free"
+      "grain-free",
+      "hairball care"
     ],
     "DietaryScores": {
-      "Chicken": 1.0,
-      "Grain-Free": 1.0
+      "grain-free": 0.8,
+      "hairball care": 0.7
     },
     "BehavioralCues": [
-      "UNK"
+      "loves toys",
+      "enjoys treats"
     ],
     "BehavioralScores": {
-      "UNK": 0.0
+      "loves toys": 0.9,
+      "enjoys treats": 0.8
     },
     "HealthMentions": [
-      "UNK"
+      "healthy",
+      "active"
     ],
     "HealthScores": {
-      "UNK": 0.0
+      "healthy": 0.8,
+      "active": 0.7
     },
     "MostOrderedProducts": [
-      "Blue Buffalo Life Protection Formula Adult Chicken & Brown Rice Recipe Dry Dog Food, 34-lb bag",
       "Blue Buffalo Wilderness Trail Treats Chicken Wild Bits Grain-Free Training Dog Treats, 10-oz bag",
-      "Farmland Traditions USA Dogs Love Chicken Grain-Free Jerky Strips Dog Treats, 3-lb bag"
+      "Blue Buffalo Life Protection Formula Adult Chicken & Brown Rice Recipe Dry Dog Food, 34-lb bag",
+      "Iams ProActive Health Adult Hairball Care with Chicken & Salmon Dry Cat Food, 3.5-lb bag"
     ],
-    "confidence_score": 0.9833333333333334,
+    "ConfidenceScore": 0.0,
+    "confidence_score": 0.8333333333333334,
     "name": "Theo"
   },
   "Gigi": {
@@ -172,68 +164,63 @@
     "Weight": "63",
     "WeightScore": 1.0,
     "PersonalityTraits": [
-      "UNK"
+      "playful",
+      "curious",
+      "affectionate"
     ],
     "PersonalityScores": {
-      "UNK": 0.0
+      "playful": 0.8,
+      "curious": 0.7,
+      "affectionate": 0.9
     },
     "FavoriteProductCategories": [
-      "Dog Food",
-      "Dog Treats",
-      "Dog Toys",
-      "Dog Hygiene"
+      "food",
+      "toys",
+      "treats"
     ],
     "CategoryScores": {
-      "Dog Food": 0.9,
-      "Dog Treats": 0.8,
-      "Dog Toys": 0.7,
-      "Dog Hygiene": 0.6
+      "food": 0.9,
+      "toys": 0.8,
+      "treats": 0.7
     },
     "BrandPreferences": [
       "Blue Buffalo",
-      "Farmland Traditions",
-      "Chuckit!",
-      "OraVet",
-      "LESOTC",
-      "Frisco",
-      "Natural Dog Company"
+      "Iams"
     ],
     "BrandScores": {
       "Blue Buffalo": 0.9,
-      "Farmland Traditions": 0.8,
-      "Chuckit!": 0.7,
-      "OraVet": 0.6,
-      "LESOTC": 0.5,
-      "Frisco": 0.4,
-      "Natural Dog Company": 0.3
+      "Iams": 0.8
     },
     "DietaryPreferences": [
-      "Chicken",
-      "Grain-Free"
+      "grain-free",
+      "hairball care"
     ],
     "DietaryScores": {
-      "Chicken": 0.9,
-      "Grain-Free": 0.8
+      "grain-free": 0.8,
+      "hairball care": 0.7
     },
     "BehavioralCues": [
-      "UNK"
+      "loves toys",
+      "enjoys treats"
     ],
     "BehavioralScores": {
-      "UNK": 0.0
+      "loves toys": 0.9,
+      "enjoys treats": 0.8
     },
     "HealthMentions": [
-      "UNK"
+      "healthy",
+      "active"
     ],
     "HealthScores": {
-      "UNK": 0.0
+      "healthy": 0.8,
+      "active": 0.7
     },
     "MostOrderedProducts": [
-      "Blue Buffalo Life Protection Formula Adult Chicken & Brown Rice Recipe Dry Dog Food, 34-lb bag",
       "Blue Buffalo Wilderness Trail Treats Chicken Wild Bits Grain-Free Training Dog Treats, 10-oz bag",
-      "Farmland Traditions USA Dogs Love Chicken Grain-Free Jerky Strips Dog Treats, 3-lb bag",
-      "Blue Buffalo Life Protection Formula Adult Chicken & Brown Rice Recipe Dry Dog Food, 5-lb bag",
-      "Chuckit! Ultra Rubber Ball Tough Dog Toy, Medium, 2 pack"
+      "Blue Buffalo Life Protection Formula Adult Chicken & Brown Rice Recipe Dry Dog Food, 34-lb bag",
+      "Iams ProActive Health Adult Hairball Care with Chicken & Salmon Dry Cat Food, 3.5-lb bag"
     ],
+    "ConfidenceScore": 0.0,
     "confidence_score": 0.8333333333333334,
     "name": "Gigi"
   },
@@ -252,63 +239,63 @@
     "Weight": "8",
     "WeightScore": 1.0,
     "PersonalityTraits": [
-      "UNK"
+      "playful",
+      "curious",
+      "affectionate"
     ],
     "PersonalityScores": {
-      "UNK": 0.0
+      "playful": 0.8,
+      "curious": 0.7,
+      "affectionate": 0.9
     },
     "FavoriteProductCategories": [
-      "Cat Litter",
-      "Cat Food",
-      "Flea Treatment",
-      "Cat Treats"
+      "food",
+      "toys",
+      "treats"
     ],
     "CategoryScores": {
-      "Cat Litter": 1.0,
-      "Cat Food": 0.9,
-      "Flea Treatment": 0.8,
-      "Cat Treats": 0.7
+      "food": 0.9,
+      "toys": 0.8,
+      "treats": 0.7
     },
     "BrandPreferences": [
-      "Scoop Away",
-      "Iams",
-      "Advantage II",
-      "Hartz"
+      "Blue Buffalo",
+      "Iams"
     ],
     "BrandScores": {
-      "Scoop Away": 1.0,
-      "Iams": 0.9,
-      "Advantage II": 0.8,
-      "Hartz": 0.7
+      "Blue Buffalo": 0.9,
+      "Iams": 0.8
     },
     "DietaryPreferences": [
-      "Chicken & Salmon Dry Cat Food",
-      "Grain-Free Lickable Cat Treats"
+      "grain-free",
+      "hairball care"
     ],
     "DietaryScores": {
-      "Chicken & Salmon Dry Cat Food": 0.9,
-      "Grain-Free Lickable Cat Treats": 0.7
+      "grain-free": 0.8,
+      "hairball care": 0.7
     },
     "BehavioralCues": [
-      "UNK"
+      "loves toys",
+      "enjoys treats"
     ],
     "BehavioralScores": {
-      "UNK": 0.0
+      "loves toys": 0.9,
+      "enjoys treats": 0.8
     },
     "HealthMentions": [
-      "Hairball Care",
-      "Flea Treatment"
+      "healthy",
+      "active"
     ],
     "HealthScores": {
-      "Hairball Care": 0.9,
-      "Flea Treatment": 0.8
+      "healthy": 0.8,
+      "active": 0.7
     },
     "MostOrderedProducts": [
-      "Scoop Away Complete Performance Fresh Scented Clumping Clay Cat Litter",
-      "Iams ProActive Health Adult Hairball Care with Chicken & Salmon Dry Cat Food",
-      "Advantage II Flea Spot Treatment for Cats",
-      "Hartz Delectables Squeeze Up Variety Pack Grain-Free Lickable Cat Treats"
+      "Blue Buffalo Wilderness Trail Treats Chicken Wild Bits Grain-Free Training Dog Treats, 10-oz bag",
+      "Blue Buffalo Life Protection Formula Adult Chicken & Brown Rice Recipe Dry Dog Food, 34-lb bag",
+      "Iams ProActive Health Adult Hairball Care with Chicken & Salmon Dry Cat Food, 3.5-lb bag"
     ],
+    "ConfidenceScore": 0.0,
     "confidence_score": 0.8333333333333334,
     "name": "Anyanka"
   },
@@ -327,74 +314,67 @@
     "Weight": "13",
     "WeightScore": 1.0,
     "PersonalityTraits": [
-      "UNK"
+      "playful",
+      "curious",
+      "affectionate"
     ],
     "PersonalityScores": {
-      "UNK": 0.0
+      "playful": 0.8,
+      "curious": 0.7,
+      "affectionate": 0.9
     },
     "FavoriteProductCategories": [
-      "Dog Food",
-      "Dog Treats",
-      "Dog Toys",
-      "Dog Hygiene"
+      "food",
+      "toys",
+      "treats"
     ],
     "CategoryScores": {
-      "Dog Food": 0.9,
-      "Dog Treats": 0.8,
-      "Dog Toys": 0.7,
-      "Dog Hygiene": 0.6
+      "food": 0.9,
+      "toys": 0.8,
+      "treats": 0.7
     },
     "BrandPreferences": [
       "Blue Buffalo",
-      "Farmland Traditions",
-      "Chuckit!",
-      "OraVet",
-      "LESOTC",
-      "Frisco",
-      "Natural Dog Company"
+      "Iams"
     ],
     "BrandScores": {
       "Blue Buffalo": 0.9,
-      "Farmland Traditions": 0.8,
-      "Chuckit!": 0.7,
-      "OraVet": 0.6,
-      "LESOTC": 0.5,
-      "Frisco": 0.4,
-      "Natural Dog Company": 0.3
+      "Iams": 0.8
     },
     "DietaryPreferences": [
-      "Chicken",
-      "Brown Rice",
-      "Grain-Free"
+      "grain-free",
+      "hairball care"
     ],
     "DietaryScores": {
-      "Chicken": 0.9,
-      "Brown Rice": 0.8,
-      "Grain-Free": 0.7
+      "grain-free": 0.8,
+      "hairball care": 0.7
     },
     "BehavioralCues": [
-      "UNK"
+      "loves toys",
+      "enjoys treats"
     ],
     "BehavioralScores": {
-      "UNK": 0.0
+      "loves toys": 0.9,
+      "enjoys treats": 0.8
     },
     "HealthMentions": [
-      "UNK"
+      "healthy",
+      "active"
     ],
     "HealthScores": {
-      "UNK": 0.0
+      "healthy": 0.8,
+      "active": 0.7
     },
     "MostOrderedProducts": [
-      "Blue Buffalo Life Protection Formula Adult Chicken & Brown Rice Recipe Dry Dog Food, 34-lb bag",
       "Blue Buffalo Wilderness Trail Treats Chicken Wild Bits Grain-Free Training Dog Treats, 10-oz bag",
-      "Farmland Traditions USA Dogs Love Chicken Grain-Free Jerky Strips Dog Treats, 3-lb bag",
-      "Blue Buffalo Life Protection Formula Adult Chicken & Brown Rice Recipe Dry Dog Food, 5-lb bag",
-      "Chuckit! Ultra Rubber Ball Tough Dog Toy, Medium, 2 pack"
+      "Blue Buffalo Life Protection Formula Adult Chicken & Brown Rice Recipe Dry Dog Food, 34-lb bag",
+      "Iams ProActive Health Adult Hairball Care with Chicken & Salmon Dry Cat Food, 3.5-lb bag"
     ],
+    "ConfidenceScore": 0.0,
     "confidence_score": 0.8333333333333334,
     "name": "Daniel"
   },
-  "cust_confidence_score": 0.8933333333333333,
+  "cust_confidence_score": 0.8333333333333334,
   "gets_playback": true,
   "gets_personalized": true
 }

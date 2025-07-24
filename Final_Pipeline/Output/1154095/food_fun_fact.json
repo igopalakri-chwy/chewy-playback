@@ -1,10 +1,8 @@
 {
-  "total_food_lbs": 965.5,
-  "weight_range": 900,
+  "total_food_lbs": 550.06,
+  "weight_range": 500,
   "fun_facts": [
-    "That's about the weight of a small thoroughbred horse!",
-    "That's equivalent to roughly 3,600 slices of pizza!",
-    "That's about as much as a large hot tub (empty)!"
+    "You've fed your pet 550.0625 lbs of food—about the same weight as 1 space shuttle. That's some serious love from beautiful FL!"
   ],
-  "message": "Your pets have consumed 965.50 pounds of food!"
+  "message": "Your pets have consumed 550.06 pounds of food!"
 }

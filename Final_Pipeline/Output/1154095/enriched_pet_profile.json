@@ -15,58 +15,58 @@
     "WeightScore": 1.0,
     "PersonalityTraits": [
       "sensitive",
+      "curious",
       "affectionate"
     ],
     "PersonalityScores": {
       "sensitive": 0.9,
+      "curious": 0.7,
       "affectionate": 0.8
     },
     "FavoriteProductCategories": [
       "food",
-      "litter",
-      "toppings"
+      "treats"
     ],
     "CategoryScores": {
       "food": 0.9,
-      "litter": 0.8,
-      "toppings": 0.7
+      "treats": 0.7
     },
     "BrandPreferences": [
       "Purina",
-      "Inaba"
+      "Weruva"
     ],
     "BrandScores": {
       "Purina": 0.9,
-      "Inaba": 0.8
+      "Weruva": 0.8
     },
     "DietaryPreferences": [
-      "sensitive skin",
-      "digestive health"
+      "sensitive stomach",
+      "grain-free"
     ],
     "DietaryScores": {
-      "sensitive skin": 0.9,
-      "digestive health": 0.9
+      "sensitive stomach": 0.9,
+      "grain-free": 0.8
     },
     "BehavioralCues": [
-      "enjoys variety in diet",
-      "requires special care"
+      "enjoys variety",
+      "sensitive to diet"
     ],
     "BehavioralScores": {
-      "enjoys variety in diet": 0.8,
-      "requires special care": 0.9
+      "enjoys variety": 0.8,
+      "sensitive to diet": 0.9
     },
     "HealthMentions": [
       "sensitive skin",
-      "sensitive stomach"
+      "healthy"
     ],
     "HealthScores": {
       "sensitive skin": 0.9,
-      "sensitive stomach": 0.9
+      "healthy": 0.8
     },
     "MostOrderedProducts": [
       "Purina ONE +Plus Sensitive Skin & Stomach Adult Natural Digestive Dry Cat Food, 16-lb bag",
-      "Arm & Hammer Litter Platinum Hardball Garden Bloom Lightweight Easy No-Mess Scooping Clumping Cat Litter, 16.5-lb bag",
-      "Inaba Dashi Delights Chicken with Tuna & Scallop Flavored Bits in Broth Cat Food Topping, 2.5-oz cup, pack of 6"
+      "Weruva Kitten Chicken Formula Au Jus Grain-Free Wet Cat Food, 3-oz, 12 count",
+      "Friskies Oceans of Delight Variety Pack Canned Cat Food, 5.5-oz, case of 40"
     ],
     "ConfidenceScore": 0.0,
     "confidence_score": 0.8333333333333334,
@@ -88,58 +88,58 @@
     "WeightScore": 1.0,
     "PersonalityTraits": [
       "sensitive",
+      "curious",
       "affectionate"
     ],
     "PersonalityScores": {
       "sensitive": 0.9,
+      "curious": 0.7,
       "affectionate": 0.8
     },
     "FavoriteProductCategories": [
       "food",
-      "litter",
-      "toppings"
+      "treats"
     ],
     "CategoryScores": {
       "food": 0.9,
-      "litter": 0.8,
-      "toppings": 0.7
+      "treats": 0.7
     },
     "BrandPreferences": [
       "Purina",
-      "Inaba"
+      "Weruva"
     ],
     "BrandScores": {
       "Purina": 0.9,
-      "Inaba": 0.8
+      "Weruva": 0.8
     },
     "DietaryPreferences": [
-      "sensitive skin",
-      "digestive health"
+      "sensitive stomach",
+      "grain-free"
     ],
     "DietaryScores": {
-      "sensitive skin": 0.9,
-      "digestive health": 0.9
+      "sensitive stomach": 0.9,
+      "grain-free": 0.8
     },
     "BehavioralCues": [
-      "enjoys variety in diet",
-      "requires special care"
+      "enjoys variety",
+      "sensitive to diet"
     ],
     "BehavioralScores": {
-      "enjoys variety in diet": 0.8,
-      "requires special care": 0.9
+      "enjoys variety": 0.8,
+      "sensitive to diet": 0.9
     },
     "HealthMentions": [
       "sensitive skin",
-      "sensitive stomach"
+      "healthy"
     ],
     "HealthScores": {
       "sensitive skin": 0.9,
-      "sensitive stomach": 0.9
+      "healthy": 0.8
     },
     "MostOrderedProducts": [
       "Purina ONE +Plus Sensitive Skin & Stomach Adult Natural Digestive Dry Cat Food, 16-lb bag",
-      "Arm & Hammer Litter Platinum Hardball Garden Bloom Lightweight Easy No-Mess Scooping Clumping Cat Litter, 16.5-lb bag",
-      "Inaba Dashi Delights Chicken with Tuna & Scallop Flavored Bits in Broth Cat Food Topping, 2.5-oz cup, pack of 6"
+      "Weruva Kitten Chicken Formula Au Jus Grain-Free Wet Cat Food, 3-oz, 12 count",
+      "Friskies Oceans of Delight Variety Pack Canned Cat Food, 5.5-oz, case of 40"
     ],
     "ConfidenceScore": 0.0,
     "confidence_score": 0.8333333333333334,

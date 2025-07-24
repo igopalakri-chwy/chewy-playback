@@ -1,7 +1,21 @@
 {
-  "visual_style": "Northwestern Naturalistic",
-  "color_texture": "Earthy Tones with Rough Textures",
-  "art_style": "Contemporary with Native American Influence",
-  "tone_style": "Calm and Serene",
-  "tones": "authentic"
+  "visual_style": "Pacific Northwest Chic",
+  "color_texture": "Rich Earth Tones with Heavy Green Accents",
+  "art_style": "Contemporary with a Blend of Native American Influence",
+  "tone_style": "Muted and Natural",
+  "location_background": "Lush Evergreen Forests and Scenic Waterways",
+  "location_data": {
+    "background_description": "Olympic National Park rainforest",
+    "city": "Bothell",
+    "state": "WA",
+    "location_type": "state",
+    "landmarks": [
+      "Mount Rainier",
+      "Olympic National Park",
+      "Mount St. Helens",
+      "San Juan Islands"
+    ]
+  },
+  "tones": "warm, friendly",
+  "location_context": "Customer is from Bothell, WA. Consider incorporating WA state landmarks and natural features subtly in the background."
 }

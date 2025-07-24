@@ -11,6 +11,7 @@ import openai
 import os
 import sys
 from pathlib import Path
+from location_background_generator import LocationBackgroundGenerator
 
 
 class ZIPVisualAestheticsGenerator:
@@ -18,23 +19,28 @@ class ZIPVisualAestheticsGenerator:
     
     def __init__(self):
         self.openai_client = openai.OpenAI()
+        self.location_generator = LocationBackgroundGenerator()
     
     def generate_aesthetics(self, zip_code: str) -> Dict[str, str]:
         """Generate visual aesthetics for a given ZIP code."""
         try:
+            # Get location-specific background information
+            location_data = self.location_generator.generate_location_background(zip_code)
+            
+            # Generate AI-enhanced aesthetics based on location
             response = self.openai_client.chat.completions.create(
                 model="gpt-4",
                 messages=[
                     {
                         "role": "system",
-                        "content": "You are an expert at analyzing ZIP codes to determine regional visual aesthetics. Return only a JSON object with visual_style, color_texture, art_style, and tone_style fields."
+                        "content": "You are an expert at analyzing ZIP codes to determine regional visual aesthetics. Return only a JSON object with visual_style, color_texture, art_style, tone_style, and location_background fields."
                     },
                     {
                         "role": "user",
-                        "content": f"Analyze ZIP code {zip_code} and provide regional visual aesthetics in JSON format with these fields: visual_style, color_texture, art_style, tone_style"
+                        "content": f"Analyze ZIP code {zip_code} (location: {location_data['city']}, {location_data['state']}) and provide regional visual aesthetics in JSON format with these fields: visual_style, color_texture, art_style, tone_style, location_background. Use the location data to enhance the aesthetics."
                     }
                 ],
-                max_tokens=200,
+                max_tokens=300,
                 temperature=0.7
             )
             
@@ -43,13 +49,40 @@ class ZIPVisualAestheticsGenerator:
             # Try to parse JSON from response
             try:
                 result = json.loads(content)
+                # Add location data to the result
+                result['location_data'] = location_data
                 return result
             except json.JSONDecodeError:
-                # Fallback to default aesthetics
-                return self._get_default_aesthetics()
+                # Fallback to location-based aesthetics
+                return self._get_location_based_aesthetics(location_data)
                 
         except Exception as e:
             print(f"Error generating aesthetics for {zip_code}: {e}")
+            return self._get_location_based_aesthetics(location_data)
+    
+    def _get_location_based_aesthetics(self, location_data: Dict[str, str]) -> Dict[str, str]:
+        """Generate aesthetics based on location data when AI fails."""
+        location_type = location_data.get('location_type', 'unknown')
+        
+        if location_type == 'major_city':
+            return {
+                'visual_style': 'urban sophisticated',
+                'color_texture': 'vibrant dynamic',
+                'art_style': 'contemporary urban',
+                'tone_style': 'energetic, cosmopolitan',
+                'location_background': location_data.get('background_description', ''),
+                'location_data': location_data
+            }
+        elif location_type == 'state':
+            return {
+                'visual_style': 'natural regional',
+                'color_texture': 'earthy warm',
+                'art_style': 'landscape inspired',
+                'tone_style': 'authentic, grounded',
+                'location_background': location_data.get('background_description', ''),
+                'location_data': location_data
+            }
+        else:
             return self._get_default_aesthetics()
     
     def _get_default_aesthetics(self) -> Dict[str, str]:
@@ -58,7 +91,9 @@ class ZIPVisualAestheticsGenerator:
             'visual_style': 'modern clean',
             'color_texture': 'smooth neutral',
             'art_style': 'contemporary minimal',
-            'tone_style': 'friendly, warm'
+            'tone_style': 'friendly, warm',
+            'location_background': 'a beautiful outdoor setting with natural scenery',
+            'location_data': {'city': 'Unknown', 'state': 'Unknown', 'location_type': 'unknown'}
         }
 
 
@@ -67,6 +102,20 @@ class PetLetterLLMSystem:
     
     def __init__(self, openai_api_key: Optional[str] = None):
         self.use_llm = True
+        
+        # Personality badge descriptive words mapping
+        self.badge_descriptive_words = {
+            "The Cuddler": ["affectionate", "gentle", "chill", "snuggly"],
+            "The Explorer": ["curious", "adventurous", "independent", "active"],
+            "The Guardian": ["protective", "loyal", "alert", "watchful"],
+            "The Trickster": ["clever", "mischievous", "unpredictable", "energetic"],
+            "The Scholar": ["observant", "quiet", "intelligent", "puzzle-loving"],
+            "The Athlete": ["energetic", "driven", "fast", "focused"],
+            "The Nurturer": ["comforting", "social", "motherly", "empathetic"],
+            "The Diva": ["picky", "confident", "dramatic", "stylish"],
+            "The Daydreamer": ["mellow", "imaginative", "slow-moving", "sensitive"],
+            "The Shadow": ["shy", "reserved", "cautious", "deeply loyal"]
+        }
         
         if openai_api_key:
             openai.api_key = openai_api_key
@@ -151,6 +200,10 @@ class PetLetterLLMSystem:
             tones = self._derive_tones_from_aesthetics(aesthetics)
             aesthetics['tones'] = tones
             
+            # Add location context for narrative generation
+            location_context = generator.location_generator.get_location_context(zip_code)
+            aesthetics['location_context'] = location_context
+            
             return aesthetics
         except Exception as e:
             print(f"Warning: Could not get ZIP aesthetics for {zip_code}: {e}")
@@ -188,7 +241,10 @@ class PetLetterLLMSystem:
             'visual_style': 'modern clean',
             'color_texture': 'smooth neutral',
             'art_style': 'contemporary minimal',
-            'tones': 'warm, friendly'
+            'tones': 'warm, friendly',
+            'location_background': 'a beautiful outdoor setting with natural scenery',
+            'location_context': 'Use general regional aesthetics for the background.',
+            'location_data': {'city': 'Unknown', 'state': 'Unknown', 'location_type': 'unknown'}
         }
     
     def generate_output(self, pet_data: Dict[str, Any], secondary_data: Dict[str, Any]) -> Dict[str, str]:
@@ -252,6 +308,8 @@ You are given:
   - `color_texture`: Regional color and texture preferences
   - `art_style`: Regional art style preferences
   - `tones`: Appealing tones for the region
+  - `location_background`: Specific location-based background description
+  - `location_context`: Location context for narrative generation
 
 ==== INSTRUCTIONS ====
 
@@ -267,10 +325,11 @@ STEP 1 — INTERPRET DATA AND PET PROFILES:
      - Do not use the product name directly.
 
 STEP 2 — GENERATE THE LETTER:
-- Write a single letter from the perspective of the pets.
+- Write a **SHORT, CONCISE** letter from the perspective of the pets (aim for 2-3 sentences maximum).
 - If any pet is named `"unknown"`, sign the letter as: `"From: The pets"`.
 - Otherwise, sign off with the actual pet names from `sample_pet_data` (comma-separated with "and").
 - The letter should:
+  - **Keep it brief**: Focus on one main message or product mention.
   - Mention the **positively reviewed** products (if review data available) or **frequently ordered** products (if order data available) using the LLM-generated natural description.
   - Express joy and personality using pet-like expressions (e.g., "zoomies of joy!", "snuggle squad reporting in!").
   - Avoid assigning products to specific pets unless the data clearly names a pet.
@@ -278,6 +337,7 @@ STEP 2 — GENERATE THE LETTER:
   - **Incorporate only the tones and style cues** from `zip_aesthetics` to influence the mood and feel of the letter, but **do NOT directly mention any region, ZIP code, city, or style name** in the letter text.
   - Avoid marketing language or sounding like an ad.
   - **Use proper letter formatting**: Include a space after the salutation (e.g., "Dear Human,\n\n"), a space before the ending (e.g., "\n\nWith all our love and zoomies,"), and keep the body text flowing naturally without excessive line breaks.
+  - **LENGTH CONSTRAINT**: The letter body should be no more than 2-3 sentences total.
 
 STEP 3 — GENERATE THE VISUAL PROMPT:
 - **CRITICAL PET COUNT RULE: You MUST count the pets in sample_pet_data and ensure the image contains EXACTLY that number of pets.**
@@ -286,21 +346,28 @@ STEP 3 — GENERATE THE VISUAL PROMPT:
 - **EXACT PET MATCH: The number of pets in the visual description must exactly match the number of pets in sample_pet_data.**
 - **PET TYPE ACCURACY: You MUST specify the exact pet type (dog/cat) for each pet based on the data. Do not change or guess pet types.**
 - **EXPLICIT PET TYPES: Start the visual prompt by explicitly stating the pet count and types (e.g., "four dogs and one cat" or "three cats and two dogs").**
+- **CRITICAL: DO NOT MENTION PET NAMES in the visual prompt. Focus on physical characteristics instead.**
 - Describe a sophisticated artistic pet portrait scene featuring the pets as the main subjects.
 - **Pets should be the clear focus** - describe their appearance, poses, and expressions prominently with joyful energy.
+- **MANDATORY PHYSICAL TRAITS: You MUST include breed, size, and weight information for each pet when available:**
+  - **BREED**: Always mention the breed if known (e.g., "Shih Tzu dogs", "Beagle mix", "domestic cat")
+  - **SIZE/WEIGHT**: Always include size/weight descriptions (e.g., "small 10-pound", "medium 16-pound", "large 63-pound")
+  - **AGE**: Include age/life stage when available (e.g., "young", "adult", "senior")
+  - **GENDER**: Include gender when available (e.g., "male", "female")
 - **ZIP aesthetics influence the background and style**, not the main pet focus:
   - Use the `visual_style` to describe background elements and setting
   - Apply the `color_texture` to influence the overall color palette
   - Follow the `art_style` for style direction in the background
+  - **LOCATION BACKGROUND**: Incorporate the `location_background` description as the background setting (e.g., "Space Needle with Seattle skyline", "Golden Gate Bridge spanning the bay", "Mount Rainier visible through window")
   - The pets remain the primary subjects regardless of ZIP aesthetics
+  - The location background should be visible but not overwhelming - it should enhance the scene without dominating it
 - Include the positively reviewed products (if review data available) or frequently ordered products (if order data available), described naturally as props or accessories.
 - If any pet is `"unknown"`:
   - Include a **generic** version of its `type` (e.g., "a generic domestic cat").
-- If a pet has known physical traits (breed, size, age, weight, color):
-  - Include those in the visual description to provide more context and personality.
-  - For weight: Use terms like "small", "medium", "large", "chunky", "slim" based on the weight value.
-  - For age/life stage: Use terms like "puppy", "kitten", "young", "adult", "senior" based on the age value.
-  - Handle NULL/UNK values gracefully - only mention traits that have actual values.
+- **PHYSICAL TRAIT PRIORITY**: When describing pets, prioritize physical characteristics over names:
+  - Instead of "Maxine, Theo, Gigi, and Daniel" → "four dogs of varying sizes"
+  - Instead of "Anyanka the cat" → "a domestic cat"
+  - Focus on: breed, size, weight, age, gender, and physical appearance
 - Do NOT make up any physical characteristics that are not explicitly given.
 - Include **Chewy branding subtly** — e.g., on a toy bin, food bowl, scarf label, or poster in the background.
 - **LIGHTING AND BRIGHTNESS: The scene should be bright and well-lit with vibrant, cheerful lighting. Use bright, warm lighting that illuminates the pets clearly. Avoid dark shadows or dim lighting. The overall atmosphere should be bright, sunny, and uplifting.**
@@ -340,7 +407,8 @@ You MUST return a valid JSON object with this EXACT structure:
     "badge": "<exact badge name from the 10 categories above>",
     "compatible_with": ["<badge1>", "<badge2>", "<badge3>"],
     "icon_png": "<badge_name_lowercase>.png",
-    "description": "<one cool sentence that captures the household's personality vibe>"
+    "description": "<one cool sentence that captures the household's personality vibe>",
+    "descriptive_words": ["<word1>", "<word2>", "<word3>", "<word4>"]
   }}
 }}
 
@@ -377,6 +445,11 @@ Generate the JSON object:"""
                 result = json.loads(content)
                 # Add ZIP aesthetics to the result
                 result['zip_aesthetics'] = zip_aesthetics
+                # Add descriptive words to the personality badge if not already present
+                if 'personality_badge' in result and 'badge' in result['personality_badge']:
+                    badge_name = result['personality_badge']['badge']
+                    if badge_name in self.badge_descriptive_words:
+                        result['personality_badge']['descriptive_words'] = self.badge_descriptive_words[badge_name]
                 return result
             except json.JSONDecodeError:
                 # If JSON parsing fails, try to extract JSON from the response
@@ -387,6 +460,11 @@ Generate the JSON object:"""
                         result = json.loads(json_match.group())
                         # Add ZIP aesthetics to the result
                         result['zip_aesthetics'] = zip_aesthetics
+                        # Add descriptive words to the personality badge if not already present
+                        if 'personality_badge' in result and 'badge' in result['personality_badge']:
+                            badge_name = result['personality_badge']['badge']
+                            if badge_name in self.badge_descriptive_words:
+                                result['personality_badge']['descriptive_words'] = self.badge_descriptive_words[badge_name]
                         return result
                     except json.JSONDecodeError:
                         pass
@@ -394,11 +472,23 @@ Generate the JSON object:"""
                 # Fallback to hardcoded response
                 fallback_result = self._generate_fallback_output(sample_pet_data, sample_review_data, sample_order_data, data_type)
                 fallback_result['zip_aesthetics'] = zip_aesthetics
+                # Add descriptive words to the personality badge if not already present
+                if 'personality_badge' in fallback_result and 'badge' in fallback_result['personality_badge']:
+                    badge_name = fallback_result['personality_badge']['badge']
+                    if badge_name in self.badge_descriptive_words:
+                        fallback_result['personality_badge']['descriptive_words'] = self.badge_descriptive_words[badge_name]
                 return fallback_result
             
         except Exception as e:
             print(f"LLM generation failed: {e}")
-            return self._generate_fallback_output(sample_pet_data, sample_review_data, sample_order_data, data_type)
+            fallback_result = self._generate_fallback_output(sample_pet_data, sample_review_data, sample_order_data, data_type)
+            fallback_result['zip_aesthetics'] = zip_aesthetics
+            # Add descriptive words to the personality badge if not already present
+            if 'personality_badge' in fallback_result and 'badge' in fallback_result['personality_badge']:
+                badge_name = fallback_result['personality_badge']['badge']
+                if badge_name in self.badge_descriptive_words:
+                    fallback_result['personality_badge']['descriptive_words'] = self.badge_descriptive_words[badge_name]
+            return fallback_result
     
     def _prepare_context_reviews(self, sample_pet_data: List[Dict[str, Any]], sample_review_data: List[Dict[str, Any]], zip_aesthetics: Optional[Dict[str, str]] = None) -> str:
         """Prepare context for LLM generation with review data."""
@@ -439,6 +529,10 @@ Generate the JSON object:"""
             context_parts.append(f"- color_texture: {zip_aesthetics['color_texture']}")
             context_parts.append(f"- art_style: {zip_aesthetics['art_style']}")
             context_parts.append(f"- tones: {zip_aesthetics['tones']}")
+            if zip_aesthetics.get('location_background'):
+                context_parts.append(f"- location_background: {zip_aesthetics['location_background']}")
+            if zip_aesthetics.get('location_context'):
+                context_parts.append(f"- location_context: {zip_aesthetics['location_context']}")
         
         return '\n'.join(context_parts)
 
@@ -481,8 +575,92 @@ Generate the JSON object:"""
             context_parts.append(f"- color_texture: {zip_aesthetics['color_texture']}")
             context_parts.append(f"- art_style: {zip_aesthetics['art_style']}")
             context_parts.append(f"- tones: {zip_aesthetics['tones']}")
+            if zip_aesthetics.get('location_background'):
+                context_parts.append(f"- location_background: {zip_aesthetics['location_background']}")
+            if zip_aesthetics.get('location_context'):
+                context_parts.append(f"- location_context: {zip_aesthetics['location_context']}")
         
         return '\n'.join(context_parts)
+    
+    def _determine_household_badge(self, sample_pet_data: List[Dict[str, Any]], sample_review_data: List[Dict[str, Any]], sample_order_data: List[Dict[str, Any]], data_type: str) -> str:
+        """Determine household badge based on pet characteristics and data."""
+        # Analyze pet types and traits
+        pet_types = [pet.get('type', pet.get('PetType', '')).lower() for pet in sample_pet_data]
+        traits = []
+        for pet in sample_pet_data:
+            pet_traits = pet.get('traits', pet.get('PersonalityTraits', []))
+            if isinstance(pet_traits, list):
+                traits.extend(pet_traits)
+            elif isinstance(pet_traits, str):
+                traits.append(pet_traits)
+        
+        # Analyze order data for clues
+        order_clues = []
+        if data_type == "orders":
+            for order in sample_order_data:
+                item_type = order.get('item_type', '').lower()
+                if item_type in ['toy', 'ball', 'frisbee']:
+                    order_clues.append('active')
+                elif item_type in ['bed', 'blanket', 'cushion']:
+                    order_clues.append('chill')
+                elif item_type in ['treat', 'food']:
+                    order_clues.append('food_lover')
+        
+        # Simple rule-based badge assignment
+        trait_text = ' '.join(traits).lower()
+        clue_text = ' '.join(order_clues).lower()
+        
+        # Check for specific personality indicators
+        if any(word in trait_text for word in ['protective', 'guard', 'watch', 'alert']):
+            return "The Guardian"
+        elif any(word in trait_text for word in ['playful', 'energetic', 'active', 'fast']) or 'active' in clue_text:
+            return "The Athlete"
+        elif any(word in trait_text for word in ['curious', 'explore', 'adventure', 'independent']):
+            return "The Explorer"
+        elif any(word in trait_text for word in ['affectionate', 'gentle', 'chill', 'snuggly']):
+            return "The Cuddler"
+        elif any(word in trait_text for word in ['clever', 'mischievous', 'trick', 'smart']):
+            return "The Trickster"
+        elif any(word in trait_text for word in ['quiet', 'observant', 'intelligent', 'puzzle']):
+            return "The Scholar"
+        elif any(word in trait_text for word in ['social', 'motherly', 'comforting', 'empathetic']):
+            return "The Nurturer"
+        elif any(word in trait_text for word in ['picky', 'confident', 'dramatic', 'stylish']):
+            return "The Diva"
+        elif any(word in trait_text for word in ['mellow', 'imaginative', 'slow', 'sensitive']):
+            return "The Daydreamer"
+        elif any(word in trait_text for word in ['shy', 'reserved', 'cautious', 'loyal']):
+            return "The Shadow"
+        
+        # Default based on pet types
+        if 'dog' in pet_types and 'cat' in pet_types:
+            return "The Explorer"  # Mixed household tends to be more active
+        elif 'dog' in pet_types:
+            return "The Athlete"   # Dogs are often more energetic
+        elif 'cat' in pet_types:
+            return "The Scholar"   # Cats are often more observant
+        else:
+            return "The Explorer"  # Final fallback
+    
+    def _generate_household_description(self, badge: str, sample_pet_data: List[Dict[str, Any]]) -> str:
+        """Generate a description for the household based on the badge and pets."""
+        pet_names = [pet.get('name', 'Unknown') for pet in sample_pet_data]
+        pet_types = [pet.get('type', pet.get('PetType', 'Unknown')).lower() for pet in sample_pet_data]
+        
+        descriptions = {
+            "The Cuddler": "This household is filled with warmth and affection, creating a cozy haven of love and snuggles.",
+            "The Explorer": "This household is filled with energy and curiosity, creating endless fun and adventure.",
+            "The Guardian": "This household is protected by loyal companions who watch over their family with devotion.",
+            "The Trickster": "This household is full of clever mischief and playful surprises around every corner.",
+            "The Scholar": "This household is home to thoughtful observers who love to learn and discover.",
+            "The Athlete": "This household is bursting with energy and drive, always ready for action and play.",
+            "The Nurturer": "This household is filled with caring spirits who comfort and support everyone around them.",
+            "The Diva": "This household has a flair for the dramatic and knows how to make every moment stylish.",
+            "The Daydreamer": "This household moves at its own peaceful pace, finding beauty in quiet moments.",
+            "The Shadow": "This household is home to gentle souls who show their love through quiet loyalty."
+        }
+        
+        return descriptions.get(badge, "This household is filled with unique personalities that make every day special.")
     
     COMPATIBILITY_MAP = {
         "The Daydreamer": ["The Scholar", "The Shadow", "The Cuddler"],
@@ -660,7 +838,7 @@ Generate the JSON object:"""
         # Generate letter content based on data type
         letter = f"""Dear Human,
 
-We hope this letter finds you well and ready for some serious cuddle time! We've been having the most amazing zoomies of joy with all the incredible things you've brought into our lives, and we just had to write to tell you how much we love everything!"""
+We're so excited to tell you how much we love everything you've brought into our lives!"""
         
         # Add specific mentions based on data type
         if data_type == "reviews":
@@ -671,7 +849,7 @@ We hope this letter finds you well and ready for some serious cuddle time! We've
                     positive_products.append(review.get('product_name', review.get('product', '')))
             
             if positive_products:
-                letter += f"We absolutely adore the {', '.join(positive_products[:3])} you've gotten for us! "
+                letter += f"We absolutely adore the {positive_products[0]} you've gotten for us! "
         
         elif data_type == "orders":
             # Analyze order data for product mentions
@@ -699,20 +877,12 @@ We hope this letter finds you well and ready for some serious cuddle time! We've
                         type_mentions.append("yummy treats")
                 
                 if type_mentions:
-                    letter += f"We absolutely adore the {', '.join(type_mentions)} you've spoiled us with! "
+                    letter += f"We absolutely adore the {type_mentions[0]} you've spoiled us with! "
         
-        letter += f""" It's like you've brought the thrill of the hunt right into our cozy home, and our tails haven't stopped wagging (or swishing, depending on who you ask)!
-
-Every meal is like a gourmet feast, and we can't help but do our happy dance when you reach for the treat jar. The cozy things you've given us - whether it's soft beds, warm sweaters, or comfy spots - have made our home the most snuggle-approved place ever.
-
-We feel so loved and cared for, and we want you to know that we appreciate every little thing you do for us. You always know exactly what we need to be happy, healthy, and entertained.
-
-So from the bottom of our furry hearts, thank you for being the best human ever! We're so lucky to have you, and we promise to keep being the most loving, playful, and grateful pets you could ask for.
+        letter += f""" Thank you for being the best human ever!
 
 With all our love and zoomies,
-{signature}
-
-P.S. Can we have an extra treat for being such good pets? Pretty please with a paw on top!"""
+{signature}"""
         
         # Generate visual prompt with enhanced pet information
         pet_descriptions = []
@@ -800,10 +970,26 @@ P.S. Can we have an extra treat for being such good pets? Pretty please with a p
             
             pets_output.append(pet_result)
         
+        # Determine household badge using the enhanced logic
+        household_badge = self._determine_household_badge(sample_pet_data, sample_review_data, sample_order_data, data_type)
+        household_description = self._generate_household_description(household_badge, sample_pet_data)
+        
+        # Get compatible badges
+        compatible_badges = self.COMPATIBILITY_MAP.get(household_badge, ["The Explorer", "The Athlete", "The Cuddler"])
+        
+        # Create personality badge structure
+        personality_badge = {
+            "badge": household_badge,
+            "compatible_with": compatible_badges,
+            "icon_png": f"{household_badge.lower().replace(' ', '_')}.png",
+            "description": household_description,
+            "descriptive_words": self.badge_descriptive_words.get(household_badge, ["friendly", "gentle", "curious", "loving"])
+        }
+        
         return {
             "letter": letter,
             "visual_prompt": visual_prompt,
-            "pets": pets_output
+            "personality_badge": personality_badge
         }
 
 

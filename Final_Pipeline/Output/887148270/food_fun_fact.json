@@ -1,10 +1,8 @@
 {
-  "total_food_lbs": 506.88,
-  "weight_range": 500,
+  "total_food_lbs": 305.0,
+  "weight_range": 300,
   "fun_facts": [
-    "That's about the weight of a large Arabian horse!",
-    "That's equivalent to roughly 2,000 potatoes!",
-    "That's about as much as a baby grand piano!"
+    "You've fed your pet 305.0 lbs of food—about the same weight as 1 grand piano. That's some serious love from your hometown!"
   ],
-  "message": "Your pets have consumed 506.88 pounds of food!"
+  "message": "Your pets have consumed 305.00 pounds of food!"
 }

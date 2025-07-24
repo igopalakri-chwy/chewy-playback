@@ -1,10 +1,16 @@
 {
-  "badge": "The Cuddler",
+  "badge": "The Diva",
   "compatible_with": [
-    "The Diva",
+    "The Cuddler",
     "The Daydreamer",
-    "The Nurturer"
+    "The Trickster"
   ],
-  "icon_png": "the_cuddler.png",
-  "description": "Shaomaomi, the loving kitty, adores comfort and treating herself, enjoying the quiet moments of relaxation and the pleasurable experiences her human provides."
+  "icon_png": "the_diva.png",
+  "description": "A refined and confident cat who knows what they want and isn't afraid to demand the best.",
+  "descriptive_words": [
+    "picky",
+    "confident",
+    "dramatic",
+    "stylish"
+  ]
 }

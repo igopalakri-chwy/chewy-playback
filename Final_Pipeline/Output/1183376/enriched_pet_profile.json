@@ -14,24 +14,22 @@
     "Weight": "10",
     "WeightScore": 1.0,
     "PersonalityTraits": [
+      "playful",
       "curious",
-      "affectionate",
-      "health-conscious"
+      "affectionate"
     ],
     "PersonalityScores": {
+      "playful": 0.8,
       "curious": 0.7,
-      "affectionate": 0.9,
-      "health-conscious": 0.8
+      "affectionate": 0.9
     },
     "FavoriteProductCategories": [
       "food",
-      "treats",
-      "health supplements"
+      "treats"
     ],
     "CategoryScores": {
       "food": 0.9,
-      "treats": 0.8,
-      "health supplements": 0.85
+      "treats": 0.8
     },
     "BrandPreferences": [
       "Purina Pro Plan",
@@ -43,32 +41,32 @@
     },
     "DietaryPreferences": [
       "grain-free",
-      "urinary health"
+      "high-protein"
     ],
     "DietaryScores": {
       "grain-free": 0.8,
-      "urinary health": 0.9
+      "high-protein": 0.7
     },
     "BehavioralCues": [
       "enjoys treats",
-      "requires health management"
+      "health-conscious"
     ],
     "BehavioralScores": {
-      "enjoys treats": 0.8,
-      "requires health management": 0.85
+      "enjoys treats": 0.9,
+      "health-conscious": 0.8
     },
     "HealthMentions": [
-      "urinary health",
-      "hairball control"
+      "healthy",
+      "active"
     ],
     "HealthScores": {
-      "urinary health": 0.9,
-      "hairball control": 0.85
+      "healthy": 0.8,
+      "active": 0.7
     },
     "MostOrderedProducts": [
-      "Tomlyn Laxatone Tuna Flavored Gel Hairball Control Supplement for Cats, 4.25-oz",
-      "Purina Pro Plan Hairball Control Turkey Entree Pate Wet Cat Food, 3-oz can, case of 24",
-      "Feline Natural Chicken Healthy Bites Grain-Free Freeze-Dried Cat Treats, 1.76-oz bag"
+      "SmartCat Unscented Clumping Grass Cat Litter, 20-lb bag",
+      "Feline Natural Lamb Healthy Bites Grain-Free Freeze-Dried Cat Treats, 1.76-oz bag",
+      "Greenies Feline Oven Roasted Chicken Flavor Adult Dental Cat Treats, 4.6-oz bag"
     ],
     "ConfidenceScore": 0.0,
     "confidence_score": 0.8333333333333334,
@@ -86,27 +84,25 @@
     "GenderScore": 1.0,
     "SizeCategory": "UNK",
     "SizeScore": 0.0,
-    "Weight": "4",
+    "Weight": "10",
     "WeightScore": 1.0,
     "PersonalityTraits": [
+      "playful",
       "curious",
-      "affectionate",
-      "health-conscious"
+      "affectionate"
     ],
     "PersonalityScores": {
+      "playful": 0.8,
       "curious": 0.7,
-      "affectionate": 0.9,
-      "health-conscious": 0.8
+      "affectionate": 0.9
     },
     "FavoriteProductCategories": [
       "food",
-      "treats",
-      "health supplements"
+      "treats"
     ],
     "CategoryScores": {
       "food": 0.9,
-      "treats": 0.8,
-      "health supplements": 0.85
+      "treats": 0.8
     },
     "BrandPreferences": [
       "Purina Pro Plan",
@@ -118,32 +114,32 @@
     },
     "DietaryPreferences": [
       "grain-free",
-      "urinary health"
+      "high-protein"
     ],
     "DietaryScores": {
       "grain-free": 0.8,
-      "urinary health": 0.9
+      "high-protein": 0.7
     },
     "BehavioralCues": [
       "enjoys treats",
-      "requires health management"
+      "health-conscious"
     ],
     "BehavioralScores": {
-      "enjoys treats": 0.8,
-      "requires health management": 0.85
+      "enjoys treats": 0.9,
+      "health-conscious": 0.8
     },
     "HealthMentions": [
-      "urinary health",
-      "hairball control"
+      "healthy",
+      "active"
     ],
     "HealthScores": {
-      "urinary health": 0.9,
-      "hairball control": 0.85
+      "healthy": 0.8,
+      "active": 0.7
     },
     "MostOrderedProducts": [
-      "Tomlyn Laxatone Tuna Flavored Gel Hairball Control Supplement for Cats, 4.25-oz",
-      "Purina Pro Plan Hairball Control Turkey Entree Pate Wet Cat Food, 3-oz can, case of 24",
-      "Feline Natural Chicken Healthy Bites Grain-Free Freeze-Dried Cat Treats, 1.76-oz bag"
+      "SmartCat Unscented Clumping Grass Cat Litter, 20-lb bag",
+      "Feline Natural Lamb Healthy Bites Grain-Free Freeze-Dried Cat Treats, 1.76-oz bag",
+      "Greenies Feline Oven Roasted Chicken Flavor Adult Dental Cat Treats, 4.6-oz bag"
     ],
     "ConfidenceScore": 0.0,
     "confidence_score": 0.8333333333333334,

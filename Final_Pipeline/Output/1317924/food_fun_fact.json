@@ -1,10 +1,8 @@
 {
-  "total_food_lbs": 1702.19,
-  "weight_range": 1700,
+  "total_food_lbs": 2.19,
+  "weight_range": 0,
   "fun_facts": [
-    "That's about the weight of a large riding horse!",
-    "That's equivalent to roughly 6,800 apples!",
-    "That's about as much as a mid-size SUV!"
+    "You've fed your pet 2.1875 lbs of food—about the same weight as 1 bowling ball. That's some serious love from your hometown!"
   ],
-  "message": "Your pets have consumed 1702.19 pounds of food!"
+  "message": "Your pets have consumed 2.19 pounds of food!"
 }

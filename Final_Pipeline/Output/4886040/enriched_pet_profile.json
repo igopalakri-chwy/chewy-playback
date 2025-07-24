@@ -9,74 +9,67 @@
     "LifeStageScore": 1.0,
     "Gender": "FMLE",
     "GenderScore": 1.0,
-    "SizeCategory": "Medium",
-    "SizeScore": 0.7,
+    "SizeCategory": "UNK",
+    "SizeScore": 0.0,
     "Weight": "65",
     "WeightScore": 1.0,
     "PersonalityTraits": [
-      "UNK"
+      "curious",
+      "health-conscious"
     ],
     "PersonalityScores": {
-      "UNK": 0.0
+      "curious": 0.7,
+      "health-conscious": 0.8
     },
     "FavoriteProductCategories": [
-      "Dog Food",
-      "Dog Treats"
+      "supplements",
+      "treats",
+      "flea treatment"
     ],
     "CategoryScores": {
-      "Dog Food": 0.8,
-      "Dog Treats": 0.9
+      "supplements": 0.9,
+      "treats": 0.8,
+      "flea treatment": 0.7
     },
     "BrandPreferences": [
       "Icelandic+",
-      "Wellness",
-      "Inception",
-      "Fantastic Dog Chews",
-      "ACANA",
-      "Bones & Chews",
-      "Huntaway",
-      "Instinct"
+      "ORIJEN"
     ],
     "BrandScores": {
       "Icelandic+": 0.9,
-      "Wellness": 0.8,
-      "Inception": 0.8,
-      "Fantastic Dog Chews": 0.7,
-      "ACANA": 0.7,
-      "Bones & Chews": 0.7,
-      "Huntaway": 0.7,
-      "Instinct": 0.7
+      "ORIJEN": 0.8
     },
     "DietaryPreferences": [
-      "Fish",
-      "Venison",
-      "Chicken"
+      "grain-free",
+      "omega-rich"
     ],
     "DietaryScores": {
-      "Fish": 0.9,
-      "Venison": 0.7,
-      "Chicken": 0.7
+      "grain-free": 0.8,
+      "omega-rich": 0.9
     },
     "BehavioralCues": [
-      "UNK"
+      "enjoys treats",
+      "requires health supplements"
     ],
     "BehavioralScores": {
-      "UNK": 0.0
+      "enjoys treats": 0.8,
+      "requires health supplements": 0.9
     },
     "HealthMentions": [
-      "UNK"
+      "skin and coat health",
+      "immune support"
     ],
     "HealthScores": {
-      "UNK": 0.0
+      "skin and coat health": 0.9,
+      "immune support": 0.8
     },
     "MostOrderedProducts": [
-      "Icelandic+ Mini Cod Fish Chips Dog Treat",
-      "Wellness 95% Whitefish Natural Grain-Free Wet Dog Food Topper",
-      "Inception Fish Recipe Dry Dog Food",
-      "Fantastic Dog Chews 95% Venison Bites Dog Treats",
-      "Icelandic+ Grain-Free Cod & Herring Combo Bites Dog Treats"
+      "Icelandic+ Mini Cod Fish Chips Dog Treat, 2.5-oz bag",
+      "Vetoquinol Triglyceride OMEGA Omega-3 Fatty Acids Large & Giant Breed Supplement for Dogs, 60 count",
+      "Advantage II Flea Spot Treatment for Cats, over 9 lbs, 6 Doses (6-mos. supply)"
     ],
-    "confidence_score": 0.9500000000000001,
+    "ConfidenceScore": 0.0,
+    "confidence_score": 0.8333333333333334,
     "name": "Sophie"
   },
   "Dewbert": {
@@ -94,64 +87,65 @@
     "Weight": "11",
     "WeightScore": 1.0,
     "PersonalityTraits": [
-      "UNK"
+      "curious",
+      "health-conscious"
     ],
     "PersonalityScores": {
-      "UNK": 0.0
+      "curious": 0.7,
+      "health-conscious": 0.8
     },
     "FavoriteProductCategories": [
-      "Dry Cat Food",
-      "Cat Door Accessories"
+      "supplements",
+      "treats",
+      "flea treatment"
     ],
     "CategoryScores": {
-      "Dry Cat Food": 1.0,
-      "Cat Door Accessories": 0.5
+      "supplements": 0.9,
+      "treats": 0.8,
+      "flea treatment": 0.7
     },
     "BrandPreferences": [
-      "Inception",
-      "Halo",
-      "Door Buddy"
+      "Icelandic+",
+      "ORIJEN"
     ],
     "BrandScores": {
-      "Inception": 0.6,
-      "Halo": 0.4,
-      "Door Buddy": 0.2
+      "Icelandic+": 0.9,
+      "ORIJEN": 0.8
     },
     "DietaryPreferences": [
-      "Fish Recipe",
-      "Indoor Wild-Caught Salmon & Whitefish Recipe",
-      "Wild-Caught Whitefish Recipe"
+      "grain-free",
+      "omega-rich"
     ],
     "DietaryScores": {
-      "Fish Recipe": 0.6,
-      "Indoor Wild-Caught Salmon & Whitefish Recipe": 0.2,
-      "Wild-Caught Whitefish Recipe": 0.2
+      "grain-free": 0.8,
+      "omega-rich": 0.9
     },
     "BehavioralCues": [
-      "UNK"
+      "enjoys treats",
+      "requires health supplements"
     ],
     "BehavioralScores": {
-      "UNK": 0.0
+      "enjoys treats": 0.8,
+      "requires health supplements": 0.9
     },
     "HealthMentions": [
-      "Healthy Weight Support",
-      "Sensitive Stomach Support"
+      "skin and coat health",
+      "immune support"
     ],
     "HealthScores": {
-      "Healthy Weight Support": 0.5,
-      "Sensitive Stomach Support": 0.5
+      "skin and coat health": 0.9,
+      "immune support": 0.8
     },
     "MostOrderedProducts": [
-      "Inception Fish Recipe Dry Cat Food, 13.5-lb bag",
-      "Chewy Promotional $30 eGift Card, Included Free With an Item in Your Order",
-      "Door Buddy Door Latch Plus Door Stopper, Grey",
-      "Halo Holistic Indoor Wild-Caught Salmon & Whitefish Recipe Complete Digestive Health & Healthy Weight Support Grain-Free Adult Dry Cat Food, 10-lb bag",
-      "Halo Holistic Wild-Caught Whitefish Recipe Sensitive Stomach Support Adult Dry Cat Food, 10-lb bag"
+      "Icelandic+ Mini Cod Fish Chips Dog Treat, 2.5-oz bag",
+      "Vetoquinol Triglyceride OMEGA Omega-3 Fatty Acids Large & Giant Breed Supplement for Dogs, 60 count",
+      "Advantage II Flea Spot Treatment for Cats, over 9 lbs, 6 Doses (6-mos. supply)"
     ],
+    "ConfidenceScore": 0.0,
     "confidence_score": 0.8333333333333334,
     "name": "Dewbert"
   },
-  "cust_confidence_score": 0.8916666666666667,
+  "cust_confidence_score": 0.8333333333333334,
   "gets_playback": true,
   "gets_personalized": true
 }

@@ -21,45 +21,43 @@
     },
     "FavoriteProductCategories": [
       "Cat Litter",
-      "Wet Cat Food",
-      "Hairball Remedy"
+      "Hairball Remedy",
+      "Cat Treats",
+      "Cat Food"
     ],
     "CategoryScores": {
       "Cat Litter": 0.9,
-      "Wet Cat Food": 0.9,
-      "Hairball Remedy": 0.7
+      "Hairball Remedy": 0.9,
+      "Cat Treats": 0.9,
+      "Cat Food": 0.9
     },
     "BrandPreferences": [
       "Fresh Step",
-      "Tidy Cats",
-      "Sheba",
-      "Friskies",
-      "Rachael Ray Nutrish",
-      "Pro-Sense",
-      "Tender & True",
+      "Hartz",
+      "21st Century Essential Pet",
+      "Inaba",
+      "LaxaCat",
+      "OdoBan",
       "Temptations",
-      "Hartz"
+      "Tidy Cats"
     ],
     "BrandScores": {
       "Fresh Step": 0.9,
-      "Tidy Cats": 0.8,
-      "Sheba": 0.8,
-      "Friskies": 0.8,
-      "Rachael Ray Nutrish": 0.8,
-      "Pro-Sense": 0.7,
-      "Tender & True": 0.7,
-      "Temptations": 0.7,
-      "Hartz": 0.7
+      "Hartz": 0.9,
+      "21st Century Essential Pet": 0.9,
+      "Inaba": 0.9,
+      "LaxaCat": 0.9,
+      "OdoBan": 0.9,
+      "Temptations": 0.9,
+      "Tidy Cats": 0.9
     },
     "DietaryPreferences": [
-      "Poultry",
-      "Fish",
-      "Grain-Free"
+      "Salmon Flavor",
+      "Tuna & Chicken Puree"
     ],
     "DietaryScores": {
-      "Poultry": 0.8,
-      "Fish": 0.8,
-      "Grain-Free": 0.8
+      "Salmon Flavor": 0.9,
+      "Tuna & Chicken Puree": 0.9
     },
     "BehavioralCues": [
       "UNK"
@@ -71,18 +69,16 @@
       "Hairball"
     ],
     "HealthScores": {
-      "Hairball": 0.7
+      "Hairball": 0.9
     },
     "MostOrderedProducts": [
       "Fresh Step Premium Scented Non-Clumping Cat Litter, 35-lb bag",
-      "Tidy Cats 24/7 Performance Scented Non-Clumping Cat Litter, 40-lb bag",
-      "Sheba Perfect Portions Poultry Entrees Pate Variety Pack Adult Wet Cat Food Trays, 2.6-oz, case of 12",
-      "Friskies Farm Favorites Chicken & Carrots & Salmon & Spinach Pate Wet Cat Food Variety Pack, 5.5-oz can, case of 24",
-      "Rachael Ray Nutrish Chicken Lovers Variety Pack Grain-Free Wet Cat Food, 2.8-oz, case of 12",
-      "Pro-Sense Sugar Free Cat Hairball Remedy, 2.5-oz tube",
-      "Tender & True Turkey & Brown Rice Recipe Canned Cat Food, 5.5-oz, case of 24",
+      "Hartz Hairball Remedy Plus Salmon Flavor Paste for Cats & Kittens, 2.5-oz tube",
+      "21st Century Essential Pet Hairball Support Soft Chews Supplement for Cats, 100 count",
+      "Inaba Churu Tuna & Chicken Puree Variety Pack Grain-Free Lickable Cat Treat, 0.5oz tube, pack of 50",
+      "LaxaCat Salmon Flavored Soft Chew Hairball Supplement for Cats, 90 count",
       "Temptations Pate in Gravy Flavor Variety Wet Cat Food, 3.5-oz tray, case of 12",
-      "Hartz Hairball Remedy Plus Salmon Flavor Paste for Cats & Kittens, 2.5-oz tube"
+      "Tidy Cats 24/7 Performance Scented Non-Clumping Cat Litter, 40-lb bag"
     ],
     "confidence_score": 0.8333333333333334,
     "name": "Shaomaomi (Loving Kitty)"
