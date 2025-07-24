@@ -1,0 +1,797 @@
+{% extends "base.html" %}
+
+{% block title %}Pet Experience - Customer {{ customer_id }} - Chewy Playback{% endblock %}
+
+{% block content %}
+<div class="experience-container">
+
+    
+    <!-- Navigation -->
+    <div class="slide-nav">
+        <div class="nav-dots">
+            <div class="nav-dot active" data-slide="0"></div>
+            <div class="nav-dot" data-slide="1"></div>
+            <div class="nav-dot" data-slide="2"></div>
+            <div class="nav-dot" data-slide="3"></div>
+            <div class="nav-dot" data-slide="4"></div>
+            <div class="nav-dot" data-slide="5"></div>
+            <div class="nav-dot" data-slide="6"></div>
+            <div class="nav-dot" data-slide="7"></div>
+            <div class="nav-dot" data-slide="8"></div>
+        </div>
+    </div>
+    
+    <!-- Slides Container -->
+    <div class="slides-container">
+        <!-- Slide 0: Loading -->
+        <div class="slide active" id="slide-0">
+            <div class="slide-content loading-slide">
+                <div class="loading-container">
+                    <div class="loading-header">
+                        <div class="loading-icon">
+                            <i class="fas fa-paw"></i>
+                        </div>
+                        <h2 class="loading-title">Preparing Your Playback</h2>
+                        <p class="loading-subtitle">Gathering your pet's story...</p>
+                    </div>
+                    
+                    <div class="loading-progress">
+                        <div class="progress-bar">
+                            <div class="progress-fill" id="progressFill"></div>
+                        </div>
+                        <div class="loading-messages">
+                            <span class="loading-message" id="loadingMessage">Fetching pet memories...</span>
+                        </div>
+                    </div>
+                    
+                    <div class="loading-animation">
+                        <div class="floating-paws">
+                            <div class="floating-paw fp-1"><i class="fas fa-paw"></i></div>
+                            <div class="floating-paw fp-2"><i class="fas fa-heart"></i></div>
+                            <div class="floating-paw fp-3"><i class="fas fa-star"></i></div>
+                            <div class="floating-paw fp-4"><i class="fas fa-paw"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Slide 1: Fun Fact -->
+        <div class="slide" id="slide-1">
+            <div class="slide-content funfact-slide">
+                <div class="slide-header">
+                    <h2 class="slide-title" style="color: white;">
+                        <span class="emoji celebration">🎉</span> Fun Fact Alert! <span class="emoji celebration">🎉</span>
+                    </h2>
+                </div>
+                
+                <div class="funfact-container">
+                    {% if customer_data.food_fun_fact %}
+                        <div class="funfact-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <div class="funfact-content">
+                            <h3 class="funfact-title">Fun Fact!</h3>
+                            <p class="funfact-message">
+                                {{ customer_data.food_fun_fact.message }}
+                            </p>
+                            <div class="funfact-highlight">
+                                <p class="funfact-text">{{ customer_data.food_fun_fact.fun_facts[1] }}</p>
+                            </div>
+                        </div>
+                    {% else %}
+                        <div class="funfact-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <div class="funfact-content">
+                            <h3 class="funfact-title" style="color: white;">Fun Fact!</h3>
+                            <p class="funfact-text">
+                                Your pet ate enough food to feed an elephant! 🐘
+                            </p>
+                        </div>
+                    {% endif %}
+                </div>
+                
+                <div class="slide-actions">
+                    <button class="nav-btn prev-btn" onclick="prevSlide()">
+                        <i class="fas fa-arrow-left"></i>
+                    </button>
+                    <button class="nav-btn next-btn" onclick="nextSlide()">
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Slide 2: Chewy Breed -->
+        <div class="slide" id="slide-2">
+            <div class="slide-content breed-slide">
+                <div class="slide-header">
+                    <h2 class="slide-title" style="color: white;" >
+                        <span class="emoji dog">🐕</span> Chewy Breed <span class="emoji dog">🐕</span>
+                    </h2>
+                </div>
+                
+                <div class="breed-container">
+                    <div class="breed-icon">
+                        <i class="fas fa-dna"></i>
+                    </div>
+                    <div class="breed-content">
+                        {% if customer_data.predicted_breed %}
+                            <h3 class="breed-title">{{ customer_data.predicted_breed.pet_name }}'s Predicted Breed</h3>
+                            <div class="breed-info">
+                                <div class="breed-name">
+                                    <h4 class="predicted-breed">{{ customer_data.predicted_breed.predicted_breed }}</h4>
+                                </div>
+                            </div>
+                        {% else %}
+                            <h3 class="breed-title">Your Pet's Breed</h3>
+                        {% endif %}
+                        <div class="breed-disclaimer">
+                            <p class="disclaimer-text">
+                                This is not DNA testing, this is through the data you've given us, if you think this is wrong, change it in your pet profile!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="slide-actions">
+                    <button class="nav-btn prev-btn" onclick="prevSlide()">
+                        <i class="fas fa-arrow-left"></i>
+                    </button>
+                    <button class="nav-btn next-btn" onclick="nextSlide()">
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Slide 3: Pet Letter -->
+        <div class="slide" id="slide-3">
+            <div class="slide-content letter-slide">
+                <div class="slide-header">
+                    <h2 class="slide-title" style="color: white;">
+                        Letter to my Human
+                    </h2>
+                </div>
+                
+                <div class="letter-container">
+                    {% if customer_data.letter %}
+                        <div class="letter-content">
+                            <div class="letter-text">
+                                {{ customer_data.letter | striptags | replace('Collective Letter from All Pets for Customer ' + customer_id, '') | replace('============================================================', '') | replace('=', '') | replace('Dear Human,', 'Dear Human,\n\n') | replace('Dear human,', 'Dear human,\n\n') | replace('Hello hooman!', 'Hello hooman!\n\n') | replace('Hello there,', 'Hello there,\n\n') | replace('Woof and Meow there,', 'Woof and Meow there,\n\n') | replace('With all our love and zoomies,', '\n\nWith all our love and zoomies,') | replace('Love,', '\n\nLove,') | replace('From:', '\n\nFrom:') | replace('Hugs and purrs,', '\n\nHugs and purrs,') | trim | safe }}
+                            </div>
+                        </div>
+                    {% else %}
+                        <div class="no-data">
+                            <i class="fas fa-envelope-open"></i>
+                            <p>No letter available for this customer.</p>
+                        </div>
+                    {% endif %}
+                </div>
+                
+                <div class="slide-actions">
+                    <button class="nav-btn prev-btn" onclick="prevSlide()">
+                        <i class="fas fa-arrow-left"></i>
+                    </button>
+                    <button class="nav-btn next-btn" onclick="nextSlide()">
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Slide 4: Personality Badge -->
+        <div class="slide" id="slide-4">
+            <div class="slide-content badge-slide">
+                <div class="slide-header">
+                    <h2 class="slide-title"  style="color: white;">
+                        Your Pet's Unique Personality
+                    </h2>
+                </div>
+                
+                <div class="badge-container">
+                    {% if customer_data.badge %}
+                        <div class="badge-display">
+                            <div class="badge-image-container">
+                                <img 
+                                    src="{{ url_for('badge_image', filename=customer_data.badge.icon_png.replace('the_', 'badge_').replace('.png', ' copy.png')) }}" 
+                                    alt="{{ customer_data.badge.badge }}"
+                                    class="badge-image"
+                                    onerror="this.src='/static/badges/badge_athlete copy.png'"
+                                >
+                            </div>
+                            <div class="badge-info">
+                                <h3 class="badge-title">{{ customer_data.badge.badge }}</h3>
+                                <p class="badge-description">{{ customer_data.badge.description }}</p>
+                                
+                                {% if customer_data.badge.compatible_with %}
+                                <div class="compatible-section">
+                                    <h4 class="compatible-title">Compatible With:</h4>
+                                    <div class="compatible-badges">
+                                        {% for compatible_badge in customer_data.badge.compatible_with %}
+                                        <div class="compatible-badge">
+                                            <span class="compatible-name">{{ compatible_badge }}</span>
+                                        </div>
+                                        {% endfor %}
+                                    </div>
+                                </div>
+                                {% else %}
+                                <div class="compatible-section">
+                                    <h4 class="compatible-title">Compatible With:</h4>
+                                    <div class="compatible-badges">
+                                        <div class="compatible-badge">
+                                            <span class="compatible-name">No compatible badges found</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                {% endif %}
+                            </div>
+                        </div>
+                    {% else %}
+                        <div class="no-data">
+                            <i class="fas fa-medal"></i>
+                            <p>No personality badge available.</p>
+                        </div>
+                    {% endif %}
+                </div>
+                
+                <div class="slide-actions">
+                    <button class="nav-btn prev-btn" onclick="prevSlide()">
+                        <i class="fas fa-arrow-left"></i>
+                    </button>
+                    <button class="nav-btn next-btn" onclick="nextSlide()">
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Slide 5: Pet Portrait -->
+        <div class="slide" id="slide-5">
+            <div class="slide-content portrait-slide">
+                <div class="slide-header">
+                    <h2 class="slide-title"  style="color: white;">
+                        Your Pet's AI Portrait
+                    </h2>
+                </div>
+                
+                <div class="portrait-container">
+                    {% if customer_data.portrait %}
+                        <div class="portrait-display">
+                            <img 
+                                src="{{ customer_data.portrait }}" 
+                                alt="AI Generated Pet Portrait"
+                                class="portrait-image"
+                            >
+                        </div>
+                    {% else %}
+                        <div class="no-data">
+                            <i class="fas fa-image"></i>
+                            <p>No portrait available for this customer.</p>
+                        </div>
+                    {% endif %}
+                </div>
+                
+                <div class="slide-actions">
+                    <button class="nav-btn prev-btn" onclick="prevSlide()">
+                        <i class="fas fa-arrow-left"></i>
+                    </button>
+                    <button class="nav-btn next-btn" onclick="nextSlide()">
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Slide 6: Social Media Sharing -->
+        <div class="slide" id="slide-6">
+            <div class="slide-content share-slide">
+                <div class="slide-header">
+                    <h2 class="slide-title"  style="color: white;">
+                        Share Your Pet's Amazing Story
+                    </h2>
+                </div>
+                
+                <div class="share-container">
+                    <div class="share-content">
+                        <div class="share-message">
+                            <h3 class="share-title"><span class="emoji paw">🐾</span> Ready to Show Off Your Furry Friends? <span class="emoji paw">🐾</span></h3>
+                            <!-- <p class="share-description">
+                                Your pets have an amazing story to tell! Share this special playback with your friends and family on social media.
+                            </p> -->
+                        </div>
+                        
+                        <div class="social-platforms">
+                            <div class="platform-grid">
+                                <button class="platform-btn whatsapp-btn" onclick="shareToWhatsApp()">
+                                    <i class="fab fa-whatsapp"></i>
+                                    <span>WhatsApp</span>
+                                </button>
+                                
+                                <button class="platform-btn instagram-btn" onclick="shareToInstagram()">
+                                    <i class="fab fa-instagram"></i>
+                                    <span>Instagram</span>
+                                </button>
+                                
+                                <button class="platform-btn facebook-btn" onclick="shareToFacebook()">
+                                    <i class="fab fa-facebook-f"></i>
+                                    <span>Facebook</span>
+                                </button>
+                                
+                                <button class="platform-btn messages-btn" onclick="shareToMessages()">
+                                    <i class="fas fa-comment"></i>
+                                    <span>Messages</span>
+                                </button>
+                                
+                                <button class="platform-btn linkedin-btn" onclick="shareToLinkedIn()">
+                                    <i class="fab fa-linkedin-in"></i>
+                                    <span>LinkedIn</span>
+                                </button>
+                                
+                                <button class="platform-btn copy-btn" onclick="copyLink()">
+                                    <i class="fas fa-link"></i>
+                                    <span>Copy Link</span>
+                                </button>
+                            </div>
+                        </div>
+                        
+                        <!-- <div class="share-footer">
+                            <p class="share-note">💝 Spread the love and let everyone know how amazing your pets are!</p>
+                        </div> -->
+                    </div>
+                </div>
+                
+                <div class="slide-actions">
+                    <button class="nav-btn prev-btn" onclick="prevSlide()">
+                        <i class="fas fa-arrow-left"></i>
+                    </button>
+                    <button class="nav-btn next-btn" onclick="nextSlide()">
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Slide 7: Personalized Playback -->
+        <div class="slide" id="slide-7">
+            <div class="slide-content personalize-slide">
+                <div class="slide-header">
+                    <h2 class="slide-title"  style="color: white;">
+                        Personalize Your Playback
+                    </h2>
+                </div>
+                
+                <div class="personalize-container">
+                    <div class="personalize-content">
+                        <div class="personalize-icon">
+                            <i class="fas fa-edit"></i>
+                        </div>
+                        
+                        <div class="personalize-message">
+                            <h3 class="personalize-title">Complete Your Pet Profiles</h3>
+                        </div>
+                        
+                        {% if customer_data.unknowns %}
+                            <div class="pets-personalize">
+                                {% for pet_name, pet_data in customer_data.unknowns.unknown_attributes.items() %}
+                                <div class="pet-personalize">
+                                    <div class="pet-header">
+                                        <h4 class="pet-name">{{ pet_data.pet_name }}</h4>
+                                        <span class="pet-missing-count">{{ pet_data.unknown_fields|length }} missing</span>
+                                    </div>
+                                    
+                                    <div class="missing-actions">
+                                        {% for field in pet_data.unknown_fields %}
+                                            {% if field == "PET_BREED" %}
+                                            <div class="action-item">
+                                                <div class="action-icon">
+                                                    <i class="fas fa-dna"></i>
+                                                </div>
+                                                <div class="action-content">
+                                                    <h5 class="action-title">Add Breed</h5>
+                                                    <p class="action-description">Help us understand your pet's characteristics better</p>
+                                                </div>
+                                            </div>
+                                            {% elif field == "MEDICATION" %}
+                                            <div class="action-item">
+                                                <div class="action-icon">
+                                                    <i class="fas fa-pills"></i>
+                                                </div>
+                                                <div class="action-content">
+                                                    <h5 class="action-title">Add Medications</h5>
+                                                    <p class="action-description">Keep track of your pet's health needs</p>
+                                                </div>
+                                            </div>
+                                            {% elif field == "AGE" %}
+                                            <div class="action-item">
+                                                <div class="action-icon">
+                                                    <i class="fas fa-birthday-cake"></i>
+                                                </div>
+                                                <div class="action-content">
+                                                    <h5 class="action-title">Add Age</h5>
+                                                    <p class="action-description">Help us provide age-appropriate recommendations</p>
+                                                </div>
+                                            </div>
+                                            {% elif field == "WEIGHT" %}
+                                            <div class="action-item">
+                                                <div class="action-icon">
+                                                    <i class="fas fa-weight"></i>
+                                                </div>
+                                                <div class="action-content">
+                                                    <h5 class="action-title">Add Weight</h5>
+                                                    <p class="action-description">Ensure accurate food and medication dosing</p>
+                                                </div>
+                                            </div>
+                                            {% else %}
+                                            <div class="action-item">
+                                                <div class="action-icon">
+                                                    <i class="fas fa-info-circle"></i>
+                                                </div>
+                                                <div class="action-content">
+                                                    <h5 class="action-title">Add {{ field.replace('_', ' ').title() }}</h5>
+                                                    <p class="action-description">Complete your pet's profile information</p>
+                                                </div>
+                                            </div>
+                                            {% endif %}
+                                        {% endfor %}
+                                    </div>
+                                </div>
+                                {% endfor %}
+                            </div>
+                            
+                            <div class="personalize-actions">
+                                <button class="chewy-btn primary-btn" onclick="goToPetProfile()">
+                                    <i class="fas fa-edit"></i>
+                                    Update All Profiles
+                                </button>
+                                <!-- <button class="chewy-btn secondary-btn" onclick="contactSupport()">
+                                    <i class="fas fa-question-circle"></i>
+                                    Need Help?
+                                </button> -->
+                            </div>
+                        {% else %}
+                            <div class="complete-profiles">
+                                <div class="complete-icon">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
+                                <div class="complete-content">
+                                    <h4 class="complete-title">All Profiles Complete!</h4>
+                                    <p class="complete-description">
+                                        Great job! Your pet profiles are fully updated. We have all the information we need to provide the best experience for your furry friends.
+                                    </p>
+                                </div>
+                                
+                                <div class="complete-actions">
+                                    <button class="chewy-btn primary-btn" onclick="goToPetProfile()">
+                                        <i class="fas fa-eye"></i>
+                                        View Profiles
+                                    </button>
+                                    <button class="chewy-btn secondary-btn" onclick="contactSupport()">
+                                        <i class="fas fa-comments"></i>
+                                        Contact Support
+                                    </button>
+                                </div>
+                            </div>
+                        {% endif %}
+                    </div>
+                </div>
+                
+                <div class="slide-actions">
+                    <button class="nav-btn prev-btn" onclick="prevSlide()">
+                        <i class="fas fa-arrow-left"></i>
+                    </button>
+                    <button class="nav-btn home-btn" onclick="goHome()">
+                        <i class="fas fa-home"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Slide 8: Unknowns -->
+        <div class="slide" id="slide-8">
+            <div class="slide-content unknowns-slide">
+                <div class="slide-header">
+                    <h2 class="slide-title"  style="color: white;">
+                        <span class="emoji search">🔍</span> Missing Information
+                    </h2>
+                </div>
+                
+                <div class="unknowns-container">
+                    {% if customer_data.unknowns %}
+                        <div class="unknowns-icon">
+                            <i class="fas fa-question-circle"></i>
+                        </div>
+                        <div class="unknowns-content">
+                            <h3 class="unknowns-title">Help Us Know Your Pets Better</h3>
+                            <p class="unknowns-description">
+                                We found some missing information in your pet profiles. Adding these details will help us create even more personalized experiences!
+                            </p>
+                            
+                            <div class="pets-unknowns">
+                                {% for pet_name, pet_data in customer_data.unknowns.unknown_attributes.items() %}
+                                <div class="pet-unknown">
+                                    <div class="pet-name">
+                                        <h4 class="pet-title">{{ pet_data.pet_name }}</h4>
+                                    </div>
+                                    <div class="unknown-fields">
+                                        <p class="fields-label">Missing:</p>
+                                        <div class="field-tags">
+                                            {% for field in pet_data.unknown_fields %}
+                                            <span class="field-tag">{{ field.replace('_', ' ').title() }}</span>
+                                            {% endfor %}
+                                        </div>
+                                    </div>
+                                </div>
+                                {% endfor %}
+                            </div>
+                            
+                            <div class="unknowns-summary">
+                                <p class="summary-text">
+                                    Total missing fields: {{ customer_data.unknowns.total_unknowns }} across {{ customer_data.unknowns.pets_with_unknowns }} pets
+                                </p>
+                            </div>
+                        </div>
+                    {% else %}
+                        <div class="unknowns-icon">
+                            <i class="fas fa-check-circle"></i>
+                        </div>
+                        <div class="unknowns-content">
+                            <h3 class="unknowns-title">Complete Profiles!</h3>
+                            <p class="unknowns-description">
+                                Great job! All your pet profiles are complete. We have all the information we need to create amazing experiences for your furry friends.
+                            </p>
+                        </div>
+                    {% endif %}
+                </div>
+                
+                <div class="slide-actions">
+                    <button class="nav-btn prev-btn" onclick="prevSlide()">
+                        <i class="fas fa-arrow-left"></i>
+                    </button>
+                    <button class="nav-btn home-btn" onclick="goHome()">
+                        <i class="fas fa-home"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+let currentSlide = 0;
+const totalSlides = 9;
+let isTransitioning = false;
+
+// Loading animation variables
+let loadingProgress = 0;
+let loadingInterval;
+let messageIndex = 0;
+const loadingMessages = [
+    "Fetching pet memories...",
+    "Analyzing personality traits...",
+    "Generating personalized letter...",
+    "Creating beautiful portrait...",
+    "Almost ready..."
+];
+
+function showSlide(slideIndex) {
+    if (isTransitioning || slideIndex === currentSlide) return;
+    
+    isTransitioning = true;
+    
+    // Hide all slides
+    document.querySelectorAll('.slide').forEach(slide => {
+        slide.classList.remove('active');
+    });
+    
+    // Show current slide
+    document.getElementById(`slide-${slideIndex}`).classList.add('active');
+    
+    // Update navigation dots
+    document.querySelectorAll('.nav-dot').forEach((dot, index) => {
+        dot.classList.toggle('active', index === slideIndex);
+    });
+    
+    currentSlide = slideIndex;
+    
+    // Allow transitions after animation completes
+    setTimeout(() => {
+        isTransitioning = false;
+    }, 500);
+}
+
+function nextSlide() {
+    if (currentSlide < totalSlides - 1) {
+        showSlide(currentSlide + 1);
+    }
+}
+
+function prevSlide() {
+    if (currentSlide > 0) {
+        showSlide(currentSlide - 1);
+    }
+}
+
+function goHome() {
+    window.location.href = '/';
+}
+
+// Navigation dot clicks
+document.querySelectorAll('.nav-dot').forEach((dot, index) => {
+    dot.addEventListener('click', () => {
+        showSlide(index);
+    });
+});
+
+// Keyboard navigation
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'ArrowRight') {
+        nextSlide();
+    } else if (e.key === 'ArrowLeft') {
+        prevSlide();
+    }
+});
+
+// Touch/swipe support
+let touchStartX = 0;
+let touchEndX = 0;
+
+document.addEventListener('touchstart', (e) => {
+    touchStartX = e.changedTouches[0].screenX;
+});
+
+document.addEventListener('touchend', (e) => {
+    touchEndX = e.changedTouches[0].screenX;
+    handleSwipe();
+});
+
+function handleSwipe() {
+    const swipeThreshold = 50;
+    const diff = touchStartX - touchEndX;
+    
+    if (Math.abs(diff) > swipeThreshold) {
+        if (diff > 0) {
+            // Swipe left - next slide
+            nextSlide();
+        } else {
+            // Swipe right - previous slide
+            prevSlide();
+        }
+    }
+}
+
+// Loading Animation Functions
+function startLoadingAnimation() {
+    const progressFill = document.getElementById('progressFill');
+    const loadingMessage = document.getElementById('loadingMessage');
+    
+    if (!progressFill || !loadingMessage) return;
+    
+    loadingInterval = setInterval(() => {
+        loadingProgress += 2;
+        
+        if (loadingProgress <= 100) {
+            progressFill.style.width = loadingProgress + '%';
+            
+            // Update message every 20%
+            if (loadingProgress % 20 === 0 && messageIndex < loadingMessages.length) {
+                loadingMessage.textContent = loadingMessages[messageIndex];
+                messageIndex++;
+            }
+        } else {
+            clearInterval(loadingInterval);
+            // Auto-advance to next slide after loading completes
+            setTimeout(() => {
+                nextSlide();
+            }, 500);
+        }
+    }, 100);
+}
+
+// Start loading animation when page loads
+document.addEventListener('DOMContentLoaded', function() {
+    if (currentSlide === 0) {
+        startLoadingAnimation();
+    }
+});
+
+// Social Media Sharing Functions
+function shareToWhatsApp() {
+    const url = encodeURIComponent(window.location.href);
+    const text = encodeURIComponent("🐾 Check out my pet's amazing story! 🐾");
+    window.open(`https://wa.me/?text=${text}%20${url}`, '_blank');
+}
+
+function shareToInstagram() {
+    const url = encodeURIComponent(window.location.href);
+    const text = encodeURIComponent("🐾 My pet's story is incredible! 🐾");
+    // Instagram doesn't support direct URL sharing, so we'll copy to clipboard
+    copyToClipboard(`${text}\n\n${window.location.href}`);
+    showShareMessage('Link copied! You can now paste it in your Instagram story or post.');
+}
+
+function shareToFacebook() {
+    const url = encodeURIComponent(window.location.href);
+    window.open(`https://www.facebook.com/sharer/sharer.php?u=${url}`, '_blank');
+}
+
+function shareToMessages() {
+    const url = encodeURIComponent(window.location.href);
+    const text = encodeURIComponent("🐾 Look at my pet's amazing story! 🐾");
+    window.open(`sms:?body=${text}%20${url}`, '_blank');
+}
+
+function shareToLinkedIn() {
+    const url = encodeURIComponent(window.location.href);
+    const text = encodeURIComponent("🐾 Sharing my pet's incredible journey! 🐾");
+    window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${url}`, '_blank');
+}
+
+function copyLink() {
+    copyToClipboard(window.location.href);
+    showShareMessage('Link copied to clipboard! 📋');
+}
+
+function copyToClipboard(text) {
+    if (navigator.clipboard) {
+        navigator.clipboard.writeText(text);
+    } else {
+        // Fallback for older browsers
+        const textArea = document.createElement('textarea');
+        textArea.value = text;
+        document.body.appendChild(textArea);
+        textArea.select();
+        document.execCommand('copy');
+        document.body.removeChild(textArea);
+    }
+}
+
+function showShareMessage(message) {
+    // Create a temporary message element
+    const messageEl = document.createElement('div');
+    messageEl.style.cssText = `
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: rgba(74, 144, 226, 0.95);
+        color: white;
+        padding: 15px 25px;
+        border-radius: 25px;
+        font-size: 14px;
+        font-weight: 600;
+        z-index: 10000;
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+    `;
+    messageEl.textContent = message;
+    document.body.appendChild(messageEl);
+    
+    // Remove after 3 seconds
+    setTimeout(() => {
+        if (messageEl.parentNode) {
+            messageEl.parentNode.removeChild(messageEl);
+        }
+    }, 3000);
+}
+
+// Personalized Playback Functions
+function goToPetProfile() {
+    // Redirect to pet profile page or show modal
+    showShareMessage('Redirecting to pet profile... 🐾');
+    // You can replace this with actual redirect logic
+    // window.location.href = '/pet-profile';
+}
+
+function contactSupport() {
+    // Open support chat or contact form
+    showShareMessage('Opening support chat... 💬');
+    // You can replace this with actual support integration
+    // window.open('https://support.chewy.com', '_blank');
+}
+</script>
+{% endblock %} 
