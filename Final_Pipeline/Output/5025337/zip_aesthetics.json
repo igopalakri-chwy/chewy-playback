@@ -1,7 +1,21 @@
 {
-  "visual_style": "Beachfront Modern",
-  "color_texture": "Cool Blues and Whites with Sandy Textures",
-  "art_style": "Nautical and Tropical Influences",
-  "tone_style": "Relaxed and Inviting",
-  "tones": "sophisticated"
+  "visual_style": "Tropical Coastal",
+  "color_texture": "Vibrant and Warm with Sandy Textures",
+  "art_style": "Nautical, Beach-Influenced Art",
+  "tone_style": "Relaxed and Sunny",
+  "location_background": "Beaches, Palm Trees, and Ocean Views",
+  "location_data": {
+    "background_description": "Everglades with alligators",
+    "city": "Pompano Beach",
+    "state": "FL",
+    "location_type": "state",
+    "landmarks": [
+      "Everglades",
+      "Key West",
+      "Daytona Beach",
+      "Crystal River"
+    ]
+  },
+  "tones": "energetic",
+  "location_context": "Customer is from Pompano Beach, FL. Consider incorporating FL state landmarks and natural features subtly in the background."
 }

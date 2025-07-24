@@ -1,10 +1,8 @@
 {
-  "total_food_lbs": 1005.38,
-  "weight_range": 1000,
+  "total_food_lbs": 63.5,
+  "weight_range": 0,
   "fun_facts": [
-    "That's about the weight of a large bull!",
-    "That's equivalent to roughly 16,000 tablespoons of peanut butter!",
-    "That's about as much as a small sedan car!"
+    "You've fed your pet 63.5 lbs of food—about the same weight as 1 small refrigerator. That's some serious love from your hometown!"
   ],
-  "message": "Your pets have consumed 1005.38 pounds of food!"
+  "message": "Your pets have consumed 63.50 pounds of food!"
 }

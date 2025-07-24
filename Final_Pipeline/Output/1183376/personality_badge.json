@@ -1,0 +1,16 @@
+{
+  "badge": "The Explorer",
+  "compatible_with": [
+    "The Cuddler",
+    "The Scholar",
+    "The Trickster"
+  ],
+  "icon_png": "the_explorer.png",
+  "description": "This household is full of curiosity and playfulness with two Birmans always ready to explore their surroundings.",
+  "descriptive_words": [
+    "curious",
+    "adventurous",
+    "independent",
+    "active"
+  ]
+}

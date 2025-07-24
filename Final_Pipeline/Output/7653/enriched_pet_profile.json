@@ -25,35 +25,31 @@
     },
     "FavoriteProductCategories": [
       "food",
-      "treats",
-      "litter"
+      "treats"
     ],
     "CategoryScores": {
       "food": 0.9,
-      "treats": 0.8,
-      "litter": 0.7
+      "treats": 0.8
     },
     "BrandPreferences": [
       "Temptations",
-      "Fresh Step"
+      "Fancy Feast"
     ],
     "BrandScores": {
       "Temptations": 0.9,
-      "Fresh Step": 0.8
+      "Fancy Feast": 0.8
     },
     "DietaryPreferences": [
-      "grain-free"
+      "high-protein"
     ],
     "DietaryScores": {
-      "grain-free": 0.8
+      "high-protein": 0.7
     },
     "BehavioralCues": [
-      "enjoys treats",
-      "uses litter box regularly"
+      "enjoys treats"
     ],
     "BehavioralScores": {
-      "enjoys treats": 0.9,
-      "uses litter box regularly": 0.8
+      "enjoys treats": 0.9
     },
     "HealthMentions": [
       "healthy"
@@ -63,8 +59,7 @@
     },
     "MostOrderedProducts": [
       "Temptations Classic Tasty Chicken Flavor Soft & Crunchy Cat Treats, 48-oz bag",
-      "Fresh Step Outstretch Long Lasting Febreze Freshness Scented Clumping Clay Cat Litter, 26-lb box",
-      "Friskies Classic Pate Liver & Chicken Dinner Canned Cat Food, 5.5-oz, case of 24"
+      "Fancy Feast Classic Chicken Feast Canned Cat Food, 3-oz, case of 24"
     ],
     "ConfidenceScore": 0.0,
     "confidence_score": 0.8333333333333334,
@@ -96,35 +91,31 @@
     },
     "FavoriteProductCategories": [
       "food",
-      "treats",
-      "litter"
+      "treats"
     ],
     "CategoryScores": {
       "food": 0.9,
-      "treats": 0.8,
-      "litter": 0.7
+      "treats": 0.8
     },
     "BrandPreferences": [
       "Temptations",
-      "Fresh Step"
+      "Fancy Feast"
     ],
     "BrandScores": {
       "Temptations": 0.9,
-      "Fresh Step": 0.8
+      "Fancy Feast": 0.8
     },
     "DietaryPreferences": [
-      "grain-free"
+      "high-protein"
     ],
     "DietaryScores": {
-      "grain-free": 0.8
+      "high-protein": 0.7
     },
     "BehavioralCues": [
-      "enjoys treats",
-      "uses litter box regularly"
+      "enjoys treats"
     ],
     "BehavioralScores": {
-      "enjoys treats": 0.9,
-      "uses litter box regularly": 0.8
+      "enjoys treats": 0.9
     },
     "HealthMentions": [
       "healthy"
@@ -134,8 +125,7 @@
     },
     "MostOrderedProducts": [
       "Temptations Classic Tasty Chicken Flavor Soft & Crunchy Cat Treats, 48-oz bag",
-      "Fresh Step Outstretch Long Lasting Febreze Freshness Scented Clumping Clay Cat Litter, 26-lb box",
-      "Friskies Classic Pate Liver & Chicken Dinner Canned Cat Food, 5.5-oz, case of 24"
+      "Fancy Feast Classic Chicken Feast Canned Cat Food, 3-oz, case of 24"
     ],
     "ConfidenceScore": 0.0,
     "confidence_score": 0.8333333333333334,

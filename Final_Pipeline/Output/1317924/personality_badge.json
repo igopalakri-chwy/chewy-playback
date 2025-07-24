@@ -1,10 +1,16 @@
 {
-  "badge": "The Nurturer",
+  "badge": "The Explorer",
   "compatible_with": [
     "The Cuddler",
-    "The Guardian",
-    "The Scholar"
+    "The Athlete",
+    "The Guardian"
   ],
-  "icon_png": "the_nurturer.png",
-  "description": "This household exudes a nurturing vibe, with a caring senior dog and a content, well-loved cat living in harmony."
+  "icon_png": "the_explorer.png",
+  "description": "This dynamic duo loves to explore and enjoys the thrill of new flavors and experiences.",
+  "descriptive_words": [
+    "curious",
+    "adventurous",
+    "independent",
+    "active"
+  ]
 }

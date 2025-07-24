@@ -8,7 +8,7 @@ from PIL import Image
 from dotenv import load_dotenv
 
 
-def generate_image_from_prompt(visual_prompt: str, api_key: str, output_path: str = None) -> str:
+def generate_image_from_prompt(visual_prompt: str, api_key: str, output_path: str = None, zip_aesthetics: dict = None) -> str:
     """Generate an image from a visual prompt using OpenAI gpt-image-1."""
     
     # Initialize OpenAI client
@@ -18,8 +18,16 @@ def generate_image_from_prompt(visual_prompt: str, api_key: str, output_path: st
         # Art style prompt to ensure consistency
         default_art_style = "Soft, blended brushstrokes that mimic traditional oil or gouache painting. Bright, warm lighting with vibrant illumination and gentle ambient highlights. Vivid yet harmonious color palette, featuring saturated pastels and rich warm tones. Subtle texture that gives a hand-painted, storybook feel. Sparkle accents and light flares to add magical charm. Smooth gradients and soft edges, avoiding harsh lines or stark contrast. Bright, cheerful atmosphere with clear, well-lit subjects. A dreamy, nostalgic tone evocative of classic children's book illustrations. "
         
-        # Combine art style with visual prompt
-        prompt = default_art_style + visual_prompt
+        # Enhance prompt with location-specific background if available
+        enhanced_prompt = visual_prompt
+        if zip_aesthetics and zip_aesthetics.get('location_background'):
+            location_background = zip_aesthetics['location_background']
+            # Add location background to the prompt if it's not already mentioned
+            if location_background.lower() not in visual_prompt.lower():
+                enhanced_prompt = f"{visual_prompt} Background: {location_background}"
+        
+        # Combine art style with enhanced visual prompt
+        prompt = default_art_style + enhanced_prompt
         
         # Truncate prompt to fit OpenAI's 1000 character limit
         if len(prompt) > 1000:

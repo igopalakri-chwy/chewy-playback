@@ -14,57 +14,66 @@
     "Weight": "8",
     "WeightScore": 1.0,
     "PersonalityTraits": [
-      "Relaxed"
+      "Does not like fish"
     ],
     "PersonalityScores": {
-      "Relaxed": 0.8
+      "Does not like fish": 0.9
     },
     "FavoriteProductCategories": [
-      "Wet Cat Food",
+      "Canned Cat Food",
       "Dry Cat Food"
     ],
     "CategoryScores": {
-      "Wet Cat Food": 0.9,
-      "Dry Cat Food": 0.7
+      "Canned Cat Food": 0.9,
+      "Dry Cat Food": 0.8
     },
     "BrandPreferences": [
-      "Purina Beyond",
-      "ORIJEN",
-      "Fancy Feast"
+      "Wellness Complete Health",
+      "Wellness CORE",
+      "Addiction Premium"
     ],
     "BrandScores": {
-      "Purina Beyond": 0.9,
-      "ORIJEN": 0.8,
-      "Fancy Feast": 0.7
+      "Wellness Complete Health": 0.9,
+      "Wellness CORE": 0.8,
+      "Addiction Premium": 0.7
     },
     "DietaryPreferences": [
-      "High Protein",
-      "Organic",
-      "Grain-Free"
+      "Grain-Free",
+      "High-Protein",
+      "Beef & Chicken",
+      "Turkey"
     ],
     "DietaryScores": {
-      "High Protein": 0.9,
-      "Organic": 0.8,
-      "Grain-Free": 0.7
+      "Grain-Free": 0.9,
+      "High-Protein": 0.8,
+      "Beef & Chicken": 0.9,
+      "Turkey": 0.8
     },
     "BehavioralCues": [
-      "Hides from strangers"
+      "Likes gravy",
+      "Rotates food"
     ],
     "BehavioralScores": {
-      "Hides from strangers": 0.8
+      "Likes gravy": 0.9,
+      "Rotates food": 0.8
     },
     "HealthMentions": [
-      "UNK"
+      "No fish allergy"
     ],
     "HealthScores": {
-      "UNK": 0.0
+      "No fish allergy": 0.9
     },
     "MostOrderedProducts": [
-      "Purina Beyond High Protein Organic Chicken & Sweet Potato Recipe Pate Wet Cat Food, 3-oz can, case of 12",
-      "ORIJEN Duck + Chicken Entree in Bone Broth Wet Cat Food, 3-oz can, case of 24",
-      "Purina Beyond High Protein Organic Chicken & Carrot Recipe Wet Cat Food, 3-oz can, case of 12",
-      "Purina Beyond White Meat Chicken & Egg Recipe Grain-Free Natural Dry Cat Food, 5-lb bag",
-      "Fancy Feast Gourmet Naturals Turkey Recipe Pate Canned Cat Food, 3-oz can, case of 12"
+      "Wellness Complete Health Turkey Formula Grain-Free Natural Canned Cat Food, 5.5-oz, case of 24",
+      "Wellness Complete Health Turkey Formula Grain-Free Natural Canned Cat Food, 3-oz, case of 24",
+      "Wellness Complete Health Adult Beef & Chicken Formula Grain-Free Canned Cat Food, 5.5-oz, case of 24",
+      "Wellness Complete Health Adult Beef & Chicken Formula Grain-Free Canned Cat Food, 3-oz, case of 24",
+      "Wellness CORE Natural Grain-Free Turkey & Chicken Liver Pate Canned Kitten Food, 3-oz, case of 12",
+      "Addiction Premium Wild Islands Forest Meat Recipe Grain-Free & High-Protein Dry Cat Food, 4-lb bag",
+      "Addiction Premium Wild Islands Highland Meat Recipe Grain-Free & High-Protein Dry Cat Food, 10-lb bag, 4-lb bag",
+      "Wellness Complete Health Chicken & Turkey Pate Favorites Canned Cat Food, 3-oz, case of 24",
+      "Wellness CORE+ Grain-Free Indoor Chicken, Turkey & Chicken Meal Dry Cat Food, 5-lb bag",
+      "Wellness CORE Natural Grain-Free Turkey & Duck Pate Canned Cat Food, 3-oz, case of 12"
     ],
     "confidence_score": 0.8333333333333334,
     "name": "Bella"
@@ -84,68 +93,62 @@
     "Weight": "12",
     "WeightScore": 1.0,
     "PersonalityTraits": [
-      "Smart",
-      "Social"
+      "UNK"
     ],
     "PersonalityScores": {
-      "Smart": 0.8,
-      "Social": 0.7
+      "UNK": 0.0
     },
     "FavoriteProductCategories": [
-      "Wet Cat Food",
-      "Dry Cat Food",
-      "Medication"
+      "Canned Cat Food",
+      "Dry Cat Food"
     ],
     "CategoryScores": {
-      "Wet Cat Food": 0.9,
-      "Dry Cat Food": 0.8,
-      "Medication": 0.7
+      "Canned Cat Food": 0.9,
+      "Dry Cat Food": 0.7
     },
     "BrandPreferences": [
-      "Purina Beyond",
-      "ORIJEN",
-      "Fancy Feast"
+      "Wellness Complete Health",
+      "Wellness CORE",
+      "Addiction Premium"
     ],
     "BrandScores": {
-      "Purina Beyond": 0.9,
-      "ORIJEN": 0.8,
-      "Fancy Feast": 0.7
+      "Wellness Complete Health": 0.9,
+      "Wellness CORE": 0.8,
+      "Addiction Premium": 0.7
     },
     "DietaryPreferences": [
-      "High Protein",
-      "Organic",
-      "Grain-Free"
+      "Grain-Free",
+      "High-Protein",
+      "Turkey",
+      "Beef",
+      "Chicken",
+      "Duck"
     ],
     "DietaryScores": {
-      "High Protein": 0.9,
-      "Organic": 0.8,
-      "Grain-Free": 0.7
+      "Grain-Free": 1.0,
+      "High-Protein": 0.7,
+      "Turkey": 0.9,
+      "Beef": 0.7,
+      "Chicken": 0.8,
+      "Duck": 0.6
     },
     "BehavioralCues": [
-      "Hides from strangers",
-      "Spits out pills"
+      "UNK"
     ],
     "BehavioralScores": {
-      "Hides from strangers": 0.8,
-      "Spits out pills": 0.9
+      "UNK": 0.0
     },
     "HealthMentions": [
-      "Hyperthyroidism"
+      "UNK"
     ],
     "HealthScores": {
-      "Hyperthyroidism": 0.9
+      "UNK": 0.0
     },
     "MostOrderedProducts": [
-      "Purina Beyond High Protein Organic Chicken & Sweet Potato Recipe Pate Wet Cat Food, 3-oz can, case of 12",
-      "ORIJEN Duck + Chicken Entree in Bone Broth Wet Cat Food, 3-oz can, case of 24",
-      "Purina Beyond High Protein Organic Chicken & Carrot Recipe Wet Cat Food, 3-oz can, case of 12",
-      "Purina Beyond White Meat Chicken & Egg Recipe Grain-Free Natural Dry Cat Food, 5-lb bag",
-      "Fancy Feast Gourmet Naturals Turkey Recipe Pate Canned Cat Food, 3-oz can, case of 12",
-      "Purina Beyond Grain-Free Natural Pate Chicken & Sweet Potato Recipe Wet Cat Food, 3-oz can, case of 12",
-      "Fancy Feast Gourmet Naturals White Meat Chicken Recipe Pate Canned Cat Food, 3-oz, case of 12",
-      "Addiction Premium Wild Islands Forest Meat Recipe Grain-Free & High-Protein Dry Cat Food, 4-lb bag",
-      "Fancy Feast Gourmet Naturals Beef Recipe Pate Canned Cat Food, 3-oz, case of 12",
-      "Felimazole (methimazole) Tablets for Cats, 2.5-mg, 1 tablet"
+      "Wellness Complete Health Turkey Formula Grain-Free Natural Canned Cat Food, 5.5-oz, case of 24",
+      "Wellness Complete Health Turkey Formula Grain-Free Natural Canned Cat Food, 3-oz, case of 24",
+      "Wellness Complete Health Adult Beef & Chicken Formula Grain-Free Canned Cat Food, 5.5-oz, case of 24",
+      "Wellness Complete Health Adult Beef & Chicken Formula Grain-Free Canned Cat Food, 3-oz, case of 24"
     ],
     "confidence_score": 0.8333333333333334,
     "name": "Marco"

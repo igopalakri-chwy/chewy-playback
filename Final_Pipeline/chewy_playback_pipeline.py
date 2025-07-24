@@ -32,6 +32,17 @@ from unknowns_analyzer import UnknownsAnalyzer
 from snowflake_data_connector import SnowflakeDataConnector
 import openai
 from dotenv import load_dotenv
+from decimal import Decimal
+from datetime import datetime
+
+# Custom JSON encoder to handle Decimal and datetime objects
+class DecimalEncoder(json.JSONEncoder):
+    def default(self, obj):
+        if isinstance(obj, Decimal):
+            return float(obj)
+        elif isinstance(obj, datetime):
+            return obj.isoformat()
+        return super(DecimalEncoder, self).default(obj)
 
 
 class OrderIntelligenceAgent:
@@ -707,7 +718,19 @@ class ChewyPlaybackPipeline:
             # Set gets_playback and gets_personalized flags
             if customer_confidence_score > 0.6:
                 gets_playback = True
-                gets_personalized = True
+                # Check if customer has enough orders for personalized playback
+                try:
+                    orders_df = self._get_cached_customer_orders_dataframe(customer_id, query_keys=['get_cust_orders'])
+                    order_count = len(orders_df)
+                    if order_count >= 5:
+                        gets_personalized = True
+                        print(f"    ✅ Customer {customer_id} has {order_count} orders - eligible for personalized playback")
+                    else:
+                        gets_personalized = False
+                        print(f"    ⚠️ Customer {customer_id} has only {order_count} orders - using generic playback (minimum 5 required)")
+                except Exception as e:
+                    print(f"    ⚠️ Could not check order count for customer {customer_id}: {e}")
+                    gets_personalized = False
             elif customer_confidence_score > 0.3:
                 gets_playback = True
                 gets_personalized = False
@@ -1133,6 +1156,12 @@ class ChewyPlaybackPipeline:
                     if zip_aesthetics and zip_aesthetics.get('visual_style'):
                         # ZIP aesthetics influence background and color palette, not the main pet focus
                         background_style = f"Background influenced by {zip_aesthetics.get('visual_style', '')} with {zip_aesthetics.get('color_texture', '')} tones. {zip_aesthetics.get('art_style', '')} artistic elements in the setting."
+                        
+                        # Add location-specific background if available
+                        if zip_aesthetics.get('location_background'):
+                            location_background = zip_aesthetics['location_background']
+                            background_style += f" Location background: {location_background}"
+                        
                         art_style_prompt = f"{base_artistic_style}. {background_style}. {zip_aesthetics.get('tones', '')} overall mood."
                     else:
                         art_style_prompt = base_artistic_style
@@ -1217,45 +1246,107 @@ class ChewyPlaybackPipeline:
             with open(profile_path, 'w') as f:
                 json.dump(profile_data, f, indent=2)
             
-            # Save letters
-            letters_path = customer_dir / "pet_letters.txt"
-            with open(letters_path, 'w') as f:
-                f.write(f"Collective Letter from All Pets for Customer {customer_id}\n")
-                f.write("=" * 60 + "\n\n")
-                f.write(narrative_results[customer_id]['collective_letter'])
-                f.write("\n\n")
+            # Save letters (only for personalized playback)
+            if narrative_results[customer_id] and 'collective_letter' in narrative_results[customer_id]:
+                letters_path = customer_dir / "pet_letters.txt"
+                with open(letters_path, 'w') as f:
+                    f.write(f"Collective Letter from All Pets for Customer {customer_id}\n")
+                    f.write("=" * 60 + "\n\n")
+                    f.write(narrative_results[customer_id]['collective_letter'])
+                    f.write("\n\n")
             
-            # Save visual prompt
-            visual_prompt_path = customer_dir / "visual_prompt.txt"
-            with open(visual_prompt_path, 'w') as f:
-                f.write(f"Visual Prompt for Customer {customer_id}\n")
-                f.write("=" * 60 + "\n\n")
-                f.write(narrative_results[customer_id]['collective_visual_prompt'])
-                f.write("\n\n")
+            # Save visual prompt (only for personalized playback)
+            if narrative_results[customer_id] and 'collective_visual_prompt' in narrative_results[customer_id]:
+                visual_prompt_path = customer_dir / "visual_prompt.txt"
+                with open(visual_prompt_path, 'w') as f:
+                    f.write(f"Visual Prompt for Customer {customer_id}\n")
+                    f.write("=" * 60 + "\n\n")
+                    f.write(narrative_results[customer_id]['collective_visual_prompt'])
+                    f.write("\n\n")
             
-            # Save personality badge information
-            badge_info = narrative_results[customer_id].get('personality_badge', {})
-            if badge_info:
-                badge_path = customer_dir / "personality_badge.json"
-                with open(badge_path, 'w') as f:
-                    json.dump(badge_info, f, indent=2)
-                
-                # Copy the badge image if it exists
-                badge_icon = badge_info.get('icon_png', '')
-                if badge_icon:
-                    source_badge_path = Path("Agents/Narrative_Generation_Agent") / badge_icon
-                    if source_badge_path.exists():
-                        dest_badge_path = customer_dir / badge_icon
-                        shutil.copy2(source_badge_path, dest_badge_path)
-                        print(f"    🏆 Saved personality badge: {badge_info.get('badge', 'Unknown')}")
+            # Save personality badge information (only for personalized playback)
+            if narrative_results[customer_id] and 'personality_badge' in narrative_results[customer_id]:
+                badge_info = narrative_results[customer_id]['personality_badge']
+                if badge_info:
+                    badge_path = customer_dir / "personality_badge.json"
+                    with open(badge_path, 'w') as f:
+                        json.dump(badge_info, f, indent=2)
+                    
+                    # Copy the badge image if it exists
+                    badge_icon = badge_info.get('icon_png', '')
+                    if badge_icon:
+                        source_badge_path = Path("Agents/Narrative_Generation_Agent") / badge_icon
+                        if source_badge_path.exists():
+                            dest_badge_path = customer_dir / badge_icon
+                            shutil.copy2(source_badge_path, dest_badge_path)
+                            print(f"    🏆 Saved personality badge: {badge_info.get('badge', 'Unknown')}")
             
-            # Save ZIP aesthetics information
-            zip_aesthetics = narrative_results[customer_id].get('zip_aesthetics', {})
-            if zip_aesthetics:
-                zip_aesthetics_path = customer_dir / "zip_aesthetics.json"
-                with open(zip_aesthetics_path, 'w') as f:
-                    json.dump(zip_aesthetics, f, indent=2)
-                print(f"    🗺️ Saved ZIP aesthetics: {zip_aesthetics.get('visual_style', 'Unknown')}, {zip_aesthetics.get('color_texture', 'Unknown')}, {zip_aesthetics.get('art_style', 'Unknown')}")
+            # Save ZIP aesthetics information (only for personalized playback)
+            if narrative_results[customer_id] and 'zip_aesthetics' in narrative_results[customer_id]:
+                zip_aesthetics = narrative_results[customer_id]['zip_aesthetics']
+                if zip_aesthetics:
+                    zip_aesthetics_path = customer_dir / "zip_aesthetics.json"
+                    with open(zip_aesthetics_path, 'w') as f:
+                        json.dump(zip_aesthetics, f, indent=2)
+                    print(f"    🗺️ Saved ZIP aesthetics: {zip_aesthetics.get('visual_style', 'Unknown')}, {zip_aesthetics.get('color_texture', 'Unknown')}, {zip_aesthetics.get('art_style', 'Unknown')}")
+            
+            # Save generic playback data (for customers with generic playback)
+            if not customer_data.get('gets_personalized', False) and customer_data.get('gets_playback', False):
+                try:
+                    # Get generic playback data from cache
+                    generic_data = self._get_cached_customer_data(customer_id, query_keys=[
+                        'get_amt_donated',
+                        'get_cudd_month', 
+                        'get_total_months',
+                        'get_autoship_savings',
+                        'get_most_ordered',
+                        'get_yearly_food_count'
+                    ])
+                    
+                    # Save amount donated
+                    if 'get_amt_donated' in generic_data:
+                        amt_donated_path = customer_dir / "amount_donated.json"
+                        with open(amt_donated_path, 'w') as f:
+                            json.dump(generic_data['get_amt_donated'], f, indent=2, cls=DecimalEncoder)
+                        print(f"    💰 Saved amount donated data")
+                    
+                    # Save cuddliest month
+                    if 'get_cudd_month' in generic_data:
+                        cudd_month_path = customer_dir / "cuddliest_month.json"
+                        with open(cudd_month_path, 'w') as f:
+                            json.dump(generic_data['get_cudd_month'], f, indent=2, cls=DecimalEncoder)
+                        print(f"    🥰 Saved cuddliest month data")
+                    
+                    # Save total months
+                    if 'get_total_months' in generic_data:
+                        total_months_path = customer_dir / "total_months.json"
+                        with open(total_months_path, 'w') as f:
+                            json.dump(generic_data['get_total_months'], f, indent=2, cls=DecimalEncoder)
+                        print(f"    📅 Saved total months data")
+                    
+                    # Save autoship savings
+                    if 'get_autoship_savings' in generic_data:
+                        autoship_savings_path = customer_dir / "autoship_savings.json"
+                        with open(autoship_savings_path, 'w') as f:
+                            json.dump(generic_data['get_autoship_savings'], f, indent=2, cls=DecimalEncoder)
+                        print(f"    🚚 Saved autoship savings data")
+                    
+                    # Save most ordered
+                    if 'get_most_ordered' in generic_data:
+                        most_ordered_path = customer_dir / "most_ordered.json"
+                        with open(most_ordered_path, 'w') as f:
+                            json.dump(generic_data['get_most_ordered'], f, indent=2, cls=DecimalEncoder)
+                        print(f"    🛒 Saved most ordered data")
+                    
+                    # Save yearly food count
+                    if 'get_yearly_food_count' in generic_data:
+                        yearly_food_path = customer_dir / "yearly_food_count.json"
+                        with open(yearly_food_path, 'w') as f:
+                            json.dump(generic_data['get_yearly_food_count'], f, indent=2, cls=DecimalEncoder)
+                        print(f"    🍽️ Saved yearly food count data")
+                        
+                except Exception as e:
+                    print(f"    ⚠️ Error saving generic playback data for customer {customer_id}: {e}")
             
             # Save breed predictions if available
             if breed_predictions and customer_id in breed_predictions:
@@ -1455,9 +1546,13 @@ class ChewyPlaybackPipeline:
                     # Get food consumption data from Snowflake
                     food_data = self.snowflake_connector.get_customer_food_consumption(customer_id)
                     
+                    # Get customer zip code for location-based fun facts
+                    address_data = self.snowflake_connector.get_customer_address(customer_id)
+                    zip_code = address_data.get('zip_code') if address_data else None
+                    
                     if food_data:
-                        # Generate food fun facts
-                        food_fun_fact_json = generate_food_fun_fact_json(food_data)
+                        # Generate food fun facts with location data
+                        food_fun_fact_json = generate_food_fun_fact_json(food_data, zip_code)
                         
                         # Save to customer directory
                         customer_dir = self.output_dir / customer_id

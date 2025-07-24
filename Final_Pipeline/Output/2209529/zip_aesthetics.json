@@ -1,6 +1,16 @@
 {
-  "visual_style": "modern clean",
-  "color_texture": "smooth neutral",
-  "art_style": "contemporary minimal",
-  "tones": "warm, friendly"
+  "visual_style": "Traditional New England",
+  "color_texture": "Muted earth tones with textured surfaces",
+  "art_style": "Colonial and historical art pieces",
+  "tone_style": "Warm and inviting",
+  "location_background": "Scenic landscapes with a rich history, dense forests and rivers",
+  "location_data": {
+    "background_description": "a beautiful outdoor setting with natural scenery",
+    "city": "Avon",
+    "state": "CT",
+    "location_type": "unknown",
+    "landmarks": []
+  },
+  "tones": "warm, friendly",
+  "location_context": "Customer is from Avon, CT. Use general regional aesthetics."
 }

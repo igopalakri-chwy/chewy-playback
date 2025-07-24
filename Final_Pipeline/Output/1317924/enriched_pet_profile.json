@@ -21,35 +21,43 @@
     },
     "FavoriteProductCategories": [
       "Dog Supplements",
-      "Dog Flea Treatment",
-      "Senior Dog Food",
-      "Dog Waste Disposal"
+      "Dog Treats",
+      "Dog Poop Bags",
+      "Dog Training & Potty Pads",
+      "Wet Dog Food",
+      "Dog Shampoo"
     ],
     "CategoryScores": {
       "Dog Supplements": 0.9,
-      "Dog Flea Treatment": 0.8,
-      "Senior Dog Food": 0.8,
-      "Dog Waste Disposal": 0.7
+      "Dog Treats": 0.8,
+      "Dog Poop Bags": 0.7,
+      "Dog Training & Potty Pads": 0.7,
+      "Wet Dog Food": 0.9,
+      "Dog Shampoo": 0.7
     },
     "BrandPreferences": [
       "Coco and Luna",
-      "Advantage",
-      "American Journey",
-      "Frisco"
+      "American Pet Food",
+      "Frisco",
+      "Jinx",
+      "Pet Honesty"
     ],
     "BrandScores": {
       "Coco and Luna": 0.9,
-      "Advantage": 0.8,
-      "American Journey": 0.8,
-      "Frisco": 0.7
+      "American Pet Food": 0.8,
+      "Frisco": 0.8,
+      "Jinx": 0.9,
+      "Pet Honesty": 0.7
     },
     "DietaryPreferences": [
       "Grain-Free",
-      "Salmon & Sweet Potato"
+      "Beef & Chicken",
+      "Salmon & Chicken"
     ],
     "DietaryScores": {
-      "Grain-Free": 0.8,
-      "Salmon & Sweet Potato": 0.8
+      "Grain-Free": 0.9,
+      "Beef & Chicken": 0.8,
+      "Salmon & Chicken": 0.8
     },
     "BehavioralCues": [
       "UNK"
@@ -58,16 +66,25 @@
       "UNK": 0.0
     },
     "HealthMentions": [
-      "Anti-Inflammatory"
+      "Anti-Inflammatory",
+      "Itchy Skin",
+      "Allergy Relief",
+      "Sensitive Skin"
     ],
     "HealthScores": {
-      "Anti-Inflammatory": 0.8
+      "Anti-Inflammatory": 0.9,
+      "Itchy Skin": 0.8,
+      "Allergy Relief": 0.8,
+      "Sensitive Skin": 0.8
     },
     "MostOrderedProducts": [
       "Coco and Luna Turmeric Curcumin Anti-Inflammatory Bacon & Liver Flavor Dog Supplement, 120 count",
-      "Advantage Multi Topical Solution for Dogs, 55.1-88 lbs, (Blue Box), 6 Doses (6-mos. supply)",
-      "American Journey Grain-Free Senior Salmon & Sweet Potato Recipe Dry Dog Food, 24-lb bag",
-      "Frisco Refill Dog Poop Bags, 900 count, Unscented"
+      "American Pet Food Fetch Fries Chicken & Sweet Potato Dog Treats, 5-oz bag",
+      "Frisco Refill Dog Poop Bags, Unscented, 30 Bag Roll, 120 Count",
+      "Frisco X-Large Premium Dog Training & Potty Pads, 28 x 34-in, Unscented, 21 count",
+      "Jinx Homemades Grain-Free Beef & Chicken Pate Wet Dog Food Meal Topper, 9-oz pouch, case of 12",
+      "Jinx Salmon & Chicken Homemades Grain-Free Wet Dog Food Meal Topper, 9-oz pouch, case of 12",
+      "Pet Honesty Chlorhexidine Antibacterial Itchy Skin, Allergy Relief & Sensitive Skin Dog Shampoo, 16-fl oz bottle"
     ],
     "confidence_score": 0.9666666666666667,
     "name": "Sindel"
@@ -93,38 +110,38 @@
       "UNK": 0.0
     },
     "FavoriteProductCategories": [
+      "Cat Food",
       "Cat Litter",
-      "Cat Multivitamin",
-      "Cat Flea Treatment",
-      "Dry Cat Food",
-      "Canned Cat Food"
+      "Cat Dish",
+      "Cat Multivitamin"
     ],
     "CategoryScores": {
-      "Cat Litter": 0.9,
-      "Cat Multivitamin": 0.9,
-      "Cat Flea Treatment": 0.9,
-      "Dry Cat Food": 0.9,
-      "Canned Cat Food": 0.9
+      "Cat Food": 0.5,
+      "Cat Litter": 0.125,
+      "Cat Dish": 0.125,
+      "Cat Multivitamin": 0.125
     },
     "BrandPreferences": [
+      "BFF",
+      "DurAnimals",
+      "Feline Natural",
       "Frisco",
       "VetriScience",
-      "Advantage",
-      "Farmina",
-      "Purina"
+      "Weruva"
     ],
     "BrandScores": {
-      "Frisco": 0.9,
-      "VetriScience": 0.9,
-      "Advantage": 0.9,
-      "Farmina": 0.9,
-      "Purina": 0.9
+      "BFF": 0.125,
+      "DurAnimals": 0.125,
+      "Feline Natural": 0.125,
+      "Frisco": 0.25,
+      "VetriScience": 0.125,
+      "Weruva": 0.25
     },
     "DietaryPreferences": [
       "Grain-Free"
     ],
     "DietaryScores": {
-      "Grain-Free": 0.9
+      "Grain-Free": 0.5
     },
     "BehavioralCues": [
       "UNK"
@@ -139,11 +156,14 @@
       "UNK": 0.0
     },
     "MostOrderedProducts": [
-      "Frisco Multi-Cat Unscented Clumping Clay Cat Litter, 40-lb bag",
+      "BFF OMG Potluck O' Pouches Variety Pack Grain-Free Cat Food Pouches, 2.8-oz, pack of 12",
+      "DurAnimals DuraScoop Original Cat Litter Scoop, Color Varies",
+      "Feline Natural Variety Pack Grain-Free Wet Cat Food, 3-oz pouch, case of 12",
+      "Frisco Kaleidoscope Pattern Non-skid Ceramic Cat Dish, Blue, 0.5 cup, 1 count",
+      "Frisco Multi-Cat Unscented Clumping Clay Cat Litter, 20 lb bag",
       "VetriScience Nu Cat Chewable Tablets Multivitamin for Cats, 90 count",
-      "Advantage Multi Topical Solution for Cats, 9.1-18 lbs, (Purple Box), 6 Doses (6-mos. supply)",
-      "Farmina N&D Ocean Herring & Orange Adult Grain-Free Dry Cat Food, 3.3-lb bag",
-      "Purina Beyond Grain-Free Pate 3 Flavors Variety Pack Canned Cat Food, 3-oz, case of 6"
+      "Weruva Cats in the Kitchen The Brat Pack Variety Pack Cat Food Pouches, 3-oz pouch, case of 12",
+      "Weruva Classic Stews The Stew Crew Variety Pack Grain-Free Wet Cat Food, 3-oz pouch, case of 12"
     ],
     "confidence_score": 0.8333333333333334,
     "name": "Beatrix Kiddo"

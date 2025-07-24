@@ -1,10 +1,8 @@
 {
-  "total_food_lbs": 4997.81,
-  "weight_range": 4900,
+  "total_food_lbs": 14.69,
+  "weight_range": 0,
   "fun_facts": [
-    "That's about the weight of a small adult rhinoceros!",
-    "That's equivalent to roughly 10,000 bananas!",
-    "That's about as much as a full-size truck with cargo!"
+    "You've fed your pet 14.6875 lbs of food—about the same weight as 1 microwave oven. That's some serious love from your hometown!"
   ],
-  "message": "Your pets have consumed 4997.81 pounds of food!"
+  "message": "Your pets have consumed 14.69 pounds of food!"
 }

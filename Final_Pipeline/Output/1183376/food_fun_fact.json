@@ -1,10 +1,8 @@
 {
-  "total_food_lbs": 765.81,
-  "weight_range": 700,
+  "total_food_lbs": 38.62,
+  "weight_range": 0,
   "fun_facts": [
-    "That's about the weight of a small car like a Smart Car!",
-    "That's equivalent to roughly 2,800 oranges!",
-    "That's about as much as a large motorcycle and rider!"
+    "You've fed your pet 38.625 lbs of food—about the same weight as 1 harbor seal. That's some serious love from beautiful MA!"
   ],
-  "message": "Your pets have consumed 765.81 pounds of food!"
+  "message": "Your pets have consumed 38.62 pounds of food!"
 }

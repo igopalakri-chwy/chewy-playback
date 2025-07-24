@@ -1,0 +1,16 @@
+{
+  "badge": "The Cuddler",
+  "compatible_with": [
+    "The Scholar",
+    "The Daydreamer",
+    "The Diva"
+  ],
+  "icon_png": "the_cuddler.png",
+  "description": "A duo of cats that enjoys comfortable lounging and quality food, with a particular fondness for beef and chicken flavors.",
+  "descriptive_words": [
+    "affectionate",
+    "gentle",
+    "chill",
+    "snuggly"
+  ]
+}

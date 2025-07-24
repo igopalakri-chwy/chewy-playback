@@ -1,6 +1,21 @@
 {
-  "visual_style": "modern clean",
-  "color_texture": "smooth neutral",
-  "art_style": "contemporary minimal",
-  "tones": "warm, friendly"
+  "visual_style": "Urban Contemporary",
+  "color_texture": "Bold and Vibrant",
+  "art_style": "Mixture of Graffiti and Modern Art",
+  "tone_style": "Energetic and Diverse",
+  "location_background": "Busy Streets with High-rise Buildings",
+  "location_data": {
+    "background_description": "Adirondack Mountains with lakes",
+    "city": "Flushing",
+    "state": "NY",
+    "location_type": "state",
+    "landmarks": [
+      "Statue of Liberty",
+      "Niagara Falls",
+      "Adirondack Mountains",
+      "Finger Lakes"
+    ]
+  },
+  "tones": "sophisticated, energetic",
+  "location_context": "Customer is from Flushing, NY. Consider incorporating NY state landmarks and natural features subtly in the background."
 }

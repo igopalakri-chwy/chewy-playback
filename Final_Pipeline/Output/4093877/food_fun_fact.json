@@ -1,10 +1,8 @@
 {
-  "total_food_lbs": 491.81,
-  "weight_range": 400,
+  "total_food_lbs": 0.88,
+  "weight_range": 0,
   "fun_facts": [
-    "That's about the weight of a young grizzly bear!",
-    "That's equivalent to roughly 6,400 eggs!",
-    "That's about as much as a small car!"
+    "You've fed your pet 0.875 lbs of food—about the same weight as 4 smartphones. That's some serious love from your hometown!"
   ],
-  "message": "Your pets have consumed 491.81 pounds of food!"
+  "message": "Your pets have consumed 0.88 pounds of food!"
 }

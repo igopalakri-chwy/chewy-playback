@@ -2,9 +2,15 @@
   "badge": "The Explorer",
   "compatible_with": [
     "The Cuddler",
-    "The Trickster",
-    "The Athlete"
+    "The Scholar",
+    "The Nurturer"
   ],
   "icon_png": "the_explorer.png",
-  "description": "Sophie and Dewbert are a dynamic duo who love exploring their home, whether that's through energetic zoomies or leisurely lounging."
+  "description": "Sophie and Dewbert form an adventurous duo that loves exploring new flavors and experiences.",
+  "descriptive_words": [
+    "curious",
+    "adventurous",
+    "independent",
+    "active"
+  ]
 }

@@ -1,10 +1,16 @@
 {
-  "badge": "The Cuddler",
+  "badge": "The Explorer",
   "compatible_with": [
-    "The Explorer",
-    "The Daydreamer",
-    "The Nurturer"
+    "The Cuddler",
+    "The Trickster",
+    "The Daydreamer"
   ],
-  "icon_png": "the_cuddler.png",
-  "description": "This household is filled with affectionate, playful, and curious pets who love nothing more than snuggling up and exploring their lovingly curated world."
+  "icon_png": "the_explorer.png",
+  "description": "This dynamic duo of pets loves exploring new flavors and having a ball with their treats and food.",
+  "descriptive_words": [
+    "curious",
+    "adventurous",
+    "independent",
+    "active"
+  ]
 }

@@ -14,59 +14,58 @@
     "Weight": "11",
     "WeightScore": 1.0,
     "PersonalityTraits": [
-      "adventurous",
-      "curious",
-      "affectionate"
+      "UNK"
     ],
     "PersonalityScores": {
-      "adventurous": 0.8,
-      "curious": 0.7,
-      "affectionate": 0.9
+      "UNK": 0.0
     },
     "FavoriteProductCategories": [
-      "food",
-      "health care"
+      "Dog Food",
+      "Dog Flea Treatment"
     ],
     "CategoryScores": {
-      "food": 0.9,
-      "health care": 0.8
+      "Dog Food": 0.9,
+      "Dog Flea Treatment": 0.9
     },
     "BrandPreferences": [
       "Primal",
-      "Stella & Chewy's"
+      "Stella & Chewy's",
+      "Bravecto",
+      "Heartgard Plus"
     ],
     "BrandScores": {
       "Primal": 0.9,
-      "Stella & Chewy's": 0.85
+      "Stella & Chewy's": 0.9,
+      "Bravecto": 0.9,
+      "Heartgard Plus": 0.9
     },
     "DietaryPreferences": [
-      "grain-free",
-      "raw"
+      "Grain-Free",
+      "Raw Freeze-Dried"
     ],
     "DietaryScores": {
-      "grain-free": 0.9,
-      "raw": 0.85
+      "Grain-Free": 0.9,
+      "Raw Freeze-Dried": 0.9
     },
     "BehavioralCues": [
-      "enjoys variety in diet",
-      "requires eye care"
+      "UNK"
     ],
     "BehavioralScores": {
-      "enjoys variety in diet": 0.9,
-      "requires eye care": 0.8
+      "UNK": 0.0
     },
     "HealthMentions": [
-      "requires eye care"
+      "UNK"
     ],
     "HealthScores": {
-      "requires eye care": 0.9
+      "UNK": 0.0
     },
     "MostOrderedProducts": [
-      "Primal Turkey & Sardine Formula Nuggets Grain-Free Raw Freeze-Dried Dog Food, 14-oz bag",
-      "Primal Lamb Formula Nuggets Grain-Free Raw Freeze-Dried Dog Food, 14-oz bag",
-      "Stella & Chewy's Remarkable Red Meat Recipe Dinner Patties Freeze-Dried Raw Dog Food, 14-oz bag"
+      "Bravecto Chew for Dogs, 9.9-22 lbs, (Orange Box), 1 Chew (12-wks. supply)",
+      "Primal Beef Formula Nuggets Grain-Free Raw Freeze-Dried Dog Food, 14-oz bag",
+      "Primal Chicken Formula Nuggets Grain-Free Raw Freeze-Dried Dog Food, 14-oz bag",
+      "Stella & Chewy's Duck Duck Goose Dinner Patties Freeze-Dried Raw Dog Food, 14-oz bag",
+      "Stella & Chewy's Tantalizing Turkey Dinner Patties Freeze-Dried Raw Dog Food, 14-oz bag"
     ],
-    "ConfidenceScore": 0.0,
     "confidence_score": 0.8333333333333334,
     "name": "Harley (James) Davidson"
   },
@@ -80,68 +79,69 @@
     "LifeStageScore": 1.0,
     "Gender": "FMLE",
     "GenderScore": 1.0,
-    "SizeCategory": "UNK",
-    "SizeScore": 0.0,
+    "SizeCategory": "Small",
+    "SizeScore": 0.9,
     "Weight": "6",
     "WeightScore": 1.0,
     "PersonalityTraits": [
-      "adventurous",
-      "curious",
-      "affectionate"
+      "UNK"
     ],
     "PersonalityScores": {
-      "adventurous": 0.8,
-      "curious": 0.7,
-      "affectionate": 0.9
+      "UNK": 0.0
     },
     "FavoriteProductCategories": [
-      "food",
-      "health care"
+      "Dog Food",
+      "Dog Flea Treatment"
     ],
     "CategoryScores": {
-      "food": 0.9,
-      "health care": 0.8
+      "Dog Food": 0.9,
+      "Dog Flea Treatment": 0.8
     },
     "BrandPreferences": [
       "Primal",
-      "Stella & Chewy's"
+      "Stella & Chewy's",
+      "Bravecto",
+      "Heartgard Plus"
     ],
     "BrandScores": {
       "Primal": 0.9,
-      "Stella & Chewy's": 0.85
+      "Stella & Chewy's": 0.8,
+      "Bravecto": 0.8,
+      "Heartgard Plus": 0.7
     },
     "DietaryPreferences": [
-      "grain-free",
-      "raw"
+      "Grain-Free",
+      "Raw",
+      "Freeze-Dried"
     ],
     "DietaryScores": {
-      "grain-free": 0.9,
-      "raw": 0.85
+      "Grain-Free": 0.9,
+      "Raw": 0.9,
+      "Freeze-Dried": 0.9
     },
     "BehavioralCues": [
-      "enjoys variety in diet",
-      "requires eye care"
+      "UNK"
     ],
     "BehavioralScores": {
-      "enjoys variety in diet": 0.9,
-      "requires eye care": 0.8
+      "UNK": 0.0
     },
     "HealthMentions": [
-      "requires eye care"
+      "UNK"
     ],
     "HealthScores": {
-      "requires eye care": 0.9
+      "UNK": 0.0
     },
     "MostOrderedProducts": [
-      "Primal Turkey & Sardine Formula Nuggets Grain-Free Raw Freeze-Dried Dog Food, 14-oz bag",
-      "Primal Lamb Formula Nuggets Grain-Free Raw Freeze-Dried Dog Food, 14-oz bag",
-      "Stella & Chewy's Remarkable Red Meat Recipe Dinner Patties Freeze-Dried Raw Dog Food, 14-oz bag"
+      "Bravecto Chew for Dogs, 9.9-22 lbs, (Orange Box), 1 Chew (12-wks. supply)",
+      "Primal Beef Formula Nuggets Grain-Free Raw Freeze-Dried Dog Food, 14-oz bag",
+      "Primal Chicken Formula Nuggets Grain-Free Raw Freeze-Dried Dog Food, 14-oz bag",
+      "Stella & Chewy's Duck Duck Goose Dinner Patties Freeze-Dried Raw Dog Food, 14-oz bag",
+      "Stella & Chewy's Tantalizing Turkey Dinner Patties Freeze-Dried Raw Dog Food, 14-oz bag"
     ],
-    "ConfidenceScore": 0.0,
-    "confidence_score": 0.8333333333333334,
+    "confidence_score": 0.9833333333333334,
     "name": "The Princess Monaco"
   },
-  "cust_confidence_score": 0.8333333333333334,
+  "cust_confidence_score": 0.9083333333333334,
   "gets_playback": true,
   "gets_personalized": true
 }
