@@ -1,0 +1,22 @@
+/* Simple Scrollable Slides CSS - Minimal changes only */
+
+/* Only make the slide content scrollable, nothing else */
+.slide-content {
+    overflow-y: auto !important;
+}
+
+/* Keep navigation at bottom */
+.slide-actions {
+    position: fixed !important;
+    bottom: 20px !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    z-index: 1000 !important;
+}
+
+/* Mobile adjustments */
+@media (max-width: 400px) {
+    .slide-actions {
+        bottom: 10px !important;
+    }
+} 

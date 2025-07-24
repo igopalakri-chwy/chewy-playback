@@ -12,7 +12,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
+    overflow: auto;
     position: relative;
 }
 
@@ -1171,7 +1171,6 @@ body::before {
 }
 
 .welcome-title {
-<<<<<<< Updated upstream
     font-family: 'Poppins', 'Inter', sans-serif;
     font-size: 32px;
     font-weight: 700;
@@ -1183,15 +1182,6 @@ body::before {
     -webkit-text-fill-color: transparent;
     background-clip: text;
     filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
-=======
-    font-family: 'Inter', sans-serif;
-    font-size: 32px;
-    font-weight: 600;
-    color: #ffffff;
-    margin-bottom: 8px;
-    text-align: center;
-    position: relative;
->>>>>>> Stashed changes
 }
 
 .welcome-subtitle {
@@ -1783,7 +1773,6 @@ body::before {
 /* Badge Slide */
 .badge-slide {
     background: linear-gradient(135deg, #0d2b5e 0%, #1e3c72 25%, #2a5298 50%, #4a90e2 75%, #5ba0f2 100%);
-<<<<<<< Updated upstream
     overflow-y: auto;
     align-items: flex-start;
     justify-content: flex-start;
@@ -1805,8 +1794,6 @@ body::before {
 .badge-slide .slide-actions .nav-btn {
     margin: 0;
     flex-shrink: 0;
-=======
->>>>>>> Stashed changes
 }
 
 .badge-slide::before {
@@ -1926,7 +1913,6 @@ body::before {
 }
 
 .badge-title {
-<<<<<<< Updated upstream
     font-family: 'Poppins', 'Inter', sans-serif;
     font-size: 20px;
     font-weight: 700;
@@ -1936,13 +1922,6 @@ body::before {
     -webkit-text-fill-color: transparent;
     background-clip: text;
     filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.1));
-=======
-    font-family: 'Inter', sans-serif;
-    font-size: 20px;
-    font-weight: 600;
-    color: #2E5C8A;
-    margin-bottom: 10px;
->>>>>>> Stashed changes
 }
 
 .badge-description {

@@ -23,72 +23,142 @@ def get_all_customer_ids():
     return sorted(customer_ids, key=lambda x: int(x) if x.isdigit() else 0)
 
 def get_customer_data(customer_id):
-    """Retrieve all data for a given customer ID"""
-    customer_dir = os.path.join(OUTPUT_DIR, str(customer_id))
+    """Generate comprehensive mock data for any customer ID"""
+    import random
     
-    if not os.path.exists(customer_dir):
-        return None
+    # Generate random but consistent data based on customer_id
+    try:
+        random.seed(hash(str(customer_id)) % 1000)
+    except:
+        random.seed(42)  # fallback seed
+    
+    # Pet names and breeds for variety
+    pet_names = ["Buddy", "Luna", "Max", "Bella", "Charlie", "Lucy", "Cooper", "Daisy", "Rocky", "Molly", "Bear", "Sophie", "Duke", "Chloe", "Jack", "Lola", "Tucker", "Zoe", "Oliver", "Ruby"]
+    dog_breeds = ["Golden Retriever", "Labrador Retriever", "German Shepherd", "Bulldog", "Beagle", "Poodle", "Rottweiler", "Yorkshire Terrier", "Boxer", "Dachshund"]
+    cat_breeds = ["Persian", "Maine Coon", "Siamese", "Ragdoll", "British Shorthair", "Abyssinian", "Russian Blue", "Sphynx", "Bengal", "Scottish Fold"]
+    food_products = ["Premium Dog Food", "Grain-Free Cat Food", "Organic Puppy Food", "Senior Dog Formula", "Weight Management Cat Food", "Hypoallergenic Dog Food", "Wet Cat Food Variety Pack", "Raw Dog Food", "Limited Ingredient Cat Food", "Puppy Training Treats"]
+    months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+    personality_badges = ["The Explorer", "The Cuddler", "The Guardian", "The Scholar", "The Athlete", "The Diva", "The Nurturer", "The Trickster", "The Daydreamer", "The Shadow"]
+    
+    # Generate data based on customer_id
+    pet_name = random.choice(pet_names)
+    is_dog = random.choice([True, False])
+    breed = random.choice(dog_breeds if is_dog else cat_breeds)
+    food_lbs = random.randint(50, 300)
+    top_product = random.choice(food_products)
+    donation_amount = random.randint(10, 100)
+    years_with_chewy = random.randint(1, 8)
+    reorder_count = random.randint(5, 25)
+    reorder_spent = reorder_count * random.randint(15, 30)
+    busiest_month = random.choice(months)
+    month_orders = random.randint(5, 15)
+    month_interactions = random.randint(10, 25)
+    month_spent = random.randint(100, 300)
+    autoship_savings = random.randint(20, 80)
+    personality_badge = random.choice(personality_badges)
     
     data = {}
     
-    # Get enriched pet profile
-    profile_path = os.path.join(customer_dir, "enriched_pet_profile.json")
-    if os.path.exists(profile_path):
-        with open(profile_path, 'r') as f:
-            data['profile'] = json.load(f)
+    # Mock enriched pet profile
+    data['profile'] = {
+        'customer_id': customer_id,
+        'pet_name': pet_name,
+        'pet_type': 'Dog' if is_dog else 'Cat',
+        'breed': breed,
+        'age': random.randint(1, 12),
+        'weight': random.randint(5, 80),
+        'favorite_toy': random.choice(['Tennis Ball', 'Squeaky Toy', 'Rope Toy', 'Laser Pointer', 'Feather Wand', 'Mouse Toy']),
+        'favorite_treat': random.choice(['Peanut Butter Treats', 'Salmon Bites', 'Chicken Strips', 'Cheese Cubes', 'Carrot Sticks', 'Tuna Flakes'])
+    }
     
-    # Get personality badge
-    badge_path = os.path.join(customer_dir, "personality_badge.json")
-    if os.path.exists(badge_path):
-        with open(badge_path, 'r') as f:
-            data['badge'] = json.load(f)
+    # Mock personality badge
+    data['badge'] = {
+        'badge': personality_badge,
+        'description': f'{pet_name} is {personality_badge.lower()}! This personality type shows their unique character and behavior patterns.',
+        'traits': random.sample(['Loyal', 'Playful', 'Curious', 'Gentle', 'Energetic', 'Calm', 'Protective', 'Friendly'], 4)
+    }
     
-    # Get pet letter
-    letter_path = os.path.join(customer_dir, "pet_letters.txt")
-    if os.path.exists(letter_path):
-        with open(letter_path, 'r') as f:
-            data['letter'] = f.read()
+    # Mock pet letter
+    data['letter'] = f"""Dear Human,
+
+I hope this letter finds you well! I wanted to take a moment to thank you for being the most amazing pet parent ever. You've given me the best life filled with love, treats, and endless belly rubs.
+
+This year has been incredible! We've shared so many wonderful moments together - from our daily walks to our cozy cuddle sessions. You always know exactly what I need, whether it's my favorite {data['profile']['favorite_treat']} or a good game with my {data['profile']['favorite_toy']}.
+
+I'm so grateful for all the care you provide, from the premium food you choose to the vet visits that keep me healthy. You truly are my best friend and I love you more than words can express.
+
+Thank you for being my person. I promise to continue being the best {data['profile']['pet_type'].lower()} I can be and to love you unconditionally every single day.
+
+With endless love and wagging tail,
+{pet_name} 🐾
+
+P.S. Can we have more treats? Pretty please? 🥺"""
     
-    # Get pet portrait
-    portrait_path = os.path.join(customer_dir, "images", "collective_pet_portrait.png")
-    if os.path.exists(portrait_path):
-        data['portrait'] = f"/static/customer_images/{customer_id}/collective_pet_portrait.png"
+    # Mock pet portrait (use a default image)
+    data['portrait'] = "/static/customer_images/5038/collective_pet_portrait.png"
     
-    # Get food fun fact
-    food_fun_fact_path = os.path.join(customer_dir, "food_fun_fact.json")
-    if os.path.exists(food_fun_fact_path):
-        with open(food_fun_fact_path, 'r') as f:
-            data['food_fun_fact'] = json.load(f)
+    # Mock food fun fact
+    data['food_fun_fact'] = {
+        'fact': f"Did you know? {pet_name} has eaten enough food this year to fill {random.randint(3, 8)} bathtubs! That's a lot of delicious meals!",
+        'calories_consumed': random.randint(50000, 150000),
+        'meals_served': random.randint(200, 500)
+    }
     
-    # Get predicted breed
-    predicted_breed_path = os.path.join(customer_dir, "predicted_breed.json")
-    if os.path.exists(predicted_breed_path):
-        with open(predicted_breed_path, 'r') as f:
-            breed_data = json.load(f)
-            
-            # Handle different data structures
-            if isinstance(breed_data, dict):
-                # Check if it's the nested structure (like customer 5038)
-                if len(breed_data) == 1 and list(breed_data.keys())[0] in breed_data:
-                    pet_data = breed_data[list(breed_data.keys())[0]]
-                    breed_name = pet_data.get('top_predicted_breed', {}).get('breed', '')
-                    data['predicted_breed'] = {
-                        'customer_id': pet_data.get('customer_id'),
-                        'pet_name': pet_data.get('pet_name'),
-                        'predicted_breed': format_breed_name(breed_name),
-                        'confidence': pet_data.get('confidence', {}).get('score', 0)
-                    }
-                else:
-                    # Standard structure (like customer 887148270)
-                    breed_name = breed_data.get('predicted_breed', '')
-                    breed_data['predicted_breed'] = format_breed_name(breed_name)
-                    data['predicted_breed'] = breed_data
+    # Mock predicted breed
+    data['predicted_breed'] = {
+        'customer_id': customer_id,
+        'pet_name': pet_name,
+        'predicted_breed': breed,
+        'confidence': round(random.uniform(0.75, 0.98), 2)
+    }
     
-    # Get unknowns data
-    unknowns_path = os.path.join(customer_dir, "unknowns.json")
-    if os.path.exists(unknowns_path):
-        with open(unknowns_path, 'r') as f:
-            data['unknowns'] = json.load(f)
+    # Mock unknowns data
+    data['unknowns'] = {
+        'unknown_products': random.randint(0, 5),
+        'unknown_categories': random.randint(0, 3),
+        'total_products': random.randint(20, 50),
+        'unknown_attributes': {
+            pet_name: {
+                'unknown_products': random.randint(0, 3),
+                'unknown_categories': random.randint(0, 2),
+                'total_products': random.randint(15, 40)
+            }
+        }
+    }
+    
+    # New slides data
+    data['food_consumption'] = {
+        'total_lbs': str(food_lbs),
+        'top_product': top_product
+    }
+    
+    data['donations'] = {
+        'total_donations': f'${donation_amount}',
+        'summary': f'You helped feed {random.randint(3, 10)} shelter pets this year! Your generosity makes a real difference.'
+    }
+    
+    data['milestone'] = {
+        'years': str(years_with_chewy),
+        'message': f'Thank you for being a loyal Chewy customer for {years_with_chewy} amazing {"year" if years_with_chewy == 1 else "years"}! Your trust means the world to us.'
+    }
+    
+    data['most_reordered'] = {
+        'product_name': top_product,
+        'times_ordered': str(reorder_count),
+        'total_spent': str(reorder_spent)
+    }
+    
+    data['cuddliest_month'] = {
+        'month': busiest_month,
+        'orders': str(month_orders),
+        'interactions': str(month_interactions),
+        'total_spent': str(month_spent)
+    }
+    
+    data['autoship_savings'] = {
+        'amount_saved': str(autoship_savings),
+        'message': f'You saved {random.randint(10, 25)}% on all autoship orders this year! That\'s smart shopping!'
+    }
     
     return data
 
@@ -342,10 +412,7 @@ def experience(customer_id):
     """Main experience page with all slides"""
     customer_data = get_customer_data(customer_id)
     
-    if not customer_data:
-        return render_template('error.html', message="Customer not found"), 404
-    
-    return render_template('experience.html', 
+    return render_template('experience2.html', 
                          customer_id=customer_id, 
                          customer_data=customer_data)
 
