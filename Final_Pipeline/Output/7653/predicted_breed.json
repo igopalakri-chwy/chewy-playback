@@ -2,5 +2,5 @@
   "customer_id": "7653",
   "pet_name": "Moe",
   "predicted_breed": "Unknown Breed",
-  "confidence": 0
+  "confidence": 25.0
 }

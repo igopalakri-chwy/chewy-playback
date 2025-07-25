@@ -14,12 +14,12 @@
     "Weight": "60",
     "WeightScore": 1.0,
     "PersonalityTraits": [
-      "food-motivated",
-      "affectionate"
+      "affectionate",
+      "food-motivated"
     ],
     "PersonalityScores": {
-      "food-motivated": 0.9,
-      "affectionate": 0.7
+      "affectionate": 0.8,
+      "food-motivated": 0.9
     },
     "FavoriteProductCategories": [
       "food",
@@ -39,11 +39,11 @@
     },
     "DietaryPreferences": [
       "lamb-based",
-      "balanced diet"
+      "balanced nutrition"
     ],
     "DietaryScores": {
       "lamb-based": 0.9,
-      "balanced diet": 0.8
+      "balanced nutrition": 0.8
     },
     "BehavioralCues": [
       "enjoys treats"
@@ -79,12 +79,12 @@
     "Weight": "60",
     "WeightScore": 1.0,
     "PersonalityTraits": [
-      "food-motivated",
-      "affectionate"
+      "affectionate",
+      "food-motivated"
     ],
     "PersonalityScores": {
-      "food-motivated": 0.9,
-      "affectionate": 0.7
+      "affectionate": 0.8,
+      "food-motivated": 0.9
     },
     "FavoriteProductCategories": [
       "food",
@@ -104,11 +104,11 @@
     },
     "DietaryPreferences": [
       "lamb-based",
-      "balanced diet"
+      "balanced nutrition"
     ],
     "DietaryScores": {
       "lamb-based": 0.9,
-      "balanced diet": 0.8
+      "balanced nutrition": 0.8
     },
     "BehavioralCues": [
       "enjoys treats"

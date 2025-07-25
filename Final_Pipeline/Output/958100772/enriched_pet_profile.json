@@ -1,67 +1,4 @@
 {
-  "Dog": {
-    "PetName": "Dog",
-    "PetType": "Dog",
-    "PetTypeScore": 1.0,
-    "Breed": "Mixed / Unknown",
-    "BreedScore": 1.0,
-    "LifeStage": "None",
-    "LifeStageScore": 1.0,
-    "Gender": "UNKN",
-    "GenderScore": 1.0,
-    "SizeCategory": "UNK",
-    "SizeScore": 0.0,
-    "Weight": "None",
-    "WeightScore": 1.0,
-    "PersonalityTraits": [
-      "independent",
-      "clean"
-    ],
-    "PersonalityScores": {
-      "independent": 0.8,
-      "clean": 0.9
-    },
-    "FavoriteProductCategories": [
-      "food",
-      "litter"
-    ],
-    "CategoryScores": {
-      "food": 0.9,
-      "litter": 0.8
-    },
-    "BrandPreferences": [
-      "Royal Canin",
-      "Fresh Step"
-    ],
-    "BrandScores": {
-      "Royal Canin": 0.9,
-      "Fresh Step": 0.8
-    },
-    "DietaryPreferences": [
-      "indoor formula"
-    ],
-    "DietaryScores": {
-      "indoor formula": 0.9
-    },
-    "BehavioralCues": [
-      "prefers indoor environment"
-    ],
-    "BehavioralScores": {
-      "prefers indoor environment": 0.9
-    },
-    "HealthMentions": [
-      "healthy coat"
-    ],
-    "HealthScores": {
-      "healthy coat": 0.8
-    },
-    "MostOrderedProducts": [
-      "Royal Canin Feline Health Nutrition Adult Indoor & Instinctive Wet Cat Food Variety Pack, 3-oz can, 12 count",
-      "Fresh Step Multi-Cat Extra Strength Scented Clumping Cat Litter, 25-lb"
-    ],
-    "ConfidenceScore": 0.0,
-    "confidence_score": 0.8333333333333334
-  },
   "Nini": {
     "PetName": "Nini",
     "PetType": "Cat",
@@ -113,10 +50,10 @@
       "prefers indoor environment": 0.9
     },
     "HealthMentions": [
-      "healthy coat"
+      "healthy"
     ],
     "HealthScores": {
-      "healthy coat": 0.8
+      "healthy": 0.8
     },
     "MostOrderedProducts": [
       "Royal Canin Feline Health Nutrition Adult Indoor & Instinctive Wet Cat Food Variety Pack, 3-oz can, 12 count",
