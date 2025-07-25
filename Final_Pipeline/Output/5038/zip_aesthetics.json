@@ -1,11 +1,11 @@
 {
   "visual_style": "Rustic",
-  "color_texture": "Earthen tones with grainy textures",
-  "art_style": "Country art with emphasis on nature and animal themes",
-  "tone_style": "Warm and inviting",
-  "location_background": "Rural, with scenic landscapes of farms, woods, and beautiful autumn foliage",
+  "color_texture": "Earthy tones with rough textures",
+  "art_style": "Country and Folk Art",
+  "tone_style": "Warm and Welcoming",
+  "location_background": "Rural landscapes with abundant farmland and natural scenery",
   "location_data": {
-    "background_description": "Finger Lakes with vineyards",
+    "background_description": "Niagara Falls with mist",
     "city": "Basom",
     "state": "NY",
     "location_type": "state",

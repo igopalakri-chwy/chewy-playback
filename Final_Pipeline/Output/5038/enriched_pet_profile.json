@@ -14,44 +14,46 @@
     "Weight": "10",
     "WeightScore": 1.0,
     "PersonalityTraits": [
+      "playful",
       "curious",
       "affectionate"
     ],
     "PersonalityScores": {
+      "playful": 0.8,
       "curious": 0.7,
       "affectionate": 0.9
     },
     "FavoriteProductCategories": [
       "litter",
-      "food",
-      "treats"
+      "treats",
+      "toys"
     ],
     "CategoryScores": {
       "litter": 0.9,
-      "food": 0.8,
-      "treats": 0.7
+      "treats": 0.8,
+      "toys": 0.7
     },
     "BrandPreferences": [
       "PrettyLitter",
-      "Friskies"
+      "Temptations"
     ],
     "BrandScores": {
       "PrettyLitter": 0.9,
-      "Friskies": 0.8
+      "Temptations": 0.8
     },
     "DietaryPreferences": [
-      "high-protein"
+      "standard diet"
     ],
     "DietaryScores": {
-      "high-protein": 0.7
+      "standard diet": 0.7
     },
     "BehavioralCues": [
       "enjoys treats",
-      "health-conscious"
+      "active"
     ],
     "BehavioralScores": {
       "enjoys treats": 0.8,
-      "health-conscious": 0.7
+      "active": 0.7
     },
     "HealthMentions": [
       "healthy"
@@ -83,44 +85,46 @@
     "Weight": "3",
     "WeightScore": 1.0,
     "PersonalityTraits": [
+      "playful",
       "curious",
       "affectionate"
     ],
     "PersonalityScores": {
+      "playful": 0.8,
       "curious": 0.7,
       "affectionate": 0.9
     },
     "FavoriteProductCategories": [
       "litter",
-      "food",
-      "treats"
+      "treats",
+      "toys"
     ],
     "CategoryScores": {
       "litter": 0.9,
-      "food": 0.8,
-      "treats": 0.7
+      "treats": 0.8,
+      "toys": 0.7
     },
     "BrandPreferences": [
       "PrettyLitter",
-      "Friskies"
+      "Temptations"
     ],
     "BrandScores": {
       "PrettyLitter": 0.9,
-      "Friskies": 0.8
+      "Temptations": 0.8
     },
     "DietaryPreferences": [
-      "high-protein"
+      "standard diet"
     ],
     "DietaryScores": {
-      "high-protein": 0.7
+      "standard diet": 0.7
     },
     "BehavioralCues": [
       "enjoys treats",
-      "health-conscious"
+      "active"
     ],
     "BehavioralScores": {
       "enjoys treats": 0.8,
-      "health-conscious": 0.7
+      "active": 0.7
     },
     "HealthMentions": [
       "healthy"

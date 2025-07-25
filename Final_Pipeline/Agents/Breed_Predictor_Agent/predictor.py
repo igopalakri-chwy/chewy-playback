@@ -45,8 +45,8 @@ class BreedPredictor:
         """Load all breed definition files."""
         breed_definitions = {}
         
-        # Try the new dog_breed_data directory first
-        breeds_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), 'dog_breed_data')
+        # Try the dog_breed_data directory in the same folder as this file
+        breeds_dir = os.path.join(os.path.dirname(__file__), 'dog_breed_data')
         
         if not os.path.exists(breeds_dir):
             # Fallback to old location
