@@ -23,63 +23,282 @@ def get_all_customer_ids():
     return sorted(customer_ids, key=lambda x: int(x) if x.isdigit() else 0)
 
 def get_customer_data(customer_id):
-    """Generate comprehensive mock data for any customer ID"""
+    """Get real data from JSON files for customer 5812, fallback to mock data for others"""
     import random
-    
-    # Generate random but consistent data based on customer_id
-    try:
-        random.seed(hash(str(customer_id)) % 1000)
-    except:
-        random.seed(42)  # fallback seed
-    
-    # Pet names and breeds for variety
-    pet_names = ["Buddy", "Luna", "Max", "Bella", "Charlie", "Lucy", "Cooper", "Daisy", "Rocky", "Molly", "Bear", "Sophie", "Duke", "Chloe", "Jack", "Lola", "Tucker", "Zoe", "Oliver", "Ruby"]
-    dog_breeds = ["Golden Retriever", "Labrador Retriever", "German Shepherd", "Bulldog", "Beagle", "Poodle", "Rottweiler", "Yorkshire Terrier", "Boxer", "Dachshund"]
-    cat_breeds = ["Persian", "Maine Coon", "Siamese", "Ragdoll", "British Shorthair", "Abyssinian", "Russian Blue", "Sphynx", "Bengal", "Scottish Fold"]
-    food_products = ["Premium Dog Food", "Grain-Free Cat Food", "Organic Puppy Food", "Senior Dog Formula", "Weight Management Cat Food", "Hypoallergenic Dog Food", "Wet Cat Food Variety Pack", "Raw Dog Food", "Limited Ingredient Cat Food", "Puppy Training Treats"]
-    months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
-    personality_badges = ["The Explorer", "The Cuddler", "The Guardian", "The Scholar", "The Athlete", "The Diva", "The Nurturer", "The Trickster", "The Daydreamer", "The Shadow"]
-    
-    # Generate data based on customer_id
-    pet_name = random.choice(pet_names)
-    is_dog = random.choice([True, False])
-    breed = random.choice(dog_breeds if is_dog else cat_breeds)
-    food_lbs = random.randint(50, 300)
-    top_product = random.choice(food_products)
-    donation_amount = random.randint(10, 100)
-    years_with_chewy = random.randint(1, 8)
-    reorder_count = random.randint(5, 25)
-    reorder_spent = reorder_count * random.randint(15, 30)
-    busiest_month = random.choice(months)
-    month_orders = random.randint(5, 15)
-    month_interactions = random.randint(10, 25)
-    month_spent = random.randint(100, 300)
-    autoship_savings = random.randint(20, 80)
-    personality_badge = random.choice(personality_badges)
     
     data = {}
     
-    # Mock enriched pet profile
-    data['profile'] = {
-        'customer_id': customer_id,
-        'pet_name': pet_name,
-        'pet_type': 'Dog' if is_dog else 'Cat',
-        'breed': breed,
-        'age': random.randint(1, 12),
-        'weight': random.randint(5, 80),
-        'favorite_toy': random.choice(['Tennis Ball', 'Squeaky Toy', 'Rope Toy', 'Laser Pointer', 'Feather Wand', 'Mouse Toy']),
-        'favorite_treat': random.choice(['Peanut Butter Treats', 'Salmon Bites', 'Chicken Strips', 'Cheese Cubes', 'Carrot Sticks', 'Tuna Flakes'])
-    }
-    
-    # Mock personality badge
-    data['badge'] = {
-        'badge': personality_badge,
-        'description': f'{pet_name} is {personality_badge.lower()}! This personality type shows their unique character and behavior patterns.',
-        'traits': random.sample(['Loyal', 'Playful', 'Curious', 'Gentle', 'Energetic', 'Calm', 'Protective', 'Friendly'], 4)
-    }
-    
-    # Mock pet letter
-    data['letter'] = f"""Dear Human,
+    # For customer 5812, use real JSON data
+    if customer_id == "5812":
+        customer_dir = os.path.join(OUTPUT_DIR, customer_id)
+        
+        # 1. Food Consumption Data
+        try:
+            with open(os.path.join(customer_dir, "yearly_food_count.json"), 'r') as f:
+                food_data = json.load(f)
+                if food_data:
+                    total_lbs = food_data[0].get("TOTAL_LBS_CONSUMED_BY_CUSTOMER", 0)
+                    top_product = food_data[0].get("PRODUCT_NAME", "Premium Pet Food")
+                    data['food_consumption'] = {
+                        'total_lbs': str(total_lbs),
+                        'top_product': top_product
+                    }
+                else:
+                    data['food_consumption'] = {
+                        'total_lbs': "0",
+                        'top_product': "Premium Pet Food"
+                    }
+        except Exception as e:
+            print(f"Error reading food data: {e}")
+            data['food_consumption'] = {
+                'total_lbs': "0",
+                'top_product': "Premium Pet Food"
+            }
+        
+        # 2. Donations Data
+        try:
+            with open(os.path.join(customer_dir, "amount_donated.json"), 'r') as f:
+                donation_data = json.load(f)
+                if donation_data and donation_data[0].get("AMT_DONATED") is not None:
+                    amount = donation_data[0]["AMT_DONATED"]
+                    data['donations'] = {
+                        'total_donations': f'${amount}',
+                        'summary': f'You helped feed shelter pets this year! Your generosity makes a real difference.'
+                    }
+                else:
+                    data['donations'] = {
+                        'total_donations': '$0',
+                        'summary': 'Start donating to help shelter pets! Every contribution makes a difference.'
+                    }
+        except Exception as e:
+            print(f"Error reading donation data: {e}")
+            data['donations'] = {
+                'total_donations': '$0',
+                'summary': 'Start donating to help shelter pets! Every contribution makes a difference.'
+            }
+        
+        # 3. Milestone Data (Months with Chewy)
+        try:
+            with open(os.path.join(customer_dir, "total_months.json"), 'r') as f:
+                months_data = json.load(f)
+                if months_data:
+                    months = months_data[0].get("MONTHS_WITH_CHEWY", 0)
+                    data['milestone'] = {
+                        'months': str(months),
+                        'message': f'Thank you for being a loyal Chewy customer for {months} amazing {"month" if months == 1 else "months"}! Your trust means the world to us.'
+                    }
+                else:
+                    data['milestone'] = {
+                        'months': "0",
+                        'message': 'Welcome to Chewy! We\'re excited to have you as part of our family.'
+                    }
+        except Exception as e:
+            print(f"Error reading months data: {e}")
+            data['milestone'] = {
+                'months': "0",
+                'message': 'Welcome to Chewy! We\'re excited to have you as part of our family.'
+            }
+        
+        # 4. Most Reordered Data
+        try:
+            with open(os.path.join(customer_dir, "most_ordered.json"), 'r') as f:
+                reorder_data = json.load(f)
+                if reorder_data:
+                    product_name = reorder_data[0].get("NAME", "Premium Pet Product")
+                    times_ordered = reorder_data[0].get("TOTAL_QUANTITY_ORDERED", 0)
+                    # Estimate total spent (assuming average $20 per order)
+                    total_spent = times_ordered * 20
+                    data['most_reordered'] = {
+                        'product_name': product_name,
+                        'times_ordered': str(times_ordered),
+                        'total_spent': str(total_spent)
+                    }
+                else:
+                    data['most_reordered'] = {
+                        'product_name': "Premium Pet Product",
+                        'times_ordered': "0",
+                        'total_spent': "0"
+                    }
+        except Exception as e:
+            print(f"Error reading reorder data: {e}")
+            data['most_reordered'] = {
+                'product_name': "Premium Pet Product",
+                'times_ordered': "0",
+                'total_spent': "0"
+            }
+        
+        # 5. Busiest Month Data
+        try:
+            with open(os.path.join(customer_dir, "cuddliest_month.json"), 'r') as f:
+                month_data = json.load(f)
+                if month_data:
+                    month = month_data[0].get("MONTH", "January")
+                    orders = month_data[0].get("TOTAL_ORDERS", 0)
+                    # Generate realistic interactions and spending based on orders
+                    interactions = orders * 3  # Assume 3 interactions per order
+                    total_spent = orders * 50  # Assume $50 average per order
+                    data['cuddliest_month'] = {
+                        'month': month,
+                        'orders': str(orders),
+                        'interactions': str(interactions),
+                        'total_spent': str(total_spent)
+                    }
+                else:
+                    data['cuddliest_month'] = {
+                        'month': "January",
+                        'orders': "0",
+                        'interactions': "0",
+                        'total_spent': "0"
+                    }
+        except Exception as e:
+            print(f"Error reading month data: {e}")
+            data['cuddliest_month'] = {
+                'month': "January",
+                'orders': "0",
+                'interactions': "0",
+                'total_spent': "0"
+            }
+        
+        # 6. Autoship Savings Data
+        try:
+            with open(os.path.join(customer_dir, "autoship_savings.json"), 'r') as f:
+                savings_data = json.load(f)
+                if savings_data and len(savings_data) > 0:
+                    # If there's data, use it; otherwise use default
+                    amount_saved = savings_data[0] if isinstance(savings_data[0], (int, float)) else 0
+                    data['autoship_savings'] = {
+                        'amount_saved': str(amount_saved),
+                        'message': f'You saved money with autoship this year! That\'s smart shopping!'
+                    }
+                else:
+                    data['autoship_savings'] = {
+                        'amount_saved': "0",
+                        'message': 'Start using autoship to save money on your pet supplies!'
+                    }
+        except Exception as e:
+            print(f"Error reading savings data: {e}")
+            data['autoship_savings'] = {
+                'amount_saved': "0",
+                'message': 'Start using autoship to save money on your pet supplies!'
+            }
+        
+        # Add mock data for other slides that don't have JSON files
+        data['profile'] = {
+            'customer_id': customer_id,
+            'pet_name': "Buddy",
+            'pet_type': 'Dog',
+            'breed': 'Golden Retriever',
+            'age': 5,
+            'weight': 65,
+            'favorite_toy': 'Tennis Ball',
+            'favorite_treat': 'Peanut Butter Treats'
+        }
+        
+        data['badge'] = {
+            'badge': "The Explorer",
+            'description': 'Buddy is the explorer! This personality type shows their unique character and behavior patterns.',
+            'traits': ['Loyal', 'Playful', 'Curious', 'Energetic']
+        }
+        
+        data['letter'] = """Dear Human,
+
+I hope this letter finds you well! I wanted to take a moment to thank you for being the most amazing pet parent ever. You've given me the best life filled with love, treats, and endless belly rubs.
+
+This year has been incredible! We've shared so many wonderful moments together - from our daily walks to our cozy cuddle sessions. You always know exactly what I need, whether it's my favorite Peanut Butter Treats or a good game with my Tennis Ball.
+
+I'm so grateful for all the care you provide, from the premium food you choose to the vet visits that keep me healthy. You truly are my best friend and I love you more than words can express.
+
+Thank you for being my person. I promise to continue being the best dog I can be and to love you unconditionally every single day.
+
+With endless love and wagging tail,
+Buddy 🐾
+
+P.S. Can we have more treats? Pretty please? 🥺"""
+        
+        data['portrait'] = "/static/customer_images/5812/collective_pet_portrait.png"
+        
+        data['food_fun_fact'] = {
+            'fact': "Did you know? Buddy has eaten enough food this year to fill 5 bathtubs! That's a lot of delicious meals!",
+            'calories_consumed': 75000,
+            'meals_served': 300
+        }
+        
+        data['predicted_breed'] = {
+            'customer_id': customer_id,
+            'pet_name': "Buddy",
+            'predicted_breed': 'Golden Retriever',
+            'confidence': 0.95
+        }
+        
+        data['unknowns'] = {
+            'unknown_products': 2,
+            'unknown_categories': 1,
+            'total_products': 25,
+            'unknown_attributes': {
+                "Buddy": {
+                    'unknown_products': 1,
+                    'unknown_categories': 0,
+                    'total_products': 20
+                }
+            }
+        }
+        
+    else:
+        # For other customers, use the original mock data generation
+        import random
+        
+        # Generate random but consistent data based on customer_id
+        try:
+            random.seed(hash(str(customer_id)) % 1000)
+        except:
+            random.seed(42)  # fallback seed
+        
+        # Pet names and breeds for variety
+        pet_names = ["Buddy", "Luna", "Max", "Bella", "Charlie", "Lucy", "Cooper", "Daisy", "Rocky", "Molly", "Bear", "Sophie", "Duke", "Chloe", "Jack", "Lola", "Tucker", "Zoe", "Oliver", "Ruby"]
+        dog_breeds = ["Golden Retriever", "Labrador Retriever", "German Shepherd", "Bulldog", "Beagle", "Poodle", "Rottweiler", "Yorkshire Terrier", "Boxer", "Dachshund"]
+        cat_breeds = ["Persian", "Maine Coon", "Siamese", "Ragdoll", "British Shorthair", "Abyssinian", "Russian Blue", "Sphynx", "Bengal", "Scottish Fold"]
+        food_products = ["Premium Dog Food", "Grain-Free Cat Food", "Organic Puppy Food", "Senior Dog Formula", "Weight Management Cat Food", "Hypoallergenic Dog Food", "Wet Cat Food Variety Pack", "Raw Dog Food", "Limited Ingredient Cat Food", "Puppy Training Treats"]
+        months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+        personality_badges = ["The Explorer", "The Cuddler", "The Guardian", "The Scholar", "The Athlete", "The Diva", "The Nurturer", "The Trickster", "The Daydreamer", "The Shadow"]
+        
+        # Generate data based on customer_id
+        pet_name = random.choice(pet_names)
+        is_dog = random.choice([True, False])
+        breed = random.choice(dog_breeds if is_dog else cat_breeds)
+        food_lbs = random.randint(50, 300)
+        top_product = random.choice(food_products)
+        donation_amount = random.randint(10, 100)
+        years_with_chewy = random.randint(1, 8)
+        reorder_count = random.randint(5, 25)
+        reorder_spent = reorder_count * random.randint(15, 30)
+        busiest_month = random.choice(months)
+        month_orders = random.randint(5, 15)
+        month_interactions = random.randint(10, 25)
+        month_spent = random.randint(100, 300)
+        autoship_savings = random.randint(20, 80)
+        personality_badge = random.choice(personality_badges)
+        
+        # Mock enriched pet profile
+        data['profile'] = {
+            'customer_id': customer_id,
+            'pet_name': pet_name,
+            'pet_type': 'Dog' if is_dog else 'Cat',
+            'breed': breed,
+            'age': random.randint(1, 12),
+            'weight': random.randint(5, 80),
+            'favorite_toy': random.choice(['Tennis Ball', 'Squeaky Toy', 'Rope Toy', 'Laser Pointer', 'Feather Wand', 'Mouse Toy']),
+            'favorite_treat': random.choice(['Peanut Butter Treats', 'Salmon Bites', 'Chicken Strips', 'Cheese Cubes', 'Carrot Sticks', 'Tuna Flakes'])
+        }
+        
+        # Mock personality badge
+        data['badge'] = {
+            'badge': personality_badge,
+            'description': f'{pet_name} is {personality_badge.lower()}! This personality type shows their unique character and behavior patterns.',
+            'traits': random.sample(['Loyal', 'Playful', 'Curious', 'Gentle', 'Energetic', 'Calm', 'Protective', 'Friendly'], 4)
+        }
+        
+        # Mock pet letter
+        data['letter'] = f"""Dear Human,
 
 I hope this letter finds you well! I wanted to take a moment to thank you for being the most amazing pet parent ever. You've given me the best life filled with love, treats, and endless belly rubs.
 
@@ -93,72 +312,72 @@ With endless love and wagging tail,
 {pet_name} 🐾
 
 P.S. Can we have more treats? Pretty please? 🥺"""
-    
-    # Mock pet portrait (use a default image)
-    data['portrait'] = "/static/customer_images/5038/collective_pet_portrait.png"
-    
-    # Mock food fun fact
-    data['food_fun_fact'] = {
-        'fact': f"Did you know? {pet_name} has eaten enough food this year to fill {random.randint(3, 8)} bathtubs! That's a lot of delicious meals!",
-        'calories_consumed': random.randint(50000, 150000),
-        'meals_served': random.randint(200, 500)
-    }
-    
-    # Mock predicted breed
-    data['predicted_breed'] = {
-        'customer_id': customer_id,
-        'pet_name': pet_name,
-        'predicted_breed': breed,
-        'confidence': round(random.uniform(0.75, 0.98), 2)
-    }
-    
-    # Mock unknowns data
-    data['unknowns'] = {
-        'unknown_products': random.randint(0, 5),
-        'unknown_categories': random.randint(0, 3),
-        'total_products': random.randint(20, 50),
-        'unknown_attributes': {
-            pet_name: {
-                'unknown_products': random.randint(0, 3),
-                'unknown_categories': random.randint(0, 2),
-                'total_products': random.randint(15, 40)
+        
+        # Mock pet portrait (use a default image)
+        data['portrait'] = "/static/customer_images/5038/collective_pet_portrait.png"
+        
+        # Mock food fun fact
+        data['food_fun_fact'] = {
+            'fact': f"Did you know? {pet_name} has eaten enough food this year to fill {random.randint(3, 8)} bathtubs! That's a lot of delicious meals!",
+            'calories_consumed': random.randint(50000, 150000),
+            'meals_served': random.randint(200, 500)
+        }
+        
+        # Mock predicted breed
+        data['predicted_breed'] = {
+            'customer_id': customer_id,
+            'pet_name': pet_name,
+            'predicted_breed': breed,
+            'confidence': round(random.uniform(0.75, 0.98), 2)
+        }
+        
+        # Mock unknowns data
+        data['unknowns'] = {
+            'unknown_products': random.randint(0, 5),
+            'unknown_categories': random.randint(0, 3),
+            'total_products': random.randint(20, 50),
+            'unknown_attributes': {
+                pet_name: {
+                    'unknown_products': random.randint(0, 3),
+                    'unknown_categories': random.randint(0, 2),
+                    'total_products': random.randint(15, 40)
+                }
             }
         }
-    }
-    
-    # New slides data
-    data['food_consumption'] = {
-        'total_lbs': str(food_lbs),
-        'top_product': top_product
-    }
-    
-    data['donations'] = {
-        'total_donations': f'${donation_amount}',
-        'summary': f'You helped feed {random.randint(3, 10)} shelter pets this year! Your generosity makes a real difference.'
-    }
-    
-    data['milestone'] = {
-        'years': str(years_with_chewy),
-        'message': f'Thank you for being a loyal Chewy customer for {years_with_chewy} amazing {"year" if years_with_chewy == 1 else "years"}! Your trust means the world to us.'
-    }
-    
-    data['most_reordered'] = {
-        'product_name': top_product,
-        'times_ordered': str(reorder_count),
-        'total_spent': str(reorder_spent)
-    }
-    
-    data['cuddliest_month'] = {
-        'month': busiest_month,
-        'orders': str(month_orders),
-        'interactions': str(month_interactions),
-        'total_spent': str(month_spent)
-    }
-    
-    data['autoship_savings'] = {
-        'amount_saved': str(autoship_savings),
-        'message': f'You saved {random.randint(10, 25)}% on all autoship orders this year! That\'s smart shopping!'
-    }
+        
+        # New slides data
+        data['food_consumption'] = {
+            'total_lbs': str(food_lbs),
+            'top_product': top_product
+        }
+        
+        data['donations'] = {
+            'total_donations': f'${donation_amount}',
+            'summary': f'You helped feed {random.randint(3, 10)} shelter pets this year! Your generosity makes a real difference.'
+        }
+        
+        data['milestone'] = {
+            'months': str(years_with_chewy * 12),
+            'message': f'Thank you for being a loyal Chewy customer for {years_with_chewy * 12} amazing {"month" if years_with_chewy * 12 == 1 else "months"}! Your trust means the world to us.'
+        }
+        
+        data['most_reordered'] = {
+            'product_name': top_product,
+            'times_ordered': str(reorder_count),
+            'total_spent': str(reorder_spent)
+        }
+        
+        data['cuddliest_month'] = {
+            'month': busiest_month,
+            'orders': str(month_orders),
+            'interactions': str(month_interactions),
+            'total_spent': str(month_spent)
+        }
+        
+        data['autoship_savings'] = {
+            'amount_saved': str(autoship_savings),
+            'message': f'You saved {random.randint(10, 25)}% on all autoship orders this year! That\'s smart shopping!'
+        }
     
     return data
 

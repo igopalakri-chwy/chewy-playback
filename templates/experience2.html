@@ -3,6 +3,130 @@
 {% block title %}Pet Experience - Customer {{ customer_id }} - Chewy Playback{% endblock %}
 
 {% block content %}
+<script>
+// Dynamic styling based on data content
+function getDynamicStyles(data) {
+    const styles = {};
+    
+    // Food consumption styling
+    const foodLbs = parseFloat(data.food_consumption.total_lbs) || 0;
+    if (foodLbs > 100) {
+        styles.foodIcon = 'color: #4a90e2; font-size: 70px;';
+        styles.foodTitle = 'color: #4a90e2; font-size: 28px;';
+    } else if (foodLbs > 50) {
+        styles.foodIcon = 'color: #4a90e2; font-size: 60px;';
+        styles.foodTitle = 'color: #4a90e2; font-size: 24px;';
+    } else {
+        styles.foodIcon = 'color: #4a90e2; font-size: 50px;';
+        styles.foodTitle = 'color: #4a90e2; font-size: 20px;';
+    }
+    
+    // Donations styling
+    const donationAmount = parseFloat(data.donations.total_donations.replace('$', '')) || 0;
+    if (donationAmount > 50) {
+        styles.donationGradient = 'linear-gradient(135deg, #4a90e2, #2a5298)';
+        styles.donationIcon = 'color: #4a90e2; font-size: 70px;';
+    } else if (donationAmount > 20) {
+        styles.donationGradient = 'linear-gradient(135deg, #4a90e2, #2a5298)';
+        styles.donationIcon = 'color: #4a90e2; font-size: 60px;';
+    } else {
+        styles.donationGradient = 'linear-gradient(135deg, #4a90e2, #2a5298)';
+        styles.donationIcon = 'color: #4a90e2; font-size: 50px;';
+    }
+    
+    // Milestone styling
+    const months = parseInt(data.milestone.months) || 0;
+    if (months > 60) {
+        styles.milestoneGradient = 'linear-gradient(135deg, #4a90e2, #2a5298)';
+        styles.milestoneShadow = '0 15px 35px rgba(74,144,226,0.4)';
+    } else if (months > 24) {
+        styles.milestoneGradient = 'linear-gradient(135deg, #4a90e2, #2a5298)';
+        styles.milestoneShadow = '0 10px 25px rgba(74,144,226,0.3)';
+    } else {
+        styles.milestoneGradient = 'linear-gradient(135deg, #4a90e2, #2a5298)';
+        styles.milestoneShadow = '0 8px 20px rgba(74,144,226,0.2)';
+    }
+    
+    // Most reordered styling
+    const timesOrdered = parseInt(data.most_reordered.times_ordered) || 0;
+    if (timesOrdered > 100) {
+        styles.reorderIcon = 'color: #4a90e2; font-size: 70px;';
+        styles.reorderTitle = 'color: #4a90e2; font-size: 28px;';
+    } else if (timesOrdered > 50) {
+        styles.reorderIcon = 'color: #4a90e2; font-size: 60px;';
+        styles.reorderTitle = 'color: #4a90e2; font-size: 24px;';
+    } else {
+        styles.reorderIcon = 'color: #4a90e2; font-size: 50px;';
+        styles.reorderTitle = 'color: #4a90e2; font-size: 20px;';
+    }
+    
+    // Busiest month styling
+    const monthOrders = parseInt(data.cuddliest_month.orders) || 0;
+    if (monthOrders > 10) {
+        styles.monthGradient = 'linear-gradient(135deg, #4a90e2, #2a5298)';
+        styles.monthShadow = '0 15px 35px rgba(74,144,226,0.4)';
+    } else if (monthOrders > 5) {
+        styles.monthGradient = 'linear-gradient(135deg, #4a90e2, #2a5298)';
+        styles.monthShadow = '0 10px 25px rgba(74,144,226,0.3)';
+    } else {
+        styles.monthGradient = 'linear-gradient(135deg, #4a90e2, #2a5298)';
+        styles.monthShadow = '0 8px 20px rgba(74,144,226,0.2)';
+    }
+    
+    // Autoship savings styling
+    const savings = parseFloat(data.autoship_savings.amount_saved) || 0;
+    if (savings > 50) {
+        styles.savingsGradient = 'linear-gradient(135deg, #4a90e2, #2a5298)';
+        styles.savingsIcon = 'color: #4a90e2; font-size: 70px;';
+    } else if (savings > 20) {
+        styles.savingsGradient = 'linear-gradient(135deg, #4a90e2, #2a5298)';
+        styles.savingsIcon = 'color: #4a90e2; font-size: 60px;';
+    } else {
+        styles.savingsGradient = 'linear-gradient(135deg, #4a90e2, #2a5298)';
+        styles.savingsIcon = 'color: #4a90e2; font-size: 50px;';
+    }
+    
+    return styles;
+}
+
+// Apply dynamic styles when page loads
+document.addEventListener('DOMContentLoaded', function() {
+    const customerData = JSON.parse('{{ customer_data | tojson | safe }}');
+    const styles = getDynamicStyles(customerData);
+    
+    // Apply styles to elements
+    const foodIcon = document.querySelector('.funfact-icon i');
+    if (foodIcon) foodIcon.style.cssText = styles.foodIcon;
+    
+    const donationIcon = document.querySelector('.breed-icon i');
+    if (donationIcon) donationIcon.style.cssText = styles.donationIcon;
+    
+    const donationContainer = document.querySelector('.breed-content > div');
+    if (donationContainer) donationContainer.style.background = styles.donationGradient;
+    
+    const milestoneContainer = document.querySelector('.letter-text > div');
+    if (milestoneContainer) {
+        milestoneContainer.style.background = styles.milestoneGradient;
+        milestoneContainer.style.boxShadow = styles.milestoneShadow;
+    }
+    
+    const reorderIcon = document.querySelector('.badge-image-container i');
+    if (reorderIcon) reorderIcon.style.cssText = styles.reorderIcon;
+    
+    const monthContainer = document.querySelector('.portrait-display > div > div:nth-child(2)');
+    if (monthContainer) {
+        monthContainer.style.background = styles.monthGradient;
+        monthContainer.style.boxShadow = styles.monthShadow;
+    }
+    
+    const savingsIcon = document.querySelector('.share-content i');
+    if (savingsIcon) savingsIcon.style.cssText = styles.savingsIcon;
+    
+    const savingsContainer = document.querySelector('.share-message > div > div:nth-child(3)');
+    if (savingsContainer) savingsContainer.style.background = styles.savingsGradient;
+});
+</script>
+
 <div class="experience-container">
 
     
@@ -17,8 +141,6 @@
             <div class="nav-dot" data-slide="5"></div>
             <div class="nav-dot" data-slide="6"></div>
             <div class="nav-dot" data-slide="7"></div>
-            <div class="nav-dot" data-slide="8"></div>
-            <div class="nav-dot" data-slide="9"></div>
         </div>
     </div>
     
@@ -60,20 +182,20 @@
         <!-- Slide 1: Total lbs Food Consumed -->
         <div class="slide" id="slide-1">
             <div class="slide-content funfact-slide">
-                <div class="slide-header">
-                    <h2 class="slide-title">
+                <div class="slide-header" style="text-align: center; margin-bottom: 30px;">
+                    <h2 class="slide-title" style="text-align: center; margin: 0;">
                         <span class="emoji celebration">🍽️</span> Total lbs Food Consumed <span class="emoji celebration">🍽️</span>
                     </h2>
                 </div>
                 
                 <div class="funfact-container">
                     <div class="funfact-icon">
-                        <i class="fas fa-weight" style="font-size: 60px; color: #FFD700;"></i>
+                        <i class="fas fa-weight" style="font-size: 60px; color: #4a90e2;"></i>
                     </div>
                     <div class="funfact-content">
                         <h3 class="funfact-title" style="color: white; font-size: 24px; margin-bottom: 20px;">Your Pet's Food Journey</h3>
                         <div style="background: rgba(255,255,255,0.1); padding: 25px; border-radius: 15px; margin-bottom: 20px;">
-                            <h4 style="color: #FFD700; font-size: 32px; margin-bottom: 10px; text-align: center;">
+                            <h4 style="color: #4a90e2; font-size: 32px; margin-bottom: 10px; text-align: center;">
                                 {{ customer_data.food_consumption.total_lbs }} lbs
                             </h4>
                             <p style="color: white; font-size: 18px; text-align: center; margin-bottom: 15px;">
@@ -85,7 +207,7 @@
                             <p class="funfact-text" style="color: white; font-size: 16px; font-weight: bold;">
                                 {{ customer_data.food_consumption.top_product }}
                             </p>
-                            <a href="#" style="color: #FFD700; text-decoration: none; font-weight: bold; display: inline-block; margin-top: 10px;">
+                            <a href="https://www.chewy.com/search?query={{ customer_data.food_consumption.top_product | urlencode }}" target="_blank" style="color: #4a90e2; text-decoration: none; font-weight: bold; display: inline-block; margin-top: 10px;">
                                 🔗 View Product →
                             </a>
                         </div>
@@ -104,21 +226,22 @@
         </div>
         
         <!-- Slide 2: Donations -->
+        {% if customer_data.donations.total_donations != '$0' and customer_data.donations.total_donations != '0' %}
         <div class="slide" id="slide-2">
             <div class="slide-content breed-slide">
-                <div class="slide-header">
-                    <h2 class="slide-title">
+                <div class="slide-header" style="text-align: center; margin-bottom: 30px;">
+                    <h2 class="slide-title" style="text-align: center; margin: 0;">
                         <span class="emoji celebration">❤️</span> Donations <span class="emoji celebration">❤️</span>
                     </h2>
                 </div>
                 
                 <div class="breed-container">
                     <div class="breed-icon">
-                        <i class="fas fa-heart" style="font-size: 60px; color: #FF69B4; animation: pulse 2s infinite;"></i>
+                        <i class="fas fa-heart" style="font-size: 60px; color: #4a90e2; animation: pulse 2s infinite;"></i>
                     </div>
                     <div class="breed-content">
                         <h3 class="breed-title" style="color: white; font-size: 24px; margin-bottom: 20px; text-align: center;">Your Generosity Makes a Difference</h3>
-                        <div style="background: linear-gradient(135deg, #FF69B4, #FF1493); padding: 30px; border-radius: 20px; margin-bottom: 20px; text-align: center;">
+                        <div style="background: linear-gradient(135deg, #4a90e2, #2a5298); padding: 30px; border-radius: 20px; margin-bottom: 20px; text-align: center;">
                             <h4 style="color: white; font-size: 36px; margin-bottom: 15px; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">
                                 {{ customer_data.donations.total_donations }}
                             </h4>
@@ -127,13 +250,13 @@
                             </p>
                         </div>
                         <div class="breed-disclaimer" style="background: rgba(255,255,255,0.1); padding: 20px; border-radius: 15px; text-align: center;">
-                            <p class="disclaimer-text" style="color: white; font-size: 16px; line-height: 1.6;">
+                            <p class="disclaimer-text"  style="color: #2d4782; font-size: 16px; line-height: 1.6;">
                                 {{ customer_data.donations.summary }}
                             </p>
                             <div style="margin-top: 15px;">
-                                <span style="color: #FFD700; font-size: 24px;">🐾</span>
-                                <span style="color: #FFD700; font-size: 24px;">🐾</span>
-                                <span style="color: #FFD700; font-size: 24px;">🐾</span>
+                                <span style="color: #4a90e2; font-size: 24px;">🐾</span>
+                                <span style="color: #4a90e2; font-size: 24px;">🐾</span>
+                                <span style="color: #4a90e2; font-size: 24px;">🐾</span>
                             </div>
                         </div>
                     </div>
@@ -149,12 +272,13 @@
                 </div>
             </div>
         </div>
+        {% endif %}
         
         <!-- Slide 3: Milestone -->
         <div class="slide" id="slide-3">
             <div class="slide-content letter-slide">
-                <div class="slide-header">
-                    <h2 class="slide-title">
+                <div class="slide-header" style="text-align: center; margin-bottom: 30px;">
+                    <h2 class="slide-title" style="text-align: center; margin: 0;">
                         <span class="emoji celebration">🎊</span> Milestone: Years with Chewy <span class="emoji celebration">🎊</span>
                     </h2>
                 </div>
@@ -162,17 +286,17 @@
                 <div class="letter-container">
                     <div class="letter-content">
                         <div class="letter-text" style="text-align: center;">
-                            <div style="background: linear-gradient(135deg, #FFD700, #FFA500); padding: 40px; border-radius: 25px; margin-bottom: 30px; box-shadow: 0 10px 30px rgba(255,215,0,0.3);">
+                            <div style="background: linear-gradient(135deg, #4a90e2, #2a5298); padding: 40px; border-radius: 25px; margin-bottom: 30px; box-shadow: 0 10px 30px rgba(74,144,226,0.3);">
                                 <i class="fas fa-trophy" style="font-size: 60px; color: white; margin-bottom: 20px; display: block;"></i>
-                                <h3 style="color: white; font-size: 28px; margin-bottom: 15px; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">
+                                <!-- <h3 style="color: white; font-size: 28px; margin-bottom: 15px; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">
                                     🎉 Congratulations! 🎉
-                                </h3>
+                                </h3> -->
                                 <div style="background: rgba(255,255,255,0.2); padding: 20px; border-radius: 15px; margin: 20px 0;">
                                     <h4 style="color: white; font-size: 48px; margin-bottom: 10px; font-weight: bold;">
-                                        {{ customer_data.milestone.years }}
+                                        {{ customer_data.milestone.months }}
                                     </h4>
                                     <p style="color: white; font-size: 20px; margin-bottom: 0;">
-                                        Amazing Years with Chewy!
+                                        Amazing Months with Chewy!
                                     </p>
                                 </div>
                             </div>
@@ -199,8 +323,8 @@
         <!-- Slide 4: Most Reordered -->
         <div class="slide" id="slide-4">
             <div class="slide-content badge-slide">
-                <div class="slide-header">
-                    <h2 class="slide-title">
+                <div class="slide-header" style="text-align: center; margin-bottom: 30px;">
+                    <h2 class="slide-title" style="text-align: center; margin: 0;">
                         <span class="emoji celebration">🔄</span> Most Reordered <span class="emoji celebration">🔄</span>
                     </h2>
                 </div>
@@ -216,25 +340,19 @@
                             <h3 class="badge-title" style="color: white; font-size: 24px; margin-bottom: 20px; text-align: center;">Your Favorite Product</h3>
                             <div style="background: rgba(255,255,255,0.1); padding: 25px; border-radius: 15px; margin-bottom: 20px; text-align: center;">
                                 <h4 style="color: #4a90e2; font-size: 20px; margin-bottom: 15px;">🏆 Most Reordered:</h4>
-                                <p class="badge-description" style="color: white; font-size: 18px; font-weight: bold; margin-bottom: 0;">
+                                <p class="badge-description" style="color: #2d4782; font-size: 18px; font-weight: bold; margin-bottom: 0;">
                                     {{ customer_data.most_reordered.product_name }}
                                 </p>
                             </div>
                             
                             <div class="compatible-section">
-                                <h4 class="compatible-title" style="color: white; text-align: center; margin-bottom: 15px;">📊 Order Statistics</h4>
-                                <div class="compatible-badges" style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
-                                    <div class="compatible-badge" style="background: linear-gradient(135deg, #FF6B6B, #FF8E8E); padding: 20px; border-radius: 10px; text-align: center;">
-                                        <div style="color: white; font-size: 24px; font-weight: bold; margin-bottom: 5px;">
+                                <h4 class="compatible-title"  style="color: #2d4782; text-align: center; margin-bottom: 15px;">📊 Order Statistics</h4>
+                                <div class="compatible-badges" style="display: flex; justify-content: center;">
+                                    <div class="compatible-badge" style="background: linear-gradient(135deg, #4a90e2, #2a5298); padding: 20px; border-radius: 10px; text-align: center;">
+                                        <div  style="color: #2d4782; font-size: 24px; font-weight: bold; margin-bottom: 5px;">
                                             {{ customer_data.most_reordered.times_ordered }}
                                         </div>
-                                        <span class="compatible-name" style="color: white; font-size: 14px;">Times Ordered</span>
-                                    </div>
-                                    <div class="compatible-badge" style="background: linear-gradient(135deg, #4CAF50, #66BB6A); padding: 20px; border-radius: 10px; text-align: center;">
-                                        <div style="color: white; font-size: 24px; font-weight: bold; margin-bottom: 5px;">
-                                            ${{ customer_data.most_reordered.total_spent }}
-                                        </div>
-                                        <span class="compatible-name" style="color: white; font-size: 14px;">Total Spent</span>
+                                        <span class="compatible-name"  style="color: #2d4782; font-size: 14px;">Times Ordered</span>
                                     </div>
                                 </div>
                             </div>
@@ -256,20 +374,20 @@
         <!-- Slide 5: Cuddliest Month -->
         <div class="slide" id="slide-5">
             <div class="slide-content portrait-slide">
-                <div class="slide-header">
-                    <h2 class="slide-title">
-                        <span class="emoji celebration">📅</span> Cuddliest Month <span class="emoji celebration">📅</span>
+                <div class="slide-header" style="text-align: center; margin-bottom: 30px;">
+                    <h2 class="slide-title" style="text-align: center; margin: 0;">
+                        <span class="emoji celebration">📅</span> Busiest Month <span class="emoji celebration">📅</span>
                     </h2>
                 </div>
                 
                 <div class="portrait-container">
                     <div class="portrait-display">
                         <div style="text-align: center; padding: 40px;">
-                            <div style="background: linear-gradient(135deg, #FF69B4, #FF1493); width: 140px; height: 140px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 30px; box-shadow: 0 15px 35px rgba(255,105,180,0.4);">
+                            <!-- <div style="background: linear-gradient(135deg, #4a90e2, #2a5298); width: 140px; height: 140px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 30px; box-shadow: 0 15px 35px rgba(74,144,226,0.4);">
                                 <i class="fas fa-calendar-heart" style="font-size: 70px; color: white;"></i>
-                            </div>
+                            </div> -->
                             
-                            <div style="background: linear-gradient(135deg, #FF69B4, #FF1493); padding: 30px; border-radius: 20px; margin-bottom: 25px; box-shadow: 0 10px 25px rgba(255,105,180,0.3);">
+                            <div style="background: linear-gradient(135deg, #4a90e2, #2a5298); padding: 30px; border-radius: 20px; margin-bottom: 25px; box-shadow: 0 10px 25px rgba(74,144,226,0.3);">
                                 <h3 style="color: white; font-size: 32px; margin-bottom: 10px; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">
                                     {{ customer_data.cuddliest_month.month }}
                                 </h3>
@@ -278,24 +396,12 @@
                                 </p>
                             </div>
                             
-                            <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15px; margin-top: 25px;">
+                            <div style="display: flex; justify-content: center; margin-top: 25px;">
                                 <div style="background: rgba(255,255,255,0.15); padding: 20px; border-radius: 15px; text-align: center;">
-                                    <div style="color: #FFD700; font-size: 28px; font-weight: bold; margin-bottom: 8px;">
+                                    <div style="color: #4a90e2; font-size: 28px; font-weight: bold; margin-bottom: 8px;">
                                         {{ customer_data.cuddliest_month.orders }}
                                     </div>
-                                    <div style="color: white; font-size: 14px;">Orders</div>
-                                </div>
-                                <div style="background: rgba(255,255,255,0.15); padding: 20px; border-radius: 15px; text-align: center;">
-                                    <div style="color: #FFD700; font-size: 28px; font-weight: bold; margin-bottom: 8px;">
-                                        {{ customer_data.cuddliest_month.interactions }}
-                                    </div>
-                                    <div style="color: white; font-size: 14px;">Interactions</div>
-                                </div>
-                                <div style="background: rgba(255,255,255,0.15); padding: 20px; border-radius: 15px; text-align: center;">
-                                    <div style="color: #FFD700; font-size: 28px; font-weight: bold; margin-bottom: 8px;">
-                                        ${{ customer_data.cuddliest_month.total_spent }}
-                                    </div>
-                                    <div style="color: white; font-size: 14px;">Total Spent</div>
+                                    <div style="color: #2d4782; font-size: 14px;">Orders</div>
                                 </div>
                             </div>
                         </div>
@@ -314,10 +420,11 @@
         </div>
         
         <!-- Slide 6: Savings from Autoship -->
+        {% if customer_data.autoship_savings.amount_saved != '0' and customer_data.autoship_savings.amount_saved != '0.0' %}
         <div class="slide" id="slide-6">
             <div class="slide-content share-slide">
-                <div class="slide-header">
-                    <h2 class="slide-title">
+                <div class="slide-header" style="text-align: center; margin-bottom: 30px;">
+                    <h2 class="slide-title" style="text-align: center; margin: 0;">
                         <span class="emoji celebration">💰</span> Savings from Autoship <span class="emoji celebration">💰</span>
                     </h2>
                 </div>
@@ -326,13 +433,13 @@
                     <div class="share-content">
                         <div class="share-message">
                             <div style="text-align: center; padding: 20px;">
-                                <div style="background: linear-gradient(135deg, #4CAF50, #66BB6A); width: 120px; height: 120px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 30px; box-shadow: 0 15px 35px rgba(76,175,80,0.4);">
+                                <div style="background: linear-gradient(135deg, #4a90e2, #2a5298); width: 120px; height: 120px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 30px; box-shadow: 0 15px 35px rgba(74,144,226,0.4);">
                                     <i class="fas fa-piggy-bank" style="font-size: 60px; color: white;"></i>
                                 </div>
                                 
                                 <h3 class="share-title" style="color: white; font-size: 28px; margin-bottom: 25px;">💰 You Saved Big with Autoship!</h3>
                                 
-                                <div style="background: linear-gradient(135deg, #4CAF50, #66BB6A); padding: 40px; border-radius: 25px; margin-bottom: 30px; box-shadow: 0 15px 35px rgba(76,175,80,0.3);">
+                                <div style="background: linear-gradient(135deg, #4a90e2, #2a5298); padding: 40px; border-radius: 25px; margin-bottom: 30px; box-shadow: 0 15px 35px rgba(74,144,226,0.3);">
                                     <div style="background: rgba(255,255,255,0.2); padding: 30px; border-radius: 20px; margin-bottom: 20px;">
                                         <h4 style="color: white; font-size: 48px; margin-bottom: 10px; font-weight: bold; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">
                                             ${{ customer_data.autoship_savings.amount_saved }}
@@ -349,11 +456,11 @@
                                     </div>
                                 </div>
                                 
-                                <div style="background: rgba(255,255,255,0.1); padding: 20px; border-radius: 15px;">
-                                    <p style="color: #FFD700; font-size: 16px; margin-bottom: 0; font-weight: bold;">
+                                <!-- <div style="background: rgba(255,255,255,0.1); padding: 20px; border-radius: 15px;">
+                                    <p style="color: #4a90e2; font-size: 16px; margin-bottom: 0; font-weight: bold;">
                                         🎉 Keep using autoship to save even more! 🎉
                                     </p>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -369,12 +476,13 @@
                 </div>
             </div>
         </div>
+        {% endif %}
         
-        <!-- Slide 7: Social Media Sharing -->
-        <div class="slide" id="slide-7">
+        <!-- Slide 6: Social Media Sharing -->
+        <div class="slide" id="slide-6">
             <div class="slide-content share-slide">
-                <div class="slide-header">
-                    <h2 class="slide-title">
+                <div class="slide-header" style="text-align: center; margin-bottom: 30px;">
+                    <h2 class="slide-title" style="text-align: center; margin: 0;">
                         Share Your Pet's Amazing Story
                     </h2>
                 </div>
@@ -432,141 +540,6 @@
                     <button class="nav-btn prev-btn" onclick="prevSlide()">
                         <i class="fas fa-arrow-left"></i>
                     </button>
-                    <button class="nav-btn next-btn" onclick="nextSlide()">
-                        <i class="fas fa-arrow-right"></i>
-                    </button>
-                </div>
-            </div>
-        </div>
-        
-        <!-- Slide 7: Personalized Playback -->
-        <div class="slide" id="slide-7">
-            <div class="slide-content personalize-slide">
-                <div class="slide-header">
-                    <h2 class="slide-title"  style="color: white;">
-                        Personalize Your Playback
-                    </h2>
-                </div>
-                
-                <div class="personalize-container">
-                    <div class="personalize-content">
-                        <div class="personalize-icon">
-                            <i class="fas fa-edit"></i>
-                        </div>
-                        
-                        <div class="personalize-message">
-                            <h3 class="personalize-title">Complete Your Pet Profiles</h3>
-                        </div>
-                        
-                        {% if customer_data.unknowns %}
-                            <div class="pets-personalize">
-                                {% for pet_name, pet_data in customer_data.unknowns.unknown_attributes.items() %}
-                                <div class="pet-personalize">
-                                    <div class="pet-header">
-                                        <h4 class="pet-name">{{ pet_data.pet_name }}</h4>
-                                        <span class="pet-missing-count">{{ pet_data.unknown_fields|length }} missing</span>
-                                    </div>
-                                    
-                                    <div class="missing-actions">
-                                        {% for field in pet_data.unknown_fields %}
-                                            {% if field == "PET_BREED" %}
-                                            <div class="action-item">
-                                                <div class="action-icon">
-                                                    <i class="fas fa-dna"></i>
-                                                </div>
-                                                <div class="action-content">
-                                                    <h5 class="action-title">Add Breed</h5>
-                                                    <p class="action-description">Help us understand your pet's characteristics better</p>
-                                                </div>
-                                            </div>
-                                            {% elif field == "MEDICATION" %}
-                                            <div class="action-item">
-                                                <div class="action-icon">
-                                                    <i class="fas fa-pills"></i>
-                                                </div>
-                                                <div class="action-content">
-                                                    <h5 class="action-title">Add Medications</h5>
-                                                    <p class="action-description">Keep track of your pet's health needs</p>
-                                                </div>
-                                            </div>
-                                            {% elif field == "AGE" %}
-                                            <div class="action-item">
-                                                <div class="action-icon">
-                                                    <i class="fas fa-birthday-cake"></i>
-                                                </div>
-                                                <div class="action-content">
-                                                    <h5 class="action-title">Add Age</h5>
-                                                    <p class="action-description">Help us provide age-appropriate recommendations</p>
-                                                </div>
-                                            </div>
-                                            {% elif field == "WEIGHT" %}
-                                            <div class="action-item">
-                                                <div class="action-icon">
-                                                    <i class="fas fa-weight"></i>
-                                                </div>
-                                                <div class="action-content">
-                                                    <h5 class="action-title">Add Weight</h5>
-                                                    <p class="action-description">Ensure accurate food and medication dosing</p>
-                                                </div>
-                                            </div>
-                                            {% else %}
-                                            <div class="action-item">
-                                                <div class="action-icon">
-                                                    <i class="fas fa-info-circle"></i>
-                                                </div>
-                                                <div class="action-content">
-                                                    <h5 class="action-title">Add {{ field.replace('_', ' ').title() }}</h5>
-                                                    <p class="action-description">Complete your pet's profile information</p>
-                                                </div>
-                                            </div>
-                                            {% endif %}
-                                        {% endfor %}
-                                    </div>
-                                </div>
-                                {% endfor %}
-                            </div>
-                            
-                            <div class="personalize-actions">
-                                <button class="chewy-btn primary-btn" onclick="goToPetProfile()">
-                                    <i class="fas fa-edit"></i>
-                                    Update All Profiles
-                                </button>
-                                <!-- <button class="chewy-btn secondary-btn" onclick="contactSupport()">
-                                    <i class="fas fa-question-circle"></i>
-                                    Need Help?
-                                </button> -->
-                            </div>
-                        {% else %}
-                            <div class="complete-profiles">
-                                <div class="complete-icon">
-                                    <i class="fas fa-check-circle"></i>
-                                </div>
-                                <div class="complete-content">
-                                    <h4 class="complete-title">All Profiles Complete!</h4>
-                                    <p class="complete-description">
-                                        Great job! Your pet profiles are fully updated. We have all the information we need to provide the best experience for your furry friends.
-                                    </p>
-                                </div>
-                                
-                                <div class="complete-actions">
-                                    <button class="chewy-btn primary-btn" onclick="goToPetProfile()">
-                                        <i class="fas fa-eye"></i>
-                                        View Profiles
-                                    </button>
-                                    <button class="chewy-btn secondary-btn" onclick="contactSupport()">
-                                        <i class="fas fa-comments"></i>
-                                        Contact Support
-                                    </button>
-                                </div>
-                            </div>
-                        {% endif %}
-                    </div>
-                </div>
-                
-                <div class="slide-actions">
-                    <button class="nav-btn prev-btn" onclick="prevSlide()">
-                        <i class="fas fa-arrow-left"></i>
-                    </button>
                     <button class="nav-btn home-btn" onclick="goHome()">
                         <i class="fas fa-home"></i>
                     </button>
@@ -574,11 +547,13 @@
             </div>
         </div>
         
-        <!-- Slide 8: Unknowns -->
-        <div class="slide" id="slide-8">
+
+        
+        <!-- Slide 7: Unknowns -->
+        <div class="slide" id="slide-7">
             <div class="slide-content unknowns-slide">
-                <div class="slide-header">
-                    <h2 class="slide-title"  style="color: white;">
+                <div class="slide-header" style="text-align: center; margin-bottom: 30px;">
+                    <h2 class="slide-title" style="text-align: center; margin: 0; color: white;">
                         <span class="emoji search">🔍</span> Missing Information
                     </h2>
                 </div>
@@ -648,8 +623,27 @@
 {% block extra_js %}
 <script>
 let currentSlide = 0;
-const totalSlides = 10;
+let totalSlides = 10;
 let isTransitioning = false;
+
+// Function to count visible slides and update navigation
+function updateSlideCount() {
+    const visibleSlides = document.querySelectorAll('.slide').length;
+    totalSlides = visibleSlides;
+    
+    // Update navigation dots to match visible slides
+    const navDots = document.querySelector('.nav-dots');
+    if (navDots) {
+        navDots.innerHTML = '';
+        for (let i = 0; i < visibleSlides; i++) {
+            const dot = document.createElement('div');
+            dot.className = `nav-dot ${i === 0 ? 'active' : ''}`;
+            dot.setAttribute('data-slide', i);
+            dot.addEventListener('click', () => showSlide(i));
+            navDots.appendChild(dot);
+        }
+    }
+}
 
 // Loading animation variables
 let loadingProgress = 0;
@@ -657,9 +651,6 @@ let loadingInterval;
 let messageIndex = 0;
 const loadingMessages = [
     "Fetching pet memories...",
-    "Analyzing personality traits...",
-    "Generating personalized letter...",
-    "Creating beautiful portrait...",
     "Almost ready..."
 ];
 
@@ -668,13 +659,18 @@ function showSlide(slideIndex) {
     
     isTransitioning = true;
     
+    // Get all visible slides
+    const visibleSlides = Array.from(document.querySelectorAll('.slide'));
+    
     // Hide all slides
-    document.querySelectorAll('.slide').forEach(slide => {
+    visibleSlides.forEach(slide => {
         slide.classList.remove('active');
     });
     
     // Show current slide
-    document.getElementById(`slide-${slideIndex}`).classList.add('active');
+    if (visibleSlides[slideIndex]) {
+        visibleSlides[slideIndex].classList.add('active');
+    }
     
     // Update navigation dots
     document.querySelectorAll('.nav-dot').forEach((dot, index) => {
@@ -779,6 +775,9 @@ function startLoadingAnimation() {
 
 // Start loading animation when page loads
 document.addEventListener('DOMContentLoaded', function() {
+    // Update slide count based on visible slides
+    updateSlideCount();
+    
     if (currentSlide === 0) {
         startLoadingAnimation();
     }
