@@ -51,9 +51,18 @@ class SnowflakeDataConnector:
         self.warehouse = os.getenv('SNOWFLAKE_WAREHOUSE')
         self.database = os.getenv('SNOWFLAKE_DATABASE')
         self.schema = os.getenv('SNOWFLAKE_SCHEMA')
+        self.authenticator = os.getenv('SNOWFLAKE_AUTHENTICATOR', 'externalbrowser')
         
-        if not all([self.user, self.account, self.warehouse, self.database, self.schema]):
+        if not all([self.user, self.account, self.warehouse, self.database]):
             raise ValueError("Missing required Snowflake environment variables. Please check your .env file.")
+        
+        # Print connection info for debugging
+        print(f"🔗 Snowflake Config:")
+        print(f"   User: {self.user}")
+        print(f"   Account: {self.account}")
+        print(f"   Database: {self.database}")
+        print(f"   Warehouse: {self.warehouse}")
+        print(f"   Authenticator: {self.authenticator}")
     
     def _load_customer_queries(self) -> Dict[str, str]:
         """Load SQL query templates from JSON file."""
@@ -75,37 +84,35 @@ class SnowflakeDataConnector:
     def connect(self) -> bool:
         """Establish connection to Snowflake."""
         try:
-            # Build connection parameters
-            conn_params = {
-                'user': self.user,
-                'account': self.account
+            print("🔗 Connecting to Snowflake with browser authentication...")
+            
+            # Build connection parameters matching working script pattern
+            credentials = {
+                "user": self.user,
+                "account": self.account,
+                "authenticator": self.authenticator,
+                "database": self.database,
+                "warehouse": self.warehouse,
+                "insecure_mode": True,  # For corporate environments
             }
             
-            # Add password if provided, otherwise use external browser auth
+            # Add schema if provided
+            if self.schema:
+                credentials["schema"] = self.schema
+            
+            # Add password if provided (but typically not needed for SSO)
             if self.password:
-                conn_params['password'] = self.password
-            else:
-                conn_params['authenticator'] = 'externalbrowser'
-                print("⚠️  No password provided - using external browser authentication")
+                credentials['password'] = self.password
             
-            self.connection = snowflake.connector.connect(**conn_params)
+            print("📖 Opening browser for authentication...")
+            self.connection = snowflake.connector.connect(**credentials)
+            print("✅ Connected to Snowflake successfully!")
             
-            # Set warehouse, database, and schema
+            # Test the connection
             cursor = self.connection.cursor()
-            try:
-                cursor.execute(f'USE WAREHOUSE "{self.warehouse}"')
-                print(f"✅ Successfully set warehouse to {self.warehouse}")
-            except Exception as e:
-                print(f"⚠️  Couldn't set warehouse {self.warehouse}: {e}")
-                print("   Continuing with default warehouse...")
-            
-            try:
-                cursor.execute(f'USE DATABASE "{self.database}"')
-                cursor.execute(f'USE SCHEMA "{self.schema}"')
-                print(f"✅ Successfully set database to {self.database} and schema to {self.schema}")
-            except Exception as e:
-                print(f"⚠️  Couldn't set database/schema: {e}")
-                print("   Continuing with current database/schema...")
+            cursor.execute("SELECT CURRENT_WAREHOUSE(), CURRENT_DATABASE(), CURRENT_SCHEMA()")
+            result = cursor.fetchone()
+            print(f"✅ Active context: warehouse={result[0]}, database={result[1]}, schema={result[2]}")
             
             cursor.close()
             return True

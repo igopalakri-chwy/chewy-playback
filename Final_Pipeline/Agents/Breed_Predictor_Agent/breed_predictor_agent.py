@@ -67,80 +67,87 @@ class BreedPredictorAgent:
     
     def extract_customer_orders(self, customer_id: str) -> List[Dict[str, Any]]:
         """
-        Extract order data for a specific customer from the pipeline's data sources.
-        Now uses Snowflake data instead of CSV files.
+        Extract order data for a specific customer using Snowflake.
+        Uses ONLY the get_cust_orders query to get real customer purchase data for LLM reasoning.
         """
         order_data = []
         
-        # Try to get order data from the pipeline's Snowflake connector
+        # Try to get order data from Snowflake using the real connector - fix the path
         try:
-            # Import the pipeline's Snowflake connector
-            from chewy_playback_pipeline import ChewyPlaybackPipeline
+            # Import the actual Snowflake connector - fix the path
+            import sys
+            final_pipeline_path = os.path.join(os.path.dirname(__file__), "..", "..")
+            sys.path.insert(0, final_pipeline_path)
+            from snowflake_data_connector import SnowflakeDataConnector
             
-            # Create a temporary pipeline instance to access Snowflake data
-            pipeline = ChewyPlaybackPipeline()
+            print(f"    🔗 Connecting to Snowflake for customer {customer_id}...")
             
-            # Get customer orders from Snowflake
-            orders_df = pipeline._get_cached_customer_orders_dataframe(customer_id)
+            # Create Snowflake connection
+            snowflake_connector = SnowflakeDataConnector()
             
-            if not orders_df.empty:
-                # Convert to list of dictionaries
-                for _, row in orders_df.iterrows():
-                    order = {
-                        'item_name': row.get('ProductName', 'Unknown'),
-                        'category': 'Unknown',
-                        'order_date': '',
-                        'quantity': row.get('Quantity', 1),
-                        'brand': 'Chewy'
+            # Get customer orders using ONLY the get_cust_orders query
+            customer_data = snowflake_connector.get_customer_data(customer_id, query_keys=['get_cust_orders'])
+            orders_raw = customer_data.get('get_cust_orders', [])
+            
+            if orders_raw:
+                print(f"    📊 Retrieved {len(orders_raw)} order records from Snowflake")
+                
+                # Convert Snowflake data to the format expected by the LLM
+                for order in orders_raw:
+                    processed_order = {
+                        'order_id': order.get('ORDER_ID', ''),
+                        'product_name': order.get('NAME', 'Unknown'),
+                        'category': order.get('CATEGORY_LEVEL3', 'Unknown'),
+                        'quantity': order.get('ORDER_LINE_QUANTITY', 1),
+                        'order_date': order.get('ORDER_DATE_EST', ''),
+                        'customer_id': order.get('CUSTOMER_ID', customer_id)
                     }
-                    order_data.append(order)
+                    order_data.append(processed_order)
                 
-                print(f"    📊 Found {len(order_data)} orders from Snowflake for customer {customer_id}")
+                print(f"    ✅ Successfully processed {len(order_data)} orders for LLM analysis")
+                
+                # Show category breakdown for debugging
+                categories = {}
+                for order in order_data:
+                    cat = order.get('category', 'Unknown')
+                    categories[cat] = categories.get(cat, 0) + 1
+                
+                cat_summary = ', '.join([f"{cat}({count})" for cat, count in categories.items()])
+                print(f"    📈 Top categories: {cat_summary}")
+                
             else:
-                print(f"    ⚠️ No order data found in Snowflake for customer {customer_id}")
-                
-        except Exception as e:
-            print(f"    ⚠️ Could not get Snowflake data for customer {customer_id}: {e}")
+                print(f"    ⚠️ No order data found for customer {customer_id}")
             
-            # Fallback to CSV files if Snowflake fails
-        order_files = [
-            "Data/zero_reviews.csv",
-            "Data/processed_orderhistory.csv", 
-            "Agents/Review_and_Order_Intelligence_Agent/processed_orderhistory.csv"
-        ]
-        
-        for order_file in order_files:
-            if os.path.exists(order_file):
-                try:
-                    df = pd.read_csv(order_file)
+        except Exception as e:
+            print(f"    ❌ Error connecting to Snowflake: {e}")
+            print(f"    🔄 Falling back to CSV file method...")
+            
+            # Fallback to CSV file if Snowflake fails
+            try:
+                csv_file_path = os.path.join(os.path.dirname(__file__), "..", "..", "Data", "qualifying_reviews.csv")
+                if os.path.exists(csv_file_path):
+                    import pandas as pd
+                    df = pd.read_csv(csv_file_path)
+                    customer_orders = df[df['customer_id'] == int(customer_id)]
                     
-                    # Check for customer ID in different column formats
-                    customer_col = None
-                    for col in ['CustomerID', 'CUSTOMER_ID', 'customer_id']:
-                        if col in df.columns:
-                            customer_col = col
-                            break
+                    if not customer_orders.empty:
+                        for _, row in customer_orders.iterrows():
+                            order_data.append({
+                                'order_id': row.get('order_id', ''),
+                                'product_name': row.get('product_name', 'Unknown'),
+                                'category': row.get('category', 'Unknown'),
+                                'quantity': row.get('quantity', 1),
+                                'order_date': row.get('order_date', ''),
+                                'customer_id': customer_id
+                            })
+                        print(f"    📄 Loaded {len(order_data)} orders from CSV fallback")
+                    else:
+                        print(f"    ⚠️ No orders found in CSV for customer {customer_id}")
+                else:
+                    print(f"    ❌ CSV file not found at {csv_file_path}")
                     
-                    if customer_col:
-                        customer_orders = df[df[customer_col].astype(str) == str(customer_id)]
-                        
-                        if not customer_orders.empty:
-                            # Convert to list of dictionaries
-                            for _, row in customer_orders.iterrows():
-                                order = {
-                                    'item_name': row.get('ProductName', row.get('item_name', row.get('ITEM_NAME', 'Unknown'))),
-                                    'category': 'Unknown',
-                                    'order_date': row.get('OrderDate', row.get('order_date', row.get('ORDER_DATE', ''))),
-                                    'quantity': row.get('Quantity', row.get('quantity', 1)),
-                                    'brand': row.get('Brand', row.get('brand', 'Chewy'))
-                                }
-                                order_data.append(order)
-                            
-                            break  # Use first file that has data
-                            
-                except Exception as e:
-                    print(f"Error reading {order_file}: {e}")
-                    continue
+            except Exception as csv_error:
+                print(f"    ❌ CSV fallback failed: {csv_error}")
         
         return order_data
     
@@ -212,8 +219,9 @@ class BreedPredictorAgent:
                 'prediction_timestamp': pd.Timestamp.now().isoformat(),
                 'breed_distribution': distribution,
                 'confidence': {
-                    'score': confidence_result.get('confidence_score', 0),
-                    'level': confidence_result.get('confidence_level', 'Unknown'),
+                    'score': confidence_result.get('score', 0),
+                    'level': confidence_result.get('level', 'Unknown'),
+                    'source': confidence_result.get('source', 'Unknown'),
                     'reliability_flags': confidence_result.get('reliability_flags', []),
                     'recommendations': confidence_result.get('recommendations', [])
                 },
@@ -267,15 +275,39 @@ class BreedPredictorAgent:
         try:
             if not customer_orders:
                 print(f"    ⚠️ No order data provided for customer {customer_id}")
-                return None
-            
-            # Create pet profile for prediction
-            pet_profile = self.create_pet_profile_for_prediction(pet_data, customer_orders)
-            
-            # Use the breed predictor's LLM analysis directly
-            distribution, confidence_result, explanations = self._get_llm_predictions_direct(
-                pet_profile, customer_orders
-            )
+                print(f"    🔄 Using fallback prediction mode...")
+                
+                # Create minimal pet profile for fallback prediction
+                pet_profile = {
+                    'age': pet_data.get('LifeStage', 'unknown'),
+                    'size': pet_data.get('Weight', 'unknown'),
+                    'gender': pet_data.get('Gender', 'unknown'),
+                    'personality_traits': pet_data.get('PersonalityTraits', []),
+                    'health_indicators': []
+                }
+                
+                # Use fallback prediction from the predictor
+                distribution = self.predictor._fallback_prediction(
+                    pet_profile, 
+                    [],  # Empty health indicators for fallback
+                    list(self.predictor.breed_definitions.keys())  # All available breeds
+                )
+                confidence_result = {
+                    'score': 15.0,  # Low confidence for fallback mode
+                    'level': 'Very Low',
+                    'source': 'Fallback',
+                    'reliability_flags': ['No order data'],
+                    'recommendations': ['Get more purchase history for better predictions']
+                }
+                explanations = {"fallback": "This prediction is based on general breed characteristics due to limited data."}
+            else:
+                # Create pet profile for prediction
+                pet_profile = self.create_pet_profile_for_prediction(pet_data, customer_orders)
+                
+                # Use the breed predictor's LLM analysis directly
+                distribution, confidence_result, explanations = self._get_llm_predictions_direct(
+                    pet_profile, customer_orders
+                )
             
             # Format the results
             prediction_result = {
@@ -284,8 +316,9 @@ class BreedPredictorAgent:
                 'prediction_timestamp': pd.Timestamp.now().isoformat(),
                 'breed_distribution': distribution,
                 'confidence': {
-                    'score': confidence_result.get('confidence_score', 0),
-                    'level': confidence_result.get('confidence_level', 'Unknown'),
+                    'score': confidence_result.get('score', 0),
+                    'level': confidence_result.get('level', 'Unknown'),
+                    'source': confidence_result.get('source', 'Unknown'),
                     'reliability_flags': confidence_result.get('reliability_flags', []),
                     'recommendations': confidence_result.get('recommendations', [])
                 },
@@ -343,25 +376,25 @@ class BreedPredictorAgent:
             response = self.predictor.client.chat.completions.create(
                 model="gpt-4",
                 messages=[
-                    {"role": "system", "content": "You are an expert dog breed analyst with extensive knowledge of breed characteristics, health predispositions, and typical care requirements."},
+                    {"role": "system", "content": "You are an expert canine geneticist and veterinary behaviorist with extensive experience in breed identification. Provide accurate, evidence-based breed predictions with detailed reasoning."},
                     {"role": "user", "content": prompt}
                 ],
                 temperature=0.3,
-                max_tokens=1000
+                max_tokens=2000
             )
             
-            result = response.choices[0].message.content
-            distribution = self.predictor._parse_breed_distribution(result, breed_list)
+            # Parse breed distribution, explanations, and LLM confidence
+            llm_response = response.choices[0].message.content
+            distribution, explanations, llm_confidence = self.predictor._parse_breed_distribution_and_explanations(llm_response, breed_list)
             
-            # Generate explanations for top breeds
-            explanations = self.predictor._generate_breed_explanations(
-                distribution, pet_profile, purchase_history, all_health_indicators
-            )
-            
-            # Calculate confidence score
-            confidence_result = self.predictor.confidence_scorer.calculate_confidence(
-                pet_profile, purchase_history, distribution
-            )
+            # Use LLM-generated confidence instead of confidence_scorer
+            confidence_result = {
+                'score': llm_confidence,
+                'level': self.predictor._get_confidence_level_from_score(llm_confidence),
+                'source': 'LLM-generated',
+                'reliability_flags': [],
+                'recommendations': []
+            }
             
             return distribution, confidence_result, explanations
             
@@ -370,10 +403,11 @@ class BreedPredictorAgent:
             # Use fallback prediction
             breed_list = list(self.predictor.breed_definitions.keys())
             distribution = self.predictor._fallback_prediction(pet_profile, [], breed_list)
-            explanations = {}
+            explanations = {"fallback": "This prediction is based on general breed characteristics due to limited data."}
             confidence_result = {
-                'confidence_score': 20,
-                'confidence_level': 'Low',
+                'score': 15.0,
+                'level': 'Very Low',
+                'source': 'Fallback',
                 'reliability_flags': ['LLM prediction failed'],
                 'recommendations': ['Consider manual breed assessment']
             }

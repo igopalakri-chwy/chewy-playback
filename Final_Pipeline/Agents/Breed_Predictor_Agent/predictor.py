@@ -169,122 +169,203 @@ class BreedPredictor:
         all_health_indicators = list(set(purchase_indicators + existing_indicators))
         
         # Get predictions from LLM only
-        predictions = self._get_llm_predictions(pet_data, purchase_history, all_health_indicators)
+        predictions, explanations, llm_confidence = self._get_llm_predictions(pet_data, purchase_history, all_health_indicators)
         
-        # Generate explanations for top breeds and those >2%
-        explanations = self._generate_breed_explanations(
-            predictions, pet_data, purchase_history, all_health_indicators
-        )
-        
-        # Calculate confidence score
-        confidence_result = self.confidence_scorer.calculate_confidence(
-            pet_data, purchase_history, predictions
-        )
+        # Use LLM-generated confidence instead of confidence_scorer
+        confidence_result = {
+            'confidence_score': llm_confidence,
+            'confidence_level': self._get_confidence_level_from_score(llm_confidence),
+            'source': 'LLM-generated',
+            'reliability_flags': [],
+            'recommendations': []
+        }
         
         return predictions, confidence_result, explanations
     
     def _get_llm_predictions(self, pet_data: Dict, purchase_history: List[Dict], 
-                           health_indicators: List[str]) -> Dict[str, float]:
-        """Get predictions from the LLM with proper normalization and fallback."""
+                            health_indicators: List[str]) -> Tuple[Dict[str, float], Dict[str, str], float]:
+        """Get predictions from the LLM with proper normalization, explanations, and LLM-generated confidence."""
         try:
-            # Create comprehensive prompt for LLM
+            # Get breed list from breed definitions
             breed_list = list(self.breed_definitions.keys())
             breed_profiles = self._create_breed_health_profile()
             
-            prompt = self._create_prediction_prompt(
-                pet_data, purchase_history, health_indicators, breed_list, breed_profiles
-            )
+            prompt = self._create_prediction_prompt(pet_data, purchase_history, health_indicators, breed_list, breed_profiles)
             
-            # Call OpenAI API
             response = self.client.chat.completions.create(
                 model="gpt-4",
                 messages=[
-                    {"role": "system", "content": "You are an expert dog breed analyst with extensive knowledge of breed characteristics, health predispositions, and typical care requirements."},
+                    {"role": "system", "content": "You are an expert canine geneticist and veterinary behaviorist with extensive experience in breed identification. Provide accurate, evidence-based breed predictions with detailed reasoning."},
                     {"role": "user", "content": prompt}
                 ],
                 temperature=0.3,
-                max_tokens=1000
+                max_tokens=2000
             )
             
-            result_text = response.choices[0].message.content
-            distribution = self._parse_breed_distribution(result_text, breed_list)
+            llm_response = response.choices[0].message.content
+            distribution, explanations, llm_confidence = self._parse_breed_distribution_and_explanations(llm_response, breed_list)
             
             # Validate and normalize results
-            if distribution:
-                # Filter out very low probability breeds (< 0.5%)
-                distribution = {breed: score for breed, score in distribution.items() if score >= 0.5}
-                
-                # Normalize to sum to 100%
-                total = sum(distribution.values())
-                if total > 0:
-                    distribution = {breed: (score / total) * 100 for breed, score in distribution.items()}
-                
-                # Sort by probability
+            if distribution and len(distribution) > 0:
+                # Sort by percentage (highest first)
                 distribution = dict(sorted(distribution.items(), key=lambda x: x[1], reverse=True))
                 print(f"LLM predictions: {list(distribution.keys())[:3]}")
-                return distribution
+                return distribution, explanations, llm_confidence
             
             # If no valid predictions, use fallback
             print("LLM predictions failed, using fallback")
-            return self._fallback_prediction(pet_data, health_indicators, breed_list)
+            fallback_dist = self._fallback_prediction(pet_data, health_indicators, breed_list)
+            fallback_explanations = {breed: f"Fallback prediction based on general breed characteristics." for breed in list(fallback_dist.keys())[:3]}
+            return fallback_dist, fallback_explanations, 15.0  # Low confidence for fallback
             
         except Exception as e:
             print(f"Warning: LLM prediction failed: {e}")
-            return self._fallback_prediction(pet_data, health_indicators, breed_list)
+            fallback_dist = self._fallback_prediction(pet_data, health_indicators, breed_list)
+            fallback_explanations = {breed: f"Fallback prediction due to error: {str(e)[:50]}..." for breed in list(fallback_dist.keys())[:3]}
+            return fallback_dist, fallback_explanations, 10.0  # Very low confidence for error fallback
     
     def _create_prediction_prompt(self, pet_data: Dict, purchase_history: List[Dict], 
                                 health_indicators: List[str], breed_list: List[str], 
                                 breed_profiles: Dict) -> str:
-        """Create a comprehensive prompt for breed prediction."""
+        """Create a comprehensive, detailed prompt for breed prediction with LLM-generated confidence."""
         
-        prompt = f"""Analyze the following information about a dog with unknown breed and predict the most likely breed composition:
+        # Analyze purchase patterns in detail
+        purchase_analysis = self._analyze_purchase_patterns(purchase_history)
+        
+        # Get size-filtered breeds for efficiency
+        filtered_breeds = self._filter_breeds_by_size(breed_list, pet_data.get('size', 'Unknown'))
+        
+        prompt = f"""You are an expert canine geneticist and veterinary behaviorist with 20+ years of experience in breed identification. Your task is to analyze comprehensive pet data and determine the most likely breed composition for a mixed-breed dog.
 
-PET INFORMATION:
-- Name: {pet_data.get('name', 'Unknown')}
-- Age: {pet_data.get('age', 'Unknown')} years
-- Size: {pet_data.get('size', 'Unknown')}
+CRITICAL INSTRUCTIONS:
+1. Percentages MUST sum to exactly 100% - this is mandatory
+2. Provide exactly 3-5 breed predictions (no more, no less)
+3. Generate a confidence score (0-100) based on data quality and certainty
+4. Give one-sentence reasoning for each breed prediction
+
+=== PET PROFILE ANALYSIS ===
+Pet Name: {pet_data.get('name', 'Unknown')}
+Physical Characteristics:
+- Age: {pet_data.get('age', 'Unknown')} years old
+- Size Category: {pet_data.get('size', 'Unknown')} 
+- Weight: {pet_data.get('weight', 'Unknown')} lbs
 - Gender: {pet_data.get('gender', 'Unknown')}
-- Health Indicators: {pet_data.get('health_indicators', [])}
+- Current Health Indicators: {', '.join(pet_data.get('health_indicators', []))}
 
-PURCHASE HISTORY ANALYSIS:
-- Total Orders: {len(purchase_history)}
-- Purchase Patterns: {self._analyze_purchase_patterns(purchase_history)}
+=== PURCHASE BEHAVIOR ANALYSIS ===
+Total Purchase History: {len(purchase_history)} orders analyzed
+Purchase Patterns Identified: {purchase_analysis}
 
-RECENT PURCHASES:
-"""
+DETAILED PURCHASE BREAKDOWN:"""
         
-        # Add recent purchases (limit to 10 for brevity)
-        for i, purchase in enumerate(purchase_history[:10], 1):
-            prompt += f"""
-{i}. Date: {purchase.get('order_date', 'Unknown')}
-   Category: {purchase.get('category', 'Unknown')}
-   Product: {purchase.get('item_name', 'Unknown')[:100]}...
-"""
+        # Add detailed purchase analysis
+        food_items = []
+        treat_items = []
+        toy_items = []
+        health_items = []
+        other_items = []
+        
+        for purchase in purchase_history[:15]:  # Show more detail
+            item_name = purchase.get('product_name', purchase.get('item_name', 'Unknown'))
+            category = purchase.get('category', 'Unknown')
+            date = purchase.get('order_date', 'Unknown')
+            
+            if 'food' in category.lower() or 'food' in item_name.lower():
+                food_items.append(f"• {item_name} (Date: {date})")
+            elif 'treat' in category.lower() or 'treat' in item_name.lower():
+                treat_items.append(f"• {item_name} (Date: {date})")
+            elif 'toy' in category.lower() or 'toy' in item_name.lower():
+                toy_items.append(f"• {item_name} (Date: {date})")
+            elif any(health_word in item_name.lower() for health_word in ['joint', 'vitamin', 'supplement', 'dental', 'skin', 'coat']):
+                health_items.append(f"• {item_name} (Date: {date})")
+            else:
+                other_items.append(f"• {item_name} (Date: {date})")
+        
+        if food_items:
+            prompt += f"\n\nFOOD PURCHASES ({len(food_items)} items):\n" + '\n'.join(food_items[:5])
+        if treat_items:
+            prompt += f"\n\nTREAT PURCHASES ({len(treat_items)} items):\n" + '\n'.join(treat_items[:5])
+        if toy_items:
+            prompt += f"\n\nTOY PURCHASES ({len(toy_items)} items):\n" + '\n'.join(toy_items[:5])
+        if health_items:
+            prompt += f"\n\nHEALTH/SUPPLEMENT PURCHASES ({len(health_items)} items):\n" + '\n'.join(health_items[:5])
+        if other_items:
+            prompt += f"\n\nOTHER PURCHASES ({len(other_items)} items):\n" + '\n'.join(other_items[:3])
         
         prompt += f"""
-HEALTH INDICATORS IDENTIFIED: {', '.join(health_indicators)}
 
-AVAILABLE BREEDS: {', '.join(breed_list)}
+=== HEALTH INDICATORS DETECTED ===
+From Purchase Analysis: {', '.join(health_indicators) if health_indicators else 'None detected'}
 
-Based on the purchase patterns, health indicators, pet size/age, and buying behavior, provide breed percentages that sum to exactly 100%. Consider:
+=== BREED ANALYSIS FRAMEWORK ===
+Consider these key factors in your analysis:
 
-1. Health-related purchases (joint supplements, special foods, etc.) and which breeds are predisposed
-2. Size indicators from products and pet information
-3. Age-related purchases (senior vs puppy products)
-4. Activity level based on toys and accessories purchased
-5. Grooming needs based on grooming products
+1. SIZE INDICATORS:
+   - Product sizes (small/medium/large breed food)
+   - Toy sizes (puppies vs large dogs)
+   - Accessory sizes (collar, leash, crate dimensions)
 
-Provide your response as a valid JSON object with breed names as keys and percentage values (numbers only, no % symbol):
+2. HEALTH PREDISPOSITIONS:
+   - Joint supplements → breeds prone to hip dysplasia
+   - Skin/coat products → breeds with coat sensitivities
+   - Dental products → breeds with dental issues
+   - Special diets → breeds with food sensitivities
 
-Example format:
+3. BEHAVIORAL CLUES:
+   - Training treats → intelligent, trainable breeds
+   - Puzzle toys → high-intelligence breeds
+   - Chew toys → power chewers (bully breeds, working dogs)
+   - Fetch toys → retrieving breeds
+
+4. ACTIVITY LEVEL:
+   - Exercise equipment → high-energy breeds
+   - Interactive toys → active, engaged breeds
+   - Calming products → anxious or high-strung breeds
+
+5. GROOMING NEEDS:
+   - Grooming tools → high-maintenance coats
+   - Lack of grooming products → low-maintenance breeds
+   - Specialized shampoos → specific coat types
+
+=== AVAILABLE BREED OPTIONS ===
+Focus your analysis on these size-appropriate breeds:
+{', '.join(filtered_breeds[:50])}  # Top 50 most relevant breeds
+
+=== RESPONSE FORMAT (MANDATORY) ===
+Provide your response as a valid JSON object with exactly three sections:
+
 {{
-    "goldenRetriever": 35,
-    "labradorRetriever": 25,
-    "boxer": 20,
-    "germanShepherd": 20
+    "confidence_score": [YOUR_CONFIDENCE_0_TO_100],
+    "breed_predictions": {{
+        "breed1_name": percentage1,
+        "breed2_name": percentage2,
+        "breed3_name": percentage3,
+        "breed4_name": percentage4
+    }},
+    "reasoning": {{
+        "breed1_name": "One sentence explaining why this breed matches the evidence.",
+        "breed2_name": "One sentence explaining why this breed matches the evidence.",
+        "breed3_name": "One sentence explaining why this breed matches the evidence.",
+        "breed4_name": "One sentence explaining why this breed matches the evidence."
+    }}
 }}
 
-Your analysis:"""
+CONFIDENCE SCORING GUIDE:
+- 90-100: Overwhelming evidence, very certain
+- 70-89: Strong evidence, confident prediction
+- 50-69: Moderate evidence, reasonable prediction
+- 30-49: Limited evidence, educated guess
+- 10-29: Very limited evidence, speculative
+- 0-9: Almost no evidence, random guess
+
+CRITICAL REMINDERS:
+1. Percentages in breed_predictions MUST sum to exactly 100%
+2. Include 3-5 breeds maximum
+3. Base predictions on actual purchase evidence, not assumptions
+4. Each reasoning sentence should reference specific purchase behaviors
+5. Confidence score should reflect data quality and certainty
+
+Your expert analysis:"""
         
         return prompt
     
@@ -325,6 +406,79 @@ Your analysis:"""
         months = (latest.year - earliest.year) * 12 + (latest.month - earliest.month)
         return max(1, months)
     
+    def _filter_breeds_by_size(self, breed_list: List[str], pet_size: str) -> List[str]:
+        """Filter breeds by pet size to improve LLM efficiency."""
+        if not pet_size or pet_size.lower() in ['unknown', 'unk', '']:
+            return breed_list  # Return all breeds if size unknown
+        
+        # Define size categories (can be expanded based on breed_definitions)
+        size_mapping = {
+            'small': ['chihuahua', 'pomeranian', 'yorkshireTerrier', 'maltese', 'pug', 'frenchBulldog', 'bostonTerrier', 'cavalierKingCharlesSpaniel', 'bichonFrise', 'havanese'],
+            'medium': ['beagle', 'borderCollie', 'australianShepherd', 'bulldog', 'cockerSpaniel', 'bassetHound', 'brittany', 'whippet', 'staffordshireBullTerrier'],
+            'large': ['labradorRetriever', 'goldenRetriever', 'germanShepherd', 'boxer', 'rottweiler', 'dobermanPinscher', 'greyhound', 'pointer', 'weimaraner', 'vizsla'],
+            'giant': ['greatDane', 'mastiff', 'saintBernard', 'newfoundland', 'bernieseMountainDog', 'leonberger', 'tibetanMastiff']
+        }
+        
+        pet_size_lower = pet_size.lower()
+        if pet_size_lower in size_mapping:
+            # Return size-specific breeds + some common mixed breeds
+            size_breeds = size_mapping[pet_size_lower]
+            common_mixed = ['labradorRetriever', 'goldenRetriever', 'germanShepherd', 'beagle', 'boxer']
+            return list(set(size_breeds + common_mixed))
+        
+        return breed_list  # Return all if size doesn't match categories
+    
+    def _parse_breed_distribution_and_explanations(self, llm_response: str, breed_list: List[str]) -> Tuple[Dict[str, float], Dict[str, str], float]:
+        """Parse breed distribution, explanations, and confidence from LLM response."""
+        try:
+            # Try to parse the JSON response
+            response_data = json.loads(llm_response.strip())
+            
+            # Extract data from new format
+            breeds = response_data.get('breed_predictions', {})
+            explanations = response_data.get('reasoning', {})
+            llm_confidence = response_data.get('confidence_score', 50.0)  # Default 50 if missing
+            
+            # Validate and convert breed percentages
+            distribution = {}
+            for breed, percentage in breeds.items():
+                if isinstance(percentage, (int, float)) and 0 <= percentage <= 100:
+                    # Match breed name to internal keys
+                    matched_breed = self._match_breed_name(breed, breed_list)
+                    if matched_breed:
+                        distribution[matched_breed] = float(percentage)
+            
+            # CRITICAL: Ensure percentages sum to exactly 100%
+            total = sum(distribution.values())
+            if total > 0:
+                if abs(total - 100) > 0.1:  # If not close to 100%, normalize
+                    print(f"    📊 Normalizing percentages: {total}% → 100%")
+                    distribution = {breed: (pct/total) * 100 for breed, pct in distribution.items()}
+                    
+                # Final verification
+                final_total = sum(distribution.values())
+                print(f"    ✅ Final total: {final_total:.1f}%")
+            
+            # Match explanations to the same breed keys
+            matched_explanations = {}
+            for breed, explanation in explanations.items():
+                matched_breed = self._match_breed_name(breed, breed_list)
+                if matched_breed and matched_breed in distribution:
+                    # Ensure explanations are concise (one sentence)
+                    explanation = explanation.strip()
+                    if '.' in explanation:
+                        explanation = explanation.split('.')[0] + '.'
+                    matched_explanations[matched_breed] = explanation
+            
+            return distribution, matched_explanations, float(llm_confidence)
+            
+        except (json.JSONDecodeError, KeyError, TypeError) as e:
+            print(f"    ⚠️ Failed to parse LLM response JSON: {e}")
+            # Fall back to old parsing method for breeds only
+            distribution = self._parse_breed_distribution(llm_response, breed_list)
+            explanations = self._manual_extract_explanations(llm_response, distribution)
+            return distribution, explanations, 25.0  # Default low confidence for fallback
+    
     def _parse_breed_distribution(self, response_text: str, breed_list: List[str]) -> Dict[str, float]:
         """Parse the JSON response from the LLM."""
         try:
@@ -355,6 +509,97 @@ Your analysis:"""
             
         # Fallback if parsing fails
         return {}
+    
+    def _get_confidence_level_from_score(self, score: float) -> str:
+        """Convert numerical confidence score to descriptive level."""
+        if score >= 90:
+            return 'Very High'
+        elif score >= 70:
+            return 'High'
+        elif score >= 50:
+            return 'Medium'
+        elif score >= 30:
+            return 'Low'
+        elif score >= 10:
+            return 'Very Low'
+        else:
+            return 'Minimal'
+    
+    def _match_breed_name(self, breed_name: str, breed_list: List[str]) -> str:
+        """Match a breed name from LLM response to our internal breed keys."""
+        breed_name_lower = breed_name.lower().replace(' ', '').replace('_', '').replace('-', '')
+        
+        # Try exact match first
+        for breed_key in breed_list:
+            if breed_name_lower == breed_key.lower():
+                return breed_key
+        
+        # Try partial match
+        for breed_key in breed_list:
+            breed_key_lower = breed_key.lower()
+            if breed_name_lower in breed_key_lower or breed_key_lower in breed_name_lower:
+                return breed_key
+        
+        # Try fuzzy matching for common variations
+        breed_mapping = {
+            'golden': 'goldenRetriever', 'lab': 'labradorRetriever', 'labrador': 'labradorRetriever',
+            'german': 'germanShepherd', 'shepherd': 'germanShepherd', 'retriever': 'goldenRetriever',
+            'husky': 'siberianHusky', 'border': 'borderCollie', 'collie': 'borderCollie'
+        }
+        
+        for key, value in breed_mapping.items():
+            if key in breed_name_lower and value in breed_list:
+                return value
+        
+        return None  # No match found
+    
+    def _manual_extract_explanations(self, llm_response: str, distribution: Dict[str, float]) -> Dict[str, str]:
+        """Manually extract explanations from LLM response when JSON parsing fails."""
+        explanations = {}
+        
+        try:
+            # Look for explanations after breed names in the response
+            lines = llm_response.split('\n')
+            current_breed = None
+            explanation_text = []
+            
+            for line in lines:
+                line = line.strip()
+                if not line:
+                    continue
+                    
+                # Check if line contains a breed name from our distribution
+                breed_found = None
+                for breed in distribution.keys():
+                    if breed.lower() in line.lower() or any(part in line.lower() for part in breed.lower().split()):
+                        breed_found = breed
+                        break
+                
+                if breed_found:
+                    # Save previous explanation if we have one
+                    if current_breed and explanation_text:
+                        explanations[current_breed] = ' '.join(explanation_text).strip()
+                    
+                    # Start new breed explanation
+                    current_breed = breed_found
+                    explanation_text = [line]
+                elif current_breed and line:
+                    # Continue building explanation for current breed
+                    explanation_text.append(line)
+            
+            # Save the last explanation
+            if current_breed and explanation_text:
+                explanations[current_breed] = ' '.join(explanation_text).strip()
+                
+        except Exception as e:
+            print(f"    ⚠️ Manual explanation extraction failed: {e}")
+        
+        # If we still don't have explanations, generate simple ones
+        if not explanations:
+            for breed in list(distribution.keys())[:3]:  # Top 3 breeds
+                explanations[breed] = f"This breed was predicted based on the available pet data and purchase patterns."
+        
+        return explanations
     
     def _fallback_prediction(self, pet_data: Dict, health_indicators: List[str], 
                            breed_list: List[str]) -> Dict[str, float]:

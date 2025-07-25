@@ -224,21 +224,28 @@ class ConfidenceScorer:
         """Calculate penalty points for reliability issues."""
         penalties = 0.0
         
-        # Severe data sparsity penalty
-        if len(purchase_history) < 5:
-            penalties += 20.0
+        # Moderate data sparsity penalty (reduced from severe)
+        if len(purchase_history) < 2:
+            penalty = 15.0
+            penalties += penalty
+        elif len(purchase_history) < 5:
+            penalty = 8.0
+            penalties += penalty  
         elif len(purchase_history) < 10:
-            penalties += 10.0
+            penalty = 3.0
+            penalties += penalty
         
-        # Single category penalty
+        # Single category penalty (reduced)
         categories = set(p.get('category', 'other').lower() for p in purchase_history)
         if len(categories) == 1:
-            penalties += 15.0
+            penalty = 8.0  # Reduced from 15.0
+            penalties += penalty
         
-        # Generic purchases penalty (mostly "other" category)
+        # Generic purchases penalty (reduced threshold)
         other_count = sum(1 for p in purchase_history if p.get('category', '').lower() == 'other')
-        if other_count > len(purchase_history) * 0.7:  # >70% generic
-            penalties += 10.0
+        if other_count > len(purchase_history) * 0.8:  # Changed from 70% to 80%
+            penalty = 5.0  # Reduced from 10.0
+            penalties += penalty
         
         # Size inconsistency penalty
         pet_size = pet_data.get('size', '').upper()
@@ -247,13 +254,15 @@ class ConfidenceScorer:
             # For now, just flag if we have size info but low confidence
             pass
         
-        # Very low prediction scores penalty
+        # More reasonable prediction scores penalty
         if predictions:
             max_prediction = max(predictions.values())
-            if max_prediction < 15:
-                penalties += 15.0
-            elif max_prediction < 25:
-                penalties += 8.0
+            if max_prediction < 10:  # Very low threshold
+                penalty = 10.0  # Reduced from 15.0
+                penalties += penalty
+            elif max_prediction < 20:  # Lowered threshold from 25
+                penalty = 4.0  # Reduced from 8.0
+                penalties += penalty
         
         return penalties
     
