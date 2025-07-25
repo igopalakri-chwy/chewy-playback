@@ -1,16 +1,16 @@
 {
   "visual_style": "Rustic Chic",
-  "color_texture": "Warm and Natural",
-  "art_style": "Colonial Influence with Modern Touch",
-  "tone_style": "Relaxed and Inviting",
-  "location_background": "Picturesque Lakes and Forests",
+  "color_texture": "Earthy tones with matte texture",
+  "art_style": "Folk Art and Landscape painting",
+  "tone_style": "Warm and Welcoming",
+  "location_background": "Rolling Hills and Historic Buildings",
   "location_data": {
     "background_description": "a beautiful outdoor setting with natural scenery",
-    "city": "East Brookfield",
+    "city": "Greenfield",
     "state": "MA",
     "location_type": "unknown",
     "landmarks": []
   },
   "tones": "authentic",
-  "location_context": "Customer is from East Brookfield, MA. Use general regional aesthetics."
+  "location_context": "Customer is from Greenfield, MA. Use general regional aesthetics."
 }

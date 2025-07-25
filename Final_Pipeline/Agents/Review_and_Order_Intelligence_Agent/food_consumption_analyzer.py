@@ -13,6 +13,11 @@ def get_location_from_zip(zip_code: str) -> Tuple[str, str]:
     Returns (city, state) tuple.
     """
     try:
+        # Clean the zip code - extract first 5 digits if ZIP+4 format
+        zip_code = zip_code.strip()
+        if '-' in zip_code:
+            zip_code = zip_code.split('-')[0]  # Take only the first 5 digits
+        
         # Using the free zipcodeapi.com API (no key required for basic usage)
         url = f"https://api.zippopotam.us/us/{zip_code}"
         response = requests.get(url, timeout=5)
@@ -375,11 +380,11 @@ def get_food_fun_fact(zip_code: str, total_lbs: float) -> str:
             5: ("hot air balloons", 200)
         },
         'NY': {  # New York
-            1: ("bagels", 0.1),
-            2: ("pizza slices", 0.5),
-            3: ("yellow taxis", 20),
-            4: ("Statue of Liberty", 100),
-            5: ("Empire State Building", 1000)
+            1: ("bagels", 0.3),
+            2: ("taxi cabs", 60),
+            3: ("hot dog carts", 12),
+            4: ("steel beams", 200),
+            5: ("copper statues", 300)
         },
         'NC': {  # North Carolina
             1: ("barbecue ribs", 1),

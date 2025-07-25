@@ -25,13 +25,13 @@
     },
     "FavoriteProductCategories": [
       "food",
-      "toys",
-      "treats"
+      "treats",
+      "toys"
     ],
     "CategoryScores": {
       "food": 0.9,
-      "toys": 0.8,
-      "treats": 0.7
+      "treats": 0.8,
+      "toys": 0.7
     },
     "BrandPreferences": [
       "Blue Buffalo",
@@ -42,20 +42,18 @@
       "Iams": 0.8
     },
     "DietaryPreferences": [
-      "grain-free",
-      "hairball care"
+      "grain-free"
     ],
     "DietaryScores": {
-      "grain-free": 0.8,
-      "hairball care": 0.7
+      "grain-free": 0.8
     },
     "BehavioralCues": [
-      "loves toys",
-      "enjoys treats"
+      "enjoys treats",
+      "loves toys"
     ],
     "BehavioralScores": {
-      "loves toys": 0.9,
-      "enjoys treats": 0.8
+      "enjoys treats": 0.8,
+      "loves toys": 0.7
     },
     "HealthMentions": [
       "healthy",
@@ -100,13 +98,13 @@
     },
     "FavoriteProductCategories": [
       "food",
-      "toys",
-      "treats"
+      "treats",
+      "toys"
     ],
     "CategoryScores": {
       "food": 0.9,
-      "toys": 0.8,
-      "treats": 0.7
+      "treats": 0.8,
+      "toys": 0.7
     },
     "BrandPreferences": [
       "Blue Buffalo",
@@ -117,20 +115,18 @@
       "Iams": 0.8
     },
     "DietaryPreferences": [
-      "grain-free",
-      "hairball care"
+      "grain-free"
     ],
     "DietaryScores": {
-      "grain-free": 0.8,
-      "hairball care": 0.7
+      "grain-free": 0.8
     },
     "BehavioralCues": [
-      "loves toys",
-      "enjoys treats"
+      "enjoys treats",
+      "loves toys"
     ],
     "BehavioralScores": {
-      "loves toys": 0.9,
-      "enjoys treats": 0.8
+      "enjoys treats": 0.8,
+      "loves toys": 0.7
     },
     "HealthMentions": [
       "healthy",
@@ -175,13 +171,13 @@
     },
     "FavoriteProductCategories": [
       "food",
-      "toys",
-      "treats"
+      "treats",
+      "toys"
     ],
     "CategoryScores": {
       "food": 0.9,
-      "toys": 0.8,
-      "treats": 0.7
+      "treats": 0.8,
+      "toys": 0.7
     },
     "BrandPreferences": [
       "Blue Buffalo",
@@ -192,20 +188,18 @@
       "Iams": 0.8
     },
     "DietaryPreferences": [
-      "grain-free",
-      "hairball care"
+      "grain-free"
     ],
     "DietaryScores": {
-      "grain-free": 0.8,
-      "hairball care": 0.7
+      "grain-free": 0.8
     },
     "BehavioralCues": [
-      "loves toys",
-      "enjoys treats"
+      "enjoys treats",
+      "loves toys"
     ],
     "BehavioralScores": {
-      "loves toys": 0.9,
-      "enjoys treats": 0.8
+      "enjoys treats": 0.8,
+      "loves toys": 0.7
     },
     "HealthMentions": [
       "healthy",
@@ -250,13 +244,13 @@
     },
     "FavoriteProductCategories": [
       "food",
-      "toys",
-      "treats"
+      "treats",
+      "toys"
     ],
     "CategoryScores": {
       "food": 0.9,
-      "toys": 0.8,
-      "treats": 0.7
+      "treats": 0.8,
+      "toys": 0.7
     },
     "BrandPreferences": [
       "Blue Buffalo",
@@ -267,20 +261,18 @@
       "Iams": 0.8
     },
     "DietaryPreferences": [
-      "grain-free",
-      "hairball care"
+      "grain-free"
     ],
     "DietaryScores": {
-      "grain-free": 0.8,
-      "hairball care": 0.7
+      "grain-free": 0.8
     },
     "BehavioralCues": [
-      "loves toys",
-      "enjoys treats"
+      "enjoys treats",
+      "loves toys"
     ],
     "BehavioralScores": {
-      "loves toys": 0.9,
-      "enjoys treats": 0.8
+      "enjoys treats": 0.8,
+      "loves toys": 0.7
     },
     "HealthMentions": [
       "healthy",
@@ -325,13 +317,13 @@
     },
     "FavoriteProductCategories": [
       "food",
-      "toys",
-      "treats"
+      "treats",
+      "toys"
     ],
     "CategoryScores": {
       "food": 0.9,
-      "toys": 0.8,
-      "treats": 0.7
+      "treats": 0.8,
+      "toys": 0.7
     },
     "BrandPreferences": [
       "Blue Buffalo",
@@ -342,20 +334,18 @@
       "Iams": 0.8
     },
     "DietaryPreferences": [
-      "grain-free",
-      "hairball care"
+      "grain-free"
     ],
     "DietaryScores": {
-      "grain-free": 0.8,
-      "hairball care": 0.7
+      "grain-free": 0.8
     },
     "BehavioralCues": [
-      "loves toys",
-      "enjoys treats"
+      "enjoys treats",
+      "loves toys"
     ],
     "BehavioralScores": {
-      "loves toys": 0.9,
-      "enjoys treats": 0.8
+      "enjoys treats": 0.8,
+      "loves toys": 0.7
     },
     "HealthMentions": [
       "healthy",

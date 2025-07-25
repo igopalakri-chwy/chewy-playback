@@ -1,9 +1,9 @@
 {
-  "visual_style": "Coastal Casual",
-  "color_texture": "Muted Earth Tones with Textured Surfaces",
-  "art_style": "Nautical and Historic",
-  "tone_style": "Relaxed and Warm",
-  "location_background": "Beaches and Historic Spanish Architecture",
+  "visual_style": "Coastal",
+  "color_texture": "Warm and Pastel with Sandy Textures",
+  "art_style": "Nautical and Spanish Colonial",
+  "tone_style": "Relaxed and Sunny",
+  "location_background": "Beaches and Historic Architecture",
   "location_data": {
     "background_description": "Daytona Beach with racing heritage",
     "city": "Saint Augustine",
