@@ -1038,24 +1038,30 @@ class ChewyPlaybackPipeline:
         return narrative_results
     
     def run_breed_predictor_agent(self, enriched_profiles: Dict[str, Any]) -> Dict[str, Any]:
-        """Run the Breed Predictor Agent for pets with unknown/mixed breeds."""
+        """Run the Breed Predictor Agent for dogs with unknown/mixed breeds using pipeline data."""
         print("\n🐕 Running Breed Predictor Agent...")
         
         breed_predictions = {}
+        total_pets_checked = 0
+        eligible_pets_found = 0
         
         for customer_id, customer_data in enriched_profiles.items():
+            print(f"  🔍 Checking pets for customer {customer_id}...")
+            
             # Handle different data structures
             if isinstance(customer_data, dict) and 'pets' in customer_data:
                 pets_data = customer_data['pets']
             else:
                 pets_data = customer_data
             
-            # Get customer orders from Snowflake for breed prediction
+            customer_predictions = []
+            
+            # Get order history from cached data (already loaded by pipeline)
             orders_df = self._get_cached_customer_orders_dataframe(customer_id)
             customer_orders = []
             
             if not orders_df.empty:
-                # Convert to list of dictionaries for breed predictor
+                # Convert to format expected by breed predictor
                 for _, row in orders_df.iterrows():
                     order = {
                         'item_name': row.get('ProductName', 'Unknown'),
@@ -1066,30 +1072,97 @@ class ChewyPlaybackPipeline:
                     }
                     customer_orders.append(order)
             
-            # Get raw pet data from Snowflake for breed prediction
-            raw_pets_df = self._get_cached_customer_pets_dataframe(customer_id)
-            raw_pets_data = {}
-            if not raw_pets_df.empty:
-                for _, row in raw_pets_df.iterrows():
-                    pet_name = row.get('PetName', 'Unknown')
-                    raw_pets_data[pet_name] = {
-                        'PetType': row.get('PetType', 'UNK'),
-                        'Breed': row.get('PetBreed', 'UNK'),
-                        'Gender': row.get('Gender', 'UNK'),
-                        'PetAge': row.get('PetAge', 'UNK'),
-                        'Weight': row.get('Weight', 'UNK'),
-                        'Medication': row.get('Medication', 'UNK')
+            # Check each pet in the enriched profile
+            for pet_name, pet_data in pets_data.items():
+                total_pets_checked += 1
+                
+                # Check if this pet qualifies for breed prediction
+                pet_type = pet_data.get('PetType', '').lower()
+                pet_breed = pet_data.get('Breed', '').lower()
+                
+                # Only predict for dogs with unknown/mixed breeds
+                is_dog = pet_type == 'dog'
+                unknown_indicators = ['mixed', 'unknown', 'mix', 'unk', 'null']
+                has_unknown_breed = (
+                    any(indicator in pet_breed.lower() for indicator in unknown_indicators) or 
+                    pet_breed.strip() == '' or
+                    pet_breed.lower() == 'unk'
+                )
+                
+                if is_dog and has_unknown_breed:
+                    eligible_pets_found += 1
+                    print(f"    🐕 {pet_name}: Eligible for breed prediction (Type: {pet_type}, Breed: {pet_breed})")
+                    
+                    try:
+                        # Prepare pet data for breed predictor
+                        pet_profile = {
+                            'PetName': pet_name,
+                            'PetType': pet_data.get('PetType', 'UNK'),
+                            'Breed': pet_data.get('Breed', 'UNK'),
+                            'Gender': pet_data.get('Gender', 'UNK'),
+                            'LifeStage': pet_data.get('LifeStage', 'UNK'),
+                            'SizeCategory': pet_data.get('SizeCategory', 'UNK'),
+                            'Weight': pet_data.get('Weight', 'UNK'),
+                            'confidence_score': pet_data.get('confidence_score', 0.0)
+                        }
+                        
+                        # Run breed prediction for this specific pet
+                        prediction_result = self.breed_predictor_agent.predict_breed_for_pet_with_orders(
+                            customer_id=customer_id,
+                            pet_name=pet_name,
+                            pet_data=pet_profile,
+                            customer_orders=customer_orders
+                        )
+                        
+                        if prediction_result:
+                            customer_predictions.append({
+                                'pet_name': pet_name,
+                                'customer_id': customer_id,
+                                'prediction': prediction_result,
+                                'timestamp': prediction_result.get('timestamp', ''),
+                                'predicted_breed': prediction_result.get('predicted_breed', 'Unknown'),
+                                'breed_percentages': prediction_result.get('breed_percentages', {}),
+                                'confidence_score': prediction_result.get('confidence', {}).get('score', 0),
+                                'confidence_level': prediction_result.get('confidence', {}).get('level', 'Unknown'),
+                                'reasoning': prediction_result.get('reasoning', 'No reasoning provided'),
+                                'data_used': prediction_result.get('data_used', {})
+                            })
+                            print(f"      ✅ Prediction completed for {pet_name}")
+                        else:
+                            print(f"      ⚠️ No prediction result for {pet_name}")
+                            
+                    except Exception as e:
+                        print(f"      ❌ Error predicting breed for {pet_name}: {e}")
+                        continue
+                        
+                else:
+                    # Log why pet was skipped
+                    if not is_dog:
+                        print(f"    ⏭️ {pet_name}: Skipped (not a dog, type: {pet_type})")
+                    elif not has_unknown_breed:
+                        print(f"    ⏭️ {pet_name}: Skipped (known breed: {pet_breed})")
+            
+            # Save customer predictions if any were made
+            if customer_predictions:
+                # Use the first prediction for backward compatibility, but save all
+                if len(customer_predictions) == 1:
+                    breed_predictions[customer_id] = customer_predictions[0]
+                else:
+                    # Multiple predictions - save as list
+                    breed_predictions[customer_id] = {
+                        'customer_id': customer_id,
+                        'multiple_predictions': customer_predictions,
+                        'total_predictions': len(customer_predictions)
                     }
-            
-            # Run breed prediction for this customer's pets with order data
-            customer_prediction = self.breed_predictor_agent.process_customer_pets_with_orders(
-                customer_id, raw_pets_data, customer_orders
-            )
-            
-            if customer_prediction:
-                breed_predictions[customer_id] = customer_prediction
+                print(f"    ✅ Saved {len(customer_predictions)} breed prediction(s) for customer {customer_id}")
+            else:
+                print(f"    ℹ️ No eligible pets found for customer {customer_id}")
         
-        print(f"✅ Breed predictions completed for {len(breed_predictions)} customers")
+        print(f"\n📊 Breed Prediction Summary:")
+        print(f"   Total pets checked: {total_pets_checked}")
+        print(f"   Eligible pets found: {eligible_pets_found}")
+        print(f"   Customers with predictions: {len(breed_predictions)}")
+        print(f"✅ Breed predictions completed")
         return breed_predictions
     
     def _get_customer_reviews(self, customer_id: str) -> List[Dict[str, Any]]:
