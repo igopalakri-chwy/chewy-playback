@@ -37,7 +37,7 @@
     ],
     "BrandScores": {
       "Temptations": 0.9,
-      "Fancy Feast": 0.8
+      "Fancy Feast": 0.85
     },
     "DietaryPreferences": [
       "high-protein"
@@ -46,10 +46,12 @@
       "high-protein": 0.7
     },
     "BehavioralCues": [
-      "enjoys treats"
+      "enjoys treats",
+      "loves food variety"
     ],
     "BehavioralScores": {
-      "enjoys treats": 0.9
+      "enjoys treats": 0.9,
+      "loves food variety": 0.8
     },
     "HealthMentions": [
       "healthy"
@@ -103,7 +105,7 @@
     ],
     "BrandScores": {
       "Temptations": 0.9,
-      "Fancy Feast": 0.8
+      "Fancy Feast": 0.85
     },
     "DietaryPreferences": [
       "high-protein"
@@ -112,10 +114,12 @@
       "high-protein": 0.7
     },
     "BehavioralCues": [
-      "enjoys treats"
+      "enjoys treats",
+      "loves food variety"
     ],
     "BehavioralScores": {
-      "enjoys treats": 0.9
+      "enjoys treats": 0.9,
+      "loves food variety": 0.8
     },
     "HealthMentions": [
       "healthy"

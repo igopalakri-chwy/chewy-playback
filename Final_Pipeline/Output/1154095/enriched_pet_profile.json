@@ -15,13 +15,13 @@
     "WeightScore": 1.0,
     "PersonalityTraits": [
       "sensitive",
-      "curious",
-      "affectionate"
+      "affectionate",
+      "curious"
     ],
     "PersonalityScores": {
       "sensitive": 0.9,
-      "curious": 0.7,
-      "affectionate": 0.8
+      "affectionate": 0.8,
+      "curious": 0.7
     },
     "FavoriteProductCategories": [
       "food",
@@ -33,11 +33,13 @@
     },
     "BrandPreferences": [
       "Purina",
-      "Weruva"
+      "Friskies",
+      "Fancy Feast"
     ],
     "BrandScores": {
       "Purina": 0.9,
-      "Weruva": 0.8
+      "Friskies": 0.8,
+      "Fancy Feast": 0.8
     },
     "DietaryPreferences": [
       "sensitive stomach",
@@ -45,15 +47,15 @@
     ],
     "DietaryScores": {
       "sensitive stomach": 0.9,
-      "grain-free": 0.8
+      "grain-free": 0.7
     },
     "BehavioralCues": [
       "enjoys variety",
-      "sensitive to diet"
+      "prefers wet food"
     ],
     "BehavioralScores": {
       "enjoys variety": 0.8,
-      "sensitive to diet": 0.9
+      "prefers wet food": 0.9
     },
     "HealthMentions": [
       "sensitive skin",
@@ -88,13 +90,13 @@
     "WeightScore": 1.0,
     "PersonalityTraits": [
       "sensitive",
-      "curious",
-      "affectionate"
+      "affectionate",
+      "curious"
     ],
     "PersonalityScores": {
       "sensitive": 0.9,
-      "curious": 0.7,
-      "affectionate": 0.8
+      "affectionate": 0.8,
+      "curious": 0.7
     },
     "FavoriteProductCategories": [
       "food",
@@ -106,11 +108,13 @@
     },
     "BrandPreferences": [
       "Purina",
-      "Weruva"
+      "Friskies",
+      "Fancy Feast"
     ],
     "BrandScores": {
       "Purina": 0.9,
-      "Weruva": 0.8
+      "Friskies": 0.8,
+      "Fancy Feast": 0.8
     },
     "DietaryPreferences": [
       "sensitive stomach",
@@ -118,15 +122,15 @@
     ],
     "DietaryScores": {
       "sensitive stomach": 0.9,
-      "grain-free": 0.8
+      "grain-free": 0.7
     },
     "BehavioralCues": [
       "enjoys variety",
-      "sensitive to diet"
+      "prefers wet food"
     ],
     "BehavioralScores": {
       "enjoys variety": 0.8,
-      "sensitive to diet": 0.9
+      "prefers wet food": 0.9
     },
     "HealthMentions": [
       "sensitive skin",

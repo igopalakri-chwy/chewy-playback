@@ -325,11 +325,13 @@ STEP 1 — INTERPRET DATA AND PET PROFILES:
      - Do not use the product name directly.
 
 STEP 2 — GENERATE THE LETTER:
-- Write a **SHORT, CONCISE** letter from the perspective of the pets (aim for 2-3 sentences maximum).
+- Write a **DETAILED, ENGAGING** letter from the perspective of the pets (aim for 1-2 paragraphs with 4-6 sentences).
 - If any pet is named `"unknown"`, sign the letter as: `"From: The pets"`.
 - Otherwise, sign off with the actual pet names from `sample_pet_data` (comma-separated with "and").
 - The letter should:
-  - **Keep it brief**: Focus on one main message or product mention.
+  - **Be comprehensive**: Include multiple product mentions and details about what the pets love.
+  - **PRODUCT DETAILS**: Mention specific products, flavors, or types the pets enjoy from their order history or reviews.
+  - **MULTIPLE REFERENCES**: Include 2-3 different product categories (food, toys, treats, etc.) when available.
   - Mention the **positively reviewed** products (if review data available) or **frequently ordered** products (if order data available) using the LLM-generated natural description.
   - Express joy and personality using pet-like expressions (e.g., "zoomies of joy!", "snuggle squad reporting in!").
   - Avoid assigning products to specific pets unless the data clearly names a pet.
@@ -337,7 +339,7 @@ STEP 2 — GENERATE THE LETTER:
   - **Incorporate only the tones and style cues** from `zip_aesthetics` to influence the mood and feel of the letter, but **do NOT directly mention any region, ZIP code, city, or style name** in the letter text.
   - Avoid marketing language or sounding like an ad.
   - **Use proper letter formatting**: Include a space after the salutation (e.g., "Dear Human,\n\n"), a space before the ending (e.g., "\n\nWith all our love and zoomies,"), and keep the body text flowing naturally without excessive line breaks.
-  - **LENGTH CONSTRAINT**: The letter body should be no more than 2-3 sentences total.
+  - **LENGTH CONSTRAINT**: The letter should be 1-2 paragraphs with 4-6 sentences total, providing rich detail about products and experiences.
 
 STEP 3 — GENERATE THE VISUAL PROMPT:
 - **CRITICAL PET COUNT RULE: You MUST count the pets in sample_pet_data and ensure the image contains EXACTLY that number of pets.**
@@ -838,7 +840,7 @@ Generate the JSON object:"""
         # Generate letter content based on data type
         letter = f"""Dear Human,
 
-We're so excited to tell you how much we love everything you've brought into our lives!"""
+We're so excited to tell you how much we love everything you've brought into our lives! Every day with you is filled with joy and adventure, and we can't help but wag our tails (and purr) with gratitude for all the wonderful things you do for us."""
         
         # Add specific mentions based on data type
         if data_type == "reviews":
@@ -849,7 +851,10 @@ We're so excited to tell you how much we love everything you've brought into our
                     positive_products.append(review.get('product_name', review.get('product', '')))
             
             if positive_products:
-                letter += f"We absolutely adore the {positive_products[0]} you've gotten for us! "
+                if len(positive_products) >= 2:
+                    letter += f" We absolutely adore the {positive_products[0]} and {positive_products[1]} you've gotten for us - they've become our favorite things to play with and enjoy!"
+                else:
+                    letter += f" We absolutely adore the {positive_products[0]} you've gotten for us - it's become our favorite thing to play with and enjoy!"
         
         elif data_type == "orders":
             # Analyze order data for product mentions
@@ -875,11 +880,17 @@ We're so excited to tell you how much we love everything you've brought into our
                         type_mentions.append("stylish clothes")
                     elif item_type == 'treat':
                         type_mentions.append("yummy treats")
+                    elif item_type == 'bed':
+                        type_mentions.append("comfy beds")
+                    elif item_type == 'bowl':
+                        type_mentions.append("fancy bowls")
                 
-                if type_mentions:
-                    letter += f"We absolutely adore the {type_mentions[0]} you've spoiled us with! "
+                if len(type_mentions) >= 2:
+                    letter += f" We absolutely adore the {type_mentions[0]} and {type_mentions[1]} you've spoiled us with - they make every day feel like a special treat!"
+                elif type_mentions:
+                    letter += f" We absolutely adore the {type_mentions[0]} you've spoiled us with - it makes every day feel like a special treat!"
         
-        letter += f""" Thank you for being the best human ever!
+        letter += f""" Thank you for being the best human ever and for making our lives so full of love and happiness!
 
 With all our love and zoomies,
 {signature}"""

@@ -1,16 +1,16 @@
 {
-  "badge": "The Explorer",
+  "badge": "The Cuddler",
   "compatible_with": [
-    "The Cuddler",
-    "The Trickster",
-    "The Scholar"
+    "The Daydreamer",
+    "The Scholar",
+    "The Explorer"
   ],
-  "icon_png": "the_explorer.png",
-  "description": "This dynamic duo is curious and affectionate, always ready to explore and enjoy their surroundings.",
+  "icon_png": "the_cuddler.png",
+  "description": "This household cherishes cozy snuggles and exploring new tastes and toys with a playful and curious spirit.",
   "descriptive_words": [
-    "curious",
-    "adventurous",
-    "independent",
-    "active"
+    "affectionate",
+    "gentle",
+    "chill",
+    "snuggly"
   ]
 }

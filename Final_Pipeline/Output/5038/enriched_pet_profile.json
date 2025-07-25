@@ -14,10 +14,12 @@
     "Weight": "10",
     "WeightScore": 1.0,
     "PersonalityTraits": [
+      "playful",
       "curious",
       "affectionate"
     ],
     "PersonalityScores": {
+      "playful": 0.8,
       "curious": 0.7,
       "affectionate": 0.9
     },
@@ -33,31 +35,33 @@
     },
     "BrandPreferences": [
       "PrettyLitter",
-      "Friskies"
+      "Blue Buffalo"
     ],
     "BrandScores": {
       "PrettyLitter": 0.9,
-      "Friskies": 0.8
+      "Blue Buffalo": 0.8
     },
     "DietaryPreferences": [
-      "high-protein"
+      "weight management"
     ],
     "DietaryScores": {
-      "high-protein": 0.7
+      "weight management": 0.8
     },
     "BehavioralCues": [
-      "enjoys treats",
-      "health-conscious"
+      "loves treats",
+      "requires training"
     ],
     "BehavioralScores": {
-      "enjoys treats": 0.8,
-      "health-conscious": 0.7
+      "loves treats": 0.8,
+      "requires training": 0.7
     },
     "HealthMentions": [
-      "healthy"
+      "health monitoring",
+      "flea & tick prevention"
     ],
     "HealthScores": {
-      "healthy": 0.8
+      "health monitoring": 0.9,
+      "flea & tick prevention": 0.8
     },
     "MostOrderedProducts": [
       "PrettyLitter Health Monitoring Cat Litter, 8-lb bag",
@@ -83,10 +87,12 @@
     "Weight": "3",
     "WeightScore": 1.0,
     "PersonalityTraits": [
+      "playful",
       "curious",
       "affectionate"
     ],
     "PersonalityScores": {
+      "playful": 0.8,
       "curious": 0.7,
       "affectionate": 0.9
     },
@@ -102,31 +108,33 @@
     },
     "BrandPreferences": [
       "PrettyLitter",
-      "Friskies"
+      "Blue Buffalo"
     ],
     "BrandScores": {
       "PrettyLitter": 0.9,
-      "Friskies": 0.8
+      "Blue Buffalo": 0.8
     },
     "DietaryPreferences": [
-      "high-protein"
+      "weight management"
     ],
     "DietaryScores": {
-      "high-protein": 0.7
+      "weight management": 0.8
     },
     "BehavioralCues": [
-      "enjoys treats",
-      "health-conscious"
+      "loves treats",
+      "requires training"
     ],
     "BehavioralScores": {
-      "enjoys treats": 0.8,
-      "health-conscious": 0.7
+      "loves treats": 0.8,
+      "requires training": 0.7
     },
     "HealthMentions": [
-      "healthy"
+      "health monitoring",
+      "flea & tick prevention"
     ],
     "HealthScores": {
-      "healthy": 0.8
+      "health monitoring": 0.9,
+      "flea & tick prevention": 0.8
     },
     "MostOrderedProducts": [
       "PrettyLitter Health Monitoring Cat Litter, 8-lb bag",

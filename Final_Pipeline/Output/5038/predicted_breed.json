@@ -1,6 +1,6 @@
 {
   "customer_id": "5038",
   "pet_name": "Monty",
-  "predicted_breed": "Germanshepherd",
-  "confidence": 35.5
+  "predicted_breed": "Unknown Breed",
+  "confidence": 60.0
 }
