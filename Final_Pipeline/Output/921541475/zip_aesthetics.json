@@ -1,0 +1,21 @@
+{
+  "visual_style": "Suburban Chic",
+  "color_texture": "Nature-inspired hues with a blend of concrete grays and earthy browns",
+  "art_style": "Contemporary with a hint of Pacific Northwest Native American Art",
+  "tone_style": "Casual, Comfortable, and Inviting",
+  "location_background": "Surrounded by greenery, lakes, and mountains",
+  "location_data": {
+    "background_description": "Olympic National Park rainforest",
+    "city": "Renton",
+    "state": "WA",
+    "location_type": "state",
+    "landmarks": [
+      "Mount Rainier",
+      "Olympic National Park",
+      "Mount St. Helens",
+      "San Juan Islands"
+    ]
+  },
+  "tones": "sophisticated, authentic",
+  "location_context": "Customer is from Renton, WA. Consider incorporating WA state landmarks and natural features subtly in the background."
+}

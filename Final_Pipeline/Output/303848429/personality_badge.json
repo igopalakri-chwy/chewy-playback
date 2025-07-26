@@ -1,0 +1,16 @@
+{
+  "badge": "The Explorer",
+  "compatible_with": [
+    "The Cuddler",
+    "The Trickster",
+    "The Athlete"
+  ],
+  "icon_png": "the_explorer.png",
+  "description": "Hooper, the Labrador Retriever, loves exploring new toys and flaunting his fashionable bandana.",
+  "descriptive_words": [
+    "curious",
+    "adventurous",
+    "independent",
+    "active"
+  ]
+}

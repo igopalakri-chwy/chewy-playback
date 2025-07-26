@@ -1,0 +1,206 @@
+{
+  "Atticus": {
+    "PetName": "Atticus",
+    "PetType": "Cat",
+    "PetTypeScore": 1.0,
+    "Breed": "Other",
+    "BreedScore": 1.0,
+    "LifeStage": "17",
+    "LifeStageScore": 1.0,
+    "Gender": "MALE",
+    "GenderScore": 1.0,
+    "SizeCategory": "UNK",
+    "SizeScore": 0.0,
+    "Weight": "14",
+    "WeightScore": 1.0,
+    "PersonalityTraits": [
+      "health-conscious",
+      "enjoys variety"
+    ],
+    "PersonalityScores": {
+      "health-conscious": 0.9,
+      "enjoys variety": 0.7
+    },
+    "FavoriteProductCategories": [
+      "dental treats",
+      "food"
+    ],
+    "CategoryScores": {
+      "dental treats": 0.9,
+      "food": 0.8
+    },
+    "BrandPreferences": [
+      "ProDen",
+      "Nom Nom"
+    ],
+    "BrandScores": {
+      "ProDen": 0.9,
+      "Nom Nom": 0.8
+    },
+    "DietaryPreferences": [
+      "grain-free"
+    ],
+    "DietaryScores": {
+      "grain-free": 0.8
+    },
+    "BehavioralCues": [
+      "enjoys dental care",
+      "varied diet"
+    ],
+    "BehavioralScores": {
+      "enjoys dental care": 0.9,
+      "varied diet": 0.7
+    },
+    "HealthMentions": [
+      "healthy"
+    ],
+    "HealthScores": {
+      "healthy": 0.8
+    },
+    "MostOrderedProducts": [
+      "ProDen PlaqueOff System Chicken & Pumpkin Flavored Dental Bone Dog Treats, 13 count",
+      "ProDen PlaqueOff System Natural Bacon Flavored Dental Bone Dog Treats, 13 count",
+      "Bravecto Chew for Dogs, 44-88 lbs, (Blue Box), 1 Chew (12-wks. supply)"
+    ],
+    "ConfidenceScore": 0.0,
+    "confidence_score": 0.8333333333333334,
+    "name": "Atticus"
+  },
+  "Luna": {
+    "PetName": "Luna",
+    "PetType": "Dog",
+    "PetTypeScore": 1.0,
+    "Breed": "Siberian Husky",
+    "BreedScore": 1.0,
+    "LifeStage": "5",
+    "LifeStageScore": 1.0,
+    "Gender": "FMLE",
+    "GenderScore": 1.0,
+    "SizeCategory": "UNK",
+    "SizeScore": 0.0,
+    "Weight": "45",
+    "WeightScore": 1.0,
+    "PersonalityTraits": [
+      "health-conscious",
+      "enjoys variety"
+    ],
+    "PersonalityScores": {
+      "health-conscious": 0.9,
+      "enjoys variety": 0.7
+    },
+    "FavoriteProductCategories": [
+      "dental treats",
+      "food"
+    ],
+    "CategoryScores": {
+      "dental treats": 0.9,
+      "food": 0.8
+    },
+    "BrandPreferences": [
+      "ProDen",
+      "Nom Nom"
+    ],
+    "BrandScores": {
+      "ProDen": 0.9,
+      "Nom Nom": 0.8
+    },
+    "DietaryPreferences": [
+      "grain-free"
+    ],
+    "DietaryScores": {
+      "grain-free": 0.8
+    },
+    "BehavioralCues": [
+      "enjoys dental care",
+      "varied diet"
+    ],
+    "BehavioralScores": {
+      "enjoys dental care": 0.9,
+      "varied diet": 0.7
+    },
+    "HealthMentions": [
+      "healthy"
+    ],
+    "HealthScores": {
+      "healthy": 0.8
+    },
+    "MostOrderedProducts": [
+      "ProDen PlaqueOff System Chicken & Pumpkin Flavored Dental Bone Dog Treats, 13 count",
+      "ProDen PlaqueOff System Natural Bacon Flavored Dental Bone Dog Treats, 13 count",
+      "Bravecto Chew for Dogs, 44-88 lbs, (Blue Box), 1 Chew (12-wks. supply)"
+    ],
+    "ConfidenceScore": 0.0,
+    "confidence_score": 0.8333333333333334,
+    "name": "Luna"
+  },
+  "Wallace": {
+    "PetName": "Wallace",
+    "PetType": "Dog",
+    "PetTypeScore": 1.0,
+    "Breed": "Mixed / Unknown",
+    "BreedScore": 1.0,
+    "LifeStage": "6",
+    "LifeStageScore": 1.0,
+    "Gender": "UNKN",
+    "GenderScore": 1.0,
+    "SizeCategory": "UNK",
+    "SizeScore": 0.0,
+    "Weight": "45",
+    "WeightScore": 1.0,
+    "PersonalityTraits": [
+      "health-conscious",
+      "enjoys variety"
+    ],
+    "PersonalityScores": {
+      "health-conscious": 0.9,
+      "enjoys variety": 0.7
+    },
+    "FavoriteProductCategories": [
+      "dental treats",
+      "food"
+    ],
+    "CategoryScores": {
+      "dental treats": 0.9,
+      "food": 0.8
+    },
+    "BrandPreferences": [
+      "ProDen",
+      "Nom Nom"
+    ],
+    "BrandScores": {
+      "ProDen": 0.9,
+      "Nom Nom": 0.8
+    },
+    "DietaryPreferences": [
+      "grain-free"
+    ],
+    "DietaryScores": {
+      "grain-free": 0.8
+    },
+    "BehavioralCues": [
+      "enjoys dental care",
+      "varied diet"
+    ],
+    "BehavioralScores": {
+      "enjoys dental care": 0.9,
+      "varied diet": 0.7
+    },
+    "HealthMentions": [
+      "healthy"
+    ],
+    "HealthScores": {
+      "healthy": 0.8
+    },
+    "MostOrderedProducts": [
+      "ProDen PlaqueOff System Chicken & Pumpkin Flavored Dental Bone Dog Treats, 13 count",
+      "ProDen PlaqueOff System Natural Bacon Flavored Dental Bone Dog Treats, 13 count",
+      "Bravecto Chew for Dogs, 44-88 lbs, (Blue Box), 1 Chew (12-wks. supply)"
+    ],
+    "ConfidenceScore": 0.0,
+    "confidence_score": 0.8333333333333334,
+    "name": "Wallace"
+  },
+  "cust_confidence_score": 0.8333333333333334,
+  "gets_playback": true,
+  "gets_personalized": true
+}

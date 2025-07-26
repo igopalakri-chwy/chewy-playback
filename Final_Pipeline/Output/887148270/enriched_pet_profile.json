@@ -29,31 +29,33 @@
       "toys"
     ],
     "CategoryScores": {
-      "food": 0.9,
-      "treats": 0.8,
-      "toys": 0.7
+      "food": 0.8,
+      "treats": 0.7,
+      "toys": 0.9
     },
     "BrandPreferences": [
       "Blue Buffalo",
       "Iams"
     ],
     "BrandScores": {
-      "Blue Buffalo": 0.9,
-      "Iams": 0.8
+      "Blue Buffalo": 0.8,
+      "Iams": 0.7
     },
     "DietaryPreferences": [
-      "grain-free"
+      "grain-free",
+      "hairball control"
     ],
     "DietaryScores": {
-      "grain-free": 0.8
+      "grain-free": 0.8,
+      "hairball control": 0.7
     },
     "BehavioralCues": [
-      "enjoys treats",
-      "loves toys"
+      "loves toys",
+      "enjoys treats"
     ],
     "BehavioralScores": {
-      "enjoys treats": 0.8,
-      "loves toys": 0.7
+      "loves toys": 0.9,
+      "enjoys treats": 0.8
     },
     "HealthMentions": [
       "healthy",
@@ -64,9 +66,9 @@
       "active": 0.7
     },
     "MostOrderedProducts": [
-      "Blue Buffalo Wilderness Trail Treats Chicken Wild Bits Grain-Free Training Dog Treats, 10-oz bag",
+      "Iams ProActive Health Adult Hairball Care with Chicken & Salmon Dry Cat Food, 3.5-lb bag",
       "Blue Buffalo Life Protection Formula Adult Chicken & Brown Rice Recipe Dry Dog Food, 34-lb bag",
-      "Iams ProActive Health Adult Hairball Care with Chicken & Salmon Dry Cat Food, 3.5-lb bag"
+      "Blue Buffalo Wilderness Trail Treats Chicken Wild Bits Grain-Free Training Dog Treats, 10-oz bag"
     ],
     "ConfidenceScore": 0.0,
     "confidence_score": 0.8333333333333334,
@@ -102,31 +104,33 @@
       "toys"
     ],
     "CategoryScores": {
-      "food": 0.9,
-      "treats": 0.8,
-      "toys": 0.7
+      "food": 0.8,
+      "treats": 0.7,
+      "toys": 0.9
     },
     "BrandPreferences": [
       "Blue Buffalo",
       "Iams"
     ],
     "BrandScores": {
-      "Blue Buffalo": 0.9,
-      "Iams": 0.8
+      "Blue Buffalo": 0.8,
+      "Iams": 0.7
     },
     "DietaryPreferences": [
-      "grain-free"
+      "grain-free",
+      "hairball control"
     ],
     "DietaryScores": {
-      "grain-free": 0.8
+      "grain-free": 0.8,
+      "hairball control": 0.7
     },
     "BehavioralCues": [
-      "enjoys treats",
-      "loves toys"
+      "loves toys",
+      "enjoys treats"
     ],
     "BehavioralScores": {
-      "enjoys treats": 0.8,
-      "loves toys": 0.7
+      "loves toys": 0.9,
+      "enjoys treats": 0.8
     },
     "HealthMentions": [
       "healthy",
@@ -137,9 +141,9 @@
       "active": 0.7
     },
     "MostOrderedProducts": [
-      "Blue Buffalo Wilderness Trail Treats Chicken Wild Bits Grain-Free Training Dog Treats, 10-oz bag",
+      "Iams ProActive Health Adult Hairball Care with Chicken & Salmon Dry Cat Food, 3.5-lb bag",
       "Blue Buffalo Life Protection Formula Adult Chicken & Brown Rice Recipe Dry Dog Food, 34-lb bag",
-      "Iams ProActive Health Adult Hairball Care with Chicken & Salmon Dry Cat Food, 3.5-lb bag"
+      "Blue Buffalo Wilderness Trail Treats Chicken Wild Bits Grain-Free Training Dog Treats, 10-oz bag"
     ],
     "ConfidenceScore": 0.0,
     "confidence_score": 0.8333333333333334,
@@ -175,31 +179,33 @@
       "toys"
     ],
     "CategoryScores": {
-      "food": 0.9,
-      "treats": 0.8,
-      "toys": 0.7
+      "food": 0.8,
+      "treats": 0.7,
+      "toys": 0.9
     },
     "BrandPreferences": [
       "Blue Buffalo",
       "Iams"
     ],
     "BrandScores": {
-      "Blue Buffalo": 0.9,
-      "Iams": 0.8
+      "Blue Buffalo": 0.8,
+      "Iams": 0.7
     },
     "DietaryPreferences": [
-      "grain-free"
+      "grain-free",
+      "hairball control"
     ],
     "DietaryScores": {
-      "grain-free": 0.8
+      "grain-free": 0.8,
+      "hairball control": 0.7
     },
     "BehavioralCues": [
-      "enjoys treats",
-      "loves toys"
+      "loves toys",
+      "enjoys treats"
     ],
     "BehavioralScores": {
-      "enjoys treats": 0.8,
-      "loves toys": 0.7
+      "loves toys": 0.9,
+      "enjoys treats": 0.8
     },
     "HealthMentions": [
       "healthy",
@@ -210,9 +216,9 @@
       "active": 0.7
     },
     "MostOrderedProducts": [
-      "Blue Buffalo Wilderness Trail Treats Chicken Wild Bits Grain-Free Training Dog Treats, 10-oz bag",
+      "Iams ProActive Health Adult Hairball Care with Chicken & Salmon Dry Cat Food, 3.5-lb bag",
       "Blue Buffalo Life Protection Formula Adult Chicken & Brown Rice Recipe Dry Dog Food, 34-lb bag",
-      "Iams ProActive Health Adult Hairball Care with Chicken & Salmon Dry Cat Food, 3.5-lb bag"
+      "Blue Buffalo Wilderness Trail Treats Chicken Wild Bits Grain-Free Training Dog Treats, 10-oz bag"
     ],
     "ConfidenceScore": 0.0,
     "confidence_score": 0.8333333333333334,
@@ -248,31 +254,33 @@
       "toys"
     ],
     "CategoryScores": {
-      "food": 0.9,
-      "treats": 0.8,
-      "toys": 0.7
+      "food": 0.8,
+      "treats": 0.7,
+      "toys": 0.9
     },
     "BrandPreferences": [
       "Blue Buffalo",
       "Iams"
     ],
     "BrandScores": {
-      "Blue Buffalo": 0.9,
-      "Iams": 0.8
+      "Blue Buffalo": 0.8,
+      "Iams": 0.7
     },
     "DietaryPreferences": [
-      "grain-free"
+      "grain-free",
+      "hairball control"
     ],
     "DietaryScores": {
-      "grain-free": 0.8
+      "grain-free": 0.8,
+      "hairball control": 0.7
     },
     "BehavioralCues": [
-      "enjoys treats",
-      "loves toys"
+      "loves toys",
+      "enjoys treats"
     ],
     "BehavioralScores": {
-      "enjoys treats": 0.8,
-      "loves toys": 0.7
+      "loves toys": 0.9,
+      "enjoys treats": 0.8
     },
     "HealthMentions": [
       "healthy",
@@ -283,9 +291,9 @@
       "active": 0.7
     },
     "MostOrderedProducts": [
-      "Blue Buffalo Wilderness Trail Treats Chicken Wild Bits Grain-Free Training Dog Treats, 10-oz bag",
+      "Iams ProActive Health Adult Hairball Care with Chicken & Salmon Dry Cat Food, 3.5-lb bag",
       "Blue Buffalo Life Protection Formula Adult Chicken & Brown Rice Recipe Dry Dog Food, 34-lb bag",
-      "Iams ProActive Health Adult Hairball Care with Chicken & Salmon Dry Cat Food, 3.5-lb bag"
+      "Blue Buffalo Wilderness Trail Treats Chicken Wild Bits Grain-Free Training Dog Treats, 10-oz bag"
     ],
     "ConfidenceScore": 0.0,
     "confidence_score": 0.8333333333333334,
@@ -321,31 +329,33 @@
       "toys"
     ],
     "CategoryScores": {
-      "food": 0.9,
-      "treats": 0.8,
-      "toys": 0.7
+      "food": 0.8,
+      "treats": 0.7,
+      "toys": 0.9
     },
     "BrandPreferences": [
       "Blue Buffalo",
       "Iams"
     ],
     "BrandScores": {
-      "Blue Buffalo": 0.9,
-      "Iams": 0.8
+      "Blue Buffalo": 0.8,
+      "Iams": 0.7
     },
     "DietaryPreferences": [
-      "grain-free"
+      "grain-free",
+      "hairball control"
     ],
     "DietaryScores": {
-      "grain-free": 0.8
+      "grain-free": 0.8,
+      "hairball control": 0.7
     },
     "BehavioralCues": [
-      "enjoys treats",
-      "loves toys"
+      "loves toys",
+      "enjoys treats"
     ],
     "BehavioralScores": {
-      "enjoys treats": 0.8,
-      "loves toys": 0.7
+      "loves toys": 0.9,
+      "enjoys treats": 0.8
     },
     "HealthMentions": [
       "healthy",
@@ -356,9 +366,9 @@
       "active": 0.7
     },
     "MostOrderedProducts": [
-      "Blue Buffalo Wilderness Trail Treats Chicken Wild Bits Grain-Free Training Dog Treats, 10-oz bag",
+      "Iams ProActive Health Adult Hairball Care with Chicken & Salmon Dry Cat Food, 3.5-lb bag",
       "Blue Buffalo Life Protection Formula Adult Chicken & Brown Rice Recipe Dry Dog Food, 34-lb bag",
-      "Iams ProActive Health Adult Hairball Care with Chicken & Salmon Dry Cat Food, 3.5-lb bag"
+      "Blue Buffalo Wilderness Trail Treats Chicken Wild Bits Grain-Free Training Dog Treats, 10-oz bag"
     ],
     "ConfidenceScore": 0.0,
     "confidence_score": 0.8333333333333334,

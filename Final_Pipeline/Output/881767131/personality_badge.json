@@ -1,0 +1,16 @@
+{
+  "badge": "The Explorer",
+  "compatible_with": [
+    "The Cuddler",
+    "The Trickster",
+    "The Athlete"
+  ],
+  "icon_png": "the_explorer.png",
+  "description": "This household is full of curiosity, adventure, and affection, led by an energetic dog and a playful cat.",
+  "descriptive_words": [
+    "curious",
+    "adventurous",
+    "independent",
+    "active"
+  ]
+}

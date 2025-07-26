@@ -1,0 +1,380 @@
+{
+  "Diego": {
+    "PetName": "Diego",
+    "PetType": "Dog",
+    "PetTypeScore": 1.0,
+    "Breed": "Mixed / Unknown",
+    "BreedScore": 1.0,
+    "LifeStage": "2",
+    "LifeStageScore": 1.0,
+    "Gender": "MALE",
+    "GenderScore": 1.0,
+    "SizeCategory": "UNK",
+    "SizeScore": 0.0,
+    "Weight": "40",
+    "WeightScore": 1.0,
+    "PersonalityTraits": [
+      "affectionate",
+      "calm",
+      "sensitive"
+    ],
+    "PersonalityScores": {
+      "affectionate": 0.8,
+      "calm": 0.7,
+      "sensitive": 0.9
+    },
+    "FavoriteProductCategories": [
+      "food",
+      "medication",
+      "supplements"
+    ],
+    "CategoryScores": {
+      "food": 0.9,
+      "medication": 0.8,
+      "supplements": 0.7
+    },
+    "BrandPreferences": [
+      "VICTOR",
+      "Instinct"
+    ],
+    "BrandScores": {
+      "VICTOR": 0.9,
+      "Instinct": 0.8
+    },
+    "DietaryPreferences": [
+      "gluten-free",
+      "grain-free"
+    ],
+    "DietaryScores": {
+      "gluten-free": 0.8,
+      "grain-free": 0.8
+    },
+    "BehavioralCues": [
+      "requires medication",
+      "health-conscious"
+    ],
+    "BehavioralScores": {
+      "requires medication": 0.9,
+      "health-conscious": 0.8
+    },
+    "HealthMentions": [
+      "joint support",
+      "anxiety management"
+    ],
+    "HealthScores": {
+      "joint support": 0.8,
+      "anxiety management": 0.7
+    },
+    "MostOrderedProducts": [
+      "VICTOR Multi-Pro Normally Active Gluten-Free Dry Dog Food, 50-lb bag",
+      "Instinct Original Real Chicken Recipe Grain-Free Dry Cat Food, 11-lb bag",
+      "Fluoxetine (Generic) Capsules, 20-mg, 1 capsule"
+    ],
+    "ConfidenceScore": 0.0,
+    "confidence_score": 0.8333333333333334,
+    "name": "Diego"
+  },
+  "Dexter": {
+    "PetName": "Dexter",
+    "PetType": "Dog",
+    "PetTypeScore": 1.0,
+    "Breed": "Mixed / Unknown",
+    "BreedScore": 1.0,
+    "LifeStage": "4",
+    "LifeStageScore": 1.0,
+    "Gender": "MALE",
+    "GenderScore": 1.0,
+    "SizeCategory": "UNK",
+    "SizeScore": 0.0,
+    "Weight": "105",
+    "WeightScore": 1.0,
+    "PersonalityTraits": [
+      "affectionate",
+      "calm",
+      "sensitive"
+    ],
+    "PersonalityScores": {
+      "affectionate": 0.8,
+      "calm": 0.7,
+      "sensitive": 0.9
+    },
+    "FavoriteProductCategories": [
+      "food",
+      "medication",
+      "supplements"
+    ],
+    "CategoryScores": {
+      "food": 0.9,
+      "medication": 0.8,
+      "supplements": 0.7
+    },
+    "BrandPreferences": [
+      "VICTOR",
+      "Instinct"
+    ],
+    "BrandScores": {
+      "VICTOR": 0.9,
+      "Instinct": 0.8
+    },
+    "DietaryPreferences": [
+      "gluten-free",
+      "grain-free"
+    ],
+    "DietaryScores": {
+      "gluten-free": 0.8,
+      "grain-free": 0.8
+    },
+    "BehavioralCues": [
+      "requires medication",
+      "health-conscious"
+    ],
+    "BehavioralScores": {
+      "requires medication": 0.9,
+      "health-conscious": 0.8
+    },
+    "HealthMentions": [
+      "joint support",
+      "anxiety management"
+    ],
+    "HealthScores": {
+      "joint support": 0.8,
+      "anxiety management": 0.7
+    },
+    "MostOrderedProducts": [
+      "VICTOR Multi-Pro Normally Active Gluten-Free Dry Dog Food, 50-lb bag",
+      "Instinct Original Real Chicken Recipe Grain-Free Dry Cat Food, 11-lb bag",
+      "Fluoxetine (Generic) Capsules, 20-mg, 1 capsule"
+    ],
+    "ConfidenceScore": 0.0,
+    "confidence_score": 0.8333333333333334,
+    "name": "Dexter"
+  },
+  "Emma": {
+    "PetName": "Emma",
+    "PetType": "Dog",
+    "PetTypeScore": 1.0,
+    "Breed": "Mixed / Unknown",
+    "BreedScore": 1.0,
+    "LifeStage": "14",
+    "LifeStageScore": 1.0,
+    "Gender": "FMLE",
+    "GenderScore": 1.0,
+    "SizeCategory": "UNK",
+    "SizeScore": 0.0,
+    "Weight": "62",
+    "WeightScore": 1.0,
+    "PersonalityTraits": [
+      "affectionate",
+      "calm",
+      "sensitive"
+    ],
+    "PersonalityScores": {
+      "affectionate": 0.8,
+      "calm": 0.7,
+      "sensitive": 0.9
+    },
+    "FavoriteProductCategories": [
+      "food",
+      "medication",
+      "supplements"
+    ],
+    "CategoryScores": {
+      "food": 0.9,
+      "medication": 0.8,
+      "supplements": 0.7
+    },
+    "BrandPreferences": [
+      "VICTOR",
+      "Instinct"
+    ],
+    "BrandScores": {
+      "VICTOR": 0.9,
+      "Instinct": 0.8
+    },
+    "DietaryPreferences": [
+      "gluten-free",
+      "grain-free"
+    ],
+    "DietaryScores": {
+      "gluten-free": 0.8,
+      "grain-free": 0.8
+    },
+    "BehavioralCues": [
+      "requires medication",
+      "health-conscious"
+    ],
+    "BehavioralScores": {
+      "requires medication": 0.9,
+      "health-conscious": 0.8
+    },
+    "HealthMentions": [
+      "joint support",
+      "anxiety management"
+    ],
+    "HealthScores": {
+      "joint support": 0.8,
+      "anxiety management": 0.7
+    },
+    "MostOrderedProducts": [
+      "VICTOR Multi-Pro Normally Active Gluten-Free Dry Dog Food, 50-lb bag",
+      "Instinct Original Real Chicken Recipe Grain-Free Dry Cat Food, 11-lb bag",
+      "Fluoxetine (Generic) Capsules, 20-mg, 1 capsule"
+    ],
+    "ConfidenceScore": 0.0,
+    "confidence_score": 0.8333333333333334,
+    "name": "Emma"
+  },
+  "Layla": {
+    "PetName": "Layla",
+    "PetType": "Dog",
+    "PetTypeScore": 1.0,
+    "Breed": "Long Haired Chihuahua",
+    "BreedScore": 1.0,
+    "LifeStage": "7",
+    "LifeStageScore": 1.0,
+    "Gender": "FMLE",
+    "GenderScore": 1.0,
+    "SizeCategory": "UNK",
+    "SizeScore": 0.0,
+    "Weight": "19",
+    "WeightScore": 1.0,
+    "PersonalityTraits": [
+      "affectionate",
+      "calm",
+      "sensitive"
+    ],
+    "PersonalityScores": {
+      "affectionate": 0.8,
+      "calm": 0.7,
+      "sensitive": 0.9
+    },
+    "FavoriteProductCategories": [
+      "food",
+      "medication",
+      "supplements"
+    ],
+    "CategoryScores": {
+      "food": 0.9,
+      "medication": 0.8,
+      "supplements": 0.7
+    },
+    "BrandPreferences": [
+      "VICTOR",
+      "Instinct"
+    ],
+    "BrandScores": {
+      "VICTOR": 0.9,
+      "Instinct": 0.8
+    },
+    "DietaryPreferences": [
+      "gluten-free",
+      "grain-free"
+    ],
+    "DietaryScores": {
+      "gluten-free": 0.8,
+      "grain-free": 0.8
+    },
+    "BehavioralCues": [
+      "requires medication",
+      "health-conscious"
+    ],
+    "BehavioralScores": {
+      "requires medication": 0.9,
+      "health-conscious": 0.8
+    },
+    "HealthMentions": [
+      "joint support",
+      "anxiety management"
+    ],
+    "HealthScores": {
+      "joint support": 0.8,
+      "anxiety management": 0.7
+    },
+    "MostOrderedProducts": [
+      "VICTOR Multi-Pro Normally Active Gluten-Free Dry Dog Food, 50-lb bag",
+      "Instinct Original Real Chicken Recipe Grain-Free Dry Cat Food, 11-lb bag",
+      "Fluoxetine (Generic) Capsules, 20-mg, 1 capsule"
+    ],
+    "ConfidenceScore": 0.0,
+    "confidence_score": 0.8333333333333334,
+    "name": "Layla"
+  },
+  "Lightning": {
+    "PetName": "Lightning",
+    "PetType": "Horse",
+    "PetTypeScore": 1.0,
+    "Breed": "Other",
+    "BreedScore": 1.0,
+    "LifeStage": "20",
+    "LifeStageScore": 1.0,
+    "Gender": "MALE",
+    "GenderScore": 1.0,
+    "SizeCategory": "UNK",
+    "SizeScore": 0.0,
+    "Weight": "1200",
+    "WeightScore": 1.0,
+    "PersonalityTraits": [
+      "affectionate",
+      "calm",
+      "sensitive"
+    ],
+    "PersonalityScores": {
+      "affectionate": 0.8,
+      "calm": 0.7,
+      "sensitive": 0.9
+    },
+    "FavoriteProductCategories": [
+      "food",
+      "medication",
+      "supplements"
+    ],
+    "CategoryScores": {
+      "food": 0.9,
+      "medication": 0.8,
+      "supplements": 0.7
+    },
+    "BrandPreferences": [
+      "VICTOR",
+      "Instinct"
+    ],
+    "BrandScores": {
+      "VICTOR": 0.9,
+      "Instinct": 0.8
+    },
+    "DietaryPreferences": [
+      "gluten-free",
+      "grain-free"
+    ],
+    "DietaryScores": {
+      "gluten-free": 0.8,
+      "grain-free": 0.8
+    },
+    "BehavioralCues": [
+      "requires medication",
+      "health-conscious"
+    ],
+    "BehavioralScores": {
+      "requires medication": 0.9,
+      "health-conscious": 0.8
+    },
+    "HealthMentions": [
+      "joint support",
+      "anxiety management"
+    ],
+    "HealthScores": {
+      "joint support": 0.8,
+      "anxiety management": 0.7
+    },
+    "MostOrderedProducts": [
+      "VICTOR Multi-Pro Normally Active Gluten-Free Dry Dog Food, 50-lb bag",
+      "Instinct Original Real Chicken Recipe Grain-Free Dry Cat Food, 11-lb bag",
+      "Fluoxetine (Generic) Capsules, 20-mg, 1 capsule"
+    ],
+    "ConfidenceScore": 0.0,
+    "confidence_score": 0.8333333333333334,
+    "name": "Lightning"
+  },
+  "cust_confidence_score": 0.8333333333333334,
+  "gets_playback": true,
+  "gets_personalized": true
+}

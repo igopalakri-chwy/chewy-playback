@@ -1,0 +1,230 @@
+{
+  "Mimi": {
+    "PetName": "Mimi",
+    "PetType": "Cat",
+    "PetTypeScore": 1.0,
+    "Breed": "Other",
+    "BreedScore": 1.0,
+    "LifeStage": "12",
+    "LifeStageScore": 1.0,
+    "Gender": "FMLE",
+    "GenderScore": 1.0,
+    "SizeCategory": "UNK",
+    "SizeScore": 0.0,
+    "Weight": "6",
+    "WeightScore": 1.0,
+    "PersonalityTraits": [
+      "playful",
+      "curious",
+      "affectionate"
+    ],
+    "PersonalityScores": {
+      "playful": 0.8,
+      "curious": 0.7,
+      "affectionate": 0.9
+    },
+    "FavoriteProductCategories": [
+      "food",
+      "treats",
+      "supplements"
+    ],
+    "CategoryScores": {
+      "food": 0.9,
+      "treats": 0.8,
+      "supplements": 0.7
+    },
+    "BrandPreferences": [
+      "Nutramax",
+      "CANIDAE"
+    ],
+    "BrandScores": {
+      "Nutramax": 0.9,
+      "CANIDAE": 0.85
+    },
+    "DietaryPreferences": [
+      "grain-free",
+      "limited ingredient"
+    ],
+    "DietaryScores": {
+      "grain-free": 0.8,
+      "limited ingredient": 0.75
+    },
+    "BehavioralCues": [
+      "calm",
+      "enjoys treats"
+    ],
+    "BehavioralScores": {
+      "calm": 0.9,
+      "enjoys treats": 0.8
+    },
+    "HealthMentions": [
+      "healthy",
+      "calm"
+    ],
+    "HealthScores": {
+      "healthy": 0.8,
+      "calm": 0.9
+    },
+    "MostOrderedProducts": [
+      "Nutramax Solliquin Soft Chew Calming Behavioral Health Supplement for Large Dogs, 75 count",
+      "CANIDAE Grain-Free PURE Limited Ingredient Bison, Lentil & Carrot Recipe Dry Dog Food, 21-lb bag",
+      "Get Real Beef & Sweet Potato Recipe, 24-oz"
+    ],
+    "ConfidenceScore": 0.0,
+    "confidence_score": 0.8333333333333334,
+    "name": "Mimi"
+  },
+  "Benny": {
+    "PetName": "Benny",
+    "PetType": "Dog",
+    "PetTypeScore": 1.0,
+    "Breed": "Basset Hound",
+    "BreedScore": 1.0,
+    "LifeStage": "6",
+    "LifeStageScore": 1.0,
+    "Gender": "MALE",
+    "GenderScore": 1.0,
+    "SizeCategory": "UNK",
+    "SizeScore": 0.0,
+    "Weight": "70",
+    "WeightScore": 1.0,
+    "PersonalityTraits": [
+      "playful",
+      "curious",
+      "affectionate"
+    ],
+    "PersonalityScores": {
+      "playful": 0.8,
+      "curious": 0.7,
+      "affectionate": 0.9
+    },
+    "FavoriteProductCategories": [
+      "food",
+      "treats",
+      "supplements"
+    ],
+    "CategoryScores": {
+      "food": 0.9,
+      "treats": 0.8,
+      "supplements": 0.7
+    },
+    "BrandPreferences": [
+      "Nutramax",
+      "CANIDAE"
+    ],
+    "BrandScores": {
+      "Nutramax": 0.9,
+      "CANIDAE": 0.85
+    },
+    "DietaryPreferences": [
+      "grain-free",
+      "limited ingredient"
+    ],
+    "DietaryScores": {
+      "grain-free": 0.8,
+      "limited ingredient": 0.75
+    },
+    "BehavioralCues": [
+      "calm",
+      "enjoys treats"
+    ],
+    "BehavioralScores": {
+      "calm": 0.9,
+      "enjoys treats": 0.8
+    },
+    "HealthMentions": [
+      "healthy",
+      "calm"
+    ],
+    "HealthScores": {
+      "healthy": 0.8,
+      "calm": 0.9
+    },
+    "MostOrderedProducts": [
+      "Nutramax Solliquin Soft Chew Calming Behavioral Health Supplement for Large Dogs, 75 count",
+      "CANIDAE Grain-Free PURE Limited Ingredient Bison, Lentil & Carrot Recipe Dry Dog Food, 21-lb bag",
+      "Get Real Beef & Sweet Potato Recipe, 24-oz"
+    ],
+    "ConfidenceScore": 0.0,
+    "confidence_score": 0.8333333333333334,
+    "name": "Benny"
+  },
+  "Louis": {
+    "PetName": "Louis",
+    "PetType": "Dog",
+    "PetTypeScore": 1.0,
+    "Breed": "Mixed / Unknown",
+    "BreedScore": 1.0,
+    "LifeStage": "10",
+    "LifeStageScore": 1.0,
+    "Gender": "MALE",
+    "GenderScore": 1.0,
+    "SizeCategory": "UNK",
+    "SizeScore": 0.0,
+    "Weight": "55",
+    "WeightScore": 1.0,
+    "PersonalityTraits": [
+      "playful",
+      "curious",
+      "affectionate"
+    ],
+    "PersonalityScores": {
+      "playful": 0.8,
+      "curious": 0.7,
+      "affectionate": 0.9
+    },
+    "FavoriteProductCategories": [
+      "food",
+      "treats",
+      "supplements"
+    ],
+    "CategoryScores": {
+      "food": 0.9,
+      "treats": 0.8,
+      "supplements": 0.7
+    },
+    "BrandPreferences": [
+      "Nutramax",
+      "CANIDAE"
+    ],
+    "BrandScores": {
+      "Nutramax": 0.9,
+      "CANIDAE": 0.85
+    },
+    "DietaryPreferences": [
+      "grain-free",
+      "limited ingredient"
+    ],
+    "DietaryScores": {
+      "grain-free": 0.8,
+      "limited ingredient": 0.75
+    },
+    "BehavioralCues": [
+      "calm",
+      "enjoys treats"
+    ],
+    "BehavioralScores": {
+      "calm": 0.9,
+      "enjoys treats": 0.8
+    },
+    "HealthMentions": [
+      "healthy",
+      "calm"
+    ],
+    "HealthScores": {
+      "healthy": 0.8,
+      "calm": 0.9
+    },
+    "MostOrderedProducts": [
+      "Nutramax Solliquin Soft Chew Calming Behavioral Health Supplement for Large Dogs, 75 count",
+      "CANIDAE Grain-Free PURE Limited Ingredient Bison, Lentil & Carrot Recipe Dry Dog Food, 21-lb bag",
+      "Get Real Beef & Sweet Potato Recipe, 24-oz"
+    ],
+    "ConfidenceScore": 0.0,
+    "confidence_score": 0.8333333333333334,
+    "name": "Louis"
+  },
+  "cust_confidence_score": 0.8333333333333334,
+  "gets_playback": true,
+  "gets_personalized": true
+}

@@ -1,0 +1,147 @@
+{
+  "Gladys": {
+    "PetName": "Gladys",
+    "PetType": "Cat",
+    "PetTypeScore": 1.0,
+    "Breed": "Domestic",
+    "BreedScore": 1.0,
+    "LifeStage": "10",
+    "LifeStageScore": 1.0,
+    "Gender": "FMLE",
+    "GenderScore": 1.0,
+    "SizeCategory": "UNK",
+    "SizeScore": 0.0,
+    "Weight": "10",
+    "WeightScore": 1.0,
+    "PersonalityTraits": [
+      "playful",
+      "curious",
+      "affectionate"
+    ],
+    "PersonalityScores": {
+      "playful": 0.8,
+      "curious": 0.7,
+      "affectionate": 0.9
+    },
+    "FavoriteProductCategories": [
+      "food",
+      "treats",
+      "supplements"
+    ],
+    "CategoryScores": {
+      "food": 0.9,
+      "treats": 0.8,
+      "supplements": 0.7
+    },
+    "BrandPreferences": [
+      "Instinct",
+      "Dr. Elsey's"
+    ],
+    "BrandScores": {
+      "Instinct": 0.9,
+      "Dr. Elsey's": 0.8
+    },
+    "DietaryPreferences": [
+      "grain-free"
+    ],
+    "DietaryScores": {
+      "grain-free": 0.8
+    },
+    "BehavioralCues": [
+      "enjoys treats",
+      "loves comfort"
+    ],
+    "BehavioralScores": {
+      "enjoys treats": 0.9,
+      "loves comfort": 0.8
+    },
+    "HealthMentions": [
+      "healthy"
+    ],
+    "HealthScores": {
+      "healthy": 0.8
+    },
+    "MostOrderedProducts": [
+      "Inaba Churu Grain-Free Tuna Variety Lickable Cat Treat, 0.5-oz tube, 120 count",
+      "Instinct Original Real Chicken Recipe Grain-Free Pate Wet Cat Food, 5.5-oz can, case of 12",
+      "Dr. Elsey's Ultra Unscented Clumping Clay Cat Litter, 40-lb bag"
+    ],
+    "ConfidenceScore": 0.0,
+    "confidence_score": 0.8333333333333334,
+    "name": "Gladys"
+  },
+  "Chicken": {
+    "PetName": "Chicken",
+    "PetType": "Cat",
+    "PetTypeScore": 1.0,
+    "Breed": "Other",
+    "BreedScore": 1.0,
+    "LifeStage": "9",
+    "LifeStageScore": 1.0,
+    "Gender": "FMLE",
+    "GenderScore": 1.0,
+    "SizeCategory": "UNK",
+    "SizeScore": 0.0,
+    "Weight": "8",
+    "WeightScore": 1.0,
+    "PersonalityTraits": [
+      "playful",
+      "curious",
+      "affectionate"
+    ],
+    "PersonalityScores": {
+      "playful": 0.8,
+      "curious": 0.7,
+      "affectionate": 0.9
+    },
+    "FavoriteProductCategories": [
+      "food",
+      "treats",
+      "supplements"
+    ],
+    "CategoryScores": {
+      "food": 0.9,
+      "treats": 0.8,
+      "supplements": 0.7
+    },
+    "BrandPreferences": [
+      "Instinct",
+      "Dr. Elsey's"
+    ],
+    "BrandScores": {
+      "Instinct": 0.9,
+      "Dr. Elsey's": 0.8
+    },
+    "DietaryPreferences": [
+      "grain-free"
+    ],
+    "DietaryScores": {
+      "grain-free": 0.8
+    },
+    "BehavioralCues": [
+      "enjoys treats",
+      "loves comfort"
+    ],
+    "BehavioralScores": {
+      "enjoys treats": 0.9,
+      "loves comfort": 0.8
+    },
+    "HealthMentions": [
+      "healthy"
+    ],
+    "HealthScores": {
+      "healthy": 0.8
+    },
+    "MostOrderedProducts": [
+      "Inaba Churu Grain-Free Tuna Variety Lickable Cat Treat, 0.5-oz tube, 120 count",
+      "Instinct Original Real Chicken Recipe Grain-Free Pate Wet Cat Food, 5.5-oz can, case of 12",
+      "Dr. Elsey's Ultra Unscented Clumping Clay Cat Litter, 40-lb bag"
+    ],
+    "ConfidenceScore": 0.0,
+    "confidence_score": 0.8333333333333334,
+    "name": "Chicken"
+  },
+  "cust_confidence_score": 0.8333333333333334,
+  "gets_playback": true,
+  "gets_personalized": true
+}

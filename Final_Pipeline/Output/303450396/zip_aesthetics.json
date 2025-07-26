@@ -1,0 +1,21 @@
+{
+  "visual_style": "Urban Industrial",
+  "color_texture": "Gritty with bold, contrasting colors",
+  "art_style": "Street art and modern minimalism",
+  "tone_style": "Edgy, dynamic, and vibrant",
+  "location_background": "Vintage warehouses and modern cityscape",
+  "location_data": {
+    "background_description": "Statue of Liberty in New York Harbor",
+    "city": "Brooklyn",
+    "state": "NY",
+    "location_type": "state",
+    "landmarks": [
+      "Statue of Liberty",
+      "Niagara Falls",
+      "Adirondack Mountains",
+      "Finger Lakes"
+    ]
+  },
+  "tones": "sophisticated, refined",
+  "location_context": "Customer is from Brooklyn, NY. Consider incorporating NY state landmarks and natural features subtly in the background."
+}

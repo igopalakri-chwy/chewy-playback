@@ -1,0 +1,16 @@
+{
+  "badge": "The Explorer",
+  "compatible_with": [
+    "The Cuddler",
+    "The Athlete",
+    "The Trickster"
+  ],
+  "icon_png": "the_explorer.png",
+  "description": "This Shiba Inu is an adventurous explorer, always ready for the next game with a joyful energy that fills the home.",
+  "descriptive_words": [
+    "curious",
+    "adventurous",
+    "independent",
+    "active"
+  ]
+}
