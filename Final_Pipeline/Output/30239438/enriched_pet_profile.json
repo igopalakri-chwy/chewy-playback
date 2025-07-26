@@ -1,0 +1,78 @@
+{
+  "Fitz": {
+    "PetName": "Fitz",
+    "PetType": "Dog",
+    "PetTypeScore": 1.0,
+    "Breed": "Yorkshire Terrier",
+    "BreedScore": 1.0,
+    "LifeStage": "1",
+    "LifeStageScore": 1.0,
+    "Gender": "MALE",
+    "GenderScore": 1.0,
+    "SizeCategory": "UNK",
+    "SizeScore": 0.0,
+    "Weight": "7",
+    "WeightScore": 1.0,
+    "PersonalityTraits": [
+      "playful",
+      "curious",
+      "affectionate"
+    ],
+    "PersonalityScores": {
+      "playful": 0.9,
+      "curious": 0.7,
+      "affectionate": 0.8
+    },
+    "FavoriteProductCategories": [
+      "toys",
+      "food",
+      "treats"
+    ],
+    "CategoryScores": {
+      "toys": 0.9,
+      "food": 0.8,
+      "treats": 0.7
+    },
+    "BrandPreferences": [
+      "Get Real",
+      "Greenies"
+    ],
+    "BrandScores": {
+      "Get Real": 0.9,
+      "Greenies": 0.8
+    },
+    "DietaryPreferences": [
+      "high-protein"
+    ],
+    "DietaryScores": {
+      "high-protein": 0.7
+    },
+    "BehavioralCues": [
+      "loves toys",
+      "enjoys treats"
+    ],
+    "BehavioralScores": {
+      "loves toys": 0.9,
+      "enjoys treats": 0.8
+    },
+    "HealthMentions": [
+      "healthy",
+      "active"
+    ],
+    "HealthScores": {
+      "healthy": 0.8,
+      "active": 0.7
+    },
+    "MostOrderedProducts": [
+      "Get Real Chicken & Brussels Sprouts Recipe, 5-oz",
+      "Get Real Beef & Sweet Potato Recipe, 5-oz",
+      "Get Real Turkey & Cranberry Recipe, 5-oz"
+    ],
+    "ConfidenceScore": 0.0,
+    "confidence_score": 0.8333333333333334,
+    "name": "Fitz"
+  },
+  "cust_confidence_score": 0.8333333333333334,
+  "gets_playback": true,
+  "gets_personalized": true
+}

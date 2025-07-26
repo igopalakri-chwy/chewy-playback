@@ -1,0 +1,151 @@
+{
+  "Eugene": {
+    "PetName": "Eugene",
+    "PetType": "Cat",
+    "PetTypeScore": 1.0,
+    "Breed": "Other",
+    "BreedScore": 1.0,
+    "LifeStage": "3",
+    "LifeStageScore": 1.0,
+    "Gender": "MALE",
+    "GenderScore": 1.0,
+    "SizeCategory": "UNK",
+    "SizeScore": 0.0,
+    "Weight": "11",
+    "WeightScore": 1.0,
+    "PersonalityTraits": [
+      "playful",
+      "curious",
+      "affectionate"
+    ],
+    "PersonalityScores": {
+      "playful": 0.8,
+      "curious": 0.7,
+      "affectionate": 0.9
+    },
+    "FavoriteProductCategories": [
+      "food",
+      "toys",
+      "litter"
+    ],
+    "CategoryScores": {
+      "food": 0.9,
+      "toys": 0.7,
+      "litter": 0.8
+    },
+    "BrandPreferences": [
+      "Dr. Elsey's",
+      "Tiny Tiger",
+      "Hill's Science Diet"
+    ],
+    "BrandScores": {
+      "Dr. Elsey's": 0.9,
+      "Tiny Tiger": 0.85,
+      "Hill's Science Diet": 0.8
+    },
+    "DietaryPreferences": [
+      "grain-free"
+    ],
+    "DietaryScores": {
+      "grain-free": 0.8
+    },
+    "BehavioralCues": [
+      "enjoys variety in food",
+      "uses scratching posts"
+    ],
+    "BehavioralScores": {
+      "enjoys variety in food": 0.8,
+      "uses scratching posts": 0.9
+    },
+    "HealthMentions": [
+      "healthy"
+    ],
+    "HealthScores": {
+      "healthy": 0.8
+    },
+    "MostOrderedProducts": [
+      "Dr. Elsey's Clean Tracks Clumping Clay Cat Litter, 40-lb bag",
+      "Tiny Tiger Grain-Free Pate Chicken Recipe Canned Cat Food, 3-oz can, case of 24",
+      "Hill's Science Diet Adult Healthy Cuisine Roasted Chicken & Rice Medley Wet Cat Food, 2.8-oz can, case of 24"
+    ],
+    "ConfidenceScore": 0.0,
+    "confidence_score": 0.8333333333333334,
+    "name": "Eugene"
+  },
+  "Alice": {
+    "PetName": "Alice",
+    "PetType": "Cat",
+    "PetTypeScore": 1.0,
+    "Breed": "Other",
+    "BreedScore": 1.0,
+    "LifeStage": "3",
+    "LifeStageScore": 1.0,
+    "Gender": "FMLE",
+    "GenderScore": 1.0,
+    "SizeCategory": "UNK",
+    "SizeScore": 0.0,
+    "Weight": "10",
+    "WeightScore": 1.0,
+    "PersonalityTraits": [
+      "playful",
+      "curious",
+      "affectionate"
+    ],
+    "PersonalityScores": {
+      "playful": 0.8,
+      "curious": 0.7,
+      "affectionate": 0.9
+    },
+    "FavoriteProductCategories": [
+      "food",
+      "toys",
+      "litter"
+    ],
+    "CategoryScores": {
+      "food": 0.9,
+      "toys": 0.7,
+      "litter": 0.8
+    },
+    "BrandPreferences": [
+      "Dr. Elsey's",
+      "Tiny Tiger",
+      "Hill's Science Diet"
+    ],
+    "BrandScores": {
+      "Dr. Elsey's": 0.9,
+      "Tiny Tiger": 0.85,
+      "Hill's Science Diet": 0.8
+    },
+    "DietaryPreferences": [
+      "grain-free"
+    ],
+    "DietaryScores": {
+      "grain-free": 0.8
+    },
+    "BehavioralCues": [
+      "enjoys variety in food",
+      "uses scratching posts"
+    ],
+    "BehavioralScores": {
+      "enjoys variety in food": 0.8,
+      "uses scratching posts": 0.9
+    },
+    "HealthMentions": [
+      "healthy"
+    ],
+    "HealthScores": {
+      "healthy": 0.8
+    },
+    "MostOrderedProducts": [
+      "Dr. Elsey's Clean Tracks Clumping Clay Cat Litter, 40-lb bag",
+      "Tiny Tiger Grain-Free Pate Chicken Recipe Canned Cat Food, 3-oz can, case of 24",
+      "Hill's Science Diet Adult Healthy Cuisine Roasted Chicken & Rice Medley Wet Cat Food, 2.8-oz can, case of 24"
+    ],
+    "ConfidenceScore": 0.0,
+    "confidence_score": 0.8333333333333334,
+    "name": "Alice"
+  },
+  "cust_confidence_score": 0.8333333333333334,
+  "gets_playback": true,
+  "gets_personalized": true
+}

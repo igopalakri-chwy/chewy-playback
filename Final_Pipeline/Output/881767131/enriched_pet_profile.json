@@ -1,0 +1,151 @@
+{
+  "Potato": {
+    "PetName": "Potato",
+    "PetType": "Cat",
+    "PetTypeScore": 1.0,
+    "Breed": "Other",
+    "BreedScore": 1.0,
+    "LifeStage": "5",
+    "LifeStageScore": 1.0,
+    "Gender": "MALE",
+    "GenderScore": 1.0,
+    "SizeCategory": "UNK",
+    "SizeScore": 0.0,
+    "Weight": "15",
+    "WeightScore": 1.0,
+    "PersonalityTraits": [
+      "active",
+      "curious",
+      "affectionate"
+    ],
+    "PersonalityScores": {
+      "active": 0.8,
+      "curious": 0.7,
+      "affectionate": 0.9
+    },
+    "FavoriteProductCategories": [
+      "food",
+      "supplements"
+    ],
+    "CategoryScores": {
+      "food": 0.9,
+      "supplements": 0.8
+    },
+    "BrandPreferences": [
+      "Purina",
+      "Nom Nom"
+    ],
+    "BrandScores": {
+      "Purina": 0.9,
+      "Nom Nom": 0.8
+    },
+    "DietaryPreferences": [
+      "high-protein",
+      "grain-free"
+    ],
+    "DietaryScores": {
+      "high-protein": 0.9,
+      "grain-free": 0.8
+    },
+    "BehavioralCues": [
+      "enjoys outdoor activities",
+      "requires joint support"
+    ],
+    "BehavioralScores": {
+      "enjoys outdoor activities": 0.8,
+      "requires joint support": 0.7
+    },
+    "HealthMentions": [
+      "active",
+      "joint health"
+    ],
+    "HealthScores": {
+      "active": 0.8,
+      "joint health": 0.7
+    },
+    "MostOrderedProducts": [
+      "Kalmbach Feeds All Natural 20% Protein Flock Maker Crumbles Chicken Feed, 50-lb bag",
+      "Get Real Beef & Sweet Potato Recipe, 5-oz",
+      "Purina Pro Plan Sport Performance All Life Stages High-Protein 30/20 Beef & Bison Formula Dry Dog Food, 33-lb bag"
+    ],
+    "ConfidenceScore": 0.0,
+    "confidence_score": 0.8333333333333334,
+    "name": "Potato"
+  },
+  "Copper": {
+    "PetName": "Copper",
+    "PetType": "Dog",
+    "PetTypeScore": 1.0,
+    "Breed": "Vizsla",
+    "BreedScore": 1.0,
+    "LifeStage": "4",
+    "LifeStageScore": 1.0,
+    "Gender": "MALE",
+    "GenderScore": 1.0,
+    "SizeCategory": "UNK",
+    "SizeScore": 0.0,
+    "Weight": "59",
+    "WeightScore": 1.0,
+    "PersonalityTraits": [
+      "active",
+      "curious",
+      "affectionate"
+    ],
+    "PersonalityScores": {
+      "active": 0.8,
+      "curious": 0.7,
+      "affectionate": 0.9
+    },
+    "FavoriteProductCategories": [
+      "food",
+      "supplements"
+    ],
+    "CategoryScores": {
+      "food": 0.9,
+      "supplements": 0.8
+    },
+    "BrandPreferences": [
+      "Purina",
+      "Nom Nom"
+    ],
+    "BrandScores": {
+      "Purina": 0.9,
+      "Nom Nom": 0.8
+    },
+    "DietaryPreferences": [
+      "high-protein",
+      "grain-free"
+    ],
+    "DietaryScores": {
+      "high-protein": 0.9,
+      "grain-free": 0.8
+    },
+    "BehavioralCues": [
+      "enjoys outdoor activities",
+      "requires joint support"
+    ],
+    "BehavioralScores": {
+      "enjoys outdoor activities": 0.8,
+      "requires joint support": 0.7
+    },
+    "HealthMentions": [
+      "active",
+      "joint health"
+    ],
+    "HealthScores": {
+      "active": 0.8,
+      "joint health": 0.7
+    },
+    "MostOrderedProducts": [
+      "Kalmbach Feeds All Natural 20% Protein Flock Maker Crumbles Chicken Feed, 50-lb bag",
+      "Get Real Beef & Sweet Potato Recipe, 5-oz",
+      "Purina Pro Plan Sport Performance All Life Stages High-Protein 30/20 Beef & Bison Formula Dry Dog Food, 33-lb bag"
+    ],
+    "ConfidenceScore": 0.0,
+    "confidence_score": 0.8333333333333334,
+    "name": "Copper"
+  },
+  "cust_confidence_score": 0.8333333333333334,
+  "gets_playback": true,
+  "gets_personalized": true
+}

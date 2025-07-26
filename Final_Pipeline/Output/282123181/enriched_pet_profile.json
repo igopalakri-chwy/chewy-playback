@@ -1,0 +1,78 @@
+{
+  "Wanzy": {
+    "PetName": "Wanzy",
+    "PetType": "Dog",
+    "PetTypeScore": 1.0,
+    "Breed": "Shiba Inu",
+    "BreedScore": 1.0,
+    "LifeStage": "2",
+    "LifeStageScore": 1.0,
+    "Gender": "FMLE",
+    "GenderScore": 1.0,
+    "SizeCategory": "UNK",
+    "SizeScore": 0.0,
+    "Weight": "13",
+    "WeightScore": 1.0,
+    "PersonalityTraits": [
+      "playful",
+      "curious",
+      "affectionate"
+    ],
+    "PersonalityScores": {
+      "playful": 0.8,
+      "curious": 0.7,
+      "affectionate": 0.9
+    },
+    "FavoriteProductCategories": [
+      "food",
+      "toys"
+    ],
+    "CategoryScores": {
+      "food": 0.8,
+      "toys": 0.9
+    },
+    "BrandPreferences": [
+      "ZIWI Peak",
+      "KONG"
+    ],
+    "BrandScores": {
+      "ZIWI Peak": 0.9,
+      "KONG": 0.8
+    },
+    "DietaryPreferences": [
+      "grain-free",
+      "high-protein"
+    ],
+    "DietaryScores": {
+      "grain-free": 0.8,
+      "high-protein": 0.7
+    },
+    "BehavioralCues": [
+      "loves toys",
+      "enjoys variety in food"
+    ],
+    "BehavioralScores": {
+      "loves toys": 0.9,
+      "enjoys variety in food": 0.8
+    },
+    "HealthMentions": [
+      "healthy",
+      "active"
+    ],
+    "HealthScores": {
+      "healthy": 0.8,
+      "active": 0.7
+    },
+    "MostOrderedProducts": [
+      "ZIWI Peak Mackerel & Lamb Grain-Free Air-Dried Dog Food, 35.2-oz bag",
+      "ZIWI Peak Venison Recipe Canned Dog Food, 6-oz can, case of 12",
+      "Chewy Promotional $30 eGift Card, Included Free With an Item in Your Order"
+    ],
+    "ConfidenceScore": 0.0,
+    "confidence_score": 0.8333333333333334,
+    "name": "Wanzy"
+  },
+  "cust_confidence_score": 0.8333333333333334,
+  "gets_playback": true,
+  "gets_personalized": true
+}

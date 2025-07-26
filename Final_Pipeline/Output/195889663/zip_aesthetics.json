@@ -1,0 +1,21 @@
+{
+  "visual_style": "Modern Urban",
+  "color_texture": "Cool Tones with Brick Texture",
+  "art_style": "Contemporary Art and Graffiti",
+  "tone_style": "Casual Sophistication",
+  "location_background": "Urban Cityscape with Mountain Backdrop",
+  "location_data": {
+    "background_description": "Puget Sound with ferry boats",
+    "city": "Seattle",
+    "state": "WA",
+    "location_type": "major_city",
+    "landmarks": [
+      "Space Needle",
+      "Pike Place Market",
+      "Mount Rainier",
+      "Puget Sound"
+    ]
+  },
+  "tones": "sophisticated",
+  "location_context": "Customer is from Seattle, WA. Consider incorporating Seattle landmarks and culture subtly in the background."
+}

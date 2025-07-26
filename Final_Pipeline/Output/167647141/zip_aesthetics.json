@@ -1,0 +1,21 @@
+{
+  "visual_style": "Rustic",
+  "color_texture": "Earthy tones with smooth textures",
+  "art_style": "Naturalistic, with a focus on landscapes and wildlife",
+  "tone_style": "Calming and peaceful",
+  "location_background": "Forests, lakes, and mountain views",
+  "location_data": {
+    "background_description": "Mount St. Helens volcano",
+    "city": "Maple Valley",
+    "state": "WA",
+    "location_type": "state",
+    "landmarks": [
+      "Mount Rainier",
+      "Olympic National Park",
+      "Mount St. Helens",
+      "San Juan Islands"
+    ]
+  },
+  "tones": "authentic",
+  "location_context": "Customer is from Maple Valley, WA. Consider incorporating WA state landmarks and natural features subtly in the background."
+}

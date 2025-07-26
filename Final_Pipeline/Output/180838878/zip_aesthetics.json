@@ -1,0 +1,21 @@
+{
+  "visual_style": "Pacific Northwest Contemporary",
+  "color_texture": "Earthy tones with textures of wood and stone",
+  "art_style": "Minimalistic with Native American influences",
+  "tone_style": "Cool and Natural",
+  "location_background": "Forests, Lakes, and Mountain Views",
+  "location_data": {
+    "background_description": "San Juan Islands with orcas",
+    "city": "Redmond",
+    "state": "WA",
+    "location_type": "state",
+    "landmarks": [
+      "Mount Rainier",
+      "Olympic National Park",
+      "Mount St. Helens",
+      "San Juan Islands"
+    ]
+  },
+  "tones": "authentic, refined",
+  "location_context": "Customer is from Redmond, WA. Consider incorporating WA state landmarks and natural features subtly in the background."
+}

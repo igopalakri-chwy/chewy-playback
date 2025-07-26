@@ -1,0 +1,16 @@
+{
+  "badge": "The Explorer",
+  "compatible_with": [
+    "The Cuddler",
+    "The Trickster",
+    "The Nurturer"
+  ],
+  "icon_png": "the_explorer.png",
+  "description": "This household is filled with playful curiosity and affectionate explorations.",
+  "descriptive_words": [
+    "curious",
+    "adventurous",
+    "independent",
+    "active"
+  ]
+}
