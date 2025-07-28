@@ -1,6 +1,44 @@
 {
-  "customer_id": "180838878",
   "pet_name": "Wallace",
-  "predicted_breed": "Unknown Breed",
-  "confidence": 65.0
+  "customer_id": "180838878",
+  "prediction": {
+    "customer_id": "180838878",
+    "pet_name": "Wallace",
+    "prediction_timestamp": "2025-07-28T10:16:26.565299",
+    "breed_distribution": {
+      "germanShepherd": 40.0,
+      "borderCollie": 30.0,
+      "beagle": 30.0
+    },
+    "confidence": {
+      "score": 65.0,
+      "level": "Medium",
+      "source": "LLM-generated",
+      "reliability_flags": [],
+      "recommendations": []
+    },
+    "explanations": {
+      "germanShepherd": "The purchases of dental bone treats and high-energy toys like the Chuckit! Ultra Rubber Ball suggest a larger, active breed like a German Shepherd.",
+      "borderCollie": "The purchase of high-energy toys and grain-free food suggests a high-energy, possibly herding breed like a Border Collie.",
+      "beagle": "The purchase of dental bone treats and the Bravecto Chew for Dogs (22-44 lbs) suggests a medium-sized breed with a propensity for dental issues, like a Beagle."
+    },
+    "pet_profile_used": {
+      "age": "6",
+      "size": "UNK",
+      "gender": "UNKN",
+      "order_count": 25,
+      "health_indicators": []
+    },
+    "top_predicted_breed": {
+      "breed": "germanShepherd",
+      "percentage": 40.0
+    }
+  },
+  "timestamp": "",
+  "predicted_breed": "Unknown",
+  "breed_percentages": {},
+  "confidence_score": 65.0,
+  "confidence_level": "Medium",
+  "reasoning": "No reasoning provided",
+  "data_used": {}
 }

@@ -1,6 +1,94 @@
 {
   "customer_id": "887148270",
-  "pet_name": "Gigi",
-  "predicted_breed": "Unknown Breed",
-  "confidence": 65.0
+  "multiple_predictions": [
+    {
+      "pet_name": "Gigi",
+      "customer_id": "887148270",
+      "prediction": {
+        "customer_id": "887148270",
+        "pet_name": "Gigi",
+        "prediction_timestamp": "2025-07-28T09:39:30.020712",
+        "breed_distribution": {
+          "beagle": 40.0,
+          "bostonTerrier": 30.0,
+          "frenchBulldog": 30.0
+        },
+        "confidence": {
+          "score": 70.0,
+          "level": "High",
+          "source": "LLM-generated",
+          "reliability_flags": [],
+          "recommendations": []
+        },
+        "explanations": {
+          "beagle": "The purchase of grain-free food and dental chews suggests a breed like Beagle, which is known for food sensitivities and dental issues.",
+          "bostonTerrier": "The purchase of small to medium-sized products, including the OraVet Dental Chews for Small Dogs and Chuckit! Ultra Rubber Ball Tough Dog Toy, suggests a smaller breed like a Boston Terrier.",
+          "frenchBulldog": "The purchase of grain-free food, dental chews, and small to medium-sized products suggest a breed with food sensitivities and dental issues, like a French Bulldog."
+        },
+        "pet_profile_used": {
+          "age": "5",
+          "size": "UNK",
+          "gender": "FMLE",
+          "order_count": 55,
+          "health_indicators": []
+        },
+        "top_predicted_breed": {
+          "breed": "beagle",
+          "percentage": 40.0
+        }
+      },
+      "timestamp": "",
+      "predicted_breed": "Unknown",
+      "breed_percentages": {},
+      "confidence_score": 70.0,
+      "confidence_level": "High",
+      "reasoning": "No reasoning provided",
+      "data_used": {}
+    },
+    {
+      "pet_name": "Daniel",
+      "customer_id": "887148270",
+      "prediction": {
+        "customer_id": "887148270",
+        "pet_name": "Daniel",
+        "prediction_timestamp": "2025-07-28T09:39:40.085319",
+        "breed_distribution": {
+          "beagle": 40.0,
+          "frenchBulldog": 30.0,
+          "bostonTerrier": 30.0
+        },
+        "confidence": {
+          "score": 60.0,
+          "level": "Medium",
+          "source": "LLM-generated",
+          "reliability_flags": [],
+          "recommendations": []
+        },
+        "explanations": {
+          "beagle": "The purchase of grain-free food and dental chews suggests a breed like the Beagle, which often has food sensitivities and dental issues.",
+          "frenchBulldog": "The purchase of small to medium-sized dog items, including a rubber ball toy and dental chews, aligns with the characteristics of a French Bulldog.",
+          "bostonTerrier": "The purchase of small to medium-sized items, including dental chews and grain-free food, suggests a breed like the Boston Terrier, which is known for dental issues and food sensitivities."
+        },
+        "pet_profile_used": {
+          "age": "12",
+          "size": "UNK",
+          "gender": "MALE",
+          "order_count": 55,
+          "health_indicators": []
+        },
+        "top_predicted_breed": {
+          "breed": "beagle",
+          "percentage": 40.0
+        }
+      },
+      "timestamp": "",
+      "predicted_breed": "Unknown",
+      "breed_percentages": {},
+      "confidence_score": 60.0,
+      "confidence_level": "Medium",
+      "reasoning": "No reasoning provided",
+      "data_used": {}
+    }
+  ],
+  "total_predictions": 2
 }

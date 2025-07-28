@@ -1,12 +1,12 @@
 {
   "badge": "The Explorer",
   "compatible_with": [
+    "The Cuddler",
     "The Athlete",
-    "The Guardian",
     "The Trickster"
   ],
   "icon_png": "the_explorer.png",
-  "description": "This household is full of variety-loving, health-conscious adventurers who thrive on new experiences and flavors.",
+  "description": "This household is full of energetic and playful pets who are always ready for a new adventure and love exploring new tastes and toys.",
   "descriptive_words": [
     "curious",
     "adventurous",

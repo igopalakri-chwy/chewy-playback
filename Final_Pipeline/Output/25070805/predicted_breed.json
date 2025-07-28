@@ -1,6 +1,94 @@
 {
   "customer_id": "25070805",
-  "pet_name": "Milo",
-  "predicted_breed": "Unknown Breed",
-  "confidence": 60.0
+  "multiple_predictions": [
+    {
+      "pet_name": "Milo",
+      "customer_id": "25070805",
+      "prediction": {
+        "customer_id": "25070805",
+        "pet_name": "Milo",
+        "prediction_timestamp": "2025-07-28T10:21:36.731570",
+        "breed_distribution": {
+          "bostonTerrier": 40.0,
+          "frenchBulldog": 30.0,
+          "beagle": 30.0
+        },
+        "confidence": {
+          "score": 70.0,
+          "level": "High",
+          "source": "LLM-generated",
+          "reliability_flags": [],
+          "recommendations": []
+        },
+        "explanations": {
+          "bostonTerrier": "The purchase of small breed specific food and dental chews suggests a small breed prone to dental issues, which is common in Boston Terriers.",
+          "frenchBulldog": "The purchase of calming supplements suggests a breed that can be anxious or high-strung, which is often seen in French Bulldogs.",
+          "beagle": "The purchase of a variety of chew treats suggests a breed that enjoys chewing, a characteristic often seen in Beagles."
+        },
+        "pet_profile_used": {
+          "age": "8",
+          "size": "UNK",
+          "gender": "MALE",
+          "order_count": 33,
+          "health_indicators": []
+        },
+        "top_predicted_breed": {
+          "breed": "bostonTerrier",
+          "percentage": 40.0
+        }
+      },
+      "timestamp": "",
+      "predicted_breed": "Unknown",
+      "breed_percentages": {},
+      "confidence_score": 70.0,
+      "confidence_level": "High",
+      "reasoning": "No reasoning provided",
+      "data_used": {}
+    },
+    {
+      "pet_name": "Guinness",
+      "customer_id": "25070805",
+      "prediction": {
+        "customer_id": "25070805",
+        "pet_name": "Guinness",
+        "prediction_timestamp": "2025-07-28T10:21:47.688419",
+        "breed_distribution": {
+          "miniaturePinscher": 40.0,
+          "bostonTerrier": 30.0,
+          "beagle": 30.0
+        },
+        "confidence": {
+          "score": 70.0,
+          "level": "High",
+          "source": "LLM-generated",
+          "reliability_flags": [],
+          "recommendations": []
+        },
+        "explanations": {
+          "miniaturePinscher": "The purchase of small breed specific food and the presence of urinary health issues, which Miniature Pinschers are prone to, suggest this breed.",
+          "bostonTerrier": "The purchase of grain-free food, a diet often recommended for Boston Terriers due to their sensitivity to grains, and the use of calming products, which aligns with the breed's sometimes anxious behavior, suggest this breed.",
+          "beagle": "The purchase of long-lasting chew treats and the use of a calming supplement suggest a Beagle, as they are known for their chewing tendencies and can be high-strung."
+        },
+        "pet_profile_used": {
+          "age": "12",
+          "size": "UNK",
+          "gender": "MALE",
+          "order_count": 33,
+          "health_indicators": []
+        },
+        "top_predicted_breed": {
+          "breed": "miniaturePinscher",
+          "percentage": 40.0
+        }
+      },
+      "timestamp": "",
+      "predicted_breed": "Unknown",
+      "breed_percentages": {},
+      "confidence_score": 70.0,
+      "confidence_level": "High",
+      "reasoning": "No reasoning provided",
+      "data_used": {}
+    }
+  ],
+  "total_predictions": 2
 }

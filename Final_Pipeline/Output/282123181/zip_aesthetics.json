@@ -1,9 +1,9 @@
 {
-  "visual_style": "Traditional New England",
-  "color_texture": "Earthy tones with brick red and forest green highlights",
-  "art_style": "Colonial and Georgian architecture influenced",
-  "tone_style": "Warm, relaxed, and historical",
-  "location_background": "Picturesque landscapes of the Blue Hills Reservation and Neponset River",
+  "visual_style": "Classic New England",
+  "color_texture": "Varied, with a focus on warm earth tones and rich greens",
+  "art_style": "Traditional, with influences of Colonial and Georgian architecture",
+  "tone_style": "Serene, inviting, and grounded",
+  "location_background": "Scenic landscapes, historical buildings, lush parks, and the Neponset River",
   "location_data": {
     "background_description": "a beautiful outdoor setting with natural scenery",
     "city": "Milton",
@@ -11,6 +11,6 @@
     "location_type": "unknown",
     "landmarks": []
   },
-  "tones": "authentic",
+  "tones": "warm, friendly",
   "location_context": "Customer is from Milton, MA. Use general regional aesthetics."
 }

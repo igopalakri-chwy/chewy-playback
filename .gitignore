@@ -95,3 +95,6 @@ Final_Pipeline/Data/order_history.csv
 Final_Pipeline/Data/reviews.csv
 Final_Pipeline/Data/zero_reviews.csv
 Final_Pipeline/Data/processed_orderhistory.csv
+
+# Output files
+Final_Pipeline/Output/

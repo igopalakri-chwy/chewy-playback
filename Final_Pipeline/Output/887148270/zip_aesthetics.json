@@ -1,11 +1,11 @@
 {
-  "visual_style": "Northwestern Naturalistic",
-  "color_texture": "Earthy Tones with Green and Blue Accents",
-  "art_style": "Contemporary with Native American Influences",
-  "tone_style": "Cool and Calm",
-  "location_background": "Forests, Rivers, and Mountain Views",
+  "visual_style": "Suburban Modern",
+  "color_texture": "Earthy Tones with Smooth Textures",
+  "art_style": "Contemporary with a touch of Pacific Northwest Folk",
+  "tone_style": "Warm, Inviting, and Calm",
+  "location_background": "Evergreen Forests and Meandering Rivers",
   "location_data": {
-    "background_description": "Mount Rainier with wildflowers",
+    "background_description": "San Juan Islands with orcas",
     "city": "Bothell",
     "state": "WA",
     "location_type": "state",
@@ -16,6 +16,6 @@
       "San Juan Islands"
     ]
   },
-  "tones": "authentic",
+  "tones": "sophisticated, authentic",
   "location_context": "Customer is from Bothell, WA. Consider incorporating WA state landmarks and natural features subtly in the background."
 }

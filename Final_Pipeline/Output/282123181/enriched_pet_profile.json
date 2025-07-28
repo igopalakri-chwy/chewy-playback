@@ -24,12 +24,12 @@
       "affectionate": 0.9
     },
     "FavoriteProductCategories": [
-      "food",
-      "toys"
+      "toys",
+      "food"
     ],
     "CategoryScores": {
-      "food": 0.8,
-      "toys": 0.9
+      "toys": 0.9,
+      "food": 0.8
     },
     "BrandPreferences": [
       "ZIWI Peak",
@@ -49,11 +49,11 @@
     },
     "BehavioralCues": [
       "loves toys",
-      "enjoys variety in food"
+      "enjoys food variety"
     ],
     "BehavioralScores": {
       "loves toys": 0.9,
-      "enjoys variety in food": 0.8
+      "enjoys food variety": 0.8
     },
     "HealthMentions": [
       "healthy",
@@ -66,7 +66,7 @@
     "MostOrderedProducts": [
       "ZIWI Peak Mackerel & Lamb Grain-Free Air-Dried Dog Food, 35.2-oz bag",
       "ZIWI Peak Venison Recipe Canned Dog Food, 6-oz can, case of 12",
-      "Chewy Promotional $30 eGift Card, Included Free With an Item in Your Order"
+      "KONG Snuzzles Mini Duck Squeaky Dog Plush Toy, Yellow, X-Small"
     ],
     "ConfidenceScore": 0.0,
     "confidence_score": 0.8333333333333334,

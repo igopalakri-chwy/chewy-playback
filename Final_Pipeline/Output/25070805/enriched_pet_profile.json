@@ -56,15 +56,17 @@
       "loves puzzles": 0.8
     },
     "HealthMentions": [
-      "urinary health"
+      "healthy",
+      "active"
     ],
     "HealthScores": {
-      "urinary health": 0.9
+      "healthy": 0.8,
+      "active": 0.7
     },
     "MostOrderedProducts": [
       "Earth Animal No-Hide Stix Long Lasting Natural Rawhide Alternative Salmon Recipe Chew Dog & Cat Treat Sticks, 10 count",
-      "Earth Animal No-Hide Stix Long Lasting Natural Rawhide Alternative Chicken Recipe Chew Dog & Cat Treat Sticks, 10 count",
-      "Royal Canin Veterinary Diet Adult Urinary SO Small Breed Dry Dog Food, 8.8-lb bag"
+      "Royal Canin Veterinary Diet Adult Urinary SO Small Breed Dry Dog Food, 8.8-lb bag",
+      "Earth Animal No-Hide Stix Long Lasting Natural Rawhide Alternative Chicken Recipe Chew Dog & Cat Treat Sticks, 10 count"
     ],
     "ConfidenceScore": 0.0,
     "confidence_score": 0.8333333333333334,
@@ -127,15 +129,17 @@
       "loves puzzles": 0.8
     },
     "HealthMentions": [
-      "urinary health"
+      "healthy",
+      "active"
     ],
     "HealthScores": {
-      "urinary health": 0.9
+      "healthy": 0.8,
+      "active": 0.7
     },
     "MostOrderedProducts": [
       "Earth Animal No-Hide Stix Long Lasting Natural Rawhide Alternative Salmon Recipe Chew Dog & Cat Treat Sticks, 10 count",
-      "Earth Animal No-Hide Stix Long Lasting Natural Rawhide Alternative Chicken Recipe Chew Dog & Cat Treat Sticks, 10 count",
-      "Royal Canin Veterinary Diet Adult Urinary SO Small Breed Dry Dog Food, 8.8-lb bag"
+      "Royal Canin Veterinary Diet Adult Urinary SO Small Breed Dry Dog Food, 8.8-lb bag",
+      "Earth Animal No-Hide Stix Long Lasting Natural Rawhide Alternative Chicken Recipe Chew Dog & Cat Treat Sticks, 10 count"
     ],
     "ConfidenceScore": 0.0,
     "confidence_score": 0.8333333333333334,

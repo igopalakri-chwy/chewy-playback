@@ -1,11 +1,11 @@
 {
-  "visual_style": "Modern Tropical",
-  "color_texture": "Vivid colors with smooth textures",
+  "visual_style": "Tropical Modernism",
+  "color_texture": "Bright and Vibrant",
   "art_style": "Art Deco and Graffiti",
-  "tone_style": "Bright and Vibrant",
-  "location_background": "Urban cityscape with beach and palm trees",
+  "tone_style": "Warm and Lively",
+  "location_background": "Ocean, Palm Trees, and High-rise Buildings",
   "location_data": {
-    "background_description": "Art Deco buildings on Ocean Drive",
+    "background_description": "South Beach with palm trees and ocean",
     "city": "Miami",
     "state": "FL",
     "location_type": "major_city",

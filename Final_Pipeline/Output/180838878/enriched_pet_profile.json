@@ -14,27 +14,31 @@
     "Weight": "14",
     "WeightScore": 1.0,
     "PersonalityTraits": [
+      "playful",
       "health-conscious",
-      "enjoys variety"
+      "affectionate"
     ],
     "PersonalityScores": {
+      "playful": 0.7,
       "health-conscious": 0.9,
-      "enjoys variety": 0.7
+      "affectionate": 0.8
     },
     "FavoriteProductCategories": [
-      "dental treats",
-      "food"
+      "dental care",
+      "food",
+      "treats"
     ],
     "CategoryScores": {
-      "dental treats": 0.9,
-      "food": 0.8
+      "dental care": 0.9,
+      "food": 0.8,
+      "treats": 0.7
     },
     "BrandPreferences": [
-      "ProDen",
+      "ProDen PlaqueOff",
       "Nom Nom"
     ],
     "BrandScores": {
-      "ProDen": 0.9,
+      "ProDen PlaqueOff": 0.9,
       "Nom Nom": 0.8
     },
     "DietaryPreferences": [
@@ -44,23 +48,25 @@
       "grain-free": 0.8
     },
     "BehavioralCues": [
-      "enjoys dental care",
-      "varied diet"
+      "enjoys dental treats",
+      "prefers variety in food"
     ],
     "BehavioralScores": {
-      "enjoys dental care": 0.9,
-      "varied diet": 0.7
+      "enjoys dental treats": 0.9,
+      "prefers variety in food": 0.7
     },
     "HealthMentions": [
-      "healthy"
+      "healthy",
+      "dental care focused"
     ],
     "HealthScores": {
-      "healthy": 0.8
+      "healthy": 0.8,
+      "dental care focused": 0.9
     },
     "MostOrderedProducts": [
       "ProDen PlaqueOff System Chicken & Pumpkin Flavored Dental Bone Dog Treats, 13 count",
       "ProDen PlaqueOff System Natural Bacon Flavored Dental Bone Dog Treats, 13 count",
-      "Bravecto Chew for Dogs, 44-88 lbs, (Blue Box), 1 Chew (12-wks. supply)"
+      "Nom Nom Freshly-Made Frozen Turkey Fare Dog Food, 14-oz pouch, case of 7"
     ],
     "ConfidenceScore": 0.0,
     "confidence_score": 0.8333333333333334,
@@ -81,27 +87,31 @@
     "Weight": "45",
     "WeightScore": 1.0,
     "PersonalityTraits": [
+      "playful",
       "health-conscious",
-      "enjoys variety"
+      "affectionate"
     ],
     "PersonalityScores": {
+      "playful": 0.7,
       "health-conscious": 0.9,
-      "enjoys variety": 0.7
+      "affectionate": 0.8
     },
     "FavoriteProductCategories": [
-      "dental treats",
-      "food"
+      "dental care",
+      "food",
+      "treats"
     ],
     "CategoryScores": {
-      "dental treats": 0.9,
-      "food": 0.8
+      "dental care": 0.9,
+      "food": 0.8,
+      "treats": 0.7
     },
     "BrandPreferences": [
-      "ProDen",
+      "ProDen PlaqueOff",
       "Nom Nom"
     ],
     "BrandScores": {
-      "ProDen": 0.9,
+      "ProDen PlaqueOff": 0.9,
       "Nom Nom": 0.8
     },
     "DietaryPreferences": [
@@ -111,23 +121,25 @@
       "grain-free": 0.8
     },
     "BehavioralCues": [
-      "enjoys dental care",
-      "varied diet"
+      "enjoys dental treats",
+      "prefers variety in food"
     ],
     "BehavioralScores": {
-      "enjoys dental care": 0.9,
-      "varied diet": 0.7
+      "enjoys dental treats": 0.9,
+      "prefers variety in food": 0.7
     },
     "HealthMentions": [
-      "healthy"
+      "healthy",
+      "dental care focused"
     ],
     "HealthScores": {
-      "healthy": 0.8
+      "healthy": 0.8,
+      "dental care focused": 0.9
     },
     "MostOrderedProducts": [
       "ProDen PlaqueOff System Chicken & Pumpkin Flavored Dental Bone Dog Treats, 13 count",
       "ProDen PlaqueOff System Natural Bacon Flavored Dental Bone Dog Treats, 13 count",
-      "Bravecto Chew for Dogs, 44-88 lbs, (Blue Box), 1 Chew (12-wks. supply)"
+      "Nom Nom Freshly-Made Frozen Turkey Fare Dog Food, 14-oz pouch, case of 7"
     ],
     "ConfidenceScore": 0.0,
     "confidence_score": 0.8333333333333334,
@@ -148,27 +160,31 @@
     "Weight": "45",
     "WeightScore": 1.0,
     "PersonalityTraits": [
+      "playful",
       "health-conscious",
-      "enjoys variety"
+      "affectionate"
     ],
     "PersonalityScores": {
+      "playful": 0.7,
       "health-conscious": 0.9,
-      "enjoys variety": 0.7
+      "affectionate": 0.8
     },
     "FavoriteProductCategories": [
-      "dental treats",
-      "food"
+      "dental care",
+      "food",
+      "treats"
     ],
     "CategoryScores": {
-      "dental treats": 0.9,
-      "food": 0.8
+      "dental care": 0.9,
+      "food": 0.8,
+      "treats": 0.7
     },
     "BrandPreferences": [
-      "ProDen",
+      "ProDen PlaqueOff",
       "Nom Nom"
     ],
     "BrandScores": {
-      "ProDen": 0.9,
+      "ProDen PlaqueOff": 0.9,
       "Nom Nom": 0.8
     },
     "DietaryPreferences": [
@@ -178,23 +194,25 @@
       "grain-free": 0.8
     },
     "BehavioralCues": [
-      "enjoys dental care",
-      "varied diet"
+      "enjoys dental treats",
+      "prefers variety in food"
     ],
     "BehavioralScores": {
-      "enjoys dental care": 0.9,
-      "varied diet": 0.7
+      "enjoys dental treats": 0.9,
+      "prefers variety in food": 0.7
     },
     "HealthMentions": [
-      "healthy"
+      "healthy",
+      "dental care focused"
     ],
     "HealthScores": {
-      "healthy": 0.8
+      "healthy": 0.8,
+      "dental care focused": 0.9
     },
     "MostOrderedProducts": [
       "ProDen PlaqueOff System Chicken & Pumpkin Flavored Dental Bone Dog Treats, 13 count",
       "ProDen PlaqueOff System Natural Bacon Flavored Dental Bone Dog Treats, 13 count",
-      "Bravecto Chew for Dogs, 44-88 lbs, (Blue Box), 1 Chew (12-wks. supply)"
+      "Nom Nom Freshly-Made Frozen Turkey Fare Dog Food, 14-oz pouch, case of 7"
     ],
     "ConfidenceScore": 0.0,
     "confidence_score": 0.8333333333333334,
