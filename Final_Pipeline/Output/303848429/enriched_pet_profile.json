@@ -1,0 +1,80 @@
+{
+  "Hooper": {
+    "PetName": "Hooper",
+    "PetType": "Dog",
+    "PetTypeScore": 1.0,
+    "Breed": "Labrador Retriever",
+    "BreedScore": 1.0,
+    "LifeStage": "8",
+    "LifeStageScore": 1.0,
+    "Gender": "MALE",
+    "GenderScore": 1.0,
+    "SizeCategory": "UNK",
+    "SizeScore": 0.0,
+    "Weight": "72",
+    "WeightScore": 1.0,
+    "PersonalityTraits": [
+      "playful",
+      "curious",
+      "affectionate"
+    ],
+    "PersonalityScores": {
+      "playful": 0.9,
+      "curious": 0.7,
+      "affectionate": 0.8
+    },
+    "FavoriteProductCategories": [
+      "toys",
+      "food",
+      "supplements"
+    ],
+    "CategoryScores": {
+      "toys": 0.9,
+      "food": 0.8,
+      "supplements": 0.7
+    },
+    "BrandPreferences": [
+      "Purina Pro Plan",
+      "KONG"
+    ],
+    "BrandScores": {
+      "Purina Pro Plan": 0.9,
+      "KONG": 0.8
+    },
+    "DietaryPreferences": [
+      "vegetarian",
+      "hypoallergenic"
+    ],
+    "DietaryScores": {
+      "vegetarian": 0.9,
+      "hypoallergenic": 0.8
+    },
+    "BehavioralCues": [
+      "loves toys",
+      "requires special diet"
+    ],
+    "BehavioralScores": {
+      "loves toys": 0.9,
+      "requires special diet": 0.8
+    },
+    "HealthMentions": [
+      "sensitive skin",
+      "allergies"
+    ],
+    "HealthScores": {
+      "sensitive skin": 0.9,
+      "allergies": 0.8
+    },
+    "MostOrderedProducts": [
+      "Purina Pro Plan Veterinary Diets HA Hydrolyzed Vegetarian Dry Dog Food, 25-lb bag",
+      "Galliprant (grapiprant) Tablets for Dogs, 60-mg, 1 tablet",
+      "Apoquel (oclacitinib) Tablets for Dogs, 16-mg, 1 tablet"
+    ],
+    "ConfidenceScore": 0.0,
+    "confidence_score": 0.8333333333333334,
+    "name": "Hooper"
+  },
+  "cust_confidence_score": 0.8333333333333334,
+  "gets_playback": true,
+  "gets_personalized": true
+}

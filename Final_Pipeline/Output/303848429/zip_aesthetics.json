@@ -1,0 +1,21 @@
+{
+  "visual_style": "Coastal",
+  "color_texture": "Blue shades with sandy textures",
+  "art_style": "Nautical and beach-themed",
+  "tone_style": "Bright and airy",
+  "location_background": "Ocean and beach scenery",
+  "location_data": {
+    "background_description": "Virginia Beach boardwalk",
+    "city": "Virginia Beach",
+    "state": "VA",
+    "location_type": "state",
+    "landmarks": [
+      "Colonial Williamsburg",
+      "Shenandoah National Park",
+      "Virginia Beach",
+      "Blue Ridge Mountains"
+    ]
+  },
+  "tones": "warm, friendly",
+  "location_context": "Customer is from Virginia Beach, VA. Consider incorporating VA state landmarks and natural features subtly in the background."
+}

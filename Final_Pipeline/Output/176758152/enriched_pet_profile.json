@@ -1,0 +1,155 @@
+{
+  "Castor": {
+    "PetName": "Castor",
+    "PetType": "Cat",
+    "PetTypeScore": 1.0,
+    "Breed": "Domestic",
+    "BreedScore": 1.0,
+    "LifeStage": "None",
+    "LifeStageScore": 1.0,
+    "Gender": "MALE",
+    "GenderScore": 1.0,
+    "SizeCategory": "UNK",
+    "SizeScore": 0.0,
+    "Weight": "None",
+    "WeightScore": 1.0,
+    "PersonalityTraits": [
+      "playful",
+      "curious",
+      "affectionate"
+    ],
+    "PersonalityScores": {
+      "playful": 0.8,
+      "curious": 0.7,
+      "affectionate": 0.9
+    },
+    "FavoriteProductCategories": [
+      "food",
+      "treats"
+    ],
+    "CategoryScores": {
+      "food": 0.9,
+      "treats": 0.8
+    },
+    "BrandPreferences": [
+      "Hill's",
+      "Royal Canin",
+      "Nulo"
+    ],
+    "BrandScores": {
+      "Hill's": 0.9,
+      "Royal Canin": 0.8,
+      "Nulo": 0.7
+    },
+    "DietaryPreferences": [
+      "urinary care",
+      "grain-free"
+    ],
+    "DietaryScores": {
+      "urinary care": 0.9,
+      "grain-free": 0.8
+    },
+    "BehavioralCues": [
+      "enjoys variety in diet",
+      "requires special dietary care"
+    ],
+    "BehavioralScores": {
+      "enjoys variety in diet": 0.8,
+      "requires special dietary care": 0.9
+    },
+    "HealthMentions": [
+      "urinary health",
+      "active"
+    ],
+    "HealthScores": {
+      "urinary health": 0.9,
+      "active": 0.7
+    },
+    "MostOrderedProducts": [
+      "Hill's Prescription Diet c/d Multicare Urinary Care with Ocean Fish Wet Cat Food, 5.5-oz, case of 24",
+      "Royal Canin Veterinary Diet Adult Urinary SO Dry Cat Food, 7.7-lb bag",
+      "Nulo Signature Stews Grain-Free Chicken & Sweet Potato in Broth Small Breed Wet Dog Food, 2.8-oz cup, case of 24"
+    ],
+    "ConfidenceScore": 0.0,
+    "confidence_score": 0.8333333333333334,
+    "name": "Castor"
+  },
+  "Luca": {
+    "PetName": "Luca",
+    "PetType": "Dog",
+    "PetTypeScore": 1.0,
+    "Breed": "Chihuahua",
+    "BreedScore": 1.0,
+    "LifeStage": "2",
+    "LifeStageScore": 1.0,
+    "Gender": "MALE",
+    "GenderScore": 1.0,
+    "SizeCategory": "UNK",
+    "SizeScore": 0.0,
+    "Weight": "14",
+    "WeightScore": 1.0,
+    "PersonalityTraits": [
+      "playful",
+      "curious",
+      "affectionate"
+    ],
+    "PersonalityScores": {
+      "playful": 0.8,
+      "curious": 0.7,
+      "affectionate": 0.9
+    },
+    "FavoriteProductCategories": [
+      "food",
+      "treats"
+    ],
+    "CategoryScores": {
+      "food": 0.9,
+      "treats": 0.8
+    },
+    "BrandPreferences": [
+      "Hill's",
+      "Royal Canin",
+      "Nulo"
+    ],
+    "BrandScores": {
+      "Hill's": 0.9,
+      "Royal Canin": 0.8,
+      "Nulo": 0.7
+    },
+    "DietaryPreferences": [
+      "urinary care",
+      "grain-free"
+    ],
+    "DietaryScores": {
+      "urinary care": 0.9,
+      "grain-free": 0.8
+    },
+    "BehavioralCues": [
+      "enjoys variety in diet",
+      "requires special dietary care"
+    ],
+    "BehavioralScores": {
+      "enjoys variety in diet": 0.8,
+      "requires special dietary care": 0.9
+    },
+    "HealthMentions": [
+      "urinary health",
+      "active"
+    ],
+    "HealthScores": {
+      "urinary health": 0.9,
+      "active": 0.7
+    },
+    "MostOrderedProducts": [
+      "Hill's Prescription Diet c/d Multicare Urinary Care with Ocean Fish Wet Cat Food, 5.5-oz, case of 24",
+      "Royal Canin Veterinary Diet Adult Urinary SO Dry Cat Food, 7.7-lb bag",
+      "Nulo Signature Stews Grain-Free Chicken & Sweet Potato in Broth Small Breed Wet Dog Food, 2.8-oz cup, case of 24"
+    ],
+    "ConfidenceScore": 0.0,
+    "confidence_score": 0.8333333333333334,
+    "name": "Luca"
+  },
+  "cust_confidence_score": 0.8333333333333334,
+  "gets_playback": true,
+  "gets_personalized": true
+}

@@ -1,0 +1,16 @@
+{
+  "badge": "The Explorer",
+  "compatible_with": [
+    "The Athlete",
+    "The Guardian",
+    "The Trickster"
+  ],
+  "icon_png": "the_explorer.png",
+  "description": "This household is full of variety-loving, health-conscious adventurers who thrive on new experiences and flavors.",
+  "descriptive_words": [
+    "curious",
+    "adventurous",
+    "independent",
+    "active"
+  ]
+}

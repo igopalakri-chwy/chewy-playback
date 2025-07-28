@@ -1,0 +1,16 @@
+{
+  "badge": "The Explorer",
+  "compatible_with": [
+    "The Athlete",
+    "The Trickster",
+    "The Cuddler"
+  ],
+  "icon_png": "the_explorer.png",
+  "description": "This feline duo has a playful, curious, and affectionate energy always ready for their next adventure!",
+  "descriptive_words": [
+    "curious",
+    "adventurous",
+    "independent",
+    "active"
+  ]
+}

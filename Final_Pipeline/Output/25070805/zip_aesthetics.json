@@ -1,0 +1,21 @@
+{
+  "visual_style": "Modern Tropical",
+  "color_texture": "Vivid colors with smooth textures",
+  "art_style": "Art Deco and Graffiti",
+  "tone_style": "Bright and Vibrant",
+  "location_background": "Urban cityscape with beach and palm trees",
+  "location_data": {
+    "background_description": "Art Deco buildings on Ocean Drive",
+    "city": "Miami",
+    "state": "FL",
+    "location_type": "major_city",
+    "landmarks": [
+      "South Beach",
+      "Art Deco District",
+      "Biscayne Bay",
+      "Vizcaya Museum"
+    ]
+  },
+  "tones": "sophisticated, energetic",
+  "location_context": "Customer is from Miami, FL. Consider incorporating Miami landmarks and culture subtly in the background."
+}

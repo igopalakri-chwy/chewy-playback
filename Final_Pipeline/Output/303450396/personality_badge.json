@@ -1,0 +1,16 @@
+{
+  "badge": "The Athlete",
+  "compatible_with": [
+    "The Guardian",
+    "The Explorer",
+    "The Trickster"
+  ],
+  "icon_png": "the_athlete.png",
+  "description": "This household is bursting with energy and drive, always ready for action and play.",
+  "descriptive_words": [
+    "energetic",
+    "driven",
+    "fast",
+    "focused"
+  ]
+}
