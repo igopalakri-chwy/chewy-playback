@@ -110,13 +110,19 @@ class UnknownsAnalyzer:
             return None
         
         try:
-            # Get pet profile data from query_2
-            customer_data = self.snowflake_connector.get_customer_data(customer_id)
-            if not customer_data or 'query_2' not in customer_data:
-                logger.warning(f"No query_2 data found for customer {customer_id}")
+            # Get pet profile data from cached data
+            if hasattr(self, 'pipeline') and self.pipeline:
+                # Use pipeline's cached data
+                customer_data = self.pipeline._get_all_customer_data(customer_id)
+                pet_profile_data = customer_data.get('get_pet_profiles', [])
+            else:
+                # No fallback - pipeline should always provide cached data
+                logger.error(f"No pipeline reference available for customer {customer_id}")
                 return None
             
-            pet_profile_data = customer_data['query_2']
+            if not pet_profile_data:
+                logger.warning(f"No pet profile data found for customer {customer_id}")
+                return None
             unknowns = self.scan_pet_profile_data_for_unknowns(pet_profile_data, customer_id)
             
             return unknowns

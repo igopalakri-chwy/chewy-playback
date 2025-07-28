@@ -1,13 +1,80 @@
 from flask import Flask, render_template, request, jsonify, send_from_directory
 import json
 import os
+import subprocess
+import sys
 from pathlib import Path
+import re
+import threading
+import time
 
 app = Flask(__name__)
 
 # Configuration
 OUTPUT_DIR = "Final_Pipeline/Output"
 PERSONALITY_BADGES_DIR = "personalityzipped"
+PIPELINE_SCRIPT = "Final_Pipeline/chewy_playback_pipeline.py"
+
+# Global tracking for running pipelines
+running_pipelines = set()
+pipeline_lock = threading.Lock()
+
+def run_pipeline_for_customer(customer_id):
+    """Run the chewy_playback_pipeline.py script for a specific customer"""
+    global running_pipelines
+    
+    with pipeline_lock:
+        # Check if pipeline is already running for this customer
+        if customer_id in running_pipelines:
+            print(f"⏳ Pipeline already running for customer {customer_id}")
+            return True
+        
+        # Add customer to running set
+        running_pipelines.add(customer_id)
+    
+    try:
+        print(f"🚀 Triggering pipeline for customer {customer_id}...")
+        
+        # Change to the project directory
+        project_dir = os.path.dirname(os.path.abspath(__file__))
+        os.chdir(project_dir)
+        
+        # Run the pipeline script in background and redirect immediately
+        cmd = [sys.executable, PIPELINE_SCRIPT, "--customers", customer_id]
+        print(f"🚀 Pipeline started for customer {customer_id} - redirecting to experience...")
+        
+        # Start pipeline in background (non-blocking)
+        process = subprocess.Popen(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        
+        # Start a thread to monitor the process and remove from running set when done
+        def monitor_process():
+            process.wait()
+            with pipeline_lock:
+                running_pipelines.discard(customer_id)
+                print(f"✅ Pipeline completed for customer {customer_id}")
+        
+        monitor_thread = threading.Thread(target=monitor_process, daemon=True)
+        monitor_thread.start()
+        
+        # Return True immediately to redirect to experience page
+        return True
+    except Exception as e:
+        # Remove from running set on error
+        with pipeline_lock:
+            running_pipelines.discard(customer_id)
+        print(f"❌ Error running pipeline for customer {customer_id}: {e}")
+        return False
+
+def check_customer_data_exists(customer_id):
+    """Check if customer data already exists in the output directory"""
+    customer_dir = os.path.join(OUTPUT_DIR, customer_id)
+    enriched_profile_path = os.path.join(customer_dir, "enriched_pet_profile.json")
+    return os.path.exists(enriched_profile_path)
+
+def is_pipeline_running(customer_id):
+    """Check if a pipeline is currently running for a customer"""
+    with pipeline_lock:
+        return customer_id in running_pipelines
 
 def get_all_customer_ids():
     """Get all customer IDs from the Output directory"""
@@ -22,281 +89,195 @@ def get_all_customer_ids():
     
     return sorted(customer_ids, key=lambda x: int(x) if x.isdigit() else 0)
 
-def get_customer_data(customer_id):
-    """Retrieve all data for a given customer ID"""
-    customer_dir = os.path.join(OUTPUT_DIR, str(customer_id))
-    
-    if not os.path.exists(customer_dir):
-        return None
-    
+def load_customer_data(customer_id):
+    """Load customer data from pipeline-generated files"""
+    customer_dir = os.path.join(OUTPUT_DIR, customer_id)
     data = {}
     
-    # Get enriched pet profile
-    profile_path = os.path.join(customer_dir, "enriched_pet_profile.json")
-    if os.path.exists(profile_path):
-        with open(profile_path, 'r') as f:
-            data['profile'] = json.load(f)
-    
-    # Get personality badge
-    badge_path = os.path.join(customer_dir, "personality_badge.json")
-    if os.path.exists(badge_path):
-        with open(badge_path, 'r') as f:
-            data['badge'] = json.load(f)
-    
-    # Get pet letter
-    letter_path = os.path.join(customer_dir, "pet_letters.txt")
-    if os.path.exists(letter_path):
-        with open(letter_path, 'r') as f:
-            data['letter'] = f.read()
-    
-    # Get pet portrait
-    portrait_path = os.path.join(customer_dir, "images", "collective_pet_portrait.png")
-    if os.path.exists(portrait_path):
+    try:
+        # 1. Load enriched pet profile
+        enriched_profile_path = os.path.join(customer_dir, "enriched_pet_profile.json")
+        if os.path.exists(enriched_profile_path):
+            with open(enriched_profile_path, 'r') as f:
+                enriched_profile = json.load(f)
+                data['enriched_profile'] = enriched_profile
+                
+                # Extract pets data
+                pets_data = {}
+                for pet_name, pet_info in enriched_profile.items():
+                    if isinstance(pet_info, dict) and 'PetName' in pet_info:
+                        pets_data[pet_name] = pet_info
+                data['pets'] = pets_data
+        else:
+            print(f"❌ No enriched pet profile found for customer {customer_id}")
+            return None
+        
+        # 2. Load personality badge
+        badge_path = os.path.join(customer_dir, "personality_badge.json")
+        if os.path.exists(badge_path):
+            with open(badge_path, 'r') as f:
+                badge_data = json.load(f)
+                # Add image path for the badge
+                badge_data['image_path'] = get_badge_image_path(badge_data.get('badge', 'The Explorer'))
+                data['badge'] = badge_data
+        else:
+            print(f"⚠️ No personality badge found for customer {customer_id}")
+            data['badge'] = None
+        
+        # 3. Load breed predictions
+        breed_path = os.path.join(customer_dir, "predicted_breed.json")
+        if os.path.exists(breed_path):
+            with open(breed_path, 'r') as f:
+                breed_data = json.load(f)
+                data['breed_prediction'] = breed_data
+        else:
+            print(f"⚠️ No breed predictions found for customer {customer_id}")
+            data['breed_prediction'] = None
+        
+        # 4. Load food fun facts
+        food_path = os.path.join(customer_dir, "food_fun_fact.json")
+        if os.path.exists(food_path):
+            with open(food_path, 'r') as f:
+                food_data = json.load(f)
+                data['food_consumption'] = food_data
+        else:
+            print(f"⚠️ No food data found for customer {customer_id}")
+            data['food_consumption'] = None
+        
+        # 5. Load zip aesthetics
+        zip_path = os.path.join(customer_dir, "zip_aesthetics.json")
+        if os.path.exists(zip_path):
+            with open(zip_path, 'r') as f:
+                zip_data = json.load(f)
+                data['zip_aesthetics'] = zip_data
+        else:
+            print(f"⚠️ No zip aesthetics found for customer {customer_id}")
+            data['zip_aesthetics'] = None
+        
+        # 6. Load pet letters
+        letters_path = os.path.join(customer_dir, "pet_letters.txt")
+        if os.path.exists(letters_path):
+            with open(letters_path, 'r') as f:
+                letters_content = f.read()
+                data['pet_letters'] = letters_content
+        else:
+            print(f"⚠️ No pet letters found for customer {customer_id}")
+            data['pet_letters'] = None
+        
+        # 7. Load additional pipeline data if available
+        # Load unknowns data (this exists)
+        unknowns_path = os.path.join(customer_dir, "unknowns.json")
+        if os.path.exists(unknowns_path):
+            with open(unknowns_path, 'r') as f:
+                data['unknowns'] = json.load(f)
+        
+        # Load food fun fact data (this exists)
+        food_fun_fact_path = os.path.join(customer_dir, "food_fun_fact.json")
+        if os.path.exists(food_fun_fact_path):
+            with open(food_fun_fact_path, 'r') as f:
+                food_data = json.load(f)
+                data['food_fun_fact'] = food_data
+                # Also add as food_consumption for template compatibility
+                data['food_consumption'] = {
+                    'total_lbs': food_data.get('total_food_lbs', '0'),
+                    'top_product': food_data.get('top_product', 'Unknown')
+                }
+        
+        # Load zip aesthetics data (this exists)
+        zip_aesthetics_path = os.path.join(customer_dir, "zip_aesthetics.json")
+        if os.path.exists(zip_aesthetics_path):
+            with open(zip_aesthetics_path, 'r') as f:
+                data['zip_aesthetics'] = json.load(f)
+        
+        # Use real breed prediction data if available
+        if 'breed_prediction' in data and data['breed_prediction']:
+            if data['breed_prediction'].get('multiple_predictions'):
+                first_prediction = data['breed_prediction']['multiple_predictions'][0]
+                data['predicted_breed'] = {
+                    'pet_name': first_prediction.get('pet_name', 'Unknown'),
+                    'predicted_breed': first_prediction.get('prediction', {}).get('top_predicted_breed', {}).get('breed', 'Unknown')
+                }
+        
+        # Use real letter data
+        data['letter'] = data.get('pet_letters', 'No personalized letter available.')
+        
+        # Use real portrait data
         data['portrait'] = f"/static/customer_images/{customer_id}/collective_pet_portrait.png"
-    
-    # Get food fun fact
-    food_fun_fact_path = os.path.join(customer_dir, "food_fun_fact.json")
-    if os.path.exists(food_fun_fact_path):
-        with open(food_fun_fact_path, 'r') as f:
-            data['food_fun_fact'] = json.load(f)
-    
-    # Get predicted breed
-    predicted_breed_path = os.path.join(customer_dir, "predicted_breed.json")
-    if os.path.exists(predicted_breed_path):
-        with open(predicted_breed_path, 'r') as f:
-            breed_data = json.load(f)
-            
-            # Handle different data structures
-            if isinstance(breed_data, dict):
-                # Check if it's the nested structure (like customer 5038)
-                if len(breed_data) == 1 and list(breed_data.keys())[0] in breed_data:
-                    pet_data = breed_data[list(breed_data.keys())[0]]
-                    breed_name = pet_data.get('top_predicted_breed', {}).get('breed', '')
-                    data['predicted_breed'] = {
-                        'customer_id': pet_data.get('customer_id'),
-                        'pet_name': pet_data.get('pet_name'),
-                        'predicted_breed': format_breed_name(breed_name),
-                        'confidence': pet_data.get('confidence', {}).get('score', 0)
-                    }
-                else:
-                    # Standard structure (like customer 887148270)
-                    breed_name = breed_data.get('predicted_breed', '')
-                    breed_data['predicted_breed'] = format_breed_name(breed_name)
-                    data['predicted_breed'] = breed_data
-    
-    # Get unknowns data
-    unknowns_path = os.path.join(customer_dir, "unknowns.json")
-    if os.path.exists(unknowns_path):
-        with open(unknowns_path, 'r') as f:
-            data['unknowns'] = json.load(f)
-    
-    return data
+        
+        # 8. Don't create fake data - only show real data
+        # These fields will be None if not available from pipeline
+        
+        return data
+        
+    except Exception as e:
+        print(f"❌ Error loading customer data: {e}")
+        return None
 
 def format_breed_name(breed_name):
-    """Format breed name by adding spaces between camelCase words"""
-    import re
+    """Format breed name for display"""
+    if not breed_name:
+        return "Unknown"
     
-    # Handle common breed name patterns (including lowercase variants)
+    # Common breed name mappings
     breed_mappings = {
-        # Common breeds with proper spacing
-        "Germanshepherd": "German Shepherd",
-        "GermanShepherd": "German Shepherd",
+        "germanShepherd": "German Shepherd",
         "goldenRetriever": "Golden Retriever",
-        "GoldenRetriever": "Golden Retriever",
         "labradorRetriever": "Labrador Retriever",
-        "LabradorRetriever": "Labrador Retriever",
-        "cockerSpaniel": "Cocker Spaniel",
-        "CockerSpaniel": "Cocker Spaniel",
-        "englishBulldog": "English Bulldog",
-        "EnglishBulldog": "English Bulldog",
-        "frenchBulldog": "French Bulldog",
-        "FrenchBulldog": "French Bulldog",
-        "australianShepherd": "Australian Shepherd",
-        "AustralianShepherd": "Australian Shepherd",
         "borderCollie": "Border Collie",
-        "BorderCollie": "Border Collie",
-        "berneseMountainDog": "Bernese Mountain Dog",
-        "BerneseMountainDog": "Bernese Mountain Dog",
+        "australianShepherd": "Australian Shepherd",
+        "beagle": "Beagle",
+        "bulldog": "Bulldog",
+        "poodle": "Poodle",
+        "rottweiler": "Rottweiler",
+        "siberianHusky": "Siberian Husky",
+        "boxer": "Boxer",
+        "dobermanPinscher": "Doberman Pinscher",
         "greatDane": "Great Dane",
-        "GreatDane": "Great Dane",
-        "saintBernard": "Saint Bernard",
-        "SaintBernard": "Saint Bernard",
+        "berneseMountainDog": "Bernese Mountain Dog",
         "newfoundland": "Newfoundland",
-        "Newfoundland": "Newfoundland",
-        "irishSetter": "Irish Setter",
-        "IrishSetter": "Irish Setter",
-        "englishSetter": "English Setter",
-        "EnglishSetter": "English Setter",
-        "gordonSetter": "Gordon Setter",
-        "GordonSetter": "Gordon Setter",
-        "englishSpringerSpaniel": "English Springer Spaniel",
-        "EnglishSpringerSpaniel": "English Springer Spaniel",
-        "welshCorgi": "Welsh Corgi",
-        "WelshCorgi": "Welsh Corgi",
-        "pembrokeWelshCorgi": "Pembroke Welsh Corgi",
-        "PembrokeWelshCorgi": "Pembroke Welsh Corgi",
-        "cardiganWelshCorgi": "Cardigan Welsh Corgi",
-        "CardiganWelshCorgi": "Cardigan Welsh Corgi",
-        "jackRussellTerrier": "Jack Russell Terrier",
-        "JackRussellTerrier": "Jack Russell Terrier",
-        "westHighlandWhiteTerrier": "West Highland White Terrier",
-        "WestHighlandWhiteTerrier": "West Highland White Terrier",
-        "scottishTerrier": "Scottish Terrier",
-        "ScottishTerrier": "Scottish Terrier",
+        "saintBernard": "Saint Bernard",
+        "mastiff": "Mastiff",
+        "chowChow": "Chow Chow",
+        "shibaInu": "Shiba Inu",
+        "akita": "Akita",
+        "samoyed": "Samoyed",
+        "alaskanMalamute": "Alaskan Malamute",
+        "husky": "Husky",
+        "chihuahua": "Chihuahua",
+        "pomeranian": "Pomeranian",
         "yorkshireTerrier": "Yorkshire Terrier",
-        "YorkshireTerrier": "Yorkshire Terrier",
-        "cairnTerrier": "Cairn Terrier",
-        "CairnTerrier": "Cairn Terrier",
-        "norfolkTerrier": "Norfolk Terrier",
-        "NorfolkTerrier": "Norfolk Terrier",
-        "norwichTerrier": "Norwich Terrier",
-        "NorwichTerrier": "Norwich Terrier",
-        "lakelandTerrier": "Lakeland Terrier",
-        "LakelandTerrier": "Lakeland Terrier",
-        "borderTerrier": "Border Terrier",
-        "BorderTerrier": "Border Terrier",
-        "bedlingtonTerrier": "Bedlington Terrier",
-        "BedlingtonTerrier": "Bedlington Terrier",
-        "kerryBlueTerrier": "Kerry Blue Terrier",
-        "KerryBlueTerrier": "Kerry Blue Terrier",
-        "irishTerrier": "Irish Terrier",
-        "IrishTerrier": "Irish Terrier",
-        "welshTerrier": "Welsh Terrier",
-        "WelshTerrier": "Welsh Terrier",
-        "airedaleTerrier": "Airedale Terrier",
-        "AiredaleTerrier": "Airedale Terrier",
-        "bullTerrier": "Bull Terrier",
-        "BullTerrier": "Bull Terrier",
-        "staffordshireBullTerrier": "Staffordshire Bull Terrier",
-        "StaffordshireBullTerrier": "Staffordshire Bull Terrier",
-        "americanStaffordshireTerrier": "American Staffordshire Terrier",
-        "AmericanStaffordshireTerrier": "American Staffordshire Terrier",
-        "americanPitBullTerrier": "American Pit Bull Terrier",
-        "AmericanPitBullTerrier": "American Pit Bull Terrier",
-        "rhodesianRidgeback": "Rhodesian Ridgeback",
-        "RhodesianRidgeback": "Rhodesian Ridgeback",
+        "maltese": "Maltese",
+        "shihTzu": "Shih Tzu",
+        "pug": "Pug",
+        "bostonTerrier": "Boston Terrier",
+        "frenchBulldog": "French Bulldog",
+        "englishBulldog": "English Bulldog",
+        "cavalierKingCharlesSpaniel": "Cavalier King Charles Spaniel",
+        "cockerSpaniel": "Cocker Spaniel",
+        "englishSpringerSpaniel": "English Springer Spaniel",
+        "irishSetter": "Irish Setter",
+        "goldenRetriever": "Golden Retriever",
+        "labradorRetriever": "Labrador Retriever",
         "chesapeakeBayRetriever": "Chesapeake Bay Retriever",
-        "ChesapeakeBayRetriever": "Chesapeake Bay Retriever",
-        "flatCoatedRetriever": "Flat Coated Retriever",
-        "FlatCoatedRetriever": "Flat Coated Retriever",
-        "curlyCoatedRetriever": "Curly Coated Retriever",
-        "CurlyCoatedRetriever": "Curly Coated Retriever",
+        "flatCoatedRetriever": "Flat-Coated Retriever",
+        "curlyCoatedRetriever": "Curly-Coated Retriever",
         "novaScotiaDuckTollingRetriever": "Nova Scotia Duck Tolling Retriever",
-        "NovaScotiaDuckTollingRetriever": "Nova Scotia Duck Tolling Retriever",
-        "irishWaterSpaniel": "Irish Water Spaniel",
-        "IrishWaterSpaniel": "Irish Water Spaniel",
-        "americanWaterSpaniel": "American Water Spaniel",
-        "AmericanWaterSpaniel": "American Water Spaniel",
-        "fieldSpaniel": "Field Spaniel",
-        "FieldSpaniel": "Field Spaniel",
-        "sussexSpaniel": "Sussex Spaniel",
-        "SussexSpaniel": "Sussex Spaniel",
-        "clumberSpaniel": "Clumber Spaniel",
-        "ClumberSpaniel": "Clumber Spaniel",
-        "brittanySpaniel": "Brittany Spaniel",
-        "BrittanySpaniel": "Brittany Spaniel",
-        "englishCockerSpaniel": "English Cocker Spaniel",
-        "EnglishCockerSpaniel": "English Cocker Spaniel",
-        "americanCockerSpaniel": "American Cocker Spaniel",
-        "AmericanCockerSpaniel": "American Cocker Spaniel",
-        "boykinSpaniel": "Boykin Spaniel",
-        "BoykinSpaniel": "Boykin Spaniel",
-        "welshSpringerSpaniel": "Welsh Springer Spaniel",
-        "WelshSpringerSpaniel": "Welsh Springer Spaniel",
         "germanShorthairedPointer": "German Shorthaired Pointer",
-        "GermanShorthairedPointer": "German Shorthaired Pointer",
         "germanWirehairedPointer": "German Wirehaired Pointer",
-        "GermanWirehairedPointer": "German Wirehaired Pointer",
-        "englishPointer": "English Pointer",
-        "EnglishPointer": "English Pointer",
-        "irishRedandWhiteSetter": "Irish Red and White Setter",
-        "IrishRedandWhiteSetter": "Irish Red and White Setter",
-        "greaterSwissMountainDog": "Greater Swiss Mountain Dog",
-        "GreaterSwissMountainDog": "Greater Swiss Mountain Dog",
-        "entlebucherMountainDog": "Entlebucher Mountain Dog",
-        "EntlebucherMountainDog": "Entlebucher Mountain Dog",
-        "appenzellerSennenhund": "Appenzeller Sennenhund",
-        "AppenzellerSennenhund": "Appenzeller Sennenhund",
-        "bouvierDesFlandres": "Bouvier des Flandres",
-        "BouvierDesFlandres": "Bouvier des Flandres",
-        "briard": "Briard",
-        "Briard": "Briard",
-        "beauceron": "Beauceron",
-        "Beauceron": "Beauceron",
-        "belgianMalinois": "Belgian Malinois",
-        "BelgianMalinois": "Belgian Malinois",
-        "belgianShepherd": "Belgian Shepherd",
-        "BelgianShepherd": "Belgian Shepherd",
-        "belgianTervuren": "Belgian Tervuren",
-        "BelgianTervuren": "Belgian Tervuren",
-        "belgianGroenendael": "Belgian Groenendael",
-        "BelgianGroenendael": "Belgian Groenendael",
-        "dutchShepherd": "Dutch Shepherd",
-        "DutchShepherd": "Dutch Shepherd",
-        "anatolianShepherd": "Anatolian Shepherd",
-        "AnatolianShepherd": "Anatolian Shepherd",
-        "greatPyrenees": "Great Pyrenees",
-        "GreatPyrenees": "Great Pyrenees",
-        "komondor": "Komondor",
-        "Komondor": "Komondor",
-        "kuvasz": "Kuvasz",
-        "Kuvasz": "Kuvasz",
-        "maremmaSheepdog": "Maremma Sheepdog",
-        "MaremmaSheepdog": "Maremma Sheepdog",
-        "polishLowlandSheepdog": "Polish Lowland Sheepdog",
-        "PolishLowlandSheepdog": "Polish Lowland Sheepdog",
-        "puli": "Puli",
-        "Puli": "Puli",
-        "pumi": "Pumi",
-        "Pumi": "Pumi",
-        "schapendoes": "Schapendoes",
-        "Schapendoes": "Schapendoes",
-        "shetlandSheepdog": "Shetland Sheepdog",
-        "ShetlandSheepdog": "Shetland Sheepdog",
-        "oldEnglishSheepdog": "Old English Sheepdog",
-        "OldEnglishSheepdog": "Old English Sheepdog",
-        "beardedCollie": "Bearded Collie",
-        "BeardedCollie": "Bearded Collie",
-        "australianCattleDog": "Australian Cattle Dog",
-        "AustralianCattleDog": "Australian Cattle Dog",
-        "australianKelpie": "Australian Kelpie",
-        "AustralianKelpie": "Australian Kelpie",
-        "blueHeeler": "Blue Heeler",
-        "BlueHeeler": "Blue Heeler",
-        "redHeeler": "Red Heeler",
-        "RedHeeler": "Red Heeler",
-        "queenslandHeeler": "Queensland Heeler",
-        "QueenslandHeeler": "Queensland Heeler",
-        "lancashireHeeler": "Lancashire Heeler",
-        "LancashireHeeler": "Lancashire Heeler",
-        "swedishVallhund": "Swedish Vallhund",
-        "SwedishVallhund": "Swedish Vallhund",
-        "norwegianBuhund": "Norwegian Buhund",
-        "NorwegianBuhund": "Norwegian Buhund",
-        "icelandicSheepdog": "Icelandic Sheepdog",
-        "IcelandicSheepdog": "Icelandic Sheepdog",
-        "finnishLapphund": "Finnish Lapphund",
-        "FinnishLapphund": "Finnish Lapphund",
-        "lapponianHerder": "Lapponian Herder",
-        "LapponianHerder": "Lapponian Herder",
-        "norwegianElkhound": "Norwegian Elkhound",
-        "NorwegianElkhound": "Norwegian Elkhound",
-        "swedishElkhound": "Swedish Elkhound",
-        "SwedishElkhound": "Swedish Elkhound",
-        "finnishSpitz": "Finnish Spitz",
-        "FinnishSpitz": "Finnish Spitz",
-        "karelianBearDog": "Karelian Bear Dog",
-        "KarelianBearDog": "Karelian Bear Dog",
-        "russianEuropeanLaika": "Russian European Laika",
-        "RussianEuropeanLaika": "Russian European Laika",
-        "westSiberianLaika": "West Siberian Laika",
-        "WestSiberianLaika": "West Siberian Laika",
-        "eastSiberianLaika": "East Siberian Laika",
-        "EastSiberianLaika": "East Siberian Laika",
-        "yakutianLaika": "Yakutian Laika",
-        "YakutianLaika": "Yakutian Laika",
-        "norwegianLundehund": "Norwegian Lundehund",
-        "NorwegianLundehund": "Norwegian Lundehund"
+        "weimaraner": "Weimaraner",
+        "vizsla": "Vizsla",
+        "pointer": "Pointer",
+        "setter": "Setter",
+        "spaniel": "Spaniel",
+        "terrier": "Terrier",
+        "hound": "Hound",
+        "herding": "Herding Dog",
+        "working": "Working Dog",
+        "toy": "Toy Dog",
+        "sporting": "Sporting Dog",
+        "nonSporting": "Non-Sporting Dog",
+        "mixed": "Mixed Breed",
+        "unknown": "Unknown Breed"
     }
     
     # Check if we have a direct mapping
@@ -325,6 +306,11 @@ def get_badge_image_path(badge_name):
     badge_file = badge_mapping.get(badge_name, "badge_athlete copy.png")
     return f"/static/badges/{badge_file}"
 
+# Register template filter
+@app.template_filter('format_breed_name')
+def format_breed_name_filter(breed_name):
+    return format_breed_name(breed_name)
+
 @app.route('/')
 def index():
     """Landing page with customer ID input and list of all customers"""
@@ -340,10 +326,28 @@ def customers():
 @app.route('/experience/<customer_id>')
 def experience(customer_id):
     """Main experience page with all slides"""
-    customer_data = get_customer_data(customer_id)
+    # Check if data exists
+    if not check_customer_data_exists(customer_id):
+        # Check if pipeline is already running
+        if is_pipeline_running(customer_id):
+            print(f"⏳ Pipeline already running for customer {customer_id}")
+            return render_template('loading.html', 
+                                 customer_id=customer_id,
+                                 message="Pipeline is already running in the background. Please refresh the page in a few moments.")
+        
+        print(f"📁 No existing data for customer {customer_id}, running pipeline...")
+        run_pipeline_for_customer(customer_id)
+        
+        # Show loading page while pipeline runs in background
+        return render_template('loading.html', 
+                             customer_id=customer_id,
+                             message="Pipeline is running in the background. Please refresh the page in a few moments.")
+    
+    customer_data = load_customer_data(customer_id)
     
     if not customer_data:
-        return render_template('error.html', message="Customer not found"), 404
+        return render_template('error.html', 
+                             error_message=f"Could not load data for customer {customer_id}")
     
     return render_template('experience.html', 
                          customer_id=customer_id, 
@@ -352,16 +356,39 @@ def experience(customer_id):
 @app.route('/api/customer/<customer_id>')
 def api_customer_data(customer_id):
     """API endpoint to get customer data"""
-    customer_data = get_customer_data(customer_id)
+    # Check if data exists
+    if not check_customer_data_exists(customer_id):
+        # Check if pipeline is already running
+        if is_pipeline_running(customer_id):
+            print(f"⏳ Pipeline already running for customer {customer_id}")
+            return jsonify({"status": "pipeline_running", "message": "Pipeline already running in background"}), 202
+        
+        print(f"📁 No existing data for customer {customer_id}, running pipeline...")
+        run_pipeline_for_customer(customer_id)
+        return jsonify({"status": "pipeline_running", "message": "Pipeline started in background"}), 202
+    
+    customer_data = load_customer_data(customer_id)
     
     if not customer_data:
         return jsonify({"error": "Customer not found"}), 404
     
     # Add badge image path
-    if 'badge' in customer_data:
+    if 'badge' in customer_data and customer_data['badge'] is not None:
         customer_data['badge']['image_path'] = get_badge_image_path(customer_data['badge']['badge'])
     
     return jsonify(customer_data)
+
+@app.route('/api/trigger-pipeline/<customer_id>')
+def trigger_pipeline(customer_id):
+    """Manually trigger the pipeline for a customer"""
+    try:
+        success = run_pipeline_for_customer(customer_id)
+        if success:
+            return jsonify({"status": "success", "message": f"Pipeline completed for customer {customer_id}"})
+        else:
+            return jsonify({"status": "error", "message": f"Pipeline failed for customer {customer_id}"}), 500
+    except Exception as e:
+        return jsonify({"status": "error", "message": str(e)}), 500
 
 @app.route('/static/customer_images/<customer_id>/<filename>')
 def customer_image(customer_id, filename):
@@ -374,4 +401,4 @@ def badge_image(filename):
     return send_from_directory(PERSONALITY_BADGES_DIR, filename)
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=5001) 
+    app.run(debug=True, host='0.0.0.0', port=5000) 

@@ -84,8 +84,7 @@ Final_Pipeline/
 │   ├── Image_Generation_Agent/
 │   │   └── letter_agent.py            # Enhanced with location prompts
 │   └── Breed_Predictor_Agent/
-├── Data/                              # Input data
-│   └── qualifying_reviews.csv
+├── customer_queries.json              # Snowflake query templates
 ├── dog_breed_data/                    # Breed prediction data
 └── Output/                            # Generated outputs
     └── {customer_id}/

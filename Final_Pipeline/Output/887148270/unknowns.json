@@ -8,17 +8,17 @@
         "MEDICATION"
       ]
     },
-    "Anyanka": {
-      "pet_name": "Anyanka",
-      "unknown_fields": [
-        "PET_BREED"
-      ]
-    },
     "Daniel": {
       "pet_name": "Daniel",
       "unknown_fields": [
         "PET_BREED",
         "MEDICATION"
+      ]
+    },
+    "Anyanka": {
+      "pet_name": "Anyanka",
+      "unknown_fields": [
+        "PET_BREED"
       ]
     }
   },

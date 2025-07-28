@@ -19,41 +19,14 @@ class ReviewOrderIntelligenceAgent:
     def __init__(self, openai_api_key: str = None):
         """Initialize the Review and Order Intelligence Agent."""
         self.openai_api_key = openai_api_key or os.getenv('OPENAI_API_KEY')
-        self.order_data = None
-        self.review_data = None
+        # No longer loading CSV files - only using Snowflake data
     
-    def load_data(self, order_history_path: str, qualifying_reviews_path: str) -> bool:
-        """Load order history and qualifying reviews data from CSV files."""
-        try:
-            logger.info("Loading order history and review data...")
-            self.order_data = pd.read_csv(order_history_path)
-            self.review_data = pd.read_csv(qualifying_reviews_path)
-            logger.info(f"Loaded {len(self.order_data)} order records")
-            logger.info(f"Loaded {len(self.review_data)} review records")
-            self._validate_data()
-            return True
-        except Exception as e:
-            logger.error(f"Error loading data: {e}")
-            return False
-    
-    def _validate_data(self) -> None:
-        """Validate that required columns exist in the data."""
-        required_order_cols = ['CustomerID', 'ProductID', 'ProductName']
-        required_review_cols = ['CustomerID', 'PetName']
-        missing_order_cols = [col for col in required_order_cols if col not in self.order_data.columns]
-        missing_review_cols = [col for col in required_review_cols if col not in self.review_data.columns]
-        if missing_order_cols:
-            raise ValueError(f"Missing required columns in order history: {missing_order_cols}")
-        if missing_review_cols:
-            raise ValueError(f"Missing required columns in reviews: {missing_review_cols}")
-    
-    def _get_customer_pets(self, customer_id: str) -> List[str]:
-        """Get all pets for a customer, including those mentioned in reviews but not registered."""
-        if self.review_data is None:
+    def _get_customer_pets_from_reviews(self, customer_reviews: pd.DataFrame) -> List[str]:
+        """Get all pets for a customer from review data."""
+        if customer_reviews.empty:
             return []
         
-        # Get registered pets from the data
-        customer_reviews = self.review_data[self.review_data['CustomerID'].astype(str) == str(customer_id)]
+        # Get registered pets from the reviews data
         registered_pets = customer_reviews['PetName'].dropna().unique().tolist()
         
         # Look for additional pets mentioned in review text
@@ -108,32 +81,7 @@ class ReviewOrderIntelligenceAgent:
         
         return additional_pets
     
-    def _get_pet_reviews(self, customer_id: str, pet_name: str) -> pd.DataFrame:
-        """Get reviews for a specific pet, handling both registered and unregistered pets."""
-        if self.review_data is None:
-            return pd.DataFrame()
-        
-        customer_reviews = self.review_data[self.review_data['CustomerID'].astype(str) == str(customer_id)]
-        
-        # For registered pets, get their specific reviews
-        if pet_name in customer_reviews['PetName'].values:
-            pet_reviews = customer_reviews[customer_reviews['PetName'] == pet_name]
-        else:
-            # For unregistered pets (like "UNK"), use all customer reviews
-            # This allows the LLM to analyze the overall context and infer information
-            pet_reviews = customer_reviews.copy()
-            if pet_name == 'UNK':
-                logger.info(f"Using all customer reviews for unregistered pet (name unknown)")
-            else:
-                logger.info(f"Using all customer reviews for unregistered pet: {pet_name}")
-        
-        return pet_reviews
-    
-    def _get_customer_orders(self, customer_id: str) -> pd.DataFrame:
-        """Get all orders for a specific customer."""
-        if self.order_data is None:
-            return pd.DataFrame()
-        return self.order_data[self.order_data['CustomerID'].astype(str) == str(customer_id)]
+    # These methods are no longer needed since we use Snowflake data passed from the pipeline
     
     def _select_priority_reviews(self, pet_reviews: pd.DataFrame, max_priority: int = 10, max_other: int = 5) -> List[str]:
         """Select and prioritize reviews mentioning gender/weight/size, plus a few others for context."""
@@ -600,32 +548,5 @@ if __name__ == "__main__":
     """Example usage of the Review and Order Intelligence Agent."""
     print("🧠 Review and Order Intelligence Agent - Example Usage")
     print("=" * 60)
-    
-    try:
-        agent = ReviewOrderIntelligenceAgent()
-        
-        data_loaded = agent.load_data(
-            order_history_path="dummy_orderhistory.csv",
-            qualifying_reviews_path="dummy_qualifyingreviews.csv"
-        )
-        
-        if not data_loaded:
-            print("❌ Failed to load data")
-            exit(1)
-        
-        results = agent.process_customer_data()
-        success = agent.save_results(results, "output/pet_insights.json")
-        
-        if success:
-            print(f"✅ Results saved to output/pet_insights.json")
-        
-        summary = agent.generate_summary_report(results)
-        print(f"\n📊 Processing Summary:")
-        print(f"Total Customers: {summary['total_customers']}")
-        print(f"Total Pets: {summary['total_pets']}")
-        print(f"Average Confidence: {summary['average_confidence']:.3f}")
-        print(f"Pets with Complete Data: {summary['pets_with_complete_data']}")
-        
-    except Exception as e:
-        print(f"❌ Error: {e}")
-        print("Please ensure all required CSV files are present.") 
+    print("This agent is now integrated into the main pipeline and uses Snowflake data.")
+    print("It should not be run standalone.") 

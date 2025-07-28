@@ -1,7 +1,0 @@
-{
-  "customer_id": "887148270",
-  "feedback_type": "correct",
-  "selected_breeds": [],
-  "timestamp": "2025-07-25T13:27:00.455779",
-  "prediction_file": "Final_Pipeline/Output/887148270/predicted_breed.json"
-}
