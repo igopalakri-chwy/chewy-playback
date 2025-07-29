@@ -1430,7 +1430,11 @@ class ChewyPlaybackPipeline:
                     # New simplified format - single prediction
                     pet_name = breed_predictions[customer_id]['pet_name']
                     predicted_breed = breed_predictions[customer_id]['predicted_breed']
-                    confidence = breed_predictions[customer_id]['confidence']
+                    # Handle nested confidence structure
+                    if 'prediction' in breed_predictions[customer_id] and 'confidence' in breed_predictions[customer_id]['prediction']:
+                        confidence = breed_predictions[customer_id]['prediction']['confidence'].get('score', 0)
+                    else:
+                        confidence = breed_predictions[customer_id].get('confidence_score', 0)
                     print(f"    🐕 Saved breed prediction for {pet_name}: {predicted_breed} (confidence: {confidence})")
                 else:
                     # Old format - multiple predictions
