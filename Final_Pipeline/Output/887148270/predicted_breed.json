@@ -7,11 +7,11 @@
       "prediction": {
         "customer_id": "887148270",
         "pet_name": "Gigi",
-        "prediction_timestamp": "2025-07-28T15:29:39.869711",
+        "prediction_timestamp": "2025-07-28T17:12:33.213892",
         "breed_distribution": {
           "australianShepherd": 40.0,
-          "beagle": 30.0,
-          "germanShepherd": 30.0
+          "germanShepherd": 35.0,
+          "beagle": 25.0
         },
         "confidence": {
           "score": 65.0,
@@ -21,9 +21,9 @@
           "recommendations": []
         },
         "explanations": {
-          "australianShepherd": "The purchase of medium-sized toys and grain-free food suggests a medium-sized, active breed with potential food sensitivities, common in Australian Shepherds.",
-          "beagle": "The purchase of training treats and medium-sized toys indicates a trainable, medium-sized breed like the Beagle.",
-          "germanShepherd": "The purchase of joint supplements and medium-sized toys suggests a larger, active breed prone to joint issues, such as the German Shepherd."
+          "australianShepherd": "The purchase of medium-sized toys and high-energy food suggests a breed like the Australian Shepherd, which is known for its energy and medium size.",
+          "germanShepherd": "The purchase of skin and coat care products, along with joint supplements, suggests a breed prone to skin issues and hip dysplasia, like the German Shepherd.",
+          "beagle": "The purchase of grain-free food and dental products suggests a breed with food sensitivities and dental issues, like the Beagle."
         },
         "pet_profile_used": {
           "age": "5",
@@ -51,23 +51,23 @@
       "prediction": {
         "customer_id": "887148270",
         "pet_name": "Daniel",
-        "prediction_timestamp": "2025-07-28T15:29:46.561313",
+        "prediction_timestamp": "2025-07-28T17:12:39.179401",
         "breed_distribution": {
           "germanShepherd": 40.0,
           "australianShepherd": 30.0,
-          "borderCollie": 30.0
+          "collie": 30.0
         },
         "confidence": {
-          "score": 65.0,
-          "level": "Medium",
+          "score": 70.0,
+          "level": "High",
           "source": "LLM-generated",
           "reliability_flags": [],
           "recommendations": []
         },
         "explanations": {
-          "germanShepherd": "The purchase of medium-sized toys and joint supplements suggests a breed prone to hip dysplasia, like a German Shepherd.",
-          "australianShepherd": "The purchase of training treats and interactive toys suggests an intelligent, trainable breed with high energy, such as an Australian Shepherd.",
-          "borderCollie": "The purchase of grain-free food and skin/coat products implies a breed with food and skin sensitivities, which is common in Border Collies."
+          "germanShepherd": "The purchase of training treats and medium-sized toys suggest a trainable, active breed like the German Shepherd.",
+          "australianShepherd": "The purchase of skin and coat products, as well as joint supplements, align with the Australian Shepherd's known health predispositions.",
+          "collie": "The purchase of grain-free food and skin products could indicate a breed like the Collie, which is known for food sensitivities and skin issues."
         },
         "pet_profile_used": {
           "age": "12",
@@ -84,8 +84,8 @@
       "timestamp": "",
       "predicted_breed": "Unknown",
       "breed_percentages": {},
-      "confidence_score": 65.0,
-      "confidence_level": "Medium",
+      "confidence_score": 70.0,
+      "confidence_level": "High",
       "reasoning": "No reasoning provided",
       "data_used": {}
     }

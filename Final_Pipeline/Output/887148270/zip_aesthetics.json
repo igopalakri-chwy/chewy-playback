@@ -1,9 +1,9 @@
 {
-  "visual_style": "Pacific Northwest Modern",
-  "color_texture": "Cool, earthy tones with smooth textures",
-  "art_style": "Contemporary with Indigenous influences",
-  "tone_style": "Calm, serene, and nature-inspired",
-  "location_background": "Forested landscapes and rivers",
+  "visual_style": "Pacific Northwestern",
+  "color_texture": "Cool blues and greens with raw, natural textures",
+  "art_style": "Contemporary with a touch of Native American influences",
+  "tone_style": "Muted, earthy, and serene",
+  "location_background": "Lush forests, water bodies, and mountain ranges",
   "location_data": {
     "background_description": "Mount St. Helens volcano",
     "city": "Bothell",
@@ -16,6 +16,6 @@
       "San Juan Islands"
     ]
   },
-  "tones": "sophisticated, authentic",
+  "tones": "warm, friendly",
   "location_context": "Customer is from Bothell, WA. Consider incorporating WA state landmarks and natural features subtly in the background."
 }

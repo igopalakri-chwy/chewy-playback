@@ -24,11 +24,11 @@ sys.path.append(str(current_dir / 'Agents/Narrative_Generation_Agent'))
 sys.path.append(str(current_dir / 'Agents/Image_Generation_Agent'))
 sys.path.append(str(current_dir / 'Agents/Breed_Predictor_Agent'))
 
-from review_order_intelligence_agent import ReviewOrderIntelligenceAgent
-from pet_letter_llm_system import PetLetterLLMSystem
-from add_confidence_score import ConfidenceScoreCalculator
-from breed_predictor_agent import BreedPredictorAgent
-from unknowns_analyzer import UnknownsAnalyzer
+from Agents.Review_and_Order_Intelligence_Agent.review_order_intelligence_agent import ReviewOrderIntelligenceAgent
+from Agents.Narrative_Generation_Agent.pet_letter_llm_system import PetLetterLLMSystem
+from Agents.Review_and_Order_Intelligence_Agent.add_confidence_score import ConfidenceScoreCalculator
+from Agents.Breed_Predictor_Agent.breed_predictor_agent import BreedPredictorAgent
+from Agents.Review_and_Order_Intelligence_Agent.unknowns_analyzer import UnknownsAnalyzer
 from snowflake_data_connector import SnowflakeDataConnector
 import openai
 from dotenv import load_dotenv
@@ -110,7 +110,7 @@ class OrderIntelligenceAgent:
     def _analyze_customer_orders_with_llm(self, customer_orders, customer_id: str) -> Dict[str, Any]:
         """Analyze customer orders to generate pet insights using LLM."""
         if customer_orders is None or customer_orders.empty:
-            return self._get_default_insights()
+            raise ValueError(f"No order data available for customer {customer_id}. LLM analysis requires order data.")
         
         # Prepare context from order data
         context = self._prepare_order_context(customer_orders)
@@ -137,11 +137,11 @@ class OrderIntelligenceAgent:
             )
             
             result = response.choices[0].message.content
-            return self._parse_llm_response(result)
+            return self._parse_llm_response(result, customer_id)
             
         except Exception as e:
-            print(f"Error in LLM analysis: {e}")
-            return self._get_default_insights()
+            print(f"❌ CRITICAL: LLM analysis failed for customer {customer_id}: {e}")
+            raise RuntimeError(f"LLM analysis failed for customer {customer_id}. This pipeline requires LLM analysis to function properly.")
     
     def _prepare_order_context(self, customer_orders) -> str:
         """Prepare context data from order history for LLM analysis."""
@@ -260,7 +260,7 @@ Focus on:
 
 Provide realistic scores (0.0-1.0) based on confidence in the inference."""
 
-    def _parse_llm_response(self, response: str) -> Dict[str, Any]:
+    def _parse_llm_response(self, response: str, customer_id: str) -> Dict[str, Any]:
         """Parse LLM response into structured insights."""
         try:
             # Extract JSON from response
@@ -270,41 +270,13 @@ Provide realistic scores (0.0-1.0) based on confidence in the inference."""
                 json_str = json_match.group()
                 return json.loads(json_str)
             else:
-                print("Could not parse JSON from LLM response")
-                return self._get_default_insights()
+                print(f"❌ CRITICAL: Could not parse JSON from LLM response for customer {customer_id}")
+                raise RuntimeError(f"Failed to parse LLM response for customer {customer_id}. This pipeline requires LLM analysis to function properly.")
         except Exception as e:
-            print(f"Error parsing LLM response: {e}")
-            return self._get_default_insights()
+            print(f"❌ CRITICAL: Error parsing LLM response for customer {customer_id}: {e}")
+            raise RuntimeError(f"Failed to parse LLM response for customer {customer_id}. This pipeline requires LLM analysis to function properly.")
     
-    def _get_default_insights(self) -> Dict[str, Any]:
-        """Return default insights when analysis fails."""
-        return {
-            "PetType": "Pet",
-            "PetTypeScore": 0.5,
-            "Breed": "Mixed",
-            "BreedScore": 0.3,
-            "LifeStage": "adult",
-            "LifeStageScore": 0.5,
-            "Gender": "unknown",
-            "GenderScore": 0.0,
-            "SizeCategory": "medium",
-            "SizeScore": 0.5,
-            "Weight": "unknown",
-            "WeightScore": 0.0,
-            "PersonalityTraits": ["friendly"],
-            "PersonalityScores": {"friendly": 0.7},
-            "FavoriteProductCategories": ["food"],
-            "CategoryScores": {"food": 0.8},
-            "BrandPreferences": ["Chewy"],
-            "BrandScores": {"Chewy": 0.8},
-            "DietaryPreferences": ["standard"],
-            "DietaryScores": {"standard": 0.7},
-            "BehavioralCues": ["eats well"],
-            "BehavioralScores": {"eats well": 0.8},
-            "HealthMentions": ["healthy"],
-            "HealthScores": {"healthy": 0.7},
-            "MostOrderedProducts": ["Pet Food"]
-        }
+
     
     def _extract_pet_info(self, customer_orders) -> List[Dict[str, Any]]:
         """Extract pet information including names, types, breeds, etc. from customer order data."""
@@ -699,22 +671,28 @@ class ChewyPlaybackPipeline:
                         print(f"  🐾 Customer {customer_id} has reviews - using Review and Order Intelligence Agent")
                         # Use the review-based agent
                         customer_result = self._run_review_agent_for_customer(customer_id)
-                        if customer_result:
-                            results[customer_id] = customer_result
+                        # Add agent type indicator
+                        if isinstance(customer_result, dict):
+                            customer_result['_agent_type'] = 'review_based'
+                        # Always add the result, even if empty (no pets)
+                        results[customer_id] = customer_result
                     else:
                         print(f"  🐾 Customer {customer_id} has no reviews - using Order Intelligence Agent")
                         # Use the order-only agent
                         customer_result = self._run_order_agent_for_customer(customer_id)
-                        if customer_result:
-                            results[customer_id] = customer_result
+                        # Add agent type indicator
+                        if isinstance(customer_result, dict):
+                            customer_result['_agent_type'] = 'order_based'
+                        # Always add the result, even if empty (no pets)
+                        results[customer_id] = customer_result
                     
                 except Exception as e:
                     print(f"  ❌ Error processing customer {customer_id}: {e}")
                     continue
         else:
-            # Process all customers - this would be more complex, so for now we'll use the review agent
-            print("Processing all customers with Review and Order Intelligence Agent...")
-            results = self.review_agent.process_customer_data()
+            # Process all customers - this would be more complex, so for now we'll skip
+            print("Processing all customers is not supported in this version. Please specify individual customer IDs.")
+            results = {}
         
         print(f"✅ Generated profiles for {len(results)} customers")
         
@@ -734,6 +712,16 @@ class ChewyPlaybackPipeline:
             # Calculate confidence scores for this customer's pets
             pet_confidence_scores = []
             for pet_name, pet_data in pets_data.items():
+                # Skip metadata fields that start with underscore
+                if pet_name.startswith('_'):
+                    print(f"  📊 {customer_id}/{pet_name}: skipping metadata field")
+                    continue
+                
+                # Ensure pet_data is a dictionary
+                if not isinstance(pet_data, dict):
+                    print(f"  ⚠️ {customer_id}/{pet_name}: pet_data is not a dictionary, skipping")
+                    continue
+                
                 confidence_score = calculator.calculate_confidence_score(pet_data)
                 pet_data['confidence_score'] = confidence_score
                 pet_confidence_scores.append(confidence_score)
@@ -787,7 +775,8 @@ class ChewyPlaybackPipeline:
         pets_df = self._get_cached_customer_pets_dataframe(customer_id, query_keys=['get_pet_profiles'])
         if pets_df.empty:
             print(f"    ⚠️ No pets found for customer {customer_id}")
-            return None
+            # Return empty pet profile instead of None
+            return {}
         
         customer_pets = pets_df['PetName'].unique().tolist()
         
@@ -797,74 +786,10 @@ class ChewyPlaybackPipeline:
         # Get customer reviews from cached data
         reviews_df = self._get_cached_customer_reviews_dataframe(customer_id, query_keys=['get_cust_reviews'])
         
-        # Process each pet
-        customer_results = {}
-        for pet_name in customer_pets:
-            print(f"    🐾 Analyzing pet {pet_name} for customer {customer_id}...")
-            
-            # Get structured pet profile row for this pet
-            pet_profile_row = pets_df[pets_df['PetName'] == pet_name].iloc[0] if not pets_df[pets_df['PetName'] == pet_name].empty else None
-            
-            # Filter reviews for this pet (if any)
-            pet_reviews = reviews_df[reviews_df['ReviewText'].str.contains(pet_name, case=False, na=False)]
-            
-            # Prepare structured fields from Snowflake
-            structured_pet_type = pet_profile_row['PetType'] if pet_profile_row is not None and pd.notna(pet_profile_row['PetType']) else 'UNK'
-            structured_breed = pet_profile_row['PetBreed'] if pet_profile_row is not None and pd.notna(pet_profile_row['PetBreed']) else 'UNK'
-            structured_gender = pet_profile_row['Gender'] if pet_profile_row is not None and pd.notna(pet_profile_row['Gender']) else 'UNK'
-            structured_lifestage = pet_profile_row['PetAge'] if pet_profile_row is not None and pd.notna(pet_profile_row['PetAge']) else 'UNK'
-            structured_weight = pet_profile_row['Weight'] if pet_profile_row is not None and pd.notna(pet_profile_row['Weight']) else 'UNK'
-            
-            # Prepare structured pet data dictionary
-            structured_pet_data = {}
-            if pet_profile_row is not None:
-                structured_pet_data = {
-                    'PetType': pet_profile_row.get('PetType', 'UNK'),
-                    'PetBreed': pet_profile_row.get('PetBreed', 'UNK'),
-                    'Gender': pet_profile_row.get('Gender', 'UNK'),
-                    'PetAge': pet_profile_row.get('PetAge', 'UNK'),
-                    'Weight': pet_profile_row.get('Weight', 'UNK'),
-                    'SizeCategory': 'UNK'  # Not available in current Snowflake data
-                }
-            
-            # Use LLM only for additional insights or if fields are missing
-            insights = self.review_agent._analyze_pet_attributes_with_llm(
-                pet_reviews if not pet_reviews.empty else pd.DataFrame(),
-                orders_df if not orders_df.empty else pd.DataFrame(),
-                pet_name,
-                structured_pet_data
-            )
-            
-            # Patch insights with structured data as primary source
-            pet_insight = {
-                "PetName": pet_name,
-                "PetType": structured_pet_type if structured_pet_type != 'UNK' else insights.get("PetType", "UNK"),
-                "PetTypeScore": 1.0 if structured_pet_type != 'UNK' else insights.get("PetTypeScore", 0.0),
-                "Breed": structured_breed if structured_breed != 'UNK' else insights.get("Breed", "UNK"),
-                "BreedScore": 1.0 if structured_breed != 'UNK' else insights.get("BreedScore", 0.0),
-                "LifeStage": structured_lifestage if structured_lifestage != 'UNK' else insights.get("LifeStage", "UNK"),
-                "LifeStageScore": 1.0 if structured_lifestage != 'UNK' else insights.get("LifeStageScore", 0.0),
-                "Gender": structured_gender if structured_gender != 'UNK' else insights.get("Gender", "UNK"),
-                "GenderScore": 1.0 if structured_gender != 'UNK' else insights.get("GenderScore", 0.0),
-                "SizeCategory": insights.get("SizeCategory", "UNK"),
-                "SizeScore": insights.get("SizeScore", 0.0),
-                "Weight": structured_weight if structured_weight != 'UNK' else insights.get("Weight", "UNK"),
-                "WeightScore": 1.0 if structured_weight != 'UNK' else insights.get("WeightScore", 0.0),
-                "PersonalityTraits": insights.get("PersonalityTraits", []),
-                "PersonalityScores": insights.get("PersonalityScores", {}),
-                "FavoriteProductCategories": insights.get("FavoriteProductCategories", []),
-                "CategoryScores": insights.get("CategoryScores", {}),
-                "BrandPreferences": insights.get("BrandPreferences", []),
-                "BrandScores": insights.get("BrandScores", {}),
-                "DietaryPreferences": insights.get("DietaryPreferences", []),
-                "DietaryScores": insights.get("DietaryScores", {}),
-                "BehavioralCues": insights.get("BehavioralCues", []),
-                "BehavioralScores": insights.get("BehavioralScores", {}),
-                "HealthMentions": insights.get("HealthMentions", []),
-                "HealthScores": insights.get("HealthScores", {}),
-                "MostOrderedProducts": insights.get("MostOrderedProducts", [])
-            }
-            customer_results[pet_name] = pet_insight
+        # Use the new cached data method
+        customer_results = self.review_agent.analyze_customer_with_cached_data(
+            customer_id, pets_df, orders_df, reviews_df
+        )
         return customer_results
     
     def _run_order_agent_for_customer(self, customer_id: str) -> Dict[str, Any]:
@@ -881,9 +806,20 @@ class ChewyPlaybackPipeline:
         # Get customer pets from cached data
         pets_df = self._get_cached_customer_pets_dataframe(customer_id, query_keys=['get_pet_profiles'])
         
-        # Use the order agent's LLM analysis method
+        # Use the order agent's LLM analysis method - focus on product-based insights
         customer_orders = orders_df.to_dict('records')
         insights = self.order_agent._analyze_customer_orders_with_llm(orders_df, customer_id)
+        
+        # Order Agent focuses on product-based insights, not behavioral analysis
+        # Set personality traits to minimal since we don't have review data
+        if 'PersonalityTraits' in insights:
+            insights['PersonalityTraits'] = ['Product-focused analysis']
+        if 'PersonalityScores' in insights:
+            insights['PersonalityScores'] = {'Product-focused analysis': 0.3}
+        if 'BehavioralCues' in insights:
+            insights['BehavioralCues'] = ['Inferred from product choices']
+        if 'BehavioralScores' in insights:
+            insights['BehavioralScores'] = {'Inferred from product choices': 0.3}
         
         # Use pet profile data from Snowflake instead of extracting from order data
         customer_results = {}
@@ -920,44 +856,10 @@ class ChewyPlaybackPipeline:
                     "ConfidenceScore": insights.get("ConfidenceScore", 0.0)
                 }
         else:
-            # Fallback to extracting from order data if no pet profile data available
-            try:
-                pet_info = self.order_agent._extract_pet_info(orders_df)
-                for pet_data in pet_info:
-                    pet_name = pet_data.get('name', 'Unknown Pet')
-                    customer_results[pet_name] = {
-                        "PetName": pet_name,
-                        "PetType": pet_data.get("type", "UNK"),
-                        "PetTypeScore": insights.get("PetTypeScore", 0.0),
-                        "Breed": pet_data.get("breed", "UNK"),
-                        "BreedScore": insights.get("BreedScore", 0.0),
-                        "LifeStage": pet_data.get("life_stage", "UNK"),
-                        "LifeStageScore": insights.get("LifeStageScore", 0.0),
-                        "Gender": pet_data.get("gender", "UNK"),
-                        "GenderScore": insights.get("GenderScore", 0.0),
-                        "SizeCategory": pet_data.get("size", "UNK"),
-                        "SizeScore": insights.get("SizeScore", 0.0),
-                        "Weight": "UNK",
-                        "WeightScore": insights.get("WeightScore", 0.0),
-                        "PersonalityTraits": insights.get("PersonalityTraits", []),
-                        "PersonalityScores": insights.get("PersonalityScores", {}),
-                        "FavoriteProductCategories": insights.get("FavoriteProductCategories", []),
-                        "CategoryScores": insights.get("CategoryScores", {}),
-                        "BrandPreferences": insights.get("BrandPreferences", []),
-                        "BrandScores": insights.get("BrandScores", {}),
-                        "DietaryPreferences": insights.get("DietaryPreferences", []),
-                        "DietaryScores": insights.get("DietaryScores", {}),
-                        "BehavioralCues": insights.get("BehavioralCues", []),
-                        "BehavioralScores": insights.get("BehavioralScores", {}),
-                        "HealthMentions": insights.get("HealthMentions", []),
-                        "HealthScores": insights.get("HealthScores", {}),
-                        "MostOrderedProducts": insights.get("MostOrderedProducts", []),
-                        "ConfidenceScore": insights.get("ConfidenceScore", 0.0)
-                    }
-            except Exception as e:
-                print(f"    ⚠️ Error extracting pet info: {e}")
-                # Don't create fake pet entries - return empty results
-                pass
+            # No pet profiles available - return empty results instead of creating fake pets
+            print(f"    ⚠️ No pet profiles found for customer {customer_id}")
+            print(f"    ℹ️ Order Intelligence Agent requires pet profiles to function properly")
+            return {}
         
         return customer_results
     
@@ -1072,6 +974,16 @@ class ChewyPlaybackPipeline:
             
             # Check each pet in the enriched profile
             for pet_name, pet_data in pets_data.items():
+                # Skip metadata fields that start with underscore
+                if pet_name.startswith('_'):
+                    print(f"    ⏭️ {pet_name}: Skipped (metadata field)")
+                    continue
+                
+                # Ensure pet_data is a dictionary
+                if not isinstance(pet_data, dict):
+                    print(f"    ⏭️ {pet_name}: Skipped (not a dictionary)")
+                    continue
+                
                 total_pets_checked += 1
                 
                 # Check if this pet qualifies for breed prediction
@@ -1313,6 +1225,16 @@ class ChewyPlaybackPipeline:
                 'gets_playback': customer_data.get('gets_playback', False),
                 'gets_personalized': customer_data.get('gets_personalized', False)
             }
+            
+            # Handle pet count analysis metadata from enhanced detection
+            if '_pet_count_analysis' in pets_data:
+                pet_count_analysis = pets_data.pop('_pet_count_analysis')
+                profile_data['pet_count_analysis'] = {
+                    'original_counts': pet_count_analysis.get('original_counts', {}),
+                    'detected_counts': pet_count_analysis.get('detected_counts', {}),
+                    'updated_counts': pet_count_analysis.get('updated_counts', {}),
+                    'additional_pets_detected': len(pet_count_analysis.get('additional_pets', []))
+                }
             profile_path = customer_dir / "enriched_pet_profile.json"
             with open(profile_path, 'w') as f:
                 json.dump(profile_data, f, indent=2)
