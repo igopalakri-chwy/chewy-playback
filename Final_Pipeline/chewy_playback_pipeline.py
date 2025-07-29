@@ -1548,7 +1548,7 @@ class ChewyPlaybackPipeline:
                     
                     # Get customer zip code for location-based fun facts from cached data
                     address_data = customer_data.get('get_cust_zipcode', [])
-                    zip_code = address_data[0].get('zip_code') if address_data and len(address_data) > 0 else None
+                    zip_code = address_data[0].get('CUSTOMER_ADDRESS_ZIP') if address_data and len(address_data) > 0 else None
                     
                     if food_data and len(food_data) > 0:
                         # Generate food fun facts with location data
