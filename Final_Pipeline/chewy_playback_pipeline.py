@@ -1469,9 +1469,10 @@ class ChewyPlaybackPipeline:
             
             # Run donation query and save output
             if customer_id in enriched_profiles and enriched_profiles[customer_id].get('gets_playback', False) and not enriched_profiles[customer_id].get('gets_personalized', False):
-                print(f"  💰 Running donation query for customer {customer_id}...")
+                print(f"  💰 Using cached donation data for customer {customer_id}...")
                 try:
-                    donation_results = self.snowflake_connector.get_customer_donations(customer_id)
+                    # Use cached data instead of making a new Snowflake call
+                    donation_results = customer_data.get('get_amt_donated', [])
                     amt_donated = 0.0
                     if donation_results and isinstance(donation_results, list):
                         try:
@@ -1486,7 +1487,7 @@ class ChewyPlaybackPipeline:
                         json.dump({"amt_donated": amt_donated}, f, indent=2)
                     print(f"    ✅ Saved donation results for customer {customer_id}: {amt_donated} USD")
                     # Run cuddliest month query and save output
-                    cuddliest_results = customer_data.get('query_7', [])
+                    cuddliest_results = customer_data.get('get_cudd_month', [])
                     cuddliest_month = None
                     if cuddliest_results and isinstance(cuddliest_results, list):
                         try:
@@ -1499,7 +1500,7 @@ class ChewyPlaybackPipeline:
                     with open(cuddliest_path, 'w') as f:
                         json.dump({"month": cuddliest_month}, f, indent=2)
                     # Run months with Chewy query and save output
-                    months_results = customer_data.get('query_8', [])
+                    months_results = customer_data.get('get_total_months', [])
                     months_with_chewy = None
                     if months_results and isinstance(months_results, list):
                         try:
@@ -1512,7 +1513,7 @@ class ChewyPlaybackPipeline:
                     with open(months_path, 'w') as f:
                         json.dump({"months": months_with_chewy}, f, indent=2)
                     # Run autoship savings query and save output
-                    autoship_results = customer_data.get('query_9', [])
+                    autoship_results = customer_data.get('get_autoship_savings', [])
                     amt_saved = 0.0
                     if autoship_results and isinstance(autoship_results, list):
                         try:
@@ -1525,7 +1526,7 @@ class ChewyPlaybackPipeline:
                     with open(autoship_path, 'w') as f:
                         json.dump({"amt_saved": amt_saved}, f, indent=2)
                     # Run most reordered product query and save output
-                    most_reordered_results = customer_data.get('query_10', [])
+                    most_reordered_results = customer_data.get('get_most_ordered', [])
                     most_reordered_product = None
                     if most_reordered_results and isinstance(most_reordered_results, list):
                         try:
