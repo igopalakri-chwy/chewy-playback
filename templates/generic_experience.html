@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chewy Playback - Generic Experience</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 800px;
+            height: 600px;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+            position: relative;
+        }
+
+        .slide {
+            width: 100%;
+            height: 100%;
+            display: none;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .slide.active {
+            display: flex;
+        }
+
+        .slide-title {
+            font-size: 2.5em;
+            color: #333;
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .slide-value {
+            font-size: 4em;
+            font-weight: bold;
+            color: #667eea;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .slide-description {
+            font-size: 1.2em;
+            color: #666;
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+
+        .nav-buttons {
+            position: absolute;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav-btn {
+            padding: 12px 24px;
+            background: #667eea;
+            color: white;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 1em;
+            transition: all 0.3s ease;
+        }
+
+        .nav-btn:hover {
+            background: #5a6fd8;
+            transform: translateY(-2px);
+        }
+
+        .loading {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            font-size: 1.5em;
+            color: #667eea;
+        }
+
+        .error {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            font-size: 1.5em;
+            color: #e74c3c;
+        }
+
+        .slide-counter {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: rgba(0,0,0,0.1);
+            color: #333;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="loading" class="loading">
+            <h2>Loading your Chewy experience...</h2>
+            <p>Please wait while we fetch your data</p>
+        </div>
+
+        <div id="error" class="error" style="display: none;">
+            <h2>❌ Error</h2>
+            <p id="error-message">Something went wrong</p>
+            <button class="nav-btn" onclick="window.history.back()">Go Back</button>
+        </div>
+
+        <div id="slides-container" style="display: none;">
+            <!-- Food Fun Fact Slide -->
+            <div class="slide active" id="slide-1">
+                <h1 class="slide-title">🍽️ Your Pet's Food Journey 🍽️</h1>
+                <div class="slide-value" id="food-fun-fact-value">0 lbs</div>
+                <p class="slide-description" id="food-fun-fact-message">Your pets have consumed food this year!</p>
+                <p class="slide-description" id="food-fun-fact-details">That's a lot of love for your pets! 🐾</p>
+                <div class="nav-buttons">
+                    <button class="nav-btn" onclick="nextSlide()">Continue Journey →</button>
+                </div>
+                <div class="slide-counter">1 of 7</div>
+            </div>
+
+            <!-- Donations Slide -->
+            <div class="slide" id="slide-2">
+                <h1 class="slide-title">❤️ Donations ❤️</h1>
+                <div class="slide-value" id="donations-value">$0.00</div>
+                <p class="slide-description">Total Donations This Year</p>
+                <p class="slide-description">Your generous donations help pets in need find their forever homes. Thank you for making a difference! 🐾</p>
+                <div class="nav-buttons">
+                    <button class="nav-btn" onclick="prevSlide()">← Previous</button>
+                    <button class="nav-btn" onclick="nextSlide()">Next →</button>
+                </div>
+                <div class="slide-counter">2 of 7</div>
+            </div>
+
+            <!-- Milestone Slide -->
+            <div class="slide" id="slide-3">
+                <h1 class="slide-title">🎊 Milestone 🎊</h1>
+                <div class="slide-value" id="milestone-value">0</div>
+                <p class="slide-description">Amazing Months with Chewy!</p>
+                <p class="slide-description">You've been part of the Chewy family for an incredible <span id="milestone-text">0</span> months! Thank you for trusting us with your pets' care. 🎉</p>
+                <div class="nav-buttons">
+                    <button class="nav-btn" onclick="prevSlide()">← Previous</button>
+                    <button class="nav-btn" onclick="nextSlide()">Next →</button>
+                </div>
+                <div class="slide-counter">3 of 7</div>
+            </div>
+
+            <!-- Most Reordered Slide -->
+            <div class="slide" id="slide-4">
+                <h1 class="slide-title">🔄 Most Reordered 🔄</h1>
+                <div class="slide-value">🏆</div>
+                <p class="slide-description">Your Favorite Product</p>
+                <p class="slide-description" id="most-ordered-text">No data available</p>
+                <div class="nav-buttons">
+                    <button class="nav-btn" onclick="prevSlide()">← Previous</button>
+                    <button class="nav-btn" onclick="nextSlide()">Next →</button>
+                </div>
+                <div class="slide-counter">4 of 7</div>
+            </div>
+
+            <!-- Cuddliest Month Slide -->
+            <div class="slide" id="slide-5">
+                <h1 class="slide-title">📅 Cuddliest Month 📅</h1>
+                <div class="slide-value" id="cuddliest-month-value">N/A</div>
+                <p class="slide-description">Your Cuddliest Month</p>
+                <p class="slide-description">This was your busiest month with Chewy! 💕</p>
+                <div class="nav-buttons">
+                    <button class="nav-btn" onclick="prevSlide()">← Previous</button>
+                    <button class="nav-btn" onclick="nextSlide()">Next →</button>
+                </div>
+                <div class="slide-counter">5 of 7</div>
+            </div>
+
+            <!-- Savings from Autoship Slide -->
+            <div class="slide" id="slide-6">
+                <h1 class="slide-title">💰 Savings from Autoship 💰</h1>
+                <div class="slide-value" id="autoship-savings-value">$0.00</div>
+                <p class="slide-description">Total Savings This Year</p>
+                <p class="slide-description">You've saved big with autoship! Keep using it to save even more on your pet essentials. 🎉</p>
+                <div class="nav-buttons">
+                    <button class="nav-btn" onclick="prevSlide()">← Previous</button>
+                    <button class="nav-btn" onclick="nextSlide()">Next →</button>
+                </div>
+                <div class="slide-counter">6 of 7</div>
+            </div>
+
+            <!-- Yearly Food Count Slide -->
+            <div class="slide" id="slide-7">
+                <h1 class="slide-title">🍽️ Yearly Food Count 🍽️</h1>
+                <div class="slide-value" id="yearly-food-value">0</div>
+                <p class="slide-description">Food Items Ordered This Year</p>
+                <p class="slide-description">That's a lot of love for your pets! 🐾</p>
+                <div class="nav-buttons">
+                    <button class="nav-btn" onclick="prevSlide()">← Previous</button>
+                    <button class="nav-btn" onclick="goHome()">Home</button>
+                </div>
+                <div class="slide-counter">7 of 7</div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let currentSlide = 1;
+        const totalSlides = 7;
+        let customerData = null;
+
+        // Get customer data from Flask template
+        window.addEventListener('load', () => {
+            // Customer data is passed from Flask template
+            customerData = JSON.parse('{{ customer_data | tojson | safe }}');
+            populateSlides();
+            showSlides();
+        });
+
+        function populateSlides() {
+            if (!customerData) return;
+
+            // Track which slides have data
+            const slidesWithData = [];
+            
+            // Populate food fun fact slide (slide-1 in HTML)
+            const foodFunFact = customerData.food_fun_fact || {};
+            const totalFoodLbs = foodFunFact.total_food_lbs || customerData.yearly_food_count || 0;
+            const funFacts = foodFunFact.fun_facts || [];
+            const message = foodFunFact.message || `Your pets have consumed ${totalFoodLbs} lbs of food this year!`;
+            
+            if (totalFoodLbs > 0) {
+                document.getElementById('food-fun-fact-value').textContent = `${totalFoodLbs} lbs`;
+                document.getElementById('food-fun-fact-message').textContent = message;
+                if (funFacts.length > 0) {
+                    document.getElementById('food-fun-fact-details').textContent = funFacts[0];
+                }
+                slidesWithData.push(1);
+            } else {
+                document.getElementById('slide-1').style.display = 'none';
+            }
+            
+            // Check donations slide (slide-2 in HTML)
+            const donationsValue = customerData.amount_donated || 0;
+            if (donationsValue > 0) {
+                document.getElementById('donations-value').textContent = `$${donationsValue.toFixed(2)}`;
+                slidesWithData.push(2);
+            } else {
+                document.getElementById('slide-2').style.display = 'none';
+            }
+
+            // Check milestone slide (slide-3 in HTML)
+            const totalMonths = customerData.total_months || 0;
+            if (totalMonths > 0) {
+                document.getElementById('milestone-value').textContent = totalMonths;
+                document.getElementById('milestone-text').textContent = totalMonths;
+                slidesWithData.push(3);
+            } else {
+                document.getElementById('slide-3').style.display = 'none';
+            }
+
+            // Check most ordered slide (slide-4 in HTML)
+            const mostOrdered = customerData.most_ordered || '';
+            if (mostOrdered && mostOrdered !== 'No data available' && mostOrdered.trim() !== '') {
+                document.getElementById('most-ordered-text').textContent = mostOrdered;
+                slidesWithData.push(4);
+            } else {
+                document.getElementById('slide-4').style.display = 'none';
+            }
+
+            // Check cuddliest month slide (slide-5 in HTML)
+            const cuddliestMonth = customerData.cuddliest_month || '';
+            if (cuddliestMonth && cuddliestMonth !== 'N/A' && cuddliestMonth.trim() !== '') {
+                document.getElementById('cuddliest-month-value').textContent = cuddliestMonth;
+                slidesWithData.push(5);
+            } else {
+                document.getElementById('slide-5').style.display = 'none';
+            }
+
+            // Check autoship savings slide (slide-6 in HTML)
+            const autoshipSavings = customerData.autoship_savings || 0;
+            if (autoshipSavings > 0) {
+                document.getElementById('autoship-savings-value').textContent = `$${autoshipSavings.toFixed(2)}`;
+                slidesWithData.push(6);
+            } else {
+                document.getElementById('slide-6').style.display = 'none';
+            }
+
+            // Check yearly food count slide (slide-7 in HTML)
+            const yearlyFoodCount = customerData.yearly_food_count || 0;
+            if (yearlyFoodCount > 0) {
+                document.getElementById('yearly-food-value').textContent = yearlyFoodCount;
+                slidesWithData.push(7);
+            } else {
+                document.getElementById('slide-7').style.display = 'none';
+            }
+
+            // Update total slides count and slide counters
+            window.availableSlides = slidesWithData;
+            window.totalSlides = slidesWithData.length + 1; // +1 for welcome slide
+            
+            // Update slide counters for visible slides
+            slidesWithData.forEach((slideNum, index) => {
+                const counterElement = document.querySelector(`#slide-${slideNum} .slide-counter`);
+                if (counterElement) {
+                    counterElement.textContent = `${index + 1} of ${window.totalSlides}`; // +1 because food fun fact is now slide 1
+                }
+            });
+            
+            // Update final slide counter (slide-7 is the last data slide)
+            const finalSlideCounter = document.querySelector('#slide-7 .slide-counter');
+            if (finalSlideCounter && slidesWithData.includes(7)) {
+                finalSlideCounter.textContent = `${slidesWithData.length} of ${window.totalSlides}`;
+            }
+        }
+
+        function showSlides() {
+            document.getElementById('loading').style.display = 'none';
+            document.getElementById('slides-container').style.display = 'block';
+        }
+
+        function showError(message) {
+            document.getElementById('loading').style.display = 'none';
+            document.getElementById('error').style.display = 'flex';
+            document.getElementById('error-message').textContent = message;
+        }
+
+        function showSlide(slideNumber) {
+            // Hide all slides
+            for (let i = 1; i <= 7; i++) {
+                const slide = document.getElementById(`slide-${i}`);
+                if (slide) {
+                    slide.classList.remove('active');
+                }
+            }
+            
+            // Show current slide
+            const targetSlide = document.getElementById(`slide-${slideNumber}`);
+            if (targetSlide && targetSlide.style.display !== 'none') {
+                targetSlide.classList.add('active');
+                currentSlide = slideNumber;
+            }
+        }
+
+        function nextSlide() {
+            if (!window.availableSlides) return;
+            
+            const currentIndex = window.availableSlides.indexOf(currentSlide);
+            if (currentIndex < window.availableSlides.length - 1) {
+                // Go to next available slide
+                showSlide(window.availableSlides[currentIndex + 1]);
+            } else if (currentSlide < window.totalSlides) {
+                // Go to final slide
+                showSlide(window.totalSlides);
+            }
+        }
+
+        function prevSlide() {
+            if (!window.availableSlides) return;
+            
+            if (currentSlide === window.totalSlides) {
+                // Go from final slide to last available slide
+                const lastAvailableSlide = window.availableSlides[window.availableSlides.length - 1];
+                showSlide(lastAvailableSlide);
+            } else {
+                const currentIndex = window.availableSlides.indexOf(currentSlide);
+                if (currentIndex > 0) {
+                    // Go to previous available slide
+                    showSlide(window.availableSlides[currentIndex - 1]);
+                } else if (currentSlide > 1) {
+                    // Go to welcome slide
+                    showSlide(1);
+                }
+            }
+        }
+
+        function goHome() {
+            window.location.href = '/';
+        }
+
+        // Keyboard navigation
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowRight' || e.key === ' ') {
+                e.preventDefault();
+                nextSlide();
+            } else if (e.key === 'ArrowLeft') {
+                e.preventDefault();
+                prevSlide();
+            }
+        });
+    </script>
+</body>
+</html> 

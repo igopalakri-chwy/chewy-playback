@@ -204,7 +204,31 @@ def load_customer_data(customer_id):
         # Use real portrait data
         data['portrait'] = f"/static/customer_images/{customer_id}/collective_pet_portrait.png"
         
-        # 8. Don't create fake data - only show real data
+        # 8. Load consolidated queries data (the 6 SQL queries)
+        consolidated_path = os.path.join(customer_dir, f"{customer_id}.json")
+        if os.path.exists(consolidated_path):
+            with open(consolidated_path, 'r') as f:
+                consolidated_data = json.load(f)
+                data['consolidated_queries'] = consolidated_data
+                
+                # Extract individual query results for easy access
+                data['amount_donated'] = consolidated_data.get('amount_donated')
+                data['cuddliest_month'] = consolidated_data.get('cuddliest_month')
+                data['total_months'] = consolidated_data.get('total_months')
+                data['autoship_savings'] = consolidated_data.get('autoship_savings')
+                data['most_ordered'] = consolidated_data.get('most_ordered')
+                data['yearly_food_count'] = consolidated_data.get('yearly_food_count')
+        else:
+            print(f"⚠️ No consolidated queries found for customer {customer_id}")
+            data['consolidated_queries'] = None
+            data['amount_donated'] = None
+            data['cuddliest_month'] = None
+            data['total_months'] = None
+            data['autoship_savings'] = None
+            data['most_ordered'] = None
+            data['yearly_food_count'] = None
+        
+        # 9. Don't create fake data - only show real data
         # These fields will be None if not available from pipeline
         
         return data
@@ -321,7 +345,7 @@ def index():
 def customers():
     """Page showing all available customers"""
     customer_ids = get_all_customer_ids()
-    return render_template('customers.html', customer_ids=customer_ids)
+    return render_template('index.html', customer_ids=customer_ids)
 
 @app.route('/experience/<customer_id>')
 def experience(customer_id):
@@ -333,7 +357,7 @@ def experience(customer_id):
             print(f"⏳ Pipeline already running for customer {customer_id}")
             return render_template('loading.html', 
                                  customer_id=customer_id,
-                                 message="Pipeline is already running in the background. Please refresh the page in a few moments.")
+                                 message="Pipeline is already running. Please wait...")
         
         print(f"📁 No existing data for customer {customer_id}, running pipeline...")
         run_pipeline_for_customer(customer_id)
@@ -341,17 +365,27 @@ def experience(customer_id):
         # Show loading page while pipeline runs in background
         return render_template('loading.html', 
                              customer_id=customer_id,
-                             message="Pipeline is running in the background. Please refresh the page in a few moments.")
+                             message="Pipeline is starting. Please wait...")
     
     customer_data = load_customer_data(customer_id)
     
     if not customer_data:
-        return render_template('error.html', 
+        return render_template('error.html',
                              error_message=f"Could not load data for customer {customer_id}")
     
-    return render_template('experience.html', 
-                         customer_id=customer_id, 
-                         customer_data=customer_data)
+    # Determine if customer is personalized or generic
+    is_personalized = customer_data.get('enriched_profile', {}).get('gets_personalized', False)
+    
+    if is_personalized:
+        # Use the full personalized experience template
+        return render_template('personalized_experience.html',
+                             customer_id=customer_id,
+                             customer_data=customer_data)
+    else:
+        # Use the generic experience template (6 slides)
+        return render_template('generic_experience.html',
+                             customer_id=customer_id,
+                             customer_data=customer_data)
 
 @app.route('/api/customer/<customer_id>')
 def api_customer_data(customer_id):

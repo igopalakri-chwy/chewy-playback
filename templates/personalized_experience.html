@@ -1,7 +1,7 @@
 {% extends "base.html" %}
-
+​
 {% block title %}Pet Experience - Customer {{ customer_id }} - Chewy Playback{% endblock %}
-
+​
 {% block content %}
 <script>
 // Dynamic styling based on data content
@@ -88,7 +88,7 @@ function getDynamicStyles(data) {
     
     return styles;
 }
-
+​
 // Apply dynamic styles when page loads
 document.addEventListener('DOMContentLoaded', function() {
     const customerData = JSON.parse('{{ customer_data | tojson | safe }}');
@@ -126,9 +126,9 @@ document.addEventListener('DOMContentLoaded', function() {
     if (savingsContainer) savingsContainer.style.background = styles.savingsGradient;
 });
 </script>
-
+​
 <div class="experience-container">
-
+​
     
     <!-- Navigation -->
     <div class="slide-nav">
@@ -144,6 +144,7 @@ document.addEventListener('DOMContentLoaded', function() {
         <div class="nav-dot" data-slide="6"></div>
         <div class="nav-dot" data-slide="7"></div>
         <div class="nav-dot" data-slide="8"></div>
+        <div class="nav-dot" data-slide="9"></div>
         {% else %}
         <div class="nav-dot" data-slide="4"></div>
         <div class="nav-dot" data-slide="5"></div>
@@ -642,8 +643,82 @@ document.addEventListener('DOMContentLoaded', function() {
         
         {% endif %}
         
-        <!-- Slide 6: Social Media Sharing -->
+        <!-- Slide 6: Consolidated Queries (Your Other Stats) -->
+        {% if customer_data.consolidated_queries %}
         <div class="slide" id="slide-6">
+            <div class="slide-content stats-slide" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 40px 20px; min-height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                <div class="slide-header" style="text-align: center; margin-bottom: 30px;">
+                    <h2 class="slide-title" style="text-align: center; margin: 0;">
+                        <span class="emoji celebration">📊</span> Your Other Stats <span class="emoji celebration">📊</span>
+                    </h2>
+                </div>
+                
+                <div class="stats-container" style="width: 100%; max-width: 600px; margin: 20px 0;">
+                    <div class="stats-grid" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; width: 100%;">
+                        {% if customer_data.amount_donated and customer_data.amount_donated > 0 %}
+                        <div class="stat-card" style="background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.2); padding: 25px; border-radius: 15px; text-align: center; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+                            <div class="stat-icon" style="font-size: 2em; margin-bottom: 10px;">❤️</div>
+                            <div class="stat-value" style="font-size: 1.8em; font-weight: bold; margin-bottom: 8px; color: #fff;">${{ "%.2f"|format(customer_data.amount_donated) }}</div>
+                            <div class="stat-label" style="font-size: 0.9em; opacity: 0.9; color: #fff;">Donations</div>
+                        </div>
+                        {% endif %}
+                        
+                        {% if customer_data.total_months and customer_data.total_months > 0 %}
+                        <div class="stat-card" style="background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.2); padding: 25px; border-radius: 15px; text-align: center; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+                            <div class="stat-icon" style="font-size: 2em; margin-bottom: 10px;">🎊</div>
+                            <div class="stat-value" style="font-size: 1.8em; font-weight: bold; margin-bottom: 8px; color: #fff;">{{ customer_data.total_months }}</div>
+                            <div class="stat-label" style="font-size: 0.9em; opacity: 0.9; color: #fff;">Months with Chewy</div>
+                        </div>
+                        {% endif %}
+                        
+                        {% if customer_data.most_ordered and customer_data.most_ordered %}
+                        <div class="stat-card" style="background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.2); padding: 25px; border-radius: 15px; text-align: center; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+                            <div class="stat-icon" style="font-size: 2em; margin-bottom: 10px;">🔄</div>
+                            <div class="stat-value" style="font-size: 1.8em; font-weight: bold; margin-bottom: 8px; color: #fff;">🏆</div>
+                            <div class="stat-label" style="font-size: 0.9em; opacity: 0.9; color: #fff;">Most Ordered</div>
+                        </div>
+                        {% endif %}
+                        
+                        {% if customer_data.cuddliest_month and customer_data.cuddliest_month %}
+                        <div class="stat-card" style="background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.2); padding: 25px; border-radius: 15px; text-align: center; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+                            <div class="stat-icon" style="font-size: 2em; margin-bottom: 10px;">📅</div>
+                            <div class="stat-value" style="font-size: 1.8em; font-weight: bold; margin-bottom: 8px; color: #fff;">{{ customer_data.cuddliest_month }}</div>
+                            <div class="stat-label" style="font-size: 0.9em; opacity: 0.9; color: #fff;">Cuddliest Month</div>
+                        </div>
+                        {% endif %}
+                        
+                        {% if customer_data.autoship_savings and customer_data.autoship_savings > 0 %}
+                        <div class="stat-card" style="background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.2); padding: 25px; border-radius: 15px; text-align: center; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+                            <div class="stat-icon" style="font-size: 2em; margin-bottom: 10px;">💰</div>
+                            <div class="stat-value" style="font-size: 1.8em; font-weight: bold; margin-bottom: 8px; color: #fff;">${{ "%.2f"|format(customer_data.autoship_savings) }}</div>
+                            <div class="stat-label" style="font-size: 0.9em; opacity: 0.9; color: #fff;">Autoship Savings</div>
+                        </div>
+                        {% endif %}
+                        
+                        {% if customer_data.yearly_food_count and customer_data.yearly_food_count > 0 %}
+                        <div class="stat-card" style="background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.2); padding: 25px; border-radius: 15px; text-align: center; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+                            <div class="stat-icon" style="font-size: 2em; margin-bottom: 10px;">🍽️</div>
+                            <div class="stat-value" style="font-size: 1.8em; font-weight: bold; margin-bottom: 8px; color: #fff;">{{ customer_data.yearly_food_count }}</div>
+                            <div class="stat-label" style="font-size: 0.9em; opacity: 0.9; color: #fff;">Yearly Food Count</div>
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+                
+                <div class="slide-actions">
+                    <button class="nav-btn prev-btn" onclick="prevSlide()">
+                        <i class="fas fa-arrow-left"></i>
+                    </button>
+                    <button class="nav-btn next-btn" onclick="nextSlide()">
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+        
+        <!-- Slide 7: Social Media Sharing -->
+        <div class="slide" id="slide-7">
             <div class="slide-content share-slide">
                 <div class="slide-header" style="text-align: center; margin-bottom: 30px;">
                     <h2 class="slide-title" style="text-align: center; margin: 0;">
@@ -711,10 +786,10 @@ document.addEventListener('DOMContentLoaded', function() {
             </div>
         </div>
         
-
+​
         
-        <!-- Slide 7: Unknowns -->
-        <div class="slide" id="slide-7">
+        <!-- Slide 8: Unknowns -->
+        <div class="slide" id="slide-8">
             <div class="slide-content unknowns-slide">
                 <div class="slide-header" style="text-align: center; margin-bottom: 30px;">
                     <h2 class="slide-title" style="text-align: center; margin: 0; color: white;">
@@ -783,13 +858,13 @@ document.addEventListener('DOMContentLoaded', function() {
     </div>
 </div>
 {% endblock %}
-
+​
 {% block extra_js %}
 <script>
 let currentSlide = 0;
 let totalSlides = 10;
 let isTransitioning = false;
-
+​
 // Function to count visible slides and update navigation
 function updateSlideCount() {
     const visibleSlides = document.querySelectorAll('.slide').length;
@@ -808,7 +883,7 @@ function updateSlideCount() {
         }
     }
 }
-
+​
 // Loading animation variables
 let loadingProgress = 0;
 let loadingInterval;
@@ -817,7 +892,7 @@ const loadingMessages = [
     "Fetching pet memories...",
     "Almost ready..."
 ];
-
+​
 function showSlide(slideIndex) {
     if (isTransitioning || slideIndex === currentSlide) return;
     
@@ -848,30 +923,30 @@ function showSlide(slideIndex) {
         isTransitioning = false;
     }, 500);
 }
-
+​
 function nextSlide() {
     if (currentSlide < totalSlides - 1) {
         showSlide(currentSlide + 1);
     }
 }
-
+​
 function prevSlide() {
     if (currentSlide > 0) {
         showSlide(currentSlide - 1);
     }
 }
-
+​
 function goHome() {
     window.location.href = '/';
 }
-
+​
 // Navigation dot clicks
 document.querySelectorAll('.nav-dot').forEach((dot, index) => {
     dot.addEventListener('click', () => {
         showSlide(index);
     });
 });
-
+​
 // Keyboard navigation
 document.addEventListener('keydown', (e) => {
     if (e.key === 'ArrowRight') {
@@ -880,20 +955,20 @@ document.addEventListener('keydown', (e) => {
         prevSlide();
     }
 });
-
+​
 // Touch/swipe support
 let touchStartX = 0;
 let touchEndX = 0;
-
+​
 document.addEventListener('touchstart', (e) => {
     touchStartX = e.changedTouches[0].screenX;
 });
-
+​
 document.addEventListener('touchend', (e) => {
     touchEndX = e.changedTouches[0].screenX;
     handleSwipe();
 });
-
+​
 function handleSwipe() {
     const swipeThreshold = 50;
     const diff = touchStartX - touchEndX;
@@ -908,7 +983,7 @@ function handleSwipe() {
         }
     }
 }
-
+​
 // Loading Animation Functions
 function startLoadingAnimation() {
     const progressFill = document.getElementById('progressFill');
@@ -936,7 +1011,7 @@ function startLoadingAnimation() {
         }
     }, 100);
 }
-
+​
 // Start loading animation when page loads
 document.addEventListener('DOMContentLoaded', function() {
     // Update slide count based on visible slides
@@ -946,14 +1021,14 @@ document.addEventListener('DOMContentLoaded', function() {
         startLoadingAnimation();
     }
 });
-
+​
 // Social Media Sharing Functions
 function shareToWhatsApp() {
     const url = encodeURIComponent(window.location.href);
     const text = encodeURIComponent("🐾 Check out my pet's amazing story! 🐾");
     window.open(`https://wa.me/?text=${text}%20${url}`, '_blank');
 }
-
+​
 function shareToInstagram() {
     const url = encodeURIComponent(window.location.href);
     const text = encodeURIComponent("🐾 My pet's story is incredible! 🐾");
@@ -961,29 +1036,29 @@ function shareToInstagram() {
     copyToClipboard(`${text}\n\n${window.location.href}`);
     showShareMessage('Link copied! You can now paste it in your Instagram story or post.');
 }
-
+​
 function shareToFacebook() {
     const url = encodeURIComponent(window.location.href);
     window.open(`https://www.facebook.com/sharer/sharer.php?u=${url}`, '_blank');
 }
-
+​
 function shareToMessages() {
     const url = encodeURIComponent(window.location.href);
     const text = encodeURIComponent("🐾 Look at my pet's amazing story! 🐾");
     window.open(`sms:?body=${text}%20${url}`, '_blank');
 }
-
+​
 function shareToLinkedIn() {
     const url = encodeURIComponent(window.location.href);
     const text = encodeURIComponent("🐾 Sharing my pet's incredible journey! 🐾");
     window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${url}`, '_blank');
 }
-
+​
 function copyLink() {
     copyToClipboard(window.location.href);
     showShareMessage('Link copied to clipboard! 📋');
 }
-
+​
 function copyToClipboard(text) {
     if (navigator.clipboard) {
         navigator.clipboard.writeText(text);
@@ -997,7 +1072,7 @@ function copyToClipboard(text) {
         document.body.removeChild(textArea);
     }
 }
-
+​
 function showShareMessage(message) {
     // Create a temporary message element
     const messageEl = document.createElement('div');
@@ -1027,7 +1102,7 @@ function showShareMessage(message) {
         }
     }, 3000);
 }
-
+​
 // Personalized Playback Functions
 function goToPetProfile() {
     // Redirect to pet profile page or show modal
@@ -1035,7 +1110,7 @@ function goToPetProfile() {
     // You can replace this with actual redirect logic
     // window.location.href = '/pet-profile';
 }
-
+​
 function contactSupport() {
     // Open support chat or contact form
     showShareMessage('Opening support chat... 💬');
@@ -1044,3 +1119,4 @@ function contactSupport() {
 }
 </script>
 {% endblock %} 
+wrap long lines

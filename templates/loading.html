@@ -1,221 +1,186 @@
-{% extends "base.html" %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chewy Playback - Loading</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-{% block content %}
-<div class="loading-page">
-    <div class="loading-container">
-        <div class="loading-header">
-            <div class="loading-icon">
-                <i class="fas fa-cog fa-spin"></i>
-            </div>
-            <h2 class="loading-title">Pipeline Running</h2>
-            <p class="loading-subtitle">{{ message }}</p>
-            <p class="customer-id">Customer ID: {{ customer_id }}</p>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 600px;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            padding: 40px;
+            text-align: center;
+        }
+
+        .loading-spinner {
+            width: 60px;
+            height: 60px;
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #667eea;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 30px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .loading-title {
+            font-size: 2em;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .loading-message {
+            font-size: 1.2em;
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 8px;
+            background: #f3f3f3;
+            border-radius: 4px;
+            overflow: hidden;
+            margin-bottom: 20px;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #667eea, #764ba2);
+            width: 0%;
+            animation: progress 2s ease-in-out infinite;
+        }
+
+        @keyframes progress {
+            0% { width: 0%; }
+            50% { width: 70%; }
+            100% { width: 100%; }
+        }
+
+        .status-text {
+            font-size: 1em;
+            color: #888;
+            margin-top: 20px;
+        }
+
+        .error-message {
+            color: #e74c3c;
+            font-size: 1.1em;
+            margin-top: 20px;
+            display: none;
+        }
+
+        .retry-button {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 1em;
+            margin-top: 20px;
+            display: none;
+        }
+
+        .retry-button:hover {
+            background: #5a6fd8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="loading-spinner"></div>
+        <h1 class="loading-title">🔄 Processing Your Data</h1>
+        <p class="loading-message">{{ message }}</p>
+        
+        <div class="progress-bar">
+            <div class="progress-fill"></div>
         </div>
         
-        <div class="loading-progress">
-            <div class="progress-bar">
-                <div class="progress-fill" style="width: 100%;"></div>
-            </div>
-            <div class="loading-messages">
-                <span class="loading-message">Processing customer {{ customer_id }}...</span>
-            </div>
-        </div>
-        
-        <div class="loading-actions">
-            <button onclick="location.reload()" class="refresh-btn">
-                <i class="fas fa-sync-alt"></i> Refresh Page
-            </button>
-            <p class="refresh-hint">Click refresh to check if data is ready</p>
-            <p class="auto-refresh-hint">Auto-refreshing every 5 seconds...</p>
-        </div>
+        <p class="status-text" id="status-text">Checking pipeline status...</p>
+        <p class="error-message" id="error-message"></p>
+        <button class="retry-button" id="retry-button" onclick="retryCheck()">Retry</button>
     </div>
-</div>
 
-<style>
-.loading-page {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    font-family: 'Inter', sans-serif;
-}
-
-.loading-container {
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(10px);
-    border-radius: 20px;
-    padding: 40px;
-    text-align: center;
-    max-width: 500px;
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
-}
-
-.loading-header {
-    margin-bottom: 30px;
-}
-
-.loading-icon {
-    font-size: 60px;
-    color: #4a90e2;
-    margin-bottom: 20px;
-}
-
-.loading-title {
-    color: white;
-    font-size: 28px;
-    margin-bottom: 10px;
-    font-weight: 600;
-}
-
-.loading-subtitle {
-    color: rgba(255, 255, 255, 0.8);
-    font-size: 16px;
-    line-height: 1.5;
-}
-
-.customer-id {
-    color: rgba(255, 255, 255, 0.6);
-    font-size: 14px;
-    margin-top: 5px;
-    font-family: monospace;
-}
-
-.loading-progress {
-    margin-bottom: 30px;
-}
-
-.progress-bar {
-    background: rgba(255, 255, 255, 0.2);
-    border-radius: 10px;
-    height: 8px;
-    margin-bottom: 15px;
-    overflow: hidden;
-}
-
-.progress-fill {
-    background: linear-gradient(90deg, #4a90e2, #2a5298);
-    height: 100%;
-    border-radius: 10px;
-    animation: pulse 2s infinite;
-}
-
-@keyframes pulse {
-    0%, 100% { opacity: 1; }
-    50% { opacity: 0.7; }
-}
-
-.loading-message {
-    color: rgba(255, 255, 255, 0.9);
-    font-size: 14px;
-}
-
-.loading-actions {
-    margin-top: 30px;
-}
-
-.refresh-btn {
-    background: linear-gradient(135deg, #4a90e2, #2a5298);
-    color: white;
-    border: none;
-    padding: 12px 24px;
-    border-radius: 25px;
-    font-size: 16px;
-    font-weight: 600;
-    cursor: pointer;
-    transition: transform 0.2s;
-    margin-bottom: 10px;
-}
-
-.refresh-btn:hover {
-    transform: translateY(-2px);
-}
-
-.refresh-hint {
-    color: rgba(255, 255, 255, 0.7);
-    font-size: 12px;
-    margin: 0;
-}
-
-.auto-refresh-hint {
-    color: rgba(255, 255, 255, 0.6);
-    font-size: 11px;
-    margin: 5px 0 0 0;
-    font-style: italic;
-}
-</style>
-
-<script>
-// Auto-refresh functionality
-let refreshInterval;
-let checkCount = 0;
-const MAX_CHECKS = 60; // 5 minutes max (60 * 5 seconds)
-
-function startAutoRefresh() {
-    refreshInterval = setInterval(() => {
-        checkCount++;
+    <script>
+        const customerId = '{{ customer_id }}';
+        let checkCount = 0;
+        const maxChecks = 60; // 5 minutes (5 seconds * 60)
         
-        // Check if pipeline is still running
-        fetch(`/api/customer/{{ customer_id }}`)
-            .then(response => response.json())
-            .then(data => {
-                // Check if pipeline is still running
-                if (data.status === 'pipeline_running') {
-                    console.log(`Pipeline still running... (check ${checkCount}/${MAX_CHECKS})`);
-                    
-                    // Update the hint with current check count
-                    const hint = document.querySelector('.auto-refresh-hint');
-                    if (hint) {
-                        hint.textContent = `Auto-refreshing every 5 seconds... (check ${checkCount}/${MAX_CHECKS})`;
-                    }
-                    
-                    // Stop checking after max attempts
-                    if (checkCount >= MAX_CHECKS) {
-                        clearInterval(refreshInterval);
-                        const hint = document.querySelector('.auto-refresh-hint');
-                        if (hint) {
-                            hint.textContent = 'Auto-refresh stopped. Please refresh manually.';
-                            hint.style.color = 'rgba(255, 255, 255, 0.8)';
+        function checkPipelineStatus() {
+            checkCount++;
+            
+            fetch(`/api/customer/${customerId}`)
+                .then(response => {
+                    if (response.status === 200) {
+                        // Pipeline completed successfully
+                        document.getElementById('status-text').textContent = '✅ Pipeline completed! Redirecting...';
+                        setTimeout(() => {
+                            window.location.href = `/experience/${customerId}`;
+                        }, 1000);
+                    } else if (response.status === 202) {
+                        // Pipeline still running
+                        const timeElapsed = Math.floor(checkCount * 5);
+                        document.getElementById('status-text').textContent = `⏳ Pipeline running... (${timeElapsed}s elapsed)`;
+                        
+                        if (checkCount < maxChecks) {
+                            setTimeout(checkPipelineStatus, 5000); // Check every 5 seconds
+                        } else {
+                            showError('Pipeline is taking longer than expected. Please try again later.');
                         }
+                    } else {
+                        showError('Pipeline failed. Please try again.');
                     }
-                } else if (data.status === null || data.status === undefined) {
-                    // Pipeline is done! Show completion message and refresh
-                    console.log('Pipeline completed! Refreshing page...');
-                    clearInterval(refreshInterval);
-                    
-                    // Update the UI to show completion
-                    const title = document.querySelector('.loading-title');
-                    const subtitle = document.querySelector('.loading-subtitle');
-                    const hint = document.querySelector('.auto-refresh-hint');
-                    
-                    if (title) title.textContent = 'Pipeline Complete!';
-                    if (subtitle) subtitle.textContent = 'Refreshing page to show your data...';
-                    if (hint) hint.textContent = 'Redirecting to your experience...';
-                    
-                    // Refresh after a short delay to show the completion message
-                    setTimeout(() => {
-                        window.location.reload();
-                    }, 1500);
-                } else {
-                    // Unknown status, continue checking
-                    console.log(`Unknown pipeline status: ${data.status}, continuing to check...`);
-                }
-            })
-            .catch(error => {
-                console.error('Error checking pipeline status:', error);
-                // Continue checking even if there's an error
-            });
-    }, 5000); // Check every 5 seconds
-}
-
-// Start auto-refresh when page loads
-document.addEventListener('DOMContentLoaded', startAutoRefresh);
-
-// Clean up interval when page is unloaded
-window.addEventListener('beforeunload', () => {
-    if (refreshInterval) {
-        clearInterval(refreshInterval);
-    }
-});
-</script>
-{% endblock %} 
+                })
+                .catch(error => {
+                    console.error('Error checking pipeline status:', error);
+                    if (checkCount < maxChecks) {
+                        setTimeout(checkPipelineStatus, 5000);
+                    } else {
+                        showError('Unable to check pipeline status. Please try again.');
+                    }
+                });
+        }
+        
+        function showError(message) {
+            document.getElementById('error-message').textContent = message;
+            document.getElementById('error-message').style.display = 'block';
+            document.getElementById('retry-button').style.display = 'inline-block';
+            document.getElementById('status-text').textContent = '❌ Error occurred';
+        }
+        
+        function retryCheck() {
+            checkCount = 0;
+            document.getElementById('error-message').style.display = 'none';
+            document.getElementById('retry-button').style.display = 'none';
+            document.getElementById('status-text').textContent = 'Checking pipeline status...';
+            checkPipelineStatus();
+        }
+        
+        // Start checking pipeline status
+        setTimeout(checkPipelineStatus, 2000); // Start after 2 seconds
+    </script>
+</body>
+</html> 

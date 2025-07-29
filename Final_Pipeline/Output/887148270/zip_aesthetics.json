@@ -1,11 +1,11 @@
 {
-  "visual_style": "Pacific Northwest Modern",
-  "color_texture": "Cool, earthy tones with smooth textures",
-  "art_style": "Contemporary with Indigenous influences",
-  "tone_style": "Calm, serene, and nature-inspired",
-  "location_background": "Forested landscapes and rivers",
+  "visual_style": "natural regional",
+  "color_texture": "earthy warm",
+  "art_style": "landscape inspired",
+  "tone_style": "authentic, grounded",
+  "location_background": "Mount Rainier with wildflowers",
   "location_data": {
-    "background_description": "Mount St. Helens volcano",
+    "background_description": "Mount Rainier with wildflowers",
     "city": "Bothell",
     "state": "WA",
     "location_type": "state",
@@ -16,6 +16,6 @@
       "San Juan Islands"
     ]
   },
-  "tones": "sophisticated, authentic",
+  "tones": "authentic",
   "location_context": "Customer is from Bothell, WA. Consider incorporating WA state landmarks and natural features subtly in the background."
 }
