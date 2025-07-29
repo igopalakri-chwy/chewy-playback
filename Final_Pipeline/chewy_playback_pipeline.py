@@ -575,20 +575,41 @@ class ChewyPlaybackPipeline:
         
         print("✅ Pipeline initialized with all agents and Snowflake connector")
     
+    def _get_all_customer_data(self, customer_id: str) -> Dict[str, Any]:
+        """
+        Get ALL customer data from Snowflake once and cache it.
+        This prevents redundant queries by fetching everything in one go.
+        """
+        cache_key = (customer_id, None)  # Single cache entry per customer
+        
+        if cache_key not in self._customer_data_cache:
+            print(f"    🔍 Fetching ALL data from Snowflake for customer {customer_id}...")
+            # Fetch all queries at once
+            customer_data = self.snowflake_connector.get_customer_data(customer_id)
+            self._customer_data_cache[cache_key] = customer_data
+            print(f"    ✅ Cached ALL data for customer {customer_id} ({len(customer_data)} query results)")
+        else:
+            print(f"    📋 Using cached ALL data for customer {customer_id}")
+        
+        return self._customer_data_cache[cache_key]
+
     def _get_cached_customer_data(self, customer_id: str, query_keys: list = None) -> Dict[str, Any]:
         """
         Get customer data from cache or fetch from Snowflake if not cached.
         This prevents running the same queries multiple times for the same customer.
         """
-        cache_key = (customer_id, tuple(query_keys) if query_keys else None)
-        if cache_key not in self._customer_data_cache:
-            print(f"    🔍 Fetching data from Snowflake for customer {customer_id} (queries: {query_keys})...")
-            customer_data = self.snowflake_connector.get_customer_data(customer_id, query_keys=query_keys)
-            self._customer_data_cache[cache_key] = customer_data
-            print(f"    ✅ Cached data for customer {customer_id}")
+        # Use the optimized method that fetches all data once
+        all_customer_data = self._get_all_customer_data(customer_id)
+        
+        # If specific query keys requested, filter the data
+        if query_keys:
+            filtered_data = {}
+            for key in query_keys:
+                if key in all_customer_data:
+                    filtered_data[key] = all_customer_data[key]
+            return filtered_data
         else:
-            print(f"    📋 Using cached data for customer {customer_id}")
-        return self._customer_data_cache[cache_key]
+            return all_customer_data
     
     def _get_cached_customer_orders_dataframe(self, customer_id: str, query_keys: list = None) -> pd.DataFrame:
         """Get customer orders dataframe from cached data."""
@@ -635,9 +656,18 @@ class ChewyPlaybackPipeline:
     
     def get_cache_stats(self) -> Dict[str, int]:
         """Get cache statistics."""
+        total_queries_saved = 0
+        for cache_key, cache_data in self._customer_data_cache.items():
+            customer_id, query_keys = cache_key
+            if query_keys is None:  # Single entry per customer
+                total_queries_saved += 10  # All 10 queries saved
+            else:  # Legacy multiple entries
+                total_queries_saved += len(query_keys)
+        
         return {
             'cached_customers': len(self._customer_data_cache),
-            'total_queries_saved': len(self._customer_data_cache) * 4  # 4 queries per customer
+            'total_queries_saved': total_queries_saved,
+            'cache_efficiency': f"{(total_queries_saved / (len(self._customer_data_cache) * 10)) * 100:.1f}%" if self._customer_data_cache else "0%"
         }
     
     def preprocess_data(self):
@@ -926,36 +956,8 @@ class ChewyPlaybackPipeline:
                     }
             except Exception as e:
                 print(f"    ⚠️ Error extracting pet info: {e}")
-                # Create a default "Unknown Pet" entry
-                customer_results["Unknown Pet"] = {
-                    "PetName": "Unknown Pet",
-                    "PetType": "UNK",
-                    "PetTypeScore": insights.get("PetTypeScore", 0.0),
-                    "Breed": "UNK",
-                    "BreedScore": insights.get("BreedScore", 0.0),
-                    "LifeStage": "UNK",
-                    "LifeStageScore": insights.get("LifeStageScore", 0.0),
-                    "Gender": "UNK",
-                    "GenderScore": insights.get("GenderScore", 0.0),
-                    "SizeCategory": "UNK",
-                    "SizeScore": insights.get("SizeScore", 0.0),
-                    "Weight": "UNK",
-                    "WeightScore": insights.get("WeightScore", 0.0),
-                    "PersonalityTraits": insights.get("PersonalityTraits", []),
-                    "PersonalityScores": insights.get("PersonalityScores", {}),
-                    "FavoriteProductCategories": insights.get("FavoriteProductCategories", []),
-                    "CategoryScores": insights.get("CategoryScores", {}),
-                    "BrandPreferences": insights.get("BrandPreferences", []),
-                    "BrandScores": insights.get("BrandScores", {}),
-                    "DietaryPreferences": insights.get("DietaryPreferences", []),
-                    "DietaryScores": insights.get("DietaryScores", {}),
-                    "BehavioralCues": insights.get("BehavioralCues", []),
-                    "BehavioralScores": insights.get("BehavioralScores", {}),
-                    "HealthMentions": insights.get("HealthMentions", []),
-                    "HealthScores": insights.get("HealthScores", {}),
-                    "MostOrderedProducts": insights.get("MostOrderedProducts", []),
-                    "ConfidenceScore": insights.get("ConfidenceScore", 0.0)
-                }
+                # Don't create fake pet entries - return empty results
+                pass
         
         return customer_results
     
@@ -1017,18 +1019,14 @@ class ChewyPlaybackPipeline:
                 
             except Exception as e:
                 print(f"    ❌ Error generating narratives: {e}")
-                # Use fallback
+                # Don't create fake narratives - return empty results
                 customer_narratives = {
                     'customer_id': customer_id,
                     'pets': pets_data,
-                    'collective_letter': f"Dear Chewy,\n\nWe love our treats and toys! Thanks for everything.\n\nFrom: The pets",
-                    'collective_visual_prompt': f"A warm scene with pets and Chewy products",
-                    'personality_badge': {
-                        'badge': 'The Cuddler',
-                        'compatible_with': ['The Nurturer', 'The Daydreamer', 'The Scholar'],
-                        'icon_png': 'FrontEnd_Mobile/badge_cuddler.png',
-                        'description': 'A loving household of pets who enjoy comfort and companionship.'
-                    },
+                    'collective_letter': None,
+                    'collective_visual_prompt': None,
+                    'personality_badge': None,
+                    'zip_aesthetics': None,
                     'cust_confidence_score': customer_confidence_score
                 }
             
@@ -1038,24 +1036,30 @@ class ChewyPlaybackPipeline:
         return narrative_results
     
     def run_breed_predictor_agent(self, enriched_profiles: Dict[str, Any]) -> Dict[str, Any]:
-        """Run the Breed Predictor Agent for pets with unknown/mixed breeds."""
+        """Run the Breed Predictor Agent for dogs with unknown/mixed breeds using pipeline data."""
         print("\n🐕 Running Breed Predictor Agent...")
         
         breed_predictions = {}
+        total_pets_checked = 0
+        eligible_pets_found = 0
         
         for customer_id, customer_data in enriched_profiles.items():
+            print(f"  🔍 Checking pets for customer {customer_id}...")
+            
             # Handle different data structures
             if isinstance(customer_data, dict) and 'pets' in customer_data:
                 pets_data = customer_data['pets']
             else:
                 pets_data = customer_data
             
-            # Get customer orders from Snowflake for breed prediction
+            customer_predictions = []
+            
+            # Get order history from cached data (already loaded by pipeline)
             orders_df = self._get_cached_customer_orders_dataframe(customer_id)
             customer_orders = []
             
             if not orders_df.empty:
-                # Convert to list of dictionaries for breed predictor
+                # Convert to format expected by breed predictor
                 for _, row in orders_df.iterrows():
                     order = {
                         'item_name': row.get('ProductName', 'Unknown'),
@@ -1066,30 +1070,97 @@ class ChewyPlaybackPipeline:
                     }
                     customer_orders.append(order)
             
-            # Get raw pet data from Snowflake for breed prediction
-            raw_pets_df = self._get_cached_customer_pets_dataframe(customer_id)
-            raw_pets_data = {}
-            if not raw_pets_df.empty:
-                for _, row in raw_pets_df.iterrows():
-                    pet_name = row.get('PetName', 'Unknown')
-                    raw_pets_data[pet_name] = {
-                        'PetType': row.get('PetType', 'UNK'),
-                        'Breed': row.get('PetBreed', 'UNK'),
-                        'Gender': row.get('Gender', 'UNK'),
-                        'PetAge': row.get('PetAge', 'UNK'),
-                        'Weight': row.get('Weight', 'UNK'),
-                        'Medication': row.get('Medication', 'UNK')
+            # Check each pet in the enriched profile
+            for pet_name, pet_data in pets_data.items():
+                total_pets_checked += 1
+                
+                # Check if this pet qualifies for breed prediction
+                pet_type = pet_data.get('PetType', '').lower()
+                pet_breed = pet_data.get('Breed', '').lower()
+                
+                # Only predict for dogs with unknown/mixed breeds
+                is_dog = pet_type == 'dog'
+                unknown_indicators = ['mixed', 'unknown', 'mix', 'unk', 'null']
+                has_unknown_breed = (
+                    any(indicator in pet_breed.lower() for indicator in unknown_indicators) or 
+                    pet_breed.strip() == '' or
+                    pet_breed.lower() == 'unk'
+                )
+                
+                if is_dog and has_unknown_breed:
+                    eligible_pets_found += 1
+                    print(f"    🐕 {pet_name}: Eligible for breed prediction (Type: {pet_type}, Breed: {pet_breed})")
+                    
+                    try:
+                        # Prepare pet data for breed predictor
+                        pet_profile = {
+                            'PetName': pet_name,
+                            'PetType': pet_data.get('PetType', 'UNK'),
+                            'Breed': pet_data.get('Breed', 'UNK'),
+                            'Gender': pet_data.get('Gender', 'UNK'),
+                            'LifeStage': pet_data.get('LifeStage', 'UNK'),
+                            'SizeCategory': pet_data.get('SizeCategory', 'UNK'),
+                            'Weight': pet_data.get('Weight', 'UNK'),
+                            'confidence_score': pet_data.get('confidence_score', 0.0)
+                        }
+                        
+                        # Run breed prediction for this specific pet
+                        prediction_result = self.breed_predictor_agent.predict_breed_for_pet_with_orders(
+                            customer_id=customer_id,
+                            pet_name=pet_name,
+                            pet_data=pet_profile,
+                            customer_orders=customer_orders
+                        )
+                        
+                        if prediction_result:
+                            customer_predictions.append({
+                                'pet_name': pet_name,
+                                'customer_id': customer_id,
+                                'prediction': prediction_result,
+                                'timestamp': prediction_result.get('timestamp', ''),
+                                'predicted_breed': prediction_result.get('predicted_breed', 'Unknown'),
+                                'breed_percentages': prediction_result.get('breed_percentages', {}),
+                                'confidence_score': prediction_result.get('confidence', {}).get('score', 0),
+                                'confidence_level': prediction_result.get('confidence', {}).get('level', 'Unknown'),
+                                'reasoning': prediction_result.get('reasoning', 'No reasoning provided'),
+                                'data_used': prediction_result.get('data_used', {})
+                            })
+                            print(f"      ✅ Prediction completed for {pet_name}")
+                        else:
+                            print(f"      ⚠️ No prediction result for {pet_name}")
+                            
+                    except Exception as e:
+                        print(f"      ❌ Error predicting breed for {pet_name}: {e}")
+                        continue
+                        
+                else:
+                    # Log why pet was skipped
+                    if not is_dog:
+                        print(f"    ⏭️ {pet_name}: Skipped (not a dog, type: {pet_type})")
+                    elif not has_unknown_breed:
+                        print(f"    ⏭️ {pet_name}: Skipped (known breed: {pet_breed})")
+            
+            # Save customer predictions if any were made
+            if customer_predictions:
+                # Use the first prediction for backward compatibility, but save all
+                if len(customer_predictions) == 1:
+                    breed_predictions[customer_id] = customer_predictions[0]
+                else:
+                    # Multiple predictions - save as list
+                    breed_predictions[customer_id] = {
+                        'customer_id': customer_id,
+                        'multiple_predictions': customer_predictions,
+                        'total_predictions': len(customer_predictions)
                     }
-            
-            # Run breed prediction for this customer's pets with order data
-            customer_prediction = self.breed_predictor_agent.process_customer_pets_with_orders(
-                customer_id, raw_pets_data, customer_orders
-            )
-            
-            if customer_prediction:
-                breed_predictions[customer_id] = customer_prediction
+                print(f"    ✅ Saved {len(customer_predictions)} breed prediction(s) for customer {customer_id}")
+            else:
+                print(f"    ℹ️ No eligible pets found for customer {customer_id}")
         
-        print(f"✅ Breed predictions completed for {len(breed_predictions)} customers")
+        print(f"\n📊 Breed Prediction Summary:")
+        print(f"   Total pets checked: {total_pets_checked}")
+        print(f"   Eligible pets found: {eligible_pets_found}")
+        print(f"   Customers with predictions: {len(breed_predictions)}")
+        print(f"✅ Breed predictions completed")
         return breed_predictions
     
     def _get_customer_reviews(self, customer_id: str) -> List[Dict[str, Any]]:
@@ -1359,7 +1430,11 @@ class ChewyPlaybackPipeline:
                     # New simplified format - single prediction
                     pet_name = breed_predictions[customer_id]['pet_name']
                     predicted_breed = breed_predictions[customer_id]['predicted_breed']
-                    confidence = breed_predictions[customer_id]['confidence']
+                    # Handle nested confidence structure
+                    if 'prediction' in breed_predictions[customer_id] and 'confidence' in breed_predictions[customer_id]['prediction']:
+                        confidence = breed_predictions[customer_id]['prediction']['confidence'].get('score', 0)
+                    else:
+                        confidence = breed_predictions[customer_id].get('confidence_score', 0)
                     print(f"    🐕 Saved breed prediction for {pet_name}: {predicted_breed} (confidence: {confidence})")
                 else:
                     # Old format - multiple predictions
@@ -1394,9 +1469,10 @@ class ChewyPlaybackPipeline:
             
             # Run donation query and save output
             if customer_id in enriched_profiles and enriched_profiles[customer_id].get('gets_playback', False) and not enriched_profiles[customer_id].get('gets_personalized', False):
-                print(f"  💰 Running donation query for customer {customer_id}...")
+                print(f"  💰 Using cached donation data for customer {customer_id}...")
                 try:
-                    donation_results = self.snowflake_connector.get_customer_donations(customer_id)
+                    # Use cached data instead of making a new Snowflake call
+                    donation_results = customer_data.get('get_amt_donated', [])
                     amt_donated = 0.0
                     if donation_results and isinstance(donation_results, list):
                         try:
@@ -1472,6 +1548,7 @@ class ChewyPlaybackPipeline:
         print("\n🔍 Running Unknowns Analyzer...")
         try:
             analyzer = UnknownsAnalyzer(self.snowflake_connector)
+            analyzer.pipeline = self  # Pass pipeline reference for cached data access
             
             # If no specific customers provided, analyze all processed customers
             if not customer_ids:
@@ -1543,14 +1620,15 @@ class ChewyPlaybackPipeline:
                 try:
                     print(f"  🍖 Analyzing food consumption for customer {customer_id}...")
                     
-                    # Get food consumption data from Snowflake
-                    food_data = self.snowflake_connector.get_customer_food_consumption(customer_id)
+                    # Get food consumption data from cached data
+                    customer_data = self._get_all_customer_data(customer_id)
+                    food_data = customer_data.get('get_yearly_food_count', [])
                     
-                    # Get customer zip code for location-based fun facts
-                    address_data = self.snowflake_connector.get_customer_address(customer_id)
-                    zip_code = address_data.get('zip_code') if address_data else None
+                    # Get customer zip code for location-based fun facts from cached data
+                    address_data = customer_data.get('get_cust_zipcode', [])
+                    zip_code = address_data[0].get('zip_code') if address_data and len(address_data) > 0 else None
                     
-                    if food_data:
+                    if food_data and len(food_data) > 0:
                         # Generate food fun facts with location data
                         food_fun_fact_json = generate_food_fun_fact_json(food_data, zip_code)
                         

@@ -67,89 +67,11 @@ class BreedPredictorAgent:
     
     def extract_customer_orders(self, customer_id: str) -> List[Dict[str, Any]]:
         """
-        Extract order data for a specific customer using Snowflake.
-        Uses ONLY the get_cust_orders query to get real customer purchase data for LLM reasoning.
+        Extract order data for a specific customer using cached pipeline data.
+        This method is now deprecated - use process_customer_pets_with_orders instead.
         """
-        order_data = []
-        
-        # Try to get order data from Snowflake using the real connector - fix the path
-        try:
-            # Import the actual Snowflake connector - fix the path
-            import sys
-            final_pipeline_path = os.path.join(os.path.dirname(__file__), "..", "..")
-            sys.path.insert(0, final_pipeline_path)
-            from snowflake_data_connector import SnowflakeDataConnector
-            
-            print(f"    🔗 Connecting to Snowflake for customer {customer_id}...")
-            
-            # Create Snowflake connection
-            snowflake_connector = SnowflakeDataConnector()
-            
-            # Get customer orders using ONLY the get_cust_orders query
-            customer_data = snowflake_connector.get_customer_data(customer_id, query_keys=['get_cust_orders'])
-            orders_raw = customer_data.get('get_cust_orders', [])
-            
-            if orders_raw:
-                print(f"    📊 Retrieved {len(orders_raw)} order records from Snowflake")
-                
-                # Convert Snowflake data to the format expected by the LLM
-                for order in orders_raw:
-                    processed_order = {
-                        'order_id': order.get('ORDER_ID', ''),
-                        'product_name': order.get('NAME', 'Unknown'),
-                        'category': order.get('CATEGORY_LEVEL3', 'Unknown'),
-                        'quantity': order.get('ORDER_LINE_QUANTITY', 1),
-                        'order_date': order.get('ORDER_DATE_EST', ''),
-                        'customer_id': order.get('CUSTOMER_ID', customer_id)
-                    }
-                    order_data.append(processed_order)
-                
-                print(f"    ✅ Successfully processed {len(order_data)} orders for LLM analysis")
-                
-                # Show category breakdown for debugging
-                categories = {}
-                for order in order_data:
-                    cat = order.get('category', 'Unknown')
-                    categories[cat] = categories.get(cat, 0) + 1
-                
-                cat_summary = ', '.join([f"{cat}({count})" for cat, count in categories.items()])
-                print(f"    📈 Top categories: {cat_summary}")
-                
-            else:
-                print(f"    ⚠️ No order data found for customer {customer_id}")
-            
-        except Exception as e:
-            print(f"    ❌ Error connecting to Snowflake: {e}")
-            print(f"    🔄 Falling back to CSV file method...")
-            
-            # Fallback to CSV file if Snowflake fails
-            try:
-                csv_file_path = os.path.join(os.path.dirname(__file__), "..", "..", "Data", "qualifying_reviews.csv")
-                if os.path.exists(csv_file_path):
-                    import pandas as pd
-                    df = pd.read_csv(csv_file_path)
-                    customer_orders = df[df['customer_id'] == int(customer_id)]
-                    
-                    if not customer_orders.empty:
-                        for _, row in customer_orders.iterrows():
-                            order_data.append({
-                                'order_id': row.get('order_id', ''),
-                                'product_name': row.get('product_name', 'Unknown'),
-                                'category': row.get('category', 'Unknown'),
-                                'quantity': row.get('quantity', 1),
-                                'order_date': row.get('order_date', ''),
-                                'customer_id': customer_id
-                            })
-                        print(f"    📄 Loaded {len(order_data)} orders from CSV fallback")
-                    else:
-                        print(f"    ⚠️ No orders found in CSV for customer {customer_id}")
-                else:
-                    print(f"    ❌ CSV file not found at {csv_file_path}")
-                    
-            except Exception as csv_error:
-                print(f"    ❌ CSV fallback failed: {csv_error}")
-        
-        return order_data
+        print(f"    ⚠️ extract_customer_orders is deprecated - use cached data from pipeline")
+        return []
     
     def create_pet_profile_for_prediction(self, pet_data: Dict[str, Any], 
                                         customer_orders: List[Dict[str, Any]]) -> Dict[str, Any]:

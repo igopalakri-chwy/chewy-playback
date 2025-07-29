@@ -1,8 +1,10 @@
 {
-  "total_food_lbs": 305.0,
+  "total_food_lbs": 343.0,
   "weight_range": 300,
   "fun_facts": [
-    "You've fed your pet 305.0 lbs of food—about the same weight as 1 grand piano. That's some serious love from your hometown!"
+    "That's about 343.0 pounds of pure pet love!",
+    "That's equivalent to a lot of happy meals!",
+    "That's about as much as... well, 343.0 pounds!"
   ],
-  "message": "Your pets have consumed 305.00 pounds of food!"
+  "message": "Your pets have consumed 343.00 pounds of food!"
 }

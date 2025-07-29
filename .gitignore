@@ -91,7 +91,5 @@ dmypy.json
 .DS_Store
 
 # Data files (sensitive)
-Final_Pipeline/Data/order_history.csv
-Final_Pipeline/Data/reviews.csv
-Final_Pipeline/Data/zero_reviews.csv
-Final_Pipeline/Data/processed_orderhistory.csv
+# Note: Data folder has been removed - now using Snowflake queries only
+Final_Pipeline/Output/

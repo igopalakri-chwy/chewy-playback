@@ -1,6 +1,94 @@
 {
   "customer_id": "887148270",
-  "pet_name": "Gigi",
-  "predicted_breed": "Labradorretriever",
-  "confidence": 38.5
+  "multiple_predictions": [
+    {
+      "pet_name": "Gigi",
+      "customer_id": "887148270",
+      "prediction": {
+        "customer_id": "887148270",
+        "pet_name": "Gigi",
+        "prediction_timestamp": "2025-07-28T15:29:39.869711",
+        "breed_distribution": {
+          "australianShepherd": 40.0,
+          "beagle": 30.0,
+          "germanShepherd": 30.0
+        },
+        "confidence": {
+          "score": 65.0,
+          "level": "Medium",
+          "source": "LLM-generated",
+          "reliability_flags": [],
+          "recommendations": []
+        },
+        "explanations": {
+          "australianShepherd": "The purchase of medium-sized toys and grain-free food suggests a medium-sized, active breed with potential food sensitivities, common in Australian Shepherds.",
+          "beagle": "The purchase of training treats and medium-sized toys indicates a trainable, medium-sized breed like the Beagle.",
+          "germanShepherd": "The purchase of joint supplements and medium-sized toys suggests a larger, active breed prone to joint issues, such as the German Shepherd."
+        },
+        "pet_profile_used": {
+          "age": "5",
+          "size": "UNK",
+          "gender": "FMLE",
+          "order_count": 76,
+          "health_indicators": []
+        },
+        "top_predicted_breed": {
+          "breed": "australianShepherd",
+          "percentage": 40.0
+        }
+      },
+      "timestamp": "",
+      "predicted_breed": "Unknown",
+      "breed_percentages": {},
+      "confidence_score": 65.0,
+      "confidence_level": "Medium",
+      "reasoning": "No reasoning provided",
+      "data_used": {}
+    },
+    {
+      "pet_name": "Daniel",
+      "customer_id": "887148270",
+      "prediction": {
+        "customer_id": "887148270",
+        "pet_name": "Daniel",
+        "prediction_timestamp": "2025-07-28T15:29:46.561313",
+        "breed_distribution": {
+          "germanShepherd": 40.0,
+          "australianShepherd": 30.0,
+          "borderCollie": 30.0
+        },
+        "confidence": {
+          "score": 65.0,
+          "level": "Medium",
+          "source": "LLM-generated",
+          "reliability_flags": [],
+          "recommendations": []
+        },
+        "explanations": {
+          "germanShepherd": "The purchase of medium-sized toys and joint supplements suggests a breed prone to hip dysplasia, like a German Shepherd.",
+          "australianShepherd": "The purchase of training treats and interactive toys suggests an intelligent, trainable breed with high energy, such as an Australian Shepherd.",
+          "borderCollie": "The purchase of grain-free food and skin/coat products implies a breed with food and skin sensitivities, which is common in Border Collies."
+        },
+        "pet_profile_used": {
+          "age": "12",
+          "size": "UNK",
+          "gender": "MALE",
+          "order_count": 76,
+          "health_indicators": []
+        },
+        "top_predicted_breed": {
+          "breed": "germanShepherd",
+          "percentage": 40.0
+        }
+      },
+      "timestamp": "",
+      "predicted_breed": "Unknown",
+      "breed_percentages": {},
+      "confidence_score": 65.0,
+      "confidence_level": "Medium",
+      "reasoning": "No reasoning provided",
+      "data_used": {}
+    }
+  ],
+  "total_predictions": 2
 }

@@ -1,154 +1,4 @@
 {
-  "Maxine": {
-    "PetName": "Maxine",
-    "PetType": "Dog",
-    "PetTypeScore": 1.0,
-    "Breed": "Shih Tzu",
-    "BreedScore": 1.0,
-    "LifeStage": "16",
-    "LifeStageScore": 1.0,
-    "Gender": "FMLE",
-    "GenderScore": 1.0,
-    "SizeCategory": "UNK",
-    "SizeScore": 0.0,
-    "Weight": "16",
-    "WeightScore": 1.0,
-    "PersonalityTraits": [
-      "playful",
-      "curious",
-      "affectionate"
-    ],
-    "PersonalityScores": {
-      "playful": 0.8,
-      "curious": 0.7,
-      "affectionate": 0.9
-    },
-    "FavoriteProductCategories": [
-      "food",
-      "toys",
-      "treats"
-    ],
-    "CategoryScores": {
-      "food": 0.9,
-      "toys": 0.8,
-      "treats": 0.7
-    },
-    "BrandPreferences": [
-      "Blue Buffalo",
-      "Iams"
-    ],
-    "BrandScores": {
-      "Blue Buffalo": 0.9,
-      "Iams": 0.8
-    },
-    "DietaryPreferences": [
-      "grain-free",
-      "hairball care"
-    ],
-    "DietaryScores": {
-      "grain-free": 0.8,
-      "hairball care": 0.7
-    },
-    "BehavioralCues": [
-      "loves toys",
-      "enjoys treats"
-    ],
-    "BehavioralScores": {
-      "loves toys": 0.9,
-      "enjoys treats": 0.8
-    },
-    "HealthMentions": [
-      "healthy",
-      "active"
-    ],
-    "HealthScores": {
-      "healthy": 0.8,
-      "active": 0.7
-    },
-    "MostOrderedProducts": [
-      "Blue Buffalo Wilderness Trail Treats Chicken Wild Bits Grain-Free Training Dog Treats, 10-oz bag",
-      "Blue Buffalo Life Protection Formula Adult Chicken & Brown Rice Recipe Dry Dog Food, 34-lb bag",
-      "Iams ProActive Health Adult Hairball Care with Chicken & Salmon Dry Cat Food, 3.5-lb bag"
-    ],
-    "ConfidenceScore": 0.0,
-    "confidence_score": 0.8333333333333334,
-    "name": "Maxine"
-  },
-  "Theo": {
-    "PetName": "Theo",
-    "PetType": "Dog",
-    "PetTypeScore": 1.0,
-    "Breed": "Shih Tzu",
-    "BreedScore": 1.0,
-    "LifeStage": "3",
-    "LifeStageScore": 1.0,
-    "Gender": "MALE",
-    "GenderScore": 1.0,
-    "SizeCategory": "UNK",
-    "SizeScore": 0.0,
-    "Weight": "10",
-    "WeightScore": 1.0,
-    "PersonalityTraits": [
-      "playful",
-      "curious",
-      "affectionate"
-    ],
-    "PersonalityScores": {
-      "playful": 0.8,
-      "curious": 0.7,
-      "affectionate": 0.9
-    },
-    "FavoriteProductCategories": [
-      "food",
-      "toys",
-      "treats"
-    ],
-    "CategoryScores": {
-      "food": 0.9,
-      "toys": 0.8,
-      "treats": 0.7
-    },
-    "BrandPreferences": [
-      "Blue Buffalo",
-      "Iams"
-    ],
-    "BrandScores": {
-      "Blue Buffalo": 0.9,
-      "Iams": 0.8
-    },
-    "DietaryPreferences": [
-      "grain-free",
-      "hairball care"
-    ],
-    "DietaryScores": {
-      "grain-free": 0.8,
-      "hairball care": 0.7
-    },
-    "BehavioralCues": [
-      "loves toys",
-      "enjoys treats"
-    ],
-    "BehavioralScores": {
-      "loves toys": 0.9,
-      "enjoys treats": 0.8
-    },
-    "HealthMentions": [
-      "healthy",
-      "active"
-    ],
-    "HealthScores": {
-      "healthy": 0.8,
-      "active": 0.7
-    },
-    "MostOrderedProducts": [
-      "Blue Buffalo Wilderness Trail Treats Chicken Wild Bits Grain-Free Training Dog Treats, 10-oz bag",
-      "Blue Buffalo Life Protection Formula Adult Chicken & Brown Rice Recipe Dry Dog Food, 34-lb bag",
-      "Iams ProActive Health Adult Hairball Care with Chicken & Salmon Dry Cat Food, 3.5-lb bag"
-    ],
-    "ConfidenceScore": 0.0,
-    "confidence_score": 0.8333333333333334,
-    "name": "Theo"
-  },
   "Gigi": {
     "PetName": "Gigi",
     "PetType": "Dog",
@@ -175,29 +25,27 @@
     },
     "FavoriteProductCategories": [
       "food",
-      "toys",
-      "treats"
+      "treats",
+      "toys"
     ],
     "CategoryScores": {
       "food": 0.9,
-      "toys": 0.8,
-      "treats": 0.7
+      "treats": 0.8,
+      "toys": 0.7
     },
     "BrandPreferences": [
       "Blue Buffalo",
       "Iams"
     ],
     "BrandScores": {
-      "Blue Buffalo": 0.9,
-      "Iams": 0.8
+      "Blue Buffalo": 0.8,
+      "Iams": 0.7
     },
     "DietaryPreferences": [
-      "grain-free",
-      "hairball care"
+      "grain-free"
     ],
     "DietaryScores": {
-      "grain-free": 0.8,
-      "hairball care": 0.7
+      "grain-free": 0.8
     },
     "BehavioralCues": [
       "loves toys",
@@ -216,88 +64,13 @@
       "active": 0.7
     },
     "MostOrderedProducts": [
-      "Blue Buffalo Wilderness Trail Treats Chicken Wild Bits Grain-Free Training Dog Treats, 10-oz bag",
       "Blue Buffalo Life Protection Formula Adult Chicken & Brown Rice Recipe Dry Dog Food, 34-lb bag",
-      "Iams ProActive Health Adult Hairball Care with Chicken & Salmon Dry Cat Food, 3.5-lb bag"
+      "Scoop Away Complete Performance Fresh Scented Clumping Clay Cat Litter, 10.5-lb bag, pack of 4",
+      "Blue Buffalo Wilderness Trail Treats Chicken Wild Bits Grain-Free Training Dog Treats, 10-oz bag"
     ],
     "ConfidenceScore": 0.0,
     "confidence_score": 0.8333333333333334,
     "name": "Gigi"
-  },
-  "Anyanka": {
-    "PetName": "Anyanka",
-    "PetType": "Cat",
-    "PetTypeScore": 1.0,
-    "Breed": "Other",
-    "BreedScore": 1.0,
-    "LifeStage": "16",
-    "LifeStageScore": 1.0,
-    "Gender": "FMLE",
-    "GenderScore": 1.0,
-    "SizeCategory": "UNK",
-    "SizeScore": 0.0,
-    "Weight": "8",
-    "WeightScore": 1.0,
-    "PersonalityTraits": [
-      "playful",
-      "curious",
-      "affectionate"
-    ],
-    "PersonalityScores": {
-      "playful": 0.8,
-      "curious": 0.7,
-      "affectionate": 0.9
-    },
-    "FavoriteProductCategories": [
-      "food",
-      "toys",
-      "treats"
-    ],
-    "CategoryScores": {
-      "food": 0.9,
-      "toys": 0.8,
-      "treats": 0.7
-    },
-    "BrandPreferences": [
-      "Blue Buffalo",
-      "Iams"
-    ],
-    "BrandScores": {
-      "Blue Buffalo": 0.9,
-      "Iams": 0.8
-    },
-    "DietaryPreferences": [
-      "grain-free",
-      "hairball care"
-    ],
-    "DietaryScores": {
-      "grain-free": 0.8,
-      "hairball care": 0.7
-    },
-    "BehavioralCues": [
-      "loves toys",
-      "enjoys treats"
-    ],
-    "BehavioralScores": {
-      "loves toys": 0.9,
-      "enjoys treats": 0.8
-    },
-    "HealthMentions": [
-      "healthy",
-      "active"
-    ],
-    "HealthScores": {
-      "healthy": 0.8,
-      "active": 0.7
-    },
-    "MostOrderedProducts": [
-      "Blue Buffalo Wilderness Trail Treats Chicken Wild Bits Grain-Free Training Dog Treats, 10-oz bag",
-      "Blue Buffalo Life Protection Formula Adult Chicken & Brown Rice Recipe Dry Dog Food, 34-lb bag",
-      "Iams ProActive Health Adult Hairball Care with Chicken & Salmon Dry Cat Food, 3.5-lb bag"
-    ],
-    "ConfidenceScore": 0.0,
-    "confidence_score": 0.8333333333333334,
-    "name": "Anyanka"
   },
   "Daniel": {
     "PetName": "Daniel",
@@ -325,29 +98,27 @@
     },
     "FavoriteProductCategories": [
       "food",
-      "toys",
-      "treats"
+      "treats",
+      "toys"
     ],
     "CategoryScores": {
       "food": 0.9,
-      "toys": 0.8,
-      "treats": 0.7
+      "treats": 0.8,
+      "toys": 0.7
     },
     "BrandPreferences": [
       "Blue Buffalo",
       "Iams"
     ],
     "BrandScores": {
-      "Blue Buffalo": 0.9,
-      "Iams": 0.8
+      "Blue Buffalo": 0.8,
+      "Iams": 0.7
     },
     "DietaryPreferences": [
-      "grain-free",
-      "hairball care"
+      "grain-free"
     ],
     "DietaryScores": {
-      "grain-free": 0.8,
-      "hairball care": 0.7
+      "grain-free": 0.8
     },
     "BehavioralCues": [
       "loves toys",
@@ -366,13 +137,232 @@
       "active": 0.7
     },
     "MostOrderedProducts": [
-      "Blue Buffalo Wilderness Trail Treats Chicken Wild Bits Grain-Free Training Dog Treats, 10-oz bag",
       "Blue Buffalo Life Protection Formula Adult Chicken & Brown Rice Recipe Dry Dog Food, 34-lb bag",
-      "Iams ProActive Health Adult Hairball Care with Chicken & Salmon Dry Cat Food, 3.5-lb bag"
+      "Scoop Away Complete Performance Fresh Scented Clumping Clay Cat Litter, 10.5-lb bag, pack of 4",
+      "Blue Buffalo Wilderness Trail Treats Chicken Wild Bits Grain-Free Training Dog Treats, 10-oz bag"
     ],
     "ConfidenceScore": 0.0,
     "confidence_score": 0.8333333333333334,
     "name": "Daniel"
+  },
+  "Anyanka": {
+    "PetName": "Anyanka",
+    "PetType": "Cat",
+    "PetTypeScore": 1.0,
+    "Breed": "Other",
+    "BreedScore": 1.0,
+    "LifeStage": "16",
+    "LifeStageScore": 1.0,
+    "Gender": "FMLE",
+    "GenderScore": 1.0,
+    "SizeCategory": "UNK",
+    "SizeScore": 0.0,
+    "Weight": "8",
+    "WeightScore": 1.0,
+    "PersonalityTraits": [
+      "playful",
+      "curious",
+      "affectionate"
+    ],
+    "PersonalityScores": {
+      "playful": 0.8,
+      "curious": 0.7,
+      "affectionate": 0.9
+    },
+    "FavoriteProductCategories": [
+      "food",
+      "treats",
+      "toys"
+    ],
+    "CategoryScores": {
+      "food": 0.9,
+      "treats": 0.8,
+      "toys": 0.7
+    },
+    "BrandPreferences": [
+      "Blue Buffalo",
+      "Iams"
+    ],
+    "BrandScores": {
+      "Blue Buffalo": 0.8,
+      "Iams": 0.7
+    },
+    "DietaryPreferences": [
+      "grain-free"
+    ],
+    "DietaryScores": {
+      "grain-free": 0.8
+    },
+    "BehavioralCues": [
+      "loves toys",
+      "enjoys treats"
+    ],
+    "BehavioralScores": {
+      "loves toys": 0.9,
+      "enjoys treats": 0.8
+    },
+    "HealthMentions": [
+      "healthy",
+      "active"
+    ],
+    "HealthScores": {
+      "healthy": 0.8,
+      "active": 0.7
+    },
+    "MostOrderedProducts": [
+      "Blue Buffalo Life Protection Formula Adult Chicken & Brown Rice Recipe Dry Dog Food, 34-lb bag",
+      "Scoop Away Complete Performance Fresh Scented Clumping Clay Cat Litter, 10.5-lb bag, pack of 4",
+      "Blue Buffalo Wilderness Trail Treats Chicken Wild Bits Grain-Free Training Dog Treats, 10-oz bag"
+    ],
+    "ConfidenceScore": 0.0,
+    "confidence_score": 0.8333333333333334,
+    "name": "Anyanka"
+  },
+  "Theo": {
+    "PetName": "Theo",
+    "PetType": "Dog",
+    "PetTypeScore": 1.0,
+    "Breed": "Shih Tzu",
+    "BreedScore": 1.0,
+    "LifeStage": "3",
+    "LifeStageScore": 1.0,
+    "Gender": "MALE",
+    "GenderScore": 1.0,
+    "SizeCategory": "UNK",
+    "SizeScore": 0.0,
+    "Weight": "10",
+    "WeightScore": 1.0,
+    "PersonalityTraits": [
+      "playful",
+      "curious",
+      "affectionate"
+    ],
+    "PersonalityScores": {
+      "playful": 0.8,
+      "curious": 0.7,
+      "affectionate": 0.9
+    },
+    "FavoriteProductCategories": [
+      "food",
+      "treats",
+      "toys"
+    ],
+    "CategoryScores": {
+      "food": 0.9,
+      "treats": 0.8,
+      "toys": 0.7
+    },
+    "BrandPreferences": [
+      "Blue Buffalo",
+      "Iams"
+    ],
+    "BrandScores": {
+      "Blue Buffalo": 0.8,
+      "Iams": 0.7
+    },
+    "DietaryPreferences": [
+      "grain-free"
+    ],
+    "DietaryScores": {
+      "grain-free": 0.8
+    },
+    "BehavioralCues": [
+      "loves toys",
+      "enjoys treats"
+    ],
+    "BehavioralScores": {
+      "loves toys": 0.9,
+      "enjoys treats": 0.8
+    },
+    "HealthMentions": [
+      "healthy",
+      "active"
+    ],
+    "HealthScores": {
+      "healthy": 0.8,
+      "active": 0.7
+    },
+    "MostOrderedProducts": [
+      "Blue Buffalo Life Protection Formula Adult Chicken & Brown Rice Recipe Dry Dog Food, 34-lb bag",
+      "Scoop Away Complete Performance Fresh Scented Clumping Clay Cat Litter, 10.5-lb bag, pack of 4",
+      "Blue Buffalo Wilderness Trail Treats Chicken Wild Bits Grain-Free Training Dog Treats, 10-oz bag"
+    ],
+    "ConfidenceScore": 0.0,
+    "confidence_score": 0.8333333333333334,
+    "name": "Theo"
+  },
+  "Maxine": {
+    "PetName": "Maxine",
+    "PetType": "Dog",
+    "PetTypeScore": 1.0,
+    "Breed": "Shih Tzu",
+    "BreedScore": 1.0,
+    "LifeStage": "16",
+    "LifeStageScore": 1.0,
+    "Gender": "FMLE",
+    "GenderScore": 1.0,
+    "SizeCategory": "UNK",
+    "SizeScore": 0.0,
+    "Weight": "16",
+    "WeightScore": 1.0,
+    "PersonalityTraits": [
+      "playful",
+      "curious",
+      "affectionate"
+    ],
+    "PersonalityScores": {
+      "playful": 0.8,
+      "curious": 0.7,
+      "affectionate": 0.9
+    },
+    "FavoriteProductCategories": [
+      "food",
+      "treats",
+      "toys"
+    ],
+    "CategoryScores": {
+      "food": 0.9,
+      "treats": 0.8,
+      "toys": 0.7
+    },
+    "BrandPreferences": [
+      "Blue Buffalo",
+      "Iams"
+    ],
+    "BrandScores": {
+      "Blue Buffalo": 0.8,
+      "Iams": 0.7
+    },
+    "DietaryPreferences": [
+      "grain-free"
+    ],
+    "DietaryScores": {
+      "grain-free": 0.8
+    },
+    "BehavioralCues": [
+      "loves toys",
+      "enjoys treats"
+    ],
+    "BehavioralScores": {
+      "loves toys": 0.9,
+      "enjoys treats": 0.8
+    },
+    "HealthMentions": [
+      "healthy",
+      "active"
+    ],
+    "HealthScores": {
+      "healthy": 0.8,
+      "active": 0.7
+    },
+    "MostOrderedProducts": [
+      "Blue Buffalo Life Protection Formula Adult Chicken & Brown Rice Recipe Dry Dog Food, 34-lb bag",
+      "Scoop Away Complete Performance Fresh Scented Clumping Clay Cat Litter, 10.5-lb bag, pack of 4",
+      "Blue Buffalo Wilderness Trail Treats Chicken Wild Bits Grain-Free Training Dog Treats, 10-oz bag"
+    ],
+    "ConfidenceScore": 0.0,
+    "confidence_score": 0.8333333333333334,
+    "name": "Maxine"
   },
   "cust_confidence_score": 0.8333333333333334,
   "gets_playback": true,

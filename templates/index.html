@@ -82,10 +82,42 @@ document.getElementById('customerForm').addEventListener('submit', function(e) {
         btnIcon.className = 'fas fa-spinner fa-spin btn-icon';
         submitBtn.disabled = true;
         
-        // Redirect to experience
-        setTimeout(() => {
-            window.location.href = `/experience/${customerId}`;
-        }, 1000);
+        // First check if customer data exists
+        fetch(`/api/customer/${customerId}`)
+            .then(response => {
+                if (response.ok) {
+                    return response.json().then(data => {
+                        if (data.status === 'pipeline_running') {
+                            // Pipeline is running in background, redirect to loading page
+                            window.location.href = `/experience/${customerId}`;
+                        } else {
+                            // Data exists, redirect to experience
+                            window.location.href = `/experience/${customerId}`;
+                        }
+                    });
+                } else {
+                    // Data doesn't exist, trigger pipeline
+                    btnText.textContent = 'Running Pipeline...';
+                    return fetch(`/api/trigger-pipeline/${customerId}`);
+                }
+            })
+            .then(response => {
+                if (response && response.ok) {
+                    // Pipeline completed, redirect to experience
+                    window.location.href = `/experience/${customerId}`;
+                } else if (response) {
+                    // Pipeline failed
+                    btnText.textContent = 'Error - Try Again';
+                    btnIcon.className = 'fas fa-exclamation-triangle btn-icon';
+                    submitBtn.disabled = false;
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                btnText.textContent = 'Error - Try Again';
+                btnIcon.className = 'fas fa-exclamation-triangle btn-icon';
+                submitBtn.disabled = false;
+            });
     }
 });
 
@@ -97,10 +129,40 @@ function goToCustomer(customerId) {
     customerItem.innerHTML = '<i class="fas fa-spinner fa-spin"></i>';
     customerItem.style.pointerEvents = 'none';
     
-    // Redirect to experience
-    setTimeout(() => {
-        window.location.href = `/experience/${customerId}`;
-    }, 500);
+    // First check if customer data exists
+    fetch(`/api/customer/${customerId}`)
+        .then(response => {
+            if (response.ok) {
+                return response.json().then(data => {
+                    if (data.status === 'pipeline_running') {
+                        // Pipeline is running in background, redirect to loading page
+                        window.location.href = `/experience/${customerId}`;
+                    } else {
+                        // Data exists, redirect to experience
+                        window.location.href = `/experience/${customerId}`;
+                    }
+                });
+            } else {
+                // Data doesn't exist, trigger pipeline
+                customerItem.innerHTML = '<i class="fas fa-cog fa-spin"></i> Running Pipeline...';
+                return fetch(`/api/trigger-pipeline/${customerId}`);
+            }
+        })
+        .then(response => {
+            if (response && response.ok) {
+                // Pipeline completed, redirect to experience
+                window.location.href = `/experience/${customerId}`;
+            } else if (response) {
+                // Pipeline failed
+                customerItem.innerHTML = '<i class="fas fa-exclamation-triangle"></i> Error';
+                customerItem.style.pointerEvents = 'auto';
+            }
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            customerItem.innerHTML = '<i class="fas fa-exclamation-triangle"></i> Error';
+            customerItem.style.pointerEvents = 'auto';
+        });
 }
 </script>
 {% endblock %} 

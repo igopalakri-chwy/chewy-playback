@@ -110,13 +110,19 @@ class UnknownsAnalyzer:
             return None
         
         try:
-            # Get pet profile data from get_pet_profiles query
-            customer_data = self.snowflake_connector.get_customer_data(customer_id)
-            if not customer_data or 'get_pet_profiles' not in customer_data:
-                logger.warning(f"No get_pet_profiles data found for customer {customer_id}")
-                return None
+            # Get pet profile data from cached data
+            if hasattr(self, 'pipeline') and self.pipeline:
+                # Use pipeline's cached data
+                customer_data = self.pipeline._get_all_customer_data(customer_id)
+                pet_profile_data = customer_data.get('get_pet_profiles', [])
+            else:
+                # Fallback to direct snowflake connector
+                customer_data = self.snowflake_connector.get_customer_data(customer_id)
+                pet_profile_data = customer_data.get('get_pet_profiles', [])
             
-            pet_profile_data = customer_data['get_pet_profiles']
+            if not pet_profile_data:
+                logger.warning(f"No pet profile data found for customer {customer_id}")
+                return None
             unknowns = self.scan_pet_profile_data_for_unknowns(pet_profile_data, customer_id)
             
             return unknowns
