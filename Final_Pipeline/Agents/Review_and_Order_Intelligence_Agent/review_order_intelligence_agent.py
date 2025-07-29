@@ -220,11 +220,13 @@ class ReviewOrderIntelligenceAgent:
             
             # For UNK pets, only include reviews that mention "three cats" or similar
             if pet_name == 'UNK':
+                print(f"DEBUG: Processing UNK pet - filtering reviews for 'three cats' mentions")
                 relevant_reviews = []
                 for _, review in pet_reviews.iterrows():
                     review_text = review.get('ReviewText', '').lower()
                     if 'three cats' in review_text or '3 cats' in review_text:
                         relevant_reviews.append(review)
+                        print(f"DEBUG: Found relevant review: {review_text[:100]}...")
                 
                 if relevant_reviews:
                     for i, review in enumerate(relevant_reviews[:10]):

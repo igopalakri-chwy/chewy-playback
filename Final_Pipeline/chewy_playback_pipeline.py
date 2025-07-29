@@ -1411,7 +1411,7 @@ class ChewyPlaybackPipeline:
                         json.dump({"amt_donated": amt_donated}, f, indent=2)
                     print(f"    ✅ Saved donation results for customer {customer_id}: {amt_donated} USD")
                     # Run cuddliest month query and save output
-                    cuddliest_results = customer_data.get('query_7', [])
+                    cuddliest_results = customer_data.get('get_cudd_month', [])
                     cuddliest_month = None
                     if cuddliest_results and isinstance(cuddliest_results, list):
                         try:
@@ -1424,7 +1424,7 @@ class ChewyPlaybackPipeline:
                     with open(cuddliest_path, 'w') as f:
                         json.dump({"month": cuddliest_month}, f, indent=2)
                     # Run months with Chewy query and save output
-                    months_results = customer_data.get('query_8', [])
+                    months_results = customer_data.get('get_total_months', [])
                     months_with_chewy = None
                     if months_results and isinstance(months_results, list):
                         try:
@@ -1437,7 +1437,7 @@ class ChewyPlaybackPipeline:
                     with open(months_path, 'w') as f:
                         json.dump({"months": months_with_chewy}, f, indent=2)
                     # Run autoship savings query and save output
-                    autoship_results = customer_data.get('query_9', [])
+                    autoship_results = customer_data.get('get_autoship_savings', [])
                     amt_saved = 0.0
                     if autoship_results and isinstance(autoship_results, list):
                         try:
@@ -1450,7 +1450,7 @@ class ChewyPlaybackPipeline:
                     with open(autoship_path, 'w') as f:
                         json.dump({"amt_saved": amt_saved}, f, indent=2)
                     # Run most reordered product query and save output
-                    most_reordered_results = customer_data.get('query_10', [])
+                    most_reordered_results = customer_data.get('get_most_ordered', [])
                     most_reordered_product = None
                     if most_reordered_results and isinstance(most_reordered_results, list):
                         try:

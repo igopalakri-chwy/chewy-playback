@@ -184,7 +184,7 @@ class SnowflakeDataConnector:
             'address_data': {}
         }
         
-        # Process query_1 (order data - now returns top products by quantity)
+        # Process get_cust_orders (order data - now returns top products by quantity)
         if 'get_cust_orders' in customer_data:
             for row in customer_data['get_cust_orders']:
                 order_record = {
@@ -195,7 +195,7 @@ class SnowflakeDataConnector:
                 }
                 formatted_data['order_data'].append(order_record)
         
-        # Process query_2 (pet data)
+        # Process get_pet_profiles (pet data)
         if 'get_pet_profiles' in customer_data:
             for row in customer_data['get_pet_profiles']:
                 pet_record = {
@@ -210,7 +210,7 @@ class SnowflakeDataConnector:
                 }
                 formatted_data['pet_data'].append(pet_record)
         
-        # Process query_3 (review data)
+        # Process get_cust_reviews (review data)
         if 'get_cust_reviews' in customer_data:
             for row in customer_data['get_cust_reviews']:
                 review_record = {
@@ -221,7 +221,7 @@ class SnowflakeDataConnector:
                 }
                 formatted_data['review_data'].append(review_record)
         
-        # Process query_4 (address data)
+        # Process get_cust_zipcode (address data)
         if 'get_cust_zipcode' in customer_data and customer_data['get_cust_zipcode']:
             address_row = customer_data['get_cust_zipcode'][0]
             formatted_data['address_data'] = {
@@ -230,7 +230,7 @@ class SnowflakeDataConnector:
                 'city': str(address_row.get('CUSTOMER_ADDRESS_CITY', ''))
             }
         
-        # Process query_5 (food consumption data)
+        # Process get_yearly_food_count (food consumption data)
         if 'get_yearly_food_count' in customer_data:
             formatted_data['food_consumption_data'] = customer_data['get_yearly_food_count']
         
@@ -307,7 +307,7 @@ class SnowflakeDataConnector:
     
     def get_customer_food_consumption(self, customer_id: str) -> List[Dict[str, Any]]:
         """
-        Get customer's food consumption data from query_5.
+        Get customer's food consumption data from get_yearly_food_count.
         
         Args:
             customer_id (str): Customer ID
