@@ -43,8 +43,19 @@ def run_pipeline_for_customer(customer_id):
         cmd = [sys.executable, PIPELINE_SCRIPT, "--customers", customer_id]
         print(f"🚀 Pipeline started for customer {customer_id} - redirecting to experience...")
         
-        # Start pipeline in background (non-blocking)
-        process = subprocess.Popen(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        # Get current environment and add Snowflake credentials
+        env = os.environ.copy()
+        env.update({
+            'SNOWFLAKE_USER': 'bdong1@chewy.com',
+            'SNOWFLAKE_ACCOUNT': 'chewy-chewy',
+            'SNOWFLAKE_WAREHOUSE': 'AUDIENCE_SEGMENTATION_WH',
+            'SNOWFLAKE_DATABASE': 'edldb',
+            'SNOWFLAKE_SCHEMA': 'ecom',
+            'SNOWFLAKE_AUTHENTICATOR': 'externalbrowser'
+        })
+        
+        # Start pipeline in background (non-blocking) with environment variables
+        process = subprocess.Popen(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, env=env)
         
         # Start a thread to monitor the process and remove from running set when done
         def monitor_process():
@@ -189,13 +200,43 @@ def load_customer_data(customer_id):
             with open(zip_aesthetics_path, 'r') as f:
                 data['zip_aesthetics'] = json.load(f)
         
+        # 8. Load consolidated queries data (the 6 SQL queries)
+        consolidated_path = os.path.join(customer_dir, f"{customer_id}.json")
+        print(f"🔍 Looking for consolidated data at: {consolidated_path}")
+        if os.path.exists(consolidated_path):
+            print(f"✅ Found consolidated data for customer {customer_id}")
+            with open(consolidated_path, 'r') as f:
+                consolidated_data = json.load(f)
+                print(f"📊 Loaded consolidated data: {consolidated_data}")
+                data['consolidated_queries'] = consolidated_data
+                # Extract individual query results for easy access
+                data['amount_donated'] = consolidated_data.get('amount_donated')
+                data['cuddliest_month'] = consolidated_data.get('cuddliest_month')
+                data['total_months'] = consolidated_data.get('total_months')
+                data['autoship_savings'] = consolidated_data.get('autoship_savings')
+                data['most_ordered'] = consolidated_data.get('most_ordered')
+                data['yearly_food_count'] = consolidated_data.get('yearly_food_count')
+                data['zip_code'] = consolidated_data.get('zip_code')
+                print(f"📋 Extracted data - donations: {data['amount_donated']}, cuddliest: {data['cuddliest_month']}, months: {data['total_months']}, savings: {data['autoship_savings']}")
+        else:
+            print(f"⚠️ No consolidated queries found for customer {customer_id}")
+            data['consolidated_queries'] = None
+            data['amount_donated'] = None
+            data['cuddliest_month'] = None
+            data['total_months'] = None
+            data['autoship_savings'] = None
+            data['most_ordered'] = None
+            data['yearly_food_count'] = None
+            data['zip_code'] = None
+        
         # Use real breed prediction data if available
         if 'breed_prediction' in data and data['breed_prediction']:
             if data['breed_prediction'].get('multiple_predictions'):
                 first_prediction = data['breed_prediction']['multiple_predictions'][0]
-                data['predicted_breed'] = {
+                top_breed = first_prediction.get('prediction', {}).get('top_predicted_breed', {}).get('breed', 'Unknown')
+                data['breed_prediction'] = {
                     'pet_name': first_prediction.get('pet_name', 'Unknown'),
-                    'predicted_breed': first_prediction.get('prediction', {}).get('top_predicted_breed', {}).get('breed', 'Unknown')
+                    'predicted_breed': format_breed_name(top_breed)
                 }
         
         # Use real letter data
@@ -203,6 +244,10 @@ def load_customer_data(customer_id):
         
         # Use real portrait data
         data['portrait'] = f"/static/customer_images/{customer_id}/collective_pet_portrait.png"
+        
+        # Add badge image path if badge exists
+        if 'badge' in data and data['badge'] is not None:
+            data['badge']['image_path'] = get_badge_image_path(data['badge']['badge'])
         
         # 8. Don't create fake data - only show real data
         # These fields will be None if not available from pipeline
@@ -349,9 +394,16 @@ def experience(customer_id):
         return render_template('error.html', 
                              error_message=f"Could not load data for customer {customer_id}")
     
-    return render_template('experience.html', 
-                         customer_id=customer_id, 
-                         customer_data=customer_data)
+    # Determine if customer is personalized or generic
+    is_personalized = customer_data.get('enriched_profile', {}).get('gets_personalized', False)
+    print(f"🔍 Customer {customer_id} - gets_personalized: {is_personalized}")
+    print(f"📊 Customer data keys: {list(customer_data.keys())}")
+    if is_personalized:
+        print(f"🎯 Rendering personalized experience for customer {customer_id}")
+        return render_template('personalized_experience.html', customer_id=customer_id, customer_data=customer_data)
+    else:
+        print(f"📋 Rendering generic experience for customer {customer_id}")
+        return render_template('generic_experience.html', customer_id=customer_id, customer_data=customer_data)
 
 @app.route('/api/customer/<customer_id>')
 def api_customer_data(customer_id):

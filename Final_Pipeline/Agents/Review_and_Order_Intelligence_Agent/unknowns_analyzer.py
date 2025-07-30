@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Unknowns Analyzer
-Scans query_2 pet profile data for null or "UNKN" values and creates an unknowns.json file
+Scans get_pet_profiles query data for null or "UNKN" values and creates an unknowns.json file
 with all unknown attributes for each customer and pet.
 """
 
@@ -17,7 +17,7 @@ logger = logging.getLogger(__name__)
 
 class UnknownsAnalyzer:
     """
-    Analyzes query_2 pet profile data to identify and document unknown attributes.
+    Analyzes get_pet_profiles query data to identify and document unknown attributes.
     """
     
     def __init__(self, snowflake_connector=None):
@@ -27,10 +27,10 @@ class UnknownsAnalyzer:
     
     def scan_pet_profile_data_for_unknowns(self, pet_profile_data: List[Dict[str, Any]], customer_id: str) -> Dict[str, Any]:
         """
-        Scan query_2 pet profile data for null or "UNKN" values.
+        Scan get_pet_profiles query data for null or "UNKN" values.
         
         Args:
-            pet_profile_data: The raw pet profile data from query_2
+            pet_profile_data: The raw pet profile data from get_pet_profiles query
             customer_id: The customer ID
             
         Returns:
@@ -63,7 +63,7 @@ class UnknownsAnalyzer:
         Scan a single pet's profile record for null or "UNKN" values.
         
         Args:
-            pet_record: The pet's profile record from query_2
+            pet_record: The pet's profile record from get_pet_profiles query
             pet_name: The pet's name
             
         Returns:
@@ -97,7 +97,7 @@ class UnknownsAnalyzer:
     
     def analyze_customer_pet_profiles(self, customer_id: str) -> Dict[str, Any]:
         """
-        Analyze a customer's pet profile data from query_2 for unknown attributes.
+        Analyze a customer's pet profile data from get_pet_profiles query for unknown attributes.
         
         Args:
             customer_id: The customer ID to analyze
@@ -116,9 +116,9 @@ class UnknownsAnalyzer:
                 customer_data = self.pipeline._get_all_customer_data(customer_id)
                 pet_profile_data = customer_data.get('get_pet_profiles', [])
             else:
-                # No fallback - pipeline should always provide cached data
-                logger.error(f"No pipeline reference available for customer {customer_id}")
-                return None
+                # Fallback to direct snowflake connector
+                customer_data = self.snowflake_connector.get_customer_data(customer_id)
+                pet_profile_data = customer_data.get('get_pet_profiles', [])
             
             if not pet_profile_data:
                 logger.warning(f"No pet profile data found for customer {customer_id}")

@@ -1314,11 +1314,11 @@ class ChewyPlaybackPipeline:
                         json.dump(zip_aesthetics, f, indent=2)
                     print(f"    🗺️ Saved ZIP aesthetics: {zip_aesthetics.get('visual_style', 'Unknown')}, {zip_aesthetics.get('color_texture', 'Unknown')}, {zip_aesthetics.get('art_style', 'Unknown')}")
             
-            # Save generic playback data (for customers with generic playback)
-            if not customer_data.get('gets_personalized', False) and customer_data.get('gets_playback', False):
+            # Save consolidated queries for ALL customers (both generic and personalized)
+            if customer_data.get('gets_playback', False):
                 try:
-                    # Get generic playback data from cache
-                    generic_data = self._get_cached_customer_data(customer_id, query_keys=[
+                    # Get all 6 query data from cache
+                    query_data = self._get_cached_customer_data(customer_id, query_keys=[
                         'get_amt_donated',
                         'get_cudd_month', 
                         'get_total_months',
@@ -1327,50 +1327,11 @@ class ChewyPlaybackPipeline:
                         'get_yearly_food_count'
                     ])
                     
-                    # Save amount donated
-                    if 'get_amt_donated' in generic_data:
-                        amt_donated_path = customer_dir / "amount_donated.json"
-                        with open(amt_donated_path, 'w') as f:
-                            json.dump(generic_data['get_amt_donated'], f, indent=2, cls=DecimalEncoder)
-                        print(f"    💰 Saved amount donated data")
-                    
-                    # Save cuddliest month
-                    if 'get_cudd_month' in generic_data:
-                        cudd_month_path = customer_dir / "cuddliest_month.json"
-                        with open(cudd_month_path, 'w') as f:
-                            json.dump(generic_data['get_cudd_month'], f, indent=2, cls=DecimalEncoder)
-                        print(f"    🥰 Saved cuddliest month data")
-                    
-                    # Save total months
-                    if 'get_total_months' in generic_data:
-                        total_months_path = customer_dir / "total_months.json"
-                        with open(total_months_path, 'w') as f:
-                            json.dump(generic_data['get_total_months'], f, indent=2, cls=DecimalEncoder)
-                        print(f"    📅 Saved total months data")
-                    
-                    # Save autoship savings
-                    if 'get_autoship_savings' in generic_data:
-                        autoship_savings_path = customer_dir / "autoship_savings.json"
-                        with open(autoship_savings_path, 'w') as f:
-                            json.dump(generic_data['get_autoship_savings'], f, indent=2, cls=DecimalEncoder)
-                        print(f"    🚚 Saved autoship savings data")
-                    
-                    # Save most ordered
-                    if 'get_most_ordered' in generic_data:
-                        most_ordered_path = customer_dir / "most_ordered.json"
-                        with open(most_ordered_path, 'w') as f:
-                            json.dump(generic_data['get_most_ordered'], f, indent=2, cls=DecimalEncoder)
-                        print(f"    🛒 Saved most ordered data")
-                    
-                    # Save yearly food count
-                    if 'get_yearly_food_count' in generic_data:
-                        yearly_food_path = customer_dir / "yearly_food_count.json"
-                        with open(yearly_food_path, 'w') as f:
-                            json.dump(generic_data['get_yearly_food_count'], f, indent=2, cls=DecimalEncoder)
-                        print(f"    🍽️ Saved yearly food count data")
+                    # Save consolidated queries to single JSON file
+                    self._save_consolidated_queries(customer_id, query_data, customer_dir)
                         
                 except Exception as e:
-                    print(f"    ⚠️ Error saving generic playback data for customer {customer_id}: {e}")
+                    print(f"    ⚠️ Error saving consolidated queries for customer {customer_id}: {e}")
             
             # Save breed predictions if available
             if breed_predictions and customer_id in breed_predictions:
@@ -1420,84 +1381,103 @@ class ChewyPlaybackPipeline:
                 except Exception as e:
                     print(f"    ❌ Error saving collective image: {e}")
             
-            # Run donation query and save output
-            if customer_id in enriched_profiles and enriched_profiles[customer_id].get('gets_playback', False) and not enriched_profiles[customer_id].get('gets_personalized', False):
-                print(f"  💰 Using cached donation data for customer {customer_id}...")
-                try:
-                    # Use cached data instead of making a new Snowflake call
-                    raw_customer_data_donation = self._get_cached_customer_data(customer_id, ['get_amt_donated'])
-                    donation_results = raw_customer_data_donation.get('get_amt_donated', [])
-                    amt_donated = 0.0
-                    if donation_results and isinstance(donation_results, list):
-                        try:
-                            amt = donation_results[0].get('AMT_DONATED')
-                            if amt is not None:
-                                amt_donated = float(amt)
-                        except Exception:
-                            amt_donated = 0.0
-                    # Save to customer_donations.json
-                    donation_path = customer_dir / "customer_donations.json"
-                    with open(donation_path, 'w') as f:
-                        json.dump({"amt_donated": amt_donated}, f, indent=2)
-                    print(f"    ✅ Saved donation results for customer {customer_id}: {amt_donated} USD")
-                    # Run cuddliest month query and save output
-                    raw_customer_data = self._get_cached_customer_data(customer_id, ['get_cudd_month'])
-                    cuddliest_results = raw_customer_data.get('get_cudd_month', [])
-                    cuddliest_month = None
-                    if cuddliest_results and isinstance(cuddliest_results, list):
-                        try:
-                            month = cuddliest_results[0].get('MONTH')
-                            if month:
-                                cuddliest_month = month
-                        except Exception:
-                            cuddliest_month = None
-                    cuddliest_path = customer_dir / "cuddliest_month.json"
-                    with open(cuddliest_path, 'w') as f:
-                        json.dump({"month": cuddliest_month}, f, indent=2)
-                    # Run months with Chewy query and save output
-                    raw_customer_data_months = self._get_cached_customer_data(customer_id, ['get_total_months'])
-                    months_results = raw_customer_data_months.get('get_total_months', [])
-                    months_with_chewy = None
-                    if months_results and isinstance(months_results, list):
-                        try:
-                            months = months_results[0].get('MONTHS_WITH_CHEWY')
-                            if months is not None:
-                                months_with_chewy = int(months)
-                        except Exception:
-                            months_with_chewy = None
-                    months_path = customer_dir / "months_with_chewy.json"
-                    with open(months_path, 'w') as f:
-                        json.dump({"months": months_with_chewy}, f, indent=2)
-                    # Run autoship savings query and save output
-                    autoship_results = customer_data.get('get_autoship_savings', [])
-                    amt_saved = 0.0
-                    if autoship_results and isinstance(autoship_results, list):
-                        try:
-                            savings = autoship_results[0].get('LIFETIME_SAVINGS')
-                            if savings is not None:
-                                amt_saved = float(savings)
-                        except Exception:
-                            amt_saved = 0.0
-                    autoship_path = customer_dir / "autoship_savings.json"
-                    with open(autoship_path, 'w') as f:
-                        json.dump({"amt_saved": amt_saved}, f, indent=2)
-                    # Run most reordered product query and save output
-                    most_reordered_results = customer_data.get('get_most_ordered', [])
-                    most_reordered_product = None
-                    if most_reordered_results and isinstance(most_reordered_results, list):
-                        try:
-                            product = most_reordered_results[0].get('NAME')
-                            if product:
-                                most_reordered_product = product
-                        except Exception:
-                            most_reordered_product = None
-                    most_reordered_path = customer_dir / "most_reordered.json"
-                    with open(most_reordered_path, 'w') as f:
-                        json.dump({"product": most_reordered_product}, f, indent=2)
-                except Exception as e:
-                    print(f"    ❌ Error running donation query for customer {customer_id}: {e}")
-            
+
             print(f"  ✅ Saved outputs for customer {customer_id}")
+    
+    def _save_consolidated_queries(self, customer_id: str, customer_data: Dict[str, Any], customer_dir: Path):
+        """Save all 6 query outputs into a single JSON file named with the customer ID."""
+        try:
+            consolidated_data = {}
+            
+            # 1. Amount Donated
+            donation_results = customer_data.get('get_amt_donated', [])
+            amt_donated = 0.0
+            if donation_results and isinstance(donation_results, list):
+
+                
+                try:
+                    amt = donation_results[0].get('AMT_DONATED')
+                    if amt is not None:
+                        amt_donated = float(amt)
+                except Exception:
+                    amt_donated = 0.0
+            consolidated_data['amount_donated'] = amt_donated
+            
+            # 2. Cuddliest Month
+            cuddliest_results = customer_data.get('get_cudd_month', [])
+            cuddliest_month = None
+            if cuddliest_results and isinstance(cuddliest_results, list):
+                try:
+                    month = cuddliest_results[0].get('MONTH')
+                    if month:
+                        cuddliest_month = month
+                except Exception:
+                    cuddliest_month = None
+            consolidated_data['cuddliest_month'] = cuddliest_month
+            
+            # 3. Total Months
+            months_results = customer_data.get('get_total_months', [])
+            months_with_chewy = None
+            if months_results and isinstance(months_results, list):
+                try:
+                    months = months_results[0].get('MONTHS_WITH_CHEWY')
+                    if months is not None:
+                        months_with_chewy = int(months)
+                except Exception:
+                    months_with_chewy = None
+            consolidated_data['total_months'] = months_with_chewy
+            
+            # 4. Autoship Savings
+            autoship_results = customer_data.get('get_autoship_savings', [])
+            amt_saved = 0.0
+            if autoship_results and isinstance(autoship_results, list):
+                try:
+                    savings = autoship_results[0].get('LIFETIME_SAVINGS')
+                    if savings is not None:
+                        amt_saved = float(savings)
+                except Exception:
+                    amt_saved = 0.0
+            consolidated_data['autoship_savings'] = amt_saved
+            
+            # 5. Most Ordered Product
+            most_reordered_results = customer_data.get('get_most_ordered', [])
+            most_reordered_product = None
+            if most_reordered_results and isinstance(most_reordered_results, list):
+                try:
+                    product = most_reordered_results[0].get('NAME')
+                    if product:
+                        most_reordered_product = product
+                except Exception:
+                    most_reordered_product = None
+            consolidated_data['most_ordered'] = most_reordered_product
+            
+            # 6. Yearly Food Count
+            yearly_food_results = customer_data.get('get_yearly_food_count', [])
+            yearly_food_count = None
+            if yearly_food_results and isinstance(yearly_food_results, list):
+                try:
+                    # Get the total lbs consumed by customer from the first row
+                    total_lbs = yearly_food_results[0].get('TOTAL_LBS_CONSUMED_BY_CUSTOMER')
+                    if total_lbs is not None:
+                        yearly_food_count = float(total_lbs)
+                except Exception:
+                    yearly_food_count = None
+            consolidated_data['yearly_food_count'] = yearly_food_count
+            
+            # 7. Zip Code
+            address_data = self._get_cached_customer_address(customer_id)
+            zip_code = address_data.get('zip_code', '') if address_data else ''
+            consolidated_data['zip_code'] = zip_code
+            
+            # Save consolidated data to single JSON file
+            consolidated_path = customer_dir / f"{customer_id}.json"
+            with open(consolidated_path, 'w') as f:
+                json.dump(consolidated_data, f, indent=2, cls=DecimalEncoder)
+            
+            print(f"    📊 Saved consolidated queries to {customer_id}.json")
+            
+        except Exception as e:
+            print(f"    ❌ Error saving consolidated queries for customer {customer_id}: {e}")
     
     def run_unknowns_analyzer(self, customer_ids: List[str] = None):
         """Run the Unknowns Analyzer to identify unknown attributes in pet profile data."""
@@ -1581,8 +1561,8 @@ class ChewyPlaybackPipeline:
                     food_data = customer_data.get('get_yearly_food_count', [])
                     
                     # Get customer zip code for location-based fun facts from cached data
-                    address_data = customer_data.get('get_cust_zipcode', [])
-                    zip_code = address_data[0].get('CUSTOMER_ADDRESS_ZIP') if address_data and len(address_data) > 0 else None
+                    address_data = self._get_cached_customer_address(customer_id)
+                    zip_code = address_data.get('zip_code', '') if address_data else None
                     
                     if food_data and len(food_data) > 0:
                         # Generate food fun facts with location data

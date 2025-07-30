@@ -567,12 +567,24 @@ def analyze_food_consumption(food_data: List[Dict[str, Any]], zip_code: str = No
         }
     
     # Generate location-based fun fact if zip code is provided
-    if zip_code:
-        location_fun_fact = get_food_fun_fact(zip_code, total_weight)
-        fun_facts = [location_fun_fact]
+    if zip_code and zip_code.strip():
+        try:
+            location_fun_fact = get_food_fun_fact(zip_code, total_weight)
+            fun_facts = [location_fun_fact]
+        except Exception as e:
+            # Fallback to generic fun facts if location-based fails
+            fun_facts = [
+                f"That's about {total_weight:.1f} pounds of pure pet love!",
+                f"That's equivalent to a lot of happy meals!",
+                f"That's about as much as... well, {total_weight:.1f} pounds!"
+            ]
     else:
-        # Error: Location-based fun facts require a zip code
-        raise ValueError("Location-based fun facts require a zip code. Cannot generate generic fallback fun facts.")
+        # Use generic fun facts when no zip code is available
+        fun_facts = [
+            f"That's about {total_weight:.1f} pounds of pure pet love!",
+            f"That's equivalent to a lot of happy meals!",
+            f"That's about as much as... well, {total_weight:.1f} pounds!"
+        ]
     
     return {
         "total_food_lbs": round(total_weight, 2),
