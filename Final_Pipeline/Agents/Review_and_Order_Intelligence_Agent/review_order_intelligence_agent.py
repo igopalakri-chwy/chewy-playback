@@ -1,100 +1,435 @@
-import pandas as pd
+#!/usr/bin/env python3
+"""
+Review and Order Intelligence Agent
+
+Enhanced AI agent that derives comprehensive pet insights from order history and customer reviews
+using LLM analysis with intelligent pet detection capabilities.
+
+Features:
+- Count-based pet detection (e.g., "my 3 cats" vs 2 known cats)
+- Named pet detection (e.g., "Charlie loves this toy")
+- Unnamed species detection (e.g., "my dog" with no dogs in profiles)
+- Comprehensive LLM analysis for pet profiling
+"""
+
 import json
 import logging
-import re
-from typing import Dict, List, Any
-import openai
 import os
+import re
+from typing import Any, Dict, List
+
+import openai
+import pandas as pd
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
+# Constants for review analysis
+PRIORITY_REVIEW_KEYWORDS = [
+    'girl', 'boy', 'female', 'male', 'she', 'he', 'her', 'his',
+    'lbs', 'pounds', 'weight', 'large', 'small', 'breed'
+]
+
 class ReviewOrderIntelligenceAgent:
     """
-    AI agent that derives enriched pet insights from order history and qualifying reviews
-    using LLM analysis to generate comprehensive pet profiles.
+    Enhanced AI agent for comprehensive pet profile analysis.
+    
+    This agent processes customer review and order data to create detailed pet profiles
+    using advanced LLM analysis and intelligent pet detection. It handles:
+    
+    - Count-based detection: Identifies discrepancies between known pets and review mentions
+    - Named pet detection: Extracts specific pet names mentioned in reviews  
+    - Unnamed species detection: Detects new pet types mentioned without names
+    - Comprehensive profiling: Creates detailed pet attributes from review sentiment
+    
+    Designed for integration with the Chewy Playback Pipeline using cached Snowflake data.
     """
     
     def __init__(self, openai_api_key: str = None):
-        """Initialize the Review and Order Intelligence Agent."""
+        """
+        Initialize the Review and Order Intelligence Agent.
+        
+        Args:
+            openai_api_key: OpenAI API key for LLM analysis. If None, reads from environment.
+        """
         self.openai_api_key = openai_api_key or os.getenv('OPENAI_API_KEY')
-        # No longer loading CSV files - only using Snowflake data
+
+    # ============================================================================
+    # ENHANCED PET DETECTION METHODS
+    # ============================================================================
     
-    def _get_customer_pets_from_reviews(self, customer_reviews: pd.DataFrame) -> List[str]:
-        """Get all pets for a customer from review data."""
+    def _get_customer_pets_from_reviews(self, customer_reviews: pd.DataFrame, known_pet_profiles: List[Dict] = None, orders_df: pd.DataFrame = None) -> Dict[str, Any]:
+        """Get all pets for a customer from review data with enhanced detection."""
+        if not known_pet_profiles:
+            return {'pet_names': [], 'pet_count_analysis': {}}
+        
+        # Get registered pets from the known pet profiles (from Snowflake)
+        registered_pets = [pet['PetName'] for pet in known_pet_profiles if pet.get('PetName')]
+        
+        # Enhanced detection of additional pets using LLM + hashmap approach
+        pet_count_analysis = self._detect_additional_pets_with_llm(
+            customer_reviews, known_pet_profiles or [], orders_df
+        )
+        
+        # Get all pet names (registered + additional)
+        all_pet_names = registered_pets + [pet['name'] for pet in pet_count_analysis.get('additional_pets', [])]
+        
+        return {
+            'pet_names': list(set(all_pet_names)),
+            'pet_count_analysis': pet_count_analysis
+        }
+    
+    def _detect_additional_pets_with_llm(self, customer_reviews: pd.DataFrame, known_pet_profiles: List[Dict], orders_df: pd.DataFrame = None) -> Dict[str, Any]:
+        """Detect additional pets mentioned in reviews using LLM analysis and hashmap approach."""
+        
+        # Extract current pet counts from known profiles
+        current_counts = {}
+        for profile in known_pet_profiles:
+            pet_type = profile.get('PetType', 'unknown').lower()
+            if pet_type != 'unknown' and pet_type != 'unk':
+                current_counts[pet_type] = current_counts.get(pet_type, 0) + 1
+        
+        # If no reviews, return current state
         if customer_reviews.empty:
-            return []
+            return {
+                'additional_pets': [],
+                'original_counts': current_counts,
+                'detected_counts': current_counts.copy(),
+                'updated_counts': current_counts.copy()
+            }
         
-        # Get registered pets from the reviews data
-        registered_pets = customer_reviews['PetName'].dropna().unique().tolist()
+        # Use LLM to detect pet ownership mentions in reviews
+        review_text = " ".join(customer_reviews['ReviewText'].fillna('').tolist())
         
-        # Look for additional pets mentioned in review text
-        additional_pets = self._detect_additional_pets_from_reviews(customer_reviews)
+        try:
+            llm_analysis = self._analyze_pet_ownership_with_llm(review_text, current_counts, orders_df)
+            detected_counts = llm_analysis['pet_counts']
+            named_pets = llm_analysis.get('named_pets', [])
+        except Exception as e:
+            logger.warning(f"🔄 LLM pet ownership analysis failed, using known counts: {e}")
+            detected_counts = current_counts.copy()
+            named_pets = []
         
-        # Combine and remove duplicates
-        all_pets = list(set(registered_pets + additional_pets))
-        
-        return all_pets
-    
-    def _detect_additional_pets_from_reviews(self, customer_reviews: pd.DataFrame) -> List[str]:
-        """Detect additional pets mentioned in review text that aren't in registered profiles."""
+        # Find discrepancies and create additional pet profiles
         additional_pets = []
+        updated_counts = current_counts.copy()
         
-        for _, review in customer_reviews.iterrows():
-            review_text = review['ReviewText'].lower()
+        # Process count-based additional pets (e.g., "my 3 cats" when only 2 in profiles)
+        for pet_type, detected_count in detected_counts.items():
+            current_count = current_counts.get(pet_type, 0)
+            if detected_count > current_count:
+                # Create additional pets for the difference
+                for i in range(detected_count - current_count):
+                    additional_pets.append({
+                        'name': f'Additional_{pet_type.title()}_{i+1}',
+                        'type': pet_type,
+                        'source': 'detected_from_reviews',
+                        'confidence': 0.7,
+                        'detection_method': 'count_based_detection'
+                    })
+                updated_counts[pet_type] = detected_count
+        
+        # Process named pets not in known profiles
+        known_pet_names = [pet['PetName'].lower() for pet in known_pet_profiles]
+        for named_pet in named_pets:
+            pet_name = named_pet['name']
+            pet_species = named_pet['species']
             
-            # Look for patterns indicating multiple pets
-            if 'three cats' in review_text or '3 cats' in review_text:
-                # This suggests there's a third cat not in the registered profiles
-                # Since we don't know the actual name, use "UNK"
-                if 'UNK' not in additional_pets:
-                    additional_pets.append('UNK')
+            # Skip if pet name already exists in known profiles
+            if pet_name.lower() not in known_pet_names:
+                # Adjust confidence based on species certainty
+                if pet_species == 'unknown':
+                    confidence = 0.5  # Lower confidence when species cannot be determined
+                else:
+                    confidence = 0.8  # Higher confidence when species is known or inferred
+                
+                additional_pets.append({
+                    'name': pet_name,
+                    'type': pet_species,
+                    'source': 'detected_from_reviews',
+                    'confidence': confidence,
+                    'detection_method': 'named_pet_detection'
+                })
+                
+                # Update count for this species if not already counted
+                if pet_species != 'unknown' and pet_species not in updated_counts:
+                    updated_counts[pet_species] = updated_counts.get(pet_species, 0) + 1
+                
+        # Handle "my cat" case - unnamed pets of new species
+        for pet_type, detected_count in detected_counts.items():
+            if pet_type not in current_counts and detected_count > 0 and pet_type != 'unknown':
+                # This is a new species mentioned (e.g., "my cat" when no cats in profiles)
+                additional_pets.append({
+                    'name': f'UNK_{pet_type.upper()}',
+                    'type': pet_type,
+                    'source': 'detected_from_reviews',
+                    'confidence': 0.6,
+                    'detection_method': 'unnamed_species_detection'
+                })
+                updated_counts[pet_type] = detected_count
+        
+        return {
+            'additional_pets': additional_pets,
+            'original_counts': current_counts,
+            'detected_counts': detected_counts,
+            'updated_counts': updated_counts
+        }
+    
+    def _analyze_pet_ownership_with_llm(self, review_text: str, known_counts: Dict[str, int], customer_orders: pd.DataFrame = None) -> Dict[str, Any]:
+        """Use LLM to analyze review text for pet ownership indicators and specific pet names."""
+        
+        # Truncate review text to avoid token limits
+        if len(review_text) > 3000:
+            review_text = review_text[:3000] + "..."
+        
+        prompt = f"""Analyze these customer reviews and extract pet ownership information.
+
+Known pets from profiles: {known_counts}
+
+Review texts: {review_text}
+
+Extract TWO types of information:
+
+1. PET COUNTS by species:
+- Look for phrases like: "my 3 cats", "both of my dogs", "all 4 of them"
+- Count clear ownership statements by the reviewer
+- IGNORE product descriptions, other people's pets, hypothetical scenarios
+
+2. SPECIFIC PET NAMES mentioned:
+- Look for capitalized names that appear to be pet names
+- Examples: "Fluffy loves this", "Max and Bella enjoy", "my dog Charlie"
+- Include the species if mentioned with the name, otherwise use "unknown"
+- For names without explicit species, try to infer from context or use "unknown"
+- ONLY include names that seem to belong to the reviewer's pets
+
+Return ONLY a JSON object with this structure:
+{{
+    "pet_counts": {{"dog": 2, "cat": 3}},
+    "named_pets": [
+        {{"name": "Charlie", "species": "dog"}},
+        {{"name": "Fluffy", "species": "cat"}},
+        {{"name": "Max", "species": "unknown"}}
+    ]
+}}
+
+If no clear information found, return:
+{{
+    "pet_counts": {known_counts},
+    "named_pets": []
+}}"""
+        
+        try:
+            client = openai.OpenAI(api_key=self.openai_api_key)
+            response = client.chat.completions.create(
+                model="gpt-4",
+                messages=[
+                    {"role": "system", "content": "You are an expert at analyzing text for pet ownership indicators. Return only valid JSON with pet counts."},
+                    {"role": "user", "content": prompt}
+                ],
+                temperature=0.1,
+                max_tokens=200
+            )
             
-            elif 'four cats' in review_text or '4 cats' in review_text:
-                if 'UNK' not in additional_pets:
-                    additional_pets.append('UNK')
+            llm_response = response.choices[0].message.content.strip()
             
-            elif 'five cats' in review_text or '5 cats' in review_text:
-                if 'UNK' not in additional_pets:
-                    additional_pets.append('UNK')
-            
-            # Similar patterns for dogs
-            elif 'three dogs' in review_text or '3 dogs' in review_text:
-                if 'UNK' not in additional_pets:
-                    additional_pets.append('UNK')
-            
-            elif 'four dogs' in review_text or '4 dogs' in review_text:
-                if 'UNK' not in additional_pets:
-                    additional_pets.append('UNK')
-            
-            # Look for specific pet names mentioned in reviews
-            # This is a simple pattern - in a real system, you might use NER
+            # Parse JSON response
             import re
-            pet_mentions = re.findall(r'\b(my|the)\s+(\w+)\b', review_text)
-            for _, potential_pet in pet_mentions:
-                if len(potential_pet) > 2 and potential_pet not in additional_pets:
-                    # Simple heuristic: if it's capitalized in the original text, it might be a pet name
-                    original_text = review['ReviewText']
-                    if potential_pet.title() in original_text or potential_pet.upper() in original_text:
-                        additional_pets.append(potential_pet.title())
-        
-        return additional_pets
-    
-    # These methods are no longer needed since we use Snowflake data passed from the pipeline
-    
-    def _select_priority_reviews(self, pet_reviews: pd.DataFrame, max_priority: int = 10, max_other: int = 5) -> List[str]:
-        """Select and prioritize reviews mentioning gender/weight/size, plus a few others for context."""
-        priority_reviews, other_reviews = [], []
-        keywords = ['girl', 'boy', 'female', 'male', 'she', 'he', 'lbs', 'pound', 'weight', 'large breed', 'small breed']
-        for _, review in pet_reviews.iterrows():
-            review_text = review.get('ReviewText', '')
-            if any(word in review_text.lower() for word in keywords):
-                priority_reviews.append(review_text)
+            json_match = re.search(r'\{.*\}', llm_response, re.DOTALL)
+            if json_match:
+                detected_data = json.loads(json_match.group())
+                
+                # Extract and validate pet counts
+                pet_counts = detected_data.get('pet_counts', known_counts)
+                validated_counts = {}
+                for pet_type, count in pet_counts.items():
+                    if isinstance(count, int) and count >= 0 and pet_type.lower() in ['dog', 'cat', 'pet', 'bird', 'rabbit', 'fish', 'unknown']:
+                        validated_counts[pet_type.lower()] = count
+                
+                # Extract named pets
+                named_pets = detected_data.get('named_pets', [])
+                validated_named_pets = []
+                for pet in named_pets:
+                    if isinstance(pet, dict) and 'name' in pet and 'species' in pet:
+                        species = str(pet['species']).lower().strip()
+                        # Try to infer species from order context if unknown
+                        if species == 'unknown':
+                            species = self._infer_species_from_orders(str(pet['name']).strip(), customer_orders or pd.DataFrame())
+                        
+                        validated_named_pets.append({
+                            'name': str(pet['name']).strip(),
+                            'species': species
+                        })
+                
+                return {
+                    'pet_counts': validated_counts if validated_counts else known_counts,
+                    'named_pets': validated_named_pets
+                }
             else:
-                other_reviews.append(review_text)
-        selected = priority_reviews[:max_priority] + other_reviews[:max_other]
-        return selected
+                logger.warning("No JSON found in LLM response for pet ownership analysis")
+                return {'pet_counts': known_counts, 'named_pets': []}
+                
+        except Exception as e:
+            logger.error(f"❌ Error in LLM pet ownership analysis: {e}")
+            return {'pet_counts': known_counts, 'named_pets': []}
+    
+    def analyze_customer_with_cached_data(self, customer_id: str, pets_df: pd.DataFrame, orders_df: pd.DataFrame, reviews_df: pd.DataFrame) -> Dict[str, Any]:
+        """
+        Analyze a single customer using cached Snowflake data with enhanced pet detection.
+        This method is called by the pipeline with pre-fetched cached data.
+        """
+        logger.info(f"Analyzing customer {customer_id} with cached data...")
+        
+        if pets_df.empty:
+            logger.warning(f"No pets found for customer {customer_id}")
+            return {}
+        
+        # Convert pets DataFrame to list of dictionaries for the enhanced detection
+        known_pet_profiles = []
+        for _, pet_row in pets_df.iterrows():
+            known_pet_profiles.append({
+                'PetName': pet_row.get('PetName', 'Unknown'),
+                'PetType': pet_row.get('PetType', 'UNK'),
+                'PetBreed': pet_row.get('PetBreed', 'UNK'),
+                'Gender': pet_row.get('Gender', 'UNK'),
+                'PetAge': pet_row.get('PetAge', 'UNK'),
+                'Weight': pet_row.get('Weight', 'UNK'),
+                'Birthday': pet_row.get('Birthday', 'UNK')
+            })
+        
+        # Use enhanced pet detection to get all pets (including additional ones from reviews)
+        pet_detection_result = self._get_customer_pets_from_reviews(reviews_df, known_pet_profiles, orders_df)
+        all_pet_names = pet_detection_result['pet_names']
+        pet_count_analysis = pet_detection_result['pet_count_analysis']
+        
+        customer_results = {}
+        
+        # Log the pet count analysis results
+        if pet_count_analysis.get('additional_pets'):
+            logger.info(f"  🔍 Detected {len(pet_count_analysis['additional_pets'])} additional pets from reviews")
+            logger.info(f"  📊 Pet count analysis: {pet_count_analysis['updated_counts']}")
+        
+        for pet_name in all_pet_names:
+            logger.info(f"  🐾 Analyzing pet {pet_name} for customer {customer_id}...")
+            
+            # Get structured pet profile data for this pet
+            structured_pet_data = None
+            pet_profile_row = pets_df[pets_df['PetName'] == pet_name]
+            if not pet_profile_row.empty:
+                structured_pet_data = pet_profile_row.iloc[0].to_dict()
+            else:
+                # This is an additional pet detected from reviews
+                additional_pet_info = next(
+                    (pet for pet in pet_count_analysis.get('additional_pets', []) if pet['name'] == pet_name),
+                    None
+                )
+                if additional_pet_info:
+                    structured_pet_data = {
+                        'PetName': pet_name,
+                        'PetType': additional_pet_info['type'].title(),
+                        'PetBreed': 'UNK',
+                        'Gender': 'UNK',
+                        'PetAge': 'UNK',
+                        'Weight': 'UNK',
+                        'Birthday': 'UNK',
+                        'source': additional_pet_info['source'],
+                        'confidence': additional_pet_info['confidence']
+                    }
+            
+            # Filter reviews for this pet
+            pet_reviews = pd.DataFrame()
+            if not reviews_df.empty:
+                if pet_name.startswith('Additional_') or pet_name.startswith('UNK_'):
+                    # For additional pets or unnamed species, include all reviews for LLM analysis
+                    pet_reviews = reviews_df.copy()
+                elif structured_pet_data and structured_pet_data.get('source') == 'detected_from_reviews':
+                    # For named pets detected from reviews, try to find specific mentions first
+                    specific_reviews = reviews_df[
+                        reviews_df['ReviewText'].str.contains(pet_name, case=False, na=False)
+                    ]
+                    if not specific_reviews.empty:
+                        pet_reviews = specific_reviews
+                    else:
+                        # If no specific mentions, use all reviews for context
+                        pet_reviews = reviews_df.copy()
+                else:
+                    # For registered pets, filter reviews that mention the pet name
+                    pet_reviews = reviews_df[
+                        reviews_df['ReviewText'].str.contains(pet_name, case=False, na=False)
+                    ]
+                    # If no specific reviews found, include all reviews for context
+                    if pet_reviews.empty:
+                        pet_reviews = reviews_df.copy()
+            
+            # Analyze pet attributes using LLM
+            try:
+                insights = self._analyze_pet_attributes_with_llm(
+                    pet_reviews, orders_df, pet_name, structured_pet_data
+                )
+                
+                # Create pet profile with enhanced information
+                pet_insight = {
+                    "PetName": pet_name,
+                    "PetType": insights.get("PetType", "UNK"),
+                    "PetTypeScore": insights.get("PetTypeScore", 0.0),
+                    "Breed": insights.get("Breed", "UNK"),
+                    "BreedScore": insights.get("BreedScore", 0.0),
+                    "LifeStage": insights.get("LifeStage", "UNK"),
+                    "LifeStageScore": insights.get("LifeStageScore", 0.0),
+                    "Gender": insights.get("Gender", "UNK"),
+                    "GenderScore": insights.get("GenderScore", 0.0),
+                    "SizeCategory": insights.get("SizeCategory", "UNK"),
+                    "SizeScore": insights.get("SizeScore", 0.0),
+                    "Weight": insights.get("Weight", "UNK"),
+                    "WeightScore": insights.get("WeightScore", 0.0),
+                    "Birthday": insights.get("Birthday", "UNK"),
+                    "BirthdayScore": insights.get("BirthdayScore", 0.0),
+                    "PersonalityTraits": insights.get("PersonalityTraits", []),
+                    "PersonalityScores": insights.get("PersonalityScores", {}),
+                    "FavoriteProductCategories": insights.get("FavoriteProductCategories", []),
+                    "CategoryScores": insights.get("CategoryScores", {}),
+                    "BrandPreferences": insights.get("BrandPreferences", []),
+                    "BrandScores": insights.get("BrandScores", {}),
+                    "DietaryPreferences": insights.get("DietaryPreferences", []),
+                    "DietaryScores": insights.get("DietaryScores", {}),
+                    "BehavioralCues": insights.get("BehavioralCues", []),
+                    "BehavioralScores": insights.get("BehavioralScores", {}),
+                    "HealthMentions": insights.get("HealthMentions", []),
+                    "HealthScores": insights.get("HealthScores", {}),
+                    "MostOrderedProducts": insights.get("MostOrderedProducts", [])
+                }
+                
+                # Add metadata for detected pets
+                if structured_pet_data and structured_pet_data.get('source') == 'detected_from_reviews':
+                    pet_insight["DetectionSource"] = "review_analysis"
+                    pet_insight["DetectionConfidence"] = structured_pet_data.get('confidence', 0.7)
+                    pet_insight["DetectionMethod"] = structured_pet_data.get('detection_method', 'enhanced_llm_detection')
+                    
+                    # Add specific metadata based on detection type
+                    if pet_name.startswith('Additional_'):
+                        pet_insight["DetectionType"] = "count_based"
+                    elif pet_name.startswith('UNK_'):
+                        pet_insight["DetectionType"] = "unnamed_species"
+                    else:
+                        pet_insight["DetectionType"] = "named_pet"
+                
+                customer_results[pet_name] = pet_insight
+                logger.info(f"    ✅ Completed analysis for {pet_name}")
+                
+            except Exception as e:
+                logger.error(f"    ❌ Error analyzing pet {pet_name}: {e}")
+                continue
+        
+        # Add pet count analysis to the results metadata
+        if pet_count_analysis:
+            customer_results['_pet_count_analysis'] = pet_count_analysis
+        
+        logger.info(f"✅ Completed customer {customer_id} with {len(customer_results)} pets")
+        return customer_results
+
+    # ============================================================================
+    # LLM CONTEXT PREPARATION AND ANALYSIS
+    # ============================================================================
     
     def _prepare_llm_context(self, pet_reviews: pd.DataFrame, customer_orders: pd.DataFrame, pet_name: str, structured_pet_data: Dict[str, Any] = None) -> str:
         """Prepare context data for LLM analysis."""
@@ -136,9 +471,12 @@ class ReviewOrderIntelligenceAgent:
                 context_parts.append("- Weight: UNK")
                 context_parts.append("- Birthday: UNK")
             context_parts.append("")
-        elif pet_name == 'UNK':
+        elif pet_name == 'UNK' or pet_name.startswith('Additional_') or pet_name.startswith('UNK_'):
             context_parts.append(f"Pet Profile Data for {pet_name}:")
-            context_parts.append("- Pet Type: UNK")
+            if structured_pet_data and structured_pet_data.get('PetType') and structured_pet_data.get('PetType') != 'UNK':
+                context_parts.append(f"- Pet Type: {structured_pet_data.get('PetType', 'UNK')}")
+            else:
+                context_parts.append("- Pet Type: UNK")
             context_parts.append("- Breed: UNK")
             context_parts.append("- Gender: UNK")
             context_parts.append("- Life Stage: UNK")
@@ -146,7 +484,15 @@ class ReviewOrderIntelligenceAgent:
             context_parts.append("- Weight: UNK")
             context_parts.append("- Birthday: UNK")
             context_parts.append("")
-            context_parts.append("NOTE: This pet is mentioned in reviews but has no registered profile data.")
+            
+            if pet_name.startswith('Additional_'):
+                context_parts.append("NOTE: This pet was detected from count-based review analysis but has no registered profile data.")
+                context_parts.append("FOCUS: Analyze all reviews to extract any information about this additional pet.")
+            elif pet_name.startswith('UNK_'):
+                context_parts.append("NOTE: This pet species was mentioned in reviews but no specific name was provided.")
+                context_parts.append("FOCUS: Look for unnamed references like 'my cat' or 'our dog' in the reviews.")
+            else:
+                context_parts.append("NOTE: This pet is mentioned in reviews but has no registered profile data.")
             context_parts.append("")
         else:
             # No structured data available
@@ -166,21 +512,77 @@ class ReviewOrderIntelligenceAgent:
         if not pet_reviews.empty:
             context_parts.append(f"Pet Reviews for {pet_name}:")
             
-            # For UNK pets, only include reviews that mention "three cats" or similar
-            if pet_name == 'UNK':
-                print(f"DEBUG: Processing UNK pet - filtering reviews for 'three cats' mentions")
-                relevant_reviews = []
-                for _, review in pet_reviews.iterrows():
-                    review_text = review.get('ReviewText', '').lower()
-                    if 'three cats' in review_text or '3 cats' in review_text:
-                        relevant_reviews.append(review)
-                        print(f"DEBUG: Found relevant review: {review_text[:100]}...")
-                
-                if relevant_reviews:
-                    for i, review in enumerate(relevant_reviews[:10]):
-                        context_parts.append(f"Review {i+1}: {review.get('ReviewText', '')}")
+            # For UNK pets, Additional pets, or named pets from review detection
+            if pet_name == 'UNK' or pet_name.startswith('Additional_') or pet_name.startswith('UNK_') or (structured_pet_data and structured_pet_data.get('source') == 'detected_from_reviews'):
+                if pet_name.startswith('Additional_'):
+                    # For count-based additional pets, include all reviews
+                    context_parts.append("All customer reviews (count-based detection):")
+                    for i, review in enumerate(pet_reviews.iterrows()):
+                        if i >= 15:  # Limit to avoid token overflow
+                            break
+                        _, review_data = review
+                        context_parts.append(f"Review {i+1}: {review_data.get('ReviewText', '')}")
+                elif pet_name.startswith('UNK_'):
+                    # For unnamed species detection, focus on species-specific reviews
+                    species = pet_name.split('_')[1].lower()
+                    context_parts.append(f"Reviews mentioning {species}s (unnamed species detection):")
+                    relevant_reviews = []
+                    for _, review in pet_reviews.iterrows():
+                        review_text = review.get('ReviewText', '').lower()
+                        if species in review_text:
+                            relevant_reviews.append(review)
+                    
+                    if relevant_reviews:
+                        for i, review in enumerate(relevant_reviews[:12]):
+                            context_parts.append(f"Review {i+1}: {review.get('ReviewText', '')}")
+                    else:
+                        context_parts.append(f"No reviews specifically mentioning {species}s found.")
+                elif structured_pet_data and structured_pet_data.get('source') == 'detected_from_reviews':
+                    # For named pets detected from reviews, look for the specific name
+                    context_parts.append(f"Reviews mentioning '{pet_name}' (named pet detection):")
+                    relevant_reviews = []
+                    for _, review in pet_reviews.iterrows():
+                        review_text = review.get('ReviewText', '')
+                        if pet_name.lower() in review_text.lower():
+                            relevant_reviews.append(review)
+                    
+                    if relevant_reviews:
+                        for i, review in enumerate(relevant_reviews[:10]):
+                            context_parts.append(f"Review {i+1}: {review.get('ReviewText', '')}")
+                    else:
+                        # If no specific mentions, include some general reviews for context
+                        context_parts.append(f"No direct mentions of '{pet_name}' found. Including general reviews:")
+                        for i, review in enumerate(pet_reviews.iterrows()):
+                            if i >= 8:
+                                break
+                            _, review_data = review
+                            context_parts.append(f"Review {i+1}: {review_data.get('ReviewText', '')}")
                 else:
-                    context_parts.append("No specific reviews mentioning this pet found.")
+                    # For legacy UNK pets, look for specific patterns
+                    relevant_reviews = []
+                    for _, review in pet_reviews.iterrows():
+                        review_text = review.get('ReviewText', '').lower()
+                        if any(pattern in review_text for pattern in ['three cats', '3 cats', 'four cats', '4 cats', 'two cats', '2 cats']):
+                            relevant_reviews.append(review)
+                    
+                    if relevant_reviews:
+                        for i, review in enumerate(relevant_reviews[:10]):
+                            context_parts.append(f"Review {i+1}: {review.get('ReviewText', '')}")
+                    else:
+                        context_parts.append("No specific reviews mentioning multiple pets found.")
+                else:
+                    # For legacy UNK pets, look for specific patterns
+                    relevant_reviews = []
+                    for _, review in pet_reviews.iterrows():
+                        review_text = review.get('ReviewText', '').lower()
+                        if any(pattern in review_text for pattern in ['three cats', '3 cats', 'four cats', '4 cats', 'two cats', '2 cats']):
+                            relevant_reviews.append(review)
+                    
+                    if relevant_reviews:
+                        for i, review in enumerate(relevant_reviews[:10]):
+                            context_parts.append(f"Review {i+1}: {review.get('ReviewText', '')}")
+                    else:
+                        context_parts.append("No specific reviews mentioning multiple pets found.")
             else:
                 # For registered pets, use all their reviews
                 # First, add reviews that mention gender/weight information
@@ -189,7 +591,7 @@ class ReviewOrderIntelligenceAgent:
                 
                 for _, review in pet_reviews.iterrows():
                     review_text = review.get('ReviewText', '')
-                    if any(word in review_text.lower() for word in ['girl', 'boy', 'female', 'male', 'she', 'he', 'her', 'his', 'lbs', 'pounds', 'weight', 'large', 'small', 'breed']):
+                    if any(word in review_text.lower() for word in PRIORITY_REVIEW_KEYWORDS):
                         priority_reviews.append(review)
                     else:
                         other_reviews.append(review)
@@ -270,7 +672,7 @@ Analyze the following data for pet '{pet_name}' and provide insights in JSON for
 
 IMPORTANT EXTRACTION GUIDELINES:
 - USE THE STRUCTURED DATA PROVIDED: If the "Pet Profile Data" section shows specific values (like Breed: Birman, Gender: MALE), use those exact values with high confidence scores (0.9-1.0)
-- GENDER: Look for words like "girl", "boy", "female", "male", "she", "he", "her", "his" in the review text, OR use the structured data if provided
+- GENDER: Look for gender/physical indicator words in the review text, OR use the structured data if provided
 - WEIGHT: Look for numbers followed by "lbs", "pounds", "weight" in the review text
 - BREED: Use the structured data if provided (e.g., "Birman", "Himalayan"), OR look for breed mentions in review text
 - SIZE: Infer from weight and breed information (e.g., "large breed", "125 lbs" = "Large")
@@ -359,6 +761,18 @@ IMPORTANT: If structured data is provided (e.g., Breed: Birman, Gender: MALE), u
             parsed_response['FavoriteProductCategories'] = filtered_categories
             parsed_response['CategoryScores'] = filtered_scores
             
+            # FIX: Also filter MostOrderedProducts for dogs
+            most_ordered = parsed_response.get('MostOrderedProducts', [])
+            filtered_products = []
+            
+            for product in most_ordered:
+                product_lower = product.lower()
+                # Exclude products with cat-specific keywords
+                if not any(keyword in product_lower for keyword in ['cat', 'feline', 'litter', 'kitty']):
+                    filtered_products.append(product)
+            
+            parsed_response['MostOrderedProducts'] = filtered_products
+            
         elif pet_type == 'cat':
             # For cats, remove dog-specific categories
             favorite_categories = parsed_response.get('FavoriteProductCategories', [])
@@ -378,14 +792,94 @@ IMPORTANT: If structured data is provided (e.g., Breed: Birman, Gender: MALE), u
             
             parsed_response['FavoriteProductCategories'] = filtered_categories
             parsed_response['CategoryScores'] = filtered_scores
+            
+            # FIX: Also filter MostOrderedProducts for cats
+            most_ordered = parsed_response.get('MostOrderedProducts', [])
+            filtered_products = []
+            
+            for product in most_ordered:
+                product_lower = product.lower()
+                # Exclude products with dog-specific keywords
+                if not any(keyword in product_lower for keyword in ['dog', 'canine', 'puppy']):
+                    filtered_products.append(product)
+            
+            parsed_response['MostOrderedProducts'] = filtered_products
         
         return parsed_response
+
+    # ============================================================================
+    # UTILITY AND HELPER METHODS
+    # ============================================================================
+    
+    def _infer_species_from_orders(self, pet_name: str, orders_df: pd.DataFrame) -> str:
+        """Infer pet species from order history when not explicitly mentioned."""
+        if orders_df.empty:
+            return 'unknown'
+        
+        # Analyze order products for species-specific items
+        product_names = orders_df['ProductName'].fillna('').str.lower()
+        
+        # Count cat-specific indicators
+        cat_indicators = ['cat', 'feline', 'litter', 'kitty']
+        cat_score = sum(product_names.str.contains(indicator).sum() for indicator in cat_indicators)
+        
+        # Count dog-specific indicators  
+        dog_indicators = ['dog', 'canine', 'puppy', 'poop', 'dental chew']
+        dog_score = sum(product_names.str.contains(indicator).sum() for indicator in dog_indicators)
+        
+        # Count bird-specific indicators
+        bird_indicators = ['bird', 'avian', 'seed', 'cage']
+        bird_score = sum(product_names.str.contains(indicator).sum() for indicator in bird_indicators)
+        
+        # Return most likely species based on product evidence
+        scores = {'cat': cat_score, 'dog': dog_score, 'bird': bird_score}
+        max_species = max(scores, key=scores.get)
+        
+        # Only return if there's clear evidence (score > 0)
+        if scores[max_species] > 0:
+            logger.info(f"🔍 Inferred species '{max_species}' for pet '{pet_name}' from order history (score: {scores[max_species]})")
+            return max_species
+        
+        return 'unknown'
+    
+    def _get_default_insights(self, pet_name: str = "Unknown") -> Dict[str, Any]:
+        """Get default insights structure for pets with no data."""
+        return {
+            "PetType": "UNK",
+            "PetTypeScore": 0.0,
+            "Breed": "UNK",
+            "BreedScore": 0.0,
+            "LifeStage": "UNK",
+            "LifeStageScore": 0.0,
+            "Gender": "UNK",
+            "GenderScore": 0.0,
+            "SizeCategory": "UNK",
+            "SizeScore": 0.0,
+            "Weight": "UNK",
+            "WeightScore": 0.0,
+            "Birthday": "UNK",
+            "BirthdayScore": 0.0,
+            "PersonalityTraits": [],
+            "PersonalityScores": {},
+            "FavoriteProductCategories": [],
+            "CategoryScores": {},
+            "BrandPreferences": [],
+            "BrandScores": {},
+            "DietaryPreferences": [],
+            "DietaryScores": {},
+            "BehavioralCues": [],
+            "BehavioralScores": {},
+            "HealthMentions": [],
+            "HealthScores": {},
+            "MostOrderedProducts": []
+        }
     
     def _analyze_pet_attributes_with_llm(self, pet_reviews: pd.DataFrame, customer_orders: pd.DataFrame, pet_name: str, structured_pet_data: Dict[str, Any] = None) -> Dict[str, Any]:
         """Use LLM to analyze pet attributes from reviews and orders."""
         if not self.openai_api_key:
-            logger.warning("No OpenAI API key provided, using fallback analysis")
-            return self._fallback_analysis(pet_reviews, customer_orders, pet_name)
+            logger.error("❌ CRITICAL: No OpenAI API key provided. LLM analysis is required for this pipeline.")
+            raise ValueError("OpenAI API key is required for pet analysis. Please set OPENAI_API_KEY environment variable.")
+        
         try:
             context = self._prepare_llm_context(pet_reviews, customer_orders, pet_name, structured_pet_data)
             prompt = self._create_analysis_prompt(context, pet_name)
@@ -393,7 +887,7 @@ IMPORTANT: If structured data is provided (e.g., Breed: Birman, Gender: MALE), u
             response = client.chat.completions.create(
                 model="gpt-4",
                 messages=[
-                    {"role": "system", "content": "You are an expert pet behavior analyst. Analyze the provided data to extract pet insights. IMPORTANT: If structured pet data is provided (like Breed, Gender, Pet Type), use those exact values with high confidence scores (0.9-1.0). Only extract additional information from review text when structured data is not available. Look for clues like 'girl', 'boy', '125 lbs', 'large breed', etc. in review text for additional insights. Only use information present in the data. If information is not available, use 'UNK' and score 0. CRITICAL: When categorizing products, ONLY assign products that are appropriate for the pet type. Dogs should only have dog products, cats should only have cat products."},
+                    {"role": "system", "content": "You are an expert pet behavior analyst specializing in review-based behavioral insights. Your focus is on extracting detailed personality traits, behavioral patterns, and emotional cues from customer reviews. IMPORTANT: If structured pet data is provided (like Breed, Gender, Pet Type), use those exact values with high confidence scores (0.9-1.0). Extract rich behavioral insights from review text including personality traits, behavioral patterns, emotional states, and owner-pet relationship dynamics. Look for clues like 'girl', 'boy', '125 lbs', 'large breed', 'loves to play', 'anxious', 'protective', etc. in review text. Only use information present in the data. If information is not available, use 'UNK' and score 0. CRITICAL: When categorizing products, ONLY assign products that are appropriate for the pet type. Dogs should only have dog products, cats should only have cat products."},
                     {"role": "user", "content": prompt}
                 ],
                 temperature=0.1,
@@ -402,153 +896,15 @@ IMPORTANT: If structured data is provided (e.g., Breed: Birman, Gender: MALE), u
             llm_response = response.choices[0].message.content
             return self._parse_llm_response(llm_response)
         except Exception as e:
-            logger.error(f"Error in LLM analysis: {e}")
-            return self._fallback_analysis(pet_reviews, customer_orders, pet_name)
+            logger.error(f"❌ CRITICAL: LLM analysis failed for pet {pet_name}: {e}")
+            raise RuntimeError(f"LLM analysis failed for pet {pet_name}. This pipeline requires LLM analysis to function properly.")
     
-    def _fallback_analysis(self, pet_reviews: pd.DataFrame, customer_orders: pd.DataFrame, pet_name: str) -> Dict[str, Any]:
-        """Fallback analysis when LLM is not available. Only uses structured fields, not review text."""
-        insights = self._get_default_insights()
-        if not pet_reviews.empty:
-            first_review = pet_reviews.iloc[0]
-            for attr in ['PetType', 'Breed', 'LifeStage', 'Gender', 'SizeCategory', 'Weight', 'Birthday']:
-                if attr in first_review and pd.notna(first_review[attr]):
-                    insights[attr] = str(first_review[attr])
-                    insights[f"{attr}Score"] = 0.8
-        if not customer_orders.empty:
-            product_counts = customer_orders['ProductName'].value_counts()
-            most_ordered = [product for product, count in product_counts.items() if count > 5]
-            insights['MostOrderedProducts'] = most_ordered[:5]
-        return insights
-    
-    def _get_default_insights(self) -> Dict[str, Any]:
-        """Get default insights structure with UNK values."""
-        return {
-            "PetType": "UNK", "PetTypeScore": 0.0,
-            "Breed": "UNK", "BreedScore": 0.0,
-            "LifeStage": "UNK", "LifeStageScore": 0.0,
-            "Gender": "UNK", "GenderScore": 0.0,
-            "SizeCategory": "UNK", "SizeScore": 0.0,
-            "Weight": "UNK", "WeightScore": 0.0,
-            "Birthday": "UNK", "BirthdayScore": 0.0,
-            "PersonalityTraits": [], "PersonalityScores": {},
-            "FavoriteProductCategories": [], "CategoryScores": {},
-            "BrandPreferences": [], "BrandScores": {},
-            "DietaryPreferences": [], "DietaryScores": {},
-            "BehavioralCues": [], "BehavioralScores": {},
-            "HealthMentions": [], "HealthScores": {},
-            "MostOrderedProducts": []
-        }
-    
-    def process_customer_data(self) -> Dict[str, Dict[str, Dict[str, Any]]]:
-        """Process all customer data and generate enriched pet insights."""
-        logger.info("Starting customer data processing...")
-        if self.review_data is None or self.order_data is None:
-            logger.error("Data not loaded. Please load data first.")
-            return {}
-        results = {}
-        unique_customers = self.review_data['CustomerID'].unique()
-        for customer_id in unique_customers:
-            try:
-                logger.info(f"Processing customer {customer_id}...")
-                customer_pets = self._get_customer_pets(str(customer_id))
-                if not customer_pets:
-                    logger.warning(f"No pets found for customer {customer_id}")
-                    continue
-                customer_orders = self._get_customer_orders(str(customer_id))
-                customer_results = {}
-                for pet_name in customer_pets:
-                    logger.info(f"Analyzing pet {pet_name} for customer {customer_id}...")
-                    pet_reviews = self._get_pet_reviews(str(customer_id), pet_name)
-                    insights = self._analyze_pet_attributes_with_llm(pet_reviews, customer_orders, pet_name)
-                    pet_insight = {
-                        "PetType": insights.get("PetType", "UNK"),
-                        "PetTypeScore": insights.get("PetTypeScore", 0.0),
-                        "Breed": insights.get("Breed", "UNK"),
-                        "BreedScore": insights.get("BreedScore", 0.0),
-                        "LifeStage": insights.get("LifeStage", "UNK"),
-                        "LifeStageScore": insights.get("LifeStageScore", 0.0),
-                        "Gender": insights.get("Gender", "UNK"),
-                        "GenderScore": insights.get("GenderScore", 0.0),
-                        "SizeCategory": insights.get("SizeCategory", "UNK"),
-                        "SizeScore": insights.get("SizeScore", 0.0),
-                        "Weight": insights.get("Weight", "UNK"),
-                        "WeightScore": insights.get("WeightScore", 0.0),
-                        "Birthday": insights.get("Birthday", "UNK"),
-                        "BirthdayScore": insights.get("BirthdayScore", 0.0),
-                        "PersonalityTraits": insights.get("PersonalityTraits", []),
-                        "PersonalityScores": insights.get("PersonalityScores", {}),
-                        "FavoriteProductCategories": insights.get("FavoriteProductCategories", []),
-                        "CategoryScores": insights.get("CategoryScores", {}),
-                        "BrandPreferences": insights.get("BrandPreferences", []),
-                        "BrandScores": insights.get("BrandScores", {}),
-                        "DietaryPreferences": insights.get("DietaryPreferences", []),
-                        "DietaryScores": insights.get("DietaryScores", {}),
-                        "BehavioralCues": insights.get("BehavioralCues", []),
-                        "BehavioralScores": insights.get("BehavioralScores", {}),
-                        "HealthMentions": insights.get("HealthMentions", []),
-                        "HealthScores": insights.get("HealthScores", {}),
-                        "MostOrderedProducts": insights.get("MostOrderedProducts", [])
-                    }
-                    customer_results[pet_name] = pet_insight
-                results[str(customer_id)] = customer_results
-            except Exception as e:
-                logger.error(f"Error processing customer {customer_id}: {e}")
-                continue
-        logger.info(f"Completed processing {len(results)} customers")
-        return results
-    
-    def save_results(self, results: Dict[str, Dict[str, Dict[str, Any]]], output_path: str) -> bool:
-        """Save results to JSON file."""
-        try:
-            output_dir = os.path.dirname(output_path)
-            if output_dir:
-                os.makedirs(output_dir, exist_ok=True)
-            with open(output_path, 'w') as f:
-                json.dump(results, f, indent=2)
-            logger.info(f"Results saved to {output_path}")
-            return True
-        except Exception as e:
-            logger.error(f"Error saving results: {e}")
-            return False
-    
-    def generate_summary_report(self, results: Dict[str, Dict[str, Dict[str, Any]]]) -> Dict[str, Any]:
-        """Generate a summary report of the processing results."""
-        if not results:
-            return {
-                'total_customers': 0,
-                'total_pets': 0,
-                'average_confidence': 0.0,
-                'pets_with_complete_data': 0
-            }
-        total_customers = len(results)
-        total_pets = sum(len(pets) for pets in results.values())
-        all_scores = []
-        pets_with_complete_data = 0
-        for customer_pets in results.values():
-            for pet_insights in customer_pets.values():
-                scores = [
-                    pet_insights.get('PetTypeScore', 0),
-                    pet_insights.get('BreedScore', 0),
-                    pet_insights.get('LifeStageScore', 0),
-                    pet_insights.get('GenderScore', 0),
-                    pet_insights.get('SizeScore', 0),
-                    pet_insights.get('WeightScore', 0),
-                    pet_insights.get('BirthdayScore', 0)
-                ]
-                all_scores.extend(scores)
-                if any(score > 0.5 for score in scores):
-                    pets_with_complete_data += 1
-        average_confidence = sum(all_scores) / len(all_scores) if all_scores else 0.0
-        return {
-            'total_customers': total_customers,
-            'total_pets': total_pets,
-            'average_confidence': average_confidence,
-            'pets_with_complete_data': pets_with_complete_data
-        }
+
 
 if __name__ == "__main__":
-    """Example usage of the Review and Order Intelligence Agent."""
-    print("🧠 Review and Order Intelligence Agent - Example Usage")
-    print("=" * 60)
-    print("This agent is now integrated into the main pipeline and uses Snowflake data.")
-    print("It should not be run standalone.") 
+    """Review and Order Intelligence Agent - Pipeline Integration Only"""
+    print("🧠 Review and Order Intelligence Agent")
+    print("=" * 50)
+    print("This agent is integrated into the main pipeline and uses Snowflake data.")
+    print("It cannot be run standalone. Use the main pipeline instead:")
+    print("  python chewy_playback_pipeline.py --customers [customer_ids]")

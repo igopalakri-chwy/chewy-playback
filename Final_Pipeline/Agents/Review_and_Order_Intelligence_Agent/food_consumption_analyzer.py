@@ -28,11 +28,11 @@ def get_location_from_zip(zip_code: str) -> Tuple[str, str]:
             state = data['places'][0]['state abbreviation']
             return city, state
         else:
-            # Fallback for API failures
-            return "Unknown", "Unknown"
-    except Exception:
-        # Fallback for network issues
-        return "Unknown", "Unknown"
+            # Error: API failed to return location data
+            raise ValueError(f"Failed to get location data for ZIP code {zip_code}. API returned status {response.status_code}.")
+    except Exception as e:
+        # Error: Network or other issues
+        raise ValueError(f"Failed to get location data for ZIP code {zip_code}: {str(e)}")
 
 def parse_food_data(food_data: List[Dict[str, Any]]) -> float:
     """
@@ -522,16 +522,8 @@ def get_food_fun_fact(zip_code: str, total_lbs: float) -> str:
         item_name, item_weight = state_facts[state][tier]
         location_desc = f"beautiful {state}"
     else:
-        # Fallback for unknown locations
-        analogies = {
-            1: ("smartphones", 0.2),
-            2: ("bowling balls", 1.5), 
-            3: ("microwave ovens", 15),
-            4: ("small refrigerators", 50),
-            5: ("grand pianos", 500)
-        }
-        item_name, item_weight = analogies[tier]
-        location_desc = "your hometown"
+        # Error: Location not supported for fun facts
+        raise ValueError(f"Location-based fun facts not available for {city}, {state}. Only supported locations can generate personalized fun facts.")
     
     # Calculate quantity
     quantity = int(total_lbs / item_weight)
@@ -579,13 +571,8 @@ def analyze_food_consumption(food_data: List[Dict[str, Any]], zip_code: str = No
         location_fun_fact = get_food_fun_fact(zip_code, total_weight)
         fun_facts = [location_fun_fact]
     else:
-        # Fallback to generic fun facts
-        weight_range = int(total_weight // 100) * 100
-        fun_facts = [
-            f"That's about {total_weight:.1f} pounds of pure pet love!",
-            f"That's equivalent to a lot of happy meals!",
-            f"That's about as much as... well, {total_weight:.1f} pounds!"
-        ]
+        # Error: Location-based fun facts require a zip code
+        raise ValueError("Location-based fun facts require a zip code. Cannot generate generic fallback fun facts.")
     
     return {
         "total_food_lbs": round(total_weight, 2),
