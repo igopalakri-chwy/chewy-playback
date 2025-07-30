@@ -266,12 +266,22 @@ pip install -r requirements.txt
 ```
 
 2. Set environment variables:
-```bash
-export OPENAI_API_KEY="your-api-key-here"
-export SNOWFLAKE_USER="your-snowflake-user"
-export SNOWFLAKE_ACCOUNT="your-snowflake-account"
-export SNOWFLAKE_WAREHOUSE="your-warehouse"
-```
+   
+   Create a `.env` file in your project root with the following content:
+   ```bash
+   # OpenAI API Key
+   OPENAI_API_KEY="your-api-key-here"
+   
+   # Snowflake Credentials
+   SNOWFLAKE_USER="your-snowflake-user"
+   SNOWFLAKE_ACCOUNT="your-snowflake-account"
+   SNOWFLAKE_WAREHOUSE="your-warehouse"
+   SNOWFLAKE_DATABASE="your-database"
+   SNOWFLAKE_SCHEMA="your-schema"
+   SNOWFLAKE_AUTHENTICATOR="externalbrowser"
+   ```
+   
+   **Note**: The `.env` file is automatically ignored by git to keep your credentials secure.
 
 3. Configure Snowflake connection in `snowflake_data_connector.py`
 
