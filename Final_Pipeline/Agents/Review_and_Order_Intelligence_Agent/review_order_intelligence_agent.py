@@ -477,13 +477,13 @@ If no clear information found, return:
                 context_parts.append(f"- Pet Type: {structured_pet_data.get('PetType', 'UNK')}")
             else:
                 context_parts.append("- Pet Type: UNK")
-            context_parts.append("- Breed: UNK")
-            context_parts.append("- Gender: UNK")
-            context_parts.append("- Life Stage: UNK")
-            context_parts.append("- Size Category: UNK")
-            context_parts.append("- Weight: UNK")
-            context_parts.append("- Birthday: UNK")
-            context_parts.append("")
+                context_parts.append("- Breed: UNK")
+                context_parts.append("- Gender: UNK")
+                context_parts.append("- Life Stage: UNK")
+                context_parts.append("- Size Category: UNK")
+                context_parts.append("- Weight: UNK")
+                context_parts.append("- Birthday: UNK")
+                context_parts.append("")
             
             if pet_name.startswith('Additional_'):
                 context_parts.append("NOTE: This pet was detected from count-based review analysis but has no registered profile data.")
@@ -493,7 +493,7 @@ If no clear information found, return:
                 context_parts.append("FOCUS: Look for unnamed references like 'my cat' or 'our dog' in the reviews.")
             else:
                 context_parts.append("NOTE: This pet is mentioned in reviews but has no registered profile data.")
-            context_parts.append("")
+                context_parts.append("")
         else:
             # No structured data available
             context_parts.append(f"Pet Profile Data for {pet_name}:")
@@ -557,19 +557,6 @@ If no clear information found, return:
                                 break
                             _, review_data = review
                             context_parts.append(f"Review {i+1}: {review_data.get('ReviewText', '')}")
-                else:
-                    # For legacy UNK pets, look for specific patterns
-                    relevant_reviews = []
-                    for _, review in pet_reviews.iterrows():
-                        review_text = review.get('ReviewText', '').lower()
-                        if any(pattern in review_text for pattern in ['three cats', '3 cats', 'four cats', '4 cats', 'two cats', '2 cats']):
-                            relevant_reviews.append(review)
-                    
-                    if relevant_reviews:
-                        for i, review in enumerate(relevant_reviews[:10]):
-                            context_parts.append(f"Review {i+1}: {review.get('ReviewText', '')}")
-                    else:
-                        context_parts.append("No specific reviews mentioning multiple pets found.")
                 else:
                     # For legacy UNK pets, look for specific patterns
                     relevant_reviews = []

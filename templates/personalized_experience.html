@@ -1,7 +1,7 @@
 {% extends "base.html" %}
-​
+
 {% block title %}Pet Experience - Customer {{ customer_id }} - Chewy Playback{% endblock %}
-​
+
 {% block content %}
 <script>
 // Dynamic styling based on data content
@@ -9,7 +9,7 @@ function getDynamicStyles(data) {
     const styles = {};
     
     // Food consumption styling
-    const foodLbs = data.food_consumption ? parseFloat(data.food_consumption.total_lbs) || 0 : 0;
+    const foodLbs = data.food_fun_fact ? parseFloat(data.food_fun_fact.total_food_lbs) || 0 : 0;
     if (foodLbs > 100) {
         styles.foodIcon = 'color: #4a90e2; font-size: 70px;';
         styles.foodTitle = 'color: #4a90e2; font-size: 28px;';
@@ -21,74 +21,9 @@ function getDynamicStyles(data) {
         styles.foodTitle = 'color: #4a90e2; font-size: 20px;';
     }
     
-    // Donations styling
-    const donationAmount = data.donations ? parseFloat(data.donations.total_donations.replace('$', '')) || 0 : 0;
-    if (donationAmount > 50) {
-        styles.donationGradient = 'linear-gradient(135deg, #4a90e2, #2a5298)';
-        styles.donationIcon = 'color: #4a90e2; font-size: 70px;';
-    } else if (donationAmount > 20) {
-        styles.donationGradient = 'linear-gradient(135deg, #4a90e2, #2a5298)';
-        styles.donationIcon = 'color: #4a90e2; font-size: 60px;';
-    } else {
-        styles.donationGradient = 'linear-gradient(135deg, #4a90e2, #2a5298)';
-        styles.donationIcon = 'color: #4a90e2; font-size: 50px;';
-    }
-    
-    // Milestone styling
-    const months = data.milestone ? parseInt(data.milestone.months) || 0 : 0;
-    if (months > 60) {
-        styles.milestoneGradient = 'linear-gradient(135deg, #4a90e2, #2a5298)';
-        styles.milestoneShadow = '0 15px 35px rgba(74,144,226,0.4)';
-    } else if (months > 24) {
-        styles.milestoneGradient = 'linear-gradient(135deg, #4a90e2, #2a5298)';
-        styles.milestoneShadow = '0 10px 25px rgba(74,144,226,0.3)';
-    } else {
-        styles.milestoneGradient = 'linear-gradient(135deg, #4a90e2, #2a5298)';
-        styles.milestoneShadow = '0 8px 20px rgba(74,144,226,0.2)';
-    }
-    
-    // Most reordered styling
-    const timesOrdered = data.most_reordered ? parseInt(data.most_reordered.times_ordered) || 0 : 0;
-    if (timesOrdered > 100) {
-        styles.reorderIcon = 'color: #4a90e2; font-size: 70px;';
-        styles.reorderTitle = 'color: #4a90e2; font-size: 28px;';
-    } else if (timesOrdered > 50) {
-        styles.reorderIcon = 'color: #4a90e2; font-size: 60px;';
-        styles.reorderTitle = 'color: #4a90e2; font-size: 24px;';
-    } else {
-        styles.reorderIcon = 'color: #4a90e2; font-size: 50px;';
-        styles.reorderTitle = 'color: #4a90e2; font-size: 20px;';
-    }
-    
-    // Busiest month styling
-    const monthOrders = data.cuddliest_month ? parseInt(data.cuddliest_month.orders) || 0 : 0;
-    if (monthOrders > 10) {
-        styles.monthGradient = 'linear-gradient(135deg, #4a90e2, #2a5298)';
-        styles.monthShadow = '0 15px 35px rgba(74,144,226,0.4)';
-    } else if (monthOrders > 5) {
-        styles.monthGradient = 'linear-gradient(135deg, #4a90e2, #2a5298)';
-        styles.monthShadow = '0 10px 25px rgba(74,144,226,0.3)';
-    } else {
-        styles.monthGradient = 'linear-gradient(135deg, #4a90e2, #2a5298)';
-        styles.monthShadow = '0 8px 20px rgba(74,144,226,0.2)';
-    }
-    
-    // Autoship savings styling
-    const savings = data.autoship_savings ? parseFloat(data.autoship_savings.amount_saved) || 0 : 0;
-    if (savings > 50) {
-        styles.savingsGradient = 'linear-gradient(135deg, #4a90e2, #2a5298)';
-        styles.savingsIcon = 'color: #4a90e2; font-size: 70px;';
-    } else if (savings > 20) {
-        styles.savingsGradient = 'linear-gradient(135deg, #4a90e2, #2a5298)';
-        styles.savingsIcon = 'color: #4a90e2; font-size: 60px;';
-    } else {
-        styles.savingsGradient = 'linear-gradient(135deg, #4a90e2, #2a5298)';
-        styles.savingsIcon = 'color: #4a90e2; font-size: 50px;';
-    }
-    
     return styles;
 }
-​
+
 // Apply dynamic styles when page loads
 document.addEventListener('DOMContentLoaded', function() {
     const customerData = JSON.parse('{{ customer_data | tojson | safe }}');
@@ -98,967 +33,1717 @@ document.addEventListener('DOMContentLoaded', function() {
     const foodIcon = document.querySelector('.funfact-icon i');
     if (foodIcon) foodIcon.style.cssText = styles.foodIcon;
     
-    const donationIcon = document.querySelector('.breed-icon i');
-    if (donationIcon) donationIcon.style.cssText = styles.donationIcon;
-    
-    const donationContainer = document.querySelector('.breed-content > div');
-    if (donationContainer) donationContainer.style.background = styles.donationGradient;
-    
-    const milestoneContainer = document.querySelector('.letter-text > div');
-    if (milestoneContainer) {
-        milestoneContainer.style.background = styles.milestoneGradient;
-        milestoneContainer.style.boxShadow = styles.milestoneShadow;
-    }
-    
-    const reorderIcon = document.querySelector('.badge-image-container i');
-    if (reorderIcon) reorderIcon.style.cssText = styles.reorderIcon;
-    
-    const monthContainer = document.querySelector('.portrait-display > div > div:nth-child(2)');
-    if (monthContainer) {
-        monthContainer.style.background = styles.monthGradient;
-        monthContainer.style.boxShadow = styles.monthShadow;
-    }
-    
-    const savingsIcon = document.querySelector('.share-content i');
-    if (savingsIcon) savingsIcon.style.cssText = styles.savingsIcon;
-    
-    const savingsContainer = document.querySelector('.share-message > div > div:nth-child(3)');
-    if (savingsContainer) savingsContainer.style.background = styles.savingsGradient;
+    const foodTitle = document.querySelector('.funfact-title');
+    if (foodTitle) foodTitle.style.cssText = styles.foodTitle;
 });
 </script>
-​
-<div class="experience-container">
-​
+
+<style>
+/* Base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Slide styles */
+.slide {
+    display: none;
+    min-height: 100vh;
+    padding: 40px 20px;
+    position: relative;
+}
+
+.slide.active {
+    display: block;
+}
+
+.slide-content {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 40px 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+
+/* Navigation */
+.slide-actions {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 20px;
+    z-index: 10;
+}
+
+.nav-btn {
+    padding: 12px 24px;
+    background: rgba(255,255,255,0.2);
+    color: white;
+    border: 2px solid rgba(255,255,255,0.3);
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+}
+
+.nav-btn:hover {
+    background: rgba(255,255,255,0.3);
+    transform: translateY(-2px);
+}
+
+/* Slide counter */
+.slide-counter {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: rgba(255,255,255,0.2);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+    backdrop-filter: blur(10px);
+}
+
+/* Food Fun Fact Slide */
+.funfact-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.funfact-icon {
+    margin-bottom: 30px;
+}
+
+.funfact-content {
+    background: rgba(255,255,255,0.1);
+    padding: 40px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+}
+
+.funfact-title {
+    color: white;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.funfact-highlight {
+    background: linear-gradient(135deg, #4a90e2, #2a5298);
+    padding: 25px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.funfact-text {
+    color: white;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Busiest Month Slide */
+.busiest-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.busiest-icon {
+    margin-bottom: 30px;
+}
+
+.busiest-content {
+    background: rgba(255,255,255,0.1);
+    padding: 40px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+}
+
+.busiest-title {
+    color: white;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.busiest-highlight {
+    background: linear-gradient(135deg, #4a90e2, #2a5298);
+    padding: 25px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.busiest-text {
+    color: white;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Portrait Slide */
+.portrait-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.portrait-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+    margin-bottom: 30px;
+}
+
+/* Letter Slide */
+.letter-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: rgba(255,255,255,0.1);
+    padding: 40px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+}
+
+.letter-content {
+    color: white;
+    font-size: 18px;
+    line-height: 1.8;
+    text-align: left;
+    white-space: pre-wrap;
+}
+
+/* Badge Slide */
+.badge-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.badge-image {
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+.badge-title {
+    color: white;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.badge-description {
+    color: white;
+    font-size: 18px;
+    line-height: 1.6;
+    background: rgba(255,255,255,0.1);
+    padding: 25px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+}
+
+/* Breed Slide */
+.breed-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.breed-title {
+    color: white;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.breed-content {
+    background: rgba(255,255,255,0.1);
+    padding: 40px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+}
+
+.breed-name {
+    color: #4a90e2;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.breed-description {
+    color: white;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Breed Pet Highlight */
+.breed-pet-highlight {
+    text-align: center;
+    margin-bottom: 25px;
+    padding: 15px;
+    background: rgba(74, 144, 226, 0.2);
+    border-radius: 15px;
+    border: 2px solid rgba(74, 144, 226, 0.3);
+    backdrop-filter: blur(10px);
+}
+
+.breed-highlight-text {
+    color: white;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.breed-highlight-text strong {
+    color: #4a90e2;
+    font-weight: bold;
+}
+
+/* Breed Prediction Interactive Styles */
+.breed-predictions-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.breed-prediction-card {
+    background: rgba(255,255,255,0.1);
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.2);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.breed-prediction-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(74, 144, 226, 0.3);
+    border-color: rgba(74, 144, 226, 0.5);
+}
+
+.breed-prediction-card .breed-name {
+    color: #4a90e2;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.breed-prediction-card .breed-percentage {
+    color: #2a5298;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.breed-prediction-card .breed-pet-name {
+    color: rgba(255,255,255,0.8);
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.breed-prediction-card .breed-click-hint {
+    color: rgba(255,255,255,0.6);
+    font-size: 12px;
+    font-style: italic;
+}
+
+.breed-question-section {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.breed-question {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.breed-answer-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.breed-answer-btn {
+    padding: 12px 30px;
+    background: linear-gradient(135deg, #4a90e2, #2a5298);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.breed-answer-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(74, 144, 226, 0.4);
+}
+
+.breed-feedback-yes,
+.breed-feedback-no {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.breed-feedback-yes h4,
+.breed-feedback-no h4 {
+    color: white;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.breed-checkboxes {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.breed-checkbox-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+}
+
+.breed-checkbox {
+    width: 20px;
+    height: 20px;
+    accent-color: #4a90e2;
+}
+
+.breed-checkbox-item label {
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    flex: 1;
+}
+
+.breed-feedback-text {
+    color: rgba(255,255,255,0.9);
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.breed-profile-link {
+    margin-top: 20px;
+}
+
+.breed-profile-btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background: linear-gradient(135deg, #4a90e2, #2a5298);
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.breed-profile-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(74, 144, 226, 0.4);
+}
+
+/* Breed Flashcard Modal */
+.breed-flashcard-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+    z-index: 1000;
+    backdrop-filter: blur(5px);
+}
+
+.breed-flashcard-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 20px;
+    padding: 30px;
+    max-width: 500px;
+    width: 90%;
+    max-height: 80vh;
+    overflow-y: auto;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+}
+
+.breed-flashcard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.breed-flashcard-header h3 {
+    color: white;
+    font-size: 28px;
+    margin: 0;
+}
+
+.breed-flashcard-close {
+    background: rgba(255,255,255,0.2);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.breed-flashcard-close:hover {
+    background: rgba(255,255,255,0.3);
+}
+
+.breed-flashcard-body {
+    color: white;
+}
+
+.breed-flashcard-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 15px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+}
+
+.breed-flashcard-pet,
+.breed-flashcard-confidence {
+    font-size: 16px;
+    color: rgba(255,255,255,0.9);
+}
+
+.breed-flashcard-description {
+    font-size: 16px;
+    line-height: 1.6;
+    background: rgba(255,255,255,0.1);
+    padding: 20px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+}
+
+/* Stats Slide */
+.stats-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.stat-card {
+    background: rgba(255,255,255,0.1);
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+}
+
+.stat-value {
+    color: #4a90e2;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Arrow Navigation */
+.slide-arrow-nav {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background: rgba(255,255,255,0.2);
+    border: 2px solid rgba(255,255,255,0.3);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+}
+
+.slide-arrow-nav:hover {
+    background: rgba(255,255,255,0.3);
+    transform: translateY(-50%) scale(1.1);
+    box-shadow: 0 5px 15px rgba(255,255,255,0.2);
+}
+
+.slide-arrow-nav.prev {
+    left: 20px;
+}
+
+.slide-arrow-nav.next {
+    right: 20px;
+}
+
+.slide-arrow-nav i {
+    color: white;
+    font-size: 24px;
+}
+
+.slide-arrow-nav:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+}
+
+.slide-arrow-nav:disabled:hover {
+    transform: translateY(-50%);
+    background: rgba(255,255,255,0.2);
+    box-shadow: none;
+}
+
+.stat-label {
+    color: white;
+    font-size: 16px;
+}
+
+/* Social Media Slide */
+.share-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.share-title {
+    color: white;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.share-content {
+    background: rgba(255,255,255,0.1);
+    padding: 40px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+}
+
+.share-text {
+    color: white;
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+/* Social Media Icons */
+.social-media-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 30px 0;
+    flex-wrap: wrap;
+}
+
+.social-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    min-width: 80px;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.2);
+}
+
+.social-icon:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.social-icon i {
+    font-size: 32px;
+    color: white;
+}
+
+.social-label {
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Social Media Brand Colors */
+.social-icon.facebook:hover {
+    background: linear-gradient(135deg, #1877f2, #0d6efd);
+    border-color: #1877f2;
+}
+
+.social-icon.snapchat:hover {
+    background: linear-gradient(135deg, #fffc00, #ffd700);
+    border-color: #fffc00;
+}
+
+.social-icon.snapchat:hover i,
+.social-icon.snapchat:hover .social-label {
+    color: #000;
+}
+
+.social-icon.instagram:hover {
+    background: linear-gradient(135deg, #e4405f, #c13584);
+    border-color: #e4405f;
+}
+
+.social-icon.whatsapp:hover {
+    background: linear-gradient(135deg, #25d366, #128c7e);
+    border-color: #25d366;
+}
+
+.social-icon.message:hover {
+    background: linear-gradient(135deg, #4a90e2, #2a5298);
+    border-color: #4a90e2;
+}
+
+/* Unknowns Slide */
+.unknowns-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.unknowns-title {
+    color: white;
+    font-size: 32px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.unknowns-content {
+    background: rgba(255,255,255,0.1);
+    padding: 40px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    text-align: left;
+}
+
+.unknowns-text {
+    color: white;
+    font-size: 16px;
+    line-height: 1.6;
+    white-space: pre-wrap;
+}
+
+/* Unknowns Enhanced Styles */
+.unknowns-summary {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.unknowns-summary-text {
+    color: white;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.unknowns-pets-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-bottom: 30px;
+}
+
+.unknowns-pet-card {
+    background: rgba(255,255,255,0.1);
+    padding: 25px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.2);
+}
+
+.unknowns-pet-name {
+    color: #4a90e2;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.unknowns-pet-name .emoji {
+    margin-right: 10px;
+}
+
+.unknowns-fields-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.unknowns-field-box {
+    background: linear-gradient(135deg, #ff6b6b, #ee5a52);
+    color: white;
+    padding: 12px 20px;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
+    transition: all 0.3s ease;
+}
+
+.unknowns-field-box:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(255, 107, 107, 0.4);
+}
+
+.unknowns-action {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.unknowns-action-text {
+    color: rgba(255,255,255,0.9);
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.unknowns-profile-btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background: linear-gradient(135deg, #4a90e2, #2a5298);
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.unknowns-profile-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(74, 144, 226, 0.4);
+}
+
+/* Loading */
+.loading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    font-size: 24px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
     
-    <!-- Navigation -->
-    <div class="slide-nav">
-        <div class="nav-dots">
-                    <div class="nav-dot active" data-slide="0"></div>
-        <div class="nav-dot" data-slide="1"></div>
-        <div class="nav-dot" data-slide="2"></div>
-        <div class="nav-dot" data-slide="3"></div>
-        {% if customer_data.enriched_profile.get('gets_personalized', false) %}
-        <div class="nav-dot" data-slide="3.5"></div>
-        <div class="nav-dot" data-slide="4"></div>
-        <div class="nav-dot" data-slide="5"></div>
-        <div class="nav-dot" data-slide="6"></div>
-        <div class="nav-dot" data-slide="7"></div>
-        <div class="nav-dot" data-slide="8"></div>
-        <div class="nav-dot" data-slide="9"></div>
-        {% else %}
-        <div class="nav-dot" data-slide="4"></div>
-        <div class="nav-dot" data-slide="5"></div>
-        <div class="nav-dot" data-slide="6"></div>
-        <div class="nav-dot" data-slide="7"></div>
-        {% endif %}
-        </div>
-    </div>
+    .slide-content {
+        padding: 20px 10px;
+    }
     
-    <!-- Slides Container -->
-    <div class="slides-container">
-        <!-- Slide 0: Loading -->
-        <div class="slide active" id="slide-0">
-            <div class="slide-content loading-slide">
-                <div class="loading-container">
-                    <div class="loading-header">
-                        <div class="loading-icon">
-                            <i class="fas fa-paw"></i>
-                        </div>
-                        <h2 class="loading-title">Preparing Your Playback</h2>
-                        <p class="loading-subtitle">Gathering your pet's story...</p>
-                    </div>
-                    
-                    <div class="loading-progress">
-                        <div class="progress-bar">
-                            <div class="progress-fill" id="progressFill"></div>
-                        </div>
-                        <div class="loading-messages">
-                            <span class="loading-message" id="loadingMessage">Fetching pet memories...</span>
-                        </div>
-                    </div>
-                    
-                    <div class="loading-animation">
-                        <div class="floating-paws">
-                            <div class="floating-paw fp-1"><i class="fas fa-paw"></i></div>
-                            <div class="floating-paw fp-2"><i class="fas fa-heart"></i></div>
-                            <div class="floating-paw fp-3"><i class="fas fa-star"></i></div>
-                            <div class="floating-paw fp-4"><i class="fas fa-paw"></i></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <!-- Slide 1: Total lbs Food Consumed -->
-        <div class="slide" id="slide-1">
-            <div class="slide-content funfact-slide">
-                <div class="slide-header" style="text-align: center; margin-bottom: 30px;">
-                    <h2 class="slide-title" style="text-align: center; margin: 0;">
-                        <span class="emoji celebration">🍽️</span> Total lbs Food Consumed <span class="emoji celebration">🍽️</span>
-                    </h2>
-                </div>
-                
-                <div class="funfact-container">
-                    <div class="funfact-icon">
-                        <i class="fas fa-weight" style="font-size: 60px; color: #4a90e2;"></i>
-                    </div>
-                    <div class="funfact-content">
-                        {% if customer_data.food_consumption %}
-                            <h3 class="funfact-title" style="color: white; font-size: 24px; margin-bottom: 20px;">Your Pet's Food Journey</h3>
-                            <div style="background: rgba(255,255,255,0.1); padding: 25px; border-radius: 15px; margin-bottom: 20px;">
-                                <h4 style="color: #4a90e2; font-size: 32px; margin-bottom: 10px; text-align: center;">
-                                    {{ customer_data.food_consumption.total_lbs }} lbs
-                                </h4>
-                                <p style="color: white; font-size: 18px; text-align: center; margin-bottom: 15px;">
-                                    of delicious food consumed this year!
-                                </p>
-                            </div>
-                            <div class="funfact-highlight" style="background: linear-gradient(135deg, #4a90e2, #2a5298); padding: 20px; border-radius: 10px;">
-                                <h5 style="color: white; margin-bottom: 10px;">🏆 Top Product:</h5>
-                                <p class="funfact-text" style="color: white; font-size: 16px; font-weight: bold;">
-                                    {{ customer_data.food_consumption.top_product }}
-                                </p>
-                                <a href="https://www.chewy.com/search?query={{ customer_data.food_consumption.top_product | urlencode }}" target="_blank" style="color: #4a90e2; text-decoration: none; font-weight: bold; display: inline-block; margin-top: 10px;">
-                                    🔗 View Product →
-                                </a>
-                            </div>
-                        {% else %}
-                            <h3 class="funfact-title" style="color: white; font-size: 24px; margin-bottom: 20px;">Your Pet's Food Journey</h3>
-                            <div style="background: rgba(255,255,255,0.1); padding: 25px; border-radius: 15px; margin-bottom: 20px; text-align: center;">
-                                <p style="color: rgba(255,255,255,0.8); font-size: 18px;">
-                                    No food consumption data available
-                                </p>
-                            </div>
-                        {% endif %}
-                    </div>
-                </div>
-                
-                <div class="slide-actions">
-                    <button class="nav-btn prev-btn" onclick="prevSlide()">
-                        <i class="fas fa-arrow-left"></i>
-                    </button>
-                    <button class="nav-btn next-btn" onclick="nextSlide()">
-                        <i class="fas fa-arrow-right"></i>
-                    </button>
-                </div>
-            </div>
-        </div>
-        
-        <!-- Slide 2: Donations -->
-        {% if customer_data.donations and customer_data.donations.total_donations != '$0' and customer_data.donations.total_donations != '0' %}
-        <div class="slide" id="slide-2">
-            <div class="slide-content breed-slide">
-                <div class="slide-header" style="text-align: center; margin-bottom: 30px;">
-                    <h2 class="slide-title" style="text-align: center; margin: 0;">
-                        <span class="emoji celebration">❤️</span> Donations <span class="emoji celebration">❤️</span>
-                    </h2>
-                </div>
-                
-                <div class="breed-container">
-                    <div class="breed-icon">
-                        <i class="fas fa-heart" style="font-size: 60px; color: #4a90e2; animation: pulse 2s infinite;"></i>
-                    </div>
-                    <div class="breed-content">
-                        <h3 class="breed-title" style="color: white; font-size: 24px; margin-bottom: 20px; text-align: center;">Your Generosity Makes a Difference</h3>
-                        <div style="background: linear-gradient(135deg, #4a90e2, #2a5298); padding: 30px; border-radius: 20px; margin-bottom: 20px; text-align: center;">
-                            <h4 style="color: white; font-size: 36px; margin-bottom: 15px; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">
-                                {{ customer_data.donations.total_donations }}
-                            </h4>
-                            <p style="color: white; font-size: 18px; margin-bottom: 0;">
-                                Total Donations This Year
-                            </p>
-                        </div>
-                        <div class="breed-disclaimer" style="background: rgba(255,255,255,0.1); padding: 20px; border-radius: 15px; text-align: center;">
-                            <p class="disclaimer-text"  style="color: #2d4782; font-size: 16px; line-height: 1.6;">
-                                {{ customer_data.donations.summary }}
-                            </p>
-                            <div style="margin-top: 15px;">
-                                <span style="color: #4a90e2; font-size: 24px;">🐾</span>
-                                <span style="color: #4a90e2; font-size: 24px;">🐾</span>
-                                <span style="color: #4a90e2; font-size: 24px;">🐾</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="slide-actions">
-                    <button class="nav-btn prev-btn" onclick="prevSlide()">
-                        <i class="fas fa-arrow-left"></i>
-                    </button>
-                    <button class="nav-btn next-btn" onclick="nextSlide()">
-                        <i class="fas fa-arrow-right"></i>
-                    </button>
-                </div>
-            </div>
-        </div>
-        {% endif %}
-        
-        <!-- Slide 3: Milestone -->
-        {% if customer_data.milestone %}
-        <div class="slide" id="slide-3">
-            <div class="slide-content letter-slide">
-                <div class="slide-header" style="text-align: center; margin-bottom: 30px;">
-                    <h2 class="slide-title" style="text-align: center; margin: 0;">
-                        <span class="emoji celebration">🎊</span> Milestone: Years with Chewy <span class="emoji celebration">🎊</span>
-                    </h2>
-                </div>
-                
-                <div class="letter-container">
-                    <div class="letter-content">
-                        <div class="letter-text" style="text-align: center;">
-                            <div style="background: linear-gradient(135deg, #4a90e2, #2a5298); padding: 40px; border-radius: 25px; margin-bottom: 30px; box-shadow: 0 10px 30px rgba(74,144,226,0.3);">
-                                <i class="fas fa-trophy" style="font-size: 60px; color: white; margin-bottom: 20px; display: block;"></i>
-                                <!-- <h3 style="color: white; font-size: 28px; margin-bottom: 15px; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">
-                                    🎉 Congratulations! 🎉
-                                </h3> -->
-                                <div style="background: rgba(255,255,255,0.2); padding: 20px; border-radius: 15px; margin: 20px 0;">
-                                    <h4 style="color: white; font-size: 48px; margin-bottom: 10px; font-weight: bold;">
-                                        {{ customer_data.milestone.months }}
-                                    </h4>
-                                    <p style="color: white; font-size: 20px; margin-bottom: 0;">
-                                        Amazing Months with Chewy!
-                                    </p>
-                                </div>
-                            </div>
-                            <div style="background: rgba(255,255,255,0.1); padding: 25px; border-radius: 15px;">
-                                <p style="color: white; font-size: 18px; line-height: 1.6; margin-bottom: 0;">
-                                    {{ customer_data.milestone.message }}
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="slide-actions">
-                    <button class="nav-btn prev-btn" onclick="prevSlide()">
-                        <i class="fas fa-arrow-left"></i>
-                    </button>
-                    <button class="nav-btn next-btn" onclick="nextSlide()">
-                        <i class="fas fa-arrow-right"></i>
-                    </button>
-                </div>
-            </div>
-        </div>
-        {% endif %}
-        
-        <!-- Personalized Slides - Only show if customer gets personalized playback -->
-        {% if customer_data.enriched_profile.get('gets_personalized', false) %}
-        
-        <!-- Slide 3.5: Personalized Letter -->
-        <div class="slide" id="slide-3.5">
-            <div class="slide-content letter-slide">
-                <div class="slide-header" style="text-align: center; margin-bottom: 30px;">
-                    <h2 class="slide-title" style="text-align: center; margin: 0;">
-                        <span class="emoji celebration">💌</span> A Letter from Your Pets <span class="emoji celebration">💌</span>
-                    </h2>
-                </div>
-                
-                <div class="letter-container">
-                    <div class="letter-content">
-                        <div class="letter-text" style="text-align: center;">
-                            <div style="background: linear-gradient(135deg, #4a90e2, #2a5298); padding: 40px; border-radius: 25px; margin-bottom: 30px; box-shadow: 0 10px 30px rgba(74,144,226,0.3);">
-                                <i class="fas fa-heart" style="font-size: 60px; color: white; margin-bottom: 20px; display: block;"></i>
-                                <h3 style="color: white; font-size: 28px; margin-bottom: 15px; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">
-                                    💌 A Special Message 💌
-                                </h3>
-                            </div>
-                            <div style="background: rgba(255,255,255,0.1); padding: 25px; border-radius: 15px;">
-                                <p style="color: white; font-size: 18px; line-height: 1.6; margin-bottom: 0; white-space: pre-line;">
-                                    {{ customer_data.letter }}
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="slide-actions">
-                    <button class="nav-btn prev-btn" onclick="prevSlide()">
-                        <i class="fas fa-arrow-left"></i>
-                    </button>
-                    <button class="nav-btn next-btn" onclick="nextSlide()">
-                        <i class="fas fa-arrow-right"></i>
-                    </button>
-                </div>
-            </div>
-        </div>
-        
-        <!-- Slide 4: Personality Badge -->
-        <div class="slide" id="slide-4">
-            <div class="slide-content badge-slide">
-                <div class="slide-header" style="text-align: center; margin-bottom: 30px;">
-                    <h2 class="slide-title" style="text-align: center; margin: 0;">
-                        <span class="emoji celebration">🏆</span> Your Personality Badge <span class="emoji celebration">🏆</span>
-                    </h2>
-                </div>
-                
-                <div class="badge-container">
-                    {% if customer_data.badge %}
-                        <div class="badge-display">
-                            <div class="badge-image-container" style="text-align: center; margin-bottom: 30px;">
-                                <img src="{{ customer_data.badge.image_path }}" alt="Personality Badge" style="width: 120px; height: 120px; border-radius: 50%; box-shadow: 0 10px 30px rgba(74,144,226,0.4);">
-                            </div>
-                            <div class="badge-info">
-                                <h3 class="badge-title" style="color: white; font-size: 24px; margin-bottom: 20px; text-align: center;">{{ customer_data.badge.badge }}</h3>
-                                <div style="background: rgba(255,255,255,0.1); padding: 25px; border-radius: 15px; margin-bottom: 20px; text-align: center;">
-                                    <p class="badge-description" style="color: #2d4782; font-size: 18px; font-weight: bold; margin-bottom: 0;">
-                                        {{ customer_data.badge.description }}
-                                    </p>
-                                </div>
-                                
-                                {% if customer_data.badge.compatible_with %}
-                                <div class="compatible-section">
-                                    <h4 class="compatible-title"  style="color: #2d4782; text-align: center; margin-bottom: 15px;">🌟 Compatible Personalities</h4>
-                                    <div class="compatible-badges" style="display: flex; justify-content: center; gap: 10px;">
-                                        {% for compatible in customer_data.badge.compatible_with[:3] %}
-                                        <div class="compatible-badge" style="background: linear-gradient(135deg, #4a90e2, #2a5298); padding: 15px; border-radius: 10px; text-align: center;">
-                                            <span class="compatible-name"  style="color: #2d4782; font-size: 14px;">{{ compatible }}</span>
-                                        </div>
-                                        {% endfor %}
-                                    </div>
-                                </div>
-                                {% endif %}
-                            </div>
-                        </div>
-                    {% else %}
-                        <div class="badge-display">
-                            <div style="text-align: center; margin-bottom: 30px;">
-                                <div style="background: rgba(255,255,255,0.1); padding: 40px; border-radius: 15px; text-align: center;">
-                                    <p style="color: rgba(255,255,255,0.8); font-size: 18px;">
-                                        No personality badge data available
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    {% endif %}
-                </div>
-                
-                <div class="slide-actions">
-                    <button class="nav-btn prev-btn" onclick="prevSlide()">
-                        <i class="fas fa-arrow-left"></i>
-                    </button>
-                    <button class="nav-btn next-btn" onclick="nextSlide()">
-                        <i class="fas fa-arrow-right"></i>
-                    </button>
-                </div>
-            </div>
-        </div>
-        
-        <!-- Slide 5: AI Portrait -->
-        <div class="slide" id="slide-5">
-            <div class="slide-content portrait-slide">
-                <div class="slide-header" style="text-align: center; margin-bottom: 30px;">
-                    <h2 class="slide-title" style="text-align: center; margin: 0;">
-                        <span class="emoji celebration">🎨</span> Your AI Portrait <span class="emoji celebration">🎨</span>
-                    </h2>
-                </div>
-                
-                <div class="portrait-container">
-                    <div class="portrait-display">
-                        <div style="text-align: center; margin-bottom: 30px;">
-                            <img src="{{ customer_data.portrait }}" alt="AI Portrait" style="max-width: 100%; height: auto; border-radius: 15px; box-shadow: 0 10px 30px rgba(74,144,226,0.4);">
-                        </div>
-                        <div style="background: rgba(255,255,255,0.1); padding: 25px; border-radius: 15px; text-align: center;">
-                            <h3 style="color: white; font-size: 24px; margin-bottom: 15px;">🎨 AI-Generated Portrait</h3>
-                            <p style="color: white; font-size: 18px; line-height: 1.6; margin-bottom: 0;">
-                                A unique portrait of your pets, created just for you using AI technology and your location's aesthetic style.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="slide-actions">
-                    <button class="nav-btn prev-btn" onclick="prevSlide()">
-                        <i class="fas fa-arrow-left"></i>
-                    </button>
-                    <button class="nav-btn next-btn" onclick="nextSlide()">
-                        <i class="fas fa-arrow-right"></i>
-                    </button>
-                </div>
-            </div>
-        </div>
-        
-        {% else %}
-        
-        <!-- Slide 4: Most Reordered (Generic) -->
-        {% if customer_data.most_reordered %}
-        <div class="slide" id="slide-4">
-            <div class="slide-content badge-slide">
-                <div class="slide-header" style="text-align: center; margin-bottom: 30px;">
-                    <h2 class="slide-title" style="text-align: center; margin: 0;">
-                        <span class="emoji celebration">🔄</span> Most Reordered <span class="emoji celebration">🔄</span>
-                    </h2>
-                </div>
-                
-                <div class="badge-container">
-                    <div class="badge-display">
-                        <div class="badge-image-container" style="text-align: center; margin-bottom: 30px;">
-                            <div style="background: linear-gradient(135deg, #4a90e2, #2a5298); width: 120px; height: 120px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto; box-shadow: 0 10px 30px rgba(74,144,226,0.4);">
-                                <i class="fas fa-shopping-cart" style="font-size: 60px; color: white;"></i>
-                            </div>
-                        </div>
-                        <div class="badge-info">
-                            <h3 class="badge-title" style="color: white; font-size: 24px; margin-bottom: 20px; text-align: center;">Your Favorite Product</h3>
-                            <div style="background: rgba(255,255,255,0.1); padding: 25px; border-radius: 15px; margin-bottom: 20px; text-align: center;">
-                                <h4 style="color: #4a90e2; font-size: 20px; margin-bottom: 15px;">🏆 Most Reordered:</h4>
-                                <p class="badge-description" style="color: #2d4782; font-size: 18px; font-weight: bold; margin-bottom: 0;">
-                                    {{ customer_data.most_reordered.product_name }}
-                                </p>
-                            </div>
-                            
-                            <div class="compatible-section">
-                                <h4 class="compatible-title"  style="color: #2d4782; text-align: center; margin-bottom: 15px;">📊 Order Statistics</h4>
-                                <div class="compatible-badges" style="display: flex; justify-content: center;">
-                                    <div class="compatible-badge" style="background: linear-gradient(135deg, #4a90e2, #2a5298); padding: 20px; border-radius: 10px; text-align: center;">
-                                        <div  style="color: #2d4782; font-size: 24px; font-weight: bold; margin-bottom: 5px;">
-                                            {{ customer_data.most_reordered.times_ordered }}
-                                        </div>
-                                        <span class="compatible-name"  style="color: #2d4782; font-size: 14px;">Times Ordered</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="slide-actions">
-                    <button class="nav-btn prev-btn" onclick="prevSlide()">
-                        <i class="fas fa-arrow-left"></i>
-                    </button>
-                    <button class="nav-btn next-btn" onclick="nextSlide()">
-                        <i class="fas fa-arrow-right"></i>
-                    </button>
-                </div>
-            </div>
-        </div>
-        {% endif %}
-        
-        <!-- Slide 5: Cuddliest Month -->
-        {% if customer_data.cuddliest_month %}
-        <div class="slide" id="slide-5">
-            <div class="slide-content portrait-slide">
-                <div class="slide-header" style="text-align: center; margin-bottom: 30px;">
-                    <h2 class="slide-title" style="text-align: center; margin: 0;">
-                        <span class="emoji celebration">📅</span> Busiest Month <span class="emoji celebration">📅</span>
-                    </h2>
-                </div>
-                
-                <div class="portrait-container">
-                    <div class="portrait-display">
-                        <div style="text-align: center; padding: 40px;">
-                            <!-- <div style="background: linear-gradient(135deg, #4a90e2, #2a5298); width: 140px; height: 140px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 30px; box-shadow: 0 15px 35px rgba(74,144,226,0.4);">
-                                <i class="fas fa-calendar-heart" style="font-size: 70px; color: white;"></i>
-                            </div> -->
-                            
-                            <div style="background: linear-gradient(135deg, #4a90e2, #2a5298); padding: 30px; border-radius: 20px; margin-bottom: 25px; box-shadow: 0 10px 25px rgba(74,144,226,0.3);">
-                                <h3 style="color: white; font-size: 32px; margin-bottom: 10px; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">
-                                    {{ customer_data.cuddliest_month.month }}
-                                </h3>
-                                <p style="color: white; font-size: 18px; margin-bottom: 0; opacity: 0.9;">
-                                    Your Busiest Month with Chewy! 💕
-                                </p>
-                            </div>
-                            
-                            <div style="display: flex; justify-content: center; margin-top: 25px;">
-                                <div style="background: rgba(255,255,255,0.15); padding: 20px; border-radius: 15px; text-align: center;">
-                                    <div style="color: #4a90e2; font-size: 28px; font-weight: bold; margin-bottom: 8px;">
-                                        {{ customer_data.cuddliest_month.orders }}
-                                    </div>
-                                    <div style="color: #2d4782; font-size: 14px;">Orders</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="slide-actions">
-                    <button class="nav-btn prev-btn" onclick="prevSlide()">
-                        <i class="fas fa-arrow-left"></i>
-                    </button>
-                    <button class="nav-btn next-btn" onclick="nextSlide()">
-                        <i class="fas fa-arrow-right"></i>
-                    </button>
-                </div>
-            </div>
-        </div>
-        {% endif %}
-        
-        <!-- Slide 6: Savings from Autoship -->
-        {% if customer_data.autoship_savings and customer_data.autoship_savings.amount_saved != '0' and customer_data.autoship_savings.amount_saved != '0.0' %}
-        <div class="slide" id="slide-6">
-            <div class="slide-content share-slide">
-                <div class="slide-header" style="text-align: center; margin-bottom: 30px;">
-                    <h2 class="slide-title" style="text-align: center; margin: 0;">
-                        <span class="emoji celebration">💰</span> Savings from Autoship <span class="emoji celebration">💰</span>
-                    </h2>
-                </div>
-                
-                <div class="share-container">
-                    <div class="share-content">
-                        <div class="share-message">
-                            <div style="text-align: center; padding: 20px;">
-                                <div style="background: linear-gradient(135deg, #4a90e2, #2a5298); width: 120px; height: 120px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 30px; box-shadow: 0 15px 35px rgba(74,144,226,0.4);">
-                                    <i class="fas fa-piggy-bank" style="font-size: 60px; color: white;"></i>
-                                </div>
-                                
-                                <h3 class="share-title" style="color: white; font-size: 28px; margin-bottom: 25px;">💰 You Saved Big with Autoship!</h3>
-                                
-                                <div style="background: linear-gradient(135deg, #4a90e2, #2a5298); padding: 40px; border-radius: 25px; margin-bottom: 30px; box-shadow: 0 15px 35px rgba(74,144,226,0.3);">
-                                    <div style="background: rgba(255,255,255,0.2); padding: 30px; border-radius: 20px; margin-bottom: 20px;">
-                                        <h4 style="color: white; font-size: 48px; margin-bottom: 10px; font-weight: bold; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">
-                                            ${{ customer_data.autoship_savings.amount_saved }}
-                                        </h4>
-                                        <p style="color: white; font-size: 20px; margin-bottom: 0; opacity: 0.9;">
-                                            Total Savings This Year
-                                        </p>
-                                    </div>
-                                    
-                                    <div style="background: rgba(255,255,255,0.15); padding: 20px; border-radius: 15px;">
-                                        <p style="color: white; font-size: 18px; line-height: 1.6; margin-bottom: 0;">
-                                            {{ customer_data.autoship_savings.message }}
-                                        </p>
-                                    </div>
-                                </div>
-                                
-                                <!-- <div style="background: rgba(255,255,255,0.1); padding: 20px; border-radius: 15px;">
-                                    <p style="color: #4a90e2; font-size: 16px; margin-bottom: 0; font-weight: bold;">
-                                        🎉 Keep using autoship to save even more! 🎉
-                                    </p>
-                                </div> -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="slide-actions">
-                    <button class="nav-btn prev-btn" onclick="prevSlide()">
-                        <i class="fas fa-arrow-left"></i>
-                    </button>
-                    <button class="nav-btn next-btn" onclick="nextSlide()">
-                        <i class="fas fa-arrow-right"></i>
-                    </button>
-                </div>
-            </div>
-        </div>
-        {% endif %}
-        
-        {% endif %}
-        
-        <!-- Slide 6: Consolidated Queries (Your Other Stats) -->
-        {% if customer_data.consolidated_queries %}
-        <div class="slide" id="slide-6">
-            <div class="slide-content stats-slide" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 40px 20px; min-height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center;">
-                <div class="slide-header" style="text-align: center; margin-bottom: 30px;">
-                    <h2 class="slide-title" style="text-align: center; margin: 0;">
-                        <span class="emoji celebration">📊</span> Your Other Stats <span class="emoji celebration">📊</span>
-                    </h2>
-                </div>
-                
-                <div class="stats-container" style="width: 100%; max-width: 600px; margin: 20px 0;">
-                    <div class="stats-grid" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; width: 100%;">
-                        {% if customer_data.amount_donated and customer_data.amount_donated > 0 %}
-                        <div class="stat-card" style="background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.2); padding: 25px; border-radius: 15px; text-align: center; transition: transform 0.3s ease, box-shadow 0.3s ease;">
-                            <div class="stat-icon" style="font-size: 2em; margin-bottom: 10px;">❤️</div>
-                            <div class="stat-value" style="font-size: 1.8em; font-weight: bold; margin-bottom: 8px; color: #fff;">${{ "%.2f"|format(customer_data.amount_donated) }}</div>
-                            <div class="stat-label" style="font-size: 0.9em; opacity: 0.9; color: #fff;">Donations</div>
-                        </div>
-                        {% endif %}
-                        
-                        {% if customer_data.total_months and customer_data.total_months > 0 %}
-                        <div class="stat-card" style="background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.2); padding: 25px; border-radius: 15px; text-align: center; transition: transform 0.3s ease, box-shadow 0.3s ease;">
-                            <div class="stat-icon" style="font-size: 2em; margin-bottom: 10px;">🎊</div>
-                            <div class="stat-value" style="font-size: 1.8em; font-weight: bold; margin-bottom: 8px; color: #fff;">{{ customer_data.total_months }}</div>
-                            <div class="stat-label" style="font-size: 0.9em; opacity: 0.9; color: #fff;">Months with Chewy</div>
-                        </div>
-                        {% endif %}
-                        
-                        {% if customer_data.most_ordered and customer_data.most_ordered %}
-                        <div class="stat-card" style="background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.2); padding: 25px; border-radius: 15px; text-align: center; transition: transform 0.3s ease, box-shadow 0.3s ease;">
-                            <div class="stat-icon" style="font-size: 2em; margin-bottom: 10px;">🔄</div>
-                            <div class="stat-value" style="font-size: 1.8em; font-weight: bold; margin-bottom: 8px; color: #fff;">🏆</div>
-                            <div class="stat-label" style="font-size: 0.9em; opacity: 0.9; color: #fff;">Most Ordered</div>
-                        </div>
-                        {% endif %}
-                        
-                        {% if customer_data.cuddliest_month and customer_data.cuddliest_month %}
-                        <div class="stat-card" style="background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.2); padding: 25px; border-radius: 15px; text-align: center; transition: transform 0.3s ease, box-shadow 0.3s ease;">
-                            <div class="stat-icon" style="font-size: 2em; margin-bottom: 10px;">📅</div>
-                            <div class="stat-value" style="font-size: 1.8em; font-weight: bold; margin-bottom: 8px; color: #fff;">{{ customer_data.cuddliest_month }}</div>
-                            <div class="stat-label" style="font-size: 0.9em; opacity: 0.9; color: #fff;">Cuddliest Month</div>
-                        </div>
-                        {% endif %}
-                        
-                        {% if customer_data.autoship_savings and customer_data.autoship_savings > 0 %}
-                        <div class="stat-card" style="background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.2); padding: 25px; border-radius: 15px; text-align: center; transition: transform 0.3s ease, box-shadow 0.3s ease;">
-                            <div class="stat-icon" style="font-size: 2em; margin-bottom: 10px;">💰</div>
-                            <div class="stat-value" style="font-size: 1.8em; font-weight: bold; margin-bottom: 8px; color: #fff;">${{ "%.2f"|format(customer_data.autoship_savings) }}</div>
-                            <div class="stat-label" style="font-size: 0.9em; opacity: 0.9; color: #fff;">Autoship Savings</div>
-                        </div>
-                        {% endif %}
-                        
-                        {% if customer_data.yearly_food_count and customer_data.yearly_food_count > 0 %}
-                        <div class="stat-card" style="background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.2); padding: 25px; border-radius: 15px; text-align: center; transition: transform 0.3s ease, box-shadow 0.3s ease;">
-                            <div class="stat-icon" style="font-size: 2em; margin-bottom: 10px;">🍽️</div>
-                            <div class="stat-value" style="font-size: 1.8em; font-weight: bold; margin-bottom: 8px; color: #fff;">{{ customer_data.yearly_food_count }}</div>
-                            <div class="stat-label" style="font-size: 0.9em; opacity: 0.9; color: #fff;">Yearly Food Count</div>
-                        </div>
-                        {% endif %}
-                    </div>
-                </div>
-                
-                <div class="slide-actions">
-                    <button class="nav-btn prev-btn" onclick="prevSlide()">
-                        <i class="fas fa-arrow-left"></i>
-                    </button>
-                    <button class="nav-btn next-btn" onclick="nextSlide()">
-                        <i class="fas fa-arrow-right"></i>
-                    </button>
-                </div>
-            </div>
-        </div>
-        {% endif %}
-        
-        <!-- Slide 7: Social Media Sharing -->
-        <div class="slide" id="slide-7">
-            <div class="slide-content share-slide">
-                <div class="slide-header" style="text-align: center; margin-bottom: 30px;">
-                    <h2 class="slide-title" style="text-align: center; margin: 0;">
-                        Share Your Pet's Amazing Story
-                    </h2>
-                </div>
-                
-                <div class="share-container">
-                    <div class="share-content">
-                        <div class="share-message">
-                            <h3 class="share-title"><span class="emoji paw">🐾</span> Ready to Show Off Your Furry Friends? <span class="emoji paw">🐾</span></h3>
-                            <!-- <p class="share-description">
-                                Your pets have an amazing story to tell! Share this special playback with your friends and family on social media.
-                            </p> -->
-                        </div>
-                        
-                        <div class="social-platforms">
-                            <div class="platform-grid">
-                                <button class="platform-btn whatsapp-btn" onclick="shareToWhatsApp()">
-                                    <i class="fab fa-whatsapp"></i>
-                                    <span>WhatsApp</span>
-                                </button>
-                                
-                                <button class="platform-btn instagram-btn" onclick="shareToInstagram()">
-                                    <i class="fab fa-instagram"></i>
-                                    <span>Instagram</span>
-                                </button>
-                                
-                                <button class="platform-btn facebook-btn" onclick="shareToFacebook()">
-                                    <i class="fab fa-facebook-f"></i>
-                                    <span>Facebook</span>
-                                </button>
-                                
-                                <button class="platform-btn messages-btn" onclick="shareToMessages()">
-                                    <i class="fas fa-comment"></i>
-                                    <span>Messages</span>
-                                </button>
-                                
-                                <button class="platform-btn linkedin-btn" onclick="shareToLinkedIn()">
-                                    <i class="fab fa-linkedin-in"></i>
-                                    <span>LinkedIn</span>
-                                </button>
-                                
-                                <button class="platform-btn copy-btn" onclick="copyLink()">
-                                    <i class="fas fa-link"></i>
-                                    <span>Copy Link</span>
-                                </button>
-                            </div>
-                        </div>
-                        
-                        <!-- <div class="share-footer">
-                            <p class="share-note">💝 Spread the love and let everyone know how amazing your pets are!</p>
-                        </div> -->
-                    </div>
-                </div>
-                
-                <div class="slide-actions">
-                    <button class="nav-btn prev-btn" onclick="prevSlide()">
-                        <i class="fas fa-arrow-left"></i>
-                    </button>
-                    <button class="nav-btn home-btn" onclick="goHome()">
-                        <i class="fas fa-home"></i>
-                    </button>
-                </div>
-            </div>
-        </div>
-        
-​
-        
-        <!-- Slide 8: Unknowns -->
-        <div class="slide" id="slide-8">
-            <div class="slide-content unknowns-slide">
-                <div class="slide-header" style="text-align: center; margin-bottom: 30px;">
-                    <h2 class="slide-title" style="text-align: center; margin: 0; color: white;">
-                        <span class="emoji search">🔍</span> Missing Information
-                    </h2>
-                </div>
-                
-                <div class="unknowns-container">
-                    {% if customer_data.unknowns %}
-                        <div class="unknowns-icon">
-                            <i class="fas fa-question-circle"></i>
-                        </div>
-                        <div class="unknowns-content">
-                            <h3 class="unknowns-title">Help Us Know Your Pets Better</h3>
-                            <p class="unknowns-description">
-                                We found some missing information in your pet profiles. Adding these details will help us create even more personalized experiences!
-                            </p>
-                            
-                            <div class="pets-unknowns">
-                                {% for pet_name, pet_data in customer_data.unknowns.unknown_attributes.items() %}
-                                <div class="pet-unknown">
-                                    <div class="pet-name">
-                                        <h4 class="pet-title">{{ pet_data.pet_name }}</h4>
-                                    </div>
-                                    <div class="unknown-fields">
-                                        <p class="fields-label">Missing:</p>
-                                        <div class="field-tags">
-                                            {% for field in pet_data.unknown_fields %}
-                                            <span class="field-tag">{{ field.replace('_', ' ').title() }}</span>
-                                            {% endfor %}
-                                        </div>
-                                    </div>
-                                </div>
-                                {% endfor %}
-                            </div>
-                            
-                            <div class="unknowns-summary">
-                                <p class="summary-text">
-                                    Total missing fields: {{ customer_data.unknowns.total_unknowns }} across {{ customer_data.unknowns.pets_with_unknowns }} pets
-                                </p>
-                            </div>
-                        </div>
-                    {% else %}
-                        <div class="unknowns-icon">
-                            <i class="fas fa-check-circle"></i>
-                        </div>
-                        <div class="unknowns-content">
-                            <h3 class="unknowns-title">Complete Profiles!</h3>
-                            <p class="unknowns-description">
-                                Great job! All your pet profiles are complete. We have all the information we need to create amazing experiences for your furry friends.
-                            </p>
-                        </div>
-                    {% endif %}
-                </div>
-                
-                <div class="slide-actions">
-                    <button class="nav-btn prev-btn" onclick="prevSlide()">
-                        <i class="fas fa-arrow-left"></i>
-                    </button>
-                    <button class="nav-btn home-btn" onclick="goHome()">
-                        <i class="fas fa-home"></i>
-                    </button>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-{% endblock %}
-​
-{% block extra_js %}
-<script>
-let currentSlide = 0;
-let totalSlides = 10;
-let isTransitioning = false;
-​
-// Function to count visible slides and update navigation
-function updateSlideCount() {
-    const visibleSlides = document.querySelectorAll('.slide').length;
-    totalSlides = visibleSlides;
+    .funfact-content,
+    .letter-container,
+    .breed-content,
+    .stats-container,
+    .share-content,
+    .unknowns-content {
+        padding: 20px;
+    }
     
-    // Update navigation dots to match visible slides
-    const navDots = document.querySelector('.nav-dots');
-    if (navDots) {
-        navDots.innerHTML = '';
-        for (let i = 0; i < visibleSlides; i++) {
-            const dot = document.createElement('div');
-            dot.className = `nav-dot ${i === 0 ? 'active' : ''}`;
-            dot.setAttribute('data-slide', i);
-            dot.addEventListener('click', () => showSlide(i));
-            navDots.appendChild(dot);
-        }
+    .stats-grid {
+        grid-template-columns: 1fr;
     }
 }
-​
-// Loading animation variables
-let loadingProgress = 0;
-let loadingInterval;
-let messageIndex = 0;
-const loadingMessages = [
-    "Fetching pet memories...",
-    "Almost ready..."
-];
-​
+</style>
+
+<div class="container">
+    <!-- Arrow Navigation -->
+    <button class="slide-arrow-nav prev" id="prev-arrow" onclick="prevSlide()" disabled>
+        <i class="fas fa-chevron-left"></i>
+    </button>
+    <button class="slide-arrow-nav next" id="next-arrow" onclick="nextSlide()">
+        <i class="fas fa-chevron-right"></i>
+    </button>
+
+    <!-- Debug Info (temporary) -->
+    <div style="position: fixed; top: 10px; left: 10px; background: rgba(0,0,0,0.8); color: white; padding: 10px; border-radius: 5px; font-size: 12px; z-index: 1000;">
+        <strong>Debug Info:</strong><br>
+        Food Fun Fact: {{ customer_data.food_fun_fact is defined }}<br>
+        Portrait: {{ customer_data.portrait is defined }}<br>
+        Letter: {{ customer_data.letter is defined }}<br>
+        Badge: {{ customer_data.badge is defined }}<br>
+        Breed: {{ customer_data.breed_prediction is defined }}<br>
+        Consolidated: {{ customer_data.consolidated_queries is defined }}<br>
+        Unknowns: {{ customer_data.unknowns is defined }}
+    </div>
+
+    <!-- Loading Slide -->
+    <div class="slide active" id="slide-0">
+        <div class="slide-content loading-slide">
+            <div class="loading">
+                <h2>Loading your personalized Chewy experience...</h2>
+                <p>Please wait while we prepare your data</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 1: Food Fun Fact -->
+    {% if customer_data.food_fun_fact and customer_data.food_fun_fact.total_food_lbs and customer_data.food_fun_fact.total_food_lbs > 0 %}
+    <div class="slide" id="slide-1">
+        <div class="slide-content funfact-slide">
+            <div class="slide-header" style="text-align: center; margin-bottom: 30px;">
+                <h2 class="slide-title" style="text-align: center; margin: 0;">
+                    <span class="emoji celebration">🍽️</span> Your Pet's Food Journey <span class="emoji celebration">🍽️</span>
+                </h2>
+            </div>
+            
+            <div class="funfact-container">
+                <div class="funfact-icon">
+                    <i class="fas fa-weight" style="font-size: 60px; color: #4a90e2;"></i>
+                </div>
+                <div class="funfact-content">
+                    <h3 class="funfact-title">Your Pet's Food Journey</h3>
+                    <div style="background: rgba(255,255,255,0.1); padding: 25px; border-radius: 15px; margin-bottom: 20px;">
+                        <h4 style="color: #4a90e2; font-size: 32px; margin-bottom: 10px; text-align: center;">
+                            {{ customer_data.food_fun_fact.total_food_lbs }} lbs
+                        </h4>
+                        <p style="color: white; font-size: 18px; text-align: center; margin-bottom: 15px;">
+                            {{ customer_data.food_fun_fact.message }}
+                        </p>
+                    </div>
+                    {% if customer_data.food_fun_fact.fun_facts %}
+                    <div class="funfact-highlight">
+                        <p class="funfact-text">
+                            {{ customer_data.food_fun_fact.fun_facts[0] }}
+                        </p>
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+            
+            <div class="slide-actions">
+                <button class="nav-btn prev-btn" onclick="prevSlide()">
+                    <i class="fas fa-arrow-left"></i>
+                </button>
+                <button class="nav-btn next-btn" onclick="nextSlide()">
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+            <div class="slide-counter">1 of 8</div>
+        </div>
+    </div>
+    {% endif %}
+
+    <!-- Slide 1.5: Busiest Month (when food consumption is 0/null) -->
+    {% if customer_data.cuddliest_month and (not customer_data.food_fun_fact or not customer_data.food_fun_fact.total_food_lbs or customer_data.food_fun_fact.total_food_lbs == 0) %}
+    <div class="slide" id="slide-1-busiest">
+        <div class="slide-content busiest-slide">
+            <div class="slide-header" style="text-align: center; margin-bottom: 30px;">
+                <h2 class="slide-title" style="text-align: center; margin: 0;">
+                    <span class="emoji celebration">📅</span> Your Busiest Month <span class="emoji celebration">📅</span>
+                </h2>
+            </div>
+            
+            <div class="busiest-container">
+                <div class="busiest-icon">
+                    <i class="fas fa-calendar-alt" style="font-size: 60px; color: #4a90e2;"></i>
+                </div>
+                <div class="busiest-content">
+                    <h3 class="busiest-title">Your Busiest Month</h3>
+                    <div style="background: rgba(255,255,255,0.1); padding: 25px; border-radius: 15px; margin-bottom: 20px;">
+                        <h4 style="color: #4a90e2; font-size: 32px; margin-bottom: 10px; text-align: center;">
+                            {{ customer_data.cuddliest_month }}
+                        </h4>
+                        <p style="color: white; font-size: 18px; text-align: center; margin-bottom: 15px;">
+                            This was your most active month with Chewy!
+                        </p>
+                    </div>
+                    <div class="busiest-highlight">
+                        <p class="busiest-text">
+                            You were most engaged with Chewy during {{ customer_data.cuddliest_month }}. Keep up the great work taking care of your pets!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide-actions">
+                <button class="nav-btn prev-btn" onclick="prevSlide()">
+                    <i class="fas fa-arrow-left"></i>
+                </button>
+                <button class="nav-btn next-btn" onclick="nextSlide()">
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+            <div class="slide-counter">1 of 8</div>
+        </div>
+    </div>
+    {% endif %}
+
+    <!-- Slide 2: AI Portrait -->
+    {% if customer_data.portrait %}
+    <div class="slide" id="slide-2">
+        <div class="slide-content portrait-slide">
+            <div class="slide-header" style="text-align: center; margin-bottom: 30px;">
+                <h2 class="slide-title" style="text-align: center; margin: 0;">
+                    <span class="emoji celebration">🎨</span> Your Pet Portrait <span class="emoji celebration">🎨</span>
+                </h2>
+            </div>
+            
+            <div class="portrait-container">
+                <img src="{{ customer_data.portrait }}" alt="Pet Portrait" class="portrait-image">
+                <h3 style="color: white; font-size: 24px; margin-top: 20px;">Your Personalized Pet Portrait</h3>
+                <p style="color: white; font-size: 18px; margin-top: 10px;">A unique AI-generated portrait of your beloved pets!</p>
+            </div>
+            
+            <div class="slide-actions">
+                <button class="nav-btn prev-btn" onclick="prevSlide()">
+                    <i class="fas fa-arrow-left"></i>
+                </button>
+                <button class="nav-btn next-btn" onclick="nextSlide()">
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+            <div class="slide-counter">2 of 8</div>
+        </div>
+    </div>
+    {% endif %}
+
+    <!-- Slide 3: Letter to Human -->
+    {% if customer_data.pet_letters %}
+    <div class="slide" id="slide-3">
+        <div class="slide-content letter-slide">
+            <div class="slide-header" style="text-align: center; margin-bottom: 30px;">
+                <h2 class="slide-title" style="text-align: center; margin: 0;">
+                    <span class="emoji celebration">💌</span> A Letter from Your Pets <span class="emoji celebration">💌</span>
+                </h2>
+            </div>
+            
+            <div class="letter-container">
+                <div class="letter-content">
+                    {{ customer_data.pet_letters }}
+                </div>
+            </div>
+            
+            <div class="slide-actions">
+                <button class="nav-btn prev-btn" onclick="prevSlide()">
+                    <i class="fas fa-arrow-left"></i>
+                </button>
+                <button class="nav-btn next-btn" onclick="nextSlide()">
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+            <div class="slide-counter">3 of 8</div>
+        </div>
+    </div>
+    {% endif %}
+
+    <!-- Slide 4: Personality Badge -->
+    {% if customer_data.badge %}
+    <div class="slide" id="slide-4">
+        <div class="slide-content badge-slide">
+            <div class="slide-header" style="text-align: center; margin-bottom: 30px;">
+                <h2 class="slide-title" style="text-align: center; margin: 0;">
+                    <span class="emoji celebration">🏆</span> Your Pet's Personality <span class="emoji celebration">🏆</span>
+                </h2>
+            </div>
+            
+            <div class="badge-container">
+                <img src="{{ customer_data.badge.image_path }}" alt="Personality Badge" class="badge-image">
+                <h3 class="badge-title">{{ customer_data.badge.badge }}</h3>
+                <div class="badge-description">
+                    <p>{{ customer_data.badge.description }}</p>
+                </div>
+            </div>
+            
+            <div class="slide-actions">
+                <button class="nav-btn prev-btn" onclick="prevSlide()">
+                    <i class="fas fa-arrow-left"></i>
+                </button>
+                <button class="nav-btn next-btn" onclick="nextSlide()">
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+            <div class="slide-counter">4 of 8</div>
+        </div>
+    </div>
+    {% endif %}
+
+    <!-- Slide 5: Breed Prediction -->
+    {% if customer_data.breed_prediction %}
+    <div class="slide" id="slide-5">
+        <div class="slide-content breed-slide">
+            <div class="slide-header" style="text-align: center; margin-bottom: 30px;">
+                <h2 class="slide-title" style="text-align: center; margin: 0;">
+                    <span class="emoji celebration">🐕</span> Breed Prediction <span class="emoji celebration">🐕</span>
+                </h2>
+            </div>
+            
+            <div class="breed-container">
+                <div class="breed-content">
+                    <h3 class="breed-title">Our Breed Predictions</h3>
+                    
+                    <!-- Pet Highlight Section -->
+                    <div class="breed-pet-highlight">
+                        <p class="breed-highlight-text">
+                            We are highlighting <strong>{{ customer_data.breed_prediction.pet_name }}</strong>
+                        </p>
+                    </div>
+                    
+                    <!-- Breed Predictions Grid -->
+                    <div class="breed-predictions-grid" id="breed-predictions-grid">
+                        {% if customer_data.breed_prediction.multiple_predictions %}
+                            {% for prediction in customer_data.breed_prediction.multiple_predictions %}
+                            <div class="breed-prediction-card" onclick="showBreedFlashcard('{{ prediction.prediction.top_predicted_breed.breed }}', '{{ prediction.pet_name }}', {{ "%.1f"|format(prediction.prediction.top_predicted_breed.confidence * 100) }})">
+                                <div class="breed-name">{{ prediction.prediction.top_predicted_breed.breed }}</div>
+                                <div class="breed-percentage">{{ "%.1f"|format(prediction.prediction.top_predicted_breed.confidence * 100) }}%</div>
+                                <div class="breed-pet-name">for {{ prediction.pet_name }}</div>
+                                <div class="breed-click-hint">Click for details</div>
+                            </div>
+                            {% endfor %}
+                        {% else %}
+                            <div class="breed-prediction-card" onclick="showBreedFlashcard('{{ customer_data.breed_prediction.predicted_breed }}', 'predicted breed', 100)">
+                                <div class="breed-name">{{ customer_data.breed_prediction.predicted_breed }}</div>
+                                <div class="breed-percentage">100%</div>
+                                <div class="breed-pet-name">predicted breed</div>
+                                <div class="breed-click-hint">Click for details</div>
+                            </div>
+                        {% endif %}
+                    </div>
+                    
+                    <!-- Interactive Question -->
+                    <div class="breed-question-section" id="breed-question-section">
+                        <h4 class="breed-question">Did we get any right?</h4>
+                        <div class="breed-answer-buttons">
+                            <button class="breed-answer-btn" onclick="showBreedFeedback('yes')">Yes</button>
+                            <button class="breed-answer-btn" onclick="showBreedFeedback('no')">No</button>
+                        </div>
+                    </div>
+                    
+                    <!-- Yes Response -->
+                    <div class="breed-feedback-yes" id="breed-feedback-yes" style="display: none;">
+                        <h4>Great! Which ones were correct?</h4>
+                        <div class="breed-checkboxes" id="breed-checkboxes">
+                            {% if customer_data.breed_prediction.multiple_predictions %}
+                                {% for prediction in customer_data.breed_prediction.multiple_predictions %}
+                                <div class="breed-checkbox-item">
+                                    <input type="checkbox" id="breed-{{ loop.index }}" class="breed-checkbox">
+                                    <label for="breed-{{ loop.index }}">
+                                        {{ prediction.prediction.top_predicted_breed.breed }} ({{ "%.1f"|format(prediction.prediction.top_predicted_breed.confidence * 100) }}%) - {{ prediction.pet_name }}
+                                    </label>
+                                </div>
+                                {% endfor %}
+                            {% else %}
+                                <div class="breed-checkbox-item">
+                                    <input type="checkbox" id="breed-1" class="breed-checkbox">
+                                    <label for="breed-1">
+                                        {{ customer_data.breed_prediction.predicted_breed }} - predicted breed
+                                    </label>
+                                </div>
+                            {% endif %}
+                        </div>
+                        <p class="breed-feedback-text">Thanks for helping us improve our predictions!</p>
+                    </div>
+                    
+                    <!-- No Response -->
+                    <div class="breed-feedback-no" id="breed-feedback-no" style="display: none;">
+                        <h4>We thought we had it!</h4>
+                        <p class="breed-feedback-text">We'd love to get your pet's breed information correct. Please complete your pet profiles to help us provide more accurate predictions next year.</p>
+                        <div class="breed-profile-link">
+                            <a href="https://www.chewy.com/account/profile" target="_blank" class="breed-profile-btn">
+                                Complete Pet Profile
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Breed Flashcard Modal -->
+            <div class="breed-flashcard-modal" id="breed-flashcard-modal">
+                <div class="breed-flashcard-content">
+                    <div class="breed-flashcard-header">
+                        <h3 id="flashcard-breed-name">Breed Name</h3>
+                        <button class="breed-flashcard-close" onclick="closeBreedFlashcard()">×</button>
+                    </div>
+                    <div class="breed-flashcard-body">
+                        <div class="breed-flashcard-info">
+                            <div class="breed-flashcard-pet">For: <span id="flashcard-pet-name">Pet Name</span></div>
+                            <div class="breed-flashcard-confidence">Confidence: <span id="flashcard-confidence">100%</span></div>
+                        </div>
+                        <div class="breed-flashcard-description" id="flashcard-description">
+                            <p>Loading breed information...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide-actions">
+                <button class="nav-btn prev-btn" onclick="prevSlide()">
+                    <i class="fas fa-arrow-left"></i>
+                </button>
+                <button class="nav-btn next-btn" onclick="nextSlide()">
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+            <div class="slide-counter">5 of 8</div>
+        </div>
+    </div>
+    {% endif %}
+
+    <!-- Slide 6: Consolidated Queries (Your Other Stats) -->
+    {% if customer_data.consolidated_queries %}
+    <div class="slide" id="slide-6">
+        <div class="slide-content stats-slide">
+            <div class="slide-header" style="text-align: center; margin-bottom: 30px;">
+                <h2 class="slide-title" style="text-align: center; margin: 0;">
+                    <span class="emoji celebration">📊</span> Your Other Stats <span class="emoji celebration">📊</span>
+                </h2>
+            </div>
+            
+            <div class="stats-container">
+                <div class="stats-grid">
+                    {% if customer_data.amount_donated and customer_data.amount_donated > 0 %}
+                    <div class="stat-card">
+                        <div class="stat-value">${{ "%.2f"|format(customer_data.amount_donated) }}</div>
+                        <div class="stat-label">Total Donations</div>
+                    </div>
+                    {% endif %}
+                    
+                    {% if customer_data.cuddliest_month %}
+                    <div class="stat-card">
+                        <div class="stat-value">{{ customer_data.cuddliest_month }}</div>
+                        <div class="stat-label">Cuddliest Month</div>
+                    </div>
+                    {% endif %}
+                    
+                    {% if customer_data.total_months %}
+                    <div class="stat-card">
+                        <div class="stat-value">{{ customer_data.total_months }}</div>
+                        <div class="stat-label">Months with Chewy</div>
+                    </div>
+                    {% endif %}
+                    
+                    {% if customer_data.autoship_savings and customer_data.autoship_savings > 0 %}
+                    <div class="stat-card">
+                        <div class="stat-value">${{ "%.2f"|format(customer_data.autoship_savings) }}</div>
+                        <div class="stat-label">Autoship Savings</div>
+                    </div>
+                    {% endif %}
+                    
+                    {% if customer_data.most_ordered %}
+                    <div class="stat-card">
+                        <div class="stat-value">🏆</div>
+                        <div class="stat-label">Most Ordered</div>
+                        <div style="font-size: 14px; margin-top: 10px; color: rgba(255,255,255,0.8);">
+                            {{ customer_data.most_ordered[:50] }}{% if customer_data.most_ordered|length > 50 %}...{% endif %}
+                        </div>
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+            
+            <div class="slide-actions">
+                <button class="nav-btn prev-btn" onclick="prevSlide()">
+                    <i class="fas fa-arrow-left"></i>
+                </button>
+                <button class="nav-btn next-btn" onclick="nextSlide()">
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+            <div class="slide-counter">6 of 8</div>
+        </div>
+    </div>
+    {% endif %}
+
+    <!-- Slide 7: Social Media Shareable -->
+    <div class="slide" id="slide-7">
+        <div class="slide-content share-slide">
+            <div class="slide-header" style="text-align: center; margin-bottom: 30px;">
+                <h2 class="slide-title" style="text-align: center; margin: 0;">
+                    <span class="emoji celebration">📱</span> Share Your Experience <span class="emoji celebration">📱</span>
+                </h2>
+            </div>
+            
+            <div class="share-container">
+                <div class="share-content">
+                    <h3 class="share-title">Share Your Chewy Journey!</h3>
+                    <div class="share-text">
+                        <p>Thank you for being part of the Chewy family! Your pets deserve the best care, and you're providing it. 🐾</p>
+                        <p>Share your personalized pet experience with friends and family!</p>
+                    </div>
+                    
+                    <!-- Social Media Icons -->
+                    <div class="social-media-icons">
+                        <div class="social-icon facebook" onclick="shareToSocial('facebook')">
+                            <i class="fab fa-facebook-f"></i>
+                            <span class="social-label">Facebook</span>
+                        </div>
+                        <div class="social-icon snapchat" onclick="shareToSocial('snapchat')">
+                            <i class="fab fa-snapchat-ghost"></i>
+                            <span class="social-label">Snapchat</span>
+                        </div>
+                        <div class="social-icon instagram" onclick="shareToSocial('instagram')">
+                            <i class="fab fa-instagram"></i>
+                            <span class="social-label">Instagram</span>
+                        </div>
+                        <div class="social-icon whatsapp" onclick="shareToSocial('whatsapp')">
+                            <i class="fab fa-whatsapp"></i>
+                            <span class="social-label">WhatsApp</span>
+                        </div>
+                        <div class="social-icon message" onclick="shareToSocial('message')">
+                            <i class="fas fa-comment"></i>
+                            <span class="social-label">Message</span>
+                        </div>
+                    </div>
+                    
+                    <div style="margin-top: 30px;">
+                        <span style="color: #4a90e2; font-size: 48px;">🎉</span>
+                        <span style="color: #4a90e2; font-size: 48px;">🐾</span>
+                        <span style="color: #4a90e2; font-size: 48px;">🎉</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide-actions">
+                <button class="nav-btn prev-btn" onclick="prevSlide()">
+                    <i class="fas fa-arrow-left"></i>
+                </button>
+                <button class="nav-btn next-btn" onclick="nextSlide()">
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+            <div class="slide-counter">7 of 8</div>
+        </div>
+    </div>
+
+    <!-- Slide 8: Unknowns Analyzer Results -->
+    {% if customer_data.unknowns %}
+    <div class="slide" id="slide-8">
+        <div class="slide-content unknowns-slide">
+            <div class="slide-header" style="text-align: center; margin-bottom: 30px;">
+                <h2 class="slide-title" style="text-align: center; margin: 0;">
+                    <span class="emoji celebration">🔍</span> Missing Pet Information <span class="emoji celebration">🔍</span>
+                </h2>
+            </div>
+            
+            <div class="unknowns-container">
+                <div class="unknowns-content">
+                    <h3 class="unknowns-title">Pet Profile Analysis</h3>
+                    
+                    {% if customer_data.unknowns.unknown_attributes %}
+                        <div class="unknowns-summary">
+                            <p class="unknowns-summary-text">
+                                We found <strong>{{ customer_data.unknowns.total_unknowns }}</strong> missing fields across 
+                                <strong>{{ customer_data.unknowns.pets_with_unknowns }}</strong> pets.
+                            </p>
+                        </div>
+                        
+                        <div class="unknowns-pets-grid">
+                            {% for pet_name, pet_data in customer_data.unknowns.unknown_attributes.items() %}
+                            <div class="unknowns-pet-card">
+                                <div class="unknowns-pet-name">
+                                    <span class="emoji">🐾</span> {{ pet_data.pet_name }}
+                                </div>
+                                <div class="unknowns-fields-container">
+                                    {% for field in pet_data.unknown_fields %}
+                                    <div class="unknowns-field-box">
+                                        {{ field.replace('_', ' ').title() }}
+                                    </div>
+                                    {% endfor %}
+                                </div>
+                            </div>
+                            {% endfor %}
+                        </div>
+                        
+                        <div class="unknowns-action">
+                            <p class="unknowns-action-text">
+                                Complete your pet profiles to get more personalized recommendations!
+                            </p>
+                            <a href="https://www.chewy.com/account/profile" target="_blank" class="unknowns-profile-btn">
+                                Complete Pet Profiles
+                            </a>
+                        </div>
+                    {% else %}
+                        <div class="unknowns-text">
+                            <p>No missing information found! Your pet profiles are complete.</p>
+                        </div>
+                    {% endif %}
+                </div>
+            </div>
+            
+            <div class="slide-actions">
+                <button class="nav-btn prev-btn" onclick="prevSlide()">
+                    <i class="fas fa-arrow-left"></i>
+                </button>
+                <button class="nav-btn home-btn" onclick="goHome()">
+                    <i class="fas fa-home"></i> Home
+                </button>
+            </div>
+            <div class="slide-counter">8 of 8</div>
+        </div>
+    </div>
+    {% endif %}
+</div>
+
+<script>
+let currentSlide = 0;
+let totalSlides = 0;
+let isTransitioning = false;
+
+// Initialize slides
+document.addEventListener('DOMContentLoaded', function() {
+    // Count total slides (excluding loading slide)
+    const allSlides = document.querySelectorAll('.slide');
+    totalSlides = allSlides.length - 1; // Subtract 1 for loading slide
+    
+    // Debug: Log all slides
+    console.log(`📊 Total slides: ${totalSlides}, All slides: ${allSlides.length}`);
+    allSlides.forEach((slide, index) => {
+        console.log(`📋 Slide ${index}: ${slide.id} - visible: ${slide.style.display !== 'none'}`);
+    });
+    
+    // Initialize arrow navigation
+    updateArrowNavigation();
+    
+    // Hide loading slide after a short delay and show first real slide
+    setTimeout(() => {
+        console.log(`🚀 Showing slide 1...`);
+        showSlide(1);
+    }, 2000);
+});
+
 function showSlide(slideIndex) {
-    if (isTransitioning || slideIndex === currentSlide) return;
+    console.log(`🎯 showSlide(${slideIndex}) called, currentSlide=${currentSlide}, isTransitioning=${isTransitioning}`);
+    
+    if (isTransitioning || slideIndex === currentSlide) {
+        console.log(`⏸️ Skipping slide change - transitioning: ${isTransitioning}, same slide: ${slideIndex === currentSlide}`);
+        return;
+    }
     
     isTransitioning = true;
     
-    // Get all visible slides
-    const visibleSlides = Array.from(document.querySelectorAll('.slide'));
-    
     // Hide all slides
-    visibleSlides.forEach(slide => {
+    const visibleSlides = Array.from(document.querySelectorAll('.slide'));
+    console.log(`📋 Found ${visibleSlides.length} slides total`);
+    visibleSlides.forEach((slide, index) => {
         slide.classList.remove('active');
+        console.log(`👁️ Slide ${index} (${slide.id}): removed active class`);
     });
     
-    // Show current slide
+    // Show target slide
     if (visibleSlides[slideIndex]) {
         visibleSlides[slideIndex].classList.add('active');
+        currentSlide = slideIndex;
+        console.log(`✅ Activated slide ${slideIndex} (${visibleSlides[slideIndex].id})`);
+        
+        // Update arrow navigation states
+        updateArrowNavigation();
+    } else {
+        console.log(`❌ Slide ${slideIndex} not found!`);
     }
     
-    // Update navigation dots
-    document.querySelectorAll('.nav-dot').forEach((dot, index) => {
-        dot.classList.toggle('active', index === slideIndex);
-    });
-    
-    currentSlide = slideIndex;
-    
-    // Allow transitions after animation completes
     setTimeout(() => {
         isTransitioning = false;
-    }, 500);
+        console.log(`🔄 Transition complete`);
+    }, 300);
 }
-​
+
+function updateArrowNavigation() {
+    const prevArrow = document.getElementById('prev-arrow');
+    const nextArrow = document.getElementById('next-arrow');
+    
+    // Disable prev arrow on first slide (slide 1, since slide 0 is loading)
+    if (currentSlide <= 1) {
+        prevArrow.disabled = true;
+        prevArrow.style.opacity = '0.3';
+    } else {
+        prevArrow.disabled = false;
+        prevArrow.style.opacity = '1';
+    }
+    
+    // Disable next arrow on last slide
+    if (currentSlide >= totalSlides) {
+        nextArrow.disabled = true;
+        nextArrow.style.opacity = '0.3';
+    } else {
+        nextArrow.disabled = false;
+        nextArrow.style.opacity = '1';
+    }
+    
+    console.log(`🎯 Arrow navigation updated - currentSlide: ${currentSlide}, totalSlides: ${totalSlides}`);
+}
+
 function nextSlide() {
-    if (currentSlide < totalSlides - 1) {
+    console.log(`🔄 Next: currentSlide=${currentSlide}, totalSlides=${totalSlides}`);
+    if (currentSlide < totalSlides) {
         showSlide(currentSlide + 1);
     }
 }
-​
+
 function prevSlide() {
-    if (currentSlide > 0) {
+    console.log(`🔄 Prev: currentSlide=${currentSlide}, totalSlides=${totalSlides}`);
+    if (currentSlide > 1) {
         showSlide(currentSlide - 1);
     }
 }
-​
+
 function goHome() {
     window.location.href = '/';
 }
-​
-// Navigation dot clicks
-document.querySelectorAll('.nav-dot').forEach((dot, index) => {
-    dot.addEventListener('click', () => {
-        showSlide(index);
-    });
-});
-​
+
 // Keyboard navigation
-document.addEventListener('keydown', (e) => {
-    if (e.key === 'ArrowRight') {
+document.addEventListener('keydown', function(e) {
+    if (e.key === 'ArrowRight' || e.key === ' ') {
+        e.preventDefault();
         nextSlide();
     } else if (e.key === 'ArrowLeft') {
+        e.preventDefault();
         prevSlide();
+    } else if (e.key === 'Escape') {
+        goHome();
     }
 });
-​
-// Touch/swipe support
+
+// Touch/swipe support for mobile
 let touchStartX = 0;
 let touchEndX = 0;
-​
-document.addEventListener('touchstart', (e) => {
+
+document.addEventListener('touchstart', function(e) {
     touchStartX = e.changedTouches[0].screenX;
 });
-​
-document.addEventListener('touchend', (e) => {
+
+document.addEventListener('touchend', function(e) {
     touchEndX = e.changedTouches[0].screenX;
     handleSwipe();
 });
-​
+
 function handleSwipe() {
     const swipeThreshold = 50;
     const diff = touchStartX - touchEndX;
     
     if (Math.abs(diff) > swipeThreshold) {
         if (diff > 0) {
-            // Swipe left - next slide
+            // Swiped left - next slide
             nextSlide();
         } else {
-            // Swipe right - previous slide
+            // Swiped right - previous slide
             prevSlide();
         }
     }
 }
-​
-// Loading Animation Functions
-function startLoadingAnimation() {
-    const progressFill = document.getElementById('progressFill');
-    const loadingMessage = document.getElementById('loadingMessage');
-    
-    if (!progressFill || !loadingMessage) return;
-    
-    loadingInterval = setInterval(() => {
-        loadingProgress += 2;
-        
-        if (loadingProgress <= 100) {
-            progressFill.style.width = loadingProgress + '%';
-            
-            // Update message every 20%
-            if (loadingProgress % 20 === 0 && messageIndex < loadingMessages.length) {
-                loadingMessage.textContent = loadingMessages[messageIndex];
-                messageIndex++;
-            }
+
+// Auto-advance slides (optional)
+let autoAdvanceInterval;
+
+function startAutoAdvance() {
+    autoAdvanceInterval = setInterval(() => {
+        if (currentSlide < totalSlides) {
+            nextSlide();
         } else {
-            clearInterval(loadingInterval);
-            // Auto-advance to next slide after loading completes
-            setTimeout(() => {
-                nextSlide();
-            }, 500);
+            clearInterval(autoAdvanceInterval);
         }
-    }, 100);
+    }, 8000); // 8 seconds per slide
 }
-​
-// Start loading animation when page loads
-document.addEventListener('DOMContentLoaded', function() {
-    // Update slide count based on visible slides
-    updateSlideCount();
-    
-    if (currentSlide === 0) {
-        startLoadingAnimation();
+
+function stopAutoAdvance() {
+    if (autoAdvanceInterval) {
+        clearInterval(autoAdvanceInterval);
+    }
+}
+
+// Start auto-advance after user interaction
+document.addEventListener('click', function() {
+    if (!autoAdvanceInterval) {
+        startAutoAdvance();
     }
 });
-​
+
+// Pause auto-advance on hover
+document.addEventListener('mouseenter', stopAutoAdvance);
+document.addEventListener('mouseleave', startAutoAdvance);
+
+// Breed Prediction Interactive Functions
+function showBreedFeedback(answer) {
+    console.log(`🎯 Breed feedback: ${answer}`);
+    
+    // Hide the question section
+    document.getElementById('breed-question-section').style.display = 'none';
+    
+    if (answer === 'yes') {
+        document.getElementById('breed-feedback-yes').style.display = 'block';
+    } else {
+        document.getElementById('breed-feedback-no').style.display = 'block';
+    }
+}
+
+function showBreedFlashcard(breedName, petName, confidence) {
+    console.log(`🐕 Showing flashcard for ${breedName} (${petName}) - ${confidence}%`);
+    
+    // Update flashcard content
+    document.getElementById('flashcard-breed-name').textContent = breedName;
+    document.getElementById('flashcard-pet-name').textContent = petName;
+    document.getElementById('flashcard-confidence').textContent = confidence + '%';
+    
+    // Get breed description from our database
+    const breedDescription = getBreedDescription(breedName);
+    document.getElementById('flashcard-description').innerHTML = breedDescription;
+    
+    // Show the modal
+    document.getElementById('breed-flashcard-modal').style.display = 'block';
+}
+
+function closeBreedFlashcard() {
+    document.getElementById('breed-flashcard-modal').style.display = 'none';
+}
+
+function getBreedDescription(breedName) {
+    // Breed descriptions database
+    const breedDescriptions = {
+        'Shih Tzu': `
+            <h4>Shih Tzu</h4>
+            <p><strong>Size:</strong> Small (9-16 lbs)</p>
+            <p><strong>Temperament:</strong> Affectionate, friendly, and outgoing. Known for their sweet, gentle nature and love of companionship.</p>
+            <p><strong>Characteristics:</strong> Long, flowing coat, distinctive pushed-in face, and a proud carriage. Excellent companion dogs that adapt well to apartment living.</p>
+            <p><strong>Care:</strong> Requires regular grooming due to their long coat. Moderate exercise needs and thrives on human interaction.</p>
+        `,
+        'Golden Retriever': `
+            <h4>Golden Retriever</h4>
+            <p><strong>Size:</strong> Large (55-75 lbs)</p>
+            <p><strong>Temperament:</strong> Intelligent, friendly, and devoted. Known for their gentle temperament and patience with children.</p>
+            <p><strong>Characteristics:</strong> Beautiful golden coat, muscular build, and kind expression. Excellent family dogs and working dogs.</p>
+            <p><strong>Care:</strong> Regular exercise and grooming needed. Highly trainable and eager to please.</p>
+        `,
+        'Labrador Retriever': `
+            <h4>Labrador Retriever</h4>
+            <p><strong>Size:</strong> Large (55-80 lbs)</p>
+            <p><strong>Temperament:</strong> Friendly, outgoing, and high-spirited. Known for their intelligence and versatility.</p>
+            <p><strong>Characteristics:</strong> Short, dense coat, otter-like tail, and kind expression. Excellent working dogs and family companions.</p>
+            <p><strong>Care:</strong> High energy levels require regular exercise. Easy to groom and highly trainable.</p>
+        `,
+        'German Shepherd': `
+            <h4>German Shepherd</h4>
+            <p><strong>Size:</strong> Large (50-90 lbs)</p>
+            <p><strong>Temperament:</strong> Intelligent, loyal, and courageous. Known for their protective nature and working ability.</p>
+            <p><strong>Characteristics:</strong> Strong, muscular build, erect ears, and confident stance. Excellent working dogs and family protectors.</p>
+            <p><strong>Care:</strong> Requires mental and physical stimulation. Regular grooming and training essential.</p>
+        `,
+        'Mixed / Unknown': `
+            <h4>Mixed Breed</h4>
+            <p><strong>Size:</strong> Variable</p>
+            <p><strong>Temperament:</strong> Unique combination of traits from different breeds. Often healthy and adaptable.</p>
+            <p><strong>Characteristics:</strong> One-of-a-kind appearance and personality. Each mixed breed is truly unique!</p>
+            <p><strong>Care:</strong> Care needs depend on the mix of breeds. Generally adaptable and loving companions.</p>
+        `,
+        'Other': `
+            <h4>Special Breed</h4>
+            <p><strong>Size:</strong> Variable</p>
+            <p><strong>Temperament:</strong> Unique and special! Every breed has its own wonderful characteristics.</p>
+            <p><strong>Characteristics:</strong> Your pet is one-of-a-kind with their own special traits and personality.</p>
+            <p><strong>Care:</strong> Each breed has specific care requirements that make them special.</p>
+        `
+    };
+    
+    // Return description or default
+    return breedDescriptions[breedName] || `
+        <h4>${breedName}</h4>
+        <p>This is a wonderful breed with unique characteristics and personality traits!</p>
+        <p>Every breed has its own special qualities that make them perfect companions.</p>
+        <p>Your pet's individual personality makes them truly special regardless of breed.</p>
+    `;
+}
+
+// Close flashcard when clicking outside
+document.addEventListener('click', function(e) {
+    const modal = document.getElementById('breed-flashcard-modal');
+    const content = document.querySelector('.breed-flashcard-content');
+    
+    if (e.target === modal) {
+        closeBreedFlashcard();
+    }
+});
+
 // Social Media Sharing Functions
-function shareToWhatsApp() {
-    const url = encodeURIComponent(window.location.href);
-    const text = encodeURIComponent("🐾 Check out my pet's amazing story! 🐾");
-    window.open(`https://wa.me/?text=${text}%20${url}`, '_blank');
+function shareToSocial(platform) {
+    const customerId = '{{ customer_id }}';
+    const shareUrl = `${window.location.origin}/experience/${customerId}`;
+    const shareText = "Check out my personalized Chewy pet experience! 🐾";
+    
+    let shareLink = '';
+    
+    switch(platform) {
+        case 'facebook':
+            shareLink = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}&quote=${encodeURIComponent(shareText)}`;
+            break;
+        case 'instagram':
+            // Instagram doesn't support direct sharing via URL, so we'll copy to clipboard
+            copyToClipboard(`${shareText} ${shareUrl}`);
+            alert('Link copied to clipboard! You can now paste it in Instagram.');
+            return;
+        case 'snapchat':
+            // Snapchat doesn't support direct sharing via URL, so we'll copy to clipboard
+            copyToClipboard(`${shareText} ${shareUrl}`);
+            alert('Link copied to clipboard! You can now paste it in Snapchat.');
+            return;
+        case 'whatsapp':
+            shareLink = `https://wa.me/?text=${encodeURIComponent(shareText + ' ' + shareUrl)}`;
+            break;
+        case 'message':
+            // For SMS sharing
+            if (navigator.share) {
+                navigator.share({
+                    title: 'My Chewy Experience',
+                    text: shareText,
+                    url: shareUrl
+                });
+            } else {
+                shareLink = `sms:?body=${encodeURIComponent(shareText + ' ' + shareUrl)}`;
+            }
+            break;
+    }
+    
+    if (shareLink) {
+        window.open(shareLink, '_blank', 'width=600,height=400');
+    }
 }
-​
-function shareToInstagram() {
-    const url = encodeURIComponent(window.location.href);
-    const text = encodeURIComponent("🐾 My pet's story is incredible! 🐾");
-    // Instagram doesn't support direct URL sharing, so we'll copy to clipboard
-    copyToClipboard(`${text}\n\n${window.location.href}`);
-    showShareMessage('Link copied! You can now paste it in your Instagram story or post.');
-}
-​
-function shareToFacebook() {
-    const url = encodeURIComponent(window.location.href);
-    window.open(`https://www.facebook.com/sharer/sharer.php?u=${url}`, '_blank');
-}
-​
-function shareToMessages() {
-    const url = encodeURIComponent(window.location.href);
-    const text = encodeURIComponent("🐾 Look at my pet's amazing story! 🐾");
-    window.open(`sms:?body=${text}%20${url}`, '_blank');
-}
-​
-function shareToLinkedIn() {
-    const url = encodeURIComponent(window.location.href);
-    const text = encodeURIComponent("🐾 Sharing my pet's incredible journey! 🐾");
-    window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${url}`, '_blank');
-}
-​
-function copyLink() {
-    copyToClipboard(window.location.href);
-    showShareMessage('Link copied to clipboard! 📋');
-}
-​
+
 function copyToClipboard(text) {
     if (navigator.clipboard) {
         navigator.clipboard.writeText(text);
@@ -1072,51 +1757,5 @@ function copyToClipboard(text) {
         document.body.removeChild(textArea);
     }
 }
-​
-function showShareMessage(message) {
-    // Create a temporary message element
-    const messageEl = document.createElement('div');
-    messageEl.style.cssText = `
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        background: rgba(74, 144, 226, 0.95);
-        color: white;
-        padding: 15px 25px;
-        border-radius: 25px;
-        font-size: 14px;
-        font-weight: 600;
-        z-index: 10000;
-        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
-        backdrop-filter: blur(10px);
-        border: 1px solid rgba(255, 255, 255, 0.2);
-    `;
-    messageEl.textContent = message;
-    document.body.appendChild(messageEl);
-    
-    // Remove after 3 seconds
-    setTimeout(() => {
-        if (messageEl.parentNode) {
-            messageEl.parentNode.removeChild(messageEl);
-        }
-    }, 3000);
-}
-​
-// Personalized Playback Functions
-function goToPetProfile() {
-    // Redirect to pet profile page or show modal
-    showShareMessage('Redirecting to pet profile... 🐾');
-    // You can replace this with actual redirect logic
-    // window.location.href = '/pet-profile';
-}
-​
-function contactSupport() {
-    // Open support chat or contact form
-    showShareMessage('Opening support chat... 💬');
-    // You can replace this with actual support integration
-    // window.open('https://support.chewy.com', '_blank');
-}
 </script>
 {% endblock %} 
-wrap long lines

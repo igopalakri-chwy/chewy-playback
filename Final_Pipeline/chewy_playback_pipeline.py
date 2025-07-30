@@ -1432,6 +1432,11 @@ class ChewyPlaybackPipeline:
                     yearly_food_count = None
             consolidated_data['yearly_food_count'] = yearly_food_count
             
+            # 7. Zip Code
+            address_data = self._get_cached_customer_address(customer_id)
+            zip_code = address_data.get('zip_code', '') if address_data else ''
+            consolidated_data['zip_code'] = zip_code
+            
             # Save consolidated data to single JSON file
             consolidated_path = customer_dir / f"{customer_id}.json"
             with open(consolidated_path, 'w') as f:
