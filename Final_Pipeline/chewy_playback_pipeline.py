@@ -712,7 +712,14 @@ class ChewyPlaybackPipeline:
             # Calculate confidence scores for this customer's pets
             pet_confidence_scores = []
             for pet_name, pet_data in pets_data.items():
-                # Skip metadata fields that start with underscore
+                # Handle special case: generic playback eligible customers
+                if pet_name == '_generic_playback_eligible':
+                    generic_confidence = pet_data.get('confidence_score', 0.4)
+                    pet_confidence_scores.append(generic_confidence)
+                    print(f"  📊 {customer_id}/{pet_name}: generic playback confidence = {generic_confidence:.3f}")
+                    continue
+                
+                # Skip other metadata fields that start with underscore
                 if pet_name.startswith('_'):
                     print(f"  📊 {customer_id}/{pet_name}: skipping metadata field")
                     continue
@@ -856,10 +863,26 @@ class ChewyPlaybackPipeline:
                     "ConfidenceScore": insights.get("ConfidenceScore", 0.0)
                 }
         else:
-            # No pet profiles available - return empty results instead of creating fake pets
+            # No pet profiles available - check if customer qualifies for generic playback
             print(f"    ⚠️ No pet profiles found for customer {customer_id}")
-            print(f"    ℹ️ Order Intelligence Agent requires pet profiles to function properly")
-            return {}
+            order_count = len(orders_df)
+            
+            if order_count >= 5:
+                print(f"    ✅ Customer has {order_count} orders - eligible for generic playback")
+                print(f"    💡 Suggesting profile completion for personalized experience")
+                
+                # Create a placeholder profile that signals generic playback eligibility
+                return {
+                    "_generic_playback_eligible": {
+                        "reason": "no_pet_profiles_but_active_customer",
+                        "order_count": order_count,
+                        "message": "Complete your pet profiles for personalized insights!",
+                        "confidence_score": 0.4  # Above 0.3 threshold for generic playback
+                    }
+                }
+            else:
+                print(f"    ⚠️ Customer has only {order_count} orders - insufficient for generic playback (minimum 5 required)")
+                return {}
         
         return customer_results
     
@@ -871,6 +894,11 @@ class ChewyPlaybackPipeline:
         
         for customer_id, customer_data in enriched_profiles.items():
             print(f"  📝 Generating narratives for customer {customer_id}...")
+            
+            # Skip generic customers - they shouldn't get personalized content
+            if not customer_data.get('gets_personalized', False):
+                print(f"  ⏭️ Skipping narrative generation for generic customer {customer_id}")
+                continue
             
             # Handle new structure where pets data might be nested
             if isinstance(customer_data, dict) and 'pets' in customer_data:
@@ -974,9 +1002,12 @@ class ChewyPlaybackPipeline:
             
             # Check each pet in the enriched profile
             for pet_name, pet_data in pets_data.items():
-                # Skip metadata fields that start with underscore
+                # Skip metadata fields that start with underscore (including generic playback)
                 if pet_name.startswith('_'):
-                    print(f"    ⏭️ {pet_name}: Skipped (metadata field)")
+                    if pet_name == '_generic_playback_eligible':
+                        print(f"    ⏭️ {pet_name}: Skipped (generic playback customer - no breed prediction needed)")
+                    else:
+                        print(f"    ⏭️ {pet_name}: Skipped (metadata field)")
                     continue
                 
                 # Ensure pet_data is a dictionary
@@ -1394,7 +1425,8 @@ class ChewyPlaybackPipeline:
                 print(f"  💰 Using cached donation data for customer {customer_id}...")
                 try:
                     # Use cached data instead of making a new Snowflake call
-                    donation_results = customer_data.get('get_amt_donated', [])
+                    raw_customer_data_donation = self._get_cached_customer_data(customer_id, ['get_amt_donated'])
+                    donation_results = raw_customer_data_donation.get('get_amt_donated', [])
                     amt_donated = 0.0
                     if donation_results and isinstance(donation_results, list):
                         try:
@@ -1409,7 +1441,8 @@ class ChewyPlaybackPipeline:
                         json.dump({"amt_donated": amt_donated}, f, indent=2)
                     print(f"    ✅ Saved donation results for customer {customer_id}: {amt_donated} USD")
                     # Run cuddliest month query and save output
-                    cuddliest_results = customer_data.get('get_cudd_month', [])
+                    raw_customer_data = self._get_cached_customer_data(customer_id, ['get_cudd_month'])
+                    cuddliest_results = raw_customer_data.get('get_cudd_month', [])
                     cuddliest_month = None
                     if cuddliest_results and isinstance(cuddliest_results, list):
                         try:
@@ -1422,7 +1455,8 @@ class ChewyPlaybackPipeline:
                     with open(cuddliest_path, 'w') as f:
                         json.dump({"month": cuddliest_month}, f, indent=2)
                     # Run months with Chewy query and save output
-                    months_results = customer_data.get('get_total_months', [])
+                    raw_customer_data_months = self._get_cached_customer_data(customer_id, ['get_total_months'])
+                    months_results = raw_customer_data_months.get('get_total_months', [])
                     months_with_chewy = None
                     if months_results and isinstance(months_results, list):
                         try:
