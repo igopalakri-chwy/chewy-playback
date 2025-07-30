@@ -11,14 +11,14 @@ function getDynamicStyles(data) {
     // Food consumption styling
     const foodLbs = data.food_fun_fact ? parseFloat(data.food_fun_fact.total_food_lbs) || 0 : 0;
     if (foodLbs > 100) {
-        styles.foodIcon = 'color: #4a90e2; font-size: 70px;';
-        styles.foodTitle = 'color: #4a90e2; font-size: 28px;';
+        styles.foodIcon = 'color: white; font-size: 70px;';
+        styles.foodTitle = 'color: white; font-size: 28px;';
     } else if (foodLbs > 50) {
-        styles.foodIcon = 'color: #4a90e2; font-size: 60px;';
-        styles.foodTitle = 'color: #4a90e2; font-size: 24px;';
+        styles.foodIcon = 'color: white; font-size: 60px;';
+        styles.foodTitle = 'color: white; font-size: 24px;';
     } else {
-        styles.foodIcon = 'color: #4a90e2; font-size: 50px;';
-        styles.foodTitle = 'color: #4a90e2; font-size: 20px;';
+        styles.foodIcon = 'color: white; font-size: 50px;';
+        styles.foodTitle = 'color: white; font-size: 20px;';
     }
     
     return styles;
@@ -35,7 +35,31 @@ document.addEventListener('DOMContentLoaded', function() {
     
     const foodTitle = document.querySelector('.funfact-title');
     if (foodTitle) foodTitle.style.cssText = styles.foodTitle;
+    
+    // Animate the food number with counting effect
+    animateFoodNumber();
 });
+
+function animateFoodNumber() {
+    const numberElement = document.getElementById('food-number');
+    if (!numberElement) return;
+    
+    const finalNumber = parseInt(numberElement.textContent);
+    let currentNumber = 0;
+    const duration = 2000; // 2 seconds
+    const steps = 60;
+    const increment = finalNumber / steps;
+    const stepDuration = duration / steps;
+    
+    const timer = setInterval(() => {
+        currentNumber += increment;
+        if (currentNumber >= finalNumber) {
+            currentNumber = finalNumber;
+            clearInterval(timer);
+        }
+        numberElement.textContent = Math.floor(currentNumber);
+    }, stepDuration);
+}
 </script>
 
 <style>
@@ -47,25 +71,29 @@ document.addEventListener('DOMContentLoaded', function() {
 }
 
 body {
-    font-family: 'Arial', sans-serif;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: linear-gradient(135deg, #0066cc 0%, #004499 50%, #002266 100%);
     min-height: 100vh;
     overflow-x: hidden;
 }
 
 .container {
     width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
+    height: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: linear-gradient(135deg, #0066cc 0%, #004499 50%, #002266 100%);
 }
 
 /* Slide styles */
 .slide {
     display: none;
-    min-height: 100vh;
-    padding: 40px 20px;
+    height: 100%;
+    padding: 0;
     position: relative;
+    margin: 0;
 }
 
 .slide.active {
@@ -73,94 +101,203 @@ body {
 }
 
 .slide-content {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #0066cc 0%, #004499 50%, #002266 100%);
     color: white;
-    padding: 40px 20px;
-    min-height: 100vh;
+    padding: 20px 15px 60px 15px;
+    height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     text-align: center;
-    border-radius: 20px;
-    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+    border-radius: 0;
+    box-shadow: none;
+    overflow-y: auto;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-/* Navigation */
-.slide-actions {
-    position: absolute;
-    bottom: 30px;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    gap: 20px;
-    z-index: 10;
-}
 
-.nav-btn {
-    padding: 12px 24px;
-    background: rgba(255,255,255,0.2);
-    color: white;
-    border: 2px solid rgba(255,255,255,0.3);
-    border-radius: 25px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: all 0.3s ease;
-    backdrop-filter: blur(10px);
-}
-
-.nav-btn:hover {
-    background: rgba(255,255,255,0.3);
-    transform: translateY(-2px);
-}
 
 /* Slide counter */
 .slide-counter {
     position: absolute;
-    top: 20px;
-    right: 20px;
-    background: rgba(255,255,255,0.2);
+    top: 15px;
+    right: 15px;
+    background: rgba(0, 102, 204, 0.9);
     color: white;
-    padding: 8px 16px;
-    border-radius: 20px;
-    font-size: 14px;
+    padding: 6px 10px;
+    border-radius: 12px;
+    font-size: 11px;
+    font-weight: 500;
     backdrop-filter: blur(10px);
+    z-index: 10;
 }
 
 /* Food Fun Fact Slide */
 .funfact-container {
-    max-width: 800px;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.food-consumption-title {
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 20px 0 10px 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.food-consumption-subtitle {
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+    opacity: 0.9;
+}
+
+.funfact-messages {
+    text-align: left;
+    max-width: 90%;
     margin: 0 auto;
 }
 
+.funfact-message {
+    color: white;
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin-bottom: 15px;
+    padding: 15px;
+    background: rgba(0, 102, 204, 0.1);
+    border-radius: 10px;
+    border-left: 4px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Spotify Wrapped Style */
+.spotify-wrapped-container {
+    text-align: center;
+    padding: 40px 20px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.wrapped-text-line {
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 8px;
+    opacity: 0.9;
+    animation: fadeInUp 0.8s ease-out;
+}
+
+.wrapped-number {
+    color: white;
+    font-size: 72px;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+    margin: 20px 0;
+    animation: numberPop 1.2s ease-out;
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.wrapped-highlight {
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 12px;
+    animation: slideInRight 0.8s ease-out;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Animations */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes numberPop {
+    0% {
+        opacity: 0;
+        transform: scale(0.5) translateY(50px);
+    }
+    50% {
+        transform: scale(1.1) translateY(-10px);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        opacity: 0;
+        transform: translateX(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
 .funfact-icon {
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 .funfact-content {
-    background: rgba(255,255,255,0.1);
-    padding: 40px;
-    border-radius: 20px;
+    background: rgba(0, 102, 204, 0.15);
+    padding: 20px 15px;
+    border-radius: 12px;
     backdrop-filter: blur(10px);
+    margin: 10px 0;
+    border: 1px solid rgba(0, 102, 204, 0.3);
 }
 
 .funfact-title {
     color: white;
-    font-size: 32px;
-    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 20px 0 15px 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 .funfact-highlight {
-    background: linear-gradient(135deg, #4a90e2, #2a5298);
-    padding: 25px;
-    border-radius: 15px;
-    margin-top: 20px;
+    background: linear-gradient(135deg, #0066cc, #004499);
+    padding: 20px;
+    border-radius: 12px;
+    margin-top: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Slide title styling */
+.slide-title {
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+    margin: 30px 0 20px 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
 }
 
 .funfact-text {
     color: white;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.6;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
 }
 
 /* Busiest Month Slide */
@@ -225,10 +362,18 @@ body {
 
 .letter-content {
     color: white;
-    font-size: 18px;
-    line-height: 1.8;
+    font-size: 15px;
+    line-height: 1.6;
     text-align: left;
     white-space: pre-wrap;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    padding: 15px;
+    background: rgba(0, 102, 204, 0.1);
+    border-radius: 10px;
+    margin: 10px 0;
+    max-height: 60vh;
+    overflow-y: auto;
 }
 
 /* Badge Slide */
@@ -248,18 +393,24 @@ body {
 
 .badge-title {
     color: white;
-    font-size: 32px;
-    margin-bottom: 20px;
+    font-size: 24px;
+    margin: 20px 0 15px 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
 }
 
 .badge-description {
     color: white;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.6;
-    background: rgba(255,255,255,0.1);
-    padding: 25px;
-    border-radius: 15px;
+    background: rgba(0, 102, 204, 0.15);
+    padding: 20px 15px;
+    border-radius: 12px;
     backdrop-filter: blur(10px);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    border: 1px solid rgba(0, 102, 204, 0.3);
+    margin: 10px 0;
 }
 
 /* Breed Slide */
@@ -283,7 +434,7 @@ body {
 }
 
 .breed-name {
-    color: #4a90e2;
+    color: white;
     font-size: 36px;
     font-weight: bold;
     margin-bottom: 20px;
@@ -314,7 +465,7 @@ body {
 }
 
 .breed-highlight-text strong {
-    color: #4a90e2;
+    color: white;
     font-weight: bold;
 }
 
@@ -345,14 +496,14 @@ body {
 }
 
 .breed-prediction-card .breed-name {
-    color: #4a90e2;
+    color: white;
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 10px;
 }
 
 .breed-prediction-card .breed-percentage {
-    color: #2a5298;
+    color: white;
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 5px;
@@ -437,7 +588,7 @@ body {
 .breed-checkbox {
     width: 20px;
     height: 20px;
-    accent-color: #4a90e2;
+    accent-color: white;
 }
 
 .breed-checkbox-item label {
@@ -581,7 +732,7 @@ body {
 }
 
 .stat-value {
-    color: #4a90e2;
+    color: white;
     font-size: 28px;
     font-weight: bold;
     margin-bottom: 10px;
@@ -722,7 +873,7 @@ body {
 
 .social-icon.snapchat:hover i,
 .social-icon.snapchat:hover .social-label {
-    color: #000;
+    color: white;
 }
 
 .social-icon.instagram:hover {
@@ -796,7 +947,7 @@ body {
 }
 
 .unknowns-pet-name {
-    color: #4a90e2;
+    color: white;
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 20px;
@@ -896,25 +1047,25 @@ body {
 </style>
 
 <div class="container">
-    <!-- Arrow Navigation -->
-    <button class="slide-arrow-nav prev" id="prev-arrow" onclick="prevSlide()" disabled>
-        <i class="fas fa-chevron-left"></i>
-    </button>
-    <button class="slide-arrow-nav next" id="next-arrow" onclick="nextSlide()">
-        <i class="fas fa-chevron-right"></i>
-    </button>
+            <!-- Arrow Navigation -->
+            <button class="slide-arrow-nav prev" id="prev-arrow" onclick="prevSlide()" disabled>
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="slide-arrow-nav next" id="next-arrow" onclick="nextSlide()">
+                <i class="fas fa-chevron-right"></i>
+            </button>
 
-    <!-- Debug Info (temporary) -->
-    <div style="position: fixed; top: 10px; left: 10px; background: rgba(0,0,0,0.8); color: white; padding: 10px; border-radius: 5px; font-size: 12px; z-index: 1000;">
-        <strong>Debug Info:</strong><br>
-        Food Fun Fact: {{ customer_data.food_fun_fact is defined }}<br>
-        Portrait: {{ customer_data.portrait is defined }}<br>
-        Letter: {{ customer_data.letter is defined }}<br>
-        Badge: {{ customer_data.badge is defined }}<br>
-        Breed: {{ customer_data.breed_prediction is defined }}<br>
-        Consolidated: {{ customer_data.consolidated_queries is defined }}<br>
-        Unknowns: {{ customer_data.unknowns is defined }}
-    </div>
+            <!-- Debug Info (temporary) -->
+            <div style="position: fixed; top: 10px; left: 10px; background: rgba(0,0,0,0.8); color: white; padding: 10px; border-radius: 5px; font-size: 12px; z-index: 1000;">
+                <strong>Debug Info:</strong><br>
+                Food Fun Fact: {{ customer_data.food_fun_fact is defined }}<br>
+                Portrait: {{ customer_data.portrait is defined }}<br>
+                Letter: {{ customer_data.letter is defined }}<br>
+                Badge: {{ customer_data.badge is defined }}<br>
+                Breed: {{ customer_data.breed_prediction is defined }}<br>
+                Consolidated: {{ customer_data.consolidated_queries is defined }}<br>
+                Unknowns: {{ customer_data.unknowns is defined }}
+            </div>
 
     <!-- Loading Slide -->
     <div class="slide active" id="slide-0">
@@ -930,44 +1081,31 @@ body {
     {% if customer_data.food_fun_fact and customer_data.food_fun_fact.total_food_lbs and customer_data.food_fun_fact.total_food_lbs > 0 %}
     <div class="slide" id="slide-1">
         <div class="slide-content funfact-slide">
-            <div class="slide-header" style="text-align: center; margin-bottom: 30px;">
-                <h2 class="slide-title" style="text-align: center; margin: 0;">
-                    <span class="emoji celebration">🍽️</span> Your Pet's Food Journey <span class="emoji celebration">🍽️</span>
+            <div class="slide-header" style="text-align: center; margin-bottom: 20px;">
+                <h2 class="slide-title" style="text-align: center; margin: 0; color: white !important; text-shadow: none !important; filter: none !important; font-family: 'Poppins', sans-serif; font-weight: 600;">
+                    <span class="emoji celebration" style="color: white !important;">🍽️</span> Total lbs of food consumed <span class="emoji celebration" style="color: white !important;">🍽️</span>
                 </h2>
             </div>
             
-            <div class="funfact-container">
-                <div class="funfact-icon">
-                    <i class="fas fa-weight" style="font-size: 60px; color: #4a90e2;"></i>
-                </div>
-                <div class="funfact-content">
-                    <h3 class="funfact-title">Your Pet's Food Journey</h3>
-                    <div style="background: rgba(255,255,255,0.1); padding: 25px; border-radius: 15px; margin-bottom: 20px;">
-                        <h4 style="color: #4a90e2; font-size: 32px; margin-bottom: 10px; text-align: center;">
-                            {{ customer_data.food_fun_fact.total_food_lbs }} lbs
-                        </h4>
-                        <p style="color: white; font-size: 18px; text-align: center; margin-bottom: 15px;">
-                            {{ customer_data.food_fun_fact.message }}
-                        </p>
-                    </div>
-                    {% if customer_data.food_fun_fact.fun_facts %}
-                    <div class="funfact-highlight">
-                        <p class="funfact-text">
-                            {{ customer_data.food_fun_fact.fun_facts[0] }}
-                        </p>
-                    </div>
-                    {% endif %}
-                </div>
+            <div class="spotify-wrapped-container">
+                <div class="wrapped-text-line">We're big believers in</div>
+                <div class="wrapped-text-line">feeding your pets</div>
+                <div class="wrapped-text-line">and we're glad your pets ate...</div>
+                
+                <div class="wrapped-number" id="food-number">{{ customer_data.food_fun_fact.total_food_lbs }}</div>
+                <div class="wrapped-text-line">lbs to be exact.</div>
             </div>
             
-            <div class="slide-actions">
-                <button class="nav-btn prev-btn" onclick="prevSlide()">
-                    <i class="fas fa-arrow-left"></i>
-                </button>
-                <button class="nav-btn next-btn" onclick="nextSlide()">
-                    <i class="fas fa-arrow-right"></i>
-                </button>
+            <div class="funfact-container">
+                {% if customer_data.food_fun_fact.fun_facts %}
+                <div class="funfact-messages">
+                    {% for fun_fact in customer_data.food_fun_fact.fun_facts %}
+                    <p class="funfact-message">{{ fun_fact }}</p>
+                    {% endfor %}
+                </div>
+                {% endif %}
             </div>
+            
             <div class="slide-counter">1 of 8</div>
         </div>
     </div>
@@ -978,19 +1116,19 @@ body {
     <div class="slide" id="slide-1-busiest">
         <div class="slide-content busiest-slide">
             <div class="slide-header" style="text-align: center; margin-bottom: 30px;">
-                <h2 class="slide-title" style="text-align: center; margin: 0;">
-                    <span class="emoji celebration">📅</span> Your Busiest Month <span class="emoji celebration">📅</span>
+                <h2 class="slide-title" style="text-align: center; margin: 0; color: white !important; text-shadow: none !important; filter: none !important;">
+                    <span class="emoji celebration" style="color: white !important;">📅</span> Your Busiest Month <span class="emoji celebration" style="color: white !important;">📅</span>
                 </h2>
             </div>
             
             <div class="busiest-container">
                 <div class="busiest-icon">
-                    <i class="fas fa-calendar-alt" style="font-size: 60px; color: #4a90e2;"></i>
+                    <i class="fas fa-calendar-alt" style="font-size: 60px; color: white;"></i>
                 </div>
                 <div class="busiest-content">
                     <h3 class="busiest-title">Your Busiest Month</h3>
                     <div style="background: rgba(255,255,255,0.1); padding: 25px; border-radius: 15px; margin-bottom: 20px;">
-                        <h4 style="color: #4a90e2; font-size: 32px; margin-bottom: 10px; text-align: center;">
+                        <h4 style="color: white; font-size: 32px; margin-bottom: 10px; text-align: center;">
                             {{ customer_data.cuddliest_month }}
                         </h4>
                         <p style="color: white; font-size: 18px; text-align: center; margin-bottom: 15px;">
@@ -1005,14 +1143,6 @@ body {
                 </div>
             </div>
             
-            <div class="slide-actions">
-                <button class="nav-btn prev-btn" onclick="prevSlide()">
-                    <i class="fas fa-arrow-left"></i>
-                </button>
-                <button class="nav-btn next-btn" onclick="nextSlide()">
-                    <i class="fas fa-arrow-right"></i>
-                </button>
-            </div>
             <div class="slide-counter">1 of 8</div>
         </div>
     </div>
@@ -1022,26 +1152,16 @@ body {
     {% if customer_data.portrait %}
     <div class="slide" id="slide-2">
         <div class="slide-content portrait-slide">
-            <div class="slide-header" style="text-align: center; margin-bottom: 30px;">
-                <h2 class="slide-title" style="text-align: center; margin: 0;">
-                    <span class="emoji celebration">🎨</span> Your Pet Portrait <span class="emoji celebration">🎨</span>
+            <div class="slide-header" style="text-align: center; margin-bottom: 15px;">
+                <h2 class="slide-title" style="text-align: center; margin: 0; color: white !important; text-shadow: none !important; filter: none !important; font-size: 20px;">
+                    <span class="emoji celebration" style="color: white !important;">🎨</span> Your Pet Portrait <span class="emoji celebration" style="color: white !important;">🎨</span>
                 </h2>
             </div>
             
-            <div class="portrait-container">
-                <img src="{{ customer_data.portrait }}" alt="Pet Portrait" class="portrait-image">
-                <h3 style="color: white; font-size: 24px; margin-top: 20px;">Your Personalized Pet Portrait</h3>
-                <p style="color: white; font-size: 18px; margin-top: 10px;">A unique AI-generated portrait of your beloved pets!</p>
+            <div class="portrait-container-fullscreen">
+                <img src="{{ customer_data.portrait }}" alt="Pet Portrait" class="portrait-image-fullscreen">
             </div>
             
-            <div class="slide-actions">
-                <button class="nav-btn prev-btn" onclick="prevSlide()">
-                    <i class="fas fa-arrow-left"></i>
-                </button>
-                <button class="nav-btn next-btn" onclick="nextSlide()">
-                    <i class="fas fa-arrow-right"></i>
-                </button>
-            </div>
             <div class="slide-counter">2 of 8</div>
         </div>
     </div>
@@ -1052,8 +1172,8 @@ body {
     <div class="slide" id="slide-3">
         <div class="slide-content letter-slide">
             <div class="slide-header" style="text-align: center; margin-bottom: 30px;">
-                <h2 class="slide-title" style="text-align: center; margin: 0;">
-                    <span class="emoji celebration">💌</span> A Letter from Your Pets <span class="emoji celebration">💌</span>
+                <h2 class="slide-title" style="text-align: center; margin: 0; color: white !important; text-shadow: none !important; filter: none !important;">
+                    <span class="emoji celebration" style="color: white !important;">💌</span> A Letter from Your Pets <span class="emoji celebration" style="color: white !important;">💌</span>
                 </h2>
             </div>
             
@@ -1063,14 +1183,6 @@ body {
                 </div>
             </div>
             
-            <div class="slide-actions">
-                <button class="nav-btn prev-btn" onclick="prevSlide()">
-                    <i class="fas fa-arrow-left"></i>
-                </button>
-                <button class="nav-btn next-btn" onclick="nextSlide()">
-                    <i class="fas fa-arrow-right"></i>
-                </button>
-            </div>
             <div class="slide-counter">3 of 8</div>
         </div>
     </div>
@@ -1080,28 +1192,50 @@ body {
     {% if customer_data.badge %}
     <div class="slide" id="slide-4">
         <div class="slide-content badge-slide">
-            <div class="slide-header" style="text-align: center; margin-bottom: 30px;">
-                <h2 class="slide-title" style="text-align: center; margin: 0;">
-                    <span class="emoji celebration">🏆</span> Your Pet's Personality <span class="emoji celebration">🏆</span>
-                </h2>
-            </div>
-            
-            <div class="badge-container">
-                <img src="{{ customer_data.badge.image_path }}" alt="Personality Badge" class="badge-image">
-                <h3 class="badge-title">{{ customer_data.badge.badge }}</h3>
-                <div class="badge-description">
+            <div class="spotify-wrapped-badge-container">
+                <!-- Badge on top -->
+                <div class="badge-hero-section">
+                    <img src="{{ customer_data.badge.image_path }}" alt="Personality Badge" class="badge-hero-image">
+                    <h2 class="badge-hero-title">{{ customer_data.badge.badge }}</h2>
+                </div>
+                
+                <!-- Descriptive words -->
+                <div class="badge-descriptive-words">
+                    <div class="word-item">Loving</div>
+                    <div class="word-item">Playful</div>
+                    <div class="word-item">Loyal</div>
+                    <div class="word-item">Adventurous</div>
+                </div>
+                
+                <!-- Description -->
+                <div class="badge-description-spotify">
                     <p>{{ customer_data.badge.description }}</p>
+                </div>
+                
+                <!-- Compatible types -->
+                <div class="compatible-types-section">
+                    <h3 class="compatible-title">Other compatible types</h3>
+                    <div class="compatible-badges-grid">
+                        <div class="compatible-badge">
+                            <img src="/static/personalityzipped/badge_athlete copy.png" alt="Athlete Badge" class="compatible-badge-image">
+                            <span class="compatible-badge-name">Athlete</span>
+                        </div>
+                        <div class="compatible-badge">
+                            <img src="/static/personalityzipped/badge_cuddler copy.png" alt="Cuddler Badge" class="compatible-badge-image">
+                            <span class="compatible-badge-name">Cuddler</span>
+                        </div>
+                        <div class="compatible-badge">
+                            <img src="/static/personalityzipped/badge_explorer copy.png" alt="Explorer Badge" class="compatible-badge-image">
+                            <span class="compatible-badge-name">Explorer</span>
+                        </div>
+                        <div class="compatible-badge">
+                            <img src="/static/personalityzipped/badge_guardian copy.png" alt="Guardian Badge" class="compatible-badge-image">
+                            <span class="compatible-badge-name">Guardian</span>
+                        </div>
+                    </div>
                 </div>
             </div>
             
-            <div class="slide-actions">
-                <button class="nav-btn prev-btn" onclick="prevSlide()">
-                    <i class="fas fa-arrow-left"></i>
-                </button>
-                <button class="nav-btn next-btn" onclick="nextSlide()">
-                    <i class="fas fa-arrow-right"></i>
-                </button>
-            </div>
             <div class="slide-counter">4 of 8</div>
         </div>
     </div>
@@ -1112,8 +1246,8 @@ body {
     <div class="slide" id="slide-5">
         <div class="slide-content breed-slide">
             <div class="slide-header" style="text-align: center; margin-bottom: 30px;">
-                <h2 class="slide-title" style="text-align: center; margin: 0;">
-                    <span class="emoji celebration">🐕</span> Breed Prediction <span class="emoji celebration">🐕</span>
+                <h2 class="slide-title" style="text-align: center; margin: 0; color: white !important; text-shadow: none !important; filter: none !important;">
+                    <span class="emoji celebration" style="color: white !important;">🐕</span> Breed Prediction <span class="emoji celebration" style="color: white !important;">🐕</span>
                 </h2>
             </div>
             
@@ -1132,7 +1266,7 @@ body {
                     <div class="breed-predictions-grid" id="breed-predictions-grid">
                         {% if customer_data.breed_prediction.multiple_predictions %}
                             {% for prediction in customer_data.breed_prediction.multiple_predictions %}
-                            <div class="breed-prediction-card" onclick="showBreedFlashcard('{{ prediction.prediction.top_predicted_breed.breed }}', '{{ prediction.pet_name }}', {{ "%.1f"|format(prediction.prediction.top_predicted_breed.confidence * 100) }})">
+                            <div class="breed-prediction-card" data-breed="{{ prediction.prediction.top_predicted_breed.breed }}" data-pet="{{ prediction.pet_name }}" data-confidence="{{ "%.1f"|format(prediction.prediction.top_predicted_breed.confidence * 100) }}" onclick="showBreedFlashcardFromData(this)">
                                 <div class="breed-name">{{ prediction.prediction.top_predicted_breed.breed }}</div>
                                 <div class="breed-percentage">{{ "%.1f"|format(prediction.prediction.top_predicted_breed.confidence * 100) }}%</div>
                                 <div class="breed-pet-name">for {{ prediction.pet_name }}</div>
@@ -1215,14 +1349,6 @@ body {
                 </div>
             </div>
             
-            <div class="slide-actions">
-                <button class="nav-btn prev-btn" onclick="prevSlide()">
-                    <i class="fas fa-arrow-left"></i>
-                </button>
-                <button class="nav-btn next-btn" onclick="nextSlide()">
-                    <i class="fas fa-arrow-right"></i>
-                </button>
-            </div>
             <div class="slide-counter">5 of 8</div>
         </div>
     </div>
@@ -1233,8 +1359,8 @@ body {
     <div class="slide" id="slide-6">
         <div class="slide-content stats-slide">
             <div class="slide-header" style="text-align: center; margin-bottom: 30px;">
-                <h2 class="slide-title" style="text-align: center; margin: 0;">
-                    <span class="emoji celebration">📊</span> Your Other Stats <span class="emoji celebration">📊</span>
+                <h2 class="slide-title" style="text-align: center; margin: 0; color: white !important; text-shadow: none !important; filter: none !important;">
+                    <span class="emoji celebration" style="color: white !important;">📊</span> Your Other Stats <span class="emoji celebration" style="color: white !important;">📊</span>
                 </h2>
             </div>
             
@@ -1280,14 +1406,6 @@ body {
                 </div>
             </div>
             
-            <div class="slide-actions">
-                <button class="nav-btn prev-btn" onclick="prevSlide()">
-                    <i class="fas fa-arrow-left"></i>
-                </button>
-                <button class="nav-btn next-btn" onclick="nextSlide()">
-                    <i class="fas fa-arrow-right"></i>
-                </button>
-            </div>
             <div class="slide-counter">6 of 8</div>
         </div>
     </div>
@@ -1297,8 +1415,8 @@ body {
     <div class="slide" id="slide-7">
         <div class="slide-content share-slide">
             <div class="slide-header" style="text-align: center; margin-bottom: 30px;">
-                <h2 class="slide-title" style="text-align: center; margin: 0;">
-                    <span class="emoji celebration">📱</span> Share Your Experience <span class="emoji celebration">📱</span>
+                <h2 class="slide-title" style="text-align: center; margin: 0; color: white !important; text-shadow: none !important; filter: none !important;">
+                    <span class="emoji celebration" style="color: white !important;">📱</span> Share Your Experience <span class="emoji celebration" style="color: white !important;">📱</span>
                 </h2>
             </div>
             
@@ -1335,21 +1453,13 @@ body {
                     </div>
                     
                     <div style="margin-top: 30px;">
-                        <span style="color: #4a90e2; font-size: 48px;">🎉</span>
-                        <span style="color: #4a90e2; font-size: 48px;">🐾</span>
-                        <span style="color: #4a90e2; font-size: 48px;">🎉</span>
+                        <span style="color: white; font-size: 48px;">🎉</span>
+                        <span style="color: white; font-size: 48px;">🐾</span>
+                        <span style="color: white; font-size: 48px;">🎉</span>
                     </div>
                 </div>
             </div>
             
-            <div class="slide-actions">
-                <button class="nav-btn prev-btn" onclick="prevSlide()">
-                    <i class="fas fa-arrow-left"></i>
-                </button>
-                <button class="nav-btn next-btn" onclick="nextSlide()">
-                    <i class="fas fa-arrow-right"></i>
-                </button>
-            </div>
             <div class="slide-counter">7 of 8</div>
         </div>
     </div>
@@ -1359,8 +1469,8 @@ body {
     <div class="slide" id="slide-8">
         <div class="slide-content unknowns-slide">
             <div class="slide-header" style="text-align: center; margin-bottom: 30px;">
-                <h2 class="slide-title" style="text-align: center; margin: 0;">
-                    <span class="emoji celebration">🔍</span> Missing Pet Information <span class="emoji celebration">🔍</span>
+                <h2 class="slide-title" style="text-align: center; margin: 0; color: white !important; text-shadow: none !important; filter: none !important;">
+                    <span class="emoji celebration" style="color: white !important;">🔍</span> Missing Pet Information <span class="emoji celebration" style="color: white !important;">🔍</span>
                 </h2>
             </div>
             
@@ -1409,14 +1519,6 @@ body {
                 </div>
             </div>
             
-            <div class="slide-actions">
-                <button class="nav-btn prev-btn" onclick="prevSlide()">
-                    <i class="fas fa-arrow-left"></i>
-                </button>
-                <button class="nav-btn home-btn" onclick="goHome()">
-                    <i class="fas fa-home"></i> Home
-                </button>
-            </div>
             <div class="slide-counter">8 of 8</div>
         </div>
     </div>
@@ -1570,35 +1672,7 @@ function handleSwipe() {
     }
 }
 
-// Auto-advance slides (optional)
-let autoAdvanceInterval;
 
-function startAutoAdvance() {
-    autoAdvanceInterval = setInterval(() => {
-        if (currentSlide < totalSlides) {
-            nextSlide();
-        } else {
-            clearInterval(autoAdvanceInterval);
-        }
-    }, 8000); // 8 seconds per slide
-}
-
-function stopAutoAdvance() {
-    if (autoAdvanceInterval) {
-        clearInterval(autoAdvanceInterval);
-    }
-}
-
-// Start auto-advance after user interaction
-document.addEventListener('click', function() {
-    if (!autoAdvanceInterval) {
-        startAutoAdvance();
-    }
-});
-
-// Pause auto-advance on hover
-document.addEventListener('mouseenter', stopAutoAdvance);
-document.addEventListener('mouseleave', startAutoAdvance);
 
 // Breed Prediction Interactive Functions
 function showBreedFeedback(answer) {
@@ -1612,6 +1686,13 @@ function showBreedFeedback(answer) {
     } else {
         document.getElementById('breed-feedback-no').style.display = 'block';
     }
+}
+
+function showBreedFlashcardFromData(element) {
+    const breedName = element.getAttribute('data-breed');
+    const petName = element.getAttribute('data-pet');
+    const confidence = element.getAttribute('data-confidence');
+    showBreedFlashcard(breedName, petName, confidence);
 }
 
 function showBreedFlashcard(breedName, petName, confidence) {

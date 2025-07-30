@@ -102,6 +102,19 @@ body::before {
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    box-sizing: border-box;
+}
+
+/* Ensure all content stays within mobile frame */
+.phone-screen * {
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+/* Prevent horizontal overflow */
+.phone-screen,
+.phone-screen * {
+    overflow-x: hidden;
 }
 
 /* Landing Page Styles */
@@ -204,6 +217,44 @@ body::before {
     color: rgba(255, 255, 255, 0.9);
     font-weight: 500;
     text-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Preview Section */
+.preview-section {
+    margin: 30px 0;
+    text-align: center;
+}
+
+.preview-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.preview-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+.preview-title {
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.preview-description {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* Input Section */
@@ -1072,6 +1123,9 @@ body::before {
     text-align: center;
     position: relative;
     overflow-y: auto;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    max-width: 100%;
 }
 
 /* Welcome Slide */
@@ -1642,8 +1696,8 @@ body::before {
     width: 100%;
     padding: 0 20px;
     letter-spacing: -0.5px;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-    filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.3));
+    text-shadow: none;
+    filter: none;
 }
 
 /* Force white color for all slide titles */
@@ -1654,33 +1708,44 @@ body::before {
 .slide-title h3,
 .slide-title p {
     color: #ffffff !important;
+    text-shadow: none !important;
+    filter: none !important;
+    box-shadow: none !important;
+    -webkit-text-shadow: none !important;
+    -moz-text-shadow: none !important;
 }
 
 /* Emoji colors for slide titles */
 .slide-title .emoji {
     display: inline-block;
     animation: emojiBounce 2s ease-in-out infinite;
+    color: #ffffff !important;
+    text-shadow: none !important;
+    filter: none !important;
+    box-shadow: none !important;
+    -webkit-text-shadow: none !important;
+    -moz-text-shadow: none !important;
 }
 
-/* Specific emoji colors */
+/* Specific emoji colors - all white */
 .slide-title .emoji.celebration {
-    color: #FFD700; /* Gold for celebration emojis */
-    text-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+    color: #ffffff !important;
+    text-shadow: none;
 }
 
 .slide-title .emoji.dog {
-    color: #8B4513; /* Brown for dog emojis */
-    text-shadow: 0 0 10px rgba(139, 69, 19, 0.5);
+    color: #ffffff !important;
+    text-shadow: none;
 }
 
 .slide-title .emoji.search {
-    color: #FF6B6B; /* Red for search emojis */
-    text-shadow: 0 0 10px rgba(255, 107, 107, 0.5);
+    color: #ffffff !important;
+    text-shadow: none;
 }
 
 .slide-title .emoji.paw {
-    color: #FF69B4; /* Pink for paw emojis */
-    text-shadow: 0 0 10px rgba(255, 105, 180, 0.5);
+    color: #ffffff !important;
+    text-shadow: none;
 }
 
 @keyframes emojiBounce {
@@ -1814,205 +1879,11 @@ body::before {
     50% { opacity: 0.8; transform: scale(1.05); }
 }
 
-.badge-container {
-    flex: 1;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    margin-bottom: 30px;
-    position: relative;
-    z-index: 2;
-    max-height: 80vh;
-    overflow: visible;
-    padding: 20px 0;
-    width: 100%;
-}
+/* Old badge styles removed - using new Spotify Wrapped design */
 
-.badge-display {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 25px;
-    background: rgba(255, 255, 255, 0.95);
-    border-radius: 28px;
-    padding: 35px 30px;
-    box-shadow: 
-        0 20px 40px rgba(0, 0, 0, 0.15),
-        0 0 0 1px rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(15px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    position: relative;
-    overflow-y: visible;
-    max-height: none;
-    width: 100%;
-    max-width: 400px;
-}
+/* Old badge styles removed - using new Spotify Wrapped design */
 
-.badge-display::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(135deg, rgba(74, 144, 226, 0.08), rgba(42, 82, 152, 0.08));
-    pointer-events: none;
-}
-
-.badge-image-container {
-    width: 140px;
-    height: 140px;
-    border-radius: 50%;
-    background: linear-gradient(135deg, #4a90e2, #2a5298);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 
-        0 15px 35px rgba(74, 144, 226, 0.4),
-        0 0 0 3px rgba(255, 255, 255, 0.2),
-        inset 0 2px 0 rgba(255, 255, 255, 0.1);
-    position: relative;
-    z-index: 1;
-    animation: none !important;
-    transform: none !important;
-    transition: none !important;
-}
-
-@keyframes badgePulse {
-    0%, 100% { 
-        box-shadow: 
-            0 15px 35px rgba(74, 144, 226, 0.4),
-            0 0 0 3px rgba(255, 255, 255, 0.2),
-            inset 0 2px 0 rgba(255, 255, 255, 0.1);
-    }
-    50% { 
-        box-shadow: 
-            0 20px 45px rgba(74, 144, 226, 0.6),
-            0 0 0 5px rgba(255, 255, 255, 0.3),
-            inset 0 2px 0 rgba(255, 255, 255, 0.2);
-    }
-}
-
-.badge-image {
-    width: 90px;
-    height: 90px;
-    object-fit: contain;
-    border-radius: 50%;
-    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
-    animation: none !important;
-    transform: none !important;
-    transition: none !important;
-}
-
-.badge-info {
-    text-align: center;
-    position: relative;
-    z-index: 1;
-    width: 100%;
-    min-height: 0;
-}
-
-.badge-title {
-    font-family: 'Poppins', 'Inter', sans-serif;
-    font-size: 20px;
-    font-weight: 700;
-    margin-bottom: 10px;
-    background: linear-gradient(135deg, #60a5fa 0%, #3b82f6 50%, #1d4ed8 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.1));
-}
-
-.badge-description {
-    font-size: 14px;
-    color: #4a90e2;
-    line-height: 1.5;
-    font-weight: 500;
-    margin-bottom: 15px;
-    max-width: 320px;
-}
-
-/* Compatible Section */
-.compatible-section {
-    margin-top: 15px;
-    padding-top: 15px;
-    border-top: 1px solid rgba(74, 144, 226, 0.2);
-    width: 100%;
-    position: relative;
-    z-index: 2;
-}
-
-.compatible-title {
-    font-family: 'Poppins', 'Inter', sans-serif;
-    font-size: 14px;
-    font-weight: 500;
-    color: #4a90e2;
-    margin-bottom: 10px;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
-.compatible-badges {
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-    align-items: center;
-    width: 100%;
-    margin-top: 8px;
-    position: relative;
-    z-index: 10;
-}
-
-.compatible-badge {
-    background: rgba(74, 144, 226, 0.05);
-    border: 1px solid rgba(74, 144, 226, 0.2);
-    border-radius: 6px;
-    padding: 6px 12px;
-    transition: all 0.2s ease;
-    cursor: pointer;
-    min-width: 100px;
-    text-align: center;
-    position: relative;
-    z-index: 15;
-}
-
-.compatible-badge:hover {
-    background: rgba(74, 144, 226, 0.1);
-    border-color: rgba(74, 144, 226, 0.3);
-    transform: translateY(-1px);
-}
-
-.compatible-name {
-    font-family: 'Poppins', 'Inter', sans-serif;
-    font-size: 12px;
-    font-weight: 500;
-    color: #4a90e2;
-    display: block;
-    letter-spacing: 0.3px;
-}
-
-/* Badge Display Scrollbar Styling */
-.badge-display::-webkit-scrollbar {
-    width: 8px;
-}
-
-.badge-display::-webkit-scrollbar-track {
-    background: rgba(255, 255, 255, 0.2);
-    border-radius: 4px;
-    margin: 10px 0;
-}
-
-.badge-display::-webkit-scrollbar-thumb {
-    background: linear-gradient(135deg, rgba(74, 144, 226, 0.6), rgba(42, 82, 152, 0.6));
-    border-radius: 4px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-}
-
-.badge-display::-webkit-scrollbar-thumb:hover {
-    background: linear-gradient(135deg, rgba(74, 144, 226, 0.8), rgba(42, 82, 152, 0.8));
-}
+/* Old badge scrollbar styles removed - using new Spotify Wrapped design */
 
 /* Loading Slide */
 .loading-slide {
@@ -2192,7 +2063,6 @@ body::before {
 /* Portrait Slide */
 .portrait-slide {
     background: linear-gradient(135deg, #0d2b5e 0%, #1e3c72 25%, #2a5298 50%, #4a90e2 75%, #5ba0f2 100%);
-<<<<<<< Updated upstream
 }
 
 /* Share Slide */
@@ -2216,8 +2086,6 @@ body::before {
 @keyframes shareGlow {
     0%, 100% { opacity: 0.5; transform: scale(1); }
     50% { opacity: 0.8; transform: scale(1.02); }
-=======
->>>>>>> Stashed changes
 }
 
 .portrait-slide::before {
@@ -2484,6 +2352,193 @@ body::before {
     transform: scale(1.02);
 }
 
+/* Fullscreen Portrait Styles */
+.portrait-container-fullscreen {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: calc(100vh - 120px); /* Account for header and counter */
+    position: relative;
+    z-index: 2;
+    padding: 0;
+    margin: 0;
+}
+
+.portrait-image-fullscreen {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 0;
+    box-shadow: none;
+    position: relative;
+    z-index: 1;
+    transition: transform 0.3s ease;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.portrait-image-fullscreen:hover {
+    transform: scale(1.01);
+}
+
+/* Spotify Wrapped Badge Styles */
+.spotify-wrapped-badge-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 20px;
+    text-align: center;
+    gap: 25px;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.badge-hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    animation: fadeInUp 0.8s ease-out;
+}
+
+.badge-hero-image {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    border-radius: 50%;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+    animation: badgePop 1.2s ease-out;
+}
+
+.badge-hero-title {
+    color: white;
+    font-size: 32px;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    animation: slideInRight 0.8s ease-out;
+}
+
+.badge-descriptive-words {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+    animation: fadeInUp 1s ease-out 0.3s both;
+}
+
+.word-item {
+    background: linear-gradient(135deg, #0066cc, #004499);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0 4px 12px rgba(0, 102, 204, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    animation: wordSlideIn 0.6s ease-out;
+}
+
+.word-item:nth-child(1) { animation-delay: 0.4s; }
+.word-item:nth-child(2) { animation-delay: 0.5s; }
+.word-item:nth-child(3) { animation-delay: 0.6s; }
+.word-item:nth-child(4) { animation-delay: 0.7s; }
+
+.badge-description-spotify {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 15px 0;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    animation: fadeInUp 1s ease-out 0.8s both;
+}
+
+.badge-description-spotify p {
+    color: white;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.compatible-types-section {
+    animation: fadeInUp 1s ease-out 1.1s both;
+}
+
+.compatible-title {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 15px;
+    opacity: 0.9;
+}
+
+.compatible-badges-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    max-width: 280px;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.compatible-badge {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.compatible-badge:hover {
+    transform: translateY(-3px);
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.compatible-badge-image {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    border-radius: 50%;
+}
+
+.compatible-badge-name {
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+/* Badge Animations */
+@keyframes badgePop {
+    0% { transform: scale(0) rotate(-180deg); opacity: 0; }
+    50% { transform: scale(1.1) rotate(0deg); opacity: 1; }
+    100% { transform: scale(1) rotate(0deg); opacity: 1; }
+}
+
+@keyframes wordSlideIn {
+    0% { transform: translateX(-50px); opacity: 0; }
+    100% { transform: translateX(0); opacity: 1; }
+}
+
 /* Navigation Buttons */
 .slide-actions {
     display: flex;
@@ -2697,6 +2752,10 @@ body::before {
     
     .slide-content {
         padding: 80px 20px 30px;
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        overflow-x: hidden;
     }
     
     .slide-actions {
@@ -2778,10 +2837,14 @@ body::before {
         font-size: 24px;
         margin-bottom: 10px;
         color: #ffffff !important;
+        text-shadow: none;
+        filter: none;
     }
     
     .slide-title .emoji {
         font-size: 22px;
+        color: #ffffff !important;
+        text-shadow: none;
     }
     
     .letter-container {
@@ -3376,4 +3439,32 @@ body::before {
         overflow-y: auto;
         overflow-x: hidden;
     }
+    
+    /* Mobile portrait fullscreen adjustments */
+    .portrait-container-fullscreen {
+        height: calc(100vh - 100px);
+        padding: 10px;
+    }
+    
+    .portrait-image-fullscreen {
+        border-radius: 8px;
+    }
+}
+
+/* Final override to ensure all slide titles are pure white without any lighting effects */
+.slide-title,
+.slide-title *,
+.slide-title h2,
+.slide-title h3,
+.slide-title p,
+.slide-title span,
+.slide-title .emoji {
+    color: #ffffff !important;
+    text-shadow: none !important;
+    filter: none !important;
+    box-shadow: none !important;
+    -webkit-text-shadow: none !important;
+    -moz-text-shadow: none !important;
+    -webkit-filter: none !important;
+    -moz-filter: none !important;
 } 
