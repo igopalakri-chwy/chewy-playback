@@ -93,3 +93,4 @@ dmypy.json
 # Data files (sensitive)
 # Note: Data folder has been removed - now using Snowflake queries only
 Final_Pipeline/Output/
+.env

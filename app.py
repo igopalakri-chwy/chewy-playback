@@ -43,16 +43,8 @@ def run_pipeline_for_customer(customer_id):
         cmd = [sys.executable, PIPELINE_SCRIPT, "--customers", customer_id]
         print(f"🚀 Pipeline started for customer {customer_id} - redirecting to experience...")
         
-        # Get current environment and add Snowflake credentials
+        # Use existing environment variables for Snowflake credentials
         env = os.environ.copy()
-        env.update({
-            'SNOWFLAKE_USER': 'bdong1@chewy.com',
-            'SNOWFLAKE_ACCOUNT': 'chewy-chewy',
-            'SNOWFLAKE_WAREHOUSE': 'AUDIENCE_SEGMENTATION_WH',
-            'SNOWFLAKE_DATABASE': 'edldb',
-            'SNOWFLAKE_SCHEMA': 'ecom',
-            'SNOWFLAKE_AUTHENTICATOR': 'externalbrowser'
-        })
         
         # Start pipeline in background (non-blocking) with environment variables
         process = subprocess.Popen(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, env=env)
