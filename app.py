@@ -224,12 +224,13 @@ def load_customer_data(customer_id):
         # Use real breed prediction data if available
         if 'breed_prediction' in data and data['breed_prediction']:
             if data['breed_prediction'].get('multiple_predictions'):
-                first_prediction = data['breed_prediction']['multiple_predictions'][0]
-                top_breed = first_prediction.get('prediction', {}).get('top_predicted_breed', {}).get('breed', 'Unknown')
-                data['breed_prediction'] = {
-                    'pet_name': first_prediction.get('pet_name', 'Unknown'),
-                    'predicted_breed': format_breed_name(top_breed)
-                }
+                # Keep the full multiple_predictions data for the template
+                # The template will handle displaying the first pet's predictions
+                pass
+            else:
+                # For single prediction data, format the breed name
+                if 'predicted_breed' in data['breed_prediction']:
+                    data['breed_prediction']['predicted_breed'] = format_breed_name(data['breed_prediction']['predicted_breed'])
         
         # Use real letter data
         data['letter'] = data.get('pet_letters', 'No personalized letter available.')
@@ -348,6 +349,24 @@ def get_badge_image_path(badge_name):
 def format_breed_name_filter(breed_name):
     return format_breed_name(breed_name)
 
+@app.template_filter('format_breed_name_simple')
+def format_breed_name_simple_filter(breed_name):
+    """Simple breed name formatter for template use"""
+    if not breed_name:
+        return "Unknown"
+    
+    # Replace underscores with spaces and capitalize each word
+    formatted = breed_name.replace('_', ' ')
+    
+    # Handle camelCase by adding spaces before capital letters
+    import re
+    formatted = re.sub(r'([a-z])([A-Z])', r'\1 \2', formatted)
+    
+    # Capitalize first letter of each word
+    formatted = ' '.join(word.capitalize() for word in formatted.split())
+    
+    return formatted
+
 @app.route('/')
 def index():
     """Landing page with customer ID input and list of all customers"""
@@ -358,7 +377,7 @@ def index():
 def customers():
     """Page showing all available customers"""
     customer_ids = get_all_customer_ids()
-    return render_template('customers.html', customer_ids=customer_ids)
+    return render_template('index.html', customer_ids=customer_ids)
 
 @app.route('/experience/<customer_id>')
 def experience(customer_id):
