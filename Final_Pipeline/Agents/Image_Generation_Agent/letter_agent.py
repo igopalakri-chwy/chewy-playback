@@ -15,8 +15,11 @@ def generate_image_from_prompt(visual_prompt: str, api_key: str, output_path: st
     client = openai.OpenAI(api_key=api_key)
     
     try:
-        # Art style prompt to ensure consistency
-        default_art_style = "Soft, blended brushstrokes that mimic traditional oil or gouache painting. Bright, warm lighting with vibrant illumination and gentle ambient highlights. Vivid yet harmonious color palette, featuring saturated pastels and rich warm tones. Subtle texture that gives a hand-painted, storybook feel. Sparkle accents and light flares to add magical charm. Smooth gradients and soft edges, avoiding harsh lines or stark contrast. Bright, cheerful atmosphere with clear, well-lit subjects. A dreamy, nostalgic tone evocative of classic children's book illustrations. "
+        # CRITICAL: Add breed accuracy emphasis
+        breed_accuracy_instruction = "CRITICAL ENFORCEMENT: You MUST generate EXACTLY the pets described in the prompt. Do NOT add any extra pets. Do NOT substitute breeds. Do NOT generate generic dogs or cats. Generate ONLY the specific pets mentioned with their exact breeds, types, and characteristics. If the prompt says '3 cats, 2 dogs, 2 horses' then generate EXACTLY 3 cats, 2 dogs, and 2 horses - no more, no less. "
+        
+        # Optimized art style - concise to preserve space for pet details
+        default_art_style = "Artistic pet portrait, bright warm lighting, soft painting style, vibrant colors, wholesome cheerful mood. "
         
         # Enhance prompt with location-specific background if available
         enhanced_prompt = visual_prompt
@@ -26,12 +29,23 @@ def generate_image_from_prompt(visual_prompt: str, api_key: str, output_path: st
             if location_background.lower() not in visual_prompt.lower():
                 enhanced_prompt = f"{visual_prompt} Background: {location_background}"
         
-        # Combine art style with enhanced visual prompt
-        prompt = default_art_style + enhanced_prompt
+        # Combine breed accuracy instruction with art style and enhanced visual prompt
+        prompt = breed_accuracy_instruction + default_art_style + enhanced_prompt
         
-        # Truncate prompt to fit OpenAI's 1000 character limit
-        if len(prompt) > 1000:
-            prompt = prompt[:997] + "..."
+        # Add critical pet count emphasis and increase character limit
+        import re
+        pet_count_match = re.search(r'(\d+)\s+pets?', enhanced_prompt.lower())
+        if pet_count_match:
+            pet_count = pet_count_match.group(1)
+            prompt = f"EXACTLY {pet_count} pets (no more, no less): {prompt}"
+        
+        # Add breed accuracy check
+        if "dog" in enhanced_prompt.lower():
+            prompt = f"BREED ACCURACY REQUIRED: {prompt}"
+        
+        # Increase character limit to preserve pet details
+        if len(prompt) > 1500:
+            prompt = prompt[:1497] + "..."
         
         # Add timestamp to ensure unique generation
         import time
@@ -40,7 +54,7 @@ def generate_image_from_prompt(visual_prompt: str, api_key: str, output_path: st
         
         response = client.images.generate(
             model="gpt-image-1",
-            prompt=unique_prompt,
+            prompt=prompt,
             size="1024x1024",
             n=1,
         )

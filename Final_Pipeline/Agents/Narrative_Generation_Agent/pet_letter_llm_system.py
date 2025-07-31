@@ -250,8 +250,7 @@ class PetLetterLLMSystem:
     def generate_output(self, pet_data: Dict[str, Any], secondary_data: Dict[str, Any]) -> Dict[str, str]:
         """
         Generate a JSON object containing a playful letter and visual prompt.
-        Uses LLM reasoning to interpret either review data or order history and pet profiles.
-        ZIP aesthetics are only used to influence the style, background, and tone, but are never directly mentioned in the letter text.
+        Uses focused, sequential LLM calls for better reliability.
         """
         # Extract data
         sample_pet_data, sample_review_data, sample_order_data, data_type = self.extract_data(pet_data, secondary_data)
@@ -267,51 +266,34 @@ class PetLetterLLMSystem:
             print(f"  ⚠️ No ZIP code found, using default aesthetics")
             zip_aesthetics = self._get_default_aesthetics()
         
-        # Prepare context for LLM based on data type
-        if data_type == "reviews":
-            context = self._prepare_context_reviews(sample_pet_data, sample_review_data, zip_aesthetics)
-        elif data_type == "orders":
-            context = self._prepare_context_orders(sample_pet_data, sample_order_data, zip_aesthetics)
-        else:
-            # Fallback: try both
-            context = self._prepare_context_reviews(sample_pet_data, sample_review_data, zip_aesthetics)
-            if not sample_review_data:
-                context = self._prepare_context_orders(sample_pet_data, sample_order_data, zip_aesthetics)
+        # Generate each component with focused prompts
+        print("  📝 Generating pet letter...")
+        letter = self._generate_pet_letter(sample_pet_data, sample_review_data, sample_order_data, data_type, zip_aesthetics)
         
-        prompt = f"""You are an LLM that writes a JSON object containing:
+        print("  🎨 Generating visual prompt...")
+        visual_prompt = self._generate_visual_prompt(sample_pet_data, sample_review_data, sample_order_data, data_type, zip_aesthetics)
+        
+        print("  🏆 Analyzing personality badge...")
+        personality_badge = self._generate_personality_badge(sample_pet_data, sample_review_data, sample_order_data, data_type)
+        
+        # Combine results
+        result = {
+            "letter": letter,
+            "visual_prompt": visual_prompt,
+            "personality_badge": personality_badge,
+            "zip_aesthetics": zip_aesthetics
+        }
+        
+        return result
+    
+    def _generate_pet_letter(self, sample_pet_data: List[Dict[str, Any]], sample_review_data: List[Dict[str, Any]], sample_order_data: List[Dict[str, Any]], data_type: str, zip_aesthetics: Optional[Dict[str, str]] = None) -> str:
+        """Generate a focused pet letter using detailed, comprehensive instructions."""
+        # Prepare comprehensive context for letter generation
+        context = self._prepare_comprehensive_context(sample_pet_data, sample_review_data, sample_order_data, data_type, zip_aesthetics)
+        
+        prompt = f"""You are an LLM specialized in writing playful, personality-rich letters from pets to their humans.
 
-1. A playful, personality-rich letter from the customer's pets.
-2. A visual prompt describing an AI-generated, Chewy-branded artwork with EXACTLY the number of pets specified.
-3. Individual personality analysis for each pet including badges and descriptive words.
-
-You are given:
-- `sample_pet_data`: A list of pet dictionaries. Each has:
-  - `name`: e.g., "Turbo", "unknown"
-  - `type`: e.g., "cat", "dog"
-  - optional `breed`, `traits`, `age`, `size`, `weight`, or color-based traits
-
-- `sample_review_data` (if available): A list of product reviews. Each includes:
-  - `product_name`
-  - `review_text`
-  - optional `rating`
-  - optional `pet_name`
-
-- `sample_order_data` (if available): A list of order history items. Each includes:
-  - `product_name`
-  - `item_type` (e.g., "food", "toy", "clothing", "treat")
-  - `brand`
-  - `quantity`
-  - optional `pet_name`
-
-- `zip_aesthetics` (if available): Regional visual aesthetics including:
-  - `visual_style`: Regional visual characteristics
-  - `color_texture`: Regional color and texture preferences
-  - `art_style`: Regional art style preferences
-  - `tones`: Appealing tones for the region
-  - `location_background`: Specific location-based background description
-  - `location_context`: Location context for narrative generation
-
-==== INSTRUCTIONS ====
+==== LETTER GENERATION INSTRUCTIONS ====
 
 STEP 1 — INTERPRET DATA AND PET PROFILES:
 - Use your reasoning skills to:
@@ -341,21 +323,66 @@ STEP 2 — GENERATE THE LETTER:
   - **Use proper letter formatting**: Include a space after the salutation (e.g., "Dear Human,\n\n"), a space before the ending (e.g., "\n\nWith all our love and zoomies,"), and keep the body text flowing naturally without excessive line breaks.
   - **LENGTH CONSTRAINT**: The letter should be 1-2 paragraphs with 4-6 sentences total, providing rich detail about products and experiences.
 
-STEP 3 — GENERATE THE VISUAL PROMPT:
-- **CRITICAL PET COUNT RULE: You MUST count the pets in sample_pet_data and ensure the image contains EXACTLY that number of pets.**
-- **PET COUNT VERIFICATION: Before writing the visual prompt, count the pets in sample_pet_data. The image must show exactly this number of pets - no more, no less.**
-- **ABSOLUTELY NO EXTRA PETS: Do not add any additional pets, background pets, implied pets, or random pets. Only include the pets listed in sample_pet_data.**
-- **EXACT PET MATCH: The number of pets in the visual description must exactly match the number of pets in sample_pet_data.**
-- **PET TYPE ACCURACY: You MUST specify the exact pet type (dog/cat) for each pet based on the data. Do not change or guess pet types.**
-- **EXPLICIT PET TYPES: Start the visual prompt by explicitly stating the pet count and types (e.g., "four dogs and one cat" or "three cats and two dogs").**
-- **CRITICAL: DO NOT MENTION PET NAMES in the visual prompt. Focus on physical characteristics instead.**
+CRITICAL REQUIREMENTS:
+1. **Do NOT mention any region, ZIP code, city, or style name directly in the letter. Only use the tones and style cues to influence the mood and feel.**
+2. Use proper letter format with greeting and closing
+3. Write from the pets' perspective with personality and joy
+4. Include specific product mentions using natural language
+5. Sign appropriately based on pet names in the data
+
+=== INPUT DATA ===
+{context}
+
+Write only the letter text:"""
+        
+        try:
+            response = openai.chat.completions.create(
+                model="gpt-4",
+                messages=[
+                    {"role": "system", "content": "You are a specialized pet letter writer. Write detailed, warm, personal letters from pets to their humans with comprehensive product mentions and joyful personality."},
+                    {"role": "user", "content": prompt}
+                ],
+                max_tokens=600,
+                temperature=0.7
+            )
+            return response.choices[0].message.content.strip()
+        except Exception as e:
+            print(f"Letter generation failed: {e}")
+            raise Exception(f"Letter generation failed: {e}")
+    
+    def _generate_visual_prompt(self, sample_pet_data: List[Dict[str, Any]], sample_review_data: List[Dict[str, Any]], sample_order_data: List[Dict[str, Any]], data_type: str, zip_aesthetics: Optional[Dict[str, str]] = None) -> str:
+        """Generate a comprehensive visual prompt for image generation with detailed instructions."""
+        # Prepare comprehensive context for visual prompt generation
+        context = self._prepare_comprehensive_context(sample_pet_data, sample_review_data, sample_order_data, data_type, zip_aesthetics)
+        pet_count = len(sample_pet_data)
+        
+        prompt = f"""You are an expert at creating detailed visual prompts for AI-generated pet portrait artwork.
+
+==== VISUAL PROMPT GENERATION INSTRUCTIONS ====
+
+STEP 1 — PET COUNT VERIFICATION:
+- **CRITICAL: Generate EXACTLY {pet_count} pets - no more, no less. Count pets in sample_pet_data and ensure image contains exactly that number.**
+
+STEP 2 — VISUAL BREED ACCURACY (CRITICAL FOR ACCURATE IMAGE GENERATION):
+- **PET COUNT**: Start by explicitly stating the exact pet count and types (e.g., "seven pets: three cats, two dogs, and two horses")
+- **BREED-SPECIFIC VISUAL DESCRIPTIONS**: For each pet, describe the breed's distinctive physical characteristics:
+  - **COAT TYPE**: Length, texture, and curl (short, long, silky, curly, wiry, etc.)
+  - **EAR SHAPE**: Floppy, pointed, rounded, feathered, cropped, etc.
+  - **BODY PROPORTIONS**: Compact, athletic, sturdy, elegant, lean, muscular, etc.
+  - **FACIAL FEATURES**: Muzzle length, eye shape, facial structure specific to breed
+  - **TYPICAL COLORS**: Standard breed colors and patterns (solid, spotted, marked, etc.)
+- **SIZE RELATIONSHIPS**: Use weight data to show relative sizes ("small 13-pound dog next to large 68-pound dog")
+- **AGE CATEGORIES**: Only use simple categories that affect appearance:
+  - Young pets: bright eyes, playful stance
+  - Senior pets: graying muzzle, calm expression
+- **SPATIAL ARRANGEMENT**: Position pets by size (large in back, small in front) for clear visibility
+- Do NOT make up any physical characteristics that are not explicitly given.
+- If any pet is `"unknown"`:
+  - Include a **generic** version of its `type` (e.g., "a generic domestic cat").
+
+STEP 3 — SCENE COMPOSITION:
 - Describe a sophisticated artistic pet portrait scene featuring the pets as the main subjects.
 - **Pets should be the clear focus** - describe their appearance, poses, and expressions prominently with joyful energy.
-- **MANDATORY PHYSICAL TRAITS: You MUST include breed, size, and weight information for each pet when available:**
-  - **BREED**: Always mention the breed if known (e.g., "Shih Tzu dogs", "Beagle mix", "domestic cat")
-  - **SIZE/WEIGHT**: Always include size/weight descriptions (e.g., "small 10-pound", "medium 16-pound", "large 63-pound")
-  - **AGE**: Include age/life stage when available (e.g., "young", "adult", "senior")
-  - **GENDER**: Include gender when available (e.g., "male", "female")
 - **ZIP aesthetics influence the background and style**, not the main pet focus:
   - Use the `visual_style` to describe background elements and setting
   - Apply the `color_texture` to influence the overall color palette
@@ -364,24 +391,55 @@ STEP 3 — GENERATE THE VISUAL PROMPT:
   - The pets remain the primary subjects regardless of ZIP aesthetics
   - The location background should be visible but not overwhelming - it should enhance the scene without dominating it
 - Include the positively reviewed products (if review data available) or frequently ordered products (if order data available), described naturally as props or accessories.
-- If any pet is `"unknown"`:
-  - Include a **generic** version of its `type` (e.g., "a generic domestic cat").
-- **PHYSICAL TRAIT PRIORITY**: When describing pets, prioritize physical characteristics over names:
-  - Instead of "Maxine, Theo, Gigi, and Daniel" → "four dogs of varying sizes"
-  - Instead of "Anyanka the cat" → "a domestic cat"
-  - Focus on: breed, size, weight, age, gender, and physical appearance
-- Do NOT make up any physical characteristics that are not explicitly given.
 - Include **Chewy branding subtly** — e.g., on a toy bin, food bowl, scarf label, or poster in the background.
 - **LIGHTING AND BRIGHTNESS: The scene should be bright and well-lit with vibrant, cheerful lighting. Use bright, warm lighting that illuminates the pets clearly. Avoid dark shadows or dim lighting. The overall atmosphere should be bright, sunny, and uplifting.**
 - The scene should be sophisticated, artistic, wholesome, warm, and inviting with joyous energy, suitable for a refined artistic pet portrait that customers would love to receive.
 
-STEP 4 — ASSIGN HOUSEHOLD PERSONALITY BADGE:
+CRITICAL REQUIREMENTS:
+1. **FINAL PET COUNT CHECK: The visual_prompt must describe exactly the number of pets in sample_pet_data. Count them carefully and ensure no extra pets are added.**
+2. Focus on physical characteristics, not pet names
+3. Include breed, size, weight, age, gender when available
+4. Bright, well-lit scene with joyful energy
+5. Subtle Chewy branding incorporated
+6. Location background enhances but doesn't dominate
+
+=== INPUT DATA ===
+{context}
+
+Generate the detailed visual prompt description:"""
+        
+        try:
+            response = openai.chat.completions.create(
+                model="gpt-4",
+                messages=[
+                    {"role": "system", "content": "You are an expert at creating comprehensive visual prompts for AI-generated pet portraits. Focus on exact pet counts, detailed physical characteristics, bright lighting, and sophisticated artistic composition."},
+                    {"role": "user", "content": prompt}
+                ],
+                max_tokens=800,
+                temperature=0.5
+            )
+            return response.choices[0].message.content.strip()
+        except Exception as e:
+            print(f"Visual prompt generation failed: {e}")
+            raise Exception(f"Visual prompt generation failed: {e}")
+    
+    def _generate_personality_badge(self, sample_pet_data: List[Dict[str, Any]], sample_review_data: List[Dict[str, Any]], sample_order_data: List[Dict[str, Any]], data_type: str) -> Dict[str, Any]:
+        """Generate household personality badge using comprehensive analysis."""
+        # Prepare comprehensive context for badge analysis
+        context = self._prepare_comprehensive_context(sample_pet_data, sample_review_data, sample_order_data, data_type, None)
+        
+        prompt = f"""You are an expert pet personality analyst specializing in household personality badge assignment.
+
+==== PERSONALITY BADGE ASSIGNMENT INSTRUCTIONS ====
+
+STEP 1 — ANALYZE HOUSEHOLD PERSONALITY:
 Analyze the collective personality of all pets in the household based on:
 - Combined profile traits and characteristics of all pets
 - Associated reviews or order data
 - Pet types and breeds in the household
 - Overall household dynamics
 
+STEP 2 — ASSIGN HOUSEHOLD PERSONALITY BADGE:
 Assign ONE personality badge for the entire household:
 - **1 personality badge** from the 10 categories below that best represents the household's collective personality
 - **3 compatible badge types** that would vibe well with the household
@@ -399,29 +457,24 @@ Assign ONE personality badge for the entire household:
 9. The Daydreamer — mellow, imaginative, slow-moving, sensitive  
 10. The Shadow — shy, reserved, cautious, deeply loyal
 
-==== OUTPUT FORMAT ====
-You MUST return a valid JSON object with this EXACT structure:
+STEP 3 — OUTPUT FORMAT:
+Return a JSON object with this EXACT structure:
 
 {{
-  "letter": "<write a playful letter from the pets' perspective>",
-  "visual_prompt": "<describe a Chewy-branded scene with the pets and products>",
-  "personality_badge": {{
-    "badge": "<exact badge name from the 10 categories above>",
-    "compatible_with": ["<badge1>", "<badge2>", "<badge3>"],
-    "icon_png": "<badge_name_lowercase>.png",
-    "description": "<one cool sentence that captures the household's personality vibe>",
-    "descriptive_words": ["<word1>", "<word2>", "<word3>", "<word4>"]
-  }}
+  "badge": "<exact badge name from the 10 categories above>",
+  "compatible_with": ["<badge1>", "<badge2>", "<badge3>"],
+  "description": "<one cool sentence that captures the household's personality vibe>",
+  "descriptive_words": ["<word1>", "<word2>", "<word3>", "<word4>"]
 }}
 
 CRITICAL REQUIREMENTS:
 1. Return ONLY the JSON object - no explanations, no markdown, no extra text
 2. Use EXACT badge names from the 10 categories listed above
 3. Assign ONE badge for the entire household based on collective personality
-4. Use lowercase badge names for icon_png (e.g., "the_explorer.png", "the_diva.png")
-5. Ensure all JSON syntax is valid (proper quotes, commas, brackets)
-6. **Do NOT mention any region, ZIP code, city, or style name directly in the letter. Only use the tones and style cues to influence the mood and feel.**
-7. **FINAL PET COUNT CHECK: The visual_prompt must describe exactly the number of pets in sample_pet_data. Count them carefully and ensure no extra pets are added.**
+4. Ensure all JSON syntax is valid (proper quotes, commas, brackets)
+5. Select 3 compatible badges that would complement the primary badge
+6. Write a personality description that captures the household's collective vibe
+7. Choose 4 descriptive words that represent the household's personality
 
 === INPUT DATA ===
 {context}
@@ -432,68 +485,29 @@ Generate the JSON object:"""
             response = openai.chat.completions.create(
                 model="gpt-4",
                 messages=[
-                    {"role": "system", "content": "You are a JSON generator that creates pet personality analysis. You MUST return ONLY valid JSON with no additional text, explanations, or markdown formatting."},
+                    {"role": "system", "content": "You are an expert pet personality analyst specializing in household personality badge assignment. Return only valid JSON with comprehensive personality analysis."},
                     {"role": "user", "content": prompt}
                 ],
-                max_tokens=1500,
-                temperature=0.7
+                max_tokens=400,
+                temperature=0.3
             )
             
-            # Extract JSON from response
             content = response.choices[0].message.content.strip()
-            
-            # Try to parse as JSON
-            try:
-                result = json.loads(content)
-                # Add ZIP aesthetics to the result
-                result['zip_aesthetics'] = zip_aesthetics
-                # Add descriptive words to the personality badge if not already present
-                if 'personality_badge' in result and 'badge' in result['personality_badge']:
-                    badge_name = result['personality_badge']['badge']
-                    if badge_name in self.badge_descriptive_words:
-                        result['personality_badge']['descriptive_words'] = self.badge_descriptive_words[badge_name]
+            import re
+            json_match = re.search(r'\{.*\}', content, re.DOTALL)
+            if json_match:
+                result = json.loads(json_match.group())
+                result['icon_png'] = f"{result['badge'].lower().replace(' ', '_')}.png"
                 return result
-            except json.JSONDecodeError:
-                # If JSON parsing fails, try to extract JSON from the response
-                import re
-                json_match = re.search(r'\{.*\}', content, re.DOTALL)
-                if json_match:
-                    try:
-                        result = json.loads(json_match.group())
-                        # Add ZIP aesthetics to the result
-                        result['zip_aesthetics'] = zip_aesthetics
-                        # Add descriptive words to the personality badge if not already present
-                        if 'personality_badge' in result and 'badge' in result['personality_badge']:
-                            badge_name = result['personality_badge']['badge']
-                            if badge_name in self.badge_descriptive_words:
-                                result['personality_badge']['descriptive_words'] = self.badge_descriptive_words[badge_name]
-                        return result
-                    except json.JSONDecodeError:
-                        pass
+            else:
+                raise ValueError("No JSON found in response")
                 
-                # Fallback to hardcoded response
-                fallback_result = self._generate_fallback_output(sample_pet_data, sample_review_data, sample_order_data, data_type)
-                fallback_result['zip_aesthetics'] = zip_aesthetics
-                # Add descriptive words to the personality badge if not already present
-                if 'personality_badge' in fallback_result and 'badge' in fallback_result['personality_badge']:
-                    badge_name = fallback_result['personality_badge']['badge']
-                    if badge_name in self.badge_descriptive_words:
-                        fallback_result['personality_badge']['descriptive_words'] = self.badge_descriptive_words[badge_name]
-                return fallback_result
-            
         except Exception as e:
-            print(f"LLM generation failed: {e}")
-            fallback_result = self._generate_fallback_output(sample_pet_data, sample_review_data, sample_order_data, data_type)
-            fallback_result['zip_aesthetics'] = zip_aesthetics
-            # Add descriptive words to the personality badge if not already present
-            if 'personality_badge' in fallback_result and 'badge' in fallback_result['personality_badge']:
-                badge_name = fallback_result['personality_badge']['badge']
-                if badge_name in self.badge_descriptive_words:
-                    fallback_result['personality_badge']['descriptive_words'] = self.badge_descriptive_words[badge_name]
-            return fallback_result
+            print(f"Badge generation failed: {e}")
+            raise Exception(f"Badge generation failed: {e}")
     
-    def _prepare_context_reviews(self, sample_pet_data: List[Dict[str, Any]], sample_review_data: List[Dict[str, Any]], zip_aesthetics: Optional[Dict[str, str]] = None) -> str:
-        """Prepare context for LLM generation with review data."""
+    def _prepare_comprehensive_context(self, sample_pet_data: List[Dict[str, Any]], sample_review_data: List[Dict[str, Any]], sample_order_data: List[Dict[str, Any]], data_type: str, zip_aesthetics: Optional[Dict[str, str]] = None) -> str:
+        """Prepare comprehensive context for all LLM generation tasks."""
         context_parts = []
         
         # Pet data with enhanced information
@@ -514,15 +528,26 @@ Generate the JSON object:"""
             if pet.get('color', pet.get('Color')):
                 context_parts.append(f"  color: {pet.get('color', pet.get('Color'))}")
         
-        # Review data
-        context_parts.append("\nSAMPLE_REVIEW_DATA:")
-        for review in sample_review_data:
-            context_parts.append(f"- product_name: {review.get('product_name', review.get('product', 'Unknown'))}")
-            context_parts.append(f"  review_text: {review.get('review_text', '')}")
-            if review.get('rating'):
-                context_parts.append(f"  rating: {review.get('rating')}")
-            if review.get('pet_name'):
-                context_parts.append(f"  pet_name: {review.get('pet_name')}")
+        # Data type specific information
+        if data_type == "reviews" and sample_review_data:
+            context_parts.append("\nSAMPLE_REVIEW_DATA:")
+            for review in sample_review_data:
+                context_parts.append(f"- product_name: {review.get('product_name', review.get('product', 'Unknown'))}")
+                context_parts.append(f"  review_text: {review.get('review_text', '')}")
+                if review.get('rating'):
+                    context_parts.append(f"  rating: {review.get('rating')}")
+                if review.get('pet_name'):
+                    context_parts.append(f"  pet_name: {review.get('pet_name')}")
+        
+        elif data_type == "orders" and sample_order_data:
+            context_parts.append("\nSAMPLE_ORDER_DATA:")
+            for order in sample_order_data:
+                context_parts.append(f"- product_name: {order.get('product_name', 'Unknown')}")
+                context_parts.append(f"  item_type: {order.get('item_type', 'Unknown')}")
+                context_parts.append(f"  brand: {order.get('brand', 'Unknown')}")
+                context_parts.append(f"  quantity: {order.get('quantity', 1)}")
+                if order.get('pet_name'):
+                    context_parts.append(f"  pet_name: {order.get('pet_name')}")
         
         # Add ZIP aesthetics to context if available
         if zip_aesthetics:
@@ -537,52 +562,88 @@ Generate the JSON object:"""
                 context_parts.append(f"- location_context: {zip_aesthetics['location_context']}")
         
         return '\n'.join(context_parts)
+    
+    
+    def _get_pet_descriptions(self, sample_pet_data: List[Dict[str, Any]]) -> str:
+        """Get breed-focused pet descriptions for accurate visual prompts."""
+        descriptions = []
+        for pet in sample_pet_data:
+            pet_type = pet.get('type', pet.get('PetType', 'pet')).lower()
+            breed = pet.get('breed', pet.get('Breed', ''))
+            age = pet.get('age', pet.get('LifeStage', ''))
+            weight = pet.get('weight', pet.get('Weight', ''))
+            
+            desc_parts = []
+            
+            # Age category for visual appearance only
+            if age:
+                try:
+                    age_num = int(age)
+                    if pet_type == 'cat' and age_num >= 10:
+                        desc_parts.append('senior')
+                    elif pet_type == 'dog' and age_num >= 7:
+                        desc_parts.append('senior')
+                    elif pet_type == 'horse' and age_num >= 15:
+                        desc_parts.append('senior')
+                    elif ((pet_type == 'cat' and age_num <= 1) or 
+                          (pet_type == 'dog' and age_num <= 2) or 
+                          (pet_type == 'horse' and age_num <= 4)):
+                        desc_parts.append('young')
+                except (ValueError, TypeError):
+                    pass
+            
+            # Weight for size relationships
+            if weight:
+                try:
+                    weight_num = float(weight)
+                    desc_parts.append(f'{weight_num}-pound')
+                except (ValueError, TypeError):
+                    pass
+            
+            # Breed-focused description
+            if breed and breed.lower() not in ['unknown', 'unk']:
+                if breed.lower() == 'other':
+                    desc_parts.append(f'domestic {pet_type}')
+                else:
+                    desc_parts.append(f'{breed} {pet_type}')
+            else:
+                desc_parts.append(f'domestic {pet_type}')
+            
+            # Combine description parts
+            full_description = ' '.join(desc_parts)
+            descriptions.append(full_description)
+        
+        return ', '.join(descriptions)
+    
+    def _get_key_products(self, sample_review_data: List[Dict[str, Any]], sample_order_data: List[Dict[str, Any]], data_type: str) -> List[str]:
+        """Extract key products from data."""
+        products = []
+        
+        if data_type == "reviews":
+            for review in sample_review_data:
+                rating = review.get('rating', 0)
+                review_text = review.get('review_text', '').lower()
+                if rating >= 4 or any(word in review_text for word in ['love', 'great', 'amazing', 'perfect']):
+                    product = review.get('product_name', review.get('product', ''))
+                    if product:
+                        products.append(product)
+        
+        elif data_type == "orders":
+            # Get frequently ordered items
+            product_counts = {}
+            for order in sample_order_data:
+                product = order.get('product_name', '')
+                if product:
+                    product_counts[product] = product_counts.get(product, 0) + 1
+            
+            # Sort by frequency and take top products
+            sorted_products = sorted(product_counts.items(), key=lambda x: x[1], reverse=True)
+            products = [product for product, count in sorted_products]
+        
+        return products
+    
+    
 
-    def _prepare_context_orders(self, sample_pet_data: List[Dict[str, Any]], sample_order_data: List[Dict[str, Any]], zip_aesthetics: Optional[Dict[str, str]] = None) -> str:
-        """Prepare context for LLM generation with order data."""
-        context_parts = []
-        
-        # Pet data with enhanced information
-        context_parts.append("SAMPLE_PET_DATA:")
-        for pet in sample_pet_data:
-            context_parts.append(f"- name: {pet.get('name', 'Unknown')}")
-            context_parts.append(f"  type: {pet.get('type', pet.get('PetType', 'Unknown'))}")
-            if pet.get('breed', pet.get('Breed')):
-                context_parts.append(f"  breed: {pet.get('breed', pet.get('Breed'))}")
-            if pet.get('traits', pet.get('PersonalityTraits')):
-                context_parts.append(f"  traits: {pet.get('traits', pet.get('PersonalityTraits'))}")
-            if pet.get('size', pet.get('SizeCategory')):
-                context_parts.append(f"  size: {pet.get('size', pet.get('SizeCategory'))}")
-            if pet.get('age', pet.get('LifeStage')):
-                context_parts.append(f"  age: {pet.get('age', pet.get('LifeStage'))}")
-            if pet.get('weight', pet.get('Weight')):
-                context_parts.append(f"  weight: {pet.get('weight', pet.get('Weight'))}")
-            if pet.get('color', pet.get('Color')):
-                context_parts.append(f"  color: {pet.get('color', pet.get('Color'))}")
-        
-        # Order data
-        context_parts.append("\nSAMPLE_ORDER_DATA:")
-        for order in sample_order_data:
-            context_parts.append(f"- product_name: {order.get('product_name', 'Unknown')}")
-            context_parts.append(f"  item_type: {order.get('item_type', 'Unknown')}")
-            context_parts.append(f"  brand: {order.get('brand', 'Unknown')}")
-            context_parts.append(f"  quantity: {order.get('quantity', 1)}")
-            if order.get('pet_name'):
-                context_parts.append(f"  pet_name: {order.get('pet_name')}")
-        
-        # Add ZIP aesthetics to context if available
-        if zip_aesthetics:
-            context_parts.append("\nZIP_AESTHETICS:")
-            context_parts.append(f"- visual_style: {zip_aesthetics['visual_style']}")
-            context_parts.append(f"- color_texture: {zip_aesthetics['color_texture']}")
-            context_parts.append(f"- art_style: {zip_aesthetics['art_style']}")
-            context_parts.append(f"- tones: {zip_aesthetics['tones']}")
-            if zip_aesthetics.get('location_background'):
-                context_parts.append(f"- location_background: {zip_aesthetics['location_background']}")
-            if zip_aesthetics.get('location_context'):
-                context_parts.append(f"- location_context: {zip_aesthetics['location_context']}")
-        
-        return '\n'.join(context_parts)
     
     def _determine_household_badge(self, sample_pet_data: List[Dict[str, Any]], sample_review_data: List[Dict[str, Any]], sample_order_data: List[Dict[str, Any]], data_type: str) -> str:
         """Determine household badge based on pet characteristics and data."""

@@ -29,6 +29,7 @@ from Agents.Narrative_Generation_Agent.pet_letter_llm_system import PetLetterLLM
 from Agents.Review_and_Order_Intelligence_Agent.add_confidence_score import ConfidenceScoreCalculator
 from Agents.Breed_Predictor_Agent.breed_predictor_agent import BreedPredictorAgent
 from Agents.Review_and_Order_Intelligence_Agent.unknowns_analyzer import UnknownsAnalyzer
+from Agents.Image_Generation_Agent.letter_agent import generate_image_from_prompt
 from snowflake_data_connector import SnowflakeDataConnector
 import openai
 from dotenv import load_dotenv
@@ -1166,6 +1167,9 @@ class ChewyPlaybackPipeline:
                     # Base sophisticated artistic portrait style - wholesome, joyous, and refined
                     base_artistic_style = "Sophisticated artistic pet portrait, wholesome and warm, joyous energy, refined illustration style, pets as the main focus, inviting atmosphere, elegant colors, cozy and cheerful mood, bright and well-lit with vibrant lighting, NOT cartoonish, artistic interpretation"
                     
+                    # CRITICAL: Add breed accuracy emphasis
+                    breed_accuracy_instruction = "CRITICAL: Generate EXACTLY the specific dog breeds mentioned in the prompt. Do NOT substitute with generic breeds like Golden Retriever, Bernese Mountain Dog, or Labrador. Use ONLY the exact breeds specified (e.g., English Setter, Miniature Poodle, etc.). "
+                    
                     # Use ZIP aesthetics for background and overall style influence
                     if zip_aesthetics and zip_aesthetics.get('visual_style'):
                         # ZIP aesthetics influence background and color palette, not the main pet focus
@@ -1180,8 +1184,12 @@ class ChewyPlaybackPipeline:
                     else:
                         art_style_prompt = base_artistic_style
                     
-                    # Combine art style with visual prompt, ensuring pets are the main focus
-                    prompt = f"{art_style_prompt}. {collective_visual_prompt}. The pets should be the clear main subjects, with artistic interpretation and vibrant colors."
+                    # Combine breed accuracy instruction with art style and visual prompt, ensuring pets are the main focus
+                    prompt = f"{breed_accuracy_instruction}{art_style_prompt}. {collective_visual_prompt}. The pets should be the clear main subjects, with artistic interpretation and vibrant colors."
+                    
+                    # Add breed accuracy check if dogs are mentioned
+                    if "dog" in collective_visual_prompt.lower():
+                        prompt = f"BREED ACCURACY REQUIRED: {prompt}"
                     
                     # Truncate prompt to fit OpenAI's 1000 character limit
                     if len(prompt) > 1000:
