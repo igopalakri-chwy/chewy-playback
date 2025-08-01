@@ -396,8 +396,7 @@ STEP 3 — SCENE COMPOSITION:
   - **LOCATION BACKGROUND**: Incorporate the `location_background` description as the background setting (e.g., "Space Needle with Seattle skyline", "Golden Gate Bridge spanning the bay", "Mount Rainier visible through window")
   - The pets remain the primary subjects regardless of ZIP aesthetics
   - The location background should be visible but not overwhelming - it should enhance the scene without dominating it
-- Include the positively reviewed products (if review data available) or frequently ordered products (if order data available), described naturally as props or accessories.
-- Include **Chewy branding subtly** — e.g., on a toy bin, food bowl, scarf label, or poster in the background.
+- NO products, branding, or text should appear in the visual prompt.
 - **LIGHTING AND BRIGHTNESS: The scene should be bright and well-lit with vibrant, cheerful lighting. Use bright, warm lighting that illuminates the pets clearly. Avoid dark shadows or dim lighting. The overall atmosphere should be bright, sunny, and uplifting.**
 - The scene should be sophisticated, artistic, wholesome, warm, and inviting with joyous energy, suitable for a refined artistic pet portrait that customers would love to receive.
 
@@ -406,7 +405,7 @@ CRITICAL REQUIREMENTS:
 2. Focus on physical characteristics, not pet names
 3. Include breed, size, weight, age, gender when available
 4. Bright, well-lit scene with joyful energy
-5. Subtle Chewy branding incorporated
+5. NO text, branding, or products in the scene
 6. Location background enhances but doesn't dominate
 
 === INPUT DATA ===
@@ -709,7 +708,7 @@ Generate the JSON object:"""
         elif 'cat' in pet_types:
             return "The Scholar"   # Cats are often more observant
         else:
-            return "The Explorer"  # Final fallback
+            raise ValueError("Unable to determine personality badge - insufficient pet type data")
     
     def _generate_household_description(self, badge: str, sample_pet_data: List[Dict[str, Any]]) -> str:
         """Generate a description for the household based on the badge and pets."""
@@ -864,211 +863,6 @@ Generate the JSON object:"""
                 "icon_png": self.badge_icon_png("The Explorer")
             }
 
-    def _generate_fallback_output(self, sample_pet_data: List[Dict[str, Any]], sample_review_data: List[Dict[str, Any]], sample_order_data: List[Dict[str, Any]], data_type: str, purchase_history: Optional[List[dict]] = None) -> Dict[str, Any]:
-        """Generate fallback output with per-pet badges using LLM and purchase history."""
-        # Map data to pets based on type
-        pet_reviews = {pet['name']: [] for pet in sample_pet_data}
-        pet_orders = {pet['name']: [] for pet in sample_pet_data}
-        
-        if data_type == "reviews":
-            for review in sample_review_data:
-                for pet in sample_pet_data:
-                    pet_name = pet.get('name', '').lower()
-                    if pet_name and pet_name in review.get('review_text', '').lower():
-                        pet_reviews[pet['name']].append(review)
-        elif data_type == "orders":
-            for order in sample_order_data:
-                pet_name = order.get('pet_name', '')
-                if pet_name in pet_orders:
-                    pet_orders[pet_name].append(order)
-        
-        # Map purchase history to pets
-        pet_purchases = {pet['name']: [] for pet in sample_pet_data}
-        if purchase_history:
-            for p in purchase_history:
-                pet_name = p.get('pet_name', '')
-                if pet_name in pet_purchases:
-                    pet_purchases[pet_name].append(p)
-        
-        # Generate letter and visual prompt
-        pet_names = [pet.get('name', 'Unknown') for pet in sample_pet_data]
-        has_unknown = any(name.lower() == 'unknown' for name in pet_names)
-        
-        if has_unknown:
-            signature = f"From: The {len(pet_names)} pets"
-        else:
-            if len(pet_names) == 1:
-                signature = f"From: {pet_names[0]}"
-            elif len(pet_names) == 2:
-                signature = f"From: {pet_names[0]} and {pet_names[1]}"
-            else:
-                signature = f"From: {', '.join(pet_names[:-1])}, and {pet_names[-1]}"
-        
-        # Generate letter content based on data type
-        letter = f"""Dear Human,
-
-We're so excited to tell you how much we love everything you've brought into our lives! Every day with you is filled with joy and adventure, and we can't help but wag our tails (and purr) with gratitude for all the wonderful things you do for us."""
-        
-        # Add specific mentions based on data type
-        if data_type == "reviews":
-            # Analyze review data for positive mentions
-            positive_products = []
-            for review in sample_review_data:
-                if review.get('rating', 0) >= 4 or 'love' in review.get('review_text', '').lower():
-                    positive_products.append(review.get('product_name', review.get('product', '')))
-            
-            if positive_products:
-                if len(positive_products) >= 2:
-                    letter += f" We absolutely adore the {positive_products[0]} and {positive_products[1]} you've gotten for us - they've become our favorite things to play with and enjoy!"
-                else:
-                    letter += f" We absolutely adore the {positive_products[0]} you've gotten for us - it's become our favorite thing to play with and enjoy!"
-        
-        elif data_type == "orders":
-            # Analyze order data for product mentions
-            item_types = {}
-            brands = {}
-            for order in sample_order_data:
-                item_type = order.get('item_type', '')
-                brand = order.get('brand', '')
-                if item_type:
-                    item_types[item_type] = item_types.get(item_type, 0) + 1
-                if brand:
-                    brands[brand] = brands.get(brand, 0) + 1
-            
-            common_types = sorted(item_types.items(), key=lambda x: x[1], reverse=True)[:3]
-            if common_types:
-                type_mentions = []
-                for item_type, count in common_types:
-                    if item_type == 'food':
-                        type_mentions.append("delicious food")
-                    elif item_type == 'toy':
-                        type_mentions.append("amazing toys")
-                    elif item_type == 'clothing':
-                        type_mentions.append("stylish clothes")
-                    elif item_type == 'treat':
-                        type_mentions.append("yummy treats")
-                    elif item_type == 'bed':
-                        type_mentions.append("comfy beds")
-                    elif item_type == 'bowl':
-                        type_mentions.append("fancy bowls")
-                
-                if len(type_mentions) >= 2:
-                    letter += f" We absolutely adore the {type_mentions[0]} and {type_mentions[1]} you've spoiled us with - they make every day feel like a special treat!"
-                elif type_mentions:
-                    letter += f" We absolutely adore the {type_mentions[0]} you've spoiled us with - it makes every day feel like a special treat!"
-        
-        letter += f""" Thank you for being the best human ever and for making our lives so full of love and happiness!
-
-With all our love and zoomies,
-{signature}"""
-        
-        # Generate visual prompt with enhanced pet information
-        pet_descriptions = []
-        for pet in sample_pet_data:
-            name = pet.get('name', 'Unknown')
-            pet_type = pet.get('type', pet.get('PetType', 'Unknown')).lower()
-            
-            # Build enhanced description with available traits
-            description_parts = []
-            
-            if name.lower() == 'unknown':
-                description_parts.append(f"a generic domestic {pet_type}")
-            else:
-                # Add breed if available and not unknown
-                breed = pet.get('breed', pet.get('Breed'))
-                if breed and breed.lower() not in ['unknown', 'unk']:
-                    description_parts.append(f"a {breed} {pet_type}")
-                else:
-                    description_parts.append(f"a domestic {pet_type}")
-        
-                # Add size if available and not unknown
-                size = pet.get('size', pet.get('SizeCategory'))
-                if size and size.lower() not in ['unknown', 'unk']:
-                    description_parts.append(f"{size.lower()}")
-                
-                # Add age/life stage if available and not unknown
-                age = pet.get('age', pet.get('LifeStage'))
-                if age and age.lower() not in ['unknown', 'unk']:
-                    if age.lower() in ['p', 'puppy', 'kitten']:
-                        description_parts.append("young")
-                    elif age.lower() in ['s', 'senior']:
-                        description_parts.append("senior")
-                    elif age.lower() in ['a', 'adult']:
-                        description_parts.append("adult")
-                
-                # Add weight if available and not unknown
-                weight = pet.get('weight', pet.get('Weight'))
-                if weight and weight.lower() not in ['unknown', 'unk']:
-                    try:
-                        weight_num = float(weight)
-                        if weight_num < 10:
-                            description_parts.append("small")
-                        elif weight_num < 50:
-                            description_parts.append("medium-sized")
-                        else:
-                            description_parts.append("large")
-                    except (ValueError, TypeError):
-                        pass
-            
-            # Join all parts to create the description
-            pet_descriptions.append(' '.join(description_parts))
-        
-        # Ensure we have exactly the right number of pets
-        pet_count = len(sample_pet_data)
-        
-        # Count pet types for explicit description
-        dog_count = sum(1 for pet in sample_pet_data if pet.get('type', pet.get('PetType', '')).lower() == 'dog')
-        cat_count = sum(1 for pet in sample_pet_data if pet.get('type', pet.get('PetType', '')).lower() == 'cat')
-        
-        # Create explicit pet type description
-        if dog_count > 0 and cat_count > 0:
-            pet_type_description = f"{dog_count} dog{'s' if dog_count > 1 else ''} and {cat_count} cat{'s' if cat_count > 1 else ''}"
-        elif dog_count > 0:
-            pet_type_description = f"{dog_count} dog{'s' if dog_count > 1 else ''}"
-        elif cat_count > 0:
-            pet_type_description = f"{cat_count} cat{'s' if cat_count > 1 else ''}"
-        else:
-            pet_type_description = f"{pet_count} pet{'s' if pet_count > 1 else ''}"
-        
-        visual_prompt = f"""In a bright, sunny, and cozy living room, {pet_type_description} ({', '.join(pet_descriptions)}) are enjoying their time together. The scene features EXACTLY {pet_count} pets as the main focus - no more, no less. The scene is filled with bright, warm lighting that illuminates everything clearly, with comfortable furniture. Chewy branding is subtly visible on a toy bin in the corner and a food bowl on the floor. The pets are surrounded by various beloved pet items including toys, food, and cozy accessories, creating a joyful and content atmosphere. The overall style is bright, warm, colorful, and full of pet-loving charm with vibrant, cheerful lighting."""
-        
-        # Per-pet badge assignment using LLM
-        pets_output = []
-        for pet in sample_pet_data:
-            name = pet.get('name', 'Unknown')
-            reviews = pet_reviews.get(name, [])
-            orders = pet_orders.get(name, [])
-            purchases = pet_purchases.get(name, [])
-            purchase_summary = self.summarize_purchase_history(purchases)
-            
-            if data_type == "reviews":
-                pet_result = self._llm_pet_personality(pet, reviews, purchase_summary)
-            else:
-                pet_result = self._llm_pet_personality(pet, orders, purchase_summary)
-            
-            pets_output.append(pet_result)
-        
-        # Determine household badge using the enhanced logic
-        household_badge = self._determine_household_badge(sample_pet_data, sample_review_data, sample_order_data, data_type)
-        household_description = self._generate_household_description(household_badge, sample_pet_data)
-        
-        # Get compatible badges
-        compatible_badges = self.COMPATIBILITY_MAP.get(household_badge, ["The Explorer", "The Athlete", "The Cuddler"])
-        
-        # Create personality badge structure
-        personality_badge = {
-            "badge": household_badge,
-            "compatible_with": compatible_badges,
-            "icon_png": f"{household_badge.lower().replace(' ', '_')}.png",
-            "description": household_description,
-            "descriptive_words": self.badge_descriptive_words.get(household_badge, ["friendly", "gentle", "curious", "loving"])
-        }
-        
-        return {
-            "letter": letter,
-            "visual_prompt": visual_prompt,
-            "personality_badge": personality_badge
-        }
 
 
 def main():
