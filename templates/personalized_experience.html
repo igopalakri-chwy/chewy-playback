@@ -130,6 +130,15 @@ body {
     z-index: 1;
 }
 
+/* Special handling for letter slide content */
+.letter-slide .slide-content {
+    overflow: hidden;
+    height: 100vh;
+    padding: 20px 15px;
+    position: relative;
+    z-index: 1;
+}
+
 /* Ensure all breed slide elements can scroll */
 .breed-slide * {
     box-sizing: border-box;
@@ -426,13 +435,15 @@ body {
     max-width: 700px;
     margin: 0 auto;
     background: rgba(255,255,255,0.1);
-    padding: 8px 12px;
+    padding: 20px;
     border-radius: 12px;
     backdrop-filter: blur(10px);
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     color: white;
     font-size: 14px;
-    line-height: 1.4;
+    line-height: 1.6;
     text-align: left;
     white-space: pre-wrap;
     font-family: 'Poppins', sans-serif;
@@ -440,6 +451,8 @@ body {
     width: 100%;
     box-sizing: border-box;
     border: 1px solid rgba(255,255,255,0.2);
+    overflow: visible;
+    flex: 1;
 }
 
 
@@ -1926,24 +1939,28 @@ body {
     <!-- Slide 4: Letter to Human -->
     {% if customer_data.pet_letters %}
     <div class="slide" id="slide-3">
-        <div class="slide-content letter-slide" style="display: flex; flex-direction: column; justify-content: flex-start; align-items: center; min-height: auto; padding: 5px 20px; padding-top: 0;">
-            <div class="slide-header" style="text-align: center; margin-bottom: 0; padding-top: 0; min-height: auto;">
-                <h2 class="slide-title" style="text-align: center; margin: 0; margin-bottom: 0; font-size: 24px;">
+        <div class="slide-content letter-slide" style="display: flex; flex-direction: column; justify-content: center; align-items: center; min-height: 100vh; padding: 40px 20px; overflow-y: auto;">
+            <div class="slide-header" style="text-align: center; margin-bottom: 30px; width: 100%;">
+                <h2 class="slide-title" style="text-align: center; margin: 0; font-size: 32px; font-weight: 700; color: white; text-shadow: 0 2px 4px rgba(0,0,0,0.3);">
                     A Letter from Your Pets
                 </h2>
             </div>
             
-            <div class="letter-container" style="margin: 0; padding: 0; max-width: 700px; width: 100%;">
-                {% set letter_text = customer_data.pet_letters %}
-                {% if letter_text %}
-                    {% set lines = letter_text.split('\n') %}
-                    {% set filtered_lines = [] %}
-                    {% for line in lines %}
-                        {% if not line.startswith('Collective Letter from All Pets for Customer') and not line.startswith('=') %}
-                            {{ filtered_lines.append(line) or '' }}
-                        {% endif %}
-                    {% endfor %}
-                    {{ filtered_lines | join('\n') }}
+            <div class="letter-container" style="margin: 0 auto; padding: 30px; max-width: 600px; width: 100%; background: rgba(255,255,255,0.15); border: 2px solid rgba(255,255,255,0.3); border-radius: 20px; backdrop-filter: blur(15px); text-align: left; font-size: 16px; line-height: 1.8; white-space: pre-wrap; font-family: 'Poppins', sans-serif; font-weight: 400; color: white; box-shadow: 0 15px 35px rgba(0,0,0,0.2); overflow: visible;">
+                {% if customer_data.pet_letters %}
+                    {% set letter_text = customer_data.pet_letters %}
+                    {% if letter_text %}
+                        {% set lines = letter_text.split('\n') %}
+                        {% for line in lines %}
+                            {% if not line.startswith('Collective Letter from All Pets for Customer') and not line.startswith('=') %}
+                                {% if line.strip() %}
+                                    <p style="margin: 0 0 15px 0; padding: 0;">{{ line }}</p>
+                                {% else %}
+                                    <br>
+                                {% endif %}
+                            {% endif %}
+                        {% endfor %}
+                    {% endif %}
                 {% endif %}
             </div>
             
