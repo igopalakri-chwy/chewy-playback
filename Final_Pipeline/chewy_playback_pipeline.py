@@ -1254,8 +1254,6 @@ class ChewyPlaybackPipeline:
             if narrative_results[customer_id] and 'collective_letter' in narrative_results[customer_id]:
                 letters_path = customer_dir / "pet_letters.txt"
                 with open(letters_path, 'w') as f:
-                    f.write(f"Collective Letter from All Pets for Customer {customer_id}\n")
-                    f.write("=" * 60 + "\n\n")
                     f.write(narrative_results[customer_id]['collective_letter'])
                     f.write("\n\n")
             
