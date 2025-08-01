@@ -29,7 +29,7 @@ from Agents.Narrative_Generation_Agent.pet_letter_llm_system import PetLetterLLM
 from Agents.Review_and_Order_Intelligence_Agent.add_confidence_score import ConfidenceScoreCalculator
 from Agents.Breed_Predictor_Agent.breed_predictor_agent import BreedPredictorAgent
 from Agents.Review_and_Order_Intelligence_Agent.unknowns_analyzer import UnknownsAnalyzer
-from Agents.Image_Generation_Agent.letter_agent import generate_image_from_prompt
+from Agents.Image_Generation_Agent.image_generation_agent import generate_image_from_prompt
 from snowflake_data_connector import SnowflakeDataConnector
 import openai
 from dotenv import load_dotenv
@@ -45,468 +45,6 @@ class DecimalEncoder(json.JSONEncoder):
             return obj.isoformat()
         return super(DecimalEncoder, self).default(obj)
 
-
-class OrderIntelligenceAgent:
-    """
-    Simplified AI agent that derives pet insights from order history only
-    using LLM analysis to generate basic pet profiles.
-    """
-    
-    def __init__(self, openai_api_key: str):
-        """Initialize the Order Intelligence Agent."""
-        self.openai_api_key = openai_api_key
-        self.order_data = None
-        self.openai_client = openai.OpenAI(api_key=openai_api_key)
-    
-    def load_data(self, order_history_path: str) -> bool:
-        """Load order history data from CSV file."""
-        try:
-            print("Loading order history data...")
-            self.order_data = pd.read_csv(order_history_path)
-            print(f"Loaded {len(self.order_data)} order records")
-            self._validate_data()
-            return True
-        except Exception as e:
-            print(f"Error loading data: {e}")
-            return False
-    
-    def _validate_data(self) -> None:
-        """Validate that required columns exist in the data."""
-        # Check for main order history format (Agents directory)
-        if 'CustomerID' in self.order_data.columns:
-            required_order_cols = ['CustomerID', 'ProductID', 'ProductName']
-            missing_order_cols = [col for col in required_order_cols if col not in self.order_data.columns]
-            if missing_order_cols:
-                raise ValueError(f"Missing required columns in order history: {missing_order_cols}")
-        # Check for Data directory processed format
-        elif 'customer_id' in self.order_data.columns:
-            required_order_cols = ['customer_id', 'product_id', 'item_name']
-            missing_order_cols = [col for col in required_order_cols if col not in self.order_data.columns]
-            if missing_order_cols:
-                raise ValueError(f"Missing required columns in Data processed order history: {missing_order_cols}")
-        # Check for zero_reviews format
-        elif 'CUSTOMER_ID' in self.order_data.columns:
-            required_order_cols = ['CUSTOMER_ID', 'PRODUCT_ID', 'ITEM_NAME']
-            missing_order_cols = [col for col in required_order_cols if col not in self.order_data.columns]
-            if missing_order_cols:
-                raise ValueError(f"Missing required columns in zero_reviews: {missing_order_cols}")
-        else:
-            raise ValueError("Order data must have either CustomerID/ProductID/ProductName, customer_id/product_id/item_name, or CUSTOMER_ID/PRODUCT_ID/ITEM_NAME columns")
-    
-    def _get_customer_orders(self, customer_id: str):
-        """Get all orders for a specific customer."""
-        if self.order_data is None:
-            return None
-        
-        # Handle all three column formats
-        if 'CustomerID' in self.order_data.columns:
-            return self.order_data[self.order_data['CustomerID'].astype(str) == str(customer_id)]
-        elif 'customer_id' in self.order_data.columns:
-            return self.order_data[self.order_data['customer_id'].astype(str) == str(customer_id)]
-        elif 'CUSTOMER_ID' in self.order_data.columns:
-            return self.order_data[self.order_data['CUSTOMER_ID'].astype(str) == str(customer_id)]
-        else:
-            return None
-    
-    def _analyze_customer_orders_with_llm(self, customer_orders, customer_id: str) -> Dict[str, Any]:
-        """Analyze customer orders to generate pet insights using LLM."""
-        if customer_orders is None or customer_orders.empty:
-            raise ValueError(f"No order data available for customer {customer_id}. LLM analysis requires order data.")
-        
-        # Prepare context from order data
-        context = self._prepare_order_context(customer_orders)
-        
-        # Create analysis prompt
-        prompt = self._create_analysis_prompt(context, customer_id)
-        
-        try:
-            # Call OpenAI API
-            response = self.openai_client.chat.completions.create(
-                model="gpt-4o",
-                messages=[
-                    {
-                        "role": "system",
-                        "content": "You are an AI expert at analyzing pet product orders to understand pets and their preferences. Provide insights based only on order history data."
-                    },
-                    {
-                        "role": "user",
-                        "content": prompt
-                    }
-                ],
-                max_tokens=1000,
-                temperature=0.3
-            )
-            
-            result = response.choices[0].message.content
-            return self._parse_llm_response(result, customer_id)
-            
-        except Exception as e:
-            print(f"❌ CRITICAL: LLM analysis failed for customer {customer_id}: {e}")
-            raise RuntimeError(f"LLM analysis failed for customer {customer_id}. This pipeline requires LLM analysis to function properly.")
-    
-    def _prepare_order_context(self, customer_orders) -> str:
-        """Prepare context data from order history for LLM analysis."""
-        context_parts = []
-        
-        # Add order summary
-        context_parts.append("Customer Order History:")
-        context_parts.append(f"Total Orders: {len(customer_orders)}")
-        
-        # Handle different column formats
-        if 'ProductName' in customer_orders.columns:
-            # Main order history format (Agents directory)
-            # Product categories and brands
-            if 'ProductCategory' in customer_orders.columns:
-                categories = customer_orders['ProductCategory'].value_counts().head(10)
-                context_parts.append(f"Top Product Categories: {dict(categories)}")
-            
-            if 'Brand' in customer_orders.columns:
-                brands = customer_orders['Brand'].value_counts().head(10)
-                context_parts.append(f"Top Brands: {dict(brands)}")
-            
-            # Most ordered products
-            products = customer_orders['ProductName'].value_counts().head(10)
-            context_parts.append(f"Most Ordered Products: {dict(products)}")
-            
-            # Order dates (if available)
-            if 'OrderDate' in customer_orders.columns:
-                context_parts.append(f"Order Date Range: {customer_orders['OrderDate'].min()} to {customer_orders['OrderDate'].max()}")
-        
-        elif 'item_name' in customer_orders.columns:
-            # Data directory processed format
-            # Most ordered products
-            products = customer_orders['item_name'].value_counts().head(10)
-            context_parts.append(f"Most Ordered Products: {dict(products)}")
-            
-            # Order dates
-            if 'order_date' in customer_orders.columns:
-                context_parts.append(f"Order Date Range: {customer_orders['order_date'].min()} to {customer_orders['order_date'].max()}")
-            
-            # Pet names (if available)
-            pet_names = set()
-            if 'pet_name_1' in customer_orders.columns:
-                pet_names.update(customer_orders['pet_name_1'].dropna().unique())
-            if 'pet_name_2' in customer_orders.columns:
-                pet_names.update(customer_orders['pet_name_2'].dropna().unique())
-            if pet_names:
-                context_parts.append(f"Pet Names: {', '.join(pet_names)}")
-        
-        elif 'ITEM_NAME' in customer_orders.columns:
-            # Zero reviews format
-            # Most ordered products
-            products = customer_orders['ITEM_NAME'].value_counts().head(10)
-            context_parts.append(f"Most Ordered Products: {dict(products)}")
-            
-            # Order dates
-            if 'ORDER_DATE' in customer_orders.columns:
-                context_parts.append(f"Order Date Range: {customer_orders['ORDER_DATE'].min()} to {customer_orders['ORDER_DATE'].max()}")
-            
-            # Pet names (if available)
-            pet_names = set()
-            if 'PET_NAME1' in customer_orders.columns:
-                pet_names.update(customer_orders['PET_NAME1'].dropna().unique())
-            if 'PET_NAME2' in customer_orders.columns:
-                pet_names.update(customer_orders['PET_NAME2'].dropna().unique())
-            if pet_names:
-                context_parts.append(f"Pet Names: {', '.join(pet_names)}")
-        
-        return "\n".join(context_parts)
-    
-    def _create_analysis_prompt(self, context: str, customer_id: str) -> str:
-        """Create prompt for LLM analysis of order data."""
-        return f"""Analyze the following customer order history and provide insights about their pets. Since we don't have review data, focus on inferring pet characteristics from product choices.
-
-Customer ID: {customer_id}
-
-{context}
-
-Based on this order history, please provide insights in the following JSON format:
-
-{{
-    "PetType": "dog/cat/other (inferred from products)",
-    "PetTypeScore": 0.8,
-    "Breed": "inferred breed or 'Mixed'",
-    "BreedScore": 0.6,
-    "LifeStage": "puppy/kitten/adult/senior",
-    "LifeStageScore": 0.7,
-    "Gender": "male/female/unknown",
-    "GenderScore": 0.5,
-    "SizeCategory": "small/medium/large",
-    "SizeScore": 0.6,
-    "Weight": "estimated weight range",
-    "WeightScore": 0.4,
-    "Birthday": "unknown",
-    "BirthdayScore": 0.0,
-    "PersonalityTraits": ["playful", "curious", "affectionate"],
-    "PersonalityScores": {{"playful": 0.8, "curious": 0.7, "affectionate": 0.9}},
-    "FavoriteProductCategories": ["toys", "food", "treats"],
-    "CategoryScores": {{"toys": 0.9, "food": 0.8, "treats": 0.7}},
-    "BrandPreferences": ["Chewy", "Blue Buffalo"],
-    "BrandScores": {{"Chewy": 0.9, "Blue Buffalo": 0.8}},
-    "DietaryPreferences": ["grain-free", "high-protein"],
-    "DietaryScores": {{"grain-free": 0.8, "high-protein": 0.7}},
-    "BehavioralCues": ["loves toys", "enjoys treats"],
-    "BehavioralScores": {{"loves toys": 0.9, "enjoys treats": 0.8}},
-    "HealthMentions": ["healthy", "active"],
-    "HealthScores": {{"healthy": 0.8, "active": 0.7}},
-    "MostOrderedProducts": ["product1", "product2", "product3"]
-}}
-
-Focus on:
-1. Product categories that indicate pet type (dog food vs cat food)
-2. Product types that suggest life stage (puppy food, senior care)
-3. Brand preferences and quality indicators
-4. Product variety that suggests personality traits
-5. Order frequency and patterns
-
-Provide realistic scores (0.0-1.0) based on confidence in the inference."""
-
-    def _parse_llm_response(self, response: str, customer_id: str) -> Dict[str, Any]:
-        """Parse LLM response into structured insights."""
-        try:
-            # Extract JSON from response
-            import re
-            json_match = re.search(r'\{.*\}', response, re.DOTALL)
-            if json_match:
-                json_str = json_match.group()
-                return json.loads(json_str)
-            else:
-                print(f"❌ CRITICAL: Could not parse JSON from LLM response for customer {customer_id}")
-                raise RuntimeError(f"Failed to parse LLM response for customer {customer_id}. This pipeline requires LLM analysis to function properly.")
-        except Exception as e:
-            print(f"❌ CRITICAL: Error parsing LLM response for customer {customer_id}: {e}")
-            raise RuntimeError(f"Failed to parse LLM response for customer {customer_id}. This pipeline requires LLM analysis to function properly.")
-    
-
-    
-    def _extract_pet_info(self, customer_orders) -> List[Dict[str, Any]]:
-        """Extract pet information including names, types, breeds, etc. from customer order data."""
-        pets_info = []
-        
-        # Check for the new detailed pet information format
-        if 'PET1_NAME' in customer_orders.columns and 'PET1_SPECIES' in customer_orders.columns:
-            # New format with detailed pet information
-            for i in range(1, 3):  # Check for PET1 and PET2
-                pet_name_col = f'PET{i}_NAME'
-                pet_species_col = f'PET{i}_SPECIES'
-                pet_breed_col = f'PET{i}_BREED'
-                pet_size_col = f'PET{i}_SIZE'
-                pet_gender_col = f'PET{i}_GENDER'
-                pet_life_stage_col = f'PET{i}_LIFE_STAGE'
-                
-                if pet_name_col in customer_orders.columns:
-                    # Get the first non-null value for this pet
-                    pet_name = customer_orders[pet_name_col].dropna().iloc[0] if not customer_orders[pet_name_col].dropna().empty else None
-                    
-                    if pet_name and str(pet_name).strip() and str(pet_name).strip().lower() not in ['nan', 'none', '']:
-                        pet_info = {
-                            'name': str(pet_name).strip(),
-                            'type': customer_orders[pet_species_col].dropna().iloc[0] if pet_species_col in customer_orders.columns and not customer_orders[pet_species_col].dropna().empty else 'unknown',
-                            'breed': customer_orders[pet_breed_col].dropna().iloc[0] if pet_breed_col in customer_orders.columns and not customer_orders[pet_breed_col].dropna().empty else 'unknown',
-                            'size': customer_orders[pet_size_col].dropna().iloc[0] if pet_size_col in customer_orders.columns and not customer_orders[pet_size_col].dropna().empty else 'unknown',
-                            'gender': customer_orders[pet_gender_col].dropna().iloc[0] if pet_gender_col in customer_orders.columns and not customer_orders[pet_gender_col].dropna().empty else 'unknown',
-                            'life_stage': customer_orders[pet_life_stage_col].dropna().iloc[0] if pet_life_stage_col in customer_orders.columns and not customer_orders[pet_life_stage_col].dropna().empty else 'unknown'
-                        }
-                        pets_info.append(pet_info)
-        
-        # Fallback to old format if new format not found
-        else:
-            # Check different possible column names for pet names
-            pet_name_columns = ['pet_name_1', 'pet_name_2', 'PetName1', 'PetName2', 'PetName', 'Pet1', 'Pet2']
-            
-            for col in pet_name_columns:
-                if col in customer_orders.columns:
-                    # Get unique non-null pet names
-                    names = customer_orders[col].dropna().unique()
-                    for name in names:
-                        if pd.notna(name) and str(name).strip() and str(name).strip().lower() not in ['nan', 'none', '']:
-                            pet_info = {
-                                'name': str(name).strip(),
-                                'type': 'unknown',
-                                'breed': 'unknown',
-                                'size': 'unknown',
-                                'gender': 'unknown',
-                                'life_stage': 'unknown'
-                            }
-                            pets_info.append(pet_info)
-            
-            # If no pet name columns found, try to extract from product descriptions
-            if not pets_info:
-                # Look for patterns like "for [PetName]" or "[PetName]'s" in product names
-                product_col = None
-                for col in ['ProductName', 'Product', 'ItemName']:
-                    if col in customer_orders.columns:
-                        product_col = col
-                        break
-                
-                if product_col:
-                    for product_name in customer_orders[product_col].dropna():
-                        if pd.notna(product_name):
-                            # Look for patterns that might indicate pet names
-                            # This is a simple heuristic - could be enhanced
-                            words = str(product_name).split()
-                            for word in words:
-                                # Skip common product words
-                                if word.lower() in ['dog', 'cat', 'pet', 'toy', 'food', 'treat', 'chew', 'ball']:
-                                    continue
-                                # If word looks like a name (capitalized, not too long)
-                                if (word[0].isupper() and len(word) > 1 and len(word) < 15 and 
-                                    word.isalpha() and word.lower() not in ['chewy', 'wellness', 'dr', 'core']):
-                                    pet_info = {
-                                        'name': word,
-                                        'type': 'unknown',
-                                        'breed': 'unknown',
-                                        'size': 'unknown',
-                                        'gender': 'unknown',
-                                        'life_stage': 'unknown'
-                                    }
-                                    pets_info.append(pet_info)
-        
-        return pets_info
-    
-    def _map_size_category(self, size_code: str) -> str:
-        """Map size codes to readable size categories."""
-        size_mapping = {
-            'XS': 'extra small',
-            'S': 'small', 
-            'M': 'medium',
-            'L': 'large',
-            'XL': 'extra large',
-            'UNK': 'unknown'
-        }
-        return size_mapping.get(size_code.upper(), 'medium')
-    
-    def _extract_pet_names(self, customer_orders) -> List[str]:
-        """Extract unique pet names from customer order data."""
-        pets_info = self._extract_pet_info(customer_orders)
-        return [pet['name'] for pet in pets_info]
-    
-    def process_customer_data(self, customer_ids: List[str] = None) -> Dict[str, Dict[str, Any]]:
-        """Process customer data to generate pet insights."""
-        results = {}
-        
-        # Get list of customers to process
-        if customer_ids:
-            customers_to_process = customer_ids
-        else:
-            # Get unique customer IDs from order data
-            customers_to_process = self.order_data['CustomerID'].astype(str).unique().tolist()
-        
-        print(f"Processing {len(customers_to_process)} customers...")
-        
-        for customer_id in customers_to_process:
-            try:
-                print(f"  🐾 Analyzing customer {customer_id}...")
-                
-                # Get customer orders
-                customer_orders = self._get_customer_orders(customer_id)
-                
-                if customer_orders is None or customer_orders.empty:
-                    print(f"    ⚠️ No orders found for customer {customer_id}")
-                    continue
-                
-                # Analyze orders to generate insights
-                insights = self._analyze_customer_orders_with_llm(customer_orders, customer_id)
-                
-                # Extract pet information from order data
-                pets_info = self._extract_pet_info(customer_orders)
-                
-                # Create pet profiles for each pet
-                customer_pets = {}
-                
-                if pets_info:
-                    # Create individual profiles for each pet using actual data
-                    for pet_info in pets_info:
-                        pet_name = pet_info['name']
-                        
-                        # Use actual data from CSV when available, fallback to LLM insights
-                        pet_type = pet_info['type'].lower() if pet_info['type'] != 'unknown' else insights.get("PetType", "Pet")
-                        pet_type_score = 0.9 if pet_info['type'] != 'unknown' else insights.get("PetTypeScore", 0.5)
-                        
-                        breed = pet_info['breed'] if pet_info['breed'] != 'unknown' else insights.get("Breed", "Mixed")
-                        breed_score = 0.9 if pet_info['breed'] != 'unknown' else insights.get("BreedScore", 0.3)
-                        
-                        life_stage = pet_info['life_stage'].lower() if pet_info['life_stage'] != 'unknown' else insights.get("LifeStage", "adult")
-                        life_stage_score = 0.9 if pet_info['life_stage'] != 'unknown' else insights.get("LifeStageScore", 0.5)
-                        
-                        gender = pet_info['gender'].lower() if pet_info['gender'] != 'unknown' else insights.get("Gender", "unknown")
-                        gender_score = 0.9 if pet_info['gender'] != 'unknown' else insights.get("GenderScore", 0.0)
-                        
-                        # Map size categories
-                        size_category = self._map_size_category(pet_info['size']) if pet_info['size'] != 'unknown' else insights.get("SizeCategory", "medium")
-                        size_score = 0.9 if pet_info['size'] != 'unknown' else insights.get("SizeScore", 0.5)
-                        
-                        pet_profile = {
-                            "PetName": pet_name,
-                            "PetType": pet_type,
-                            "PetTypeScore": pet_type_score,
-                            "Breed": breed,
-                            "BreedScore": breed_score,
-                            "LifeStage": life_stage,
-                            "LifeStageScore": life_stage_score,
-                            "Gender": gender,
-                            "GenderScore": gender_score,
-                            "SizeCategory": size_category,
-                            "SizeScore": size_score,
-                            "Weight": insights.get("Weight", "unknown"),
-                            "WeightScore": insights.get("WeightScore", 0.0),
-                            "PersonalityTraits": insights.get("PersonalityTraits", []),
-                            "PersonalityScores": insights.get("PersonalityScores", {}),
-                            "FavoriteProductCategories": insights.get("FavoriteProductCategories", []),
-                            "CategoryScores": insights.get("CategoryScores", {}),
-                            "BrandPreferences": insights.get("BrandPreferences", []),
-                            "BrandScores": insights.get("BrandScores", {}),
-                            "DietaryPreferences": insights.get("DietaryPreferences", []),
-                            "DietaryScores": insights.get("DietaryScores", {}),
-                            "BehavioralCues": insights.get("BehavioralCues", []),
-                            "BehavioralScores": insights.get("BehavioralScores", {}),
-                            "HealthMentions": insights.get("HealthMentions", []),
-                            "HealthScores": insights.get("HealthScores", {}),
-                            "MostOrderedProducts": insights.get("MostOrderedProducts", []),
-                            "ConfidenceScore": 0.5  # Default confidence for order-only analysis
-                        }
-                        customer_pets[pet_name] = pet_profile
-                else:
-                    # Fallback to generic pet profile if no names found
-                    pet_profile = {
-                        "PetName": "Pet",
-                        "PetType": insights.get("PetType", "Pet"),
-                        "PetTypeScore": insights.get("PetTypeScore", 0.5),
-                        "Breed": insights.get("Breed", "Mixed"),
-                        "BreedScore": insights.get("BreedScore", 0.3),
-                        "LifeStage": insights.get("LifeStage", "adult"),
-                        "LifeStageScore": insights.get("LifeStageScore", 0.5),
-                        "Gender": insights.get("Gender", "unknown"),
-                        "GenderScore": insights.get("GenderScore", 0.0),
-                        "SizeCategory": insights.get("SizeCategory", "medium"),
-                        "SizeScore": insights.get("SizeScore", 0.5),
-                        "Weight": insights.get("Weight", "unknown"),
-                        "WeightScore": insights.get("WeightScore", 0.0),
-                        "PersonalityTraits": insights.get("PersonalityTraits", []),
-                        "PersonalityScores": insights.get("PersonalityScores", {}),
-                        "FavoriteProductCategories": insights.get("FavoriteProductCategories", []),
-                        "CategoryScores": insights.get("CategoryScores", {}),
-                        "BrandPreferences": insights.get("BrandPreferences", []),
-                        "BrandScores": insights.get("BrandScores", {}),
-                        "DietaryPreferences": insights.get("DietaryPreferences", []),
-                        "DietaryScores": insights.get("DietaryScores", {}),
-                        "BehavioralCues": insights.get("BehavioralCues", []),
-                        "BehavioralScores": insights.get("BehavioralScores", {}),
-                        "HealthMentions": insights.get("HealthMentions", []),
-                        "HealthScores": insights.get("HealthScores", {}),
-                        "MostOrderedProducts": insights.get("MostOrderedProducts", []),
-                        "ConfidenceScore": 0.5  # Default confidence for order-only analysis
-                    }
-                    customer_pets["Pet"] = pet_profile
-                
-                results[customer_id] = customer_pets
-                print(f"    ✅ Completed customer {customer_id}")
-                
-            except Exception as e:
-                print(f"    ❌ Error processing customer {customer_id}: {e}")
-                continue
-        
-        return results
 
 
 class ChewyPlaybackPipeline:
@@ -535,7 +73,6 @@ class ChewyPlaybackPipeline:
         
         # Initialize agents
         self.review_agent = ReviewOrderIntelligenceAgent(self.openai_api_key)
-        self.order_agent = OrderIntelligenceAgent(self.openai_api_key)
         self.narrative_agent = PetLetterLLMSystem(self.openai_api_key)
         self.breed_predictor_agent = BreedPredictorAgent()
         
@@ -800,6 +337,136 @@ class ChewyPlaybackPipeline:
         )
         return customer_results
     
+    def _analyze_orders_with_llm(self, orders_df: pd.DataFrame, customer_id: str) -> Dict[str, Any]:
+        """Analyze customer orders using LLM to generate pet insights."""
+        if orders_df.empty:
+            raise ValueError(f"No order data available for customer {customer_id}. LLM analysis requires order data.")
+        
+        # Prepare context from order data
+        context = self._prepare_order_context(orders_df)
+        
+        # Create analysis prompt
+        prompt = self._create_analysis_prompt(context, customer_id)
+        
+        try:
+            # Call OpenAI API
+            response = self.openai_client.chat.completions.create(
+                model="gpt-4o",
+                messages=[
+                    {
+                        "role": "system",
+                        "content": "You are an AI expert at analyzing pet product orders to understand pets and their preferences. Provide insights based only on order history data."
+                    },
+                    {
+                        "role": "user",
+                        "content": prompt
+                    }
+                ],
+                max_tokens=1000,
+                temperature=0.3
+            )
+            
+            result = response.choices[0].message.content
+            return self._parse_llm_response(result, customer_id)
+            
+        except Exception as e:
+            print(f"❌ CRITICAL: LLM analysis failed for customer {customer_id}: {e}")
+            raise RuntimeError(f"LLM analysis failed for customer {customer_id}. This pipeline requires LLM analysis to function properly.")
+    
+    def _prepare_order_context(self, orders_df: pd.DataFrame) -> str:
+        """Prepare context data from order history for LLM analysis."""
+        context_parts = []
+        
+        # Add order summary
+        context_parts.append("Customer Order History:")
+        context_parts.append(f"Total Orders: {len(orders_df)}")
+        
+        # Most ordered products (using Snowflake format)
+        if 'ProductName' in orders_df.columns:
+            products = orders_df['ProductName'].value_counts().head(10)
+            context_parts.append(f"Most Ordered Products: {dict(products)}")
+        
+        # Product categories (if available)
+        if 'ProductCategory' in orders_df.columns:
+            categories = orders_df['ProductCategory'].value_counts().head(10)
+            context_parts.append(f"Top Product Categories: {dict(categories)}")
+        
+        # Brands (if available)
+        if 'Brand' in orders_df.columns:
+            brands = orders_df['Brand'].value_counts().head(10)
+            context_parts.append(f"Top Brands: {dict(brands)}")
+        
+        # Order dates (if available)
+        if 'OrderDate' in orders_df.columns:
+            context_parts.append(f"Order Date Range: {orders_df['OrderDate'].min()} to {orders_df['OrderDate'].max()}")
+        
+        return "\n".join(context_parts)
+    
+    def _create_analysis_prompt(self, context: str, customer_id: str) -> str:
+        """Create prompt for LLM analysis of order data."""
+        return f"""Analyze the following customer order history and provide insights about their pets. Since we don't have review data, focus on inferring pet characteristics from product choices.
+
+Customer ID: {customer_id}
+
+{context}
+
+Based on this order history, please provide insights in the following JSON format:
+
+{{
+    "PetType": "dog/cat/other (inferred from products)",
+    "PetTypeScore": 0.8,
+    "Breed": "inferred breed or 'Mixed'",
+    "BreedScore": 0.6,
+    "LifeStage": "puppy/kitten/adult/senior",
+    "LifeStageScore": 0.7,
+    "Gender": "male/female/unknown",
+    "GenderScore": 0.5,
+    "SizeCategory": "small/medium/large",
+    "SizeScore": 0.6,
+    "Weight": "estimated weight range",
+    "WeightScore": 0.4,
+    "Birthday": "unknown",
+    "BirthdayScore": 0.0,
+    "PersonalityTraits": ["playful", "curious", "affectionate"],
+    "PersonalityScores": {{"playful": 0.8, "curious": 0.7, "affectionate": 0.9}},
+    "FavoriteProductCategories": ["toys", "food", "treats"],
+    "CategoryScores": {{"toys": 0.9, "food": 0.8, "treats": 0.7}},
+    "BrandPreferences": ["Chewy", "Blue Buffalo"],
+    "BrandScores": {{"Chewy": 0.9, "Blue Buffalo": 0.8}},
+    "DietaryPreferences": ["grain-free", "high-protein"],
+    "DietaryScores": {{"grain-free": 0.8, "high-protein": 0.7}},
+    "BehavioralCues": ["loves toys", "enjoys treats"],
+    "BehavioralScores": {{"loves toys": 0.9, "enjoys treats": 0.8}},
+    "HealthMentions": ["healthy", "active"],
+    "HealthScores": {{"healthy": 0.8, "active": 0.7}},
+    "MostOrderedProducts": ["product1", "product2", "product3"]
+}}
+
+Focus on:
+1. Product categories that indicate pet type (dog food vs cat food)
+2. Product types that suggest life stage (puppy food, senior care)
+3. Brand preferences and quality indicators
+4. Product variety that suggests personality traits
+5. Order frequency and patterns
+
+Provide realistic scores (0.0-1.0) based on confidence in the inference."""
+
+    def _parse_llm_response(self, response: str, customer_id: str) -> Dict[str, Any]:
+        """Parse LLM response into structured insights."""
+        try:
+            # Extract JSON from response
+            import re
+            json_match = re.search(r'\{.*\}', response, re.DOTALL)
+            if json_match:
+                json_str = json_match.group()
+                return json.loads(json_str)
+            else:
+                print(f"❌ CRITICAL: Could not parse JSON from LLM response for customer {customer_id}")
+                raise RuntimeError(f"Failed to parse LLM response for customer {customer_id}. This pipeline requires LLM analysis to function properly.")
+        except Exception as e:
+            print(f"❌ CRITICAL: Error parsing LLM response for customer {customer_id}: {e}")
+            raise RuntimeError(f"Failed to parse LLM response for customer {customer_id}. This pipeline requires LLM analysis to function properly.")
+    
     def _run_order_agent_for_customer(self, customer_id: str) -> Dict[str, Any]:
         """Run the Order Intelligence Agent for a specific customer using cached data."""
         print(f"    📋 Using cached data for customer {customer_id}...")
@@ -809,14 +476,13 @@ class ChewyPlaybackPipeline:
         
         if orders_df.empty:
             print(f"    ⚠️ No orders found for customer {customer_id}")
-            return None
+            return {}
         
         # Get customer pets from cached data
         pets_df = self._get_cached_customer_pets_dataframe(customer_id, query_keys=['get_pet_profiles'])
         
-        # Use the order agent's LLM analysis method - focus on product-based insights
-        customer_orders = orders_df.to_dict('records')
-        insights = self.order_agent._analyze_customer_orders_with_llm(orders_df, customer_id)
+        # Use consolidated LLM analysis method for order-based insights
+        insights = self._analyze_orders_with_llm(orders_df, customer_id)
         
         # Order Agent focuses on product-based insights, not behavioral analysis
         # Set personality traits to minimal since we don't have review data
@@ -1151,7 +817,7 @@ class ChewyPlaybackPipeline:
             return []
     
     def run_image_generation_agent(self, narrative_results: Dict[str, Any]) -> Dict[str, Any]:
-        """Run the Image Generation Agent using the modular letter_agent.py approach."""
+        """Run the Image Generation Agent using the modular image_generation_agent.py approach."""
         print("\n🎨 Running Image Generation Agent...")
         
         image_results = {}
@@ -1181,13 +847,12 @@ class ChewyPlaybackPipeline:
                                 'age': age
                             })
                     
-                    # Use the superior letter_agent.py approach for better results
+                    # Use the superior image_generation_agent.py approach without visual prompt
                     image_url = generate_image_from_prompt(
-                        visual_prompt=collective_visual_prompt,
                         api_key=self.openai_api_key,
                         output_path=None,  # Don't save to file here, handle that in save_outputs
                         zip_aesthetics=zip_aesthetics,
-                        pet_details=pet_details  # Pass specific pet data
+                        pet_details=pet_details  # All pet data handled dynamically
                     )
                     
                     if image_url:

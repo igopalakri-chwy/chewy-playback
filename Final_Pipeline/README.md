@@ -82,7 +82,7 @@ Final_Pipeline/
 │   │   ├── pet_letter_llm_system.py   # Enhanced with location backgrounds
 │   │   └── location_background_generator.py  # NEW: Location mapping
 │   ├── Image_Generation_Agent/
-│   │   └── letter_agent.py            # Enhanced with location prompts
+│   │   └── image_generation_agent.py  # Enhanced with location prompts
 │   └── Breed_Predictor_Agent/
 ├── customer_queries.json              # Snowflake query templates
 ├── dog_breed_data/                    # Breed prediction data
