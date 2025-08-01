@@ -438,21 +438,26 @@ body {
     padding: 20px;
     border-radius: 12px;
     backdrop-filter: blur(10px);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    display: block;
     color: white;
     font-size: 14px;
-    line-height: 1.6;
+    line-height: 1.4;
     text-align: left;
-    white-space: pre-wrap;
+    white-space: pre-line;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     width: 100%;
     box-sizing: border-box;
     border: 1px solid rgba(255,255,255,0.2);
-    overflow: visible;
-    flex: 1;
+}
+
+.letter-container p {
+    margin: 0 0 8px 0;
+    padding: 0;
+}
+
+.letter-container p:last-child {
+    margin-bottom: 0;
 }
 
 
@@ -1153,15 +1158,6 @@ body {
 }
 
 /* Stats Slide */
-.stats-container {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 20px;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
 
 .stats-grid {
     display: grid;
@@ -1793,7 +1789,6 @@ body {
     .funfact-content,
     .letter-container,
     .breed-content,
-    .stats-container,
     .share-content,
     .unknowns-content {
         padding: 20px;
@@ -1954,7 +1949,7 @@ body {
                         {% for line in lines %}
                             {% if not line.startswith('Collective Letter from All Pets for Customer') and not line.startswith('=') %}
                                 {% if line.strip() %}
-                                    <p style="margin: 0 0 15px 0; padding: 0;">{{ line }}</p>
+                                    <p style="margin: 0 0 6px 0; padding: 0;">{{ line }}</p>
                                 {% else %}
                                     <br>
                                 {% endif %}
@@ -2024,73 +2019,14 @@ body {
     </div>
     {% endif %}
 
-    <!-- Slide 6: Missing Pet Profile Information -->
-    {% if customer_data.unknowns %}
-    <div class="slide" id="slide-5">
-        <div class="slide-content unknowns-slide" style="overflow-y: auto; min-height: 100vh; padding: 20px 15px 80px 15px;">
-            <div class="slide-header" style="text-align: center; margin-bottom: 30px;">
-                <h2 class="slide-title" style="text-align: center; margin: 0; font-family: 'Poppins', sans-serif; font-weight: 600; font-size: 20px;">
-                    Complete Your Pet Profiles
-                </h2>
-            </div>
-            
-            <div class="unknowns-container">
-                <div class="unknowns-content">
-                    <div class="unknowns-summary">
-                        <p class="unknowns-summary-text">
-                            We found {{ customer_data.unknowns.total_unknowns }} missing pieces of information across {{ customer_data.unknowns.pets_with_unknowns }} pet(s).
-                        </p>
-                        <p class="unknowns-summary-text">
-                            Complete your pet profiles to get even more personalized insights!
-                        </p>
-                    </div>
-                    
-                    <div class="unknowns-pets-grid">
-                        {% for pet_name, pet_data in customer_data.unknowns.unknown_attributes.items() %}
-                        <div class="unknowns-pet-card">
-                            <div class="unknowns-pet-name">
-                                <span class="emoji">🐾</span> {{ pet_data.pet_name | title }}
-                            </div>
-                            <div class="unknowns-fields-container">
-                                {% for field in pet_data.unknown_fields %}
-                                <div class="unknowns-field-box">
-                                    {{ field.replace('_', ' ').title() }}
-                                </div>
-                                {% endfor %}
-                            </div>
-                        </div>
-                        {% endfor %}
-                    </div>
-                    
-                    <div class="unknowns-action">
-                        <p class="unknowns-action-text">
-                            Help us provide better recommendations by completing your pet profiles.
-                        </p>
-                        <a href="https://www.chewy.com/account/profile" target="_blank" class="unknowns-profile-btn">
-                            <span class="profile-btn-icon">🔗</span>
-                            <span class="profile-btn-text">Update Pet Profiles</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="slide-counter">6 of 8</div>
-        </div>
-    </div>
-    {% endif %}
-
-    <!-- Slide 7: Breed Prediction - First Display -->
+    <!-- Slide 5: Breed Prediction - First Display -->
     {% if customer_data.breed_prediction %}
-    <div class="slide" id="slide-6">
+    <div class="slide" id="slide-5">
         <div class="slide-content breed-slide">
-            <div class="slide-header" style="text-align: center; margin-bottom: 30px;">
-                <h2 class="slide-title" style="text-align: center; margin: 0;">
+            <div class="breed-container" style="margin-top: 40px;">
+                <h2 class="slide-title" style="text-align: center; margin: 0; margin-bottom: 30px;">
                     Our Breed Predictions
                 </h2>
-            </div>
-            
-            <div class="breed-container">
-                    <h3 class="breed-title">Our Breed Predictions</h3>
                     
                     <!-- Pet Highlight Section -->
                     <div class="breed-pet-highlight">
@@ -2174,7 +2110,7 @@ body {
                                         <div class="breed-card-checkbox" style="display: none;">
                                             <input type="checkbox" class="breed-checkbox" onchange="handleBreedCheckboxChange(event)">
                                             <label class="breed-checkbox-label">Check</label>
-                        </div>
+                                        </div>
                                     </div>
                                 </div>
                             {% endif %}
@@ -2182,7 +2118,7 @@ body {
                     </div>
                     
                     <!-- Step 2: Question -->
-                    <div class="breed-question-section" id="breed-question-section">
+                    <div class="breed-question-section" id="breed-question-section" style="display: block;">
                         <h4 class="breed-question-title">Did we get any right?</h4>
                         <div class="breed-question-buttons">
                             <button class="breed-question-btn breed-yes-btn" onclick="handleBreedYes()">
@@ -2196,127 +2132,95 @@ body {
                         </div>
                     </div>
                     
-                                    <!-- Step 3: No Response -->
-                <div class="breed-no-response" id="breed-no-response" style="display: none;">
-                    <div class="breed-no-content">
-                        <h4 class="breed-no-title">We thought we had it 😢</h4>
-                        <p class="breed-no-message">Help us improve our predictions by completing your pet profiles.</p>
-                        <div class="breed-profile-link-section">
-                            <a href="https://www.chewy.com/account/profile" target="_blank" class="breed-profile-link">
-                                Complete Pet Profile
-                            </a>
+                    <!-- Step 3: No Response -->
+                    <div class="breed-no-response" id="breed-no-response" style="display: none;">
+                        <div class="breed-no-content">
+                            <h4 class="breed-no-title">We thought we had it 😢</h4>
+                            <p class="breed-no-message">Help us improve our predictions by completing your pet profiles.</p>
+                            <div class="breed-profile-link-section">
+                                <a href="https://www.chewy.com/account/profile" target="_blank" class="breed-profile-link">
+                                    Complete Pet Profile
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
                 
-                <!-- Update Pet Profile Button (hidden by default) -->
-                <div class="update-profile-section" id="update-profile-btn" style="display: none;">
-                    <button class="update-profile-btn" onclick="updatePetProfile()">
-                        <span class="update-btn-icon">📝</span>
-                        <span class="update-btn-text">Update Pet Profile</span>
-                    </button>
-                </div>
-                    
-
-
-                </div>
-            </div>
-            
-            <!-- Breed Flashcard Modal -->
-            <div class="breed-flashcard-modal" id="breed-flashcard-modal">
-                <div class="breed-flashcard-content">
-                    <div class="breed-flashcard-header">
-                        <h3 id="flashcard-breed-name">Breed Name</h3>
-                        <button class="breed-flashcard-close" onclick="closeBreedFlashcard()">×</button>
-                    </div>
-                    <div class="breed-flashcard-body">
-                        <div class="breed-flashcard-info">
-                            <div class="breed-flashcard-pet">For: <span id="flashcard-pet-name">Pet Name</span></div>
-                            <div class="breed-flashcard-confidence">Confidence: <span id="flashcard-confidence">100%</span></div>
+                <!-- Breed Flashcard Modal -->
+                <div class="breed-flashcard-modal" id="breed-flashcard-modal">
+                    <div class="breed-flashcard-content">
+                        <div class="breed-flashcard-header">
+                            <h3 id="flashcard-breed-name">Breed Name</h3>
+                            <button class="breed-flashcard-close" onclick="closeBreedFlashcard()">×</button>
                         </div>
-                        <div class="breed-flashcard-description" id="flashcard-description">
-                            <p>Loading breed information...</p>
+                        <div class="breed-flashcard-body">
+                            <div class="breed-flashcard-info">
+                                <div class="breed-flashcard-pet">For: <span id="flashcard-pet-name">Pet Name</span></div>
+                                <div class="breed-flashcard-confidence">Confidence: <span id="flashcard-confidence">100%</span></div>
+                            </div>
+                            <div class="breed-flashcard-description" id="flashcard-description">
+                                <p>Loading breed information...</p>
+                            </div>
                         </div>
                     </div>
                 </div>
+                
+                <div class="slide-counter">6 of 8</div>
             </div>
-            
-            <div class="slide-counter">7 of 8</div>
-        </div>
     </div>
     {% endif %}
 
-    <!-- Slide 8: Your Other Stats -->
-    <div class="slide" id="slide-7">
+    <!-- Slide 6: Your Other Stats -->
+    <div class="slide" id="slide-6">
         <div class="slide-content stats-slide" style="overflow-y: auto; min-height: 100vh; padding: 20px 15px 80px 15px;">
             <div class="slide-header" style="text-align: center; margin-bottom: 30px;">
                 <h2 class="slide-title" style="text-align: center; margin: 0; font-family: 'Poppins', sans-serif; font-weight: 600;">
                     Your Chewy Stats
                 </h2>
             </div>
-            <div class="stats-container">
-                <div class="stats-grid slide-in-bottom">
+                <div class="stats-list" style="display: flex; flex-direction: column; gap: 20px; max-width: 600px; margin: 0 auto;">
                     {% if customer_data.total_months and customer_data.total_months > 0 %}
-                    <div class="stat-card">
-                        <div class="stat-value">{{ customer_data.total_months }}</div>
-                        <div class="stat-label">Months with Chewy</div>
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; padding: 15px 20px; animation: slideInFromBottom 0.8s ease-out 0.2s both; opacity: 0; transform: translateY(30px);">
+                        <div style="color: white; font-size: 24px; font-weight: 700; text-align: left;">{{ customer_data.total_months }}</div>
+                        <div style="color: white; font-size: 16px; opacity: 0.9; text-align: right; word-wrap: break-word;">Months with Chewy</div>
                     </div>
                     {% endif %}
                     
                     {% if customer_data.autoship_savings and customer_data.autoship_savings > 0 %}
-                    <div class="stat-card">
-                        <div class="stat-value">${{ "%.2f"|format(customer_data.autoship_savings) }}</div>
-                        <div class="stat-label">Autoship Savings</div>
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; padding: 15px 20px; animation: slideInFromBottom 0.8s ease-out 0.4s both; opacity: 0; transform: translateY(30px);">
+                        <div style="color: white; font-size: 24px; font-weight: 700; text-align: left;">${{ "%.2f"|format(customer_data.autoship_savings) }}</div>
+                        <div style="color: white; font-size: 16px; opacity: 0.9; text-align: right; word-wrap: break-word;">Autoship Savings</div>
                     </div>
                     {% endif %}
                     
-                    {% if customer_data.cuddliest_month and customer_data.cuddliest_month != "N/A" %}
-                    <div class="stat-card">
-                        <div class="stat-value">{{ customer_data.cuddliest_month }}</div>
-                        <div class="stat-label">Cuddliest Month</div>
+                    {% if customer_data.cuddliest_month and customer_data.cuddliest_month != "N/A" and customer_data.cuddliest_month != "" %}
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; padding: 15px 20px; animation: slideInFromBottom 0.8s ease-out 0.6s both; opacity: 0; transform: translateY(30px);">
+                        <div style="color: white; font-size: 24px; font-weight: 700; text-align: left;">{{ customer_data.cuddliest_month }}</div>
+                        <div style="color: white; font-size: 16px; opacity: 0.9; text-align: right; word-wrap: break-word;">Your Pet's Favorite Month (Most Orders!)</div>
                     </div>
                     {% endif %}
                     
                     {% if customer_data.amount_donated and customer_data.amount_donated > 0 %}
-                    <div class="stat-card">
-                        <div class="stat-value">${{ "%.2f"|format(customer_data.amount_donated) }}</div>
-                        <div class="stat-label">Amount Donated</div>
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; padding: 15px 20px; animation: slideInFromBottom 0.8s ease-out 0.8s both; opacity: 0; transform: translateY(30px);">
+                        <div style="color: white; font-size: 24px; font-weight: 700; text-align: left;">${{ "%.2f"|format(customer_data.amount_donated) }}</div>
+                        <div style="color: white; font-size: 16px; opacity: 0.9; text-align: right; word-wrap: break-word;">Amount Donated</div>
                     </div>
                     {% endif %}
                     
-                    {% if customer_data.most_ordered and customer_data.most_ordered != "N/A" %}
-                    <div class="stat-card">
-                        <div class="stat-value">🏆</div>
-                        <div class="stat-label">Most Ordered</div>
-                        <div class="stat-product">
-                            {{ customer_data.most_ordered[:30] }}{% if customer_data.most_ordered|length > 30 %}...{% endif %}
-                        </div>
+                    {% if customer_data.most_ordered and customer_data.most_ordered != "N/A" and customer_data.most_ordered != "" %}
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; padding: 15px 20px; animation: slideInFromBottom 0.8s ease-out 1.0s both; opacity: 0; transform: translateY(30px);">
+                        <div style="color: white; font-size: 16px; font-weight: 700; opacity: 0.9; text-align: left;">Most Ordered</div>
+                        <div style="color: white; font-size: 14px; opacity: 0.8; text-align: right; word-wrap: break-word;">{{ customer_data.most_ordered }}</div>
                     </div>
                     {% endif %}
-                    
-                    {% if customer_data.yearly_food_count and customer_data.yearly_food_count > 0 %}
-                    <div class="stat-card">
-                        <div class="stat-value">{{ "%.1f"|format(customer_data.yearly_food_count) }} lbs</div>
-                        <div class="stat-label">Yearly Food Count</div>
-    </div>
-    {% endif %}
-
-                    {% if customer_data.zip_code and customer_data.zip_code != "N/A" %}
-                    <div class="stat-card">
-                        <div class="stat-value">📍</div>
-                        <div class="stat-label">Your Location</div>
-                        <div class="stat-product">{{ customer_data.zip_code }}</div>
-            </div>
-                    {% endif %}
-                        </div>
-                                </div>
+                </div>
             
-            <div class="slide-counter">8 of 8</div>
+            <div class="slide-counter">7 of 8</div>
         </div>
     </div>
 
-    <!-- Slide 9: Social Media Share -->
-    <div class="slide" id="slide-8">
+    <!-- Slide 7: Social Media Share -->
+    <div class="slide" id="slide-7">
         <div class="slide-content share-slide" style="overflow-y: auto; min-height: 100vh; padding: 20px 15px 80px 15px;">
                                 <div class="slide-header" style="text-align: center; margin-bottom: 30px;">
                         <h2 class="slide-title" style="text-align: center; margin: 0; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 28px; color: white;">
@@ -2375,9 +2279,54 @@ body {
             </div>
             </div>
             
-            <div class="slide-counter">9 of 9</div>
+            <div class="slide-counter">8 of 8</div>
         </div>
     </div>
+
+    <!-- Slide 8: Missing Pet Profile Information -->
+    {% if customer_data.unknowns %}
+    <div class="slide" id="slide-8">
+        <div class="slide-content unknowns-slide" style="overflow-y: auto; min-height: 100vh; padding: 20px 15px 80px 15px;">
+            <div class="slide-header" style="text-align: center; margin-bottom: 30px;">
+                <h2 class="slide-title" style="text-align: center; margin: 0; font-family: 'Poppins', sans-serif; font-weight: 600; font-size: 20px;">
+                    Complete Your Pet Profiles
+                </h2>
+            </div>
+            
+            <div class="unknowns-container">
+                <div class="unknowns-content">
+                    <div class="unknowns-summary">
+                        <p class="unknowns-summary-text">
+                            We found {{ customer_data.unknowns.total_unknowns }} missing pieces of information across {{ customer_data.unknowns.pets_with_unknowns }} pet(s).
+                        </p>
+                        <p class="unknowns-summary-text">
+                            Complete your pet profiles to get even more personalized insights!
+                        </p>
+                    </div>
+                    
+                    <div class="unknowns-pets-grid">
+                        {% for pet_name, pet_data in customer_data.unknowns.unknown_attributes.items() %}
+                        <div class="unknowns-pet-card">
+                            <div class="unknowns-pet-name">
+                                <span class="emoji">🐾</span> {{ pet_data.pet_name | title }}
+                            </div>
+                            <div class="unknowns-fields-container">
+                                {% for field in pet_data.unknown_fields %}
+                                <a href="https://www.chewy.com/account/profile" target="_blank" class="unknowns-field-box" style="text-decoration: none; color: inherit; cursor: pointer;">
+                                    {{ field.replace('_', ' ').title() }}
+                                </a>
+                                {% endfor %}
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide-counter">8 of 8</div>
+        </div>
+    </div>
+    {% endif %}
             
 </div>
 
