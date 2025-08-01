@@ -8,30 +8,70 @@ from PIL import Image
 from dotenv import load_dotenv
 
 
-def generate_image_from_prompt(visual_prompt: str, api_key: str, output_path: str = None, zip_aesthetics: dict = None) -> str:
+def generate_image_from_prompt(visual_prompt: str, api_key: str, output_path: str = None, zip_aesthetics: dict = None, pet_details: list = None) -> str:
     """Generate an image from a visual prompt using OpenAI gpt-image-1."""
     
     # Initialize OpenAI client
     client = openai.OpenAI(api_key=api_key)
     
     try:
-        # Art style prompt to ensure consistency
-        default_art_style = "Soft, blended brushstrokes that mimic traditional oil or gouache painting. Bright, warm lighting with vibrant illumination and gentle ambient highlights. Vivid yet harmonious color palette, featuring saturated pastels and rich warm tones. Subtle texture that gives a hand-painted, storybook feel. Sparkle accents and light flares to add magical charm. Smooth gradients and soft edges, avoiding harsh lines or stark contrast. Bright, cheerful atmosphere with clear, well-lit subjects. A dreamy, nostalgic tone evocative of classic children's book illustrations. "
+        # Build hyper-specific instructions based on actual pet data
+        specific_instructions = []
         
-        # Enhance prompt with location-specific background if available
-        enhanced_prompt = visual_prompt
+        if pet_details:
+            # Count pets by type for exact specification
+            pet_counts = {}
+            breed_list = []
+            
+            for pet in pet_details:
+                pet_type = pet['type'].lower()
+                breed = pet['breed']
+                
+                # Count pet types
+                pet_counts[pet_type] = pet_counts.get(pet_type, 0) + 1
+                
+                # Collect breed and characteristic info
+                if breed and breed.lower() not in ['unknown', 'unk', 'other']:
+                    breed_list.append(f"{breed} {pet_type}")
+                else:
+                    breed_list.append(f"domestic {pet_type}")
+            
+            # Build exact count instruction
+            total_pets = sum(pet_counts.values())
+            count_details = []
+            for pet_type, count in pet_counts.items():
+                count_details.append(f"{count} {pet_type}{'s' if count > 1 else ''}")
+            
+            specific_instructions.append(f"GENERATE EXACTLY {total_pets} PETS: {', '.join(count_details)}.")
+            specific_instructions.append(f"EXACT BREEDS REQUIRED: {', '.join(breed_list)}.")
+            
+            # Add dynamic breed substitution warnings for any specific breeds
+            specific_breeds = [breed for breed in breed_list if not breed.startswith('domestic')]
+            if specific_breeds:
+                specific_instructions.append(f"DO NOT substitute these breeds with generic alternatives: {', '.join(specific_breeds)}.")
+        
+        # ZIP code location accuracy
+        location_instruction = ""
         if zip_aesthetics and zip_aesthetics.get('location_background'):
-            location_background = zip_aesthetics['location_background']
-            # Add location background to the prompt if it's not already mentioned
-            if location_background.lower() not in visual_prompt.lower():
-                enhanced_prompt = f"{visual_prompt} Background: {location_background}"
+            location_instruction = f"LOCATION: {zip_aesthetics['location_background']}. "
         
-        # Combine art style with enhanced visual prompt
-        prompt = default_art_style + enhanced_prompt
+        # Art style (consistent every time)
+        default_art_style = "Sophisticated artistic pet portrait, wholesome and warm, joyous energy, refined illustration style, pets as the main focus, inviting atmosphere, elegant colors, cozy and cheerful mood, bright and well-lit with vibrant lighting, NOT cartoonish, artistic interpretation"
         
-        # Truncate prompt to fit OpenAI's 1000 character limit
-        if len(prompt) > 1000:
-            prompt = prompt[:997] + "..."
+        # Build final prompt: Specific Instructions + Art Style + Location + Visual Prompt
+        prompt_parts = []
+        if specific_instructions:
+            prompt_parts.append(' '.join(specific_instructions))
+        prompt_parts.append(default_art_style)
+        if location_instruction:
+            prompt_parts.append(location_instruction)
+        prompt_parts.append(visual_prompt)
+        
+        prompt = ' '.join(prompt_parts)
+        
+        # Increase character limit to preserve pet details
+        if len(prompt) > 1500:
+            prompt = prompt[:1497] + "..."
         
         # Add timestamp to ensure unique generation
         import time
@@ -40,23 +80,40 @@ def generate_image_from_prompt(visual_prompt: str, api_key: str, output_path: st
         
         response = client.images.generate(
             model="gpt-image-1",
-            prompt=unique_prompt,
+            prompt=prompt,
             size="1024x1024",
             n=1,
         )
         
-        # Get image URL
-        image_url = response.data[0].url
-        
-        # Download and save image if output path is provided
-        if output_path:
-            resp = requests.get(image_url)
-            if resp.status_code == 200:
-                img = Image.open(io.BytesIO(resp.content))
-                img.save(output_path)
+        # Handle both URL and base64 responses
+        image_data = response.data[0]
+        if hasattr(image_data, 'url') and image_data.url:
+            # URL response
+            image_url = image_data.url
+            
+            # Download and save image if output path is provided
+            if output_path:
+                resp = requests.get(image_url)
+                if resp.status_code == 200:
+                    img = Image.open(io.BytesIO(resp.content))
+                    img.save(output_path)
+                    print(f"✅ Image saved to: {output_path}")
+            
+            return image_url
+        elif hasattr(image_data, 'b64_json') and image_data.b64_json:
+            # Base64 response - save directly if output path provided
+            if output_path:
+                import base64
+                image_bytes = base64.b64decode(image_data.b64_json)
+                with open(output_path, 'wb') as f:
+                    f.write(image_bytes)
                 print(f"✅ Image saved to: {output_path}")
-        
-        return image_url
+            
+            # Return the base64 data for pipeline processing
+            return image_data.b64_json
+        else:
+            print(f"❌ No image data found in response")
+            return None
         
     except Exception as e:
         print(f"❌ Error generating image: {e}")

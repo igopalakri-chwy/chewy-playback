@@ -564,12 +564,12 @@ If no clear information found, return:
                         review_text = review.get('ReviewText', '').lower()
                         if any(pattern in review_text for pattern in ['three cats', '3 cats', 'four cats', '4 cats', 'two cats', '2 cats']):
                             relevant_reviews.append(review)
-                    
-                    if relevant_reviews:
-                        for i, review in enumerate(relevant_reviews[:10]):
-                            context_parts.append(f"Review {i+1}: {review.get('ReviewText', '')}")
-                    else:
-                        context_parts.append("No specific reviews mentioning multiple pets found.")
+                
+                if relevant_reviews:
+                    for i, review in enumerate(relevant_reviews[:10]):
+                        context_parts.append(f"Review {i+1}: {review.get('ReviewText', '')}")
+                else:
+                    context_parts.append("No specific reviews mentioning multiple pets found.")
             else:
                 # For registered pets, use all their reviews
                 # First, add reviews that mention gender/weight information
