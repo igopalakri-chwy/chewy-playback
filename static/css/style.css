@@ -1705,27 +1705,52 @@ body::before {
     box-shadow: none !important;
     -webkit-text-shadow: none !important;
     -moz-text-shadow: none !important;
+    background: none !important;
+    background-image: none !important;
+    -webkit-background-clip: initial !important;
+    background-clip: initial !important;
+    -webkit-text-fill-color: white !important;
 }
 
 /* Specific emoji colors - all white */
 .slide-title .emoji.celebration {
     color: #ffffff !important;
     text-shadow: none;
+    background: none !important;
+    background-image: none !important;
+    -webkit-background-clip: initial !important;
+    background-clip: initial !important;
+    -webkit-text-fill-color: white !important;
 }
 
 .slide-title .emoji.dog {
     color: #ffffff !important;
     text-shadow: none;
+    background: none !important;
+    background-image: none !important;
+    -webkit-background-clip: initial !important;
+    background-clip: initial !important;
+    -webkit-text-fill-color: white !important;
 }
 
 .slide-title .emoji.search {
     color: #ffffff !important;
     text-shadow: none;
+    background: none !important;
+    background-image: none !important;
+    -webkit-background-clip: initial !important;
+    background-clip: initial !important;
+    -webkit-text-fill-color: white !important;
 }
 
 .slide-title .emoji.paw {
     color: #ffffff !important;
     text-shadow: none;
+    background: none !important;
+    background-image: none !important;
+    -webkit-background-clip: initial !important;
+    background-clip: initial !important;
+    -webkit-text-fill-color: white !important;
 }
 
 @keyframes emojiBounce {
@@ -2293,8 +2318,9 @@ body::before {
     height: calc(100vh - 120px); /* Account for header and counter */
     position: relative;
     z-index: 2;
-    padding: 0;
+    padding: 20px;
     margin: 0;
+    min-height: 60vh;
 }
 
 .portrait-image-fullscreen {
@@ -2951,24 +2977,7 @@ body::before {
     animation: spin 1s linear infinite;
 }
 
-/* Custom Scrollbar */
-.letter-container::-webkit-scrollbar {
-    width: 6px;
-}
 
-.letter-container::-webkit-scrollbar-track {
-    background: rgba(74, 144, 226, 0.1);
-    border-radius: 3px;
-}
-
-.letter-container::-webkit-scrollbar-thumb {
-    background: linear-gradient(135deg, #4a90e2, #2a5298);
-    border-radius: 3px;
-}
-
-.letter-container::-webkit-scrollbar-thumb:hover {
-    background: linear-gradient(135deg, #2a5298, #1e3c72);
-}
 
 /* Personalized Playback Slide Styles */
 .personalize-slide {
