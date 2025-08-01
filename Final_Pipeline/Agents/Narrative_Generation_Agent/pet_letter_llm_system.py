@@ -307,7 +307,8 @@ STEP 1 — INTERPRET DATA AND PET PROFILES:
      - Do not use the product name directly.
 
 STEP 2 — GENERATE THE LETTER:
-- Write a **DETAILED, ENGAGING** letter from the perspective of the pets (aim for 1-2 paragraphs with 4-6 sentences).
+- Write a **DETAILED, ENGAGING** appreciation letter from the perspective of the pets (aim for 1-2 paragraphs with 4-6 sentences).
+- This is an **APPRECIATION LETTER**, not a "miss you" letter. Focus on gratitude and happiness, not separation or longing.
 - If any pet is named `"unknown"`, sign the letter as: `"From: The pets"`.
 - Otherwise, sign off with the actual pet names from `sample_pet_data` (comma-separated with "and").
 - The letter should:
@@ -323,12 +324,17 @@ STEP 2 — GENERATE THE LETTER:
   - **Use proper letter formatting**: Include a space after the salutation (e.g., "Dear Human,\n\n"), a space before the ending (e.g., "\n\nWith all our love and zoomies,"), and keep the body text flowing naturally without excessive line breaks.
   - **LENGTH CONSTRAINT**: The letter should be 1-2 paragraphs with 4-6 sentences total, providing rich detail about products and experiences.
 
-CRITICAL REQUIREMENTS:
-1. **Do NOT mention any region, ZIP code, city, or style name directly in the letter. Only use the tones and style cues to influence the mood and feel.**
-2. Use proper letter format with greeting and closing
-3. Write from the pets' perspective with personality and joy
-4. Include specific product mentions using natural language
-5. Sign appropriately based on pet names in the data
+CRITICAL WRITING REQUIREMENTS:
+1. **Sound human, not AI-generated**: Write like a real person, not an AI. Use natural, conversational language.
+2. **NO HYPHENS**: Do not use hyphens (-) anywhere in the letter.
+3. **No fancy adjectives**: Avoid overly sophisticated words like "tantalizing," "veritable," "magnificent," "extraordinary," etc. Use simple, genuine language.
+4. **Appreciation tone**: Focus on gratitude and happiness about their care, not missing them or being separated.
+5. **Natural flow**: Keep sentences flowing naturally like someone writing to a friend.
+6. **Do NOT mention any region, ZIP code, city, or style name directly in the letter. Only use the tones and style cues to influence the mood and feel.**
+7. Use proper letter format with greeting and closing
+8. Write from the pets' perspective with personality and joy
+9. Include specific product mentions using natural language
+10. Sign appropriately based on pet names in the data
 
 === INPUT DATA ===
 {context}
@@ -339,7 +345,7 @@ Write only the letter text:"""
             response = openai.chat.completions.create(
                 model="gpt-4",
                 messages=[
-                    {"role": "system", "content": "You are a specialized pet letter writer. Write detailed, warm, personal letters from pets to their humans with comprehensive product mentions and joyful personality."},
+                    {"role": "system", "content": "You are a specialized pet letter writer. Write detailed, warm, personal appreciation letters from pets to their humans. Sound human and natural, not AI-generated. Use simple language and avoid hyphens completely."},
                     {"role": "user", "content": prompt}
                 ],
                 max_tokens=600,

@@ -8,40 +8,66 @@ from PIL import Image
 from dotenv import load_dotenv
 
 
-def generate_image_from_prompt(visual_prompt: str, api_key: str, output_path: str = None, zip_aesthetics: dict = None) -> str:
+def generate_image_from_prompt(visual_prompt: str, api_key: str, output_path: str = None, zip_aesthetics: dict = None, pet_details: list = None) -> str:
     """Generate an image from a visual prompt using OpenAI gpt-image-1."""
     
     # Initialize OpenAI client
     client = openai.OpenAI(api_key=api_key)
     
     try:
-        # CRITICAL: Add breed accuracy emphasis
-        breed_accuracy_instruction = "CRITICAL ENFORCEMENT: You MUST generate EXACTLY the pets described in the prompt. Do NOT add any extra pets. Do NOT substitute breeds. Do NOT generate generic dogs or cats. Generate ONLY the specific pets mentioned with their exact breeds, types, and characteristics. If the prompt says '3 cats, 2 dogs, 2 horses' then generate EXACTLY 3 cats, 2 dogs, and 2 horses - no more, no less. "
+        # Build hyper-specific instructions based on actual pet data
+        specific_instructions = []
         
-        # Optimized art style - concise to preserve space for pet details
-        default_art_style = "Artistic pet portrait, bright warm lighting, soft painting style, vibrant colors, wholesome cheerful mood. "
+        if pet_details:
+            # Count pets by type for exact specification
+            pet_counts = {}
+            breed_list = []
+            
+            for pet in pet_details:
+                pet_type = pet['type'].lower()
+                breed = pet['breed']
+                
+                # Count pet types
+                pet_counts[pet_type] = pet_counts.get(pet_type, 0) + 1
+                
+                # Collect breed and characteristic info
+                if breed and breed.lower() not in ['unknown', 'unk', 'other']:
+                    breed_list.append(f"{breed} {pet_type}")
+                else:
+                    breed_list.append(f"domestic {pet_type}")
+            
+            # Build exact count instruction
+            total_pets = sum(pet_counts.values())
+            count_details = []
+            for pet_type, count in pet_counts.items():
+                count_details.append(f"{count} {pet_type}{'s' if count > 1 else ''}")
+            
+            specific_instructions.append(f"GENERATE EXACTLY {total_pets} PETS: {', '.join(count_details)}.")
+            specific_instructions.append(f"EXACT BREEDS REQUIRED: {', '.join(breed_list)}.")
+            
+            # Add dynamic breed substitution warnings for any specific breeds
+            specific_breeds = [breed for breed in breed_list if not breed.startswith('domestic')]
+            if specific_breeds:
+                specific_instructions.append(f"DO NOT substitute these breeds with generic alternatives: {', '.join(specific_breeds)}.")
         
-        # Enhance prompt with location-specific background if available
-        enhanced_prompt = visual_prompt
+        # ZIP code location accuracy
+        location_instruction = ""
         if zip_aesthetics and zip_aesthetics.get('location_background'):
-            location_background = zip_aesthetics['location_background']
-            # Add location background to the prompt if it's not already mentioned
-            if location_background.lower() not in visual_prompt.lower():
-                enhanced_prompt = f"{visual_prompt} Background: {location_background}"
+            location_instruction = f"LOCATION: {zip_aesthetics['location_background']}. "
         
-        # Combine breed accuracy instruction with art style and enhanced visual prompt
-        prompt = breed_accuracy_instruction + default_art_style + enhanced_prompt
+        # Art style (consistent every time)
+        default_art_style = "Sophisticated artistic pet portrait, wholesome and warm, joyous energy, refined illustration style, pets as the main focus, inviting atmosphere, elegant colors, cozy and cheerful mood, bright and well-lit with vibrant lighting, NOT cartoonish, artistic interpretation"
         
-        # Add critical pet count emphasis and increase character limit
-        import re
-        pet_count_match = re.search(r'(\d+)\s+pets?', enhanced_prompt.lower())
-        if pet_count_match:
-            pet_count = pet_count_match.group(1)
-            prompt = f"EXACTLY {pet_count} pets (no more, no less): {prompt}"
+        # Build final prompt: Specific Instructions + Art Style + Location + Visual Prompt
+        prompt_parts = []
+        if specific_instructions:
+            prompt_parts.append(' '.join(specific_instructions))
+        prompt_parts.append(default_art_style)
+        if location_instruction:
+            prompt_parts.append(location_instruction)
+        prompt_parts.append(visual_prompt)
         
-        # Add breed accuracy check
-        if "dog" in enhanced_prompt.lower():
-            prompt = f"BREED ACCURACY REQUIRED: {prompt}"
+        prompt = ' '.join(prompt_parts)
         
         # Increase character limit to preserve pet details
         if len(prompt) > 1500:
@@ -59,18 +85,35 @@ def generate_image_from_prompt(visual_prompt: str, api_key: str, output_path: st
             n=1,
         )
         
-        # Get image URL
-        image_url = response.data[0].url
-        
-        # Download and save image if output path is provided
-        if output_path:
-            resp = requests.get(image_url)
-            if resp.status_code == 200:
-                img = Image.open(io.BytesIO(resp.content))
-                img.save(output_path)
+        # Handle both URL and base64 responses
+        image_data = response.data[0]
+        if hasattr(image_data, 'url') and image_data.url:
+            # URL response
+            image_url = image_data.url
+            
+            # Download and save image if output path is provided
+            if output_path:
+                resp = requests.get(image_url)
+                if resp.status_code == 200:
+                    img = Image.open(io.BytesIO(resp.content))
+                    img.save(output_path)
+                    print(f"✅ Image saved to: {output_path}")
+            
+            return image_url
+        elif hasattr(image_data, 'b64_json') and image_data.b64_json:
+            # Base64 response - save directly if output path provided
+            if output_path:
+                import base64
+                image_bytes = base64.b64decode(image_data.b64_json)
+                with open(output_path, 'wb') as f:
+                    f.write(image_bytes)
                 print(f"✅ Image saved to: {output_path}")
-        
-        return image_url
+            
+            # Return the base64 data for pipeline processing
+            return image_data.b64_json
+        else:
+            print(f"❌ No image data found in response")
+            return None
         
     except Exception as e:
         print(f"❌ Error generating image: {e}")

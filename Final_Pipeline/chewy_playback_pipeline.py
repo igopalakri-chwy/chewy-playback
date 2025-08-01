@@ -1151,7 +1151,7 @@ class ChewyPlaybackPipeline:
             return []
     
     def run_image_generation_agent(self, narrative_results: Dict[str, Any]) -> Dict[str, Any]:
-        """Run the Image Generation Agent to create collective images from visual prompts."""
+        """Run the Image Generation Agent using the modular letter_agent.py approach."""
         print("\n🎨 Running Image Generation Agent...")
         
         image_results = {}
@@ -1164,66 +1164,38 @@ class ChewyPlaybackPipeline:
             
             if collective_visual_prompt:
                 try:
-                    # Base sophisticated artistic portrait style - wholesome, joyous, and refined
-                    base_artistic_style = "Sophisticated artistic pet portrait, wholesome and warm, joyous energy, refined illustration style, pets as the main focus, inviting atmosphere, elegant colors, cozy and cheerful mood, bright and well-lit with vibrant lighting, NOT cartoonish, artistic interpretation"
+                    # Extract specific pet data for hyper-specific instructions
+                    pets_data = customer_data.get('pets', {})
+                    pet_details = []
+                    for pet_name, pet_info in pets_data.items():
+                        if not pet_name.startswith('_'):  # Skip metadata fields
+                            pet_type = pet_info.get('PetType', 'unknown')
+                            breed = pet_info.get('Breed', 'unknown')
+                            weight = pet_info.get('Weight', 'unknown')
+                            age = pet_info.get('LifeStage', 'unknown')
+                            pet_details.append({
+                                'name': pet_name,
+                                'type': pet_type,
+                                'breed': breed,
+                                'weight': weight,
+                                'age': age
+                            })
                     
-                    # CRITICAL: Add breed accuracy emphasis
-                    breed_accuracy_instruction = "CRITICAL: Generate EXACTLY the specific dog breeds mentioned in the prompt. Do NOT substitute with generic breeds like Golden Retriever, Bernese Mountain Dog, or Labrador. Use ONLY the exact breeds specified (e.g., English Setter, Miniature Poodle, etc.). "
-                    
-                    # Use ZIP aesthetics for background and overall style influence
-                    if zip_aesthetics and zip_aesthetics.get('visual_style'):
-                        # ZIP aesthetics influence background and color palette, not the main pet focus
-                        background_style = f"Background influenced by {zip_aesthetics.get('visual_style', '')} with {zip_aesthetics.get('color_texture', '')} tones. {zip_aesthetics.get('art_style', '')} artistic elements in the setting."
-                        
-                        # Add location-specific background if available
-                        if zip_aesthetics.get('location_background'):
-                            location_background = zip_aesthetics['location_background']
-                            background_style += f" Location background: {location_background}"
-                        
-                        art_style_prompt = f"{base_artistic_style}. {background_style}. {zip_aesthetics.get('tones', '')} overall mood."
-                    else:
-                        art_style_prompt = base_artistic_style
-                    
-                    # Combine breed accuracy instruction with art style and visual prompt, ensuring pets are the main focus
-                    prompt = f"{breed_accuracy_instruction}{art_style_prompt}. {collective_visual_prompt}. The pets should be the clear main subjects, with artistic interpretation and vibrant colors."
-                    
-                    # Add breed accuracy check if dogs are mentioned
-                    if "dog" in collective_visual_prompt.lower():
-                        prompt = f"BREED ACCURACY REQUIRED: {prompt}"
-                    
-                    # Truncate prompt to fit OpenAI's 1000 character limit
-                    if len(prompt) > 1000:
-                        prompt = prompt[:997] + "..."
-                    
-                    # Add timestamp to ensure unique generation
-                    import time
-                    timestamp = int(time.time())
-                    unique_prompt = f"{prompt} [Generated at {timestamp}]"
-                    
-                    # Generate collective image using OpenAI gpt-image-1
-                    response = self.openai_client.images.generate(
-                        model="gpt-image-1",
-                        prompt=unique_prompt,
-                        size="1024x1024",
-                        n=1,
+                    # Use the superior letter_agent.py approach for better results
+                    image_url = generate_image_from_prompt(
+                        visual_prompt=collective_visual_prompt,
+                        api_key=self.openai_api_key,
+                        output_path=None,  # Don't save to file here, handle that in save_outputs
+                        zip_aesthetics=zip_aesthetics,
+                        pet_details=pet_details  # Pass specific pet data
                     )
                     
-                    # Handle both URL and base64 responses
-                    image_data = response.data[0]
-                    if hasattr(image_data, 'url') and image_data.url:
-                        # URL response
-                        image_url = image_data.url
+                    if image_url:
                         image_results[customer_id] = image_url
-                    elif hasattr(image_data, 'b64_json') and image_data.b64_json:
-                        # Base64 response - save directly
-                        import base64
-                        image_bytes = base64.b64decode(image_data.b64_json)
-                        image_results[customer_id] = image_bytes
+                        print(f"    ✅ Generated collective image for all pets")
                     else:
-                        print(f"    ❌ No image data found in response for customer {customer_id}")
+                        print(f"    ❌ Failed to generate image for customer {customer_id}")
                         image_results[customer_id] = None
-                    
-                    print(f"    ✅ Generated collective image for all pets")
                     
                 except Exception as e:
                     print(f"    ❌ Error generating collective image: {e}")
@@ -1371,21 +1343,30 @@ class ChewyPlaybackPipeline:
                     image_path = images_dir / "collective_pet_portrait.png"
                     
                     if isinstance(image_results[customer_id], str):
-                        # URL response - download the image
-                        response = requests.get(image_results[customer_id])
-                        if response.status_code == 200:
-                            with open(image_path, 'wb') as f:
-                                f.write(response.content)
-                            print(f"    💾 Saved collective image for all pets")
+                        # Could be URL or base64 string
+                        if image_results[customer_id].startswith('http'):
+                            # URL response - download the image
+                            response = requests.get(image_results[customer_id])
+                            if response.status_code == 200:
+                                with open(image_path, 'wb') as f:
+                                    f.write(response.content)
+                                print(f"    💾 Saved collective image for all pets")
+                            else:
+                                print(f"    ❌ Failed to download image for customer {customer_id} (Status: {response.status_code})")
                         else:
-                            print(f"    ❌ Failed to download image for customer {customer_id} (Status: {response.status_code})")
+                            # Base64 string - decode and save
+                            import base64
+                            image_bytes = base64.b64decode(image_results[customer_id])
+                            with open(image_path, 'wb') as f:
+                                f.write(image_bytes)
+                            print(f"    💾 Saved collective image for all pets")
                     elif isinstance(image_results[customer_id], bytes):
-                        # Base64 response - save directly
+                        # Base64 bytes - save directly
                         with open(image_path, 'wb') as f:
                             f.write(image_results[customer_id])
                         print(f"    💾 Saved collective image for all pets")
                     else:
-                        print(f"    ❌ Unknown image data type for customer {customer_id}")
+                        print(f"    ❌ Unknown image data type for customer {customer_id}: {type(image_results[customer_id])}")
                 except Exception as e:
                     print(f"    ❌ Error saving collective image: {e}")
             
