@@ -173,6 +173,10 @@ def load_customer_data(customer_id):
         if os.path.exists(unknowns_path):
             with open(unknowns_path, 'r') as f:
                 data['unknowns'] = json.load(f)
+                print(f"✅ Loaded unknowns data for customer {customer_id}: {data['unknowns']}")
+        else:
+            print(f"⚠️ No unknowns data found for customer {customer_id}")
+            data['unknowns'] = None
         
         # Load food fun fact data (this exists)
         food_fun_fact_path = os.path.join(customer_dir, "food_fun_fact.json")
@@ -409,6 +413,7 @@ def experience(customer_id):
     is_personalized = customer_data.get('enriched_profile', {}).get('gets_personalized', False)
     print(f"🔍 Customer {customer_id} - gets_personalized: {is_personalized}")
     print(f"📊 Customer data keys: {list(customer_data.keys())}")
+    print(f"🔍 Unknowns data: {customer_data.get('unknowns')}")
     if is_personalized:
         print(f"🎯 Rendering personalized experience for customer {customer_id}")
         return render_template('personalized_experience.html', customer_id=customer_id, customer_data=customer_data)
