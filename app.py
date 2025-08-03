@@ -72,7 +72,21 @@ def check_customer_data_exists(customer_id):
     """Check if customer data already exists in the output directory"""
     customer_dir = os.path.join(OUTPUT_DIR, customer_id)
     enriched_profile_path = os.path.join(customer_dir, "enriched_pet_profile.json")
-    return os.path.exists(enriched_profile_path)
+    basic_data_path = os.path.join(customer_dir, f"{customer_id}.json")
+    
+    enriched_exists = os.path.exists(enriched_profile_path)
+    basic_exists = os.path.exists(basic_data_path)
+    
+    print(f"🔍 check_customer_data_exists for {customer_id}:")
+    print(f"  📁 Customer dir: {customer_dir}")
+    print(f"  📁 Dir exists: {os.path.exists(customer_dir)}")
+    print(f"  📄 Enriched profile exists: {enriched_exists}")
+    print(f"  📄 Basic data exists: {basic_exists}")
+    
+    # Check if either enriched profile exists OR basic data exists
+    result = enriched_exists or basic_exists
+    print(f"  ✅ Final result: {result}")
+    return result
 
 def is_pipeline_running(customer_id):
     """Check if a pipeline is currently running for a customer"""
@@ -97,9 +111,20 @@ def load_customer_data(customer_id):
     customer_dir = os.path.join(OUTPUT_DIR, customer_id)
     data = {}
     
+    print(f"🔍 Loading data for customer {customer_id}")
+    print(f"📁 Customer directory: {customer_dir}")
+    print(f"📁 Directory exists: {os.path.exists(customer_dir)}")
+    
     try:
+        # List all files in customer directory for debugging
+        if os.path.exists(customer_dir):
+            files = os.listdir(customer_dir)
+            print(f"📋 Files in customer directory: {files}")
+        
         # 1. Load enriched pet profile
         enriched_profile_path = os.path.join(customer_dir, "enriched_pet_profile.json")
+        print(f"🔍 Checking enriched profile: {enriched_profile_path}")
+        print(f"🔍 Enriched profile exists: {os.path.exists(enriched_profile_path)}")
         if os.path.exists(enriched_profile_path):
             with open(enriched_profile_path, 'r') as f:
                 enriched_profile = json.load(f)
@@ -167,7 +192,18 @@ def load_customer_data(customer_id):
             print(f"⚠️ No pet letters found for customer {customer_id}")
             data['pet_letters'] = None
         
-        # 7. Load additional pipeline data if available
+        # 7. Load basic customer data (for generic customers)
+        basic_data_path = os.path.join(customer_dir, f"{customer_id}.json")
+        if os.path.exists(basic_data_path):
+            with open(basic_data_path, 'r') as f:
+                basic_data = json.load(f)
+                # Merge basic data into main data object
+                data.update(basic_data)
+                print(f"✅ Loaded basic data for customer {customer_id}")
+        else:
+            print(f"⚠️ No basic data found for customer {customer_id}")
+        
+        # 8. Load additional pipeline data if available
         # Load unknowns data (this exists)
         unknowns_path = os.path.join(customer_dir, "unknowns.json")
         if os.path.exists(unknowns_path):
@@ -249,10 +285,12 @@ def load_customer_data(customer_id):
         # 8. Don't create fake data - only show real data
         # These fields will be None if not available from pipeline
         
+        print(f"✅ Successfully loaded data for customer {customer_id}")
+        print(f"📊 Data keys: {list(data.keys())}")
         return data
         
     except Exception as e:
-        print(f"❌ Error loading customer data: {e}")
+        print(f"❌ Error loading customer data for {customer_id}: {e}")
         return None
 
 def format_breed_name(breed_name):
@@ -386,8 +424,13 @@ def customers():
 @app.route('/experience/<customer_id>')
 def experience(customer_id):
     """Main experience page with all slides"""
+    print(f"🎯 Experience route called for customer {customer_id}")
+    
     # Check if data exists
-    if not check_customer_data_exists(customer_id):
+    data_exists = check_customer_data_exists(customer_id)
+    print(f"📁 Data exists for customer {customer_id}: {data_exists}")
+    
+    if not data_exists:
         # Check if pipeline is already running
         if is_pipeline_running(customer_id):
             print(f"⏳ Pipeline already running for customer {customer_id}")
@@ -404,8 +447,10 @@ def experience(customer_id):
                              message="Pipeline is running in the background. Please refresh the page in a few moments.")
     
     customer_data = load_customer_data(customer_id)
+    print(f"📊 Customer data loaded: {customer_data is not None}")
     
     if not customer_data:
+        print(f"❌ No customer data returned for {customer_id}")
         return render_template('error.html', 
                              error_message=f"Could not load data for customer {customer_id}")
     
@@ -469,4 +514,4 @@ def badge_image(filename):
     return send_from_directory(PERSONALITY_BADGES_DIR, filename)
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=5000) 
+    app.run(debug=True, host='0.0.0.0', port=5001) 
