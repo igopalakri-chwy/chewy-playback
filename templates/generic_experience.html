@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chewy Playback - Generic Experience</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&family=Baloo+2:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <style>
         * {
             margin: 0;
@@ -12,7 +15,7 @@
         }
 
         body {
-            font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: 'Nunito', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             background: #f0f0f0;
             min-height: 100vh;
             display: flex;
@@ -82,7 +85,6 @@
         }
 
         .slide-content {
-            background: linear-gradient(135deg, #0066cc 0%, #004499 50%, #002266 100%);
             color: white;
             padding: 20px 15px 60px 15px;
             min-height: 100vh;
@@ -97,6 +99,11 @@
             margin: 0;
             box-sizing: border-box;
             position: relative;
+        }
+
+        /* Chewy Blue for all slides */
+        .slide-content {
+            background: #1C49C2;
         }
 
         /* Slide counter */
@@ -121,7 +128,7 @@
             font-weight: 700;
             margin: 30px 0 20px 0;
             text-align: center;
-            font-family: 'Poppins', sans-serif;
+            font-family: 'Baloo 2', sans-serif;
             animation: none !important;
             transition: none !important;
             transform: none !important;
@@ -140,7 +147,7 @@
             color: white;
             margin-bottom: 20px;
             text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-            font-family: 'Poppins', sans-serif;
+            font-family: 'Nunito', sans-serif;
         }
 
         .slide-description {
@@ -148,7 +155,7 @@
             color: white;
             margin-bottom: 15px;
             line-height: 1.6;
-            font-family: 'Poppins', sans-serif;
+            font-family: 'Nunito', sans-serif;
             opacity: 0.9;
         }
 
@@ -202,15 +209,90 @@
         }
 
         /* Loading */
-        .loading {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            color: white;
+
+
+        /* Hearts Animation */
+        .hearts-slide {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hearts-background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 1;
+        }
+
+        .heart {
+            position: absolute;
             font-size: 24px;
-            font-family: 'Poppins', sans-serif;
+            animation: heartPop 2s ease-out infinite;
+            opacity: 0;
+        }
+
+        .heart-1 { top: 20%; left: 10%; animation-delay: 0s; }
+        .heart-2 { top: 30%; right: 15%; animation-delay: 0.3s; }
+        .heart-3 { bottom: 40%; left: 20%; animation-delay: 0.6s; }
+        .heart-4 { bottom: 30%; right: 10%; animation-delay: 0.9s; }
+        .heart-5 { top: 60%; left: 5%; animation-delay: 1.2s; }
+        .heart-6 { top: 70%; right: 5%; animation-delay: 1.5s; }
+        .heart-7 { top: 50%; left: 25%; animation-delay: 1.8s; }
+        .heart-8 { top: 80%; right: 25%; animation-delay: 2.1s; }
+
+        .hearts-message {
+            font-size: 24px;
+            color: white;
+            text-align: center;
+            margin: 40px 20px;
+            font-weight: 500;
+            line-height: 1.4;
+            position: relative;
+            z-index: 2;
+        }
+
+        @keyframes heartPop {
+            0% {
+                opacity: 0;
+                transform: scale(0) translateY(20px);
+            }
+            50% {
+                opacity: 1;
+                transform: scale(1.2) translateY(-10px);
+            }
+            100% {
+                opacity: 0;
+                transform: scale(1) translateY(-30px);
+            }
+        }
+
+        /* Month Stat Styling */
+        .month-stat {
+            text-align: center;
+            animation: monthPop 1.2s ease-out;
+            margin: 40px 0 60px 0;
+        }
+
+        .month-description {
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        @keyframes monthPop {
+            0% {
+                opacity: 0;
+                transform: scale(0.5) translateY(30px);
+            }
+            50% {
+                transform: scale(1.1) translateY(-5px);
+            }
+            100% {
+                opacity: 1;
+                transform: scale(1) translateY(0);
+            }
         }
 
         .error {
@@ -221,7 +303,7 @@
             height: 100vh;
             font-size: 1.5em;
             color: #e74c3c;
-            font-family: 'Poppins', sans-serif;
+            font-family: 'Nunito', sans-serif;
         }
 
         /* Enhanced Social Media Sharing */
@@ -258,6 +340,76 @@
             margin-bottom: 25px;
             position: relative;
             z-index: 1;
+        }
+
+        /* Feature Selection Styles */
+        .feature-selection-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+            margin: 15px 0;
+            position: relative;
+            z-index: 1;
+            max-width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .feature-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 15px 10px;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            background: rgba(255, 255, 255, 0.1);
+            border: 2px solid rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+            position: relative;
+            overflow: hidden;
+            min-height: 80px;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+            border-color: rgba(255, 255, 255, 0.4);
+        }
+
+        .feature-card.selected {
+            background: rgba(74, 144, 226, 0.3);
+            border-color: #4a90e2;
+            box-shadow: 0 5px 15px rgba(74, 144, 226, 0.3);
+        }
+
+        .feature-card.disabled {
+            opacity: 0.4;
+            cursor: not-allowed;
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        .feature-icon {
+            font-size: 24px;
+            margin-bottom: 8px;
+        }
+
+        .feature-label {
+            font-size: 12px;
+            font-weight: 600;
+            color: white;
+            text-align: center;
+            margin-bottom: 4px;
+            font-family: 'Nunito', sans-serif;
+        }
+
+        .feature-value {
+            font-size: 11px;
+            color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+            font-family: 'Nunito', sans-serif;
+            font-weight: 500;
         }
 
         .enhanced-social-grid {
@@ -330,7 +482,7 @@
             text-align: center;
             position: relative;
             z-index: 1;
-            font-family: 'Poppins', sans-serif;
+            font-family: 'Nunito', sans-serif;
         }
 
         /* Enhanced Social Media Brand Colors */
@@ -378,7 +530,7 @@
             border-radius: 25px;
             font-size: 16px;
             font-weight: 700;
-            font-family: 'Poppins', sans-serif;
+            font-family: 'Nunito', sans-serif;
             cursor: pointer;
             transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
             box-shadow: 0 6px 20px rgba(74, 144, 226, 0.4);
@@ -449,6 +601,386 @@
                 display: none;
             }
         }
+
+        /* Funfact Slide Styles */
+        .funfact-messages {
+            text-align: left;
+            max-width: 90%;
+            margin: 40px auto 0 auto;
+        }
+
+        .funfact-message {
+            color: white;
+            font-size: 20px;
+            line-height: 1.6;
+            font-family: 'Nunito', sans-serif;
+            font-weight: 400;
+            margin-bottom: 15px;
+            padding: 15px;
+            background: rgba(0, 102, 204, 0.1);
+            border-radius: 10px;
+            border-left: 4px solid rgba(255, 255, 255, 0.3);
+        }
+
+        /* Spotify Wrapped Style */
+        .spotify-wrapped-container {
+            text-align: center;
+            padding: 40px 20px;
+            max-width: 100%;
+            margin: 0 auto;
+            min-height: auto;
+            overflow: visible;
+        }
+
+        .wrapped-text-line {
+            color: white;
+            font-size: 18px;
+            font-weight: 400;
+            font-family: 'Nunito', sans-serif;
+            margin-bottom: 8px;
+            opacity: 0.9;
+            animation: fadeInUp 0.8s ease-out;
+        }
+
+        .wrapped-number {
+            color: white;
+            font-size: 96px;
+            font-weight: 800;
+            font-family: 'Nunito', sans-serif;
+            margin: 20px 0 40px 0;
+            text-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            line-height: 1;
+            overflow: visible;
+            display: block;
+            width: 100%;
+        }
+        
+        .unit-text {
+            font-size: 48px;
+            font-weight: 400;
+            color: rgba(255, 255, 255, 0.8);
+            margin-left: 2px;
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes numberPop {
+            0% {
+                opacity: 0;
+                transform: scale(0.5) translateY(50px);
+            }
+            50% {
+                transform: scale(1.1) translateY(-10px);
+            }
+            100% {
+                opacity: 1;
+                transform: scale(1) translateY(0);
+            }
+        }
+
+
+
+        .autoship-title {
+            font-size: 2.2em;
+            color: white;
+            text-align: center;
+            margin-bottom: 20px;
+            font-family: 'Baloo 2', sans-serif;
+            font-weight: 700;
+            opacity: 0;
+            transform: translateY(-50px);
+            animation: titleDropDown 0.8s ease-out 0.2s both;
+        }
+
+        .autoship-message {
+            font-size: 1.4em;
+            color: white;
+            text-align: center;
+            margin-bottom: 50px;
+            font-family: 'Nunito', sans-serif;
+            font-weight: 600;
+            opacity: 0;
+            transform: translateY(-50px);
+            animation: messageDropDown 0.8s ease-out 0.8s both;
+        }
+
+        @keyframes titleDropDown {
+            0% {
+                opacity: 0;
+                transform: translateY(-50px);
+            }
+            60% {
+                opacity: 1;
+                transform: translateY(10px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes messageDropDown {
+            0% {
+                opacity: 0;
+                transform: translateY(-50px);
+            }
+            60% {
+                opacity: 0.9;
+                transform: translateY(10px);
+            }
+            100% {
+                opacity: 0.9;
+                transform: translateY(0);
+            }
+        }
+
+        .autoship-number {
+            font-size: 6em;
+            font-weight: 900;
+            color: #1e3a8a;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            font-family: 'Nunito', sans-serif;
+            position: relative;
+            z-index: 20;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .digit {
+            display: inline-block;
+            opacity: 0;
+            transform: translateY(-100px);
+            animation: digitDrop 0.6s ease-out forwards;
+        }
+
+        @keyframes digitDrop {
+            0% {
+                opacity: 0;
+                transform: translateY(-100px);
+            }
+            60% {
+                opacity: 1;
+                transform: translateY(10px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .digit-1 {
+            animation-delay: 1.8s;
+        }
+
+        .digit-2 {
+            animation-delay: 2.0s;
+        }
+
+        .digit-3 {
+            animation-delay: 2.2s;
+        }
+
+        .digit-4 {
+            animation-delay: 2.4s;
+        }
+
+        .digit-5 {
+            animation-delay: 2.6s;
+        }
+
+        /* Falling Coins Animation */
+        .falling-coins {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 10;
+        }
+
+        .coin {
+            position: absolute;
+            font-size: 2em;
+            opacity: 0;
+            animation: coinDrop 2s ease-in infinite;
+        }
+
+        @keyframes coinDrop {
+            0% {
+                opacity: 0;
+                transform: translateY(-100px) rotate(0deg);
+            }
+            10% {
+                opacity: 1;
+            }
+            90% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0;
+                transform: translateY(100vh) rotate(360deg);
+            }
+        }
+
+        .coin-1 {
+            left: 10%;
+            animation-delay: 0.5s;
+        }
+
+        .coin-2 {
+            left: 20%;
+            animation-delay: 0.8s;
+        }
+
+        .coin-3 {
+            left: 30%;
+            animation-delay: 1.1s;
+        }
+
+        .coin-4 {
+            left: 40%;
+            animation-delay: 1.4s;
+        }
+
+        .coin-5 {
+            left: 50%;
+            animation-delay: 1.7s;
+        }
+
+        .coin-6 {
+            left: 60%;
+            animation-delay: 2.0s;
+        }
+
+        .coin-7 {
+            left: 70%;
+            animation-delay: 2.3s;
+        }
+
+        .coin-8 {
+            left: 80%;
+            animation-delay: 2.6s;
+        }
+
+        /* Product Image Styling */
+        .product-image-container {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .product-image {
+            max-width: 200px;
+            max-height: 200px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            object-fit: contain;
+        }
+
+        #most-ordered-text {
+            font-size: 0.8em;
+            line-height: 1.4;
+            padding: 0 30px;
+        }
+
+        .tagline-text {
+            font-size: 1.9em;
+            margin-top: 10px;
+        }
+
+        /* Calendar Flip Animation */
+        .calendar-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 40px 0;
+        }
+
+        .calendar {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+            width: 200px;
+            height: 250px;
+            position: relative;
+            animation: calendarAppear 1s ease-out;
+        }
+
+        .calendar-top {
+            background: #1C49C2;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .calendar-header {
+            font-size: 2em;
+        }
+
+        .calendar-body {
+            padding: 30px 20px;
+            text-align: center;
+            background: white;
+            color: #333;
+        }
+
+        .calendar-number {
+            font-size: 4em;
+            font-weight: 900;
+            color: #1C49C2;
+            font-family: 'Nunito', sans-serif;
+            margin-bottom: 10px;
+            animation: numberCountUp 2s ease-out 0.5s both;
+        }
+
+        .calendar-label {
+            font-size: 1.2em;
+            color: #666;
+            font-family: 'Nunito', sans-serif;
+            font-weight: 500;
+        }
+
+        @keyframes calendarAppear {
+            0% {
+                opacity: 0;
+                transform: scale(0.5) translateY(50px);
+            }
+            100% {
+                opacity: 1;
+                transform: scale(1) translateY(0);
+            }
+        }
+
+
+
+        @keyframes numberCountUp {
+            0% {
+                opacity: 0;
+                transform: scale(0.8);
+            }
+            50% {
+                opacity: 1;
+                transform: scale(1.1);
+            }
+            100% {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
     </style>
 </head>
 <body>
@@ -470,10 +1002,7 @@
                     <button onclick="console.log('Current slide:', currentSlide)" style="background: #e74c3c; color: white; border: none; padding: 5px 10px; border-radius: 3px; cursor: pointer; margin-left: 5px;">Log Current</button>
                 </div>
                 
-                <div id="loading" class="loading">
-                    <h2>Loading your Chewy experience...</h2>
-                    <p>Please wait while we fetch your data</p>
-                </div>
+
 
                 <div id="error" class="error" style="display: none;">
                     <h2>❌ Error</h2>
@@ -484,127 +1013,332 @@
                 <div id="slides-container" style="display: none;">
                     <!-- Food Fun Fact Slide -->
                     <div class="slide active" id="slide-1">
-                        <div class="slide-content">
-                            <h1 class="slide-title">🍽️ Your Pet's Food Journey 🍽️</h1>
-                            <div class="slide-value" id="food-fun-fact-value">0 lbs</div>
-                            <p class="slide-description" id="food-fun-fact-message">Your pets have consumed food this year!</p>
-                            <p class="slide-description" id="food-fun-fact-details">That's a lot of love for your pets! 🐾</p>
+                        <div class="slide-content funfact-slide">
+                            <div class="slide-header" style="text-align: center; margin-bottom: 20px;">
+                                <h2 class="slide-title" style="text-align: center; margin: 0; font-family: 'Baloo 2', sans-serif; font-weight: 600;">
+                                    Total Food Consumed
+                                </h2>
+                            </div>
+                            
+                            <div class="spotify-wrapped-container">
+                                <div class="wrapped-number" id="food-number">0<span class="unit-text">lbs</span></div>
+                                <div class="wrapped-text-line">to be exact.</div>
+                            </div>
+                            
+                            <div class="funfact-messages">
+                            </div>
+                            
                             <div class="slide-counter">1 of 6</div>
                         </div>
                     </div>
 
-                    <!-- Cuddliest Month Slide (Busiest Month) -->
+                    <!-- Hearts Message Slide -->
                     <div class="slide" id="slide-2">
-                        <div class="slide-content">
-                            <h1 class="slide-title">📅 Cuddliest Month 📅</h1>
-                            <div class="slide-value" id="cuddliest-month-value">N/A</div>
-                            <p class="slide-description">Your Cuddliest Month</p>
-                            <p class="slide-description">This was your busiest month with Chewy! 💕</p>
+                        <div class="slide-content hearts-slide">
+                            <div class="hearts-background">
+                                <div class="heart heart-1">❤️</div>
+                                <div class="heart heart-2">❤️</div>
+                                <div class="heart heart-3">❤️</div>
+                                <div class="heart heart-4">❤️</div>
+                                <div class="heart heart-5">❤️</div>
+                                <div class="heart heart-6">❤️</div>
+                                <div class="heart heart-7">❤️</div>
+                                <div class="heart heart-8">❤️</div>
+                            </div>
+                            <h1 class="slide-title">💕</h1>
+                            <p class="hearts-message">There was one month where your cart — and heart — were full.</p>
                             <div class="slide-counter">2 of 6</div>
                         </div>
                     </div>
 
-                    <!-- Donations Slide -->
+                    <!-- Cuddliest Month Slide (Busiest Month) -->
                     <div class="slide" id="slide-3">
                         <div class="slide-content">
-                            <h1 class="slide-title">❤️ Donations ❤️</h1>
-                            <div class="slide-value" id="donations-value">$0.00</div>
-                            <p class="slide-description">Total Donations This Year</p>
-                            <p class="slide-description">Your generous donations help pets in need find their forever homes. Thank you for making a difference! 🐾</p>
+                            <h1 class="slide-title">Your Pet's Favorite Month</h1>
+                            <div class="slide-value month-stat" id="cuddliest-month-value">N/A</div>
+                            <p class="slide-description month-description">This was your busiest month with Chewy! 💕</p>
                             <div class="slide-counter">3 of 6</div>
                         </div>
                     </div>
 
-                    <!-- Milestone Slide -->
+                    <!-- Donations Slide -->
                     <div class="slide" id="slide-4">
                         <div class="slide-content">
-                            <h1 class="slide-title">🎊 Milestone 🎊</h1>
-                            <div class="slide-value" id="milestone-value">0</div>
-                            <p class="slide-description">Amazing Months with Chewy!</p>
-                            <p class="slide-description">You've been part of the Chewy family for an incredible <span id="milestone-text">0</span> months! Thank you for trusting us with your pets' care. 🎉</p>
+                            <h1 class="slide-title">Donations</h1>
+                            <div class="slide-value" id="donations-value">$0.00</div>
+                            <p class="slide-description">Total Donations This Year</p>
+                            <p class="slide-description">Your generous donations help pets in need find their forever homes. Thank you for making a difference! 🐾</p>
                             <div class="slide-counter">4 of 6</div>
                         </div>
                     </div>
 
-                    <!-- Most Reordered Slide -->
+                    <!-- Calendar Flip Slide -->
                     <div class="slide" id="slide-5">
                         <div class="slide-content">
-                            <h1 class="slide-title">🔄 Most Reordered 🔄</h1>
-                            <div class="slide-value">🏆</div>
-                            <p class="slide-description">Your Favorite Product</p>
-                            <p class="slide-description" id="most-ordered-text">No data available</p>
+                            <h1 class="slide-title">Our Journey With You</h1>
+                            <div class="calendar-container">
+                                <div class="calendar">
+                                    <div class="calendar-top">
+                                        <div class="calendar-header">📅</div>
+                                    </div>
+                                    <div class="calendar-body">
+                                        <div class="calendar-number" id="calendar-number">0</div>
+                                        <div class="calendar-label">months</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="slide-description">This milestone’s just the beginning.</p>
                             <div class="slide-counter">5 of 7</div>
                         </div>
                     </div>
 
-                    <!-- Savings from Autoship Slide -->
+
+
+                    <!-- Most Reordered Slide -->
                     <div class="slide" id="slide-6">
                         <div class="slide-content">
-                            <h1 class="slide-title">💰 Savings from Autoship 💰</h1>
-                            <div class="slide-value" id="autoship-savings-value">$0.00</div>
-                            <p class="slide-description">Total Savings This Year</p>
-                            <p class="slide-description">You've saved big with autoship! Keep using it to save even more on your pet essentials. 🎉</p>
-                            <div class="slide-counter">6 of 8</div>
+                            <h1 class="slide-title">Your Favorite Product</h1>
+                            <div class="product-image-container" id="product-image-container" style="display: none;">
+                                <img id="product-image" src="" alt="Product Image" class="product-image">
+                            </div>
+                            
+                            <p class="slide-description"></p>
+                            <p class="slide-description" id="most-ordered-text">No data available</p>
+                            
+                            <p class="slide-description tagline-text">Some things are just too good not to repeat.</p>
+                            <div class="slide-counter">6 of 7</div>
+                        </div>
+                    </div>
+
+                    <!-- Savings from Autoship Slide -->
+                    <div class="slide" id="slide-7">
+                        <div class="slide-content">
+                            <div class="slide-counter">7 of 8</div>
+                            <h2 class="autoship-title">Autoship savings</h2>
+                            <p class="autoship-message">Convenience has its perks. Here's how much it saved you.</p>
+                            <div class="autoship-number" id="autoship-savings-value">
+                                <span class="digit digit-1">$</span>
+                                <span class="digit digit-2">0</span>
+                                <span class="digit digit-3">.</span>
+                                <span class="digit digit-4">0</span>
+                                <span class="digit digit-5">0</span>
+                            </div>
+                            
+                            <div class="falling-coins">
+                                <div class="coin coin-1">
+                                    <svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                                        <defs>
+                                            <radialGradient id="goldGradient" cx="30%" cy="30%">
+                                                <stop offset="0%" style="stop-color:#FFD700"/>
+                                                <stop offset="50%" style="stop-color:#FFA500"/>
+                                                <stop offset="100%" style="stop-color:#B8860B"/>
+                                            </radialGradient>
+                                            <radialGradient id="innerGradient" cx="30%" cy="30%">
+                                                <stop offset="0%" style="stop-color:#FFFF99"/>
+                                                <stop offset="100%" style="stop-color:#DAA520"/>
+                                            </radialGradient>
+                                        </defs>
+                                        <ellipse cx="20" cy="32" rx="18" ry="6" fill="#B8860B" opacity="0.3"/>
+                                        <circle cx="20" cy="20" r="18" fill="url(#goldGradient)" stroke="#B8860B" stroke-width="1"/>
+                                        <circle cx="20" cy="20" r="12" fill="url(#innerGradient)" stroke="#DAA520" stroke-width="0.5"/>
+                                        <rect x="19" y="12" width="2" height="16" rx="1" fill="#B8860B"/>
+                                    </svg>
+                                </div>
+                                <div class="coin coin-2">
+                                    <svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                                        <defs>
+                                            <radialGradient id="goldGradient2" cx="30%" cy="30%">
+                                                <stop offset="0%" style="stop-color:#FFD700"/>
+                                                <stop offset="50%" style="stop-color:#FFA500"/>
+                                                <stop offset="100%" style="stop-color:#B8860B"/>
+                                            </radialGradient>
+                                            <radialGradient id="innerGradient2" cx="30%" cy="30%">
+                                                <stop offset="0%" style="stop-color:#FFFF99"/>
+                                                <stop offset="100%" style="stop-color:#DAA520"/>
+                                            </radialGradient>
+                                        </defs>
+                                        <ellipse cx="20" cy="32" rx="18" ry="6" fill="#B8860B" opacity="0.3"/>
+                                        <circle cx="20" cy="20" r="18" fill="url(#goldGradient2)" stroke="#B8860B" stroke-width="1"/>
+                                        <circle cx="20" cy="20" r="12" fill="url(#innerGradient2)" stroke="#DAA520" stroke-width="0.5"/>
+                                        <rect x="19" y="12" width="2" height="16" rx="1" fill="#B8860B"/>
+                                    </svg>
+                                </div>
+                                <div class="coin coin-3">
+                                    <svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                                        <defs>
+                                            <radialGradient id="goldGradient3" cx="30%" cy="30%">
+                                                <stop offset="0%" style="stop-color:#FFD700"/>
+                                                <stop offset="50%" style="stop-color:#FFA500"/>
+                                                <stop offset="100%" style="stop-color:#B8860B"/>
+                                            </radialGradient>
+                                            <radialGradient id="innerGradient3" cx="30%" cy="30%">
+                                                <stop offset="0%" style="stop-color:#FFFF99"/>
+                                                <stop offset="100%" style="stop-color:#DAA520"/>
+                                            </radialGradient>
+                                        </defs>
+                                        <ellipse cx="20" cy="32" rx="18" ry="6" fill="#B8860B" opacity="0.3"/>
+                                        <circle cx="20" cy="20" r="18" fill="url(#goldGradient3)" stroke="#B8860B" stroke-width="1"/>
+                                        <circle cx="20" cy="20" r="12" fill="url(#innerGradient3)" stroke="#DAA520" stroke-width="0.5"/>
+                                        <rect x="19" y="12" width="2" height="16" rx="1" fill="#B8860B"/>
+                                    </svg>
+                                </div>
+                                <div class="coin coin-4">
+                                    <svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                                        <defs>
+                                            <radialGradient id="goldGradient4" cx="30%" cy="30%">
+                                                <stop offset="0%" style="stop-color:#FFD700"/>
+                                                <stop offset="50%" style="stop-color:#FFA500"/>
+                                                <stop offset="100%" style="stop-color:#B8860B"/>
+                                            </radialGradient>
+                                            <radialGradient id="innerGradient4" cx="30%" cy="30%">
+                                                <stop offset="0%" style="stop-color:#FFFF99"/>
+                                                <stop offset="100%" style="stop-color:#DAA520"/>
+                                            </radialGradient>
+                                        </defs>
+                                        <ellipse cx="20" cy="32" rx="18" ry="6" fill="#B8860B" opacity="0.3"/>
+                                        <circle cx="20" cy="20" r="18" fill="url(#goldGradient4)" stroke="#B8860B" stroke-width="1"/>
+                                        <circle cx="20" cy="20" r="12" fill="url(#innerGradient4)" stroke="#DAA520" stroke-width="0.5"/>
+                                        <rect x="19" y="12" width="2" height="16" rx="1" fill="#B8860B"/>
+                                    </svg>
+                                </div>
+                                <div class="coin coin-5">
+                                    <svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                                        <defs>
+                                            <radialGradient id="goldGradient5" cx="30%" cy="30%">
+                                                <stop offset="0%" style="stop-color:#FFD700"/>
+                                                <stop offset="50%" style="stop-color:#FFA500"/>
+                                                <stop offset="100%" style="stop-color:#B8860B"/>
+                                            </radialGradient>
+                                            <radialGradient id="innerGradient5" cx="30%" cy="30%">
+                                                <stop offset="0%" style="stop-color:#FFFF99"/>
+                                                <stop offset="100%" style="stop-color:#DAA520"/>
+                                            </radialGradient>
+                                        </defs>
+                                        <ellipse cx="20" cy="32" rx="18" ry="6" fill="#B8860B" opacity="0.3"/>
+                                        <circle cx="20" cy="20" r="18" fill="url(#goldGradient5)" stroke="#B8860B" stroke-width="1"/>
+                                        <circle cx="20" cy="20" r="12" fill="url(#innerGradient5)" stroke="#DAA520" stroke-width="0.5"/>
+                                        <rect x="19" y="12" width="2" height="16" rx="1" fill="#B8860B"/>
+                                    </svg>
+                                </div>
+                                <div class="coin coin-6">
+                                    <svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                                        <defs>
+                                            <radialGradient id="goldGradient6" cx="30%" cy="30%">
+                                                <stop offset="0%" style="stop-color:#FFD700"/>
+                                                <stop offset="50%" style="stop-color:#FFA500"/>
+                                                <stop offset="100%" style="stop-color:#B8860B"/>
+                                            </radialGradient>
+                                            <radialGradient id="innerGradient6" cx="30%" cy="30%">
+                                                <stop offset="0%" style="stop-color:#FFFF99"/>
+                                                <stop offset="100%" style="stop-color:#DAA520"/>
+                                            </radialGradient>
+                                        </defs>
+                                        <ellipse cx="20" cy="32" rx="18" ry="6" fill="#B8860B" opacity="0.3"/>
+                                        <circle cx="20" cy="20" r="18" fill="url(#goldGradient6)" stroke="#B8860B" stroke-width="1"/>
+                                        <circle cx="20" cy="20" r="12" fill="url(#innerGradient6)" stroke="#DAA520" stroke-width="0.5"/>
+                                        <rect x="19" y="12" width="2" height="16" rx="1" fill="#B8860B"/>
+                                    </svg>
+                                </div>
+                                <div class="coin coin-7">
+                                    <svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                                        <defs>
+                                            <radialGradient id="goldGradient7" cx="30%" cy="30%">
+                                                <stop offset="0%" style="stop-color:#FFD700"/>
+                                                <stop offset="50%" style="stop-color:#FFA500"/>
+                                                <stop offset="100%" style="stop-color:#B8860B"/>
+                                            </radialGradient>
+                                            <radialGradient id="innerGradient7" cx="30%" cy="30%">
+                                                <stop offset="0%" style="stop-color:#FFFF99"/>
+                                                <stop offset="100%" style="stop-color:#DAA520"/>
+                                            </radialGradient>
+                                        </defs>
+                                        <ellipse cx="20" cy="32" rx="18" ry="6" fill="#B8860B" opacity="0.3"/>
+                                        <circle cx="20" cy="20" r="18" fill="url(#goldGradient7)" stroke="#B8860B" stroke-width="1"/>
+                                        <circle cx="20" cy="20" r="12" fill="url(#innerGradient7)" stroke="#DAA520" stroke-width="0.5"/>
+                                        <rect x="19" y="12" width="2" height="16" rx="1" fill="#B8860B"/>
+                                    </svg>
+                                </div>
+                                <div class="coin coin-8">
+                                    <svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                                        <defs>
+                                            <radialGradient id="goldGradient8" cx="30%" cy="30%">
+                                                <stop offset="0%" style="stop-color:#FFD700"/>
+                                                <stop offset="50%" style="stop-color:#FFA500"/>
+                                                <stop offset="100%" style="stop-color:#B8860B"/>
+                                            </radialGradient>
+                                            <radialGradient id="innerGradient8" cx="30%" cy="30%">
+                                                <stop offset="0%" style="stop-color:#FFFF99"/>
+                                                <stop offset="100%" style="stop-color:#DAA520"/>
+                                            </radialGradient>
+                                        </defs>
+                                        <ellipse cx="20" cy="32" rx="18" ry="6" fill="#B8860B" opacity="0.3"/>
+                                        <circle cx="20" cy="20" r="18" fill="url(#goldGradient8)" stroke="#B8860B" stroke-width="1"/>
+                                        <circle cx="20" cy="20" r="12" fill="url(#innerGradient8)" stroke="#DAA520" stroke-width="0.5"/>
+                                        <rect x="19" y="12" width="2" height="16" rx="1" fill="#B8860B"/>
+                                    </svg>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
                     <!-- Enhanced Social Media Shareable Slide -->
-                    <div class="slide" id="slide-7">
+                    <div class="slide" id="slide-8">
                         <div class="slide-content" style="overflow-y: auto; min-height: 100vh; padding: 20px 15px 80px 15px;">
                             <div class="slide-header" style="text-align: center; margin-bottom: 30px;">
-                                <h2 class="slide-title" style="text-align: center; margin: 0; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 28px; color: white;">
-                                    📱 Share Your Chewy Journey 📱
+                                <h2 class="slide-title" style="text-align: center; margin: 0; font-family: 'Baloo 2', sans-serif; font-weight: 700; font-size: 28px; color: white;">
+                                    🎉 Share Chewy Playback!
                                 </h2>
-                                <p style="color: white; font-size: 16px; margin-top: 12px; opacity: 0.9;">
-                                    Spread the love with friends and family!
+                            </div>
+                            
+                            <div class="enhanced-share-text">
+                                <p style="color: white; font-size: 16px; margin-bottom: 25px; opacity: 0.9;">
+                                    Select which features you'd like to share:
                                 </p>
                             </div>
                             
-                            <div class="enhanced-share-container">
-                                <div class="enhanced-share-content">
-                                    <div class="enhanced-share-text">
-                                        <h3 style="color: white; font-size: 20px; margin-bottom: 15px; font-weight: 600;">
-                                            🎉 Your Chewy experience is ready to share!
-                                        </h3>
-                                    </div>
-                                    
-                                    <div class="enhanced-social-grid">
-                                        <div class="enhanced-social-card facebook" onclick="shareToSocial('facebook')">
-                                            <div class="enhanced-social-icon">
-                                                <i class="fab fa-facebook-f"></i>
-                                            </div>
-                                            <div class="enhanced-social-label">Facebook</div>
-                                        </div>
-                                        
-                                        <div class="enhanced-social-card instagram" onclick="shareToSocial('instagram')">
-                                            <div class="enhanced-social-icon">
-                                                <i class="fab fa-instagram"></i>
-                                            </div>
-                                            <div class="enhanced-social-label">Instagram</div>
-                                        </div>
-                                        
-                                        <div class="enhanced-social-card snapchat" onclick="shareToSocial('snapchat')">
-                                            <div class="enhanced-social-icon">
-                                                <i class="fab fa-snapchat-ghost"></i>
-                                            </div>
-                                            <div class="enhanced-social-label">Snapchat</div>
-                                        </div>
-                                        
-                                        <div class="enhanced-social-card message" onclick="shareToSocial('message')">
-                                            <div class="enhanced-social-icon">
-                                                <i class="fas fa-comment"></i>
-                                            </div>
-                                            <div class="enhanced-social-label">Message</div>
-                                        </div>
-                                    </div>
-                                    
-                                    <div class="enhanced-share-cta">
-                                        <button class="enhanced-share-btn" onclick="shareToSocial('facebook')">
-                                            <span class="enhanced-share-icon">📤</span>
-                                            <span class="enhanced-share-text">Share Your Story</span>
-                                        </button>
-                                    </div>
+                            <div class="feature-selection-grid">
+                                <div class="feature-card" data-feature="food" onclick="toggleFeature('food')">
+                                    <div class="feature-icon">🍽️</div>
+                                    <div class="feature-label">Food Consumed</div>
+                                    <div class="feature-value" id="food-share-value">0 lbs</div>
                                 </div>
+                                
+                                <div class="feature-card" data-feature="donations" onclick="toggleFeature('donations')">
+                                    <div class="feature-icon">💝</div>
+                                    <div class="feature-label">Donations</div>
+                                    <div class="feature-value" id="donations-share-value">$0.00</div>
+                                </div>
+                                
+                                <div class="feature-card" data-feature="milestone" onclick="toggleFeature('milestone')">
+                                    <div class="feature-icon">🎯</div>
+                                    <div class="feature-label">Months with Chewy</div>
+                                    <div class="feature-value" id="milestone-share-value">0</div>
+                                </div>
+                                
+                                <div class="feature-card" data-feature="most-ordered" onclick="toggleFeature('most-ordered')">
+                                    <div class="feature-icon">🏆</div>
+                                    <div class="feature-label">Most Ordered</div>
+                                    <div class="feature-value" id="most-ordered-share-value">N/A</div>
+                                </div>
+                                
+                                <div class="feature-card" data-feature="autoship" onclick="toggleFeature('autoship')">
+                                    <div class="feature-icon">💰</div>
+                                    <div class="feature-label">Autoship Savings</div>
+                                    <div class="feature-value" id="autoship-share-value">$0.00</div>
+                                </div>
+                                
+                                <div class="feature-card" data-feature="cuddliest-month" onclick="toggleFeature('cuddliest-month')">
+                                    <div class="feature-icon">💕</div>
+                                    <div class="feature-label">Favorite Month</div>
+                                    <div class="feature-value" id="cuddliest-month-share-value">N/A</div>
+                                </div>
+                            </div>
+                            
+                            <div class="enhanced-share-cta">
+                                <button class="enhanced-share-btn" onclick="showNativeShare()">
+                                    <span class="enhanced-share-icon">📤</span>
+                                    <span class="enhanced-share-text">Share Your Story</span>
+                                </button>
                             </div>
                             
                             <div class="slide-counter">7 of 8</div>
@@ -612,9 +1346,9 @@
                     </div>
 
                     <!-- Final Message Slide -->
-                    <div class="slide" id="slide-8">
+                    <div class="slide" id="slide-9">
                         <div class="slide-content">
-                            <h1 class="slide-title">🎯 Get Personalized Next Year 🎯</h1>
+                            <h1 class="slide-title">Get Personalized Next Year</h1>
                             <div class="slide-value">🐾</div>
                             <p class="slide-description">Create your pet profiles for a personalized playback next year!</p>
                             <p class="slide-description">Add your pets' information to get a fully customized experience with personality badges, breed predictions, and personalized letters.</p>
@@ -628,21 +1362,29 @@
 
     <script>
         let currentSlide = 1;
-        const totalSlides = 8; // Changed from 7 to 8 to include the final message slide
+        let totalSlides = 9; // Updated to 9 to include all slides including the new hearts slide
         let customerData = null;
         let isTransitioning = false;
 
         // Get customer data from Flask template
         window.addEventListener('load', () => {
-            // Customer data is passed from Flask template
-            customerData = JSON.parse('{{ customer_data | tojson | safe }}');
-            populateSlides();
-            showSlides();
+            try {
+                // Customer data is passed from Flask template
+                customerData = JSON.parse('{{ customer_data | tojson | safe }}');
+                console.log('📊 Customer data loaded:', customerData);
+                populateSlides();
+                populateFeatureValues();
+                showSlides();
+                showSlide(1);
+            } catch (error) {
+                console.error('❌ Error loading customer data:', error);
+                showError('Failed to load customer data. Please try again.');
+            }
         });
 
         // Initialize slides
         document.addEventListener('DOMContentLoaded', function() {
-            // Count total slides (excluding loading slide)
+            // Count total slides
             const allSlides = document.querySelectorAll('.slide');
             totalSlides = allSlides.length;
             
@@ -654,94 +1396,267 @@
             
             // Initialize arrow navigation
             updateArrowNavigation();
-            
-            // Hide loading slide after a short delay and show first real slide
-            setTimeout(() => {
-                console.log(`🚀 Showing slide 1...`);
-                showSlide(1);
-            }, 2000);
         });
 
+        function animateNumber(elementId, start, end, duration) {
+            const element = document.getElementById(elementId);
+            if (!element) return;
+            
+            const startTime = performance.now();
+            const difference = end - start;
+            
+            function updateNumber(currentTime) {
+                const elapsed = currentTime - startTime;
+                const progress = Math.min(elapsed / duration, 1);
+                
+                // Easing function for smooth animation
+                const easeOutQuart = 1 - Math.pow(1 - progress, 4);
+                const currentValue = Math.floor(start + (difference * easeOutQuart));
+                
+                element.textContent = currentValue;
+                
+                if (progress < 1) {
+                    requestAnimationFrame(updateNumber);
+                } else {
+                    element.textContent = end;
+                }
+            }
+            
+            requestAnimationFrame(updateNumber);
+        }
+
         function populateSlides() {
-            if (!customerData) return;
+            if (!customerData) {
+                console.error('❌ No customer data available');
+                showError('No customer data available. Please try again.');
+                return;
+            }
 
             // Track which slides have data
             const slidesWithData = [];
             
-            // Populate food fun fact slide (slide-1 in HTML)
+            // Populate food consumption slide (slide-1 in HTML) - using yearly_food_count from basic stats
+            const yearlyFoodCount = customerData.yearly_food_count || 0;
+            const hasFoodData = yearlyFoodCount > 0;
+            
+            // Check for food fun facts from food_fun_fact.json
             const foodFunFact = customerData.food_fun_fact || {};
-            const totalFoodLbs = foodFunFact.total_food_lbs || 0;
             const funFacts = foodFunFact.fun_facts || [];
-            const message = foodFunFact.message || `Your pets have consumed ${totalFoodLbs} lbs of food this year!`;
             
             // Check cuddliest month slide (slide-2 in HTML)
             const cuddliestMonth = customerData.cuddliest_month || '';
             const hasCuddliestMonth = cuddliestMonth && cuddliestMonth !== 'N/A' && cuddliestMonth.trim() !== '';
             
-            if (totalFoodLbs > 0) {
-                // Show food fun fact as landing page if there's food consumption data
-                document.getElementById('food-fun-fact-value').textContent = `${totalFoodLbs} lbs`;
-                document.getElementById('food-fun-fact-message').textContent = message;
-                if (funFacts.length > 0) {
-                    document.getElementById('food-fun-fact-details').textContent = funFacts[0];
+            if (hasFoodData) {
+                // Show food consumption as landing page if there's food data
+                // Create a custom animation that preserves "lbs" text
+                const foodNumberElement = document.getElementById('food-number');
+                if (foodNumberElement) {
+                    const startTime = performance.now();
+                    const duration = 800;
+                    const start = 0;
+                    const end = yearlyFoodCount;
+                    const difference = end - start;
+                    
+                    function updateFoodNumber(currentTime) {
+                        const elapsed = currentTime - startTime;
+                        const progress = Math.min(elapsed / duration, 1);
+                        
+                        // Easing function for smooth animation
+                        const easeOutQuart = 1 - Math.pow(1 - progress, 4);
+                        const currentValue = Math.floor(start + (difference * easeOutQuart));
+                        
+                        foodNumberElement.innerHTML = `${currentValue}<span class="unit-text">lbs</span>`;
+                        
+                        if (progress < 1) {
+                            requestAnimationFrame(updateFoodNumber);
+                        } else {
+                            foodNumberElement.innerHTML = `${end}<span class="unit-text">lbs</span>`;
+                        }
+                    }
+                    
+                    requestAnimationFrame(updateFoodNumber);
                 }
+                
+                // Delay fun fact messages until after number animation completes
+                setTimeout(() => {
+                    // Add fun fact messages - use food_fun_fact.json if available, otherwise generic messages
+                    const funfactMessagesContainer = document.querySelector('.funfact-messages');
+                    if (funfactMessagesContainer) {
+                        // Clear existing messages
+                        funfactMessagesContainer.innerHTML = '';
+                        
+                        let messagesToShow = [];
+                        
+                        if (funFacts.length > 0) {
+                            // Use fun facts from food_fun_fact.json
+                            messagesToShow = funFacts;
+                        } else {
+                            // Use generic messages if no fun facts available
+                            messagesToShow = [
+                                `Your pets have consumed ${yearlyFoodCount} lbs of food this year!`,
+                                `That's a lot of love for your pets! 🐾`
+                            ];
+                        }
+                        
+                        messagesToShow.forEach((message, index) => {
+                            const messageElement = document.createElement('p');
+                            messageElement.className = 'funfact-message';
+                            messageElement.textContent = message;
+                            messageElement.style.opacity = '0';
+                            messageElement.style.transform = 'translateY(20px)';
+                            funfactMessagesContainer.appendChild(messageElement);
+                            
+                            // Animate each message with staggered delay using the same fadeInUp animation
+                            setTimeout(() => {
+                                messageElement.style.animation = 'fadeInUp 0.8s ease-out forwards';
+                            }, 800 + (index * 300)); // 800ms delay for number + 300ms between each message
+                        });
+                    }
+                }, 800); // Wait for number animation to complete
+                
                 slidesWithData.push(1);
                 
-                // Add cuddliest month after food fun fact if available
+                // Add hearts slide and cuddliest month after food consumption if available
                 if (hasCuddliestMonth) {
-                    document.getElementById('cuddliest-month-value').textContent = cuddliestMonth;
-                    slidesWithData.push(2);
+                    slidesWithData.push(2); // Hearts slide
+                    const cuddliestMonthElement = document.getElementById('cuddliest-month-value');
+                    if (cuddliestMonthElement) {
+                        cuddliestMonthElement.textContent = cuddliestMonth;
+                    }
+                    slidesWithData.push(3); // Cuddliest month slide
                 } else {
-                    document.getElementById('slide-2').style.display = 'none';
+                    const slide2Element = document.getElementById('slide-2');
+                    const slide3Element = document.getElementById('slide-3');
+                    if (slide2Element) {
+                        slide2Element.style.display = 'none'; // Hide hearts slide
+                    }
+                    if (slide3Element) {
+                        slide3Element.style.display = 'none'; // Hide cuddliest month slide
+                    }
                 }
             } else {
-                // Hide food fun fact slide if no food consumption data
+                // Hide food consumption slide if no food data
                 document.getElementById('slide-1').style.display = 'none';
                 
-                // Show cuddliest month as landing page if available
+                // Show hearts slide and cuddliest month as landing page if available
                 if (hasCuddliestMonth) {
-                    document.getElementById('cuddliest-month-value').textContent = cuddliestMonth;
-                    slidesWithData.push(2);
+                    slidesWithData.push(2); // Hearts slide
+                    const cuddliestMonthElement = document.getElementById('cuddliest-month-value');
+                    if (cuddliestMonthElement) {
+                        cuddliestMonthElement.textContent = cuddliestMonth;
+                    }
+                    slidesWithData.push(3); // Cuddliest month slide
                 } else {
-                    document.getElementById('slide-2').style.display = 'none';
+                    const slide2Element = document.getElementById('slide-2');
+                    const slide3Element = document.getElementById('slide-3');
+                    if (slide2Element) {
+                        slide2Element.style.display = 'none'; // Hide hearts slide
+                    }
+                    if (slide3Element) {
+                        slide3Element.style.display = 'none'; // Hide cuddliest month slide
+                    }
                 }
             }
 
-            // Check donations slide (slide-3 in HTML)
+            // Check donations slide (slide-4 in HTML)
             const donationsValue = customerData.amount_donated || 0;
             if (donationsValue > 0) {
-                document.getElementById('donations-value').textContent = `$${donationsValue.toFixed(2)}`;
-                slidesWithData.push(3);
-            } else {
-                document.getElementById('slide-3').style.display = 'none';
-            }
-
-            // Check milestone slide (slide-4 in HTML)
-            const totalMonths = customerData.total_months || 0;
-            if (totalMonths > 0) {
-                document.getElementById('milestone-value').textContent = totalMonths;
-                document.getElementById('milestone-text').textContent = totalMonths;
+                const donationsElement = document.getElementById('donations-value');
+                if (donationsElement) {
+                    donationsElement.textContent = `$${donationsValue.toFixed(2)}`;
+                }
                 slidesWithData.push(4);
             } else {
-                document.getElementById('slide-4').style.display = 'none';
+                const slide4Element = document.getElementById('slide-4');
+                if (slide4Element) {
+                    slide4Element.style.display = 'none';
+                }
             }
 
-            // Check most ordered slide (slide-5 in HTML)
+            // Check calendar slide (slide-5 in HTML)
+            const totalMonths = customerData.total_months || 0;
+            if (totalMonths > 0) {
+                const calendarNumberElement = document.getElementById('calendar-number');
+                
+                // Store calendar data for animation when slide is shown
+                window.milestoneData = {
+                    value: totalMonths
+                };
+                
+                // Set initial values
+                if (calendarNumberElement) {
+                    calendarNumberElement.textContent = '1';
+                    console.log('📅 Calendar element found, initial value set to 1');
+                }
+                
+                // Add calendar slide
+                slidesWithData.push(5); // Calendar slide
+            } else {
+                const slide5Element = document.getElementById('slide-5');
+                if (slide5Element) {
+                    slide5Element.style.display = 'none';
+                }
+            }
+
+            // Check most ordered slide (slide-6 in HTML)
             const mostOrdered = customerData.most_ordered || '';
             if (mostOrdered && mostOrdered !== 'No data available' && mostOrdered.trim() !== '') {
-                document.getElementById('most-ordered-text').textContent = mostOrdered;
-                slidesWithData.push(5);
-            } else {
-                document.getElementById('slide-5').style.display = 'none';
-            }
-
-            // Check autoship savings slide (slide-6 in HTML)
-            const autoshipSavings = customerData.autoship_savings || 0;
-            if (autoshipSavings > 0) {
-                document.getElementById('autoship-savings-value').textContent = `$${autoshipSavings.toFixed(2)}`;
+                const mostOrderedElement = document.getElementById('most-ordered-text');
+                if (mostOrderedElement) {
+                    mostOrderedElement.textContent = mostOrdered;
+                }
+                
+                // Show product image only for customer 151327624
+                const customerId = '{{ customer_id }}';
+                if (customerId === '151327624' && customerData.product_image_url) {
+                    const productImageContainer = document.getElementById('product-image-container');
+                    const productImage = document.getElementById('product-image');
+                    
+                    if (productImageContainer && productImage) {
+                        productImage.src = customerData.product_image_url;
+                        productImageContainer.style.display = 'block';
+                        console.log('🖼️ Product image displayed for customer 151327624');
+                    }
+                }
+                
                 slidesWithData.push(6);
             } else {
-                document.getElementById('slide-6').style.display = 'none';
+                const slide6Element = document.getElementById('slide-6');
+                if (slide6Element) {
+                    slide6Element.style.display = 'none';
+                }
+            }
+
+            // Check autoship savings slide (slide-7 in HTML)
+            const autoshipSavings = customerData.autoship_savings || 0;
+            if (autoshipSavings > 0) {
+                const autoshipElement = document.getElementById('autoship-savings-value');
+                const echoNumbers = document.querySelectorAll('.echo-number');
+                const savingsText = `$${autoshipSavings.toFixed(2)}`;
+                
+                if (autoshipElement) {
+                    // Clear existing content
+                    autoshipElement.innerHTML = '';
+                    
+                    // Split the savings text into individual characters
+                    const characters = savingsText.split('');
+                    
+                    // Create digit spans for each character
+                    characters.forEach((char, index) => {
+                        const digitSpan = document.createElement('span');
+                        digitSpan.className = `digit digit-${index + 1}`;
+                        digitSpan.textContent = char;
+                        autoshipElement.appendChild(digitSpan);
+                    });
+                }
+                
+                slidesWithData.push(7);
+            } else {
+                const slide7Element = document.getElementById('slide-7');
+                if (slide7Element) {
+                    slide7Element.style.display = 'none';
+                }
             }
 
             // Update total slides count and slide counters
@@ -761,14 +1676,14 @@
             });
             
             // Update social media slide counter
-            const socialMediaCounter = document.querySelector('#slide-7 .slide-counter');
+            const socialMediaCounter = document.querySelector('#slide-8 .slide-counter');
             if (socialMediaCounter) {
                 socialMediaCounter.textContent = `${slidesWithData.length + 1} of ${window.totalSlides}`;
                 console.log(`📱 Updated social media slide counter to: ${slidesWithData.length + 1} of ${window.totalSlides}`);
             }
             
             // Update final message slide counter
-            const finalMessageCounter = document.querySelector('#slide-8 .slide-counter');
+            const finalMessageCounter = document.querySelector('#slide-9 .slide-counter');
             if (finalMessageCounter) {
                 finalMessageCounter.textContent = `${slidesWithData.length + 2} of ${window.totalSlides}`;
                 console.log(`🎯 Updated final message slide counter to: ${slidesWithData.length + 2} of ${window.totalSlides}`);
@@ -776,14 +1691,19 @@
         }
 
         function showSlides() {
-            document.getElementById('loading').style.display = 'none';
             document.getElementById('slides-container').style.display = 'block';
+            console.log('📱 Slides container shown');
         }
 
         function showError(message) {
-            document.getElementById('loading').style.display = 'none';
-            document.getElementById('error').style.display = 'flex';
-            document.getElementById('error-message').textContent = message;
+            const errorElement = document.getElementById('error');
+            const errorMessageElement = document.getElementById('error-message');
+            if (errorElement) {
+                errorElement.style.display = 'flex';
+            }
+            if (errorMessageElement) {
+                errorMessageElement.textContent = message;
+            }
         }
 
         function showSlide(slideIndex) {
@@ -797,23 +1717,33 @@
             isTransitioning = true;
             
             // Hide all slides
-            const visibleSlides = Array.from(document.querySelectorAll('.slide'));
-            console.log(`📋 Found ${visibleSlides.length} slides total`);
-            visibleSlides.forEach((slide, index) => {
+            const allSlides = Array.from(document.querySelectorAll('.slide'));
+            console.log(`📋 Found ${allSlides.length} slides total`);
+            allSlides.forEach((slide, index) => {
                 slide.classList.remove('active');
                 console.log(`👁️ Slide ${index} (${slide.id}): removed active class`);
             });
             
+            // Get only visible slides (not display: none)
+            const visibleSlides = allSlides.filter(slide => slide.style.display !== 'none');
+            console.log(`📋 Found ${visibleSlides.length} visible slides`);
+            
             // Show target slide
-            if (visibleSlides[slideIndex - 1]) {
+            if (slideIndex <= visibleSlides.length && slideIndex > 0) {
                 visibleSlides[slideIndex - 1].classList.add('active');
                 currentSlide = slideIndex;
                 console.log(`✅ Activated slide ${slideIndex} (${visibleSlides[slideIndex - 1].id})`);
                 
+                // Trigger calendar animation if this is the calendar slide
+                if (visibleSlides[slideIndex - 1].id === 'slide-5' && window.milestoneData) {
+                    console.log('📅 Triggering calendar animation');
+                    animateCalendarNumber();
+                }
+                
                 // Update arrow navigation states
                 updateArrowNavigation();
             } else {
-                console.log(`❌ Slide ${slideIndex} not found!`);
+                console.log(`❌ Slide ${slideIndex} not found or out of range!`);
             }
             
             setTimeout(() => {
@@ -826,6 +1756,11 @@
             const prevArrow = document.getElementById('prev-arrow');
             const nextArrow = document.getElementById('next-arrow');
             
+            // Get only visible slides (not display: none)
+            const allSlides = Array.from(document.querySelectorAll('.slide'));
+            const visibleSlides = allSlides.filter(slide => slide.style.display !== 'none');
+            const actualTotalSlides = visibleSlides.length;
+            
             // Disable prev arrow on first slide
             if (currentSlide <= 1) {
                 prevArrow.disabled = true;
@@ -836,7 +1771,7 @@
             }
             
             // Disable next arrow on last slide
-            if (currentSlide >= totalSlides) {
+            if (currentSlide >= actualTotalSlides) {
                 nextArrow.disabled = true;
                 nextArrow.style.opacity = '0.3';
             } else {
@@ -844,7 +1779,7 @@
                 nextArrow.style.opacity = '1';
             }
             
-            console.log(`🎯 Arrow navigation updated - currentSlide: ${currentSlide}, totalSlides: ${totalSlides}`);
+            console.log(`🎯 Arrow navigation updated - currentSlide: ${currentSlide}, actualTotalSlides: ${actualTotalSlides}`);
         }
 
         function nextSlide() {
@@ -865,7 +1800,221 @@
             window.location.href = '/';
         }
 
-        // Social Media Sharing Functions
+        function animateCalendarNumber() {
+            if (!window.milestoneData || !window.milestoneData.value) {
+                console.log('❌ No calendar data available for animation');
+                return;
+            }
+
+            const calendarElement = document.getElementById('calendar-number');
+            const endValue = window.milestoneData.value;
+            
+            if (!calendarElement) {
+                console.log('❌ Calendar element not found');
+                return;
+            }
+            
+            console.log('📅 Starting calendar animation for:', endValue);
+            
+            const startTime = performance.now();
+            const duration = 1200;
+            const start = 1; // Start from 1 instead of 0
+            const end = endValue;
+            const difference = end - start;
+
+            function updateCalendarNumber(currentTime) {
+                const elapsed = currentTime - startTime;
+                const progress = Math.min(elapsed / duration, 1);
+
+                // Easing function for smooth animation
+                const easeOutQuart = 1 - Math.pow(1 - progress, 4);
+                const currentValue = Math.floor(start + (difference * easeOutQuart));
+
+                calendarElement.textContent = currentValue;
+                console.log('📅 Calendar animation progress:', progress, 'currentValue:', currentValue);
+
+                if (progress < 1) {
+                    requestAnimationFrame(updateCalendarNumber);
+                } else {
+                    calendarElement.textContent = end;
+                    console.log('📅 Calendar animation completed:', end);
+                }
+            }
+
+            requestAnimationFrame(updateCalendarNumber);
+        }
+
+
+
+        // Feature Selection Functions
+        let selectedFeatures = new Set();
+
+        function toggleFeature(feature) {
+            const featureCard = document.querySelector(`[data-feature="${feature}"]`);
+            
+            if (featureCard.classList.contains('disabled')) {
+                return; // Don't allow selection of disabled features
+            }
+            
+            if (selectedFeatures.has(feature)) {
+                selectedFeatures.delete(feature);
+                featureCard.classList.remove('selected');
+            } else {
+                selectedFeatures.add(feature);
+                featureCard.classList.add('selected');
+            }
+            
+            console.log('Selected features:', Array.from(selectedFeatures));
+        }
+
+        function populateFeatureValues() {
+            if (!customerData) return;
+            
+            // Food consumed
+            const foodValue = customerData.yearly_food_count || 0;
+            const foodShareElement = document.getElementById('food-share-value');
+            const foodCard = document.querySelector('[data-feature="food"]');
+            if (foodShareElement) {
+                foodShareElement.textContent = `${foodValue} lbs`;
+            }
+            if (foodCard && foodValue > 0) {
+                foodCard.classList.remove('disabled');
+            } else if (foodCard) {
+                foodCard.classList.add('disabled');
+            }
+            
+            // Donations
+            const donationsValue = customerData.amount_donated || 0;
+            const donationsShareElement = document.getElementById('donations-share-value');
+            const donationsCard = document.querySelector('[data-feature="donations"]');
+            if (donationsShareElement) {
+                donationsShareElement.textContent = `$${donationsValue.toFixed(2)}`;
+            }
+            if (donationsCard && donationsValue > 0) {
+                donationsCard.classList.remove('disabled');
+            } else if (donationsCard) {
+                donationsCard.classList.add('disabled');
+            }
+            
+            // Milestone (months with Chewy)
+            const milestoneValue = customerData.total_months || 0;
+            const milestoneShareElement = document.getElementById('milestone-share-value');
+            const milestoneCard = document.querySelector('[data-feature="milestone"]');
+            if (milestoneShareElement) {
+                milestoneShareElement.textContent = milestoneValue;
+            }
+            if (milestoneCard && milestoneValue > 0) {
+                milestoneCard.classList.remove('disabled');
+            } else if (milestoneCard) {
+                milestoneCard.classList.add('disabled');
+            }
+            
+            // Most ordered
+            const mostOrderedValue = customerData.most_ordered || '';
+            const mostOrderedShareElement = document.getElementById('most-ordered-share-value');
+            const mostOrderedCard = document.querySelector('[data-feature="most-ordered"]');
+            if (mostOrderedShareElement) {
+                mostOrderedShareElement.textContent = mostOrderedValue || 'N/A';
+            }
+            if (mostOrderedCard && mostOrderedValue && mostOrderedValue !== 'No data available' && mostOrderedValue.trim() !== '') {
+                mostOrderedCard.classList.remove('disabled');
+            } else if (mostOrderedCard) {
+                mostOrderedCard.classList.add('disabled');
+            }
+            
+            // Autoship savings
+            const autoshipValue = customerData.autoship_savings || 0;
+            const autoshipShareElement = document.getElementById('autoship-share-value');
+            const autoshipCard = document.querySelector('[data-feature="autoship"]');
+            if (autoshipShareElement) {
+                autoshipShareElement.textContent = `$${autoshipValue.toFixed(2)}`;
+            }
+            if (autoshipCard && autoshipValue > 0) {
+                autoshipCard.classList.remove('disabled');
+            } else if (autoshipCard) {
+                autoshipCard.classList.add('disabled');
+            }
+            
+            // Cuddliest month
+            const cuddliestMonthValue = customerData.cuddliest_month || '';
+            const cuddliestMonthShareElement = document.getElementById('cuddliest-month-share-value');
+            const cuddliestMonthCard = document.querySelector('[data-feature="cuddliest-month"]');
+            if (cuddliestMonthShareElement) {
+                cuddliestMonthShareElement.textContent = cuddliestMonthValue || 'N/A';
+            }
+            if (cuddliestMonthCard && cuddliestMonthValue && cuddliestMonthValue.trim() !== '') {
+                cuddliestMonthCard.classList.remove('disabled');
+            } else if (cuddliestMonthCard) {
+                cuddliestMonthCard.classList.add('disabled');
+            }
+        }
+
+        // Native Share Function
+        function showNativeShare() {
+            const customerId = '{{ customer_id }}';
+            const shareUrl = `${window.location.origin}/experience/${customerId}`;
+            
+            // Create a custom message based on selected features
+            let shareText = "Check out my Chewy pet experience! 🐾";
+            
+            if (selectedFeatures.size > 0) {
+                const featureMessages = [];
+                
+                if (selectedFeatures.has('food')) {
+                    const foodValue = customerData.yearly_food_count || 0;
+                    featureMessages.push(`🍽️ Consumed ${foodValue} lbs of food`);
+                }
+                
+                if (selectedFeatures.has('donations')) {
+                    const donationsValue = customerData.amount_donated || 0;
+                    featureMessages.push(`💝 Donated $${donationsValue.toFixed(2)}`);
+                }
+                
+                if (selectedFeatures.has('milestone')) {
+                    const milestoneValue = customerData.total_months || 0;
+                    featureMessages.push(`🎯 ${milestoneValue} months with Chewy`);
+                }
+                
+                if (selectedFeatures.has('most-ordered')) {
+                    const mostOrderedValue = customerData.most_ordered || '';
+                    featureMessages.push(`🏆 Most ordered: ${mostOrderedValue}`);
+                }
+                
+                if (selectedFeatures.has('autoship')) {
+                    const autoshipValue = customerData.autoship_savings || 0;
+                    featureMessages.push(`💰 Saved $${autoshipValue.toFixed(2)} with Autoship`);
+                }
+                
+                if (selectedFeatures.has('cuddliest-month')) {
+                    const cuddliestMonthValue = customerData.cuddliest_month || '';
+                    featureMessages.push(`💕 Favorite month: ${cuddliestMonthValue}`);
+                }
+                
+                if (featureMessages.length > 0) {
+                    shareText = `My Chewy Journey:\n${featureMessages.join('\n')}\n\nCheck it out: ${shareUrl}`;
+                }
+            }
+            
+            // Use native Web Share API if available (iOS-style share sheet)
+            if (navigator.share) {
+                navigator.share({
+                    title: 'My Chewy Experience',
+                    text: shareText,
+                    url: shareUrl
+                }).catch((error) => {
+                    console.log('Error sharing:', error);
+                    // Fallback to clipboard if sharing fails
+                    copyToClipboard(`${shareText} ${shareUrl}`);
+                    alert('Link copied to clipboard!');
+                });
+            } else {
+                // Fallback for browsers that don't support Web Share API
+                copyToClipboard(`${shareText} ${shareUrl}`);
+                alert('Link copied to clipboard! You can now share it anywhere.');
+            }
+        }
+
+        // Social Media Sharing Functions (kept for backward compatibility)
         function shareToSocial(platform) {
             const customerId = '{{ customer_id }}';
             const shareUrl = `${window.location.origin}/experience/${customerId}`;
