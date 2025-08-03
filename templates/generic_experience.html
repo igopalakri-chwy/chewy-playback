@@ -43,6 +43,36 @@
             border-radius: 32px;
             overflow: hidden;
             position: relative;
+            z-index: 1;
+        }
+
+        /* Spotify Wrapped Progress Bar */
+        .progress-bar-container {
+            position: absolute;
+            top: 50px;
+            left: 20px;
+            right: 20px;
+            display: flex;
+            gap: 4px;
+            z-index: 100;
+            height: 3px;
+        }
+
+        .progress-chunk {
+            flex: 1;
+            height: 3px;
+            background: rgba(255, 255, 255, 0.3);
+            border-radius: 2px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .progress-chunk-fill {
+            height: 100%;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 2px;
+            width: 0%;
+            transition: width 0.3s ease;
         }
 
         /* Notch */
@@ -86,7 +116,7 @@
 
         .slide-content {
             color: white;
-            padding: 20px 15px 60px 15px;
+            padding: 75px 15px 60px 15px;
             min-height: 100vh;
             display: flex;
             flex-direction: column;
@@ -108,17 +138,7 @@
 
         /* Slide counter */
         .slide-counter {
-            position: absolute;
-            top: 15px;
-            right: 15px;
-            background: rgba(0, 102, 204, 0.9);
-            color: white;
-            padding: 6px 10px;
-            border-radius: 12px;
-            font-size: 11px;
-            font-weight: 500;
-            backdrop-filter: blur(10px);
-            z-index: 10;
+            display: none;
         }
 
         /* Slide title styling */
@@ -234,14 +254,14 @@
             opacity: 0;
         }
 
-        .heart-1 { top: 20%; left: 10%; animation-delay: 0s; }
-        .heart-2 { top: 30%; right: 15%; animation-delay: 0.3s; }
-        .heart-3 { bottom: 40%; left: 20%; animation-delay: 0.6s; }
-        .heart-4 { bottom: 30%; right: 10%; animation-delay: 0.9s; }
-        .heart-5 { top: 60%; left: 5%; animation-delay: 1.2s; }
-        .heart-6 { top: 70%; right: 5%; animation-delay: 1.5s; }
-        .heart-7 { top: 50%; left: 25%; animation-delay: 1.8s; }
-        .heart-8 { top: 80%; right: 25%; animation-delay: 2.1s; }
+        .heart-1 { top: 20%; left: 10%; animation-delay: 1.83s; }
+        .heart-2 { top: 30%; right: 15%; animation-delay: 2.0s; }
+        .heart-3 { bottom: 40%; left: 20%; animation-delay: 2.2s; }
+        .heart-4 { bottom: 30%; right: 10%; animation-delay: 2.4s; }
+        .heart-5 { top: 60%; left: 5%; animation-delay: 2.6s; }
+        .heart-6 { top: 70%; right: 5%; animation-delay: 2.8s; }
+        .heart-7 { top: 50%; left: 25%; animation-delay: 3.0s; }
+        .heart-8 { top: 80%; right: 25%; animation-delay: 3.2s; }
 
         .hearts-message {
             font-size: 24px;
@@ -337,7 +357,6 @@
 
         .enhanced-share-text {
             text-align: center;
-            margin-bottom: 25px;
             position: relative;
             z-index: 1;
         }
@@ -375,13 +394,32 @@
         .feature-card:hover {
             transform: translateY(-3px);
             box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
-            border-color: rgba(255, 255, 255, 0.4);
+            border-color: rgba(255, 255, 255, 0.6);
+            background: rgba(255, 255, 255, 0.15);
         }
 
         .feature-card.selected {
-            background: rgba(74, 144, 226, 0.3);
+            background: rgba(74, 144, 226, 0.4);
             border-color: #4a90e2;
-            box-shadow: 0 5px 15px rgba(74, 144, 226, 0.3);
+            box-shadow: 0 8px 20px rgba(74, 144, 226, 0.4);
+            transform: translateY(-2px);
+        }
+
+        .feature-card.selected::after {
+            content: '✓';
+            position: absolute;
+            top: 8px;
+            right: 8px;
+            background: #4a90e2;
+            color: white;
+            font-size: 12px;
+            font-weight: bold;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
 
         .feature-card.disabled {
@@ -523,44 +561,31 @@
         }
 
         .enhanced-share-btn {
-            background: linear-gradient(135deg, #4a90e2, #2a5298);
-            color: white;
+            background: #e8e8e8;
+            color: #333;
             border: none;
-            padding: 15px 32px;
-            border-radius: 25px;
-            font-size: 16px;
-            font-weight: 700;
+            padding: 6px 18px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 600;
             font-family: 'Nunito', sans-serif;
             cursor: pointer;
-            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-            box-shadow: 0 6px 20px rgba(74, 144, 226, 0.4);
+            transition: all 0.2s ease;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
             display: flex;
             align-items: center;
-            gap: 10px;
+            gap: 4px;
             margin: 0 auto;
             position: relative;
             overflow: hidden;
         }
 
-        .enhanced-share-btn::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: -100%;
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
-            transition: left 0.5s ease;
-        }
 
-        .enhanced-share-btn:hover::before {
-            left: 100%;
-        }
 
         .enhanced-share-btn:hover {
-            transform: translateY(-3px) scale(1.05);
-            box-shadow: 0 15px 35px rgba(74, 144, 226, 0.6);
-            background: linear-gradient(135deg, #5aa0f2, #3a62a8);
+            background: #d8d8d8;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
         }
 
         .enhanced-share-icon {
@@ -799,6 +824,612 @@
             animation-delay: 2.6s;
         }
 
+        .digit-6 {
+            animation-delay: 2.8s;
+        }
+
+        .digit-7 {
+            animation-delay: 3.0s;
+        }
+
+        .digit-8 {
+            animation-delay: 3.2s;
+        }
+
+        /* Cart Animation */
+        .cart-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* margin-top: 450px; */
+        }
+
+        /* Combined Cart and Heart Container */
+        .cart-heart-combined {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 0px;
+            margin-top: 40px;
+        }
+
+        /* Heart Animation */
+        .heart-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            transform: translateX(8px) translateY(20px);
+            z-index: 2;
+            overflow: visible;
+        }
+
+        .heart-container svg {
+            overflow: visible;
+        }
+
+        .animated-heart {
+            transform-origin: center;
+            animation: heartPopSequence 3s ease-in-out forwards;
+        }
+
+        @keyframes heartPopSequence {
+            0% {
+                transform: scale(1);
+                opacity: 1;
+            }
+            30% {
+                transform: scale(8);
+                opacity: 0.8;
+            }
+            60% {
+                transform: scale(12);
+                opacity: 0.9;
+            }
+            61% {
+                transform: scale(12);
+                opacity: 0;
+            }
+            100% {
+                transform: scale(12);
+                opacity: 0;
+            }
+        }
+
+        /* Text animation - appears exactly when heart disappears */
+        .hearts-message {
+            opacity: 0;
+            animation: textAppear 0.5s ease-in-out 1.83s forwards;
+        }
+
+        @keyframes textAppear {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Donation Cat Styling */
+        .donation-cat-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px 0;
+            animation: catAppear 1s ease-in-out;
+        }
+
+        @keyframes catAppear {
+            0% {
+                opacity: 0;
+                transform: scale(0.8) translateY(10px);
+            }
+            100% {
+                opacity: 1;
+                transform: scale(1) translateY(0);
+            }
+        }
+
+        /* iOS Share Sheet Styles */
+        .ios-share-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.4);
+            z-index: 1000;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+            border-radius: 32px;
+            overflow: hidden;
+        }
+
+        .ios-share-overlay.show {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .ios-share-sheet {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: #f2f2f7;
+            border-radius: 20px 20px 0 0;
+            transform: translateY(100%);
+            transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            max-height: 80vh;
+            overflow-y: auto;
+        }
+
+        .ios-share-overlay.show .ios-share-sheet {
+            transform: translateY(0);
+        }
+
+        .share-options-section {
+            background: white;
+            border-radius: 20px 20px 0 0;
+            padding: 20px;
+            margin-bottom: 8px;
+        }
+
+        .share-apps-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            justify-items: center;
+        }
+
+        .share-app-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+            cursor: pointer;
+            transition: transform 0.2s ease;
+        }
+
+        .share-app-item:active {
+            transform: scale(0.95);
+        }
+
+        .share-app-icon {
+            width: 60px;
+            height: 60px;
+            border-radius: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .share-app-label {
+            font-size: 12px;
+            color: #000;
+            text-align: center;
+            font-weight: 400;
+            max-width: 70px;
+            line-height: 1.2;
+        }
+
+        .share-actions-section {
+            background: white;
+            border-radius: 12px;
+            margin: 0 16px 8px 16px;
+            overflow: hidden;
+        }
+
+        .share-action-item {
+            display: flex;
+            align-items: center;
+            padding: 16px;
+            border-bottom: 0.5px solid #e5e5ea;
+            cursor: pointer;
+            transition: background-color 0.2s ease;
+        }
+
+        .share-action-item:last-child {
+            border-bottom: none;
+        }
+
+        .share-action-item:active {
+            background-color: #f0f0f0;
+        }
+
+        .share-action-icon {
+            margin-right: 16px;
+            width: 25px;
+            height: 25px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .share-action-text {
+            flex: 1;
+        }
+
+        .share-action-title {
+            font-size: 17px;
+            color: #007AFF;
+            font-weight: 400;
+        }
+
+        .share-cancel-section {
+            margin: 0 16px 16px 16px;
+        }
+
+        .share-cancel-btn {
+            width: 100%;
+            background: white;
+            border: none;
+            border-radius: 12px;
+            padding: 16px;
+            font-size: 17px;
+            color: #007AFF;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background-color 0.2s ease;
+        }
+
+        .share-cancel-btn:active {
+            background-color: #f0f0f0;
+        }
+
+        /* Wait There's More Slide Styles */
+        .wait-title {
+            font-size: 32px !important;
+            color: white;
+            text-align: center;
+            margin-bottom: 60px;
+            animation: titlePulse 2s ease-in-out infinite;
+        }
+
+        @keyframes titlePulse {
+            0%, 100% {
+                opacity: 1;
+                transform: scale(1);
+            }
+            50% {
+                opacity: 0.8;
+                transform: scale(1.05);
+            }
+        }
+
+        .paw-prints-container {
+            position: relative;
+            height: 400px;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .paw-print {
+            position: absolute;
+            font-size: 24px;
+            opacity: 0;
+            transform: translateY(100px) rotate(0deg);
+        }
+
+        /* Paw print walking animation - alternating left and right steps */
+        .paw-1 {
+            left: 45%;
+            animation: pawWalk1 4s ease-in-out infinite;
+        }
+
+        .paw-2 {
+            left: 55%;
+            animation: pawWalk2 4s ease-in-out infinite 0.5s;
+        }
+
+        .paw-3 {
+            left: 42%;
+            animation: pawWalk3 4s ease-in-out infinite 1s;
+        }
+
+        .paw-4 {
+            left: 58%;
+            animation: pawWalk4 4s ease-in-out infinite 1.5s;
+        }
+
+        .paw-5 {
+            left: 40%;
+            animation: pawWalk5 4s ease-in-out infinite 2s;
+        }
+
+        .paw-6 {
+            left: 60%;
+            animation: pawWalk6 4s ease-in-out infinite 2.5s;
+        }
+
+        .paw-7 {
+            left: 38%;
+            animation: pawWalk7 4s ease-in-out infinite 3s;
+        }
+
+        .paw-8 {
+            left: 62%;
+            animation: pawWalk8 4s ease-in-out infinite 3.5s;
+        }
+
+        @keyframes pawWalk1 {
+            0% { opacity: 0; transform: translateY(400px) rotate(-10deg); }
+            20% { opacity: 1; transform: translateY(320px) rotate(-5deg); }
+            40% { opacity: 1; transform: translateY(240px) rotate(0deg); }
+            60% { opacity: 1; transform: translateY(160px) rotate(5deg); }
+            80% { opacity: 1; transform: translateY(80px) rotate(-5deg); }
+            100% { opacity: 0.5; transform: translateY(0px) rotate(0deg); }
+        }
+
+        @keyframes pawWalk2 {
+            0% { opacity: 0; transform: translateY(400px) rotate(10deg); }
+            20% { opacity: 1; transform: translateY(320px) rotate(5deg); }
+            40% { opacity: 1; transform: translateY(240px) rotate(0deg); }
+            60% { opacity: 1; transform: translateY(160px) rotate(-5deg); }
+            80% { opacity: 1; transform: translateY(80px) rotate(5deg); }
+            100% { opacity: 0.5; transform: translateY(0px) rotate(0deg); }
+        }
+
+        @keyframes pawWalk3 {
+            0% { opacity: 0; transform: translateY(400px) rotate(-15deg); }
+            20% { opacity: 1; transform: translateY(320px) rotate(-8deg); }
+            40% { opacity: 1; transform: translateY(240px) rotate(0deg); }
+            60% { opacity: 1; transform: translateY(160px) rotate(8deg); }
+            80% { opacity: 1; transform: translateY(80px) rotate(-3deg); }
+            100% { opacity: 0.5; transform: translateY(0px) rotate(0deg); }
+        }
+
+        @keyframes pawWalk4 {
+            0% { opacity: 0; transform: translateY(400px) rotate(15deg); }
+            20% { opacity: 1; transform: translateY(320px) rotate(8deg); }
+            40% { opacity: 1; transform: translateY(240px) rotate(0deg); }
+            60% { opacity: 1; transform: translateY(160px) rotate(-8deg); }
+            80% { opacity: 1; transform: translateY(80px) rotate(3deg); }
+            100% { opacity: 0.5; transform: translateY(0px) rotate(0deg); }
+        }
+
+        @keyframes pawWalk5 {
+            0% { opacity: 0; transform: translateY(400px) rotate(-12deg); }
+            20% { opacity: 1; transform: translateY(320px) rotate(-6deg); }
+            40% { opacity: 1; transform: translateY(240px) rotate(0deg); }
+            60% { opacity: 1; transform: translateY(160px) rotate(6deg); }
+            80% { opacity: 1; transform: translateY(80px) rotate(-4deg); }
+            100% { opacity: 0.5; transform: translateY(0px) rotate(0deg); }
+        }
+
+        @keyframes pawWalk6 {
+            0% { opacity: 0; transform: translateY(400px) rotate(12deg); }
+            20% { opacity: 1; transform: translateY(320px) rotate(6deg); }
+            40% { opacity: 1; transform: translateY(240px) rotate(0deg); }
+            60% { opacity: 1; transform: translateY(160px) rotate(-6deg); }
+            80% { opacity: 1; transform: translateY(80px) rotate(4deg); }
+            100% { opacity: 0.5; transform: translateY(0px) rotate(0deg); }
+        }
+
+        @keyframes pawWalk7 {
+            0% { opacity: 0; transform: translateY(400px) rotate(-18deg); }
+            20% { opacity: 1; transform: translateY(320px) rotate(-9deg); }
+            40% { opacity: 1; transform: translateY(240px) rotate(0deg); }
+            60% { opacity: 1; transform: translateY(160px) rotate(9deg); }
+            80% { opacity: 1; transform: translateY(80px) rotate(-2deg); }
+            100% { opacity: 0.5; transform: translateY(0px) rotate(0deg); }
+        }
+
+        @keyframes pawWalk8 {
+            0% { opacity: 0; transform: translateY(400px) rotate(18deg); }
+            20% { opacity: 1; transform: translateY(320px) rotate(9deg); }
+            40% { opacity: 1; transform: translateY(240px) rotate(0deg); }
+            60% { opacity: 1; transform: translateY(160px) rotate(-9deg); }
+            80% { opacity: 1; transform: translateY(80px) rotate(2deg); }
+            100% { opacity: 0.5; transform: translateY(0px) rotate(0deg); }
+        }
+
+        /* Final Slide Text Animations */
+        .final-title {
+            opacity: 1;
+            transform: translateY(50px);
+            animation: slideUpFadeIn 0.8s ease-out 0.2s forwards;
+        }
+
+        .final-emoji {
+            opacity: 0;
+            transform: translateY(50px);
+            animation: slideUpFadeIn 0.8s ease-out 0.8s forwards;
+        }
+
+        .final-desc-1 {
+            opacity: 0;
+            transform: translateY(50px);
+            animation: slideUpFadeIn 0.8s ease-out 1.4s forwards;
+        }
+
+        .final-desc-2 {
+            opacity: 0;
+            transform: translateY(50px);
+            animation: slideUpFadeIn 0.8s ease-out 2.0s forwards;
+        }
+
+        .final-counter {
+            opacity: 0;
+            transform: translateY(50px);
+            animation: slideUpFadeIn 0.8s ease-out 2.6s forwards;
+        }
+
+        @keyframes slideUpFadeIn {
+            0% {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Special animation for the emoji */
+        .final-emoji {
+            animation: slideUpFadeIn 0.8s ease-out 0.8s forwards, emojiPulse 2s ease-in-out 1.5s infinite;
+        }
+
+        @keyframes emojiPulse {
+            0%, 100% {
+                transform: translateY(0) scale(1);
+            }
+            50% {
+                transform: translateY(0) scale(1.2);
+            }
+        }
+
+        /* Favorite Product Slide Animations (Spotify Wrapped Style) */
+        .product-title {
+            opacity: 1;
+            transform: translateY(0);
+            color: white;
+            text-align: center;
+        }
+
+        #slide-6.active .product-title {
+            opacity: 1;
+            transform: translateY(30px);
+            animation: spotifySlideUp 0.6s ease-out 0.3s forwards;
+        }
+
+        .product-image-animation {
+            opacity: 1;
+            transform: scale(1) rotate(0deg) translateX(0);
+        }
+
+        .product-image-animation.show {
+            display: block !important;
+        }
+
+        #slide-6.active .product-image-animation.show {
+            opacity: 0;
+            transform: scale(0.3) rotate(-15deg) translateX(-100px);
+            animation: productFlyIn 1s cubic-bezier(0.34, 1.56, 0.64, 1) 1s forwards;
+        }
+
+        .product-name {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        #slide-6.active .product-name {
+            opacity: 0;
+            transform: translateY(40px);
+            animation: spotifySlideUp 0.7s ease-out 2.2s forwards;
+        }
+
+        .product-tagline {
+            opacity: 1;
+            transform: translateY(0) scale(1);
+        }
+
+        #slide-6.active .product-tagline {
+            opacity: 0;
+            transform: translateY(30px) scale(0.95);
+            animation: spotifySlideUpScale 0.8s ease-out 3s forwards;
+        }
+
+        .product-counter {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        #slide-6.active .product-counter {
+            opacity: 0;
+            transform: translateY(20px);
+            animation: spotifySlideUp 0.5s ease-out 3.6s forwards;
+        }
+
+        @keyframes spotifySlideUp {
+            0% {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes spotifySlideUpScale {
+            0% {
+                opacity: 0;
+                transform: translateY(30px) scale(0.95);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0) scale(1);
+            }
+        }
+
+        @keyframes productFlyIn {
+            0% {
+                opacity: 0;
+                transform: scale(0.3) rotate(-15deg) translateX(-100px);
+            }
+            50% {
+                opacity: 0.8;
+                transform: scale(1.1) rotate(5deg) translateX(10px);
+            }
+            75% {
+                opacity: 1;
+                transform: scale(0.95) rotate(-2deg) translateX(-5px);
+            }
+            100% {
+                opacity: 1;
+                transform: scale(1) rotate(0deg) translateX(0);
+            }
+        }
+
+        /* Product image hover effect */
+        .product-image {
+            transition: transform 0.3s ease;
+            border-radius: 12px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+            max-width: 200px;
+            max-height: 200px;
+            object-fit: contain;
+        }
+
+        .product-image:hover {
+            transform: scale(1.05);
+        }
+
+        /* Product container styling */
+        .product-image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 30px 0;
+            perspective: 1000px;
+        }
+
+        /* Spotify-style text emphasis */
+        .product-name {
+            font-weight: 700;
+            font-size: 20px;
+            color: #fff;
+            text-align: center;
+            line-height: 1.4;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .product-tagline {
+            font-style: italic;
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 16px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
         /* Falling Coins Animation */
         .falling-coins {
             position: absolute;
@@ -987,6 +1618,11 @@
     <div class="mobile-device">
         <div class="mobile-notch"></div>
         <div class="mobile-screen">
+            <!-- Spotify Wrapped Progress Bar -->
+            <div class="progress-bar-container" id="progress-bar-container">
+                <!-- Progress chunks will be dynamically generated -->
+            </div>
+            
             <div class="container">
                 <!-- Arrow Navigation -->
                 <button class="slide-arrow-nav prev" id="prev-arrow" onclick="prevSlide()" disabled>
@@ -1045,8 +1681,45 @@
                                 <div class="heart heart-7">❤️</div>
                                 <div class="heart heart-8">❤️</div>
                             </div>
-                            <h1 class="slide-title">💕</h1>
                             <p class="hearts-message">There was one month where your cart — and heart — were full.</p>
+                            <div class="cart-heart-combined">
+                                <div class="heart-container">
+                                    <svg width="80" height="60" viewBox="0 0 80 60" xmlns="http://www.w3.org/2000/svg">
+                                        <!-- Animated Heart -->
+                                        <g class="animated-heart">
+                                            <path d="M40 15 C33 7, 20 7, 20 20 C20 33, 40 47, 40 47 C40 47, 60 33, 60 20 C60 7, 47 7, 40 15 Z" 
+                                                  fill="#FF69B4" stroke="#FF1493" stroke-width="1"/>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <div class="cart-container">
+                                    <svg width="80" height="60" viewBox="0 0 80 60" xmlns="http://www.w3.org/2000/svg">
+                                        <!-- Shopping Cart -->
+                                        <g class="shopping-cart">
+                                            <!-- Cart Body -->
+                                            <path d="M10 20 L20 20 L25 40 L70 40 L75 25 L30 25" 
+                                                  fill="#C25454" stroke="#A04444" stroke-width="2" 
+                                                  stroke-linejoin="round" stroke-linecap="round"/>
+                                            
+                                            <!-- Cart Bottom -->
+                                            <path d="M25 40 L65 40 L60 55 L30 55 Z" 
+                                                  fill="#C25454" stroke="#A04444" stroke-width="2"/>
+                                            
+                                            <!-- Cart Handle -->
+                                            <path d="M10 20 L10 15 Q10 10 15 10 L20 10" 
+                                                  fill="none" stroke="#A04444" stroke-width="3" 
+                                                  stroke-linecap="round"/>
+                                            
+                                            <!-- Wheels -->
+                                            <circle cx="35" cy="58" r="3" fill="#A04444"/>
+                                            <circle cx="55" cy="58" r="3" fill="#A04444"/>
+                                            <circle cx="35" cy="58" r="1.5" fill="white"/>
+                                            <circle cx="55" cy="58" r="1.5" fill="white"/>
+                                        </g>
+                                    </svg>
+                                </div>
+                                
+                            </div>
                             <div class="slide-counter">2 of 6</div>
                         </div>
                     </div>
@@ -1066,7 +1739,81 @@
                         <div class="slide-content">
                             <h1 class="slide-title">Donations</h1>
                             <div class="slide-value" id="donations-value">$0.00</div>
-                            <p class="slide-description">Total Donations This Year</p>
+                            
+                            <!-- Puppy and Kitten SVG Illustration -->
+                            <div class="donation-cat-container">
+                                <svg width="140" height="120" viewBox="0 0 140 120" xmlns="http://www.w3.org/2000/svg">
+                                    <!-- Puppy Head -->
+                                    <ellipse cx="70" cy="50" rx="30" ry="25" fill="#F4E4BC" stroke="#E0D0A0" stroke-width="1"/>
+                                    
+                                    <!-- Puppy Left Ear -->
+                                    <ellipse cx="50" cy="35" rx="8" ry="15" fill="#D2B48C" stroke="#C19A6B" stroke-width="1"/>
+                                    
+                                    <!-- Puppy Right Ear -->
+                                    <ellipse cx="90" cy="35" rx="8" ry="15" fill="#D2B48C" stroke="#C19A6B" stroke-width="1"/>
+                                    
+                                    <!-- Puppy Left Eye -->
+                                    <ellipse cx="60" cy="45" rx="4" ry="5" fill="#2C2C2C"/>
+                                    <ellipse cx="61" cy="43" rx="1" ry="2" fill="#FFFFFF"/>
+                                    
+                                    <!-- Puppy Right Eye -->
+                                    <ellipse cx="80" cy="45" rx="4" ry="5" fill="#2C2C2C"/>
+                                    <ellipse cx="81" cy="43" rx="1" ry="2" fill="#FFFFFF"/>
+                                    
+                                    <!-- Puppy Nose -->
+                                    <ellipse cx="70" cy="55" rx="3" ry="2" fill="#2C2C2C"/>
+                                    
+                                    <!-- Puppy Mouth -->
+                                    <path d="M70 58 Q65 60 62 58" fill="none" stroke="#2C2C2C" stroke-width="1" stroke-linecap="round"/>
+                                    <path d="M70 58 Q75 60 78 58" fill="none" stroke="#2C2C2C" stroke-width="1" stroke-linecap="round"/>
+                                    
+                                    <!-- Sleeping Kitten Head -->
+                                    <ellipse cx="70" cy="85" rx="20" ry="16" fill="#E6E6E6" stroke="#D0D0D0" stroke-width="1"/>
+                                    
+                                    <!-- Kitten Stripes -->
+                                    <path d="M55 78 Q65 76 75 78" fill="none" stroke="#A0A0A0" stroke-width="1.5"/>
+                                    <path d="M58 82 Q68 80 78 82" fill="none" stroke="#A0A0A0" stroke-width="1.5"/>
+                                    <path d="M60 86 Q70 84 80 86" fill="none" stroke="#A0A0A0" stroke-width="1.5"/>
+                                    
+                                    <!-- Kitten Left Ear -->
+                                    <path d="M58 72 L52 65 L64 68 Z" fill="#E6E6E6" stroke="#D0D0D0" stroke-width="1"/>
+                                    <path d="M58 70 L55 67 L61 68 Z" fill="#FFB6C1"/>
+                                    
+                                    <!-- Kitten Right Ear -->
+                                    <path d="M82 72 L88 65 L76 68 Z" fill="#E6E6E6" stroke="#D0D0D0" stroke-width="1"/>
+                                    <path d="M82 70 L85 67 L79 68 Z" fill="#FFB6C1"/>
+                                    
+                                    <!-- Kitten Closed Eyes (sleeping) -->
+                                    <path d="M62 82 Q65 80 68 82" fill="none" stroke="#2C2C2C" stroke-width="1.5" stroke-linecap="round"/>
+                                    <path d="M72 82 Q75 80 78 82" fill="none" stroke="#2C2C2C" stroke-width="1.5" stroke-linecap="round"/>
+                                    
+                                    <!-- Kitten Nose -->
+                                    <path d="M70 86 L68 88 L72 88 Z" fill="#FFB6C1"/>
+                                    
+                                    <!-- Kitten Mouth (peaceful) -->
+                                    <path d="M70 89 Q67 90 65 89" fill="none" stroke="#2C2C2C" stroke-width="0.8" stroke-linecap="round"/>
+                                    <path d="M70 89 Q73 90 75 89" fill="none" stroke="#2C2C2C" stroke-width="0.8" stroke-linecap="round"/>
+                                    
+                                    <!-- Floating hearts -->
+                                    <path d="M25 25 C23 22, 19 22, 19 26 C19 30, 25 35, 25 35 C25 35, 31 30, 31 26 C31 22, 27 22, 25 25 Z" 
+                                          fill="#FF69B4" opacity="0.7">
+                                        <animateTransform attributeName="transform" type="translate" 
+                                                          values="0,0; 0,-3; 0,0" dur="2.5s" repeatCount="indefinite"/>
+                                    </path>
+                                    
+                                    <path d="M115 30 C113 27, 109 27, 109 31 C109 35, 115 40, 115 40 C115 40, 121 35, 121 31 C121 27, 117 27, 115 30 Z" 
+                                          fill="#FF1493" opacity="0.6">
+                                        <animateTransform attributeName="transform" type="translate" 
+                                                          values="0,0; 0,-2; 0,0" dur="3s" repeatCount="indefinite"/>
+                                    </path>
+                                    
+                                    <!-- Small zzz for sleeping kitten -->
+                                    <text x="95" y="75" font-family="Arial" font-size="8" fill="#A0A0A0" opacity="0.8">z</text>
+                                    <text x="100" y="70" font-family="Arial" font-size="10" fill="#A0A0A0" opacity="0.6">z</text>
+                                    <text x="105" y="65" font-family="Arial" font-size="12" fill="#A0A0A0" opacity="0.4">z</text>
+                                </svg>
+                            </div>
+                            
                             <p class="slide-description">Your generous donations help pets in need find their forever homes. Thank you for making a difference! 🐾</p>
                             <div class="slide-counter">4 of 6</div>
                         </div>
@@ -1097,16 +1844,16 @@
                     <!-- Most Reordered Slide -->
                     <div class="slide" id="slide-6">
                         <div class="slide-content">
-                            <h1 class="slide-title">Your Favorite Product</h1>
-                            <div class="product-image-container" id="product-image-container" style="display: none;">
+                            <h1 class="slide-title product-title">Your Favorite Product</h1>
+                            <div class="product-image-container product-image-animation" id="product-image-container" style="display: none;">
                                 <img id="product-image" src="" alt="Product Image" class="product-image">
                             </div>
                             
                             <p class="slide-description"></p>
-                            <p class="slide-description" id="most-ordered-text">No data available</p>
+                            <p class="slide-description product-name" id="most-ordered-text">No data available</p>
                             
-                            <p class="slide-description tagline-text">Some things are just too good not to repeat.</p>
-                            <div class="slide-counter">6 of 7</div>
+                            <p class="slide-description product-tagline">Some things are just too good not to repeat.</p>
+                            <div class="slide-counter product-counter">6 of 7</div>
                         </div>
                     </div>
 
@@ -1283,16 +2030,16 @@
 
                     <!-- Enhanced Social Media Shareable Slide -->
                     <div class="slide" id="slide-8">
-                        <div class="slide-content" style="overflow-y: auto; min-height: 100vh; padding: 20px 15px 80px 15px;">
+                        <div class="slide-content" style="overflow-y: auto; min-height: 100vh; padding: 75px 15px 80px 15px;">
                             <div class="slide-header" style="text-align: center; margin-bottom: 30px;">
                                 <h2 class="slide-title" style="text-align: center; margin: 0; font-family: 'Baloo 2', sans-serif; font-weight: 700; font-size: 28px; color: white;">
-                                    🎉 Share Chewy Playback!
+                                    Share Chewy Playback!
                                 </h2>
                             </div>
                             
                             <div class="enhanced-share-text">
                                 <p style="color: white; font-size: 16px; margin-bottom: 25px; opacity: 0.9;">
-                                    Select which features you'd like to share:
+                                    Tap to select which features you'd like to share:
                                 </p>
                             </div>
                             
@@ -1335,36 +2082,257 @@
                             </div>
                             
                             <div class="enhanced-share-cta">
-                                <button class="enhanced-share-btn" onclick="showNativeShare()">
-                                    <span class="enhanced-share-icon">📤</span>
-                                    <span class="enhanced-share-text">Share Your Story</span>
-                                </button>
+                                                    <button class="enhanced-share-btn" onclick="showIOSShareSheet()">
+                        <span class="enhanced-share-text">Share</span>
+                    </button>
                             </div>
                             
                             <div class="slide-counter">7 of 8</div>
                         </div>
                     </div>
 
-                    <!-- Final Message Slide -->
+                    <!-- Wait There's More Slide -->
                     <div class="slide" id="slide-9">
                         <div class="slide-content">
-                            <h1 class="slide-title">Get Personalized Next Year</h1>
-                            <div class="slide-value">🐾</div>
-                            <p class="slide-description">Create your pet profiles for a personalized playback next year!</p>
-                            <p class="slide-description">Add your pets' information to get a fully customized experience with personality badges, breed predictions, and personalized letters.</p>
-                            <div class="slide-counter">8 of 8</div>
+                            <h1 class="slide-title wait-title">Wait, there's more...</h1>
+                            <div class="paw-prints-container">
+                                <div class="paw-print paw-1">🐾</div>
+                                <div class="paw-print paw-2">🐾</div>
+                                <div class="paw-print paw-3">🐾</div>
+                                <div class="paw-print paw-4">🐾</div>
+                                <div class="paw-print paw-5">🐾</div>
+                                <div class="paw-print paw-6">🐾</div>
+                                <div class="paw-print paw-7">🐾</div>
+                                <div class="paw-print paw-8">🐾</div>
+                            </div>
+                            <div class="slide-counter">8 of 9</div>
+                        </div>
+                    </div>
+
+                    <!-- Final Message Slide -->
+                    <div class="slide" id="slide-10">
+                        <div class="slide-content">
+                            <h1 class="slide-title final-title">Get Personalized</h1>
+                            <div class="slide-value final-emoji">🐾</div>
+                            <p class="slide-description final-desc-1">Create your pet profiles for a personalized playback next year!</p>
+                            <p class="slide-description final-desc-2">Add your pets' information to get a fully customized experience with personality badges, breed predictions, and personalized letters.</p>
+                            <div class="slide-counter final-counter">9 of 9</div>
                         </div>
                     </div>
                 </div>
+                            </div>
+
+            <!-- iOS-Style Share Sheet -->
+            <div id="ios-share-overlay" class="ios-share-overlay">
+            <div class="ios-share-sheet">
+                <!-- Share Options Section -->
+                <div class="share-options-section">
+                    <div class="share-apps-grid">
+                        <!-- Instagram -->
+                        <div class="share-app-item" onclick="shareToApp('instagram')">
+                            <div class="share-app-icon instagram-icon">
+                                <svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+                                    <defs>
+                                        <linearGradient id="instagram-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                            <stop offset="0%" style="stop-color:#f9ce34"/>
+                                            <stop offset="33%" style="stop-color:#ee2a7b"/>
+                                            <stop offset="66%" style="stop-color:#6228d7"/>
+                                        </linearGradient>
+                                    </defs>
+                                    <rect width="60" height="60" rx="18" fill="url(#instagram-gradient)"/>
+                                    <rect x="18" y="18" width="24" height="24" rx="8" fill="none" stroke="white" stroke-width="2"/>
+                                    <circle cx="30" cy="30" r="6" fill="none" stroke="white" stroke-width="2"/>
+                                    <circle cx="36" cy="24" r="2" fill="white"/>
+                                </svg>
+                            </div>
+                            <span class="share-app-label">Instagram</span>
+                        </div>
+
+                        <!-- Messages -->
+                        <div class="share-app-item" onclick="shareToApp('messages')">
+                            <div class="share-app-icon messages-icon">
+                                <svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="60" height="60" rx="18" fill="#00d4aa"/>
+                                    <path d="M30 18c-7.732 0-14 5.641-14 12.6 0 4.054 2.323 7.637 5.95 10.05-.369 3.85-2.745 6.35-2.745 6.35s4.523-.735 7.295-3.5c1.13.31 2.34.47 3.5.47 7.732 0 14-5.641 14-12.6S37.732 18 30 18z" fill="white"/>
+                                </svg>
+                            </div>
+                            <span class="share-app-label">Messages</span>
+                        </div>
+
+                        <!-- WhatsApp -->
+                        <div class="share-app-item" onclick="shareToApp('whatsapp')">
+                            <div class="share-app-icon whatsapp-icon">
+                                <svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="60" height="60" rx="18" fill="#25d366"/>
+                                    <path d="M30 15c-8.284 0-15 6.716-15 15 0 2.567.667 5.133 1.933 7.367L15 45l7.633-1.933A14.93 14.93 0 0 0 30 45c8.284 0 15-6.716 15-15s-6.716-15-15-15zm7.5 21.5c-.333.933-1.667 1.7-2.767 1.933-.733.167-1.7.3-4.933-.85-3.9-1.4-6.433-5.267-6.633-5.517-.2-.25-1.667-2.2-1.667-4.2s1.067-3.867 1.433-4.4c.367-.533.8-.667 1.067-.667.267 0 .533 0 .767.017.25.017.583-.1.917.7.333.8 1.15 2.8 1.25 3 .1.2.167.433.033.7-.133.267-.2.433-.4.667-.2.233-.417.517-.6.7-.2.2-.417.417-.183.817.233.4.983 1.583 2.117 2.567 1.45 1.267 2.667 1.65 3.05 1.85.383.2.6.167.817-.1.217-.267.933-1.083 1.183-1.467.25-.383.5-.317.833-.183.333.133 2.133 1 2.5 1.183.367.183.617.283.717.433.1.15.1.883-.233 1.817z" fill="white"/>
+                                </svg>
+                            </div>
+                            <span class="share-app-label">WhatsApp</span>
+                        </div>
+
+                        <!-- Facebook -->
+                        <div class="share-app-item" onclick="shareToApp('facebook')">
+                            <div class="share-app-icon facebook-icon">
+                                <svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="60" height="60" rx="18" fill="#1877f2"/>
+                                    <path d="M35 31l1.5-9H28v-6c0-2.5 1.2-4.9 5.1-4.9H37V4.4s-3.6-.6-7-.6c-7.1 0-11.7 4.3-11.7 12.1V22h-8v9h8v22h9.9V31H35z" fill="white"/>
+                                </svg>
+                            </div>
+                            <span class="share-app-label">Facebook</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Action Buttons Section -->
+                <div class="share-actions-section">
+                    <div class="share-action-item" onclick="copyShareLink()">
+                        <div class="share-action-icon">
+                            <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16 3H8C6.34 3 5 4.34 5 6v12c0 1.66 1.34 3 3 3h8c1.66 0 3-1.34 3-3V6c0-1.66-1.34-3-3-3zm-1 16H10v-2h5v2zm0-4H10v-2h5v2zm0-4H10V9h5v2z" fill="#007AFF"/>
+                            </svg>
+                        </div>
+                        <div class="share-action-text">
+                            <div class="share-action-title">Copy Link</div>
+                        </div>
+                    </div>
+
+                    <div class="share-action-item" onclick="saveToPhotos()">
+                        <div class="share-action-icon">
+                            <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z" fill="#007AFF"/>
+                            </svg>
+                        </div>
+                        <div class="share-action-text">
+                            <div class="share-action-title">Save to Photos</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cancel Button -->
+                <div class="share-cancel-section">
+                    <button class="share-cancel-btn" onclick="hideIOSShareSheet()">Cancel</button>
+                </div>
             </div>
         </div>
-    </div>
+            </div>
+        </div>
 
-    <script>
+        <script>
         let currentSlide = 1;
         let totalSlides = 9; // Updated to 9 to include all slides including the new hearts slide
         let customerData = null;
         let isTransitioning = false;
+        let progressChunks = [];
+        let slideToChunkMapping = {};
+
+        // Helper function to convert abbreviated months to full names
+        function getFullMonthName(monthStr) {
+            if (!monthStr || monthStr === 'N/A') return monthStr;
+            
+            const monthMap = {
+                'jan': 'January',
+                'feb': 'February', 
+                'mar': 'March',
+                'apr': 'April',
+                'may': 'May',
+                'jun': 'June',
+                'jul': 'July',
+                'aug': 'August',
+                'sep': 'September',
+                'oct': 'October',
+                'nov': 'November',
+                'dec': 'December'
+            };
+            
+            const lowerMonth = monthStr.toLowerCase().trim();
+            return monthMap[lowerMonth] || monthStr;
+        }
+
+        // Progress Bar Functions
+        function createProgressBar(slidesWithData) {
+            const progressContainer = document.getElementById('progress-bar-container');
+            progressContainer.innerHTML = ''; // Clear existing chunks
+            progressChunks = [];
+            slideToChunkMapping = {};
+            
+            // Define slide groups and their chunk mapping
+            const slideGroups = [
+                { name: 'food', slides: [1], hasMultipleSlides: false },
+                { name: 'hearts', slides: [2, 3], hasMultipleSlides: true }, // Hearts preview + cuddliest month
+                { name: 'donations', slides: [4], hasMultipleSlides: false },
+                { name: 'calendar', slides: [5], hasMultipleSlides: false },
+                { name: 'product', slides: [6], hasMultipleSlides: false },
+                { name: 'autoship', slides: [7], hasMultipleSlides: false },
+                { name: 'share', slides: [8], hasMultipleSlides: false },
+                { name: 'final', slides: [9, 10], hasMultipleSlides: true } // Wait page + Get Personalized
+            ];
+            
+            let chunkIndex = 0;
+            slideGroups.forEach(group => {
+                // Check if any slide in this group has data
+                const hasData = group.slides.some(slideNum => slidesWithData.includes(slideNum));
+                
+                if (hasData) {
+                    // Create chunk for this group
+                    const chunk = document.createElement('div');
+                    chunk.className = 'progress-chunk';
+                    chunk.innerHTML = '<div class="progress-chunk-fill"></div>';
+                    progressContainer.appendChild(chunk);
+                    
+                    progressChunks.push({
+                        element: chunk,
+                        fillElement: chunk.querySelector('.progress-chunk-fill'),
+                        hasMultipleSlides: group.hasMultipleSlides,
+                        slides: group.slides.filter(slideNum => slidesWithData.includes(slideNum))
+                    });
+                    
+                    // Map each slide to its chunk
+                    group.slides.forEach(slideNum => {
+                        if (slidesWithData.includes(slideNum)) {
+                            slideToChunkMapping[slideNum] = chunkIndex;
+                        }
+                    });
+                    
+                    chunkIndex++;
+                }
+            });
+            
+            console.log('📊 Progress bar created with', progressChunks.length, 'chunks');
+            console.log('📊 Slide to chunk mapping:', slideToChunkMapping);
+        }
+
+        function updateProgressBar(currentSlideIndex) {
+            if (progressChunks.length === 0) return;
+            
+            const chunkIndex = slideToChunkMapping[currentSlideIndex];
+            if (chunkIndex === undefined) return;
+            
+            // Update all chunks
+            progressChunks.forEach((chunk, index) => {
+                const fillElement = chunk.fillElement;
+                
+                if (index < chunkIndex) {
+                    // Completed chunks
+                    fillElement.style.width = '100%';
+                } else if (index === chunkIndex) {
+                    // Current chunk
+                    if (chunk.hasMultipleSlides) {
+                        // For multi-slide chunks, show 50% or 100% based on which slide
+                        const slidePosition = chunk.slides.indexOf(currentSlideIndex);
+                        const progress = ((slidePosition + 1) / chunk.slides.length) * 100;
+                        fillElement.style.width = `${progress}%`;
+                    } else {
+                        // Single slide chunks show 100% when active
+                        fillElement.style.width = '100%';
+                    }
+                } else {
+                    // Future chunks
+                    fillElement.style.width = '0%';
+                }
+            });
+            
+            console.log('📊 Progress updated for slide', currentSlideIndex, 'chunk', chunkIndex);
+        }
 
         // Get customer data from Flask template
         window.addEventListener('load', () => {
@@ -1444,7 +2412,7 @@
             const funFacts = foodFunFact.fun_facts || [];
             
             // Check cuddliest month slide (slide-2 in HTML)
-            const cuddliestMonth = customerData.cuddliest_month || '';
+            const cuddliestMonth = getFullMonthName(customerData.cuddliest_month || '');
             const hasCuddliestMonth = cuddliestMonth && cuddliestMonth !== 'N/A' && cuddliestMonth.trim() !== '';
             
             if (hasFoodData) {
@@ -1616,6 +2584,7 @@
                     if (productImageContainer && productImage) {
                         productImage.src = customerData.product_image_url;
                         productImageContainer.style.display = 'block';
+                        productImageContainer.classList.add('show');
                         console.log('🖼️ Product image displayed for customer 151327624');
                     }
                 }
@@ -1688,6 +2657,13 @@
                 finalMessageCounter.textContent = `${slidesWithData.length + 2} of ${window.totalSlides}`;
                 console.log(`🎯 Updated final message slide counter to: ${slidesWithData.length + 2} of ${window.totalSlides}`);
             }
+            
+            // Create progress bar based on available slides
+            const allSlides = [...slidesWithData, 8, 9, 10]; // Include share and final slides
+            createProgressBar(allSlides);
+            
+            // Initialize progress bar
+            updateProgressBar(currentSlide);
         }
 
         function showSlides() {
@@ -1733,6 +2709,10 @@
                 visibleSlides[slideIndex - 1].classList.add('active');
                 currentSlide = slideIndex;
                 console.log(`✅ Activated slide ${slideIndex} (${visibleSlides[slideIndex - 1].id})`);
+                
+                // Update progress bar
+                const actualSlideId = parseInt(visibleSlides[slideIndex - 1].id.replace('slide-', ''));
+                updateProgressBar(actualSlideId);
                 
                 // Trigger calendar animation if this is the calendar slide
                 if (visibleSlides[slideIndex - 1].id === 'slide-5' && window.milestoneData) {
@@ -1936,7 +2916,7 @@
             }
             
             // Cuddliest month
-            const cuddliestMonthValue = customerData.cuddliest_month || '';
+            const cuddliestMonthValue = getFullMonthName(customerData.cuddliest_month || '');
             const cuddliestMonthShareElement = document.getElementById('cuddliest-month-share-value');
             const cuddliestMonthCard = document.querySelector('[data-feature="cuddliest-month"]');
             if (cuddliestMonthShareElement) {
@@ -1949,8 +2929,159 @@
             }
         }
 
-        // Native Share Function
-        function showNativeShare() {
+                    // iOS Share Sheet Functions
+            function showIOSShareSheet() {
+                const overlay = document.getElementById('ios-share-overlay');
+                overlay.classList.add('show');
+                document.body.style.overflow = 'hidden';
+            }
+
+            function hideIOSShareSheet() {
+                const overlay = document.getElementById('ios-share-overlay');
+                overlay.classList.remove('show');
+                document.body.style.overflow = '';
+            }
+
+            // Close share sheet when clicking overlay
+            document.getElementById('ios-share-overlay').addEventListener('click', function(e) {
+                if (e.target === this) {
+                    hideIOSShareSheet();
+                }
+            });
+
+            // Share to specific apps
+            function shareToApp(platform) {
+                const shareUrl = `${window.location.origin}/experience/${customerId}`;
+                const shareText = generateShareText();
+                
+                let shareLink = '';
+                
+                switch(platform) {
+                    case 'instagram':
+                        // Instagram doesn't support direct URL sharing, copy to clipboard
+                        copyToClipboard(`${shareText} ${shareUrl}`);
+                        hideIOSShareSheet();
+                        showShareFeedback('Link copied! Open Instagram to share.');
+                        break;
+                        
+                    case 'messages':
+                        if (navigator.share) {
+                            navigator.share({
+                                title: 'My Chewy Pet Experience',
+                                text: shareText,
+                                url: shareUrl
+                            });
+                        } else {
+                            shareLink = `sms:?body=${encodeURIComponent(shareText + ' ' + shareUrl)}`;
+                            window.open(shareLink, '_blank');
+                        }
+                        hideIOSShareSheet();
+                        break;
+                        
+                    case 'whatsapp':
+                        shareLink = `https://wa.me/?text=${encodeURIComponent(shareText + ' ' + shareUrl)}`;
+                        window.open(shareLink, '_blank');
+                        hideIOSShareSheet();
+                        break;
+                        
+                    case 'facebook':
+                        shareLink = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}&quote=${encodeURIComponent(shareText)}`;
+                        window.open(shareLink, '_blank', 'width=600,height=400');
+                        hideIOSShareSheet();
+                        break;
+                }
+            }
+
+            function copyShareLink() {
+                const shareUrl = `${window.location.origin}/experience/${customerId}`;
+                const shareText = generateShareText();
+                copyToClipboard(`${shareText} ${shareUrl}`);
+                hideIOSShareSheet();
+                showShareFeedback('Link copied to clipboard!');
+            }
+
+            function saveToPhotos() {
+                // This would typically capture the current view and save it
+                hideIOSShareSheet();
+                showShareFeedback('Feature coming soon!');
+            }
+
+            function generateShareText() {
+                let shareText = "Check out my Chewy pet experience! 🐾";
+                
+                const selectedFeatures = new Set();
+                document.querySelectorAll('.feature-card:not(.disabled)').forEach(card => {
+                    if (card.style.backgroundColor === 'rgba(0, 122, 255, 0.1)') {
+                        selectedFeatures.add(card.dataset.feature);
+                    }
+                });
+
+                if (selectedFeatures.size > 0) {
+                    const featureMessages = [];
+                    
+                    if (selectedFeatures.has('food')) {
+                        const foodValue = customerData.food_purchased || 0;
+                        featureMessages.push(`🍽️ Fed my pet ${foodValue} lbs of food`);
+                    }
+                    
+                    if (selectedFeatures.has('donations')) {
+                        const donationsValue = customerData.amount_donated || 0;
+                        featureMessages.push(`💝 Donated $${donationsValue.toFixed(2)}`);
+                    }
+                    
+                    if (selectedFeatures.has('milestone')) {
+                        const milestoneValue = customerData.total_months || 0;
+                        featureMessages.push(`📅 ${milestoneValue} months with Chewy`);
+                    }
+                    
+                    if (selectedFeatures.has('most-ordered')) {
+                        const mostOrderedValue = customerData.most_ordered_product || 'N/A';
+                        featureMessages.push(`📦 Most ordered: ${mostOrderedValue}`);
+                    }
+                    
+                    if (selectedFeatures.has('autoship')) {
+                        const autoshipValue = customerData.autoship_savings || 0;
+                        featureMessages.push(`💰 Saved $${autoshipValue.toFixed(2)} with Autoship`);
+                    }
+                    
+                                    if (selectedFeatures.has('cuddliest-month')) {
+                    const cuddliestMonthValue = getFullMonthName(customerData.cuddliest_month || 'N/A');
+                    featureMessages.push(`🛒 Busiest month: ${cuddliestMonthValue}`);
+                }
+                    
+                    shareText = `My Chewy Journey:\n${featureMessages.join('\n')}\n\nCheck it out:`;
+                }
+                
+                return shareText;
+            }
+
+            function showShareFeedback(message) {
+                // Create temporary feedback message
+                const feedback = document.createElement('div');
+                feedback.style.cssText = `
+                    position: fixed;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    background: rgba(0, 0, 0, 0.8);
+                    color: white;
+                    padding: 12px 20px;
+                    border-radius: 20px;
+                    font-size: 14px;
+                    z-index: 2000;
+                    transition: opacity 0.3s ease;
+                `;
+                feedback.textContent = message;
+                document.body.appendChild(feedback);
+                
+                setTimeout(() => {
+                    feedback.style.opacity = '0';
+                    setTimeout(() => feedback.remove(), 300);
+                }, 2000);
+            }
+
+            // Native Share Function (keep as fallback)
+            function showNativeShare() {
             const customerId = '{{ customer_id }}';
             const shareUrl = `${window.location.origin}/experience/${customerId}`;
             
@@ -1986,7 +3117,7 @@
                 }
                 
                 if (selectedFeatures.has('cuddliest-month')) {
-                    const cuddliestMonthValue = customerData.cuddliest_month || '';
+                    const cuddliestMonthValue = getFullMonthName(customerData.cuddliest_month || '');
                     featureMessages.push(`💕 Favorite month: ${cuddliestMonthValue}`);
                 }
                 
