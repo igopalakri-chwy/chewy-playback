@@ -3414,8 +3414,6 @@ body::before {
     box-shadow: none !important;
     -webkit-text-shadow: none !important;
     -moz-text-shadow: none !important;
-    -webkit-filter: none !important;
-    -moz-filter: none !important;
 }
 
 /* Interactive Breed Prediction Animations */
@@ -3501,7 +3499,7 @@ body::before {
     margin-top: 15px;
     max-height: none;
     overflow: visible;
-    padding-bottom: 120px;
+    padding-bottom: 10px;
 }
 
 .breed-card {
@@ -3554,72 +3552,110 @@ body::before {
 
 /* Breed Question Section */
 .breed-question-section {
-    margin-top: 20px;
+    margin-top: 8px;
     text-align: center;
-    position: fixed;
-    bottom: 0;
+    padding: 15px 20px;
+    background: linear-gradient(135deg, rgba(74, 144, 226, 0.15), rgba(42, 82, 152, 0.1));
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    border: 2px solid rgba(74, 144, 226, 0.3);
+    animation: fadeInUp 0.8s ease-out 0.5s both;
+    box-shadow: 0 8px 25px rgba(74, 144, 226, 0.2);
+    position: relative;
+    overflow: hidden;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.breed-question-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
     left: 0;
     right: 0;
-    background: linear-gradient(135deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7));
-    padding: 15px;
-    border-radius: 15px 15px 0 0;
-    backdrop-filter: blur(10px);
-    z-index: 1000;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.02));
+    pointer-events: none;
 }
 
 .breed-question-title {
-    font-size: 18px;
+    font-size: 20px;
     color: white;
-    margin-bottom: 15px;
-    font-weight: bold;
+    margin-bottom: 20px;
+    font-weight: 700;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .breed-question-buttons {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 20px;
     flex-wrap: wrap;
 }
 
 .breed-question-btn {
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05));
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.08));
     border: 2px solid rgba(255, 255, 255, 0.3);
-    border-radius: 12px;
-    padding: 12px 25px;
+    border-radius: 15px;
+    padding: 12px 20px;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 6px;
-    min-width: 90px;
+    min-width: 80px;
+    position: relative;
+    overflow: hidden;
+}
+
+.breed-question-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+    transition: left 0.5s ease;
+}
+
+.breed-question-btn:hover::before {
+    left: 100%;
 }
 
 .breed-yes-btn:hover {
-    background: linear-gradient(135deg, rgba(76, 175, 80, 0.2), rgba(76, 175, 80, 0.1));
+    background: linear-gradient(135deg, rgba(76, 175, 80, 0.25), rgba(76, 175, 80, 0.15));
     border-color: #4CAF50;
-    transform: translateY(-3px);
-    box-shadow: 0 10px 30px rgba(76, 175, 80, 0.3);
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 10px 30px rgba(76, 175, 80, 0.4);
 }
 
 .breed-no-btn:hover {
-    background: linear-gradient(135deg, rgba(244, 67, 54, 0.2), rgba(244, 67, 54, 0.1));
+    background: linear-gradient(135deg, rgba(244, 67, 54, 0.25), rgba(244, 67, 54, 0.15));
     border-color: #F44336;
-    transform: translateY(-3px);
-    box-shadow: 0 10px 30px rgba(244, 67, 54, 0.3);
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 10px 30px rgba(244, 67, 54, 0.4);
 }
 
 .breed-btn-emoji {
-    font-size: 20px;
+    font-size: 18px;
+    transition: transform 0.3s ease;
+}
+
+.breed-question-btn:hover .breed-btn-emoji {
+    transform: scale(1.2);
 }
 
 .breed-btn-text {
-    font-size: 14px;
-    font-weight: bold;
+    font-size: 13px;
+    font-weight: 600;
     color: white;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 }
 
-/* Breed No Response */
 .breed-no-content {
     text-align: center;
     padding: 40px 20px;
