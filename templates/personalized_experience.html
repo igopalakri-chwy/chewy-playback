@@ -106,7 +106,7 @@ body {
 .slide-content {
     background: linear-gradient(135deg, #0066cc 0%, #004499 50%, #002266 100%);
     color: white;
-    padding: 20px 15px 60px 15px;
+    padding: 40px 25px 80px 25px;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -125,7 +125,7 @@ body {
 .breed-slide .slide-content {
     overflow-y: auto;
     height: 100%;
-    padding: 20px 15px 120px 15px;
+    padding: 40px 25px 120px 25px;
     position: relative;
     z-index: 1;
 }
@@ -134,9 +134,15 @@ body {
 .letter-slide .slide-content {
     overflow: hidden;
     height: 100vh;
-    padding: 20px 15px;
+    padding: 40px 25px;
     position: relative;
     z-index: 1;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.letter-slide .slide-content::-webkit-scrollbar {
+    display: none;  /* Safari and Chrome */
 }
 
 /* Ensure all breed slide elements can scroll */
@@ -162,16 +168,58 @@ body {
 /* Slide counter */
 .slide-counter {
     position: absolute;
-    top: 15px;
-    right: 15px;
+    top: 25px;
+    right: 25px;
     background: rgba(0, 102, 204, 0.9);
     color: white;
-    padding: 6px 10px;
+    padding: 8px 12px;
     border-radius: 12px;
     font-size: 11px;
     font-weight: 500;
     backdrop-filter: blur(10px);
     z-index: 10;
+}
+
+/* Progress Bar */
+.progress-bar-container {
+    position: absolute;
+    top: 70px;
+    left: 25px;
+    right: 25px;
+    display: flex;
+    gap: 4px;
+    z-index: 100;
+    height: 3px;
+}
+
+.progress-chunk {
+    flex: 1;
+    height: 3px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 2px;
+    position: relative;
+    overflow: hidden;
+}
+
+.progress-chunk-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #FFD93D, #FF6B6B, #4ECDC4, #A29BFE);
+    background-size: 300% 100%;
+    animation: progressShimmer 2s ease-in-out infinite;
+    border-radius: 2px;
+    width: 0%;
+    transition: width 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 0 8px rgba(255,255,255,0.4);
+}
+
+@keyframes progressShimmer {
+    0%, 100% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
 }
 
 /* Food Fun Fact Slide */
@@ -321,6 +369,28 @@ body {
     }
 }
 
+@keyframes slideInFromBottom {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInScale {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
 
 
 .funfact-icon {
@@ -452,12 +522,9 @@ body {
 }
 
 .letter-container p {
-    margin: 0 0 8px 0;
+    margin: 0;
     padding: 0;
-}
-
-.letter-container p:last-child {
-    margin-bottom: 0;
+    line-height: 1.2;
 }
 
 
@@ -657,6 +724,19 @@ body {
     font-weight: 500;
     cursor: pointer;
     font-family: 'Poppins', sans-serif;
+}
+
+/* Enhanced Breed Card Hover Effects */
+.breed-card:hover {
+    transform: translateY(-4px) scale(1.02);
+    box-shadow: 0 8px 24px rgba(44, 95, 139, 0.25);
+    background: linear-gradient(135deg, #F8FCFF 0%, #E8F3FF 100%);
+    border: 1px solid rgba(74, 144, 226, 0.3);
+}
+
+.breed-card:active {
+    transform: translateY(-2px) scale(1.01);
+    transition: all 0.1s ease;
 }
 
 /* Question Card - Simple Style */
@@ -1040,7 +1120,7 @@ body {
     background: linear-gradient(135deg, #5aa0f2, #3a62a8);
 }
 
-/* Breed Flashcard Modal - Spotify Wrapped Style */
+/* Breed Flashcard Modal - Neutral Subtle Style */
 .breed-flashcard-modal {
     display: none;
     position: fixed;
@@ -1048,7 +1128,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0,0,0,0.9);
+    background: rgba(44, 95, 139, 0.85);
     z-index: 1000;
     backdrop-filter: blur(15px);
     animation: fadeIn 0.3s ease-out;
@@ -1059,15 +1139,15 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    border-radius: 30px;
-    padding: 40px;
-    max-width: 600px;
+    background: linear-gradient(135deg, #F8FAFC 0%, #F1F5F9 100%);
+    border-radius: 20px;
+    padding: 30px;
+    max-width: 500px;
     width: 90%;
-    max-height: 85vh;
+    max-height: 80vh;
     overflow-y: auto;
-    box-shadow: 0 30px 60px rgba(0,0,0,0.5);
-    border: 3px solid rgba(255,255,255,0.3);
+    box-shadow: 0 20px 40px rgba(44, 95, 139, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.9);
     animation: slideInUp 0.4s ease-out;
     position: relative;
 }
@@ -1080,9 +1160,9 @@ body {
     right: 0;
     bottom: 0;
     background: 
-        radial-gradient(circle at 30% 70%, rgba(255, 255, 255, 0.1) 0%, transparent 50%),
-        radial-gradient(circle at 70% 30%, rgba(255, 255, 255, 0.08) 0%, transparent 50%);
-    border-radius: 30px;
+        radial-gradient(circle at 30% 70%, rgba(44, 95, 139, 0.03) 0%, transparent 50%),
+        radial-gradient(circle at 70% 30%, rgba(74, 144, 226, 0.02) 0%, transparent 50%);
+    border-radius: 20px;
     pointer-events: none;
 }
 
@@ -1096,35 +1176,35 @@ body {
 }
 
 .breed-flashcard-header h3 {
-    color: white;
-    font-size: 32px;
+    color: #2C5F8B;
+    font-size: 24px;
     margin: 0;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    text-shadow: 0 1px 2px rgba(44, 95, 139, 0.1);
 }
 
 .breed-flashcard-close {
-    background: rgba(255,255,255,0.2);
-    color: white;
+    background: rgba(44, 95, 139, 0.1);
+    color: #2C5F8B;
     border: none;
     border-radius: 50%;
-    width: 35px;
-    height: 35px;
-    font-size: 22px;
+    width: 32px;
+    height: 32px;
+    font-size: 18px;
     cursor: pointer;
     transition: all 0.3s ease;
     backdrop-filter: blur(10px);
-    border: 1px solid rgba(255,255,255,0.3);
+    border: 1px solid rgba(44, 95, 139, 0.2);
 }
 
 .breed-flashcard-close:hover {
-    background: rgba(255,255,255,0.3);
-    transform: scale(1.1);
+    background: rgba(44, 95, 139, 0.2);
+    transform: scale(1.05);
 }
 
 .breed-flashcard-body {
-    color: white;
+    color: #4A5F6B;
     position: relative;
     z-index: 2;
 }
@@ -1173,30 +1253,53 @@ body {
 }
 
 .stat-card {
-    background: rgba(255,255,255,0.1);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.15));
     padding: 25px;
     border-radius: 15px;
     text-align: center;
     backdrop-filter: blur(10px);
-    border: 1px solid rgba(255,255,255,0.2);
+    border: 2px solid rgba(60, 60, 60, 0.3);
     transition: all 0.3s ease;
     min-height: 120px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    box-shadow: 
+        0 12px 40px rgba(60, 60, 60, 0.2),
+        0 0 0 1px rgba(255, 255, 255, 0.3),
+        inset 0 1px 0 rgba(255, 255, 255, 0.2);
 }
 
 .stat-card:hover {
-    background: rgba(255,255,255,0.15);
-    transform: translateY(-2px);
-    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.2));
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 
+        0 16px 48px rgba(60, 60, 60, 0.25),
+        0 0 0 1px rgba(255, 255, 255, 0.4);
 }
 
 .stat-value {
-    color: white;
+    color: #3C3C3C;
     font-size: 28px;
     font-weight: bold;
     margin-bottom: 10px;
+    text-shadow: 0 2px 8px rgba(60, 60, 60, 0.2);
+}
+
+.stat-label {
+    font-size: 16px;
+    color: #4A1A1A;
+    line-height: 1.4;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+.stat-card .stat-product {
+    font-size: 12px;
+    color: #00373C;
+    margin-top: 8px;
+    line-height: 1.3;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* Arrow Navigation */
@@ -1225,11 +1328,11 @@ body {
 }
 
 .slide-arrow-nav.prev {
-    left: 20px;
+    left: 25px;
 }
 
 .slide-arrow-nav.next {
-    right: 20px;
+    right: 25px;
 }
 
 .slide-arrow-nav i {
@@ -1251,6 +1354,187 @@ body {
 .stat-label {
     color: white;
     font-size: 16px;
+}
+
+/* Feature Card Styles */
+.feature-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    border-color: rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.25);
+}
+
+.feature-card.selected {
+    background: rgba(74, 144, 226, 0.4);
+    border-color: #4a90e2;
+    box-shadow: 0 8px 20px rgba(74, 144, 226, 0.4);
+    transform: translateY(-2px);
+}
+
+.feature-card.selected::after {
+    content: '✓';
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: #4a90e2;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* iOS Share Sheet Styles */
+.ios-share-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1000;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+    border-radius: 32px;
+    overflow: hidden;
+}
+
+.ios-share-overlay.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.ios-share-sheet {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #f2f2f7;
+    border-radius: 20px 20px 0 0;
+    transform: translateY(100%);
+    transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+.ios-share-overlay.show .ios-share-sheet {
+    transform: translateY(0);
+}
+
+.share-options-section {
+    background: white;
+    border-radius: 20px 20px 0 0;
+    padding: 20px;
+    margin-bottom: 8px;
+}
+
+.share-apps-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+
+.share-app-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.share-app-item:active {
+    transform: scale(0.95);
+}
+
+.share-app-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.share-app-label {
+    font-size: 12px;
+    color: #000;
+    text-align: center;
+    font-weight: 400;
+    max-width: 70px;
+    line-height: 1.2;
+}
+
+.share-actions-section {
+    background: white;
+    border-radius: 12px;
+    margin: 0 16px 8px 16px;
+    overflow: hidden;
+}
+
+.share-action-item {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    border-bottom: 0.5px solid #e5e5ea;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.share-action-item:last-child {
+    border-bottom: none;
+}
+
+.share-action-item:active {
+    background-color: #f0f0f0;
+}
+
+.share-action-icon {
+    margin-right: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.share-action-text {
+    flex: 1;
+}
+
+.share-action-title {
+    font-size: 16px;
+    color: #007AFF;
+    font-weight: 400;
+}
+
+.share-cancel-section {
+    background: white;
+    border-radius: 12px;
+    margin: 0 16px 16px 16px;
+    overflow: hidden;
+}
+
+.share-cancel-btn {
+    width: 100%;
+    padding: 16px;
+    background: none;
+    border: none;
+    font-size: 16px;
+    color: #007AFF;
+    font-weight: 400;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.share-cancel-btn:active {
+    background-color: #f0f0f0;
 }
 
 /* Social Media Slide */
@@ -1767,16 +2051,8 @@ body {
     font-weight: 600;
 }
 
-/* Loading */
-.loading {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    color: white;
-    font-size: 24px;
-}
+
+
 
 /* Responsive */
 @media (max-width: 768px) {
@@ -1787,7 +2063,7 @@ body {
     }
     
     .slide-content {
-        padding: 20px 10px;
+        padding: 30px 15px;
     }
     
     .funfact-content,
@@ -1795,7 +2071,7 @@ body {
     .breed-content,
     .share-content,
     .unknowns-content {
-        padding: 20px;
+        padding: 25px;
     }
     
     .stats-grid {
@@ -1820,9 +2096,216 @@ body {
         padding: 10px !important;
     }
 }
+
+/* Enhanced Food Consumption Animations */
+@keyframes floatFood {
+    0%, 100% {
+        transform: translateY(0px) rotate(0deg);
+    }
+    25% {
+        transform: translateY(-10px) rotate(2deg);
+    }
+    50% {
+        transform: translateY(-5px) rotate(-1deg);
+    }
+    75% {
+        transform: translateY(-15px) rotate(1deg);
+    }
+}
+
+@keyframes orbFloat {
+    0%, 100% {
+        transform: translateY(0px) scale(1);
+        opacity: 0.2;
+    }
+    50% {
+        transform: translateY(-20px) scale(1.1);
+        opacity: 0.3;
+    }
+}
+
+@keyframes titleSlideDownEnhanced {
+    0% {
+        opacity: 0;
+        transform: translateY(-30px) scale(0.9);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+@keyframes numberPopUltraEnhanced {
+    0% {
+        opacity: 0;
+        transform: scale(0.3) rotate(-10deg);
+    }
+    50% {
+        opacity: 0.8;
+        transform: scale(1.2) rotate(2deg);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1) rotate(0deg);
+    }
+}
+
+@keyframes progressRingEnhanced {
+    0% {
+        stroke-dashoffset: 220;
+    }
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes fadeInUpEnhanced {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes bowlBounceEnhanced {
+    0% {
+        opacity: 0;
+        transform: scale(0.5) translateY(30px);
+    }
+    50% {
+        opacity: 0.8;
+        transform: scale(1.1) translateY(-10px);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+}
+
+@keyframes bowlGlow {
+    0% {
+        filter: drop-shadow(0 6px 12px rgba(168, 85, 247, 0.3));
+    }
+    100% {
+        filter: drop-shadow(0 6px 12px rgba(168, 85, 247, 0.6));
+    }
+}
+
+@keyframes slideInLeftEnhanced {
+    0% {
+        opacity: 0;
+        transform: translateX(-30px) rotateY(-10deg);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0) rotateY(0deg);
+    }
+}
+
+@keyframes counterSlideIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px) scale(0.8);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+/* Additional Enhanced Animations */
+@keyframes titleLineExpand {
+    0% {
+        width: 0;
+        opacity: 0;
+    }
+    100% {
+        width: 60px;
+        opacity: 1;
+    }
+}
+
+@keyframes numberGlow {
+    0% {
+        opacity: 0.2;
+        filter: blur(8px);
+    }
+    100% {
+        opacity: 0.5;
+        filter: blur(12px);
+    }
+}
+
+@keyframes sparkleTwinkle {
+    0%, 100% {
+        opacity: 0.3;
+        transform: scale(1) rotate(0deg);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1.2) rotate(180deg);
+    }
+}
+
+@keyframes iconFloat {
+    0%, 100% {
+        transform: translateY(0px) rotate(0deg);
+        opacity: 0.1;
+    }
+    50% {
+        transform: translateY(-5px) rotate(5deg);
+        opacity: 0.2;
+    }
+}
+
+/* Letter Slide Animations */
+@keyframes floatLetter {
+    0%, 100% {
+        transform: translateY(0px) rotate(0deg);
+    }
+    25% {
+        transform: translateY(-8px) rotate(2deg);
+    }
+    50% {
+        transform: translateY(-4px) rotate(-1deg);
+    }
+    75% {
+        transform: translateY(-12px) rotate(1deg);
+    }
+}
+
+@keyframes letterSlideIn {
+    0% {
+        opacity: 0;
+        transform: perspective(1000px) rotateX(2deg) translateY(30px) scale(0.9);
+    }
+    100% {
+        opacity: 1;
+        transform: perspective(1000px) rotateX(2deg) translateY(0) scale(1);
+    }
+}
+
+@keyframes textFadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
 </style>
 
 <div class="container">
+    <!-- Progress Bar -->
+    <div class="progress-bar-container" id="progress-bar-container">
+        <!-- Progress chunks will be dynamically generated -->
+    </div>
+    
     <!-- Arrow Navigation -->
     <button class="slide-arrow-nav prev" id="prev-arrow" onclick="prevSlide()" disabled>
         <i class="fas fa-chevron-left"></i>
@@ -1845,10 +2328,14 @@ body {
 
     <!-- Loading Slide -->
     <div class="slide active" id="slide-0">
-        <div class="slide-content loading-slide">
-            <div class="loading">
-                <h2>Loading your personalized Chewy experience...</h2>
-                <p>Please wait while we prepare your data</p>
+        <div class="slide-content loading-slide" style="background: linear-gradient(135deg, #0066cc 0%, #004499 50%, #002266 100%); min-height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; color: white;">
+            <div class="loading-container" style="max-width: 400px; padding: 40px 20px;">
+                <!-- <div class="loading-icon" style="font-size: 60px; margin-bottom: 30px; animation: spin 2s linear infinite;">⏳</div> -->
+                <h2 class="loading-title" style="font-size: 28px; font-weight: 700; margin-bottom: 15px; font-family: 'Poppins', sans-serif;">Loading your personalized Chewy experience...</h2>
+                <p class="loading-subtitle" style="font-size: 16px; opacity: 0.9; margin-bottom: 30px; font-family: 'Poppins', sans-serif;">Please wait while we prepare your data</p>
+                <div class="loading-progress" style="width: 100%; height: 4px; background: rgba(255, 255, 255, 0.2); border-radius: 2px; overflow: hidden;">
+                    <div class="progress-fill" style="height: 100%; background: linear-gradient(90deg, #FFD93D, #FF6B6B, #4ECDC4, #A29BFE); background-size: 300% 100%; animation: progressShimmer 2s ease-in-out infinite; width: 60%; border-radius: 2px;"></div>
+                </div>
             </div>
         </div>
     </div>
@@ -1856,27 +2343,20 @@ body {
     <!-- Slide 1: Food Fun Fact -->
     {% if customer_data.food_fun_fact and customer_data.food_fun_fact.total_food_lbs and customer_data.food_fun_fact.total_food_lbs > 0 %}
     <div class="slide" id="slide-1">
-        <div class="slide-content funfact-slide">
+        <div class="slide-content funfact-slide" style="background: #FFE181; color: #3C3C3C; min-height: 100vh; display: flex; flex-direction: column; justify-content: flex-start; align-items: center; padding-top: 80px;">
             <div class="slide-header" style="text-align: center; margin-bottom: 20px;">
-                <h2 class="slide-title" style="text-align: center; margin: 0; font-family: 'Poppins', sans-serif; font-weight: 600;">
-                    Total lbs of food consumed
+                <h2 class="slide-title" style="text-align: center; margin: 0; margin-top: 40px; font-family: 'Baloo 2', sans-serif; font-weight: 600; color: #3C3C3C; font-size: 36px;">
+                    Total Food Consumed
                 </h2>
             </div>
             
-            <div class="spotify-wrapped-container">
-                <div class="wrapped-number" id="food-number">{{ customer_data.food_fun_fact.total_food_lbs }}</div>
-                <div class="wrapped-text-line">lbs to be exact.</div>
-                </div>
+            <div class="spotify-wrapped-container" style="text-align: center;">
+                <div class="wrapped-number" id="food-number" style="color: #D35400; font-size: 72px; font-weight: 900; margin-bottom: 10px; text-align: center;">{{ customer_data.food_fun_fact.total_food_lbs }}<span class="unit-text" style="font-size: 36px; margin-left: 10px;">lbs</span></div>
+                <div class="wrapped-text-line" style="color: #3C3C3C; font-size: 18px; font-weight: 600; text-align: center;">to be exact.</div>
+            </div>
             
-                    {% if customer_data.food_fun_fact.fun_facts %}
-                <div class="funfact-messages">
-                    {% for fun_fact in customer_data.food_fun_fact.fun_facts %}
-                    <p class="funfact-message">{{ fun_fact }}</p>
-                    {% endfor %}
-                    </div>
-                    {% endif %}
-            
-            <div class="slide-counter">1 of 8</div>
+            <div class="funfact-messages">
+            </div>
         </div>
     </div>
     {% endif %}
@@ -1884,16 +2364,21 @@ body {
     <!-- Slide 2: AI Portrait -->
     {% if customer_data.portrait %}
     <div class="slide" id="slide-2">
-        <div class="slide-content portrait-slide" style="display: flex; flex-direction: column; justify-content: flex-start; align-items: center; min-height: 100vh; padding-top: 20px;">
-            <div class="slide-header" style="text-align: center; margin-bottom: 30px; order: 1;">
-                <h2 class="slide-title" style="text-align: center; margin: 0; font-size: 20px;">
+        <div class="slide-content portrait-slide" style="display: flex; flex-direction: column; justify-content: flex-start; align-items: center; min-height: 100vh; padding-top: 20px; background: linear-gradient(135deg, #FFB347 0%, #FF8C42 100%); position: relative; overflow: hidden;">
+            
+            <!-- Animated background elements -->
+            <div class="portrait-bg-elements" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; z-index: 1;">
+                <div class="bg-circle" style="position: absolute; top: 10%; right: 10%; width: 120px; height: 120px; background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.05) 70%); border-radius: 50%; animation: float 6s ease-in-out infinite;"></div>
+                <div class="bg-circle" style="position: absolute; bottom: 20%; left: 15%; width: 80px; height: 80px; background: radial-gradient(circle, rgba(255,255,255,0.08) 0%, rgba(255,255,255,0.03) 70%); border-radius: 50%; animation: float 8s ease-in-out infinite 2s;"></div>
+                <div class="bg-circle" style="position: absolute; top: 60%; right: 20%; width: 60px; height: 60px; background: radial-gradient(circle, rgba(255,255,255,0.06) 0%, rgba(255,255,255,0.02) 70%); border-radius: 50%; animation: float 7s ease-in-out infinite 4s;"></div>
+            </div>
+            <div class="slide-header" style="text-align: center; margin-bottom: 30px; order: 1; position: relative; z-index: 2;">
+                <h2 class="slide-title" style="text-align: center; margin: 0; margin-top: 40px; font-size: 24px; color: white; font-weight: 600; text-shadow: 0 2px 4px rgba(0,0,0,0.3);">
                     Your Pet Portrait
                 </h2>
             </div>
             
             <img src="{{ customer_data.portrait }}" alt="Pet Portrait" class="portrait-image-fullscreen" style="width: auto; height: auto; max-width: 100%; max-height: 70vh; object-fit: contain; order: 2; flex: 1;">
-            
-            <div class="slide-counter" style="order: 3;">2 of 8</div>
         </div>
     </div>
     {% endif %}
@@ -1903,7 +2388,7 @@ body {
     <div class="slide" id="slide-1-busiest">
         <div class="slide-content busiest-slide">
             <div class="slide-header" style="text-align: center; margin-bottom: 30px;">
-                <h2 class="slide-title" style="text-align: center; margin: 0;">
+                <h2 class="slide-title" style="text-align: center; margin: 0; margin-top: 40px;">
                     Your Busiest Month
                 </h2>
             </div>
@@ -1929,41 +2414,65 @@ body {
                     </div>
                 </div>
             </div>
-            
-            <div class="slide-counter">3 of 8</div>
         </div>
     </div>
     {% endif %}
 
-    <!-- Slide 4: Letter to Human -->
+    <!-- Slide 4: Enhanced Letter from Pets -->
     {% if customer_data.pet_letters %}
     <div class="slide" id="slide-3">
-        <div class="slide-content letter-slide" style="display: flex; flex-direction: column; justify-content: center; align-items: center; min-height: 100vh; padding: 40px 20px; overflow-y: auto;">
-            <div class="slide-header" style="text-align: center; margin-bottom: 30px; width: 100%;">
-                <h2 class="slide-title" style="text-align: center; margin: 0; font-size: 32px; font-weight: 700; color: white; text-shadow: 0 2px 4px rgba(0,0,0,0.3);">
-                    A Letter from Your Pets
-                </h2>
+        <div class="slide-content letter-slide">
+            
+            <!-- Enhanced title with decorative elements -->
+            <div class="letter-slide-header">
+                <div class="letter-title-container">
+                    <div class="letter-title-icon">💌</div>
+                    <h2 class="letter-slide-title">A Letter from Your Pets</h2>
+                    <div class="letter-title-decoration"></div>
+                </div>
             </div>
             
-            <div class="letter-container" style="margin: 0 auto; padding: 30px; max-width: 600px; width: 100%; background: rgba(255,255,255,0.15); border: 2px solid rgba(255,255,255,0.3); border-radius: 20px; backdrop-filter: blur(15px); text-align: left; font-size: 16px; line-height: 1.8; white-space: pre-wrap; font-family: 'Poppins', sans-serif; font-weight: 400; color: white; box-shadow: 0 15px 35px rgba(0,0,0,0.2); overflow: visible;">
-                {% if customer_data.pet_letters %}
-                    {% set letter_text = customer_data.pet_letters %}
-                    {% if letter_text %}
-                        {% set lines = letter_text.split('\n') %}
-                        {% for line in lines %}
-                            {% if not line.startswith('Collective Letter from All Pets for Customer') and not line.startswith('=') %}
-                                {% if line.strip() %}
-                                    <p style="margin: 0 0 6px 0; padding: 0;">{{ line }}</p>
-                                {% else %}
-                                    <br>
-                                {% endif %}
+            <!-- Enhanced letter container -->
+            <div class="enhanced-letter-container">
+                <!-- Letter paper with improved texture -->
+                <div class="letter-paper">
+                    <div class="letter-paper-texture"></div>
+                    
+                    <!-- Letter content with better typography -->
+                    <div class="enhanced-letter-content">
+                        {% if customer_data.pet_letters %}
+                            {% set letter_text = customer_data.pet_letters %}
+                            {% if letter_text %}
+                                {% set lines = letter_text.split('\n') %}
+                                {% set clean_lines = [] %}
+                                {% for line in lines %}
+                                    {% if line.strip() and not line.startswith('Collective Letter from All Pets for Customer') and not line.startswith('=') %}
+                                        {% set clean_line = line.strip() %}
+                                        {% if clean_line.endswith('.') or clean_line.endswith('!') or clean_line.endswith('?') %}
+                                            {% set _ = clean_lines.append(clean_line) %}
+                                        {% else %}
+                                            {% set _ = clean_lines.append(clean_line + '.') %}
+                                        {% endif %}
+                                    {% endif %}
+                                {% endfor %}
+                                <div class="letter-text-content">{{ clean_lines | join(' ') }}</div>
                             {% endif %}
-                        {% endfor %}
-                    {% endif %}
-                {% endif %}
+                        {% endif %}
+                    </div>
+                    
+                    <!-- Enhanced signature section -->
+                    <div class="enhanced-letter-signature">
+                        <div class="signature-line"></div>
+                        <div class="signature-content">
+                            <p class="signature-with-love">With love,</p>
+                            <p class="signature-family">Your Furry Family</p>
+                            <div class="signature-heart">❤️</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Decorative elements removed for cleaner design -->
             </div>
-            
-            <div class="slide-counter">4 of 8</div>
         </div>
     </div>
     {% endif %}
@@ -1974,38 +2483,38 @@ body {
         <div class="slide-content badge-slide">
             <div class="household-personality-container" style="padding: 0; gap: 20px;">
                 <!-- Large bold title -->
-                <h1 class="household-title" style="margin-top: 0;">Household Personality for Your Pets</h1>
+                <h1 class="household-title" style="margin-top: 0; color: white;">Household Personality for Your Pets</h1>
                 
                 <!-- Central circular badge section -->
                 <div class="central-badge-section">
                     <div class="badge-circle">
                         <img src="{{ customer_data.badge.image_path }}" alt="Personality Badge" class="central-badge-image">
                     </div>
-                    <h2 class="badge-label">{{ customer_data.badge.badge }}</h2>
+                    <h2 class="badge-label" style="color: white;">{{ customer_data.badge.badge }}</h2>
             </div>
             
                 <!-- Horizontal personality words -->
                 <div class="personality-words-section">
-                    <div class="personality-word">Playful</div>
-                    <div class="personality-word">Loyal</div>
-                    <div class="personality-word">Gentle</div>
+                    <div class="personality-word"  style="color: white;">Playful</div>
+                    <div class="personality-word" style="color: white;">Loyal</div>
+                    <div class="personality-word" style="color: white;">Gentle</div>
                 </div>
                 
                 <!-- Compatible With section -->
                 <div class="compatible-with-section">
-                    <h3 class="compatible-with-title">Compatible With</h3>
+                    <h3 class="compatible-with-title" style="color: white;">Compatible With</h3>
                     <div class="compatible-badges-row">
                         <div class="compatible-badge-small">
                             <img src="/static/badges/badge_athlete copy.png" alt="Athlete Badge" class="compatible-badge-small-image">
-                            <span class="compatible-badge-small-name">Athlete</span>
+                            <span class="compatible-badge-small-name"  style="color: white;">Athlete</span>
                         </div>
                         <div class="compatible-badge-small">
                             <img src="/static/badges/badge_cuddler copy.png" alt="Cuddler Badge" class="compatible-badge-small-image">
-                            <span class="compatible-badge-small-name">Cuddler</span>
+                            <span class="compatible-badge-small-name"  style="color: white;">Cuddler</span>
                         </div>
                         <div class="compatible-badge-small">
                             <img src="/static/badges/badge_explorer copy.png" alt="Explorer Badge" class="compatible-badge-small-image">
-                            <span class="compatible-badge-small-name">Explorer</span>
+                            <span class="compatible-badge-small-name"  style="color: white;">Explorer</span>
                         </div>
                 </div>
             </div>
@@ -2017,8 +2526,6 @@ body {
                 </button>
             </div>
             </div>
-            
-            <div class="slide-counter">5 of 8</div>
         </div>
     </div>
     {% endif %}
@@ -2026,16 +2533,16 @@ body {
     <!-- Slide 5: Breed Prediction - First Display -->
     {% if customer_data.breed_prediction %}
     <div class="slide" id="slide-5">
-        <div class="slide-content breed-slide">
-            <div class="breed-container" style="margin-top: 40px;">
-                <h2 class="slide-title" style="text-align: center; margin: 0; margin-bottom: 30px;">
+        <div class="slide-content breed-slide" style="background: linear-gradient(135deg, #E8F4F8 0%, #D1E7F0 50%, #B8D4E6 100%); min-height: 100vh; padding: 20px 15px 80px 15px;">
+            <div class="breed-container" style="margin-top: 20px; max-width: 480px; margin-left: auto; margin-right: auto;">
+                <h2 class="slide-title" style="text-align: center; margin: 0; margin-top: 40px; margin-bottom: 20px; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 26px; color: #1E4A6B; text-shadow: 0 2px 4px rgba(30, 74, 107, 0.1);">
                     Our Breed Predictions
                 </h2>
                     
                     <!-- Pet Highlight Section -->
-                    <div class="breed-pet-highlight">
-                        <p class="breed-highlight-text">
-                            We are highlighting <strong>
+                    <div class="breed-pet-highlight" style="text-align: center; margin-bottom: 18px; padding: 12px 15px; background: rgba(255, 255, 255, 0.7); border-radius: 12px; border: 1px solid rgba(44, 95, 139, 0.15);">
+                        <p class="breed-highlight-text" style="margin: 0; font-family: 'Poppins', sans-serif; font-size: 14px; color: #2C5F8B; font-weight: 500;">
+                            We are highlighting <strong style="color: #1E4A6B; font-weight: 700;">
                                 {% if customer_data.breed_prediction.multiple_predictions %}
                                     {{ customer_data.breed_prediction.multiple_predictions[0].pet_name }}
                                 {% elif customer_data.breed_prediction.pet_name %}
@@ -2048,18 +2555,18 @@ body {
                     </div>
                     
                     <!-- Step 1: Breed Predictions Grid -->
-                    <div class="breed-predictions-card" id="breed-predictions-card">
-                        <h4 class="breed-predictions-title">Our Top Predictions</h4>
-                    <div class="breed-predictions-grid" id="breed-predictions-grid">
+                    <div class="breed-predictions-card" id="breed-predictions-card" style="background: rgba(255, 255, 255, 0.85); border-radius: 16px; padding: 15px; box-shadow: 0 6px 24px rgba(44, 95, 139, 0.12); border: 1px solid rgba(255, 255, 255, 0.9); margin-bottom: 0px;">
+                        <h4 class="breed-predictions-title" style="color: #2C5F8B; font-size: 18px; font-weight: 700; margin-bottom: 8px; text-align: center; font-family: 'Poppins', sans-serif;">Our Top Predictions</h4>
+                    <div class="breed-predictions-grid" id="breed-predictions-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 8px;">
                         {% if customer_data.breed_prediction.multiple_predictions %}
                                 {# Handle multiple predictions structure #}
                                 {% set first_prediction = customer_data.breed_prediction.multiple_predictions[0] %}
                                 {% if first_prediction.prediction and first_prediction.prediction.breed_distribution %}
                                     {% for breed_name, percentage in first_prediction.prediction.breed_distribution.items() %}
-                                    <div class="breed-card" onclick="handleBreedCardClick(event)" data-breed="{{ breed_name }}" data-pet="{{ first_prediction.pet_name }}" data-confidence="{{ percentage }}" data-explanation="{{ first_prediction.prediction.explanations[breed_name] if first_prediction.prediction.explanations and breed_name in first_prediction.prediction.explanations else 'No explanation available' }}">
+                                    <div class="breed-card" onclick="handleBreedCardClick(event)" data-breed="{{ breed_name }}" data-pet="{{ first_prediction.pet_name }}" data-confidence="{{ percentage }}" data-explanation="{{ first_prediction.prediction.explanations[breed_name] if first_prediction.prediction.explanations and breed_name in first_prediction.prediction.explanations else 'No explanation available' }}" style="background: linear-gradient(135deg, #F0F8FF 0%, #E6F3FF 100%); border-radius: 12px; padding: 10px 8px; text-align: center; box-shadow: 0 4px 16px rgba(44, 95, 139, 0.15); border: 1px solid rgba(255, 255, 255, 0.9); transition: all 0.3s ease; cursor: pointer; position: relative; overflow: hidden; min-height: 70px; display: flex; flex-direction: column; justify-content: center;">
                                         <div class="breed-card-content">
-                                            <div class="breed-card-name">{{ breed_name | format_breed_name_simple }}</div>
-                                            <div class="breed-card-percentage">{{ "%.1f"|format(percentage) }}%</div>
+                                            <div class="breed-card-name" style="color: #2C5F8B; font-size: 14px; font-weight: 700; margin-bottom: 4px; font-family: 'Poppins', sans-serif; line-height: 1.2;">{{ breed_name | format_breed_name_simple }}</div>
+                                            <div class="breed-card-percentage" style="color: #4A90E2; font-size: 16px; font-weight: 800; margin-bottom: 4px; font-family: 'Poppins', sans-serif;">{{ "%.1f"|format(percentage) }}%</div>
                                             <div class="breed-card-checkbox" style="display: none;">
                                                 <input type="checkbox" class="breed-checkbox" onchange="showIKnewIt()">
                                                 <label class="breed-checkbox-label">Check</label>
@@ -2068,10 +2575,10 @@ body {
                             </div>
                             {% endfor %}
                         {% else %}
-                                    <div class="breed-card" onclick="handleBreedCardClick(event)" data-breed="{{ first_prediction.predicted_breed }}" data-pet="{{ first_prediction.pet_name }}" data-confidence="100" data-explanation="No explanation available">
+                                    <div class="breed-card" onclick="handleBreedCardClick(event)" data-breed="{{ first_prediction.predicted_breed }}" data-pet="{{ first_prediction.pet_name }}" data-confidence="100" data-explanation="No explanation available" style="background: linear-gradient(135deg, #F0F8FF 0%, #E6F3FF 100%); border-radius: 12px; padding: 12px 10px; text-align: center; box-shadow: 0 4px 16px rgba(44, 95, 139, 0.15); border: 1px solid rgba(255, 255, 255, 0.9); transition: all 0.3s ease; cursor: pointer; position: relative; overflow: hidden; min-height: 75px; display: flex; flex-direction: column; justify-content: center;">
                                         <div class="breed-card-content">
-                                            <div class="breed-card-name">{{ first_prediction.predicted_breed }}</div>
-                                            <div class="breed-card-percentage">100%</div>
+                                            <div class="breed-card-name" style="color: #2C5F8B; font-size: 14px; font-weight: 700; margin-bottom: 5px; font-family: 'Poppins', sans-serif; line-height: 1.2;">{{ first_prediction.predicted_breed }}</div>
+                                            <div class="breed-card-percentage" style="color: #4A90E2; font-size: 16px; font-weight: 800; margin-bottom: 5px; font-family: 'Poppins', sans-serif;">100%</div>
                                             <div class="breed-card-checkbox" style="display: none;">
                                                 <input type="checkbox" class="breed-checkbox" onchange="handleBreedCheckboxChange(event)">
                                                 <label class="breed-checkbox-label">Check</label>
@@ -2083,10 +2590,10 @@ body {
                                 {# Handle single prediction structure #}
                                 {% if customer_data.breed_prediction.prediction.breed_distribution %}
                                     {% for breed_name, percentage in customer_data.breed_prediction.prediction.breed_distribution.items() %}
-                                    <div class="breed-card" onclick="handleBreedCardClick(event)" data-breed="{{ breed_name }}" data-pet="{{ customer_data.breed_prediction.pet_name }}" data-confidence="{{ percentage }}" data-explanation="{{ customer_data.breed_prediction.prediction.explanations[breed_name] if customer_data.breed_prediction.prediction.explanations and breed_name in customer_data.breed_prediction.prediction.explanations else 'No explanation available' }}">
+                                    <div class="breed-card" onclick="handleBreedCardClick(event)" data-breed="{{ breed_name }}" data-pet="{{ customer_data.breed_prediction.pet_name }}" data-confidence="{{ percentage }}" data-explanation="{{ customer_data.breed_prediction.prediction.explanations[breed_name] if customer_data.breed_prediction.prediction.explanations and breed_name in customer_data.breed_prediction.prediction.explanations else 'No explanation available' }}" style="background: linear-gradient(135deg, #F0F8FF 0%, #E6F3FF 100%); border-radius: 12px; padding: 12px 10px; text-align: center; box-shadow: 0 4px 16px rgba(44, 95, 139, 0.15); border: 1px solid rgba(255, 255, 255, 0.9); transition: all 0.3s ease; cursor: pointer; position: relative; overflow: hidden; min-height: 75px; display: flex; flex-direction: column; justify-content: center;">
                                         <div class="breed-card-content">
-                                            <div class="breed-card-name">{{ breed_name | format_breed_name_simple }}</div>
-                                            <div class="breed-card-percentage">{{ "%.1f"|format(percentage) }}%</div>
+                                            <div class="breed-card-name" style="color: #2C5F8B; font-size: 14px; font-weight: 700; margin-bottom: 5px; font-family: 'Poppins', sans-serif; line-height: 1.2;">{{ breed_name | format_breed_name_simple }}</div>
+                                            <div class="breed-card-percentage" style="color: #4A90E2; font-size: 16px; font-weight: 800; margin-bottom: 5px; font-family: 'Poppins', sans-serif;">{{ "%.1f"|format(percentage) }}%</div>
                                             <div class="breed-card-checkbox" style="display: none;">
                                                 <input type="checkbox" class="breed-checkbox" onchange="showIKnewIt()">
                                                 <label class="breed-checkbox-label">Check</label>
@@ -2095,10 +2602,10 @@ body {
                                 </div>
                                 {% endfor %}
                             {% else %}
-                                    <div class="breed-card" onclick="handleBreedCardClick(event)" data-breed="{{ customer_data.breed_prediction.predicted_breed }}" data-pet="{{ customer_data.breed_prediction.pet_name }}" data-confidence="100" data-explanation="No explanation available">
+                                    <div class="breed-card" onclick="handleBreedCardClick(event)" data-breed="{{ customer_data.breed_prediction.predicted_breed }}" data-pet="{{ customer_data.breed_prediction.pet_name }}" data-confidence="100" data-explanation="No explanation available" style="background: linear-gradient(135deg, #F0F8FF 0%, #E6F3FF 100%); border-radius: 12px; padding: 12px 10px; text-align: center; box-shadow: 0 4px 16px rgba(44, 95, 139, 0.15); border: 1px solid rgba(255, 255, 255, 0.9); transition: all 0.3s ease; cursor: pointer; position: relative; overflow: hidden; min-height: 75px; display: flex; flex-direction: column; justify-content: center;">
                                         <div class="breed-card-content">
-                                            <div class="breed-card-name">{{ customer_data.breed_prediction.predicted_breed }}</div>
-                                            <div class="breed-card-percentage">100%</div>
+                                            <div class="breed-card-name" style="color: #2C5F8B; font-size: 14px; font-weight: 700; margin-bottom: 5px; font-family: 'Poppins', sans-serif; line-height: 1.2;">{{ customer_data.breed_prediction.predicted_breed }}</div>
+                                            <div class="breed-card-percentage" style="color: #4A90E2; font-size: 16px; font-weight: 800; margin-bottom: 5px; font-family: 'Poppins', sans-serif;">100%</div>
                                             <div class="breed-card-checkbox" style="display: none;">
                                                 <input type="checkbox" class="breed-checkbox" onchange="handleBreedCheckboxChange(event)">
                                                 <label class="breed-checkbox-label">Check</label>
@@ -2107,10 +2614,10 @@ body {
                                 </div>
                             {% endif %}
                             {% else %}
-                                <div class="breed-card" onclick="handleBreedCardClick(event)" data-breed="{{ customer_data.breed_prediction.predicted_breed }}" data-pet="Unknown" data-confidence="100" data-explanation="No explanation available">
+                                <div class="breed-card" onclick="handleBreedCardClick(event)" data-breed="{{ customer_data.breed_prediction.predicted_breed }}" data-pet="Unknown" data-confidence="100" data-explanation="No explanation available" style="background: linear-gradient(135deg, #F0F8FF 0%, #E6F3FF 100%); border-radius: 12px; padding: 12px 10px; text-align: center; box-shadow: 0 4px 16px rgba(44, 95, 139, 0.15); border: 1px solid rgba(255, 255, 255, 0.9); transition: all 0.3s ease; cursor: pointer; position: relative; overflow: hidden; min-height: 75px; display: flex; flex-direction: column; justify-content: center;">
                                     <div class="breed-card-content">
-                                        <div class="breed-card-name">{{ customer_data.breed_prediction.predicted_breed }}</div>
-                                        <div class="breed-card-percentage">100%</div>
+                                        <div class="breed-card-name" style="color: #2C5F8B; font-size: 14px; font-weight: 700; margin-bottom: 5px; font-family: 'Poppins', sans-serif; line-height: 1.2;">{{ customer_data.breed_prediction.predicted_breed }}</div>
+                                        <div class="breed-card-percentage" style="color: #4A90E2; font-size: 16px; font-weight: 800; margin-bottom: 5px; font-family: 'Poppins', sans-serif;">100%</div>
                                         <div class="breed-card-checkbox" style="display: none;">
                                             <input type="checkbox" class="breed-checkbox" onchange="handleBreedCheckboxChange(event)">
                                             <label class="breed-checkbox-label">Check</label>
@@ -2122,27 +2629,32 @@ body {
                     </div>
                     
                     <!-- Step 2: Question -->
-                    <div class="breed-question-section" id="breed-question-section" style="display: block;">
-                        <h4 class="breed-question-title">Did we get any right?</h4>
-                        <div class="breed-question-buttons">
-                            <button class="breed-question-btn breed-yes-btn" onclick="handleBreedYes()">
-                                <span class="breed-btn-emoji">✅</span>
+                    <div class="breed-question-section" id="breed-question-section" style="display: block; text-align: center; margin-top: 0px; padding: 15px 14px; background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(248, 250, 252, 0.95) 100%); border-radius: 18px; box-shadow: 0 8px 32px rgba(44, 95, 139, 0.08); border: 1px solid rgba(255, 255, 255, 0.8); backdrop-filter: blur(10px);">
+                        <div style="margin-bottom: 8px;">
+                            <h4 class="breed-question-title" style="color: #2C5F8B; font-size: 20px; font-weight: 700; margin: 0 0 2px 0; font-family: 'Poppins', sans-serif; letter-spacing: -0.5px;">Did we get any right?</h4>
+                            <p style="color: #6B7280; font-size: 14px; margin: 0; font-family: 'Poppins', sans-serif; font-weight: 400; line-height: 1.4;">Help us improve our predictions</p>
+                        </div>
+                        <div class="breed-question-buttons" style="display: flex; justify-content: center; gap: 12px;">
+                            <button class="breed-question-btn breed-yes-btn" onclick="handleBreedYes()" style="background: linear-gradient(135deg, #4A90E2 0%, #357ABD 100%); color: white; border: none; border-radius: 12px; padding: 12px 24px; cursor: pointer; transition: all 0.3s ease; display: flex; align-items: center; gap: 8px; font-size: 15px; font-weight: 600; font-family: 'Poppins', sans-serif; box-shadow: 0 4px 16px rgba(74, 144, 226, 0.25); min-width: 100px;">
+                                <span class="breed-btn-emoji" style="font-size: 16px;">✅</span>
                                 <span class="breed-btn-text">Yes</span>
                             </button>
-                            <button class="breed-question-btn breed-no-btn" onclick="handleBreedNo()">
-                                <span class="breed-btn-emoji">❌</span>
+                            <button class="breed-question-btn breed-no-btn" onclick="handleBreedNo()" style="background: linear-gradient(135deg, #4A90E2 0%, #357ABD 100%); color: white; border: none; border-radius: 12px; padding: 12px 24px; cursor: pointer; transition: all 0.3s ease; display: flex; align-items: center; gap: 8px; font-size: 15px; font-weight: 600; font-family: 'Poppins', sans-serif; box-shadow: 0 4px 16px rgba(74, 144, 226, 0.25); min-width: 100px;">
+                                <span class="breed-btn-emoji" style="font-size: 16px;">❌</span>
                                 <span class="breed-btn-text">No</span>
                             </button>
                         </div>
                     </div>
                     
                     <!-- Step 3: No Response -->
-                    <div class="breed-no-response" id="breed-no-response" style="display: none;">
+                    <div class="breed-no-response" id="breed-no-response" style="display: none; text-align: center; margin-top: 20px; padding: 24px 20px; background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(248, 250, 252, 0.95) 100%); border-radius: 18px; box-shadow: 0 8px 32px rgba(44, 95, 139, 0.08); border: 1px solid rgba(255, 255, 255, 0.8); backdrop-filter: blur(10px);">
                         <div class="breed-no-content">
-                            <h4 class="breed-no-title">We thought we had it 😢</h4>
-                            <p class="breed-no-message">Help us improve our predictions by completing your pet profiles.</p>
+                            <div style="margin-bottom: 20px;">
+                                <h4 class="breed-no-title" style="color: #2C5F8B; font-size: 20px; font-weight: 700; margin: 0 0 8px 0; font-family: 'Poppins', sans-serif; letter-spacing: -0.5px;">We thought we had it 😢</h4>
+                                <p class="breed-no-message" style="color: #6B7280; font-size: 14px; margin: 0; font-family: 'Poppins', sans-serif; font-weight: 400; line-height: 1.4;">Help us improve our predictions by completing your pet profiles</p>
+                            </div>
                             <div class="breed-profile-link-section">
-                                <a href="https://www.chewy.com/account/profile" target="_blank" class="breed-profile-link">
+                                <a href="https://www.chewy.com/account/profile" target="_blank" class="breed-profile-link" style="background: linear-gradient(135deg, #4A90E2 0%, #357ABD 100%); color: white; text-decoration: none; padding: 12px 24px; border-radius: 12px; font-size: 15px; font-weight: 600; font-family: 'Poppins', sans-serif; display: inline-block; transition: all 0.3s ease; box-shadow: 0 4px 16px rgba(74, 144, 226, 0.25);">
                                     Complete Pet Profile
                                 </a>
                             </div>
@@ -2158,176 +2670,265 @@ body {
                             <button class="breed-flashcard-close" onclick="closeBreedFlashcard()">×</button>
                         </div>
                         <div class="breed-flashcard-body">
-                            <div class="breed-flashcard-info">
-                                <div class="breed-flashcard-pet">For: <span id="flashcard-pet-name">Pet Name</span></div>
-                                <div class="breed-flashcard-confidence">Confidence: <span id="flashcard-confidence">100%</span></div>
-                            </div>
                             <div class="breed-flashcard-description" id="flashcard-description">
                                 <p>Loading breed information...</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                
-                <div class="slide-counter">6 of 8</div>
             </div>
     </div>
     {% endif %}
 
-    <!-- Slide 6: Your Other Stats -->
+
+
+    <!-- Slide 6: Social Media Share -->
     <div class="slide" id="slide-6">
-        <div class="slide-content stats-slide" style="overflow-y: auto; min-height: 100vh; padding: 20px 15px 80px 15px;">
+        <div class="slide-content share-slide" style="min-height: 100vh; padding: 75px 15px 80px 15px; background: #FFE181;">
             <div class="slide-header" style="text-align: center; margin-bottom: 30px;">
-                <h2 class="slide-title" style="text-align: center; margin: 0; font-family: 'Poppins', sans-serif; font-weight: 600;">
+                <h2 class="slide-title" style="text-align: center; margin: 0; margin-top: 40px; font-family: 'Baloo 2', sans-serif; font-weight: 700; font-size: 28px; color: #3C3C3C;">
+                    Share Your Chewy Journey!
+                </h2>
+            </div>
+            
+            <div class="enhanced-share-text">
+                <p style="color: #4A1A1A; font-size: 16px; margin-bottom: 25px; opacity: 0.9; font-weight: 600;">
+                    Tap to select which features you'd like to share:
+                </p>
+            </div>
+            
+            <div class="feature-selection-grid" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; margin: 30px 0; max-width: 500px; margin-left: auto; margin-right: auto;">
+                <div class="feature-card" data-feature="food" onclick="toggleFeature('food')" style="display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 15px 10px; border-radius: 12px; cursor: pointer; transition: all 0.3s ease; background: rgba(255, 255, 255, 0.2); border: 2px solid rgba(255, 255, 255, 0.3); backdrop-filter: blur(10px); position: relative; overflow: hidden; min-height: 80px;">
+                    <div class="feature-icon" style="font-size: 24px; margin-bottom: 8px;">🍽️</div>
+                    <div class="feature-label" style="font-size: 12px; font-weight: 600; color: #3C3C3C; text-align: center; margin-bottom: 4px; font-family: 'Nunito', sans-serif;">Food Consumed</div>
+                    <div class="feature-value" id="food-share-value" style="font-size: 11px; color: #4A1A1A; text-align: center; font-family: 'Nunito', sans-serif; font-weight: 500;">{{ customer_data.total_food_consumed|default('', true) }}</div>
+                </div>
+                
+                <div class="feature-card" data-feature="portrait" onclick="toggleFeature('portrait')" style="display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 15px 10px; border-radius: 12px; cursor: pointer; transition: all 0.3s ease; background: rgba(255, 255, 255, 0.2); border: 2px solid rgba(255, 255, 255, 0.3); backdrop-filter: blur(10px); position: relative; overflow: hidden; min-height: 80px;">
+                    <div class="feature-icon" style="font-size: 24px; margin-bottom: 8px;">🎨</div>
+                    <div class="feature-label" style="font-size: 12px; font-weight: 600; color: #3C3C3C; text-align: center; margin-bottom: 4px; font-family: 'Nunito', sans-serif;">AI Pet Portrait</div>
+                    <div class="feature-value" style="font-size: 11px; color: #4A1A1A; text-align: center; font-family: 'Nunito', sans-serif; font-weight: 500;">Generated</div>
+                </div>
+                
+                <div class="feature-card" data-feature="letter" onclick="toggleFeature('letter')" style="display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 15px 10px; border-radius: 12px; cursor: pointer; transition: all 0.3s ease; background: rgba(255, 255, 255, 0.2); border: 2px solid rgba(255, 255, 255, 0.3); backdrop-filter: blur(10px); position: relative; overflow: hidden; min-height: 80px;">
+                    <div class="feature-icon" style="font-size: 24px; margin-bottom: 8px;">💌</div>
+                    <div class="feature-label" style="font-size: 12px; font-weight: 600; color: #3C3C3C; text-align: center; margin-bottom: 4px; font-family: 'Nunito', sans-serif;">Letter from Pets</div>
+                    <div class="feature-value" style="font-size: 11px; color: #4A1A1A; text-align: center; font-family: 'Nunito', sans-serif; font-weight: 500;">Personalized</div>
+                </div>
+                
+                <div class="feature-card" data-feature="breed" onclick="toggleFeature('breed')" style="display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 15px 10px; border-radius: 12px; cursor: pointer; transition: all 0.3s ease; background: rgba(255, 255, 255, 0.2); border: 2px solid rgba(255, 255, 255, 0.3); backdrop-filter: blur(10px); position: relative; overflow: hidden; min-height: 80px;">
+                    <div class="feature-icon" style="font-size: 24px; margin-bottom: 8px;">🐕</div>
+                    <div class="feature-label" style="font-size: 12px; font-weight: 600; color: #3C3C3C; text-align: center; margin-bottom: 4px; font-family: 'Nunito', sans-serif;">Breed Prediction</div>
+                    <div class="feature-value" style="font-size: 11px; color: #4A1A1A; text-align: center; font-family: 'Nunito', sans-serif; font-weight: 500;">AI Analysis</div>
+                </div>
+            </div>
+            
+            <div class="enhanced-share-cta">
+                <button class="enhanced-share-btn" onclick="showIOSShareSheet()" style="background: #FFD700; color: white; border: none; border-radius: 12px; padding: 10px 20px; cursor: pointer; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 6px; font-size: 14px; font-weight: 600; font-family: 'Poppins', sans-serif; box-shadow: 0 2px 8px rgba(255, 215, 0, 0.4);">
+                    <span style="font-size: 14px;"></span>
+                    <span class="enhanced-share-text">Share</span>
+                </button>
+            </div>
+            
+            <div class="slide-counter" style="background: rgba(60, 60, 60, 0.9); color: white; padding: 8px 15px; border-radius: 15px; font-size: 12px; font-weight: 600; backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.3);">7 of 8</div>
+        </div>
+    </div>
+
+    <!-- iOS-Style Share Sheet -->
+    <div id="ios-share-overlay" class="ios-share-overlay">
+        <div class="ios-share-sheet">
+            <!-- Share Options Section -->
+            <div class="share-options-section">
+                <div class="share-apps-grid">
+                    <!-- Instagram -->
+                    <div class="share-app-item" onclick="shareToApp('instagram')">
+                        <div class="share-app-icon instagram-icon">
+                            <svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="instagram-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#f9ce34"/>
+                                        <stop offset="33%" style="stop-color:#ee2a7b"/>
+                                        <stop offset="66%" style="stop-color:#6228d7"/>
+                                    </linearGradient>
+                                </defs>
+                                <rect width="60" height="60" rx="18" fill="url(#instagram-gradient)"/>
+                                <rect x="18" y="18" width="24" height="24" rx="8" fill="none" stroke="white" stroke-width="2"/>
+                                <circle cx="30" cy="30" r="6" fill="none" stroke="white" stroke-width="2"/>
+                                <circle cx="36" cy="24" r="2" fill="white"/>
+                            </svg>
+                        </div>
+                        <span class="share-app-label">Instagram</span>
+                    </div>
+
+                    <!-- Messages -->
+                    <div class="share-app-item" onclick="shareToApp('messages')">
+                        <div class="share-app-icon messages-icon">
+                            <svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="60" height="60" rx="18" fill="#00d4aa"/>
+                                <path d="M30 18c-7.732 0-14 5.641-14 12.6 0 4.054 2.323 7.637 5.95 10.05-.369 3.85-2.745 6.35-2.745 6.35s4.523-.735 7.295-3.5c1.13.31 2.34.47 3.5.47 7.732 0 14-5.641 14-12.6S37.732 18 30 18z" fill="white"/>
+                            </svg>
+                        </div>
+                        <span class="share-app-label">Messages</span>
+                    </div>
+
+                    <!-- WhatsApp -->
+                    <div class="share-app-item" onclick="shareToApp('whatsapp')">
+                        <div class="share-app-icon whatsapp-icon">
+                            <svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="60" height="60" rx="18" fill="#25d366"/>
+                                <path d="M30 15c-8.284 0-15 6.716-15 15 0 2.567.667 5.133 1.933 7.367L15 45l7.633-1.933A14.93 14.93 0 0 0 30 45c8.284 0 15-6.716 15-15s-6.716-15-15-15zm7.5 21.5c-.333.933-1.667 1.7-2.767 1.933-.733.167-1.7.3-4.933-.85-3.9-1.4-6.433-5.267-6.633-5.517-.2-.25-1.667-2.2-1.667-4.2s1.067-3.867 1.433-4.4c.367-.533.8-.667 1.067-.667.267 0 .533 0 .767.017.25.017.583-.1.917.7.333.8 1.15 2.8 1.25 3 .1.2.167.433.033.7-.133.267-.2.433-.4.667-.2.233-.417.517-.6.7-.2.2-.417.417-.183.817.233.4.983 1.583 2.117 2.567 1.45 1.267 2.667 1.65 3.05 1.85.383.2.6.167.817-.1.217-.267.933-1.083 1.183-1.467.25-.383.5-.317.833-.183.333.133 2.133 1 2.5 1.183.367.183.617.283.717.433.1.15.1.883-.233 1.817z" fill="white"/>
+                            </svg>
+                        </div>
+                        <span class="share-app-label">WhatsApp</span>
+                    </div>
+
+                    <!-- Facebook -->
+                    <div class="share-app-item" onclick="shareToApp('facebook')">
+                        <div class="share-app-icon facebook-icon">
+                            <svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="60" height="60" rx="18" fill="#1877f2"/>
+                                <path d="M35 31l1.5-9H28v-6c0-2.5 1.2-4.9 5.1-4.9H37V4.4s-3.6-.6-7-.6c-7.1 0-11.7 4.3-11.7 12.1V22h-8v9h8v22h9.9V31H35z" fill="white"/>
+                            </svg>
+                        </div>
+                        <span class="share-app-label">Facebook</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Action Buttons Section -->
+            <div class="share-actions-section">
+                <div class="share-action-item" onclick="copyShareLink()">
+                    <div class="share-action-icon">
+                        <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16 3H8C6.34 3 5 4.34 5 6v12c0 1.66 1.34 3 3 3h8c1.66 0 3-1.34 3-3V6c0-1.66-1.34-3-3-3zm-1 16H10v-2h5v2zm0-4H10v-2h5v2zm0-4H10V9h5v2z" fill="#007AFF"/>
+                        </svg>
+                    </div>
+                    <div class="share-action-text">
+                        <div class="share-action-title">Copy Link</div>
+                    </div>
+                </div>
+
+                <div class="share-action-item" onclick="saveToPhotos()">
+                    <div class="share-action-icon">
+                        <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z" fill="#007AFF"/>
+                        </svg>
+                    </div>
+                    <div class="share-action-text">
+                        <div class="share-action-title">Save to Photos</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cancel Button -->
+            <div class="share-cancel-section">
+                <button class="share-cancel-btn" onclick="hideIOSShareSheet()">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 7: Your Chewy Stats -->
+    <div class="slide" id="slide-7">
+        <div class="slide-content stats-slide" style="overflow-y: auto; min-height: 100vh; padding: 20px 15px 80px 15px; background: linear-gradient(135deg, #F8F9FA 0%, #E9ECEF 100%);">
+            <div class="slide-header" style="text-align: center; margin-bottom: 40px; margin-top: 400px;">
+                <h2 class="slide-title" style="text-align: center; margin: 0; margin-top: 80px; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 32px; color: #87CEEB; text-shadow: 0 2px 4px rgba(135, 206, 235, 0.1);">
                     Your Chewy Stats
                 </h2>
             </div>
-                <div class="stats-list" style="display: flex; flex-direction: column; gap: 20px; max-width: 600px; margin: 0 auto;">
+            
+            <div class="enhanced-stats-container" style="max-width: 500px; margin: 0 auto; padding: 0 15px;">
+                <div class="stats-grid" style="display: flex; flex-direction: column; gap: 15px; margin-bottom: 20px;">
+                    
                     {% if customer_data.total_months and customer_data.total_months > 0 %}
-                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; padding: 15px 20px; animation: slideInFromBottom 0.8s ease-out 0.2s both; opacity: 0; transform: translateY(30px);">
-                        <div style="color: white; font-size: 24px; font-weight: 700; text-align: left;">{{ customer_data.total_months }}</div>
-                        <div style="color: white; font-size: 16px; opacity: 0.9; text-align: right; word-wrap: break-word;">Months with Chewy</div>
+                    <div class="stat-card-pastel" style="background: #E8F4F8; border-radius: 16px; padding: 20px 15px; text-align: center; box-shadow: 0 6px 20px rgba(232, 244, 248, 0.3); border: 2px solid rgba(255, 255, 255, 0.8); animation: fadeInScale 0.6s ease-out 0.1s both; opacity: 0; transform: scale(0.9); position: relative; overflow: hidden; transition: all 0.3s ease;">
+                        <div class="stat-icon" style="font-size: 28px; margin-bottom: 10px; color: #5A8BA8;">📅</div>
+                        <div class="stat-value" style="color: #3C3C3C; font-size: 28px; font-weight: 800; margin-bottom: 6px; font-family: 'Poppins', sans-serif;">{{ customer_data.total_months }}</div>
+                        <div class="stat-label" style="color: #4A1A1A; font-size: 14px; font-weight: 600; font-family: 'Poppins', sans-serif;">Months with Chewy</div>
                     </div>
                     {% endif %}
                     
                     {% if customer_data.autoship_savings and customer_data.autoship_savings > 0 %}
-                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; padding: 15px 20px; animation: slideInFromBottom 0.8s ease-out 0.4s both; opacity: 0; transform: translateY(30px);">
-                        <div style="color: white; font-size: 24px; font-weight: 700; text-align: left;">${{ "%.2f"|format(customer_data.autoship_savings) }}</div>
-                        <div style="color: white; font-size: 16px; opacity: 0.9; text-align: right; word-wrap: break-word;">Autoship Savings</div>
+                    <div class="stat-card-pastel" style="background: #F0F8E8; border-radius: 16px; padding: 20px 15px; text-align: center; box-shadow: 0 6px 20px rgba(240, 248, 232, 0.3); border: 2px solid rgba(255, 255, 255, 0.8); animation: fadeInScale 0.6s ease-out 0.2s both; opacity: 0; transform: scale(0.9); position: relative; overflow: hidden; transition: all 0.3s ease;">
+                        <div class="stat-icon" style="font-size: 28px; margin-bottom: 10px; color: #7A9A6A;">💰</div>
+                        <div class="stat-value" style="color: #3C3C3C; font-size: 28px; font-weight: 800; margin-bottom: 6px; font-family: 'Poppins', sans-serif;">${{ "%.2f"|format(customer_data.autoship_savings) }}</div>
+                        <div class="stat-label" style="color: #4A1A1A; font-size: 14px; font-weight: 600; font-family: 'Poppins', sans-serif;">Autoship Savings</div>
                     </div>
                     {% endif %}
                     
                     {% if customer_data.cuddliest_month and customer_data.cuddliest_month != "N/A" and customer_data.cuddliest_month != "" %}
-                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; padding: 15px 20px; animation: slideInFromBottom 0.8s ease-out 0.6s both; opacity: 0; transform: translateY(30px);">
-                        <div style="color: white; font-size: 24px; font-weight: 700; text-align: left;">{{ customer_data.cuddliest_month }}</div>
-                        <div style="color: white; font-size: 16px; opacity: 0.9; text-align: right; word-wrap: break-word;">Your Pet's Favorite Month (Most Orders!)</div>
+                    <div class="stat-card-pastel" style="background: #F8E8F0; border-radius: 16px; padding: 20px 15px; text-align: center; box-shadow: 0 6px 20px rgba(248, 232, 240, 0.3); border: 2px solid rgba(255, 255, 255, 0.8); animation: fadeInScale 0.6s ease-out 0.3s both; opacity: 0; transform: scale(0.9); position: relative; overflow: hidden; transition: all 0.3s ease;">
+                        <div class="stat-icon" style="font-size: 28px; margin-bottom: 10px; color: #A87A9A;">🎯</div>
+                        <div class="stat-value" style="color: #3C3C3C; font-size: 22px; font-weight: 800; margin-bottom: 6px; font-family: 'Poppins', sans-serif; line-height: 1.2;">{{ customer_data.cuddliest_month }}</div>
+                        <div class="stat-label" style="color: #4A1A1A; font-size: 14px; font-weight: 600; font-family: 'Poppins', sans-serif;">Your Pet's Favorite Month</div>
+                        <div class="stat-subtitle" style="color: #A87A9A; font-size: 12px; font-weight: 400; margin-top: 3px; font-family: 'Poppins', sans-serif;">Most Orders!</div>
                     </div>
                     {% endif %}
                     
                     {% if customer_data.amount_donated and customer_data.amount_donated > 0 %}
-                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; padding: 15px 20px; animation: slideInFromBottom 0.8s ease-out 0.8s both; opacity: 0; transform: translateY(30px);">
-                        <div style="color: white; font-size: 24px; font-weight: 700; text-align: left;">${{ "%.2f"|format(customer_data.amount_donated) }}</div>
-                        <div style="color: white; font-size: 16px; opacity: 0.9; text-align: right; word-wrap: break-word;">Amount Donated</div>
+                    <div class="stat-card-pastel" style="background: #F8E8E8; border-radius: 16px; padding: 20px 15px; text-align: center; box-shadow: 0 6px 20px rgba(248, 232, 232, 0.3); border: 2px solid rgba(255, 255, 255, 0.8); animation: fadeInScale 0.6s ease-out 0.4s both; opacity: 0; transform: scale(0.9); position: relative; overflow: hidden; transition: all 0.3s ease;">
+                        <div class="stat-icon" style="font-size: 28px; margin-bottom: 10px; color: #A87A7A;">❤️</div>
+                        <div class="stat-value" style="color: #3C3C3C; font-size: 28px; font-weight: 800; margin-bottom: 6px; font-family: 'Poppins', sans-serif;">${{ "%.2f"|format(customer_data.amount_donated) }}</div>
+                        <div class="stat-label" style="color: #4A1A1A; font-size: 14px; font-weight: 600; font-family: 'Poppins', sans-serif;">Amount Donated</div>
                     </div>
                     {% endif %}
                     
                     {% if customer_data.most_ordered and customer_data.most_ordered != "N/A" and customer_data.most_ordered != "" %}
-                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; padding: 15px 20px; animation: slideInFromBottom 0.8s ease-out 1.0s both; opacity: 0; transform: translateY(30px);">
-                        <div style="color: white; font-size: 16px; font-weight: 700; opacity: 0.9; text-align: left;">Most Ordered</div>
-                        <div style="color: white; font-size: 14px; opacity: 0.8; text-align: right; word-wrap: break-word;">{{ customer_data.most_ordered }}</div>
+                    <div class="stat-card-pastel" style="background: #E8F0F8; border-radius: 16px; padding: 20px 15px; text-align: center; box-shadow: 0 6px 20px rgba(232, 240, 248, 0.3); border: 2px solid rgba(255, 255, 255, 0.8); animation: fadeInScale 0.6s ease-out 0.5s both; opacity: 0; transform: scale(0.9); position: relative; overflow: hidden; transition: all 0.3s ease;">
+                        <div class="stat-icon" style="font-size: 28px; margin-bottom: 10px; color: #7A9AA8;">🛒</div>
+                        <div class="stat-value" style="color: #3C3C3C; font-size: 18px; font-weight: 800; margin-bottom: 6px; font-family: 'Poppins', sans-serif; line-height: 1.3;">{{ customer_data.most_ordered }}</div>
+                        <div class="stat-label" style="color: #4A1A1A; font-size: 14px; font-weight: 600; font-family: 'Poppins', sans-serif;">Most Ordered</div>
                     </div>
                     {% endif %}
-                </div>
-            
-            <div class="slide-counter">7 of 8</div>
-        </div>
-    </div>
-
-    <!-- Slide 7: Social Media Share -->
-    <div class="slide" id="slide-7">
-        <div class="slide-content share-slide" style="overflow-y: auto; min-height: 100vh; padding: 20px 15px 80px 15px;">
-                                <div class="slide-header" style="text-align: center; margin-bottom: 30px;">
-                        <h2 class="slide-title" style="text-align: center; margin: 0; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 28px; color: white;">
-                             Share Your Chewy Journey 
-                        </h2>
-                        <!-- <p style="color: white; font-size: 16px; margin-top: 12px; opacity: 0.9;">
-                            Spread the love with friends and family!
-                        </p> -->
-                    </div>
-            
-            <div class="enhanced-share-container">
-                <div class="enhanced-share-content">
-                                                <div class="enhanced-share-text">
-                                <h3 style="color: white; font-size: 20px; margin-bottom: 15px; font-weight: 600;">
-                                    🎉 Your personalized experience is ready to share!
-                                </h3>
-                            </div>
                     
-                    <div class="enhanced-social-grid">
-                        <div class="enhanced-social-card facebook" onclick="shareToSocial('facebook')">
-                            <div class="enhanced-social-icon">
-                                <i class="fab fa-facebook-f"></i>
-                            </div>
-                            <div class="enhanced-social-label">Facebook</div>
-                        </div>
-                        
-                        <div class="enhanced-social-card instagram" onclick="shareToSocial('instagram')">
-                            <div class="enhanced-social-icon">
-                                <i class="fab fa-instagram"></i>
-                            </div>
-                            <div class="enhanced-social-label">Instagram</div>
-                        </div>
-                        
-                        <div class="enhanced-social-card snapchat" onclick="shareToSocial('snapchat')">
-                            <div class="enhanced-social-icon">
-                                <i class="fab fa-snapchat-ghost"></i>
-                            </div>
-                            <div class="enhanced-social-label">Snapchat</div>
-                        </div>
-                        
-                        <div class="enhanced-social-card message" onclick="shareToSocial('message')">
-                            <div class="enhanced-social-icon">
-                                <i class="fas fa-comment"></i>
-                            </div>
-                            <div class="enhanced-social-label">Message</div>
-                        </div>
-                    </div>
-                    
-                    <div class="enhanced-share-cta">
-                        <button class="enhanced-share-btn" onclick="shareToSocial('facebook')">
-                            <span class="enhanced-share-icon">📤</span>
-                            <span class="enhanced-share-text">Share Your Story</span>
-                        </button>
-                    </div>
                 </div>
             </div>
-            </div>
-            
-            <div class="slide-counter">8 of 8</div>
         </div>
     </div>
 
     <!-- Slide 8: Missing Pet Profile Information -->
     {% if customer_data.unknowns %}
     <div class="slide" id="slide-8">
-        <div class="slide-content unknowns-slide" style="overflow-y: auto; min-height: 100vh; padding: 20px 15px 80px 15px;">
-            <div class="slide-header" style="text-align: center; margin-bottom: 30px;">
-                <h2 class="slide-title" style="text-align: center; margin: 0; font-family: 'Poppins', sans-serif; font-weight: 600; font-size: 20px;">
+        <div class="slide-content unknowns-slide" style="overflow-y: auto; min-height: 100vh; padding: 40px 20px 80px 20px; background: #D0F4DE;">
+            <div class="slide-header" style="text-align: center; margin-bottom: 40px;">
+                <h2 class="slide-title" style="text-align: center; margin: 0; margin-top: 40px; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 28px; color: #3C3C3C;">
                     Complete Your Pet Profiles
                 </h2>
+                <!-- <p style="color: #4A1A1A; font-size: 16px; margin-top: 12px; opacity: 0.8; font-weight: 500;">
+                    Get even more personalized insights!
+                </p> -->
             </div>
             
-            <div class="unknowns-container">
-                <div class="unknowns-content">
-                    <div class="unknowns-summary">
-                        <p class="unknowns-summary-text">
-                            We found {{ customer_data.unknowns.total_unknowns }} missing pieces of information across {{ customer_data.unknowns.pets_with_unknowns }} pet(s).
-                        </p>
-                        <p class="unknowns-summary-text">
-                            Complete your pet profiles to get even more personalized insights!
-                        </p>
-                    </div>
-                    
-                    <div class="unknowns-pets-grid">
-                        {% for pet_name, pet_data in customer_data.unknowns.unknown_attributes.items() %}
-                        <div class="unknowns-pet-card">
-                            <div class="unknowns-pet-name">
-                                <span class="emoji">🐾</span> {{ pet_data.pet_name | title }}
-                            </div>
-                            <div class="unknowns-fields-container">
-                                {% for field in pet_data.unknown_fields %}
-                                <a href="https://www.chewy.com/account/profile" target="_blank" class="unknowns-field-box" style="text-decoration: none; color: inherit; cursor: pointer;">
-                                    {{ field.replace('_', ' ').title() }}
-                                </a>
-                                {% endfor %}
-                            </div>
+            <div class="unknowns-container" style="max-width: 600px; margin: 0 auto;">
+                <div class="unknowns-summary" style="text-align: center; margin-bottom: 30px; padding: 20px; background: rgba(255, 255, 255, 0.3); border-radius: 16px; backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.2);">
+                    <p style="color: #3C3C3C; font-size: 16px; margin: 0; font-weight: 600; line-height: 1.5;">
+                        We found <strong>{{ customer_data.unknowns.total_unknowns }}</strong> missing pieces of information across <strong>{{ customer_data.unknowns.pets_with_unknowns }}</strong> pet(s).
+                    </p>
+                </div>
+                
+                <div class="unknowns-pets-grid" style="display: flex; flex-direction: column; gap: 20px;">
+                    {% for pet_name, pet_data in customer_data.unknowns.unknown_attributes.items() %}
+                    <div class="unknowns-pet-card" style="background: rgba(255, 255, 255, 0.4); padding: 24px; border-radius: 16px; backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.3); transition: all 0.3s ease; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);">
+                        <div class="unknowns-pet-name" style="color: #3C3C3C; font-size: 20px; font-weight: 700; margin-bottom: 16px; text-align: center; display: flex; align-items: center; justify-content: center; gap: 8px;">
+                            {{ pet_data.pet_name | title }}
                         </div>
-                        {% endfor %}
+                        <div class="unknowns-fields-container" style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
+                            {% for field in pet_data.unknown_fields %}
+                            <a href="https://www.chewy.com/account/profile" target="_blank" style="background: #A0E7E5; color: #3C3C3C; padding: 8px 16px; border-radius: 20px; font-size: 13px; font-weight: 600; text-decoration: none; transition: all 0.3s ease; border: 1px solid rgba(255, 255, 255, 0.3); box-shadow: 0 2px 8px rgba(160, 231, 229, 0.3);">
+                                {{ field.replace('_', ' ').title() }}
+                            </a>
+                            {% endfor %}
+                        </div>
                     </div>
+                    {% endfor %}
+                </div>
+                
+                <div style="text-align: center; margin-top: 30px;">
+                    <a href="https://www.chewy.com/account/profile" target="_blank" style="display: inline-flex; align-items: center; gap: 10px; padding: 14px 28px; background: #A0E7E5; color: #3C3C3C; text-decoration: none; border-radius: 12px; font-size: 16px; font-weight: 600; font-family: 'Poppins', sans-serif; transition: all 0.3s ease; box-shadow: 0 4px 12px rgba(160, 231, 229, 0.3); border: 1px solid rgba(255, 255, 255, 0.3);">
+                        <span style="font-size: 16px;">⚙️</span>
+                        Complete Profiles
+                    </a>
                 </div>
             </div>
-            
-            <div class="slide-counter">8 of 8</div>
         </div>
     </div>
     {% endif %}
@@ -2338,12 +2939,14 @@ body {
 let currentSlide = 0;
 let totalSlides = 0;
 let isTransitioning = false;
+let progressChunks = [];
+let slideToChunkMapping = {};
 
 // Initialize slides
 document.addEventListener('DOMContentLoaded', function() {
-    // Count total slides (excluding loading slide)
+    // Count total slides
     const allSlides = document.querySelectorAll('.slide');
-    totalSlides = allSlides.length - 1; // Subtract 1 for loading slide
+    totalSlides = allSlides.length;
     
     // Debug: Log all slides
     console.log(`📊 Total slides: ${totalSlides}, All slides: ${allSlides.length}`);
@@ -2351,17 +2954,33 @@ document.addEventListener('DOMContentLoaded', function() {
         console.log(`📋 Slide ${index}: ${slide.id} - visible: ${slide.style.display !== 'none'}`);
     });
     
+    // Determine which slides have data
+    const slidesWithData = [];
+    for (let i = 0; i < totalSlides; i++) {
+        const slide = document.getElementById(`slide-${i}`);
+        if (slide && slide.style.display !== 'none') {
+            slidesWithData.push(i);
+        }
+    }
+    
+    // Create progress bar based on available slides
+    createProgressBar(slidesWithData);
+    
     // Initialize arrow navigation
     updateArrowNavigation();
     
     // Initialize breed prediction slide
     initializeBreedPredictionSlide();
     
-    // Hide loading slide after a short delay and show first real slide
+    // Show loading slide first, then transition to first real slide after a delay
+    console.log(`🚀 Showing loading slide...`);
+    showSlide(0);
+    
+    // Auto-transition from loading to first real slide after 3 seconds
     setTimeout(() => {
-        console.log(`🚀 Showing slide 1...`);
+        console.log(`🔄 Auto-transitioning from loading to first slide...`);
         showSlide(1);
-    }, 2000);
+    }, 3000);
 });
 
 function showSlide(slideIndex) {
@@ -2395,6 +3014,9 @@ function showSlide(slideIndex) {
         
         // Update arrow navigation states
         updateArrowNavigation();
+        
+        // Update progress bar
+        updateProgressBar(slideIndex);
     } else {
         console.log(`❌ Slide ${slideIndex} not found!`);
     }
@@ -2409,8 +3031,8 @@ function updateArrowNavigation() {
     const prevArrow = document.getElementById('prev-arrow');
     const nextArrow = document.getElementById('next-arrow');
     
-    // Disable prev arrow on first slide (slide 1, since slide 0 is loading)
-    if (currentSlide <= 1) {
+    // Disable prev arrow on first slide
+    if (currentSlide <= 0) {
         prevArrow.disabled = true;
         prevArrow.style.opacity = '0.3';
     } else {
@@ -2428,6 +3050,92 @@ function updateArrowNavigation() {
     }
     
     console.log(`🎯 Arrow navigation updated - currentSlide: ${currentSlide}, totalSlides: ${totalSlides}`);
+}
+
+// Progress Bar Functions
+function createProgressBar(slidesWithData) {
+    const progressContainer = document.getElementById('progress-bar-container');
+    progressContainer.innerHTML = ''; // Clear existing chunks
+    progressChunks = [];
+    slideToChunkMapping = {};
+    
+                // Define slide groups and their chunk mapping
+            const slideGroups = [
+                { name: 'food', slides: [1], hasMultipleSlides: false },
+                { name: 'portrait', slides: [2], hasMultipleSlides: false },
+                { name: 'busiest', slides: [3], hasMultipleSlides: false },
+                { name: 'letter', slides: [4], hasMultipleSlides: false },
+                { name: 'breed', slides: [5], hasMultipleSlides: false },
+                { name: 'share', slides: [6], hasMultipleSlides: false },
+                { name: 'stats', slides: [7], hasMultipleSlides: false },
+                { name: 'unknowns', slides: [8], hasMultipleSlides: false }
+            ];
+    
+    let chunkIndex = 0;
+    slideGroups.forEach(group => {
+        // Check if any slide in this group has data
+        const hasData = group.slides.some(slideNum => slidesWithData.includes(slideNum));
+        
+        if (hasData) {
+            // Create chunk for this group
+            const chunk = document.createElement('div');
+            chunk.className = 'progress-chunk';
+            chunk.innerHTML = '<div class="progress-chunk-fill"></div>';
+            progressContainer.appendChild(chunk);
+            
+            progressChunks.push({
+                element: chunk,
+                fillElement: chunk.querySelector('.progress-chunk-fill'),
+                hasMultipleSlides: group.hasMultipleSlides,
+                slides: group.slides.filter(slideNum => slidesWithData.includes(slideNum))
+            });
+            
+            // Map each slide to its chunk
+            group.slides.forEach(slideNum => {
+                if (slidesWithData.includes(slideNum)) {
+                    slideToChunkMapping[slideNum] = chunkIndex;
+                }
+            });
+            
+            chunkIndex++;
+        }
+    });
+    
+    console.log('📊 Progress bar created with', progressChunks.length, 'chunks');
+    console.log('📊 Slide to chunk mapping:', slideToChunkMapping);
+}
+
+function updateProgressBar(currentSlideIndex) {
+    if (progressChunks.length === 0) return;
+    
+    const chunkIndex = slideToChunkMapping[currentSlideIndex];
+    if (chunkIndex === undefined) return;
+    
+    // Update all chunks
+    progressChunks.forEach((chunk, index) => {
+        const fillElement = chunk.fillElement;
+        
+        if (index < chunkIndex) {
+            // Completed chunks
+            fillElement.style.width = '100%';
+        } else if (index === chunkIndex) {
+            // Current chunk
+            if (chunk.hasMultipleSlides) {
+                // For multi-slide chunks, show 50% or 100% based on which slide
+                const slidePosition = chunk.slides.indexOf(currentSlideIndex);
+                const progress = ((slidePosition + 1) / chunk.slides.length) * 100;
+                fillElement.style.width = `${progress}%`;
+            } else {
+                // Single slide chunks show 100% when active
+                fillElement.style.width = '100%';
+            }
+        } else {
+            // Future chunks
+            fillElement.style.width = '0%';
+        }
+    });
+    
+    console.log('📊 Progress updated for slide', currentSlideIndex, 'chunk', chunkIndex);
 }
 
 function nextSlide() {
@@ -2991,17 +3699,12 @@ function showBreedFlashcard(breedName, petName, confidence, explanation) {
     
     // Update flashcard content
     document.getElementById('flashcard-breed-name').textContent = breedName.replace('_', ' ').replace(/\b\w/g, l => l.toUpperCase());
-    document.getElementById('flashcard-pet-name').textContent = petName;
-    document.getElementById('flashcard-confidence').textContent = confidence + '%';
     
     // Use the explanation if provided, otherwise fall back to breed description
     let description;
     if (explanation && explanation !== 'No explanation available') {
         description = `
-            <h4>${breedName.replace('_', ' ').replace(/\b\w/g, l => l.toUpperCase())}</h4>
-            <p><strong>Confidence:</strong> ${confidence}%</p>
-            <p><strong>Reasoning:</strong></p>
-            <p style="background: rgba(255,255,255,0.1); padding: 15px; border-radius: 10px; margin-top: 10px;">
+            <p style="background: rgba(44, 95, 139, 0.08); padding: 15px; border-radius: 10px; margin-top: 10px; line-height: 1.6; color: #4A5F6B; border: 1px solid rgba(44, 95, 139, 0.1);">
                 ${explanation}
             </p>
         `;
@@ -3086,11 +3789,129 @@ document.addEventListener('click', function(e) {
     }
 });
 
+// Feature Selection Functions
+let selectedFeatures = new Set();
+
+function toggleFeature(feature) {
+    const card = document.querySelector(`[data-feature="${feature}"]`);
+    
+    if (selectedFeatures.has(feature)) {
+        selectedFeatures.delete(feature);
+        card.classList.remove('selected');
+    } else {
+        selectedFeatures.add(feature);
+        card.classList.add('selected');
+    }
+    
+    // Update share button state
+    updateShareButton();
+}
+
+function updateShareButton() {
+    const shareBtn = document.querySelector('.enhanced-share-btn');
+    if (selectedFeatures.size > 0) {
+        shareBtn.style.opacity = '1';
+        shareBtn.style.cursor = 'pointer';
+    } else {
+        shareBtn.style.opacity = '0.6';
+        shareBtn.style.cursor = 'not-allowed';
+    }
+}
+
+function showIOSShareSheet() {
+    if (selectedFeatures.size === 0) {
+        alert('Please select at least one feature to share!');
+        return;
+    }
+    
+    const overlay = document.getElementById('ios-share-overlay');
+    overlay.classList.add('show');
+}
+
+function hideIOSShareSheet() {
+    const overlay = document.getElementById('ios-share-overlay');
+    overlay.classList.remove('show');
+}
+
+// Close share sheet when clicking outside
+document.getElementById('ios-share-overlay').addEventListener('click', function(e) {
+    if (e.target === this) {
+        hideIOSShareSheet();
+    }
+});
+
+function shareToApp(app) {
+    const customerId = '{{ customer_id }}';
+    const shareUrl = `${window.location.origin}/experience/${customerId}`;
+    const shareText = "Check out my personalized Chewy pet experience!";
+    
+    // Create share text based on selected features
+    let featureText = "Features: ";
+    selectedFeatures.forEach(feature => {
+        switch(feature) {
+            case 'food':
+                featureText += "🍽️ Food Stats, ";
+                break;
+            case 'portrait':
+                featureText += "🎨 AI Portrait, ";
+                break;
+            case 'letter':
+                featureText += "💌 Pet Letter, ";
+                break;
+            case 'breed':
+                featureText += "🐕 Breed Prediction, ";
+                break;
+        }
+    });
+    
+    const fullShareText = `${shareText} ${featureText.slice(0, -2)} ${shareUrl}`;
+    
+    let shareLink = '';
+    
+    switch(app) {
+        case 'instagram':
+            // Instagram doesn't support direct sharing via URL, so we'll copy to clipboard
+            copyToClipboard(`${fullShareText}`);
+            alert('Link copied to clipboard! You can now paste it in Instagram.');
+            hideIOSShareSheet();
+            return;
+        case 'messages':
+            shareLink = `sms:?body=${encodeURIComponent(fullShareText)}`;
+            break;
+        case 'whatsapp':
+            shareLink = `https://wa.me/?text=${encodeURIComponent(fullShareText)}`;
+            break;
+        case 'facebook':
+            shareLink = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}&quote=${encodeURIComponent(shareText)}`;
+            break;
+    }
+    
+    if (shareLink) {
+        window.open(shareLink, '_blank', 'width=600,height=400');
+        hideIOSShareSheet();
+    }
+}
+
+function copyShareLink() {
+    const customerId = '{{ customer_id }}';
+    const shareUrl = `${window.location.origin}/experience/${customerId}`;
+    copyToClipboard(shareUrl);
+    alert('Link copied to clipboard!');
+    hideIOSShareSheet();
+}
+
+function saveToPhotos() {
+    // This would typically involve taking a screenshot or generating an image
+    // For now, we'll just show a message
+    alert('Save to Photos feature would capture your experience as an image!');
+    hideIOSShareSheet();
+}
+
 // Social Media Sharing Functions
 function shareToSocial(platform) {
     const customerId = '{{ customer_id }}';
     const shareUrl = `${window.location.origin}/experience/${customerId}`;
-    const shareText = "Check out my personalized Chewy pet experience! 🐾";
+    const shareText = "Check out my personalized Chewy pet experience!";
     
     let shareLink = '';
     
