@@ -69,10 +69,18 @@
 
         .progress-chunk-fill {
             height: 100%;
-            background: rgba(255, 255, 255, 0.9);
+            background: linear-gradient(90deg, #FFD93D, #FF6B6B, #4ECDC4, #A29BFE);
+            background-size: 300% 100%;
+            animation: progressShimmer 2s ease-in-out infinite;
             border-radius: 2px;
             width: 0%;
-            transition: width 0.3s ease;
+            transition: width 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 0 0 8px rgba(255,255,255,0.4);
+        }
+
+        @keyframes progressShimmer {
+            0%, 100% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
         }
 
         /* Notch */
@@ -131,9 +139,154 @@
             position: relative;
         }
 
-        /* Chewy Blue for all slides */
+        /* Remove fun fact message box styling but keep text visible */
+        .funfact-messages {
+            background: none !important;
+            border: none !important;
+            box-shadow: none !important;
+            padding: 0 !important;
+            margin: 20px 0 !important;
+            border-radius: 0 !important;
+        }
+
+        /* Vibrant Pet-Themed Color Scheme */
         .slide-content {
-            background: #1C49C2;
+            background: linear-gradient(135deg, #FF6B6B, #4ECDC4);
+            transition: background 0.5s ease;
+        }
+
+        /* Individual slide color schemes */
+        #slide-1 .slide-content {
+            background: #FFE181;
+            color: #3C3C3C;
+        }
+
+        /* Force all text on food slide to be charcoal */
+        #slide-1, #slide-1 * {
+            color: #3C3C3C !important;
+            -webkit-text-fill-color: #3C3C3C !important;
+        }
+
+        #slide-2 .slide-content {
+            background: #FFCAD4;
+            color: #5A1C2E;
+        }
+
+        #slide-3 .slide-content {
+            background: #FFCAD4;
+            color: #5A1C2E;
+        }
+
+        /* Dark text overrides for light backgrounds - Enhanced Readability */
+        #slide-1 .slide-title,
+        #slide-1 .slide-description,
+        #slide-1 .slide-value,
+        #slide-1 *,
+        #slide-1 p,
+        #slide-1 h1,
+        #slide-1 h2,
+        #slide-1 h3,
+        #slide-1 span,
+        #slide-1 div,
+        #slide-1 .wrapped-number,
+        #slide-1 .food-amount,
+        #slide-1 .yearly-food-count {
+            color: #3C3C3C !important;
+            -webkit-text-fill-color: #3C3C3C !important;
+            text-shadow: 0 1px 2px rgba(255,255,255,0.5) !important;
+            font-weight: 900 !important;
+        }
+
+        #slide-2 .slide-title,
+        #slide-2 .slide-description,
+        #slide-2 .hearts-message,
+        #slide-3 .slide-title,
+        #slide-3 .slide-description,
+        #slide-3 .hearts-message {
+            color: #5A1C2E !important;
+            -webkit-text-fill-color: #5A1C2E !important;
+            text-shadow: 0 1px 2px rgba(255,255,255,0.3);
+            font-weight: 900 !important;
+        }
+
+        #slide-4 .slide-title,
+        #slide-4 .slide-description,
+        #slide-4 .slide-value {
+            color: #2A0E0E !important;
+            text-shadow: 0 1px 2px rgba(255,255,255,0.3);
+            font-weight: 900 !important;
+        }
+
+        #slide-5 .slide-title,
+        #slide-5 .slide-description,
+        #slide-5 .slide-value {
+            color: #002B30 !important;
+            text-shadow: 0 1px 2px rgba(255,255,255,0.4);
+            font-weight: 900 !important;
+        }
+
+        #slide-6 .slide-title,
+        #slide-6 .slide-description,
+        #slide-6 .slide-value {
+            color: #031A35 !important;
+            text-shadow: 0 1px 2px rgba(255,255,255,0.4);
+            font-weight: 900 !important;
+        }
+
+        #slide-7 .slide-title,
+        #slide-7 .slide-description,
+        #slide-7 .slide-value {
+            color: #1C3A2E !important;
+            -webkit-text-fill-color: #1C3A2E !important;
+            text-shadow: 0 1px 2px rgba(255,255,255,0.4);
+            font-weight: 900 !important;
+        }
+
+        /* Orange color for food fun fact numbers only */
+        #slide-1 .slide-value,
+        #slide-1 .wrapped-number,
+        #slide-1 .food-amount,
+        #slide-1 .yearly-food-count {
+            color: #D35400 !important;
+            -webkit-text-fill-color: #D35400 !important;
+        }
+
+        #slide-4 .slide-content {
+            background: #FFB3B3;
+            color: #4A1A1A;
+        }
+
+        #slide-5 .slide-content {
+            background: #A0E7E5;
+            color: #00373C;
+        }
+
+        #slide-6 .slide-content {
+            background: #BDE0FE;
+            color: #052049;
+        }
+
+        #slide-7 .slide-content {
+            background: #D0F4DE;
+            color: #1C3A2E;
+            justify-content: flex-start;
+            align-items: center;
+            padding-top: 120px;
+        }
+
+        #slide-8 .slide-content {
+            background: linear-gradient(135deg, #E17055, #FDCB6E);
+            color: white;
+        }
+
+        #slide-9 .slide-content {
+            background: linear-gradient(135deg, #A29BFE, #6C5CE7);
+            color: white;
+        }
+
+        #slide-10 .slide-content {
+            background: linear-gradient(135deg, #FF7675, #74B9FF);
+            color: white;
         }
 
         /* Slide counter */
@@ -143,9 +296,8 @@
 
         /* Slide title styling */
         .slide-title {
-            color: white !important;
-            font-size: 28px;
-            font-weight: 700;
+            font-size: 36px;
+            font-weight: 900;
             margin: 30px 0 20px 0;
             text-align: center;
             font-family: 'Baloo 2', sans-serif;
@@ -155,6 +307,8 @@
             background: none !important;
             background-image: none !important;
             -webkit-background-clip: initial !important;
+            letter-spacing: -0.3px;
+            line-height: 1.2;
             background-clip: initial !important;
             -webkit-text-fill-color: white !important;
             text-shadow: none !important;
@@ -162,21 +316,23 @@
         }
 
         .slide-value {
-            font-size: 4em;
-            font-weight: bold;
-            color: white;
+            font-size: 5em;
+            font-weight: 900;
             margin-bottom: 20px;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-            font-family: 'Nunito', sans-serif;
+            font-family: 'Baloo 2', sans-serif;
+            letter-spacing: -2px;
+            line-height: 0.9;
         }
 
         .slide-description {
-            font-size: 1.2em;
-            color: white;
+            font-size: 1.4em;
             margin-bottom: 15px;
-            line-height: 1.6;
+            line-height: 1.5;
             font-family: 'Nunito', sans-serif;
-            opacity: 0.9;
+            font-weight: 600;
+            max-width: 90%;
+            margin-left: auto;
+            margin-right: auto;
         }
 
         /* Arrow Navigation */
@@ -249,9 +405,11 @@
 
         .heart {
             position: absolute;
-            font-size: 24px;
+            font-size: 28px;
             animation: heartPop 2s ease-out infinite;
             opacity: 0;
+            text-shadow: 0 2px 8px rgba(0,0,0,0.3);
+            filter: drop-shadow(0 0 10px rgba(255,255,255,0.4));
         }
 
         .heart-1 { top: 20%; left: 10%; animation-delay: 1.83s; }
@@ -642,9 +800,7 @@
             font-weight: 400;
             margin-bottom: 15px;
             padding: 15px;
-            background: rgba(0, 102, 204, 0.1);
             border-radius: 10px;
-            border-left: 4px solid rgba(255, 255, 255, 0.3);
         }
 
         /* Spotify Wrapped Style */
@@ -658,7 +814,7 @@
         }
 
         .wrapped-text-line {
-            color: white;
+            color: #3c3c3c;
             font-size: 18px;
             font-weight: 400;
             font-family: 'Nunito', sans-serif;
@@ -668,7 +824,7 @@
         }
 
         .wrapped-number {
-            color: white;
+            color: #3c3c3c;
             font-size: 96px;
             font-weight: 800;
             font-family: 'Nunito', sans-serif;
@@ -717,7 +873,7 @@
 
         .autoship-title {
             font-size: 2.2em;
-            color: white;
+            color: #1C3A2E;
             text-align: center;
             margin-bottom: 20px;
             font-family: 'Baloo 2', sans-serif;
@@ -729,7 +885,7 @@
 
         .autoship-message {
             font-size: 1.4em;
-            color: white;
+            color:#1C3A2E;
             text-align: center;
             margin-bottom: 50px;
             font-family: 'Nunito', sans-serif;
@@ -772,7 +928,7 @@
         .autoship-number {
             font-size: 6em;
             font-weight: 900;
-            color: #1e3a8a;
+            color: #D35400;
             text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
             font-family: 'Nunito', sans-serif;
             position: relative;
@@ -1290,7 +1446,7 @@
         .product-title {
             opacity: 1;
             transform: translateY(0);
-            color: white;
+            color: #052049;
             text-align: center;
         }
 
@@ -1425,7 +1581,7 @@
         .product-tagline {
             font-style: italic;
             color: rgba(255, 255, 255, 0.9);
-            font-size: 16px;
+            font-size: 20px;
             text-align: center;
             margin-top: 20px;
         }
@@ -1539,7 +1695,7 @@
         }
 
         .calendar {
-            background: white;
+            background: #0B2545;
             border-radius: 20px;
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
             overflow: hidden;
@@ -1550,8 +1706,7 @@
         }
 
         .calendar-top {
-            background: #1C49C2;
-            color: white;
+            color: 	#0B2545;
             padding: 15px;
             text-align: center;
             position: relative;
@@ -1572,7 +1727,7 @@
         .calendar-number {
             font-size: 4em;
             font-weight: 900;
-            color: #1C49C2;
+            color: 	#0B2545;
             font-family: 'Nunito', sans-serif;
             margin-bottom: 10px;
             animation: numberCountUp 2s ease-out 0.5s both;
