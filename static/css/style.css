@@ -202,7 +202,7 @@ body::before {
 }
 
 .brand-title {
-    font-family: 'Poppins', 'Inter', sans-serif;
+    font-family: 'Nunito', 'Poppins', 'Inter', sans-serif;
     font-size: 32px;
     font-weight: 700;
     margin-bottom: 8px;
@@ -247,7 +247,7 @@ body::before {
     font-size: 24px;
     font-weight: 600;
     margin-bottom: 10px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Nunito', 'Poppins', sans-serif;
 }
 
 .preview-description {
@@ -484,7 +484,7 @@ body::before {
 }
 
 .customers-title {
-    font-family: 'Poppins', 'Inter', sans-serif;
+    font-family: 'Nunito', 'Poppins', 'Inter', sans-serif;
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 8px;
@@ -635,7 +635,7 @@ body::before {
 }
 
 .header-logo h1 {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Nunito', 'Inter', sans-serif;
     font-size: 28px;
     font-weight: 600;
     color: #2E5C8A;
@@ -1225,7 +1225,7 @@ body::before {
 }
 
 .welcome-title {
-    font-family: 'Poppins', 'Inter', sans-serif;
+    font-family: 'Nunito', 'Poppins', 'Inter', sans-serif;
     font-size: 32px;
     font-weight: 700;
     margin-bottom: 8px;
@@ -1421,7 +1421,7 @@ body::before {
 }
 
 .funfact-title {
-    font-family: 'Poppins', 'Inter', sans-serif;
+    font-family: 'Nunito', 'Poppins', 'Inter', sans-serif;
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 15px;
@@ -1567,7 +1567,7 @@ body::before {
 
 
 .breed-title {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Nunito', 'Poppins', sans-serif;
     font-size: 28px;
     font-weight: 700;
     margin-bottom: 20px;
@@ -1631,9 +1631,17 @@ body::before {
 
 
 
-/* Letter Slide */
+/* Enhanced Letter Slide */
 .letter-slide {
-    background: linear-gradient(135deg, #0d2b5e 0%, #1e3c72 25%, #2a5298 50%, #4a90e2 75%, #5ba0f2 100%);
+    background: linear-gradient(135deg, #1e293b 0%, #334155 50%, #475569 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100vh;
+    padding: 40px 20px;
+    position: relative;
+    overflow: visible;
 }
 
 .letter-slide::before {
@@ -1644,14 +1652,245 @@ body::before {
     width: 100%;
     height: 100%;
     background: 
-        radial-gradient(circle at 20% 80%, rgba(255, 255, 255, 0.05) 0%, transparent 50%),
-        radial-gradient(circle at 80% 20%, rgba(255, 255, 255, 0.03) 0%, transparent 50%);
-    animation: gentleFloat 12s ease-in-out infinite;
+        radial-gradient(circle at 20% 80%, rgba(120, 119, 198, 0.15) 0%, transparent 50%),
+        radial-gradient(circle at 80% 20%, rgba(74, 144, 226, 0.15) 0%, transparent 50%),
+        radial-gradient(circle at 40% 40%, rgba(120, 219, 255, 0.1) 0%, transparent 50%);
+    animation: gentleFloat 8s ease-in-out infinite;
+    z-index: 0;
 }
 
 @keyframes gentleFloat {
+    0%, 100% { transform: translateY(0px) rotate(0deg); }
+    50% { transform: translateY(-10px) rotate(1deg); }
+}
+
+/* Enhanced Letter Slide Styles */
+.letter-slide-header {
+    text-align: center;
+    margin-bottom: 40px;
+    width: 100%;
+    z-index: 10;
+    position: relative;
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    overflow: hidden;
+}
+
+.letter-title-container {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    visibility: visible !important;
+    opacity: 1 !important;
+    position: relative;
+    z-index: 10;
+    overflow: hidden;
+}
+
+.letter-title-icon {
+    font-size: 48px;
+    animation: letterIconBounce 2s ease-in-out infinite;
+}
+
+@keyframes letterIconBounce {
     0%, 100% { transform: translateY(0px) scale(1); }
-    50% { transform: translateY(-10px) scale(1.02); }
+    50% { transform: translateY(-8px) scale(1.1); }
+}
+
+.letter-slide-title {
+    text-align: center;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff !important;
+    font-family: 'Nunito', 'Poppins', sans-serif;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    letter-spacing: 0.5px;
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    position: relative;
+    z-index: 10;
+}
+
+.letter-title-decoration {
+    width: 80px;
+    height: 3px;
+    background: linear-gradient(90deg, transparent, #ffffff, transparent);
+    border-radius: 2px;
+    animation: decorationGlow 3s ease-in-out infinite;
+}
+
+@keyframes decorationGlow {
+    0%, 100% { opacity: 0.6; transform: scaleX(1); }
+    50% { opacity: 1; transform: scaleX(1.2); }
+}
+
+.enhanced-letter-container {
+    max-width: 680px;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    margin: 0 auto;
+}
+
+.letter-paper {
+    background: linear-gradient(145deg, #ffffff, #f8fafc);
+    border-radius: 20px;
+    box-shadow: 
+        0 20px 40px rgba(0, 0, 0, 0.15),
+        0 8px 16px rgba(0, 0, 0, 0.1),
+        inset 0 1px 0 rgba(255, 255, 255, 0.8);
+    padding: 40px 35px;
+    position: relative;
+    border: 1px solid rgba(226, 232, 240, 0.8);
+    transform: rotate(-1deg);
+    transition: transform 0.3s ease;
+}
+
+.letter-paper:hover {
+    transform: rotate(0deg) scale(1.02);
+}
+
+.letter-paper-texture {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: 
+        linear-gradient(90deg, transparent 0%, rgba(255, 255, 255, 0.8) 50%, transparent 100%),
+        repeating-linear-gradient(
+            0deg,
+            transparent,
+            transparent 24px,
+            rgba(0, 0, 0, 0.02) 24px,
+            rgba(0, 0, 0, 0.02) 25px
+        );
+    border-radius: 20px;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.enhanced-letter-content {
+    position: relative;
+    z-index: 2;
+    margin-bottom: 30px;
+}
+
+.letter-text-content {
+    font-family: 'Caveat', 'Kalam', cursive;
+    font-size: 22px;
+    line-height: 1.6;
+    color: #1e293b;
+    text-align: left;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    white-space: pre-line;
+    padding: 0;
+    margin: 0;
+}
+
+.enhanced-letter-signature {
+    position: relative;
+    z-index: 2;
+    margin-top: 35px;
+    padding-top: 25px;
+}
+
+.signature-line {
+    width: 120px;
+    height: 2px;
+    background: linear-gradient(90deg, #3b82f6, #60a5fa);
+    margin-bottom: 20px;
+    border-radius: 1px;
+    animation: signatureLineGlow 2s ease-in-out infinite;
+}
+
+@keyframes signatureLineGlow {
+    0%, 100% { opacity: 0.7; }
+    50% { opacity: 1; }
+}
+
+.signature-content {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 8px;
+}
+
+.signature-with-love {
+    margin: 0;
+    font-size: 20px;
+    color: #64748b;
+    font-weight: 500;
+    font-family: 'Caveat', cursive;
+    font-style: italic;
+}
+
+.signature-family {
+    margin: 0;
+    font-size: 28px;
+    color: #3b82f6;
+    font-weight: 600;
+    font-family: 'Caveat', cursive;
+    text-shadow: 0 2px 4px rgba(59, 130, 246, 0.2);
+}
+
+.signature-heart {
+    font-size: 24px;
+    animation: heartBeat 1.5s ease-in-out infinite;
+    margin-top: 5px;
+}
+
+@keyframes heartBeat {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+}
+
+.letter-paw-prints {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.paw-print {
+    position: absolute;
+    font-size: 20px;
+    opacity: 0.3;
+    animation: pawPrintFloat 4s ease-in-out infinite;
+}
+
+.paw-print.paw-1 {
+    top: 20px;
+    left: 20px;
+    animation-delay: 0s;
+}
+
+.paw-print.paw-2 {
+    top: 60px;
+    right: 30px;
+    animation-delay: 1.5s;
+}
+
+.paw-print.paw-3 {
+    bottom: 40px;
+    left: 50px;
+    animation-delay: 3s;
+}
+
+@keyframes pawPrintFloat {
+    0%, 100% { transform: translateY(0px) rotate(0deg); opacity: 0.3; }
+    50% { transform: translateY(-10px) rotate(5deg); opacity: 0.6; }
 }
 
 .slide-header {
@@ -1667,7 +1906,7 @@ body::before {
 }
 
 .slide-title {
-    font-family: 'Poppins', 'Inter', sans-serif;
+    font-family: 'Nunito', 'Poppins', 'Inter', sans-serif;
     font-size: 28px;
     font-weight: 700;
     color: #ffffff !important;
@@ -1843,7 +2082,7 @@ body::before {
 
 /* Badge Slide */
 .badge-slide {
-    background: linear-gradient(135deg, #0d2b5e 0%, #1e3c72 25%, #2a5298 50%, #4a90e2 75%, #5ba0f2 100%);
+    background: linear-gradient(135deg, #E8F4F8 0%, #D1E7F0 25%, #B8D4E6 50%, #A0C4D8 75%, #8BB4CA 100%);
     overflow-y: auto;
     align-items: flex-start;
     justify-content: flex-start;
@@ -1957,7 +2196,7 @@ body::before {
 }
 
 .loading-title {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Nunito', 'Poppins', sans-serif;
     font-size: 28px;
     font-weight: 700;
     margin: 0;
@@ -2112,7 +2351,7 @@ body::before {
 }
 
 .share-title {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Nunito', 'Poppins', sans-serif;
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 15px;
@@ -2358,12 +2597,12 @@ body::before {
 }
 
 .household-title {
-    color: white;
+    color: #2C5F8B;
     font-size: 28px;
     font-weight: 800;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Nunito', 'Poppins', sans-serif;
     margin: 0;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    text-shadow: 0 2px 4px rgba(44, 95, 139, 0.1);
     animation: fadeInUp 0.8s ease-out;
 }
 
@@ -2379,11 +2618,11 @@ body::before {
     width: 140px;
     height: 140px;
     border-radius: 50%;
-    background: linear-gradient(135deg, #0066cc, #004499);
+    background: linear-gradient(135deg, #E91E63, #C2185B);
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 8px 25px rgba(233, 30, 99, 0.3);
     animation: badgePop 1.2s ease-out;
 }
 
@@ -2395,12 +2634,12 @@ body::before {
 }
 
 .badge-label {
-    color: white;
+    color: #2C5F8B;
     font-size: 24px;
     font-weight: 700;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Nunito', 'Poppins', sans-serif;
     margin: 0;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    text-shadow: 0 2px 4px rgba(44, 95, 139, 0.1);
     animation: slideInRight 0.8s ease-out 0.6s both;
 }
 
@@ -2413,14 +2652,14 @@ body::before {
 }
 
 .personality-word {
-    background: linear-gradient(135deg, #0066cc, #004499);
+    background: linear-gradient(135deg, #4A90E2, #2A5298);
     color: white;
     padding: 10px 20px;
     border-radius: 25px;
     font-size: 16px;
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
-    box-shadow: 0 4px 12px rgba(0, 102, 204, 0.3);
+    box-shadow: 0 4px 12px rgba(74, 144, 226, 0.3);
     border: 1px solid rgba(255, 255, 255, 0.2);
     animation: wordSlideIn 0.6s ease-out;
 }
@@ -2434,10 +2673,10 @@ body::before {
 }
 
 .compatible-with-title {
-    color: white;
+    color: #2C5F8B;
     font-size: 18px;
     font-weight: 600;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Nunito', 'Poppins', sans-serif;
     margin-bottom: 15px;
     opacity: 0.9;
 }
@@ -2474,7 +2713,7 @@ body::before {
 }
 
 .compatible-badge-small-name {
-    color: white;
+    color: #2C5F8B;
     font-size: 11px;
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
@@ -2527,7 +2766,7 @@ body::before {
     color: white;
     font-size: 32px;
     font-weight: 800;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Nunito', 'Poppins', sans-serif;
     margin: 0;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
     animation: slideInRight 0.8s ease-out;
@@ -2587,7 +2826,7 @@ body::before {
     color: white;
     font-size: 20px;
     font-weight: 600;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Nunito', 'Poppins', sans-serif;
     margin-bottom: 15px;
     opacity: 0.9;
 }
@@ -2780,7 +3019,7 @@ body::before {
 }
 
 .error-title {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Nunito', 'Inter', sans-serif;
     font-size: 28px;
     font-weight: 600;
     color: #2E5C8A;
@@ -2965,6 +3204,155 @@ body::before {
         font-size: 14px;
         line-height: 1.5;
         padding: 6px 0;
+    }
+    
+    /* Enhanced Letter Mobile Styles */
+    .letter-slide {
+        padding: 30px 15px;
+    }
+    
+    .letter-slide-header {
+        margin-bottom: 30px;
+    }
+    
+    .letter-title-icon {
+        font-size: 36px;
+    }
+    
+    .letter-slide-title {
+        font-size: 14px;
+    }
+    
+    .letter-title-decoration {
+        width: 60px;
+        height: 2px;
+    }
+    
+    .enhanced-letter-container {
+        max-width: 320px;
+    }
+    
+    .letter-paper {
+        padding: 25px 20px;
+        transform: rotate(-0.5deg);
+    }
+    
+    .letter-paper:hover {
+        transform: rotate(0deg) scale(1.01);
+    }
+    
+    .letter-text-content {
+        font-size: 18px;
+        line-height: 1.5;
+    }
+    
+    /* Enhanced Letter Structure Styles */
+    .letter-structure {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        max-width: 100%;
+    }
+    
+    .letter-greeting {
+        font-size: 22px;
+        font-weight: 600;
+        color: #052049;
+        margin-bottom: 10px;
+        font-family: 'Caveat', 'Segoe Print', 'Bradley Hand', cursive;
+    }
+    
+    .letter-body {
+        font-size: 20px;
+        line-height: 1.8;
+        color: #052049;
+        text-align: left;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+        margin-bottom: 20px;
+        font-family: 'Caveat', 'Segoe Print', 'Bradley Hand', cursive;
+    }
+    
+    .letter-paragraph {
+        margin-bottom: 15px;
+        text-indent: 0;
+    }
+    
+    .letter-signature {
+        font-size: 22px;
+        font-weight: 600;
+        color: #052049;
+        margin-top: 20px;
+        text-align: right;
+        font-family: 'Caveat', 'Segoe Print', 'Bradley Hand', cursive;
+    }
+    
+    /* Mobile Letter Structure Styles */
+    @media (max-width: 400px) {
+        .letter-structure {
+            gap: 15px;
+        }
+        
+        .letter-greeting {
+            font-size: 18px;
+            margin-bottom: 8px;
+        }
+        
+        .letter-body {
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+        
+        .letter-paragraph {
+            margin-bottom: 12px;
+        }
+        
+        .letter-signature {
+            font-size: 18px;
+            margin-top: 15px;
+        }
+    }
+    
+    .enhanced-letter-signature {
+        margin-top: 25px;
+        padding-top: 20px;
+    }
+    
+    .signature-line {
+        width: 80px;
+        margin-bottom: 15px;
+    }
+    
+    .signature-with-love {
+        font-size: 16px;
+    }
+    
+    .signature-family {
+        font-size: 22px;
+    }
+    
+    .signature-heart {
+        font-size: 20px;
+    }
+    
+    .paw-print {
+        font-size: 16px;
+    }
+    
+    .paw-print.paw-1 {
+        top: 15px;
+        left: 15px;
+    }
+    
+    .paw-print.paw-2 {
+        top: 45px;
+        right: 20px;
+    }
+    
+    .paw-print.paw-3 {
+        bottom: 30px;
+        left: 35px;
     }
 }
 
@@ -3716,7 +4104,7 @@ body::before {
 
 /* Stats Slide Styles */
 .stats-slide {
-    background: linear-gradient(135deg, #0d2b5e 0%, #1e3c72 25%, #2a5298 50%, #4a90e2 75%, #5ba0f2 100%);
+    background: linear-gradient(135deg, #FFE181 0%, #FFB3B3 25%, #A0E7E5 50%, #BDE0FE 75%, #FFCAD4 100%);
     position: relative;
     overflow: hidden;
     height: 100%;
@@ -3749,13 +4137,13 @@ body::before {
     display: block !important;
     visibility: visible !important;
     opacity: 1 !important;
-    color: #ffffff !important;
+    color: #3C3C3C !important;
     text-shadow: none !important;
     filter: none !important;
 }
 
 .stats-slide .slide-title {
-    color: #ffffff !important;
+    color: #3C3C3C !important;
     text-shadow: none !important;
     filter: none !important;
     font-family: 'Poppins', sans-serif !important;
@@ -3763,7 +4151,7 @@ body::before {
 }
 
 .stats-slide .slide-title .emoji {
-    color: #ffffff !important;
+    color: #4A1A1A !important;
 }
 
 .stats-slide::before {
@@ -3774,9 +4162,9 @@ body::before {
     right: 0;
     bottom: 0;
     background: 
-        radial-gradient(circle at 20% 80%, rgba(74, 144, 226, 0.1) 0%, transparent 50%),
-        radial-gradient(circle at 80% 20%, rgba(42, 82, 152, 0.1) 0%, transparent 50%),
-        radial-gradient(circle at 40% 40%, rgba(91, 160, 242, 0.1) 0%, transparent 50%);
+        radial-gradient(circle at 20% 80%, rgba(255, 225, 129, 0.2) 0%, transparent 50%),
+        radial-gradient(circle at 80% 20%, rgba(255, 179, 179, 0.2) 0%, transparent 50%),
+        radial-gradient(circle at 40% 40%, rgba(160, 231, 229, 0.2) 0%, transparent 50%);
     animation: statsGlow 8s ease-in-out infinite;
     z-index: 0;
 }
@@ -3810,17 +4198,17 @@ body::before {
 }
 
 .stat-card {
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1));
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.15));
     backdrop-filter: blur(20px);
-    border: 2px solid rgba(255, 255, 255, 0.4);
+    border: 2px solid rgba(60, 60, 60, 0.3);
     border-radius: 25px;
     padding: 30px 20px;
     text-align: center;
     transition: all 0.4s ease;
     box-shadow: 
-        0 12px 40px rgba(0, 0, 0, 0.3),
-        0 0 0 1px rgba(255, 255, 255, 0.2),
-        inset 0 1px 0 rgba(255, 255, 255, 0.1);
+        0 12px 40px rgba(60, 60, 60, 0.2),
+        0 0 0 1px rgba(255, 255, 255, 0.3),
+        inset 0 1px 0 rgba(255, 255, 255, 0.2);
     position: relative;
     overflow: hidden;
     animation: slideInFromBottom 0.8s ease-out;
@@ -3838,7 +4226,7 @@ body::before {
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(135deg, rgba(74, 144, 226, 0.1), rgba(42, 82, 152, 0.1));
+    background: linear-gradient(135deg, rgba(255, 225, 129, 0.15), rgba(255, 179, 179, 0.15));
     opacity: 0;
     transition: opacity 0.3s ease;
     z-index: 0;
@@ -3847,9 +4235,9 @@ body::before {
 .stat-card:hover {
     transform: translateY(-8px) scale(1.02);
     box-shadow: 
-        0 16px 48px rgba(0, 0, 0, 0.3),
-        0 0 0 1px rgba(255, 255, 255, 0.2);
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1));
+        0 16px 48px rgba(60, 60, 60, 0.25),
+        0 0 0 1px rgba(255, 255, 255, 0.4);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.2));
 }
 
 .stat-card:hover::before {
@@ -3859,9 +4247,9 @@ body::before {
 .stat-value {
     font-size: 32px;
     font-weight: 700;
-    color: #ffffff;
+    color: #3C3C3C;
     margin-bottom: 12px;
-    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+    text-shadow: 0 2px 8px rgba(60, 60, 60, 0.2);
     position: relative;
     z-index: 1;
     font-family: 'Poppins', sans-serif;
@@ -3869,7 +4257,7 @@ body::before {
 
 .stat-label {
     font-size: 16px;
-    color: rgba(255, 255, 255, 0.9);
+    color: #4A1A1A;
     line-height: 1.4;
     font-weight: 500;
     position: relative;
@@ -3879,7 +4267,7 @@ body::before {
 
 .stat-card .stat-product {
     font-size: 12px;
-    color: rgba(255, 255, 255, 0.7);
+    color: #00373C;
     margin-top: 8px;
     line-height: 1.3;
     position: relative;
@@ -3961,7 +4349,7 @@ body::before {
     color: #ffffff !important;
     text-shadow: none !important;
     filter: none !important;
-    font-family: 'Poppins', sans-serif !important;
+    font-family: 'Nunito', 'Poppins', sans-serif !important;
     font-weight: 600 !important;
 }
 
@@ -4001,6 +4389,6 @@ h2.slide-title,
     color: #ffffff !important;
     text-shadow: none !important;
     filter: none !important;
-    font-family: 'Poppins', sans-serif !important;
+    font-family: 'Nunito', 'Poppins', sans-serif !important;
     font-weight: 600 !important;
 } 

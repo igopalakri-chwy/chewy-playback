@@ -6,7 +6,7 @@
     <title>Chewy Playback - Generic Experience</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&family=Baloo+2:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&family=Baloo+2:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <style>
         * {
             margin: 0;
@@ -385,7 +385,29 @@
         }
 
         /* Loading */
+        .loading {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: white;
+            font-size: 24px;
+            font-family: 'Poppins', sans-serif;
+        }
 
+        .loading h2 {
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+
+        .loading p {
+            font-size: 18px;
+            opacity: 0.8;
+            text-transform: lowercase;
+        }
 
         /* Hearts Animation */
         .hearts-slide {
@@ -1819,7 +1841,7 @@
                             <div class="funfact-messages">
                             </div>
                             
-                            <div class="slide-counter">1 of 6</div>
+
                         </div>
                     </div>
 
@@ -1875,7 +1897,7 @@
                                 </div>
                                 
                             </div>
-                            <div class="slide-counter">2 of 6</div>
+
                         </div>
                     </div>
 
@@ -1885,7 +1907,7 @@
                             <h1 class="slide-title">Your Pet's Favorite Month</h1>
                             <div class="slide-value month-stat" id="cuddliest-month-value">N/A</div>
                             <p class="slide-description month-description">This was your busiest month with Chewy! 💕</p>
-                            <div class="slide-counter">3 of 6</div>
+
                         </div>
                     </div>
 
@@ -1970,7 +1992,6 @@
                             </div>
                             
                             <p class="slide-description">Your generous donations help pets in need find their forever homes. Thank you for making a difference! 🐾</p>
-                            <div class="slide-counter">4 of 6</div>
                         </div>
                     </div>
 
@@ -1990,7 +2011,7 @@
                                 </div>
                             </div>
                             <p class="slide-description">This milestone’s just the beginning.</p>
-                            <div class="slide-counter">5 of 7</div>
+
                         </div>
                     </div>
 
@@ -2008,14 +2029,13 @@
                             <p class="slide-description product-name" id="most-ordered-text">No data available</p>
                             
                             <p class="slide-description product-tagline">Some things are just too good not to repeat.</p>
-                            <div class="slide-counter product-counter">6 of 7</div>
+
                         </div>
                     </div>
 
                     <!-- Savings from Autoship Slide -->
                     <div class="slide" id="slide-7">
                         <div class="slide-content">
-                            <div class="slide-counter">7 of 8</div>
                             <h2 class="autoship-title">Autoship savings</h2>
                             <p class="autoship-message">Convenience has its perks. Here's how much it saved you.</p>
                             <div class="autoship-number" id="autoship-savings-value">
@@ -2242,7 +2262,7 @@
                     </button>
                             </div>
                             
-                            <div class="slide-counter">7 of 8</div>
+
                         </div>
                     </div>
 
@@ -2260,7 +2280,7 @@
                                 <div class="paw-print paw-7">🐾</div>
                                 <div class="paw-print paw-8">🐾</div>
                             </div>
-                            <div class="slide-counter">8 of 9</div>
+
                         </div>
                     </div>
 
@@ -2271,7 +2291,7 @@
                             <div class="slide-value final-emoji">🐾</div>
                             <p class="slide-description final-desc-1">Create your pet profiles for a personalized playback next year!</p>
                             <p class="slide-description final-desc-2">Add your pets' information to get a fully customized experience with personality badges, breed predictions, and personalized letters.</p>
-                            <div class="slide-counter final-counter">9 of 9</div>
+
                         </div>
                     </div>
                 </div>

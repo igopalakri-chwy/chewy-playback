@@ -409,6 +409,53 @@ def format_breed_name_simple_filter(breed_name):
     
     return formatted
 
+@app.template_filter('reorder_breeds_for_french_bulldog')
+def reorder_breeds_for_french_bulldog_filter(breed_distribution):
+    """Reorder breed predictions so French Bulldog appears in the middle"""
+    if not breed_distribution:
+        return breed_distribution
+    
+    # Convert to list of tuples for easier manipulation
+    breeds = list(breed_distribution.items())
+    
+    # Find French Bulldog (check for various possible keys)
+    french_bulldog_key = None
+    for breed_key, percentage in breeds:
+        if (breed_key.lower() in ['frenchbulldog', 'french_bulldog', 'french bulldog'] or 
+            format_breed_name_simple_filter(breed_key).lower() == 'french bulldog'):
+            french_bulldog_key = breed_key
+            break
+    
+    if not french_bulldog_key:
+        # If French Bulldog not found, return original order
+        return breed_distribution
+    
+    # Remove French Bulldog from the list
+    breeds_without_french = [(k, v) for k, v in breeds if k != french_bulldog_key]
+    french_bulldog_percentage = breed_distribution[french_bulldog_key]
+    
+    # Calculate middle position
+    total_breeds = len(breeds)
+    middle_index = total_breeds // 2
+    
+    # Create new ordered list
+    reordered_breeds = []
+    
+    # Add breeds before French Bulldog
+    for i in range(middle_index):
+        if i < len(breeds_without_french):
+            reordered_breeds.append(breeds_without_french[i])
+    
+    # Add French Bulldog in the middle
+    reordered_breeds.append((french_bulldog_key, french_bulldog_percentage))
+    
+    # Add remaining breeds after French Bulldog
+    for i in range(middle_index, len(breeds_without_french)):
+        reordered_breeds.append(breeds_without_french[i])
+    
+    # Convert back to dictionary
+    return dict(reordered_breeds)
+
 @app.route('/')
 def index():
     """Landing page with customer ID input and list of all customers"""
