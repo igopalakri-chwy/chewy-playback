@@ -1831,13 +1831,13 @@
                                 <h2 class="slide-title" style="text-align: center; margin: 0; font-family: 'Baloo 2', sans-serif; font-weight: 600;">
                                     Total Food Consumed
                                 </h2>
-                            </div>
+                        </div>
                             
                             <div class="spotify-wrapped-container">
                                 <div class="wrapped-number" id="food-number">0<span class="unit-text">lbs</span></div>
                                 <div class="wrapped-text-line">to be exact.</div>
-                            </div>
-                            
+                    </div>
+
                             <div class="funfact-messages">
                             </div>
                             
@@ -2003,11 +2003,11 @@
                                 <div class="calendar">
                                     <div class="calendar-top">
                                         <div class="calendar-header">📅</div>
-                                    </div>
+                        </div>
                                     <div class="calendar-body">
                                         <div class="calendar-number" id="calendar-number">0</div>
                                         <div class="calendar-label">months</div>
-                                    </div>
+                    </div>
                                 </div>
                             </div>
                             <p class="slide-description">This milestone’s just the beginning.</p>
@@ -2212,60 +2212,60 @@
                                 </h2>
                             </div>
                             
-                            <div class="enhanced-share-text">
+                                    <div class="enhanced-share-text">
                                 <p style="color: white; font-size: 16px; margin-bottom: 25px; opacity: 0.9;">
                                     Tap to select which features you'd like to share:
                                 </p>
-                            </div>
-                            
+                                    </div>
+                                    
                             <div class="feature-selection-grid">
                                 <div class="feature-card" data-feature="food" onclick="toggleFeature('food')">
                                     <div class="feature-icon">🍽️</div>
                                     <div class="feature-label">Food Consumed</div>
                                     <div class="feature-value" id="food-share-value">0 lbs</div>
-                                </div>
+                                            </div>
                                 
                                 <div class="feature-card" data-feature="donations" onclick="toggleFeature('donations')">
                                     <div class="feature-icon">💝</div>
                                     <div class="feature-label">Donations</div>
                                     <div class="feature-value" id="donations-share-value">$0.00</div>
-                                </div>
-                                
+                                        </div>
+                                        
                                 <div class="feature-card" data-feature="milestone" onclick="toggleFeature('milestone')">
                                     <div class="feature-icon">🎯</div>
                                     <div class="feature-label">Months with Chewy</div>
                                     <div class="feature-value" id="milestone-share-value">0</div>
-                                </div>
+                                            </div>
                                 
                                 <div class="feature-card" data-feature="most-ordered" onclick="toggleFeature('most-ordered')">
                                     <div class="feature-icon">🏆</div>
                                     <div class="feature-label">Most Ordered</div>
                                     <div class="feature-value" id="most-ordered-share-value">N/A</div>
-                                </div>
-                                
+                                        </div>
+                                        
                                 <div class="feature-card" data-feature="autoship" onclick="toggleFeature('autoship')">
                                     <div class="feature-icon">💰</div>
                                     <div class="feature-label">Autoship Savings</div>
                                     <div class="feature-value" id="autoship-share-value">$0.00</div>
-                                </div>
-                                
+                                        </div>
+                                        
                                 <div class="feature-card" data-feature="cuddliest-month" onclick="toggleFeature('cuddliest-month')">
                                     <div class="feature-icon">💕</div>
                                     <div class="feature-label">Favorite Month</div>
                                     <div class="feature-value" id="cuddliest-month-share-value">N/A</div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="enhanced-share-cta">
+                                                    <button class="enhanced-share-btn" onclick="showIOSShareSheet()">
+                        <span class="enhanced-share-text">Share</span>
+                                        </button>
+                                    </div>
+                            
+
                                 </div>
                             </div>
                             
-                            <div class="enhanced-share-cta">
-                                                    <button class="enhanced-share-btn" onclick="showIOSShareSheet()">
-                        <span class="enhanced-share-text">Share</span>
-                    </button>
-                            </div>
-                            
-
-                        </div>
-                    </div>
-
                     <!-- Wait There's More Slide -->
                     <div class="slide" id="slide-9">
                         <div class="slide-content">
@@ -2295,7 +2295,7 @@
                         </div>
                     </div>
                 </div>
-                            </div>
+            </div>
 
             <!-- iOS-Style Share Sheet -->
             <div id="ios-share-overlay" class="ios-share-overlay">
@@ -2389,10 +2389,10 @@
                 </div>
             </div>
         </div>
-            </div>
         </div>
+    </div>
 
-        <script>
+    <script>
         let currentSlide = 1;
         let totalSlides = 9; // Updated to 9 to include all slides including the new hearts slide
         let customerData = null;
@@ -2512,12 +2512,12 @@
         // Get customer data from Flask template
         window.addEventListener('load', () => {
             try {
-                // Customer data is passed from Flask template
-                customerData = JSON.parse('{{ customer_data | tojson | safe }}');
+            // Customer data is passed from Flask template
+            customerData = JSON.parse('{{ customer_data | tojson | safe }}');
                 console.log('📊 Customer data loaded:', customerData);
-                populateSlides();
+            populateSlides();
                 populateFeatureValues();
-                showSlides();
+            showSlides();
                 showSlide(1);
             } catch (error) {
                 console.error('❌ Error loading customer data:', error);
@@ -2631,7 +2631,7 @@
                         
                         let messagesToShow = [];
                         
-                        if (funFacts.length > 0) {
+                if (funFacts.length > 0) {
                             // Use fun facts from food_fun_fact.json
                             messagesToShow = funFacts;
                         } else {

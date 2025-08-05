@@ -210,7 +210,7 @@ body {
                 opacity: 0;
                 transform: translate(-50%, -50%) scale(0.8);
             }
-        }
+}
 
 .container {
     width: 100%;
@@ -256,11 +256,19 @@ body {
     position: relative;
 }
 
+
+
+/* Remove bottom padding from share button section */
+.share-cta-section {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+}
+
 /* Special handling for breed slide content */
 .breed-slide .slide-content {
     overflow-y: auto;
     height: 100%;
-    padding: 40px 25px 120px 25px;
+    padding: 40px 25px 100px 25px;
     position: relative;
     z-index: 1;
 }
@@ -1741,16 +1749,7 @@ body {
     overflow: hidden;
 }
 
-.enhanced-share-content::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: linear-gradient(135deg, rgba(74, 144, 226, 0.1), rgba(42, 82, 152, 0.1));
-    pointer-events: none;
-}
+
 
 .enhanced-share-text {
     text-align: center;
@@ -1788,17 +1787,7 @@ body {
     min-height: 90px;
 }
 
-.enhanced-social-card::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05));
-    opacity: 0;
-    transition: opacity 0.3s ease;
-}
+
 
 .enhanced-social-card:hover {
     transform: translateY(-8px) scale(1.05);
@@ -1806,9 +1795,7 @@ body {
     border-color: rgba(255, 255, 255, 0.4);
 }
 
-.enhanced-social-card:hover::before {
-    opacity: 1;
-}
+
 
 .enhanced-social-icon {
     margin-bottom: 8px;
@@ -1873,7 +1860,7 @@ body {
     background: linear-gradient(135deg, #4a90e2, #2a5298);
     color: white;
     border: none;
-    padding: 15px 32px;
+    padding: 0px 15px;
     border-radius: 25px;
     font-size: 16px;
     font-weight: 700;
@@ -1883,26 +1870,14 @@ body {
     box-shadow: 0 6px 20px rgba(74, 144, 226, 0.4);
     display: flex;
     align-items: center;
-    gap: 10px;
     margin: 0 auto;
     position: relative;
     overflow: hidden;
 }
 
-.enhanced-share-btn::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
-    transition: left 0.5s ease;
-}
 
-.enhanced-share-btn:hover::before {
-    left: 100%;
-}
+
+
 
 .enhanced-share-btn:hover {
     transform: translateY(-3px) scale(1.05);
@@ -2000,7 +1975,7 @@ body {
     background: linear-gradient(135deg, #4a90e2, #2a5298);
     color: white;
     border: none;
-    padding: 15px 30px;
+    padding: 0px 10px;
     border-radius: 25px;
     font-size: 16px;
     font-weight: 600;
@@ -2025,7 +2000,7 @@ body {
 }
 
 .share-btn-text {
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 600;
 }
 
@@ -2548,13 +2523,13 @@ body {
             <div class="spotify-wrapped-container" style="text-align: center; width: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center;">
                 <div class="wrapped-number" id="food-number" style="color: #4A1A1A; font-size: 48px; font-weight: 900; margin-bottom: 10px; text-align: center; width: 100%; display: flex; justify-content: center; align-items: center; gap: 8px;">{{ customer_data.food_fun_fact.total_food_lbs }}<span class="unit-text" style="font-size: 32px; color: #4A1A1A; font-weight: 900; display: inline-block;">lbs</span></div>
                 <div class="wrapped-text-line" style="color: #3C3C3C; font-size: 18px; font-weight: 600; text-align: center; width: 100%;">to be exact.</div>
-            </div>
+                </div>
             
-            {% if customer_data.food_fun_fact.fun_facts %}
-                {% for fun_fact in customer_data.food_fun_fact.fun_facts %}
+                    {% if customer_data.food_fun_fact.fun_facts %}
+                    {% for fun_fact in customer_data.food_fun_fact.fun_facts %}
                 <p style="color: #3C3C3C; font-size: 16px; font-weight: 600; text-align: center; margin: 10px 0;">{{ fun_fact }}</p>
-                {% endfor %}
-            {% endif %}
+                    {% endfor %}
+                    {% endif %}
             
 
         </div>
@@ -2564,14 +2539,9 @@ body {
     <!-- Slide 2: AI Portrait -->
     {% if customer_data.portrait %}
     <div class="slide" id="slide-2">
-        <div class="slide-content portrait-slide" style="display: flex; flex-direction: column; justify-content: flex-start; align-items: center; min-height: 100vh; padding: 0; background: #FFB3B3; position: relative; overflow: hidden;">
+        <div class="slide-content portrait-slide" style="display: flex; flex-direction: column; justify-content: flex-start; align-items: center; min-height: 100vh; padding: 0; background: #FFB3B3; position: relative; overflow: hidden; overflow-y: hidden;">
             
-            <!-- Animated background elements -->
-            <div class="portrait-bg-elements" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; z-index: 1;">
-                <div class="bg-circle" style="position: absolute; top: 10%; right: 10%; width: 120px; height: 120px; background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.05) 70%); border-radius: 50%; animation: float 6s ease-in-out infinite;"></div>
-                <div class="bg-circle" style="position: absolute; bottom: 20%; left: 15%; width: 80px; height: 80px; background: radial-gradient(circle, rgba(255,255,255,0.08) 0%, rgba(255,255,255,0.03) 70%); border-radius: 50%; animation: float 8s ease-in-out infinite 2s;"></div>
-                <div class="bg-circle" style="position: absolute; top: 60%; right: 20%; width: 60px; height: 60px; background: radial-gradient(circle, rgba(255,255,255,0.06) 0%, rgba(255,255,255,0.02) 70%); border-radius: 50%; animation: float 7s ease-in-out infinite 4s;"></div>
-            </div>
+
             
             <!-- Title at the top -->
             <div class="slide-header" style="text-align: center; position: relative; z-index: 2; margin-top: 100px; margin-bottom: 20px;">
@@ -2581,7 +2551,7 @@ body {
             </div>
             
             <!-- Portrait image centered in remaining space -->
-            <div style="flex: 1; display: flex; align-items: center; justify-content: center; width: 100%;">
+            <div style="display: flex; align-items: center; justify-content: center; width: 100%; height: auto;">
                 <img src="{{ customer_data.portrait }}" alt="Pet Portrait" class="portrait-image-fullscreen" style="width: auto; height: auto; max-width: 90%; max-height: 70vh; object-fit: contain; display: block; margin: 0 auto;">
             </div>
         </div>
@@ -2628,20 +2598,20 @@ body {
     <!-- Slide 4: Enhanced Letter from Pets -->
     {% if customer_data.pet_letters %}
     <div class="slide" id="slide-3">
-        <div class="slide-content letter-slide" style="background: #BDE0FE; color: #052049; overflow-y: auto; padding-top: 40px;">
+                        <div class="slide-content letter-slide" style="background: #BDE0FE; color: #052049; overflow-y: auto; padding: 120px 25px 60px 25px; height: 100%;">
             <!-- Enhanced title with decorative elements -->
-            <div class="letter-slide-header" style="margin-top: 120px; margin-bottom: 40px; padding: 20px 0;">
+            <div class="letter-slide-header" style="margin-top: 0; margin-bottom: 40px; padding: 75px 0;">
                 <div class="letter-title-container">
                     <h2 class="letter-slide-title" style="color: #052049 !important; font-size: 28px; font-weight: 800; text-align: center; margin: 0; font-family: 'Nunito', sans-serif; text-shadow: 0 2px 4px rgba(5,32,73,0.1); letter-spacing: 0.5px; position: relative; z-index: 10;"><strong>Letter from your pets</strong></h2>
                     <div class="letter-title-decoration"></div>
-                </div>
+            </div>
             </div>
             <!-- Letter content with proper letter formatting -->
             <div class="enhanced-letter-content" style="color: #052049; max-width: 700px; margin: 0 auto; font-size: 20px; line-height: 1.8; font-family: 'Caveat', 'Segoe Print', 'Bradley Hand', cursive; background: none; box-shadow: none; padding: 0;">
                 {% if customer_data.pet_letters %}
-                    {% set letter_text = customer_data.pet_letters %}
-                    {% if letter_text %}
-                        {% set lines = letter_text.split('\n') %}
+                {% set letter_text = customer_data.pet_letters %}
+                {% if letter_text %}
+                    {% set lines = letter_text.split('\n') %}
                         {% set clean_lines = [] %}
                         {% set greeting_found = false %}
                         {% set signature_found = false %}
@@ -2649,7 +2619,7 @@ body {
                         {% set greeting = '' %}
                         {% set signature = '' %}
                         
-                        {% for line in lines %}
+                    {% for line in lines %}
                             {% if line.strip() and not line.startswith('Collective Letter from All Pets for Customer') and not line.startswith('=') %}
                                 {% set clean_line = line.strip() %}
                                 
@@ -2669,15 +2639,15 @@ body {
                                         {% set _ = body_lines.append(clean_line + '.') %}
                                     {% endif %}
                                 {% endif %}
-                            {% endif %}
-                        {% endfor %}
+                        {% endif %}
+                    {% endfor %}
                         
                         <!-- Proper letter structure -->
                         <div class="letter-structure" style="display: flex; flex-direction: column; gap: 20px;">
                             <!-- Greeting -->
                             {% if greeting %}
                                 <div class="letter-greeting" style="font-size: 22px; font-weight: 600; color: #052049; margin-bottom: 10px;">{{ greeting }}</div>
-                            {% endif %}
+                {% endif %}
                             
                             <!-- Body paragraphs -->
                             {% if body_lines %}
@@ -2685,7 +2655,7 @@ body {
                                     {% for line in body_lines %}
                                         <div class="letter-paragraph" style="margin-bottom: 15px;">{{ line }}</div>
                                     {% endfor %}
-                                </div>
+            </div>
                             {% endif %}
                             
                             <!-- Signature -->
@@ -2703,8 +2673,9 @@ body {
     <!-- Slide 4: Personality Badge -->
     {% if customer_data.badge %}
     <div class="slide" id="slide-4">
-        <div class="slide-content badge-slide" style="background: #FFCAD4; color: #5A1C2E;">
-            <div class="household-personality-container" style="padding: 0; gap: 20px;">
+        <div class="slide-content badge-slide" style="background: #FFCAD4; color: #5A1C2E; height: 100%; overflow: hidden;">
+            <div class="household-personality-container" style="padding: 0px; gap: 0
+            px;">
                 <!-- Large bold title -->
                 <h1 class="household-title" style="margin-top: 0; color: #5A1C2E;"><strong>Household Personality for Your Pets</strong></h1>
                 
@@ -2744,10 +2715,10 @@ body {
             
                 <!-- Call-to-action button -->
                 <div class="share-cta-section">
-                    <button class="share-cta-button" onclick="shareToSocial('facebook')" style="background: linear-gradient(135deg, #E91E63, #C2185B); color: white; border: none; padding: 15px 30px; border-radius: 25px; font-size: 16px; font-weight: 600; font-family: 'Poppins', sans-serif; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 4px 12px rgba(233, 30, 99, 0.3); display: flex; align-items: center; gap: 10px; margin: 0 auto;">
+                    <button class="share-cta-button" onclick="shareToSocial('facebook')">
                         Share to discover your pet's friends
-                    </button>
-                </div>
+                </button>
+            </div>
             </div>
         </div>
     </div>
@@ -2762,30 +2733,30 @@ body {
                 <div style="text-align: center; margin-bottom: 40px;">
                     <div style="width: 80px; height: 80px; background: linear-gradient(135deg, #10B981, #059669); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; box-shadow: 0 8px 32px rgba(16, 185, 129, 0.3);">
                         <span style="font-size: 32px; color: white;">🐕</span>
-                    </div>
+            </div>
                     <h2 class="slide-title" style="margin: 0 0 12px 0; font-family: 'Nunito', sans-serif; font-weight: 800; font-size: 32px; color: #1C3A2E; text-shadow: 0 2px 4px rgba(28, 58, 46, 0.1);">
                         <strong>Our Breed Predictions</strong>
-                    </h2>
+                </h2>
                     <p class="breed-highlight-text" style="margin: 0; font-family: 'Poppins', sans-serif; font-size: 16px; color: #1C3A2E; font-weight: 500; opacity: 0.9;">
                         We analyzed <strong style="color: #1C3A2E; font-weight: 700;">
-                            {% if customer_data.breed_prediction.multiple_predictions %}
-                                {{ customer_data.breed_prediction.multiple_predictions[0].pet_name }}
-                            {% elif customer_data.breed_prediction.pet_name %}
-                                {{ customer_data.breed_prediction.pet_name }}
-                            {% else %}
-                                your pet
-                            {% endif %}
+                                {% if customer_data.breed_prediction.multiple_predictions %}
+                                    {{ customer_data.breed_prediction.multiple_predictions[0].pet_name }}
+                                {% elif customer_data.breed_prediction.pet_name %}
+                                    {{ customer_data.breed_prediction.pet_name }}
+                                {% else %}
+                                    your pet
+                                {% endif %}
                         </strong>'s characteristics
-                    </p>
-                </div>
-                
+                        </p>
+                    </div>
+                    
                 <!-- Enhanced Breed Predictions Grid -->
                 <div style="display: flex; flex-direction: column; gap: 16px; margin-bottom: 40px;">
                     <!-- First row: 2 boxes -->
                     <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; max-width: 400px; margin: 0 auto;">
                         {% if customer_data.breed_prediction.multiple_predictions %}
-                            {% set first_prediction = customer_data.breed_prediction.multiple_predictions[0] %}
-                            {% if first_prediction.prediction and first_prediction.prediction.breed_distribution %}
+                                {% set first_prediction = customer_data.breed_prediction.multiple_predictions[0] %}
+                                {% if first_prediction.prediction and first_prediction.prediction.breed_distribution %}
                                 {% set reordered_breeds = first_prediction.prediction.breed_distribution | reorder_breeds_for_french_bulldog %}
                                 {% set breeds_list = reordered_breeds.items() | list %}
                                 {% for breed_name, percentage in breeds_list[:2] %}
@@ -2793,9 +2764,9 @@ body {
                                     <div class="breed-card-checkbox" style="position: absolute; top: 8px; right: 8px; width: 20px; height: 20px; background: #e5e7eb; border-radius: 50%; display: none; align-items: center; justify-content: center; color: #6b7280; font-size: 12px; font-weight: bold; border: 2px solid #d1d5db; transition: all 0.2s ease;">○</div>
                                     <div style="color: #1C3A2E; font-size: 14px; font-weight: 700; margin-bottom: 8px; text-transform: capitalize; line-height: 1.3;">{{ breed_name | format_breed_name_simple }}</div>
                                     <div style="color: #10B981; font-size: 18px; font-weight: 800; background: linear-gradient(135deg, #10B981, #059669); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">{{ "%.0f"|format(percentage) }}%</div>
-                                </div>
-                                {% endfor %}
-                    </div>
+                            </div>
+                            {% endfor %}
+                            </div>
                     <!-- Second row: 3rd box centered -->
                     {% if breeds_list | length > 2 %}
                     <div style="display: flex; justify-content: center;">
@@ -2804,7 +2775,7 @@ body {
                             <div class="breed-card-checkbox" style="position: absolute; top: 8px; right: 8px; width: 20px; height: 20px; background: #e5e7eb; border-radius: 50%; display: none; align-items: center; justify-content: center; color: #6b7280; font-size: 12px; font-weight: bold; border: 2px solid #d1d5db; transition: all 0.2s ease;">○</div>
                             <div style="color: #1C3A2E; font-size: 14px; font-weight: 700; margin-bottom: 8px; text-transform: capitalize; line-height: 1.3;">{{ third_breed[0] | format_breed_name_simple }}</div>
                             <div style="color: #10B981; font-size: 18px; font-weight: 800; background: linear-gradient(135deg, #10B981, #059669); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">{{ "%.0f"|format(third_breed[1]) }}%</div>
-                        </div>
+                    </div>
                     </div>
                     {% endif %}
                             {% else %}
@@ -2812,10 +2783,10 @@ body {
                                     <div class="breed-card-checkbox" style="position: absolute; top: 8px; right: 8px; width: 20px; height: 20px; background: #e5e7eb; border-radius: 50%; display: none; align-items: center; justify-content: center; color: #6b7280; font-size: 12px; font-weight: bold; border: 2px solid #d1d5db; transition: all 0.2s ease;">○</div>
                                     <div style="color: #1C3A2E; font-size: 14px; font-weight: 700; margin-bottom: 8px; text-transform: capitalize; line-height: 1.3;">{{ first_prediction.predicted_breed }}</div>
                                     <div style="color: #10B981; font-size: 18px; font-weight: 800; background: linear-gradient(135deg, #10B981, #059669); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">100%</div>
-                                </div>
-                            {% endif %}
-                        {% elif customer_data.breed_prediction.prediction %}
-                            {% if customer_data.breed_prediction.prediction.breed_distribution %}
+                        </div>
+                                {% endif %}
+                            {% elif customer_data.breed_prediction.prediction %}
+                                {% if customer_data.breed_prediction.prediction.breed_distribution %}
                                 {% set reordered_breeds = customer_data.breed_prediction.prediction.breed_distribution | reorder_breeds_for_french_bulldog %}
                                 {% set breeds_list = reordered_breeds.items() | list %}
                                 {% for breed_name, percentage in breeds_list[:2] %}
@@ -2825,7 +2796,7 @@ body {
                                     <div style="color: #10B981; font-size: 18px; font-weight: 800; background: linear-gradient(135deg, #10B981, #059669); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">{{ "%.0f"|format(percentage) }}%</div>
                                 </div>
                                 {% endfor %}
-                    </div>
+                                            </div>
                     <!-- Second row: 3rd box centered -->
                     {% if breeds_list | length > 2 %}
                     <div style="display: flex; justify-content: center;">
@@ -2834,23 +2805,23 @@ body {
                             <div class="breed-card-checkbox" style="position: absolute; top: 8px; right: 8px; width: 20px; height: 20px; background: #e5e7eb; border-radius: 50%; display: none; align-items: center; justify-content: center; color: #6b7280; font-size: 12px; font-weight: bold; border: 2px solid #d1d5db; transition: all 0.2s ease;">○</div>
                             <div style="color: #1C3A2E; font-size: 14px; font-weight: 700; margin-bottom: 8px; text-transform: capitalize; line-height: 1.3;">{{ third_breed[0] | format_breed_name_simple }}</div>
                             <div style="color: #10B981; font-size: 18px; font-weight: 800; background: linear-gradient(135deg, #10B981, #059669); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">{{ "%.0f"|format(third_breed[1]) }}%</div>
-                        </div>
-                    </div>
-                    {% endif %}
+                                        </div>
+                                </div>
+                            {% endif %}
                             {% else %}
                                 <div onclick="handleBreedCardClick(event)" data-breed="{{ customer_data.breed_prediction.predicted_breed }}" data-pet="{{ customer_data.breed_prediction.pet_name }}" data-confidence="100" data-explanation="No explanation available" style="background: rgba(255, 255, 255, 0.95); border-radius: 16px; padding: 20px 16px; text-align: center; cursor: pointer; border: 2px solid rgba(16, 185, 129, 0.1); position: relative; transition: all 0.3s ease; box-shadow: 0 4px 20px rgba(28, 58, 46, 0.08); backdrop-filter: blur(10px);">
                                     <div class="breed-card-checkbox" style="position: absolute; top: 8px; right: 8px; width: 20px; height: 20px; background: #e5e7eb; border-radius: 50%; display: none; align-items: center; justify-content: center; color: #6b7280; font-size: 12px; font-weight: bold; border: 2px solid #d1d5db; transition: all 0.2s ease;">○</div>
                                     <div style="color: #1C3A2E; font-size: 14px; font-weight: 700; margin-bottom: 8px; text-transform: capitalize; line-height: 1.3;">{{ customer_data.breed_prediction.predicted_breed }}</div>
                                     <div style="color: #10B981; font-size: 18px; font-weight: 800; background: linear-gradient(135deg, #10B981, #059669); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">100%</div>
-                                </div>
+                        </div>
                             {% endif %}
                         {% else %}
                             <div onclick="handleBreedCardClick(event)" data-breed="{{ customer_data.breed_prediction.predicted_breed }}" data-pet="Unknown" data-confidence="100" data-explanation="No explanation available" style="background: rgba(255, 255, 255, 0.95); border-radius: 16px; padding: 20px 16px; text-align: center; cursor: pointer; border: 2px solid rgba(16, 185, 129, 0.1); position: relative; transition: all 0.3s ease; box-shadow: 0 4px 20px rgba(28, 58, 46, 0.08); backdrop-filter: blur(10px);">
                                 <div class="breed-card-checkbox" style="position: absolute; top: 8px; right: 8px; width: 20px; height: 20px; background: #e5e7eb; border-radius: 50%; display: none; align-items: center; justify-content: center; color: #6b7280; font-size: 12px; font-weight: bold; border: 2px solid #d1d5db; transition: all 0.2s ease;">○</div>
                                 <div style="color: #1C3A2E; font-size: 14px; font-weight: 700; margin-bottom: 8px; text-transform: capitalize; line-height: 1.3;">{{ customer_data.breed_prediction.predicted_breed }}</div>
                                 <div style="color: #10B981; font-size: 18px; font-weight: 800; background: linear-gradient(135deg, #10B981, #059669); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">100%</div>
-                            </div>
-                        {% endif %}
+                                </div>
+                            {% endif %}
                     </div>
                     
                     <!-- Step 2: Enhanced Question Section -->
@@ -2858,27 +2829,22 @@ body {
                         <!-- Decorative background elements -->
                         <div style="position: absolute; top: -50%; left: -50%; width: 200%; height: 200%; background: radial-gradient(circle at 30% 70%, rgba(28, 58, 46, 0.03) 0%, transparent 50%), radial-gradient(circle at 70% 30%, rgba(44, 95, 139, 0.02) 0%, transparent 50%); pointer-events: none;"></div>
                         
-                        <!-- Question Icon -->
-                        <div style="margin-bottom: 16px; position: relative; z-index: 2;">
-                            <div style="width: 48px; height: 48px; background: linear-gradient(135deg, #10B981, #059669); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 12px; box-shadow: 0 4px 16px rgba(16, 185, 129, 0.3);">
-                                <span style="font-size: 20px; color: white;">🤔</span>
-                            </div>
-                        </div>
-                        
+
+                    
                         <!-- Question Content -->
                         <div style="margin-bottom: 20px; position: relative; z-index: 2;">
-                            <h4 class="breed-question-title" style="color: #1C3A2E; font-size: 22px; font-weight: 700; margin: 0 0 6px 0; font-family: 'Poppins', sans-serif; letter-spacing: -0.3px;">Did we get any right?</h4>
+                            <h4 class="breed-question-title" style="color: #1C3A2E; font-size: 18px; font-weight: 700; margin: 0 0 6px 0; font-family: 'Poppins', sans-serif; letter-spacing: -0.3px;">Did we get any right?</h4>
                             <p style="color: #6B7280; font-size: 15px; margin: 0; font-family: 'Poppins', sans-serif; font-weight: 500; line-height: 1.5; opacity: 0.8;">Help us improve our predictions</p>
                         </div>
                         
                         <!-- Enhanced Buttons -->
                         <div class="breed-question-buttons" style="display: flex; justify-content: center; gap: 8px; position: relative; z-index: 2;">
-                            <button class="breed-question-btn breed-yes-btn" onclick="handleBreedYes()" style="background: linear-gradient(135deg, #10B981, #059669); color: white; border: none; border-radius: 12px; padding: 8px 16px; cursor: pointer; transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); display: flex; align-items: center; gap: 6px; font-size: 14px; font-weight: 600; font-family: 'Poppins', sans-serif; box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3); min-width: 80px; position: relative; overflow: hidden;">
+                            <button class="breed-question-btn breed-yes-btn" onclick="handleBreedYes()" style="background: linear-gradient(135deg, #10B981, #059669); color: white; border: none; border-radius: 12px; padding: 8px 16px; cursor: pointer; transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); display: flex; align-items: center; gap: 6px; font-size: 14px; font-weight: 700; font-family: 'Poppins', sans-serif; box-shadow: 0 4px 12px rgba(16, 185, 129, 0.4); min-width: 80px; position: relative; overflow: hidden;">
                                 <span class="breed-btn-emoji" style="font-size: 14px; filter: drop-shadow(0 1px 2px rgba(0,0,0,0.1));">✅</span>
                                 <span class="breed-btn-text">Yes</span>
                                 <div style="position: absolute; top: 0; left: -100%; width: 100%; height: 100%; background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent); transition: left 0.5s ease;"></div>
                             </button>
-                            <button class="breed-question-btn breed-no-btn" onclick="handleBreedNo()" style="background: linear-gradient(135deg, #EF4444, #DC2626); color: white; border: none; border-radius: 12px; padding: 8px 16px; cursor: pointer; transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); display: flex; align-items: center; gap: 6px; font-size: 14px; font-weight: 600; font-family: 'Poppins', sans-serif; box-shadow: 0 4px 12px rgba(239, 68, 68, 0.3); min-width: 80px; position: relative; overflow: hidden;">
+                            <button class="breed-question-btn breed-no-btn" onclick="handleBreedNo()" style="background: linear-gradient(135deg, #EF4444, #DC2626); color: white; border: none; border-radius: 12px; padding: 8px 16px; cursor: pointer; transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); display: flex; align-items: center; gap: 6px; font-size: 14px; font-weight: 700; font-family: 'Poppins', sans-serif; box-shadow: 0 4px 12px rgba(239, 68, 68, 0.4); min-width: 80px; position: relative; overflow: hidden;">
                                 <span class="breed-btn-emoji" style="font-size: 14px; filter: drop-shadow(0 1px 2px rgba(0,0,0,0.1));">❌</span>
                                 <span class="breed-btn-text">No</span>
                                 <div style="position: absolute; top: 0; left: -100%; width: 100%; height: 100%; background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent); transition: left 0.5s ease;"></div>
@@ -2896,190 +2862,44 @@ body {
                         </button>
                     </div>
                     
-                    <!-- Step 3: No Response -->
+                                    <!-- Step 3: No Response -->
                     <div class="breed-no-response" id="breed-no-response" style="display: none; text-align: center; margin-top: 20px; padding: 24px 20px; background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(248, 250, 252, 0.95) 100%); border-radius: 18px; box-shadow: 0 8px 32px rgba(44, 95, 139, 0.08); border: 1px solid rgba(255, 255, 255, 0.8); backdrop-filter: blur(10px);">
-                        <div class="breed-no-content">
+                    <div class="breed-no-content">
                             <div style="margin-bottom: 20px;">
                                 <h4 class="breed-no-title" style="color: #2C5F8B; font-size: 20px; font-weight: 700; margin: 0 0 8px 0; font-family: 'Poppins', sans-serif; letter-spacing: -0.5px;">We thought we had it 😢</h4>
                                 <p class="breed-no-message" style="color: #6B7280; font-size: 14px; margin: 0; font-family: 'Poppins', sans-serif; font-weight: 400; line-height: 1.4;">Help us improve our predictions by completing your pet profiles</p>
                             </div>
-                            <div class="breed-profile-link-section">
+                        <div class="breed-profile-link-section">
                                 <a href="https://www.chewy.com/account/profile" target="_blank" class="breed-profile-link" style="background: linear-gradient(135deg, #E91E63, #C2185B); color: white; text-decoration: none; padding: 12px 24px; border-radius: 12px; font-size: 15px; font-weight: 600; font-family: 'Poppins', sans-serif; display: inline-block; transition: all 0.3s ease; box-shadow: 0 4px 16px rgba(233, 30, 99, 0.25);">
-                                    Complete Pet Profile
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Breed Flashcard Modal -->
-                <div class="breed-flashcard-modal" id="breed-flashcard-modal">
-                    <div class="breed-flashcard-content">
-                        <div class="breed-flashcard-header">
-                            <h3 id="flashcard-breed-name">Breed Name</h3>
-                            <button class="breed-flashcard-close" onclick="closeBreedFlashcard()">×</button>
-                        </div>
-                        <div class="breed-flashcard-body">
-                            <div class="breed-flashcard-description" id="flashcard-description">
-                                <p>Loading breed information...</p>
-                            </div>
+                                Complete Pet Profile
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
+            
+            <!-- Breed Flashcard Modal -->
+            <div class="breed-flashcard-modal" id="breed-flashcard-modal">
+                <div class="breed-flashcard-content">
+                    <div class="breed-flashcard-header">
+                        <h3 id="flashcard-breed-name">Breed Name</h3>
+                        <button class="breed-flashcard-close" onclick="closeBreedFlashcard()">×</button>
+                    </div>
+                    <div class="breed-flashcard-body">
+                        <div class="breed-flashcard-description" id="flashcard-description">
+                            <p>Loading breed information...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     {% endif %}
 
 
 
-    <!-- Slide 6: Social Media Share -->
+    <!-- Slide 6: Your Chewy Stats -->
     <div class="slide" id="slide-6">
-        <div class="slide-content share-slide" style="min-height: 100vh; padding: 75px 15px 80px 15px; background: #FFE181; color: #3C3C3C;">
-            <div class="slide-header" style="text-align: center; margin-bottom: 30px;">
-                <h2 class="slide-title" style="text-align: center; margin: 0; margin-top: 40px; font-family: 'Baloo 2', sans-serif; font-weight: 700; font-size: 28px; color: #3C3C3C;">
-                    <strong>Share Your Chewy Journey!</strong>
-                </h2>
-            </div>
-            
-            <div class="enhanced-share-text">
-                <p style="color: #4A1A1A; font-size: 18px; margin-bottom: 25px; opacity: 0.9; font-weight: 600;">
-                    Tap to select which features you'd like to share:
-                </p>
-            </div>
-            
-            <div class="feature-selection-grid" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; margin: 35px 0; max-width: 550px; margin-left: auto; margin-right: auto;">
-                <div class="feature-card" data-feature="food" onclick="toggleFeature('food')" style="display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 20px 15px; border-radius: 16px; cursor: pointer; transition: all 0.3s ease; background: rgba(255, 255, 255, 0.25); border: 2px solid rgba(255, 255, 255, 0.3); backdrop-filter: blur(10px); position: relative; overflow: hidden; min-height: 100px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);">
-                    <div class="feature-icon" style="font-size: 28px; margin-bottom: 10px; color: #4A1A1A;">🍽️</div>
-                    <div class="feature-label" style="font-size: 13px; font-weight: 600; color: #3C3C3C; text-align: center; margin-bottom: 6px; font-family: 'Nunito', sans-serif;">Food Consumed</div>
-                    <div class="feature-value" id="food-share-value" style="font-size: 12px; color: #4A1A1A; text-align: center; font-family: 'Nunito', sans-serif; font-weight: 500;">{{ customer_data.total_food_consumed|default('', true) }}</div>
-                </div>
-                
-                <div class="feature-card" data-feature="portrait" onclick="toggleFeature('portrait')" style="display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 20px 15px; border-radius: 16px; cursor: pointer; transition: all 0.3s ease; background: rgba(255, 255, 255, 0.25); border: 2px solid rgba(255, 255, 255, 0.3); backdrop-filter: blur(10px); position: relative; overflow: hidden; min-height: 100px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);">
-                    <div class="feature-icon" style="font-size: 28px; margin-bottom: 10px; color: #4A1A1A;">🎨</div>
-                    <div class="feature-label" style="font-size: 13px; font-weight: 600; color: #3C3C3C; text-align: center; margin-bottom: 6px; font-family: 'Nunito', sans-serif;">AI Pet Portrait</div>
-                    <div class="feature-value" style="font-size: 12px; color: #4A1A1A; text-align: center; font-family: 'Nunito', sans-serif; font-weight: 500;">Generated</div>
-                </div>
-                
-                <div class="feature-card" data-feature="letter" onclick="toggleFeature('letter')" style="display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 20px 15px; border-radius: 16px; cursor: pointer; transition: all 0.3s ease; background: rgba(255, 255, 255, 0.25); border: 2px solid rgba(255, 255, 255, 0.3); backdrop-filter: blur(10px); position: relative; overflow: hidden; min-height: 100px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);">
-                    <div class="feature-icon" style="font-size: 28px; margin-bottom: 10px; color: #4A1A1A;">💌</div>
-                    <div class="feature-label" style="font-size: 13px; font-weight: 600; color: #3C3C3C; text-align: center; margin-bottom: 6px; font-family: 'Nunito', sans-serif;">Letter from Pets</div>
-                    <div class="feature-value" style="font-size: 12px; color: #4A1A1A; text-align: center; font-family: 'Nunito', sans-serif; font-weight: 500;">Personalized</div>
-                </div>
-                
-                <div class="feature-card" data-feature="breed" onclick="toggleFeature('breed')" style="display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 20px 15px; border-radius: 16px; cursor: pointer; transition: all 0.3s ease; background: rgba(255, 255, 255, 0.25); border: 2px solid rgba(255, 255, 255, 0.3); backdrop-filter: blur(10px); position: relative; overflow: hidden; min-height: 100px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);">
-                    <div class="feature-icon" style="font-size: 28px; margin-bottom: 10px; color: #4A1A1A;">🐕</div>
-                    <div class="feature-label" style="font-size: 13px; font-weight: 600; color: #3C3C3C; text-align: center; margin-bottom: 6px; font-family: 'Nunito', sans-serif;">Breed Prediction</div>
-                    <div class="feature-value" style="font-size: 12px; color: #4A1A1A; text-align: center; font-family: 'Nunito', sans-serif; font-weight: 500;">AI Analysis</div>
-                </div>
-            </div>
-            
-            <div class="enhanced-share-cta" style="text-align: center; margin-top: 30px;">
-                <button class="enhanced-share-btn" onclick="showIOSShareSheet()" style="background: linear-gradient(135deg, #FFD700, #FFA500); color: #3C3C3C; border: none; border-radius: 20px; padding: 16px 32px; cursor: pointer; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 8px; font-size: 16px; font-weight: 700; font-family: 'Poppins', sans-serif; box-shadow: 0 6px 20px rgba(255, 215, 0, 0.3); position: relative; overflow: hidden;">
-                    <!-- <span style="font-size: 18px;">📤</span> -->
-                    <span class="enhanced-share-text">Share Your Journey</span>
-                    <div style="position: absolute; top: 0; left: -100%; width: 100%; height: 100%; background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent); transition: left 0.5s ease;"></div>
-                </button>
-            </div>
-            
-
-        </div>
-    </div>
-
-    <!-- iOS-Style Share Sheet -->
-    <div id="ios-share-overlay" class="ios-share-overlay">
-        <div class="ios-share-sheet">
-            <!-- Share Options Section -->
-            <div class="share-options-section">
-                <div class="share-apps-grid">
-                    <!-- Instagram -->
-                    <div class="share-app-item" onclick="shareToApp('instagram')">
-                        <div class="share-app-icon instagram-icon">
-                            <svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
-                                <defs>
-                                    <linearGradient id="instagram-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                                        <stop offset="0%" style="stop-color:#f9ce34"/>
-                                        <stop offset="33%" style="stop-color:#ee2a7b"/>
-                                        <stop offset="66%" style="stop-color:#6228d7"/>
-                                    </linearGradient>
-                                </defs>
-                                <rect width="60" height="60" rx="18" fill="url(#instagram-gradient)"/>
-                                <rect x="18" y="18" width="24" height="24" rx="8" fill="none" stroke="white" stroke-width="2"/>
-                                <circle cx="30" cy="30" r="6" fill="none" stroke="white" stroke-width="2"/>
-                                <circle cx="36" cy="24" r="2" fill="white"/>
-                            </svg>
-                        </div>
-                        <span class="share-app-label">Instagram</span>
-                    </div>
-
-                    <!-- Messages -->
-                    <div class="share-app-item" onclick="shareToApp('messages')">
-                        <div class="share-app-icon messages-icon">
-                            <svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
-                                <rect width="60" height="60" rx="18" fill="#00d4aa"/>
-                                <path d="M30 18c-7.732 0-14 5.641-14 12.6 0 4.054 2.323 7.637 5.95 10.05-.369 3.85-2.745 6.35-2.745 6.35s4.523-.735 7.295-3.5c1.13.31 2.34.47 3.5.47 7.732 0 14-5.641 14-12.6S37.732 18 30 18z" fill="white"/>
-                            </svg>
-                        </div>
-                        <span class="share-app-label">Messages</span>
-                    </div>
-
-                    <!-- WhatsApp -->
-                    <div class="share-app-item" onclick="shareToApp('whatsapp')">
-                        <div class="share-app-icon whatsapp-icon">
-                            <svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
-                                <rect width="60" height="60" rx="18" fill="#25d366"/>
-                                <path d="M30 15c-8.284 0-15 6.716-15 15 0 2.567.667 5.133 1.933 7.367L15 45l7.633-1.933A14.93 14.93 0 0 0 30 45c8.284 0 15-6.716 15-15s-6.716-15-15-15zm7.5 21.5c-.333.933-1.667 1.7-2.767 1.933-.733.167-1.7.3-4.933-.85-3.9-1.4-6.433-5.267-6.633-5.517-.2-.25-1.667-2.2-1.667-4.2s1.067-3.867 1.433-4.4c.367-.533.8-.667 1.067-.667.267 0 .533 0 .767.017.25.017.583-.1.917.7.333.8 1.15 2.8 1.25 3 .1.2.167.433.033.7-.133.267-.2.433-.4.667-.2.233-.417.517-.6.7-.2.2-.417.417-.183.817.233.4.983 1.583 2.117 2.567 1.45 1.267 2.667 1.65 3.05 1.85.383.2.6.167.817-.1.217-.267.933-1.083 1.183-1.467.25-.383.5-.317.833-.183.333.133 2.133 1 2.5 1.183.367.183.617.283.717.433.1.15.1.883-.233 1.817z" fill="white"/>
-                            </svg>
-                        </div>
-                        <span class="share-app-label">WhatsApp</span>
-                    </div>
-
-                    <!-- Facebook -->
-                    <div class="share-app-item" onclick="shareToApp('facebook')">
-                        <div class="share-app-icon facebook-icon">
-                            <svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
-                                <rect width="60" height="60" rx="18" fill="#1877f2"/>
-                                <path d="M35 31l1.5-9H28v-6c0-2.5 1.2-4.9 5.1-4.9H37V4.4s-3.6-.6-7-.6c-7.1 0-11.7 4.3-11.7 12.1V22h-8v9h8v22h9.9V31H35z" fill="white"/>
-                            </svg>
-                        </div>
-                        <span class="share-app-label">Facebook</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Action Buttons Section -->
-            <div class="share-actions-section">
-                <div class="share-action-item" onclick="copyShareLink()">
-                    <div class="share-action-icon">
-                        <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M16 3H8C6.34 3 5 4.34 5 6v12c0 1.66 1.34 3 3 3h8c1.66 0 3-1.34 3-3V6c0-1.66-1.34-3-3-3zm-1 16H10v-2h5v2zm0-4H10v-2h5v2zm0-4H10V9h5v2z" fill="#007AFF"/>
-                        </svg>
-                    </div>
-                    <div class="share-action-text">
-                        <div class="share-action-title">Copy Link</div>
-                    </div>
-                </div>
-
-                <div class="share-action-item" onclick="saveToPhotos()">
-                    <div class="share-action-icon">
-                        <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z" fill="#007AFF"/>
-                        </svg>
-                    </div>
-                    <div class="share-action-text">
-                        <div class="share-action-title">Save to Photos</div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Cancel Button -->
-            <div class="share-cancel-section">
-                <button class="share-cancel-btn" onclick="hideIOSShareSheet()">Cancel</button>
-            </div>
-        </div>
-    </div>
-
-    <!-- Slide 7: Your Chewy Stats -->
-    <div class="slide" id="slide-7">
         <div class="slide-content stats-slide" style="overflow-y: auto; min-height: 100vh; padding: 20px 15px 80px 15px; background: #F0E8F8;">
             <div class="slide-header" style="text-align: center; margin-bottom: 40px; margin-top: 400px;">
                 <h2 class="slide-title" style="text-align: center; margin: 0; margin-top: 80px; font-family: 'Nunito', 'Poppins', sans-serif; font-weight: 700; font-size: 32px; color: #87CEEB; text-shadow: 0 2px 4px rgba(135, 206, 235, 0.1);">
@@ -3131,11 +2951,158 @@ body {
                     </div>
                     {% endif %}
                     
+    </div>
+            </div>
+                        </div>
+                    </div>
+
+    <!-- iOS-Style Share Sheet -->
+    <div id="ios-share-overlay" class="ios-share-overlay">
+        <div class="ios-share-sheet">
+            <!-- Share Options Section -->
+            <div class="share-options-section">
+                <div class="share-apps-grid">
+                    <!-- Instagram -->
+                    <div class="share-app-item" onclick="shareToApp('instagram')">
+                        <div class="share-app-icon instagram-icon">
+                            <svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="instagram-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#f9ce34"/>
+                                        <stop offset="33%" style="stop-color:#ee2a7b"/>
+                                        <stop offset="66%" style="stop-color:#6228d7"/>
+                                    </linearGradient>
+                                </defs>
+                                <rect width="60" height="60" rx="18" fill="url(#instagram-gradient)"/>
+                                <rect x="18" y="18" width="24" height="24" rx="8" fill="none" stroke="white" stroke-width="2"/>
+                                <circle cx="30" cy="30" r="6" fill="none" stroke="white" stroke-width="2"/>
+                                <circle cx="36" cy="24" r="2" fill="white"/>
+                            </svg>
+            </div>
+                        <span class="share-app-label">Instagram</span>
+                        </div>
+            
+                    <!-- Messages -->
+                    <div class="share-app-item" onclick="shareToApp('messages')">
+                        <div class="share-app-icon messages-icon">
+                            <svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="60" height="60" rx="18" fill="#00d4aa"/>
+                                <path d="M30 18c-7.732 0-14 5.641-14 12.6 0 4.054 2.323 7.637 5.95 10.05-.369 3.85-2.745 6.35-2.745 6.35s4.523-.735 7.295-3.5c1.13.31 2.34.47 3.5.47 7.732 0 14-5.641 14-12.6S37.732 18 30 18z" fill="white"/>
+                            </svg>
+        </div>
+                        <span class="share-app-label">Messages</span>
+                                </div>
+            
+                    <!-- WhatsApp -->
+                    <div class="share-app-item" onclick="shareToApp('whatsapp')">
+                        <div class="share-app-icon whatsapp-icon">
+                            <svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="60" height="60" rx="18" fill="#25d366"/>
+                                <path d="M30 15c-8.284 0-15 6.716-15 15 0 2.567.667 5.133 1.933 7.367L15 45l7.633-1.933A14.93 14.93 0 0 0 30 45c8.284 0 15-6.716 15-15s-6.716-15-15-15zm7.5 21.5c-.333.933-1.667 1.7-2.767 1.933-.733.167-1.7.3-4.933-.85-3.9-1.4-6.433-5.267-6.633-5.517-.2-.25-1.667-2.2-1.667-4.2s1.067-3.867 1.433-4.4c.367-.533.8-.667 1.067-.667.267 0 .533 0 .767.017.25.017.583-.1.917.7.333.8 1.15 2.8 1.25 3 .1.2.167.433.033.7-.133.267-.2.433-.4.667-.2.233-.417.517-.6.7-.2.2-.417.417-.183.817.233.4.983 1.583 2.117 2.567 1.45 1.267 2.667 1.65 3.05 1.85.383.2.6.167.817-.1.217-.267.933-1.083 1.183-1.467.25-.383.5-.317.833-.183.333.133 2.133 1 2.5 1.183.367.183.617.283.717.433.1.15.1.883-.233 1.817z" fill="white"/>
+                            </svg>
+        </div>
+                        <span class="share-app-label">WhatsApp</span>
+    </div>
+
+                    <!-- Facebook -->
+                    <div class="share-app-item" onclick="shareToApp('facebook')">
+                        <div class="share-app-icon facebook-icon">
+                            <svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="60" height="60" rx="18" fill="#1877f2"/>
+                                <path d="M35 31l1.5-9H28v-6c0-2.5 1.2-4.9 5.1-4.9H37V4.4s-3.6-.6-7-.6c-7.1 0-11.7 4.3-11.7 12.1V22h-8v9h8v22h9.9V31H35z" fill="white"/>
+                            </svg>
+                        </div>
+                        <span class="share-app-label">Facebook</span>
+                    </div>
                 </div>
+            </div>
+
+            <!-- Action Buttons Section -->
+            <div class="share-actions-section">
+                <div class="share-action-item" onclick="copyShareLink()">
+                    <div class="share-action-icon">
+                        <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16 3H8C6.34 3 5 4.34 5 6v12c0 1.66 1.34 3 3 3h8c1.66 0 3-1.34 3-3V6c0-1.66-1.34-3-3-3zm-1 16H10v-2h5v2zm0-4H10v-2h5v2zm0-4H10V9h5v2z" fill="#007AFF"/>
+                        </svg>
+                    </div>
+                    <div class="share-action-text">
+                        <div class="share-action-title">Copy Link</div>
+                    </div>
+                </div>
+
+                <div class="share-action-item" onclick="saveToPhotos()">
+                    <div class="share-action-icon">
+                        <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z" fill="#007AFF"/>
+                        </svg>
+                    </div>
+                    <div class="share-action-text">
+                        <div class="share-action-title">Save to Photos</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cancel Button -->
+            <div class="share-cancel-section">
+                <button class="share-cancel-btn" onclick="hideIOSShareSheet()">Cancel</button>
             </div>
         </div>
     </div>
 
+    <!-- Slide 7: Social Media Share -->
+    <div class="slide" id="slide-7">
+        <div class="slide-content share-slide" style="min-height: 100vh; padding: 75px 15px 80px 15px; background: #FFE181; color: #3C3C3C;">
+            <div class="slide-header" style="text-align: center; margin-bottom: 30px;">
+                <h2 class="slide-title" style="text-align: center; margin: 0; margin-top: 40px; font-family: 'Baloo 2', sans-serif; font-weight: 700; font-size: 28px; color: #3C3C3C;">
+                    <strong>Share Your Chewy Journey!</strong>
+                </h2>
+            </div>
+            
+            <div class="enhanced-share-text">
+                <p style="color: #4A1A1A; font-size: 18px; margin-bottom: 25px; opacity: 0.9; font-weight: 600;">
+                    Tap to select which features you'd like to share:
+                </p>
+                    </div>
+                    
+            <div class="feature-selection-grid" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; margin: 35px 0; max-width: 550px; margin-left: auto; margin-right: auto;">
+                <div class="feature-card" data-feature="food" onclick="toggleFeature('food')" style="display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 20px 15px; border-radius: 16px; cursor: pointer; transition: all 0.3s ease; background: rgba(255, 255, 255, 0.25); border: 2px solid rgba(255, 255, 255, 0.3); backdrop-filter: blur(10px); position: relative; overflow: hidden; min-height: 100px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);">
+                    <div class="feature-icon" style="font-size: 28px; margin-bottom: 10px; color: #4A1A1A;">🍽️</div>
+                    <div class="feature-label" style="font-size: 13px; font-weight: 600; color: #3C3C3C; text-align: center; margin-bottom: 6px; font-family: 'Nunito', sans-serif;">Food Consumed</div>
+                    <div class="feature-value" id="food-share-value" style="font-size: 12px; color: #4A1A1A; text-align: center; font-family: 'Nunito', sans-serif; font-weight: 500;">{{ customer_data.total_food_consumed|default('', true) }}</div>
+                        </div>
+                        
+                <div class="feature-card" data-feature="portrait" onclick="toggleFeature('portrait')" style="display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 20px 15px; border-radius: 16px; cursor: pointer; transition: all 0.3s ease; background: rgba(255, 255, 255, 0.25); border: 2px solid rgba(255, 255, 255, 0.3); backdrop-filter: blur(10px); position: relative; overflow: hidden; min-height: 100px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);">
+                    <div class="feature-icon" style="font-size: 28px; margin-bottom: 10px; color: #4A1A1A;">🎨</div>
+                    <div class="feature-label" style="font-size: 13px; font-weight: 600; color: #3C3C3C; text-align: center; margin-bottom: 6px; font-family: 'Nunito', sans-serif;">AI Pet Portrait</div>
+                    <div class="feature-value" style="font-size: 12px; color: #4A1A1A; text-align: center; font-family: 'Nunito', sans-serif; font-weight: 500;">Generated</div>
+                        </div>
+                        
+                <div class="feature-card" data-feature="letter" onclick="toggleFeature('letter')" style="display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 20px 15px; border-radius: 16px; cursor: pointer; transition: all 0.3s ease; background: rgba(255, 255, 255, 0.25); border: 2px solid rgba(255, 255, 255, 0.3); backdrop-filter: blur(10px); position: relative; overflow: hidden; min-height: 100px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);">
+                    <div class="feature-icon" style="font-size: 28px; margin-bottom: 10px; color: #4A1A1A;">💌</div>
+                    <div class="feature-label" style="font-size: 13px; font-weight: 600; color: #3C3C3C; text-align: center; margin-bottom: 6px; font-family: 'Nunito', sans-serif;">Letter from Pets</div>
+                    <div class="feature-value" style="font-size: 12px; color: #4A1A1A; text-align: center; font-family: 'Nunito', sans-serif; font-weight: 500;">Personalized</div>
+                        </div>
+                        
+                <div class="feature-card" data-feature="breed" onclick="toggleFeature('breed')" style="display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 20px 15px; border-radius: 16px; cursor: pointer; transition: all 0.3s ease; background: rgba(255, 255, 255, 0.25); border: 2px solid rgba(255, 255, 255, 0.3); backdrop-filter: blur(10px); position: relative; overflow: hidden; min-height: 100px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);">
+                    <div class="feature-icon" style="font-size: 28px; margin-bottom: 10px; color: #4A1A1A;">🐕</div>
+                    <div class="feature-label" style="font-size: 13px; font-weight: 600; color: #3C3C3C; text-align: center; margin-bottom: 6px; font-family: 'Nunito', sans-serif;">Breed Prediction</div>
+                    <div class="feature-value" style="font-size: 12px; color: #4A1A1A; text-align: center; font-family: 'Nunito', sans-serif; font-weight: 500;">AI Analysis</div>
+                        </div>
+                    </div>
+                    
+            <div class="enhanced-share-cta" style="text-align: center; margin-top: 30px;">
+                <button class="enhanced-share-btn" onclick="showIOSShareSheet()" style="background: linear-gradient(135deg, #FFD700, #FFA500); color: #3C3C3C; border: none; border-radius: 20px; padding: 0px 16px; cursor: pointer; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 8px; font-size: 16px; font-weight: 700; font-family: 'Poppins', sans-serif; box-shadow: 0 6px 20px rgba(255, 215, 0, 0.3); position: relative; overflow: hidden;">
+                    <!-- <span style="font-size: 18px;">📤</span> -->
+                    <span class="enhanced-share-text">Share Your Journey</span>
+                    <div style="position: absolute; top: 0; left: -100%; width: 100%; height: 100%; background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent); transition: left 0.5s ease;"></div>
+                        </button>
+    </div>
+            
+
+                    </div>
+                </div>
+            </div>
+            
     <!-- Slide 8: Missing Pet Profile Information -->
     {% if customer_data.unknowns %}
     <div class="slide" id="slide-8">
@@ -3147,14 +3114,14 @@ body {
                 <!-- <p style="color: #4A1A1A; font-size: 16px; margin-top: 12px; opacity: 0.8; font-weight: 500;">
                     Get even more personalized insights!
                 </p> -->
-            </div>
+        </div>
             
             <div class="unknowns-container" style="max-width: 600px; margin: 0 auto;">
                 <div class="unknowns-summary" style="text-align: center; margin-bottom: 30px; padding: 20px; background: rgba(255, 255, 255, 0.3); border-radius: 16px; backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.2);">
                     <p style="color: #3C3C3C; font-size: 16px; margin: 0; font-weight: 600; line-height: 1.5;">
                         We found <strong>{{ customer_data.unknowns.total_unknowns }}</strong> missing pieces of information across <strong>{{ customer_data.unknowns.pets_with_unknowns }}</strong> pet(s).
                     </p>
-                </div>
+    </div>
                 
                 <div class="unknowns-pets-grid" style="display: flex; flex-direction: column; gap: 20px;">
                     {% for pet_name, pet_data in customer_data.unknowns.unknown_attributes.items() %}
@@ -3171,15 +3138,27 @@ body {
                         </div>
                     </div>
                     {% endfor %}
-                </div>
-                
+            </div>
+            
                 <div style="text-align: center; margin-top: 30px;">
                     <a href="https://www.chewy.com/account/profile" target="_blank" style="display: inline-flex; align-items: center; gap: 10px; padding: 14px 28px; background: #A0E7E5; color: #3C3C3C; text-decoration: none; border-radius: 12px; font-size: 16px; font-weight: 600; font-family: 'Poppins', sans-serif; transition: all 0.3s ease; box-shadow: 0 4px 12px rgba(160, 231, 229, 0.3); border: 1px solid rgba(255, 255, 255, 0.3);">
                         <span style="font-size: 16px;">⚙️</span>
                         Complete Profiles
                     </a>
                 </div>
-            </div>
+                
+                <!-- Update Pet Profile Section -->
+                <div style="text-align: center; margin-top: 40px; padding: 20px; background: rgba(255, 255, 255, 0.2); border-radius: 16px; border: 1px solid rgba(255, 255, 255, 0.3);">
+                    <h3 style="color: #3C3C3C; font-size: 18px; font-weight: 700; margin: 0 0 15px 0; font-family: 'Poppins', sans-serif;">Update Your Pet Profile</h3>
+                    <p style="color: #6B7280; font-size: 14px; margin: 0 0 20px 0; font-family: 'Poppins', sans-serif; line-height: 1.4;">Help us improve our predictions by updating your pet information</p>
+                    <button onclick="updatePetProfile()" style="background: linear-gradient(135deg, #10B981, #059669); color: white; border: none; border-radius: 12px; padding: 15px 30px; cursor: pointer; font-size: 16px; font-weight: 700; font-family: 'Poppins', sans-serif; box-shadow: 0 6px 16px rgba(16, 185, 129, 0.4); transition: all 0.3s ease; display: inline-flex; align-items: center; gap: 10px; min-width: 200px; justify-content: center;">
+                        <span style="font-size: 16px;">🔄</span>
+                        Update Pet Profile
+                    </button>
+                </div>
+                
+             
+    </div>
         </div>
     </div>
     {% endif %}
@@ -3197,26 +3176,29 @@ let slideToChunkMapping = {};
 
 // Initialize slides
 document.addEventListener('DOMContentLoaded', function() {
-    // Count total slides
-    const allSlides = document.querySelectorAll('.slide');
-    totalSlides = allSlides.length;
+    // Count total slides (excluding loading slide)
+    const allSlides = Array.from(document.querySelectorAll('.slide'));
+    const loadingSlide = allSlides.find(slide => slide.id === 'slide-0' || slide.classList.contains('loading-slide'));
+    const contentSlides = allSlides.filter(slide => slide.id !== 'slide-0' && !slide.classList.contains('loading-slide'));
+    
+    totalSlides = contentSlides.length;
     
     // Debug: Log all slides
-    console.log(`📊 Total slides: ${totalSlides}, All slides: ${allSlides.length}`);
-    allSlides.forEach((slide, index) => {
-        console.log(`📋 Slide ${index}: ${slide.id} - visible: ${slide.style.display !== 'none'}`);
+    console.log(`📊 Total content slides: ${totalSlides}, All slides: ${allSlides.length}`);
+    contentSlides.forEach((slide, index) => {
+        console.log(`📋 Content Slide ${index + 1}: ${slide.id} - visible: ${slide.style.display !== 'none'}`);
     });
     
-    // Determine which slides have data
+    // Determine which content slides have data (starting from slide-1)
     const slidesWithData = [];
-    for (let i = 0; i < totalSlides; i++) {
+    for (let i = 1; i <= contentSlides.length; i++) {
         const slide = document.getElementById(`slide-${i}`);
         if (slide && slide.style.display !== 'none') {
             slidesWithData.push(i);
         }
     }
     
-    // Create progress bar based on available slides
+    // Create progress bar based on available content slides
     createProgressBar(slidesWithData);
     
     // Initialize arrow navigation
@@ -3227,7 +3209,10 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Show loading slide first, then transition to first real slide after a delay
     console.log(`🚀 Showing loading slide...`);
-    showSlide(0);
+    if (loadingSlide) {
+        loadingSlide.classList.add('active');
+        currentSlide = 0;
+    }
     
     // Auto-transition from loading to first real slide after 3 seconds
     setTimeout(() => {
@@ -3247,31 +3232,47 @@ function showSlide(slideIndex) {
     isTransitioning = true;
     
     // Hide all slides
-    const visibleSlides = Array.from(document.querySelectorAll('.slide'));
-    console.log(`📋 Found ${visibleSlides.length} slides total`);
-    visibleSlides.forEach((slide, index) => {
+    const allSlides = Array.from(document.querySelectorAll('.slide'));
+    console.log(`📋 Found ${allSlides.length} slides total`);
+    allSlides.forEach((slide, index) => {
         slide.classList.remove('active');
         console.log(`👁️ Slide ${index} (${slide.id}): removed active class`);
     });
     
-    // Show target slide
-    if (visibleSlides[slideIndex]) {
-        visibleSlides[slideIndex].classList.add('active');
+    // Handle loading slide (slideIndex = 0)
+    if (slideIndex === 0) {
+        const loadingSlide = allSlides.find(slide => slide.id === 'slide-0' || slide.classList.contains('loading-slide'));
+        if (loadingSlide) {
+            loadingSlide.classList.add('active');
+            currentSlide = 0;
+            console.log(`✅ Activated loading slide`);
+        }
+    } else {
+        // Get only content slides (excluding loading slide)
+        const contentSlides = allSlides.filter(slide => slide.id !== 'slide-0' && !slide.classList.contains('loading-slide') && slide.style.display !== 'none');
+        console.log(`📋 Found ${contentSlides.length} content slides`);
+        
+        // Show target content slide
+        if (slideIndex <= contentSlides.length && slideIndex > 0) {
+            contentSlides[slideIndex - 1].classList.add('active');
         currentSlide = slideIndex;
-        console.log(`✅ Activated slide ${slideIndex} (${visibleSlides[slideIndex].id})`);
+            console.log(`✅ Activated slide ${slideIndex} (${contentSlides[slideIndex - 1].id})`);
         
         // Reset breed prediction state when navigating to breed slide
-        if (slideIndex === 5) { // Breed prediction slide
+            if (contentSlides[slideIndex - 1].id === 'slide-5') { // Breed prediction slide
             resetBreedPredictionState();
         }
         
         // Update arrow navigation states
         updateArrowNavigation();
-        
-        // Update progress bar
-        updateProgressBar(slideIndex);
+            
+                    // Update progress bar with actual slide ID
+        const slideId = contentSlides[slideIndex - 1].id.replace('slide-', '');
+        console.log(`🎯 Progress bar update - slideIndex: ${slideIndex}, slideId: ${slideId}, fullSlideId: ${contentSlides[slideIndex - 1].id}`);
+        updateProgressBar(slideId);
     } else {
-        console.log(`❌ Slide ${slideIndex} not found!`);
+            console.log(`❌ Slide ${slideIndex} not found or out of range!`);
+        }
     }
     
     setTimeout(() => {
@@ -3312,57 +3313,63 @@ function createProgressBar(slidesWithData) {
     progressChunks = [];
     slideToChunkMapping = {};
     
-                // Define slide groups and their chunk mapping
-            const slideGroups = [
-                { name: 'food', slides: [1], hasMultipleSlides: false },
-                { name: 'portrait', slides: [2], hasMultipleSlides: false },
-                { name: 'busiest', slides: [3], hasMultipleSlides: false },
-                { name: 'letter', slides: [4], hasMultipleSlides: false },
-                { name: 'breed', slides: [5], hasMultipleSlides: false },
-                { name: 'share', slides: [6], hasMultipleSlides: false },
-                { name: 'stats', slides: [7], hasMultipleSlides: false },
-                { name: 'unknowns', slides: [8], hasMultipleSlides: false }
-            ];
+    // Define slide groups based on your requirements - exactly 8 chunks
+    const slideGroups = [
+        { name: 'food', slides: [1], hasMultipleSlides: false },
+        { name: 'portrait', slides: [2], hasMultipleSlides: false },
+        { name: 'letter', slides: [3], hasMultipleSlides: false },
+        { name: 'badge', slides: [4], hasMultipleSlides: false },
+        { name: 'breed', slides: [5], hasMultipleSlides: false },
+        { name: 'stats', slides: [6], hasMultipleSlides: false },
+        { name: 'share', slides: [7], hasMultipleSlides: false },
+        { name: 'missing', slides: [8], hasMultipleSlides: false }
+    ];
     
     let chunkIndex = 0;
     slideGroups.forEach(group => {
-        // Check if any slide in this group has data
-        const hasData = group.slides.some(slideNum => slidesWithData.includes(slideNum));
+        // Always create chunk for each group (7 total chunks)
+        const chunk = document.createElement('div');
+        chunk.className = 'progress-chunk';
+        chunk.innerHTML = '<div class="progress-chunk-fill"></div>';
+        progressContainer.appendChild(chunk);
         
-        if (hasData) {
-            // Create chunk for this group
-            const chunk = document.createElement('div');
-            chunk.className = 'progress-chunk';
-            chunk.innerHTML = '<div class="progress-chunk-fill"></div>';
-            progressContainer.appendChild(chunk);
-            
-            progressChunks.push({
-                element: chunk,
-                fillElement: chunk.querySelector('.progress-chunk-fill'),
-                hasMultipleSlides: group.hasMultipleSlides,
-                slides: group.slides.filter(slideNum => slidesWithData.includes(slideNum))
-            });
-            
-            // Map each slide to its chunk
-            group.slides.forEach(slideNum => {
-                if (slidesWithData.includes(slideNum)) {
-                    slideToChunkMapping[slideNum] = chunkIndex;
-                }
-            });
-            
-            chunkIndex++;
-        }
+        progressChunks.push({
+            element: chunk,
+            fillElement: chunk.querySelector('.progress-chunk-fill'),
+            hasMultipleSlides: group.hasMultipleSlides,
+            slides: group.slides
+        });
+        
+        // Map each slide to its chunk
+        group.slides.forEach(slideNum => {
+            slideToChunkMapping[slideNum] = chunkIndex;
+        });
+        
+        chunkIndex++;
     });
     
     console.log('📊 Progress bar created with', progressChunks.length, 'chunks');
     console.log('📊 Slide to chunk mapping:', slideToChunkMapping);
 }
 
-function updateProgressBar(currentSlideIndex) {
-    if (progressChunks.length === 0) return;
+function updateProgressBar(currentSlideId) {
+    console.log(`📊 updateProgressBar called with currentSlideId: ${currentSlideId}`);
+    console.log(`📊 slideToChunkMapping:`, slideToChunkMapping);
     
-    const chunkIndex = slideToChunkMapping[currentSlideIndex];
-    if (chunkIndex === undefined) return;
+    if (progressChunks.length === 0) {
+        console.log(`📊 No progress chunks available`);
+        return;
+    }
+    
+    // Convert string slide ID to number for mapping
+    const numericSlideId = parseInt(currentSlideId);
+    const chunkIndex = slideToChunkMapping[numericSlideId];
+    console.log(`📊 Found chunkIndex: ${chunkIndex} for slide ${numericSlideId}`);
+    
+    if (chunkIndex === undefined) {
+        console.log(`📊 No chunk mapping found for slide ${numericSlideId}`);
+        return;
+    }
     
     // Update all chunks
     progressChunks.forEach((chunk, index) => {
@@ -3375,7 +3382,7 @@ function updateProgressBar(currentSlideIndex) {
             // Current chunk
             if (chunk.hasMultipleSlides) {
                 // For multi-slide chunks, show 50% or 100% based on which slide
-                const slidePosition = chunk.slides.indexOf(currentSlideIndex);
+                const slidePosition = chunk.slides.indexOf(currentSlideId);
                 const progress = ((slidePosition + 1) / chunk.slides.length) * 100;
                 fillElement.style.width = `${progress}%`;
             } else {
@@ -3388,7 +3395,7 @@ function updateProgressBar(currentSlideIndex) {
         }
     });
     
-    console.log('📊 Progress updated for slide', currentSlideIndex, 'chunk', chunkIndex);
+    console.log('📊 Progress updated for slide', currentSlideId, 'chunk', chunkIndex);
 }
 
 function nextSlide() {
