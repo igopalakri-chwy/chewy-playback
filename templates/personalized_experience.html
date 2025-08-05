@@ -24,7 +24,105 @@ function getDynamicStyles(data) {
     return styles;
 }
 
-// Apply dynamic styles when page loads
+
+
+function animateFoodNumber() {
+    const numberElement = document.getElementById('food-number');
+    if (!numberElement) return;
+    
+    // Store the original content to preserve the "lbs" text
+    const lbsSpan = numberElement.querySelector('.unit-text');
+    
+    // Extract just the number from the text content
+    const textContent = numberElement.textContent;
+    const finalNumber = parseInt(textContent.replace(/[^\d]/g, ''));
+    let currentNumber = 0;
+    const duration = 2000; // 2 seconds
+    const steps = 60;
+    const increment = finalNumber / steps;
+    const stepDuration = duration / steps;
+    
+    const timer = setInterval(() => {
+        currentNumber += increment;
+        if (currentNumber >= finalNumber) {
+            currentNumber = finalNumber;
+            clearInterval(timer);
+        }
+        
+        // Update only the number part, preserving the "lbs" span
+        if (lbsSpan) {
+            numberElement.innerHTML = Math.floor(currentNumber) + lbsSpan.outerHTML;
+        } else {
+            numberElement.innerHTML = Math.floor(currentNumber) + '<span class="unit-text" style="font-size: 32px; color: #D35400; font-weight: 900; display: inline-block;">lbs</span>';
+        }
+    }, stepDuration);
+}
+
+// Simple Breed Predictions Functions
+function initializeBreedPredictions() {
+    // Add hover effects to prediction items
+    const predictionItems = document.querySelectorAll('[onclick*="handleBreedCardClick"]');
+    predictionItems.forEach((item, index) => {
+        item.addEventListener('mouseenter', function() {
+            this.style.transform = 'scale(1.05)';
+            this.style.boxShadow = '0 4px 12px rgba(16, 185, 129, 0.2)';
+        });
+        
+        item.addEventListener('mouseleave', function() {
+            this.style.transform = 'scale(1)';
+            this.style.boxShadow = 'none';
+        });
+        
+        // Add click animation
+        item.addEventListener('click', function() {
+            this.style.transform = 'scale(0.95)';
+            setTimeout(() => {
+                this.style.transform = 'scale(1)';
+            }, 150);
+        });
+    });
+}
+
+// Share Feature Cards Functions
+function initializeShareCards() {
+    const featureCards = document.querySelectorAll('.feature-card');
+    featureCards.forEach((card) => {
+        card.addEventListener('mouseenter', function() {
+            this.style.transform = 'translateY(-4px) scale(1.02)';
+            this.style.boxShadow = '0 8px 25px rgba(0, 0, 0, 0.15)';
+            this.style.borderColor = 'rgba(255, 255, 255, 0.5)';
+        });
+        
+        card.addEventListener('mouseleave', function() {
+            this.style.transform = 'translateY(0) scale(1)';
+            this.style.boxShadow = '0 4px 12px rgba(0, 0, 0, 0.1)';
+            this.style.borderColor = 'rgba(255, 255, 255, 0.3)';
+        });
+        
+        card.addEventListener('click', function() {
+            this.style.transform = 'scale(0.98)';
+            setTimeout(() => {
+                this.style.transform = 'scale(1)';
+            }, 150);
+        });
+    });
+    
+    // Share button hover effects
+    const shareBtn = document.querySelector('.enhanced-share-btn');
+    if (shareBtn) {
+        shareBtn.addEventListener('mouseenter', function() {
+            this.style.transform = 'translateY(-2px)';
+            this.style.boxShadow = '0 8px 25px rgba(255, 215, 0, 0.4)';
+        });
+        
+        shareBtn.addEventListener('mouseleave', function() {
+            this.style.transform = 'translateY(0)';
+            this.style.boxShadow = '0 6px 20px rgba(255, 215, 0, 0.3)';
+        });
+    }
+}
+
+// Initialize pie chart when DOM is loaded
 document.addEventListener('DOMContentLoaded', function() {
     const customerData = JSON.parse('{{ customer_data | tojson | safe }}');
     const styles = getDynamicStyles(customerData);
@@ -38,28 +136,17 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Animate the food number with counting effect
     animateFoodNumber();
+    
+    // Initialize breed predictions with delay to ensure elements are rendered
+    setTimeout(() => {
+        initializeBreedPredictions();
+    }, 500);
+    
+    // Initialize share cards
+    setTimeout(() => {
+        initializeShareCards();
+    }, 1000);
 });
-
-function animateFoodNumber() {
-    const numberElement = document.getElementById('food-number');
-    if (!numberElement) return;
-    
-    const finalNumber = parseInt(numberElement.textContent);
-    let currentNumber = 0;
-    const duration = 2000; // 2 seconds
-    const steps = 60;
-    const increment = finalNumber / steps;
-    const stepDuration = duration / steps;
-    
-    const timer = setInterval(() => {
-        currentNumber += increment;
-        if (currentNumber >= finalNumber) {
-            currentNumber = finalNumber;
-            clearInterval(timer);
-        }
-        numberElement.textContent = Math.floor(currentNumber);
-    }, stepDuration);
-}
 </script>
 
 <style>
@@ -75,6 +162,31 @@ body {
     background: linear-gradient(135deg, #0066cc 0%, #004499 50%, #002266 100%);
     min-height: 100vh;
     overflow-x: hidden;
+}
+
+/* Loading styles */
+.loading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.loading h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.loading p {
+    font-size: 18px;
+    opacity: 0.8;
+    text-transform: lowercase;
 }
 
 .container {
@@ -105,7 +217,7 @@ body {
 
 .slide-content {
     background: linear-gradient(135deg, #0066cc 0%, #004499 50%, #002266 100%);
-    color: white;
+    color: #333333;
     padding: 40px 25px 80px 25px;
     min-height: 100vh;
     display: flex;
@@ -225,7 +337,7 @@ body {
 /* Food Fun Fact Slide */
 
 .food-consumption-title {
-    color: white;
+    color: #333333;
     font-size: 48px;
     font-weight: 700;
     margin: 20px 0 10px 0;
@@ -233,7 +345,7 @@ body {
 }
 
 .food-consumption-subtitle {
-    color: white;
+    color: #333333;
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 30px;
@@ -248,7 +360,7 @@ body {
 }
 
 .funfact-message {
-    color: white;
+    color: #333333;
     font-size: 20px;
     line-height: 1.6;
     font-family: 'Poppins', sans-serif;
@@ -263,7 +375,7 @@ body {
 /* Highlight number + item format in fun facts */
 .funfact-message .highlight-number {
     font-weight: 700;
-    color: white;
+    color: #333333;
 }
 
 
@@ -424,7 +536,7 @@ body {
 
 /* Slide title styling */
 .slide-title {
-    color: white !important;
+    color: #333333 !important;
     font-size: 28px;
     font-weight: 700;
     margin: 30px 0 20px 0;
@@ -437,7 +549,7 @@ body {
     background-image: none !important;
     -webkit-background-clip: initial !important;
     background-clip: initial !important;
-    -webkit-text-fill-color: white !important;
+    -webkit-text-fill-color: #333333 !important;
     text-shadow: none !important;
     filter: none !important;
 }
@@ -728,15 +840,36 @@ body {
 
 /* Enhanced Breed Card Hover Effects */
 .breed-card:hover {
-    transform: translateY(-4px) scale(1.02);
-    box-shadow: 0 8px 24px rgba(44, 95, 139, 0.25);
-    background: linear-gradient(135deg, #F8FCFF 0%, #E8F3FF 100%);
-    border: 1px solid rgba(74, 144, 226, 0.3);
+    transform: translateY(-6px) scale(1.05);
+    box-shadow: 0 12px 32px rgba(28, 58, 46, 0.25);
+    background: linear-gradient(135deg, #FFFFFF 0%, #F8FAFC 100%);
+    border: 2px solid rgba(28, 58, 46, 0.3);
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 .breed-card:active {
-    transform: translateY(-2px) scale(1.01);
+    transform: translateY(-2px) scale(1.02);
     transition: all 0.1s ease;
+}
+
+.breed-card {
+    position: relative;
+    overflow: hidden;
+}
+
+.breed-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+    transition: left 0.5s ease;
+}
+
+.breed-card:hover::before {
+    left: 100%;
 }
 
 /* Question Card - Simple Style */
@@ -1021,6 +1154,22 @@ body {
     transform: translateY(-3px) scale(1.05);
     box-shadow: 0 10px 30px rgba(74, 144, 226, 0.5);
     background: linear-gradient(135deg, #5aa0f2, #3a62a8);
+}
+
+/* Enhanced breed question button hover effects */
+.breed-question-btn:hover {
+    transform: translateY(-4px) scale(1.05);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+.breed-question-btn:hover .breed-btn-emoji {
+    transform: scale(1.1);
+    transition: transform 0.2s ease;
+}
+
+.breed-question-btn:active {
+    transform: translateY(-2px) scale(1.02);
+    transition: all 0.1s ease;
 }
 
 .breed-feedback-yes,
@@ -2095,6 +2244,46 @@ body {
         min-height: 100vh !important;
         padding: 10px !important;
     }
+    
+    /* Mobile breed predictions */
+    .breed-predictions-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 10px !important;
+    }
+    
+    .breed-card {
+        min-height: 80px !important;
+        padding: 12px 8px !important;
+    }
+    
+    .breed-card-name {
+        font-size: 12px !important;
+        margin-bottom: 4px !important;
+    }
+    
+    .breed-card-percentage {
+        font-size: 16px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .breed-predictions-grid {
+        grid-template-columns: 1fr !important;
+        gap: 8px !important;
+    }
+    
+    .breed-card {
+        min-height: 70px !important;
+        padding: 10px 8px !important;
+    }
+    
+    .breed-card-name {
+        font-size: 11px !important;
+    }
+    
+    .breed-card-percentage {
+        font-size: 14px !important;
+    }
 }
 
 /* Enhanced Food Consumption Animations */
@@ -2328,14 +2517,10 @@ body {
 
     <!-- Loading Slide -->
     <div class="slide active" id="slide-0">
-        <div class="slide-content loading-slide" style="background: linear-gradient(135deg, #0066cc 0%, #004499 50%, #002266 100%); min-height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; color: white;">
-            <div class="loading-container" style="max-width: 400px; padding: 40px 20px;">
-                <!-- <div class="loading-icon" style="font-size: 60px; margin-bottom: 30px; animation: spin 2s linear infinite;">⏳</div> -->
-                <h2 class="loading-title" style="font-size: 28px; font-weight: 700; margin-bottom: 15px; font-family: 'Poppins', sans-serif;">Loading your personalized Chewy experience...</h2>
-                <p class="loading-subtitle" style="font-size: 16px; opacity: 0.9; margin-bottom: 30px; font-family: 'Poppins', sans-serif;">Please wait while we prepare your data</p>
-                <div class="loading-progress" style="width: 100%; height: 4px; background: rgba(255, 255, 255, 0.2); border-radius: 2px; overflow: hidden;">
-                    <div class="progress-fill" style="height: 100%; background: linear-gradient(90deg, #FFD93D, #FF6B6B, #4ECDC4, #A29BFE); background-size: 300% 100%; animation: progressShimmer 2s ease-in-out infinite; width: 60%; border-radius: 2px;"></div>
-                </div>
+        <div class="slide-content loading-slide" style="background: linear-gradient(135deg, #0066cc 0%, #004499 50%, #002266 100%); min-height: 100vh; display: flex; justify-content: center; align-items: center;">
+            <div id="loading" class="loading">
+                <h2>2025 Chewy Playback</h2>
+                <p>loading</p>
             </div>
         </div>
     </div>
@@ -2344,19 +2529,24 @@ body {
     {% if customer_data.food_fun_fact and customer_data.food_fun_fact.total_food_lbs and customer_data.food_fun_fact.total_food_lbs > 0 %}
     <div class="slide" id="slide-1">
         <div class="slide-content funfact-slide" style="background: #FFE181; color: #3C3C3C; min-height: 100vh; display: flex; flex-direction: column; justify-content: flex-start; align-items: center; padding-top: 80px;">
-            <div class="slide-header" style="text-align: center; margin-bottom: 20px;">
-                <h2 class="slide-title" style="text-align: center; margin: 0; margin-top: 40px; font-family: 'Baloo 2', sans-serif; font-weight: 600; color: #3C3C3C; font-size: 36px;">
+            <div class="slide-header" style="text-align: center; margin-bottom: 20px; color: #3C3C3C;">
+                <h2 class="slide-title" style="text-align: center; margin: 0; margin-top: 40px; font-family: 'Nunito', sans-serif; font-weight: 600; color: #3C3C3C !important; font-size: 36px;">
                     Total Food Consumed
                 </h2>
             </div>
             
-            <div class="spotify-wrapped-container" style="text-align: center;">
-                <div class="wrapped-number" id="food-number" style="color: #D35400; font-size: 72px; font-weight: 900; margin-bottom: 10px; text-align: center;">{{ customer_data.food_fun_fact.total_food_lbs }}<span class="unit-text" style="font-size: 36px; margin-left: 10px;">lbs</span></div>
-                <div class="wrapped-text-line" style="color: #3C3C3C; font-size: 18px; font-weight: 600; text-align: center;">to be exact.</div>
+            <div class="spotify-wrapped-container" style="text-align: center; width: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                <div class="wrapped-number" id="food-number" style="color: #4A1A1A; font-size: 48px; font-weight: 900; margin-bottom: 10px; text-align: center; width: 100%; display: flex; justify-content: center; align-items: center; gap: 8px;">{{ customer_data.food_fun_fact.total_food_lbs }}<span class="unit-text" style="font-size: 32px; color: #4A1A1A; font-weight: 900; display: inline-block;">lbs</span></div>
+                <div class="wrapped-text-line" style="color: #3C3C3C; font-size: 18px; font-weight: 600; text-align: center; width: 100%;">to be exact.</div>
             </div>
             
-            <div class="funfact-messages">
-            </div>
+            {% if customer_data.food_fun_fact.fun_facts %}
+                {% for fun_fact in customer_data.food_fun_fact.fun_facts %}
+                <p style="color: #3C3C3C; font-size: 16px; font-weight: 600; text-align: center; margin: 10px 0;">{{ fun_fact }}</p>
+                {% endfor %}
+            {% endif %}
+            
+            <div class="slide-counter">1 of 6</div>
         </div>
     </div>
     {% endif %}
@@ -2364,7 +2554,7 @@ body {
     <!-- Slide 2: AI Portrait -->
     {% if customer_data.portrait %}
     <div class="slide" id="slide-2">
-        <div class="slide-content portrait-slide" style="display: flex; flex-direction: column; justify-content: flex-start; align-items: center; min-height: 100vh; padding-top: 20px; background: linear-gradient(135deg, #FFB347 0%, #FF8C42 100%); position: relative; overflow: hidden;">
+        <div class="slide-content portrait-slide" style="display: flex; flex-direction: column; justify-content: flex-start; align-items: center; min-height: 100vh; padding: 0; background: #FFB3B3; position: relative; overflow: hidden;">
             
             <!-- Animated background elements -->
             <div class="portrait-bg-elements" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; z-index: 1;">
@@ -2372,13 +2562,18 @@ body {
                 <div class="bg-circle" style="position: absolute; bottom: 20%; left: 15%; width: 80px; height: 80px; background: radial-gradient(circle, rgba(255,255,255,0.08) 0%, rgba(255,255,255,0.03) 70%); border-radius: 50%; animation: float 8s ease-in-out infinite 2s;"></div>
                 <div class="bg-circle" style="position: absolute; top: 60%; right: 20%; width: 60px; height: 60px; background: radial-gradient(circle, rgba(255,255,255,0.06) 0%, rgba(255,255,255,0.02) 70%); border-radius: 50%; animation: float 7s ease-in-out infinite 4s;"></div>
             </div>
-            <div class="slide-header" style="text-align: center; margin-bottom: 30px; order: 1; position: relative; z-index: 2;">
-                <h2 class="slide-title" style="text-align: center; margin: 0; margin-top: 40px; font-size: 24px; color: white; font-weight: 600; text-shadow: 0 2px 4px rgba(0,0,0,0.3);">
-                    Your Pet Portrait
+            
+            <!-- Title at the top -->
+            <div class="slide-header" style="text-align: center; position: relative; z-index: 2; margin-top: 100px; margin-bottom: 20px;">
+                <h2 class="slide-title" style="text-align: center; margin: 0; font-size: 28px; color: #5A1C2E; font-weight: 800; text-shadow: 0 2px 4px rgba(90,28,46,0.3);">
+                    <strong>Your Pet Portrait</strong>
                 </h2>
             </div>
             
-            <img src="{{ customer_data.portrait }}" alt="Pet Portrait" class="portrait-image-fullscreen" style="width: auto; height: auto; max-width: 100%; max-height: 70vh; object-fit: contain; order: 2; flex: 1;">
+            <!-- Portrait image centered in remaining space -->
+            <div style="flex: 1; display: flex; align-items: center; justify-content: center; width: 100%;">
+                <img src="{{ customer_data.portrait }}" alt="Pet Portrait" class="portrait-image-fullscreen" style="width: auto; height: auto; max-width: 90%; max-height: 70vh; object-fit: contain; display: block; margin: 0 auto;">
+            </div>
         </div>
     </div>
     {% endif %}
@@ -2386,29 +2581,29 @@ body {
     <!-- Slide 1.5: Busiest Month (when food consumption is 0/null) -->
     {% if customer_data.cuddliest_month and (not customer_data.food_fun_fact or not customer_data.food_fun_fact.total_food_lbs or customer_data.food_fun_fact.total_food_lbs == 0) %}
     <div class="slide" id="slide-1-busiest">
-        <div class="slide-content busiest-slide">
+        <div class="slide-content busiest-slide" style="background: #A0E7E5; color: #00373C;">
             <div class="slide-header" style="text-align: center; margin-bottom: 30px;">
-                <h2 class="slide-title" style="text-align: center; margin: 0; margin-top: 40px;">
+                <h2 class="slide-title" style="text-align: center; margin: 0; margin-top: 40px; color: #00373C;">
                     Your Busiest Month
                 </h2>
             </div>
             
             <div class="busiest-container">
                 <div class="busiest-icon">
-                    <i class="fas fa-calendar-alt" style="font-size: 60px; color: white;"></i>
+                    <i class="fas fa-calendar-alt" style="font-size: 60px; color: #00373C;"></i>
                 </div>
                 <div class="busiest-content">
-                    <h3 class="busiest-title">Your Busiest Month</h3>
-                    <div style="background: rgba(255,255,255,0.1); padding: 25px; border-radius: 15px; margin-bottom: 20px;">
-                        <h4 style="color: white; font-size: 32px; margin-bottom: 10px; text-align: center;">
+                    <h3 class="busiest-title" style="color: #00373C;">Your Busiest Month</h3>
+                    <div style="background: rgba(255,255,255,0.2); padding: 25px; border-radius: 15px; margin-bottom: 20px;">
+                        <h4 style="color: #00373C; font-size: 32px; margin-bottom: 10px; text-align: center;">
                             {{ customer_data.cuddliest_month }}
                         </h4>
-                        <p style="color: white; font-size: 18px; text-align: center; margin-bottom: 15px;">
+                        <p style="color: #00373C; font-size: 18px; text-align: center; margin-bottom: 15px;">
                             This was your most active month with Chewy!
                         </p>
                     </div>
                     <div class="busiest-highlight">
-                        <p class="busiest-text">
+                        <p class="busiest-text" style="color: #00373C;">
                             You were most engaged with Chewy during {{ customer_data.cuddliest_month }}. Keep up the great work taking care of your pets!
                         </p>
                     </div>
@@ -2418,60 +2613,78 @@ body {
     </div>
     {% endif %}
 
+
+
     <!-- Slide 4: Enhanced Letter from Pets -->
     {% if customer_data.pet_letters %}
     <div class="slide" id="slide-3">
-        <div class="slide-content letter-slide">
-            
+        <div class="slide-content letter-slide" style="background: #BDE0FE; color: #052049; overflow-y: auto; padding-top: 40px;">
             <!-- Enhanced title with decorative elements -->
-            <div class="letter-slide-header">
+            <div class="letter-slide-header" style="margin-top: 120px; margin-bottom: 40px; padding: 20px 0;">
                 <div class="letter-title-container">
-                    <div class="letter-title-icon">💌</div>
-                    <h2 class="letter-slide-title">A Letter from Your Pets</h2>
+                    <h2 class="letter-slide-title" style="color: #052049 !important; font-size: 28px; font-weight: 800; text-align: center; margin: 0; font-family: 'Nunito', sans-serif; text-shadow: 0 2px 4px rgba(5,32,73,0.1); letter-spacing: 0.5px; position: relative; z-index: 10;">Letter from your pets</h2>
                     <div class="letter-title-decoration"></div>
                 </div>
             </div>
-            
-            <!-- Enhanced letter container -->
-            <div class="enhanced-letter-container">
-                <!-- Letter paper with improved texture -->
-                <div class="letter-paper">
-                    <div class="letter-paper-texture"></div>
-                    
-                    <!-- Letter content with better typography -->
-                    <div class="enhanced-letter-content">
-                        {% if customer_data.pet_letters %}
-                            {% set letter_text = customer_data.pet_letters %}
-                            {% if letter_text %}
-                                {% set lines = letter_text.split('\n') %}
-                                {% set clean_lines = [] %}
-                                {% for line in lines %}
-                                    {% if line.strip() and not line.startswith('Collective Letter from All Pets for Customer') and not line.startswith('=') %}
-                                        {% set clean_line = line.strip() %}
-                                        {% if clean_line.endswith('.') or clean_line.endswith('!') or clean_line.endswith('?') %}
-                                            {% set _ = clean_lines.append(clean_line) %}
-                                        {% else %}
-                                            {% set _ = clean_lines.append(clean_line + '.') %}
-                                        {% endif %}
+            <!-- Letter content with proper letter formatting -->
+            <div class="enhanced-letter-content" style="color: #052049; max-width: 700px; margin: 0 auto; font-size: 20px; line-height: 1.8; font-family: 'Caveat', 'Segoe Print', 'Bradley Hand', cursive; background: none; box-shadow: none; padding: 0;">
+                {% if customer_data.pet_letters %}
+                    {% set letter_text = customer_data.pet_letters %}
+                    {% if letter_text %}
+                        {% set lines = letter_text.split('\n') %}
+                        {% set clean_lines = [] %}
+                        {% set greeting_found = false %}
+                        {% set signature_found = false %}
+                        {% set body_lines = [] %}
+                        {% set greeting = '' %}
+                        {% set signature = '' %}
+                        
+                        {% for line in lines %}
+                            {% if line.strip() and not line.startswith('Collective Letter from All Pets for Customer') and not line.startswith('=') %}
+                                {% set clean_line = line.strip() %}
+                                
+                                <!-- Extract greeting -->
+                                {% if not greeting_found and (clean_line.lower().startswith('dear') or clean_line.lower().startswith('hello') or clean_line.lower().startswith('hi')) %}
+                                    {% set greeting = clean_line %}
+                                    {% set greeting_found = true %}
+                                <!-- Extract signature -->
+                                {% elif clean_line.lower().startswith('from:') or clean_line.lower().startswith('with') or clean_line.lower().startswith('love') or clean_line.lower().startswith('sincerely') or clean_line.lower().startswith('your') %}
+                                    {% set signature = clean_line %}
+                                    {% set signature_found = true %}
+                                <!-- Body content -->
+                                {% else %}
+                                    {% if clean_line.endswith('.') or clean_line.endswith('!') or clean_line.endswith('?') %}
+                                        {% set _ = body_lines.append(clean_line) %}
+                                    {% else %}
+                                        {% set _ = body_lines.append(clean_line + '.') %}
                                     {% endif %}
-                                {% endfor %}
-                                <div class="letter-text-content">{{ clean_lines | join(' ') }}</div>
+                                {% endif %}
                             {% endif %}
-                        {% endif %}
-                    </div>
-                    
-                    <!-- Enhanced signature section -->
-                    <div class="enhanced-letter-signature">
-                        <div class="signature-line"></div>
-                        <div class="signature-content">
-                            <p class="signature-with-love">With love,</p>
-                            <p class="signature-family">Your Furry Family</p>
-                            <div class="signature-heart">❤️</div>
+                        {% endfor %}
+                        
+                        <!-- Proper letter structure -->
+                        <div class="letter-structure" style="display: flex; flex-direction: column; gap: 20px;">
+                            <!-- Greeting -->
+                            {% if greeting %}
+                                <div class="letter-greeting" style="font-size: 22px; font-weight: 600; color: #052049; margin-bottom: 10px;">{{ greeting }}</div>
+                            {% endif %}
+                            
+                            <!-- Body paragraphs -->
+                            {% if body_lines %}
+                                <div class="letter-body" style="font-size: 20px; line-height: 1.8; color: #052049; text-align: left; font-weight: 500; letter-spacing: 0.5px; margin-bottom: 20px;">
+                                    {% for line in body_lines %}
+                                        <div class="letter-paragraph" style="margin-bottom: 15px;">{{ line }}</div>
+                                    {% endfor %}
+                                </div>
+                            {% endif %}
+                            
+                            <!-- Signature -->
+                            {% if signature %}
+                                <div class="letter-signature" style="font-size: 22px; font-weight: 600; color: #052049; margin-top: 20px; text-align: right;">{{ signature }}</div>
+                            {% endif %}
                         </div>
-                    </div>
-                </div>
-                
-                <!-- Decorative elements removed for cleaner design -->
+                    {% endif %}
+                {% endif %}
             </div>
         </div>
     </div>
@@ -2480,51 +2693,51 @@ body {
     <!-- Slide 4: Personality Badge -->
     {% if customer_data.badge %}
     <div class="slide" id="slide-4">
-        <div class="slide-content badge-slide">
+        <div class="slide-content badge-slide" style="background: #FFCAD4; color: #5A1C2E;">
             <div class="household-personality-container" style="padding: 0; gap: 20px;">
                 <!-- Large bold title -->
-                <h1 class="household-title" style="margin-top: 0; color: white;">Household Personality for Your Pets</h1>
+                <h1 class="household-title" style="margin-top: 0; color: #5A1C2E;">Household Personality for Your Pets</h1>
                 
                 <!-- Central circular badge section -->
                 <div class="central-badge-section">
                     <div class="badge-circle">
                         <img src="{{ customer_data.badge.image_path }}" alt="Personality Badge" class="central-badge-image">
                     </div>
-                    <h2 class="badge-label" style="color: white;">{{ customer_data.badge.badge }}</h2>
+                    <h2 class="badge-label" style="color: #5A1C2E;">{{ customer_data.badge.badge }}</h2>
             </div>
             
                 <!-- Horizontal personality words -->
-                <div class="personality-words-section">
-                    <div class="personality-word"  style="color: white;">Playful</div>
-                    <div class="personality-word" style="color: white;">Loyal</div>
-                    <div class="personality-word" style="color: white;">Gentle</div>
+                <div class="personality-words-section" style="display: flex; justify-content: center; gap: 15px; margin: 20px 0;">
+                    <div class="personality-word" style="background: linear-gradient(135deg, #E91E63, #C2185B); color: white; border: none; border-radius: 12px; padding: 8px 16px; font-size: 14px; font-weight: 600; font-family: 'Poppins', sans-serif; box-shadow: 0 4px 16px rgba(233, 30, 99, 0.25); transition: all 0.3s ease; cursor: pointer;">Playful</div>
+                    <div class="personality-word" style="background: linear-gradient(135deg, #E91E63, #C2185B); color: white; border: none; border-radius: 12px; padding: 8px 16px; font-size: 14px; font-weight: 600; font-family: 'Poppins', sans-serif; box-shadow: 0 4px 16px rgba(233, 30, 99, 0.25); transition: all 0.3s ease; cursor: pointer;">Loyal</div>
+                    <div class="personality-word" style="background: linear-gradient(135deg, #E91E63, #C2185B); color: white; border: none; border-radius: 12px; padding: 8px 16px; font-size: 14px; font-weight: 600; font-family: 'Poppins', sans-serif; box-shadow: 0 4px 16px rgba(233, 30, 99, 0.25); transition: all 0.3s ease; cursor: pointer;">Gentle</div>
                 </div>
                 
                 <!-- Compatible With section -->
                 <div class="compatible-with-section">
-                    <h3 class="compatible-with-title" style="color: white;">Compatible With</h3>
+                    <h3 class="compatible-with-title" style="color: #5A1C2E;">Compatible With</h3>
                     <div class="compatible-badges-row">
                         <div class="compatible-badge-small">
                             <img src="/static/badges/badge_athlete copy.png" alt="Athlete Badge" class="compatible-badge-small-image">
-                            <span class="compatible-badge-small-name"  style="color: white;">Athlete</span>
+                            <span class="compatible-badge-small-name"  style="color: #5A1C2E;">Athlete</span>
                         </div>
                         <div class="compatible-badge-small">
                             <img src="/static/badges/badge_cuddler copy.png" alt="Cuddler Badge" class="compatible-badge-small-image">
-                            <span class="compatible-badge-small-name"  style="color: white;">Cuddler</span>
+                            <span class="compatible-badge-small-name"  style="color: #5A1C2E;">Cuddler</span>
                         </div>
                         <div class="compatible-badge-small">
                             <img src="/static/badges/badge_explorer copy.png" alt="Explorer Badge" class="compatible-badge-small-image">
-                            <span class="compatible-badge-small-name"  style="color: white;">Explorer</span>
+                            <span class="compatible-badge-small-name"  style="color: #5A1C2E;">Explorer</span>
                         </div>
                 </div>
             </div>
             
                 <!-- Call-to-action button -->
                 <div class="share-cta-section">
-                    <button class="share-cta-button" onclick="shareToSocial('facebook')">
+                    <button class="share-cta-button" onclick="shareToSocial('facebook')" style="background: linear-gradient(135deg, #E91E63, #C2185B); color: white; border: none; padding: 15px 30px; border-radius: 25px; font-size: 16px; font-weight: 600; font-family: 'Poppins', sans-serif; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 4px 12px rgba(233, 30, 99, 0.3); display: flex; align-items: center; gap: 10px; margin: 0 auto;">
                         Share to discover your pet's friends
-                </button>
-            </div>
+                    </button>
+                </div>
             </div>
         </div>
     </div>
@@ -2533,117 +2746,98 @@ body {
     <!-- Slide 5: Breed Prediction - First Display -->
     {% if customer_data.breed_prediction %}
     <div class="slide" id="slide-5">
-        <div class="slide-content breed-slide" style="background: linear-gradient(135deg, #E8F4F8 0%, #D1E7F0 50%, #B8D4E6 100%); min-height: 100vh; padding: 20px 15px 80px 15px;">
+        <div class="slide-content breed-slide" style="background: #D0F4DE; min-height: 100vh; padding: 20px 15px 80px 15px;">
             <div class="breed-container" style="margin-top: 20px; max-width: 480px; margin-left: auto; margin-right: auto;">
-                <h2 class="slide-title" style="text-align: center; margin: 0; margin-top: 40px; margin-bottom: 20px; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 26px; color: #1E4A6B; text-shadow: 0 2px 4px rgba(30, 74, 107, 0.1);">
+                <h2 class="slide-title" style="text-align: center; margin: 0; margin-top: 40px; margin-bottom: 20px; font-family: 'Nunito', 'Poppins', sans-serif; font-weight: 700; font-size: 26px; color: #1C3A2E; text-shadow: 0 2px 4px rgba(28, 58, 46, 0.1);">
                     Our Breed Predictions
                 </h2>
                     
                     <!-- Pet Highlight Section -->
-                    <div class="breed-pet-highlight" style="text-align: center; margin-bottom: 18px; padding: 12px 15px; background: rgba(255, 255, 255, 0.7); border-radius: 12px; border: 1px solid rgba(44, 95, 139, 0.15);">
-                        <p class="breed-highlight-text" style="margin: 0; font-family: 'Poppins', sans-serif; font-size: 14px; color: #2C5F8B; font-weight: 500;">
-                            We are highlighting <strong style="color: #1E4A6B; font-weight: 700;">
-                                {% if customer_data.breed_prediction.multiple_predictions %}
-                                    {{ customer_data.breed_prediction.multiple_predictions[0].pet_name }}
-                                {% elif customer_data.breed_prediction.pet_name %}
-                                    {{ customer_data.breed_prediction.pet_name }}
-                                {% else %}
-                                    your pet
-                                {% endif %}
-                            </strong>
-                        </p>
-                    </div>
+                    <p class="breed-highlight-text" style="text-align: center; margin-bottom: 18px; font-family: 'Poppins', sans-serif; font-size: 14px; color: #1C3A2E; font-weight: 500;">
+                        We are highlighting <strong style="color: #1C3A2E; font-weight: 700;">
+                            {% if customer_data.breed_prediction.multiple_predictions %}
+                                {{ customer_data.breed_prediction.multiple_predictions[0].pet_name }}
+                            {% elif customer_data.breed_prediction.pet_name %}
+                                {{ customer_data.breed_prediction.pet_name }}
+                            {% else %}
+                                your pet
+                            {% endif %}
+                        </strong>
+                    </p>
                     
-                    <!-- Step 1: Breed Predictions Grid -->
-                    <div class="breed-predictions-card" id="breed-predictions-card" style="background: rgba(255, 255, 255, 0.85); border-radius: 16px; padding: 15px; box-shadow: 0 6px 24px rgba(44, 95, 139, 0.12); border: 1px solid rgba(255, 255, 255, 0.9); margin-bottom: 0px;">
-                        <h4 class="breed-predictions-title" style="color: #2C5F8B; font-size: 18px; font-weight: 700; margin-bottom: 8px; text-align: center; font-family: 'Poppins', sans-serif;">Our Top Predictions</h4>
-                    <div class="breed-predictions-grid" id="breed-predictions-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 8px;">
+                    <!-- Simple Breed Predictions -->
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 8px; margin-bottom: 20px;">
                         {% if customer_data.breed_prediction.multiple_predictions %}
-                                {# Handle multiple predictions structure #}
-                                {% set first_prediction = customer_data.breed_prediction.multiple_predictions[0] %}
-                                {% if first_prediction.prediction and first_prediction.prediction.breed_distribution %}
-                                    {% for breed_name, percentage in first_prediction.prediction.breed_distribution.items() %}
-                                    <div class="breed-card" onclick="handleBreedCardClick(event)" data-breed="{{ breed_name }}" data-pet="{{ first_prediction.pet_name }}" data-confidence="{{ percentage }}" data-explanation="{{ first_prediction.prediction.explanations[breed_name] if first_prediction.prediction.explanations and breed_name in first_prediction.prediction.explanations else 'No explanation available' }}" style="background: linear-gradient(135deg, #F0F8FF 0%, #E6F3FF 100%); border-radius: 12px; padding: 10px 8px; text-align: center; box-shadow: 0 4px 16px rgba(44, 95, 139, 0.15); border: 1px solid rgba(255, 255, 255, 0.9); transition: all 0.3s ease; cursor: pointer; position: relative; overflow: hidden; min-height: 70px; display: flex; flex-direction: column; justify-content: center;">
-                                        <div class="breed-card-content">
-                                            <div class="breed-card-name" style="color: #2C5F8B; font-size: 14px; font-weight: 700; margin-bottom: 4px; font-family: 'Poppins', sans-serif; line-height: 1.2;">{{ breed_name | format_breed_name_simple }}</div>
-                                            <div class="breed-card-percentage" style="color: #4A90E2; font-size: 16px; font-weight: 800; margin-bottom: 4px; font-family: 'Poppins', sans-serif;">{{ "%.1f"|format(percentage) }}%</div>
-                                            <div class="breed-card-checkbox" style="display: none;">
-                                                <input type="checkbox" class="breed-checkbox" onchange="showIKnewIt()">
-                                                <label class="breed-checkbox-label">Check</label>
-                                            </div>
-                                        </div>
-                            </div>
-                            {% endfor %}
-                        {% else %}
-                                    <div class="breed-card" onclick="handleBreedCardClick(event)" data-breed="{{ first_prediction.predicted_breed }}" data-pet="{{ first_prediction.pet_name }}" data-confidence="100" data-explanation="No explanation available" style="background: linear-gradient(135deg, #F0F8FF 0%, #E6F3FF 100%); border-radius: 12px; padding: 12px 10px; text-align: center; box-shadow: 0 4px 16px rgba(44, 95, 139, 0.15); border: 1px solid rgba(255, 255, 255, 0.9); transition: all 0.3s ease; cursor: pointer; position: relative; overflow: hidden; min-height: 75px; display: flex; flex-direction: column; justify-content: center;">
-                                        <div class="breed-card-content">
-                                            <div class="breed-card-name" style="color: #2C5F8B; font-size: 14px; font-weight: 700; margin-bottom: 5px; font-family: 'Poppins', sans-serif; line-height: 1.2;">{{ first_prediction.predicted_breed }}</div>
-                                            <div class="breed-card-percentage" style="color: #4A90E2; font-size: 16px; font-weight: 800; margin-bottom: 5px; font-family: 'Poppins', sans-serif;">100%</div>
-                                            <div class="breed-card-checkbox" style="display: none;">
-                                                <input type="checkbox" class="breed-checkbox" onchange="handleBreedCheckboxChange(event)">
-                                                <label class="breed-checkbox-label">Check</label>
-                            </div>
-                    </div>
-                        </div>
-                                {% endif %}
-                            {% elif customer_data.breed_prediction.prediction %}
-                                {# Handle single prediction structure #}
-                                {% if customer_data.breed_prediction.prediction.breed_distribution %}
-                                    {% for breed_name, percentage in customer_data.breed_prediction.prediction.breed_distribution.items() %}
-                                    <div class="breed-card" onclick="handleBreedCardClick(event)" data-breed="{{ breed_name }}" data-pet="{{ customer_data.breed_prediction.pet_name }}" data-confidence="{{ percentage }}" data-explanation="{{ customer_data.breed_prediction.prediction.explanations[breed_name] if customer_data.breed_prediction.prediction.explanations and breed_name in customer_data.breed_prediction.prediction.explanations else 'No explanation available' }}" style="background: linear-gradient(135deg, #F0F8FF 0%, #E6F3FF 100%); border-radius: 12px; padding: 12px 10px; text-align: center; box-shadow: 0 4px 16px rgba(44, 95, 139, 0.15); border: 1px solid rgba(255, 255, 255, 0.9); transition: all 0.3s ease; cursor: pointer; position: relative; overflow: hidden; min-height: 75px; display: flex; flex-direction: column; justify-content: center;">
-                                        <div class="breed-card-content">
-                                            <div class="breed-card-name" style="color: #2C5F8B; font-size: 14px; font-weight: 700; margin-bottom: 5px; font-family: 'Poppins', sans-serif; line-height: 1.2;">{{ breed_name | format_breed_name_simple }}</div>
-                                            <div class="breed-card-percentage" style="color: #4A90E2; font-size: 16px; font-weight: 800; margin-bottom: 5px; font-family: 'Poppins', sans-serif;">{{ "%.1f"|format(percentage) }}%</div>
-                                            <div class="breed-card-checkbox" style="display: none;">
-                                                <input type="checkbox" class="breed-checkbox" onchange="showIKnewIt()">
-                                                <label class="breed-checkbox-label">Check</label>
-                    </div>
-                                        </div>
+                            {% set first_prediction = customer_data.breed_prediction.multiple_predictions[0] %}
+                            {% if first_prediction.prediction and first_prediction.prediction.breed_distribution %}
+                                {% for breed_name, percentage in first_prediction.prediction.breed_distribution.items() %}
+                                <div onclick="handleBreedCardClick(event)" data-breed="{{ breed_name }}" data-pet="{{ first_prediction.pet_name }}" data-confidence="{{ percentage }}" data-explanation="{{ first_prediction.prediction.explanations[breed_name] if first_prediction.prediction.explanations and breed_name in first_prediction.prediction.explanations else 'No explanation available' }}" style="background: rgba(255, 255, 255, 0.9); border-radius: 8px; padding: 8px; text-align: center; cursor: pointer; border: 1px solid rgba(16, 185, 129, 0.2);">
+                                    <div style="color: #1C3A2E; font-size: 12px; font-weight: 600; margin-bottom: 4px; text-transform: capitalize;">{{ breed_name | format_breed_name_simple }}</div>
+                                    <div style="color: #10B981; font-size: 14px; font-weight: 700;">{{ "%.0f"|format(percentage) }}%</div>
                                 </div>
                                 {% endfor %}
                             {% else %}
-                                    <div class="breed-card" onclick="handleBreedCardClick(event)" data-breed="{{ customer_data.breed_prediction.predicted_breed }}" data-pet="{{ customer_data.breed_prediction.pet_name }}" data-confidence="100" data-explanation="No explanation available" style="background: linear-gradient(135deg, #F0F8FF 0%, #E6F3FF 100%); border-radius: 12px; padding: 12px 10px; text-align: center; box-shadow: 0 4px 16px rgba(44, 95, 139, 0.15); border: 1px solid rgba(255, 255, 255, 0.9); transition: all 0.3s ease; cursor: pointer; position: relative; overflow: hidden; min-height: 75px; display: flex; flex-direction: column; justify-content: center;">
-                                        <div class="breed-card-content">
-                                            <div class="breed-card-name" style="color: #2C5F8B; font-size: 14px; font-weight: 700; margin-bottom: 5px; font-family: 'Poppins', sans-serif; line-height: 1.2;">{{ customer_data.breed_prediction.predicted_breed }}</div>
-                                            <div class="breed-card-percentage" style="color: #4A90E2; font-size: 16px; font-weight: 800; margin-bottom: 5px; font-family: 'Poppins', sans-serif;">100%</div>
-                                            <div class="breed-card-checkbox" style="display: none;">
-                                                <input type="checkbox" class="breed-checkbox" onchange="handleBreedCheckboxChange(event)">
-                                                <label class="breed-checkbox-label">Check</label>
-                                            </div>
-                                        </div>
+                                <div onclick="handleBreedCardClick(event)" data-breed="{{ first_prediction.predicted_breed }}" data-pet="{{ first_prediction.pet_name }}" data-confidence="100" data-explanation="No explanation available" style="background: rgba(255, 255, 255, 0.9); border-radius: 8px; padding: 8px; text-align: center; cursor: pointer; border: 1px solid rgba(16, 185, 129, 0.2);">
+                                    <div style="color: #1C3A2E; font-size: 12px; font-weight: 600; margin-bottom: 4px; text-transform: capitalize;">{{ first_prediction.predicted_breed }}</div>
+                                    <div style="color: #10B981; font-size: 14px; font-weight: 700;">100%</div>
                                 </div>
                             {% endif %}
+                        {% elif customer_data.breed_prediction.prediction %}
+                            {% if customer_data.breed_prediction.prediction.breed_distribution %}
+                                {% for breed_name, percentage in customer_data.breed_prediction.prediction.breed_distribution.items() %}
+                                <div onclick="handleBreedCardClick(event)" data-breed="{{ breed_name }}" data-pet="{{ customer_data.breed_prediction.pet_name }}" data-confidence="{{ percentage }}" data-explanation="{{ customer_data.breed_prediction.prediction.explanations[breed_name] if customer_data.breed_prediction.prediction.explanations and breed_name in customer_data.breed_prediction.prediction.explanations else 'No explanation available' }}" style="background: rgba(255, 255, 255, 0.9); border-radius: 8px; padding: 8px; text-align: center; cursor: pointer; border: 1px solid rgba(16, 185, 129, 0.2);">
+                                    <div style="color: #1C3A2E; font-size: 12px; font-weight: 600; margin-bottom: 4px; text-transform: capitalize;">{{ breed_name | format_breed_name_simple }}</div>
+                                    <div style="color: #10B981; font-size: 14px; font-weight: 700;">{{ "%.0f"|format(percentage) }}%</div>
+                                </div>
+                                {% endfor %}
                             {% else %}
-                                <div class="breed-card" onclick="handleBreedCardClick(event)" data-breed="{{ customer_data.breed_prediction.predicted_breed }}" data-pet="Unknown" data-confidence="100" data-explanation="No explanation available" style="background: linear-gradient(135deg, #F0F8FF 0%, #E6F3FF 100%); border-radius: 12px; padding: 12px 10px; text-align: center; box-shadow: 0 4px 16px rgba(44, 95, 139, 0.15); border: 1px solid rgba(255, 255, 255, 0.9); transition: all 0.3s ease; cursor: pointer; position: relative; overflow: hidden; min-height: 75px; display: flex; flex-direction: column; justify-content: center;">
-                                    <div class="breed-card-content">
-                                        <div class="breed-card-name" style="color: #2C5F8B; font-size: 14px; font-weight: 700; margin-bottom: 5px; font-family: 'Poppins', sans-serif; line-height: 1.2;">{{ customer_data.breed_prediction.predicted_breed }}</div>
-                                        <div class="breed-card-percentage" style="color: #4A90E2; font-size: 16px; font-weight: 800; margin-bottom: 5px; font-family: 'Poppins', sans-serif;">100%</div>
-                                        <div class="breed-card-checkbox" style="display: none;">
-                                            <input type="checkbox" class="breed-checkbox" onchange="handleBreedCheckboxChange(event)">
-                                            <label class="breed-checkbox-label">Check</label>
-                                        </div>
-                                    </div>
+                                <div onclick="handleBreedCardClick(event)" data-breed="{{ customer_data.breed_prediction.predicted_breed }}" data-pet="{{ customer_data.breed_prediction.pet_name }}" data-confidence="100" data-explanation="No explanation available" style="background: rgba(255, 255, 255, 0.9); border-radius: 8px; padding: 8px; text-align: center; cursor: pointer; border: 1px solid rgba(16, 185, 129, 0.2);">
+                                    <div style="color: #1C3A2E; font-size: 12px; font-weight: 600; margin-bottom: 4px; text-transform: capitalize;">{{ customer_data.breed_prediction.predicted_breed }}</div>
+                                    <div style="color: #10B981; font-size: 14px; font-weight: 700;">100%</div>
                                 </div>
                             {% endif %}
-                        </div>
+                        {% else %}
+                            <div onclick="handleBreedCardClick(event)" data-breed="{{ customer_data.breed_prediction.predicted_breed }}" data-pet="Unknown" data-confidence="100" data-explanation="No explanation available" style="background: rgba(255, 255, 255, 0.9); border-radius: 8px; padding: 8px; text-align: center; cursor: pointer; border: 1px solid rgba(16, 185, 129, 0.2);">
+                                <div style="color: #1C3A2E; font-size: 12px; font-weight: 600; margin-bottom: 4px; text-transform: capitalize;">{{ customer_data.breed_prediction.predicted_breed }}</div>
+                                <div style="color: #10B981; font-size: 14px; font-weight: 700;">100%</div>
+                            </div>
+                        {% endif %}
                     </div>
                     
                     <!-- Step 2: Question -->
-                    <div class="breed-question-section" id="breed-question-section" style="display: block; text-align: center; margin-top: 0px; padding: 15px 14px; background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(248, 250, 252, 0.95) 100%); border-radius: 18px; box-shadow: 0 8px 32px rgba(44, 95, 139, 0.08); border: 1px solid rgba(255, 255, 255, 0.8); backdrop-filter: blur(10px);">
-                        <div style="margin-bottom: 8px;">
-                            <h4 class="breed-question-title" style="color: #2C5F8B; font-size: 20px; font-weight: 700; margin: 0 0 2px 0; font-family: 'Poppins', sans-serif; letter-spacing: -0.5px;">Did we get any right?</h4>
-                            <p style="color: #6B7280; font-size: 14px; margin: 0; font-family: 'Poppins', sans-serif; font-weight: 400; line-height: 1.4;">Help us improve our predictions</p>
+                    <div class="breed-question-section" id="breed-question-section" style="display: block; text-align: center; margin-top: 20px; padding: 24px 20px; background: linear-gradient(135deg, rgba(255, 255, 255, 0.98) 0%, rgba(248, 250, 252, 0.98) 100%); border-radius: 24px; box-shadow: 0 12px 40px rgba(28, 58, 46, 0.12); border: 2px solid rgba(255, 255, 255, 0.9); backdrop-filter: blur(20px); position: relative; overflow: hidden;">
+                        <!-- Decorative background elements -->
+                        <div style="position: absolute; top: -50%; left: -50%; width: 200%; height: 200%; background: radial-gradient(circle at 30% 70%, rgba(28, 58, 46, 0.03) 0%, transparent 50%), radial-gradient(circle at 70% 30%, rgba(44, 95, 139, 0.02) 0%, transparent 50%); pointer-events: none;"></div>
+                        
+                        <!-- Question Icon -->
+                        <div style="margin-bottom: 16px; position: relative; z-index: 2;">
+                            <div style="width: 48px; height: 48px; background: linear-gradient(135deg, #10B981, #059669); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 12px; box-shadow: 0 4px 16px rgba(16, 185, 129, 0.3);">
+                                <span style="font-size: 20px; color: white;">🤔</span>
+                            </div>
                         </div>
-                        <div class="breed-question-buttons" style="display: flex; justify-content: center; gap: 12px;">
-                            <button class="breed-question-btn breed-yes-btn" onclick="handleBreedYes()" style="background: linear-gradient(135deg, #4A90E2 0%, #357ABD 100%); color: white; border: none; border-radius: 12px; padding: 12px 24px; cursor: pointer; transition: all 0.3s ease; display: flex; align-items: center; gap: 8px; font-size: 15px; font-weight: 600; font-family: 'Poppins', sans-serif; box-shadow: 0 4px 16px rgba(74, 144, 226, 0.25); min-width: 100px;">
-                                <span class="breed-btn-emoji" style="font-size: 16px;">✅</span>
+                        
+                        <!-- Question Content -->
+                        <div style="margin-bottom: 20px; position: relative; z-index: 2;">
+                            <h4 class="breed-question-title" style="color: #1C3A2E; font-size: 22px; font-weight: 700; margin: 0 0 6px 0; font-family: 'Poppins', sans-serif; letter-spacing: -0.3px;">Did we get any right?</h4>
+                            <p style="color: #6B7280; font-size: 15px; margin: 0; font-family: 'Poppins', sans-serif; font-weight: 500; line-height: 1.5; opacity: 0.8;">Help us improve our predictions</p>
+                        </div>
+                        
+                        <!-- Enhanced Buttons -->
+                        <div class="breed-question-buttons" style="display: flex; justify-content: center; gap: 8px; position: relative; z-index: 2;">
+                            <button class="breed-question-btn breed-yes-btn" onclick="handleBreedYes()" style="background: linear-gradient(135deg, #10B981, #059669); color: white; border: none; border-radius: 12px; padding: 8px 16px; cursor: pointer; transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); display: flex; align-items: center; gap: 6px; font-size: 14px; font-weight: 600; font-family: 'Poppins', sans-serif; box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3); min-width: 80px; position: relative; overflow: hidden;">
+                                <span class="breed-btn-emoji" style="font-size: 14px; filter: drop-shadow(0 1px 2px rgba(0,0,0,0.1));">✅</span>
                                 <span class="breed-btn-text">Yes</span>
+                                <div style="position: absolute; top: 0; left: -100%; width: 100%; height: 100%; background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent); transition: left 0.5s ease;"></div>
                             </button>
-                            <button class="breed-question-btn breed-no-btn" onclick="handleBreedNo()" style="background: linear-gradient(135deg, #4A90E2 0%, #357ABD 100%); color: white; border: none; border-radius: 12px; padding: 12px 24px; cursor: pointer; transition: all 0.3s ease; display: flex; align-items: center; gap: 8px; font-size: 15px; font-weight: 600; font-family: 'Poppins', sans-serif; box-shadow: 0 4px 16px rgba(74, 144, 226, 0.25); min-width: 100px;">
-                                <span class="breed-btn-emoji" style="font-size: 16px;">❌</span>
+                            <button class="breed-question-btn breed-no-btn" onclick="handleBreedNo()" style="background: linear-gradient(135deg, #EF4444, #DC2626); color: white; border: none; border-radius: 12px; padding: 8px 16px; cursor: pointer; transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); display: flex; align-items: center; gap: 6px; font-size: 14px; font-weight: 600; font-family: 'Poppins', sans-serif; box-shadow: 0 4px 12px rgba(239, 68, 68, 0.3); min-width: 80px; position: relative; overflow: hidden;">
+                                <span class="breed-btn-emoji" style="font-size: 14px; filter: drop-shadow(0 1px 2px rgba(0,0,0,0.1));">❌</span>
                                 <span class="breed-btn-text">No</span>
+                                <div style="position: absolute; top: 0; left: -100%; width: 100%; height: 100%; background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent); transition: left 0.5s ease;"></div>
                             </button>
                         </div>
+                        
+                        <!-- Subtle border accent -->
+                        <div style="position: absolute; top: 0; left: 0; right: 0; height: 3px; background: linear-gradient(90deg, #10B981, #059669, #EF4444, #DC2626); border-radius: 24px 24px 0 0;"></div>
                     </div>
                     
                     <!-- Step 3: No Response -->
@@ -2654,7 +2848,7 @@ body {
                                 <p class="breed-no-message" style="color: #6B7280; font-size: 14px; margin: 0; font-family: 'Poppins', sans-serif; font-weight: 400; line-height: 1.4;">Help us improve our predictions by completing your pet profiles</p>
                             </div>
                             <div class="breed-profile-link-section">
-                                <a href="https://www.chewy.com/account/profile" target="_blank" class="breed-profile-link" style="background: linear-gradient(135deg, #4A90E2 0%, #357ABD 100%); color: white; text-decoration: none; padding: 12px 24px; border-radius: 12px; font-size: 15px; font-weight: 600; font-family: 'Poppins', sans-serif; display: inline-block; transition: all 0.3s ease; box-shadow: 0 4px 16px rgba(74, 144, 226, 0.25);">
+                                <a href="https://www.chewy.com/account/profile" target="_blank" class="breed-profile-link" style="background: linear-gradient(135deg, #E91E63, #C2185B); color: white; text-decoration: none; padding: 12px 24px; border-radius: 12px; font-size: 15px; font-weight: 600; font-family: 'Poppins', sans-serif; display: inline-block; transition: all 0.3s ease; box-shadow: 0 4px 16px rgba(233, 30, 99, 0.25);">
                                     Complete Pet Profile
                                 </a>
                             </div>
@@ -2684,7 +2878,7 @@ body {
 
     <!-- Slide 6: Social Media Share -->
     <div class="slide" id="slide-6">
-        <div class="slide-content share-slide" style="min-height: 100vh; padding: 75px 15px 80px 15px; background: #FFE181;">
+        <div class="slide-content share-slide" style="min-height: 100vh; padding: 75px 15px 80px 15px; background: #FFE181; color: #3C3C3C;">
             <div class="slide-header" style="text-align: center; margin-bottom: 30px;">
                 <h2 class="slide-title" style="text-align: center; margin: 0; margin-top: 40px; font-family: 'Baloo 2', sans-serif; font-weight: 700; font-size: 28px; color: #3C3C3C;">
                     Share Your Chewy Journey!
@@ -2692,41 +2886,42 @@ body {
             </div>
             
             <div class="enhanced-share-text">
-                <p style="color: #4A1A1A; font-size: 16px; margin-bottom: 25px; opacity: 0.9; font-weight: 600;">
+                <p style="color: #4A1A1A; font-size: 18px; margin-bottom: 25px; opacity: 0.9; font-weight: 600;">
                     Tap to select which features you'd like to share:
                 </p>
             </div>
             
-            <div class="feature-selection-grid" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; margin: 30px 0; max-width: 500px; margin-left: auto; margin-right: auto;">
-                <div class="feature-card" data-feature="food" onclick="toggleFeature('food')" style="display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 15px 10px; border-radius: 12px; cursor: pointer; transition: all 0.3s ease; background: rgba(255, 255, 255, 0.2); border: 2px solid rgba(255, 255, 255, 0.3); backdrop-filter: blur(10px); position: relative; overflow: hidden; min-height: 80px;">
-                    <div class="feature-icon" style="font-size: 24px; margin-bottom: 8px;">🍽️</div>
-                    <div class="feature-label" style="font-size: 12px; font-weight: 600; color: #3C3C3C; text-align: center; margin-bottom: 4px; font-family: 'Nunito', sans-serif;">Food Consumed</div>
-                    <div class="feature-value" id="food-share-value" style="font-size: 11px; color: #4A1A1A; text-align: center; font-family: 'Nunito', sans-serif; font-weight: 500;">{{ customer_data.total_food_consumed|default('', true) }}</div>
+            <div class="feature-selection-grid" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; margin: 35px 0; max-width: 550px; margin-left: auto; margin-right: auto;">
+                <div class="feature-card" data-feature="food" onclick="toggleFeature('food')" style="display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 20px 15px; border-radius: 16px; cursor: pointer; transition: all 0.3s ease; background: rgba(255, 255, 255, 0.25); border: 2px solid rgba(255, 255, 255, 0.3); backdrop-filter: blur(10px); position: relative; overflow: hidden; min-height: 100px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);">
+                    <div class="feature-icon" style="font-size: 28px; margin-bottom: 10px; color: #4A1A1A;">🍽️</div>
+                    <div class="feature-label" style="font-size: 13px; font-weight: 600; color: #3C3C3C; text-align: center; margin-bottom: 6px; font-family: 'Nunito', sans-serif;">Food Consumed</div>
+                    <div class="feature-value" id="food-share-value" style="font-size: 12px; color: #4A1A1A; text-align: center; font-family: 'Nunito', sans-serif; font-weight: 500;">{{ customer_data.total_food_consumed|default('', true) }}</div>
                 </div>
                 
-                <div class="feature-card" data-feature="portrait" onclick="toggleFeature('portrait')" style="display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 15px 10px; border-radius: 12px; cursor: pointer; transition: all 0.3s ease; background: rgba(255, 255, 255, 0.2); border: 2px solid rgba(255, 255, 255, 0.3); backdrop-filter: blur(10px); position: relative; overflow: hidden; min-height: 80px;">
-                    <div class="feature-icon" style="font-size: 24px; margin-bottom: 8px;">🎨</div>
-                    <div class="feature-label" style="font-size: 12px; font-weight: 600; color: #3C3C3C; text-align: center; margin-bottom: 4px; font-family: 'Nunito', sans-serif;">AI Pet Portrait</div>
-                    <div class="feature-value" style="font-size: 11px; color: #4A1A1A; text-align: center; font-family: 'Nunito', sans-serif; font-weight: 500;">Generated</div>
+                <div class="feature-card" data-feature="portrait" onclick="toggleFeature('portrait')" style="display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 20px 15px; border-radius: 16px; cursor: pointer; transition: all 0.3s ease; background: rgba(255, 255, 255, 0.25); border: 2px solid rgba(255, 255, 255, 0.3); backdrop-filter: blur(10px); position: relative; overflow: hidden; min-height: 100px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);">
+                    <div class="feature-icon" style="font-size: 28px; margin-bottom: 10px; color: #4A1A1A;">🎨</div>
+                    <div class="feature-label" style="font-size: 13px; font-weight: 600; color: #3C3C3C; text-align: center; margin-bottom: 6px; font-family: 'Nunito', sans-serif;">AI Pet Portrait</div>
+                    <div class="feature-value" style="font-size: 12px; color: #4A1A1A; text-align: center; font-family: 'Nunito', sans-serif; font-weight: 500;">Generated</div>
                 </div>
                 
-                <div class="feature-card" data-feature="letter" onclick="toggleFeature('letter')" style="display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 15px 10px; border-radius: 12px; cursor: pointer; transition: all 0.3s ease; background: rgba(255, 255, 255, 0.2); border: 2px solid rgba(255, 255, 255, 0.3); backdrop-filter: blur(10px); position: relative; overflow: hidden; min-height: 80px;">
-                    <div class="feature-icon" style="font-size: 24px; margin-bottom: 8px;">💌</div>
-                    <div class="feature-label" style="font-size: 12px; font-weight: 600; color: #3C3C3C; text-align: center; margin-bottom: 4px; font-family: 'Nunito', sans-serif;">Letter from Pets</div>
-                    <div class="feature-value" style="font-size: 11px; color: #4A1A1A; text-align: center; font-family: 'Nunito', sans-serif; font-weight: 500;">Personalized</div>
+                <div class="feature-card" data-feature="letter" onclick="toggleFeature('letter')" style="display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 20px 15px; border-radius: 16px; cursor: pointer; transition: all 0.3s ease; background: rgba(255, 255, 255, 0.25); border: 2px solid rgba(255, 255, 255, 0.3); backdrop-filter: blur(10px); position: relative; overflow: hidden; min-height: 100px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);">
+                    <div class="feature-icon" style="font-size: 28px; margin-bottom: 10px; color: #4A1A1A;">💌</div>
+                    <div class="feature-label" style="font-size: 13px; font-weight: 600; color: #3C3C3C; text-align: center; margin-bottom: 6px; font-family: 'Nunito', sans-serif;">Letter from Pets</div>
+                    <div class="feature-value" style="font-size: 12px; color: #4A1A1A; text-align: center; font-family: 'Nunito', sans-serif; font-weight: 500;">Personalized</div>
                 </div>
                 
-                <div class="feature-card" data-feature="breed" onclick="toggleFeature('breed')" style="display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 15px 10px; border-radius: 12px; cursor: pointer; transition: all 0.3s ease; background: rgba(255, 255, 255, 0.2); border: 2px solid rgba(255, 255, 255, 0.3); backdrop-filter: blur(10px); position: relative; overflow: hidden; min-height: 80px;">
-                    <div class="feature-icon" style="font-size: 24px; margin-bottom: 8px;">🐕</div>
-                    <div class="feature-label" style="font-size: 12px; font-weight: 600; color: #3C3C3C; text-align: center; margin-bottom: 4px; font-family: 'Nunito', sans-serif;">Breed Prediction</div>
-                    <div class="feature-value" style="font-size: 11px; color: #4A1A1A; text-align: center; font-family: 'Nunito', sans-serif; font-weight: 500;">AI Analysis</div>
+                <div class="feature-card" data-feature="breed" onclick="toggleFeature('breed')" style="display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 20px 15px; border-radius: 16px; cursor: pointer; transition: all 0.3s ease; background: rgba(255, 255, 255, 0.25); border: 2px solid rgba(255, 255, 255, 0.3); backdrop-filter: blur(10px); position: relative; overflow: hidden; min-height: 100px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);">
+                    <div class="feature-icon" style="font-size: 28px; margin-bottom: 10px; color: #4A1A1A;">🐕</div>
+                    <div class="feature-label" style="font-size: 13px; font-weight: 600; color: #3C3C3C; text-align: center; margin-bottom: 6px; font-family: 'Nunito', sans-serif;">Breed Prediction</div>
+                    <div class="feature-value" style="font-size: 12px; color: #4A1A1A; text-align: center; font-family: 'Nunito', sans-serif; font-weight: 500;">AI Analysis</div>
                 </div>
             </div>
             
-            <div class="enhanced-share-cta">
-                <button class="enhanced-share-btn" onclick="showIOSShareSheet()" style="background: #FFD700; color: white; border: none; border-radius: 12px; padding: 10px 20px; cursor: pointer; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 6px; font-size: 14px; font-weight: 600; font-family: 'Poppins', sans-serif; box-shadow: 0 2px 8px rgba(255, 215, 0, 0.4);">
-                    <span style="font-size: 14px;"></span>
-                    <span class="enhanced-share-text">Share</span>
+            <div class="enhanced-share-cta" style="text-align: center; margin-top: 30px;">
+                <button class="enhanced-share-btn" onclick="showIOSShareSheet()" style="background: linear-gradient(135deg, #FFD700, #FFA500); color: #3C3C3C; border: none; border-radius: 20px; padding: 16px 32px; cursor: pointer; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 8px; font-size: 16px; font-weight: 700; font-family: 'Poppins', sans-serif; box-shadow: 0 6px 20px rgba(255, 215, 0, 0.3); position: relative; overflow: hidden;">
+                    <!-- <span style="font-size: 18px;">📤</span> -->
+                    <span class="enhanced-share-text">Share Your Journey</span>
+                    <div style="position: absolute; top: 0; left: -100%; width: 100%; height: 100%; background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent); transition: left 0.5s ease;"></div>
                 </button>
             </div>
             
@@ -2829,9 +3024,9 @@ body {
 
     <!-- Slide 7: Your Chewy Stats -->
     <div class="slide" id="slide-7">
-        <div class="slide-content stats-slide" style="overflow-y: auto; min-height: 100vh; padding: 20px 15px 80px 15px; background: linear-gradient(135deg, #F8F9FA 0%, #E9ECEF 100%);">
+        <div class="slide-content stats-slide" style="overflow-y: auto; min-height: 100vh; padding: 20px 15px 80px 15px; background: #F0E8F8;">
             <div class="slide-header" style="text-align: center; margin-bottom: 40px; margin-top: 400px;">
-                <h2 class="slide-title" style="text-align: center; margin: 0; margin-top: 80px; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 32px; color: #87CEEB; text-shadow: 0 2px 4px rgba(135, 206, 235, 0.1);">
+                <h2 class="slide-title" style="text-align: center; margin: 0; margin-top: 80px; font-family: 'Nunito', 'Poppins', sans-serif; font-weight: 700; font-size: 32px; color: #87CEEB; text-shadow: 0 2px 4px rgba(135, 206, 235, 0.1);">
                     Your Chewy Stats
                 </h2>
             </div>
@@ -2890,7 +3085,7 @@ body {
     <div class="slide" id="slide-8">
         <div class="slide-content unknowns-slide" style="overflow-y: auto; min-height: 100vh; padding: 40px 20px 80px 20px; background: #D0F4DE;">
             <div class="slide-header" style="text-align: center; margin-bottom: 40px;">
-                <h2 class="slide-title" style="text-align: center; margin: 0; margin-top: 40px; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 28px; color: #3C3C3C;">
+                <h2 class="slide-title" style="text-align: center; margin: 0; margin-top: 40px; font-family: 'Nunito', 'Poppins', sans-serif; font-weight: 700; font-size: 28px; color: #3C3C3C;">
                     Complete Your Pet Profiles
                 </h2>
                 <!-- <p style="color: #4A1A1A; font-size: 16px; margin-top: 12px; opacity: 0.8; font-weight: 500;">
@@ -2932,6 +3127,8 @@ body {
         </div>
     </div>
     {% endif %}
+
+
             
 </div>
 
