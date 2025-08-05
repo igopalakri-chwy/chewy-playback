@@ -183,11 +183,34 @@ body {
     text-align: center;
 }
 
-.loading p {
-    font-size: 18px;
-    opacity: 0.8;
-    text-transform: lowercase;
-}
+        .loading p {
+            font-size: 18px;
+            opacity: 0.8;
+            text-transform: lowercase;
+        }
+
+        /* Popup animations */
+        @keyframes popupFadeIn {
+            from {
+                opacity: 0;
+                transform: translate(-50%, -50%) scale(0.8);
+            }
+            to {
+                opacity: 1;
+                transform: translate(-50%, -50%) scale(1);
+            }
+        }
+
+        @keyframes popupFadeOut {
+            from {
+                opacity: 1;
+                transform: translate(-50%, -50%) scale(1);
+            }
+            to {
+                opacity: 0;
+                transform: translate(-50%, -50%) scale(0.8);
+            }
+        }
 
 .container {
     width: 100%;
@@ -277,20 +300,7 @@ body {
 
 
 
-/* Slide counter */
-.slide-counter {
-    position: absolute;
-    top: 25px;
-    right: 25px;
-    background: rgba(0, 102, 204, 0.9);
-    color: white;
-    padding: 8px 12px;
-    border-radius: 12px;
-    font-size: 11px;
-    font-weight: 500;
-    backdrop-filter: blur(10px);
-    z-index: 10;
-}
+
 
 /* Progress Bar */
 .progress-bar-container {
@@ -2546,7 +2556,7 @@ body {
                 {% endfor %}
             {% endif %}
             
-            <div class="slide-counter">1 of 6</div>
+
         </div>
     </div>
     {% endif %}
@@ -2746,15 +2756,18 @@ body {
     <!-- Slide 5: Breed Prediction - First Display -->
     {% if customer_data.breed_prediction %}
     <div class="slide" id="slide-5">
-        <div class="slide-content breed-slide" style="background: #D0F4DE; min-height: 100vh; padding: 20px 15px 80px 15px;">
-            <div class="breed-container" style="margin-top: 20px; max-width: 480px; margin-left: auto; margin-right: auto;">
-                <h2 class="slide-title" style="text-align: center; margin: 0; margin-top: 40px; margin-bottom: 20px; font-family: 'Nunito', 'Poppins', sans-serif; font-weight: 700; font-size: 26px; color: #1C3A2E; text-shadow: 0 2px 4px rgba(28, 58, 46, 0.1);">
-                    Our Breed Predictions
-                </h2>
-                    
-                    <!-- Pet Highlight Section -->
-                    <p class="breed-highlight-text" style="text-align: center; margin-bottom: 18px; font-family: 'Poppins', sans-serif; font-size: 14px; color: #1C3A2E; font-weight: 500;">
-                        We are highlighting <strong style="color: #1C3A2E; font-weight: 700;">
+        <div class="slide-content breed-slide" style="background: linear-gradient(135deg, #D0F4DE 0%, #A7F3D0 50%, #6EE7B7 100%); min-height: 100vh; padding: 40px 20px 80px 20px;">
+            <div class="breed-container" style="max-width: 600px; margin: 0 auto; padding: 0 10px;">
+                <!-- Enhanced Header Section -->
+                <div style="text-align: center; margin-bottom: 40px;">
+                    <div style="width: 80px; height: 80px; background: linear-gradient(135deg, #10B981, #059669); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; box-shadow: 0 8px 32px rgba(16, 185, 129, 0.3);">
+                        <span style="font-size: 32px; color: white;">🐕</span>
+                    </div>
+                    <h2 class="slide-title" style="margin: 0 0 12px 0; font-family: 'Nunito', sans-serif; font-weight: 800; font-size: 32px; color: #1C3A2E; text-shadow: 0 2px 4px rgba(28, 58, 46, 0.1);">
+                        Our Breed Predictions
+                    </h2>
+                    <p class="breed-highlight-text" style="margin: 0; font-family: 'Poppins', sans-serif; font-size: 16px; color: #1C3A2E; font-weight: 500; opacity: 0.9;">
+                        We analyzed <strong style="color: #1C3A2E; font-weight: 700;">
                             {% if customer_data.breed_prediction.multiple_predictions %}
                                 {{ customer_data.breed_prediction.multiple_predictions[0].pet_name }}
                             {% elif customer_data.breed_prediction.pet_name %}
@@ -2762,50 +2775,86 @@ body {
                             {% else %}
                                 your pet
                             {% endif %}
-                        </strong>
+                        </strong>'s characteristics
                     </p>
-                    
-                    <!-- Simple Breed Predictions -->
-                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 8px; margin-bottom: 20px;">
+                </div>
+                
+                <!-- Enhanced Breed Predictions Grid -->
+                <div style="display: flex; flex-direction: column; gap: 16px; margin-bottom: 40px;">
+                    <!-- First row: 2 boxes -->
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; max-width: 400px; margin: 0 auto;">
                         {% if customer_data.breed_prediction.multiple_predictions %}
                             {% set first_prediction = customer_data.breed_prediction.multiple_predictions[0] %}
                             {% if first_prediction.prediction and first_prediction.prediction.breed_distribution %}
-                                {% for breed_name, percentage in first_prediction.prediction.breed_distribution.items() %}
-                                <div onclick="handleBreedCardClick(event)" data-breed="{{ breed_name }}" data-pet="{{ first_prediction.pet_name }}" data-confidence="{{ percentage }}" data-explanation="{{ first_prediction.prediction.explanations[breed_name] if first_prediction.prediction.explanations and breed_name in first_prediction.prediction.explanations else 'No explanation available' }}" style="background: rgba(255, 255, 255, 0.9); border-radius: 8px; padding: 8px; text-align: center; cursor: pointer; border: 1px solid rgba(16, 185, 129, 0.2);">
-                                    <div style="color: #1C3A2E; font-size: 12px; font-weight: 600; margin-bottom: 4px; text-transform: capitalize;">{{ breed_name | format_breed_name_simple }}</div>
-                                    <div style="color: #10B981; font-size: 14px; font-weight: 700;">{{ "%.0f"|format(percentage) }}%</div>
+                                {% set reordered_breeds = first_prediction.prediction.breed_distribution | reorder_breeds_for_french_bulldog %}
+                                {% set breeds_list = reordered_breeds.items() | list %}
+                                {% for breed_name, percentage in breeds_list[:2] %}
+                                <div onclick="handleBreedCardClick(event)" data-breed="{{ breed_name }}" data-pet="{{ first_prediction.pet_name }}" data-confidence="{{ percentage }}" data-explanation="{{ first_prediction.prediction.explanations[breed_name] if first_prediction.prediction.explanations and breed_name in first_prediction.prediction.explanations else 'No explanation available' }}" style="background: rgba(255, 255, 255, 0.95); border-radius: 16px; padding: 20px 16px; text-align: center; cursor: pointer; border: 2px solid rgba(16, 185, 129, 0.1); position: relative; transition: all 0.3s ease; box-shadow: 0 4px 20px rgba(28, 58, 46, 0.08); backdrop-filter: blur(10px);">
+                                    <div class="breed-card-checkbox" style="position: absolute; top: 8px; right: 8px; width: 20px; height: 20px; background: #e5e7eb; border-radius: 50%; display: none; align-items: center; justify-content: center; color: #6b7280; font-size: 12px; font-weight: bold; border: 2px solid #d1d5db; transition: all 0.2s ease;">○</div>
+                                    <div style="color: #1C3A2E; font-size: 14px; font-weight: 700; margin-bottom: 8px; text-transform: capitalize; line-height: 1.3;">{{ breed_name | format_breed_name_simple }}</div>
+                                    <div style="color: #10B981; font-size: 18px; font-weight: 800; background: linear-gradient(135deg, #10B981, #059669); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">{{ "%.0f"|format(percentage) }}%</div>
                                 </div>
                                 {% endfor %}
+                    </div>
+                    <!-- Second row: 3rd box centered -->
+                    {% if breeds_list | length > 2 %}
+                    <div style="display: flex; justify-content: center;">
+                        {% set third_breed = breeds_list[2] %}
+                        <div onclick="handleBreedCardClick(event)" data-breed="{{ third_breed[0] }}" data-pet="{{ first_prediction.pet_name }}" data-confidence="{{ third_breed[1] }}" data-explanation="{{ first_prediction.prediction.explanations[third_breed[0]] if first_prediction.prediction.explanations and third_breed[0] in first_prediction.prediction.explanations else 'No explanation available' }}" style="background: rgba(255, 255, 255, 0.95); border-radius: 16px; padding: 20px 16px; text-align: center; cursor: pointer; border: 2px solid rgba(16, 185, 129, 0.1); position: relative; transition: all 0.3s ease; box-shadow: 0 4px 20px rgba(28, 58, 46, 0.08); backdrop-filter: blur(10px); width: 140px;">
+                            <div class="breed-card-checkbox" style="position: absolute; top: 8px; right: 8px; width: 20px; height: 20px; background: #e5e7eb; border-radius: 50%; display: none; align-items: center; justify-content: center; color: #6b7280; font-size: 12px; font-weight: bold; border: 2px solid #d1d5db; transition: all 0.2s ease;">○</div>
+                            <div style="color: #1C3A2E; font-size: 14px; font-weight: 700; margin-bottom: 8px; text-transform: capitalize; line-height: 1.3;">{{ third_breed[0] | format_breed_name_simple }}</div>
+                            <div style="color: #10B981; font-size: 18px; font-weight: 800; background: linear-gradient(135deg, #10B981, #059669); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">{{ "%.0f"|format(third_breed[1]) }}%</div>
+                        </div>
+                    </div>
+                    {% endif %}
                             {% else %}
-                                <div onclick="handleBreedCardClick(event)" data-breed="{{ first_prediction.predicted_breed }}" data-pet="{{ first_prediction.pet_name }}" data-confidence="100" data-explanation="No explanation available" style="background: rgba(255, 255, 255, 0.9); border-radius: 8px; padding: 8px; text-align: center; cursor: pointer; border: 1px solid rgba(16, 185, 129, 0.2);">
-                                    <div style="color: #1C3A2E; font-size: 12px; font-weight: 600; margin-bottom: 4px; text-transform: capitalize;">{{ first_prediction.predicted_breed }}</div>
-                                    <div style="color: #10B981; font-size: 14px; font-weight: 700;">100%</div>
+                                <div onclick="handleBreedCardClick(event)" data-breed="{{ first_prediction.predicted_breed }}" data-pet="{{ first_prediction.pet_name }}" data-confidence="100" data-explanation="No explanation available" style="background: rgba(255, 255, 255, 0.95); border-radius: 16px; padding: 20px 16px; text-align: center; cursor: pointer; border: 2px solid rgba(16, 185, 129, 0.1); position: relative; transition: all 0.3s ease; box-shadow: 0 4px 20px rgba(28, 58, 46, 0.08); backdrop-filter: blur(10px);">
+                                    <div class="breed-card-checkbox" style="position: absolute; top: 8px; right: 8px; width: 20px; height: 20px; background: #e5e7eb; border-radius: 50%; display: none; align-items: center; justify-content: center; color: #6b7280; font-size: 12px; font-weight: bold; border: 2px solid #d1d5db; transition: all 0.2s ease;">○</div>
+                                    <div style="color: #1C3A2E; font-size: 14px; font-weight: 700; margin-bottom: 8px; text-transform: capitalize; line-height: 1.3;">{{ first_prediction.predicted_breed }}</div>
+                                    <div style="color: #10B981; font-size: 18px; font-weight: 800; background: linear-gradient(135deg, #10B981, #059669); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">100%</div>
                                 </div>
                             {% endif %}
                         {% elif customer_data.breed_prediction.prediction %}
                             {% if customer_data.breed_prediction.prediction.breed_distribution %}
-                                {% for breed_name, percentage in customer_data.breed_prediction.prediction.breed_distribution.items() %}
-                                <div onclick="handleBreedCardClick(event)" data-breed="{{ breed_name }}" data-pet="{{ customer_data.breed_prediction.pet_name }}" data-confidence="{{ percentage }}" data-explanation="{{ customer_data.breed_prediction.prediction.explanations[breed_name] if customer_data.breed_prediction.prediction.explanations and breed_name in customer_data.breed_prediction.prediction.explanations else 'No explanation available' }}" style="background: rgba(255, 255, 255, 0.9); border-radius: 8px; padding: 8px; text-align: center; cursor: pointer; border: 1px solid rgba(16, 185, 129, 0.2);">
-                                    <div style="color: #1C3A2E; font-size: 12px; font-weight: 600; margin-bottom: 4px; text-transform: capitalize;">{{ breed_name | format_breed_name_simple }}</div>
-                                    <div style="color: #10B981; font-size: 14px; font-weight: 700;">{{ "%.0f"|format(percentage) }}%</div>
+                                {% set reordered_breeds = customer_data.breed_prediction.prediction.breed_distribution | reorder_breeds_for_french_bulldog %}
+                                {% set breeds_list = reordered_breeds.items() | list %}
+                                {% for breed_name, percentage in breeds_list[:2] %}
+                                <div onclick="handleBreedCardClick(event)" data-breed="{{ breed_name }}" data-pet="{{ customer_data.breed_prediction.pet_name }}" data-confidence="{{ percentage }}" data-explanation="{{ customer_data.breed_prediction.prediction.explanations[breed_name] if customer_data.breed_prediction.prediction.explanations and breed_name in customer_data.breed_prediction.prediction.explanations else 'No explanation available' }}" style="background: rgba(255, 255, 255, 0.95); border-radius: 16px; padding: 20px 16px; text-align: center; cursor: pointer; border: 2px solid rgba(16, 185, 129, 0.1); position: relative; transition: all 0.3s ease; box-shadow: 0 4px 20px rgba(28, 58, 46, 0.08); backdrop-filter: blur(10px);">
+                                    <div class="breed-card-checkbox" style="position: absolute; top: 8px; right: 8px; width: 20px; height: 20px; background: #e5e7eb; border-radius: 50%; display: none; align-items: center; justify-content: center; color: #6b7280; font-size: 12px; font-weight: bold; border: 2px solid #d1d5db; transition: all 0.2s ease;">○</div>
+                                    <div style="color: #1C3A2E; font-size: 14px; font-weight: 700; margin-bottom: 8px; text-transform: capitalize; line-height: 1.3;">{{ breed_name | format_breed_name_simple }}</div>
+                                    <div style="color: #10B981; font-size: 18px; font-weight: 800; background: linear-gradient(135deg, #10B981, #059669); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">{{ "%.0f"|format(percentage) }}%</div>
                                 </div>
                                 {% endfor %}
+                    </div>
+                    <!-- Second row: 3rd box centered -->
+                    {% if breeds_list | length > 2 %}
+                    <div style="display: flex; justify-content: center;">
+                        {% set third_breed = breeds_list[2] %}
+                        <div onclick="handleBreedCardClick(event)" data-breed="{{ third_breed[0] }}" data-pet="{{ customer_data.breed_prediction.pet_name }}" data-confidence="{{ third_breed[1] }}" data-explanation="{{ customer_data.breed_prediction.prediction.explanations[third_breed[0]] if customer_data.breed_prediction.prediction.explanations and third_breed[0] in customer_data.breed_prediction.prediction.explanations else 'No explanation available' }}" style="background: rgba(255, 255, 255, 0.95); border-radius: 16px; padding: 20px 16px; text-align: center; cursor: pointer; border: 2px solid rgba(16, 185, 129, 0.1); position: relative; transition: all 0.3s ease; box-shadow: 0 4px 20px rgba(28, 58, 46, 0.08); backdrop-filter: blur(10px); width: 140px;">
+                            <div class="breed-card-checkbox" style="position: absolute; top: 8px; right: 8px; width: 20px; height: 20px; background: #e5e7eb; border-radius: 50%; display: none; align-items: center; justify-content: center; color: #6b7280; font-size: 12px; font-weight: bold; border: 2px solid #d1d5db; transition: all 0.2s ease;">○</div>
+                            <div style="color: #1C3A2E; font-size: 14px; font-weight: 700; margin-bottom: 8px; text-transform: capitalize; line-height: 1.3;">{{ third_breed[0] | format_breed_name_simple }}</div>
+                            <div style="color: #10B981; font-size: 18px; font-weight: 800; background: linear-gradient(135deg, #10B981, #059669); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">{{ "%.0f"|format(third_breed[1]) }}%</div>
+                        </div>
+                    </div>
+                    {% endif %}
                             {% else %}
-                                <div onclick="handleBreedCardClick(event)" data-breed="{{ customer_data.breed_prediction.predicted_breed }}" data-pet="{{ customer_data.breed_prediction.pet_name }}" data-confidence="100" data-explanation="No explanation available" style="background: rgba(255, 255, 255, 0.9); border-radius: 8px; padding: 8px; text-align: center; cursor: pointer; border: 1px solid rgba(16, 185, 129, 0.2);">
-                                    <div style="color: #1C3A2E; font-size: 12px; font-weight: 600; margin-bottom: 4px; text-transform: capitalize;">{{ customer_data.breed_prediction.predicted_breed }}</div>
-                                    <div style="color: #10B981; font-size: 14px; font-weight: 700;">100%</div>
+                                <div onclick="handleBreedCardClick(event)" data-breed="{{ customer_data.breed_prediction.predicted_breed }}" data-pet="{{ customer_data.breed_prediction.pet_name }}" data-confidence="100" data-explanation="No explanation available" style="background: rgba(255, 255, 255, 0.95); border-radius: 16px; padding: 20px 16px; text-align: center; cursor: pointer; border: 2px solid rgba(16, 185, 129, 0.1); position: relative; transition: all 0.3s ease; box-shadow: 0 4px 20px rgba(28, 58, 46, 0.08); backdrop-filter: blur(10px);">
+                                    <div class="breed-card-checkbox" style="position: absolute; top: 8px; right: 8px; width: 20px; height: 20px; background: #e5e7eb; border-radius: 50%; display: none; align-items: center; justify-content: center; color: #6b7280; font-size: 12px; font-weight: bold; border: 2px solid #d1d5db; transition: all 0.2s ease;">○</div>
+                                    <div style="color: #1C3A2E; font-size: 14px; font-weight: 700; margin-bottom: 8px; text-transform: capitalize; line-height: 1.3;">{{ customer_data.breed_prediction.predicted_breed }}</div>
+                                    <div style="color: #10B981; font-size: 18px; font-weight: 800; background: linear-gradient(135deg, #10B981, #059669); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">100%</div>
                                 </div>
                             {% endif %}
                         {% else %}
-                            <div onclick="handleBreedCardClick(event)" data-breed="{{ customer_data.breed_prediction.predicted_breed }}" data-pet="Unknown" data-confidence="100" data-explanation="No explanation available" style="background: rgba(255, 255, 255, 0.9); border-radius: 8px; padding: 8px; text-align: center; cursor: pointer; border: 1px solid rgba(16, 185, 129, 0.2);">
-                                <div style="color: #1C3A2E; font-size: 12px; font-weight: 600; margin-bottom: 4px; text-transform: capitalize;">{{ customer_data.breed_prediction.predicted_breed }}</div>
-                                <div style="color: #10B981; font-size: 14px; font-weight: 700;">100%</div>
+                            <div onclick="handleBreedCardClick(event)" data-breed="{{ customer_data.breed_prediction.predicted_breed }}" data-pet="Unknown" data-confidence="100" data-explanation="No explanation available" style="background: rgba(255, 255, 255, 0.95); border-radius: 16px; padding: 20px 16px; text-align: center; cursor: pointer; border: 2px solid rgba(16, 185, 129, 0.1); position: relative; transition: all 0.3s ease; box-shadow: 0 4px 20px rgba(28, 58, 46, 0.08); backdrop-filter: blur(10px);">
+                                <div class="breed-card-checkbox" style="position: absolute; top: 8px; right: 8px; width: 20px; height: 20px; background: #e5e7eb; border-radius: 50%; display: none; align-items: center; justify-content: center; color: #6b7280; font-size: 12px; font-weight: bold; border: 2px solid #d1d5db; transition: all 0.2s ease;">○</div>
+                                <div style="color: #1C3A2E; font-size: 14px; font-weight: 700; margin-bottom: 8px; text-transform: capitalize; line-height: 1.3;">{{ customer_data.breed_prediction.predicted_breed }}</div>
+                                <div style="color: #10B981; font-size: 18px; font-weight: 800; background: linear-gradient(135deg, #10B981, #059669); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">100%</div>
                             </div>
                         {% endif %}
                     </div>
                     
-                    <!-- Step 2: Question -->
-                    <div class="breed-question-section" id="breed-question-section" style="display: block; text-align: center; margin-top: 20px; padding: 24px 20px; background: linear-gradient(135deg, rgba(255, 255, 255, 0.98) 0%, rgba(248, 250, 252, 0.98) 100%); border-radius: 24px; box-shadow: 0 12px 40px rgba(28, 58, 46, 0.12); border: 2px solid rgba(255, 255, 255, 0.9); backdrop-filter: blur(20px); position: relative; overflow: hidden;">
+                    <!-- Step 2: Enhanced Question Section -->
+                    <div class="breed-question-section" id="breed-question-section" style="display: block; text-align: center; margin-top: 30px; padding: 32px 24px; background: linear-gradient(135deg, rgba(255, 255, 255, 0.98) 0%, rgba(248, 250, 252, 0.98) 100%); border-radius: 28px; box-shadow: 0 16px 48px rgba(28, 58, 46, 0.15); border: 2px solid rgba(255, 255, 255, 0.9); backdrop-filter: blur(20px); position: relative; overflow: hidden;">
                         <!-- Decorative background elements -->
                         <div style="position: absolute; top: -50%; left: -50%; width: 200%; height: 200%; background: radial-gradient(circle at 30% 70%, rgba(28, 58, 46, 0.03) 0%, transparent 50%), radial-gradient(circle at 70% 30%, rgba(44, 95, 139, 0.02) 0%, transparent 50%); pointer-events: none;"></div>
                         
@@ -2838,6 +2887,13 @@ body {
                         
                         <!-- Subtle border accent -->
                         <div style="position: absolute; top: 0; left: 0; right: 0; height: 3px; background: linear-gradient(90deg, #10B981, #059669, #EF4444, #DC2626); border-radius: 24px 24px 0 0;"></div>
+                    </div>
+                    
+                    <!-- Update Profile Button (hidden by default) -->
+                    <div id="update-profile-btn" style="display: none; text-align: center; margin-top: 20px;">
+                        <button onclick="updatePetProfile()" style="background: linear-gradient(135deg, #10B981, #059669); color: white; border: none; border-radius: 12px; padding: 12px 24px; cursor: pointer; font-size: 14px; font-weight: 600; font-family: 'Poppins', sans-serif; box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3); transition: all 0.3s ease;">
+                            Update Pet Profile
+                        </button>
                     </div>
                     
                     <!-- Step 3: No Response -->
@@ -2925,7 +2981,7 @@ body {
                 </button>
             </div>
             
-            <div class="slide-counter" style="background: rgba(60, 60, 60, 0.9); color: white; padding: 8px 15px; border-radius: 15px; font-size: 12px; font-weight: 600; backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.3);">7 of 8</div>
+
         </div>
     </div>
 
@@ -3456,11 +3512,12 @@ function showAccuracyQuestion() {
 
 function handleBreedYes() {
     // Show checkboxes on all breed cards
-    const breedCards = document.querySelectorAll('.breed-card');
+    const breedCards = document.querySelectorAll('[data-breed]');
     breedCards.forEach(card => {
         const checkbox = card.querySelector('.breed-card-checkbox');
         if (checkbox) {
-            checkbox.style.display = 'block';
+            checkbox.style.display = 'flex';
+            checkbox.style.cursor = 'pointer';
         }
     });
     
@@ -3983,6 +4040,46 @@ document.addEventListener('click', function(e) {
     
     if (e.target === modal) {
         closeBreedFlashcard();
+    }
+});
+
+// Add click handlers for breed cards
+document.addEventListener('click', function(e) {
+    if (e.target.closest('[data-breed]')) {
+        const breedCard = e.target.closest('[data-breed]');
+        const breedName = breedCard.getAttribute('data-breed');
+        const petName = breedCard.getAttribute('data-pet');
+        const confidence = breedCard.getAttribute('data-confidence');
+        const explanation = breedCard.getAttribute('data-explanation');
+        
+        // Check if clicking on checkbox
+        if (e.target.closest('.breed-card-checkbox')) {
+            e.stopPropagation();
+            const checkbox = e.target.closest('.breed-card-checkbox');
+            const isChecked = checkbox.classList.contains('checked');
+            
+            if (isChecked) {
+                // Uncheck the checkbox
+                checkbox.classList.remove('checked');
+                checkbox.style.background = '#e5e7eb';
+                checkbox.style.border = '2px solid #d1d5db';
+                checkbox.style.color = '#6b7280';
+                checkbox.innerHTML = '○';
+            } else {
+                // Check the checkbox
+                checkbox.classList.add('checked');
+                checkbox.style.background = '#10B981';
+                checkbox.style.border = '2px solid #059669';
+                checkbox.style.color = 'white';
+                checkbox.innerHTML = '✓';
+                
+                // Show "I knew it" popup when checkbox is checked
+                showIKnewIt();
+            }
+            return;
+        }
+        
+        showBreedFlashcard(breedName, petName, confidence, explanation);
     }
 });
 
