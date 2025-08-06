@@ -159,7 +159,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 body {
     font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    background: linear-gradient(135deg, #0066cc 0%, #004499 50%, #002266 100%);
+    background: #f0f0f0;
     min-height: 100vh;
     overflow-x: hidden;
 }
@@ -187,6 +187,28 @@ body {
             font-size: 18px;
             opacity: 0.8;
             text-transform: lowercase;
+        }
+
+        /* Paw Print Animation */
+        @keyframes pawFall {
+            0% {
+                top: -50px;
+                opacity: 0;
+                transform: scale(0.5) rotate(0deg);
+            }
+            10% {
+                opacity: 1;
+                transform: scale(1) rotate(5deg);
+            }
+            90% {
+                opacity: 1;
+                transform: scale(1) rotate(-5deg);
+            }
+            100% {
+                top: 100vh;
+                opacity: 0;
+                transform: scale(0.8) rotate(0deg);
+            }
         }
 
         /* Popup animations */
@@ -552,14 +574,13 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-/* Slide title styling */
+/* Slide title styling - font family removed to use CSS file default */
 .slide-title {
     color: #333333 !important;
     font-size: 28px;
     font-weight: 700;
-    margin: 30px 0 20px 0;
+    margin: 10px 0 20px 0;
     text-align: center;
-    font-family: 'Poppins', sans-serif;
     animation: none !important;
     transition: none !important;
     transform: none !important;
@@ -1753,7 +1774,6 @@ body {
 
 .enhanced-share-text {
     text-align: center;
-    margin-bottom: 25px;
     position: relative;
     z-index: 1;
 }
@@ -2503,9 +2523,103 @@ body {
     <!-- Loading Slide -->
     <div class="slide active" id="slide-0">
         <div class="slide-content loading-slide" style="background: linear-gradient(135deg, #0066cc 0%, #004499 50%, #002266 100%); min-height: 100vh; display: flex; justify-content: center; align-items: center;">
-            <div id="loading" class="loading">
-                <h2>2025 Chewy Playback</h2>
-                <p>loading</p>
+            <!-- Paw Print Animation Container -->
+            <div class="paw-container" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; overflow: hidden; z-index: 1;">
+                <div class="paw-print" style="position: absolute; width: 40px; height: 40px; opacity: 0; animation: pawFall 3s linear infinite; left: 20%; animation-delay: 0s;">
+                    <svg class="paw-svg" viewBox="0 0 100 100" style="width: 100%; height: 100%; fill: rgba(255, 255, 255, 0.3);">
+                        <circle cx="50" cy="25" r="8" fill="currentColor"/>
+                        <circle cx="35" cy="35" r="8" fill="currentColor"/>
+                        <circle cx="65" cy="35" r="8" fill="currentColor"/>
+                        <circle cx="50" cy="45" r="8" fill="currentColor"/>
+                        <ellipse cx="50" cy="65" rx="15" ry="8" fill="currentColor"/>
+                    </svg>
+                </div>
+                <div class="paw-print" style="position: absolute; width: 40px; height: 40px; opacity: 0; animation: pawFall 3s linear infinite; left: 35%; animation-delay: 0.5s;">
+                    <svg class="paw-svg" viewBox="0 0 100 100" style="width: 100%; height: 100%; fill: rgba(255, 255, 255, 0.3);">
+                        <circle cx="50" cy="25" r="8" fill="currentColor"/>
+                        <circle cx="35" cy="35" r="8" fill="currentColor"/>
+                        <circle cx="65" cy="35" r="8" fill="currentColor"/>
+                        <circle cx="50" cy="45" r="8" fill="currentColor"/>
+                        <ellipse cx="50" cy="65" rx="15" ry="8" fill="currentColor"/>
+                    </svg>
+                </div>
+                <div class="paw-print" style="position: absolute; width: 40px; height: 40px; opacity: 0; animation: pawFall 3s linear infinite; left: 50%; animation-delay: 1s;">
+                    <svg class="paw-svg" viewBox="0 0 100 100" style="width: 100%; height: 100%; fill: rgba(255, 255, 255, 0.3);">
+                        <circle cx="50" cy="25" r="8" fill="currentColor"/>
+                        <circle cx="35" cy="35" r="8" fill="currentColor"/>
+                        <circle cx="65" cy="35" r="8" fill="currentColor"/>
+                        <circle cx="50" cy="45" r="8" fill="currentColor"/>
+                        <ellipse cx="50" cy="65" rx="15" ry="8" fill="currentColor"/>
+                    </svg>
+                </div>
+                <div class="paw-print" style="position: absolute; width: 40px; height: 40px; opacity: 0; animation: pawFall 3s linear infinite; left: 65%; animation-delay: 1.5s;">
+                    <svg class="paw-svg" viewBox="0 0 100 100" style="width: 100%; height: 100%; fill: rgba(255, 255, 255, 0.3);">
+                        <circle cx="50" cy="25" r="8" fill="currentColor"/>
+                        <circle cx="35" cy="35" r="8" fill="currentColor"/>
+                        <circle cx="65" cy="35" r="8" fill="currentColor"/>
+                        <circle cx="50" cy="45" r="8" fill="currentColor"/>
+                        <ellipse cx="50" cy="65" rx="15" ry="8" fill="currentColor"/>
+                    </svg>
+                </div>
+                <div class="paw-print" style="position: absolute; width: 40px; height: 40px; opacity: 0; animation: pawFall 3s linear infinite; left: 80%; animation-delay: 2s;">
+                    <svg class="paw-svg" viewBox="0 0 100 100" style="width: 100%; height: 100%; fill: rgba(255, 255, 255, 0.3);">
+                        <circle cx="50" cy="25" r="8" fill="currentColor"/>
+                        <circle cx="35" cy="35" r="8" fill="currentColor"/>
+                        <circle cx="65" cy="35" r="8" fill="currentColor"/>
+                        <circle cx="50" cy="45" r="8" fill="currentColor"/>
+                        <ellipse cx="50" cy="65" rx="15" ry="8" fill="currentColor"/>
+                    </svg>
+                </div>
+                <div class="paw-print" style="position: absolute; width: 40px; height: 40px; opacity: 0; animation: pawFall 3s linear infinite; left: 25%; animation-delay: 2.5s;">
+                    <svg class="paw-svg" viewBox="0 0 100 100" style="width: 100%; height: 100%; fill: rgba(255, 255, 255, 0.3);">
+                        <circle cx="50" cy="25" r="8" fill="currentColor"/>
+                        <circle cx="35" cy="35" r="8" fill="currentColor"/>
+                        <circle cx="65" cy="35" r="8" fill="currentColor"/>
+                        <circle cx="50" cy="45" r="8" fill="currentColor"/>
+                        <ellipse cx="50" cy="65" rx="15" ry="8" fill="currentColor"/>
+                    </svg>
+                </div>
+                <div class="paw-print" style="position: absolute; width: 40px; height: 40px; opacity: 0; animation: pawFall 3s linear infinite; left: 40%; animation-delay: 3s;">
+                    <svg class="paw-svg" viewBox="0 0 100 100" style="width: 100%; height: 100%; fill: rgba(255, 255, 255, 0.3);">
+                        <circle cx="50" cy="25" r="8" fill="currentColor"/>
+                        <circle cx="35" cy="35" r="8" fill="currentColor"/>
+                        <circle cx="65" cy="35" r="8" fill="currentColor"/>
+                        <circle cx="50" cy="45" r="8" fill="currentColor"/>
+                        <ellipse cx="50" cy="65" rx="15" ry="8" fill="currentColor"/>
+                    </svg>
+                </div>
+                <div class="paw-print" style="position: absolute; width: 40px; height: 40px; opacity: 0; animation: pawFall 3s linear infinite; left: 55%; animation-delay: 3.5s;">
+                    <svg class="paw-svg" viewBox="0 0 100 100" style="width: 100%; height: 100%; fill: rgba(255, 255, 255, 0.3);">
+                        <circle cx="50" cy="25" r="8" fill="currentColor"/>
+                        <circle cx="35" cy="35" r="8" fill="currentColor"/>
+                        <circle cx="65" cy="35" r="8" fill="currentColor"/>
+                        <circle cx="50" cy="45" r="8" fill="currentColor"/>
+                        <ellipse cx="50" cy="65" rx="15" ry="8" fill="currentColor"/>
+                    </svg>
+                </div>
+                <div class="paw-print" style="position: absolute; width: 40px; height: 40px; opacity: 0; animation: pawFall 3s linear infinite; left: 70%; animation-delay: 4s;">
+                    <svg class="paw-svg" viewBox="0 0 100 100" style="width: 100%; height: 100%; fill: rgba(255, 255, 255, 0.3);">
+                        <circle cx="50" cy="25" r="8" fill="currentColor"/>
+                        <circle cx="35" cy="35" r="8" fill="currentColor"/>
+                        <circle cx="65" cy="35" r="8" fill="currentColor"/>
+                        <circle cx="50" cy="45" r="8" fill="currentColor"/>
+                        <ellipse cx="50" cy="65" rx="15" ry="8" fill="currentColor"/>
+                    </svg>
+                </div>
+                <div class="paw-print" style="position: absolute; width: 40px; height: 40px; opacity: 0; animation: pawFall 3s linear infinite; left: 85%; animation-delay: 4.5s;">
+                    <svg class="paw-svg" viewBox="0 0 100 100" style="width: 100%; height: 100%; fill: rgba(255, 255, 255, 0.3);">
+                        <circle cx="50" cy="25" r="8" fill="currentColor"/>
+                        <circle cx="35" cy="35" r="8" fill="currentColor"/>
+                        <circle cx="65" cy="35" r="8" fill="currentColor"/>
+                        <circle cx="50" cy="45" r="8" fill="currentColor"/>
+                        <ellipse cx="50" cy="65" rx="15" ry="8" fill="currentColor"/>
+                    </svg>
+                </div>
+            </div>
+            
+            <div id="loading" class="loading" style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100vh; color: white; font-size: 24px; font-family: 'Poppins', sans-serif; position: relative; z-index: 10;">
+                <h2 style="font-size: 32px; font-weight: 700; margin-bottom: 40px; text-align: center;">2025 Chewy Playback</h2>
+                <p style="font-size: 18px; opacity: 0.8; text-transform: lowercase;">loading</p>
             </div>
         </div>
     </div>
@@ -2515,13 +2629,13 @@ body {
     <div class="slide" id="slide-1">
         <div class="slide-content funfact-slide" style="background: #FFE181; color: #3C3C3C; min-height: 100vh; display: flex; flex-direction: column; justify-content: flex-start; align-items: center; padding-top: 80px;">
             <div class="slide-header" style="text-align: center; margin-bottom: 20px; color: #3C3C3C;">
-                <h2 class="slide-title" style="text-align: center; margin: 0; margin-top: 40px; font-family: 'Nunito', sans-serif; font-weight: 600; color: #3C3C3C !important; font-size: 36px;">
+                <h2 class="slide-title" style="text-align: center; margin: 0; margin-top: 40px; font-weight: 600; color: #3C3C3C !important; font-size: 36px;">
                     <strong>Total Food Consumed</strong>
                 </h2>
             </div>
             
             <div class="spotify-wrapped-container" style="text-align: center; width: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center;">
-                <div class="wrapped-number" id="food-number" style="color: #4A1A1A; font-size: 48px; font-weight: 900; margin-bottom: 10px; text-align: center; width: 100%; display: flex; justify-content: center; align-items: center; gap: 8px;">{{ customer_data.food_fun_fact.total_food_lbs }}<span class="unit-text" style="font-size: 32px; color: #4A1A1A; font-weight: 900; display: inline-block;">lbs</span></div>
+                <div class="wrapped-number" id="food-number" style="color: #D35400; font-size: 48px; font-weight: 900; margin-bottom: 10px; text-align: center; width: 100%; display: flex; justify-content: center; align-items: center; gap: 8px;">{{ customer_data.food_fun_fact.total_food_lbs }}<span class="unit-text" style="font-size: 32px; color: #3C3C3C; font-weight: 900; display: inline-block;">lbs</span></div>
                 <div class="wrapped-text-line" style="color: #3C3C3C; font-size: 18px; font-weight: 600; text-align: center; width: 100%;">to be exact.</div>
                 </div>
             
@@ -2544,7 +2658,7 @@ body {
 
             
             <!-- Title at the top -->
-            <div class="slide-header" style="text-align: center; position: relative; z-index: 2; margin-top: 100px; margin-bottom: 20px;">
+                            <div class="slide-header" style="text-align: center; position: relative; z-index: 2; margin-top: 80px; margin-bottom: 20px;">
                 <h2 class="slide-title" style="text-align: center; margin: 0; font-size: 28px; color: #5A1C2E; font-weight: 800; text-shadow: 0 2px 4px rgba(90,28,46,0.3);">
                     <strong>Your Pet Portrait</strong>
                 </h2>
@@ -2558,51 +2672,18 @@ body {
     </div>
     {% endif %}
 
-    <!-- Slide 1.5: Busiest Month (when food consumption is 0/null) -->
-    {% if customer_data.cuddliest_month and (not customer_data.food_fun_fact or not customer_data.food_fun_fact.total_food_lbs or customer_data.food_fun_fact.total_food_lbs == 0) %}
-    <div class="slide" id="slide-1-busiest">
-        <div class="slide-content busiest-slide" style="background: #A0E7E5; color: #00373C;">
-            <div class="slide-header" style="text-align: center; margin-bottom: 30px;">
-                <h2 class="slide-title" style="text-align: center; margin: 0; margin-top: 40px; color: #00373C;">
-                    <strong>Your Busiest Month</strong>
-                </h2>
-            </div>
-            
-            <div class="busiest-container">
-                <div class="busiest-icon">
-                    <i class="fas fa-calendar-alt" style="font-size: 60px; color: #00373C;"></i>
-                </div>
-                <div class="busiest-content">
-                    <h3 class="busiest-title" style="color: #00373C;">Your Busiest Month</h3>
-                    <div style="background: rgba(255,255,255,0.2); padding: 25px; border-radius: 15px; margin-bottom: 20px;">
-                        <h4 style="color: #00373C; font-size: 32px; margin-bottom: 10px; text-align: center;">
-                            {{ customer_data.cuddliest_month }}
-                        </h4>
-                        <p style="color: #00373C; font-size: 18px; text-align: center; margin-bottom: 15px;">
-                            This was your most active month with Chewy!
-                        </p>
-                    </div>
-                    <div class="busiest-highlight">
-                        <p class="busiest-text" style="color: #00373C;">
-                            You were most engaged with Chewy during {{ customer_data.cuddliest_month }}. Keep up the great work taking care of your pets!
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    {% endif %}
+
 
 
 
     <!-- Slide 4: Enhanced Letter from Pets -->
     {% if customer_data.pet_letters %}
     <div class="slide" id="slide-3">
-                        <div class="slide-content letter-slide" style="background: #BDE0FE; color: #052049; overflow-y: auto; padding: 120px 25px 60px 25px; height: 100%;">
+                        <div class="slide-content letter-slide" style="background: #BDE0FE; color: #052049; overflow-y: auto; padding: 120px 25px 60px 35px; height: 100%;">
             <!-- Enhanced title with decorative elements -->
-            <div class="letter-slide-header" style="margin-top: 0; margin-bottom: 40px; padding: 75px 0;">
+            <div class="letter-slide-header" style="margin-top: -100px; margin-bottom: 40px; padding: 75px 0;">
                 <div class="letter-title-container">
-                    <h2 class="letter-slide-title" style="color: #052049 !important; font-size: 28px; font-weight: 800; text-align: center; margin: 0; font-family: 'Nunito', sans-serif; text-shadow: 0 2px 4px rgba(5,32,73,0.1); letter-spacing: 0.5px; position: relative; z-index: 10;"><strong>Letter from your pets</strong></h2>
+                    <h2 class="letter-slide-title" style="color: #052049 !important; font-size: 28px; font-weight: 800; text-align: center; margin: 0; text-shadow: 0 2px 4px rgba(5,32,73,0.1); letter-spacing: 0.5px; position: relative; z-index: 10;"><strong>Letter from your pets</strong></h2>
                     <div class="letter-title-decoration"></div>
             </div>
             </div>
@@ -2673,52 +2754,58 @@ body {
     <!-- Slide 4: Personality Badge -->
     {% if customer_data.badge %}
     <div class="slide" id="slide-4">
-        <div class="slide-content badge-slide" style="background: #FFCAD4; color: #5A1C2E; height: 100%; overflow: hidden;">
-            <div class="household-personality-container" style="padding: 0px; gap: 0
-            px;">
+                        <div class="slide-content badge-slide" style="background: #FFCAD4; color: #5A1C2E;">
+            <div class="household-personality-container" style="padding: 0px; gap: 0px; height: 100%; display: flex; flex-direction: column; justify-content: flex-start; align-items: center;">
                 <!-- Large bold title -->
-                <h1 class="household-title" style="margin-top: 0; color: #5A1C2E;"><strong>Household Personality for Your Pets</strong></h1>
+                                    <h1 class="household-title" style="margin: 0; color: #5A1C2E; font-size: 24px; margin-top: 100px; margin-bottom: 15px;"><strong>Household Personality for Your Pets</strong></h1>
                 
                 <!-- Central circular badge section -->
-                <div class="central-badge-section">
-                    <div class="badge-circle">
-                        <img src="{{ customer_data.badge.image_path }}" alt="Personality Badge" class="central-badge-image">
+                <div class="central-badge-section" style="margin: 5px 0;">
+                    <div class="badge-circle" style="width: 100px; height: 100px;">
+                        <img src="{{ customer_data.badge.image_path }}" alt="Personality Badge" class="central-badge-image" style="width: 70px; height: 70px;">
                     </div>
-                    <h2 class="badge-label" style="color: #5A1C2E;">{{ customer_data.badge.badge }}</h2>
-            </div>
-            
+                    <h2 class="badge-label" style="color: #5A1C2E; font-size: 20px; margin: 5px 0;">{{ customer_data.badge.badge }}</h2>
+                </div>
+                
                 <!-- Horizontal personality words -->
-                <div class="personality-words-section" style="display: flex; justify-content: center; gap: 15px; margin: 20px 0;">
-                    <div class="personality-word" style="background: linear-gradient(135deg, #E91E63, #C2185B); color: white; border: none; border-radius: 12px; padding: 8px 16px; font-size: 14px; font-weight: 600; font-family: 'Poppins', sans-serif; box-shadow: 0 4px 16px rgba(233, 30, 99, 0.25); transition: all 0.3s ease; cursor: pointer;">Playful</div>
-                    <div class="personality-word" style="background: linear-gradient(135deg, #E91E63, #C2185B); color: white; border: none; border-radius: 12px; padding: 8px 16px; font-size: 14px; font-weight: 600; font-family: 'Poppins', sans-serif; box-shadow: 0 4px 16px rgba(233, 30, 99, 0.25); transition: all 0.3s ease; cursor: pointer;">Loyal</div>
-                    <div class="personality-word" style="background: linear-gradient(135deg, #E91E63, #C2185B); color: white; border: none; border-radius: 12px; padding: 8px 16px; font-size: 14px; font-weight: 600; font-family: 'Poppins', sans-serif; box-shadow: 0 4px 16px rgba(233, 30, 99, 0.25); transition: all 0.3s ease; cursor: pointer;">Gentle</div>
+                <div class="personality-words-section" style="display: flex; justify-content: center; gap: 10px; margin: 8px 0;">
+                    {% if customer_data.badge and customer_data.badge.descriptive_words %}
+                        {% for word in customer_data.badge.descriptive_words[:3] %}
+                        <div class="personality-word" style="background: linear-gradient(135deg, #E91E63, #C2185B); color: white; border: none; border-radius: 12px; padding: 6px 12px; font-size: 12px; font-weight: 600; font-family: 'Poppins', sans-serif; box-shadow: 0 4px 16px rgba(233, 30, 99, 0.25); transition: all 0.3s ease; cursor: pointer;">{{ word | title }}</div>
+                        {% endfor %}
+                    {% else %}
+                        <!-- Fallback to default words if no descriptive words available -->
+                        <div class="personality-word" style="background: linear-gradient(135deg, #E91E63, #C2185B); color: white; border: none; border-radius: 12px; padding: 6px 12px; font-size: 12px; font-weight: 600; font-family: 'Poppins', sans-serif; box-shadow: 0 4px 16px rgba(233, 30, 99, 0.25); transition: all 0.3s ease; cursor: pointer;">Playful</div>
+                        <div class="personality-word" style="background: linear-gradient(135deg, #E91E63, #C2185B); color: white; border: none; border-radius: 12px; padding: 6px 12px; font-size: 12px; font-weight: 600; font-family: 'Poppins', sans-serif; box-shadow: 0 4px 16px rgba(233, 30, 99, 0.25); transition: all 0.3s ease; cursor: pointer;">Loyal</div>
+                        <div class="personality-word" style="background: linear-gradient(135deg, #E91E63, #C2185B); color: white; border: none; border-radius: 12px; padding: 6px 12px; font-size: 12px; font-weight: 600; font-family: 'Poppins', sans-serif; box-shadow: 0 4px 16px rgba(233, 30, 99, 0.25); transition: all 0.3s ease; cursor: pointer;">Gentle</div>
+                    {% endif %}
                 </div>
                 
                 <!-- Compatible With section -->
-                <div class="compatible-with-section">
-                    <h3 class="compatible-with-title" style="color: #5A1C2E;">Compatible With</h3>
-                    <div class="compatible-badges-row">
-                        <div class="compatible-badge-small">
-                            <img src="/static/badges/badge_athlete copy.png" alt="Athlete Badge" class="compatible-badge-small-image">
-                            <span class="compatible-badge-small-name"  style="color: #5A1C2E;">Athlete</span>
+                <div class="compatible-with-section" style="margin: 5px 0 0 0;">
+                    <h3 class="compatible-with-title" style="color: #5A1C2E; font-size: 16px; margin-bottom: 5px;">Compatible With</h3>
+                    <div class="compatible-badges-row" style="display: flex; justify-content: center; gap: 15px;">
+                        <div class="compatible-badge-small" style="text-align: center;">
+                            <img src="/static/badges/badge_athlete copy.png" alt="Athlete Badge" class="compatible-badge-small-image" style="width: 40px; height: 40px;">
+                            <span class="compatible-badge-small-name" style="color: #5A1C2E; font-size: 12px; display: block; margin-top: 5px;">Athlete</span>
                         </div>
-                        <div class="compatible-badge-small">
-                            <img src="/static/badges/badge_cuddler copy.png" alt="Cuddler Badge" class="compatible-badge-small-image">
-                            <span class="compatible-badge-small-name"  style="color: #5A1C2E;">Cuddler</span>
+                        <div class="compatible-badge-small" style="text-align: center;">
+                            <img src="/static/badges/badge_cuddler copy.png" alt="Cuddler Badge" class="compatible-badge-small-image" style="width: 40px; height: 40px;">
+                            <span class="compatible-badge-small-name" style="color: #5A1C2E; font-size: 12px; display: block; margin-top: 5px;">Cuddler</span>
                         </div>
-                        <div class="compatible-badge-small">
-                            <img src="/static/badges/badge_explorer copy.png" alt="Explorer Badge" class="compatible-badge-small-image">
-                            <span class="compatible-badge-small-name"  style="color: #5A1C2E;">Explorer</span>
+                        <div class="compatible-badge-small" style="text-align: center;">
+                            <img src="/static/badges/badge_explorer copy.png" alt="Explorer Badge" class="compatible-badge-small-image" style="width: 40px; height: 40px;">
+                            <span class="compatible-badge-small-name" style="color: #5A1C2E; font-size: 12px; display: block; margin-top: 5px;">Explorer</span>
                         </div>
+                    </div>
                 </div>
-            </div>
-            
+                
                 <!-- Call-to-action button -->
-                <div class="share-cta-section">
-                    <button class="share-cta-button" onclick="shareToSocial('facebook')">
+                <div class="share-cta-section" style="margin-top: 10px;">
+                    <button class="share-cta-button" onclick="shareToSocial('facebook')" style="background: linear-gradient(135deg, #E91E63, #C2185B); color: white; border: none; border-radius: 12px; padding: 12px 20px; font-size: 14px; font-weight: 600; font-family: 'Poppins', sans-serif; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 4px 16px rgba(233, 30, 99, 0.25); text-align: center;">
                         Share to discover your pet's friends
-                </button>
-            </div>
+                    </button>
+                </div>
             </div>
         </div>
     </div>
@@ -2734,7 +2821,7 @@ body {
                     <div style="width: 80px; height: 80px; background: linear-gradient(135deg, #10B981, #059669); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; box-shadow: 0 8px 32px rgba(16, 185, 129, 0.3);">
                         <span style="font-size: 32px; color: white;">🐕</span>
             </div>
-                    <h2 class="slide-title" style="margin: 0 0 12px 0; font-family: 'Nunito', sans-serif; font-weight: 800; font-size: 32px; color: #1C3A2E; text-shadow: 0 2px 4px rgba(28, 58, 46, 0.1);">
+                    <h2 class="slide-title" style="margin: 0 0 12px 0; font-weight: 800; font-size: 32px; color: #1C3A2E; text-shadow: 0 2px 4px rgba(28, 58, 46, 0.1);">
                         <strong>Our Breed Predictions</strong>
                 </h2>
                     <p class="breed-highlight-text" style="margin: 0; font-family: 'Poppins', sans-serif; font-size: 16px; color: #1C3A2E; font-weight: 500; opacity: 0.9;">
@@ -2825,7 +2912,7 @@ body {
                     </div>
                     
                     <!-- Step 2: Enhanced Question Section -->
-                    <div class="breed-question-section" id="breed-question-section" style="display: block; text-align: center; margin-top: 30px; padding: 32px 24px; background: linear-gradient(135deg, rgba(255, 255, 255, 0.98) 0%, rgba(248, 250, 252, 0.98) 100%); border-radius: 28px; box-shadow: 0 16px 48px rgba(28, 58, 46, 0.15); border: 2px solid rgba(255, 255, 255, 0.9); backdrop-filter: blur(20px); position: relative; overflow: hidden;">
+                    <div class="breed-question-section" id="breed-question-section" style="display: block; text-align: center; margin-top: 10px; padding: 32px 24px; background: linear-gradient(135deg, rgba(255, 255, 255, 0.98) 0%, rgba(248, 250, 252, 0.98) 100%); border-radius: 28px; box-shadow: 0 16px 48px rgba(28, 58, 46, 0.15); border: 2px solid rgba(255, 255, 255, 0.9); backdrop-filter: blur(20px); position: relative; overflow: hidden;">
                         <!-- Decorative background elements -->
                         <div style="position: absolute; top: -50%; left: -50%; width: 200%; height: 200%; background: radial-gradient(circle at 30% 70%, rgba(28, 58, 46, 0.03) 0%, transparent 50%), radial-gradient(circle at 70% 30%, rgba(44, 95, 139, 0.02) 0%, transparent 50%); pointer-events: none;"></div>
                         
@@ -2900,9 +2987,9 @@ body {
 
     <!-- Slide 6: Your Chewy Stats -->
     <div class="slide" id="slide-6">
-        <div class="slide-content stats-slide" style="overflow-y: auto; min-height: 100vh; padding: 20px 15px 80px 15px; background: #F0E8F8;">
-            <div class="slide-header" style="text-align: center; margin-bottom: 40px; margin-top: 400px;">
-                <h2 class="slide-title" style="text-align: center; margin: 0; margin-top: 80px; font-family: 'Nunito', 'Poppins', sans-serif; font-weight: 700; font-size: 32px; color: #87CEEB; text-shadow: 0 2px 4px rgba(135, 206, 235, 0.1);">
+                        <div class="slide-content stats-slide" style="overflow-y: auto; min-height: 100vh; padding: 40px 15px 80px 25px; background: #F0E8F8;">
+                                        <div class="slide-header" style="text-align: center; margin-bottom: 40px; margin-top: 50px;">
+                <h2 class="slide-title" style="text-align: center; margin: 0; font-weight: 700; font-size: 32px; color: #87CEEB; text-shadow: 0 2px 4px rgba(135, 206, 235, 0.1);">
                     <strong>Your Chewy Stats</strong>
                 </h2>
             </div>
@@ -2913,7 +3000,7 @@ body {
                     {% if customer_data.total_months and customer_data.total_months > 0 %}
                     <div class="stat-card-pastel" style="background: #E8F4F8; border-radius: 16px; padding: 20px 15px; text-align: center; box-shadow: 0 6px 20px rgba(232, 244, 248, 0.3); border: 2px solid rgba(255, 255, 255, 0.8); animation: fadeInScale 0.6s ease-out 0.1s both; opacity: 0; transform: scale(0.9); position: relative; overflow: hidden; transition: all 0.3s ease;">
                         <div class="stat-icon" style="font-size: 28px; margin-bottom: 10px; color: #5A8BA8;">📅</div>
-                        <div class="stat-value" style="color: #3C3C3C; font-size: 28px; font-weight: 800; margin-bottom: 6px; font-family: 'Poppins', sans-serif;">{{ customer_data.total_months }}</div>
+                        <div class="stat-value" id="months-counter" data-target="{{ customer_data.total_months }}" style="color: #3C3C3C; font-size: 28px; font-weight: 800; margin-bottom: 6px; font-family: 'Poppins', sans-serif;">0</div>
                         <div class="stat-label" style="color: #4A1A1A; font-size: 14px; font-weight: 600; font-family: 'Poppins', sans-serif;">Months with Chewy</div>
                     </div>
                     {% endif %}
@@ -2921,7 +3008,7 @@ body {
                     {% if customer_data.autoship_savings and customer_data.autoship_savings > 0 %}
                     <div class="stat-card-pastel" style="background: #F0F8E8; border-radius: 16px; padding: 20px 15px; text-align: center; box-shadow: 0 6px 20px rgba(240, 248, 232, 0.3); border: 2px solid rgba(255, 255, 255, 0.8); animation: fadeInScale 0.6s ease-out 0.2s both; opacity: 0; transform: scale(0.9); position: relative; overflow: hidden; transition: all 0.3s ease;">
                         <div class="stat-icon" style="font-size: 28px; margin-bottom: 10px; color: #7A9A6A;">💰</div>
-                        <div class="stat-value" style="color: #3C3C3C; font-size: 28px; font-weight: 800; margin-bottom: 6px; font-family: 'Poppins', sans-serif;">${{ "%.2f"|format(customer_data.autoship_savings) }}</div>
+                        <div class="stat-value" id="savings-counter" data-target="{{ customer_data.autoship_savings }}" data-prefix="$" data-decimals="2" style="color: #3C3C3C; font-size: 28px; font-weight: 800; margin-bottom: 6px; font-family: 'Poppins', sans-serif;">$0.00</div>
                         <div class="stat-label" style="color: #4A1A1A; font-size: 14px; font-weight: 600; font-family: 'Poppins', sans-serif;">Autoship Savings</div>
                     </div>
                     {% endif %}
@@ -3053,7 +3140,7 @@ body {
     <div class="slide" id="slide-7">
         <div class="slide-content share-slide" style="min-height: 100vh; padding: 75px 15px 80px 15px; background: #FFE181; color: #3C3C3C;">
             <div class="slide-header" style="text-align: center; margin-bottom: 30px;">
-                <h2 class="slide-title" style="text-align: center; margin: 0; margin-top: 40px; font-family: 'Baloo 2', sans-serif; font-weight: 700; font-size: 28px; color: #3C3C3C;">
+                                    <h2 class="slide-title" style="text-align: center; margin: 0; margin-top: 45px; font-weight: 700; font-size: 28px; color: #3C3C3C;">
                     <strong>Share Your Chewy Journey!</strong>
                 </h2>
             </div>
@@ -3065,10 +3152,10 @@ body {
                     </div>
                     
             <div class="feature-selection-grid" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; margin: 35px 0; max-width: 550px; margin-left: auto; margin-right: auto;">
-                <div class="feature-card" data-feature="food" onclick="toggleFeature('food')" style="display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 20px 15px; border-radius: 16px; cursor: pointer; transition: all 0.3s ease; background: rgba(255, 255, 255, 0.25); border: 2px solid rgba(255, 255, 255, 0.3); backdrop-filter: blur(10px); position: relative; overflow: hidden; min-height: 100px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);">
-                    <div class="feature-icon" style="font-size: 28px; margin-bottom: 10px; color: #4A1A1A;">🍽️</div>
-                    <div class="feature-label" style="font-size: 13px; font-weight: 600; color: #3C3C3C; text-align: center; margin-bottom: 6px; font-family: 'Nunito', sans-serif;">Food Consumed</div>
-                    <div class="feature-value" id="food-share-value" style="font-size: 12px; color: #4A1A1A; text-align: center; font-family: 'Nunito', sans-serif; font-weight: 500;">{{ customer_data.total_food_consumed|default('', true) }}</div>
+                <div class="feature-card" data-feature="badge" onclick="toggleFeature('badge')" style="display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 20px 15px; border-radius: 16px; cursor: pointer; transition: all 0.3s ease; background: rgba(255, 255, 255, 0.25); border: 2px solid rgba(255, 255, 255, 0.3); backdrop-filter: blur(10px); position: relative; overflow: hidden; min-height: 100px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);">
+                    <div class="feature-icon" style="font-size: 28px; margin-bottom: 10px; color: #4A1A1A;">🏆</div>
+                    <div class="feature-label" style="font-size: 13px; font-weight: 600; color: #3C3C3C; text-align: center; margin-bottom: 6px; font-family: 'Nunito', sans-serif;">Personality Badge</div>
+                    <div class="feature-value" id="badge-share-value" style="font-size: 12px; color: #4A1A1A; text-align: center; font-family: 'Nunito', sans-serif; font-weight: 500;">{{ customer_data.badge.badge|default('', true) if customer_data.badge else 'Generated' }}</div>
                         </div>
                         
                 <div class="feature-card" data-feature="portrait" onclick="toggleFeature('portrait')" style="display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 20px 15px; border-radius: 16px; cursor: pointer; transition: all 0.3s ease; background: rgba(255, 255, 255, 0.25); border: 2px solid rgba(255, 255, 255, 0.3); backdrop-filter: blur(10px); position: relative; overflow: hidden; min-height: 100px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);">
@@ -3106,9 +3193,9 @@ body {
     <!-- Slide 8: Missing Pet Profile Information -->
     {% if customer_data.unknowns %}
     <div class="slide" id="slide-8">
-        <div class="slide-content unknowns-slide" style="overflow-y: auto; min-height: 100vh; padding: 40px 20px 80px 20px; background: #D0F4DE;">
+                        <div class="slide-content unknowns-slide" style="overflow-y: auto; min-height: 100vh; padding: 0px 20px 80px 30px; background: #D0F4DE;">
             <div class="slide-header" style="text-align: center; margin-bottom: 40px;">
-                <h2 class="slide-title" style="text-align: center; margin: 0; margin-top: 40px; font-family: 'Nunito', 'Poppins', sans-serif; font-weight: 700; font-size: 28px; color: #3C3C3C;">
+                                    <h2 class="slide-title" style="text-align: center; margin: 0; margin-top: 80px; font-weight: 700; font-size: 28px; color: #3C3C3C;">
                     <strong>Complete Your Pet Profiles</strong>
                 </h2>
                 <!-- <p style="color: #4A1A1A; font-size: 16px; margin-top: 12px; opacity: 0.8; font-weight: 500;">
@@ -3147,15 +3234,7 @@ body {
                     </a>
                 </div>
                 
-                <!-- Update Pet Profile Section -->
-                <div style="text-align: center; margin-top: 40px; padding: 20px; background: rgba(255, 255, 255, 0.2); border-radius: 16px; border: 1px solid rgba(255, 255, 255, 0.3);">
-                    <h3 style="color: #3C3C3C; font-size: 18px; font-weight: 700; margin: 0 0 15px 0; font-family: 'Poppins', sans-serif;">Update Your Pet Profile</h3>
-                    <p style="color: #6B7280; font-size: 14px; margin: 0 0 20px 0; font-family: 'Poppins', sans-serif; line-height: 1.4;">Help us improve our predictions by updating your pet information</p>
-                    <button onclick="updatePetProfile()" style="background: linear-gradient(135deg, #10B981, #059669); color: white; border: none; border-radius: 12px; padding: 15px 30px; cursor: pointer; font-size: 16px; font-weight: 700; font-family: 'Poppins', sans-serif; box-shadow: 0 6px 16px rgba(16, 185, 129, 0.4); transition: all 0.3s ease; display: inline-flex; align-items: center; gap: 10px; min-width: 200px; justify-content: center;">
-                        <span style="font-size: 16px;">🔄</span>
-                        Update Pet Profile
-                    </button>
-                </div>
+               
                 
              
     </div>
@@ -3170,7 +3249,7 @@ body {
 <script>
 let currentSlide = 0;
 let totalSlides = 0;
-let isTransitioning = false;
+// Removed transition state to prevent navigation conflicts
 let progressChunks = [];
 let slideToChunkMapping = {};
 
@@ -3207,79 +3286,22 @@ document.addEventListener('DOMContentLoaded', function() {
     // Initialize breed prediction slide
     initializeBreedPredictionSlide();
     
-    // Show loading slide first, then transition to first real slide after a delay
+    // Show loading slide first, then transition to first real slide
     console.log(`🚀 Showing loading slide...`);
     if (loadingSlide) {
         loadingSlide.classList.add('active');
         currentSlide = 0;
     }
     
-    // Auto-transition from loading to first real slide after 3 seconds
+    // Show first content slide after a brief delay
     setTimeout(() => {
-        console.log(`🔄 Auto-transitioning from loading to first slide...`);
         showSlide(1);
-    }, 3000);
+        // Initialize progress bar for first slide
+        updateProgressBar('1');
+    }, 1000);
 });
 
-function showSlide(slideIndex) {
-    console.log(`🎯 showSlide(${slideIndex}) called, currentSlide=${currentSlide}, isTransitioning=${isTransitioning}`);
-    
-    if (isTransitioning || slideIndex === currentSlide) {
-        console.log(`⏸️ Skipping slide change - transitioning: ${isTransitioning}, same slide: ${slideIndex === currentSlide}`);
-        return;
-    }
-    
-    isTransitioning = true;
-    
-    // Hide all slides
-    const allSlides = Array.from(document.querySelectorAll('.slide'));
-    console.log(`📋 Found ${allSlides.length} slides total`);
-    allSlides.forEach((slide, index) => {
-        slide.classList.remove('active');
-        console.log(`👁️ Slide ${index} (${slide.id}): removed active class`);
-    });
-    
-    // Handle loading slide (slideIndex = 0)
-    if (slideIndex === 0) {
-        const loadingSlide = allSlides.find(slide => slide.id === 'slide-0' || slide.classList.contains('loading-slide'));
-        if (loadingSlide) {
-            loadingSlide.classList.add('active');
-            currentSlide = 0;
-            console.log(`✅ Activated loading slide`);
-        }
-    } else {
-        // Get only content slides (excluding loading slide)
-        const contentSlides = allSlides.filter(slide => slide.id !== 'slide-0' && !slide.classList.contains('loading-slide') && slide.style.display !== 'none');
-        console.log(`📋 Found ${contentSlides.length} content slides`);
-        
-        // Show target content slide
-        if (slideIndex <= contentSlides.length && slideIndex > 0) {
-            contentSlides[slideIndex - 1].classList.add('active');
-        currentSlide = slideIndex;
-            console.log(`✅ Activated slide ${slideIndex} (${contentSlides[slideIndex - 1].id})`);
-        
-        // Reset breed prediction state when navigating to breed slide
-            if (contentSlides[slideIndex - 1].id === 'slide-5') { // Breed prediction slide
-            resetBreedPredictionState();
-        }
-        
-        // Update arrow navigation states
-        updateArrowNavigation();
-            
-                    // Update progress bar with actual slide ID
-        const slideId = contentSlides[slideIndex - 1].id.replace('slide-', '');
-        console.log(`🎯 Progress bar update - slideIndex: ${slideIndex}, slideId: ${slideId}, fullSlideId: ${contentSlides[slideIndex - 1].id}`);
-        updateProgressBar(slideId);
-    } else {
-            console.log(`❌ Slide ${slideIndex} not found or out of range!`);
-        }
-    }
-    
-    setTimeout(() => {
-        isTransitioning = false;
-        console.log(`🔄 Transition complete`);
-    }, 300);
-}
+
 
 function updateArrowNavigation() {
     const prevArrow = document.getElementById('prev-arrow');
@@ -3500,9 +3522,7 @@ function handleBreedCheck(checkbox) {
     
     // Show question after all breeds are checked
     if (checkedBreeds === totalBreeds) {
-        setTimeout(() => {
-            showAccuracyQuestion();
-        }, 500);
+        showAccuracyQuestion();
     }
 }
 
@@ -3576,10 +3596,8 @@ function handleAccuracyChoice(choice) {
     // Store the choice for the next slide
     window.breedAccuracyChoice = choice;
     
-    // Navigate to the next slide (breed feedback slide)
-    setTimeout(() => {
-        showSlide(currentSlide + 1);
-    }, 500);
+    // Navigate to the next slide immediately
+    showSlide(currentSlide + 1);
 }
 
 function flipBreedCard() {
@@ -4283,5 +4301,111 @@ function highlightFunFactNumbers() {
 document.addEventListener('DOMContentLoaded', function() {
     highlightFunFactNumbers();
 });
+
+// Number Counter Animation Function
+function animateCounter(element, target, duration = 2000, prefix = '', decimals = 0) {
+    const start = 0;
+    const increment = target / (duration / 16); // 60fps
+    let current = start;
+    
+    const timer = setInterval(() => {
+        current += increment;
+        if (current >= target) {
+            current = target;
+            clearInterval(timer);
+        }
+        
+        let displayValue;
+        if (decimals > 0) {
+            displayValue = current.toFixed(decimals);
+        } else {
+            displayValue = Math.floor(current);
+        }
+        
+        element.textContent = prefix + displayValue;
+    }, 16);
+}
+
+// Animate counters when stats slide becomes visible
+function animateStatsCounters() {
+    // Animate months counter
+    const monthsCounter = document.getElementById('months-counter');
+    if (monthsCounter) {
+        const target = parseInt(monthsCounter.getAttribute('data-target'));
+        animateCounter(monthsCounter, target, 2000, '', 0);
+    }
+    
+    // Animate savings counter
+    const savingsCounter = document.getElementById('savings-counter');
+    if (savingsCounter) {
+        const target = parseFloat(savingsCounter.getAttribute('data-target'));
+        const prefix = savingsCounter.getAttribute('data-prefix') || '';
+        const decimals = parseInt(savingsCounter.getAttribute('data-decimals')) || 2;
+        animateCounter(savingsCounter, target, 2000, prefix, decimals);
+    }
+}
+
+// Trigger animation when slide 6 (stats slide) becomes active
+function showSlide(slideIndex) {
+    console.log(`🎯 showSlide(${slideIndex}) called, currentSlide=${currentSlide}`);
+    
+    if (slideIndex === currentSlide) {
+        console.log(`⏸️ Skipping slide change - same slide: ${slideIndex === currentSlide}`);
+        return;
+    }
+    
+    // Hide all slides
+    const allSlides = Array.from(document.querySelectorAll('.slide'));
+    console.log(`📋 Found ${allSlides.length} slides total`);
+    allSlides.forEach((slide, index) => {
+        slide.classList.remove('active');
+        console.log(`👁️ Slide ${index} (${slide.id}): removed active class`);
+    });
+    
+    // Handle loading slide (slideIndex = 0)
+    if (slideIndex === 0) {
+        const loadingSlide = allSlides.find(slide => slide.id === 'slide-0' || slide.classList.contains('loading-slide'));
+        if (loadingSlide) {
+            loadingSlide.classList.add('active');
+            currentSlide = 0;
+            console.log(`✅ Activated loading slide`);
+        }
+    } else {
+        // Get only content slides (excluding loading slide)
+        const contentSlides = allSlides.filter(slide => slide.id !== 'slide-0' && !slide.classList.contains('loading-slide') && slide.style.display !== 'none');
+        console.log(`📋 Found ${contentSlides.length} content slides`);
+        
+        // Show target content slide
+        if (slideIndex <= contentSlides.length && slideIndex > 0) {
+            contentSlides[slideIndex - 1].classList.add('active');
+            currentSlide = slideIndex;
+            console.log(`✅ Activated slide ${slideIndex} (${contentSlides[slideIndex - 1].id})`);
+            
+            // Animate counters when stats slide is shown
+            if (slideIndex === 6) {
+                setTimeout(() => {
+                    animateStatsCounters();
+                }, 800); // Delay to let slide animation complete
+            }
+        
+            // Reset breed prediction state when navigating to breed slide
+            if (contentSlides[slideIndex - 1].id === 'slide-5') { // Breed prediction slide
+                resetBreedPredictionState();
+            }
+        
+            // Update arrow navigation states
+            updateArrowNavigation();
+            
+            // Update progress bar with actual slide ID
+            const slideId = contentSlides[slideIndex - 1].id.replace('slide-', '');
+            console.log(`🎯 Progress bar update - slideIndex: ${slideIndex}, slideId: ${slideId}, fullSlideId: ${contentSlides[slideIndex - 1].id}`);
+            updateProgressBar(slideId);
+        } else {
+            console.log(`❌ Slide ${slideIndex} not found or out of range!`);
+        }
+    }
+    
+    console.log(`🔄 Transition complete`);
+}
 </script>
 {% endblock %} 

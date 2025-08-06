@@ -1095,30 +1095,19 @@ body {
     width: 100%;
     height: 100% !important;
     max-height: 100% !important;
-    padding: 60px 25px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
     text-align: center;
     position: relative;
-    overflow: hidden;
     box-sizing: border-box;
     max-width: 100%;
 }
 
-/* Allow specific slides to scroll when needed */
-.slide-content.letter-slide {
-    overflow-y: auto !important;
-}
 
-.slide-content.unknowns-slide {
-    overflow-y: auto !important;
-}
 
-.slide-content.stats-slide {
-    overflow-y: auto !important;
-}
+
 
 /* Welcome Slide */
 .welcome-slide {
@@ -1683,13 +1672,13 @@ body {
     margin: 0;
     font-size: 18px;
     font-weight: 600;
-    color: #ffffff !important;
-    font-family: 'Nunito', 'Poppins', sans-serif;
+    color: #ffffff;
+    font-family: 'Nunito', 'Poppins', 'Inter', sans-serif;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
     letter-spacing: 0.5px;
-    display: block !important;
-    visibility: visible !important;
-    opacity: 1 !important;
+    display: block;
+    visibility: visible;
+    opacity: 1;
     position: relative;
     z-index: 10;
 }
@@ -1888,7 +1877,7 @@ body {
     font-family: 'Nunito', 'Poppins', 'Inter', sans-serif;
     font-size: 28px;
     font-weight: 700;
-    color: #ffffff !important;
+    color: #ffffff;
     text-align: center;
     position: relative;
     margin-bottom: 15px;
@@ -1899,36 +1888,35 @@ body {
     filter: none;
 }
 
-/* Force white color for all slide titles */
-.slide-title,
+/* Clean slide title styles - inherits from main rule */
 .slide-title *,
 .slide-title span:not(.emoji),
 .slide-title h2,
 .slide-title h3,
 .slide-title p {
-    color: #ffffff !important;
-    text-shadow: none !important;
-    filter: none !important;
-    box-shadow: none !important;
-    -webkit-text-shadow: none !important;
-    -moz-text-shadow: none !important;
+    color: #ffffff;
+    text-shadow: none;
+    filter: none;
+    box-shadow: none;
+    -webkit-text-shadow: none;
+    -moz-text-shadow: none;
 }
 
 /* Emoji colors for slide titles */
 .slide-title .emoji {
     display: inline-block;
     animation: emojiBounce 2s ease-in-out infinite;
-    color: #ffffff !important;
-    text-shadow: none !important;
-    filter: none !important;
-    box-shadow: none !important;
-    -webkit-text-shadow: none !important;
-    -moz-text-shadow: none !important;
-    background: none !important;
-    background-image: none !important;
-    -webkit-background-clip: initial !important;
-    background-clip: initial !important;
-    -webkit-text-fill-color: white !important;
+    color: #ffffff;
+    text-shadow: none;
+    filter: none;
+    box-shadow: none;
+    -webkit-text-shadow: none;
+    -moz-text-shadow: none;
+    background: none;
+    background-image: none;
+    -webkit-background-clip: initial;
+    background-clip: initial;
+    -webkit-text-fill-color: white;
 }
 
 /* Specific emoji colors - all white */
@@ -2059,13 +2047,15 @@ body {
     z-index: -1;
 }
 
-/* Badge Slide */
+/* Badge Slide - Consolidated dimensions */
 .badge-slide {
     background: linear-gradient(135deg, #E8F4F8 0%, #D1E7F0 25%, #B8D4E6 50%, #A0C4D8 75%, #8BB4CA 100%);
-    overflow: hidden !important;
-    height: 100% !important;
-    max-height: 100% !important;
-    align-items: flex-start;
+    min-height: 100vh;
+    overflow: hidden;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: flex-start;
 }
 
@@ -2535,19 +2525,10 @@ body {
 
 /* Household Personality Badge Styles */
 .household-personality-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100% !important;
-    max-height: 100% !important;
-    padding: 10px;
-    text-align: center;
-    gap: 15px;
     width: 100%;
     max-width: 100%;
     box-sizing: border-box;
-    overflow: hidden !important;
+    text-align: center;
 }
 
 .household-title {
@@ -3138,18 +3119,10 @@ body {
         font-size: 11px;
     }
     
+    /* Mobile slide title styles - inherits from main rule */
     .slide-title {
         font-size: 24px;
         margin-bottom: 10px;
-        color: #ffffff !important;
-        text-shadow: none;
-        filter: none;
-    }
-    
-    .slide-title .emoji {
-        font-size: 22px;
-        color: #ffffff !important;
-        text-shadow: none;
     }
     
     .letter-container {
@@ -4077,40 +4050,29 @@ body {
     display: flex !important;
     flex-direction: column !important;
     align-items: center !important;
+    /* Removed smooth scroll to prevent unwanted navigation */
+    overflow-y: auto !important;
 }
 
-.stats-slide .slide-header {
-    display: block !important;
-    visibility: visible !important;
-    opacity: 1 !important;
-    position: relative !important;
-    z-index: 10 !important;
-    margin-top: 0 !important;
-    padding-top: 0 !important;
-    margin-bottom: 20px !important;
-    flex-shrink: 0 !important;
+/* Hide scrollbar when not actively scrolling */
+.stats-slide .slide-content::-webkit-scrollbar {
+    width: 6px;
 }
 
-.stats-slide .slide-title {
-    display: block !important;
-    visibility: visible !important;
-    opacity: 1 !important;
-    color: #3C3C3C !important;
-    text-shadow: none !important;
-    filter: none !important;
+.stats-slide .slide-content::-webkit-scrollbar-track {
+    background: transparent;
 }
 
-.stats-slide .slide-title {
-    color: #3C3C3C !important;
-    text-shadow: none !important;
-    filter: none !important;
-    font-family: 'Poppins', sans-serif !important;
-    font-weight: 600 !important;
+.stats-slide .slide-content::-webkit-scrollbar-thumb {
+    background: rgba(135, 206, 235, 0.3);
+    border-radius: 3px;
 }
 
-.stats-slide .slide-title .emoji {
-    color: #4A1A1A !important;
+.stats-slide .slide-content::-webkit-scrollbar-thumb:hover {
+    background: rgba(135, 206, 235, 0.5);
 }
+
+/* Removed redundant stats-slide positioning rules to allow inline styles to work properly */
 
 
 
@@ -4271,51 +4233,4 @@ body {
 
  
 
-/* Global slide title overrides to ensure white color */
-.slide-title {
-    color: #ffffff !important;
-    text-shadow: none !important;
-    filter: none !important;
-    font-family: 'Nunito', 'Poppins', sans-serif !important;
-    font-weight: 600 !important;
-}
-
-.slide-title .emoji {
-    color: #ffffff !important;
-}
-
-/* More specific overrides for all slide types */
-.slide-title,
-.slide-title *,
-.slide-title .emoji,
-.slide-title .celebration {
-    color: #ffffff !important;
-    text-shadow: none !important;
-    filter: none !important;
-}
-
-/* Force white color for all slide titles */
-h2.slide-title,
-.slide-header .slide-title,
-.slide-content .slide-title {
-    color: #ffffff !important;
-    text-shadow: none !important;
-    filter: none !important;
-}
-
-/* Most aggressive override for slide titles */
-.slide-title,
-.slide-title *,
-.slide-title .emoji,
-.slide-title .celebration,
-h2.slide-title,
-.slide-header h2.slide-title,
-.slide-content h2.slide-title,
-.stats-slide .slide-title,
-.share-slide .slide-title {
-    color: #ffffff !important;
-    text-shadow: none !important;
-    filter: none !important;
-    font-family: 'Nunito', 'Poppins', sans-serif !important;
-    font-weight: 600 !important;
-} 
+ 
