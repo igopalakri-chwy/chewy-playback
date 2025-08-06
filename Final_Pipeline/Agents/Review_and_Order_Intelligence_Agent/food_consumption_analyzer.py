@@ -167,7 +167,7 @@ def get_food_fun_fact(zip_code: str, total_lbs: float) -> str:
             2: ("barbecue smokers", 8),
             3: ("fishing boats", 25),
             4: ("cotton bales", 50),
-            5: ("space rockets", 500)
+            5: ("Two Alabama Linebackers", 500)
         },
         'AK': {  # Alaska
             1: ("snowflakes", 0.001),
